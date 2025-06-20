@@ -1,0 +1,77 @@
+{title: House is a Rockin'}
+{artist: Stevie Ray Vaughan}
+{key: C}
+{tempo: 172}
+{duration: 2:05}
+
+{c: CountIn=8}
+{c: Performance Key = B}
+
+{c: Intro}
+| C7 . . . | C7 . . . |
+| C7 . . . | C7 . . . |
+
+
+{c: Add Piano}
+| C7 . . . | C7 . . . |
+| C7 . . . | C7 . . . |
+
+
+{start_of_chorus}
+The [C7]house is a rockin don't bother knockin
+Yeah the [C7]house is a rockin don't bother knockin
+Yeah the [G7]house is a rockin don't bother come on [C7]in
+{end_of_chorus}
+
+{c: SCOTT VOCAL}
+{start_of_verse}
+[C7]Kick off your shoes start a-los-ing the blues
+[C7]This old house ain't got nothing to lose
+Seen it [F7]all for years  start spreading the [C7]news_[C7]
+We got [G7]room on the floor come on baby shake somethin' [C7]loose
+{end_of_verse}  
+
+{start_of_chorus}
+Well the [C7]house is a rockin don't bother knockin
+Yeah the [C7]house is a rockin don't bother knockin
+Yeah the [G7]house is a rockin don't bother come on [C7]in
+{end_of_chorus}
+
+{comment: Piano solo}
+| C7 <pickup> |
+| C7 . . . | C7 . . . | C7 . . . | C7 . . . |
+| F7 . . . | F7 . . . | C7 . . . | C7 . . . |
+| G7 . . .| G7 . . .| C7 . . . | C7 . . . |
+
+{comment: Guitar solo}
+| C7 .  .  .  | C7 . . . | C7 . . . | C7 . . . |
+| F7 .  .  .  | F7 . . . | C7 . . . | C7 . . . |
+| G7 .  .  .  | G7 . . . | C7 . . . | C7 . . . |
+
+| C7 .  .  .  | C7 . . . | C7 . . . | C7 . . . |
+
+{c: Return to standard blues riff}
+| C7 .  .  .  | C7 . . . | 
+
+{start_of_chorus}
+Well the [C7]house is a rockin don't bother knockin
+Yeah the [C7]house is a rockin don't bother knockin
+Yeah the [G7]house is a rockin don't bother come on [C7]
+{end_of_chorus}
+
+{c: JEFF VOCAL}
+{start_of_verse}
+Walk[C7]in up the street you can hear the sound
+Of some [C7]bad honky tonkers really laying it down
+They've seen [F7]it all for years they got nothin to lose[C7]
+So get [G7]out on the floor   shimmy 'til you shake somethin' loos[C7]e
+{end_of_verse}
+
+{start_of_chorus}
+Well the [C7]house is a rockin don't bother knockin
+Yeah the [C7]house is a rockin don't bother knockin
+Well the [G7]house is a rockin don't bother come on [C7]in
+{end_of_chorus}
+
+{comment: Outro}
+I said the [G7]House is rockin' don't bother come on [C7]in[C#9][C9]

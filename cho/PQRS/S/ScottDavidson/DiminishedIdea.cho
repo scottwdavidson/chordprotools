@@ -1,0 +1,31 @@
+{title: Diminished Idea}
+{artist: Scott Davidson}
+{key: Bb}
+{duration: 3:00}
+{tempo: 86}
+
+{comment: Intro}
+
+{start_of_verse}
+[Bbmaj7]. . . . [C67]. . [C7]. .
+[Fmaj7] . . . . [Bbmaj7]. . . . 
+[Bbmaj7]. . . . [C67]. . [C7]. .
+[Dm]. . . .  [Gdim79]. . . . 
+[Gm]. . . . [Bb/C]. . [C7]. .
+[Amsus4]. . [A7]. . [Dm9]. . [Dm]. .
+[Gm]. . . . [Bb/C]. . [C7]. .
+[Fsus4]. . . . [F]. . . .
+{end_of_verse}
+
+{start_of_chorus}
+[Bbmaj7]. . . . [Am]. . . .  
+[Gm7]. . . . [Fmaj7]. . . .  
+[Bbmaj7]. . . . [Am]. . . .
+[Gdim79]. . . . [C7]. . . .
+
+{c: octave higher}
+[Bbmaj7]. . . . [Am]. . . .  
+[Gm7]. . . . [Fmaj7]. . . .  
+[Bbmaj7]. . . . [Am]. . . .
+[Gdim79]. . . . [C7]. . . .
+{end_of_chorus}

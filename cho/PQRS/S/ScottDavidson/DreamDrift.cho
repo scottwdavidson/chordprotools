@@ -1,0 +1,35 @@
+{title: Dream Drift}
+{artist: Scott Davidson}
+{key: F}
+{duration: 3:00}
+{tempo: 86}
+
+{comment: Intro}
+
+{start_of_verse}
+[F2]. . [Fmaj7]. .  [Bbmaj7]. . . .
+[F2]. . [Fmaj7]. .  [Bbmaj7]. . [Bbm6]. [Bb2].
+[Gm]. . . .  [C67]. .  [C7]. . 
+[Gm]. . . .  [C67]. .  [C69]. [C6b9]. 
+{end_of_verse}
+
+{start_of_chorus}
+[Fmaj7]. . . .  [Bbmaj7]. . . .
+[Fmaj7]. . . .  [Bbmaj7]. . . .
+[Fmaj7]. . . .  [Bbmaj7]. . . .
+[F/A]. . . .  [G#dim7]. . . . 
+[Bb6/C]. . [Bb/C]. . [C]. . . .
+{end_of_chorus}
+
+{c: bridge}
+[F2maj7]. . . . [Bbmaj7]. . . . 
+[F2maj7]. . . . [Bbmaj7]. . . . 
+[F2maj7]. . . . [Bbmaj7]. . . . 
+[Gm]. .  [Bb/C]. [C]. [F]. . . . 
+
+{c: outro}
+[F2maj7]. . . . [Bbmaj7]. . . . 
+[F2maj7]. . . . [Bbmaj7]. . . . 
+[F2maj7]. . . . [Bbmaj7]. . . . 
+[Gm]. .  [Bb/C]. [C]. [Gm]. .  [Bb/C]. [C]. 
+[Gm]. .  [Bb/C]. [C]. [F]. . . . 

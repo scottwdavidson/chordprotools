@@ -1,0 +1,60 @@
+{title: Sweet Caroline}
+{artist: Neil Diamond}
+{tempo: 63}
+{duration: 3:24}
+
+
+
+{comment: Piano Intro}
+| E ... | E ... | E ... | E ... |
+
+{start_of_verse}
+[A]Where it began [D]I can't begin to knowin'
+[A]But then I know it's growin' [E]strong
+[A]Was in the spring, [D]then spring became a summer
+[A]Who'd have believed you'd come a[E7]long
+{end_of_verse}
+
+{comment: Pre-Chorus}
+[A]Hands, [A6]touching hands
+[E]Reaching out,[D] touching me, touching [E]you
+
+
+{start_of_chorus}
+[A]Sweet Caro[D]line,[(D]   [C#]   [F#)]    [D]good times never seemed so [E]good
+[A]I'd be inc[D]lined[(D]   [C#]   [F#)]    [D]to believe they never [E]would
+[D]But [C#m]now  [Bm]I'm
+{end_of_chorus}
+
+
+{start_of_verse}
+[A]Look at the night  [D]and it don't seem so lonely
+[A]We fill it up with only [E]two
+[A]And when I hurt,  [D]hurting runs off my shoulder
+[A]How can I hurt when holdin' [E]you
+{end_of_verse}
+
+
+{comment: Pre-Chorus}
+[A]Warm, [A6]touching warm
+[E]Reaching out,[D] touching me, touching [E]you
+
+
+{start_of_chorus}
+[A]Sweet Caro[D]line,[(D]   [C#]   [F#)]    [D]good times never seemed so [E]good
+[A]I'd be inc[D]lined[(D]   [C#]   [F#)]    [D]to believe they never [E]would
+[D]Oh  [C#m]no   [Bm]no
+{end_of_chorus}
+
+
+{comment: Piano Instrumental}
+| E ... | E ... | E ... | E ... |
+
+
+{start_of_chorus}
+[A]Sweet Caro[D]line,[(D]   [C#]   [F#)]    [D]good times never seemed so [E]good
+[A]Sweet Caro[D]line,[(D]   [C#]   [F#)]    [D]I believe they never [E]could
+[A]Sweet Caro[D]line,[(D]   [C#]   [F#)]    [D]good times never seemed so [E]good
+{end_of_chorus}
+
+{c: (fade out)}

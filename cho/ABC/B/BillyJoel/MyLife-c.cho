@@ -1,0 +1,91 @@
+
+{title: My Life}
+{artist: Billy Joel}
+{key: C}
+{duration: 3:40}
+{tempo: 131}
+{meta: nord: P32}
+{meta: countin: 8}
+{meta: backing: 14}
+
+{c:Intro}
+| C . . . | C . . .  | C . . . | 
+| F . C F/C . F6/C C | C . . . |
+| F . C F/C . F6/C C | C . . . |
+| F . C F/C . F6/C C | C Am/C Gm/C . . Bb9 |
+| Bb9 . . .| DbM7/Eb  , DbM7/Eb DbM7/Eb | Ab . . . |
+| C Am/C Gm/C . . Bb9 | DbM7/Eb . DbM7/Eb DbM7/Eb | Ab . . . |
+
+
+{start_of_verse}
+[C]Got a call from an [C/E]old friend
+We used to be r[F]eal close
+[G]Said he couldn't go on the American [C]way_[F][C][F/C][F6/C][C]
+[C]Closed the shop, sold the h[C/E]ouse
+Bought a ticket to the W[F]est Coast_[F][F]
+[G]Now he gives them a stand-up routine in L[C].A.
+{end_of_verse}
+
+{c: Interlude}
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+
+{start_of_chorus}
+[C]I don't need you to [C/E]worry for me cause I'm [F]alright_[F]
+[G]   I don't want you to tell me it's time to come [C]home_[F][C][F/C][F6/C][C]
+[C]I don't care what you s[C/E]ay anymore, this is [F]my life_[F][C/E][Dm][C]
+[G]   Go ahead with your own life, and leave me a[Am]lone
+{end_of_chorus}
+
+{c: Bridge}
+[Am]I never said you had to offer me a s[E7/G#]econd chance_[E7/G#]
+[C]  I never said I was a victim of c[D9]ircumstance_[D7][E][F]
+[F]  I still be[C/E]long,  [E]   don't get me [Am]wrong
+[D9]And you can speak your mind
+But [F/G]not  [G]on  [F/G]my   [G]time
+
+{start_of_verse}
+[C]They will tell you you [C/E]can't sleep
+Alone in a str[F]ange place
+[G]Then they'll tell you you can't sleep with somebody [C]else_[C][F/C][F6/C][C]
+[C]But sooner or later you slee[C/E]p
+In your [F]own space_[F][C/E][Dm][C]
+[G]Either way it's okay to wake up with your[C]self
+{end_of_verse}
+
+{c: Interlude}
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+
+{start_of_chorus}
+[C]I don't need you to [C/E]worry for me cause I'm [F]alright_[F]
+[G]   I don't want you to tell me it's time to come [C]home_[F]
+[C]I don't care what you s[C/E]ay anymore, this is [F]my life_[F][C/E][Dm][C]
+[G]   Go ahead with your own life, and leave me a[Am]lone
+{end_of_chorus}
+
+{c: Bridge}
+[Am]I never said you had to offer me a s[E7/G#]econd chance_[E7/G#]
+[C]  I never said I was a victim of c[D9]ircumstance_[D7][E][F]
+[F]  I still be[C/E]long,  [E]   don't get me [Am]wrong
+[D9]And you can speak your mind
+But [F/G]not  [G]on  [F/G]my   [G]time
+
+{comment: Solo}
+| C    | C/E  | F    | F    |
+| G    | G    | C    | C F/C F6/C C |
+
+
+{start_of_chorus}
+[C]I don't care what you s[C/E]ay anymore, this is [F]my life_[F][C/E][Dm][C]
+[G]   Go ahead with your own life, and leave me a[C]lone
+{end_of_chorus}
+
+{comment: Outro}
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+
+| C Am/C Gm/C ... |

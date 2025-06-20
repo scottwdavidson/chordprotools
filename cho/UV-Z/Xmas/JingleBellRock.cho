@@ -1,0 +1,78 @@
+{title: Jingle Bell Rock}
+{artist: Bobby Helms}
+{key: C}
+{tempo: 118}
+{duration: 1:45}
+
+{c: CountIn = 4}
+
+
+
+{c: Chords For Guitar Intro}
+| C . Cmaj7 . | C . C6 . | C . . . | . walk down |
+
+
+{sov}
+[C]Jingle bell, [Cmaj7]jingle bell, [C6]jingle bell [C]rock,
+[C6]Jingle bell [C#dim7]swing and [Dm7]jingle bells [G7]ring.
+
+[Dm7]Snowin' and [G7]blowin' up [Dm7]bushels of [G7]fun,
+[Dm7]Now the jingle-hop [G7]has [G7#5]begun.
+{eov}
+
+{sov}
+[C]Jingle bell, [Cmaj7]jingle bell, [C6]jingle bell [C]rock,
+[C6]Jingle bells [C#dim7]chime in and [Dm7]jingle bell [G7]time.
+
+[Dm7]Dancin' and [G7]prancin' in [Dm7]Jingle Bell [G7]Square
+[Dm7] in the [G7]frosty [C]air.
+{eov}
+
+
+{c: Bridge I}
+{sob}
+[F] What a bright time, it's the [F#dim7]right time to [C]rock the night away.
+Jingle [D7]bell time is a swell time
+[G7] to go glidin' in a one-horse sleigh.
+{eob}
+
+
+{sov}
+[C]Giddy-up [Cmaj7]jingle horse [C6]pick up your [C]feet,
+[C6]jingle a[C]round the [A7]clock.
+
+[F]Mix and mingle in a [Fm]jingle-in' feet,
+[G9]That's the jingle bell [C]rock.
+{eov}
+
+
+{c: Choir Section}
+{sov}
+[C]Jingle bell, [Cmaj7]jingle bell, [C6]jingle bell [C]rock,
+[C6]Jingle bells [C#dim7]chime in and [Dm7]jingle bell [G7]time.
+
+[Dm7]Dancin' and [G7]prancin' in [Dm7]Jingle Bell [G7]Square
+[Dm7] in the [G7]frosty [C]air.
+{eov}
+
+
+{c: Bridge II}
+{sob}
+[F] What a bright time, it's the [F#dim7]right time to [C]rock the night away.
+Jingle [D7]bell time is a swell time
+[G7] to go glidin' in a one-horse sleigh.
+{eob}
+
+
+{c: Outro}
+{sov}
+[C]Giddy-up [Cmaj7]jingle horse [C6]pick up your [C]feet,
+[C6]jingle a[C]round the [A7]clock.
+
+[F]Mix and mingle in a [Fm]jingle-in' feet,
+[G9]That's the jingle bell,
+[G9]That's the jingle bell,
+[G9]That's the jingle bell [C]rock
+
+[C6add9]
+{eov}

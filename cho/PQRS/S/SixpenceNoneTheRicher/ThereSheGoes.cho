@@ -1,0 +1,76 @@
+{title: There She Goes}
+{artist: Sixpence None The Richer}
+{key: G}
+{tempo: 123}
+{duration: 2:42}
+{c: Performance Key = Bb}
+
+{c: nord=P24}
+
+{c: Backing Track = 31}
+{c: CountIn = 4}
+
+{c: Guitar: acoustic guitar; capo 3rd fret}
+{c: opening riff starts with an eighth note pickup (D)}
+
+{c: Piano Intro}
+| G  D  | Cadd9  D/F# | 
+
+| G  D  | Cadd9  D/F# |
+
+{c: Guitar Joins Intro}
+| G  D  | Cadd9  D/F# | 
+
+| G  D  | Cadd9  D/F# |
+
+{start_of_verse}
+[G]There [D]she go[Cadd9]es [D/F#]
+[G]There she go[D]es ag[Cadd9]ain [D/F#]
+[G]Racing [D]through my [Cadd9]brain [G/B]
+And [Am]I just [G]can't con[C]tain
+This [Am]feeling [G]that re[C]mains [D7]
+{end_of_verse}
+
+{start_of_verse}
+[G]There [D]she go[Cadd9]es [D/F#]
+[G]There she go[D]es ag[Cadd9]ain [D/F#]
+[G]Pulsing [D]through my [C]veins [G/B]
+And [Am]I just [G]can't con[C]tain
+This [Am]feeling [G]that re[C]mains [D7]
+{end_of_verse}
+
+{c: Interlude}
+| G  D  | Cadd9  D/F# | G  D  | Cadd9  D/F# |
+| G  D  | Cadd9  G/B | Am  G  | C  | C  D7 |
+
+
+{start_of_verse}
+[G]There [D]she go[Cadd9]es [D/F#] (There she goes again)
+[G]There she go[D]es ag[Cadd9]ain [D/F#] (There she goes again)
+[G]Racing [D]through my [Cadd9]brain [G/B] (There she goes)
+And [Am]I just [G]can't con[C]tain
+This [Am]feeling [G]that re[C]mains [D7]
+{eov}
+
+{start_of_chorus}
+[Em7]There she go[C]es
+[Em7]There she goes ag[C]ain
+She [D]calls [D7]my [G]name,
+[D]Holds [D7]my [Cmaj7]brain
+[D]No [D7]one [G]else could [D]heal [D7]my [Cmaj7]pain
+And [Am]I just can't con[Em]tain
+This [C]feeling that re[D7]mains
+{end_of_chorus}
+
+{start_of_verse}
+[G]There [D]she go[Cadd9]es [D/F#] (She calls my name)
+[G]There she go[D]es ag[Cadd9]ain [D/F#] (She calls my name)
+[G]Chasing [D]down my [Cadd9]lane [G/B] (She calls my name)
+And [Am]I just [G]can't con[C]tain
+This [Am]feeling [G]that re[C]mains [D7]
+{end_of_verse}
+
+{c: Outro}
+[G]There [D]she go[Cadd9]es [D/F#] (There she goes again)
+[G]There [D]she go[Cadd9]es [D/F#] (There she goes again)
+[G]There [D]she [C]goes ...[D/F#] [G]

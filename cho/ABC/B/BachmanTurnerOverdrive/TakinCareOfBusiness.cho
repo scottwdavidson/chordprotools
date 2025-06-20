@@ -1,0 +1,240 @@
+{title: Takin' Care of Business}
+{artist: Bachman Turner Overdrive (BTO)}
+{key: C}
+{tempo: 130}
+{duration: 4:50}
+{c: nord=N41}
+{columns: 2}
+
+
+
+{c:Intro; DR Intro:Part1(8)}
+{start_of_grid 4x4+1}
+
+
+
+
+
+
+
+|| C . | Bb . | F . | C . |
+
+
+
+
+|| C . | Bb . | F . | C . ||
+
+
+
+
+
+{end_of_grid}
+
+{c: DR Part2(8)}
+{start_of_grid 4x4+1}
+
+
+|| C . | Bb . | F . | C . |
+
+
+
+
+|| C . | Bb . | F . | C . ||
+
+
+
+
+
+{end_of_grid}
+
+{sov}
+You [C]get up every morning
+From your [Bb]'larm clock's warning
+Take the [F]8:15 into the [C]city
+There's a [C]whistle up above
+And people [Bb]pushin', people shovin'
+And the [F]girls who try to look [C]pretty
+And if your [C]train's on time
+You can [Bb]get to work by nine
+And start your [F]slaving job to get your [C]pay
+If you [C]ever get annoyed
+Look at [Bb]me, I'm self-employed
+I [F]love to work at nothin' all [C]day
+{eov}
+
+{c:DR Part 3}
+{soc}
+And I'll be [C]Takin' care of business[Bb] (every day)
+[F]Takin' care of business[C] (every way)
+I've been [C]takin' care of business[Bb] (it's all mine)
+[F]Takin' care of business and [C] (workin' overtime)
+Work out
+{eoc}
+
+{c:DR Part 4}
+{c:Guitar Solo 1}
+{start_of_grid 4x4+1}
+
+|| C . | Bb . | F . | C . |
+
+
+
+| C . | Bb . | F . | C . ||
+
+{end_of_grid}
+
+{c:DR Part 5}
+{sov}
+If it were [C]easy as fishin'
+You could [Bb]be a musician
+If [F]you could make sounds loud or [C]mellow
+Get a [C]second-hand guitar
+Chances [Bb]are you'll go far
+If you [F]get in with the right bunch of [C]fellows
+People [C]see you having fun
+Just a-[Bb]lying in the sun
+[F]Tell them that you like it this [C]way
+It's the [C]work that we avoid
+And we're [Bb]all self-employed
+We [F]love to work at nothin' all [C]day
+{eov}
+
+{c:DR Part 6}
+{soc}
+And we be [C]Takin' care of business[Bb] (every day)
+[F]Takin' care of business[C] (every way)
+We be [C]takin' care of business[Bb] (it's all mine)
+[F]Takin' care of business and [C] (workin' overtime)
+{eoc}
+
+{c:Guitar Solo 2}
+{c:DR Part 7}
+{start_of_grid 4x4}
+
+
+|| C . | Bb . | F . | C . |
+
+
+
+|  C . | Bb . | F . | C . ||
+
+
+{end_of_grid}
+
+
+{c:Interlude}
+{soc}
+[NC] [NC] Whoooo!
+[NC] alright [NC]
+{eoc}
+
+{c:Power chords: 2 -> 3 beats pattern}
+{soc}
+
+[C] [F] [Eb] [Bb]
+
+[C] [F] [Eb] [Bb] Take good care
+
+[C] [F] of my business [Eb] [Bb] When I'm away
+
+[C] [F] everyday [Eb] [Bb] Wooooo!
+
+{eoc}
+
+{c:Guitar Solo 3}
+{start_of_grid 4x4}
+
+||  C . | Bb . | F . | C . | 
+
+
+
+|   C . | Bb . | F . | C . ||
+
+{end_of_grid}
+ 
+{c:DR Part 8}
+{sov}
+You [C]get up every morning
+From your [Bb]'larm clock's warning
+Take the [F]8:15 into the [C]city
+There's a [C]whistle up above
+And people [Bb]pushin', people shovin'
+And the [F]girls who try to look [C]pretty
+And if your [C]train's on time
+You can [Bb]get to work by nine
+And start your [F]slaving job to get your [C]pay
+If you [C]ever get annoyed
+Look at [Bb]me, I'm self-employed
+I [F]love to work at nothin' all [C]day
+{eov}
+
+{c:DR Part 9}
+{soc}
+And I'll be [C]Takin' care of business[Bb] (every day)
+[F]Takin' care of business[C] (every way)
+I've been [C]takin' care of business[Bb] (it's all mine)
+[F]Takin' care of business and [C] (workin' overtime)
+{eoc}
+
+{c:DR Part 10}
+{start_of_grid 4x4}
+|| N.C. . | N.C. . | N.C. . | N.C. . | 
+{end_of_grid}
+
+{c:DR Part 11}
+{c:A Cappella}
+{soc}
+[NC] Takin' care of business [NC]
+
+[NC] Takin' care of business [NC]
+
+[NC] Takin' care of business [NC]
+
+[NC] Takin' care of business [NC]
+
+{eoc}
+
+{c:staccato chords}
+{soc}
+[C]Takin' care of business[Bb] (every day)
+[F]Takin' care of business[C] (every way)
+[C]Takin' care of business[Bb] (it's all mine)
+[F]Takin' care of business[C] (workin' overtime)
+{eoc}
+
+{c:DR Part 12}
+{c:standard pattern}
+{soc}
+And I'll be [C]Takin' care of business[Bb] (every day)
+[F]Takin' care of business[C] (every way)
+I've been [C]takin' care of business[Bb] (it's all mine)
+[F]Takin' care of business and [C] (workin' overtime)
+{eoc}
+
+{c:Piano Solo}
+{start_of_grid 4x4+1}
+
+||  C . | Bb . | F . | C . | 
+
+|   C . | Bb . | F . | C . |
+
+|   C . | Bb . | F . | C . |
+
+|   C . | Bb . | F . | C . ||
+
+{end_of_grid}
+
+{c:Outro}
+{soc}
+And I'll be [C]Takin' care of business[Bb] (every day)
+[F]Takin' care of business[C] (every way)
+I've been [C]takin' care of business[Bb] (it's all mine)
+[F]Takin' care of business and [C] (workin' overtime)
+{eoc}
+
+{c:with opening lick}
+{start_of_grid 4x4+1}
+||  C . | Bb . | F . | C . || x2 (finish on final C chord)
+{end_of_grid}
+
+
