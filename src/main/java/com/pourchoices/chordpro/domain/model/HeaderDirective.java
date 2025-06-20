@@ -21,15 +21,16 @@ public enum HeaderDirective {
     KEY(List.of("key"), 88),
     DURATION(List.of("duration"), 87),
     TEMPO(List.of("tempo"), 86),
-    TIME_SIGNATURE(List.of("time"), 85),
-    CAPO(List.of("capo","Capo"),  "0", false, false, 60),
+    TIME_SIGNATURE(List.of("time"), false,85),
+    CAPO(List.of("capo","Capo"),  "0", false, true, 60),
     NORD(List.of("nord", "Nord", "N"), "null", true, true, 50),
     VERSION(List.of("version"), "0.0", true, true, 44),
     COUTIN(List.of("countin", "Countin", "CountIn"), "24", false, true, 42),
     BACKING(List.of("backing", "Backing Track"), "99", false, true, 30),
     VE(List.of("ve", "VE"), "U99", false, true, 28),
     PERFORMANCE_KEY(List.of("performance", "performanceKey", "PerformanceKey", "Performance Key"), "Hm", false, true, 20),
-    UNPARSED_META(List.of("meta"),  "0", true, false,1 );
+    EPHEMERAL_COMMENT(List.of("**"), "null", false, false, 10),
+    UNPARSED_META(List.of("meta"),  "0", false, false,1 );
 
     private final List<String> prefixes;
     private final String nullValue;
@@ -48,7 +49,8 @@ public enum HeaderDirective {
     }
 
     HeaderDirective(List<String> prefixes, Integer cardinality) {
-        this(prefixes, "null", false, false, cardinality);
+
+        this(prefixes, "null", true, false, cardinality);
     }
 
     HeaderDirective(List<String> prefixes, boolean meta, Integer cardinality) {

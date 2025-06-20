@@ -19,10 +19,14 @@ public class ParsedHeader {
 
         // core header and metas
         for (ParsedHeaderLine parsedHeaderLine : headerLines) {
-            builder.append(parsedHeaderLine.toString()).append("\n");
+
+            // skip ephemeral comments, but add everything else
+            if (parsedHeaderLine.getHeaderDirective() != HeaderDirective.EPHEMERAL_COMMENT) {
+                builder.append(parsedHeaderLine.toString()).append("\n");
+            }
         }
 
-        // metas as presentation comments
+        // metas as ephemeral comments
         builder.append("\n");
         builder.append("{c:***********************************************}\n");
         for (ParsedHeaderLine parsedHeaderLine : headerLines) {

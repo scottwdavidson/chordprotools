@@ -1,4 +1,4 @@
 mvn spring-boot:run \
  -Dspring-boot.run.arguments=\
-"/Users/s0d01gr/Downloads/_chordprotools/cho/MNO/M/MarshallTuckerBand/CantYouSee-a.cho"
+"/Users/scottdavidson/PARA/_resources/cho/ABC/A/AlStewart/YearOfTheCat.cho"
 

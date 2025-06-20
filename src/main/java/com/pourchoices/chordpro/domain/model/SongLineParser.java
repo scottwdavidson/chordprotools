@@ -25,10 +25,9 @@ public class SongLineParser {
 
         HeaderDirective headerDirective = HeaderDirective.getByPrefix(genericParsedLine.getDirective());
         SongDirective songDirective = SongDirective.getByPrefix(genericParsedLine.getDirective());
-        if (null ==  headerDirective && null ==  songDirective) {
+        if (null == headerDirective && null == songDirective) {
             return null;
-        }
-        else if (headerDirective == HeaderDirective.UNPARSED_META) {
+        } else if (headerDirective == HeaderDirective.UNPARSED_META) {
 
             // need to extract the meta directive
             cleanedLine = removeInitialDirective(cleanedLine);
@@ -39,27 +38,32 @@ public class SongLineParser {
 
             headerDirective = HeaderDirective.getByPrefix(metaDirectivePrefix);
 
-            if (null ==  headerDirective) {
+            if (null == headerDirective) {
                 return null;
-            }
-            else {
+            } else {
                 return ParsedHeaderLine.builder()
                         .headerDirective(headerDirective)
                         .value(genericParsedLine.getValue().trim())
                         .build();
             }
-        }
-        else if (headerDirective != null) {
+        } else if (headerDirective != null) {
             return ParsedHeaderLine.builder()
                     .headerDirective(headerDirective)
                     .value(genericParsedLine.getValue())
                     .build();
-        }
-        else if (songDirective == SongDirective.SONG_COMMENT) {
-
-            // check to see if there's a legacy header directive being used
+        } else if (songDirective == SongDirective.SONG_COMMENT) {
+            
             // need to extract the comment song directive
             cleanedLine = removeInitialDirective(cleanedLine);
+
+            // check for ephemeral comment
+            if (cleanedLine.startsWith("**")) {
+                return ParsedHeaderLine.builder()
+                        .headerDirective(HeaderDirective.EPHEMERAL_COMMENT)
+                        .value(cleanedLine)
+                        .build();
+
+            }
 
             // extract a general parsed line for evaluation
             genericParsedLine = GenericParsedLine.from(cleanedLine).build();
@@ -67,18 +71,16 @@ public class SongLineParser {
 
             HeaderDirective possibleHeaderDirective = HeaderDirective.getByPrefix(commentDirectivePrefix);
 
-            if (null ==  possibleHeaderDirective) {
+            if (null == possibleHeaderDirective) {
                 return null;
-            }
-            else {
+            } else {
                 return ParsedHeaderLine.builder()
                         .headerDirective(possibleHeaderDirective)
                         .value(genericParsedLine.getValue().trim())
                         .build();
             }
 
-        }
-        else {
+        } else {
             // no match
             return null;
         }
@@ -116,28 +118,26 @@ public class SongLineParser {
         GenericParsedLine genericParsedLine = GenericParsedLine.from(cleanedLine).build();
 
         SongDirective songDirective = SongDirective.getByPrefix(genericParsedLine.getDirective());
-        if (null ==  songDirective) {
+        if (null == songDirective) {
             return null;
-        }
-        else if (!songDirective.isSingleLineDirective()) {
+        } else if (!songDirective.isSingleLineDirective()) {
 
             return ParsedSongPhrase.builder()
                     .songDirective(songDirective)
                     .build();
-        }
-        else {
+        } else {
 
-                return ParsedSongPhrase.builder()
-                        .songDirective(songDirective)
-                        .line(genericParsedLine.getValue())
-                        .build();
+            return ParsedSongPhrase.builder()
+                    .songDirective(songDirective)
+                    .line(genericParsedLine.getValue())
+                    .build();
         }
 
     }
 
     // ex: input "meta: nord: P45", returns "nord: P45"
     private String removeInitialDirective(String line) {
-        return line.substring(line.indexOf(":") +1).trim();
+        return line.substring(line.indexOf(":") + 1).trim();
     }
 
     @Value

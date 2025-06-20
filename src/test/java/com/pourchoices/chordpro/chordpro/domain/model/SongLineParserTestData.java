@@ -77,6 +77,15 @@ public interface SongLineParserTestData {
                     .line(DOCUMENT_COMMENT_COMMENT_01)
                     .build();
 
+    // Ephemeral Comment
+    public final static String EPHEMERAL_COMMENT_COMMENT_01 = "//** meta: nord: P45 ";
+    public final static String EPHEMERAL_COMMENT_01 = "{c:"+ EPHEMERAL_COMMENT_COMMENT_01 + "}";
+    public final static ParsedHeaderLine EPHEMERAL_COMMENT_EXPECTED_PARSED_PHRASE_01 =
+            ParsedHeaderLine.builder()
+                    .headerDirective(HeaderDirective.EPHEMERAL_COMMENT)
+                    .value(EPHEMERAL_COMMENT_COMMENT_01)
+                    .build();
+
     // Song Comment
     public final static String SONG_COMMENT_COMMENT_01 = "play 3 times";
     public final static String SONG_COMMENT_01 = "{comment:"+ SONG_COMMENT_COMMENT_01 + "}";

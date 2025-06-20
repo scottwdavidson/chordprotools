@@ -49,7 +49,7 @@ public class SongLineParserTest {
                 arguments(DURATION_01, DURATION_EXPECTED_PARSED_LINE_01),
                 arguments(TEMPO_01, TEMPO_EXPECTED_PARSED_LINE_01),
                 arguments(NORD_01, NORD_EXPECTED_PARSED_LINE_01),
-                arguments(VERSION_01, VERSION_EXPECTED_PARSED_LINE_01)        );
+                arguments(VERSION_01, VERSION_EXPECTED_PARSED_LINE_01) );
     }
 
     // Static method to provide test data
