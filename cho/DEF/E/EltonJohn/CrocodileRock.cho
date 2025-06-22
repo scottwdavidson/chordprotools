@@ -3,11 +3,13 @@
 {key: G}
 {duration: 3:10}
 {tempo: 151}
+{meta: nord: ???}
+{meta: performance: G}
 
-{c: nord=???}
-{c: Performance Key = G}
-
-
+{c:***********************************************}
+{c:** --> meta: nord: ???}
+{c:** --> meta: performance: G}
+{c:***********************************************}
 
 {c: Intro - Piano Only}
 [G/D]  [C/E]  [F#]

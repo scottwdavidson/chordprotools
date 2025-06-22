@@ -2,7 +2,12 @@
 {artist: Avril Lavigne}
 {key: C#m}
 {tempo: 78}
-{c: Performance Key: C#m}
+{meta: performance: C#m}
+
+{c:***********************************************}
+{c:** --> meta: performance: C#m}
+{c:***********************************************}
+
 {c: Duration: 3:25}
 {c: BB 4  beat countin}
 

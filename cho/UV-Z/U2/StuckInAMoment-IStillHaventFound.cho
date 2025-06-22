@@ -1,8 +1,13 @@
 {title: Stuck In A Moment / I Still Haven't Found}
 {artist: U2}
-{tempo: TBD}
 {key: E / C}
-{c: Nord = N51}
+{tempo: TBD}
+{meta: nord: N51}
+
+{c:***********************************************}
+{c:** --> meta: nord: N51}
+{c:***********************************************}
+
 {c: OnSong duration TBD }
 
 {c:-- Stuck In A Moment You Can't Get Out Of --}

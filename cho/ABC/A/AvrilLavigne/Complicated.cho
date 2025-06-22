@@ -2,7 +2,12 @@
 {artist: Avril Lavigne}
 {key: Dm}
 {tempo: 78}
-{comment: Performance Key: Dm}
+{meta: performance: Dm}
+
+{c:***********************************************}
+{c:** --> meta: performance: Dm}
+{c:***********************************************}
+
 {comment: Duration: 3:25}
 
 {comment: Intro}

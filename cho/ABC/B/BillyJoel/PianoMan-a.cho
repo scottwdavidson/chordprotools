@@ -1,12 +1,13 @@
 {title: Piano Man}
 {artist: Billy Joel}
-{duration: 4:40}
 {key: Gb}
+{duration: 4:40}
 {tempo: 178}
+{meta: performance: A}
 
-{comment: Performance Key = A}
-
-
+{c:***********************************************}
+{c:** --> meta: performance: A}
+{c:***********************************************}
 
 {comment: Intro}
 | A ..     | E/G# .. | D/F# .. | A/E .. |

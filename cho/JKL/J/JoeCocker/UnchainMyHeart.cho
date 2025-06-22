@@ -1,15 +1,17 @@
 {title: Unchain My Heart}
 {artist: Joe Cocker}
 {key: Am}
-{tempo: 118}
 {duration: 5:07}
+{tempo: 118}
+{meta: nord: O:24}
+{meta: countin: 0}
+{meta: backing: 18}
 
-{comment: nord = O:24}
-
-{comment: Backing Track = 18}
-{comment: CountIn = 0}
-
-
+{c:***********************************************}
+{c:** --> meta: nord: O:24}
+{c:** --> meta: countin: 0}
+{c:** --> meta: backing: 18}
+{c:***********************************************}
 
 {comment: Intro}
 [Am]unchain my heart, [Dm7]baby let me [Am]be

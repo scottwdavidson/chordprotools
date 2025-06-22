@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.domain.model;
 
 import com.pourchoices.chordpro.adapter.in.file.ChordProFileReader;
+import com.pourchoices.chordpro.adapter.in.file.SongListingFileReader;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,16 +14,34 @@ public class HeaderFixer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HeaderFixer.class);
     private final SongParser songParser;
+    private final SongListingFileReader songListingFileReader;
     private final ChordProFileReader chordProFileReader;
     private final ChordProFileWriter chordProFileWriter;
 
-    public HeaderFixer(SongParser songParser, ChordProFileReader chordProFileReader, ChordProFileWriter chordProFileWriter) {
+    public HeaderFixer(SongParser songParser,
+                       SongListingFileReader songListingFileReader,
+                       ChordProFileReader chordProFileReader,
+                       ChordProFileWriter chordProFileWriter) {
         this.songParser = songParser;
+        this.songListingFileReader = songListingFileReader;
         this.chordProFileReader = chordProFileReader;
         this.chordProFileWriter = chordProFileWriter;
     }
 
-    public void fix(String songFilename) {
+    public void fix(String songsFilename){
+
+        // read the song listing file
+        List<String> songsListing = this.songListingFileReader.read(songsFilename);
+
+        LOGGER.info("Songs Listing: {}", songsListing);
+
+        // iterate through the song listing and fix each song
+        for(String song : songsListing){
+            LOGGER.info("Fixing : {}", song);
+            fixSong(song);
+        }
+    }
+    public void fixSong(String songFilename) {
 
         // read the song file and parse it
         List<String> songAsStringLines = this.chordProFileReader.read(songFilename);

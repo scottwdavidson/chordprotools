@@ -1,13 +1,13 @@
 {title: Smooth}
 {artist: Santana}
 {key: Am}
-{tempo: 116}
 {duration: 4:00}
+{tempo: 116}
+{meta: nord: P25}
 
-{c: nord=P25}
-
-
-
+{c:***********************************************}
+{c:** --> meta: nord: P25}
+{c:***********************************************}
 
 {comment: Guitar Intro}
 

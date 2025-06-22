@@ -1,8 +1,11 @@
 {title: Landslide}
 {artist: Fleetwood Mac}
 {key: Eb}
+{meta: performance: Eb}
 
-{comment: Performance Key: Eb}
+{c:***********************************************}
+{c:** --> meta: performance: Eb}
+{c:***********************************************}
 
 {c:Intro}
 | [Eb]  | [Bb/D]  | [Cm7]  | [Bb/D]  |  x2

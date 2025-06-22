@@ -1,12 +1,15 @@
 {title: What's Your Name}
 {artist: Lynyrd Skynyrd}
 {key: G}
-{tempo: 135}
 {duration: 3:10}
+{tempo: 135}
+{meta: countin: 8 ; start with pickup}
+{meta: backing: 25}
 
-{comment: Backing Track = 25}
-{comment: CountIn = 8 ; start with pickup}
-
+{c:***********************************************}
+{c:** --> meta: countin: 8 ; start with pickup}
+{c:** --> meta: backing: 25}
+{c:***********************************************}
 
 {comment: Intro}
 | . . . C C# | D . F E | D . E F# | G . . . | A C B A |

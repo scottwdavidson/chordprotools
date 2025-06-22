@@ -1,4 +1,3 @@
-
 {title: Money (That's What I Want)}
 {artist: Barrett Strong}
 {key: E}
@@ -6,6 +5,12 @@
 {meta: nord: O15}
 {meta: version: 1.0}
 {meta: countin: 4}
+
+{c:***********************************************}
+{c:** --> meta: nord: O15}
+{c:** --> meta: version: 1.0}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {c:Intro - piano}
 | E | E | E | E | A | A | E | E | B7 | A | E | B7 |

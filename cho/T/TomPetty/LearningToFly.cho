@@ -3,14 +3,15 @@
 {key: C}
 {duration: 3:40}
 {tempo: 116}
+{meta: nord: ???}
+{meta: countin: 8}
+{meta: performance: C}
 
-{c: nord=???}
-{c: Performance Key = C}
-{c: Countin = 8}
-
-
-
-
+{c:***********************************************}
+{c:** --> meta: nord: ???}
+{c:** --> meta: countin: 8}
+{c:** --> meta: performance: C}
+{c:***********************************************}
 
 {c: Intro - Acoustic Guitar Only}
 | F . C . | Am . G . | F . C . | Am . G . |

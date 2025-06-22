@@ -3,12 +3,15 @@
 {key: Am}
 {duration: 3:45}
 {tempo: 127}
+{meta: nord: O42}
+{meta: countin: 8}
+{meta: backing: 23}
 
-{c: Nord=O42}
-
-{c: Backing Track = 23}
-{c: CountIn = 8}
-
+{c:***********************************************}
+{c:** --> meta: nord: O42}
+{c:** --> meta: countin: 8}
+{c:** --> meta: backing: 23}
+{c:***********************************************}
 
 {c: Intro}
 {c: piano (A octave) w/ drum for 3 measures}

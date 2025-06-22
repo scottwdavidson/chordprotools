@@ -3,7 +3,11 @@
 {key: E}
 {duration: 2:20}
 {tempo: 85}
-{meta: performanceKey: E}
+{meta: performance: E}
+
+{c:***********************************************}
+{c:** --> meta: performance: E}
+{c:***********************************************}
 
 {comment: Intro}
 | E ... | D ... | A ... | Bsus4 ... | B ... |

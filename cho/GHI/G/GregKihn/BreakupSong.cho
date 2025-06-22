@@ -5,7 +5,13 @@
 {tempo: 136}
 {meta: nord: P41}
 {meta: countin: 4}
-{meta: performanceKey: F#m}
+{meta: performance: F#m}
+
+{c:***********************************************}
+{c:** --> meta: nord: P41}
+{c:** --> meta: countin: 4}
+{c:** --> meta: performance: F#m}
+{c:***********************************************}
 
 {comment: Intro}
 | Am ... | F ... | G ... | Am ... | 

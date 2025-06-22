@@ -1,14 +1,17 @@
 {title: Drinkin' Problem}
 {artist: Midland}
 {key: A}
-{tempo: 102}
 {duration: 3:00}
+{tempo: 102}
+{meta: nord: P25}
+{meta: countin: 4}
+{meta: backing: 24}
 
-{comment: nord=P25}
-
-{comment: Backing Track = 24}
-{comment: CountIn = 4}
-
+{c:***********************************************}
+{c:** --> meta: nord: P25}
+{c:** --> meta: countin: 4}
+{c:** --> meta: backing: 24}
+{c:***********************************************}
 
 {comment: Intro}
 

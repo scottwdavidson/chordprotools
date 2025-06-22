@@ -1,18 +1,13 @@
 {title: Under My Thumb}
 {artist: Rolling Stones}
-{duration: 3:40}
 {key: A}
+{duration: 3:40}
 {tempo: 127}
+{meta: countin: 8 (with pickup))}
 
-{c: CountIn = 8 (with pickup))
-
-
-
-
-
-
-
-
+{c:***********************************************}
+{c:** --> meta: countin: 8 (with pickup))}
+{c:***********************************************}
 
 {c: Intro - with Xylophone}
 

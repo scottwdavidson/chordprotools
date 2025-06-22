@@ -2,7 +2,11 @@
 {artist: Beatles}
 {key: E}
 {duration: 2:30}
-{meta: performanceKey: E and Eb}
+{meta: performance: E and Eb}
+
+{c:***********************************************}
+{c:** --> meta: performance: E and Eb}
+{c:***********************************************}
 
 {c: Intro}
 |  C#m7  |  C#m7  |

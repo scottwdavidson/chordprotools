@@ -4,12 +4,13 @@
 {duration: 5:00}
 {tempo: 164}
 {meta: nord: N34}
+{meta: version: 1.0}
 {meta: countin: 4}
 {meta: performance: A}
-{meta: version: 1.0}
 
 {c:***********************************************}
 {c:** --> meta: nord: N34}
+{c:** --> meta: version: 1.0}
 {c:** --> meta: countin: 4}
 {c:** --> meta: performance: A}
 {c:***********************************************}

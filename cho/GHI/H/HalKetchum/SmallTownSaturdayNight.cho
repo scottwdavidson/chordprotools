@@ -2,7 +2,11 @@
 {artist: Hal Ketchum}
 {key: C}
 {tempo: 100}
-{c: performanceKey: C}
+{meta: performance: C}
+
+{c:***********************************************}
+{c:** --> meta: performance: C}
+{c:***********************************************}
 
 {comment: Intro}
 

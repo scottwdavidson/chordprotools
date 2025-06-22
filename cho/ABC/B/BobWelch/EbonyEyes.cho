@@ -1,8 +1,12 @@
 {title: Ebony Eyes}
 {artist: Bob Welch}
 {key: Am}
-{c: Performance Key: Gm}
 {duration: 2:51}
+{meta: performance: Gm}
+
+{c:***********************************************}
+{c:** --> meta: performance: Gm}
+{c:***********************************************}
 
 {c: Intro}
 | N.C. |   Am  |  Em  |

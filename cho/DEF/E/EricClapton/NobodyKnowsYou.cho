@@ -5,7 +5,13 @@
 {tempo: 89}
 {meta: nord: N45}
 {meta: countin: 4}
-{meta: performanceKey: C}
+{meta: performance: C}
+
+{c:***********************************************}
+{c:** --> meta: nord: N45}
+{c:** --> meta: countin: 4}
+{c:** --> meta: performance: C}
+{c:***********************************************}
 
 {c: Intro}
 

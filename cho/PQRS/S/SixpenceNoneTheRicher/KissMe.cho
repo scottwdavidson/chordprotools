@@ -1,14 +1,19 @@
 {title: Kiss Me}
 {artist: Sixpence None The Richer}
 {key: C}
-{tempo: 100}
 {duration: 2:50}
-{comment: Performance Key = Eb}
+{tempo: 100}
+{meta: nord: O12}
+{meta: countin: 4}
+{meta: backing: 30}
+{meta: performance: Eb}
 
-{comment: nord=O12}
-
-{comment: Backing Track = 30}
-{comment: CountIn = 4}
+{c:***********************************************}
+{c:** --> meta: nord: O12}
+{c:** --> meta: countin: 4}
+{c:** --> meta: backing: 30}
+{c:** --> meta: performance: Eb}
+{c:***********************************************}
 
 {comment: Guitar: acoustic guitar; capo 3rd fret}
 

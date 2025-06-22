@@ -1,13 +1,15 @@
 {title: Our Song}
 {artist: Taylor Swift}
 {key: D}
-{tempo: 89}
 {duration: 2:40}
+{tempo: 89}
+{meta: countin: 2}
+{meta: backing: 5}
 
-{c: Backing Track}
-{c: CountIn = 2}
-
-
+{c:***********************************************}
+{c:** --> meta: countin: 2}
+{c:** --> meta: backing: 5}
+{c:***********************************************}
 
 {comment: Intro}
 | . . D D |

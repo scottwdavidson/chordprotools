@@ -3,12 +3,15 @@
 {key: Bb}
 {duration: 3:06}
 {tempo: 88}
+{meta: nord: ??}
+{meta: countin: 4}
+{meta: backing: 28}
 
-{comment: nord = ??}
-
-{comment: Backing Track = 28}
-{comment: CountIn = 4}
-
+{c:***********************************************}
+{c:** --> meta: nord: ??}
+{c:** --> meta: countin: 4}
+{c:** --> meta: backing: 28}
+{c:***********************************************}
 
 {comment: Intro}
 | Bbmaj7 . Bb7 . | Ebmaj7 . D7#5 . | Gm7 . C7 . | F7sus4 . . . |

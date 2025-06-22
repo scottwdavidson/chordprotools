@@ -19,9 +19,9 @@ public class ChordproParserApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		        String songFilename = args[0];
+		        String songsFilename = args[0];
 
-        this.headerFixer.fix(songFilename);
+        this.headerFixer.fix(songsFilename);
 
 	}
 }

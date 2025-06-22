@@ -1,4 +1,3 @@
-
 {title: Against the Wind}
 {artist: Bob Seger}
 {key: G}
@@ -6,7 +5,13 @@
 {tempo: 109}
 {meta: nord: M44}
 {meta: countin: 4}
-{meta: performanceKey: F}
+{meta: performance: F}
+
+{c:***********************************************}
+{c:** --> meta: nord: M44}
+{c:** --> meta: countin: 4}
+{c:** --> meta: performance: F}
+{c:***********************************************}
 
 {c: Intro}
 | G . . . | G . . . |

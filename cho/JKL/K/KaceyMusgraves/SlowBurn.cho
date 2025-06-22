@@ -1,12 +1,15 @@
 {title: Slow Burn}
 {artist: Kacy Musgraves}
 {key: G}
-{tempo: 148}
 {duration: 3:00}
-{c: Nord = O24}
+{tempo: 148}
+{meta: nord: O24}
+{meta: countin: 4}
 
-{c: CountIn=4}
-
+{c:***********************************************}
+{c:** --> meta: nord: O24}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {c: Intro}
 | Aadd2 . Em7 . | G . D/F# | 

@@ -2,8 +2,13 @@
 {artist: Rocky Burnette}
 {key: G}
 {duration: 3:30}
-{comment: countin = 8}
-{comment: nord = O14}
+{meta: nord: O14}
+{meta: countin: 8}
+
+{c:***********************************************}
+{c:** --> meta: nord: O14}
+{c:** --> meta: countin: 8}
+{c:***********************************************}
 
 {comment: Intro}
 (Piano)

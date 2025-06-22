@@ -1,13 +1,15 @@
 {title: Don't Speak}
 {artist: No Doubt(Gwen Stephani)}
 {key: Cm}
-{tempo: 76}
 {duration: 3:45}
-{c: Nord=N45}
+{tempo: 76}
+{meta: nord: N45}
+{meta: countin: 4}
 
-{c: CountIn = 4}
-
-
+{c:***********************************************}
+{c:** --> meta: nord: N45}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {comment: Intro}
 | Cm . . . | Cm . . . |

@@ -52,7 +52,7 @@ public class SongLineParser {
                     .value(genericParsedLine.getValue())
                     .build();
         } else if (songDirective == SongDirective.SONG_COMMENT) {
-            
+
             // need to extract the comment song directive
             cleanedLine = removeInitialDirective(cleanedLine);
 

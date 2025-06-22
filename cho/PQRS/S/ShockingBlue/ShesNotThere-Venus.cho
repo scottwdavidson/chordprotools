@@ -2,7 +2,11 @@
 {artist: Zombies / Shocking Blue}
 {key: A}
 {duration: 4:00}
-{c: nord=O21}
+{meta: nord: O21}
+
+{c:***********************************************}
+{c:** --> meta: nord: O21}
+{c:***********************************************}
 
 {c: Intro}
 | Am Bm/D | Am7 Bm/D |

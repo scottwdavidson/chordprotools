@@ -1,4 +1,3 @@
-
 {title: Put Your Records On}
 {artist: Corrine Bailey Rae}
 {key: A}
@@ -6,6 +5,11 @@
 {tempo: 96}
 {meta: nord: N24}
 {meta: countin: 4}
+
+{c:***********************************************}
+{c:** --> meta: nord: N24}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {c:Intro}
 | A | D#m7 Dmaj7/A | E13 E9 |

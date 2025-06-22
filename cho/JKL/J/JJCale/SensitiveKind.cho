@@ -1,15 +1,13 @@
 {title: Sensitive Kind}
 {artist: JJ Cale}
-{tempo: 101}
 {key: Dm}
 {duration: 5:00}
+{tempo: 101}
+{meta: nord: N11}
 
-{c: nord=N11}
-
-
-
-
-
+{c:***********************************************}
+{c:** --> meta: nord: N11}
+{c:***********************************************}
 
 {c: Intro}
 {c: Piano Only - first 8 bars}

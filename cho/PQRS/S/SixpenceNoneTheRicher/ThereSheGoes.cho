@@ -1,14 +1,19 @@
 {title: There She Goes}
 {artist: Sixpence None The Richer}
 {key: G}
-{tempo: 123}
 {duration: 2:42}
-{c: Performance Key = Bb}
+{tempo: 123}
+{meta: nord: P24}
+{meta: countin: 4}
+{meta: backing: 31}
+{meta: performance: Bb}
 
-{c: nord=P24}
-
-{c: Backing Track = 31}
-{c: CountIn = 4}
+{c:***********************************************}
+{c:** --> meta: nord: P24}
+{c:** --> meta: countin: 4}
+{c:** --> meta: backing: 31}
+{c:** --> meta: performance: Bb}
+{c:***********************************************}
 
 {c: Guitar: acoustic guitar; capo 3rd fret}
 {c: opening riff starts with an eighth note pickup (D)}

@@ -1,14 +1,17 @@
 {title: Bad Bad Leroy Brown}
 {artist: Jim Croce}
 {key: G}
-{tempo: 148}
 {duration: 2:35}
+{tempo: 148}
+{meta: nord: O55}
+{meta: countin: 8}
+{meta: backing: 5}
 
-{c: Nord=O55}
-
-{c: Backing Track}
-{c: CountIn=8}
-
+{c:***********************************************}
+{c:** --> meta: nord: O55}
+{c:** --> meta: countin: 8}
+{c:** --> meta: backing: 5}
+{c:***********************************************}
 
 {c:Intro}
 | G C/G G C/G | G C/G G C/G  | 

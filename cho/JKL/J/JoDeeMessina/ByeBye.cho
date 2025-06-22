@@ -6,7 +6,14 @@
 {meta: nord: O24}
 {meta: countin: 8}
 {meta: backing: 27}
-{meta: performanceKey: Bb (+3)}
+{meta: performance: Bb (+3)}
+
+{c:***********************************************}
+{c:** --> meta: nord: O24}
+{c:** --> meta: countin: 8}
+{c:** --> meta: backing: 27}
+{c:** --> meta: performance: Bb (+3)}
+{c:***********************************************}
 
 ***********************************************
 ** --> {meta: nord: O24}

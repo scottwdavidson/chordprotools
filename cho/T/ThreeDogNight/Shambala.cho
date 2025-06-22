@@ -2,8 +2,13 @@
 {artist: Three Dog Night}
 {key: E}
 {duration: 3:00}
-{c: countin=4}
-{c: nord=O55}
+{meta: nord: O55}
+{meta: countin: 4}
+
+{c:***********************************************}
+{c:** --> meta: nord: O55}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {c:Intro}
 | E D | A | 

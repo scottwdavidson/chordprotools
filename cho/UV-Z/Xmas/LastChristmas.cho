@@ -1,10 +1,13 @@
 {title: Last Christmas}
 {artist: Wham!}
 {key: C}
-{tempo: 151}
 {duration: 4:00}
+{tempo: 151}
+{meta: countin: 4}
 
-{c: CountIn = 4}
+{c:***********************************************}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {c: Recorded Key = D}
 {c: Performance Key = C}
@@ -18,11 +21,17 @@
 
 
 {soc}
-[C]Last Christmas I gave you my heart,But the [Am]very next day you gave it away,[Dm]This year to save me from tears,I'll [G]give it to someone special.
+[C]Last Christmas I gave you my heart,
+But the [Am]very next day you gave it away,
+[Dm]This year to save me from tears,
+I'll [G]give it to someone special.
 {eoc}
 
 {soc}
-[C]Last Christmas I gave you my heart,But the [Am]very next day you gave it away,[Dm]This year to save me from tears,I'll [G]give it to someone special.
+[C]Last Christmas I gave you my heart,
+But the [Am]very next day you gave it away,
+[Dm]This year to save me from tears,
+I'll [G]give it to someone special.
 {eoc}
 
 
@@ -32,17 +41,33 @@
 | Dm . . . | Dm . . . | G . . . | G . . . |
 
 
-{sov}[C]Once bitten and twice shy,[Am]I keep my distance, but you still catch my eye,[Dm]Tell me baby, do you recognize me?[G]Well, it's been a year, it doesn't surprise me.
+{sov}
+[C]Once bitten and twice shy,
+[Am]I keep my distance, but you still catch my eye,
+[Dm]Tell me baby, do you recognize me?
+[G]Well, it's been a year, it doesn't surprise me.
 {eov}
 
-{sov}[C](Happy Christmas) I wrapped it up and sent it,[Am]With a note saying, "I love you" , I meant it,[Dm]Now I know what a fool I've been,But if you [G]kissed me now, I know you'd fool me again.
+{sov}
+[C](Happy Christmas) I wrapped it up and sent it,
+[Am]With a note saying, "I love you" , I meant it,
+[Dm]Now I know what a fool I've been,
+But if you [G]kissed me now, I know you'd fool me again.
 {eov}
 
-{soc}
-[C]Last Christmas I gave you my heart,But the [Am]very next day you gave it away,[Dm]This year to save me from tears,I'll [G]give it to someone special.
+
+{soc}
+[C]Last Christmas I gave you my heart,
+But the [Am]very next day you gave it away,
+[Dm]This year to save me from tears,
+I'll [G]give it to someone special.
 {eoc}
-{soc}
-[C]Last Christmas I gave you my heart,But the [Am]very next day you gave it away,[Dm]This year to save me from tears,I'll [G]give it to someone special.
+
+{soc}
+[C]Last Christmas I gave you my heart,
+But the [Am]very next day you gave it away,
+[Dm]This year to save me from tears,
+I'll [G]give it to someone special.
 {eoc}
 
 
@@ -52,20 +77,36 @@
 | Dm . . . | Dm . . . | G . . . | G . . . |
 
 
-{sov}[C]A crowded room, friends with tired eyes,[Am]I’m hiding from you, and your soul of ice,[Dm]My god, I thought you were someone to rely on,[G]Me? I guess I was a shoulder to cry on.
+{sov}
+[C]A crowded room, friends with tired eyes,
+[Am]I’m hiding from you, and your soul of ice,
+[Dm]My god, I thought you were someone to rely on,
+[G]Me? I guess I was a shoulder to cry on.
 {eov}
 
-{sov}[C]A face on a lover with a fire in his heart,[Am]A man under cover but you tore me apart,[Dm]Oh, ohNow I’ve [G]found a real love you’ll never fool me again.
+{sov}
+[C]A face on a lover with a fire in his heart,
+[Am]A man under cover but you tore me apart,
+[Dm]Oh, oh
+Now I’ve [G]found a real love you’ll never fool me again.
 {eov}
 
-{soc}
-[C]Last Christmas I gave you my heart,But the [Am]very next day you gave it away,[Dm]This year to save me from tears,I'll [G]give it to someone special.
+
+{soc}
+[C]Last Christmas I gave you my heart,
+But the [Am]very next day you gave it away,
+[Dm]This year to save me from tears,
+I'll [G]give it to someone special.
 {eoc}
 
 
 {c: Outro}
-{soc}
-[C]Last Christmas I gave you my heart,But the [Am]very next day you gave it away,[Dm]This year to save me from tears,I'll [G]give it to someone special.
+
+{soc}
+[C]Last Christmas I gave you my heart,
+But the [Am]very next day you gave it away,
+[Dm]This year to save me from tears,
+I'll [G]give it to someone special.
 {eoc}
 
 [C]

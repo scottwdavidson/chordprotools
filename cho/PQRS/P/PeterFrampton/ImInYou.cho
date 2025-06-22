@@ -2,7 +2,12 @@
 {artist: Peter Frampton}
 {key: C}
 {tempo: 99}
-{comment: Performance Key: C}
+{meta: performance: C}
+
+{c:***********************************************}
+{c:** --> meta: performance: C}
+{c:***********************************************}
+
 {comment: Duration: 4:10}
 
 {comment: Intro}

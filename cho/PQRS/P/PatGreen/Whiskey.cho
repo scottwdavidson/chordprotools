@@ -3,9 +3,13 @@
 {key: D}
 {duration: 4:00}
 {tempo: 167}
-{comment: countin = 8}
-{comment: nord = N35}
+{meta: nord: N35}
+{meta: countin: 8}
 
+{c:***********************************************}
+{c:** --> meta: nord: N35}
+{c:** --> meta: countin: 8}
+{c:***********************************************}
 
 {comment: ve-500 = P25}
 

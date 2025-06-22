@@ -1,12 +1,13 @@
 {title: Jingle Bell Rock}
 {artist: Bobby Helms}
 {key: C}
-{tempo: 118}
 {duration: 1:45}
+{tempo: 118}
+{meta: countin: 4}
 
-{c: CountIn = 4}
-
-
+{c:***********************************************}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {c: Chords For Guitar Intro}
 | C . Cmaj7 . | C . C6 . | C . . . | . walk down |

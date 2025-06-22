@@ -1,11 +1,15 @@
 {title: Going To Montana}
 {artist: Michael Sadri, Scott Davidson}
 {key: Am}
-{tempo: 136}
 {duration: 3:30}
+{tempo: 136}
+{meta: nord: P14}
+{meta: countin: 8}
 
-{comment: countin = 8}
-{comment: nord = P14}
+{c:***********************************************}
+{c:** --> meta: nord: P14}
+{c:** --> meta: countin: 8}
+{c:***********************************************}
 
 {c:Intro (piano)}
 | Am ... | Am . - G Am | Dm .  .  .  | Dm . - C Dm |

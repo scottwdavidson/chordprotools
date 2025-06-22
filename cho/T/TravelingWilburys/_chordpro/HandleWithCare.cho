@@ -1,10 +1,16 @@
 {title: Handle With Care}
 {artist: Traveling Wilburys}
 {key: G}
-{tempo: 122}
 {duration: 3:18}
-{comment: countin = 4}
-{comment: nord = M22}
+{tempo: 122}
+{meta: nord: M22}
+{meta: countin: 4}
+
+{c:***********************************************}
+{c:** --> meta: nord: M22}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
+
 {comment: ev-500=U12}
 
 {comment: Intro}

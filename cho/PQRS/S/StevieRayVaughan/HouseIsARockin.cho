@@ -1,10 +1,14 @@
 {title: House is a Rockin'}
 {artist: Stevie Ray Vaughan}
 {key: B}
-{tempo: 172}
 {duration: 2:05}
+{tempo: 172}
+{meta: countin: 8}
 
-{c: CountIn=8}
+{c:***********************************************}
+{c:** --> meta: countin: 8}
+{c:***********************************************}
+
 {c: Intro}
 | B7 . . . | B7 . . . |
 | B7 . . . | B7 . . . |

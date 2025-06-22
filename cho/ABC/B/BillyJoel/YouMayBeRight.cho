@@ -1,11 +1,15 @@
 {title: You May Be Right}
 {artist: Billy Joel}
 {key: A}
-{tempo: 150}
 {duration: 4:00}
+{tempo: 150}
+{meta: nord: N35}
+{meta: countin: 4}
 
-{comment: countin = 4}
-{comment: nord = N35}
+{c:***********************************************}
+{c:** --> meta: nord: N35}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {comment: Intro}
 | A ... | A ... | A ... | A ... |

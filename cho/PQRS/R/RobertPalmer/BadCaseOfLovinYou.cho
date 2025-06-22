@@ -1,13 +1,15 @@
 {title: Bad Case Of Lovin' You}
 {artist: Robert Palmer}
 {key: E}
-{tempo: 146}
 {duration: 2:50}
+{tempo: 146}
+{meta: countin: 8}
+{meta: backing: 34}
 
-{comment: Backing Track = 34}
-{comment: Countin = 8}
-
-
+{c:***********************************************}
+{c:** --> meta: countin: 8}
+{c:** --> meta: backing: 34}
+{c:***********************************************}
 
 {comment: Intro}
 8 bars

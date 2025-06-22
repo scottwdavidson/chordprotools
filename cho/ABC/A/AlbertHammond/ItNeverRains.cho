@@ -1,13 +1,17 @@
 {title: It Never Rains in Southern California}
 {artist: Albert Hammond}
 {key: G}
-{tempo: 117}
 {duration: 3:20}
+{tempo: 117}
+{meta: nord: O23}
+{meta: countin: 4}
+{meta: backing: 26}
 
-{comment: nord=O23}
-
-{comment: Backing Track = 26}
-{comment: Countin = 4}
+{c:***********************************************}
+{c:** --> meta: nord: O23}
+{c:** --> meta: countin: 4}
+{c:** --> meta: backing: 26}
+{c:***********************************************}
 
 {comment: Intro - 8 bars}
 

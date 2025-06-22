@@ -1,11 +1,13 @@
 {title: It's Beginning To Look A Lot Like Christmas}
 {artist: Bing Crosby}
 {key: G}
-{tempo: 96}
 {duration: 2:00}
+{tempo: 96}
+{meta: countin: 4}
 
-{c: CountIn = 4}
-
+{c:***********************************************}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {sov}
 It's [G]beginning to look a [C]lot like [G]Christmas, every[B7]where you [C]go. [E7]

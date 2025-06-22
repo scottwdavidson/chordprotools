@@ -1,12 +1,13 @@
 {title: Run Run Rudolph}
 {artist: Luke Bryan}
 {key: A}
-{tempo: 151}
 {duration: 2:30}
+{tempo: 151}
+{meta: countin: 4}
 
-{c: CountIn = 4}
-
-
+{c:***********************************************}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
 
 {c: Guitar Intro Pattern - Section I}
 {c: Over A major}

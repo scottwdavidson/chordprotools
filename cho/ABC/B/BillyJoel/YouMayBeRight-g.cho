@@ -1,8 +1,12 @@
 {title: You May Be Right}
 {artist: Billy Joel}
 {key: G}
-{tempo: 150}
 {duration: 4:00}
+{tempo: 150}
+
+{c:***********************************************}
+{c:***********************************************}
+
 {comment: original key = A, performance key = G}
 {comment: nord = N35}
 

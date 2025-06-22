@@ -1,10 +1,15 @@
 {title: Summer Breeze}
 {artist: Seals and Crofts}
-{tempo: 76}
 {duration: 3:25}
+{tempo: 76}
+{meta: nord: 041}
+{meta: countin: 4}
 
-{c: CountIn=4}
-{c: Nord=041}
+{c:***********************************************}
+{c:** --> meta: nord: 041}
+{c:** --> meta: countin: 4}
+{c:***********************************************}
+
 {comment: Intro}
 | Em . Am/E .    | Em . Am/E . | 
 | Em Cmaj7/B Am7 | Em . Am/E . | 

@@ -4,7 +4,12 @@
 {duration: 2:20}
 {tempo: 85}
 {meta: nord: M13}
-{meta: performanceKey: E}
+{meta: performance: E}
+
+{c:***********************************************}
+{c:** --> meta: nord: M13}
+{c:** --> meta: performance: E}
+{c:***********************************************}
 
 {c:Intro}
 | D ... | C ... | G ... | Asus4 ... | A ... |

@@ -1,10 +1,14 @@
 {title: City of New Orleans}
 {artist: Arlo Guthrie}
 {key: D}
-{tempo: 152}
 {duration: 3:45}
+{tempo: 152}
+{meta: nord: O24}
 
-{c: Nord=O24}
+{c:***********************************************}
+{c:** --> meta: nord: O24}
+{c:***********************************************}
+
 {c: Intro}
 | D | D | D | D |
 

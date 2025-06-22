@@ -1,10 +1,14 @@
 {title: Half Of Me (updated)}
 {artist: Thomas Rhett}
 {key: G}
+{duration: 3:15}
 {tempo: 112}
 {time: 4/4}
-{duration: 3:15}
-{c: nord=N35}
+{meta: nord: N35}
+
+{c:***********************************************}
+{c:** --> meta: nord: N35}
+{c:***********************************************}
 
 {c: Intro}
 | Am ... | D ... | G ... | . |

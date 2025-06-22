@@ -1,12 +1,15 @@
 {title: Say You Love Me}
 {artist: Fleetwood Mac}
-{tempo: 128}
 {key: A}
-{duration: 3:00 }
+{duration: 3:00}
+{tempo: 128}
+{meta: nord: N12}
+{meta: performance: A}
 
-{c: nord=N12}
-{c: Performance Key = A }
-
+{c:***********************************************}
+{c:** --> meta: nord: N12}
+{c:** --> meta: performance: A}
+{c:***********************************************}
 
 {c: Intro}
 |  A    D/A | A    D/A  | 

@@ -1,10 +1,14 @@
 {title: Butterfly Fly Away}
 {artist: Miley Cyrus / Billy Ray Cyrus}
 {key: Eb}
-{tempo: 136}
 {duration: 2:35}
+{tempo: 136}
+{meta: nord: P23}
 
-{comment: N=P23}
+{c:***********************************************}
+{c:** --> meta: nord: P23}
+{c:***********************************************}
+
 {comment: Intro}
 | Ebsus2 . . . | Bb/D . . . | Cm7(4) . . . | Bb/D . . . | 
 | Ebsus2 . . . | Bb/D . . . | Cm7(4) . . . | Bb/D . . . | 

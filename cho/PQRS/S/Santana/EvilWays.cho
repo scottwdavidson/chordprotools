@@ -1,10 +1,13 @@
 {title: Evil Ways}
 {artist: Santana}
 {key: Gm}
-{tempo: 78}
 {duration: 3:30}
+{tempo: 78}
+{meta: nord: P25, reset key}
 
-{comment: nord = P25, reset key}
+{c:***********************************************}
+{c:** --> meta: nord: P25, reset key}
+{c:***********************************************}
 
 {c: Intro}
 | Gm . C . | Gm . C . | Gm . C . | 

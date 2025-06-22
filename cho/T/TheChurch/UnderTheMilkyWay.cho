@@ -1,4 +1,3 @@
-
 {title: Under The Milky Way}
 {artist: The Church}
 {key: Am}
@@ -8,6 +7,13 @@
 {meta: version: 0.0}
 {meta: countin: 8}
 {meta: backing: 32}
+
+{c:***********************************************}
+{c:** --> meta: nord: P45}
+{c:** --> meta: version: 0.0}
+{c:** --> meta: countin: 8}
+{c:** --> meta: backing: 32}
+{c:***********************************************}
 
 {comment: Intro}
 | Am . A7sus4 . | Fmaj7/A . G . |

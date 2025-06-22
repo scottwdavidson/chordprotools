@@ -1,9 +1,14 @@
 {title: Takin' Care of Business}
 {artist: Bachman Turner Overdrive (BTO)}
 {key: C}
-{tempo: 130}
 {duration: 4:50}
-{c: nord=N41}
+{tempo: 130}
+{meta: nord: N41}
+
+{c:***********************************************}
+{c:** --> meta: nord: N41}
+{c:***********************************************}
+
 {columns: 2}
 
 

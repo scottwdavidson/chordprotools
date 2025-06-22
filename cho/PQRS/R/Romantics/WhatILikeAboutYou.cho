@@ -2,12 +2,15 @@
 {artist: Romantics}
 {key: A}
 {duration: 2:20}
+{meta: nord: P44}
+{meta: countin: 8}
+{meta: backing: 19}
 
-{comment: nord = P44}
-
-{comment: Backing Track = 19}
-{comment: countin = 8}
-
+{c:***********************************************}
+{c:** --> meta: nord: P44}
+{c:** --> meta: countin: 8}
+{c:** --> meta: backing: 19}
+{c:***********************************************}
 
 {comment: Guitar Intro}
 | Esus4  E  A  .  |  D  .  .  .  A  |
