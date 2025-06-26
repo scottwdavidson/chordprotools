@@ -1,51 +1,67 @@
 {title: That's All}
 {artist: Genesis}
 {key: Em}
+{duration: 4:00}
+{tempo: 88}
+{meta: nord: O15}
+{meta: countin: 4}
+{meta: backing: 47}
 
 {c:***********************************************}
+{c:** {meta: countin: 4} **}
+{c:** {meta: nord: O15} **}
+{c:** {meta: backing: 47} **}
 {c:***********************************************}
 
 {c:Intro}
 | (pickup} B D E G/D | Em7 E5 D/E E5 | Em7 E5 D/E E5 |
 | Em7 E5 C6/9 D6/9   | E5  .  .   .  |
 
-{sov}
+{start_of_verse}
 Just as I t[Em]hought it was going al[D/E]right,
 I found out I'm w[Em]rong when I thought I was r[D/E]ight,
 It's always the s[Em]ame, it's just a s[C6/9]hame, that's al[D6/9]l.
 I could say [Am7]day, and you'd say [D]night,
 Tell me it's [Am7]black when I know that it's [D]white
 Always the [Am7]same, it's just a [D]shame, that's [Em]all.
-{eov}
+{end_of_verse}
 
-
-{soc}
+{c: SCOTT}
+{start_of_chorus}
 [D]I could l[G]eave but I won't go, though my [Am/G]heart might tell me [D]so,
 I can't f[G]eel a thing from my [GMaj7]head down to my toe[Am/G]s.[D]
-So why does it [Em]always seem to [D/E]be,
+{end_of_chorus}
+
+{c: FRAN}
+{start_of_chorus}
+But why does it [Em]always seem to [D/E]be,
 Me lookin' at [Em]you you lookin' at m[D/E]e,
 It'[E5]s always the [Em]same, it's just a s[C6/9]hame, [D6/9]that's a[Em]ll.
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [Em]Turnin' me on, turnin' me off[D/E],
 [Em]Makin' me [Em]feel like I want too m[D/E]uch,
 [Em]Livin' with y[Em]ou just 'a putting me th[C6/9]rough it [D6/9]all of the t[Em]ime.
 Runnin' a[Am7]round, staying out all n[D]ight,
 Takin' it [Am7]all 'stead of taking one [D]bite
 Livin' with you's [Am]just'a putting me t[D]hrough it [Em]all of the time.
-{eov}
+{end_of_verse}
 
-
-{soc}
+{c: SCOTT}
+{start_of_chorus}
 I cou[G]ld leave but I won't go, it'd b[Am/G]e easier I kn[D]ow,
 I can't f[G]eel a thing from my [GMaj7]head down to my toe[Am]s.[D]
+{end_of_chorus}
+
+{c: FRAN}
+{start_of_chorus}
 So why does it [Em]always seem t[D/E]o be,
 Me lookin' at [Em]you you looking at m[D/E]e,
 It'[E5]s always the [Em]same, it's just a s[C6/9]hame, [D6/9]that's a[Em]ll.
-{eoc}
+{end_of_chorus}
 
-
+{c: JEFF / SCOTT}
 {sob}
 [Cmaj7]Truth is I love you, more than I wanted to,
 There's no point in trying, [Em]to pretend.
@@ -58,15 +74,20 @@ Say we'll be together, [Em]till the end.
 | Em7 E5 C6/9 D6/9   | E5  .  .   .  |
 
 
-{soc}
-I cou[G]ld leave but I won't go, though[Am7] my heart might tell[D]me so,
-I can't f[G]eel a thing from my [GMaj7]head down to my toe[Am]s.[D]
-So why does it [Em]always seem t[Bm]o be,
-He's lookin' at [Em]you and you were lookin' at m[Bm]e,
-It's always the [Em]same, it's just a s[D]hame, that's a[Em]ll.
-{eoc}
+{c: SCOTT}
+{start_of_chorus}
+[D]I could l[G]eave but I won't go, though my [Am/G]heart might tell me [D]so,
+I can't f[G]eel a thing from my [GMaj7]head down to my toe[Am/G]s.[D]
+{end_of_chorus}
 
+{c: FRAN}
+{start_of_chorus}
+So why does it [Em]always seem to [D/E]be,
+Me lookin' at [Em]you you lookin' at m[D/E]e,
+It'[E5]s always the [Em]same, it's just a s[C6/9]hame, [D6/9]that's a[Em]ll.
+{end_of_chorus}
 
+{c: JEFF / SCOTT}
 {sob}
 [Cmaj7]But I love you, more than I wanted to,
 There's no point in trying, [Em]to pretend.
@@ -74,21 +95,25 @@ There's no point in trying, [Em]to pretend.
 Say we'll be together, t[Em]ill the end.
 {eob}
 
-
-{sov}
-Just as I t[Em]hought it was going al[Bm]right,
-I found out I'm w[Em]rong when I thought I was r[Bm]ight,
-It's always the s[Em]ame, it's just a s[Bm]hame, that's al[Em]l.
+{c: FRAN}
+{start_of_verse}
+Just as I t[Em]hought it was going al[D/E]right,
+I found out I'm w[Em]rong when I thought I was r[D/E]ight,
+It's always the s[Em]ame, it's just a s[D/E]hame, that's al[Em]l.
 I could say [Am7]day, and you'd say [D]night,
 Tell me it's [Am7]black when I know that it's [D]white
 Always the [Am7]same, it's just a [D]shame, that's [Em]all.
-{eov}
+{end_of_verse}
 
 
 {c: Instrumental}
-[Em]Em              [Bm]Bm
-[Em]Am7             [Bm]D[Em]
-[Am7]Am7             [D]D       Em
-[Em]Em              [Bm]Bm
-[Em]Am7             [Bm]D[Em]
-[Am7]Am7             [D]D       Em
+| Em7 E5 D/E E5      | Em7 E5 D/E E5 |
+| Em7 E5 C6/9 D6/9   | E5  .  .   .  |
+| Am7  .  D  .       | Am7 .  D   .  |
+| Am7  .  D  .       | Em7 .  .   .  |
+| Em . . . |
+| Em7 E5 D/E E5      | Em7 E5 D/E E5 |
+| Em7 E5 C6/9 D6/9   | E5  .  .   .  |
+| Am7  .  D  .       | Am7 .  D   .  |
+| Am7  .  D  .       | Em7 .  .   .  |
+| Em . . . |
