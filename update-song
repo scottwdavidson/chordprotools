@@ -1,0 +1,2 @@
+mvn spring-boot:run \
+ -Dspring-boot.run.arguments="update-song ./catalog.csv SomeSheetKey"

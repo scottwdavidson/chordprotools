@@ -1,16 +1,26 @@
 package com.pourchoices.chordpro;
 
-import com.pourchoices.chordpro.domain.model.HeaderFixer;
+import com.pourchoices.chordpro.adapter.in.file.ChordproToolsMainCommand;
+import com.pourchoices.chordpro.adapter.in.file.GenerateIndexCommand;
+import com.pourchoices.chordpro.adapter.in.file.UpdateCatalogCommand;
+import com.pourchoices.chordpro.adapter.in.file.UpdateSongCommand;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import picocli.CommandLine;
+import picocli.CommandLine.Command;
 
 @SpringBootApplication
 public class ChordproParserApplication implements CommandLineRunner {
 
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(ChordproParserApplication.class);
+
 	@Autowired
-	private HeaderFixer headerFixer;
+	ChordproToolsMainCommand chordproToolsMainCommand;
 
 	public static void main(String[] args) {
 
@@ -19,9 +29,31 @@ public class ChordproParserApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		        String songsFilename = args[0];
+		String songsFilename = args[0];
 
-        this.headerFixer.fix(songsFilename);
+		new CommandLine(chordproToolsMainCommand).execute(args);
 
 	}
+
+//	public static void main(String[] args) {
+//		LOGGER.info("args: {}", args[0]);
+////		System.exit(SpringApplication.exit(SpringApplication.run(ChordproParserApplication.class, args)));
+//		this.chordproToolsMainCommand.run();;
+//	}
+
+//	@Autowired
+//	private HeaderFixer headerFixer;
+//
+//	public static void main(String[] args) {
+//
+//		SpringApplication.run(ChordproParserApplication.class, args);
+//	}
+//
+//	@Override
+//	public void run(String... args) throws Exception {
+//		        String songsFilename = args[0];
+//
+//        this.headerFixer.fix(songsFilename);
+//
+//	}
 }

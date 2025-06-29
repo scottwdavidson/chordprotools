@@ -102,7 +102,7 @@ public class SongLineParser {
         // remove beginning and ending white space
         cleanedLine = cleanedLine.trim();
 
-        // brute force: if it's a document comment since there's not tag
+        // brute force: if it's a document comment since there's another set of curly braces
         if ((cleanedLine.startsWith("{") && cleanedLine.endsWith("}"))) {
 
             // remove beginning and ending curly braces
