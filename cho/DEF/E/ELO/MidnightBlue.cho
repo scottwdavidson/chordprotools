@@ -1,8 +1,11 @@
 {title: Midnight Blue}
 {artist: ELO}
 {key: F}
+{duration: 4:10}
+{meta: performanceKey: D}
 
 {c:***********************************************}
+{c:** meta: performanceKey: D **}
 {c:***********************************************}
 
 {comment: Intro}
@@ -22,10 +25,11 @@ And I see[Gm] you in [Bbm]mid-[C7]night b[F]lu[Bb]e[C7]
 And I s[Gm]ee you [Bbm]mid-n[C7]ight [F]blu[Bb]e[C7]
 {end_of_verse}
 
-{comment: Chorus 1}
-[F]I [F/A]will [Bb]love you toni[C7sus2]ght[C7]
-[F]and I w[Am7*]ill  [Bb]stay by your [Bbm]side
+{start_of_chorus}
+[F]I [F/A]will [Bb]love you toni[C7sus4]ght[C7]
+[F]and I w[Adim7]ill  [Bb]stay by your [BbmM7/Db]side
 l[F]ovin' yo[Dm7]u,  [Bb]I'm feelin' [C7]midnight b[F]lu[Bb/F]e[F][C7]
+{end_of_chorus}
 
 {start_of_verse}
 [F]I see you standing there fa[Am]r out along tha way
@@ -34,10 +38,11 @@ I[Gm] want to touch you but t[Bbm]he night becomes the d[C7]ay
 And I s[Gm]ee you in [Bbm]mid-[C7]night b[F]lue[Bb][C7]
 {end_of_verse}
 
-{comment: Chorus 1}
-[F]I [F/A]will [Bb]love you toni[C7sus2]ght[C7]
-[F]and I w[Am7*]ill  [Bb]stay by your [Bbm]side
+{start_of_chorus}
+[F]I [F/A]will [Bb]love you toni[C7sus4]ght[C7]
+[F]and I w[Adim7]ill  [Bb]stay by your [BbmM7/Db]side
 l[F]ovin' yo[Dm7]u,  [Bb]I'm feelin' [C7]midnight b[F]lu[Bb/F]e[F][C7]
+{end_of_chorus}
 
 {comment: Bridge}
 C[F]an’t you feel the love that I’m offering you
@@ -47,14 +52,16 @@ Can’t you [Am]see how it’s meant to be
 [F]It’s only [Eb]one, the one that’s [D7]true
 Still I see [Gm]you [Bbm]mid-[C7]night b[F]lu[Bb/F]e[F][C7]
 
-{comment: Chorus 2}
-[F]I see b[Bb]eautiful d[C7]ays
-A[F]nd I [Am7]feel b[Bb]eautiful [Bbm]ways
+{start_of_chorus}
+[F]I [F/A]see b[Bb]eautiful d[C7]ays
+A[F]nd I [Adim7]feel b[Bb]eautiful [BbmM7/Db]ways
 Of[F] loving [Dm7]you, e[Bb]verything’s [C7]midnight [F]blu[Bb]e[C7]
+{end_of_chorus}
 
-{comment: Chorus 1}
-[F]I [F/A]will [Bb]love you toni[C7sus2]ght[C7]
-[F]and I w[Am7*]ill  [Bb]stay by your [Bbm]side
+{start_of_chorus}
+[F]I [F/A]will [Bb]love you toni[C7sus4]ght[C7]
+[F]and I w[Adim7]ill  [Bb]stay by your [BbmM7/Db]side
 l[F]ovin' yo[Dm7]u,  [Bb]I'm feelin' [C7]midnight b[F]lu[Bb/F]e[F][C7]
+{end_of_chorus}
 
 [F]Loving [Dm7]you, [Bb]I feel the [C7]midnight [F]bl[Bb/F]ue[F]

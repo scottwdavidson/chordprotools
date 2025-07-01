@@ -49,6 +49,7 @@ public class GenerateIndexService {
 
             LOGGER.info("songListing: {}", songListing);
 
+            // TODO add songListing to parse
             List<String> songFile = this.chordProFileReader.read(songListing);
             ParsedSong song = this.songParser.parse(songFile);
 
