@@ -1,7 +1,10 @@
 package com.pourchoices.chordpro.chordpro.domain.model;
 
-import com.pourchoices.chordpro.domain.model.*;
-import com.pourchoices.chordpro.domain.model.ParsedHeaderLine;
+import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
+import com.pourchoices.chordpro.application.domain.model.ParsedSongPhrase;
+import com.pourchoices.chordpro.application.domain.model.SongDirective;
+import com.pourchoices.chordpro.application.domain.model.*;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 
 public interface SongLineParserTestData {
 

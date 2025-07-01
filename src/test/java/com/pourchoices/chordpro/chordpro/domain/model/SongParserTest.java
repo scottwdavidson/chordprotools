@@ -1,19 +1,13 @@
 package com.pourchoices.chordpro.chordpro.domain.model;
 
-import com.pourchoices.chordpro.domain.model.*;
+import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import com.pourchoices.chordpro.application.domain.model.SongLineParser;
+import com.pourchoices.chordpro.application.domain.model.SongParser;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.List;
-import java.util.stream.Stream;
-
-import static com.pourchoices.chordpro.chordpro.domain.model.SongParserTestData.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.params.provider.Arguments.arguments;
+import static com.pourchoices.chordpro.chordpro.domain.model.SongParserTestData.HALF_OF_ME;
 
 public class SongParserTest {
 
