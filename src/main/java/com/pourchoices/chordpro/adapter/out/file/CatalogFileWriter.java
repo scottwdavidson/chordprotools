@@ -2,7 +2,8 @@ package com.pourchoices.chordpro.adapter.out.file;
 
 import com.opencsv.bean.StatefulBeanToCsv;
 import com.opencsv.bean.StatefulBeanToCsvBuilder;
-import org.springframework.stereotype.Service;
+import lombok.SneakyThrows;
+import org.springframework.stereotype.Component;
 
 import java.io.Writer;
 import java.nio.file.Files;
@@ -12,13 +13,14 @@ import java.util.List;
 /**
  * Reader which reads the entire ChordPro file into a list of "lines" to then be processed
  */
-@Service
+@Component
 public class CatalogFileWriter {
 
-    public static void writeCatalogToCsv(Path path, List<CatalogEntryDto> users) throws Exception {
+    @SneakyThrows
+    public void writeCatalogToCsv(Path path, List<CatalogEntryDto> catalogEntryDtos)  {
         try (Writer writer = Files.newBufferedWriter(path)) {
             StatefulBeanToCsv<CatalogEntryDto> beanToCsv = new StatefulBeanToCsvBuilder<CatalogEntryDto>(writer).build();
-            beanToCsv.write(users);
+            beanToCsv.write(catalogEntryDtos);
         }
     }
 

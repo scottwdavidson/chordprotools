@@ -1,4 +1,4 @@
-package com.pourchoices.chordpro.domain.model;
+package com.pourchoices.chordpro.application.domain.model;
 
 import com.pourchoices.chordpro.adapter.in.file.ChordProFileReader;
 import com.pourchoices.chordpro.adapter.in.file.SongListingFileReader;

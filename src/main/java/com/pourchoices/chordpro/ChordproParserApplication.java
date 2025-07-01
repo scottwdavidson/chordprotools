@@ -19,19 +19,24 @@ public class ChordproParserApplication implements CommandLineRunner {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(ChordproParserApplication.class);
 
-	@Autowired
-	ChordproToolsMainCommand chordproToolsMainCommand;
+	private final ChordproToolsMainCommand chordproToolsMainCommand;
+	private final CommandLine.IFactory factory;
+
+	public ChordproParserApplication(ChordproToolsMainCommand chordproToolsMainCommand, CommandLine.IFactory factory){
+		this.chordproToolsMainCommand = chordproToolsMainCommand;
+		this.factory = factory;
+	}
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(ChordproParserApplication.class, args);
+		System.exit(SpringApplication.exit(SpringApplication.run(ChordproParserApplication.class, args)));
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
 		String songsFilename = args[0];
 
-		new CommandLine(chordproToolsMainCommand).execute(args);
+		new CommandLine(chordproToolsMainCommand, factory).execute(args);
 
 	}
 

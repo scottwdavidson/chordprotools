@@ -1,8 +1,7 @@
-package com.pourchoices.chordpro.domain.model;
+package com.pourchoices.chordpro.application.domain.model;
 
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;

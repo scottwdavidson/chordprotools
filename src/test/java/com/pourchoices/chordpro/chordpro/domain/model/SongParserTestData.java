@@ -1,7 +1,7 @@
 package com.pourchoices.chordpro.chordpro.domain.model;
 
-import com.pourchoices.chordpro.domain.model.ParsedHeader;
-import com.pourchoices.chordpro.domain.model.ParsedHeaderLine;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 
 import java.util.List;
 
