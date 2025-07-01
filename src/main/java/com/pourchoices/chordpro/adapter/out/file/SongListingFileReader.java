@@ -1,5 +1,6 @@
-package com.pourchoices.chordpro.adapter.in.file;
+package com.pourchoices.chordpro.adapter.out.file;
 
+import lombok.SneakyThrows;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
@@ -9,17 +10,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Reader which reads the songs listing file and returns them in an ordered List
- * for processing.
+ * Reader which reads the songs listing file and returns them in an ordered List for processing.
  */
 @Service
 public class SongListingFileReader {
 
-    public List<String> read(String songsFilename) {
+    @SneakyThrows
+    public List<String> read(String songsListingPathString) {
 
         List<String> songsListing = new ArrayList<>();
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(songsFilename))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(songsListingPathString))) {
 
             String songFilename;
 
@@ -27,9 +28,6 @@ public class SongListingFileReader {
             while ((songFilename = reader.readLine()) != null) {
                 songsListing.add(songFilename.trim());
             }
-        } catch (IOException e) {
-            // Handle any potential I/O errors (e.g., file not found, permissions issues)
-            e.printStackTrace();
         }
 
         return songsListing;

@@ -1,4 +1,4 @@
-package com.pourchoices.chordpro.adapter.in.file;
+package com.pourchoices.chordpro.adapter.out.file;
 
 import lombok.Builder;
 import lombok.Value;

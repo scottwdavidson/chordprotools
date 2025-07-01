@@ -2,7 +2,7 @@ package com.pourchoices.chordpro.chordpro.domain.model;
 
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 import com.pourchoices.chordpro.application.domain.model.ParsedSongPhrase;
-import com.pourchoices.chordpro.application.domain.model.SongLineParser;
+import com.pourchoices.chordpro.application.domain.service.SongLineParser;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

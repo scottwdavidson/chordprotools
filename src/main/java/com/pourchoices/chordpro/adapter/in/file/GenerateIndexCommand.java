@@ -17,16 +17,18 @@ public class GenerateIndexCommand implements Runnable {
     @Autowired
     private GenerateIndexService generateIndexService;
 
-    @Parameters(index = "0", description = "Path to the input file listing chord sheet filenames.")
+    @Parameters(index = "0", description = "Path to the songs listing.")
+    private String songsListingPathString;
+    @Parameters(index = "1", description = "Path to the input file listing chord sheet filenames.")
     private String filePathString;
 
     @Override
     public void run() {
 
         // Your index generation logic here, using this.inputFile
-        LOGGER.info("Generating index from: {}", filePathString);
+        LOGGER.info("Generating index from: {} , {}", songsListingPathString, filePathString);
 
-        this.generateIndexService.generateIndex(filePathString);
+        this.generateIndexService.generateIndex(songsListingPathString, filePathString);
 
     }
 }

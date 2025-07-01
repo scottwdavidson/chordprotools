@@ -1,8 +1,9 @@
-package com.pourchoices.chordpro.application.domain.model;
+package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.adapter.in.file.ChordProFileReader;
-import com.pourchoices.chordpro.adapter.in.file.SongListingFileReader;
+import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
+import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
+import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
