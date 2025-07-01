@@ -1,5 +1,9 @@
-package com.pourchoices.chordpro.application.domain.model;
+package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
+import com.pourchoices.chordpro.application.domain.model.ParsedSongPhrase;
+import com.pourchoices.chordpro.application.domain.model.SongDirective;
 import lombok.Builder;
 import lombok.Value;
 import org.slf4j.Logger;

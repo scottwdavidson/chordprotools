@@ -15,19 +15,25 @@ public class CatalogEntryDto {
     String artist;
     @CsvBindByName(column = "key")
     String key;
-    @CsvBindByName(column = "tempo")
-    String tempo;
     @CsvBindByName(column = "duration")
     String duration;
-    @CsvBindByName(column = "nord")
-    String nord;
-    @CsvBindByName(column = "backing")
-    String backing;
-    @CsvBindByName(column = "bbVolume")
-    String bbVolume;
+    @CsvBindByName(column = "tempo")
+    String tempo;
+    @CsvBindByName(column = "timeSignature")
+    String timeSignature;
     @CsvBindByName(column = "capo")
     String capo;
+    @CsvBindByName(column = "nord")
+    String nord;
+    @CsvBindByName(column = "version")
+    String version;
+    @CsvBindByName(column = "countin")
+    String countin;
+    @CsvBindByName(column = "backing")
+    String backing;
     @CsvBindByName(column = "ve")
     String ve;
+    @CsvBindByName(column = "performance key")
+    String performanceKey;
 
 }

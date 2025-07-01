@@ -1,8 +1,8 @@
 package com.pourchoices.chordpro.chordpro.domain.model;
 
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
-import com.pourchoices.chordpro.application.domain.model.SongLineParser;
-import com.pourchoices.chordpro.application.domain.model.SongParser;
+import com.pourchoices.chordpro.application.domain.service.SongLineParser;
+import com.pourchoices.chordpro.application.domain.service.SongParser;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

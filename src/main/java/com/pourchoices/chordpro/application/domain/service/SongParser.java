@@ -1,5 +1,8 @@
-package com.pourchoices.chordpro.application.domain.model;
+package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
+import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

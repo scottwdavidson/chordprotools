@@ -1,4 +1,4 @@
 mvn spring-boot:run \
- -Dspring-boot.run.arguments="generate-index /Users/scott/tmp/pc-catalog.csv"
+ -Dspring-boot.run.arguments="generate-index /Users/scott/PARA/_projects/pc/chordprotools/songs-listing.txt /Users/scott/tmp/pc-catalog.csv"
 
 
