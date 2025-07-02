@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.model;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
 import lombok.Singular;
 import lombok.Value;
@@ -9,6 +10,10 @@ import java.util.SortedSet;
 @Value
 @Builder
 public class ParsedHeader {
+
+    // TODO add the path
+//    @NotBlank
+//    String path;
 
     @Singular
     SortedSet<ParsedHeaderLine> headerLines;

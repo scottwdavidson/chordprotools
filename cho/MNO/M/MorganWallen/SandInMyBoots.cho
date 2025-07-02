@@ -1,8 +1,11 @@
 {title: Sand In My Boots}
 {artist: Morgan Wallen}
 {key: C}
+{duration: 3:05}
+{meta: nord: N52}
 
 {c:***********************************************}
+{c:** meta: nord: N52 **}
 {c:***********************************************}
 
 {c: Intro}
@@ -40,16 +43,24 @@ And s[F]he said "Maybe I should,[G] see 'em for mys[C]elf"
 Yeah but, n[C]ow I'm dodging [C/E]potholes in my su[F]nburnt [C]Silverado
 Like a he[F]art-broke Desp[C]erado, headin' ri[G]ght back to my roots
 Somethin' 'b[C]out the way she [C/E]kissed mе tells me sh[F]e'd lovе Eastern Ten[C]nessee
-Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my b[Am]oots
+Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my b[C]oots
 {eoc}
 
+{c: Scott Solo}
+| C . C/E . | F . C . |
+| F . C   . | G . . . |
+
+{c: Jeff Solo}
+| C . C/E . | F . C . |
+| F . C   . | G . Am . |
+
 {c: Interlude}
-| C | F | Am | C | F |
+| F | Am | F | G |
 
 {sob}
 I said [C]meet me in the [F]mornin'
 And she [G]told me I was c[C]razy
-[G]Yeah, but [Am]I still thought that m[F]aybe she'd show [G]up
+[C/G]Yeah, but [Am]I still thought that m[F]aybe she'd show [G]up
 {eob}
 
 {soc}
