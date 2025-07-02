@@ -5,13 +5,14 @@
 {tempo: 122}
 {meta: nord: M22}
 {meta: countin: 4}
+{meta: ve: P12}
 
 {c:***********************************************}
 {c:** --> meta: nord: M22}
 {c:** --> meta: countin: 4}
+{c:** --> meta: ve: P12}
 {c:***********************************************}
 
-{comment: ev-500=U12}
 
 {comment: Intro}
 | D . D/C . | G/B . G . | D . D/C . | G/B . G . |
@@ -36,20 +37,21 @@
 [C]But baby, you're a[G]dora[Em]ble;
 {end_of_verse}
 
-{comment: BB-03}
+{comment: BB-04}
 
 {start_of_verse}
 [C]handle me with [D]care
 {end_of_verse}
 
-{comment: Bridge}
 {comment: BB-05}
+{comment: Bridge}
+{start_of_chorus}
 [G]I'm so [Gaug]tired of [C]being [D]lonely,
 [G]I still [Gaug]have some [C]love to [D]give
 [G]Won't you [Gaug/B]show me 
+{end_of_chorus}
 
 {comment: BB-06}
-
 [C]that you [D]really [G]care
 
 {comment: BB-07}
@@ -58,7 +60,7 @@
 Put your [C]body, next to mine, 
 {end_of_chorus}
 
-{comment: BB-07}
+{comment: BB-08}
 {start_of_chorus}
 and [D]dream on
 {end_of_chorus}

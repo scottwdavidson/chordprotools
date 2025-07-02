@@ -3,13 +3,13 @@
 {key: Em}
 {duration: 4:00}
 {tempo: 88}
-{meta: nord: O15}
+{meta: nord: P53}
 {meta: countin: 4}
 {meta: backing: 47}
 
 {c:***********************************************}
 {c:** {meta: countin: 4} **}
-{c:** {meta: nord: O15} **}
+{c:** {meta: nord: P53} **}
 {c:** {meta: backing: 47} **}
 {c:***********************************************}
 
@@ -72,6 +72,10 @@ Say we'll be together, [Em]till the end.
 {comment: Instrumental}
 | (pickup} B D E G/D | Em7 E5 D/E E5 | Em7 E5 D/E E5 |
 | Em7 E5 C6/9 D6/9   | E5  .  .   .  |
+| Am7 . . . | D7 . . . |
+| Am7 . . . | D7 . . . |
+| Am7 . . . | D7 . . . |
+| Am7 . . . | D7 . . Em |
 
 
 {c: SCOTT}

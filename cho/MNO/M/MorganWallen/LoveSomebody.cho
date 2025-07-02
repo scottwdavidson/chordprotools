@@ -4,9 +4,13 @@
 {duration: 3:27}
 {tempo: 120}
 {meta: countin: 8}
+{meta: backing: 51}
+{meta: nord: P52}
 
 {c:***********************************************}
 {c:** --> meta: countin: 8}
+{c:** meta: backing: 51 }
+{c:** meta: nord: P52 }
 {c:***********************************************}
 
 {c: Intro}
@@ -40,7 +44,7 @@ I just wanna [C]love some-
 {end_of_chorus}
 
 {start_of_verse}
--[Em]body ... Who ain't hypnotizеd by [C]dollar signs and blindin' lights
+-[Em]body ... Who ain't hypnotized by [C]dollar signs and blindin' lights
 Like [D]they tend to [Bm]be
 And I [Em]need someone that I'd be proud
 [C]To take on back to my home town
@@ -56,6 +60,7 @@ It [C]feels like there's nobody with [D]me
 And I'm still empty
 Yeah
 
+{comment: JEFF double 1st & 3rd lines}
 {start_of_chorus}
 [Em]. . I just wanna [C]love someb[D]ody who 
 w[Bm]on't leave a hole in my heart
@@ -70,6 +75,7 @@ I just wanna [C]love some-
 | Em . . . | C . . . | D . . . | Bm . . . | 
 | Em . . . | C . . . | D . . . | Bm . . . | 
 
+{comment: JEFF double 1st & 3rd lines}
 {start_of_chorus}
 [Em]I just wanna [C]love someb[D]ody ...[Bm]
 [Em]. . I just wanna [C]love someb[D]ody who 
