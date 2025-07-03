@@ -3,15 +3,15 @@
 {key: D}
 {duration: 3:30}
 {tempo: 85}
+{capo: 2}
+{meta: performanceKey: E}
+{meta: countin: 4}
 
 {c:***********************************************}
+{c:** meta: capo: 2 **}
+{c:** meta: performanceKey: E **}
+{c:** meta: countin: 4 **}
 {c:***********************************************}
-
-{comment: performance key = E}
-{comment: capo 2}
-
-{comment: BB}
-{comment: CountIn = 4}
 
 
 {comment: Intro}
