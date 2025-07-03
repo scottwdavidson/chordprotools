@@ -3,17 +3,19 @@
 {key: A}
 {duration: 2:30}
 {tempo: 165}
+{meta: performanceKey : A}
+{meta: ve: U35}
+{meta: backing: 22}
+{meta: countin: 8}
+{meta: nord : M51}
 
 {c:***********************************************}
+{c:** meta: performanceKey : A}
+{c:** meta: ve: U35}
+{c:** meta: backing: 22}
+{c:** meta: countin: 8}
+{c:** meta: nord : M51}
 {c:***********************************************}
-
-{comment: performance key = A}
-
-{comment: nord = M51}
-{comment: ve-500 = U35}
-
-{comment: Backing Track = 22}
-{comment: CountIn = 8}
 
 
 {comment: Arpegiator Intro}

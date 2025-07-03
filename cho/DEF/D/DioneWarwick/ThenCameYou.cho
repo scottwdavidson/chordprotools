@@ -3,14 +3,15 @@
 {key: F}
 {duration: 3:00}
 {tempo: 116}
+{meta: nord : M23}
+{meta: backing : 33}
+{meta: coutin : 4}
 
 {c:***********************************************}
+{c: meta: nord : M23 **}
+{c: meta: backing : 33 **}
+{c: coutin : 4 **}
 {c:***********************************************}
-
-{comment: nord -> M:23}
-
-{comment: Backing Track = 33}
-{comment: Countin = 4}
 
 
 {comment: Intro}
