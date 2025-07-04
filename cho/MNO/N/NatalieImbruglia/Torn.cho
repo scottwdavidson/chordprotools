@@ -1,7 +1,7 @@
 {title: Torn}
 {artist: Natalie Imbruglia}
 {key: F}
-{duration: 4:00}
+{duration: 3:35}
 {meta: countin: 4}
 {meta: nord = P51}
 {meta: backing = 52}
@@ -16,12 +16,12 @@
 | F5 . . . | Fsus4 . . . | F . . . | Fsus2/4 . . . |
 
 {start_of_verse}
-[F]   I thought I saw a man brought to lif[Am]e
-He was warm, he came around like he was d[Bb7]ignified
+[F]   I thought I saw a man brought to life
+[Am] He was warm, he came around like he was d[Bb7]ignified
 He showed me what it was to cry
 
-[F]  Well you couldn't be that man I adored[Am]
-You don't seem to know
+[F]  Well you couldn't be that man I adored
+[Am] You don't seem to know
 Don't seem to care what your [Bb7]heart is for
 I don't know him anymore
 {end_of_verse}
@@ -36,14 +36,14 @@ I'm to[F]rn
 {start_of_chorus}
 [F]  I'm all out of faith[C], this is how I f[Dm]eel
 I'm cold and I am [Bb7]shamed, lying naked on the [F]floor
-Illusion never [C]changed, into something[Dm]real
-I'm wide awake and [Bb7]I can see, the perfect sky is to[F]rn
-You're a little l[C]ate, I'm already to[Dm]rn[C][Bb7]
+Illusion never [C]changed, into something [Dm]real
+I'm wide awake and [Bb7]I can see the perfect sky is to[F]rn
+You're a little l[C]ate, I'm already to[Dm]rn[(C)][Bb7]
 {end_of_chorus}
 
 {start_of_verse}
-[F]  So I guess the fortune teller's right[Am]
-I should have seen just what was there and not some 
+[F]  So I guess the fortune teller's right
+[Am] I should have seen just what was there and not some 
 [Bb7]holy light
 But you crawl beneath my veins and now
 {end_of_verse}
@@ -58,15 +58,15 @@ I'm to[F]rn
 {start_of_chorus}
 [F]  I'm all out of faith[C], this is how I f[Dm]eel
 I'm cold and I am [Bb7]shamed, lying naked on the [F]floor
-Illusion never [C]changed, into something[Dm]real
-I'm wide awake and [Bb7]I can see, the perfect sky is to[F]rn
-You're a little l[C]ate, I'm already to[Dm]rn[C][Bb7]
+Illusion never [C]changed, into something [Dm]real
+I'm wide awake and [Bb7]I can see the perfect sky is to[F]rn
+You're a little l[C]ate, I'm already to[Dm]rn[(C)][Bb7]
 {end_of_chorus}
 
 
 {comment: Bridge}
 To[Dm]rn..[(C)].    [Bb7]
-[Dm]Ooooh...  Hoo [F]ooooh...  [C]Ooooh
+[Dm]Oooooooo[Dm]oooh...  Hoo[F]ooooh...  [C]Ooooh
 
 {comment: Pre-Chorus}
 There's [Dm]nothing where he used to lie
@@ -78,29 +78,23 @@ I'm to[F]rn
 {start_of_chorus}
 [F]  I'm all out of faith[C], this is how I f[Dm]eel
 I'm cold and I am [Bb7]shamed, lying naked on the [F]floor
-Illusion never [C]changed, into something[Dm]real
-I'm wide awake and [Bb7]I can see, the perfect sky is to[F]rn
+Illusion never [C]changed, into something [Dm]real
+I'm wide awake and [Bb7]I can see the perfect sky is to[F]rn
 
 [F]  I'm all out of faith[C], this is how I f[Dm]eel
-I'm cold and I am [Bb7]shamed, lying naked on the [F]floor
-You're a little l[C]ate, I'm already to[Dm]rn[C][Bb7]
+I'm cold and I'm a[Bb7]shamed, bound and broken on the [F]floor
+You're a little l[C]ate, I'm already to[Dm]rn[(C)][Bb7]
 {end_of_chorus}
 
 {comment: Outro}
-[Dm]Torn.[C]..  (much wailing)
+[Dm]Torn.[C]..  [C] (much wailing)
 
 Ooh...
 
-
 {comment: Outro/Solo}
+| F . . . | C . . . | Dm . . . | Bb7 . (Oh yea, Oh yea) |
+| F . . . | C . . . | Dm . . . | Bb7 . (Oh yea, Oh yea) |
+| F . . . | C . . . | Dm . . . | Bb7 . (Oh yea, Oh yea) |
+| F . . . | C . . . | Dm . . . | Bb7 . . . |
 
-e|------------|-10\5~~~~~--|------------|-10\5~~~~~--|
-B|-6/13~~~~~--|------------|-6/13~~~~~--|------------|
-[G|------------|------------|------------|------------|]D|------------|------------|------------|------------|
-[A|------------|------------|------------|------------|]E|------------|------------|------------|------------|
-
-e|------------|-10/13\10~\5~~--|-------------|-10\5~~~~~--|
-B|-6/13~~~~~--|----------------|--6/13~~~~~--|------------|
-[G|------------|----------------|-------------|------------|]D|------------|----------------|-------------|------------|
-[A|------------|----------------|-------------|------------|]E|------------|----------------|-------------|------------|
-
+| F |

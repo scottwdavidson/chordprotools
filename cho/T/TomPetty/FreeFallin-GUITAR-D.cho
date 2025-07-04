@@ -4,12 +4,11 @@
 {duration: 3:30}
 {tempo: 85}
 {capo: 2}
-{meta: performanceKey: E}
+{meta: performance: E}
 {meta: countin: 4}
 
 {c:***********************************************}
-{c:** meta: capo: 2 **}
-{c:** meta: performanceKey: E **}
+{c:** meta: performance: E **}
 {c:** meta: countin: 4 **}
 {c:***********************************************}
 

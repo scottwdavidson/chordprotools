@@ -3,14 +3,14 @@
 {key: A}
 {duration: 2:30}
 {tempo: 165}
-{meta: performanceKey : A}
+{meta: performance : A}
 {meta: ve: U35}
 {meta: backing: 22}
 {meta: countin: 8}
 {meta: nord : M51}
 
 {c:***********************************************}
-{c:** meta: performanceKey : A}
+{c:** meta: performance : A}
 {c:** meta: ve: U35}
 {c:** meta: backing: 22}
 {c:** meta: countin: 8}
