@@ -1,4 +1,4 @@
-package com.pourchoices.chordpro.chordpro.domain.model;
+package com.pourchoices.chordpro.domain.model.model;
 
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;

@@ -2,6 +2,7 @@ package com.pourchoices.chordpro.application.domain.model;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
+import lombok.NonNull;
 import lombok.Singular;
 import lombok.Value;
 
@@ -11,9 +12,7 @@ import java.util.SortedSet;
 @Builder
 public class ParsedHeader {
 
-    // TODO add the path
-//    @NotBlank
-//    String path;
+    String chordProFilename;
 
     @Singular
     SortedSet<ParsedHeaderLine> headerLines;
@@ -39,7 +38,7 @@ public class ParsedHeader {
                 String parsedHeaderLineNoCurlies = parsedHeaderLine.toString();
                 parsedHeaderLineNoCurlies = parsedHeaderLineNoCurlies.replaceAll("^\\{|\\}$", "");
 
-                builder.append("{c:** --> ").append(parsedHeaderLineNoCurlies).append("}\n");
+                builder.append("{c:**  ").append(parsedHeaderLineNoCurlies).append("}\n");
             }
         }
         builder.append("{c:***********************************************}\n");

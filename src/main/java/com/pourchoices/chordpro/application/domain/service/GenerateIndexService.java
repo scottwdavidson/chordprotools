@@ -4,10 +4,7 @@ import com.pourchoices.chordpro.adapter.out.file.CatalogEntryDto;
 import com.pourchoices.chordpro.adapter.out.file.CatalogFileWriter;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
 import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
-import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
-import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
-import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
-import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import com.pourchoices.chordpro.application.domain.model.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -41,20 +38,19 @@ public class GenerateIndexService {
     public void generateIndex(String songsListingPathString, String indexPathString){
 
         // read the song catalog path string file
-        List<String> songsListing = this.songListingFileReader.read(songsListingPathString);
+        ChordProFileListing chordProFileListing = this.songListingFileReader.read(songsListingPathString);
 
         // parse each song and insert the metadata into the index
         List<CatalogEntryDto> catalogEntryDtos = new ArrayList<>();
-        for(String songListing: songsListing) {
+        for(String chordProFilename: chordProFileListing.getChordProFileNames()) {
 
-            LOGGER.info("songListing: {}", songListing);
+            LOGGER.info("chordProFilename: {}", chordProFilename);
 
-            // TODO add songListing to parse
-            List<String> songFile = this.chordProFileReader.read(songListing);
-            ParsedSong song = this.songParser.parse(songFile);
+            List<String> songFile = this.chordProFileReader.read(chordProFilename);
+            ParsedSong song = this.songParser.parse(chordProFilename, songFile);
 
             ParsedHeader parsedHeader = song.getParsedHeader();
-            catalogEntryDtos.add(toCatalogEntryDto(parsedHeader));
+            catalogEntryDtos.add(toCatalogEntryDto(chordProFilename, parsedHeader));
 
         }
 
@@ -64,7 +60,7 @@ public class GenerateIndexService {
         this.catalogFileWriter.writeCatalogToCsv(indexPath,catalogEntryDtos);
     }
 
-    private CatalogEntryDto toCatalogEntryDto(ParsedHeader parsedHeader){
+    private CatalogEntryDto toCatalogEntryDto(String chordProFilename, ParsedHeader parsedHeader){
 
         CatalogEntryDto.CatalogEntryDtoBuilder builder = CatalogEntryDto.builder();
 

@@ -25,12 +25,14 @@ public class SongParser {
         this.songLineParser = songLineParser;
     }
 
-    public ParsedSong parse(List<String> songFile) {
+    public ParsedSong parse(String chordproFilename, List<String> songFile) {
 
         ParsedSong.ParsedSongBuilder parsedSongBuilder = ParsedSong.builder();
 
         // header first
+        LOGGER.info("chordproFilename: {}", chordproFilename);
         ParsedHeader.ParsedHeaderBuilder headerBuilder = ParsedHeader.builder();
+        headerBuilder.chordProFilename(chordproFilename);
 
         // iterate until you hit a non HEADER line
         int lineIndex = 0;

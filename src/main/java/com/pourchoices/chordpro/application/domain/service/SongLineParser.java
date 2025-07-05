@@ -1,11 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
-import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
-import com.pourchoices.chordpro.application.domain.model.ParsedSongPhrase;
-import com.pourchoices.chordpro.application.domain.model.SongDirective;
-import lombok.Builder;
-import lombok.Value;
+import com.pourchoices.chordpro.application.domain.model.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -144,31 +139,4 @@ public class SongLineParser {
         return line.substring(line.indexOf(":") + 1).trim();
     }
 
-    @Value
-    @Builder
-    private static class GenericParsedLine {
-        String directive;
-        String value;
-
-        public static GenericParsedLine.GenericParsedLineBuilder from(String line) {
-
-            GenericParsedLine.GenericParsedLineBuilder builder = new GenericParsedLine.GenericParsedLineBuilder();
-
-            // remove leading & trailing blanks
-            String cleanedLine = line.trim();
-
-            // extract the first "directive" up to the colon or equals mark delimiter
-            String[] directiveValue = cleanedLine.split("[:=]", 2);
-
-            // directive
-            builder.directive = directiveValue[0];
-
-            // value if there is one
-            if (directiveValue.length > 1) {
-                builder.value = directiveValue[1].trim();
-            }
-
-            return builder;
-        }
-    }
 }

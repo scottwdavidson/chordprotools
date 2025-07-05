@@ -3,6 +3,7 @@ package com.pourchoices.chordpro.application.domain.service;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
 import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
+import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,21 +33,21 @@ public class HeaderFixer {
     public void fix(String songsFilename){
 
         // read the song listing file
-        List<String> songsListing = this.songListingFileReader.read(songsFilename);
+        ChordProFileListing chordProFileListing = this.songListingFileReader.read(songsFilename);
 
-        LOGGER.info("Songs Listing: {}", songsListing);
+        LOGGER.info("ChordProFileListing: {}", chordProFileListing);
 
         // iterate through the song listing and fix each song
-        for(String song : songsListing){
-            LOGGER.info("Fixing : {}", song);
-            fixSong(song);
+        for(String songFilename : chordProFileListing.getChordProFileNames()){
+            LOGGER.info("Fixing : {}", songFilename);
+            fixSong(songFilename);
         }
     }
     public void fixSong(String songFilename) {
 
         // read the song file and parse it
         List<String> songAsStringLines = this.chordProFileReader.read(songFilename);
-        ParsedSong parsedSong = this.songParser.parse(songAsStringLines);
+        ParsedSong parsedSong = this.songParser.parse(songFilename, songAsStringLines);
 
         // add missing mandatory header directives ( w/ default values )
 

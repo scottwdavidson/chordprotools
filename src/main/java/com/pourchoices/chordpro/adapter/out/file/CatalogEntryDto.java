@@ -9,6 +9,8 @@ import lombok.Data;
 @Data
 public class CatalogEntryDto {
 
+    @CsvBindByName(column = "chordProFilename")
+    String chordProFilename;
     @CsvBindByName(column = "title")
     String title;
     @CsvBindByName(column = "artist")
@@ -19,7 +21,7 @@ public class CatalogEntryDto {
     String duration;
     @CsvBindByName(column = "tempo")
     String tempo;
-    @CsvBindByName(column = "timeSignature")
+    @CsvBindByName(column = "time signature")
     String timeSignature;
     @CsvBindByName(column = "capo")
     String capo;

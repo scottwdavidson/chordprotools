@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
+import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Service;
 
@@ -16,9 +17,9 @@ import java.util.List;
 public class SongListingFileReader {
 
     @SneakyThrows
-    public List<String> read(String songsListingPathString) {
+    public ChordProFileListing read(String songsListingPathString) {
 
-        List<String> songsListing = new ArrayList<>();
+        ChordProFileListing.ChordProFileListingBuilder builder = ChordProFileListing.builder();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(songsListingPathString))) {
 
@@ -26,10 +27,10 @@ public class SongListingFileReader {
 
             // Read lines until the end of the file (readLine() returns null)
             while ((songFilename = reader.readLine()) != null) {
-                songsListing.add(songFilename.trim());
+                builder.chordProFileName(songFilename.trim());
             }
         }
 
-        return songsListing;
+        return ChordProFileListing.builder().build();
     }
 }
