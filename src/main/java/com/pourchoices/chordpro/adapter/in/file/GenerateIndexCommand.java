@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
+import com.pourchoices.chordpro.application.domain.port.in.GenerateIndexUseCase;
 import com.pourchoices.chordpro.application.domain.service.GenerateIndexService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,20 +16,18 @@ public class GenerateIndexCommand implements Runnable {
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateIndexCommand.class);
 
     @Autowired
-    private GenerateIndexService generateIndexService;
+    private GenerateIndexUseCase generateIndexService;
 
     @Parameters(index = "0", description = "Path to the songs listing.")
     private String songsListingPathString;
-    @Parameters(index = "1", description = "Path to the input file listing chord sheet filenames.")
-    private String filePathString;
 
     @Override
     public void run() {
 
         // Your index generation logic here, using this.inputFile
-        LOGGER.info("Generating index from: {} , {}", songsListingPathString, filePathString);
+        LOGGER.info("Generating index from: {}", songsListingPathString);
 
-        this.generateIndexService.generateIndex(songsListingPathString, filePathString);
+        this.generateIndexService.generateIndex(songsListingPathString);
 
     }
 }

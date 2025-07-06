@@ -5,6 +5,8 @@ import com.pourchoices.chordpro.adapter.out.file.CatalogFileWriter;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
 import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
 import com.pourchoices.chordpro.application.domain.model.*;
+import com.pourchoices.chordpro.application.domain.port.in.GenerateIndexUseCase;
+import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -14,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class GenerateIndexService {
+public class GenerateIndexService implements GenerateIndexUseCase {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateIndexService.class);
 
@@ -24,18 +26,22 @@ public class GenerateIndexService {
     private final ChordProFileReader chordProFileReader;
     private final SongParser songParser;
 
+    private final ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig;
+
 
     public GenerateIndexService(CatalogFileWriter catalogFileWriter,
                                 SongListingFileReader songListingFileReader,
                                 ChordProFileReader chordProFileReader,
-                                SongParser songParser) {
+                                SongParser songParser,
+                                ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig) {
 
         this.catalogFileWriter = catalogFileWriter;
         this.songListingFileReader = songListingFileReader;
         this.chordProFileReader = chordProFileReader;
         this.songParser = songParser;
+        this.chordproCatalogIndexPathConfig = chordproCatalogIndexPathConfig;
     }
-    public void generateIndex(String songsListingPathString, String indexPathString){
+    public void generateIndex(String songsListingPathString){
 
         // read the song catalog path string file
         ChordProFileListing chordProFileListing = this.songListingFileReader.read(songsListingPathString);
@@ -56,8 +62,10 @@ public class GenerateIndexService {
 
         LOGGER.info("Catalog DTOs: {}", catalogEntryDtos);
 
-        Path indexPath = Path.of(indexPathString);
-        this.catalogFileWriter.writeCatalogToCsv(indexPath,catalogEntryDtos);
+        Path catalogIndexPath = this.chordproCatalogIndexPathConfig.getChordproCatalogIndexPath();
+        LOGGER.info("catalogIndexPath: {}", catalogIndexPath);
+
+        this.catalogFileWriter.writeCatalogToCsv(catalogIndexPath,catalogEntryDtos);
     }
 
     private CatalogEntryDto toCatalogEntryDto(String chordProFilename, ParsedHeader parsedHeader){

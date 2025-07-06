@@ -4,6 +4,7 @@ import com.opencsv.bean.StatefulBeanToCsv;
 import com.opencsv.bean.StatefulBeanToCsvBuilder;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.io.Writer;
 import java.nio.file.Files;
@@ -11,9 +12,9 @@ import java.nio.file.Path;
 import java.util.List;
 
 /**
- * Reader which reads the entire ChordPro file into a list of "lines" to then be processed
+ * Writer which writhes the entire ChordPro catalog
  */
-@Component
+@Service
 public class CatalogFileWriter {
 
     @SneakyThrows

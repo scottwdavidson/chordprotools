@@ -6,13 +6,14 @@ import org.springframework.stereotype.Service;
 import java.io.*;
 
 /**
- * Reader which reads the entire ChordPro file into a list of "lines" to then be processed
+ * Reader which writes the ParsedSong to the specified chordpro filename
  */
 @Service
 public class ChordProFileWriter {
 
     public void write(String songFilename, ParsedSong parsedSong) {
 
+        // TODO shouldn't I be passing a Path ?
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(songFilename, false))) { // Using false for overwrite
 
             writer.write(parsedSong.toString());
