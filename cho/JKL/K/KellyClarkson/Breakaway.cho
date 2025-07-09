@@ -1,9 +1,16 @@
 {title: Breakaway}
 {artist: Kelly Clarkson}
 {key: Am}
+{duration: 3:45}
+{meta: countin: 8}
+{meta: backing: 100}
+{meta: nord: A01}
 
-{c:***********************************************}
-{c:***********************************************}
+{c:*****************************************}
+{c: meta: countin: 8}
+{c: meta: backing: 100}
+{c: meta: nord: A01}
+{c:*****************************************}
 
 {c: Intro}
 [Am]Da da da n [G/B]da da, [C]Da da da n [Fsus2]da da
@@ -16,7 +23,7 @@
 [Am] I'd just [G/B]stare out my [Fsus2]window
 [Am] Dreaming of what [G/B]could be
 [C] And if I'd end up [Fsus2]happy
- [Am]I w[G]ould p[Fsus2]ray
+[Am]I w[G]ould p[Fsus2]ray
 {eov}
 
 {sov}
@@ -25,7 +32,7 @@
 [Am] Felt like [G/B]no one could [Fsus2]hear me
 [Am] Wanted to bel[G/B]ong here
 [C] But something felt so [Fsus2]wrong here
- [Am]So [G/B]I'd p[Fsus2]ray
+[Am]So [G/B]I'd p[Fsus2]ray
 [Am] I could [G]break aw[D]ay [Fsus2][G]
 {eov}
 
@@ -36,7 +43,7 @@ I'll [Am]do what it takes till [Fsus2]I touch the sky.
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay.
 [C]Out of the darkness and [G]into the sun.
 But [Am]I won't forget all the [Fsus2]ones that I love.
- I'll [C]take a risk, take a chance,
+I'll [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
 {eoc}
 
@@ -50,8 +57,8 @@ But [Am]I won't forget all the [Fsus2]ones that I love.
 [Am] Feel the [G/B]rush of the [Fsus2]ocean
 [Am] Get onboard a [G/B]fast train
 [C] Travel on a [Fsus2]jetplane
- [Am]Far [G/B]aw[Fsus2]ay
- And [Am]break [G]aw[D]ay [Fsus2][G/B]
+[Am]Far [G/B]aw[Fsus2]ay
+And [Am]break [G]aw[D]ay [Fsus2][G/B]
 {eov}
 
 {soc}
@@ -61,7 +68,7 @@ I'll [Am]do what it takes till [Fsus2]I touch the sky.
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay.
 [C]Out of the darkness and [G]into the sun.
 [Am]But I won't forget all the [Fsus2]ones that I love.
- I'll [C]take a risk, take a chance,
+I'll [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
 {eoc}
 
@@ -81,8 +88,8 @@ Break a[F]way [G]
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay.
 [C]Out of the darkness and [G]into the sun.
 [Am]But I won't forget the [Fsus2]place I come from
- I gotta [C]take a risk, take a chance,
+I gotta [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
- [Am]Break [G]aw[Fsus2]ay
- [Am]Break [G]aw[Fsus2]ay
+[Am]Break [G]aw[Fsus2]ay
+[Am]Break [G]aw[Fsus2]ay
 {eoc}
