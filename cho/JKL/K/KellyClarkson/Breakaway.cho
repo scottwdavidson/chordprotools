@@ -2,13 +2,14 @@
 {artist: Kelly Clarkson}
 {key: Am}
 {duration: 3:45}
-{meta: countin: 8}
-{meta: backing: 100}
+{time: 3/4}
+{meta: countin: 6}
+{meta: backing: 53}
 {meta: nord: A01}
 
 {c:*****************************************}
-{c: meta: countin: 8}
-{c: meta: backing: 100}
+{c: meta: countin: 6}
+{c: meta: backing: 53}
 {c: meta: nord: A01}
 {c:*****************************************}
 
