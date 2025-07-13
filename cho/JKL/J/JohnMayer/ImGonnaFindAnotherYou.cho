@@ -1,65 +1,49 @@
 {title: I’m Gonna Find Another You}
-
-{c:***********************************************}
-{c:***********************************************}
-
-{subtitle:John Mayer}
-{key:A}
-
-(Starts with lick then vocals and guitar only for first verse)
-
-Intro Lick in A:
-
-Verse 1:
-
-It's really [A]over, you made you[A7]r stand
-You got me cr[D]ying, as [D#dim7]was your plan
+{artist: John Mayer}
+{key: A}
+{duration: 3:00}
 
 
-Chorus 1
-
-But when my[A] lone[F#m]liness is through
-[Bm]      I'm gonna f[E]ind another y[A]ou [(]  [D]  [,]  [Dm]   [,]  [A]      [E9]   [)]
+{comment: Intro}
+[A]  [Eaug]    It's really o[A]ver, you made your [A7]stand
 
 
-Verse 2
-
-You take your [A]sweaters, You take your [A7]time
-You might have your [D]reasons, but you will never h[D#dim7]ave my rhymes
-
-
-Chorus 2
-
-I'm gonna[A] sing[F#m] my way away from blue
-[Bm]      I'm gonna [E]find another [A]yo[(]u [D]  [,]  [Dm]   [,]  [A]      [E9)]
+{start_of_verse}
+You got me cry[D/F#]ing, as was your [Ebdim7]plan
+But when [A]my lone[F#m]liness is through
+[Bm]  I'm gonna find[E7]  another you[A][D/F#][D/F]
+[A]  [E7]  You take your swea[A]ters
+{end_of_verse}
 
 
-Bridge
+{start_of_verse}
+You take[A7]your time
+You might have your rea[D/F#]sons
+But you will never [Ebdim7]have  my rhymes
+I'm gonna[A] sing[F#m]my way away from blue
+[Bm]  I'm gonna find[E7]  another you[A][D/F#][D/F][A]
+{end_of_verse}
 
-[Bm]When I was your lover [F#m]
-[Bm]No one else would do [F#m]
-[Bm]If I'm forced to find anothe[F#m]r,
-I hope she[B7] looks like you
-Yeah and she's [E]nicer too
+
+{comment: Bridge}
+[Bm7]When I was your lover[F#m]
+[Bm7]No one else would do[F#m]
+If I'm [Bm7]forced to find another[F#m]
+I hope she [B7]looks like you
+Yeah and she's[E]nicer too yeah
+So go on [A]baby
 
 
-(Guitar Solo here over verse and chorus chords)
-(Start in BB box over A & D and finish in Am pent over E)
-[A]    [A7]
-[D]    [D#dim7]
-[A]    [F#m]
-[Bm]   [E]     [A] [(] [D] [,] [Dm] [,] [A]     [E9)]
+{start_of_verse}
+Make your little [A7]get away
+My pride will keep me [D/F#]company
+And you just gave [Ebdim7]yours all away[Cdim7][Ebdim7]
+Oh[A] Now I'm gon[G#]na [F#]dress myself for two
+[Bm]  Once for me and once for [E7]someone new
+I'm gonna [C#m7]do  somethings you wouldn't [F#7]let me do
+Oh[Bm7]   I'm gonna [E7]find another you
+{end_of_verse}
 
-Verse 3
 
-So go on bab[A]y, Make your little [A7]get away
-My pride will keep me [D]company, And you just ga[D#dim7]ve yours all away
-
-(Chorus 3/Outro)
-Oh,[A] Now I'm gonna d[F#m]ress myself for two
-[Bm]     Once for me and once for [E]someone new
-I'm gonna [C#m]do somethings you wouldn't [F#]let me do
-
-Oh,[Bm] I'm gon' f[E]ind another yo[A]u
-
-(End with intro lick and blues walkdown lick)
+{comment: Outro}
+A Eaug A

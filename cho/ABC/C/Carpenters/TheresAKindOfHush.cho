@@ -1,52 +1,61 @@
 {title: There's A Kind Of Hush}
 {artist: Carpenters}
 {key: G}
-{duration: 2:50}
+{duration: 2:35}
+{tempo: 128}
 
 
 {comment: Intro}
 | C . . . |
 
-{start_of_verse}
+{start_of_chorus}
 There's a [C]kind of hush[E7]  all over the world[Am]tonight
-[C7]  All over the world[F/C]   you can hear the sounds[G] of lovers in love[C]
+[C7]  All over the world[F]   you can hear the sounds[G] of lovers in love[C]
 You [G]know what I mean
+
 Just the [C]two of us[E7]  and nobody else[Am]in sight
-[C7]  There's nobody else[F/C]   and I'm feeling good[G] just holding you tight[C]
-{end_of_verse}
-
-
-{start_of_chorus}
-[C7]  So [F/C]listen very carefully, Closer now and you will see what I mean
-[C]It isn't a dream
-The [F/C]only sound that you will hear, Is when I whisper in your ear
-I love you[G]forever and ever
+[C7]  There's nobody else[F]   and I'm feeling good[G] just holding you tight[C]
 {end_of_chorus}
 
 
 {start_of_verse}
-There's a [C]kind of hush[E7]  all over the world[Am]tonight
-[C7]  All over the world[F/C]   you can hear the sounds[G] of lovers in love[C][G]
+So [F]listen very [F6]carefully, get
+[FMaj7]Closer now and [F6]you will see what I mean
+[C]It isn't a dream
+The [F]only sound that [F6]you will hear, 
+Is [FMaj7]when I whisper [F6]in your ear
+I love you[G]forever and ever
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_chorus}
+There's a [C]kind of hush[E7]  all over the world[Am]tonight
+[C7]  All over the world[F]  people just like u[G]s are fallin' in love[C][G]
+{end_of_chorus}
+
+{comment: Solo}
 | C . . . | E7 . . . | Am . . . | C7 . . . |
-| C . . . |
+| F . . . | G  . . . | C  . . . | G  . . . |
+
+{start_of_verse}
+[C7]  So [F]listen very [F6]carefully, get 
+[FMaj7]Closer now and [F6]you will see what I mean
+[C]It isn't a dream
+The [F]only sound that [F6]you will hear, 
+Is [FMaj7]when I whisper [F6]in your ear
+I love you[G]forever and ever
+{end_of_verse}
 
 
 {start_of_chorus}
-So [F/C]listen very carefully, Closer now and you will see what I mean
-[C]It isn't a dream
-The [F/C]only sound that you will hear, Is when I whisper in your ear
-I love you[G]forever and ever
+There's a [C]kind of hush[E7]  all over the world[Am]tonight
+[C7]  All over the world[F]   you can hear the soun[G]ds of lovers in love[C]
 {end_of_chorus}
 
+{comment: Outro}
+| C . . . | E7 . . . | Am . . . | C7 . . . |
+| F . . . | G  . . . | C  . . . | G  . . . |
+(oohs)
+| C . . . | E7 . . . | Am . . . | C7 . . . |
+| F . . . | G  . . . | C  . . . | G  . . . |
 
-{start_of_verse}
-There's a [C]kind of hush[E7]  all over the world[Am]tonight
-[C7]  All over the world[F/C]   people just like us[G] are fallin' in love[C]
-[G] Yeah, they're fallin' in love[C]
-Hush,[G] they're fallin' in love[C]
-[G]Hush[C]
-{end_of_verse}
