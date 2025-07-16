@@ -24,7 +24,7 @@
 [Em]   [Am]  And I wan[D]na feel[G]it too.
 {end_of_verse}
 
-
+{comment: Scott guitar counterpoint}
 {comment: Pre-Chorus}
 [Em]   [Am]  On an is[D]land in[G]the sun,
 [Em]   [Am]  We'll be play[D]ing and hav[G]ing fun,
@@ -42,6 +42,7 @@
 {end_of_verse}
 
 
+{comment: Scott guitar counterpoint}
 {comment: Pre-Chorus}
 [Em]   [Am]  On an is[D]land in[G]the sun,
 [Em]   [Am]  We'll be play[D]ing and hav[G]ing fun,
@@ -60,9 +61,14 @@
 
 
 {comment: Solo}
-[Em]Em [Am]Am [D]D [G]G [Em]Em [Am]Am [D]D [G]G
+[Em]   [Am]   [D]  [G]Hip, hip.
+[Em]   [Am]   [D]  [G]Hip, hip.
+| Em . Am . | D . G . |
+| Em . Am . | D . G . |
+| Em . Am . | D . G . |
+| Em . Am . | D . G . |
 
-
+{comment: Scott guitar counterpoint}
 {comment: Pre-Chorus}
 [Em]   [Am]  On an is[D]land in[G]the sun,
 [Em]   [Am]  We'll be play[D]ing and hav[G]ing fun,
@@ -79,7 +85,9 @@ Hip, hip.
 
 
 {comment: Outro}
-[Em]   [Am]   [D]  [G] We'll ne[Em]ver feel bad[Am]  any[D]more.[G]
-[Em]D G[Am]   [D]  [G]  [Em] Em[Am]Am     D      G
-   We'll never feel  bad anymore.
-[Em]Em [Am]Am [D]D [G]G [Em]Em [Am]Am [D]D [G]G
+[Em]   [Am]   [D]  [G] We'll 
+ne[Em]ver feel bad[Am]  any[D]more.[G]
+[Em]( -- )[Am] ( -- ) [D] ( -- ) [G]  
+[Em]   [Am]   [D]  [G]Hip, hip.
+[Em]   [Am]   [D]  [G] We'll 
+ne[Em]ver feel bad[Am]  any[D]more.[G]
