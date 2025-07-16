@@ -2,16 +2,23 @@
 {artist: Linda Ronstadt}
 {key:G}
 {tempo:165}
+{meta: backing: 61}
+{meta: nord: P55}
 
 {c:***********************************************}
+{c:** meta: backing: 61}
+{c:** meta: nord: P55}
 {c:***********************************************}
 
 {c:INTRO}
 | <Chuck Berry guitar lick> |
 | G7 . . . | G7 . . . | 
+| C  . . . | C  . . . |
+| G  . . . | G  . . . |
 | D  . . . | D  . . . |
-| A7 . . . | A7 . . . |
-| D  . . . | D  . . . |
+| G  . . . | G  . . . |
+
+* note : remove C in blues pattern 
 
 {start_of_verse}
 [G]Oh, well, oh well, I feel so good today,
@@ -37,10 +44,12 @@ You can [D]bet your life I did, till I [C]got back to the U. S. [G]A.
 {end_of_verse}
 
 {c: INTERLUDE:GUITAR 12 bars}
-([C]Uh, huh, huh..yea, yea, yea, yeah.)
-([G]Uh, huh, huh..yea, yea, yea, yeah.)
-([D]Uh, huh, huh..yea, yea, yea, yeah.)
-([G]Yea, yea, yea, yeah.)
+| G7 . . . | G7 . . . | 
+| G7 . . . | G7 . . . | 
+| C  . . . | C  . . . |
+| G  . . . | G  . . . |
+| D  . . . | D  . . . |
+| G  . . . | G  . . . |
 
 {start_of_verse}
 [G]Looking hard for a drive-in, searching for a corner cafe..

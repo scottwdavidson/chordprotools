@@ -3,8 +3,13 @@
 {key: Eb}
 {duration: 2:45}
 {meta: countin: 8}
+{tempo:165}
+{meta: backing: 60}
+{meta: nord: P55}
 
-{c:**************************************}
+{c:***********************************************}
+{c:** meta: backing: 60}
+{c:** meta: nord: P55}
 {c:** meta: countin: 8}
 {c:**************************************}
 
@@ -82,4 +87,4 @@ H[Eb]eat[Ab]-wave[Eb]_[Ab]
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 
-| Fm7 . Fm7 .| Gm7 . Gm7 . | Ab . Ab . |
+| Fm7 . Fm7 .| Gm7 . Gm7 . | Cm . Cm . |

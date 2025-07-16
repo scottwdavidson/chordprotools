@@ -2,12 +2,14 @@
 {artist: Weezer}
 {key: Em}
 {duration: 3:00}
-{meta: nord: A00}
-{meta: backing: 100}
+{meta: nord: P54}
+{meta: backing: 58}
+{meta: countin: 4}
 
 {c:***********************************************}
-{c:** meta: backing: 100}
-{c:** meta: nord: A00}
+{c:** meta: backing: 58}
+{c:** meta: nord: P54}
+{c:** meta: countin: 4}
 {c:***********************************************}
 
 {comment: Intro}
@@ -91,3 +93,6 @@ ne[Em]ver feel bad[Am]  any[D]more.[G]
 [Em]   [Am]   [D]  [G]Hip, hip.
 [Em]   [Am]   [D]  [G] We'll 
 ne[Em]ver feel bad[Am]  any[D]more.[G]
+[Em]   [Am]   [D]  [G]Hip, hip.
+[Em]   [Am]   [D]  [G]Hip, hip.
+[Em]   [Am]   [D]  [G]Hip, hip.
