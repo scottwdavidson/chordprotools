@@ -1,9 +1,16 @@
 {title: Breakdown}
 {artist: Tom Petty}
+{key: Am}
 {duration: 3:00}
 {tempo: 114}
+{meta: nord: P11}
+{meta: performance: Am}
+{meta: countin: 4}
 
 {c:***********************************************}
+{c:** meta: nord: P11}
+{c:** meta: performance: Am}
+{c:** meta: countin: 4  }
 {c:***********************************************}
 
 {comment: Intro}

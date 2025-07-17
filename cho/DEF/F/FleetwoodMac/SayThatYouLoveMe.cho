@@ -1,14 +1,16 @@
-{title: Say You Love Me}
+{title: Say That You Love Me}
 {artist: Fleetwood Mac}
 {key: A}
 {duration: 3:00}
 {tempo: 128}
 {meta: nord: N12}
+{meta: countin: 4}
 {meta: performance: A}
 
 {c:***********************************************}
-{c:** --> meta: nord: N12}
-{c:** --> meta: performance: A}
+{c:** meta: nord: N12}
+{c:** meta: performance: A}
+{c:** meta: countin: 4  }
 {c:***********************************************}
 
 {c: Intro}
