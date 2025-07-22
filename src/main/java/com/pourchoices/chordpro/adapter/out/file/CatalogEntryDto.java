@@ -2,14 +2,19 @@ package com.pourchoices.chordpro.adapter.out.file;
 
 import com.opencsv.bean.CsvBindByName;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
 
 @Builder
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class CatalogEntryDto {
 
-    @CsvBindByName(column = "chordProFilename")
+    @CsvBindByName(column = "chordpro filename")
     String chordProFilename;
     @CsvBindByName(column = "title")
     String title;

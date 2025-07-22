@@ -1,2 +1,2 @@
 mvn spring-boot:run \
- -Dspring-boot.run.arguments="update-song ./catalog.csv SomeSheetKey"
+ -Dspring-boot.run.arguments="update-song /Users/s0d01gr/PARA/_projects/pc/chordprotools/cho/ABC/A/ARS/Spooky.cho "

@@ -2,13 +2,14 @@ package com.pourchoices.chordpro.application.domain.port.out;
 
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 
+import java.nio.file.Path;
 import java.util.List;
 
 public interface ChordProPort {
 
-    List<String> read(String songFilename);
+    List<String> read(Path chordproSongPath);
 
-    void write(String songFilename, ParsedSong parsedSong);
+    void write(Path chordproSongPath, ParsedSong parsedSong);
 
 
 }

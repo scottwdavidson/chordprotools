@@ -4,6 +4,7 @@ import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import com.pourchoices.chordpro.application.domain.port.out.ChordProPort;
 import org.springframework.stereotype.Service;
 
+import java.nio.file.Path;
 import java.util.List;
 
 @Service
@@ -13,12 +14,12 @@ public class ChordProAdapter implements ChordProPort {
     private ChordProFileWriter chordProFileWriter;
 
     @Override
-    public List<String> read(String songFilename) {
-        return this.chordProFileReader.read(songFilename);
+    public List<String> read(Path chordproSongPath) {
+        return this.chordProFileReader.read(chordproSongPath);
     }
 
     @Override
-    public void write(String songFilename, ParsedSong parsedSong) {
-        this.chordProFileWriter.write(songFilename, parsedSong);
+    public void write(Path chordproSongPath, ParsedSong parsedSong) {
+        this.chordProFileWriter.write(chordproSongPath, parsedSong);
     }
 }

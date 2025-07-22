@@ -10,12 +10,14 @@ import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+@Service
 public class GenerateIndexService implements GenerateIndexUseCase {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateIndexService.class);
@@ -41,6 +43,7 @@ public class GenerateIndexService implements GenerateIndexUseCase {
         this.songParser = songParser;
         this.chordproCatalogIndexPathConfig = chordproCatalogIndexPathConfig;
     }
+
     public void generateIndex(String songsListingPathString){
 
         // read the song catalog path string file
@@ -52,7 +55,7 @@ public class GenerateIndexService implements GenerateIndexUseCase {
 
             LOGGER.info("chordProFilename: {}", chordProFilename);
 
-            List<String> songFile = this.chordProFileReader.read(chordProFilename);
+            List<String> songFile = this.chordProFileReader.read(Paths.get(chordProFilename));
             ParsedSong song = this.songParser.parse(chordProFilename, songFile);
 
             ParsedHeader parsedHeader = song.getParsedHeader();
@@ -62,19 +65,21 @@ public class GenerateIndexService implements GenerateIndexUseCase {
 
         LOGGER.info("Catalog DTOs: {}", catalogEntryDtos);
 
-        Path catalogIndexPath = this.chordproCatalogIndexPathConfig.getChordproCatalogIndexPath();
+        Path catalogIndexPath = Paths.get(this.chordproCatalogIndexPathConfig.getCatalogIndexPath());
         LOGGER.info("catalogIndexPath: {}", catalogIndexPath);
 
         this.catalogFileWriter.writeCatalogToCsv(catalogIndexPath,catalogEntryDtos);
     }
 
-    private CatalogEntryDto toCatalogEntryDto(String chordProFilename, ParsedHeader parsedHeader){
+    private CatalogEntryDto toCatalogEntryDto(String chordproFilename, ParsedHeader parsedHeader){
 
         CatalogEntryDto.CatalogEntryDtoBuilder builder = CatalogEntryDto.builder();
 
         if ( parsedHeader.getHeaderLines().isEmpty() ) {
             return null;
         }
+
+        builder.chordProFilename(chordproFilename);
 
         for (ParsedHeaderLine parsedHeaderLine : parsedHeader.getHeaderLines()) {
 

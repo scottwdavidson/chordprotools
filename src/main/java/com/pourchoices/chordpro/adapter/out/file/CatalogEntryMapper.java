@@ -2,19 +2,27 @@ package com.pourchoices.chordpro.adapter.out.file;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping; // Potentially needed for custom mappings
 import org.mapstruct.factory.Mappers;
 
-// Mark this interface as a MapStruct mapper
-@Mapper
+import java.util.List;
+
+@Mapper(componentModel = "spring") // Or "default" if not using Spring
 public interface CatalogEntryMapper {
 
-    // Get an instance of the generated mapper implementation
-    CatalogEntryMapper INSTANCE = Mappers.getMapper(CatalogEntryMapper.class);
+//    static final CatalogEntryMapper INSTANCE = Mappers.getMapper(CatalogEntryMapper.class);
 
-    // If I need a mapping :
-    // @Mapping(source = "chordProFilename", target = "chordPROFileName")
-    CatalogEntry toCatalogEntry(CatalogEntryDto catalogEntryDto);
+    // For single DTO to Entity conversion
+    // MapStruct will use the all-args constructor of CatalogEntry
+    // and match DTO field names to constructor parameter names.
+    CatalogEntry toEntity(CatalogEntryDto dto);
 
-    // Mapping method from CatalogEntry to CatalogEntryDto
-    CatalogEntryDto toCatalogEntryDto(CatalogEntry catalogEntry);
+    // For single Entity to DTO conversion (if DTO is also immutable or has setters)
+    // If CatalogEntryDto also uses @Value/@Builder, this works similarly.
+    // If CatalogEntryDto uses @Data, MapStruct uses setters.
+    CatalogEntryDto toDto(CatalogEntry entity);
+
+    // For list conversions, MapStruct automatically applies the single-item mapping
+    List<CatalogEntry> toEntityList(List<CatalogEntryDto> dtoList);
+    List<CatalogEntryDto> toDtoList(List<CatalogEntry> entityList);
 }

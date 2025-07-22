@@ -11,11 +11,12 @@ import java.util.List;
 @Builder
 public class ParsedSong {
 
-    @NonNull
-    ParsedHeader parsedHeader;
-
-    @Singular
-    List<String> lines;
+    public ParsedSong withHeader(ParsedHeader newHeader) {
+        return ParsedSong.builder()
+                .parsedHeader(newHeader)
+                .lines(getLines())
+                .build();
+    }
 
     @Override
     public String toString() {
@@ -32,4 +33,11 @@ public class ParsedSong {
 
         return builder.toString();
     }
+
+    @NonNull
+    ParsedHeader parsedHeader;
+
+    @Singular
+    List<String> lines;
+
 }

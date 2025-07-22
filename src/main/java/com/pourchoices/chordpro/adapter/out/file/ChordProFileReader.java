@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,11 +18,11 @@ import java.util.List;
 @Service
 public class ChordProFileReader {
 
-    public List<String> read(String songFilename) {
+    public List<String> read(Path chordproSongPath) {
 
         List<String> songFile = new ArrayList<>();
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(songFilename))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(chordproSongPath.toFile()))) {
 
             String line;
 

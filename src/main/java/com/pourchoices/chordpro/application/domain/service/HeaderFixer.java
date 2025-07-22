@@ -9,6 +9,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 
 @Service
@@ -43,16 +45,17 @@ public class HeaderFixer {
             fixSong(songFilename);
         }
     }
-    public void fixSong(String songFilename) {
+    public void fixSong(String chordproSongFilename) {
 
         // read the song file and parse it
-        List<String> songAsStringLines = this.chordProFileReader.read(songFilename);
-        ParsedSong parsedSong = this.songParser.parse(songFilename, songAsStringLines);
+        Path chordproSongPath = Paths.get(chordproSongFilename);
+        List<String> songAsStringLines = this.chordProFileReader.read(chordproSongPath);
+        ParsedSong parsedSong = this.songParser.parse(chordproSongFilename, songAsStringLines);
 
         // add missing mandatory header directives ( w/ default values )
 
         // write the updated song file
-        this.chordProFileWriter.write(songFilename, parsedSong);
+        this.chordProFileWriter.write(chordproSongPath, parsedSong);
 
     }
 
