@@ -2,116 +2,129 @@
 {artist: Madonna}
 {key: C#m}
 {duration: 4:00}
-{meta: nord: P54}
-{meta: backing: 59}
-{meta: countin: 4}
-
-{c:***********************************************}
-{c:** meta: backing: 59}
-{c:** meta: nord: P54}
-{c:** meta: countin: 4}
-{c:***********************************************}
+{tempo: 100}
+{meta: nord: }
+{meta: countin: 8}
+{meta: performance: C#m}
 
 
-{comment: Intro}
-| C#m . . . | B   . . . |
-| C#m . . . | C#m . . . |
-| C#m . . . | B   . . . |
-| C#m . . . | C#m . . . |
+
+
+
+{comment: Intro - Percussion Only}
+|  .  .  .  .  |  .  .  .  .  |
+
+
+{comment: Intro - Full Band}
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
+
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
+
+| [C#m] ¿Cómo puede [B]ser [C#m]verdad?  .  .  .  |
+
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
+
 
 {start_of_verse}
-[C#m]Last night I dreamt of[B] San [C#m]Pedro
-[A] Just [C#m]like I'd [E]never gone, I [B]knew the song
-A [C#m]young girl with eyes like[B] the [C#m]desert
-[A] It [C#m]all seems like [E]yesterday, not [B]far away[G#7]
+[C#m]Last night I [B]dreamt of San [C#m]Pedro,
+[A/C#]     Just   [C#m]like     I'd [E]never gone. I [B]knew the song,
+A [C#m]young girl with [B]eyes like the [C#m]desert.
+[A/C#]     It     [C#m]all     seems like [E]yesterday, not [B]far a[G#/C]way.
 {end_of_verse}
 
 
 {start_of_chorus}
-[C#m]Tropical the is[B]land breeze
-[F#m]All of nature wild[E]and free
-[B]This is where I long [F#m]to be
-[A]La isla [B]bo[C#m]nita
-[C#m]   And when the sam[B]ba played
-[F#m]   The sun would set[E]so high
-Ring through my [B]ears and sting[F#m]my eyes
-Your [F#m]Spanish lul[B]laby[C#m]
+[C#m]Tropical the is[G#m]land [G#m7]breeze,
+[F#m]All of nature, wi[E]ld and free.
+[B]This is where I long [B/F#]to [F#m]be,
+[F#m]La  isla  [B]bo - [C#m]ni - ta.
+[C#m] And when the [G#m]samba [G#m7]played,
+[F#m] The sun would set[E] so high, and ring
+[B]through my ears and [B/F#]sting my [F#m]eyes
+Your [F#m]Spanish lul - [B]lab - [C#m]y.
 {end_of_chorus}
 
 
-{comment: Interlude}
-[C#m] [B][C#m][B][C#m]
+{comment: Interlude I}
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
 
 
 {start_of_verse}
-[C#m]I  fell in love with[B] San [C#m]Pedro
-[A] Warm [C#m]wind carried on[E] the sea, he [B]called to me
-[C#m]   Te dijo[B] te [C#m]amo
-[A] I [C#m]prayed that the days[E]would last
-They [B]went so [G#7]fast
+[C#m]I fell in [B]love with San [C#m]Pedro,
+[A/C#] Warm [C#m]wind carried [E]on the sea. He [B]called to me,
+[C#m]  Te [B]dijo: "te [C#m]amo." 
+[A/C#] I   [C#m]prayed that the [E]days would last, they [B]went so [G#/C]fast.
 {end_of_verse}
 
 
 {start_of_chorus}
-[C#m]Tropical the is[B]land breeze
-[F#m]All of nature wild[E]and free
-[B]This is where I long [F#m]to be
-[A]La isla [B]bo[C#m]nita
-[C#m]   And when the sam[B]ba played
-[F#m]   The sun would set[E]so high
-Ring through my [B]ears and sting[F#m]my eyes
-Your [A]Spanish lul[B]laby[C#m]
+[C#m]Tropical the is[G#m]land [G#m7]breeze,
+[F#m]All of nature, wi[E]ld and free.
+[B]This is where I long [B/F#]to [F#m]be,
+[F#m]La  isla  [B]bo - [C#m]ni - ta.
+[C#m] And when the [G#m]samba [G#m7]played,
+[F#m] The sun would set[E] so high, and ring
+[B]through my ears and [B/F#]sting my [F#m]eyes
+Your [F#m]Spanish lul - [B]lab - [C#m]y.
 {end_of_chorus}
 
 
-{comment: Interlude}
-[C#m] [B][C#m][B][C#m]
+{comment: Interlude II}
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
 
 
 {comment: Bridge}
-[F#m]I  want to [D]be where the [E]sun warms the [Bsus2]sky
-When it's [F#m]time for si[D]esta you can [E]watch them go by
-[F#m]Beautiful [D]faces, no [E]cares in this [Bsus2]world
-Where a [F#m]girl loves a [D]boy, and a [E]boy [G#7]loves a [C#m]girl[B]
+[F#m]I want to [D]be where the [E]sun warms the [Bsus2]sky.
+When it's [F#m]time for si[D]esta you can [E]watch them go by.
+[F#m]Beautiful [D]faces, no [E]cares in this [Bsus2]world.
+Where a [F#m]girl loves a [D]boy, and a [E]boy___ [G#/C#]loves a [C#m]girl.
 
 
-{comment: Interlude}
-[C#m] [B][C#m]
+{comment: Interlude III}
+| [C#m]  .  [B]  .  | [C#m]  .  .  .  |
+| [A/C#]  .  [C#m]  .  | [E]  .  [B]  .  |
 
 
 {start_of_verse}
-[C#m]Last night I dreamt of[B] San [C#m]Pedro
-[A] It [C#m]all seems like [E]yesterday, not [B]far away
+[C#m]Last night I [B]dreamt of San [C#m]Pedro,
+[A/C#]     It     [C#m]all     seems like [E]yesterday, not [B]far a[G#/C]way.
 {end_of_verse}
 
 
 {start_of_chorus}
-[C#m]Tropical the is[B]land breeze
-[F#m]All of nature wild[E]and free
-[B]This is where I long [F#m]to be
-[A]La isla [B]bo[C#m]nita
-[C#m]   And when the sam[B]ba played
-[F#m]   The sun would set[E]so high
-Ring [A]through my [B]ears and sting[F#m]my eyes
-Your [F#m]Spanish lul[B]laby[C#m]
-[A]  [B]  [C#m]Tropical the is[B]land breeze
-[F#m]All of nature wild[E]and free
-[B]This is where I long [F#m]to be
-[A]La isla [B]bo[C#m]nita
-[C#m]   And when the sam[B]ba played
-[F#m]   The sun would set[E]so high
-Ring [A]through my [B]ears and sting[F#m]my eyes
-Your [F#m]Spanish lul[B]laby[C#m][A][B]
+[C#m]Tropical the is[G#m]land [G#m7]breeze,
+[F#m]All of nature, wi[E]ld and free.
+[B]This is where I long [B/F#]to [F#m]be,
+[F#m]La  isla  [B]bo - [C#m]ni - ta.
+[C#m] And when the [G#m]samba [G#m7]played,
+[F#m] The sun would set[E] so high, and ring
+[B]through my ears and [B/F#]sting my [F#m]eyes
+Your [F#m]Spanish lul - [B]lab - [C#m]y. [A] [B]
+
+[C#m]Tropical the is[G#m]land [G#m7]breeze,
+[F#m]All of nature, wi[E]ld and free.
+[B]This is where I long [B/F#]to [F#m]be,
+[F#m]La  isla  [B]bo - [C#m]ni - ta.
+[C#m] And when the [G#m]samba [G#m7]played,
+[F#m] The sun would set[E] so high, and ring
+[B]through my ears and [B/F#]sting my [F#m]eyes
+Your [F#m]Spanish lul - [B]lab - [C#m]y. [A] [B]
 {end_of_chorus}
 
 
 {comment: Outro}
-[C#m]   La la [B]la la la la la[F#m][E]
-[B]  [F#m]   Te [A]dijo [B]te [C#m]amo
-[C#m]    [B]  [F#m]   La la [E]la la la la la[A][B][F#m]
-El [F#m]dijo que te [B]ama[C#m][A][B]
+[C#m]  La la [G#m]la la [G#m7]la la[F#m]____[E]__  [B]  [B/F#] [F#m]
+[F#m] Te dijo [B]te [C#m]amo
+[C#m]   [G#m] [G#m7]   [F#m]  La la [E]la la la la la.[B]  [B/F#] [F#m]
+[F#m] El dijo que te [B]ama [C#m] [A] [B]
 
 
-{comment: Fade-Out}
-| C#m . . . | B   . . . | F#m . . . | E . . . |
-| B   . . . | F#m . . . | F#m . . . | B . . . |
+[C#m] Ahh  [G#m]Ahh [G#m7] Ahh [F#m] Ahh [E] Ahh  [B] Ahh [B/F#] Ahh [F#m]
+[F#m]La  isla  [B]bo - [C#m]ni - ta
+[C#m] Ahh  [G#m]Ahh [G#m7] Ahh [F#m] Ahh [E] Ahh  [B] Ahh [B/F#] Ahh [F#m]
+[F#m]Spanish lul - [B]lab - [C#m]y [A] [B]
+
+
+| C#m |
