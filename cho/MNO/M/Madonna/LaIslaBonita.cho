@@ -3,11 +3,17 @@
 {key: C#m}
 {duration: 4:00}
 {tempo: 100}
-{meta: nord: }
+{meta: nord: P54}
+{meta: backing: P54}
 {meta: countin: 8}
 {meta: performance: C#m}
 
-
+{c:***********************************************}
+{c:** meta: backing: 59}
+{c:** meta: nord: P54}
+{c:** meta: countin: 8}
+{c:** meta: performance: C#m}
+{c:***********************************************}
 
 
 

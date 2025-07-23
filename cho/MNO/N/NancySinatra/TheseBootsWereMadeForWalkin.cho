@@ -3,17 +3,20 @@
 {key: E}
 {duration: 2:20}
 {tempo: 84}
-{meta: nord: }
-{meta: countin: }
+{meta: countin: 4}
 {meta: performance: E}
 
-
+{c:***********************************************}
+{c:** meta:countin: 4}
+{c:** meta:performance: E}
+{c:***********************************************}
 
 {comment: Intro - Chromatic Walkdown}
-|  E  .  D#  .  |  D  .  C#  .  |  C  .  B  .  |  A#  .  A  .  |
+| E  .  D#  .  | D   .  C#  .  |  
+| C  .  B   .  | A#  .  A   .  |
 
-| E  .  .  .  | E  .  .  .  | E  .  .  .  | E  .  .  .  | 
-
+| E  .  .   .  | E   .  .   .  | 
+| E  .  .   .  | E   .  .   .  | 
 
 
 {start_of_verse}
