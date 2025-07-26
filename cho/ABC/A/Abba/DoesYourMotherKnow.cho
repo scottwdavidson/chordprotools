@@ -3,14 +3,14 @@
 {key: G}
 {tempo: 120}
 {duration: 3:10}
-{meta:nord: P54}
+{meta:nord: M22}
 {meta:countin: 8}
 {meta:backing: 62} 
 
 {c:*****************************************}
-{c:** {meta:nord: P54 **}
-{c:** {meta:countin: 8 **}
-{c:** {meta:backing: 62 **}
+{c:** meta:nord: M22 **}
+{c:** meta:countin: 8 **}
+{c:** meta:backing: 62 **}
 {c:*****************************************}
 
 {comment: Intro}
