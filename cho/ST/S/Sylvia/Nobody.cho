@@ -7,9 +7,9 @@
 {meta:backing: 63}
 
 {c:*****************************************}
-{c:** {meta:nord: P00} **}
-{c:** {meta:countin: 8} **}
-{c:** {meta:backing: 63} **}
+{c:** meta:nord: P00 **}
+{c:** meta:countin: 8 **}
+{c:** meta:backing: 63 **}
 {c:*****************************************}
 
 
