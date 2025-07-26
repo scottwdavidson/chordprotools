@@ -1,16 +1,25 @@
-
-{c:***********************************************}
-{c:***********************************************}
-
-{t:Corazon Espinado}
+{title:Corazon Espinado}
 {artist:Santana}
 {tempo:120}
 {key:Bm}
 {time:4/4}
+{duration: 3:30}
+{meta:nord: P00}
+{meta:countin: 0}
+
+{c:*****************************************}
+{c:** {meta:nord: P00  }
+{c:** {meta:countin: 0 } 
+{c:*****************************************}
+
 
 {c:Intro}
-| Bm Em F#7 | F#7 |   x2 (piano)
-| Bm Em F#7 | F#7 |   x4
+| Bm Em F#7 | F#7 |   (piano)
+| Bm Em F#7 | F#7 |   (piano)
+| Bm Em F#7 | F#7 |   
+| Bm Em F#7 | F#7 |   
+| Bm Em F#7 | F#7 |   
+| Bm Em F#7 | F#7 |   
 
 {sov}
 [Bm]Esa muj[Em]er me es[F#7]tá matando  [Bm]Me ha espi[Em]nado el cora[F#7]zón
