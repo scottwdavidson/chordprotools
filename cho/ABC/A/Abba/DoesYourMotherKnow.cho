@@ -2,28 +2,45 @@
 {artist: Abba}
 {key: G}
 {tempo: 120}
+{duration: 3:10}
+{meta:nord: P54}
+{meta:countin: 8}
+{meta:backing: 62} 
+
+{c:*****************************************}
+{c:** {meta:nord: P54} **}
+{c:** {meta:countin: 8} **}
+{c:** {meta:backing: 62} **}
+{c:*****************************************}
 
 {comment: Intro}
-| Gm7 . . . | Gm7 . . . | Gm7 . . . | Gm7 . . . |
-| Gm7 . . . | Gm7 . . . | Gm7 . . . | Gm7 . . . |
-| Gm7 . . . | Gm7 . . . | Gm7 . . . | Gm7 . . . |
-| Gm7 . . . | Gm7 . . . | Gm7 . . . | Gm7 . . . |
+| G   . . . | G   . . . | G   . . . | G   . . . |
+| G   . . . | G   . . . | G   . . . | G   . . . |
+
 | G   . . . | G   . . . | G   . . . | G   . . . |
 
 {start_of_verse}
 [G]You're so hot, teasing me[Em]
-[G]So you're blue,[C] but I [Bm]can't take a [Am]chance on a [G]chick like you[D]
+[G]So you're blue,
+( ALL )   [C] but I [Bm]can't take a 
+( ALL )   [Am]chance on a [G]chick like you[D]
 That's something I couldn't do[G]
+{end_of_verse}
+
+{start_of_verse}
 There's that look in your eyes[Em]
-[G]I can read[C] in your [Bm]face that your [Am]feelings are [G]driving you wild[D]
+[G]I can read
+( ALL )   [C] in your [Bm]face that your
+( ALL )   [Am]feelings are [G]driving you wild[D]
 Ah, but girl, you're only a child[G]
 {end_of_verse}
 
-
+{c: All Voices}
 {start_of_chorus}
 Well I can [C]dance with you, honey
 If you think it's funny
 Does your mother know that you're out?
+
 [G] And I can [C]chat with you, baby
 Flirt a little, maybe
 Does your mother know that you're out?
@@ -31,30 +48,39 @@ Does your mother know that you're out?
 
 
 {comment: Bridge}
-[G] Take it [G]easy, take it easy
+[G] Take it [G]easy, 
+(Female)  take it easy
 Better [C]slow down, [Cm]girl
 That's no [G]way to [Cm]go
-Does your [G]mother [Cm]know?
-Take it [G]easy, take it easy
+(Female)  Does your [G]mother [Cm]know?
+
+Take it [G]easy, 
+(Female)  take it easy
 Try to [C]cool it, [Cm]girl
 Take it [G]nice and [Cm]slow
-Does your [G]mother [Cm]know?
-
+(Female)  Does your [G]mother [Cm]know?
 
 {comment: Interlude}
-[G]G [F]F [G]G [F]F [G]G [F]F [G]G [F]F
+| G   . . . | G   . . . | G   . . . | G   . . . |
 
+| G   . . . | G   . . . | G   . . . | G   . . . |
 
 {start_of_verse}
 [G]I can see what you want[Em]
-[G]But you seem[C] pretty [Bm]young to be [Am]searching for [G]that kind of fun[D]
+[G]But you seem 
+( ALL )    [C]pretty [Bm]young to be 
+( ALL )    [Am]searching for [G]that kind of fun[D]
 So maybe I'm not the one[G]
+
 Now you're so cute, I like your style[Em]
-[G]And I know[C] what you [Bm]mean when you [Am]give me a [G]flash of that smile
-[D] Smile, but girl, you're only a child[G]
+[G]And I know
+( ALL )    [C] what you [Bm]mean when you 
+( ALL )    [Am]give me a [G]flash of that smile[D]
+But girl, you're only a child[G]
 {end_of_verse}
 
 
+{c: All Voices}
 {start_of_chorus}
 Well I can [C]dance with you, honey
 If you think it's funny
@@ -64,18 +90,20 @@ Flirt a little, maybe
 Does your mother know that you're out?
 {end_of_chorus}
 
-
 {comment: Bridge}
-[G] Take it [G]easy, take it easy
+[G] Take it [G]easy, 
+(Female)  take it easy
 Better [C]slow down, [Cm]girl
 That's no [G]way to [Cm]go
-Does your [G]mother [Cm]know?
-Take it [G]easy, take it easy
+(Female)  Does your [G]mother [Cm]know?
+
+Take it [G]easy, 
+(Female)  take it easy
 Try to [C]cool it, [Cm]girl
 Take it [G]nice and [Cm]slow
-Does your [G]mother [Cm]know?
+(Female)  Does your [G]mother [Cm]know?
 
-
+{c: All Voices}
 {start_of_chorus}
 [G] Well I can [C]dance with you, honey
 If you think it's funny
@@ -83,7 +111,7 @@ Does your mother know that you're out?
 [G] And I can [C]chat with you, baby
 Flirt a little, maybe
 Does your mother know that you're out?
-[G] Well I can [C]dance with you, honey
+[G] And I can [C]dance with you, honey
 If you think it's funny
 Does your mother know that you're out?
 [G] And I can [C]chat with you, baby
@@ -92,7 +120,18 @@ Does your mother know that you're out?
 {end_of_chorus}
 
 
-{comment: Outro (Fade Out)}
+{comment: Outro}
 [G] Well I can [C]dance with you, honey
 If you think it's funny
 Does your mother know that you're out?
+[G] And I can [C]chat with you, baby
+Flirt a little, maybe
+Does your mother know that you're out?
+
+[G] Take it [G]easy, 
+(Female)  take it easy
+Better [C]slow down, [Cm]girl
+That's no [G]way to [Cm]go
+(Female)  Does your [G]mother [Cm]know?
+
+| G . . . |

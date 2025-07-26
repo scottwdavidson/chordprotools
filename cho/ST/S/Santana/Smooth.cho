@@ -4,9 +4,12 @@
 {duration: 4:00}
 {tempo: 116}
 {meta: nord: P25}
+{meta:countin: 0}
+
 
 {c:***********************************************}
-{c:** --> meta: nord: P25}
+{c:** meta:countin: 0 }
+{c:** meta: nord: P25 }
 {c:***********************************************}
 
 {comment: Guitar Intro}
