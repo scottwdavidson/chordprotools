@@ -3,49 +3,38 @@
 {key:G}
 {tempo:165}
 {duration: 3:00}
+{meta: countin: 4}
 {meta: backing: 61}
 {meta: nord: P55}
 
 
 {c:***********************************************}
+{c:** meta: countin: 4}
 {c:** meta: backing: 61}
 {c:** meta: nord: P55}
 {c:***********************************************}
 
 {c:INTRO}
-| <Chuck Berry guitar lick> |
-| G7 . . . | G7 . . . | 
+| <Chuck Berry guitar lick on G> |
 | C  . . . | C  . . . |
 | G  . . . | G  . . . |
 | D  . . . | D  . . . |
 | G  . . . | G  . . . |
 
-* note : remove C in blues pattern 
 
 {start_of_verse}
 [G]Oh, well, oh well, I feel so good today,
 we [C]just touched ground on an international run[G]way..
-[D]jet-propelled back home, from [C]over the seas to the U. S. [G]A.
+[D]jet-propelled back home, from over the seas to the U. S. [G]A.
 {end_of_verse}
 
 {start_of_verse}
 [G]New York, Los Angeles, oh, how I yearned for you.
 [C]Detroit, Chicago, Chattanooga, Baton [G]Rouge..
-let [D]alone just to be at my [C]home back in ol' St. [G]Lou.
+let [D]alone just to be at my home back in ol' St. [G]Lou.
 {end_of_verse}
 
-{c: INTERLUDE:PIANO 12 bars}
-[G]Uh, huh, huh..yea, yeah...uh, huh, huh..yea, yeah..
-Uh, huh, [C]huh..yea, yeah..uh, huh, [G]huh..yea, yeah.
-Uh, huh, [D]huh..yea, yea, yeah..yeah,yeah.[D]
-
-{start_of_verse}
-[G]Did I miss the skyscrapers, did I miss the long freeway?
-From the [C]coast of California to the shores of Delaware [G]Bay.
-You can [D]bet your life I did, till I [C]got back to the U. S. [G]A.
-{end_of_verse}
-
-{c: INTERLUDE:GUITAR 12 bars}
+{c: INTERLUDE:PIANO (&GUITAR) 12 bars}
 | G7 . . . | G7 . . . | 
 | G7 . . . | G7 . . . | 
 | C  . . . | C  . . . |
@@ -54,22 +43,38 @@ You can [D]bet your life I did, till I [C]got back to the U. S. [G]A.
 | G  . . . | G  . . . |
 
 {start_of_verse}
-[G]Looking hard for a drive-in, searching for a corner cafe..
+[G]Did I miss the skyscrapers, did I miss the long freeways?
+From the [C]coast of California to the shores of Delaware [G]Bay.
+You can [D]bet your life I did, till I got back to the U. S. [G]A.
+{end_of_verse}
+
+{c: INTERLUDE:GUITAR (&PIANO) 12 bars}
+| G7 . . . | G7 . . . | 
+| G7 . . . | G7 . . . | 
+| C  . . . | C  . . . |
+| G  . . . | G  . . . |
+| D  . . . | D  . . . |
+| G  . . . | G  . . . |
+
+{start_of_verse}
+[G]Looking hard for a drive-in, searching for a corner cafe.
 where [C]hamburgers sizzle on an open grill night and [G]day.
-Yeah, and a [D]juke-box jumping with [C]records like in the U.S.[G]A.
+Yeah, and a [D]juke-box jumping with records like in the U.S.[G]A.
 {end_of_verse}
 
 {start_of_verse}
-[G]Well, I'm so glad I'm livin' in the U.S.A.
+[G]I'm so glad I'm livin' in the U.S.A.
 Yes, [C]I'm so glad I'm livin' in the U.S.[G]A.
 [D]Anything you want, we got [C]right here in the U.S.[G]A.
 {end_of_verse}
 
+{c: Carmen & Jean}
 {c:OUTRO}
 [G]Well, we're so glad I'm livin' in the U.S.A.
 Yes, [C]we're so glad I'm livin' in the U.S.[G]A.
-[D]Anything you want, we got it [C]right here in the U.S.[G]A. (Fade.)
+[D]Anything you want, we got it [C]right here in the U.S.[G]A. 
 
+{c: Carmen & Jean}
 [G]Well, we're so glad, we're so glad 
 [C]We're so glad
 [G]We're so glad
