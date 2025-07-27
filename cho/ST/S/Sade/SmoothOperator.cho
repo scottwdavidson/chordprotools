@@ -2,14 +2,19 @@
 {artist: Sade}
 {key: Dm}
 {duration: 3:30}
-{meta: countin: 8}
+{meta: countin: 0}
+{meta: nord: 53}
 
 {c:************************************}
-{c:** meta:countin: 8}
+{c:** meta:countin: 0}
+{c:** meta:nord: 53}
 {c:************************************}
 
-{comment: Intro}
-{comment: Bass grace - Keyboard}
+{comment: Intro - Drum, Bass grace}
+| . . . . | . . . . |
+| . . . . | . . . . |
+
+{comment: Bass & Keyboard}
 | Dm7 . . . | Em7 . . . | Dm7 . . . | Em7 . . . | 
 | Dm7 . . . | Em7 . . . | Dm7 . . . | Em7 . . . | 
 
