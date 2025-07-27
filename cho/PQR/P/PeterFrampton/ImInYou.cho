@@ -2,16 +2,17 @@
 {artist: Peter Frampton}
 {key: C}
 {tempo: 99}
+{duration: 4:00}
 {meta: performance: C}
 
 {c:***********************************************}
 {c:** --> meta: performance: C}
 {c:***********************************************}
 
-{comment: Duration: 4:10}
-
 {comment: Intro}
- Am  G   | F    G  Am  | G    G  F  C  | F/C   C   F/C   C   |
+| x    F  .    .  | 
+| F    .  .    G  | G  .  F/G C  | 
+| F/C  C  F/C  C  | C  .  .   x  |
 
 {start_of_verse}
 I don't [F]care where I [Em7]go when I'm [F6]with [G6]you.
@@ -43,14 +44,16 @@ You're in [Gm]me,  [F]
 'Cause you [Ab/Eb]gave me the love,
 [Bb/F]Love that I never had [C] [F/C] [C] [F/C] [C] Yes, you
 [Ab/Eb]Gave me the love, [Bb/F]love that I never had.
-
-[G] [C/G] [G] [C/G] [G] [C/G] [G]
 {end_of_chorus}
 
-{comment: Guitar Solo}
-| Bb/F  F | Bb/F  F | C  Bb/C  | C  Bb/C  |
-
-| Bb/F  F | Bb/F  F | Am  G  | F/G  G  | Am/G  G | F/G  | F/G
+{comment: Solo}
+| G    .     G/C  . | G     .     G/C  . |  
+| G    .     G/C  . | G     .     .    . |
+| Bb/F F     .    . | Bb/F  F     .    . | 
+| C    Bb/C  .    . | C     Bb/C  .    . |
+| Bb/F F     .    . | Bb/F  F     .    . | 
+| Am    .    G    . | Am    .    G     . |
+| Am/G  .    G    . | G7sus .    .     . |
 
 
 {start_of_verse}
