@@ -3,6 +3,12 @@
 {key: G}
 {duration: 3:20}
 {meta: performance: F}
+{meta: nord: P54}
+
+{c:**************************************************}
+{c:** meta: performance: F}
+{c:** meta: nord: P54}
+{c:**************************************************}
 
 {comment: Intro}
 | G . Bm . | C . D . |
@@ -11,53 +17,74 @@
 
 {start_of_verse}
 [G]Day after [Bm]day
-I must [C]face the world of [C/D]strangers where I [G]don't belong[Bm]
-[Bm]I'm   [C]not that strong[C/D]
+I must [C]face the world of [C/D]strangers where I [Em7]don't belong
+I'm   [Am7]not that strong[Am7/D]_[D]
 [G]It's nice to [Bm]know
-[Bm]that there's [C]someone I can [C/D]turn to who will [G]always care[Bm]
-[C]You're always [Am7]there
+that there's [C]someone I can [C/D]turn to who will [Em7]always care
+You're [Am7]always there[Am7/D]
 {end_of_verse}
 
 {start_of_chorus}
-[Am7]When there's [G]no gettin' [Bm]over that [C]rainbow[C/D]
-[C/D]When my [G]smallest of [Bm]dreams won't come [C]true[C/D]
-[C/D]I can  [G]take all the [Bm]madness the [C]world has to [C]give
-[C]But I [Am7]won't last a [C/D]day without [G]you
+When there's [G]no gettin' [F/G]over that [Cadd9]rainbow[Am7]
+[Am7/D]When my [G]smallest of [F/G]dreams won't come [Cadd9]true[Am7]
+I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
+But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
+
+{comment: ExtendedTurn Around}
+| G . Bm . | C . D . |
+| G . Bm . | C . D . |
 
 {start_of_verse}
 [G]So many [Bm]times
-[Bm]when the [C]city seems to [C/D]be without a [G]friendly face[Bm]
-[Bm]  a   l[C]onely place[C/D]
+when the [C]city seems to [C/D]be without a [Em7]friendly face
+a l[Am7]onely place[Am7/D]_[D]
 [G]It's nice to [Bm]know
-[Bm]that you'll [C]be there if I [C/D]need you and you'll [G]always smile[Bm]
-[C]It's all worthwhile[Am7]
+that you'll [C]be there if I [C/D]need you and you'll [Em7]always smile
+It's [Am7]all worthwhile[Am7/D]
 {end_of_verse}
 
 {start_of_chorus}
-[Am7]When there's [G]no gettin' [Bm]over that [C]rainbow[C/D]
-[C/D]When my [G]smallest of [Bm]dreams won't come [C]true[C/D]
-[C/D]I can  [G]take all the [Bm]madness the [C]world has to [C]give
-[C]But I [Am7]won't last a [C/D]day without [G]you
+When there's [G]no gettin' [F/G]over that [Cadd9]rainbow[Am7]
+[Am7/D]When my [G]smallest of [F/G]dreams won't come [Cadd9]true[Am7]
+I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
+But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
+
+{comment: Bridge}
+Touch me and I end up 
+singing
+Troubles seem to up and disappear, you
+Touch me with the love you're
+bringing
+I can't really lose 
+when you're near
+(when you're near)
 
 {start_of_verse}
 [G]If all my [Bm]friends
-[Bm]have  [C]forgotten half their [C/D]promises, they're [G]not unkind[Bm]
-[Bm]Just  [C]hard to find[C/D]
+have  for[C]gotten half their [C/D]promises, they're [Em7]not unkind
+Just [Am7]hard to find[Am7/D]
 [G]One look at [Bm]you
-[Bm]and I [C]know that I could [C/D]learn to live with[G]out the rest[Bm]
-[C]I've found the [Am7]best
+and I [C]know that I could [C/D]learn to live with[Em7]out the rest
+I [Am7]found the [Am7/D]best
 {end_of_verse}
 
 {start_of_chorus}
-[Am7]When there's [G]no gettin' [Bm]over that [C]rainbow[C/D]
-[C/D]When my [G]smallest of [Bm]dreams won't come [C]true[C/D]
-[C/D]I can  [G]take all the [Bm]madness the [C]world has to [C]give
-[C]But I [Am7]won't last a [C/D]day without [G]you
+When there's [G]no gettin' [F/G]over that [Cadd9]rainbow[Am7]
+[Am7/D]When my [G]smallest of [F/G]dreams won't come [Cadd9]true[Am7]
+I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
+But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
 
-[Am7]When there's [G]no gettin' [Bm]over that [C]rainbow[C/D]
-[C/D]When my [G]smallest of [Bm]dreams won't come [C]true[C/D]
-[C/D]I can  [G]take all the [Bm]madness the [C]world has to [C]give
-[C]But I [Am7]won't last a [C/D]day without [G]you
+{start_of_chorus}
+When there's [G]no gettin' [F/G]over that [Cadd9]rainbow[Am7]
+[Am7/D]When my [G]smallest of [F/G]dreams won't come [Cadd9]true[Am7]
+I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
+But I [Am7]won't last a [Am7/D]day without [G]you
+{end_of_chorus}
+
+{comment: Outro}
+| G . Bm . | C . D . |
+| G . Bm . | C . D . |
+
