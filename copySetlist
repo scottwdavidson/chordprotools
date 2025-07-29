@@ -49,3 +49,8 @@ cp ./cho/ABC/A/AmyWinehouse/Valerie.cho ~/tmp/setlist-ff
 cp ./cho/PQR/R/Romantics/WhatILikeAboutYou.cho ~/tmp/setlist-ff
 cp ./cho/ABC/C/CatStevens/WildWorld.cho ~/tmp/setlist-ff
 cp ./cho/ABC/A/AlStewart/YearOfTheCat.cho ~/tmp/setlist-ff
+cp ./cho/ABC/B/BrunoMars/Apt.cho ~/tmp/setlist-ff
+cp ./cho/DEF/F/FleetwoodMac/SayThatYouLoveMe.cho ~/tmp/setlist-ff
+cp ./cho/JKL/J/JoeCocker/UnchainMyHeart.cho ~/tmp/setlist-ff
+cp ./cho/ABC/C/Carpenters/IWontLastADayWithoutYou.cho ~/tmp/setlist-ff
+cp ./cho/ABC/C/Carpenters/IWontLastADayWithoutYou-f.cho ~/tmp/setlist-ff
