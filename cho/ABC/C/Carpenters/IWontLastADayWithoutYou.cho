@@ -31,8 +31,7 @@ I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
 But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
 
-{comment: ExtendedTurn Around}
-| G . Bm . | C . D . |
+{comment: Turn Around}
 | G . Bm . | C . D . |
 
 {start_of_verse}
@@ -51,15 +50,19 @@ I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
 But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
 
-{comment: Bridge}
-[Em]Touch me [A7]and I end up 
-[Dmaj7]singing
-[Em]Troubles seem to [A7]up and disap[Bsus]pear[B], you
-[C#m7]Touch me [F#7]with the love you're
-[B]bringing
-[G#m7]I can't really [Amaj7]lose 
-when you're [Bsus]near[B]
-(when you're [Am7]near[D7])
+{comment: Turn Around}
+| G . Bm . | C . D . |
+
+
+{{{comment: Bridge}}}
+{{[Em]Touch me [A7]and I end up }}
+{{[Dmaj7]singing }}
+{{[Em]Troubles seem to [A7]up and disap[Bsus]pear[B], you }}
+{{[C#m7]Touch me [F#7]with the love you're }}
+{{[B]bringing }}
+{{[G#m7]I can't really [Amaj7]lose }}
+{{when you're [Bsus]near[B] }}
+{{(when you're [Am7]near[D7])}}
 
 {start_of_verse}
 [G]If all my [Bm]friends
