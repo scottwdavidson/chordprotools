@@ -14,7 +14,7 @@
 {c:Intro}
 | A | D#m7 Dmaj7/A | E13 E9 |
 
-{sov}
+{start_of_verse}
 [A]Three little birds, [B9/F#]sat on my window
 [D/E]And they told [E9]me I don't need to wor[A]ry
 [A]Summer came like cinna[B9/F#]mon 
@@ -23,17 +23,18 @@ So sweet, [D/E]Little girls [E9]double-dutch on the con[A]crete
 [F#m7]Maybe so[F#mmaj7/E#]metimes, we've [F#m7]got it wrong, but it's alrig[B7]ht
 The m[Dmaj7]ore things seem to change, the more [Dmmaj7]they stay the same
 Oh, don't you hesitate
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [A]Girl, put your records on, [B9/F#]tell me your favourite song
 [D/E]You go ahead, let your hai[A]r down
 [A]Sapphire and faded jeans, [B7/F#]I hope you get your dreams,
 [D/E]Just go a[E9]head, let your hai[A]r down
 [Dmaj7]     You're gonna find yourself s[Dm6]omewhere, someh[A]ow
-{soc}
+{start_of_chorus}
 
-{sov}
+{comment: Jean .... wait for guitar to finish phrase}
+{start_of_verse}
 [A]Blue as the sky, [B9/F#]sunburnt and lonely,
 [D/E]Sipping tea [E9]in a bar by the roads[A]ide,
 (just relax, just r[A]elax)
@@ -43,16 +44,17 @@ Oh, don't you hesitate
 [F#m7]Maybe so[F#mmaj7/E#]metimes, we fee[F#m7]l afraid, but it's alright[B7]
 The m[Dmaj7]ore you stay the same, the more they[Dmmaj7]seem to change
 Don't you think it's strange?
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [A]Girl, put your records on, [B9/F#]tell me your favourite song
 [D/E]You go ahead, let your hai[A]r down
 [A]Sapphire and faded jeans, [B7/F#]I hope you get your dreams,
 [D/E]Just go a[E9]head, let your hai[A]r down
 [Dmaj7]     You're gonna find yourself s[Dm6]omewhere, someh[A]ow
-{soc}
+{start_of_chorus}
 
+{comment: BRIDGE}
 {sob}
 [Bm7]'Twas more than I could take, pity for pity's sake
 [F#m7]Some nights kept me awake,[N.C.] I thought that I was stronger[Bm7]
@@ -60,12 +62,12 @@ Don't you think it's strange?
 [Dmaj7]Do what you want [E7]to
 {eob}
 
-{soc}
+{start_of_chorus}
 [A]Girl, put your records on, [B9/F#]tell me your favourite song
 [D/E]You go ahead, let your hai[A]r down
 [A]Sapphire and faded jeans, [B7/F#]I hope you get your dreams,
 [D/E]Just go a[E9]head, let your hai[A]r down
-{soc}
+{start_of_chorus}
 
 {c:Outro}
 [A]Girl, put your records on, [B9/F#]tell me your favourite song
