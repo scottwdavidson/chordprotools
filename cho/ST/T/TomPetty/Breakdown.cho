@@ -18,7 +18,7 @@
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
 
-{c: guitar enters}
+{c: guitar enters - add "Ahs"}
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
@@ -46,7 +46,7 @@ Say [Am]there ain't no [G]use in pre[Am]tending,[G]
 ...it's al[F]right,[F6][Fmaj7][F6]
 {end_of_chorus}
 
-{comment: Piano Instrumental}
+{comment: Piano RIFF}
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
 
@@ -65,8 +65,25 @@ Say [Am]there ain't no [G]use in pre[Am]tending,[G]
 ...it's al[F]right,[F6][Fmaj7][F6]
 {end_of_chorus}
 
-{comment: Outro -> Guitar/Piano}
+{comment: Pre-Outro -> Guitar/Piano}
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
+
+{start_of_verse}
+Say [Am]there ain't no [G]use in pre[Am]tending,[G]
+[Am]Your eyes [G]give you a[Am]way[G]
+[Am]Something in[G]side you is [Am]feeling like [G]I do,
+[Am]We said all [G]there is to [F]say...[F6][Fmaj7][F6]_Baby!
+{end_of_verse}
+
+{start_of_chorus}
+[Am]Break[G]down [F]go ahead and [G]give it to me
+[Am]Break[G]down honey, [F]take me through the [G]night
+[Am]Break[G]down now I'm [F]standing here, [G]can't you see?
+[Am]Break[G]down it's al[F]right..[F6][Fmaj7][F6]
+...it's al[F]right,[F6][Fmaj7][F6]
+{end_of_chorus}
+
+| Am |

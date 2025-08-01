@@ -3,11 +3,16 @@
 {key: Eb}
 {duration: 2:40}
 {tempo: 149}
-{meta: countin: 8}
+{meta: countin: 4}
+{meta: nord: P51}
 
 {c:***************************}
-{c:** meta: countin: 8}
+{c:** meta: countin: 4}
+{c:** meta: nord: P51}
 {c:***************************}
+
+{comment: Carmen / Jean : Over 8 beats}
+| GAME ... START |
 
 {start_of_chorus}
 [Cm]Apateu, apateu
@@ -117,3 +122,10 @@ I'm on my [F]way
 [Cm]Apateu, apateu
 [Eb]Uh, uhhuh, uhhuh
 {end_of_chorus}
+
+{comment: SLOW OUTRO}
+[Ab]Don't you want me like I [Bb]want you, baby?
+[Cm]Don't you need me like I [Eb]need you now?
+[Ab]Sleep tomorrow, but to[Bb]night, go crazy
+[Cm]All you gotta do is just [Eb]meet me at the
+
