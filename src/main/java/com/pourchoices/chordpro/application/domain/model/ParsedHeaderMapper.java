@@ -14,6 +14,8 @@ public class ParsedHeaderMapper {
         ParsedHeader.ParsedHeaderBuilder parsedHeaderBuilder = ParsedHeader.builder();
 
         // mandatory entries
+        parsedHeaderBuilder.chordProFilename(catalogEntry.getChordProFilename());
+
         parsedHeaderBuilder.headerLine(
                 ParsedHeaderLine.builder()
                         .headerDirective(HeaderDirective.TITLE)

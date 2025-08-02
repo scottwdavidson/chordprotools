@@ -62,8 +62,7 @@ public class UpdateSongService implements UpdateSongUseCase {
         ParsedSong currentParsedSong = this.songParser.parse(chordproSongPathString, chordproFileAsList);
 
         // replace the header if changed
-//        if (!currentParsedSong.getParsedHeader().equals(potentialReplacementParsedHeader)) {
-        if (true) {
+        if (!currentParsedSong.getParsedHeader().equals(potentialReplacementParsedHeader)) {
             ParsedSong newSong = currentParsedSong.withHeader(potentialReplacementParsedHeader);
 
             // overwrite original with the new song

@@ -3,10 +3,12 @@
 {key: Em}
 {duration: 3:22}
 {tempo: 106}
+{meta: nord: P34}
 {meta: countin: 8}
 
 {c:***********************************************}
-{c:**  meta: countin: 8}
+{c:**  meta: nord: P34   }
+{c:**  meta: countin: 8   }
 {c:***********************************************}
 
 {c: Intro}
