@@ -10,6 +10,8 @@ import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import com.pourchoices.chordpro.application.domain.port.in.UpdateSongUseCase;
 import com.pourchoices.chordpro.application.domain.port.out.CatalogPort;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.Path;
@@ -18,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
+@AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class UpdateSongService implements UpdateSongUseCase {
 
     private final CatalogPort catalogPort;
@@ -26,20 +29,6 @@ public class UpdateSongService implements UpdateSongUseCase {
     private final SongParser songParser;
     private final ParsedHeaderMapper parsedHeaderMapper;
     private final ChordProFileWriter chordProFileWriter;
-
-    public UpdateSongService(CatalogPort catalogPort,
-                             ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig,
-                             ChordProFileReader chordproFileReader,
-                             SongParser songParser,
-                             ParsedHeaderMapper parsedHeaderMapper,
-                             ChordProFileWriter chordProFileWriter) {
-        this.catalogPort = catalogPort;
-        this.chordproCatalogIndexPathConfig = chordproCatalogIndexPathConfig;
-        this.chordproFileReader = chordproFileReader;
-        this.songParser = songParser;
-        this.parsedHeaderMapper = parsedHeaderMapper;
-        this.chordProFileWriter = chordProFileWriter;
-    }
 
     @Override
     public void updateSong(String chordproSongPathString) {

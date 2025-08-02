@@ -4,6 +4,8 @@ import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,14 +19,11 @@ import org.slf4j.LoggerFactory;
  *
  */
 @Service
+@AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class SongParser {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(SongParser.class);
     private final SongLineParser songLineParser;
-
-    public SongParser(SongLineParser songLineParser) {
-        this.songLineParser = songLineParser;
-    }
 
     public ParsedSong parse(String chordproFilename, List<String> songFile) {
 

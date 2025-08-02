@@ -5,8 +5,10 @@ import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
 import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.Path;
@@ -14,6 +16,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 @Service
+@AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class HeaderFixer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HeaderFixer.class);
@@ -21,16 +24,6 @@ public class HeaderFixer {
     private final SongListingFileReader songListingFileReader;
     private final ChordProFileReader chordProFileReader;
     private final ChordProFileWriter chordProFileWriter;
-
-    public HeaderFixer(SongParser songParser,
-                       SongListingFileReader songListingFileReader,
-                       ChordProFileReader chordProFileReader,
-                       ChordProFileWriter chordProFileWriter) {
-        this.songParser = songParser;
-        this.songListingFileReader = songListingFileReader;
-        this.chordProFileReader = chordProFileReader;
-        this.chordProFileWriter = chordProFileWriter;
-    }
 
     public void fix(String songsFilename){
 
