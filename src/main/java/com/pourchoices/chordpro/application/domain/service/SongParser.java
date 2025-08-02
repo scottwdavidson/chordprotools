@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
@@ -47,8 +48,13 @@ public class SongParser {
 
             ParsedHeaderLine parsedHeaderLine =
                     this.songLineParser.parseHeaderLine(line);
+
             if (parsedHeaderLine != null) {
-                headerBuilder.headerLine(parsedHeaderLine);
+
+                // ignore EPHEMERAL COMMENT lines - they'll be regenerated as needed
+                if (!parsedHeaderLine.getHeaderDirective().equals(HeaderDirective.EPHEMERAL_COMMENT)) {
+                    headerBuilder.headerLine(parsedHeaderLine);
+                }
                 lineIndex++;
             }
             else {
