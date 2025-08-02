@@ -1,4 +1,4 @@
 mvn spring-boot:run \
- -Dspring-boot.run.arguments="generate-index /Users/s0d01gr/tmp/songs-listing.txt "
+ -Dspring-boot.run.arguments="generate-index /Users/scott/tmp/songsListing.txt "
 
 
