@@ -7,8 +7,10 @@ import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
 import com.pourchoices.chordpro.application.domain.model.*;
 import com.pourchoices.chordpro.application.domain.port.in.GenerateIndexUseCase;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
+import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
+@AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class GenerateIndexService implements GenerateIndexUseCase {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateIndexService.class);
@@ -29,20 +32,6 @@ public class GenerateIndexService implements GenerateIndexUseCase {
     private final SongParser songParser;
 
     private final ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig;
-
-
-    public GenerateIndexService(CatalogFileWriter catalogFileWriter,
-                                SongListingFileReader songListingFileReader,
-                                ChordProFileReader chordProFileReader,
-                                SongParser songParser,
-                                ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig) {
-
-        this.catalogFileWriter = catalogFileWriter;
-        this.songListingFileReader = songListingFileReader;
-        this.chordProFileReader = chordProFileReader;
-        this.songParser = songParser;
-        this.chordproCatalogIndexPathConfig = chordproCatalogIndexPathConfig;
-    }
 
     public void generateIndex(String songsListingPathString){
 
