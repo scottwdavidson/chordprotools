@@ -23,6 +23,7 @@ public interface SongParserTestData extends SongLineParserTestData {
 
     public final static ParsedHeader EXPECTED_PARSED_HEADER_01 =
             ParsedHeader.builder()
+                    .chordProFilename("./cho/ABC/A/AliceCooper/SchoolsOutForSummer.cho")
                     .headerLine(TITLE_EXPECTED_PARSED_LINE_01)
                     .headerLine(ARTIST_EXPECTED_PARSED_LINE_01)
                     .headerLine(KEY_EXPECTED_PARSED_LINE_01)
