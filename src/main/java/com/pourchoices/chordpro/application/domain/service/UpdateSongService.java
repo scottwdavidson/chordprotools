@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.adapter.in.file.GenerateIndexCommand;
 import com.pourchoices.chordpro.adapter.out.file.CatalogEntryDto;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
@@ -11,6 +12,8 @@ import com.pourchoices.chordpro.application.domain.port.in.UpdateSongUseCase;
 import com.pourchoices.chordpro.application.domain.port.out.CatalogPort;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import lombok.AllArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,6 +25,8 @@ import java.util.Map;
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class UpdateSongService implements UpdateSongUseCase {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(UpdateSongService.class);
 
     private final CatalogPort catalogPort;
     private final ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig;
@@ -41,6 +46,11 @@ public class UpdateSongService implements UpdateSongUseCase {
 
         // find the song to be updated
         CatalogEntry catalogEntry = catalogMap.get(chordproSongPathString);
+
+        if (catalogEntry == null) {
+            LOGGER.error("Catalog Entry not found in Catalog Path: {}", chordproSongPathString);
+            return;
+        }
 
         // map the catalog entry into a parsed header
         ParsedHeader potentialReplacementParsedHeader = this.parsedHeaderMapper.fromCatalogEntry(catalogEntry);
