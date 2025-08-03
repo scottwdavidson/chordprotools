@@ -2,13 +2,14 @@
 {artist: Carpenters}
 {key: F}
 {duration: 3:20}
-{meta: performance: F}
+{tempo: 85}
 {meta: nord: P54}
+{meta: countin: 4}
 
-{c:**************************************************}
-{c:** meta: performance: F}
-{c:** meta: nord: P54}
-{c:**************************************************}
+{c:***********************************************}
+{c:**  meta: nord: P54   }
+{c:**  meta: countin: 4   }
+{c:***********************************************}
 
 {comment: Intro}
 | F . Am . | Bb . C . |
