@@ -1,14 +1,15 @@
 {title: Smooth Operator}
 {artist: Sade}
-{key: Dm}
+{key: Am}
 {duration: 3:30}
-{meta: countin: 0}
+{tempo: 120}
 {meta: nord: 53}
+{meta: countin: 0}
 
-{c:************************************}
-{c:** meta:countin: 0}
-{c:** meta:nord: 53}
-{c:************************************}
+{c:***********************************************}
+{c:**  meta: nord: 53   }
+{c:**  meta: countin: 0   }
+{c:***********************************************}
 
 {comment: Intro - Drum, Bass grace}
 | . . . . | . . . . |
