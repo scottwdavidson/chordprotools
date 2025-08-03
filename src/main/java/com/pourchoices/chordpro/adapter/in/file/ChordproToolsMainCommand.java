@@ -7,21 +7,22 @@ import picocli.CommandLine.Command;
 
 @Component
 @Command(name = "chordpro-parser",
-		mixinStandardHelpOptions = true,
-		subcommands = {
-		GenerateIndexCommand.class,
-		UpdateCatalogCommand.class,
-		UpdateSongCommand.class
-})
-public class ChordproToolsMainCommand implements Runnable{
+        mixinStandardHelpOptions = true,
+        subcommands = {
+                GenerateIndexCommand.class,
+                UpdateCatalogCommand.class,
+                UpdateSongsCommand.class,
+                UpdateSongCommand.class
+        })
+public class ChordproToolsMainCommand implements Runnable {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(ChordproToolsMainCommand.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ChordproToolsMainCommand.class);
 
-	@Override
-	public void run() {
-		LOGGER.info(" ... should not be here !! ");
-		System.out.println("Use one of the subcommands.");
-	}
+    @Override
+    public void run() {
+        LOGGER.info(" ... should not be here !! ");
+        System.out.println("Use one of the subcommands.");
+    }
 
 //	@Autowired
 //	private HeaderFixer headerFixer;

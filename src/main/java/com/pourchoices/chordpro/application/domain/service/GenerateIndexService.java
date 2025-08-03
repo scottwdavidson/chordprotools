@@ -25,8 +25,8 @@ public class GenerateIndexService implements GenerateIndexUseCase {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(GenerateIndexService.class);
 
+    private final ReadSongListService readSongListService;
     private final CatalogFileWriter catalogFileWriter;
-    private final SongListingFileReader songListingFileReader;
 
     private final ChordProFileReader chordProFileReader;
     private final SongParser songParser;
@@ -36,7 +36,7 @@ public class GenerateIndexService implements GenerateIndexUseCase {
     public void generateIndex(String songsListingPathString){
 
         // read the song catalog path string file
-        ChordProFileListing chordProFileListing = this.songListingFileReader.read(songsListingPathString);
+        ChordProFileListing chordProFileListing = this.readSongListService.readSongList(songsListingPathString);
 
         // parse each song and insert the metadata into the index
         List<CatalogEntryDto> catalogEntryDtos = new ArrayList<>();
