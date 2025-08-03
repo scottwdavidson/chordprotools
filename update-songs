@@ -1,0 +1,2 @@
+mvn spring-boot:run \
+ -Dspring-boot.run.arguments="update-songs /Users/scott/tmp/updateSongsListing.txt"
