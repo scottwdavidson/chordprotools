@@ -1,17 +1,11 @@
 {title: Te Ni Nee Ni}
-
-{c:***********************************************}
-{c:***********************************************}
-
-{subtitle:Lou Ann Barton}
-{key:E}
-
-(Intro is 1 time thru)
+{artist:Lou Ann Barton}
+{key: E}
 
 Intro:
 | E | A | B | 12 bars blues
 
-{sov}
+{start_of_verse}
 I want [E]you
 [E]To be my Te Ni Nee Ni Nu
 I want [A]you
@@ -19,19 +13,19 @@ To be my Te Ni Nee Ni [E]Nu
 Tell me the [B]truth
 [N.C.]Ain't you my Te Ni Nee Ni [A]Nu[E]?
 
-{sov}
+{start_of_verse}
 Now, will you [E]love me?
 [E]Will you hug me?
 Will you [A]squeeze me-ee?
 Come on, don't [E]tease me
 Tell me the [B]truth
 [N.C.]Ain't you my Te Ni Nee Ni [A]Nu?[E]
-{eov}
+{end_of_verse}
 
 {c:Harmonica Solo: 12 bars}
 {c:Keyboard Solo: 12 bars}
 
-{sov}
+{start_of_verse}
 Come on, [E]baby
 [E]Work yo' show
 [E]Get it on, Boog-a-loo!
@@ -41,18 +35,18 @@ Come on, [E]baby
 [E]Ain't that the truth
 Now when you [B]through
 [N.C.] Ain't you my Te Ni Nee Ni [A]Nu?[E]
-{eov}
+{end_of_verse}
 
 {c:Guitar Solo: 12 bars}
 
-{sov}
+{start_of_verse}
 I want [E]you
 [E]To be my Te Ni Nee Ni Nu
 I want [A]you
 To be my Te Ni Nee Ni [E]Nu
 Tell me the [B]truth
 [N.C.]Ain't you my Te Ni Nee Ni [A]Nu?[E]
-{eov}
+{end_of_verse}
 
 {c:Outro}
 | E | A | B | 12 bars blues
