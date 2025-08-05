@@ -1,368 +1,367 @@
-"ARTIST","BACKING","CAPO","CHORDPRO FILENAME","COUNTIN","DURATION","KEY","NORD","PERFORMANCE KEY","TEMPO","TIME SIGNATURE","TITLE","VE","VERSION"
-"Alexa Vega","","","./cho/ABC/A/AlexaVega/LostInYourOwnLife.cho","","","C","","","","","Lost In Your Own Life","",""
-"Alabama","","","./cho/ABC/A/Alabama/DancinShagginOnTheBoulevard.cho","","","","","","","","Dancin', Shaggin' on the Boulevard","",""
-"ARS","","","./cho/ABC/A/ARS/DoItOrDie.cho","","","D","","","","","Do It Or Die","",""
-"ARS","","","./cho/ABC/A/ARS/SoIntoYou.cho","","","Fm","","","87","","So Into You","",""
-"ARS","","","./cho/ABC/A/ARS/Spooky.cho","8","3:22","Em","P34","","106","","Spooky","",""
-"Allman Brothers","","","./cho/ABC/A/AllmanBrothers/Southbound.cho","","","F","","","","","Southbound","",""
-"America","","","./cho/ABC/A/America/YouCanDoMagic.cho","","","","","","","","You Can Do Magic","",""
-"America","","","./cho/ABC/A/America/AHorseWithNoName.cho","","4:12","","","","123","","A Horse With No Name","",""
-"Al Green","","","./cho/ABC/A/AlGreen/LetsStayTogether.cho","","","F","","","","","Let's Stay Together","",""
-"Alan Jackson","","","./cho/ABC/A/AlanJackson/RememberWhen.cho","","","","","","","","Remember When","",""
-"Avril Lavigne","","","./cho/ABC/A/AvrilLavigne/Complicated-em.cho","","","Em","","Em","78","","Complicated","",""
-"Avril Lavigne","","","./cho/ABC/A/AvrilLavigne/Complicated.cho","","","Dm","","Dm","78","","Complicated","",""
-"Avril Lavigne","","","./cho/ABC/A/AvrilLavigne/Complicated-c#m.cho","","","C#m","","C#m","78","","Complicated","",""
-"Alicia Keys","","","./cho/ABC/A/AliciaKeys/IfIAintGotYou.cho","","","G","","","","","If I Ain't Got You","",""
-"Aha","","","./cho/ABC/A/Aha/TakeOnMe.cho","","3:00","A","","","100","","Take On Me","",""
-"Arlo Guthrie","","","./cho/ABC/A/ArloGuthrie/CityOfNewOrleans.cho","","3:45","D","O24","","152","","City of New Orleans","",""
-"Albert Hammond","26","","./cho/ABC/A/AlbertHammond/ItNeverRains.cho","4","3:20","G","O23","","117","","It Never Rains in Southern California","",""
-"Ami Winehouse","","","./cho/ABC/A/AmyWinehouse/Valerie.cho","4","3:10","Eb","P54","","","","Valerie","",""
-"Al Stewart","20","","./cho/ABC/A/AlStewart/YearOfTheCat.cho","4","4:00","Em","M22","","116","","Year of the Cat","",""
-"Anne Murray","","","./cho/ABC/A/AnneMurray/ShadowsInTheMoonlight.cho","","","A","","","","","Shadows In The Moonlight","",""
-"Abba","62}","","./cho/ABC/A/Abba/DoesYourMotherKnow.cho","8","3:10","G","M22","","120","","Does Your Mother Know","",""
-"Abba","","","./cho/ABC/A/Abba/DancingQueenAltered.cho","","","A","","","","","Dancing Queen (Altered)","",""
-"Abba","","","./cho/ABC/A/Abba/DancingQueenAltered-E.cho","","","E","","","","","Dancing Queen (Altered)","",""
-"Chappell Roan","","","./cho/ABC/C/ChappellRoan/PinkPonyClub.cho","","4:10","F","","F","106","","Pink Pony Club","",""
-"Carole King","","","./cho/ABC/C/CaroleKing/Chains.cho","","","D","","","","","Chains","",""
-"Counting Crows","","","./cho/ABC/C/CountingCrows/AccidentallyInLove.cho","4","3:00","G","O11","","138","","Accidentally In Love","",""
-"Commodores","","","./cho/ABC/C/Commodores/Easy-F.cho","","","F","","","67","","Easy","",""
-"The California Honeydrops","","","./cho/ABC/C/CaliforniaHoneydrops/InTheAir.cho","","","E","","","","","In The Air","",""
-"Chris Rea","","","./cho/ABC/C/ChrisRea/FoolIfYouThinkItsOver.cho","","","Am","N52","","110","","Fool If You Think It's Over","",""
-"Crosby, Stills, Nash and Young","","","./cho/ABC/C/CSNY/JustASongBeforeIGo.cho","","","Dm","","","","","Just A Song Before I Go","",""
-"Christopher Cross","","","./cho/ABC/C/ChristopherCross/RideLikeTheWind.cho","","","Eb","","","125","","Ride Like The Wind","",""
-"Carly Simon","","","./cho/ABC/C/CarlySimon/ComeAroundAgain.cho","","","Dm","","","","","Come Around Again","",""
-"Carpenters","","","./cho/ABC/C/Carpenters/IWontLastADayWithoutYou.cho","4","3:20","G","P54","","85","","I Won't Last A Day Without You","",""
-"Carpenters","","","./cho/ABC/C/Carpenters/TheresAKindOfHush.cho","","2:35","G","","","128","","There's A Kind Of Hush","",""
-"Carpenters","","","./cho/ABC/C/Carpenters/IWontLastADayWithoutYou-f.cho","4","3:20","F","P54","","85","","I Won't Last A Day Without You","",""
-"The Cure","","","./cho/ABC/C/Cure/JustLikeHeaven.cho","","","A","","","","","Just Like Heaven","",""
-"Chaka Khan / Rufus","","","./cho/ABC/C/ChakaKhan/AintNobody-Guitar.cho","","","Em","","","","","Ain't Nobody - Guitar","",""
-"Chaka Khan / Rufus","","","./cho/ABC/C/ChakaKhan/AintNobody.cho","","","Em","","","","","Ain't Nobody","",""
-"Corrine Bailey Rae","","","./cho/ABC/C/CorrineBailyRae/PutYourRecordsOn.cho","4","3:00","A","N24","","96","","Put Your Records On","",""
-"Cat Stevens","","","./cho/ABC/C/CatStevens/WildWorld.cho","","3:30","Dm","","","","","Wild World","",""
-"Camila Cabello","","","./cho/ABC/C/CamilaCabello/Havana.cho","","","Gm","","","","","Havana","",""
-"Rose & Bruno Mars","","","./cho/ABC/B/BrunoMars/Apt.cho","4","2:40","Eb","P51","","149","","Apt","",""
-"Bruno Mars, Lady Gaga","","","./cho/ABC/B/BrunoMars/DieWithASmile.cho","","","A","","","","","Die With A Smile","",""
-"Bee Gees","","","./cho/ABC/B/BeeGees/RunToMe.cho","","","A","","","","","Run To Me","",""
-"The Beatles","","","./cho/ABC/B/Beatles/RealLove.cho","","","C","","","","","Real Love","",""
-"The Beatles","","","./cho/ABC/B/Beatles/HereComesTheSun.cho","","","A","","","","","Here Comes The Sun","",""
-"The Beatles","","","./cho/ABC/B/Beatles/HereComesTheSun-C-Jeff.cho","","","C","","","","","Here Comes The Sun","",""
-"Beatles","","","./cho/ABC/B/Beatles/GoldenSlumbers-CarryThatWeight_e-eb.cho","","2:30","E","","E and Eb","","","Golden Slumbers / Carry That Weight","",""
-"Beatles","","","./cho/ABC/B/Beatles/GoldenSlumbers-CarryThatWeight.cho","","","Gb","","","","","Golden Slumbers / Carry That Weight","",""
-"Beatles","","","./cho/ABC/B/Beatles/TwistAndShout.cho","","2:10","D","???","","128","","Twist & Shout","",""
-"The Beatles","","","./cho/ABC/B/Beatles/HereComesTheSun-C.cho","","","A","","","","","Here Comes The Sun","",""
-"Blake Shelton","","","./cho/ABC/B/BlakeShelton/Footloose.cho","","","G","","","","","Footloose","",""
-"Barrett Strong","","","./cho/ABC/B/BarrettStrong/Money.cho","4","3:45","E","O15","","","","Money (That's What I Want)","","1.0"
-"Bachman Turner Overdrive (BTO)","","","./cho/ABC/B/BachmanTurnerOverdrive/TakinCareOfBusiness.cho","","4:50","C","N41","","130","","Takin' Care of Business","",""
-"Bill Withers","","","./cho/ABC/B/BillWithers/LovelyDay.cho","","","E","","","98","","Lovely Day","",""
-"Bob Dylan","","","./cho/ABC/B/BobDylan/LikeARollingStone.cho","","","C","","","","","Like A Rolling Stone","",""
-"Bad English","","","./cho/ABC/B/BadEnglish/WhenISeeYouSmile.cho","","","G","","","","","When I See You Smile","",""
-"Bellamy Brothers","","","./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho","","","E","","","","","If I Said You Have A Beautiful Body","",""
-"Billy Currington","","","./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho","","","G","","","","","Let Me Down Easy","",""
-"Billy Joel","14","","./cho/ABC/B/BillyJoel/MyLife-c.cho","8","3:40","C","P32","","131","","My Life","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/Vienna-g#m.cho","","","G#m","","G#m","63","","Vienna - G#m","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/YouMayBeRight-g.cho","","4:00","G","","","150","","You May Be Right","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/SummerHighlandFalls.cho","","3:22","F","","","","","Summer Highland Falls","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/DontAskMeWhy.cho","","","Bb","","","99","","Don't Ask Me Why","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/YouMayBeRight.cho","4","4:00","A","N35","","150","","You May Be Right","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/PianoMan-old.cho","","","","","","","","Piano Man","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/PianoMan-a.cho","","4:40","Gb","","A","178","","Piano Man","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/Vienna.cho","","","Gm","","","","","Vienna","",""
-"Billy Joel","14","","./cho/ABC/B/BillyJoel/MyLife.cho","8","3:40","D","P32","C","131","","My Life","",""
-"Billy Joel","","","./cho/ABC/B/BillyJoel/PianoMan.cho","","4:40","C","","A","178","","Piano Man","",""
-"Blues Brothers","","","./cho/ABC/B/BluesBrothers/HeyBartender.cho","","","A","","","","","Hey Bartender","",""
-"Bob Welch","","","./cho/ABC/B/BobWelch/EbonyEyes-gm.cho","","2:51","Gm","","Gm","","","Ebony Eyes","",""
-"Bob Welch","","","./cho/ABC/B/BobWelch/EbonyEyes.cho","","2:51","Am","","Gm","","","Ebony Eyes","",""
-"Dennis Wilson / Beach Boys","","","./cho/ABC/B/BeachBoys/Forever.cho","","","D","","","","","Forever","",""
-"Bread","","","./cho/ABC/B/Bread/Aubry.cho","","","G","","","","","Aubrey","",""
-"Bob Seger","10","","./cho/ABC/B/BobSeger/AgainstTheWind-f.cho","4","3:50","F","M44","F","109","","Against the Wind","",""
-"Bob Seger","","","./cho/ABC/B/BobSeger/AgainstTheWind.cho","4","4:00","G","M44","F","109","","Against the Wind","",""
-"Bob Seger","","","./cho/ABC/B/BobSeger/TurnThePage.cho","","","Em","","","","","Turn The Page","",""
-"Brian Wilson","","","./cho/ABC/B/BrianWilson/LoveAndMercy-g.cho","","3:10","G","N52","","","","Love and Mercy","",""
-"Garth Brooks","13","","./cho/GHI/G/GarthBrooks/MuchTooYoungToFeel.cho","4","2:33","D","O42","","","","Much Too Young To Feel This Damnn Old","",""
-"Gilbert O'Sullivan","","","./cho/GHI/G/GilbertOSullivan/GetDown.cho","","","Bb","","","","","Get Down","",""
-"Gordon Lightfoot","","","./cho/GHI/G/GordonLightfoot/CarefreeHighway-e.cho","","2:20","E","","E","85","","Carefree Highway","",""
-"Gordon Lightfoot","","","./cho/GHI/G/GordonLightfoot/CarefreeHighway.cho","","2:20","D","M13","E","85","","Carefree Highway","",""
-"Greg Kihn","","","./cho/GHI/G/GregKihn/BreakupSong.cho","4","2:49","Am","P41","F#m","136","","Breakup Song","",""
-"Greg Kihn","","","./cho/GHI/G/GregKihn/BreakupSong-f#m.cho","4","3:00","F#m","P41","F#m","136","","Breakup Song","",""
-"Gloria Gaynor","","","./cho/GHI/G/GloriaGaynor/IWillSurvive.cho","","3:20","Am","024","","117","","I Will Survive","",""
-"George Harrison","","","./cho/GHI/G/GeorgeHarrison/WhileMyGuitarGentlyWeeps.cho","","3:47","","","","123","","While My Guitar Gently Weeps","",""
-"George Harrison","","","./cho/GHI/G/GeorgeHarrison/Something.cho","","","C","","","132","","Something","",""
-"Gene Cotton","","","./cho/GHI/G/GeneCotton/BeforeMyHeartFindsOut.cho","","","F","","","123","","Before My Heart Finds Out","",""
-"Guess Who","","","./cho/GHI/G/GuessWho/Undun.cho","","","Em","","","100","","Undun","",""
-"Green Day","","","./cho/GHI/G/GreenDay/GoodRiddance.cho","","","G","","","95","","Good Riddance (Time of Your Life)","",""
-"George Strait","","","./cho/GHI/G/GeorgeStrait/AsFarAsItGoes-D.cho","","","D","","","137","4/4","As Far As It Goes","",""
-"George Strait","","","./cho/GHI/G/GeorgeStrait/AsFarAsItGoes.cho","","","C","","","137","4/4","As Far As It Goes","",""
-"Genesis","47","","./cho/GHI/G/Genesis/ThatsAll.cho","4","4:00","Em","P53","","88","","That's All","",""
-"Genesis","","","./cho/GHI/G/Genesis/InTooDeep.cho","","","G","","","","","In Too Deep","",""
-"Hal Ketchum","15","","./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho","8","2:43","Em","O:24","Em","96","","Past The Point Of Rescue","",""
-"Hal Ketchum","","","./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho","","","C","","C","100","","Small Town Saturday Night","",""
-"Hal Ketchum","","","./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho","","","C","","","","","Softer Than a Whisper","",""
-"Hal Ketchum","12","","./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho","8","3:15","D","P21","D","100","","Hearts Are Gonna Roll","",""
-"Heatwave","","","./cho/GHI/H/Heatwave/AlwaysAndForever.cho","","","","","","","","Always and Forever","",""
-"Heart","","","./cho/GHI/H/Heart/TellItLikeItIs.cho","","","F","","","100","6/8","Tell It Like It Is","",""
-"Huey Lewis and the News","","","./cho/GHI/H/HueyLewis/DoYouBelieveInLove.cho","","","G","","","","","Do You Believe In Love","",""
-"Hall & Oates","","","./cho/GHI/H/HallAndOates/ICantGoForThat.cho","","","Eb","","","","","I Can't Go For That","",""
-"Hall & Oates","","","./cho/GHI/H/HallAndOates/RichGirl.cho","","","F","","","","","Rich Girl","",""
-"Henry Gross","","","./cho/GHI/H/HenryGross/Shannon.cho","","","F","","","","","Shannon","",""
-"The Hooters","","","./cho/GHI/H/Hooters/AndWeDanced.cho","","","D","","","","","And We Danced","",""
-"Robert Palmer","","","./cho/PQR/R/RobertPalmer/EveryKindaPeople.cho","","","F","","","","","Every Kinda People","",""
-"Robert Palmer","34","","./cho/PQR/R/RobertPalmer/BadCaseOfLovinYou.cho","8","2:50","E","","","146","","Bad Case Of Lovin' You","",""
-"Raspberries","","","./cho/PQR/R/Raspberries/GoAllTheWay.cho","","","A","","","120","","Go All The Way","",""
-"Romantics","19","","./cho/PQR/R/Romantics/WhatILikeAboutYou.cho","8","2:20","A","P44","","","","What I Like About You","",""
-"Robbie Dupree","","","./cho/PQR/R/RobbieDupree/StealAway_inA.cho","","","A","","","","","Steal Away","",""
-"Robbie Dupree","","","./cho/PQR/R/RobbieDupree/StealAway.cho","","","F","","","","","Steal Away","",""
-"Rex Smith","","","./cho/PQR/R/RexSmith/YouTakeMyBreathAway.cho","","","Bb","","","96","","You Take My Breath Away","",""
-"Robert Plant & Alison Krauss","","","./cho/PQR/R/RobertPlant/CantLetGo.cho","","2:50","E","","","176","","Can't Let Go","",""
-"Randy Travis","","","./cho/PQR/R/RandyTravis/WhereThatCameFrom.cho","","3:11","C","","","","","Where That Came From","",""
-"Mike Reid/Alabama","","","./cho/PQR/R/RandyTravis/ForeversAsFarAsIllGo.cho","","","Eb","","","","","Forever's As Far As I'll Go","",""
-"Randy Travis","","","./cho/PQR/R/RandyTravis/ThisIsMe.cho","","","Eb","","","","","This Is Me","",""
-"Randy Travis","","","./cho/PQR/R/RandyTravis/LookHeartsNoHands.cho","","","C","","","","","Look Heart No Hands","",""
-"Roberta Flack","","","./cho/PQR/R/RobertaFlack/KillingMeSoftly-A.cho","","","A","","","122","","Killing Me Softly With His Song","",""
-"Ronnie Milsap","","","./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe.cho","4","4:00","E","??","","100","","There's No Getting Over Me","",""
-"Ronnie Milsap","","","./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe-c.cho","4","4:00","C","??","","100","","There's No Getting Over Me","",""
-"Rolling Stones","","","./cho/PQR/R/RollingStones/MissYou.cho","","","Am","","","","","Miss You","",""
-"Rolling Stones","","","./cho/PQR/R/RollingStones/UnderMyThumb.cho","8 (with pickup))","3:40","A","","","127","","Under My Thumb","",""
-"Rocky Burnette","","","./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho","8","3:30","G","O14","","","","Tired Of Toein' The Line","",""
-"Rocky Burnette","","","./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho","","3:30","E","","","","","Tired Of Toein' The Line","",""
-"Restless Heart","","","./cho/PQR/R/RestlessHeart/WhenSheCries.cho","","","A","","","113","","When She Cries","",""
-"REO Speedwagon","","","./cho/PQR/R/ReoSpeedwagon/TimeforMeToFly.cho","","","D","","","84","","Time For Me To Fly","",""
-"REO Speedwagon","","","./cho/PQR/R/ReoSpeedwagon/RollWithTheChanges.cho","","","C","","","","","Roll With The Changes","",""
-"REO Speedwagon","","","./cho/PQR/R/ReoSpeedwagon/TimeforMeToFly-c.cho","","","C","","","84","","Time For Me To Fly","",""
-"Phil Collins","","","./cho/PQR/P/PhilCollins/DoYouRemember.cho","","","F","","","","","Do You Remember ?","",""
-"Psychelic Furs","","","./cho/PQR/P/PsychedelicFurs/LoveMyWay.cho","","","C","","","129","","Love My Way","",""
-"Psychelic Furs","","","./cho/PQR/P/PsychedelicFurs/GhostInYou.cho","","","Bb","","","123","","Ghost In You","",""
-"Paul Simon","","","./cho/PQR/P/PaulSimon/Kodachrome.cho","","","D","","","136","","Kodachrome","",""
-"Peter Frampton","","","./cho/PQR/P/PeterFrampton/ImInYou.cho","","4:00","C","","C","99","","I'm In You","",""
-"Peter Frampton","","","./cho/PQR/P/PeterFrampton/ShowMeTheWay.cho","","3:45","D","","","137","","Show Me The Way","",""
-"Peter Frampton","","","./cho/PQR/P/PeterFrampton/BabyILoveYourWay.cho","","","G","","","78","","Baby I Love Your Way","",""
-"Pete Townsend","22","","./cho/PQR/P/PeteTownsend/LetMyLoveOpenTheDoor.cho","8","2:30","A","M51","A","165","","Let My Love Open The Door","U35",""
-"Perfect Stranger","","","./cho/PQR/P/PerfectStranger/YouHaveTheRightToRemainSilent.cho","","","G","","","","","You Have The Right To Remain Silent","",""
-"Pat Green","","","./cho/PQR/P/PatGreen/Whiskey.cho","8","4:00","D","N35","","167","","Whiskey","",""
-"Pat Green","","","./cho/PQR/P/PatGreen/CarryOn.cho","","","D","","","","","Carry On","",""
-"Pat Green","","","./cho/PQR/P/PatGreen/Crazy.cho","","","","","","","","Crazy","",""
-"Pure Prairie League","","","./cho/PQR/P/PurePrairieLeague/LetMeLoveYouTonight.cho","","","Bb","","","","","Let Me Love You Tonight","",""
-"Post Malone ( w/ Morgan Wallen)","","","./cho/PQR/P/PostMalone/IHadSomeHelp.cho","","","","","","","","I Had Some Help","",""
-"Fleetwood Mac","","","./cho/DEF/F/FleetwoodMac/Landslide.cho","","","Eb","","Eb","","","Landslide","",""
-"Fleetwood Mac","","","./cho/DEF/F/FleetwoodMac/Landslide-c.cho","","","C","","","","","Landslide","",""
-"Fleetwood Mac","","","./cho/DEF/F/FleetwoodMac/Landslide-lyrics.cho","","","Eb","","Eb","","","Landslide","",""
-"Fleetwood Mac","","","./cho/DEF/F/FleetwoodMac/DontStop.cho","0","3:00","E","N54","","","","Don't Stop","",""
-"Fleetwood Mac","","","./cho/DEF/F/FleetwoodMac/SayThatYouLoveMe.cho","4","3:00","A","N12","A","128","","Say That You Love Me","",""
-"4 Non Blonds","","","./cho/DEF/F/FourNonBlondes/WhatsUp.cho","","4:00","A","","","67","","What's Up","",""
-"Dr. Hook","","","./cho/DEF/D/DrHook/SharingTheNightTogether.cho","","","C","","","","","Sharing The Night Together","",""
-"Dua Lipa","","","./cho/DEF/D/DuaLipa/Levitating.cho","","","Am","","","","","Levitating","",""
-"Dua Lipa","","","./cho/DEF/D/DuaLipa/LoveAgain.cho","","","F#m","","","116","","Love Again","",""
-"Doobie Brothers","","","./cho/DEF/D/DoobieBros/TakinItToTheStreets-B.cho","","","B","","","","","Takin' It To The Streets","",""
-"Doobie Brothers","","","./cho/DEF/D/DoobieBros/LongTrainRunning.cho","","3:20","Gm","","","117","","Long Train Runnin'","",""
-"Doobie Brothers","","","./cho/DEF/D/DoobieBros/LongTrainRunning-MVP.cho","","","Gm","","","","","Long Train Runnin’","",""
-"Doobie Brothers","","","./cho/DEF/D/DoobieBros/TakinItToTheStreets.cho","","","F","","","","","Takin' It To The Streets","",""
-"Delbert McClinton","","","./cho/DEF/D/DelbertMcClinton/LeapOfFaith.cho","","","B","","","","","Leap Of Faith","",""
-"Daniel Boone","","","./cho/DEF/D/DanielBoone/BeautifulSunday.cho","","","C","","","","","Beautiful Sunday","","1.0"
-"Hootie (Darius Rucker) and the Blowfish","","","./cho/DEF/D/DariusRucker/HoldMyHand.cho","","3:35","B","","","101","","Hold My Hand","",""
-"Darius Rucker","","","./cho/DEF/D/DariusRucker/WagonWheel.cho","4","3:50","G","O55","","","","Wagon Wheel","","1.0"
-"Dwight Yoakam","","","./cho/DEF/D/DwightYokam/AintThatLonelyYet.cho","","","F","","","107","","Ain't That Lonely Yet","",""
-"Dwight Yoakam","","","./cho/DEF/D/DwightYokam/LittleSister.cho","4","3:00","E","O14","","144","","Little Sister","",""
-"Don McLean","","","./cho/DEF/D/DonMcLean/Vincent.cho","","","G","","","","","Vincent","",""
-"Dionne Warwick / Bee Gees","","","./cho/DEF/D/DioneWarwick/HeartBreaker.cho","","","G","","","","","Heartbreaker","",""
-"Dionne Warwick","33","","./cho/DEF/D/DioneWarwick/ThenCameYou.cho","","3:00","F","M23","","116","","Then Came You","",""
-"Dixie Chicks","","","./cho/DEF/D/DixieChicks/LetErRip.cho","","3:00","A","N53","","150","","Let 'Er Rip","",""
-"Dixie Chicks","","","./cho/DEF/D/DixieChicks/WideOpenSpaces.cho","","3:00","D","","","","","Wide Open Spaces","",""
-"Dixie Chicks","","","./cho/DEF/D/DixieChicks/SomeDaysYouGottaDance.cho","","2:28","E","","","170","","Some Days You Gotta Dance","",""
-"Eric Clapton","","","./cho/DEF/E/EricClapton/NobodyKnowsYou.cho","4","3:50","C","N45","C","89","","Nobody Knows You When You're Down And Out","",""
-"Eric Clapton","","","./cho/DEF/E/EricClapton/SanFranciscoBayBlues.cho","","3:00","C","","","162","","San Francisco Bay Blues","",""
-"Eric Clapton","","","./cho/DEF/E/EricClapton/Layla.cho","","4:00","Dm","???","Dm","94","","Layla","",""
-"Eric Clapton","","","./cho/DEF/E/EricClapton/Cocaine.cho","","","","","","","","Cocaine","",""
-"Eric Clapton","","","./cho/DEF/E/EricClapton/OverTheRainbow-E.cho","","","E","","","","","Over the Rainbow","",""
-"Edward Bear","","","./cho/DEF/E/EdwardBear/LastSong.cho","","3:00","G","P55","","","","Last Song","",""
-"Eddie Holman","","","./cho/DEF/E/EddieHolman/HeyThereLonelyGirl.cho","","3:00","G","","","","","Hey There Lonely Girl","",""
-"Eagles","","","./cho/DEF/E/Eagles/LoveWillKeepUsAlive.cho","","","A","","","90","","Love Will Keep Us Alive","",""
-"Eagles","","","./cho/DEF/E/Eagles/LyinEyes.cho","8","3:45","G","O55","","","","Lyin' Eyes","",""
-"Eagles","","","./cho/DEF/E/Eagles/ICantTellYouWhy.cho","","","Bm","","","","","I Can't Tell You Why","",""
-"Elton John","","","./cho/DEF/E/EltonJohn/Daniel-A.cho","","","A","","","","","Daniel","",""
-"Elton John","","","./cho/DEF/E/EltonJohn/CrocodileRock.cho","","3:10","G","???","G","151","","Crocodile Rock","",""
-"Elton John","","","./cho/DEF/E/EltonJohn/Daniel.cho","","","C","","","","","Daniel","",""
-"Elvis","","","./cho/DEF/E/Elvis/BurningLove.cho","","","D","","","144","","Burning Love","",""
-"Eddie Money","","","./cho/DEF/E/EddieMoney/ThinkImInLove.cho","","4:00","","","","152","","Think I'm In Love","",""
-"Etta James","57","","./cho/DEF/E/EttaJames/DownhomeBlues.cho","4","4:30","G","P55","","","","Downhome Blues","",""
-"England Dan / John Ford Coley","","","./cho/DEF/E/EnglandDanJohnFordColey/IdReallyLoveToSeeYouTonight.cho","","","F","","","","","I'd Really Love To See You Tonight","",""
-"ELO ( Jeff Lynne )","","","./cho/DEF/E/ELO/WhenIWasABoy.cho","","","C","","","","","When I Was A Boy","",""
-"ELO","","","./cho/DEF/E/ELO/CantGetYouOutOfMyHead.cho","","","","","","","","Can't Get You Out Of My Head","",""
-"ELO","","","./cho/DEF/E/ELO/MidnightBlue.cho","","4:10","F","","D","","","Midnight Blue","",""
-"ELO / Jeff Lynne","","","./cho/DEF/E/ELO/Rockaria.cho","","","D","","","","","Rockaria","",""
-"Traditional","","","./cho/UV-Z/Xmas/RudolphTheRedNosedReindeer.cho","","2:10","C","","","94","","Rudolph The Red-Nosed Reindeer","",""
-"Bobby Helms","","","./cho/UV-Z/Xmas/JingleBellRock.cho","4","1:45","C","","","118","","Jingle Bell Rock","",""
-"Traditional","","","./cho/UV-Z/Xmas/WinterWonderland.cho","","2:10","Eb","","","94","","Winter Wonderland","",""
-"Eartha Kitt","","","./cho/UV-Z/Xmas/SantaBaby.cho","","2:30","G","","","151","","Santa Baby","",""
-"Dean Martin","","","./cho/UV-Z/Xmas/LetItSnow.cho","","1:50","A","","","95","","Let It Snow","",""
-"Paul McCartney","","","./cho/UV-Z/Xmas/WonderfulChristmastime.cho","","","G","","","","","Wonderful Christmastime","",""
-"Brenda Lee","","","./cho/UV-Z/Xmas/RockinAroundTheChristmasTree.cho","","2:20","G","","","138","","Rockin' Around The Christmas Tree","",""
-"Bing Crosby","","","./cho/UV-Z/Xmas/HaveYourselfAMerryLittleChristmas.cho","","2:50","C","","","80","","Have Yourself A Merry Little Christmas","",""
-"Bruce Springsteen","","","./cho/UV-Z/Xmas/SantaClausIsComingToTown.cho","","3:30","C","","","118","","Santa Claus Is Coming To Town","",""
-"Elvis Presley","","","./cho/UV-Z/Xmas/BlueChristmas.cho","","1:50","E","","","95","","Blue Christmas","",""
-"Bing Crosby","","","./cho/UV-Z/Xmas/ItsBeginningToLookALotLikeChristmas.cho","4","2:00","G","","","96","","It's Beginning To Look A Lot Like Christmas","",""
-"The Beach Boys","","","./cho/UV-Z/Xmas/LittleSaintNick.cho","","1:45","G","","","131","","Little Saint Nick","",""
-"Luke Bryan","","","./cho/UV-Z/Xmas/RunRunRudolph.cho","4","2:30","A","","","151","","Run Run Rudolph","",""
-"Wham!","","","./cho/UV-Z/Xmas/LastChristmas.cho","4","4:00","C","","","151","","Last Christmas","",""
-"Zombies","","","./cho/UV-Z/Zombies/TimeOfTheSeason.cho","","","Em","","","117","","Time of the Season","",""
-"U2","","","./cho/UV-Z/U2/StuckInAMoment-IStillHaventFound.cho","","","E / C","N51","","TBD","","Stuck In A Moment / I Still Haven't Found","",""
-"Weezer","58","","./cho/UV-Z/W/Weezer/IslandInTheSun.cho","4","3:00","Em","P54","","","","Island In The Sun","",""
-"The Weeknd","","","./cho/UV-Z/W/Weeknd/BlindingLights.cho","","3:20","Fm","","","171","","Blinding Lights","",""
-"The Church","32","","./cho/ST/T/TheChurch/UnderTheMilkyWay.cho","8","5:00","Am","P45","","66","","Under The Milky Way","","0.0"
-"Toby Keith","","","./cho/ST/T/TobyKeith/YourSmile-A.cho","","","A","","","77","4/4","Your Smile","",""
-"Toby Keith","","","./cho/ST/T/TobyKeith/WhereYouGonnaGo.cho","","","Bm","","","129","4/4","Where You Gonna Go","",""
-"Toby Keith","","","./cho/ST/T/TobyKeith/YourSmile.cho","","","G","","","77","4/4","Your Smile","",""
-"Traveling Wilburys","","","./cho/ST/T/TravelingWilburys/HandleWithCare.cho","4","3:18","G","M22","","122","","Handle With Care","P12",""
-"Toby Beau","","","./cho/ST/T/TobyBeau/MyAngelBaby.cho","","3:00","G","","","","","My Angel Baby","",""
-"T.Rex","","","./cho/ST/T/T.Rex/GetItOn.cho","","","","","","","","Get It On","",""
-"Taylor Swift","","","./cho/ST/T/TaylorSwift/YouBelongWithMe.cho","","","G","","","","","You Belong With Me","",""
-"Taylor Swift","","","./cho/ST/T/TaylorSwift/Style.cho","","","G","","","","","Style","",""
-"Taylor Swift","5","","./cho/ST/T/TaylorSwift/OurSong.cho","2","2:40","D","","","89","","Our Song","",""
-"Tom Petty","","","./cho/ST/T/TomPetty/Breakdown.cho","4","3:00","Am","P11","Am","114","","Breakdown","",""
-"Tom Petty","","","./cho/ST/T/TomPetty/FreeFallin-BASS.cho","4","3:30","E","","E","85","","Free Fallin' (BASS)","",""
-"Tom Petty","","","./cho/ST/T/TomPetty/DontDoMeLikeThat.cho","","","G","","","","","Don't Do Me Like That","",""
-"Tom Petty","","","./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho","","3:20","Em","","","82","","Into The Great Wide Open","",""
-"Tom Petty","","","./cho/ST/T/TomPetty/RunningDownADream.cho","","4:00","E","","","170","","Runnin' Down A Dream","",""
-"Tom Petty & The Heartbreakers","","","./cho/ST/T/TomPetty/MaryJanesLastDance.cho","","3:20","Am","","","85","","Mary Jane's Last Dance","",""
-"Tom Petty","","","./cho/ST/T/TomPetty/LearningToFly.cho","8","3:40","C","???","C","116","","Learning to Fly","",""
-"Tom Petty","","2","./cho/ST/T/TomPetty/FreeFallin-GUITAR-D.cho","4","3:30","D","","E","85","","Free Fallin'","",""
-"Three Dog Night","","","./cho/ST/T/ThreeDogNight/Shambala.cho","4","3:00","E","O55","","","","Shambala","",""
-"Tommy Castro and the Painkillers","","","./cho/ST/T/TommyCastroNPainkillers/NastyHabits.cho","","","C","","","","","Nasty Habits","",""
-"Tommy Castro and the Painkillers","","","./cho/ST/T/TommyCastroNPainkillers/CallingSanFrac-G.cho","","","G","","","","","Calling San Francisco","",""
-"Tommy Castro and the Painkillers","","","./cho/ST/T/TommyCastroNPainkillers/CallingSanFrac.cho","","","C","","","","","Calling San Francisco","",""
-"Thomas Rhett","","","./cho/ST/T/ThomasRhett/HalfOfMe-2.cho","","3:15","G","N35","","112","4/4","Half Of Me (updated)","",""
-"Thomas Rhett","11","","./cho/ST/T/ThomasRhett/HalfOfMe.cho","4","2:45","G","N35","","112","4/4","Half Of Me","","1.0"
-"The Clash","","","./cho/ST/T/TheClash/ShouldIStay-bass.cho","","","D","","","","","Should I Stay (Or Should I Go) (BASS)","",""
-"Tommie Tutone","","","./cho/ST/T/TommyTutone/Jenny-867-5309.cho","","3:12","F#m","","","138","","Jenny 867-5309","",""
-"Survivor","","","./cho/ST/S/Survivor/IsThisLove.cho","","","F","","","","","Is This Love","",""
-"Starbuck","","","./cho/ST/S/Starbuck/MoonlightFeelsRight.cho","","","C","","","","","Moonlight Feels Right","",""
-"Steeldrivers","","","./cho/ST/S/Steeldrivers/GoodCornLiquor.cho","","","E","","","","","Good Corn Liquor","",""
-"Stampeders","","","./cho/ST/S/Stampeders/SweetCityWoman.cho","","","G","","","","","Sweet City Woman","",""
-"Santana","","","./cho/ST/S/Santana/CorazonEspinado.cho","0","3:30","Bm","P00","","120","4/4","Corazon Espinado","",""
-"Santana","","","./cho/ST/S/Santana/BlackMagicWoman.cho","","","","","","","","Black Magic Woman","",""
-"Santana","","","./cho/ST/S/Santana/EvilWays.cho","","3:30","Gm","P25","","78","","Evil Ways","",""
-"Santana","","","./cho/ST/S/Santana/Smooth.cho","0","4:00","Am","P25","","116","","Smooth","",""
-"Seals and Crofts","23","","./cho/ST/S/SealsCrofts/DiamondGirl.cho","8","3:45","Am","O42","","127","","Diamond Girl","",""
-"Seals and Crofts","","","./cho/ST/S/SealsCrofts/SummerBreeze.cho","4","3:25","","041","","76","","Summer Breeze","",""
-"Seals & Crofts","","","./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho","","","E","","","88","","We May Never Pass This Way Again","",""
-"Santo and Johnny","","","./cho/ST/S/SantoAndJohnny/SleepWalk.cho","","","C","","","","","Sleep Walk","",""
-"Shocking Blue","","","./cho/ST/S/ShockingBlue/Venus.cho","","","A","","","","","Venus","",""
-"Zombies / Shocking Blue","","","./cho/ST/S/ShockingBlue/ShesNotThere-Venus.cho","","4:00","A","O21","","","","She's Not There / Venus","",""
-"Still Corners","","","./cho/ST/S/StillCorners/WhiteSands.cho","","","Dm","","","","","White Sands","",""
-"Steve Miller Band","","","./cho/ST/S/SteveMillerBand/TakeTheMoneyAndRun-Bass.cho","","2:52","G","","","","","Take The Money And Run (BASS)","",""
-"Steve Miller Band","","","./cho/ST/S/SteveMillerBand/TakeTheMoneyAndRun.cho","","2:52","G","","","","","Take The Money And Run","",""
-"Silk Sonic","","","./cho/ST/S/SilkSonic/LeaveTheDoorOpen.cho","","","F","","","","","Leave the Door Open","",""
-"Sixpence None The Richer","30","","./cho/ST/S/SixpenceNoneTheRicher/KissMe.cho","4","2:50","C","O12","Eb","100","","Kiss Me","",""
-"Sixpence None The Richer","31","","./cho/ST/S/SixpenceNoneTheRicher/ThereSheGoes.cho","4","2:42","G","P24","Bb","123","","There She Goes","",""
-"Scott Davidson","","","./cho/ST/S/ScottDavidson/Hesitate.cho","","3:00","Bb","","","86","","Hesitate (partial)","",""
-"Scott Davidson","","","./cho/ST/S/ScottDavidson/Progress.cho","","2:00","D","","","","","Progress (for now)","",""
-"Michael Sadri, Scott Davidson","","","./cho/ST/S/ScottDavidson/GoingToMontana.cho","8","3:30","Am","P14","","136","","Going To Montana","",""
-"Scott Davidson","","","./cho/ST/S/ScottDavidson/SunriseInCork.cho","","2:00","G","","","","","Sunrise in Cork","",""
-"Scott Davidson","","","./cho/ST/S/ScottDavidson/DreamDrift.cho","","3:00","F","","","86","","Dream Drift","",""
-"Scott Davidson","","","./cho/ST/S/ScottDavidson/DiminishedIdea.cho","","3:00","Bb","","","86","","Diminished Idea","",""
-"Steppenwolf, Adam Lambert","","","./cho/ST/S/Steppenwolf/BornToBeWild.cho","","","E","","","","","Born To Be Wild","",""
-"Stevie Wonder","","","./cho/ST/S/StevieWonder/Lately.cho","","3:30","C","","","","","Lately","",""
-"Stevie Wonder","","","./cho/ST/S/StevieWonder/DontYouWorryBoutAThing.cho","","","","","","","","Don't You Worry 'Bout A Thing","",""
-"Susan Tedeschi","","","./cho/ST/S/SusanTedeschi/LittleByLittle.cho","","","E","","","","","Little by Little","",""
-"Suzy Quatro","","","./cho/ST/S/SuziQuatro/StumblinIn.cho","","","G","","","","","Stumblin' In","",""
-"Sade","","","./cho/ST/S/Sade/SmoothOperator.cho","0","3:30","Am","53","","120","","Smooth Operator","",""
-"Stray Cats","","","./cho/ST/S/StrayCats/StrayCatStrut.cho","","","Cm","","","","","Stray Cat Strut","",""
-"Stevie Ray Vaughan","","","./cho/ST/S/StevieRayVaughan/HouseIsARockin.cho","8","2:05","B","","","172","","House is a Rockin'","",""
-"Stevie Ray Vaughan","","","./cho/ST/S/StevieRayVaughan/HouseIsARockin-c.cho","8","2:05","C","","B","172","","House is a Rockin'","",""
-"Sylvia","63","","./cho/ST/S/Sylvia/Nobody.cho","8","3:10","C","P00","","","","Nobody","",""
-"Nigel Olsson","","","./cho/MNO/N/NigelOlsson/DancinShoes.cho","","","Bm","","","101","","Dancin' Shoes","",""
-"Neil Diamond","","","./cho/MNO/N/NeilDiamond/SweetCaroline.cho","","3:24","","","","63","","Sweet Caroline","",""
-"Nick Lowe","","","./cho/MNO/N/NickLowe/CruelToBeKind.cho","","","","","","","","Cruel To Be Kind","",""
-"No Doubt(Gwen Stephani)","","","./cho/MNO/N/NoDoubt/DontSpeak.cho","4","3:45","Cm","N45","","76","","Don't Speak","",""
-"Niall Horan","","","./cho/MNO/N/NiallHoran/PutALittleLoveOnMe.cho","","","G","","","","","Put A Little Love On Me","",""
-"Niall Horan","","","./cho/MNO/N/NiallHoran/ThisTown.cho","","","G","","","","","This Town","",""
-"Norah Jones","28","","./cho/MNO/N/NorahJones/DontKnowWhy.cho","4","3:06","Bb","??","","88","","Don't Know Why","",""
-"Nat King Cole","","","./cho/MNO/N/NatKingCole/L_O_V_E.cho","","","G","","","78","","L-O-V-E","",""
-"Nat King Cole","","","./cho/MNO/N/NatKingCole/L_O_V_E-C.cho","","","C","","","78","","L-O-V-E","",""
-"Nancy Sinatra","","","./cho/MNO/N/NancySinatra/TheseBootsWereMadeForWalkin.cho","4","2:20","E","","E","84","","These Boots Are Made For Walkin'","",""
-"Natalie Imbruglia","52","","./cho/MNO/N/NatalieImbruglia/Torn.cho","4","3:35","F","P51","","","","Torn","",""
-"Old Crow Medicine Show","","","./cho/MNO/O/OldCrowMedicineShow/Firewater.cho","","3:00","G]","","","","","Firewater","",""
-"O'Jays","","","./cho/MNO/O/O_Jays/UseTaBeMyGirl.cho","","","F","","","","","Use Ta Be My Girl","",""
-"Olivia Rodrigo","","","./cho/MNO/O/OliviaRodrigo/AllIWant.cho","","","G","","","","","All I Want","",""
-"Mike Reid","","","./cho/MNO/M/MikeReid/YourLoveStaysWithMe.cho","","","E","","","","","Your Love Stays With Me","",""
-"Morgan Wallen","","","./cho/MNO/M/MorganWallen/SevenSummers.cho","","","C","","","102","4/4","7 Summers","",""
-"Morgan Wallen","","","./cho/MNO/M/MorganWallen/MoreThanMyHometown.cho","","","G","","","126","4/4","More Than My Hometown","",""
-"Morgan Wallen (Eric Church)","","","./cho/MNO/M/MorganWallen/ManMadeABar.cho","","","C","","","105","","Man Made A Bar","",""
-"Morgan Wallen","","","./cho/MNO/M/MorganWallen/SomebodysProblem.cho","","","F","","","137","","Somebody's Problem","",""
-"Morgan Wallen","","","./cho/MNO/M/MorganWallen/SandInMyBoots.cho","","3:05","C","N52","","","","Sand In My Boots","",""
-"Morgan Wallen","51","","./cho/MNO/M/MorganWallen/LoveSomebody.cho","8","3:00","Em","P52","","120","","Love Somebody","",""
-"Morgan Wallen (Eric Church)","","","./cho/MNO/M/MorganWallen/ManMadeABar-E.cho","","","E","","","105","","Man Made A Bar","",""
-"Mitch Ryder and The Detroit Wheels","","","./cho/MNO/M/MitchRyder/DevilWithTheBlueDress.cho","","","C","","","","","Devil With The Blue Dress","",""
-"Marcus King Band","","","./cho/MNO/M/MarcusKing/OneDayShesHere.cho","","","Bm","","","","","One Day She’s Here","",""
-"Miley Cyrus","","","./cho/MNO/M/MileyCyrus/Flowers.cho","8","3:00","Am","N21","","122","","Flowers","",""
-"Miley Cyrus / Billy Ray Cyrus","","","./cho/MNO/M/MileyCyrus/ButterflyFlyAway.cho","","2:35","Eb","P23","","136","","Butterfly Fly Away","",""
-"Mayer Hawthorne","","","./cho/MNO/M/MayerHawthorne/TheWalk.cho","","","A","","","","","The Walk","",""
-"Mama Cass","","","./cho/MNO/M/MamaCass/DreamALittleDream-C-NYE.cho","","","C","","","133","","Dream A Little Dream Of Me - NYE","",""
-"Mama Cass","","","./cho/MNO/M/MamaCass/DreamALittleDream-C.cho","","","C","","","133","","Dream A Little Dream Of Me","",""
-"Mama Cass","","","./cho/MNO/M/MamaCass/DreamALittleDreamOfMe-C.cho","","","C","","","133","","Dream A Little Dream Of Me","",""
-"Marshall Tucker Band","","","./cho/MNO/M/MarshallTuckerBand/CantYouSee.cho","4","5:00","D","N34","A","164","","Can't You See","","1.0"
-"Marshall Tucker Band","","","./cho/MNO/M/MarshallTuckerBand/CantYouSee-a.cho","4","5:00","A","N34","A","164","","Can't You See","",""
-"Midland","","","./cho/MNO/M/Midland/TakeHerOffYourHands.cho","","","","","","","","Take Her Off Your Hands","",""
-"Midland","","","./cho/MNO/M/Midland/OldFashionedFeeling.cho","","","G","","","","","Old Fashioned Feeling","",""
-"Midland","","","./cho/MNO/M/Midland/CheatinSong.cho","","","D","","","","","Cheatin' Songs","",""
-"Midland","24","","./cho/MNO/M/Midland/DrinkingProblem.cho","4","3:00","A","P25","","102","","Drinkin' Problem","",""
-"Midland","","","./cho/MNO/M/Midland/Vegas.cho","","3:28","D","","","133","","Vegas","",""
-"Midland","","","./cho/MNO/M/Midland/FourteenGears.cho","","","D","","","","","Fourteen Gears","",""
-"Midland","","","./cho/MNO/M/Midland/RollAway.cho","","","C","","","","","Roll Away","",""
-"Michael Sadri, Scott Davidson","","","./cho/MNO/M/MichaelSadri/GoingToMontana.cho","","3:30","Am","","","136","","Going To Montana","",""
-"Michael Sadri","","","./cho/MNO/M/MichaelSadri/GoingToMontana-orig.cho","","","C","","","","","Going To Montana - Original","",""
-"Michael Sadri","","","./cho/MNO/M/MichaelSadri/AreYouHungryTonight.cho","","2:50","C","","","66","3/4","Are You Hungry Tonight?","",""
-"Madonna","59","","./cho/MNO/M/Madonna/LaIslaBonita.cho","8","4:00","C#m","P54","C#m","100","","La Isla Bonita","",""
-"Mary Chapin Carpenter","56","","./cho/MNO/M/MaryChapinCarpenter/IFeelLucky.cho","8","3:20","B","A01","","120","","I Feel Lucky","",""
-"Mike and the Mechanics","","","./cho/MNO/M/Mike+TheMechanics/AllINeedIsAMiracle.cho","","","F","","","120","","All I Need Is A Miracle","",""
-"Jo Dee Messina","27","","./cho/JKL/J/JoDeeMessina/ByeBye.cho","8","3:12","G","O24","Bb (+3)","134","","Bye Bye","",""
-"Jo Dee Messina","27","","./cho/JKL/J/JoDeeMessina/ByeBye-bb.cho","8","3:12","Bb","O24","Bb","134","","Bye Bye","",""
-"Jewel","","","./cho/JKL/J/Jewel/WhoWillSaveMySoul.cho","","","Am","","","126","","Who Will Save My Soul","",""
-"Josh Turner","","","./cho/JKL/J/JoshTurner/Jacksonville.cho","","","C","","","119","","Jacksonville","",""
-"Josh Turner","","","./cho/JKL/J/JoshTurner/Jacksonville-D.cho","","","D","","","119","","Jacksonville","",""
-"JJ Cale","","","./cho/JKL/J/JJCale/SensitiveKind.cho","","5:00","Dm","N11","","101","","Sensitive Kind","",""
-"Jordan Davis","","","./cho/JKL/J/JordanDavis/TusconTooLate.cho","","","G","","","","","Tuscon Too Late","",""
-"Judy Garland","","","./cho/JKL/J/JudyGarland/OverTheRainbow.cho","","","Eb","","","","","Over the Rainbow","",""
-"Judy Garland","","","./cho/JKL/J/JudyGarland/OverTheRainbow-E.cho","","","E","","","","","Over the Rainbow","",""
-"Judy Garland","","","./cho/JKL/J/JudyGarland/OverTheRainbow-Bb.cho","","","Bb","","","","","Over the Rainbow","",""
-"John Mellencamp","54","","./cho/JKL/J/JohnMellencamp/ROCKInTheUSA.cho","8","2:55","E","","","","","R.O.C.K. In The U.S.A","",""
-"John Mellencamp","","","./cho/JKL/J/JohnMellencamp/JackandDiane.cho","","3:40","A","","","104","","Jack and Diane","",""
-"John Mellencamp","","","./cho/JKL/J/JohnMellencamp/CherryBomb.cho","","","G","","","","","Cherry Bomb","",""
-"John Hiatt","","","./cho/JKL/J/JohnHiatt/MemphisInTheMeantime.cho","","","E","","","","","Memphis in the Meantime","",""
-"Joe Cocker","18","","./cho/JKL/J/JoeCocker/UnchainMyHeart.cho","0","5:07","Am","O:24","","118","","Unchain My Heart","",""
-"Joe Cocker","18","","./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho","0","5:07","Am","O:24","","118","","Unchain My Heart (Extended)","",""
-"Jim Croce","5","","./cho/JKL/J/JimCroce/BadBadLeroyBrown.cho","8","2:35","G","O55","","148","","Bad Bad Leroy Brown","",""
-"Jim Croce","","","./cho/JKL/J/JimCroce/YouDontMessAroundWithJim.cho","","","F","","","164","","You Don't Mess Around With Jim","",""
-"John Mayer","","","./cho/JKL/J/JohnMayer/ImGonnaFindAnotherYou.cho","","3:00","A","","","","","I’m Gonna Find Another You","",""
-"John Lennon","","","./cho/JKL/J/JohnLennon/BeautifulBoy.cho","","","D","","","100","","Beautiful Boy","",""
-"John Lennon","","","./cho/JKL/J/JohnLennon/WatchingTheWheels.cho","","","C","","","","","Watching The Wheels","",""
-"Jon Hume","","","./cho/JKL/J/JonHume/DontForget.cho","","","C","","","","","Don't Forget (Welcome to Wrexham)","",""
-"Jackson Browne","","","./cho/JKL/J/JacksonBrowne/Stay.cho","","3:00","G","P25","","","","Stay","",""
-"Kane Brown","","","./cho/JKL/K/KaneBrown/BuryMeInGeorgia.cho","","","Gm","","","","","Bury Me In Georgia","",""
-"KT Tunstall","","","./cho/JKL/K/KTTunsall/SuddenlyISee.cho","","","D","","","","","Suddenly I See","",""
-"KT Tunstall","","","./cho/JKL/K/KTTunsall/BlackHorseAndTheCherryTree.cho","8","2:20","Em","","","103","","Black Horse and the Cherry Tree","",""
-"Kenny Chesney","","","./cho/JKL/K/KennyChesney/EveryoneSheKnows.cho","","","F","","","","","Everyone She Knows","",""
-"Kacy Musgraves","","","./cho/JKL/K/KaceyMusgraves/SlowBurn.cho","4","3:00","G","O24","","148","","Slow Burn","",""
-"Kacy Musgraves","","","./cho/JKL/K/KaceyMusgraves/DeeperWell.cho","","3:30","C","","","111","","Deeper Well","",""
-"Kacy Musgraves","","","./cho/JKL/K/KaceyMusgraves/Rainbow.cho","","2:50","Eb","P23","","65","","Rainbow","",""
-"Kool and the Gang","","","./cho/JKL/K/KoolAndTheGang/GetDownOnIt.cho","","4:00","Em","","","","","Get Down On It","",""
-"Kelly Clarkson","53","","./cho/JKL/K/KellyClarkson/Breakaway.cho","6","3:45","Am","A01","","","3/4","Breakaway","",""
-"Kelly Clarkson","100","","./cho/JKL/K/KellyClarkson/SinceUBeenGone.cho","8","3:10","G","A01","","","","Since U Been Gone","",""
-"Louis Armstrong","","","./cho/JKL/L/LouisArmstrong/DreamALittleDream-C.cho","","1:10","C","","","133","","Dream A Little Dream Of Me","",""
-"Louis Armstrong","","","./cho/JKL/L/LouisArmstrong/WhatAWonderfulWorld.cho","","","F","","","108","","What A Wonderful World","",""
-"Louis Armstrong","","","./cho/JKL/L/LouisArmstrong/WhatAWonderfulWorld-Bb.cho","","","Bb","","","108","","What A Wonderful World","",""
-"Louis Armstrong","","","./cho/JKL/L/LouisArmstrong/DreamALittleDream.cho","","","G","","","133","","Dream A Little Dream Of Me","",""
-"Lobo","","","./cho/JKL/L/Lobo/IdLoveYouToWantMe.cho","","","G","","","","","I'd Love You To Want Me","",""
-"Linda Ronstadt","60","","./cho/JKL/L/LindaRonstadt/HeatWave.cho","8","2:45","Eb","P55","","165","","Heat Wave","",""
-"Linda Ronstadt","","","./cho/JKL/L/LindaRonstadt/LongLongTime.cho","","","Em","","","","","Long Long Time","",""
-"Linda Ronstadt","61","","./cho/JKL/L/LindaRonstadt/BackInTheUSA.cho","4","3:00","G","P55","","165","","Back In The USA","",""
-"Linda Ronstadt","","","./cho/JKL/L/LindaRonstadt/LongLongTime-Am.cho","","","Am","","","","","Long Long Time","",""
-"Lou Ann Barton","","","./cho/JKL/L/LouAnnBarton/TeNiNeeNi.cho","","","E","","","","","Te Ni Nee Ni","",""
-"Looking Glass","","","./cho/JKL/L/LookingGlass/Brandy.cho","","3:00","E","","","","","Brandy (You're A Fine Girl)","",""
-"Lauren Daigle","","","./cho/JKL/L/LaurenDaigle/YouSay.cho","","4:00","F","M25","","148","","You Say","",""
-"Lionel Richie","","","./cho/JKL/L/LionelRichie/DeepRiverWoman.cho","","","G","","","135","","Deep River Woman","",""
-"Luke Bryan","","","./cho/JKL/L/LukeBryan/PlayItAgain.cho","","","C","","","","","Play It Again","",""
-"Leon Bridges ( feat Luke Combs )","","","./cho/JKL/L/LeonBridges/Beyond.cho","","","G","","","","","Beyond","",""
-"Leblanc & Carr","","","./cho/JKL/L/LeblancCarr/Falling.cho","","","","","","","","Falling","",""
-"The Cure / Lumineers","","","./cho/JKL/L/Lumineers/JustLikeHeaven(1).cho","","","A","","","","","Just Like Heaven","",""
-"The Cure / Lumineers","","","./cho/JKL/L/Lumineers/JustLikeHeaven.cho","","","A","","","","","Just Like Heaven","",""
-"Lynyrd Skynyrd","25","","./cho/JKL/L/LynyrdSkynyrd/WhatsYourName.cho","8 ; start with pickup","3:10","G","","","135","","What's Your Name","",""
-"Lynard Skynard","","","./cho/JKL/L/LynyrdSkynyrd/SweetHomeAlabama.cho","","","D","","","","","Sweet Home Alabama","",""
+ARTIST,BACKING,CAPO,CHORDPRO FILENAME,COUNTIN,DURATION,KEY,NORD,PERFORMANCE KEY,TEMPO,TIME SIGNATURE,TITLE,VE,VERSION
+Alexa Vega,,,./cho/ABC/A/AlexaVega/LostInYourOwnLife.cho,,,C,,,,,Lost In Your Own Life,,
+Alabama,,,./cho/ABC/A/Alabama/DancinShagginOnTheBoulevard.cho,,,,,,,,"Dancin', Shaggin' on the Boulevard",,
+ARS,,,./cho/ABC/A/ARS/DoItOrDie.cho,,,D,,,,,Do It Or Die,,
+ARS,,,./cho/ABC/A/ARS/SoIntoYou.cho,,,Fm,,,87,,So Into You,,
+ARS,36,,./cho/ABC/A/ARS/Spooky.cho,4,3:22,Em,P34,,106,,Spooky,,
+Allman Brothers,,,./cho/ABC/A/AllmanBrothers/Southbound.cho,,,F,,,,,Southbound,,
+America,35,,./cho/ABC/A/America/YouCanDoMagic.cho,8,,,,,,,You Can Do Magic,,
+America,,,./cho/ABC/A/America/AHorseWithNoName.cho,,4:12,,,,123,,A Horse With No Name,,
+Al Green,,,./cho/ABC/A/AlGreen/LetsStayTogether.cho,,,F,,,,,Let's Stay Together,,
+Alan Jackson,,,./cho/ABC/A/AlanJackson/RememberWhen.cho,,,,,,,,Remember When,,
+Avril Lavigne,,,./cho/ABC/A/AvrilLavigne/Complicated-em.cho,,,Em,,Em,78,,Complicated,,
+Avril Lavigne,,,./cho/ABC/A/AvrilLavigne/Complicated.cho,,,Dm,,Dm,78,,Complicated,,
+Avril Lavigne,45,,./cho/ABC/A/AvrilLavigne/Complicated-c#m.cho,4,,C#m,,C#m,78,,Complicated,,
+Alicia Keys,,,./cho/ABC/A/AliciaKeys/IfIAintGotYou.cho,,,G,,,,,If I Ain't Got You,,
+Aha,,,./cho/ABC/A/Aha/TakeOnMe.cho,,3:00,A,,,100,,Take On Me,,
+Arlo Guthrie,,,./cho/ABC/A/ArloGuthrie/CityOfNewOrleans.cho,,3:45,D,O24,,152,,City of New Orleans,,
+Albert Hammond,26,,./cho/ABC/A/AlbertHammond/ItNeverRains.cho,4,3:20,G,O23,,117,,It Never Rains in Southern California,,
+Ami Winehouse,,,./cho/ABC/A/AmyWinehouse/Valerie.cho,4,3:10,Eb,P54,,,,Valerie,,
+Al Stewart,20,,./cho/ABC/A/AlStewart/YearOfTheCat.cho,4,4:00,Em,M22,,116,,Year of the Cat,,
+Anne Murray,,,./cho/ABC/A/AnneMurray/ShadowsInTheMoonlight.cho,,,A,,,,,Shadows In The Moonlight,,
+Abba,62,,./cho/ABC/A/Abba/DoesYourMotherKnow.cho,8,3:10,G,M22,,120,,Does Your Mother Know,,
+Abba,,,./cho/ABC/A/Abba/DancingQueenAltered.cho,,,A,,,,,Dancing Queen (Altered),,
+Abba,,,./cho/ABC/A/Abba/DancingQueenAltered-E.cho,,,E,,,,,Dancing Queen (Altered),,
+Chappell Roan,,,./cho/ABC/C/ChappellRoan/PinkPonyClub.cho,,4:10,F,,F,106,,Pink Pony Club,,
+Carole King,,,./cho/ABC/C/CaroleKing/Chains.cho,,,D,,,,,Chains,,
+Counting Crows,,,./cho/ABC/C/CountingCrows/AccidentallyInLove.cho,4,3:00,G,O11,,138,,Accidentally In Love,,
+Commodores,,,./cho/ABC/C/Commodores/Easy-F.cho,,,F,,,67,,Easy,,
+The California Honeydrops,,,./cho/ABC/C/CaliforniaHoneydrops/InTheAir.cho,,,E,,,,,In The Air,,
+Chris Rea,,,./cho/ABC/C/ChrisRea/FoolIfYouThinkItsOver.cho,,,Am,N52,,110,,Fool If You Think It's Over,,
+"Crosby, Stills, Nash and Young",,,./cho/ABC/C/CSNY/JustASongBeforeIGo.cho,,,Dm,,,,,Just A Song Before I Go,,
+Christopher Cross,,,./cho/ABC/C/ChristopherCross/RideLikeTheWind.cho,,,Eb,,,125,,Ride Like The Wind,,
+Carly Simon,,,./cho/ABC/C/CarlySimon/ComeAroundAgain.cho,,,Dm,,,,,Come Around Again,,
+Carpenters,,,./cho/ABC/C/Carpenters/IWontLastADayWithoutYou.cho,4,3:20,G,P54,,85,,I Won't Last A Day Without You,,
+Carpenters,,,./cho/ABC/C/Carpenters/TheresAKindOfHush.cho,,2:35,G,,,128,,There's A Kind Of Hush,,
+Carpenters,,,./cho/ABC/C/Carpenters/IWontLastADayWithoutYou-f.cho,4,3:20,F,P54,,85,,I Won't Last A Day Without You,,
+The Cure,,,./cho/ABC/C/Cure/JustLikeHeaven.cho,,,A,,,,,Just Like Heaven,,
+Chaka Khan / Rufus,,,./cho/ABC/C/ChakaKhan/AintNobody-Guitar.cho,,,Em,,,,,Ain't Nobody - Guitar,,
+Chaka Khan / Rufus,,,./cho/ABC/C/ChakaKhan/AintNobody.cho,,,Em,,,,,Ain't Nobody,,
+Corrine Bailey Rae,,,./cho/ABC/C/CorrineBailyRae/PutYourRecordsOn.cho,4,3:00,A,N24,,96,,Put Your Records On,,
+Cat Stevens,,,./cho/ABC/C/CatStevens/WildWorld.cho,,3:30,Dm,,,,,Wild World,,
+Camila Cabello,,,./cho/ABC/C/CamilaCabello/Havana.cho,,,Gm,,,,,Havana,,
+Rose & Bruno Mars,65,,./cho/ABC/B/BrunoMars/Apt.cho,4,2:40,Eb,P51,,149,,Apt,,
+"Bruno Mars, Lady Gaga",64,,./cho/ABC/B/BrunoMars/DieWithASmile.cho,4,,A,,,,,Die With A Smile,,
+Bee Gees,,,./cho/ABC/B/BeeGees/RunToMe.cho,,,A,,,,,Run To Me,,
+The Beatles,,,./cho/ABC/B/Beatles/RealLove.cho,,,C,,,,,Real Love,,
+The Beatles,,,./cho/ABC/B/Beatles/HereComesTheSun.cho,,,A,,,,,Here Comes The Sun,,
+The Beatles,,,./cho/ABC/B/Beatles/HereComesTheSun-C-Jeff.cho,,,C,,,,,Here Comes The Sun,,
+Beatles,,,./cho/ABC/B/Beatles/GoldenSlumbers-CarryThatWeight_e-eb.cho,,2:30,E,,E and Eb,,,Golden Slumbers / Carry That Weight,,
+Beatles,,,./cho/ABC/B/Beatles/GoldenSlumbers-CarryThatWeight.cho,,,Gb,,,,,Golden Slumbers / Carry That Weight,,
+Beatles,,,./cho/ABC/B/Beatles/TwistAndShout.cho,,2:10,D,???,,128,,Twist & Shout,,
+The Beatles,,,./cho/ABC/B/Beatles/HereComesTheSun-C.cho,,,A,,,,,Here Comes The Sun,,
+Blake Shelton,37,,./cho/ABC/B/BlakeShelton/Footloose.cho,8,,G,,,,,Footloose,,
+Barrett Strong,,,./cho/ABC/B/BarrettStrong/Money.cho,4,3:45,E,O15,,,,Money (That's What I Want),,1.0
+Bachman Turner Overdrive (BTO),,,./cho/ABC/B/BachmanTurnerOverdrive/TakinCareOfBusiness.cho,,4:50,C,N41,,130,,Takin' Care of Business,,
+Bill Withers,,,./cho/ABC/B/BillWithers/LovelyDay.cho,,,E,,,98,,Lovely Day,,
+Bob Dylan,,,./cho/ABC/B/BobDylan/LikeARollingStone.cho,,,C,,,,,Like A Rolling Stone,,
+Bad English,,,./cho/ABC/B/BadEnglish/WhenISeeYouSmile.cho,,,G,,,,,When I See You Smile,,
+Bellamy Brothers,,,./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho,,,E,,,,,If I Said You Have A Beautiful Body,,
+Billy Currington,,,./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho,,,G,,,,,Let Me Down Easy,,
+Billy Joel,14,,./cho/ABC/B/BillyJoel/MyLife-c.cho,8,3:40,C,P32,,131,,My Life,,
+Billy Joel,,,./cho/ABC/B/BillyJoel/Vienna-g#m.cho,,,G#m,,G#m,63,,Vienna - G#m,,
+Billy Joel,21,,./cho/ABC/B/BillyJoel/YouMayBeRight-g.cho,4,4:00,G,,,150,,You May Be Right,,
+Billy Joel,,,./cho/ABC/B/BillyJoel/SummerHighlandFalls.cho,,3:22,F,,,,,Summer Highland Falls,,
+Billy Joel,,,./cho/ABC/B/BillyJoel/DontAskMeWhy.cho,,,Bb,,,99,,Don't Ask Me Why,,
+Billy Joel,21,,./cho/ABC/B/BillyJoel/YouMayBeRight.cho,4,4:00,A,N35,,150,,You May Be Right,,
+Billy Joel,,,./cho/ABC/B/BillyJoel/PianoMan-old.cho,,,,,,,,Piano Man,,
+Billy Joel,,,./cho/ABC/B/BillyJoel/PianoMan-a.cho,,4:40,Gb,,A,178,,Piano Man,,
+Billy Joel,,,./cho/ABC/B/BillyJoel/Vienna.cho,,,Gm,,,,,Vienna,,
+Billy Joel,14,,./cho/ABC/B/BillyJoel/MyLife.cho,8,3:40,D,P32,C,131,,My Life,,
+Billy Joel,,,./cho/ABC/B/BillyJoel/PianoMan.cho,,4:40,C,,A,178,,Piano Man,,
+Blues Brothers,,,./cho/ABC/B/BluesBrothers/HeyBartender.cho,,,A,,,,,Hey Bartender,,
+Bob Welch,44,,./cho/ABC/B/BobWelch/EbonyEyes-gm.cho,8,2:51,Gm,,Gm,,,Ebony Eyes,,
+Bob Welch,44,,./cho/ABC/B/BobWelch/EbonyEyes.cho,8,2:51,Am,,Gm,,,Ebony Eyes,,
+Dennis Wilson / Beach Boys,,,./cho/ABC/B/BeachBoys/Forever.cho,,,D,,,,,Forever,,
+Bread,,,./cho/ABC/B/Bread/Aubry.cho,,,G,,,,,Aubrey,,
+Bob Seger,10,,./cho/ABC/B/BobSeger/AgainstTheWind-f.cho,4,3:50,F,M44,F,109,,Against the Wind,,
+Bob Seger,10,,./cho/ABC/B/BobSeger/AgainstTheWind.cho,4,4:00,G,M44,F,109,,Against the Wind,,
+Bob Seger,,,./cho/ABC/B/BobSeger/TurnThePage.cho,,,Em,,,,,Turn The Page,,
+Brian Wilson,,,./cho/ABC/B/BrianWilson/LoveAndMercy-g.cho,,3:10,G,N52,,,,Love and Mercy,,
+Garth Brooks,13,,./cho/GHI/G/GarthBrooks/MuchTooYoungToFeel.cho,4,2:33,D,O42,,,,Much Too Young To Feel This Damnn Old,,
+Gilbert O'Sullivan,,,./cho/GHI/G/GilbertOSullivan/GetDown.cho,,,Bb,,,,,Get Down,,
+Gordon Lightfoot,,,./cho/GHI/G/GordonLightfoot/CarefreeHighway-e.cho,,2:20,E,,E,85,,Carefree Highway,,
+Gordon Lightfoot,,,./cho/GHI/G/GordonLightfoot/CarefreeHighway.cho,,2:20,D,M13,E,85,,Carefree Highway,,
+Greg Kihn,,,./cho/GHI/G/GregKihn/BreakupSong.cho,4,2:49,Am,P41,F#m,136,,Breakup Song,,
+Greg Kihn,,,./cho/GHI/G/GregKihn/BreakupSong-f#m.cho,4,3:00,F#m,P41,F#m,136,,Breakup Song,,
+Gloria Gaynor,,,./cho/GHI/G/GloriaGaynor/IWillSurvive.cho,,3:20,Am,24,,117,,I Will Survive,,
+George Harrison,,,./cho/GHI/G/GeorgeHarrison/WhileMyGuitarGentlyWeeps.cho,,3:47,,,,123,,While My Guitar Gently Weeps,,
+George Harrison,,,./cho/GHI/G/GeorgeHarrison/Something.cho,,,C,,,132,,Something,,
+Gene Cotton,,,./cho/GHI/G/GeneCotton/BeforeMyHeartFindsOut.cho,,,F,,,123,,Before My Heart Finds Out,,
+Guess Who,,,./cho/GHI/G/GuessWho/Undun.cho,,,Em,,,100,,Undun,,
+Green Day,,,./cho/GHI/G/GreenDay/GoodRiddance.cho,,,G,,,95,,Good Riddance (Time of Your Life),,
+George Strait,,,./cho/GHI/G/GeorgeStrait/AsFarAsItGoes-D.cho,,,D,,,137,4/4,As Far As It Goes,,
+George Strait,,,./cho/GHI/G/GeorgeStrait/AsFarAsItGoes.cho,,,C,,,137,4/4,As Far As It Goes,,
+Genesis,47,,./cho/GHI/G/Genesis/ThatsAll.cho,4,4:00,Em,P53,,88,,That's All,,
+Genesis,,,./cho/GHI/G/Genesis/InTooDeep.cho,,,G,,,,,In Too Deep,,
+Hal Ketchum,15,,./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho,8,2:43,Em,O:24,Em,96,,Past The Point Of Rescue,,
+Hal Ketchum,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho,,,C,,C,100,,Small Town Saturday Night,,
+Hal Ketchum,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho,,,C,,,,,Softer Than a Whisper,,
+Hal Ketchum,12,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho,8,3:15,D,P21,D,100,,Hearts Are Gonna Roll,,
+Heatwave,,,./cho/GHI/H/Heatwave/AlwaysAndForever.cho,,,,,,,,Always and Forever,,
+Heart,,,./cho/GHI/H/Heart/TellItLikeItIs.cho,,,F,,,100,6/8,Tell It Like It Is,,
+Huey Lewis and the News,,,./cho/GHI/H/HueyLewis/DoYouBelieveInLove.cho,,,G,,,,,Do You Believe In Love,,
+Hall & Oates,,,./cho/GHI/H/HallAndOates/ICantGoForThat.cho,,,Eb,,,,,I Can't Go For That,,
+Hall & Oates,,,./cho/GHI/H/HallAndOates/RichGirl.cho,,,F,,,,,Rich Girl,,
+Henry Gross,,,./cho/GHI/H/HenryGross/Shannon.cho,,,F,,,,,Shannon,,
+The Hooters,,,./cho/GHI/H/Hooters/AndWeDanced.cho,,,D,,,,,And We Danced,,
+Robert Palmer,,,./cho/PQR/R/RobertPalmer/EveryKindaPeople.cho,,,F,,,,,Every Kinda People,,
+Robert Palmer,34,,./cho/PQR/R/RobertPalmer/BadCaseOfLovinYou.cho,8,2:50,E,,,146,,Bad Case Of Lovin' You,,
+Raspberries,,,./cho/PQR/R/Raspberries/GoAllTheWay.cho,,,A,,,120,,Go All The Way,,
+Romantics,19,,./cho/PQR/R/Romantics/WhatILikeAboutYou.cho,8,2:20,A,P44,,,,What I Like About You,,
+Robbie Dupree,,,./cho/PQR/R/RobbieDupree/StealAway_inA.cho,,,A,,,,,Steal Away,,
+Robbie Dupree,,,./cho/PQR/R/RobbieDupree/StealAway.cho,,,F,,,,,Steal Away,,
+Rex Smith,,,./cho/PQR/R/RexSmith/YouTakeMyBreathAway.cho,,,Bb,,,96,,You Take My Breath Away,,
+Robert Plant & Alison Krauss,,,./cho/PQR/R/RobertPlant/CantLetGo.cho,,2:50,E,,,176,,Can't Let Go,,
+Randy Travis,,,./cho/PQR/R/RandyTravis/WhereThatCameFrom.cho,,3:11,C,,,,,Where That Came From,,
+Mike Reid/Alabama,,,./cho/PQR/R/RandyTravis/ForeversAsFarAsIllGo.cho,,,Eb,,,,,Forever's As Far As I'll Go,,
+Randy Travis,,,./cho/PQR/R/RandyTravis/ThisIsMe.cho,,,Eb,,,,,This Is Me,,
+Randy Travis,,,./cho/PQR/R/RandyTravis/LookHeartsNoHands.cho,,,C,,,,,Look Heart No Hands,,
+Roberta Flack,,,./cho/PQR/R/RobertaFlack/KillingMeSoftly-A.cho,,,A,,,122,,Killing Me Softly With His Song,,
+Ronnie Milsap,,,./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe.cho,4,4:00,E,??,,100,,There's No Getting Over Me,,
+Ronnie Milsap,,,./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe-c.cho,4,4:00,C,??,,100,,There's No Getting Over Me,,
+Rolling Stones,,,./cho/PQR/R/RollingStones/MissYou.cho,,,Am,,,,,Miss You,,
+Rolling Stones,43,,./cho/PQR/R/RollingStones/UnderMyThumb.cho,8 (with pickup)),3:40,A,,,127,,Under My Thumb,,
+Rocky Burnette,17,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho,8,3:30,G,O14,,,,Tired Of Toein' The Line,,
+Rocky Burnette,17,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho,8,3:30,E,,,,,Tired Of Toein' The Line,,
+Restless Heart,,,./cho/PQR/R/RestlessHeart/WhenSheCries.cho,,,A,,,113,,When She Cries,,
+REO Speedwagon,,,./cho/PQR/R/ReoSpeedwagon/TimeforMeToFly.cho,,,D,,,84,,Time For Me To Fly,,
+REO Speedwagon,,,./cho/PQR/R/ReoSpeedwagon/RollWithTheChanges.cho,,,C,,,,,Roll With The Changes,,
+REO Speedwagon,,,./cho/PQR/R/ReoSpeedwagon/TimeforMeToFly-c.cho,,,C,,,84,,Time For Me To Fly,,
+Phil Collins,,,./cho/PQR/P/PhilCollins/DoYouRemember.cho,,,F,,,,,Do You Remember ?,,
+Psychelic Furs,,,./cho/PQR/P/PsychedelicFurs/LoveMyWay.cho,,,C,,,129,,Love My Way,,
+Psychelic Furs,,,./cho/PQR/P/PsychedelicFurs/GhostInYou.cho,,,Bb,,,123,,Ghost In You,,
+Paul Simon,,,./cho/PQR/P/PaulSimon/Kodachrome.cho,,,D,,,136,,Kodachrome,,
+Peter Frampton,,,./cho/PQR/P/PeterFrampton/ImInYou.cho,,4:00,C,,C,99,,I'm In You,,
+Peter Frampton,46,,./cho/PQR/P/PeterFrampton/ShowMeTheWay.cho,8,3:45,D,,,137,,Show Me The Way,,
+Peter Frampton,,,./cho/PQR/P/PeterFrampton/BabyILoveYourWay.cho,,,G,,,78,,Baby I Love Your Way,,
+Pete Townsend,22,,./cho/PQR/P/PeteTownsend/LetMyLoveOpenTheDoor.cho,8,2:30,A,M51,A,165,,Let My Love Open The Door,U35,
+Perfect Stranger,,,./cho/PQR/P/PerfectStranger/YouHaveTheRightToRemainSilent.cho,,,G,,,,,You Have The Right To Remain Silent,,
+Pat Green,,,./cho/PQR/P/PatGreen/Whiskey.cho,8,4:00,D,N35,,167,,Whiskey,,
+Pat Green,,,./cho/PQR/P/PatGreen/CarryOn.cho,,,D,,,,,Carry On,,
+Pat Green,,,./cho/PQR/P/PatGreen/Crazy.cho,,,,,,,,Crazy,,
+Pure Prairie League,,,./cho/PQR/P/PurePrairieLeague/LetMeLoveYouTonight.cho,,,Bb,,,,,Let Me Love You Tonight,,
+Post Malone ( w/ Morgan Wallen),,,./cho/PQR/P/PostMalone/IHadSomeHelp.cho,,,,,,,,I Had Some Help,,
+Fleetwood Mac,,,./cho/DEF/F/FleetwoodMac/Landslide.cho,,,Eb,,Eb,,,Landslide,,
+Fleetwood Mac,,,./cho/DEF/F/FleetwoodMac/Landslide-c.cho,,,C,,,,,Landslide,,
+Fleetwood Mac,,,./cho/DEF/F/FleetwoodMac/Landslide-lyrics.cho,,,Eb,,Eb,,,Landslide,,
+Fleetwood Mac,,,./cho/DEF/F/FleetwoodMac/DontStop.cho,0,3:00,E,N54,,,,Don't Stop,,
+Fleetwood Mac,,,./cho/DEF/F/FleetwoodMac/SayThatYouLoveMe.cho,4,3:00,A,N12,A,128,,Say That You Love Me,,
+4 Non Blonds,,,./cho/DEF/F/FourNonBlondes/WhatsUp.cho,,4:00,A,,,67,,What's Up,,
+Dr. Hook,,,./cho/DEF/D/DrHook/SharingTheNightTogether.cho,,,C,,,,,Sharing The Night Together,,
+Dua Lipa,,,./cho/DEF/D/DuaLipa/Levitating.cho,,,Am,,,,,Levitating,,
+Dua Lipa,48,,./cho/DEF/D/DuaLipa/LoveAgain.cho,8,,F#m,,,116,,Love Again,,
+Doobie Brothers,,,./cho/DEF/D/DoobieBros/TakinItToTheStreets-B.cho,,,B,,,,,Takin' It To The Streets,,
+Doobie Brothers,39,,./cho/DEF/D/DoobieBros/LongTrainRunning.cho,4,3:20,Gm,,,117,,Long Train Runnin',,
+Doobie Brothers,,,./cho/DEF/D/DoobieBros/LongTrainRunning-MVP.cho,,,Gm,,,,,Long Train Runnin’,,
+Doobie Brothers,,,./cho/DEF/D/DoobieBros/TakinItToTheStreets.cho,,,F,,,,,Takin' It To The Streets,,
+Delbert McClinton,,,./cho/DEF/D/DelbertMcClinton/LeapOfFaith.cho,,,B,,,,,Leap Of Faith,,
+Daniel Boone,,,./cho/DEF/D/DanielBoone/BeautifulSunday.cho,,,C,,,,,Beautiful Sunday,,1.0
+Hootie (Darius Rucker) and the Blowfish,,,./cho/DEF/D/DariusRucker/HoldMyHand.cho,,3:35,B,,,101,,Hold My Hand,,
+Darius Rucker,,,./cho/DEF/D/DariusRucker/WagonWheel.cho,4,3:50,G,O55,,,,Wagon Wheel,,1.0
+Dwight Yoakam,,,./cho/DEF/D/DwightYokam/AintThatLonelyYet.cho,,,F,,,107,,Ain't That Lonely Yet,,
+Dwight Yoakam,,,./cho/DEF/D/DwightYokam/LittleSister.cho,4,3:00,E,O14,,144,,Little Sister,,
+Don McLean,,,./cho/DEF/D/DonMcLean/Vincent.cho,,,G,,,,,Vincent,,
+Dionne Warwick / Bee Gees,,,./cho/DEF/D/DioneWarwick/HeartBreaker.cho,,,G,,,,,Heartbreaker,,
+Dionne Warwick,33,,./cho/DEF/D/DioneWarwick/ThenCameYou.cho,4,3:00,F,M23,,116,,Then Came You,,
+Dixie Chicks,,,./cho/DEF/D/DixieChicks/LetErRip.cho,,3:00,A,N53,,150,,Let 'Er Rip,,
+Dixie Chicks,,,./cho/DEF/D/DixieChicks/WideOpenSpaces.cho,,3:00,D,,,,,Wide Open Spaces,,
+Dixie Chicks,,,./cho/DEF/D/DixieChicks/SomeDaysYouGottaDance.cho,,2:28,E,,,170,,Some Days You Gotta Dance,,
+Eric Clapton,,,./cho/DEF/E/EricClapton/NobodyKnowsYou.cho,4,3:50,C,N45,C,89,,Nobody Knows You When You're Down And Out,,
+Eric Clapton,,,./cho/DEF/E/EricClapton/SanFranciscoBayBlues.cho,,3:00,C,,,162,,San Francisco Bay Blues,,
+Eric Clapton,,,./cho/DEF/E/EricClapton/Layla.cho,,4:00,Dm,???,Dm,94,,Layla,,
+Eric Clapton,,,./cho/DEF/E/EricClapton/Cocaine.cho,,,,,,,,Cocaine,,
+Eric Clapton,,,./cho/DEF/E/EricClapton/OverTheRainbow-E.cho,,,E,,,,,Over the Rainbow,,
+Edward Bear,,,./cho/DEF/E/EdwardBear/LastSong.cho,,3:00,G,P55,,,,Last Song,,
+Eddie Holman,,,./cho/DEF/E/EddieHolman/HeyThereLonelyGirl.cho,,3:00,G,,,,,Hey There Lonely Girl,,
+Eagles,,,./cho/DEF/E/Eagles/LoveWillKeepUsAlive.cho,,,A,,,90,,Love Will Keep Us Alive,,
+Eagles,,,./cho/DEF/E/Eagles/LyinEyes.cho,8,3:45,G,O55,,,,Lyin' Eyes,,
+Eagles,,,./cho/DEF/E/Eagles/ICantTellYouWhy.cho,,,Bm,,,,,I Can't Tell You Why,,
+Elton John,,,./cho/DEF/E/EltonJohn/Daniel-A.cho,,,A,,,,,Daniel,,
+Elton John,,,./cho/DEF/E/EltonJohn/CrocodileRock.cho,,3:10,G,???,G,151,,Crocodile Rock,,
+Elton John,,,./cho/DEF/E/EltonJohn/Daniel.cho,,,C,,,,,Daniel,,
+Elvis,,,./cho/DEF/E/Elvis/BurningLove.cho,,,D,,,144,,Burning Love,,
+Eddie Money,,,./cho/DEF/E/EddieMoney/ThinkImInLove.cho,,4:00,,,,152,,Think I'm In Love,,
+Etta James,57,,./cho/DEF/E/EttaJames/DownhomeBlues.cho,4,4:30,G,P55,,,,Downhome Blues,,
+England Dan / John Ford Coley,,,./cho/DEF/E/EnglandDanJohnFordColey/IdReallyLoveToSeeYouTonight.cho,,,F,,,,,I'd Really Love To See You Tonight,,
+ELO ( Jeff Lynne ),,,./cho/DEF/E/ELO/WhenIWasABoy.cho,,,C,,,,,When I Was A Boy,,
+ELO,,,./cho/DEF/E/ELO/CantGetYouOutOfMyHead.cho,,,,,,,,Can't Get You Out Of My Head,,
+ELO,,,./cho/DEF/E/ELO/MidnightBlue.cho,,4:10,F,,D,,,Midnight Blue,,
+ELO / Jeff Lynne,,,./cho/DEF/E/ELO/Rockaria.cho,,,D,,,,,Rockaria,,
+Traditional,,,./cho/UV-Z/Xmas/RudolphTheRedNosedReindeer.cho,,2:10,C,,,94,,Rudolph The Red-Nosed Reindeer,,
+Bobby Helms,,,./cho/UV-Z/Xmas/JingleBellRock.cho,4,1:45,C,,,118,,Jingle Bell Rock,,
+Traditional,,,./cho/UV-Z/Xmas/WinterWonderland.cho,,2:10,Eb,,,94,,Winter Wonderland,,
+Eartha Kitt,,,./cho/UV-Z/Xmas/SantaBaby.cho,,2:30,G,,,151,,Santa Baby,,
+Dean Martin,,,./cho/UV-Z/Xmas/LetItSnow.cho,,1:50,A,,,95,,Let It Snow,,
+Paul McCartney,,,./cho/UV-Z/Xmas/WonderfulChristmastime.cho,,,G,,,,,Wonderful Christmastime,,
+Brenda Lee,,,./cho/UV-Z/Xmas/RockinAroundTheChristmasTree.cho,,2:20,G,,,138,,Rockin' Around The Christmas Tree,,
+Bing Crosby,,,./cho/UV-Z/Xmas/HaveYourselfAMerryLittleChristmas.cho,,2:50,C,,,80,,Have Yourself A Merry Little Christmas,,
+Bruce Springsteen,,,./cho/UV-Z/Xmas/SantaClausIsComingToTown.cho,,3:30,C,,,118,,Santa Claus Is Coming To Town,,
+Elvis Presley,,,./cho/UV-Z/Xmas/BlueChristmas.cho,,1:50,E,,,95,,Blue Christmas,,
+Bing Crosby,,,./cho/UV-Z/Xmas/ItsBeginningToLookALotLikeChristmas.cho,4,2:00,G,,,96,,It's Beginning To Look A Lot Like Christmas,,
+The Beach Boys,,,./cho/UV-Z/Xmas/LittleSaintNick.cho,,1:45,G,,,131,,Little Saint Nick,,
+Luke Bryan,,,./cho/UV-Z/Xmas/RunRunRudolph.cho,4,2:30,A,,,151,,Run Run Rudolph,,
+Wham!,,,./cho/UV-Z/Xmas/LastChristmas.cho,4,4:00,C,,,151,,Last Christmas,,
+Zombies,,,./cho/UV-Z/Zombies/TimeOfTheSeason.cho,,,Em,,,117,,Time of the Season,,
+U2,,,./cho/UV-Z/U2/StuckInAMoment-IStillHaventFound.cho,,,E / C,N51,,TBD,,Stuck In A Moment / I Still Haven't Found,,
+Weezer,58,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho,4,3:00,Em,P54,,,,Island In The Sun,,
+The Weeknd,,,./cho/UV-Z/W/Weeknd/BlindingLights.cho,,3:20,Fm,,,171,,Blinding Lights,,
+The Church,32,,./cho/ST/T/TheChurch/UnderTheMilkyWay.cho,8,5:00,Am,P45,,66,,Under The Milky Way,,0.0
+Toby Keith,,,./cho/ST/T/TobyKeith/YourSmile-A.cho,,,A,,,77,4/4,Your Smile,,
+Toby Keith,,,./cho/ST/T/TobyKeith/WhereYouGonnaGo.cho,,,Bm,,,129,4/4,Where You Gonna Go,,
+Toby Keith,,,./cho/ST/T/TobyKeith/YourSmile.cho,,,G,,,77,4/4,Your Smile,,
+Traveling Wilburys,,,./cho/ST/T/TravelingWilburys/HandleWithCare.cho,4,3:18,G,M22,,122,,Handle With Care,P12,
+Toby Beau,,,./cho/ST/T/TobyBeau/MyAngelBaby.cho,,3:00,G,,,,,My Angel Baby,,
+T.Rex,,,./cho/ST/T/T.Rex/GetItOn.cho,,,,,,,,Get It On,,
+Taylor Swift,,,./cho/ST/T/TaylorSwift/YouBelongWithMe.cho,,,G,,,,,You Belong With Me,,
+Taylor Swift,,,./cho/ST/T/TaylorSwift/Style.cho,,,G,,,,,Style,,
+Taylor Swift,41,,./cho/ST/T/TaylorSwift/OurSong.cho,4,2:40,D,,,89,,Our Song,,
+Tom Petty,,,./cho/ST/T/TomPetty/Breakdown.cho,4,3:00,Am,P11,Am,114,,Breakdown,,
+Tom Petty,,,./cho/ST/T/TomPetty/FreeFallin-BASS.cho,4,3:30,E,,E,85,,Free Fallin' (BASS),,
+Tom Petty,,,./cho/ST/T/TomPetty/DontDoMeLikeThat.cho,,,G,,,,,Don't Do Me Like That,,
+Tom Petty,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho,,3:20,Em,,,82,,Into The Great Wide Open,,
+Tom Petty,16,,./cho/ST/T/TomPetty/RunningDownADream.cho,8,4:00,E,,,170,,Runnin' Down A Dream,,
+Tom Petty & The Heartbreakers,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho,,3:20,Am,,,85,,Mary Jane's Last Dance,,
+Tom Petty,,,./cho/ST/T/TomPetty/LearningToFly.cho,8,3:40,C,???,C,116,,Learning to Fly,,
+Tom Petty,,2,./cho/ST/T/TomPetty/FreeFallin-GUITAR-D.cho,4,3:30,D,,E,85,,Free Fallin',,
+Three Dog Night,,,./cho/ST/T/ThreeDogNight/Shambala.cho,4,3:00,E,O55,,,,Shambala,,
+Tommy Castro and the Painkillers,,,./cho/ST/T/TommyCastroNPainkillers/NastyHabits.cho,,,C,,,,,Nasty Habits,,
+Tommy Castro and the Painkillers,,,./cho/ST/T/TommyCastroNPainkillers/CallingSanFrac-G.cho,,,G,,,,,Calling San Francisco,,
+Tommy Castro and the Painkillers,,,./cho/ST/T/TommyCastroNPainkillers/CallingSanFrac.cho,,,C,,,,,Calling San Francisco,,
+Thomas Rhett,,,./cho/ST/T/ThomasRhett/HalfOfMe-2.cho,,3:15,G,N35,,112,4/4,Half Of Me (updated),,
+Thomas Rhett,11,,./cho/ST/T/ThomasRhett/HalfOfMe.cho,4,2:45,G,N35,,112,4/4,Half Of Me,,1.0
+The Clash,,,./cho/ST/T/TheClash/ShouldIStay-bass.cho,,,D,,,,,Should I Stay (Or Should I Go) (BASS),,
+Tommie Tutone,,,./cho/ST/T/TommyTutone/Jenny-867-5309.cho,,3:12,F#m,,,138,,Jenny 867-5309,,
+Survivor,,,./cho/ST/S/Survivor/IsThisLove.cho,,,F,,,,,Is This Love,,
+Starbuck,,,./cho/ST/S/Starbuck/MoonlightFeelsRight.cho,,,C,,,,,Moonlight Feels Right,,
+Steeldrivers,,,./cho/ST/S/Steeldrivers/GoodCornLiquor.cho,,,E,,,,,Good Corn Liquor,,
+Stampeders,,,./cho/ST/S/Stampeders/SweetCityWoman.cho,,,G,,,,,Sweet City Woman,,
+Santana,,,./cho/ST/S/Santana/CorazonEspinado.cho,0,3:30,Bm,P00,,120,4/4,Corazon Espinado,,
+Santana,,,./cho/ST/S/Santana/BlackMagicWoman.cho,,,,,,,,Black Magic Woman,,
+Santana,,,./cho/ST/S/Santana/EvilWays.cho,,3:30,Gm,P25,,78,,Evil Ways,,
+Santana,,,./cho/ST/S/Santana/Smooth.cho,0,4:00,Am,P25,,116,,Smooth,,
+Seals and Crofts,23,,./cho/ST/S/SealsCrofts/DiamondGirl.cho,8,3:45,Am,O42,,127,,Diamond Girl,,
+Seals and Crofts,,,./cho/ST/S/SealsCrofts/SummerBreeze.cho,4,3:25,,41,,76,,Summer Breeze,,
+Seals & Crofts,,,./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho,,,E,,,88,,We May Never Pass This Way Again,,
+Santo and Johnny,,,./cho/ST/S/SantoAndJohnny/SleepWalk.cho,,,C,,,,,Sleep Walk,,
+Shocking Blue,,,./cho/ST/S/ShockingBlue/Venus.cho,,,A,,,,,Venus,,
+Zombies / Shocking Blue,,,./cho/ST/S/ShockingBlue/ShesNotThere-Venus.cho,,4:00,A,O21,,,,She's Not There / Venus,,
+Still Corners,,,./cho/ST/S/StillCorners/WhiteSands.cho,,,Dm,,,,,White Sands,,
+Steve Miller Band,,,./cho/ST/S/SteveMillerBand/TakeTheMoneyAndRun-Bass.cho,,2:52,G,,,,,Take The Money And Run (BASS),,
+Steve Miller Band,,,./cho/ST/S/SteveMillerBand/TakeTheMoneyAndRun.cho,,2:52,G,,,,,Take The Money And Run,,
+Silk Sonic,,,./cho/ST/S/SilkSonic/LeaveTheDoorOpen.cho,,,F,,,,,Leave the Door Open,,
+Sixpence None The Richer,30,,./cho/ST/S/SixpenceNoneTheRicher/KissMe.cho,4,2:50,C,O12,Eb,100,,Kiss Me,,
+Sixpence None The Richer,31,,./cho/ST/S/SixpenceNoneTheRicher/ThereSheGoes.cho,4,2:42,G,P24,Bb,123,,There She Goes,,
+Scott Davidson,,,./cho/ST/S/ScottDavidson/Hesitate.cho,,3:00,Bb,,,86,,Hesitate (partial),,
+Scott Davidson,,,./cho/ST/S/ScottDavidson/Progress.cho,,2:00,D,,,,,Progress (for now),,
+"Michael Sadri, Scott Davidson",,,./cho/ST/S/ScottDavidson/GoingToMontana.cho,8,3:30,Am,P14,,136,,Going To Montana,,
+Scott Davidson,,,./cho/ST/S/ScottDavidson/SunriseInCork.cho,,2:00,G,,,,,Sunrise in Cork,,
+Scott Davidson,,,./cho/ST/S/ScottDavidson/DreamDrift.cho,,3:00,F,,,86,,Dream Drift,,
+Scott Davidson,,,./cho/ST/S/ScottDavidson/DiminishedIdea.cho,,3:00,Bb,,,86,,Diminished Idea,,
+"Steppenwolf, Adam Lambert",,,./cho/ST/S/Steppenwolf/BornToBeWild.cho,,,E,,,,,Born To Be Wild,,
+Stevie Wonder,,,./cho/ST/S/StevieWonder/Lately.cho,,3:30,C,,,,,Lately,,
+Stevie Wonder,,,./cho/ST/S/StevieWonder/DontYouWorryBoutAThing.cho,,,,,,,,Don't You Worry 'Bout A Thing,,
+Susan Tedeschi,,,./cho/ST/S/SusanTedeschi/LittleByLittle.cho,,,E,,,,,Little by Little,,
+Suzy Quatro,,,./cho/ST/S/SuziQuatro/StumblinIn.cho,,,G,,,,,Stumblin' In,,
+Sade,,,./cho/ST/S/Sade/SmoothOperator.cho,0,3:30,Am,53,,120,,Smooth Operator,,
+Stray Cats,,,./cho/ST/S/StrayCats/StrayCatStrut.cho,,,Cm,,,,,Stray Cat Strut,,
+Stevie Ray Vaughan,38,,./cho/ST/S/StevieRayVaughan/HouseIsARockin.cho,8,2:05,B,,,172,,House is a Rockin',,
+Stevie Ray Vaughan,38,,./cho/ST/S/StevieRayVaughan/HouseIsARockin-c.cho,8,2:05,C,,B,172,,House is a Rockin',,
+Sylvia,63,,./cho/ST/S/Sylvia/Nobody.cho,8,3:10,C,P00,,,,Nobody,,
+Nigel Olsson,,,./cho/MNO/N/NigelOlsson/DancinShoes.cho,,,Bm,,,101,,Dancin' Shoes,,
+Neil Diamond,,,./cho/MNO/N/NeilDiamond/SweetCaroline.cho,,3:24,,,,63,,Sweet Caroline,,
+Nick Lowe,,,./cho/MNO/N/NickLowe/CruelToBeKind.cho,,,,,,,,Cruel To Be Kind,,
+No Doubt(Gwen Stephani),,,./cho/MNO/N/NoDoubt/DontSpeak.cho,4,3:45,Cm,N45,,76,,Don't Speak,,
+Niall Horan,,,./cho/MNO/N/NiallHoran/PutALittleLoveOnMe.cho,,,G,,,,,Put A Little Love On Me,,
+Niall Horan,,,./cho/MNO/N/NiallHoran/ThisTown.cho,,,G,,,,,This Town,,
+Norah Jones,28,,./cho/MNO/N/NorahJones/DontKnowWhy.cho,4,3:06,Bb,??,,88,,Don't Know Why,,
+Nat King Cole,,,./cho/MNO/N/NatKingCole/L_O_V_E.cho,,,G,,,78,,L-O-V-E,,
+Nat King Cole,,,./cho/MNO/N/NatKingCole/L_O_V_E-C.cho,,,C,,,78,,L-O-V-E,,
+Nancy Sinatra,,,./cho/MNO/N/NancySinatra/TheseBootsWereMadeForWalkin.cho,4,2:20,E,,E,84,,These Boots Are Made For Walkin',,
+Natalie Imbruglia,52,,./cho/MNO/N/NatalieImbruglia/Torn.cho,4,3:35,F,P51,,,,Torn,,
+Old Crow Medicine Show,,,./cho/MNO/O/OldCrowMedicineShow/Firewater.cho,,3:00,G],,,,,Firewater,,
+O'Jays,,,./cho/MNO/O/O_Jays/UseTaBeMyGirl.cho,,,F,,,,,Use Ta Be My Girl,,
+Olivia Rodrigo,,,./cho/MNO/O/OliviaRodrigo/AllIWant.cho,,,G,,,,,All I Want,,
+Mike Reid,,,./cho/MNO/M/MikeReid/YourLoveStaysWithMe.cho,,,E,,,,,Your Love Stays With Me,,
+Morgan Wallen,,,./cho/MNO/M/MorganWallen/SevenSummers.cho,,,C,,,102,4/4,7 Summers,,
+Morgan Wallen,,,./cho/MNO/M/MorganWallen/MoreThanMyHometown.cho,,,G,,,126,4/4,More Than My Hometown,,
+Morgan Wallen (Eric Church),,,./cho/MNO/M/MorganWallen/ManMadeABar.cho,,,C,,,105,,Man Made A Bar,,
+Morgan Wallen,,,./cho/MNO/M/MorganWallen/SomebodysProblem.cho,,,F,,,137,,Somebody's Problem,,
+Morgan Wallen,,,./cho/MNO/M/MorganWallen/SandInMyBoots.cho,,3:05,C,N52,,,,Sand In My Boots,,
+Morgan Wallen,51,,./cho/MNO/M/MorganWallen/LoveSomebody.cho,8,3:00,Em,P52,,120,,Love Somebody,,
+Morgan Wallen (Eric Church),,,./cho/MNO/M/MorganWallen/ManMadeABar-E.cho,,,E,,,105,,Man Made A Bar,,
+Mitch Ryder and The Detroit Wheels,,,./cho/MNO/M/MitchRyder/DevilWithTheBlueDress.cho,,,C,,,,,Devil With The Blue Dress,,
+Marcus King Band,,,./cho/MNO/M/MarcusKing/OneDayShesHere.cho,,,Bm,,,,,One Day She’s Here,,
+Miley Cyrus,,,./cho/MNO/M/MileyCyrus/Flowers.cho,8,3:00,Am,N21,,122,,Flowers,,
+Miley Cyrus / Billy Ray Cyrus,,,./cho/MNO/M/MileyCyrus/ButterflyFlyAway.cho,,2:35,Eb,P23,,136,,Butterfly Fly Away,,
+Mayer Hawthorne,,,./cho/MNO/M/MayerHawthorne/TheWalk.cho,,,A,,,,,The Walk,,
+Mama Cass,,,./cho/MNO/M/MamaCass/DreamALittleDream-C-NYE.cho,,,C,,,133,,Dream A Little Dream Of Me - NYE,,
+Mama Cass,,,./cho/MNO/M/MamaCass/DreamALittleDream-C.cho,,,C,,,133,,Dream A Little Dream Of Me,,
+Mama Cass,,,./cho/MNO/M/MamaCass/DreamALittleDreamOfMe-C.cho,,,C,,,133,,Dream A Little Dream Of Me,,
+Marshall Tucker Band,,,./cho/MNO/M/MarshallTuckerBand/CantYouSee.cho,4,5:00,D,N34,A,164,,Can't You See,,1.0
+Marshall Tucker Band,,,./cho/MNO/M/MarshallTuckerBand/CantYouSee-a.cho,4,5:00,A,N34,A,164,,Can't You See,,
+Midland,,,./cho/MNO/M/Midland/TakeHerOffYourHands.cho,,,,,,,,Take Her Off Your Hands,,
+Midland,,,./cho/MNO/M/Midland/OldFashionedFeeling.cho,,,G,,,,,Old Fashioned Feeling,,
+Midland,,,./cho/MNO/M/Midland/CheatinSong.cho,,,D,,,,,Cheatin' Songs,,
+Midland,24,,./cho/MNO/M/Midland/DrinkingProblem.cho,4,3:00,A,P25,,102,,Drinkin' Problem,,
+Midland,,,./cho/MNO/M/Midland/Vegas.cho,,3:28,D,,,133,,Vegas,,
+Midland,,,./cho/MNO/M/Midland/FourteenGears.cho,,,D,,,,,Fourteen Gears,,
+Midland,,,./cho/MNO/M/Midland/RollAway.cho,,,C,,,,,Roll Away,,
+"Michael Sadri, Scott Davidson",,,./cho/MNO/M/MichaelSadri/GoingToMontana.cho,,3:30,Am,,,136,,Going To Montana,,
+Michael Sadri,,,./cho/MNO/M/MichaelSadri/GoingToMontana-orig.cho,,,C,,,,,Going To Montana - Original,,
+Michael Sadri,,,./cho/MNO/M/MichaelSadri/AreYouHungryTonight.cho,,2:50,C,,,66,3/4,Are You Hungry Tonight?,,
+Madonna,59,,./cho/MNO/M/Madonna/LaIslaBonita.cho,8,4:00,C#m,P54,C#m,100,,La Isla Bonita,,
+Mary Chapin Carpenter,56,,./cho/MNO/M/MaryChapinCarpenter/IFeelLucky.cho,8,3:20,B,A01,,120,,I Feel Lucky,,
+Mike and the Mechanics,,,./cho/MNO/M/Mike+TheMechanics/AllINeedIsAMiracle.cho,,,F,,,120,,All I Need Is A Miracle,,
+Jo Dee Messina,27,,./cho/JKL/J/JoDeeMessina/ByeBye.cho,8,3:12,G,O24,Bb (+3),134,,Bye Bye,,
+Jo Dee Messina,27,,./cho/JKL/J/JoDeeMessina/ByeBye-bb.cho,8,3:12,Bb,O24,Bb,134,,Bye Bye,,
+Jewel,,,./cho/JKL/J/Jewel/WhoWillSaveMySoul.cho,,,Am,,,126,,Who Will Save My Soul,,
+Josh Turner,,,./cho/JKL/J/JoshTurner/Jacksonville.cho,,,C,,,119,,Jacksonville,,
+Josh Turner,,,./cho/JKL/J/JoshTurner/Jacksonville-D.cho,,,D,,,119,,Jacksonville,,
+JJ Cale,,,./cho/JKL/J/JJCale/SensitiveKind.cho,,5:00,Dm,N11,,101,,Sensitive Kind,,
+Jordan Davis,,,./cho/JKL/J/JordanDavis/TusconTooLate.cho,,,G,,,,,Tuscon Too Late,,
+Judy Garland,,,./cho/JKL/J/JudyGarland/OverTheRainbow.cho,,,Eb,,,,,Over the Rainbow,,
+Judy Garland,,,./cho/JKL/J/JudyGarland/OverTheRainbow-E.cho,,,E,,,,,Over the Rainbow,,
+Judy Garland,,,./cho/JKL/J/JudyGarland/OverTheRainbow-Bb.cho,,,Bb,,,,,Over the Rainbow,,
+John Mellencamp,54,,./cho/JKL/J/JohnMellencamp/ROCKInTheUSA.cho,8,2:55,E,,,,,R.O.C.K. In The U.S.A,,
+John Mellencamp,29,,./cho/JKL/J/JohnMellencamp/JackandDiane.cho,4,3:40,A,,,104,,Jack and Diane,,
+John Mellencamp,,,./cho/JKL/J/JohnMellencamp/CherryBomb.cho,,,G,,,,,Cherry Bomb,,
+John Hiatt,,,./cho/JKL/J/JohnHiatt/MemphisInTheMeantime.cho,,,E,,,,,Memphis in the Meantime,,
+Joe Cocker,18,,./cho/JKL/J/JoeCocker/UnchainMyHeart.cho,0,5:07,Am,O:24,,118,,Unchain My Heart,,
+Jim Croce,42,,./cho/JKL/J/JimCroce/BadBadLeroyBrown.cho,8,2:35,G,O55,,148,,Bad Bad Leroy Brown,,
+Jim Croce,,,./cho/JKL/J/JimCroce/YouDontMessAroundWithJim.cho,,,F,,,164,,You Don't Mess Around With Jim,,
+John Mayer,,,./cho/JKL/J/JohnMayer/ImGonnaFindAnotherYou.cho,,3:00,A,,,,,I’m Gonna Find Another You,,
+John Lennon,,,./cho/JKL/J/JohnLennon/BeautifulBoy.cho,,,D,,,100,,Beautiful Boy,,
+John Lennon,,,./cho/JKL/J/JohnLennon/WatchingTheWheels.cho,,,C,,,,,Watching The Wheels,,
+Jon Hume,,,./cho/JKL/J/JonHume/DontForget.cho,,,C,,,,,Don't Forget (Welcome to Wrexham),,
+Jackson Browne,,,./cho/JKL/J/JacksonBrowne/Stay.cho,,3:00,G,P25,,,,Stay,,
+Kane Brown,,,./cho/JKL/K/KaneBrown/BuryMeInGeorgia.cho,,,Gm,,,,,Bury Me In Georgia,,
+KT Tunstall,,,./cho/JKL/K/KTTunsall/SuddenlyISee.cho,,,D,,,,,Suddenly I See,,
+KT Tunstall,,,./cho/JKL/K/KTTunsall/BlackHorseAndTheCherryTree.cho,8,2:20,Em,,,103,,Black Horse and the Cherry Tree,,
+Kenny Chesney,,,./cho/JKL/K/KennyChesney/EveryoneSheKnows.cho,,,F,,,,,Everyone She Knows,,
+Kacy Musgraves,,,./cho/JKL/K/KaceyMusgraves/SlowBurn.cho,4,3:00,G,O24,,148,,Slow Burn,,
+Kacy Musgraves,,,./cho/JKL/K/KaceyMusgraves/DeeperWell.cho,,3:30,C,,,111,,Deeper Well,,
+Kacy Musgraves,,,./cho/JKL/K/KaceyMusgraves/Rainbow.cho,,2:50,Eb,P23,,65,,Rainbow,,
+Kool and the Gang,,,./cho/JKL/K/KoolAndTheGang/GetDownOnIt.cho,,4:00,Em,,,,,Get Down On It,,
+Kelly Clarkson,53,,./cho/JKL/K/KellyClarkson/Breakaway.cho,6,3:45,Am,A01,,,3/4,Breakaway,,
+Kelly Clarkson,55,,./cho/JKL/K/KellyClarkson/SinceUBeenGone.cho,8,3:10,G,A01,,,,Since U Been Gone,,
+Louis Armstrong,,,./cho/JKL/L/LouisArmstrong/DreamALittleDream-C.cho,,1:10,C,,,133,,Dream A Little Dream Of Me,,
+Louis Armstrong,,,./cho/JKL/L/LouisArmstrong/WhatAWonderfulWorld.cho,,,F,,,108,,What A Wonderful World,,
+Louis Armstrong,,,./cho/JKL/L/LouisArmstrong/WhatAWonderfulWorld-Bb.cho,,,Bb,,,108,,What A Wonderful World,,
+Louis Armstrong,,,./cho/JKL/L/LouisArmstrong/DreamALittleDream.cho,,,G,,,133,,Dream A Little Dream Of Me,,
+Lobo,,,./cho/JKL/L/Lobo/IdLoveYouToWantMe.cho,,,G,,,,,I'd Love You To Want Me,,
+Linda Ronstadt,60,,./cho/JKL/L/LindaRonstadt/HeatWave.cho,8,2:45,Eb,P55,,165,,Heat Wave,,
+Linda Ronstadt,,,./cho/JKL/L/LindaRonstadt/LongLongTime.cho,,,Em,,,,,Long Long Time,,
+Linda Ronstadt,61,,./cho/JKL/L/LindaRonstadt/BackInTheUSA.cho,4,3:00,G,P55,,165,,Back In The USA,,
+Linda Ronstadt,,,./cho/JKL/L/LindaRonstadt/LongLongTime-Am.cho,,,Am,,,,,Long Long Time,,
+Lou Ann Barton,,,./cho/JKL/L/LouAnnBarton/TeNiNeeNi.cho,,,E,,,,,Te Ni Nee Ni,,
+Looking Glass,40,,./cho/JKL/L/LookingGlass/Brandy.cho,8,3:00,E,,,,,Brandy (You're A Fine Girl),,
+Lauren Daigle,,,./cho/JKL/L/LaurenDaigle/YouSay.cho,,4:00,F,M25,,148,,You Say,,
+Lionel Richie,,,./cho/JKL/L/LionelRichie/DeepRiverWoman.cho,,,G,,,135,,Deep River Woman,,
+Luke Bryan,,,./cho/JKL/L/LukeBryan/PlayItAgain.cho,,,C,,,,,Play It Again,,
+Leon Bridges ( feat Luke Combs ),,,./cho/JKL/L/LeonBridges/Beyond.cho,,,G,,,,,Beyond,,
+Leblanc & Carr,,,./cho/JKL/L/LeblancCarr/Falling.cho,,,,,,,,Falling,,
+The Cure / Lumineers,,,./cho/JKL/L/Lumineers/JustLikeHeaven(1).cho,,,A,,,,,Just Like Heaven,,
+The Cure / Lumineers,,,./cho/JKL/L/Lumineers/JustLikeHeaven.cho,,,A,,,,,Just Like Heaven,,
+Lynyrd Skynyrd,25,,./cho/JKL/L/LynyrdSkynyrd/WhatsYourName.cho,8 ; start with pickup,3:10,G,,,135,,What's Your Name,,
+Lynard Skynard,,,./cho/JKL/L/LynyrdSkynyrd/SweetHomeAlabama.cho,,,D,,,,,Sweet Home Alabama,,
