@@ -1,17 +1,17 @@
 {title: Does Your Mother Know}
 {artist: Abba}
 {key: G}
-{tempo: 120}
 {duration: 3:10}
-{meta:nord: M22}
-{meta:countin: 8}
-{meta:backing: 62} 
+{tempo: 120}
+{meta: nord: M22}
+{meta: countin: 8}
+{meta: backing: 62}
 
-{c:*****************************************}
-{c:** meta:nord: M22 **}
-{c:** meta:countin: 8 **}
-{c:** meta:backing: 62 **}
-{c:*****************************************}
+{c:***********************************************}
+{c:**  meta: nord: M22   }
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 62   }
+{c:***********************************************}
 
 {comment: Intro}
 | G   . . . | G   . . . | G   . . . | G   . . . |

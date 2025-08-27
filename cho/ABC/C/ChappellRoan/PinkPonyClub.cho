@@ -1,9 +1,13 @@
 {title: Pink Pony Club}
 {artist: Chappell Roan}
 {key: F}
-{meta: performance: F}
 {duration: 4:10}
 {tempo: 106}
+{meta: backing: 67}
+
+{c:***********************************************}
+{c:**  meta: backing: 67   }
+{c:***********************************************}
 
 {comment: Intro}
 | C7 . . . |
