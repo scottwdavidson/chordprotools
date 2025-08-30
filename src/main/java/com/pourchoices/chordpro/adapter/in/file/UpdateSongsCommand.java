@@ -1,7 +1,6 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
-import com.pourchoices.chordpro.application.domain.port.in.UpdateSongUseCase;
-import com.pourchoices.chordpro.application.domain.port.in.UpdateSongsUseCase;
+import com.pourchoices.chordpro.application.port.in.UpdateSongsUseCase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

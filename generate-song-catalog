@@ -1,0 +1,6 @@
+find . -name "*.cho" >& songsListing.txt 
+
+mvn spring-boot:run \
+ -Dspring-boot.run.arguments="generate-song-catalog ./songsListing.txt"
+
+

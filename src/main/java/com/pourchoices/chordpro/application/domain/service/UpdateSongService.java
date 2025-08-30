@@ -1,15 +1,13 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.adapter.in.file.GenerateIndexCommand;
-import com.pourchoices.chordpro.adapter.out.file.CatalogEntryDto;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderMapper;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
-import com.pourchoices.chordpro.application.domain.port.in.UpdateSongUseCase;
-import com.pourchoices.chordpro.application.domain.port.out.CatalogPort;
+import com.pourchoices.chordpro.application.port.in.UpdateSongUseCase;
+import com.pourchoices.chordpro.application.port.out.CatalogPort;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
