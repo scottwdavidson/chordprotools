@@ -1,2 +1,2 @@
 mvn spring-boot:run \
- -Dspring-boot.run.arguments="update-song ./cho/MNO/M/ModernEnglish/IMeltWithYou.cho"
+ -Dspring-boot.run.arguments="update-song ./cho/ABC/A/America/YouCanDoMagic.cho"

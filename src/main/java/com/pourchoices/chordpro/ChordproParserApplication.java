@@ -1,17 +1,12 @@
 package com.pourchoices.chordpro;
 
 import com.pourchoices.chordpro.adapter.in.file.ChordproToolsMainCommand;
-import com.pourchoices.chordpro.adapter.in.file.GenerateIndexCommand;
-import com.pourchoices.chordpro.adapter.in.file.UpdateCatalogCommand;
-import com.pourchoices.chordpro.adapter.in.file.UpdateSongCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import picocli.CommandLine;
-import picocli.CommandLine.Command;
 
 @SpringBootApplication
 public class ChordproParserApplication implements CommandLineRunner {

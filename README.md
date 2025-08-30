@@ -23,26 +23,44 @@ The tool works by creating a unified catalog of all songs from a designated dire
 - File Application: Applies all changes from the edited .csv file back to the individual ChordPro files.
 
 ## How It Works
-The CLI tool scans your local song directory (e.g., ./cho) and generates a __catalog-index.csv__ catalog file containing all the current song metadata.
-
-You and your bandmates can open and edit this __catalog-index.csv__ file, making changes to metadata fields in a collaborative, spreadsheet-based environment.
-
-Once the edits are complete, you run the tool again to apply the changes.
-
-The tool reads the updated __catalog-index.csv__ and automatically writes the new metadata to the header of each corresponding .cho file.
+A set of CLI commands provide band members a means to create the initial __song-catalog.csv__ catalog file and then add metadata to the catalog, which will then be reflected in the respective chordpro file. As new songs are added, they will be ingested into catalog and then be available for metadata updates. 
 
 ## Installation
 TBD 
 
 ## Usage
-Basic usage examples will be provided here, such as:
+The following subsections describe the core use cases and how to execute them via the CLI. 
 
-### Generate the initial song catalog
+### Generate Song Catalog
+Generates an entirely new catalog based on the set of chordpro song files found under the __cho__ directory. 
 
-### Update the song catalog 
+```
+./generate-song-catalog
+```
 
-### Update a song(s) files
-pour-choices-cli catalog --dir ./songs
+### Tidy Catalog
+Helper script which will remove the carriage return (__"\r"__) that is typically added to the newline (__"\n"__) when editing with local spreadsheet tools or Google Sheets. 
+
+```
+./tidy-song-catalog
+```
+
+### Import New Song 
+Brings in a newly added song into the song catalog. 
+
+### Update A Song
+Updates the chordpro song file's metadata based on changes made in the song catalog. 
+
+```
+./update-song
+```
+
+### Update Songs
+Updates a set of chordpro song file's metadata based on changes made in the song catalog. 
+
+```
+./update-songs
+```
 
 ### (new feature) Generate set list
 

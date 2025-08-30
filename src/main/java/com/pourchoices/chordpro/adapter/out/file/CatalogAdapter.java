@@ -1,7 +1,7 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
-import com.pourchoices.chordpro.application.domain.port.out.CatalogPort;
+import com.pourchoices.chordpro.application.port.out.CatalogPort;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.Path;

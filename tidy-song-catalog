@@ -1,0 +1,5 @@
+# remove the carriage returns "\r"
+sed 's/\r//g' ./song-catalog.csv > ./temporary-catalog-index.csv
+
+# mv temp in catalog-index
+mv ./temporary-catalog-index.csv ./song-catalog.csv

@@ -1,5 +1,0 @@
-# remove the carriage returns "\r"
-sed 's/\r//g' catalog-index.csv > temporary-catalog-index.csv
-
-# mv temp in catalog-index
-mv temporary-catalog-index.csv catalog-index.csv

@@ -3,15 +3,13 @@ package com.pourchoices.chordpro.application.domain.service;
 import com.pourchoices.chordpro.adapter.out.file.CatalogEntryDto;
 import com.pourchoices.chordpro.adapter.out.file.CatalogFileWriter;
 import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
-import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
 import com.pourchoices.chordpro.application.domain.model.*;
-import com.pourchoices.chordpro.application.domain.port.in.GenerateIndexUseCase;
+import com.pourchoices.chordpro.application.port.in.GenerateSongCatalogUseCase;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.Path;
@@ -21,9 +19,9 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
-public class GenerateIndexService implements GenerateIndexUseCase {
+public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(GenerateIndexService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(GenerateSongCatalogService.class);
 
     private final ReadSongListService readSongListService;
     private final CatalogFileWriter catalogFileWriter;

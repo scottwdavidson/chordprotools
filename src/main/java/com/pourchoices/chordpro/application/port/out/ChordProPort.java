@@ -1,4 +1,4 @@
-package com.pourchoices.chordpro.application.domain.port.out;
+package com.pourchoices.chordpro.application.port.out;
 
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 
