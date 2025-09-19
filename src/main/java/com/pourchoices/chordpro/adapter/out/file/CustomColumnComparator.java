@@ -31,7 +31,6 @@ public class CustomColumnComparator implements Comparator<String> {
             index2 = Integer.MAX_VALUE;
         }
 
-        LOGGER.info("Compare {}({}) to {}({}) with result: {}",col1, index1, col2, index2, Integer.compare(index1, index2));
         return Integer.compare(index1, index2);
     }
 }
