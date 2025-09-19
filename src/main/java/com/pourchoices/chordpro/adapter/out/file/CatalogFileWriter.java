@@ -35,6 +35,7 @@ public class CatalogFileWriter {
         HeaderColumnNameMappingStrategy<CatalogEntryDto> strategy = new HeaderColumnNameMappingStrategyBuilder<CatalogEntryDto>()
                 .withType(CatalogEntryDto.class)
                 .build();
+        strategy.setColumnOrderOnWrite(new CustomColumnComparator(CatalogEntryDto.CATALOG_COLUMN_ORDER));
 
         // Use the builder to configure and build the writer
         StatefulBeanToCsv<CatalogEntryDto> beanToCsv = new StatefulBeanToCsvBuilder<CatalogEntryDto>(writer)

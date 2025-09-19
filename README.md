@@ -10,7 +10,7 @@ The tool works by creating a unified catalog of all songs from a designated dire
 
 - Custom Performance Metadata: Allows for the management of performance-specific information that can be displayed at the top of the chord sheet, including:
 
-  - nord_voice: The specific voice to use on the Nord piano.
+  - nord: The specific voice to use on the Nord piano.
 
   - capo: Whether a capo is needed on the guitar.
 

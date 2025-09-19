@@ -7,12 +7,23 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Arrays;
+import java.util.List;
+
 
 @Builder
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class CatalogEntryDto {
+
+    public static final List<String> CATALOG_COLUMN_ORDER = Arrays.asList(
+
+    "title","artist","key","duration","tempo",
+    "countin","backing","nord","ve",
+    "performance key",
+    "time signature","capo","version","chordpro filename");
+
 
     @CsvBindByName(column = "chordpro filename")
     String chordProFilename;
