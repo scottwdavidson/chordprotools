@@ -5,12 +5,14 @@
 {tempo: 109}
 {meta: nord: M44}
 {meta: countin: 4}
+{meta: backing: 10}
 {meta: performance: F}
 
 {c:***********************************************}
-{c:** --> meta: nord: M44}
-{c:** --> meta: countin: 4}
-{c:** --> meta: performance: F}
+{c:**  meta: nord: M44   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 10   }
+{c:**  meta: performance: F   }
 {c:***********************************************}
 
 {c: Intro}

@@ -3,8 +3,12 @@
 {key: G}
 {duration: 4:00}
 {tempo: 150}
+{meta: countin: 4}
+{meta: backing: 21}
 
 {c:***********************************************}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 21   }
 {c:***********************************************}
 
 {comment: original key = A, performance key = G}
