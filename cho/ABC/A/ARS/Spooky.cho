@@ -4,11 +4,13 @@
 {duration: 3:22}
 {tempo: 106}
 {meta: nord: P34}
-{meta: countin: 8}
+{meta: countin: 4}
+{meta: backing: 36}
 
 {c:***********************************************}
 {c:**  meta: nord: P34   }
-{c:**  meta: countin: 8   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 36   }
 {c:***********************************************}
 
 {c: Intro}

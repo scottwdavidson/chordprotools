@@ -1,11 +1,14 @@
 {title: Small Town Saturday Night}
 {artist: Hal Ketchum}
 {key: C}
+{duration: }
 {tempo: 100}
-{meta: performance: C}
+{meta: countin: 8}
+{meta: backing: 73}
 
 {c:***********************************************}
-{c:** --> meta: performance: C}
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 73   }
 {c:***********************************************}
 
 {comment: Intro}

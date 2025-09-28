@@ -3,8 +3,12 @@
 {key: E}
 {duration: 4:00}
 {tempo: 170}
+{meta: countin: 8}
+{meta: backing: 16}
 
 {c:***********************************************}
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 16   }
 {c:***********************************************}
 
 {comment: performance key: E}

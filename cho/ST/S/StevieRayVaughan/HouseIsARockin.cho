@@ -4,9 +4,11 @@
 {duration: 2:05}
 {tempo: 172}
 {meta: countin: 8}
+{meta: backing: 38}
 
 {c:***********************************************}
-{c:** --> meta: countin: 8}
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 38   }
 {c:***********************************************}
 
 {c: Intro}
