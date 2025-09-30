@@ -1,60 +1,83 @@
 {title: Small Town Saturday Night}
 {artist: Hal Ketchum}
-{key: C}
+{key: G}
 {tempo: 100}
-{meta: performance: C}
+{duration: 2:30}
+{meta: performance: G}
 
 {c:***********************************************}
-{c:** --> meta: performance: C}
+{c:** --> meta: performance: G}
 {c:***********************************************}
 
 {comment: Intro}
 
-[C] [G][/][D][G][/][C][G][/][D][/][G][/][G][/][G][/][G]
+| C . G . | D . G . | C . G . | D . . . |
+
+| G . . . | G . . . | G . . . | G . . . |
 
 
 {start_of_verse}
+[G]There's an Elvis movie on the [D]marquee [G]sign [G]
+[C]We've all [G]seen at [D]least three [G]times [G]
+[G]Everybody's broke, [D]Bobby's got a[G]buck [G]
+Put a [C]dollars worth of [G]gas in his [D]pickup [G]truck [G]
 {end_of_verse}
 
-[G]There's an Elvis movie on the [D]marquee [G]sign
-[C]We've all [G]seen at [D]least three [G]times
-[G]Everybody's broke, [D]Bobby's got a[G]buck
-To put a [C]dollars worth of [G]gas in his [D]pickup [G]truck
-
-[C]We're going' ninety miles an hour down a dead end road
-[G]What's the hurry, son... [D]where you gonna [Em]go?
-We're gonna [C]howl at the m[G]oon, s[D]hoot out the l[G]ight
-[C]It's a small [G]town [D]Saturday [G]night
-[C]It's a small [G]town [D]Saturday [G]night
-
-e|-----------------------------------------------------------|
-[B|-----------------------------------------------------------|]G|-----------------------------------------------------------|
-[D|-------8--10--11--10--8------8--10-------------------------|]A|----11 ------------------11-------------8--10--11----------|
-[E|------------------------------------11---------------------|]
+{start_of_chorus}
+We're going' [C]ninety miles an hour down a dead end road
+[G]What's the hurry, son, wher[D]e you gonna [Em]go? [Em]
+We're gonna [C]howl at the m[G]oon, s[D7]hoot out the l[G]ight
+It's a [C] small [G]town [D7]Saturday [G]night
+It's a [C] small [G]town [D7]Saturday [G]night [G]
+{end_of_chorus}
 
 
-Lucy's got her lipstick on a little too bright
-Bobby's gettin' drunk and lookin' for a fight
-Liquor on his breath and trouble on his mind
-And Lucy's just a kid along for the ride
+{comment: Interlude}
 
-Got a six-pack of beer and a bottle of wine
-Gotta be bad just to have a good time
-They're gonna howl at the moon, shoot out the light
-It's a small town Saturday night
-It's a small town Saturday night
+| C . G . | D . | G . . . | G . . . |
 
-Bobby told Lucy, "The world ain't round...
-Drops off sharp at the edge of town
-Lucy, you know the world must be flat
-'Cause when people leave town, they never come back"
 
-They go ninety miles an hour to the city limits sign
-Put the pedal to the metal 'fore they change their mind
-They howl at the moon, shoot out the light
-It's a small town Saturday night
+{start_of_verse}
+[G]Lucy's got her lipstick on a [D]little too [G]bright [G]
+[C]Bobby's gettin' [G]drunk and [D]lookin' for a [G]fight [G]
+[G]Liquor on his breath and [D]trouble on his [G]mind [G]
+And [C]Lucy's just a [G]kid a[D]long for the [G]ride [G]
+{end_of_verse}
 
-[C]They howl at the moon, [D]shoot out the l[Em]ight
-Yeah, [C]it's a small [G]town [D]Saturday [G]night
-It's a small town Saturday night
-It's a small town Saturday night
+{start_of_chorus}
+Got a [C]six-pack of beer and a bottle of wine
+[G]Gotta be bad just to ha[D]ve a good [Em]time [Em]
+We're gonna [C]howl at the m[G]oon, s[D7]hoot out the l[G]ight
+It's a [C] small [G]town [D7]Saturday [G]night
+It's a [C] small [G]town [D7]Saturday [G]night [G]
+{end_of_chorus}
+
+
+{comment: Solo}
+
+| C . G . | D . G . | C . G . | D . . . | G . . . | G . . . |
+
+
+{start_of_verse}
+[G]Bobby told Lucy, "The [D]world ain't [G]round [G]
+[C]Drops off [G]sharp at the [D]edge of [G]town [G]
+[G]Lucy, you know the [D]world must be [G]flat [G]
+"Cause when [C]people leave [G]town, they ne[D]ver come [G]back [G]
+{end_of_verse}
+
+{start_of_chorus}
+They go [C]ninety miles an hour to the city limits sign.
+Put the [G]pedal to the metal 'fore they [D7]change their [Em]mind [Em]
+They [C]howl at the m[G]oon, s[D7]hoot out the l[G]ight
+It's a [C] small [G]town [D7]Saturday [G]night
+
+They [C]howl at the m[G]oon, s[D7]hoot out the l[Em]ight [Em]
+Yeah, it's a [C] small [G]town [D7]Saturday [G]night
+It's a [C] small [G]town [D7]Saturday [G]night
+It's a [C] small [G]town [D7]Saturday [G]night [G]
+{end_of_chorus}
+
+
+{comment: Outro}
+
+| C . G . | D . | G 
