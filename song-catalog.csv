@@ -155,7 +155,7 @@ Breakup Song,Greg Kihn,Am,2:49,136,4,,P41,,F#m,,,,./cho/GHI/G/GregKihn/BreakupSo
 Undun,Guess Who,Em,,100,,,,,,,,,./cho/GHI/G/GuessWho/Undun.cho
 Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,12,P21,,D,,,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho
 Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,15,O:24,,Em,,,,./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho
-Small Town Saturday Night,Hal Ketchum,C,,100,8,73,,,C,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
+Small Town Saturday Night,Hal Ketchum,C,,100,8,73,,,,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
 Softer Than a Whisper,Hal Ketchum,C,,,,,,,,,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho
 I Can't Go For That,Hall & Oates,Eb,,,,,,,,,,,./cho/GHI/H/HallAndOates/ICantGoForThat.cho
 Rich Girl,Hall & Oates,F,,,,,,,,,,,./cho/GHI/H/HallAndOates/RichGirl.cho
@@ -338,7 +338,7 @@ Good Corn Liquor,Steeldrivers,E,,,,,,,,,,,./cho/ST/S/Steeldrivers/GoodCornLiquor
 Born To Be Wild,"Steppenwolf, Adam Lambert",E,,,,,,,,,,,./cho/ST/S/Steppenwolf/BornToBeWild.cho
 Take The Money And Run (BASS),Steve Miller Band,G,2:52,,,,,,,,,,./cho/ST/S/SteveMillerBand/TakeTheMoneyAndRun-Bass.cho
 Take The Money And Run,Steve Miller Band,G,2:52,,,,,,,,,,./cho/ST/S/SteveMillerBand/TakeTheMoneyAndRun.cho
-House is a Rockin',Stevie Ray Vaughan,C,2:05,172,8,38,,,B,,,,./cho/ST/S/StevieRayVaughan/HouseIsARockin-c.cho
+House is a Rockin',Stevie Ray Vaughan,C,2:05,172,8,38,,,,,,,./cho/ST/S/StevieRayVaughan/HouseIsARockin-c.cho
 House is a Rockin',Stevie Ray Vaughan,B,2:05,172,8,38,,,,,,,./cho/ST/S/StevieRayVaughan/HouseIsARockin.cho
 Don't You Worry 'Bout A Thing,Stevie Wonder,,,,,,,,,,,,./cho/ST/S/StevieWonder/DontYouWorryBoutAThing.cho
 Lately,Stevie Wonder,C,3:30,,,,,,,,,,./cho/ST/S/StevieWonder/Lately.cho
@@ -354,7 +354,7 @@ Style,Taylor Swift,G,,,,,,,,,,,./cho/ST/T/TaylorSwift/Style.cho
 You Belong With Me,Taylor Swift,G,,,,,,,,,,,./cho/ST/T/TaylorSwift/YouBelongWithMe.cho
 Under The Milky Way,The Church,Am,5:00,66,8,32,P45,,,,,0.0,./cho/ST/T/TheChurch/UnderTheMilkyWay.cho
 Should I Stay (Or Should I Go) (BASS),The Clash,D,,,,,,,,,,,./cho/ST/T/TheClash/ShouldIStay-bass.cho
-Half Of Me (updated),Thomas Rhett,G,3:15,112,4,11,N35,,,4/4,,,./cho/ST/T/ThomasRhett/HalfOfMe-2.cho
+Half Of Me (updated),Thomas Rhett,G,3:15,112,,,N35,,,4/4,,,./cho/ST/T/ThomasRhett/HalfOfMe-2.cho
 Half Of Me,Thomas Rhett,G,2:45,112,4,11,N35,,,4/4,,1.0,./cho/ST/T/ThomasRhett/HalfOfMe.cho
 Shambala,Three Dog Night,E,3:00,,4,,O55,,,,,,./cho/ST/T/ThreeDogNight/Shambala.cho
 My Angel Baby,Toby Beau,G,3:00,,,,,,,,,,./cho/ST/T/TobyBeau/MyAngelBaby.cho

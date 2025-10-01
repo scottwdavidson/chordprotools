@@ -2,8 +2,13 @@
 {artist: Rocky Burnette}
 {key: E}
 {duration: 3:30}
+{tempo: }
+{meta: countin: 8}
+{meta: backing: 17}
 
 {c:***********************************************}
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 17   }
 {c:***********************************************}
 
 {comment: original key = G, performance key = E}

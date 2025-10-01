@@ -3,13 +3,15 @@
 {key: Eb}
 {duration: 2:40}
 {tempo: 149}
-{meta: countin: 4}
 {meta: nord: P51}
+{meta: countin: 4}
+{meta: backing: 65}
 
-{c:***************************}
-{c:** meta: countin: 4}
-{c:** meta: nord: P51}
-{c:***************************}
+{c:***********************************************}
+{c:**  meta: nord: P51   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 65   }
+{c:***********************************************}
 
 {comment: Carmen / Jean : Over 8 beats}
 | GAME ... START |

@@ -3,8 +3,12 @@
 {key: A}
 {duration: 3:40}
 {tempo: 104}
+{meta: countin: 4}
+{meta: backing: 29}
 
 {c:***********************************************}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 29   }
 {c:***********************************************}
 
 {c: performance key = A}

@@ -3,8 +3,16 @@
 {key: F}
 {duration: 3:00}
 {tempo: 116}
-{meta: nord : M23}
-{meta: backing : 33}
+{meta: nord: M23}
+{meta: countin: 4}
+{meta: backing: 33}
+
+{c:***********************************************}
+{c:**  meta: nord: M23   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 33   }
+{c:***********************************************}
+
 {meta: coutin : 4}
 
 {c:***********************************************}

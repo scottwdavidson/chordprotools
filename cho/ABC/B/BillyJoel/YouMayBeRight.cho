@@ -5,10 +5,12 @@
 {tempo: 150}
 {meta: nord: N35}
 {meta: countin: 4}
+{meta: backing: 21}
 
 {c:***********************************************}
-{c:** --> meta: nord: N35}
-{c:** --> meta: countin: 4}
+{c:**  meta: nord: N35   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 21   }
 {c:***********************************************}
 
 {comment: Intro}

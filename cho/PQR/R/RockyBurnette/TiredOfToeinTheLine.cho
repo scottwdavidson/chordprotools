@@ -2,12 +2,15 @@
 {artist: Rocky Burnette}
 {key: G}
 {duration: 3:30}
+{tempo: }
 {meta: nord: O14}
 {meta: countin: 8}
+{meta: backing: 17}
 
 {c:***********************************************}
-{c:** --> meta: nord: O14}
-{c:** --> meta: countin: 8}
+{c:**  meta: nord: O14   }
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 17   }
 {c:***********************************************}
 
 {comment: Intro}

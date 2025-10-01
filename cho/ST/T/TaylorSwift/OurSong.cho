@@ -3,12 +3,12 @@
 {key: D}
 {duration: 2:40}
 {tempo: 89}
-{meta: countin: 2}
-{meta: backing: 5}
+{meta: countin: 4}
+{meta: backing: 41}
 
 {c:***********************************************}
-{c:** --> meta: countin: 2}
-{c:** --> meta: backing: 5}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 41   }
 {c:***********************************************}
 
 {comment: Intro}

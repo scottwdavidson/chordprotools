@@ -1,11 +1,14 @@
 {title: Complicated}
 {artist: Avril Lavigne}
 {key: C#m}
+{duration: }
 {tempo: 78}
-{meta: performance: C#m}
+{meta: countin: 4}
+{meta: backing: 45}
 
 {c:***********************************************}
-{c:** --> meta: performance: C#m}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 45   }
 {c:***********************************************}
 
 {c: Duration: 3:25}

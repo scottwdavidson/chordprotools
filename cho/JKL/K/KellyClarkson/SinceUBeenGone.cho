@@ -2,15 +2,16 @@
 {artist: Kelly Clarkson}
 {key: G}
 {duration: 3:10}
-{meta: countin: 8}
-{meta: backing: 100}
+{tempo: }
 {meta: nord: A01}
+{meta: countin: 8}
+{meta: backing: 55}
 
-{c:*****************************************}
-{c: meta: countin: 8}
-{c: meta: backing: 100}
-{c: meta: nord: A01}
-{c:*****************************************}
+{c:***********************************************}
+{c:**  meta: nord: A01   }
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 55   }
+{c:***********************************************}
 
 {comment: Intro}
 | G . . . | G . . . |
