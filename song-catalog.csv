@@ -21,7 +21,7 @@ You Can Do Magic,America,,4:00,,8,35,,,,,,,./cho/ABC/A/America/YouCanDoMagic.cho
 Valerie,Ami Winehouse,Eb,3:10,,4,,P54,,,,,,./cho/ABC/A/AmyWinehouse/Valerie.cho
 Shadows In The Moonlight,Anne Murray,A,,,,,,,,,,,./cho/ABC/A/AnneMurray/ShadowsInTheMoonlight.cho
 City of New Orleans,Arlo Guthrie,D,3:45,152,,,O24,,,,,,./cho/ABC/A/ArloGuthrie/CityOfNewOrleans.cho
-Complicated,Avril Lavigne,C#m,,78,4,45,,,C#m,,,,./cho/ABC/A/AvrilLavigne/Complicated-c#m.cho
+Complicated,Avril Lavigne,C#m,3:40,78,4,45,,,C#m,,,,./cho/ABC/A/AvrilLavigne/Complicated-c#m.cho
 Complicated,Avril Lavigne,Em,,78,,,,,Em,,,,./cho/ABC/A/AvrilLavigne/Complicated-em.cho
 Complicated,Avril Lavigne,Dm,,78,,,,,Dm,,,,./cho/ABC/A/AvrilLavigne/Complicated.cho
 Takin' Care of Business,Bachman Turner Overdrive (BTO),C,4:50,130,,,N41,,,,,,./cho/ABC/B/BachmanTurnerOverdrive/TakinCareOfBusiness.cho
@@ -155,7 +155,7 @@ Breakup Song,Greg Kihn,Am,2:49,136,4,,P41,,F#m,,,,./cho/GHI/G/GregKihn/BreakupSo
 Undun,Guess Who,Em,,100,,,,,,,,,./cho/GHI/G/GuessWho/Undun.cho
 Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,12,P21,,D,,,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho
 Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,15,O:24,,Em,,,,./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho
-Small Town Saturday Night,Hal Ketchum,C,,100,8,73,,,,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
+Small Town Saturday Night,Hal Ketchum,G,2:30,100,,,,,G,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
 Softer Than a Whisper,Hal Ketchum,C,,,,,,,,,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho
 I Can't Go For That,Hall & Oates,Eb,,,,,,,,,,,./cho/GHI/H/HallAndOates/ICantGoForThat.cho
 Rich Girl,Hall & Oates,F,,,,,,,,,,,./cho/GHI/H/HallAndOates/RichGirl.cho
@@ -166,7 +166,7 @@ The Air That I Breathe,The Hollies,C,,,,,,,,,,,./cho/GHI/H/Hollies/TheAirThatIBr
 And We Danced,The Hooters,D,,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced.cho
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,,./cho/GHI/H/HueyLewis/DoYouBelieveInLove.cho
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,,./cho/JKL/J/JJCale/SensitiveKind.cho
-Running On Empty,Jackson Brown,A,,,8,72,,,,,,,./cho/JKL/J/JacksonBrowne/RunningOnEmpty.cho
+Running On Empty,Jackson Brown,A,4:10,137,8,72,P55,,,,,,./cho/JKL/J/JacksonBrowne/RunningOnEmpty.cho
 Stay,Jackson Browne,G,3:00,,,,P25,,,,,,./cho/JKL/J/JacksonBrowne/Stay.cho
 Who Will Save My Soul,Jewel,Am,,126,,,,,,,,,./cho/JKL/J/Jewel/WhoWillSaveMySoul.cho
 Bad Bad Leroy Brown,Jim Croce,G,2:35,148,8,42,O55,,,,,,./cho/JKL/J/JimCroce/BadBadLeroyBrown.cho
@@ -248,7 +248,7 @@ Your Love Stays With Me,Mike Reid,E,,,,,,,,,,,./cho/MNO/M/MikeReid/YourLoveStays
 Butterfly Fly Away,Miley Cyrus / Billy Ray Cyrus,Eb,2:35,136,,,P23,,,,,,./cho/MNO/M/MileyCyrus/ButterflyFlyAway.cho
 Flowers,Miley Cyrus,Am,3:00,122,8,,N21,,,,,,./cho/MNO/M/MileyCyrus/Flowers.cho
 Devil With The Blue Dress,Mitch Ryder and The Detroit Wheels,C,,,,,,,,,,,./cho/MNO/M/MitchRyder/DevilWithTheBlueDress.cho
-I Melt With You,Modern English,C,,,8,71,,,,,,,./cho/MNO/M/ModernEnglish/IMeltWithYou.cho
+I Melt With You,Modern English,C,3:55,156,8,71,,,,,,,./cho/MNO/M/ModernEnglish/IMeltWithYou.cho
 Love Somebody,Morgan Wallen,Em,3:00,120,8,51,P52,,,,,,./cho/MNO/M/MorganWallen/LoveSomebody.cho
 Man Made A Bar,Morgan Wallen (Eric Church),E,,105,,,,,,,,,./cho/MNO/M/MorganWallen/ManMadeABar-E.cho
 Man Made A Bar,Morgan Wallen (Eric Church),C,,105,,,,,,,,,./cho/MNO/M/MorganWallen/ManMadeABar.cho
@@ -263,7 +263,7 @@ Torn,Natalie Imbruglia,F,3:35,,4,52,P51,,,,,,./cho/MNO/N/NatalieImbruglia/Torn.c
 Sweet Caroline,Neil Diamond,,3:24,63,,,,,,,,,./cho/MNO/N/NeilDiamond/SweetCaroline.cho
 Put A Little Love On Me,Niall Horan,G,,,,,,,,,,,./cho/MNO/N/NiallHoran/PutALittleLoveOnMe.cho
 This Town,Niall Horan,G,,,,,,,,,,,./cho/MNO/N/NiallHoran/ThisTown.cho
-Cruel To Be Kind,Nick Lowe,,,,8,68,,,,,,,./cho/MNO/N/NickLowe/CruelToBeKind.cho
+Cruel To Be Kind,Nick Lowe,C,3:10,125,8,68,,,,,,,./cho/MNO/N/NickLowe/CruelToBeKind.cho
 Dancin' Shoes,Nigel Olsson,Bm,,101,,,,,,,,,./cho/MNO/N/NigelOlsson/DancinShoes.cho
 Don't Speak,No Doubt(Gwen Stephani),Cm,3:45,76,4,,N45,,,,,,./cho/MNO/N/NoDoubt/DontSpeak.cho
 Don't Know Why,Norah Jones,Bb,3:06,88,4,28,??,,,,,,./cho/MNO/N/NorahJones/DontKnowWhy.cho
@@ -325,7 +325,7 @@ Hesitate (partial),Scott Davidson,Bb,3:00,86,,,,,,,,,./cho/ST/S/ScottDavidson/He
 Progress (for now),Scott Davidson,D,2:00,,,,,,,,,,./cho/ST/S/ScottDavidson/Progress.cho
 Sunrise in Cork,Scott Davidson,G,2:00,,,,,,,,,,./cho/ST/S/ScottDavidson/SunriseInCork.cho
 Diamond Girl,Seals and Crofts,Am,3:45,127,8,23,O42,,,,,,./cho/ST/S/SealsCrofts/DiamondGirl.cho
-Summer Breeze,Seals and Crofts,,3:25,76,4,,041,,,,,,./cho/ST/S/SealsCrofts/SummerBreeze.cho
+Summer Breeze,Seals and Crofts,E,3:25,76,4,,041,,,,,,./cho/ST/S/SealsCrofts/SummerBreeze.cho
 We May Never Pass This Way Again,Seals & Crofts,E,,88,,,,,,,,,./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho
 She's Not There / Venus,Zombies / Shocking Blue,A,4:00,,,,O21,,,,,,./cho/ST/S/ShockingBlue/ShesNotThere-Venus.cho
 Venus,Shocking Blue,A,,,,,,,,,,,./cho/ST/S/ShockingBlue/Venus.cho
@@ -368,7 +368,7 @@ Free Fallin',Tom Petty,D,3:30,85,4,,,,E,,2,,./cho/ST/T/TomPetty/FreeFallin-GUITA
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,C,,,,./cho/ST/T/TomPetty/LearningToFly.cho
 Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
-Runnin' Down A Dream,Tom Petty,E,4:00,170,8,16,,,,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
+Runnin' Down A Dream,Tom Petty,E,3:45,170,8,16,N35,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
 Calling San Francisco,Tommy Castro and the Painkillers,G,,,,,,,,,,,./cho/ST/T/TommyCastroNPainkillers/CallingSanFrac-G.cho
 Calling San Francisco,Tommy Castro and the Painkillers,C,,,,,,,,,,,./cho/ST/T/TommyCastroNPainkillers/CallingSanFrac.cho
 Nasty Habits,Tommy Castro and the Painkillers,C,,,,,,,,,,,./cho/ST/T/TommyCastroNPainkillers/NastyHabits.cho
