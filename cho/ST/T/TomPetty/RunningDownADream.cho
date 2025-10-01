@@ -1,22 +1,19 @@
 {title: Runnin' Down A Dream}
 {artist: Tom Petty}
 {key: E}
-{duration: 4:00}
+{duration: 3:45}
 {tempo: 170}
 {meta: countin: 8}
 {meta: backing: 16}
+{meta: nord: N35}
+{meta: performance: E}
 
 {c:***********************************************}
 {c:**  meta: countin: 8   }
 {c:**  meta: backing: 16   }
+{c:**  meta: nord: N35  }
+{c:**  meta: performance: E  }
 {c:***********************************************}
-
-{comment: performance key: E}
-{comment: nord = N35}
-
-{comment: Backing Track = 16}
-{comment: CountIn = 8; guitar at 5}
-
 
 {comment: Intro}
 | E ... | E ... | E ... | E ... |

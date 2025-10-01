@@ -1,14 +1,16 @@
 {title: Running On Empty}
 {artist: Jackson Brown}
 {key: A}
-{duration: }
-{tempo: }
+{duration: 4:10}
+{tempo: 137}
 {meta: countin: 8}
 {meta: backing: 72}
+{meta: nord: P55}
 
 {c:***********************************************}
 {c:**  meta: countin: 8   }
 {c:**  meta: backing: 72   }
+{c:**  meta: nord: P55   }
 {c:***********************************************}
 
 {comment: Intro}
@@ -58,8 +60,9 @@ But I'm running behind[F#m]
 
 
 {comment: Solo}
-[D/A]D/A [A]A [D/A]F#m [A]D
-[A/C#] [E]
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | F#m . . . | F#m . . . | 
+| D   . . . | A/C# . . . | E   . . . | E   . . . | 
 
 
 {comment: Bridge}
@@ -67,13 +70,14 @@ But I'm running behind[F#m]
 [F#m]   People need some [E]reason to believe[D]
 I don't know about [A]anyone but me
 [F#m]   If it takes all [D]night,[E] that'll be all [A]right
-[D] If I can get you to smile[E] before I leave[D][A/C#][Bm]
+[D] (Oooh) If I can get you to smile[E] before I leave[D][A/C#][Bm]
 [A] [F#m][E]
 
 
 {start_of_verse}
 [D/A]   Looking out at the road[A] rushing under my wheels[D/A]
-[A]  [D/A]   I don't know how to tell[A] you all just how[D/A]   crazy this life feels[A]
+[A]  [D/A]   I don't know how to tell[A] you all just how[D/A]   
+ ... crazy this life feels[A]
 [D/A]   Look around for the friends[A] that I used to turn [D/A]to to pull me through[A]
 {end_of_verse}
 
@@ -97,14 +101,29 @@ You know the [D/A]way you look so kind[A]
 
 {start_of_chorus}
 [D] I'd love to stick around[E] but I'm running behind[D][A/C#][Bm]
-[A]  [F#m]    [E]  [D] You know I don't even know[E]what I'm hoping to find
-[D]  [A/C#]    Running [Bm]on [A]  [F#m]    [E]  [D] Running into the sun[E] but I'm running be[D]hind[A/C#][Bm][A]
+[A]  [F#m]    [E](Running own)  [D] You know I don't even know[E]what I'm hoping to find
+[D]  [A/C#]    Running [Bm]on [A]  [F#m]    
+[E]  [D] Running into the sun[E] but I'm running be[D]hind[A/C#][Bm][A]
 {end_of_chorus}
 
 
-{comment: Solo}
+{comment: Solo --> Update to match backing }
 | D/A . . . | A    . . . | D/A . . . | A   . . . | 
-| D/A . . . | A    . . . | D   . . . | E   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
+| D/A . . . | A    . . . | D/A . . . | A   . . . | 
 
 {comment: Outro}
 | D A/C# Bm | A ... |

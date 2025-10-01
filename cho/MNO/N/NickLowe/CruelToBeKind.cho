@@ -1,8 +1,8 @@
 {title: Cruel To Be Kind}
 {artist: Nick Lowe}
-{key: }
-{duration: }
-{tempo: }
+{key: C}
+{duration: 3:10}
+{tempo: 125}
 {meta: countin: 8}
 {meta: backing: 68}
 
@@ -12,7 +12,8 @@
 {c:***********************************************}
 
 {comment: Intro}
-||:  [C]/  /  /  /  | [G/B] /  /  /  / | [F/A] /  /  /  /  |  [G]/  /  /  / :|| [x2]
+|  [C]/  /  /  /  | [G/B] /  /  /  / | [F/A] /  /  /  /  |  [G]/  /  /  / | 
+|  [C]/  /  /  /  | [G/B] /  /  /  / | [F/A] /  /  /  /  |  [G]/  /  /  / | 
 
 {start_of_verse}
 | [G]/  /  /  / |   Oh, [C]I can't take another [Em]...heartache,
@@ -52,7 +53,9 @@ You [G]gotta be cruel to be [C]kind
 [C]   Oo, oo -oo !  [A]Oo, oo,[(A7)]oo!
 
 [Guitar solo break - * Tablature of solo at bottom of page)
-||:  [F]/  /  [G]/  /  |  [Em]/  /  [Am]/  [Am]/  :|| [x3]
+|  [F]/  /  [G]/  /  |  [Em]/  /  [Am]/  [Am]/  | 
+|  [F]/  /  [G]/  /  |  [Em]/  /  [Am]/  [Am]/  | 
+|  [F]/  /  [G]/  /  |  [Em]/  /  [Am]/  [Am]/  | 
                           ^  ^
 |[G7sus4] /_/ /_/ /_/ /_/ | /_/ /_/ /_/ /_/ | [G]/_/ /_/ /_/
 
@@ -91,6 +94,6 @@ It [Em]means that I [Am]love you, [G7sus4]baby-------------------------!
                               (Babe--------------------!)
                                     (You gotta be cruel!)
 
-{comment: Suggestion for coda}
+{comment: Outro}
 You [G]gotta be cruel to be k[F]ind--[Dm7/G]----------[C]--!
                       |  /  /  /  /  |  /  ||
