@@ -1,3 +1,5 @@
+rm -rf ~/tmp/setlist-ff
+mkdir ~/tmp/setlist-ff
 cp ./cho/ABC/A/Abba/DoesYourMotherKnow.cho ~/tmp/setlist-ff
 cp ./cho/ABC/A/AlStewart/YearOfTheCat.cho ~/tmp/setlist-ff
 cp ./cho/ABC/A/AmyWinehouse/Valerie.cho ~/tmp/setlist-ff
@@ -55,3 +57,29 @@ cp ./cho/ST/T/ThreeDogNight/Shambala.cho ~/tmp/setlist-ff
 cp ./cho/ST/T/TomPetty/Breakdown.cho ~/tmp/setlist-ff
 cp ./cho/UV-Z/W/Weezer/IslandInTheSun.cho ~/tmp/setlist-ff
 cp ./pdf/MNO/M/MamaCass/DreamALittleDreamOfMe-real.pdf ~/tmp/setlist-ff
+
+cp ./cho/MNO/N/NickLowe/CruelToBeKind.cho ~/tmp/setlist-ff 
+cp ./cho/ST/T/TomPetty/RunningDownADream.cho ~/tmp/setlist-ff
+cp ./cho/JKL/J/JacksonBrowne/RunningOnEmpty.cho ~/tmp/setlist-ff
+cp ./cho/JKL/L/LookingGlass/Brandy.cho ~/tmp/setlist-ff
+cp ./cho/ST/S/SealsCrofts/DiamondGirl.cho ~/tmp/setlist-ff
+cp ./cho/ABC/B/BobWelch/EbonyEyes-gm.cho ~/tmp/setlist-ff
+cp ./cho/ABC/B/BobWelch/EbonyEyes.cho ~/tmp/setlist-ff
+cp ./cho/MNO/M/ModernEnglish/IMeltWithYou.cho ~/tmp/setlist-ff
+cp ./cho/UV-Z/W/Weezer/IslandInTheSun.cho ~/tmp/setlist-ff
+cp ./cho/PQR/P/PeteTownsend/LetMyLoveOpenTheDoor.cho ~/tmp/setlist-ff
+cp ./cho/JKL/J/JohnMellencamp/ROCKInTheUSA.cho ~/tmp/setlist-ff
+cp ./cho/ST/S/SealsCrofts/SummerBreeze.cho ~/tmp/setlist-ff
+cp ./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho ~/tmp/setlist-ff
+cp ./cho/ABC/B/BillyJoel/YoureMyHome.cho ~/tmp/setlist-ff
+cp ./cho/DEF/D/DanielBoone/BeautifulSunday.cho ~/tmp/setlist-ff
+cp ./cho/ABC/A/ArloGuthrie/CityOfNewOrleans.cho ~/tmp/setlist-ff
+cp ./cho/DEF/D/DwightYokam/AintThatLonelyYet.cho ~/tmp/setlist-ff
+cp ./cho/DEF/E/EddieHolman/HeyThereLonelyGirl.cho ~/tmp/setlist-ff
+cp ./cho/ABC/A/AlanODay/UndercoverAngel.cho ~/tmp/setlist-ff
+cp ./cho/ABC/C/Commodores/SailOn.cho ~/tmp/setlist-ff
+cp ./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight.cho ~/tmp/setlist-ff
+cp ./cho/ST/T/ToddRundgren/ISawTheLight.cho ~/tmp/setlist-ff
+
+
+
