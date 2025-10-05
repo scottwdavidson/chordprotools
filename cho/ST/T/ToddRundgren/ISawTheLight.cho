@@ -1,21 +1,17 @@
 {title: I Saw The Light}
 {artist: Todd Rundgren}
-{key: Dm}
+{key: C}
+{duration: 3:00}
+{tempo: 120}
+{meta: countin: 4}
 
-
-&
-2
-&
-3
-&
-4
-&
 {comment: Intro}
-[Dm7]Dm7 [G]G           Dm7          G
-     It was late   last night
-
+| x x x E-Eb |
+| Dm . . . | G . . . |
+| Dm . . . | G . . it was |
 
 {start_of_verse}
+[Dm7]late,  last [G]night
 I was fee[Dm7]ling something wasn't right[G]
 There was not[Dm7]   another soul in sight[G]
 Only you,[Cmaj7]     only [Em7]you
