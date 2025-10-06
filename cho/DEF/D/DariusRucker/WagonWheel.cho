@@ -2,14 +2,15 @@
 {artist: Darius Rucker}
 {key: G}
 {duration: 3:50}
+{tempo: 148}
 {meta: nord: O55}
 {meta: version: 1.0}
 {meta: countin: 4}
 
 {c:***********************************************}
-{c:** --> meta: nord: O55 **}
-{c:** --> meta: version: 1.0 **}
-{c:** --> meta: countin: 4 **}
+{c:**  meta: nord: O55   }
+{c:**  meta: version: 1.0   }
+{c:**  meta: countin: 4   }
 {c:***********************************************}
 
 {c:Intro}
