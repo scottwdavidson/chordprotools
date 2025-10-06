@@ -2,14 +2,15 @@
 {artist: Barrett Strong}
 {key: E}
 {duration: 3:45}
+{tempo: 132}
 {meta: nord: O15}
 {meta: version: 1.0}
 {meta: countin: 4}
 
 {c:***********************************************}
-{c:** --> meta: nord: O15}
-{c:** --> meta: version: 1.0}
-{c:** --> meta: countin: 4}
+{c:**  meta: nord: O15   }
+{c:**  meta: version: 1.0   }
+{c:**  meta: countin: 4   }
 {c:***********************************************}
 
 {c:Intro - piano}
