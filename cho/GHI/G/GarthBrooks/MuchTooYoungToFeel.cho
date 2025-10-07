@@ -2,14 +2,15 @@
 {artist: Garth Brooks}
 {key: D}
 {duration: 2:33}
+{tempo: 162}
 {meta: nord: O42}
 {meta: countin: 4}
 {meta: backing: 13}
 
 {c:***********************************************}
-{c:** --> meta: nord: O42 **}
-{c:** --> meta: countin: 4 **}
-{c:** --> meta: backing: 13 **}
+{c:**  meta: nord: O42   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 13   }
 {c:***********************************************}
 
 {comment: Piano Intro}

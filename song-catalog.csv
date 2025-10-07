@@ -20,7 +20,7 @@ Southbound,Allman Brothers,F,,,,,,,,,,,./cho/ABC/A/AllmanBrothers/Southbound.cho
 A Horse With No Name,America,Em,3:40,123,,,,,,,,,./cho/ABC/A/America/AHorseWithNoName.cho
 Lonely People,America,D,2:10,155,,,,,,,,,./cho/ABC/A/America/LonelyPeople.cho
 You Can Do Magic,America,Em,3:40,130,8,35,,,,,,,./cho/ABC/A/America/YouCanDoMagic.cho
-Valerie,Ami Winehouse,Eb,3:10,,4,,P54,,,,,,./cho/ABC/A/AmyWinehouse/Valerie.cho
+Valerie,Ami Winehouse,Eb,3:10,105,4,,P54,,,,,,./cho/ABC/A/AmyWinehouse/Valerie.cho
 Shadows In The Moonlight,Anne Murray,A,,,,,,,,,,,./cho/ABC/A/AnneMurray/ShadowsInTheMoonlight.cho
 City of New Orleans,Arlo Guthrie,D,3:45,152,,,O24,,,,,,./cho/ABC/A/ArloGuthrie/CityOfNewOrleans.cho
 Complicated,Avril Lavigne,C#m,3:40,78,4,45,,,C#m,,,,./cho/ABC/A/AvrilLavigne/Complicated-c#m.cho
@@ -42,7 +42,7 @@ Twist & Shout,Beatles,D,2:10,128,,,???,,,,,,./cho/ABC/B/Beatles/TwistAndShout.ch
 How Deep Is Your Love,Bee Gees,Eb,,,,,,,,,,,./cho/ABC/B/BeeGees/HowDeepIsYourLove.cho
 Run To Me,Bee Gees,A,,,,,,,,,,,./cho/ABC/B/BeeGees/RunToMe.cho
 If I Said You Have A Beautiful Body,Bellamy Brothers,E,,,,,,,,,,,./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
-Lovely Day,Bill Withers,E,,98,,,,,,,,,./cho/ABC/B/BillWithers/LovelyDay.cho
+Lovely Day,Bill Withers,E,3:40,98,,,,,,,,,./cho/ABC/B/BillWithers/LovelyDay.cho
 Let Me Down Easy,Billy Currington,G,,,,,,,,,,,./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
 Don't Ask Me Why,Billy Joel,Bb,3:50,99,,,,,,,,,./cho/ABC/B/BillyJoel/DontAskMeWhy.cho
 My Life,Billy Joel,C,3:40,131,8,14,P32,,,,,,./cho/ABC/B/BillyJoel/MyLife-c.cho
@@ -55,17 +55,17 @@ Vienna - G#m,Billy Joel,G#m,3:00,63,,,,,,,,,./cho/ABC/B/BillyJoel/Vienna-g#m.cho
 Vienna,Billy Joel,Gm,3:00,63,,,,,,,,,./cho/ABC/B/BillyJoel/Vienna.cho
 You May Be Right,Billy Joel,G,4:00,150,4,21,,,,,,,./cho/ABC/B/BillyJoel/YouMayBeRight-g.cho
 You May Be Right,Billy Joel,A,4:00,150,4,21,N35,,,,,,./cho/ABC/B/BillyJoel/YouMayBeRight.cho
-You're My Home,Billy Joel,F,3:14,,,,,,,,,,./cho/ABC/B/BillyJoel/YoureMyHome.cho
+You're My Home,Billy Joel,F,3:14,93,,,,,,,,,./cho/ABC/B/BillyJoel/YoureMyHome.cho
 Footloose,Blake Shelton,G,,,8,37,,,,,,,./cho/ABC/B/BlakeShelton/Footloose.cho
 Hey Bartender,Blues Brothers,A,,,,,,,,,,,./cho/ABC/B/BluesBrothers/HeyBartender.cho
 Like A Rolling Stone,Bob Dylan,C,,,,,,,,,,,./cho/ABC/B/BobDylan/LikeARollingStone.cho
 Against the Wind,Bob Seger,F,3:50,109,4,10,M44,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind-f.cho
 Against the Wind,Bob Seger,G,4:00,109,4,10,M44,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind.cho
 Turn The Page,Bob Seger,Em,,,,,,,,,,,./cho/ABC/B/BobSeger/TurnThePage.cho
-Ebony Eyes,Bob Welch,Gm,2:51,,8,44,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes-gm.cho
-Ebony Eyes,Bob Welch,Am,2:51,,8,44,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes.cho
+Ebony Eyes,Bob Welch,Gm,2:51,116,8,44,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes-gm.cho
+Ebony Eyes,Bob Welch,Am,2:51,116,8,44,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes.cho
 Aubrey,Bread,G,,,,,,,,,,,./cho/ABC/B/Bread/Aubry.cho
-Love and Mercy,Brian Wilson,G,3:10,,,,N52,,,,,,./cho/ABC/B/BrianWilson/LoveAndMercy-g.cho
+Love and Mercy,Brian Wilson,G,3:10,96,,,N52,,,,,,./cho/ABC/B/BrianWilson/LoveAndMercy-g.cho
 Apt,Rose & Bruno Mars,Eb,2:40,149,4,65,P51,,,,,,./cho/ABC/B/BrunoMars/Apt.cho
 Die With A Smile,"Bruno Mars, Lady Gaga",A,,,4,64,,,,,,,./cho/ABC/B/BrunoMars/DieWithASmile.cho
 Just A Song Before I Go,"Crosby, Stills, Nash and Young",Dm,,,,,,,,,,,./cho/ABC/C/CSNY/JustASongBeforeIGo.cho
@@ -78,21 +78,21 @@ I Won't Last A Day Without You,Carpenters,F,3:20,85,4,,P54,,,,,,./cho/ABC/C/Carp
 I Won't Last A Day Without You,Carpenters,G,3:20,85,4,,P54,,,,,,./cho/ABC/C/Carpenters/IWontLastADayWithoutYou.cho
 There's A Kind Of Hush,Carpenters,G,2:35,128,,,,,,,,,./cho/ABC/C/Carpenters/TheresAKindOfHush.cho
 Before He Cheats,Carrie Underwood,F#m,2:50,150,,,,,,,,,./cho/ABC/C/CarrieUnderwood/BeforeHeCheats.cho
-Wild World,Cat Stevens,Dm,3:30,,,,,,,,,,./cho/ABC/C/CatStevens/WildWorld.cho
+Wild World,Cat Stevens,Dm,3:30,152,,,,,,,,,./cho/ABC/C/CatStevens/WildWorld.cho
 Ain't Nobody - Guitar,Chaka Khan / Rufus,Em,,,,,,,,,,,./cho/ABC/C/ChakaKhan/AintNobody-Guitar.cho
 Ain't Nobody,Chaka Khan / Rufus,Em,,,,,,,,,,,./cho/ABC/C/ChakaKhan/AintNobody.cho
 Pink Pony Club,Chappell Roan,F,4:10,106,4,67,,,,,,,./cho/ABC/C/ChappellRoan/PinkPonyClub.cho
-Fool If You Think It's Over,Chris Rea,Am,,110,,,N52,,,,,,./cho/ABC/C/ChrisRea/FoolIfYouThinkItsOver.cho
+Fool If You Think It's Over,Chris Rea,Am,4:10,110,,,N52,,,,,,./cho/ABC/C/ChrisRea/FoolIfYouThinkItsOver.cho
 Where Are You Listening To?,Chris Stapleton,Bb,,,,,,,,,,,./cho/ABC/C/ChrisStapleton/WhatAreYouListeningToo.cho
-Ride Like The Wind,Christopher Cross,Eb,,125,,,,,,,,,./cho/ABC/C/ChristopherCross/RideLikeTheWind.cho
-Easy,Commodores,F,,67,,,,,,,,,./cho/ABC/C/Commodores/Easy-F.cho
+Ride Like The Wind,Christopher Cross,Eb,4:00,125,,,,,,,,,./cho/ABC/C/ChristopherCross/RideLikeTheWind.cho
+Easy,Commodores,F,3:40,67,,,,,,,,,./cho/ABC/C/Commodores/Easy-F.cho
 Sail On,Commodores,D,,,,,,,,,,,./cho/ABC/C/Commodores/SailOn.cho
 Pretty Little Baby,Connie Francis,Db,,,,,,,,,,,./cho/ABC/C/ConnieFrancis/PrettyLittleBaby.cho
 Who's Sorry Now,Connie Francis,Bb,,,,,,,,,,,./cho/ABC/C/ConnieFrancis/WhosSorryNow.cho
 Put Your Records On,Corrine Bailey Rae,A,3:00,96,4,,N24,,,,,,./cho/ABC/C/CorrineBailyRae/PutYourRecordsOn.cho
 Accidentally In Love,Counting Crows,G,3:00,138,4,,O11,,,,,,./cho/ABC/C/CountingCrows/AccidentallyInLove.cho
 Just Like Heaven,The Cure,A,,,,,,,,,,,./cho/ABC/C/Cure/JustLikeHeaven.cho
-Beautiful Sunday,Daniel Boone,C,3:00,,,,,,,,,1.0,./cho/DEF/D/DanielBoone/BeautifulSunday.cho
+Beautiful Sunday,Daniel Boone,C,3:00,120,,,,,,,,1.0,./cho/DEF/D/DanielBoone/BeautifulSunday.cho
 Hold My Hand,Hootie (Darius Rucker) and the Blowfish,B,3:35,101,,,,,,,,,./cho/DEF/D/DariusRucker/HoldMyHand.cho
 Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,1.0,./cho/DEF/D/DariusRucker/WagonWheel.cho
 Leap Of Faith,Delbert McClinton,B,,,,,,,,,,,./cho/DEF/D/DelbertMcClinton/LeapOfFaith.cho
@@ -100,7 +100,7 @@ Heartbreaker,Dionne Warwick / Bee Gees,G,,,,,,,,,,,./cho/DEF/D/DioneWarwick/Hear
 Then Came You,Dionne Warwick,F,3:00,116,4,33,M23,,,,,,./cho/DEF/D/DioneWarwick/ThenCameYou.cho
 Let 'Er Rip,Dixie Chicks,A,3:00,150,,,N53,,,,,,./cho/DEF/D/DixieChicks/LetErRip.cho
 Some Days You Gotta Dance,Dixie Chicks,E,2:28,170,,,,,,,,,./cho/DEF/D/DixieChicks/SomeDaysYouGottaDance.cho
-Wide Open Spaces,Dixie Chicks,D,3:00,,,,,,,,,,./cho/DEF/D/DixieChicks/WideOpenSpaces.cho
+Wide Open Spaces,Dixie Chicks,D,3:00,90,,,,,,,,,./cho/DEF/D/DixieChicks/WideOpenSpaces.cho
 Vincent,Don McLean,G,,,,,,,,,,,./cho/DEF/D/DonMcLean/Vincent.cho
 Hot Stuff,Donna Summer,Gm,,,,,,,,,,,./cho/DEF/D/DonnaSummer/HotStuff.cho
 Long Train Runnin’,Doobie Brothers,Gm,,,,,,,,,,,./cho/DEF/D/DoobieBros/LongTrainRunning-MVP.cho
@@ -109,22 +109,22 @@ Takin' It To The Streets,Doobie Brothers,B,,,,,,,,,,,./cho/DEF/D/DoobieBros/Taki
 Takin' It To The Streets,Doobie Brothers,F,,,,,,,,,,,./cho/DEF/D/DoobieBros/TakinItToTheStreets.cho
 Sharing The Night Together,Dr. Hook,C,,,,,,,,,,,./cho/DEF/D/DrHook/SharingTheNightTogether.cho
 Levitating,Dua Lipa,Am,,,,,,,,,,,./cho/DEF/D/DuaLipa/Levitating.cho
-Love Again,Dua Lipa,F#m,,116,,,,,,,,,./cho/DEF/D/DuaLipa/LoveAgain.cho
-Ain't That Lonely Yet,Dwight Yoakam,F,,107,,,,,,,,,./cho/DEF/D/DwightYokam/AintThatLonelyYet.cho
+Love Again,Dua Lipa,F#m,3:50,116,,,,,,,,,./cho/DEF/D/DuaLipa/LoveAgain.cho
+Ain't That Lonely Yet,Dwight Yoakam,F,3:10,107,,,,,,,,,./cho/DEF/D/DwightYokam/AintThatLonelyYet.cho
 Little Sister,Dwight Yoakam,E,3:00,144,4,,O14,,,,,,./cho/DEF/D/DwightYokam/LittleSister.cho
 Can't Get You Out Of My Head,ELO,,,,,,,,,,,,./cho/DEF/E/ELO/CantGetYouOutOfMyHead.cho
-Midnight Blue,ELO,F,4:10,,,,,,D,,,,./cho/DEF/E/ELO/MidnightBlue.cho
+Midnight Blue,ELO,F,4:10,141,,,,,D,,,,./cho/DEF/E/ELO/MidnightBlue.cho
 Rockaria,ELO / Jeff Lynne,D,,,,,,,,,,,./cho/DEF/E/ELO/Rockaria.cho
 When I Was A Boy,ELO ( Jeff Lynne ),C,,,,,,,,,,,./cho/DEF/E/ELO/WhenIWasABoy.cho
 I Can't Tell You Why,Eagles,Bm,,,,,,,,,,,./cho/DEF/E/Eagles/ICantTellYouWhy.cho
 Love Will Keep Us Alive,Eagles,A,,90,,,,,,,,,./cho/DEF/E/Eagles/LoveWillKeepUsAlive.cho
-Lyin' Eyes,Eagles,G,3:45,,8,,O55,,,,,,./cho/DEF/E/Eagles/LyinEyes.cho
+Lyin' Eyes,Eagles,G,3:45,133,8,,O55,,,,,,./cho/DEF/E/Eagles/LyinEyes.cho
 Hey There Lonely Girl,Eddie Holman,G,3:00,,,,,,,,,,./cho/DEF/E/EddieHolman/HeyThereLonelyGirl.cho
 Think I'm In Love,Eddie Money,,4:00,152,,,,,,,,,./cho/DEF/E/EddieMoney/ThinkImInLove.cho
 Last Song,Edward Bear,G,3:00,,,,P55,,,,,,./cho/DEF/E/EdwardBear/LastSong.cho
 Crocodile Rock,Elton John,G,3:10,151,,,???,,G,,,,./cho/DEF/E/EltonJohn/CrocodileRock.cho
-Daniel,Elton John,A,3:30,,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel-A.cho
-Daniel,Elton John,C,3:30,,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel.cho
+Daniel,Elton John,A,3:30,66,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel-A.cho
+Daniel,Elton John,C,3:30,66,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel.cho
 Burning Love,Elvis,D,,144,,,,,,,,,./cho/DEF/E/Elvis/BurningLove.cho
 I'd Really Love To See You Tonight,England Dan / John Ford Coley,F,,,,,,,,,,,./cho/DEF/E/EnglandDanJohnFordColey/IdReallyLoveToSeeYouTonight.cho
 Cocaine,Eric Clapton,,,,,,,,,,,,./cho/DEF/E/EricClapton/Cocaine.cho
@@ -132,37 +132,37 @@ Layla,Eric Clapton,Dm,4:00,94,,,???,,Dm,,,,./cho/DEF/E/EricClapton/Layla.cho
 Nobody Knows You When You're Down And Out,Eric Clapton,C,3:50,89,4,,N45,,C,,,,./cho/DEF/E/EricClapton/NobodyKnowsYou.cho
 Over the Rainbow,Eric Clapton,E,,,,,,,,,,,./cho/DEF/E/EricClapton/OverTheRainbow-E.cho
 San Francisco Bay Blues,Eric Clapton,C,3:00,162,,,,,,,,,./cho/DEF/E/EricClapton/SanFranciscoBayBlues.cho
-Downhome Blues,Etta James,G,4:30,,4,57,P55,,,,,,./cho/DEF/E/EttaJames/DownhomeBlues.cho
-Don't Stop,Fleetwood Mac,E,3:00,,0,,N54,,,,,,./cho/DEF/F/FleetwoodMac/DontStop.cho
+Downhome Blues,Etta James,G,4:30,85,4,57,P55,,,,,,./cho/DEF/E/EttaJames/DownhomeBlues.cho
+Don't Stop,Fleetwood Mac,E,3:00,119,0,,N54,,,,,,./cho/DEF/F/FleetwoodMac/DontStop.cho
 Landslide,Fleetwood Mac,C,,,,,,,,,,,./cho/DEF/F/FleetwoodMac/Landslide-c.cho
 Landslide,Fleetwood Mac,Eb,,,,,,,Eb,,,,./cho/DEF/F/FleetwoodMac/Landslide-lyrics.cho
 Landslide,Fleetwood Mac,Eb,,,,,,,Eb,,,,./cho/DEF/F/FleetwoodMac/Landslide.cho
 Say That You Love Me,Fleetwood Mac,A,3:00,128,4,,N12,,A,,,,./cho/DEF/F/FleetwoodMac/SayThatYouLoveMe.cho
 What's Up,4 Non Blonds,A,4:00,67,,,,,,,,,./cho/DEF/F/FourNonBlondes/WhatsUp.cho
-Much Too Young To Feel This Damnn Old,Garth Brooks,D,2:33,,4,13,O42,,,,,,./cho/GHI/G/GarthBrooks/MuchTooYoungToFeel.cho
-Before My Heart Finds Out,Gene Cotton,F,,123,,,,,,,,,./cho/GHI/G/GeneCotton/BeforeMyHeartFindsOut.cho
+Much Too Young To Feel This Damnn Old,Garth Brooks,D,2:33,162,4,13,O42,,,,,,./cho/GHI/G/GarthBrooks/MuchTooYoungToFeel.cho
+Before My Heart Finds Out,Gene Cotton,F,2:10,123,,,,,,,,,./cho/GHI/G/GeneCotton/BeforeMyHeartFindsOut.cho
 In Too Deep,Genesis,G,,,,,,,,,,,./cho/GHI/G/Genesis/InTooDeep.cho
 That's All,Genesis,Em,4:00,88,4,47,P53,,,,,,./cho/GHI/G/Genesis/ThatsAll.cho
 Something,George Harrison,C,,132,,,,,,,,,./cho/GHI/G/GeorgeHarrison/Something.cho
 While My Guitar Gently Weeps,George Harrison,,3:47,123,,,,,,,,,./cho/GHI/G/GeorgeHarrison/WhileMyGuitarGentlyWeeps.cho
 Faith,George Michael,B,,,,,,,,,,,./cho/GHI/G/GeorgeMichael/Faith.cho
-As Far As It Goes,George Strait,D,,137,,,,,,4/4,,,./cho/GHI/G/GeorgeStrait/AsFarAsItGoes-D.cho
-As Far As It Goes,George Strait,C,,137,,,,,,4/4,,,./cho/GHI/G/GeorgeStrait/AsFarAsItGoes.cho
+As Far As It Goes,George Strait,D,3:10,137,,,,,,4/4,,,./cho/GHI/G/GeorgeStrait/AsFarAsItGoes-D.cho
+As Far As It Goes,George Strait,C,3:10,137,,,,,,4/4,,,./cho/GHI/G/GeorgeStrait/AsFarAsItGoes.cho
 Get Down,Gilbert O'Sullivan,Bb,,,,,,,,,,,./cho/GHI/G/GilbertOSullivan/GetDown.cho
 I Will Survive,Gloria Gaynor,Am,3:20,117,,,024,,,,,,./cho/GHI/G/GloriaGaynor/IWillSurvive.cho
 Carefree Highway,Gordon Lightfoot,E,2:20,85,,,,,E,,,,./cho/GHI/G/GordonLightfoot/CarefreeHighway-e.cho
 Carefree Highway,Gordon Lightfoot,D,2:20,85,,,M13,,E,,,,./cho/GHI/G/GordonLightfoot/CarefreeHighway.cho
-Good Riddance (Time of Your Life),Green Day,G,,95,,,,,,,,,./cho/GHI/G/GreenDay/GoodRiddance.cho
+Good Riddance (Time of Your Life),Green Day,G,2:10,95,,,,,,,,,./cho/GHI/G/GreenDay/GoodRiddance.cho
 Breakup Song,Greg Kihn,F#m,3:00,136,4,,P41,,F#m,,,,./cho/GHI/G/GregKihn/BreakupSong-f#m.cho
 Breakup Song,Greg Kihn,Am,2:49,136,4,,P41,,F#m,,,,./cho/GHI/G/GregKihn/BreakupSong.cho
-Undun,Guess Who,Em,,100,,,,,,,,,./cho/GHI/G/GuessWho/Undun.cho
+Undun,Guess Who,Em,3:30,100,,,,,,,,,./cho/GHI/G/GuessWho/Undun.cho
 Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,12,P21,,D,,,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho
 Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,15,O:24,,Em,,,,./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho
 Small Town Saturday Night,Hal Ketchum,G,2:30,100,,,,,G,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
-Softer Than a Whisper,Hal Ketchum,C,3:05,,,,,,,,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho
+Softer Than a Whisper,Hal Ketchum,C,3:05,95,,,,,,,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho
 I Can't Go For That,Hall & Oates,Eb,,,,,,,,,,,./cho/GHI/H/HallAndOates/ICantGoForThat.cho
 Rich Girl,Hall & Oates,F,,,,,,,,,,,./cho/GHI/H/HallAndOates/RichGirl.cho
-Tell It Like It Is,Heart,F,,100,,,,,,6/8,,,./cho/GHI/H/Heart/TellItLikeItIs.cho
+Tell It Like It Is,Heart,F,3:50,67,,,,,,6/8,,,./cho/GHI/H/Heart/TellItLikeItIs.cho
 Always and Forever,Heatwave,,,,,,,,,,,,./cho/GHI/H/Heatwave/AlwaysAndForever.cho
 Shannon,Henry Gross,F,,,,,,,,,,,./cho/GHI/H/HenryGross/Shannon.cho
 The Air That I Breathe,The Hollies,C,,,,,,,,,,,./cho/GHI/H/Hollies/TheAirThatIBreathe.cho
@@ -170,7 +170,7 @@ And We Danced,The Hooters,D,,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced.cho
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,,./cho/GHI/H/HueyLewis/DoYouBelieveInLove.cho
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,,./cho/JKL/J/JJCale/SensitiveKind.cho
 Running On Empty,Jackson Brown,A,4:10,137,8,72,P55,,,,,,./cho/JKL/J/JacksonBrowne/RunningOnEmpty.cho
-Stay,Jackson Browne,G,3:00,,,,P25,,,,,,./cho/JKL/J/JacksonBrowne/Stay.cho
+Stay,Jackson Browne,G,3:00,106,,,P25,,,,,,./cho/JKL/J/JacksonBrowne/Stay.cho
 Who Will Save My Soul,Jewel,Am,,126,,,,,,,,,./cho/JKL/J/Jewel/WhoWillSaveMySoul.cho
 Bad Bad Leroy Brown,Jim Croce,G,2:35,148,8,42,O55,,,,,,./cho/JKL/J/JimCroce/BadBadLeroyBrown.cho
 You Don't Mess Around With Jim,Jim Croce,F,,164,,,,,,,,,./cho/JKL/J/JimCroce/YouDontMessAroundWithJim.cho
@@ -180,12 +180,12 @@ Unchain My Heart,Joe Cocker,Am,5:07,118,0,18,O:24,,,,,,./cho/JKL/J/JoeCocker/Unc
 Unchain My Heart (Extended),Joe Cocker,Am,5:07,118,0,18,O:24,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho
 Memphis in the Meantime,John Hiatt,E,,,,,,,,,,,./cho/JKL/J/JohnHiatt/MemphisInTheMeantime.cho
 Beautiful Boy,John Lennon,D,,100,,,,,,,,,./cho/JKL/J/JohnLennon/BeautifulBoy.cho
-Watching The Wheels,John Lennon,C,3:30,,,,,,,,,,./cho/JKL/J/JohnLennon/WatchingTheWheels.cho
-I’m Gonna Find Another You,John Mayer,A,3:00,,,,,,,,,,./cho/JKL/J/JohnMayer/ImGonnaFindAnotherYou.cho
-Ain't Even Done With The Night,John Mellencamp,B,4:10,,,,,,,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight.cho
-Cherry Bomb,John Mellencamp,G,4:10,,,,,,,,,,./cho/JKL/J/JohnMellencamp/CherryBomb.cho
+Watching The Wheels,John Lennon,C,3:30,83,,,,,,,,,./cho/JKL/J/JohnLennon/WatchingTheWheels.cho
+I’m Gonna Find Another You,John Mayer,A,3:00,150,,,,,,,,,./cho/JKL/J/JohnMayer/ImGonnaFindAnotherYou.cho
+Ain't Even Done With The Night,John Mellencamp,B,4:10,120,,,,,,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight.cho
+Cherry Bomb,John Mellencamp,G,4:10,113,,,,,,,,,./cho/JKL/J/JohnMellencamp/CherryBomb.cho
 Jack and Diane,John Mellencamp,A,3:40,104,4,29,,,,,,,./cho/JKL/J/JohnMellencamp/JackandDiane.cho
-R.O.C.K. In The U.S.A,John Mellencamp,E,2:55,,8,54,,,,,,,./cho/JKL/J/JohnMellencamp/ROCKInTheUSA.cho
+R.O.C.K. In The U.S.A,John Mellencamp,E,2:55,166,8,54,,,,,,,./cho/JKL/J/JohnMellencamp/ROCKInTheUSA.cho
 Don't Forget (Welcome to Wrexham),Jon Hume,C,,,,,,,,,,,./cho/JKL/J/JonHume/DontForget.cho
 Tuscon Too Late,Jordan Davis,G,,,,,,,,,,,./cho/JKL/J/JordanDavis/TusconTooLate.cho
 Jacksonville,Josh Turner,D,,119,,,,,,,,,./cho/JKL/J/JoshTurner/Jacksonville-D.cho
@@ -216,7 +216,7 @@ Long Long Time,Linda Ronstadt,Am,,,,,,,,,,,./cho/JKL/L/LindaRonstadt/LongLongTim
 Long Long Time,Linda Ronstadt,Em,,,,,,,,,,,./cho/JKL/L/LindaRonstadt/LongLongTime.cho
 Deep River Woman,Lionel Richie,G,,135,,,,,,,,,./cho/JKL/L/LionelRichie/DeepRiverWoman.cho
 I'd Love You To Want Me,Lobo,G,,,,,,,,,,,./cho/JKL/L/Lobo/IdLoveYouToWantMe.cho
-Brandy (You're A Fine Girl),Looking Glass,E,3:00,,8,40,N51,,E,,,,./cho/JKL/L/LookingGlass/Brandy.cho
+Brandy (You're A Fine Girl),Looking Glass,E,3:00,126,8,40,N51,,E,,,,./cho/JKL/L/LookingGlass/Brandy.cho
 Te Ni Nee Ni,Lou Ann Barton,E,,,,,,,,,,,./cho/JKL/L/LouAnnBarton/TeNiNeeNi.cho
 Dream A Little Dream Of Me,Louis Armstrong,C,1:10,133,,,,,,,,,./cho/JKL/L/LouisArmstrong/DreamALittleDream-C.cho
 Dream A Little Dream Of Me,Louis Armstrong,G,,133,,,,,,,,,./cho/JKL/L/LouisArmstrong/DreamALittleDream.cho
@@ -240,7 +240,7 @@ The Walk,Mayer Hawthorne,A,,,,,,,,,,,./cho/MNO/M/MayerHawthorne/TheWalk.cho
 Are You Hungry Tonight?,Michael Sadri,C,2:50,66,,,,,,3/4,,,./cho/MNO/M/MichaelSadri/AreYouHungryTonight.cho
 Going To Montana - Original,Michael Sadri,C,,,,,,,,,,,./cho/MNO/M/MichaelSadri/GoingToMontana-orig.cho
 Going To Montana,"Michael Sadri, Scott Davidson",Am,3:30,136,,,,,,,,,./cho/MNO/M/MichaelSadri/GoingToMontana.cho
-Cheatin' Songs,Midland,D,3:10,,,,,,,,,,./cho/MNO/M/Midland/CheatinSong.cho
+Cheatin' Songs,Midland,D,3:10,110,,,,,,,,,./cho/MNO/M/Midland/CheatinSong.cho
 Drinkin' Problem,Midland,A,3:00,102,4,24,P25,,,,,,./cho/MNO/M/Midland/DrinkingProblem.cho
 Fourteen Gears,Midland,D,,,,,,,,,,,./cho/MNO/M/Midland/FourteenGears.cho
 Old Fashioned Feeling,Midland,G,,,,,,,,,,,./cho/MNO/M/Midland/OldFashionedFeeling.cho
@@ -256,14 +256,14 @@ I Melt With You,Modern English,C,3:55,156,8,71,,,,,,,./cho/MNO/M/ModernEnglish/I
 Love Somebody,Morgan Wallen,Em,3:00,120,8,51,P52,,,,,,./cho/MNO/M/MorganWallen/LoveSomebody.cho
 Man Made A Bar,Morgan Wallen (Eric Church),E,,105,,,,,,,,,./cho/MNO/M/MorganWallen/ManMadeABar-E.cho
 Man Made A Bar,Morgan Wallen (Eric Church),C,,105,,,,,,,,,./cho/MNO/M/MorganWallen/ManMadeABar.cho
-More Than My Hometown,Morgan Wallen,G,,126,,,,,,4/4,,,./cho/MNO/M/MorganWallen/MoreThanMyHometown.cho
-Sand In My Boots,Morgan Wallen,C,3:05,,,,N52,,,,,,./cho/MNO/M/MorganWallen/SandInMyBoots.cho
-7 Summers,Morgan Wallen,C,,102,,,,,,4/4,,,./cho/MNO/M/MorganWallen/SevenSummers.cho
-Somebody's Problem,Morgan Wallen,F,,137,,,,,,,,,./cho/MNO/M/MorganWallen/SomebodysProblem.cho
+More Than My Hometown,Morgan Wallen,G,3:10,126,,,,,,4/4,,,./cho/MNO/M/MorganWallen/MoreThanMyHometown.cho
+Sand In My Boots,Morgan Wallen,C,3:05,70,,,N52,,,,,,./cho/MNO/M/MorganWallen/SandInMyBoots.cho
+7 Summers,Morgan Wallen,C,3:10,102,,,,,,4/4,,,./cho/MNO/M/MorganWallen/SevenSummers.cho
+Somebody's Problem,Morgan Wallen,F,2:10,97,,,,,,,,,./cho/MNO/M/MorganWallen/SomebodysProblem.cho
 These Boots Are Made For Walkin',Nancy Sinatra,E,2:20,84,4,,,,E,,,,./cho/MNO/N/NancySinatra/TheseBootsWereMadeForWalkin.cho
 L-O-V-E,Nat King Cole,C,,78,,,,,,,,,./cho/MNO/N/NatKingCole/L_O_V_E-C.cho
 L-O-V-E,Nat King Cole,G,,78,,,,,,,,,./cho/MNO/N/NatKingCole/L_O_V_E.cho
-Torn,Natalie Imbruglia,F,3:35,,4,52,P51,,,,,,./cho/MNO/N/NatalieImbruglia/Torn.cho
+Torn,Natalie Imbruglia,F,3:35,96,4,52,P51,,,,,,./cho/MNO/N/NatalieImbruglia/Torn.cho
 Sweet Caroline,Neil Diamond,,3:24,63,,,,,,,,,./cho/MNO/N/NeilDiamond/SweetCaroline.cho
 Put A Little Love On Me,Niall Horan,G,,,,,,,,,,,./cho/MNO/N/NiallHoran/PutALittleLoveOnMe.cho
 This Town,Niall Horan,G,,,,,,,,,,,./cho/MNO/N/NiallHoran/ThisTown.cho
@@ -308,11 +308,11 @@ Bad Case Of Lovin' You,Robert Palmer,E,2:50,146,8,34,,,,,,,./cho/PQR/R/RobertPal
 Every Kinda People,Robert Palmer,F,,,,,,,,,,,./cho/PQR/R/RobertPalmer/EveryKindaPeople.cho
 Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,,,,,,,,,./cho/PQR/R/RobertPlant/CantLetGo.cho
 Killing Me Softly With His Song,Roberta Flack,A,,122,,,,,,,,,./cho/PQR/R/RobertaFlack/KillingMeSoftly-A.cho
-Tired Of Toein' The Line,Rocky Burnette,E,3:30,,8,17,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
-Tired Of Toein' The Line,Rocky Burnette,G,3:30,,8,17,O14,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
+Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,17,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
+Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,17,O14,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
 Miss You,Rolling Stones,Am,,,,,,,,,,,./cho/PQR/R/RollingStones/MissYou.cho
 Under My Thumb,Rolling Stones,A,3:40,127,8 (with pickup)),43,,,,,,,./cho/PQR/R/RollingStones/UnderMyThumb.cho
-What I Like About You,Romantics,A,2:20,,8,19,P44,,,,,,./cho/PQR/R/Romantics/WhatILikeAboutYou.cho
+What I Like About You,Romantics,A,2:20,166,8,19,P44,,,,,,./cho/PQR/R/Romantics/WhatILikeAboutYou.cho
 There's No Getting Over Me,Ronnie Milsap,C,4:00,100,4,,??,,,,,,./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe-c.cho
 There's No Getting Over Me,Ronnie Milsap,E,4:00,100,4,,??,,,,,,./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe.cho
 Smooth Operator,Sade,Am,3:30,120,0,,53,,,,,,./cho/ST/S/Sade/SmoothOperator.cho
@@ -352,7 +352,7 @@ Is This Love,Survivor,F,,,,,,,,,,,./cho/ST/S/Survivor/IsThisLove.cho
 Little by Little,Susan Tedeschi,E,,,,,,,,,,,./cho/ST/S/SusanTedeschi/LittleByLittle.cho
 Stumblin' In,Suzy Quatro,G,,,,,,,,,,,./cho/ST/S/SuziQuatro/StumblinIn.cho
 Nobody,Sylvia,C,3:10,,8,63,P00,,,,,,./cho/ST/S/Sylvia/Nobody.cho
-Get It On,T.Rex,E,4:00,,,,,,,,,,./cho/ST/T/T.Rex/GetItOn.cho
+Get It On,T.Rex,E,4:00,125,,,,,,,,,./cho/ST/T/T.Rex/GetItOn.cho
 Our Song,Taylor Swift,D,2:40,89,4,41,,,,,,,./cho/ST/T/TaylorSwift/OurSong.cho
 Style,Taylor Swift,G,,,,,,,,,,,./cho/ST/T/TaylorSwift/Style.cho
 You Belong With Me,Taylor Swift,G,,,,,,,,,,,./cho/ST/T/TaylorSwift/YouBelongWithMe.cho
@@ -360,14 +360,14 @@ Under The Milky Way,The Church,Am,5:00,66,8,32,P45,,,,,0.0,./cho/ST/T/TheChurch/
 Should I Stay (Or Should I Go) (BASS),The Clash,D,,,,,,,,,,,./cho/ST/T/TheClash/ShouldIStay-bass.cho
 Half Of Me (updated),Thomas Rhett,G,3:15,112,,,N35,,,4/4,,,./cho/ST/T/ThomasRhett/HalfOfMe-2.cho
 Half Of Me,Thomas Rhett,G,2:45,112,4,11,N35,,,4/4,,1.0,./cho/ST/T/ThomasRhett/HalfOfMe.cho
-Shambala,Three Dog Night,E,3:00,,4,,O55,,,,,,./cho/ST/T/ThreeDogNight/Shambala.cho
+Shambala,Three Dog Night,E,3:00,128,4,,O55,,,,,,./cho/ST/T/ThreeDogNight/Shambala.cho
 My Angel Baby,Toby Beau,G,3:00,,,,,,,,,,./cho/ST/T/TobyBeau/MyAngelBaby.cho
 Where You Gonna Go,Toby Keith,Bm,,129,,,,,,4/4,,,./cho/ST/T/TobyKeith/WhereYouGonnaGo.cho
 Your Smile,Toby Keith,A,,77,,,,,,4/4,,,./cho/ST/T/TobyKeith/YourSmile-A.cho
 Your Smile,Toby Keith,G,,77,,,,,,4/4,,,./cho/ST/T/TobyKeith/YourSmile.cho
 I Saw The Light,Todd Rundgren,C,3:00,120,4,,,,,,,,./cho/ST/T/ToddRundgren/ISawTheLight.cho
 Breakdown,Tom Petty,Am,3:00,114,4,,P11,,Am,,,,./cho/ST/T/TomPetty/Breakdown.cho
-Don't Do Me Like That,Tom Petty,G,2:20,,,,,,,,,,./cho/ST/T/TomPetty/DontDoMeLikeThat.cho
+Don't Do Me Like That,Tom Petty,G,2:20,116,,,,,,,,,./cho/ST/T/TomPetty/DontDoMeLikeThat.cho
 Free Fallin' (BASS),Tom Petty,E,3:30,85,4,,,,E,,,,./cho/ST/T/TomPetty/FreeFallin-BASS.cho
 Free Fallin',Tom Petty,D,3:30,85,4,,,,E,,2,,./cho/ST/T/TomPetty/FreeFallin-GUITAR-D.cho
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho
@@ -383,7 +383,7 @@ Handle With Care,Traveling Wilburys,G,3:18,122,4,,M22,P12,,,,,./cho/ST/T/Traveli
 Stuck In A Moment / I Still Haven't Found,U2,E / C,,TBD,,,N51,,,,,,./cho/UV-Z/U2/StuckInAMoment-IStillHaventFound.cho
 Blinding Lights,The Weeknd,Fm,3:20,171,,,,,,,,,./cho/UV-Z/W/Weeknd/BlindingLights.cho
 Save Your Tears,The Weeknd,C,,,,,,,,,,,./cho/UV-Z/W/Weeknd/SaveYourTears.cho
-Island In The Sun,Weezer,Em,3:00,,4,58,P54,,,,,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho
+Island In The Sun,Weezer,Em,3:00,115,4,58,P54,,,,,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho
 Blue Christmas,Elvis Presley,E,1:50,95,,,,,,,,,./cho/UV-Z/Xmas/BlueChristmas.cho
 Have Yourself A Merry Little Christmas,Bing Crosby,C,2:50,80,,,,,,,,,./cho/UV-Z/Xmas/HaveYourselfAMerryLittleChristmas.cho
 It's Beginning To Look A Lot Like Christmas,Bing Crosby,G,2:00,96,4,,,,,,,,./cho/UV-Z/Xmas/ItsBeginningToLookALotLikeChristmas.cho

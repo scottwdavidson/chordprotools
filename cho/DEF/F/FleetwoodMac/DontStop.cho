@@ -2,14 +2,13 @@
 {artist: Fleetwood Mac}
 {key: E}
 {duration: 3:00}
+{tempo: 119}
 {meta: nord: N54}
 {meta: countin: 0}
 
-
 {c:***********************************************}
-{c:** meta: nord: N54}
-{c:** meta: performance: E}
-{c:** meta: countin: 0  }
+{c:**  meta: nord: N54   }
+{c:**  meta: countin: 0   }
 {c:***********************************************}
 
 {c:Intro}

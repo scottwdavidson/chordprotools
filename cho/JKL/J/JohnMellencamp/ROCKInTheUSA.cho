@@ -2,13 +2,14 @@
 {artist: John Mellencamp}
 {key: E}
 {duration: 2:55}
+{tempo: 166}
 {meta: countin: 8}
 {meta: backing: 54}
 
-{c:*****************************************}
-{c: meta: countin: 8}
-{c: meta: backing: 54}
-{c:*****************************************}
+{c:***********************************************}
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 54   }
+{c:***********************************************}
 
 {c: Intro}
 | E . A/E . | D/E . A/E . |

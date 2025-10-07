@@ -2,10 +2,11 @@
 {artist: Daniel Boone}
 {key: C}
 {duration: 3:00}
+{tempo: 120}
 {meta: version: 1.0}
 
 {c:***********************************************}
-{c:** --> meta: version: 1.0}
+{c:**  meta: version: 1.0   }
 {c:***********************************************}
 
 {comment: Intro}
