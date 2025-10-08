@@ -3,16 +3,14 @@
 {key: E}
 {duration: 3:45}
 {tempo: 170}
+{meta: nord: N51}
 {meta: countin: 8}
 {meta: backing: 16}
-{meta: nord: N35}
-{meta: performance: E}
 
 {c:***********************************************}
+{c:**  meta: nord: N51   }
 {c:**  meta: countin: 8   }
 {c:**  meta: backing: 16   }
-{c:**  meta: nord: N35  }
-{c:**  meta: performance: E  }
 {c:***********************************************}
 
 {comment: Intro}

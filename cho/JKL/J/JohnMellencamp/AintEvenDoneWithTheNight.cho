@@ -3,8 +3,14 @@
 {key: B}
 {duration: 4:10}
 {tempo: 120}
+{meta: nord: N51}
+{meta: countin: 8}
+{meta: backing: 99}
 
 {c:***********************************************}
+{c:**  meta: nord: N51   }
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 99   }
 {c:***********************************************}
 
 {comment: Intro}
@@ -13,55 +19,69 @@
 | B . . . | B . . . |
 | E . . . | E . - - |
 
+| B . . . | B . . . |
+| E . . . | E . . . |
+| B . . . | B . . . |
+| E . . . | E . - - |
+
 
 {start_of_verse}
-Well, our hearts[Bsus2]beat like thunder
-I don't know [C#m7/B]why  they don't explode
-You got your [Bsus2]hands in my back pockets
-And Sam Cooke's [C#m7/B]singin' on the radio
+Well, our hearts[B]beat like thunder
+I don't know [E]why  they don't explode
+You got your [B]hands in my back pockets
+And Sam Cooke's [E]singin' on the radio
 {end_of_verse}
 
 
 {comment: Bridge}
-[G#m]   You say that I'm[E] the boy who can [F#]make it all come true
-[G#m]   Well, I'm tellin' ya that I[E] don't know if [F#]I know what to do
-You say that's al[B]right, hold tight
-
+[G#m]_You say that I'm[E] the boy 
+who can [F#]make it all come true
+[G#m]_Well, I'm tellin' ya that I[E] don't know 
+if [F#]I know what to do
+[F#7]You say that's al[B]right, hold tight_[G#]
 
 {start_of_chorus}
-[G#m]   Well, I [E]don't even know if I'm [F#]doin' this right
+Well, I [E]don't even know if I'm [F#]doin' this right
 Well, alright,[B]hold tight
-[G#m]   We can [E]stay out all day, we can run [F#]around all night
+[G#m]_We can [E]stay out all day, 
+we can run [F#]around all night
 Well, all night,[B]all night
-[G#m]   Well, it's [E]time to go home
-And I [F#]ain't even done with the [Bsus2]night
+[G#m]_Well, it's [E]time to go home
+And I [F#7]ain't even done with the [B]night
 {end_of_chorus}
 
+| B . . . | E . . . | 
+| B . . . | E . . . | 
 
 {comment: Pre-Verse}
-[C#m7/B]       [Bsus2]      [C#m7/B]    Well, I don't k[Bsus2]now no good comeons
+[E]       [B]      [E]    
 
 
 {start_of_verse}
-And I [C#m7/B]don't know no cool lines
-I feel the [Bsus2]heat of your frustration
-I know it's [C#m7/B]burnin' you up deep down inside
+Well, I don't k[B]now no good comeons
+And I [E]don't know no cool lines
+I feel the [B]heat of your frustration
+I know it's [E]burnin' you up deep down inside
 {end_of_verse}
 
 
 {comment: Bridge}
-[G#m]   You say that I'm[E] the boy who can [F#]make it all come true
-[G#m]   Well, I'm tellin' ya that I[E] don't know if [F#]I know what to do
+[G#m]_You say that I'm[E] the boy 
+who can [F#]make it all come true
+[G#m]_Well, I'm tellin' ya that I[E] don't know 
+if [F#]I know what to do
 You say that's al[B]right, hold tight
 
 
 {start_of_chorus}
-[G#m]   Well, I [E]don't even know if I'm [F#]doin' this right
+[G#m]   Well, I [E]don't even know if 
+I'm [F#]doin' this right
 Well, alright,[B]hold tight
-[G#m]   We can [E]stay out all day, we can run [F#]around all night
+[G#m]   We can [E]stay out all day, 
+we can run [F#]around all night
 Well, all night,[B]all night
 [G#m]   Well, it's [E]time to go home
-And I [F#]ain't even done with the [G#m]night
+And I [F#7]ain't even done with the [G#m]night
 {end_of_chorus}
 
 
@@ -76,18 +96,18 @@ Well, alright,[B]hold tight
 [G#m]   We can [E]stay out all day, we can run [F#]around all night
 Well, all night,[B]all night
 [G#m]   Well, it's [E]time to go home
-And I [F#]ain't even done with the [Bsus2]night
+And I [F#]ain't even done with the [B]night
 {end_of_chorus}
 
 
 {comment: Outro}
-[C#m7/B]       [Bsus2]      [C#m7/B]    No, and ain't even done with the n[Bsus2]ight
-[C#m7/B]     No no, ain't even done with the [Bsus2]night
-[C#m7/B]     No, I ain't even done with the [Bsus2]night
-[C#m7/B]     No no, ain't even ain't even done[Bsus2]     with the night[C#m7/B]     No no, ain't even done with the [Bsus2]night
+[E]       [B]      [E]    No, and ain't even done with the n[B]ight
+[E]     No no, ain't even done with the [B]night
+[E]     No, I ain't even done with the [B]night
+[E]     No no, ain't even ain't even done[B]     with the night[E]     No no, ain't even done with the [B]night
 
 
 {comment: Fade Out}
-[C#m7/B]     No, I ain't even done with the [Bsus2]night[C#m7/B]
+[E]     No, I ain't even done with the [B]night[E]
 
 https://www.sheetmusicdirect.com/en-US/se/ID_No/20619/Product.aspx
