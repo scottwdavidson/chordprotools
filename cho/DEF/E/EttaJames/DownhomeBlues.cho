@@ -2,15 +2,16 @@
 {artist: Etta James}
 {key: G}
 {duration: 4:30}
+{tempo: 85}
+{meta: nord: P55}
 {meta: countin: 4}
 {meta: backing: 57}
-{meta: nord: P55}
 
-{c:*****************************************}
-{c: meta: countin: 4}
-{c: meta: backing: 57}
-{c: meta: nord: P55}
-{c:*****************************************}
+{c:***********************************************}
+{c:**  meta: nord: P55   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 57   }
+{c:***********************************************}
 
 {c:Intro}
 | G ... | G ... | G ... | G ... |

@@ -2,14 +2,15 @@
 {artist: Romantics}
 {key: A}
 {duration: 2:20}
+{tempo: 166}
 {meta: nord: P44}
 {meta: countin: 8}
 {meta: backing: 19}
 
 {c:***********************************************}
-{c:** --> meta: nord: P44}
-{c:** --> meta: countin: 8}
-{c:** --> meta: backing: 19}
+{c:**  meta: nord: P44   }
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 19   }
 {c:***********************************************}
 
 {comment: Guitar Intro}

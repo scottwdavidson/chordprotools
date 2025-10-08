@@ -2,14 +2,14 @@
 {artist: Ami Winehouse}
 {key: Eb}
 {duration: 3:10}
+{tempo: 105}
 {meta: nord: P54}
 {meta: countin: 4}
 
 {c:***********************************************}
-{c:** meta: countin: 4}
-{c:** meta: nord: P54}
+{c:**  meta: nord: P54   }
+{c:**  meta: countin: 4   }
 {c:***********************************************}
-
 
 {start_of_verse}
 Well[Ebmaj7] sometimes I go out by myself 

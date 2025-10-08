@@ -2,14 +2,15 @@
 {artist: Natalie Imbruglia}
 {key: F}
 {duration: 3:35}
+{tempo: 96}
+{meta: nord: P51}
 {meta: countin: 4}
-{meta: nord = P51}
-{meta: backing = 52}
+{meta: backing: 52}
 
 {c:***********************************************}
-{c:** meta: countin: 4 **}
-{c:** meta: nord: P51 **}
-{c:** meta: backing: 52 **}
+{c:**  meta: nord: P51   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 52   }
 {c:***********************************************}
 
 {comment: Intro}

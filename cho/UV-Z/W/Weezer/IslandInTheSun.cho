@@ -2,14 +2,15 @@
 {artist: Weezer}
 {key: Em}
 {duration: 3:00}
+{tempo: 115}
 {meta: nord: P54}
-{meta: backing: 58}
 {meta: countin: 4}
+{meta: backing: 58}
 
 {c:***********************************************}
-{c:** meta: backing: 58}
-{c:** meta: nord: P54}
-{c:** meta: countin: 4}
+{c:**  meta: nord: P54   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 58   }
 {c:***********************************************}
 
 {comment: Intro}

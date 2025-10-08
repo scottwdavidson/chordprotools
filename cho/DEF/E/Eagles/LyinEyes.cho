@@ -2,12 +2,13 @@
 {artist: Eagles}
 {key: G}
 {duration: 3:45}
+{tempo: 133}
 {meta: nord: O55}
 {meta: countin: 8}
 
 {c:***********************************************}
-{c:** --> meta: nord: O55}
-{c:** --> meta: countin: 8}
+{c:**  meta: nord: O55   }
+{c:**  meta: countin: 8   }
 {c:***********************************************}
 
 {c:Intro}

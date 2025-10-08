@@ -2,19 +2,16 @@
 {artist: Looking Glass}
 {key: E}
 {duration: 3:00}
-{meta: performance: E}
+{tempo: 126}
 {meta: nord: N51}
-{meta: backing: 40}
 {meta: countin: 8}
-
+{meta: backing: 40}
 
 {c:***********************************************}
-{c: performance: E }
-{c: nord: N51 }
-{c: backing: 40 }
-{c: countin: 8 }
+{c:**  meta: nord: N51   }
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 40   }
 {c:***********************************************}
-
 
 {c:Intro}
 | C#m7 ... | AM7 ... | C#m7 ... | AM7 ...    |
