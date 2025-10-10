@@ -6,11 +6,13 @@
 {meta: nord: N51}
 {meta: countin: 8}
 {meta: backing: 99}
+{meta: performance: B}
 
 {c:***********************************************}
 {c:**  meta: nord: N51   }
 {c:**  meta: countin: 8   }
 {c:**  meta: backing: 99   }
+{c:**  meta: performance: B }
 {c:***********************************************}
 
 {comment: Intro}
