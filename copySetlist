@@ -1,5 +1,7 @@
 rm -rf ~/tmp/setlist-ff
 mkdir ~/tmp/setlist-ff
+cp ./cho/ABC/B/BeeGees/HowDeepIsYourLove.cho ~/tmp/setlist-ff
+
 cp ./cho/ABC/A/Abba/DoesYourMotherKnow.cho ~/tmp/setlist-ff
 cp ./cho/ABC/A/AlStewart/YearOfTheCat.cho ~/tmp/setlist-ff
 cp ./cho/ABC/A/AmyWinehouse/Valerie.cho ~/tmp/setlist-ff
