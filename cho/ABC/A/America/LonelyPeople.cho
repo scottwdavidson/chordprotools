@@ -3,6 +3,11 @@
 {key: D}
 {duration: 2:10}
 {tempo: 155}
+{meta: nord: M15(A3)}
+
+{c:*********************}
+{c: meta: nord: M15(A3)}
+{c:*********************}
 
 {comment: Intro}
 | D . . . | Bm . . . | F#m  . . . | F#m  .  .  . |
@@ -43,7 +48,13 @@ Yes, I'm [G]back [D/F#]to  s[Em]tay
 Well, I'm [G]on [D/F#]my  w[Em]ay b[A]ack h[D]ome
 
 
-{comment: Solo }
+{comment: Piano Solo }
+| D . . . | Bm . . . | F#m  . . . | F#m  .  .  . |
+| D . . . | Bm . . . | F#m  . . . | A    .  .  . |
+| G . . . | A  . . . | D . D/C# . | Bm7  .  A  . |
+| G . . . | A  . . . | D  .  .  . | A    .  .  . |
+
+{comment: Guitar Solo }
 | D . . . | Bm . . . | F#m  . . . | F#m  .  .  . |
 | D . . . | Bm . . . | F#m  . . . | A    .  .  . |
 | G . . . | A  . . . | D . D/C# . | Bm7  .  A  . |
