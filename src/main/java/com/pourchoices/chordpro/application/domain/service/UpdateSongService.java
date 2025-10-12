@@ -51,7 +51,7 @@ public class UpdateSongService implements UpdateSongUseCase {
         }
 
         // map the catalog entry into a parsed header
-        ParsedHeader potentialReplacementParsedHeader = this.parsedHeaderMapper.fromCatalogEntry(catalogEntry);
+        ParsedHeader potentialCatalogReplacementParsedHeader = this.parsedHeaderMapper.fromCatalogEntry(catalogEntry);
 
         // parse the current song file
         Path chordproSongPath = Paths.get(chordproSongPathString);
@@ -59,8 +59,8 @@ public class UpdateSongService implements UpdateSongUseCase {
         ParsedSong currentParsedSong = this.songParser.parse(chordproSongPathString, chordproFileAsList);
 
         // replace the header if changed
-        if (currentParsedSong.getParsedHeader().compareTo(potentialReplacementParsedHeader) != 0) {
-            ParsedSong newSong = currentParsedSong.withHeader(potentialReplacementParsedHeader);
+        if (currentParsedSong.getParsedHeader().compareTo(potentialCatalogReplacementParsedHeader) != 0) {
+            ParsedSong newSong = currentParsedSong.withHeader(potentialCatalogReplacementParsedHeader);
 
             // overwrite original with the new song
             this.chordProFileWriter.write(chordproSongPath, newSong);

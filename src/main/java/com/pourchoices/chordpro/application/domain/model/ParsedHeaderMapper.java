@@ -95,6 +95,14 @@ public class ParsedHeaderMapper {
                             .build());
         }
 
+        if (null != catalogEntry.getPerformanceKey() && !catalogEntry.getPerformanceKey().isBlank()) {
+            parsedHeaderBuilder.headerLine(
+                    ParsedHeaderLine.builder()
+                            .headerDirective(HeaderDirective.PERFORMANCE_KEY)
+                            .value(catalogEntry.getPerformanceKey())
+                            .build());
+        }
+
         if (null != catalogEntry.getVersion() && !catalogEntry.getVersion().isBlank()) {
             parsedHeaderBuilder.headerLine(
                     ParsedHeaderLine.builder()
