@@ -15,6 +15,7 @@
 {c:** --> meta: backing: 32}
 {c:***********************************************}
 
+{c: Roland --> C022 }
 {comment: Intro}
 | Am . A7sus4 . | Fmaj7/A . G . |
 | Am . A7sus4 . | Fmaj7/A . G . |
@@ -46,6 +47,7 @@
 [Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
 {end_of_verse}
 
+{comment: Jeff double / harmony vocals on "what ..."}
 {start_of_chorus}
 [G] Wish I knew what you were [Fmaj7]looking for
 [G] Might have known what you would find[Fmaj7]
@@ -60,12 +62,13 @@
 
 {start_of_verse}
 [Am]  And it's [Asus4/F#]something quite pecu[Fmaj7]liar[G]
-[Am]  Something[Asus4/F#]        shimmering and white[Fmaj7][G]
-[Am]  It leads you [Asus4/F#]here    de[Fmaj7]spite your desti[G]nation
+[Am]  Something[Asus4/F#] shimmering and white[Fmaj7][G]
+[Am]  It leads you [Asus4/F#]here  de[Fmaj7]spite your desti[G]nation
 [Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
 {end_of_verse}
 
 
+{comment: Jeff double / harmony vocals on "what ..."}
 {start_of_chorus}
 [G] Wish I knew what you were [Fmaj7]looking for
 [G] Might have known what you would find[Fmaj7]
@@ -75,9 +78,11 @@
 
 
 {comment: Outro}
-[Am]   [Asus4/F#]         [Fmaj7]      [G]  [Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
+[Am]   [Asus4/F#]         [Fmaj7]      [G]  
 [Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
-[Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G][Am][Asus4/F#][Fmaj7][G][Am][Asus4/F#][Fmaj7][G][Am][Asus4/F#][Fmaj7][G][Am][Asus4/F#][Fmaj7][G]
+[Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
+[Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
+[Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
 
 
 {comment: Fade Out}
@@ -85,3 +90,5 @@
 | Am . A7sus4 . | Fmaj7/A . G . |
 | Am . A7sus4 . | Fmaj7/A . G . |
 | Am . A7sus4 . | Fmaj7/A . G . |
+| Am . A7sus4 . | Fmaj7/A . G . |
+| Am ... |
