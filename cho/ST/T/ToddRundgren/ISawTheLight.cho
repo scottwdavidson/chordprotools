@@ -4,11 +4,20 @@
 {duration: 3:00}
 {tempo: 120}
 {meta: countin: 4}
+{meta: backing: 75}
+{meta: nord: M14(A3)}
+
+{c:**********************}
+{c:** meta: countin: 4}
+{c:** meta: backing: 75}
+{c:** meta: nord: M14(A3)}
+{c:**********************}
+
 
 {comment: Intro}
 | x x x E-Eb |
 | Dm . . . | G . . . |
-| Dm . . . | G . . it was |
+| Dm . . . | G . . (whoo oo) it was |
 
 {start_of_verse}
 [Dm7]late,  last [G]night
@@ -18,26 +27,26 @@ Only you,[Cmaj7]     only [Em7]you
 So we walked[Dm7]   along[G]
 Though I knew[Dm7]   that there was something wrong[G]
 And a fee[Dm7]ling hit me, oh so strong[G]
-About you[Cmaj7][C7]
+About you (oooo)[Cmaj7][C7]
 {end_of_verse}
 
 
 {start_of_chorus}
 Then you gazed[Fmaj7]     up at me[Em7]
 And the ans[Am]wer was plain to see[D]
-âCause I saw[Dm7]   the light[G]
-In your eyes[Cmaj7][Dm7][G]
-In your [Cmaj7]eyes [Dm7][G]
+Cause I saw[Dm7]   the light[G]
+In your eyes (in your eyes)[Cmaj7][Dm7][G]
+In your [Cmaj7]eyes (in your eyes)[Dm7][G]
 {end_of_chorus}
 
 
 {start_of_verse}
-Though we had[Dm7]   our fling[G]
-I just ne[Dm7]ver would suspect a thing[G]
-'Til that lit[Dm7]tle bell began to ring[G]
-In my head,[Cmaj7]     in my [Em7]head
-But I tried[Dm7]   to run[G]
-Though I knew[Dm7]   it wouldn't help me none[G]
+Though we had[Dm7] our fling[G] (we had a fling)
+I just ne[Dm7]ver would suspect a thing[G] (suspect a thing)
+'Til that lit[Dm7]tle bell began to ring[G] (began to ring)
+In my head,[Cmaj7] in my [Em7]head
+But I tried[Dm7] to run[G] (I tried to run)
+Though I knew[Dm7] it wouldn't help me none[G] (not help me none)
 âCause I could[Dm7]n't ever love no one[G]
 Or so I said[Cmaj7][C7]
 {end_of_verse}
