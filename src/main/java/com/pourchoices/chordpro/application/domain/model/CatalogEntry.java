@@ -24,6 +24,7 @@ public class CatalogEntry {
     String timeSignature;
     String capo;
     String nord;
+    String roland;
     String version;
     String countin;
     String backing;

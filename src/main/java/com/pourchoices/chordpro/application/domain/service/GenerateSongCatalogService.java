@@ -94,6 +94,9 @@ public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
             else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.NORD){
                 builder.nord(parsedHeaderLine.getValue());
             }
+            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.ROLAND){
+                builder.roland(parsedHeaderLine.getValue());
+            }
             else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.VERSION){
                 builder.version(parsedHeaderLine.getValue());
             }

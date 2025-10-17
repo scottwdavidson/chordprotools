@@ -62,6 +62,15 @@ public interface SongLineParserTestData {
                     .value(NORD_VALUE_01)
                     .build();
 
+    // Nord
+    public final static String ROLAND_VALUE_01 = "C012";
+    public final static String ROLAND_01 = "{meta: roland: " + ROLAND_VALUE_01 + "}";
+    public final static ParsedHeaderLine ROLAND_EXPECTED_PARSED_LINE_01 =
+            ParsedHeaderLine.builder()
+                    .headerDirective(HeaderDirective.ROLAND)
+                    .value(ROLAND_VALUE_01)
+                    .build();
+
     // Version
     public final static String VERSION_VALUE_01 = "1.0";
     public final static String VERSION_01 = "{meta: version: " + VERSION_VALUE_01 + "}";

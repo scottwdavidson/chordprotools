@@ -48,6 +48,7 @@ public class SongLineParserTest {
                 arguments(SongLineParserTestData.DURATION_01, SongLineParserTestData.DURATION_EXPECTED_PARSED_LINE_01),
                 arguments(SongLineParserTestData.TEMPO_01, SongLineParserTestData.TEMPO_EXPECTED_PARSED_LINE_01),
                 arguments(SongLineParserTestData.NORD_01, SongLineParserTestData.NORD_EXPECTED_PARSED_LINE_01),
+                arguments(SongLineParserTestData.ROLAND_01, SongLineParserTestData.ROLAND_EXPECTED_PARSED_LINE_01),
                 arguments(SongLineParserTestData.VERSION_01, SongLineParserTestData.VERSION_EXPECTED_PARSED_LINE_01) );
     }
 

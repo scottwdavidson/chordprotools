@@ -4,12 +4,14 @@
 {duration: 5:00}
 {tempo: 66}
 {meta: nord: P45}
+{meta: roland: C012}
 {meta: version: 0.0}
 {meta: countin: 8}
 {meta: backing: 32}
 
 {c:***********************************************}
 {c:** --> meta: nord: P45}
+{c:** --> meta: roland: C012}
 {c:** --> meta: version: 0.0}
 {c:** --> meta: countin: 8}
 {c:** --> meta: backing: 32}

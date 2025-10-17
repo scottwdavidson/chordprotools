@@ -20,7 +20,7 @@ public class CatalogEntryDto {
     public static final List<String> CATALOG_COLUMN_ORDER = Arrays.asList(
 
     "title","artist","key","duration","tempo",
-    "countin","backing","nord","ve",
+    "countin","backing","nord","roland","ve",
     "performance key",
     "time signature","capo","version","chordpro filename");
 
@@ -43,6 +43,8 @@ public class CatalogEntryDto {
     String capo;
     @CsvBindByName(column = "nord")
     String nord;
+    @CsvBindByName(column = "roland")
+    String roland;
     @CsvBindByName(column = "version")
     String version;
     @CsvBindByName(column = "countin")

@@ -79,6 +79,14 @@ public class ParsedHeaderMapper {
                             .build());
         }
 
+        if (null != catalogEntry.getRoland() && !catalogEntry.getRoland().isBlank()) {
+            parsedHeaderBuilder.headerLine(
+                    ParsedHeaderLine.builder()
+                            .headerDirective(HeaderDirective.ROLAND)
+                            .value(catalogEntry.getRoland())
+                            .build());
+        }
+
         if (null != catalogEntry.getBacking() && !catalogEntry.getBacking().isBlank()) {
             parsedHeaderBuilder.headerLine(
                     ParsedHeaderLine.builder()
