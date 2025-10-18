@@ -1,0 +1,48 @@
+{title: Oh My Love}
+{artist: John Lennon}
+{key: A}
+{duration: 2:45}
+{tempo: 64}
+
+{comment: Intro}
+| Bm7 . . . | C#m7 . . .    | 
+| Bm7 . . . | C#m7 . . .    | 
+| D   . . . | C#m  . . C#m6 |
+| Bm7 . . . | A    . . .    | 
+
+{start_of_verse}
+[D]Oh my love for the first[C#m7]time in my life
+[Bm7]My eyes are wide [A]open
+[D]Oh my lover for the first[C#m7]time in my life[C#m6]
+[Bm7]  My [E9sus4]eyes can [A]see
+{end_of_verse}
+
+{start_of_chorus}
+[F#m]I  see the wind
+Oh, [C#m7]I  see the trees
+[D]Everything is clear in my [A]heart[C#m7]
+[F#m]I  see the clouds
+Oh, [C#m7]I  see the sky
+[D]Everything is clear in our [A]world
+{end_of_chorus}
+
+{start_of_verse}
+[D]Oh my love for the first[C#m7]time in my life
+[Bm]My mind is wide [A]open
+[D]Oh my lover for the first[C#m7]time in my life[C#m6]
+[Bm7]  My [E9sus4]mind can [A]feel
+{end_of_verse}
+
+
+{start_of_chorus}
+[F#m]I  feel the sorrow
+Oh, [C#m7]I  feel dreams
+[D]Everything is clear in my [A]heart[C#m7]
+[F#m]I  feel life
+Oh, [C#m7]I  feel love
+[D]Everything is clear in our [A]world
+{end_of_chorus}
+
+{comment: Outro}
+| D   . .      . | C#m  . . C#m6 |
+| Bm7 . E9sus4 . | A    . . .    | 
