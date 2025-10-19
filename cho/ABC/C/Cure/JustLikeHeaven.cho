@@ -1,66 +1,80 @@
 {title: Just Like Heaven}
 {artist: The Cure}
 {key: A}
+{duration: 3:10}
+{tempo: 153}
 
 {c:***********************************************}
 {c:***********************************************}
 
 {c: Intro - bass only}
-| A | E | Bm | D |
+| A . . . | E . . . | Bm7 . . . | D . . . |
 
 {c: Intro}
-| A | E | Bm | D | x7
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
 
-{sov}
+{start_of_verse}
 "Show me, show me, [A]show me how you [E]do that trick
-The [Bm]one that makes me [D]scream" she said
+The [Bm7]one that makes me [D]scream" she said
 "The [A]one that makes me [E]laugh" she said
-And [Bm]threw her arms a[D]round my neck
+And [Bm7]threw her arms a[D]round my neck
 "[A]Show me how you [E]do it
-And I [Bm]promise you, I [D]promise that
+And I [Bm7]promise you, I [D]promise that
 I'll run a[A]way with you[E]
-I'll run a[Bm]way with you"[D]
-{eov}
+I'll run a[Bm7]way with you"[D]
+{end_of_verse}
 
 {c: Interlude}
-| A | E | Bm | D | x4
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
+| A . . . | E . . . | Bm7 . . . | D . . . |
 
-{sov}
+{start_of_verse}
 [A]Spinning on that [E]dizzy edge
-I [Bm]kissed her face and [D]kissed her head
+I [Bm7]kissed her face and [D]kissed her head
 And [A]dreamed of all the [E]different ways
-I [Bm]had to make her [D]glow
-"[A]Why are you so [E]far away?" she s[Bm]aid
+I [Bm7]had to make her [D]glow
+"[A]Why are you so [E]far away?" she s[Bm7]aid
 "Why won't you [D]ever know that I'm in [A]love with you[E]
-That I'm in [Bm]love with you"[D]
-{eov}
+That I'm in [Bm7]love with you"[D]
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [F#m]You  [G]Soft and only
 [F#m]You  [G]Lost and lonely
 [F#m]You  [G]Strange as angels
 [D]Dancing in the deepest oceans
 Twisting in the water
 You're just like a [A]dream[E]
-You're just like a [Bm]dream[D]
-{eoc}
+You're just like a [Bm7]dream[D]
+{end_of_chorus}
 
 {c: Interlude}
-| A | E | Bm | D | x4
+| A . . . | E . . . | Bm . . . | D . . . |
+| A . . . | E . . . | Bm . . . | D . . . |
+| A . . . | E . . . | Bm . . . | D . . . |
+| A . . . | E . . . | Bm . . . | D . . . |
 
-{sov}
+{start_of_verse}
 [A]Daylight licked me [E]into shape
-I [Bm]must have been a[D]sleep for days
+I [Bm7]must have been a[D]sleep for days
 And [A]moving lips to [E]breathe her name
-I [Bm]opened up my [D]eyes
+I [Bm7]opened up my [D]eyes
 And [A]found myself a[E]lone, alone
-A[Bm]lone above a [D]raging sea
+A[Bm7]lone above a [D]raging sea
 That [A]stole the only [E]girl I loved
-And [Bm]drowned her deep in[D]side of me
-{eov}
+And [Bm7]drowned her deep in[D]side of me
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [F#m]You  [G]Soft and only
 [F#m]You  [G]Lost and lonely
 [F#m]You  [G]Just like heaven[D]
-{eoc}
+{end_of_chorus}
