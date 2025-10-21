@@ -3,11 +3,16 @@
 {key: C}
 {duration: 3:30}
 {tempo: 83}
-{meta: performance: A}
-{meta: countin: 4}
 {meta: nord: A3(M14)}
+{meta: countin: 4}
+{meta: backing: 77}
+{meta: performance: A}
 
 {c:***********************************************}
+{c:**  meta: nord: A3(M14)   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 77   }
+{c:**  meta: performance: A   }
 {c:***********************************************}
 
 {c: Intro}
