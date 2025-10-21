@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+for file in **/*.cho(.); do cp "$file" ~/tmp/setlist-ff/; done
+
+for file in **/*.pdf(.); do cp "$file" ~/tmp/setlist-ff/; done
