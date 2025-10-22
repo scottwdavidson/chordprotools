@@ -4,103 +4,89 @@
 {duration: 3:12}
 {tempo: 138}
 
-{c:***********************************************}
-{c:***********************************************}
-
 {comment: Guitar Intro}
-| F#m . D/F# . | A . B . | 
-| F#m . D/F# . | A . B . | 
-
-
-[D]A
-[B]E
-[C#m][Intro]
-[F#m]F#m [D]D [A]A [B]B [F#m]F#m [D]D [A]A[B]
-[B]
+| F#m . D/F# A | B . . . |
+| F#m . D/F# A | B . . . | 
 
 
 {start_of_verse}
-[F#m]   Jen[D]ny Jenny [A]who can I[B]turn to?
-[F#m]    [D]  [A]  [B]  [F#m]   You give [D]me some thing [A]I can hold[B]on to
-[F#m]    [D]  [A]  [B]  [F#m]   I know [D]you'll think i'm[A] like [B]the others before[F#m][D][A]
-[B]  [F#m]   Who saw [D]your name and [A]number[B]on the wall
-[F#m] [D][A][B]
+[F#m]   Jen[D5]ny Jenny [A5]who can I[B5]turn to?[F#m]_[D5]_[A5]_[B5]  
+[F#m]   You give [D5]me some thing [A5]I can hold[B5]on to[F#m]_[D5]_[A5]_[B5]
+[F#m]   I know [D5]you'll think i'm[A5] like [B5]the others before[F#m]_[D5]_[A5]_[B5]  
+[F#m]   Who saw [D5]your name and [A5]number[B5]on the wall[F#m] [D5][A5][B5]
 {end_of_verse}
 
-
 {comment: Pre-Chorus}
-[E] Jenny i've [D]got your number[E]
-I need to [A]make you [D]mine[E]
-Jenny don't [D]change your [A]number[F#m]
-
+[E] Jenny i've [D5]got your [A5]number
+[E] I need to [A5]make you [D5]mine
+[E] Jenny don't [D5]change your [A5]number
 
 {start_of_chorus}
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
 {end_of_chorus}
 
-
 {start_of_verse}
-[F#m]   Jen[D]ny Jenny [A]you're the girl[B]for me
-[F#m]    [D]  [A]  [B]  [F#m]   You [D]don't know me [A]but you make me [B]so happy
-[F#m]    [D]  [A]  [B]  [F#m]   I tried [D]to call you be[A] fore but [B]I lost my [F#m]nerve[D][A]
-[B] I tried [F#m]my i mag[D]inati[A]on but[B] I was dis[F#m]turbed[D][A][B]
+[F#m]   Jen[D5]ny Jenny [A5]you're the girl[B5]for me[F#m]_[D5]_[A5]_[B5] 
+[F#m]   You [D5]don't know me [A5]but you make me [B5]so happy[F#m]_[D5]_[A5]_[B5] 
+[F#m]   I tried [D5]to call you be[A5] fore but [B5]I lost my nerve[F#m]_[D5]_[A5]_[B5] 
+[F#m]   Tried my i mag[D5]inati[A5]on but[B5] I was disturbed[F#m]_[D5][A5][B5]
 {end_of_verse}
 
 
 {comment: Pre-Chorus}
-[E] Jenny i've [D]got your number[E]
-I need to [A]make you [D]mine[E]
-Jenny don't [D]change your [A]number[F#m]
+[E] Jenny i've [D5]got your [A5]number
+[E] I need to [A5]make you [D5]mine
+[E] Jenny don't [D5]change your [A5]number
 
 
 {start_of_chorus}
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
 {end_of_chorus}
 
 
 {comment: Bridge}
-[C#m]   I got it, I [E]got it, I got it
+[C#m]   I got it, (I [E]got it), I got it
 [F#m]   I got your [A]number on the [B]wall
-[C#m]   I got it, I [E]got it, I got it
+[C#m]   I got it, (I [E]got it), I got it
 For a [F#m]good time, for a [A]good time [B]call
 
 
 {comment: Solo}
-| F#m . D/F# . | A . B . | 
-| F#m . D/F# . | A . B . | 
-| F#m . D/F# . | A . B . | 
-| F#m . D/F# . | A . B . | 
+| F#m . D A | B . . . | 
+| F#m . D A | B . . . | 
+| F#m . D A | B . . . | 
+| F#m . D A | B . . . | 
 
 {comment: Pre-Chorus}
-[B]Hey!
-[E] Jenny don't [D]change your number[E]
-I need to [A]make you [D]mine[E]
-Jenny I [D]called your [A]number[F#m]
+[B5]Hey!
+[E] Jenny don't [D5]change your number[E]
+I need to [A5]make you [D5]mine[E]
+Jenny I [D5]called your [A5]number[F#m]
 
 
 {start_of_chorus}
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
 {end_of_chorus}
 
 
 {comment: Outro}
-[F#m]   Jen[D]ny, Jenny, [A]who can I[B]turn to?
-[F#m]Eight six[D] seven five[A] three o [B]nine
-For the [F#m]price of a[D] dime I can[A] always[B]turn to you
-[F#m]Eight six[D] seven five[A] three o [B]nine
-Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
-[F#m]Eight six[D] seven five[A] three o [B]nine
+[F#m]   Jen[D5]ny, Jenny, [A5]who can I[B5]turn to?
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+For the [F#m]price of a[D5] dime I can[A5] always[B5]turn to you
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
+[F#m]Eight six[D5] seven five[A5] three o [B5]nine
