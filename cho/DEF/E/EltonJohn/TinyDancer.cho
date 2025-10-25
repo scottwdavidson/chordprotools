@@ -3,6 +3,11 @@
 {key: C}
 {duration: 3:45}
 {tempo: 72}
+{meta: performance: A}
+
+{c:***********************************************}
+{c:**  meta: performance: A   }
+{c:***********************************************}
 
 {comment: Intro}
 | C . F/C . | C . F/C . |
