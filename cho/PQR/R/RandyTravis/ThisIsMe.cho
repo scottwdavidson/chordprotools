@@ -1,18 +1,20 @@
 {title: This Is Me}
 {artist: Randy Travis}
 {key: Eb}
+{duration: 3:00}
+{tempo: 100}
 
 {c:***********************************************}
 {c:***********************************************}
 
 {comment: Intro}
-| Bb . . . | Abadd2 . . . | Eb . . . | Abadd2 . . . | 
+| Eb . . . | Abadd2 . . . | Eb . . . | Abadd2 . . . | 
 
 {start_of_verse}
 Lately [Eb]I get the feeling there's a
 [Ab] feeling that your holding i[Eb]n.[Abadd2]
 Why do[Eb] you keep your distance,_[Cm7]
-as close as we've bee[Fm7]n?_[Bb]_[Ab/C]_[Bb7]
+as close as we've bee[Fm7]n?_[Bb]_[Ab/C]_[Bb7/D]
 Do you [Eb]think your silence is sa[Bbm7]ying 
 [Ab]there ain't nothin wrong with y[Abm6]ou
 This is m[Eb]e  y[Bb7]ou're not talkin [Eb]to.
@@ -29,9 +31,12 @@ This is [Eb]me  [Bb7]you're not talking [Eb]to.[Abadd9]
 {end_of_chorus}
 
 {start_of_verse}
-You can [Eb]run to me no[Ab] matter what you're running fro[Eb]m
-[Abadd9]       If it's[Eb] something I'm doin[Cm7]g, I'll get it undon[Fm7]e.
-[Bb]    [Ab/C]     [Bb7]  Just don'[Eb]t let me be a s[Bbm7]tranger to w[Ab]hat you're going throug[Abm6]h,
+You can [Eb]run to me no
+[Ab] matter what you're running fro[Eb]m[Aadd2]
+If it's[Eb] something I'm doin[Cm7]g, 
+I'll get it undon[Fm7]e._[Bb]_[Ab/C]_[Bb7/D]
+Just don'[Eb]t let me be a s[Bbm7]tranger 
+to w[Ab]hat you're going throug[Abm6]h,
 Hey, this is [Eb]me  [Bb7]you're not talking [Eb]to.
 {end_of_verse}
 
@@ -46,4 +51,4 @@ This is [Eb]me  [Bb7]you're not talking [Eb]to.
 {end_of_chorus}
 
 {comment: Outro}
-[Ab]   Hey, this is [Eb]me  [Bb7]you're not talking [Eb]to.[Ab][Eb]
+[Ab]   Hey, this is [Eb]me  [Bb7]you're not talking [Eb]to.[Abadd2][Eb]
