@@ -3,8 +3,12 @@
 {key: E}
 {duration: 3:50}
 {tempo: 88}
+{meta: nord: M14}
+{meta: countin: 4}
 
 {c:***********************************************}
+{c:******* meta: nord: M14}
+{c:******* meta: countin: 4}
 {c:***********************************************}
 
 {c: Intro}
@@ -70,7 +74,10 @@ So [C7]  I wanna laugh while the [G7]laughin' is easy
 
 {c: Interlude}
 | F/Bb | 
-|Bm7   |Esus4  | x4
+| Bm7 . . .  |Esus4 . . . | 
+| Bm7 . . .  |Esus4 . . . | 
+| Bm7 . . .  |Esus4 . . . | 
+| Bm7 . . .  |Esus4 . . . | 
 
 {soc}
 [Bm7]We may never pass this [Esus4]way again

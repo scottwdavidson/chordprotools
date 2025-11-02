@@ -1,47 +1,79 @@
 {title: Just A Song Before I Go}
 {artist: Crosby, Stills, Nash and Young}
 {key: Dm}
+{duration: 4:00}
+{tempo: 107}
+{meta: nord: M14(A2)}
+{meta: performance: Dm}
 
 {c:***********************************************}
+{c:**** meta: nord: M14(A2)}
+{c:**** meta: performance: Dm}
 {c:***********************************************}
 
-{c:Intro}
-[Dm] [Am][Bb][Gm][2x]
 
-{soc}
+{comment: Intro piano only}
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+
+{comment: Intro add guitar}
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+
+{start_of_chorus}
 [Dm]Just a song be[Am]fore I go,
 to [Bb]whom it may conc[Gm]ern.
 [Dm]Travelling twice the [Am]speed of sound,
 it's [Bb]easy to get b[Gm]urned.
-{eoc}
+{end_of_chorus}
 
-{sov}
+{comment: Bridge}
 [F]When the shows were [Eb]over,
 we [Gm]had to get back [Am]home
 And [F]when we opened [Eb]up the door,
 I had to be a[Gm]lone.
-{eov}
 
-{sov}
+{comment: Solo piano}
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+
+{start_of_verse}
 She [Dm]helped me with my [Am]suitcase,
 she [Bb]stands before my e[Gm]yes
 [Dm]Driving me to the [Am]airport,
 and [Bb]to the friendly s[Gm]kies.
-{eov}
+{end_of_verse}
 
-{sov}
+{comment: Bridge}
 [F]Going through se[Eb]curity,
 I [Gm]held her for so [Am]long.
 She [F]finally looked at [Eb]me in love,
 and she was [Gm]gone.
-{eov}
 
-{c: Solo}
-[Dm] [Am][Bb][Gm][2x]
+{comment: Solo guitar}
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
 
-{soc}
+{start_of_chorus}
 [Dm]Just a song be[Am]fore I go,
 a [Bb]lesson to be l[Gm]earned.
 [Dm]Travelling twice the [Am]speed of sound,
-it's [Bb]easy to get b[Dm]urned.
-{eoc}
+it's [Bb]easy to get b[Gm]urned.
+{end_of_chorus}
+
+{comment: Solo guitar}
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+
+{comment: Solo piano}
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+|Dm . . . | Am . . . | Bb . . . | Gm . . . |
+
+{start_of_chorus}
+[Dm]Just a song be[Am]fore I go,
+a [Bb]lesson to be l[Gm]earned.
+[Dm]Travelling twice the [Am]speed of sound,
+it's [Bb]easy to get b[Gm]urned.
+{end_of_chorus}
+
+
