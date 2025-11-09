@@ -3,61 +3,80 @@
 {key: Am}
 {duration: 3:47}
 {tempo: 123}
+{meta: countin: 4}
+{meta: backing: 78}
 
 {c:***********************************************}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 78   }
 {c:***********************************************}
+
 
 {c: Intro }
-| Am ... | Am7/G ... | D7/F# ... | F ... | 
+| Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
+| Am . . . | G . . . | D . . . | E . . . |
 
-| Am ... | G ...     | D ...     | E ... |
 
+{c: Scott Vocals}
 {start_of_verse}
-I [Am]look at you [Am7/G]all see the [Am/F#]love there that's [F]sleeping
-[Am]While my gui[G]tar gently [D]weeps      [E7]
-I [Am]look at the [Am7/G]floor and I [Am/F#]see it needs [F]sweeping 
-[Am]Still my gui[G]tar gently [C]weeps       [E7]
+I [Am]look at you [Am/G]all see the [D9/F#]love there that's [F]sleeping
+[Am] While my gui[G]tar gently [D]weeps.      [E]
+I [Am]look at the [Am/G]floor and I [D9/F#]see it needs [F]sweeping 
+[Am] Still my gui[G]tar gently [C]weeps.      [E]
 {end_of_verse}
 
+
+{c: Jeff Vocals}
 {start_of_chorus}
-[A]I don't know [C#m]why [F#m]nobody [C#m]told you  
-[Bm]how to unfold your [E7/4]love   [E7]
-[A]I don't know [C#m]how [F#m]someone contr[C#m]olled you
-[Bm]They bought and sold [E7/4]you    [E7]
+[A] I don't know [C#m]why_____[F#m]nobody [C#m]told you,  
+[Bm] How to un[Bm]fold your [E]love   [E]
+[A] I don't know [C#m]how_____[F#m]someone contr[C#m]olled you,
+[Bm] They bought and [Bm]sold [E]you    [E]
 {end_of_chorus}
 
+
+{c: Scott Vocals}
 {start_of_verse}
-I [Am]look at the [Am/G]world and I [Am/F#]notice it's [F]turning
-[Am]While my [G]guitar gently [D]weeps   [E7]  
-With [Am]every mis[Am/G]take we must [Am/F#]surely be [F]learning
-[Am]Still my [G]guitar gently [C]weeps   [E7]  
+I [Am]look at the [Am/G]world and I [D9/F#]notice it's [F]turning,
+[Am] While my gui[G]tar gently [D]weeps.    [E]  
+With [Am]every mis[Am/G]take we must [D9/F#]surely be [F]learning,
+[Am] Still my gui[G]tar gently [C]weeps.    [E]  
 {end_of_verse}
+
 
 {c:Solo over verse}
-| Am ... | Am7/G ... | D7/F# ... | F ... | 
-| Am ... | G ...     | D ...     | E ... |
+| Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
+| Am  . . . | G . . . | D . . . | E . . . |
+| Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
+| Am  . . . | G . . . | C . . . | E . . . |
 
-| Am ... | Am7/G ... | D7/F# ... | F ... | 
-| Am ... | G ...     | D ...     | E ... |
 
+{c: Jeff Vocals}
 {start_of_chorus}
-[A]I don't know [C#m]how [F#m]you were di[C#m]verted
-[Bm]You were per[E7/4]verted [E7]too
-[A]I don't know [C#m]how [F#m]you were in[C#m]verted
-[Bm]No one aler[E7/4]ted you[E7]  
+[A] I don't know [C#m]how_____[F#m] you were di[C#m]verted,
+[Bm] You were per[Bm]verted [E]too.     [E]
+[A] I don't know [C#m]how_____[F#m]you were in[C#m]verted,
+[Bm] No one aler[Bm]ted [E]you.     [E]
 {end_of_chorus}
 
-{start_of_verse}
-I [Am]look at you [Am7/G]all see the [Am/F#]love there that's [F]sleeping
-[Am]While my gui[G]tar gently [D]weeps      [E7]
 
-[Am]..Look at you [Am7/G]all         [Am/F#]                  [F]        
-[Am]Still my gui[G]tar gently [D]weeps      [E7]
+
+{start_of_verse}
+I [Am]look at you [Am/G]all, see the [D9/F#]love there that's [F]sleeping
+[Am] While my gui[G]tar gently [D]weeps.      [E]
+[Am] Look at you [Am/G]all...______[D9/F#]_______[F]
+[Am] Still my gui[G]tar gently [C]weeps.      [E]
 {end_of_verse}
 
-{c:Solo to the end...}
-| Am ... | Am7/G ... | D7/F# ... | F ... | 
-| Am ... | G ...     | D ...     | E ... |
+{c: Outro Solo}
+| Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
+| Am  . . . | G . . . | D . . . | E . . . |
+| Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
+| Am  . . . | G . . . | C . . . | E . . . |
 
-| Am ... | Am7/G ... | D7/F# ... | F ... | 
-| Am ... | G ...     | D ...     | E ... |
+| Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
+| Am  . . . | G . . . | D . . . | E . . . |
+| Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
+| Am  . . . | G . . . | C . . . | E . . . |
+
+Am
