@@ -13,8 +13,8 @@ public class SongLineParser {
 
     public ParsedHeaderLine parseHeaderLine(String line) {
 
-        // remove beginning and ending curly braces
-        String cleanedLine = line.replaceAll("^\\{|\\}$", "");
+        // remove ending white space, then beginning and ending curly braces
+        String cleanedLine = line.stripTrailing().replaceAll("^\\{|\\}$", "");
 
         // remove beginning and ending white space
         cleanedLine = cleanedLine.trim();
