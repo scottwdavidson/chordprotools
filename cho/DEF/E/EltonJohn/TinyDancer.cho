@@ -1,106 +1,118 @@
 {title: Tiny Dancer}
 {artist: Elton John}
 {key: C}
-{duration: 3:45}
+{duration: 5:50}
 {tempo: 72}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: performance: A   }
-{c:***********************************************}
+{comment: ***********************************************}
+{comment: **  meta: performance: A}
+{comment: ***********************************************}
 
-{comment: Intro}
-| C . F/C . | C . F/C . |
-| C . F/C . | C . F/C . |
+
+
+{comment: Intro - Main Theme}
+|  C  .  F/C  .  |  C  .  F/C  .  |
+|  C  .  F/C  .  |  C  .  F/C  .  |
 
 {start_of_verse}
-[C] Blue jean ba[F]by,[C] L.A. [F]lady,[C] seamstress for the band[F][G]
-[C] Pretty eyed,[F]  [C] pirate smile,[F]  [C] you'll marry a music man[F][G]
-[F7M]   Ballerina,[Em7]    [Am]  you must have seen[D] her[Dm]   [E]dancing in the sand[Am][G]
-[C] And now she's in[F] me,[C] always [F]with me,[C] tiny dancer in my hand[G][G7][G6][G]
+[C] Blue jean ba[F/C]by,[C] L.A. [F/C]lady,
+[C] seamstress for the band.[F/A]  [G/B]
+[C] Pretty e[F/C]yed, [C] pirate s[F/C]mile,
+[C] you'll marry a music m[F/A]an.   [Cmaj7/G]
+[F]   Balle - r[Em7]i - na, [Am]  you must have se[D/F#]en her
+[Dm7]  [E7]dancing in the san[Am7]d.  [G7/B]
+[C] And now she's [F/C]in me,[C] always [F/C]with me,
+[C] tiny dancer in my [G]hand. [F]  [C/E]  [Dm7]
+{end_of_verse}
+
+
+{comment: Interlude - Main Theme}
+|  C  .  F/C  .  |  C  .  F/C  .  |
+
+
+{start_of_verse}
+[C] Jesus fr[F/C]eaks,[C] out in the [F/C]street,
+[C] handing tickets out for God.[F/A]  [G/B]
+[C] Turning [F/C]back, [C] she just [F/C]laughs,
+[C] The boulevard is not that b[F/A]ad.   [Cmaj7/G]
+[F]  Piano - man[Em7], [Am] he makes his stand[D/F#]
+[Dm7] in the [E7]auditorium. [Am7]  [G7/B]
+[C] Looking [F/C]on, [C] she sings the [F/C]songs.
+[C] The world she knows the tune she [G]hums. [F]  [C/E]  [Dm7]
 {end_of_verse}
 
 
 {comment: Bridge}
-| C . F/C . | C . F/C . |
-| C . F/C . | C . F/C . |
-
-
-{start_of_verse}
-[C] Jesus Freaks[F]  [C] out in the [F]street
-[C] Handing tickets out for God[F][G]
-[C] Turning back[F]  [C] she just laughs[F]
-[C] The boulevard is not that bad[F][G]
-[F7M]   Piano man[Em7]    [Am]  he makes his stand[D]
-[Dm]  In the au[E]ditorium[Am][G]
-[C] Looking on[F]  [C] she sings the songs[F]
-[C] The words she knows the tune she hums[G][G7][G6][G]
-{end_of_verse}
-
-
-{comment: Bridge}
-| C . F/C . | C . F/C . |
-| C . F/C . | C . F/C . |
+|  C  .  F/C  .  |  C  .  .  .  |
 
 
 {comment: Pre-Chorus}
-[Ab]  But oh how it feels[Bb]so real
-[Gm]Lying here with no[Cm]one near
-On[Ab]ly you and you can hear[Bb]me
-When I say [G]softly slowly
+[Ab]  But oh how it feels[Bb] so real
+[Gm7]lying here with no[Cm] one near.
+On[Ab]ly you, and you can [Bb]hear me
+When I say [G7/B]softly [G7/D]slowly  [C/D]
 
 
 {start_of_chorus}
-[F] Hold me clo[C]ser tiny dan[Dm]cer[G]
-[F] Count the head[C]lights on the high[G/A]way
-[F] Lay me down[C] in sheets of li[Dm]nen[G]
-[F] You had a bu[C]sy day today[G/A]
-[F] Hold me clo[C]ser tiny dan[Dm]cer[G]
-[F] Count the head[C]lights on the high[G/A]way
-[F] Lay me down[C] in sheets of li[Dm]nen[G]
-[F] You had a bu[C]sy day today[G/A]
-[Am] [G/A][F]
+[F] Hold me clo[C/E]ser tiny dan[Dm]cer. [C/E]
+[F] Count the head[C/E]lights on the high[G/A]way.
+[F] Lay me down[C/E] in sheets of li[Dm]nen. [C/E]
+[F] You had a bu[C/E]sy day today.[G/A]
+[F] Hold me clo[C/E]ser tiny dan[Dm]cer. [C/E]
+[F] Count the head[C/E]lights on the high[G/A]way.
+[F] Lay me down[C/E] in sheets of li[Dm]nen. [C/E]
+[F] You had a bu[C/E]sy day today.[G/A]
 {end_of_chorus}
 
 
-{comment: Bridge}
-| C . F/C . | C . F/C . |
-| C . F/C . | C . F/C . |
+{comment: Transition}
+|  Fadd9/A  .  .  .  |  G/A  .  .  .  |  F/C  .  .  .  |
+
+{comment: Interlude - Main Theme}
+|  C  .  F/C  .  |  C  .  F/C  .  |
 
 
 {start_of_verse}
-[C] Blue jean ba[F]by,[C] L.A. [F]lady,[C] seamstress for the band[F][G]
-[C] Pretty eyed,[F]  [C] pirate smile,[F]  [C] you'll marry a music man[F][G]
-[F7M]   Ballerina,[Em7]    [Am]  you must have seen[D] her[Dm]   [E]dancing in the sand[Am][G]
-[C] And now she's in[F] me,[C] always [F]with me,[C] tiny dancer in my hand[G][G7][G6][G]
+[C] Blue jean ba[F/C]by,[C] L.A. [F/C]lady,
+[C] seamstress for the band.[F/A]  [G/B]
+[C] Pretty e[F/C]yed, [C] pirate s[F/C]mile,
+[C] you'll marry a music m[F/A]an.   [Cmaj7/G]
+[F]   Balle - r[Em7]i - na, [Am]  you must have se[D/F#]en her
+[Dm7]  [E7]dancing in the san[Am7]d.  [G7/B]
+[C] And now she's [F/C]in me,[C] always [F/C]with me,
+[C] tiny dancer in my [G]hand. [F]  [C/E]  [Dm7]
 {end_of_verse}
 
 
 {comment: Bridge}
-| C . F/C . | C . F/C . |
-| C . F/C . | C . F/C . |
+|  C  .  F/C  .  |  C  .  .  .  |
 
 
 {comment: Pre-Chorus}
-[Ab]  But oh how it feels[Bb]so real
-[Gm]Lying here with no[Cm]one near
-On[Ab]ly you and you can hear[Bb]me
-When I say [G]softly slowly
+[Ab]  But oh how it feels[Bb] so real
+[Gm7]lying here with no[Cm] one near.
+On[Ab]ly you, and you can [Bb]hear me
+When I say [G7/B]softly [G7/D]slowly  [C/D]
 
 
 {start_of_chorus}
-[F] Hold me clo[C]ser tiny dan[Dm]cer[G]
-[F] Count the head[C]lights on the high[G/A]way
-[F] Lay me down[C] in sheets of li[Dm]nen[G]
-[F] You had a bu[C]sy day today[G/A]
-[F] Hold me clo[C]ser tiny dan[Dm]cer[G]
-[F] Count the head[C]lights on the high[G/A]way
-[F] Lay me down[C] in sheets of li[Dm]nen[G]
-[F] You had a bu[C]sy day today[G/A][Am]
+[F] Hold me clo[C/E]ser tiny dan[Dm]cer. [C/E]
+[F] Count the head[C/E]lights on the high[G/A]way.
+[F] Lay me down[C/E] in sheets of li[Dm]nen. [C/E]
+[F] You had a bu[C/E]sy day today.[G/A]
+[F] Hold me clo[C/E]ser tiny dan[Dm]cer. [C/E]
+[F] Count the head[C/E]lights on the high[G/A]way.
+[F] Lay me down[C/E] in sheets of li[Dm]nen. [C/E]
+[F] You had a bu[C/E]sy day today.[G/A]
 {end_of_chorus}
 
 
-{comment: Outro}
-| C . F/C . | C . F/C . |
-| C . F/C . | C . F/C . |
+{comment: Transition}
+|  F/A  .  .  G/B  |
 
+{comment: Outro - Main Theme}
+|  C  .  F/C  .  |  C  .  F/C  .  |  C  .  F/C  .  |
+
+{comment: Outro - End}
+|  C  .  F/C   C  |
