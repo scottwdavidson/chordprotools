@@ -32,6 +32,7 @@ Complicated,Avril Lavigne,Dm,3:40,78,,,,,,,,,,./cho/ABC/A/AvrilLavigne/Complicat
 Takin' Care of Business,Bachman Turner Overdrive (BTO),C,4:50,130,,,N41,,,,,,,./cho/ABC/B/BachmanTurnerOverdrive/TakinCareOfBusiness.cho
 When I See You Smile,Bad English,G,,,,,,,,,,,,./cho/ABC/B/BadEnglish/WhenISeeYouSmile.cho
 Evangeline,The Band,A,2:50,140,,,,,,,,,,./cho/ABC/B/Band/Evangeline.cho
+Eternal Flame,The Bangles,G,3:50,80,,,,,,,,,,./cho/ABC/B/Bangles/EternalFlame.cho
 Money (That's What I Want),Barrett Strong,E,3:45,132,4,,O15,,,,,,1.0,./cho/ABC/B/BarrettStrong/Money.cho
 You Made Me Believe In Magic,Bay City Rollers,Ab,,,,,,,,,,,,./cho/ABC/B/BayCityRollers/YouMadeMeBelieveInMagic.cho
 Do It Again,Beach Boys,Eb,,,,,,,,,,,,./cho/ABC/B/BeachBoys/DoItAgain.cho
@@ -69,6 +70,7 @@ I Shall Be Released,Bob Dylan,E,2:30,65,,,,,,,,,,./cho/ABC/B/BobDylan/IShallBeRe
 Like A Rolling Stone,Bob Dylan,C,,,,,,,,,,,,./cho/ABC/B/BobDylan/LikeARollingStone.cho
 Against the Wind,Bob Seger,F,3:50,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind-f.cho
 Against the Wind,Bob Seger,G,4:00,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind.cho
+Still the Same,Bob Seger,C,3:28,115,,,,,,,,,,./cho/ABC/B/BobSeger/StillTheSame.cho
 Turn The Page,Bob Seger,Em,,,,,,,,,,,,./cho/ABC/B/BobSeger/TurnThePage.cho
 Ebony Eyes,Bob Welch,Gm,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes-gm.cho
 Ebony Eyes,Bob Welch,Am,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes.cho
@@ -264,6 +266,7 @@ Dream A Little Dream Of Me,Mama Cass,C,,133,,,,,,,,,,./cho/MNO/M/MamaCass/DreamA
 One Day She’s Here,Marcus King Band,Bm,,,,,,,,,,,,./cho/MNO/M/MarcusKing/OneDayShesHere.cho
 Can't You See,Marshall Tucker Band,A,5:00,164,4,,N34,,,A,,,,./cho/MNO/M/MarshallTuckerBand/CantYouSee-a.cho
 Can't You See,Marshall Tucker Band,D,5:00,164,4,,N34,,,A,,,1.0,./cho/MNO/M/MarshallTuckerBand/CantYouSee.cho
+Heard It in a Love Song,Marshall Tucker Band,D,4:20,110,,,,,,,,,,./cho/MNO/M/MarshallTuckerBand/HeardItInALoveSong.cho
 I Feel Lucky,Mary Chapin Carpenter,B,3:20,120,8,56,A01,,,,,,,./cho/MNO/M/MaryChapinCarpenter/IFeelLucky.cho
 The Walk,Mayer Hawthorne,A,,,,,,,,,,,,./cho/MNO/M/MayerHawthorne/TheWalk.cho
 Are You Hungry Tonight?,Michael Sadri,C,2:50,66,,,,,,,3/4,,,./cho/MNO/M/MichaelSadri/AreYouHungryTonight.cho
@@ -390,6 +393,7 @@ Get It On,T.Rex,E,4:00,125,,,,,,,,,,./cho/ST/T/T.Rex/GetItOn.cho
 Our Song,Taylor Swift,D,2:40,89,4,41,,,,,,,,./cho/ST/T/TaylorSwift/OurSong.cho
 Style,Taylor Swift,G,,,,,,,,,,,,./cho/ST/T/TaylorSwift/Style.cho
 You Belong With Me,Taylor Swift,G,,,,,,,,,,,,./cho/ST/T/TaylorSwift/YouBelongWithMe.cho
+Seasons in the Sun,Terry Jacks,F,3:30,100,,,,,,,,,,./cho/ST/T/TerryJacks/SeasonsInTheSun.cho
 Under The Milky Way,The Church,Am,5:00,66,8,32,P45,C012,,,,,0.0,./cho/ST/T/TheChurch/UnderTheMilkyWay.cho
 Should I Stay (Or Should I Go) (BASS),The Clash,D,,,,,,,,,,,,./cho/ST/T/TheClash/ShouldIStay-bass.cho
 Half Of Me (updated),Thomas Rhett,G,3:15,112,,,N35,,,,4/4,,,./cho/ST/T/ThomasRhett/HalfOfMe-2.cho
