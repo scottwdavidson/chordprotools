@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+rm -rf ~/tmp/setlist-ff
+
+for file in **/*.cho(.); do cp "$file" ~/tmp/setlist-ff/; done
+
