@@ -3,67 +3,94 @@
 {key: C}
 {tempo: 115}
 {duration: 3:28}
+{meta: nord: ??}
+{meta: countin: 4}
+{meta: backing: 84}
+{meta: performance: Ab}
+
+{c:***********************************************}
+{c:**  meta: nord: ??   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 84   }
+{c:**  meta: performance: Ab   }
+{c:***********************************************}
+
 
 {comment: Intro}
-[C]Em[Em][G][C]
-[G]
+| Cmaj7 C . . | C . . . | Em . . . | G . . . |
+
+| Cmaj7 C . . | C . . . | Em . . . | G . . . | G . . . |
 
 
 {start_of_verse}
-You [C]always won every time you placed a bet[Em]
-[G] You're [C]still damn good no one's gotten to you yet[Em][G]
+You [C]always won every time you placed a bet[Em]. [G]
+You're [C]still damn good no one's gotten to you ye[Em]t. [G]
 {end_of_verse}
 
 
 {start_of_chorus}
-[F]Every time [G]they were sure they had you caught[C]
-[E]You were quicker than they thought[Am]
-[Dm]You'd just turn your back and[G]walk
+[F]Every time [G]they were sure they had you caught [C]
+[E]You were quicker than they thought [Am]
+[Dm]You'd just turn your back and [G]walk.  [G]
 {end_of_chorus}
 
 
 {start_of_verse}
-You [C]always said the cards would never do you wrong[Em]
-[G] The [C]trick you said was never play the game too long[Em]
+You [C]always said the cards would never do you wrong[Em]. [G]
+The [C]trick you said was never play the game too long[Em].  [G]
 {end_of_verse}
 
 
 {start_of_chorus}
-[G] A [F]gambler's share the [G]only risk that you would take[C]
+A [F]gambler's share the [G]only risk that you would take[C]
 The [E]only loss you could forsake[Am]
-The [Dm]only bluff you couldn't fake[G]
-And you're still the same[C]
+The [Dm]only bluff you couldn't fake[G].
+And you're still the same[C].
 {end_of_chorus}
 
 
 {comment: Bridge}
-I [E]caught up with you yesterday[A]
-Moving game to game[Dm]
+I [E]caught up with you yesterday[A].
+                                               (Still the same, still the same)
+Moving game to gam[Dm]e.
+                                       (Oooooooo)
 No one standing in your way[G]
+
 Turning on the charm[C]
-[E]Long enough to get you by[A]
-You're still the same[Dm]
-You still aim[G]high
+[E]Long enough to get you by.[A]
+                                           (Still the same, still the same)
+You're still the sam[Dm]e.
+                                       (Oooooooo)
+You still aim [G]high.  [G]
 
 
 {comment: Interlude}
-[C]Em[Em] G[G][C]
+| Cmaj7 C . . | C . . . | Em . . . | G . . . |
+
+| Cmaj7 C . . | C . . . | Em . . . | G . . . |
 
 
 {start_of_chorus}
 [F]There you stood [G]everybody watched you play[C]
 [E]I just turned and walked away[Am]
 [Dm]I had nothing left to say[G]
-'Cause you're still the same[C]
 {end_of_chorus}
 
 
 {comment: Outro}
-[Em]   [G] You're still the same[C]
-[Em]   [G] Moving game to game[C]
-[Em]   [G] Some things never change[C]
-[Em]   [G] Ah you're still the same[C]
+'Cause you're still the same[C]                                                            [Em]  [G]
+                                         (Still the same, baby bet you're still the same)
+ 
+You're still the same[C]                                                                        [Em]  [G]
+                                         (Still the same, baby bet you're still the same)
 
+Moving game to game[C]                                                                     [Em]  [G]
+                                         (Still the same, baby bet you're still the same)
 
-{comment: Fade Out}
-[Em]   [G]Still the same
+Some things never change[C]                                                             [Em]  [G]
+                                         (Still the same, baby bet you're still the same)
+
+Ah you're still the same[C]                                                                   [Em]  [G]
+                                         (Still the same, baby bet you're still the same)
+
+[C]
