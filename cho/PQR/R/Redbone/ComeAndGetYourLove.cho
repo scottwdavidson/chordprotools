@@ -1,9 +1,24 @@
 {title: Come And Get Your Love}
 {artist: Redbone}
 {key: Bm}
+{duration: 3:30}
+{tempo: 106}
+{meta: nord: ??}
+{meta: countin: 4}
+{meta: backing: 83}
 
-{comment: Intro}
-| D . . . |
+{c:***********************************************}
+{c:**  meta: nord: ??   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 83   }
+{c:***********************************************}
+
+
+{comment: Intro - Bass/Drums Only}
+| D . . . | D . . . |
+
+{comment: Intro - All}
+| D . . . | D . . . |
 
 
 {start_of_verse}
@@ -28,23 +43,21 @@
 
 {start_of_verse}
 [Em7]Hail, [A]hail
-[D] What's the [Bm7]matter with you? [Em7]Feel right[A]
-Don't you [D]feel right [Bm7]baby?
-[Em7]Hail,[A] oh yeah[D] Get[Bm7]
-it from the [Em7]main vine,[A] all right[D][Bm7]
-I said a[Em7]find it, [A]find it
+[D] What's the [Bm7]matter with you? [Em7]Feel right[A], don't you [D]feel right [Bm7]baby?
+[Em7]Hail,[A]
+oh yeah[D] Get[Bm7] it from the [Em7]main vine,[A] all right[D]. [Bm7]
+I said a-[Em7]find it, [A]find it
 [D] Go on [Bm7]and love it if [Em7]you like[A] it, yeah[D][Bm7]
 [Em7]Hail, [A]hail
-[D] It's your [Bm7]business, if you [Em7]want some, [A]take some
-[D] Get it to[Bm7]gether, baby
+[D] It's your [Bm7]business, if you [Em7]want some, [A]take some [D] Get it to[Bm7]gether, baby
 {end_of_verse}
 
 
 {start_of_chorus}
-[Em7]   Come and [A]get your love[D][Bm7]
-[Em7]   Come and [A]get your love[D][Bm7]
-[Em7]   Come and [A]get your love[D][Bm7]
-[Em7]   Come and [A]get your love[D][Bm7][Em7][A]
+[Em7]   Come and [A]get your love[D] [Bm7]
+[Em7]   Come and [A]get your love[D] [Bm7]
+[Em7]   Come and [A]get your love[D] [Bm7]
+[Em7]   Come and [A]get your love[D] [Bm7] [Em7] [A]
 {end_of_chorus}
 
 
@@ -56,26 +69,40 @@ I said a[Em7]find it, [A]find it
 
 
 {start_of_chorus}
-[Em7]   Come and [A]get your love[D][Bm7]
-[Em7]   Come and [A]get your love[D][Bm7]
-[Em7]   Come and [A]get your love[D][Bm7]
-[Em7]   Come and [A]get your love[D][Bm7][Em7][A]
+[Em7]   Come and [A]get your love[D] [Bm7]
+[Em7]   Come and [A]get your love[D] [Bm7]
+[Em7]   Come and [A]get your love[D] [Bm7]
+[Em7]   Come and [A]get your love[D] [Bm7] [Em7] [A]
 {end_of_chorus}
 
 
-{comment: Interlude}
+{start_of_verse}
 [Em7]Hail, [A]hail
-[D] What's the [Bm7]matter with you? [Em7]Feel right
-[A]Don't you [D]feel right [Bm7]baby?
-[Em7]Hail,[A] oh yeah[D] Get[Bm7]
-it from the [Em7]main vine,[A] all right[D]
+[D] What's the [Bm7]matter with you? [Em7]Feel right [A]Don't you [D]feel right [Bm7]baby?
+[Em7]Hail,[A]
+oh yeah[D] Get[Bm7] it from the [Em7]main vine,[A] all right.
+{end_of_verse}
+
+
+{comment: Interlude}
+| D . . . | D . . . | D . . . | D . . . |
 
 
 {comment: Outro}
-[Em7]La, la, la, la, la, [A]la
-La, la, la, [D]la, la[Bm7]
-[Em7]La, la, la, la, [A]la, la, la, la, [D]uuh[Bm7]
-[Em7]La, la, la, la, la, [A]la
-La, la, la, [D]la, la[Bm7]
-[Em7]Ta tu tu tu tu[A] tu tu janga [D]uh[Bm7]
-[Em7]Ta tu tu tu tu[A]tu tu janga
+[Em7]La, la, la, la, la, [A]la la, la, la, [D]la, la.          [Bm7]
+                                                      (Come and get your love)
+
+[Em7]La, la, la, la, la, [A]la la, la, la, [D]la, la.          [Bm7]
+                                                      (Come and get your love)
+
+[Em7]La, la, la, la, la, [A]la la, la, la, [D]la, la.          [Bm7]
+                                                      (Come and get your love)
+
+[Em7]La, la, la, la, la, [A]la la, la, la, [D]la, la.          [Bm7]
+                                                      (Come and get your love)
+
+[Em7]La, la, la, la, la, [A]la la, la, la, [D]la, la.          [Bm7]
+                                                      (Come and get your love)
+
+[Em7]  [A]  [D]
+                     (Come and get your love)
