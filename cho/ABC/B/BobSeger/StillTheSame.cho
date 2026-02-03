@@ -3,6 +3,7 @@
 {key: C}
 {tempo: 115}
 {duration: 3:28}
+<<<<<<< Updated upstream
 {meta: nord: ??}
 {meta: countin: 4}
 {meta: backing: 84}
@@ -15,6 +16,9 @@
 {c:**  meta: performance: Ab   }
 {c:***********************************************}
 
+=======
+{transpose: -5}
+>>>>>>> Stashed changes
 
 {comment: Intro}
 | Cmaj7 C . . | C . . . | Em . . . | G . . . |
