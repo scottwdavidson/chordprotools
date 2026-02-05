@@ -21,6 +21,7 @@
 | B . . . | B . . . |
 | E . . . | E . - - |
 
+{comment: backing Bass enters}
 | B . . . | B . . . |
 | E . . . | E . . . |
 | B . . . | B . . . |
@@ -55,10 +56,6 @@ And I [F#7]ain't even done with the [B]night
 | B . . . | E . . . | 
 | B . . . | E . . . | 
 
-{comment: Pre-Verse}
-[E]       [B]      [E]    
-
-
 {start_of_verse}
 Well, I don't k[B]now no good comeons
 And I [E]don't know no cool lines
@@ -72,10 +69,9 @@ I know it's [E]burnin' you up deep down inside
 who can [F#]make it all come true
 [G#m]_Well, I'm tellin' ya that I[E] don't know 
 if [F#]I know what to do
-You say that's al[B]right, hold tight
-
 
 {start_of_chorus}
+You say that's al[B]right, hold tight
 [G#m]   Well, I [E]don't even know if 
 I'm [F#]doin' this right
 Well, alright,[B]hold tight
@@ -88,7 +84,11 @@ And I [F#7]ain't even done with the [G#m]night
 
 
 {comment: Solo}
-[F#]E[F#][G#m][F#]
+| F#  . . . | G#m . . . | 
+| F#  . . . | F# . . . | 
+| F#  . . . | G#m . . . | 
+| E   . . . | 
+
 ain't even done with the [B]night, hold tight
 
 
@@ -106,10 +106,15 @@ And I [F#]ain't even done with the [B]night
 [E]       [B]      [E]    No, and ain't even done with the n[B]ight
 [E]     No no, ain't even done with the [B]night
 [E]     No, I ain't even done with the [B]night
-[E]     No no, ain't even ain't even done[B]     with the night[E]     No no, ain't even done with the [B]night
+[E]     No no, ain't even ain't even done[B]     with the night[E]    
+ No no, ain't even done with the [B]night
 
 
 {comment: Fade Out}
 [E]     No, I ain't even done with the [B]night[E]
+| B . . . | B . . . |
+| E . . . | E . . . |
+| B . . . | B . . . |
+| E . . . | E . - - |
 
 https://www.sheetmusicdirect.com/en-US/se/ID_No/20619/Product.aspx
