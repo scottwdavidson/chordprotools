@@ -1,72 +1,112 @@
-{title: And We Danced}
+{title: And We Danced - A}
 {artist: The Hooters}
-{key: D}
+{key: A}
+{tempo: 144}
+{duration: 3:45}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment: ***********************************************}
+{comment: ***********************************************}
 
-{comment: Intro}
-|D   |E   |A/C#   |D   | x3
-|D   |E   |F#m    |D   |
 
-{soc}
-|E A |D/A  A |A E A |D F#m |
-|E A |D/A  A |A E A |F#m7  |
-{eoc}
+{comment: Intro - Mandolin and Synth}
+| Dsus2  .  .  .  | Esus  E  .  .  | A/C#  .  .  .  | Dsus2  .  .  .  |
+| Dsus2  .  .  .  | Esus  E  .  .  | F#m7  .  .  .  | Dsus2  .  .  .  |
 
-{sov}
-She was a [D]be bop [A]baby on a [E]hard day's [A]night[E][F#m][D]
-She was [D]hangin' on [A]Johnny, he was [E]holdin' on [A]tight[E][F#m][D]
-Well, I could [D]feel her [A]coming from a [E]mile a w[A]ay[E][F#m][D]
-There was [D]no use [A]talking, there was [E]nothing to s[A]ay
-When the [E]band beg[F#m]an to [D]play and play
-{eov}
 
-{soc}
-And we danced[E], [A] like a [D/A]wave on the [A]ocean, romanced
-[E]  [A] We were [D]liars in[F#m]love. And we danced,
-[E]  [A] swept a[D/A]way for a [A]moment by chance
-[E]  [A] Yea, we d[F#m7]anced and danced and danced
-{eoc}
+{comment: Intro - Main Theme}
+| A  E/A  A  .  | D/A  .  .  A  | A  E/A  A  .  | D  .  F#m  .  |
+| A  E/A  A  .  | D/A  .  .  A  | A  E/A  A  .  | D  .  F#m  .  |
+| A  E/A  A  .  | D/A  .  .  A  | A  E/A  A  .  | F#m  .  .  .  | F#m  .  |
 
-{sov}
-I met my [D]be bop [A]baby at the [E]Union [A]Hall[E][F#m][D]
-She could [D]dance all [A]night and shake the [E]paint off the [A]walls[E][F#m][D]
-But when I [D]saw her [A]smile across a [E]crowded [A]room[E][F#m][D]
-Well I [D]knew we'd [A]have to leave the [E]party [A]soon[D]
-As the [E]band b[F#m]egan to[D]play out of tune
-{eov}
 
-{soc}
-And we danced[E], [A] like a [D/A]wave on the [A]ocean, romanced
-[E]  [A] We were [D]liars in[F#m]love. And we danced,
-[E]  [A] swept a[D/A]way for a [A]moment by chance
-[E]  [A] Yea, we d[F#m7]anced and danced and danced
-{eoc}
+{start_of_verse}
+She was a [D]be bop [A]baby on a [Esus]hard day’s [A]night. [Esus] [F#m] [D]
+She was [D]hangin’ on [A]Johnny, he was [Esus]holdin’ on [A]tight. [Esus] [F#m] [D]
+Well, I could [D]feel her [A]coming from a [Esus]mile aw[A]ay. [Esus] [F#m] [D]
+There was [D]no use [A]talking, there was [Esus]nothing to s[A]ay
+When the [Esus]band beg[F#m]an to [D]play and play.
+{end_of_verse}
 
-{c: Solo}
-|E A |D/A  A |A E A |D F#m |
-|E A |D/A  A |A E A |F#m7  |
 
-|D   |E   |A/C#  |D   |
-|D   |E   |F#m   |D   |
+{start_of_chorus}
+And we danced[A], like a [D/A]wave on the [A]ocean, ro[E]manced. [A]
+We were [D]liars in [F#m]love.
+And we danced[A] ... swept a[D/A]way for a [A]moment by [E]chance. [A]
+Yea, we d[F#m7]anced and danced and danced.
+{end_of_chorus}
 
-{sob}
-|Bm11     |Esus  E  |A/C#     |D      | x2
-[Bm11] The endless beat,[Esus] she's walking [E]my way
-[A/C#] Hear the music fade[D]when she says
+
+{start_of_verse}
+I met my [D]be bop [A]baby at the [Esus]Union [A]Hall. [Esus] [F#m] [D]
+She could [D]dance all [A]night and shake the [Esus]paint off the [A]wall. [Esus] [F#m] [D]
+But when I [D]saw her [A]smile across a [Esus]crowded [A]room, [Esus] [F#m] [D]
+Well I [D]knew we’d [A]have to leave the [Esus]party [A]soon,
+As the [DEsus]band b[F#m]egan to [D]play out of tune.
+{end_of_verse}
+
+
+{start_of_chorus}
+And we danced[A], like a [D/A]wave on the [A]ocean, ro[E]manced. [A]
+We were [D]liars in [F#m]love.
+And we danced[A] ... swept a[D/A]way for a [A]moment by [E]chance. [A]
+Yea, we d[D]anced and danced and danced.
+{end_of_chorus}
+
+
+{comment: Interlude - Chorus Theme}
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  F#m  .  |
+                                                                 (And we danced)
+
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | F#m  .  .  .  |
+
+
+{comment: Bridge - Mandolin Theme}
+| Bm11  .  .  .  | Esus  E  .  .  | A/C#  .  .  .  | Bm11  .  .  .  |
+
+| Bm11  .  .  .  | Esus  E  .  .  | F#m7  .  .  .  | Bm11  .  .  .  |
+
+
+{start_of_bridge}
+[Bm11] The endless beat,[Esus] she’s walking [E]my way.
+[A/C#] Hear the music fade[D] when she says,
 Are we [Bm11]getting too close, do we dar[Esus]e to get [E]closer?
-[F#m] The room is spinning as she whis[D]pers my name
-{eob}
+[F#m7] The room is spinning as she whis[D]pers my name.
+{end_of_bridge}
 
-{soc}
-And we danced[E], [A] like a [D/A]wave on the [A]ocean, romanced
-[E]  [A] We were [D]liars in[F#m]love. And we danced,
-[E]  [A] swept a[D/A]way for a [A]moment by chance
-[E]  [A] Yea, we d[F#m7]anced and danced and danced
-{eoc}
 
-{c: Outro}
-|E A |D/A  A |A E A |D F#m |
-|E A |D/A  A |A E A |F#m7  |
-(repeat to end)
+{start_of_chorus}
+And we danced[A], like a [D/A]wave on the [A]ocean, ro[E]manced. [A]
+We were [D]liars in [F#m]love.
+And we danced[A] ... swept a[D/A]way for a [A]moment by [E]chance. [A]
+Yea, we d[D]anced and danced and danced.
+
+And we danced[A], like a [D/A]wave on the [A]ocean, ro[E]manced. [A]
+We were [D]liars in [F#m]love.
+And we danced[A] ... swept a[D/A]way for a [A]moment by [E]chance. [A]
+Yea, we d[D]anced and danced and danced.
+{end_of_chorus}
+
+
+{comment: Outro - Chorus Theme}
+
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  F#m  .  |
+(danced and danced and danced                          And we danced)
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  .  .  |
+                                                                     (And we danced)
+
+
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  F#m  .  |
+                                                                         (And we danced)
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  .  .  |
+                                                                     (And we danced)
+
+
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  F#m  .  |
+                                                                         (And we danced)
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  .  .  |
+                                                                     (And we danced)
+
+
+| A  .  .  .  | D/A  .  A  .  | E  .  A  .  | D  .  .  .  |
+
+| D |
