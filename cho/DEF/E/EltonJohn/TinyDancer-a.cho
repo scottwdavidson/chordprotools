@@ -4,9 +4,11 @@
 {duration: 5:50}
 {tempo: 72}
 {meta: performance: A}
+{meta: countin: 8}
 
 {comment: ***********************************************}
 {comment: **  meta: performance: A}
+{comment: **  meta: countin: 8}
 {comment: ***********************************************}
 
 

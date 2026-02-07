@@ -1,113 +1,72 @@
-{title: And We Danced - G}
+{title: And We Danced}
 {artist: The Hooters}
-{key: G}
-{tempo: 144}
-{duration: 3:45}
+{key: C}
 
 {comment: ***********************************************}
 {comment: ***********************************************}
 
-
-{comment: Intro - Mandolin and Synth}
-|Csus2  .  .  .  | Dsus  D  .  .  | G/B  .  .  .  | Csus2  .  .  .  |
-|Csus2  .  .  .  | Dsus  D  .  .  | Em7  .  .  .  | Csus2  .  .  .  |
-
-
-{comment: Intro - Main Theme}
-| G  .  .  .  | C  .  .  G  | G  .  .  .  | C  .  Em  .  |
-| G  .  .  .  | C  .  .  G  | G  .  .  .  | C  .  Em  .  |
-| G  .  .  .  | C  .  .  G  | G  .  .  .  | Em  .  .  .  | Em  .  |
-
-
-{start_of_verse}
-She was a [C]be bop [G]baby on a [Dsus]hard day’s [G]night. [Dsus] [Em] [C]
-She was [C]hangin’ on [G]Johnny, he was [Dsus]holdin’ on [G]tight. [Dsus] [Em] [C]
-Well, I could [C]feel her [G]coming from a [Dsus]mile aw[G]ay. [Dsus] [Em] [C]
-There was [C]no use [G]talking, there was [Dsus]nothing to s[G]ay
-When the [Dsus]band beg[Em]an to [C]play and play.
-{end_of_verse}
-
+{comment: Intro}
+|C   |D   |G/B   |C   |
+|C   |D   |Em    |C   |
 
 {start_of_chorus}
-And we danced[G], like a [C/G]wave on the [G]ocean, ro[D]manced. [G]
-We were [C]liars in [Em]love.
-And we danced[G] ... swept a[C/G]way for a [G]moment by [D]chance. [G]
-Yea, we d[Em7]anced and danced and danced.
+|D G |C/G  G |G D G |C Em |
+|D G |C/G  G |G D G |Em7  |
 {end_of_chorus}
-
 
 {start_of_verse}
-I met my [C]be bop [G]baby at the [Dsus]Union [G]Hall. [Dsus] [Em] [C]
-She could [C]dance all [G]night and shake the [Dsus]paint off the [G]wall. [Dsus] [Em] [C]
-But when I [C]saw her [G]smile across a [Dsus]crowded [G]room,  [Dsus] [Em] [C]
-Well I [C]knew we’d [G]have to leave the [Dsus]party [G]soon,
-As the [Dsus]band b[Em]egan to [C]play out of tune.
+She was a [C]be bop [G]baby on a [D]hard day’s [G]night[D][Em][C]
+She was [C]hangin’ on [G]Johnny, he was [D]holdin’ on [G]tight[D][Em][C]
+Well, I could [C]feel her [G]coming from a [D]mile a w[G]ay[D][Em][C]
+There was [C]no use [G]talking, there was [D]nothing to s[G]ay
+When the [D]band beg[Em]an to [C]play and play
 {end_of_verse}
 
-
 {start_of_chorus}
-And we danced[G], like a [C/G]wave on the [G]ocean, ro[D]manced. [G]
-We were [C]liars in [Em]love.
-And we danced[G] ... swept a[C/G]way for a [G]moment by [D]chance. [G]
-Yea, we d[C]anced and danced and danced.
+And we danced[D], [G] like a [C/G]wave on the [G]ocean, romanced
+[D]  [G] We were [C]liars in[Em]love. And we danced,
+[D]  [G] swept a[C/G]way for a [G]moment by chance
+[D]  [G] Yea, we d[Em7]anced and danced and danced
 {end_of_chorus}
 
+{start_of_verse}
+I met my [C]be bop [G]baby at the [D]Union [G]Hall[D][Em][C]
+She could [C]dance all [G]night and shake the [D]paint off the [G]walls[D][Em][C]
+But when I [C]saw her [G]smile across a [D]crowded [G]room[D][Em][C]
+Well I [C]knew we’d [G]have to leave the [D]party [G]soon[C]
+As the [D]band b[Em]egan to[C]play out of tune
+{end_of_verse}
 
-{comment: Interlude - Chorus Theme}
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
-                                                                (And we danced)
+{start_of_chorus}
+And we danced[D], [G] like a [C/G]wave on the [G]ocean, romanced
+[D]  [G] We were [C]liars in[Em]love. And we danced,
+[D]  [G] swept a[C/G]way for a [G]moment by chance
+[D]  [G] Yea, we d[Em7]anced and danced and danced
+{end_of_chorus}
 
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | Em  .  .  .  |
+{comment: Solo}
+|D G |C/G  G |G D G |C Em |
+|D G |C/G  G |G D G |Em7  |
 
-
-{comment: Bridge - Mandolin Theme}
-|Am11  .  .  .  | Dsus  D  .  .  | G/B  .  .  .  | Am11  .  .  .  |
- 
-|Am11  .  .  .  | Dsus  D  .  .  | Em7  .  .  .  | Am11  .  .  .  |
-
+|C   |D   |G/B  |C   |
+|C   |D   |Em   |C   |
 
 {start_of_bridge}
-[Am11] The endless beat,[Dsus] she’s walking [D]my way.
-[G/B] Hear the music fade[C] when she says,
+|Am11    |Dsus  D  |G/B      |C      | x2 
+[Am11] The endless beat,[Dsus] she’s walking [D]my way
+[G/B] Hear the music fade[C]when she says
 Are we [Am11]getting too close, do we dar[Dsus]e to get [D]closer?
-[Em7] The room is spinning as she whis[C]pers my name.
+[Em] The room is spinning as she whis[C]pers my name
 {end_of_bridge}
 
-
 {start_of_chorus}
-And we danced[G], like a [C/G]wave on the [G]ocean, ro[D]manced. [G]
-We were [C]liars in [Em]love.
-And we danced[G] ... swept a[C/G]way for a [G]moment by [D]chance. [G]
-Yea, we d[C]anced and danced and danced.
-
-And we danced[G], like a [C/G]wave on the [G]ocean, ro[D]manced. [G]
-We were [C]liars in [Em]love.
-And we danced[G] ... swept a[C/G]way for a [G]moment by [D]chance. [G]
-Yea, we d[C]anced and danced and danced.
+And we danced[D], [G] like a [C/G]wave on the [G]ocean, romanced
+[D]  [G] We were [C]liars in[Em]love. And we danced,
+[D]  [G] swept a[C/G]way for a [G]moment by chance
+[D]  [G] Yea, we d[Em7]anced and danced and danced
 {end_of_chorus}
 
-
-{comment: Outro - Chorus Theme}
-
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
-(danced and danced and danced                         And we danced)
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
-                                                                 (And we danced)
-
-
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
-                                                                   (And we danced)
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
-                                                                 (And we danced)
-
-
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
-                                                                   (And we danced)
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
-                                                                 (And we danced)
-
-
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
-
-
-| C |
+{comment: Outro}
+|D G |C/G  G |G D G |C Em |
+|D G |C/G  G |G D G |Em7  |
+(repeat to end)
