@@ -3,13 +3,13 @@
 {key: G}
 {duration: 3:30}
 {tempo: 125}
+{meta: countin: 4}
 
 {c:***********************************************}
 {c:***********************************************}
 
 {c: Intro}
-| G . . . | G . . . | C/G . . . | C/G . . . |
-| G . . . | G . . . | C/G . . . | C/G . . . |
+| G . . . | C/G . . . | G . . . | C/G . . . |
 
 {start_of_verse}
 There's a little [G]moonlight, dancin' on [Em]the sand
@@ -23,9 +23,8 @@ That I'm [C]right on the edge of givin' in to ya
 If I [G]fal[Bm7]l, can ya let me down [C]easy
 If I l[G]eave my heart with you [Bm7]tonight,
 Will you [C]promise me that you're gonna treat it rig[Am]ht
-I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy_[G][C/G][C/G]
+I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy. [C/G]
 {end_of_chorus}
-
 
 {start_of_verse}
 The scent of your [G]perfume, floatin' in[Em]the air
@@ -39,7 +38,7 @@ I'll [C]be at the mercy of you[N.C.]
 If I [G]fal[Bm7]l, can ya let me down [C]easy
 If I l[G]eave my heart with you [Bm7]tonight,
 Will you [C]promise me that you're gonna treat it rig[Am]ht
-I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy_[G]
+I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy
 {end_of_chorus}
 
 {comment: Instrumental}
@@ -50,12 +49,13 @@ I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy_[G
 If I [G]fal[Bm7]l, can ya let me down [C]easy
 If I l[G]eave my heart with you [Bm7]tonight,
 Will you [C]promise me girl you're gonna treat it rig[Am]ht
-I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy_[G]
-If I [F]fal[C/E]l,__[G]__[C/E]__ can you let me down [G]easy[C/G]
+I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy.
+If I [F]fal[C/E]l,__[G]__[C/E]__ can you let me down [G]easy. [C/G]
 {end_of_chorus}
 
 {c: Outro}
-Let me down [G]easy
+Let me down [G]easy [C/E]
 
-| G . . . | G . . . | C/G . . . | C/G . . . |
-| G . . . | 
+| G . . . | C/G . . . |
+
+| G | 

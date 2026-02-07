@@ -52,7 +52,7 @@ How Deep Is Your Love,Bee Gees,Eb,3:30,103,,,M11,,,,,,,./cho/ABC/B/BeeGees/HowDe
 Run To Me,Bee Gees,A,,,,,,,,,,,,./cho/ABC/B/BeeGees/RunToMe.cho
 If I Said You Have A Beautiful Body,Bellamy Brothers,E,,,,,,,,,,,,./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
 Lovely Day,Bill Withers,E,3:40,98,,,,,,,,,,./cho/ABC/B/BillWithers/LovelyDay.cho
-Let Me Down Easy,Billy Currington,G,3:30,125,,,,,,,,,,./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
+Let Me Down Easy,Billy Currington,G,3:30,125,4,,,,,,,,,./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
 Don't Ask Me Why,Billy Joel,Bb,3:50,99,,,,,,,,,,./cho/ABC/B/BillyJoel/DontAskMeWhy.cho
 My Life,Billy Joel,C,3:40,131,8,14,P32,,,,,,,./cho/ABC/B/BillyJoel/MyLife-c.cho
 My Life,Billy Joel,D,3:40,131,8,14,P32,,,C,,,,./cho/ABC/B/BillyJoel/MyLife.cho
@@ -72,7 +72,8 @@ I Shall Be Released,Bob Dylan,E,2:30,65,,,,,,,,,,./cho/ABC/B/BobDylan/IShallBeRe
 Like A Rolling Stone,Bob Dylan,C,,,,,,,,,,,,./cho/ABC/B/BobDylan/LikeARollingStone.cho
 Against the Wind,Bob Seger,F,3:50,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind-f.cho
 Against the Wind,Bob Seger,G,4:00,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind.cho
-Still the Same,Bob Seger,C,3:28,115,4,84,P54,,,Ab,,,,./cho/ABC/B/BobSeger/StillTheSame.cho
+Still the Same,Bob Seger,A,3:28,115,4,84,P54,,,A,,,,./cho/ABC/B/BobSeger/StillTheSame-a.cho
+Still the Same,Bob Seger,C,3:28,115,4,84,P54,,,A,,,,./cho/ABC/B/BobSeger/StillTheSame.cho
 Turn The Page,Bob Seger,Em,,,,,,,,,,,,./cho/ABC/B/BobSeger/TurnThePage.cho
 Ebony Eyes,Bob Welch,Gm,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes-gm.cho
 Ebony Eyes,Bob Welch,Am,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes.cho
@@ -194,6 +195,8 @@ Tell It Like It Is,Heart,F,3:50,67,,,,,,,6/8,,,./cho/GHI/H/Heart/TellItLikeItIs.
 Always and Forever,Heatwave,D,,,,,,,,,,,,./cho/GHI/H/Heatwave/AlwaysAndForever.cho
 Shannon,Henry Gross,F,,,,,,,,,,,,./cho/GHI/H/HenryGross/Shannon.cho
 The Air That I Breathe,The Hollies,C,,,,,,,,,,,,./cho/GHI/H/Hollies/TheAirThatIBreathe.cho
+And We Danced - A,The Hooters,A,3:45,144,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced-a.cho
+And We Danced - G,The Hooters,G,3:45,144,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced-g.cho
 And We Danced,The Hooters,D,,,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced.cho
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,,,./cho/GHI/H/HueyLewis/DoYouBelieveInLove.cho
 Need You Tonight,INXS,C,2:55,109,,,,,,,,,,./cho/GHI/I/INXS/NeedYouTonight.cho
