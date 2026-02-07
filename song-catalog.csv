@@ -47,6 +47,7 @@ Here Comes The Sun,The Beatles,A,,,,,,,,,,,,./cho/ABC/B/Beatles/HereComesTheSun.
 Please Mr. Postman,The Beatles,A,2:00,122,,,,,,,,,,./cho/ABC/B/Beatles/PleaseMrPostman.cho
 Real Love,The Beatles,C,,,,,,,,,,,,./cho/ABC/B/Beatles/RealLove.cho
 Twist & Shout,Beatles,D,2:10,128,,,???,,,,,,,./cho/ABC/B/Beatles/TwistAndShout.cho
+You Wont See Me,The Beatles,A,3:22,116,,,,,,,,,,./cho/ABC/B/Beatles/YouWontSeeMe.cho
 How Deep Is Your Love,Bee Gees,Eb,3:30,103,,,M11,,,,,,,./cho/ABC/B/BeeGees/HowDeepIsYourLove.cho
 Run To Me,Bee Gees,A,,,,,,,,,,,,./cho/ABC/B/BeeGees/RunToMe.cho
 If I Said You Have A Beautiful Body,Bellamy Brothers,E,,,,,,,,,,,,./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
@@ -71,7 +72,7 @@ I Shall Be Released,Bob Dylan,E,2:30,65,,,,,,,,,,./cho/ABC/B/BobDylan/IShallBeRe
 Like A Rolling Stone,Bob Dylan,C,,,,,,,,,,,,./cho/ABC/B/BobDylan/LikeARollingStone.cho
 Against the Wind,Bob Seger,F,3:50,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind-f.cho
 Against the Wind,Bob Seger,G,4:00,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind.cho
-Still the Same,Bob Seger,C,3:28,115,,,,,,,,,,./cho/ABC/B/BobSeger/StillTheSame.cho
+Still the Same,Bob Seger,C,3:28,115,4,84,P54,,,Ab,,,,./cho/ABC/B/BobSeger/StillTheSame.cho
 Turn The Page,Bob Seger,Em,,,,,,,,,,,,./cho/ABC/B/BobSeger/TurnThePage.cho
 Ebony Eyes,Bob Welch,Gm,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes-gm.cho
 Ebony Eyes,Bob Welch,Am,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes.cho
@@ -199,6 +200,7 @@ Need You Tonight,INXS,C,2:55,109,,,,,,,,,,./cho/GHI/I/INXS/NeedYouTonight.cho
 Running On Empty - G,Jackson Brown,G,4:10,137,8,72,P55,,,G,,,,./cho/JKL/J/JacksonBrowne/RunningOnEmpty-g.cho
 Running On Empty,Jackson Brown,A,4:10,137,8,72,P55,,,,,,,./cho/JKL/J/JacksonBrowne/RunningOnEmpty.cho
 Stay,Jackson Browne,G,3:00,106,,,P25,,,,,,,./cho/JKL/J/JacksonBrowne/Stay.cho
+Get Up,James Brown,Eb,3:15,140,,,,,,,,,,./cho/JKL/J/JamesBrown/GetUp.cho
 I'm Yours,Jason Mraz,B,3:45,75,,,,,,,,,,./cho/JKL/J/JasonMraz/ImYours.cho
 Who Will Save My Soul,Jewel,Am,,126,,,,,,,,,,./cho/JKL/J/Jewel/WhoWillSaveMySoul.cho
 Bad Bad Leroy Brown,Jim Croce,G,2:35,148,8,42,O55,,,,,,,./cho/JKL/J/JimCroce/BadBadLeroyBrown.cho
@@ -327,6 +329,7 @@ Ghost In You,Psychelic Furs,Bb,,123,,,,,,,,,,./cho/PQR/P/PsychedelicFurs/GhostIn
 Love My Way,Psychelic Furs,C,,129,,,,,,,,,,./cho/PQR/P/PsychedelicFurs/LoveMyWay.cho
 Let Me Love You Tonight,Pure Prairie League,Bb,,,,,,,,,,,,./cho/PQR/P/PurePrairieLeague/LetMeLoveYouTonight.cho
 Creep,Radiohead,G,,,,,,,,,,,,./cho/PQR/R/Radiohead/Creep.cho
+Blitzkreig Bop,Ramones,A,2:12,180,,,,,,,,,,./cho/PQR/R/Ramones/BlitzkreigBop.cho
 Forever's As Far As I'll Go,Mike Reid/Alabama,Eb,,,,,,,,,,,,./cho/PQR/R/RandyTravis/ForeversAsFarAsIllGo.cho
 Look Heart No Hands,Randy Travis,C,,,,,,,,,,,,./cho/PQR/R/RandyTravis/LookHeartsNoHands.cho
 This Is Me,Randy Travis,Eb,3:00,100,,,,,,,,,,./cho/PQR/R/RandyTravis/ThisIsMe.cho
