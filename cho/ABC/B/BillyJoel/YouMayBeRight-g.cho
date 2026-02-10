@@ -3,20 +3,17 @@
 {key: G}
 {duration: 4:00}
 {tempo: 150}
+{meta: nord: N35}
 {meta: countin: 4}
 {meta: backing: 21}
+{meta: performance: G}
 
 {c:***********************************************}
+{c:**  meta: nord: N35   }
 {c:**  meta: countin: 4   }
 {c:**  meta: backing: 21   }
+{c:**  meta: performance: G   }
 {c:***********************************************}
-
-{comment: original key = A, performance key = G}
-{comment: nord = N35}
-
-{comment: Backing Track = 21}
-{comment: countin = 4}
-
 
 
 {comment: Intro}
@@ -42,11 +39,11 @@ So you sa[D]id that only proves that I'm in[G]sane.
 {end_of_verse}
 
 {start_of_chorus}
-You may be r[D]ight,
-I may be cr[G]azy
+You may be r[D]ight, | D F# G A A B A D |
+I may be cr[G]azy.   | G Bb B D D E D G |
 But it j[D]ust may be a l[C]unatic
-you're l[Em]ooking for[G]
-Turn out the li[D]ghts,
+you're l[Em]ooking for[G] | D F# G A A B A D |
+Turn out the li[D]ghts,   | G Bb B D D E D G |
 don't try to sa[G]ve me
 You may be wr[C]ong for all I kn[D]ow,
 you may be r[G]ight.
@@ -74,11 +71,11 @@ and you w[D]ouldn't want me any other [G]way.
 {end_of_verse}
 
 {start_of_chorus}
-You may be r[D]ight,
-I may be cr[G]azy
+You may be r[D]ight, | D F# G A A B A D |
+I may be cr[G]azy.   | G Bb B D D E D G |
 But it j[D]ust may be a l[C]unatic
-you're l[Em]ooking for[G]
-Turn out the li[D]ghts,
+you're l[Em]ooking for[G] | D F# G A A B A D |
+Turn out the li[D]ghts,   | G Bb B D D E D G |
 don't try to sa[G]ve me
 You may be wr[C]ong for all I kn[D]ow,
 you may be r[G]ight.
@@ -93,15 +90,16 @@ you may be r[G]ight.
 | D   | D   | G   | G
 
 {start_of_chorus}
-You may be r[D]ight,
-I may be cr[G]azy
+You may be r[D]ight, | D F# G A A B A D |
+I may be cr[G]azy.   | G Bb B D D E D G |
 But it j[D]ust may be a l[C]unatic
-you're l[Em]ooking for[G]
-Turn out the li[D]ghts,
+you're l[Em]ooking for[G] | D F# G A A B A D |
+Turn out the li[D]ghts,   | G Bb B D D E D G |
 don't try to sa[G]ve me
 You may be wr[C]ong for all I kn[D]ow,
 you may be r[G]ight.
 {end_of_chorus}
+
 
 {comment: Outro}
 [G]You may be wrong, but you may be right.
