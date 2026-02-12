@@ -51,6 +51,7 @@ You Wont See Me,The Beatles,A,3:22,116,,,,,,,,,,./cho/ABC/B/Beatles/YouWontSeeMe
 How Deep Is Your Love,Bee Gees,Eb,3:30,103,,,M11,,,,,,,./cho/ABC/B/BeeGees/HowDeepIsYourLove.cho
 Run To Me,Bee Gees,A,,,,,,,,,,,,./cho/ABC/B/BeeGees/RunToMe.cho
 If I Said You Have A Beautiful Body,Bellamy Brothers,E,,,,,,,,,,,,./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
+Ain't No Sunshine,Bill Withers,Em,3:00,78,,,,,,,,,,./cho/ABC/B/BillWithers/AintNoSunshine.cho
 Lovely Day,Bill Withers,E,3:40,98,,,,,,,,,,./cho/ABC/B/BillWithers/LovelyDay.cho
 Let Me Down Easy,Billy Currington,G,3:30,125,4,,,,,,,,,./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
 Don't Ask Me Why,Billy Joel,Bb,3:50,99,,,,,,,,,,./cho/ABC/B/BillyJoel/DontAskMeWhy.cho
@@ -62,7 +63,7 @@ Piano Man,Billy Joel,C,4:40,178,,,,,,A,,,,./cho/ABC/B/BillyJoel/PianoMan.cho
 Summer Highland Falls,Billy Joel,F,3:22,90,,,,,,,,,,./cho/ABC/B/BillyJoel/SummerHighlandFalls.cho
 Vienna - G#m,Billy Joel,G#m,3:00,63,,,,,,,,,,./cho/ABC/B/BillyJoel/Vienna-g#m.cho
 Vienna,Billy Joel,Gm,3:00,63,,,,,,,,,,./cho/ABC/B/BillyJoel/Vienna.cho
-You May Be Right,Billy Joel,G,4:00,150,4,21,,,,,,,,./cho/ABC/B/BillyJoel/YouMayBeRight-g.cho
+You May Be Right,Billy Joel,G,4:00,150,4,21,N35,,,G,,,,./cho/ABC/B/BillyJoel/YouMayBeRight-g.cho
 You May Be Right,Billy Joel,A,4:00,150,4,21,N35,,,,,,,./cho/ABC/B/BillyJoel/YouMayBeRight.cho
 You're My Home,Billy Joel,F,3:14,93,,,,,,,,,,./cho/ABC/B/BillyJoel/YoureMyHome.cho
 Footloose,Blake Shelton,G,,,8,37,,,,,,,,./cho/ABC/B/BlakeShelton/Footloose.cho
@@ -148,7 +149,7 @@ Crocodile Rock,Elton John,G,3:10,151,,,???,,,G,,,,./cho/DEF/E/EltonJohn/Crocodil
 Daniel,Elton John,A,3:30,66,,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel-a.cho
 Daniel,Elton John,C,3:30,66,,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel.cho
 Rocket Man,Elton John,G,3:40,68,,,,,,,,,,./cho/DEF/E/EltonJohn/RocketMan.cho
-Tiny Dancer,Elton John,A,5:50,72,,,,,,A,,,,./cho/DEF/E/EltonJohn/TinyDancer-a.cho
+Tiny Dancer,Elton John,A,5:50,72,8,,,,,A,,,,./cho/DEF/E/EltonJohn/TinyDancer-a.cho
 Tiny Dancer,Elton John,C,5:50,72,,,,,,A,,,,./cho/DEF/E/EltonJohn/TinyDancer.cho
 Burning Love,Elvis,D,,144,,,,,,,,,,./cho/DEF/E/Elvis/BurningLove.cho
 I'd Really Love To See You Tonight,England Dan / John Ford Coley,F,,,,,,,,,,,,./cho/DEF/E/EnglandDanJohnFordColey/IdReallyLoveToSeeYouTonight.cho
@@ -195,9 +196,8 @@ Tell It Like It Is,Heart,F,3:50,67,,,,,,,6/8,,,./cho/GHI/H/Heart/TellItLikeItIs.
 Always and Forever,Heatwave,D,,,,,,,,,,,,./cho/GHI/H/Heatwave/AlwaysAndForever.cho
 Shannon,Henry Gross,F,,,,,,,,,,,,./cho/GHI/H/HenryGross/Shannon.cho
 The Air That I Breathe,The Hollies,C,,,,,,,,,,,,./cho/GHI/H/Hollies/TheAirThatIBreathe.cho
-And We Danced - A,The Hooters,A,3:45,144,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced-a.cho
 And We Danced - G,The Hooters,G,3:45,144,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced-g.cho
-And We Danced,The Hooters,D,,,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced.cho
+And We Danced - A,The Hooters,A,3:45,144,,,,,,,,,,./cho/GHI/H/Hooters/AndWeDanced.cho
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,,,./cho/GHI/H/HueyLewis/DoYouBelieveInLove.cho
 Need You Tonight,INXS,C,2:55,109,,,,,,,,,,./cho/GHI/I/INXS/NeedYouTonight.cho
 Running On Empty - G,Jackson Brown,G,4:10,137,8,72,P55,,,G,,,,./cho/JKL/J/JacksonBrowne/RunningOnEmpty-g.cho
@@ -255,7 +255,9 @@ Its So Easy,Linda Ronstadt,E,2:45,120,,,,,,,,,,./cho/JKL/L/LindaRonstadt/ItsSoEa
 Long Long Time,Linda Ronstadt,Am,,,,,,,,,,,,./cho/JKL/L/LindaRonstadt/LongLongTime-am.cho
 Long Long Time,Linda Ronstadt,Em,,,,,,,,,,,,./cho/JKL/L/LindaRonstadt/LongLongTime.cho
 Deep River Woman,Lionel Richie,G,,135,,,,,,,,,,./cho/JKL/L/LionelRichie/DeepRiverWoman.cho
-I'd Love You To Want Me,Lobo,G,,,,,,,,,,,,./cho/JKL/L/Lobo/IdLoveYouToWantMe.cho
+Don't Expect Me To Be Your Friend,Lobo,C,3:30,78,8,,,,,,,,,./cho/JKL/L/Lobo/DontExpectMeToBeYourFriend.cho
+I'd Love You To Want Me,Lobo,G,3:45,,8,,,,,,,,,./cho/JKL/L/Lobo/IdLoveYouToWantMe.cho
+Me And You And A Dog Named Boo,Lobo,Bb,3:30,90,,,,,,,,,,./cho/JKL/L/Lobo/MeAndYouAndADogNamedBoo.cho
 Brandy (You're A Fine Girl),Looking Glass,E,3:00,126,8,40,N51,,,E,,,,./cho/JKL/L/LookingGlass/Brandy.cho
 Te Ni Nee Ni,Lou Ann Barton,E,,,,,,,,,,,,./cho/JKL/L/LouAnnBarton/TeNiNeeNi.cho
 Dream A Little Dream Of Me,Louis Armstrong,C,1:10,133,,,,,,,,,,./cho/JKL/L/LouisArmstrong/DreamALittleDream-c.cho
