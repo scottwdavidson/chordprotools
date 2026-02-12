@@ -12,9 +12,10 @@
 {c:***********************************************}
 
 {comment: Intro}
-| Em . Am/E .    | Em . Am/E . | 
-| Em Cmaj7/B Am7 | Em . Am/E . | 
-| Em Cmaj7/B Am7 | Em . Am/E . | 
+| Em . Am7/E .    | Em . Am7/E . | 
+
+| Em Cmaj7/B Am7 | Em . Am7/E . | 
+| Em Cmaj7/B Am7 | Em . Am7/E . | 
 
 
 {start_of_verse}
