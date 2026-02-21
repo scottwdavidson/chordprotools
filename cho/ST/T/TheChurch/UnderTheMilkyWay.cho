@@ -10,14 +10,14 @@
 {meta: backing: 32}
 
 {c:***********************************************}
-{c:** --> meta: nord: P45}
-{c:** --> meta: roland: C012}
-{c:** --> meta: version: 0.0}
-{c:** --> meta: countin: 8}
-{c:** --> meta: backing: 32}
+{c:**  meta: nord: P45}
+{c:**  meta: roland: C012}
+{c:**  meta: version: 0.0}
+{c:**  meta: countin: 8}
+{c:**  meta: backing: 32}
 {c:***********************************************}
 
-{c: Roland --> C022 }
+{c: Roland  C022 }
 {comment: Intro}
 | Am . A7sus4 . | Fmaj7/A . G . |
 | Am . A7sus4 . | Fmaj7/A . G . |

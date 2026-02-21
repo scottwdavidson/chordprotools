@@ -1,11 +1,12 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.*;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-
+@Slf4j
 @Service
 public class SongLineParser {
 
@@ -18,6 +19,8 @@ public class SongLineParser {
 
         // remove beginning and ending white space
         cleanedLine = cleanedLine.trim();
+
+        log.debug("Cleaned line: {}", cleanedLine);
 
         // extract a general parsed line for evaluation
         GenericParsedLine genericParsedLine = GenericParsedLine.from(cleanedLine).build();

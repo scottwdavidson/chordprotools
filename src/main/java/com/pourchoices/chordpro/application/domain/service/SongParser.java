@@ -5,6 +5,7 @@ import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,11 +19,12 @@ import org.slf4j.LoggerFactory;
  * into a ParsedSong object.
  *
  */
+@Slf4j
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class SongParser {
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(SongParser.class);
+//    private final static Logger LOGGER = LoggerFactory.getLogger(SongParser.class);
     private final SongLineParser songLineParser;
 
     public ParsedSong parse(String chordproFilename, List<String> songFile) {
@@ -30,7 +32,7 @@ public class SongParser {
         ParsedSong.ParsedSongBuilder parsedSongBuilder = ParsedSong.builder();
 
         // header first
-        LOGGER.info("chordproFilename: {}", chordproFilename);
+        log.info("chordproFilename: {}", chordproFilename);
         ParsedHeader.ParsedHeaderBuilder headerBuilder = ParsedHeader.builder();
         headerBuilder.chordProFilename(chordproFilename);
 
@@ -38,7 +40,11 @@ public class SongParser {
         int lineIndex = 0;
         while (lineIndex < songFile.size()) {
 
+            log.debug("lineIndex: {}", lineIndex);
+
             String line = songFile.get(lineIndex);
+
+            log.debug("line: {}", line);
 
             if(line.isBlank()) {
                 lineIndex++;

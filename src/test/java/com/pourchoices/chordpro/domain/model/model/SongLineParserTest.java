@@ -49,7 +49,18 @@ public class SongLineParserTest {
                 arguments(SongLineParserTestData.TEMPO_01, SongLineParserTestData.TEMPO_EXPECTED_PARSED_LINE_01),
                 arguments(SongLineParserTestData.NORD_01, SongLineParserTestData.NORD_EXPECTED_PARSED_LINE_01),
                 arguments(SongLineParserTestData.ROLAND_01, SongLineParserTestData.ROLAND_EXPECTED_PARSED_LINE_01),
-                arguments(SongLineParserTestData.VERSION_01, SongLineParserTestData.VERSION_EXPECTED_PARSED_LINE_01) );
+                arguments(SongLineParserTestData.VERSION_01,
+                    SongLineParserTestData.VERSION_EXPECTED_PARSED_LINE_01),
+            arguments(SongLineParserTestData.COUNTIN_01,
+                SongLineParserTestData.COUNTIN_EXPECTED_PARSED_LINE_01),
+            arguments(SongLineParserTestData.BACKING_01,
+                SongLineParserTestData.BACKING_EXPECTED_PARSED_LINE_01),
+            arguments(SongLineParserTestData.VE_01,
+                SongLineParserTestData.VE_EXPECTED_PARSED_LINE_01),
+            arguments(SongLineParserTestData.PERFORMANCE_KEY_01,
+                SongLineParserTestData.PERFORMANCE_KEY_EXPECTED_PARSED_LINE_01)
+
+        );
     }
 
     // Static method to provide test data

@@ -10,8 +10,9 @@ import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 
-import static com.pourchoices.chordpro.domain.model.model.SongParserTestData.HALF_OF_ME;
+import static com.pourchoices.chordpro.domain.model.model.SongParserTestData.TEST_CHORDPRO_PARSED_FILE;
 
 @ExtendWith(MockitoExtension.class)
 public class SongParserTest {
@@ -19,7 +20,8 @@ public class SongParserTest {
     private final static Logger LOGGER = LoggerFactory.getLogger(SongParserTest.class);
 //    private final SongParser songParser = new SongParser(new SongLineParser());
 
-    private final static String CHORDPRO_FILENAME = "/Users/scott/PARA/_resources/cho/T/ThomasRhett/HalfOfMe.cho";
+    private final static String TEST_CHORDPRO_FILENAME = "/Users/scott/PARA/_resources/cho/T" +
+        "/ThomasRhett/HalfOfMe.cho";
     @Spy
     private SongLineParser songLineParser = new SongLineParser();
 
@@ -29,7 +31,7 @@ public class SongParserTest {
     @Test
     void testParseSong() {
 
-        ParsedSong parsedSong = songParser.parse(CHORDPRO_FILENAME, HALF_OF_ME);
+        ParsedSong parsedSong = songParser.parse(TEST_CHORDPRO_FILENAME, TEST_CHORDPRO_PARSED_FILE);
 
         LOGGER.info("Parsed header as string: {}", parsedSong.getParsedHeader());
         LOGGER.info("Parsed song: {}", parsedSong);
