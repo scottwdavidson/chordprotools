@@ -4,12 +4,9 @@
 {duration: 3:10}
 {tempo: 102}
 {time: 4/4}
+{meta: nord: N24}
+{meta: countin: 4}
 
-{c:***********************************************}
-{c:***********************************************}
-
-{comment: Fran Vocal +5}
-{comment: N=O24}
 {c: Intro}
 | Cmaj7 | Fmaj7 | Cmaj7 | Fmaj7 |
 

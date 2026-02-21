@@ -2,22 +2,17 @@
 {artist: REO Speedwagon}
 {key: D}
 {tempo: 84}
+{duration: 5:20}
 
-{c:***********************************************}
-{c:***********************************************}
-
-{c: OnSong duration 5:20 }
-{c: Performance Key = D }
-
-{c: Acoustic Guitar Tuning = Open D (D A D F# A D }
+{comment: Acoustic Guitar Tuning - Open D (D A D F# A D }
 
 
-{c: Intro}
+{comment: Intro}
 |  D  Gadd9  |  Aadd4  Gadd9 |  D  Gadd9  |  Aadd4  Gadd9  |
 
 
 
-{sov}
+{start_of_verse}
 [D]I've been around for you,
 [Aadd4]Been up and down for you,
 But [Gadd9]I just can't get any relief. |  D  Gadd9/D  D  Gadd9/D  D |
@@ -32,12 +27,12 @@ And [Gadd9]we can't re[D]live it.
 [Gadd9]I make you [D]laugh
 And [Gadd9]you make me [D]cry.
 [Aadd4] I believe it's time for me to fly.
-{eov}
+{end_of_verse}
 
-{c: Interlude}
+{comment: Interlude}
 |  D  Gadd9  |  Aadd4  Gadd9 |  D  Gadd9  |  Aadd4  Gadd9  |
 
-{sov}
+{start_of_verse}
 [D]You said we'd work it out.
 You [Aadd4]said that you had no doubt,
 That [Gadd9]deep down we were really in love. |  D  Gadd9/D  D  Gadd9/D  D |
@@ -52,22 +47,22 @@ And the [Gadd9]intole[D]ration.
 [Gadd9]I make you [D]laugh
 And [Gadd9]you make me [D]cry.
 [Aadd4] I believe it's time for me to fly. |  D  Gadd9  |  D  |
-{eov}
+{end_of_verse}
  
-{soc}
+{start_of_chorus}
 [Tacet] (Time for me to fly.} [Aadd4]
 Oh, I've got to [Gadd9]set myself [D]free.
 [D] (Time for me to fly.) [Aadd4]
 And that's just how [Gadd9]it's got to [D]be.
 [Gadd9]I know it hurts to say good[Aadd4]bye
 But it's time for me to [Gadd9]fly - [Aadd4]yy
-{eoc}
+{end_of_chorus}
 
-{c: Interlude}
+{comment: Interlude}
 |  D  |  D  |  Gadd9  |  Gadd9  |  Aadd4  |  Aadd4  |  D  |  D 
 
 
-{soc}
+{start_of_chorus}
 [D] (Time for me to fly.) [Aadd4]
 Oh, I've got to [Gadd9]set myself [D]free.
 [D] (Time for me to fly.) [Aadd4]
@@ -75,10 +70,10 @@ And that's just how [Gadd9]it's got to [D]be.
 [Gadd9]I know it hurts to say good[Aadd4]bye
 But it's time for me to [Gadd9]fly - [Aadd4]yy.
 It's time for me to fly[Gadd9] - yy.[Aadd4]
-{eoc}
+{end_of_chorus}
 
 
-{c: Outro}
+{comment: Outro}
 It's time for me to fly.[D] (It's [Gadd9]time for me to fly.[Aadd4])
 It's time for me to fly.[D] (It's [Gadd9]time for me to fly.[Aadd4])
 It's time for me to fly.[D] (It's [Gadd9]time for me to fly.[Aadd4])

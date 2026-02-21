@@ -5,13 +5,12 @@
 {tempo: 100}
 {meta: nord: ??}
 {meta: countin: 4}
+{meta: performance: E}
 
 {c:***********************************************}
-{c:** --> meta: nord: ??}
-{c:** --> meta: countin: 4}
+{c:** meta: nord: ??}
+{c:** meta: countin: 4}
 {c:***********************************************}
-
-{c: performance key = E}
 
 {c: Intro}
 | C . . . | Am . . . |

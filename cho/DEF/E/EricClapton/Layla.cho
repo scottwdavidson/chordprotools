@@ -5,15 +5,11 @@
 {tempo: 94}
 {meta: nord: ???}
 {meta: performance: Dm}
+{meta: countin: 4} 
 
 {c:***********************************************}
-{c:** --> meta: nord: ???}
 {c:** --> meta: performance: Dm}
 {c:***********************************************}
-
-{c: Guitar: Part 1 = acoustic guitar; Part 2 = electric guitar with slide}
-{c: Countin = 4 (with pickup)}
-
 
 {c: Intro - Acoustic Guitar Only}
 | Dm . Bb . | C . Dm . | Dm . Bb . | C . Dm . |
@@ -24,7 +20,7 @@
 
 
 
-{c: opening note = C# on "try"}
+{c: opening note is C# on "try"}
 
 {sov}
 [C#m7] What will you do when you get [G#7]lonely?

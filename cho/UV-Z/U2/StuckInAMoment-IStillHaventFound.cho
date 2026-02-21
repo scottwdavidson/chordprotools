@@ -3,15 +3,11 @@
 {key: E / C}
 {tempo: TBD}
 {meta: nord: N51}
+{meta: performance: N51}
 
 {c:***********************************************}
 {c:** --> meta: nord: N51}
 {c:***********************************************}
-
-{c: OnSong duration TBD }
-
-{c:-- Stuck In A Moment You Can't Get Out Of --}
-{c: Performance Key = E }
 
 
 {c: Intro}
@@ -44,7 +40,7 @@ And you c[Aadd9]an't get [E]out of it.
 
 
 {c:-- I Still Haven't Found What I'm Looking For --}
-{c: Performance Key = C}
+{c: Performance Key - C}
 |  E  |  Em  |  C  |  C  |
 |  C  |  C   |  C  |  C  |
 
