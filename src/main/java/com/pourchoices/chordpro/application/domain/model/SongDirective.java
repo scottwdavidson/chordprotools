@@ -12,7 +12,8 @@ public enum SongDirective {
     DOCUMENT_COMMENT(List.of("{"), List.of("}"), true),
     VERSE(List.of("start_of_verse","sov"), List.of("end_of_verse","eov")),
     CHORUS(List.of("start_of_chorus","soc"), List.of("end_of_chorus","eoc")),
-    BRIDGE(List.of("start_of_bridge","sob"), List.of("end_of_bridge","eob"));
+    BRIDGE(List.of("start_of_bridge","sob"), List.of("end_of_bridge","eob")),
+    PART(List.of("start_of_part","sop"), List.of("end_of_part","eop"));
 
     private final List<String> prefixes;
     private final List<String> suffixes;
