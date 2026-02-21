@@ -62,7 +62,7 @@ public interface SongLineParserTestData {
                     .value(NORD_VALUE_01)
                     .build();
 
-    // Nord
+    // Roland
     public final static String ROLAND_VALUE_01 = "C012";
     public final static String ROLAND_01 = "{meta: roland: " + ROLAND_VALUE_01 + "}";
     public final static ParsedHeaderLine ROLAND_EXPECTED_PARSED_LINE_01 =
@@ -70,6 +70,43 @@ public interface SongLineParserTestData {
                     .headerDirective(HeaderDirective.ROLAND)
                     .value(ROLAND_VALUE_01)
                     .build();
+
+    // Countin
+    public final static String COUNTIN_VALUE_01 = "8";
+    public final static String COUNTIN_01 = "{meta: countin: " + COUNTIN_VALUE_01 + "}";
+    public final static ParsedHeaderLine COUNTIN_EXPECTED_PARSED_LINE_01 =
+        ParsedHeaderLine.builder()
+            .headerDirective(HeaderDirective.COUNTIN)
+            .value(COUNTIN_VALUE_01)
+            .build();
+
+    // Backing
+    public final static String BACKING_VALUE_01 = "8";
+    public final static String BACKING_01 = "{meta: backing: " + BACKING_VALUE_01 + "}";
+    public final static ParsedHeaderLine BACKING_EXPECTED_PARSED_LINE_01 =
+        ParsedHeaderLine.builder()
+            .headerDirective(HeaderDirective.BACKING)
+            .value(BACKING_VALUE_01)
+            .build();
+
+    // VE
+    public final static String VE_VALUE_01 = "P33";
+    public final static String VE_01 = "{meta: ve: " + VE_VALUE_01 + "}";
+    public final static ParsedHeaderLine VE_EXPECTED_PARSED_LINE_01 =
+        ParsedHeaderLine.builder()
+            .headerDirective(HeaderDirective.VE)
+            .value(VE_VALUE_01)
+            .build();
+
+    // Performance Key
+    public final static String PERFORMANCE_KEY_VALUE_01 = "C";
+    public final static String PERFORMANCE_KEY_01 =
+        "{meta: performance: " + PERFORMANCE_KEY_VALUE_01 + "}";
+    public final static ParsedHeaderLine PERFORMANCE_KEY_EXPECTED_PARSED_LINE_01 =
+        ParsedHeaderLine.builder()
+            .headerDirective(HeaderDirective.PERFORMANCE_KEY)
+            .value(PERFORMANCE_KEY_VALUE_01)
+            .build();
 
     // Version
     public final static String VERSION_VALUE_01 = "1.0";
