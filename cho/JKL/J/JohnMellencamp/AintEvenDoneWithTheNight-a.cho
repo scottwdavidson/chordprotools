@@ -1,19 +1,19 @@
 {title: Ain't Even Done With The Night}
 {artist: John Mellencamp}
-{duration: 4:10}
 {key: A}
+{duration: 4:10}
 {tempo: 120}
 {meta: nord: N51}
 {meta: countin: 8}
-{meta: backing: 99}
-{meta: performance: B}
+{meta: backing: 74}
+{meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N51}
-{comment: **  meta: countin: 8}
-{comment: **  meta: backing: 99}
-{comment: **  meta: performance: B}
-{comment: ***********************************************}
+{c:***********************************************}
+{c:**  meta: nord: N51   }
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 74   }
+{c:**  meta: performance: A   }
+{c:***********************************************}
 
 {comment: Intro}
 | A . . . | A . . . |
