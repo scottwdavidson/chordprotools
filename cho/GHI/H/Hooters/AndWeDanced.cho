@@ -1,12 +1,17 @@
 {title: And We Danced - A}
 {artist: The Hooters}
 {key: A}
-{tempo: 144}
 {duration: 3:45}
+{tempo: 144}
+{meta: countin: 8}
+{meta: backing: 81}
+{meta: performance: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
-
+{c:***********************************************}
+{c:**  meta: countin: 8   }
+{c:**  meta: backing: 81   }
+{c:**  meta: performance: G   }
+{c:***********************************************}
 
 {comment: Intro - Mandolin and Synth}
 | Dsus2  .  .  .  | Esus  E  .  .  | A/C#  .  .  .  | Dsus2  .  .  .  |

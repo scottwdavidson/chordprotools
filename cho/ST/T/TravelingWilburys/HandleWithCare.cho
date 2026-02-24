@@ -5,14 +5,15 @@
 {tempo: 122}
 {meta: nord: M22}
 {meta: countin: 4}
+{meta: backing: 80}
 {meta: ve: P12}
 
 {c:***********************************************}
-{c:**  meta: nord: M22}
-{c:**  meta: countin: 4}
-{c:**  meta: ve: P12}
+{c:**  meta: nord: M22   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 80   }
+{c:**  meta: ve: P12   }
 {c:***********************************************}
-
 
 {comment: Intro}
 | D . D/C . | G/B . G . | D . D/C . | G/B . G . |
