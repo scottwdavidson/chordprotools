@@ -4,8 +4,13 @@
 {duration: 3:30}
 {tempo: 125}
 {meta: countin: 4}
+{meta: backing: 85}
+{meta: performance: G}
 
 {c:***********************************************}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 85   }
+{c:**  meta: performance: G   }
 {c:***********************************************}
 
 {c: Intro}
