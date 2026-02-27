@@ -1,18 +1,17 @@
 {title: Cover Me}
 {artist: Bruce Springsteen}
 {key: Bm}
-{tempo: 120}
 {duration: 3:00}
+{tempo: 120}
 {meta: nord: ??}
 {meta: countin: 4}
-{meta: backing: 80}
+{meta: backing: 82}
 
 {c:***********************************************}
-{c:**  meta: nord: ??}
-{c:**  meta: countin: 4}
-{c:**  meta: backing: 80}
+{c:**  meta: nord: ??   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 82   }
 {c:***********************************************}
-
 
 {comment: Intro - with guitar pickup}
 | . Bm D A | . Bm D A | . Bm D A | . Bm D A |

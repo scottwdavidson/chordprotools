@@ -1,8 +1,15 @@
 {title: What's Up}
-{artist: 4 Non Blonds}
+{artist: 4 Non Blondes}
 {key: A}
 {duration: 4:00}
 {tempo: 67}
+{meta: countin: 4}
+{meta: backing: 66}
+
+{c:***********************************************}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 66   }
+{c:***********************************************}
 
 {comment: Intro}
 | A . . . | A . . . | Bm . . . | Bm . . . | 
