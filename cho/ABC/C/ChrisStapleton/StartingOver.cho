@@ -3,14 +3,17 @@
 {key: G}
 {duration: 3:45}
 {tempo: 90}
+{meta: countin: 4}
+{meta: backing: 87}
 {meta: performance: Bb}
 
-{c: Guitar capo 3}
-
 {c:***********************************************}
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 87   }
 {c:**  meta: performance: Bb   }
 {c:***********************************************}
 
+{c: Guitar capo 3}
 
 
 {comment: Intro}
@@ -21,9 +24,9 @@
 
 {start_of_verse}
 Well, the [G]road rolls out like a welcome mat [Gsus4] [G]
-To a [Cmaj7]better place than the one we're at. [C] [Cmaj7]
-And [D]I ain't got no kinda plan [Dsus2]
-But I've [C]had all of this town I can stand. [Cmaj7]
+To a [Cmaj7]better place than the one we're at. [C] [Cmaj7]
+And [D]I ain't got no kinda plan [Dsus2]
+But I've [C]had all of this town I can stand. [Cmaj7]
 An' [G]I got friends out on the coast [Gsus4] [G]
 We can [Cmaj7]jump in the water and see what floats. [C] [Cmaj7]
 [D]We've been saving for a rainy day [Dsus2]
