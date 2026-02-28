@@ -82,7 +82,7 @@ Sentimental Lady,Bob Welch,E,2:45,72,,,,,,,,,,./cho/ABC/B/BobWelch/SentimentalLa
 Love Sneakin' Up On You,Bonnie Raitt,D,,108,,,,,,,,,,./cho/ABC/B/BonnieRaitt/LoveSneakinUpOnYou.cho
 Aubrey,Bread,G,,,,,,,,,,,,./cho/ABC/B/Bread/Aubry.cho
 Love and Mercy,Brian Wilson,G,3:10,96,,,N52,,,,,,,./cho/ABC/B/BrianWilson/LoveAndMercy-g.cho
-Cover Me,Bruce Springsteen,Bm,3:00,120,4,80,??,,,,,,,./cho/ABC/B/BruceSpringsteen/CoverMe.cho
+Cover Me,Bruce Springsteen,Bm,3:00,120,4,82,??,,,,,,,./cho/ABC/B/BruceSpringsteen/CoverMe.cho
 Apt,Rose & Bruno Mars,Eb,2:40,149,4,65,P51,,,,,,,./cho/ABC/B/BrunoMars/Apt.cho
 Die With A Smile,"Bruno Mars, Lady Gaga",A,,,4,64,,,,,,,,./cho/ABC/B/BrunoMars/DieWithASmile.cho
 Nothin On You,Bruno Mars & B.o.B,Bb,3:45,107,,,,,,,,,,./cho/ABC/B/BrunoMars/NothinOnYou.cho
@@ -168,7 +168,7 @@ Landslide,Fleetwood Mac,C,,,,,,,,,,,,./cho/DEF/F/FleetwoodMac/Landslide-c.cho
 Landslide,Fleetwood Mac,Eb,,,,,,,,Eb,,,,./cho/DEF/F/FleetwoodMac/Landslide-lyrics.cho
 Landslide,Fleetwood Mac,Eb,,,,,,,,Eb,,,,./cho/DEF/F/FleetwoodMac/Landslide.cho
 Say That You Love Me,Fleetwood Mac,A,3:00,128,4,,N12,,,A,,,,./cho/DEF/F/FleetwoodMac/SayThatYouLoveMe.cho
-What's Up,4 Non Blonds,A,4:00,67,,,,,,,,,,./cho/DEF/F/FourNonBlondes/WhatsUp.cho
+What's Up,4 Non Blondes,A,4:00,67,4,66,,,,,,,,./cho/DEF/F/FourNonBlondes/WhatsUp.cho
 Much Too Young To Feel This Damnn Old,Garth Brooks,D,2:33,162,4,13,O42,,,,,,,./cho/GHI/G/GarthBrooks/MuchTooYoungToFeel.cho
 Before My Heart Finds Out,Gene Cotton,F,2:10,123,,,,,,,,,,./cho/GHI/G/GeneCotton/BeforeMyHeartFindsOut.cho
 In Too Deep,Genesis,G,,,,,,,,,,,,./cho/GHI/G/Genesis/InTooDeep.cho
@@ -189,7 +189,7 @@ Breakup Song,Greg Kihn,Am,2:49,136,4,,P41,,,F#m,,,,./cho/GHI/G/GregKihn/BreakupS
 Undun,Guess Who,Em,3:30,100,,,,,,,,,,./cho/GHI/G/GuessWho/Undun.cho
 Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,12,P21,,,D,,,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho
 Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,15,O:24,,,Em,,,,./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho
-Small Town Saturday Night,Hal Ketchum,G,2:30,100,,,,,,G,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
+Small Town Saturday Night,Hal Ketchum,G,2:30,100,8,73,,,,G,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
 Softer Than a Whisper,Hal Ketchum,C,3:05,95,,,,,,,,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho
 I Can't Go For That,Hall & Oates,Eb,,,,,,,,,,,,./cho/GHI/H/HallAndOates/ICantGoForThat.cho
 Rich Girl,Hall & Oates,F,,,,,,,,,,,,./cho/GHI/H/HallAndOates/RichGirl.cho
@@ -328,7 +328,7 @@ Kodachrome,Paul Simon,D,,136,,,,,,,,,,./cho/PQR/P/PaulSimon/Kodachrome.cho
 You Have The Right To Remain Silent,Perfect Stranger,G,,,,,,,,,,,,./cho/PQR/P/PerfectStranger/YouHaveTheRightToRemainSilent.cho
 Baby I Love Your Way,Peter Frampton,G,3:40,78,,,,,,,,,,./cho/PQR/P/PeterFrampton/BabyILoveYourWay.cho
 I'm In You,Peter Frampton,C,4:00,99,,,,,,C,,,,./cho/PQR/P/PeterFrampton/ImInYou.cho
-Show Me The Way,Peter Frampton,D,3:45,137,,,,,,,,,,./cho/PQR/P/PeterFrampton/ShowMeTheWay.cho
+Show Me The Way,Peter Frampton,D,3:45,137,8,46,,,,,,,,./cho/PQR/P/PeterFrampton/ShowMeTheWay.cho
 Let My Love Open The Door,Pete Townsend,A,2:30,165,8,22,M51,,U35,A,,,,./cho/PQR/P/PeteTownsend/LetMyLoveOpenTheDoor.cho
 Do You Remember ?,Phil Collins,F,,,,,,,,,,,,./cho/PQR/P/PhilCollins/DoYouRemember.cho
 I Had Some Help,Post Malone ( w/ Morgan Wallen),C,,,,,,,,,,,,./cho/PQR/P/PostMalone/IHadSomeHelp.cho
@@ -381,7 +381,7 @@ Sunrise in Cork,Scott Davidson,G,2:00,,,,,,,,,,,./cho/ST/S/ScottDavidson/Sunrise
 When Will We Sing Together Again,Scott Davidson,F,2:30,102,,,,,,,,,,./cho/ST/S/ScottDavidson/WhenWillWeSingTogetherAgain.cho
 Diamond Girl,Seals and Crofts,Am,3:45,127,8,23,O42,,,,,,,./cho/ST/S/SealsCrofts/DiamondGirl.cho
 Summer Breeze,Seals and Crofts,E,3:25,76,4,,041,,,,,,,./cho/ST/S/SealsCrofts/SummerBreeze.cho
-We May Never Pass This Way Again,Seals & Crofts,E,3:50,88,4,,M14,,,,,,,./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho
+We May Never Pass This Way Again,Seals & Crofts,E,3:50,88,4,86,M14,,,,,,,./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho
 She's Not There / Venus,Zombies / Shocking Blue,A,4:00,,,,O21,,,,,,,./cho/ST/S/ShockingBlue/ShesNotThere-Venus.cho
 Venus,Shocking Blue,A,,,,,,,,,,,,./cho/ST/S/ShockingBlue/Venus.cho
 Leave the Door Open,Silk Sonic,F,,,,,,,,,,,,./cho/ST/S/SilkSonic/LeaveTheDoorOpen.cho
@@ -433,7 +433,7 @@ Runnin' Down A Dream,Tom Petty,E,3:45,170,8,16,N51,,,E,,,,./cho/ST/T/TomPetty/Ru
 Hey Soul Sister,Train,B,,,,,,,,,,,,./cho/ST/T/Train/HeySoulSister.cho
 Handle With Care,Traveling Wilburys,G,3:18,122,4,80,M22,,P12,,,,,./cho/ST/T/TravelingWilburys/HandleWithCare.cho
 Stuck In A Moment / I Still Haven't Found,U2,E / C,,TBD,,,N51,,,N51,,,,./cho/UV-Z/U2/StuckInAMoment-IStillHaventFound.cho
-Brown Eyed Girl,Van Morrison,G,3:00,149,8,,,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
+Brown Eyed Girl,Van Morrison,G,3:00,149,8,76,,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
 Jump,Van Halen,C,3:55,130,,,,,,,,,,./cho/UV-Z/V/VanMorrison/VanHalen/Jump.cho
 Blinding Lights,The Weeknd,Fm,3:20,171,,,,,,,,,,./cho/UV-Z/W/Weeknd/BlindingLights.cho
 Save Your Tears,The Weeknd,C,,,,,,,,,,,,./cho/UV-Z/W/Weeknd/SaveYourTears.cho

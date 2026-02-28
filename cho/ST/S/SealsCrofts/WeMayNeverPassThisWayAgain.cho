@@ -5,10 +5,12 @@
 {tempo: 88}
 {meta: nord: M14}
 {meta: countin: 4}
+{meta: backing: 86}
 
 {c:***********************************************}
-{c:******* meta: nord: M14}
-{c:******* meta: countin: 4}
+{c:**  meta: nord: M14   }
+{c:**  meta: countin: 4   }
+{c:**  meta: backing: 86   }
 {c:***********************************************}
 
 {c: Intro}
