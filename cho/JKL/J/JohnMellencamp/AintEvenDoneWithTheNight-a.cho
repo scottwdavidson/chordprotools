@@ -3,17 +3,15 @@
 {key: A}
 {duration: 4:10}
 {tempo: 120}
-{meta: nord: N51}
+{meta: nord: N12}
 {meta: countin: 8}
 {meta: backing: 74}
-{meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N51   }
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 74   }
-{comment: **  meta: performance: A   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N12   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 74   }
+{comment:***********************************************}
 
 {comment: Intro}
 | A . . . | A . . . |
