@@ -15,6 +15,7 @@
 | G . . . | C . . . | G . . . | D . . . | 
 | G . . . | C . . . | G . . . | D . . . | 
 
+{comment: Scott vocal}
 {start_of_verse}
 [G] Hey where did we [C]go
 [G] Days when the rains [D]came
@@ -29,6 +30,7 @@
 {end_of_verse}
 
 
+{comment: Jeff vocal}
 {start_of_verse}
 [G] Whatever hap[C]pened
 [G] Tuesday and so [D]slow
@@ -45,15 +47,23 @@ With a[G] transistor ra[D7]dio
 
 
 {start_of_chorus}
-Sha la la la[C] la la la la[G] la la la te da[D7]
-Just like that
-[G] Sha la la la[C] la la la la[G] la la la te da[D7]  la te da[G][G][G]
+[G]Sha la la la[C] la la la la
+[G] la la la te da[D7]
+           ( Just like that )
+[G] Sha la la la[C] la la la la
+[G] la la la te da[D7]  la te da
 {end_of_chorus}
 
 {comment: piano solo}
-| G . . . | C . . . | G . . . | D . . . | 
+| G . . . | G . . . |
+  (single notes)
+| G . . . | G . . . |
+  (bass / piano interlude)
+| G . . . | C . . . | 
+| G . . . | D . . . | 
 
 
+{comment: Scott vocal}
 {start_of_verse}
 [G] So hard to find [C]my way
 [G] Now that I'm all on[D]my own
@@ -69,9 +79,15 @@ Just like that
 
 
 {start_of_chorus}
-[D] Do you remem[D7]ber when[D7]  we used to sing[G]
-Sha la la la[C] la la la la[G] la la la te da[D7]
-[G] Sha la la la[C] la la la la[G] la la la te da[D7]
-[G] Sha la la la[C] la la la la[G] la la la te da[D7]
+[D] Do you remem[D7]ber when[D7]  we used to sing
+
+[G] Sha la la la[C] la la la la
+[G] la la la te da[D7]
+
+[G] Sha la la la[C] la la la la
+[G] la la la te da[D7]
+
+[G] Sha la la la[C] la la la la
+[G] la la la te da[D7]
 [G] 
 {end_of_chorus}
