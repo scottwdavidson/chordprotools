@@ -7,19 +7,19 @@
 {meta: countin: 4}
 {meta: backing: 33}
 
-{comment:***********************************************}
-{comment:**  meta: nord: M23   }
-{comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 33   }
-{comment:***********************************************}
+{comment: ***********************************************}
+{comment: **  meta: nord: M23   }
+{comment: **  meta: countin: 4   }
+{comment: **  meta: backing: 33   }
+{comment: ***********************************************}
 
 {meta: coutin : 4}
 
-{comment:***********************************************}
+{comment: ***********************************************}
 {comment: meta: nord : M23 **}
 {comment: meta: backing : 33 **}
 {comment: coutin : 4 **}
-{comment:***********************************************}
+{comment: ***********************************************}
 
 
 {comment: Intro}

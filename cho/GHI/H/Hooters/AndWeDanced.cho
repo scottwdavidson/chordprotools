@@ -7,11 +7,11 @@
 {meta: backing: 81}
 {meta: performance: G}
 
-{comment:***********************************************}
-{comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 81   }
-{comment:**  meta: performance: G   }
-{comment:***********************************************}
+{comment: ***********************************************}
+{comment: **  meta: countin: 8   }
+{comment: **  meta: backing: 81   }
+{comment: **  meta: performance: G   }
+{comment: ***********************************************}
 
 {comment: Intro - Mandolin and Synth}
 | Dsus2  .  .  .  | Esus  E  .  .  | A/C#  .  .  .  | Dsus2  .  .  .  |

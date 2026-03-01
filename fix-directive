@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+# Real Run: Applying changes to .cho files in-place
+echo "--- Applying Changes to .cho files ---"
+
+# 1. Replace {c: at start of line with {comment:
+find . -type f -name "*.cho" -exec sed -i '' 's/^{c:/{comment:/g' {} +
+
+# 2. Add space after comment: if followed by double asterisks
+find . -type f -name "*.cho" -exec sed -i '' 's/comment:\*\*/comment: \*\*/g' {} +
+
+echo "Done! Files updated."

@@ -8,12 +8,12 @@
 {meta: backing: 40}
 {meta: performance: E}
 
-{comment:***********************************************}
-{comment:**  meta: nord: N51   }
-{comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 40   }
-{comment:**  meta: performance: E }
-{comment:***********************************************}
+{comment: ***********************************************}
+{comment: **  meta: nord: N51   }
+{comment: **  meta: countin: 8   }
+{comment: **  meta: backing: 40   }
+{comment: **  meta: performance: E }
+{comment: ***********************************************}
 
 {comment:Intro}
 | C#m7 ... | AM7 ... | C#m7 ... | AM7 ...    |

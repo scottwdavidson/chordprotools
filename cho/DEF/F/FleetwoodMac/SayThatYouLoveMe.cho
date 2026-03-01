@@ -7,12 +7,12 @@
 {meta: countin: 4}
 {meta: performance: A}
 
-{comment:***********************************************}
-{comment:** meta: nord: N12}
-{comment:** meta: performance: A}
-{comment:** meta: backing: 100}
-{comment:** meta: countin: 4  }
-{comment:***********************************************}
+{comment: ***********************************************}
+{comment: ** meta: nord: N12}
+{comment: ** meta: performance: A}
+{comment: ** meta: backing: 100}
+{comment: ** meta: countin: 4  }
+{comment: ***********************************************}
 
 {comment: Intro}
 |  A    D/A | A    D/A  | 

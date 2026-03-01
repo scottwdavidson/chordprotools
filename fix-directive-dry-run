@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+# Dry Run: Preview changes to .cho files
+echo "--- Previewing Changes ---"
+
+find . -type f -name "*.cho" -exec sed -n '
+    /^{c:/ s/^{c:/{comment:/p
+    /comment:\*\*/ s/comment:\*\*/comment: \*\*/p
+' {} +

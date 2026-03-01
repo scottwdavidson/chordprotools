@@ -7,11 +7,11 @@
 {meta: countin: 8}
 {meta: backing: 55}
 
-{comment:***********************************************}
-{comment:**  meta: nord: A01   }
-{comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 55   }
-{comment:***********************************************}
+{comment: ***********************************************}
+{comment: **  meta: nord: A01   }
+{comment: **  meta: countin: 8   }
+{comment: **  meta: backing: 55   }
+{comment: ***********************************************}
 
 {comment: Intro}
 | G . . . | G . . . |

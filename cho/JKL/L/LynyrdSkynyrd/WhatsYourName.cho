@@ -6,10 +6,10 @@
 {meta: countin: 8 ; start with pickup}
 {meta: backing: 25}
 
-{comment:***********************************************}
-{comment:**  meta: countin: 8 ; start with pickup}
-{comment:**  meta: backing: 25}
-{comment:***********************************************}
+{comment: ***********************************************}
+{comment: **  meta: countin: 8 ; start with pickup}
+{comment: **  meta: backing: 25}
+{comment: ***********************************************}
 
 {comment: Intro}
 | . . . C C# | D . F E | D . E F# | G . . . | A C B A |
