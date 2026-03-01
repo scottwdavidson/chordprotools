@@ -4,10 +4,10 @@
 {duration: 3:30}
 {tempo: 66}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | C . . . | C . . . | F . . . | F . . . |
 | G7 . . . | G7 . . . | C . F/C . | C . F/C . |
 
@@ -36,7 +36,7 @@ Your eyes have [Am]died but you see more than [F]I
 [Ab6]Daniel you're a [C]star [A7]in the face of the [Dm]sky [G7]
 {eoc}
 
-{c:Solo}
+{comment:Solo}
 | C . . . | C . . . | Dm7 . . . | Dm7 . . . | 
 | G . . . | G . . . | E7 . . . | Am . . . |
 | F . . . | G . . . | Am . . . | Am . . . |
@@ -57,7 +57,7 @@ God it [F]looks like Daniel...[F]
 [G7] must be the [F]clouds in my [C]eyes. [C]
 {eov}
 
-{c:Outro}
+{comment:Outro}
 God it [F]looks like Daniel...[F]      
 [G7] must be the [F]clouds in my [C]eyes. [C]
 

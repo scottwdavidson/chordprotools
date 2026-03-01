@@ -4,10 +4,10 @@
 {duration: 4:00}
 {tempo: 125}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | E ... | E ... | E ... | E ... |
 
 {start_of_verse}
@@ -55,7 +55,7 @@ Get it [G]on Bang a [A]gong Get it on[E]
 Get it [G]on Bang a [A]gong Get it on[E] 
 {end_of_chorus}
 
-{c: Turnaround E }
+{comment: Turnaround E }
 | E ... | E ... | E ... | E ... |
 | E ... | E ... | E ... | E ... |
 
@@ -74,7 +74,7 @@ Get it [G]on Bang a [A]gong Get it on[E]
 Get it [G]on Bang a [A]gong Get it on[E] 
 {end_of_chorus}
 
-{c: Turnaround E }
+{comment: Turnaround E }
 | E ... | E ... | E ... | E ... |
 | E ... | E ... | E ... | E ... |
 
@@ -83,5 +83,5 @@ Get it [G]on Bang a [A]gong Get it on[E]
 Get it [G]on Bang a [A]gong Get it on[E] 
 {end_of_chorus}
 
-{c: Outro}
+{comment: Outro}
 | G ... | A ... | E ... |

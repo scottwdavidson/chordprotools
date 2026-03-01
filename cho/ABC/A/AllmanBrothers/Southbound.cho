@@ -2,10 +2,10 @@
 {artist: Allman Brothers}
 {key: F}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | [Bb7] [B7] | [C7] N.C. | N.C. [Bb7] [B7] | [C7] N.C. | [C9] |
 | [F9] | [F9] | [C9] | [C9] |  [G9] | [F9] | [C9] |
 
@@ -28,7 +28,7 @@ Whoa I'm [C9]Southbound.
 Well you can [G9]tell your other man,[F9] Sweet daddy's on his [C9]way.
 {eob}
 
-{c: Guitar solo}
+{comment: Guitar solo}
 | Bb7 B7 C7 . | C7 | . Bb7 B7 C7 | C9 | . Eb7 E7 F |
 | F9   | F9   | C9 | 
 | C9   | G9   | F9 | C9 |
@@ -47,7 +47,7 @@ I'm goin' [C9]Southbound, yeah baby
 [G9]Make it all up to you [F9]for all the [C9]things you should have had before.
 {eob}
 
-{c: Piano solo}
+{comment: Piano solo}
 | C9 | C9 | C9 | C9 | F9 | F9 | 
 | C9 | C9 | G9 | F9 | C9 | C9 | x2 
 

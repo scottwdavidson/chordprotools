@@ -6,12 +6,12 @@
 {meta: countin: 8}
 {meta: backing: 54}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 54   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 54   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | E . A/E . | D/E . A/E . |
 | E . A/E . | D/E . A/E . |
 | E . A/E . | D/E . A/E . |

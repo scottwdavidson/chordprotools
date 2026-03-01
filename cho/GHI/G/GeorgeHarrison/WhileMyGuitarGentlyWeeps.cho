@@ -6,18 +6,18 @@
 {meta: countin: 4}
 {meta: backing: 78}
 
-{c:***********************************************}
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 78   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 78   }
+{comment:***********************************************}
 
 
-{c: Intro }
+{comment: Intro }
 | Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
 | Am . . . | G . . . | D . . . | E . . . |
 
 
-{c: Scott Vocals}
+{comment: Scott Vocals}
 {start_of_verse}
 I [Am]look at you [Am/G]all see the [D9/F#]love there that's [F]sleeping
 [Am] While my gui[G]tar gently [D]weeps.      [E]
@@ -26,7 +26,7 @@ I [Am]look at the [Am/G]floor and I [D9/F#]see it needs [F]sweeping
 {end_of_verse}
 
 
-{c: Jeff Vocals}
+{comment: Jeff Vocals}
 {start_of_chorus}
 [A] I don't know [C#m]why_____[F#m]nobody [C#m]told you,  
 [Bm] How to un[Bm]fold your [E]love   [E]
@@ -35,7 +35,7 @@ I [Am]look at the [Am/G]floor and I [D9/F#]see it needs [F]sweeping
 {end_of_chorus}
 
 
-{c: Scott Vocals}
+{comment: Scott Vocals}
 {start_of_verse}
 I [Am]look at the [Am/G]world and I [D9/F#]notice it's [F]turning,
 [Am] While my gui[G]tar gently [D]weeps.    [E]  
@@ -44,14 +44,14 @@ With [Am]every mis[Am/G]take we must [D9/F#]surely be [F]learning,
 {end_of_verse}
 
 
-{c:Solo over verse}
+{comment:Solo over verse}
 | Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
 | Am  . . . | G . . . | D . . . | E . . . |
 | Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
 | Am  . . . | G . . . | C . . . | E . . . |
 
 
-{c: Jeff Vocals}
+{comment: Jeff Vocals}
 {start_of_chorus}
 [A] I don't know [C#m]how_____[F#m] you were di[C#m]verted,
 [Bm] You were per[Bm]verted [E]too.     [E]
@@ -68,7 +68,7 @@ I [Am]look at you [Am/G]all, see the [D9/F#]love there that's [F]sleeping
 [Am] Still my gui[G]tar gently [C]weeps.      [E]
 {end_of_verse}
 
-{c: Outro Solo}
+{comment: Outro Solo}
 | Am . . . | Am/G . . . | D9/F# . . . | F . . . | 
 | Am  . . . | G . . . | D . . . | E . . . |
 | Am . . . | Am/G . . . | D9/F# . . . | F . . . | 

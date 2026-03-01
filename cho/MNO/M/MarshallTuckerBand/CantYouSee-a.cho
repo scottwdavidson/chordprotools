@@ -7,44 +7,44 @@
 {meta: countin: 4}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: nord: N34}
-{c:**  meta: countin: 4}
-{c:**  meta: performance: A}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N34}
+{comment:**  meta: countin: 4}
+{comment:**  meta: performance: A}
+{comment:***********************************************}
 
-{c: Intro}
-
-
+{comment: Intro}
 
 
 
-{c: Acoustic Guitar Picking}
+
+
+{comment: Acoustic Guitar Picking}
 | A | Asus2/G | D | A |
 
 
 
 
-{c: Guitar Strumming }
-{c: Add Flute - Low Octave }
+{comment: Guitar Strumming }
+{comment: Add Flute - Low Octave }
 | A | Asus2/G | D | A |
 
 
 
 
-{c: Flute - High Octave }
+{comment: Flute - High Octave }
 | A | Asus2/G | D | A |
 
 
 
 
-{c: Add Electric Guitar Licks}
+{comment: Add Electric Guitar Licks}
 | A | Asus2/G | D | A |
 
 
 
 
-{c: Electric Guitar Licks}
+{comment: Electric Guitar Licks}
 | A | Asus2/G | D | A |
 
 
@@ -84,7 +84,7 @@
 
 
 
-{c: Solo 1}
+{comment: Solo 1}
 | A | Asus2/G | D | A |
 
 | A | Asus2/G | D | A |
@@ -109,19 +109,19 @@
 
 
 
-{c: Solo 2}
+{comment: Solo 2}
 | A | Asus2/G | D | A |
 
 | A | Asus2/G | D | A |
 
 
 
-{c: Softly}
+{comment: Softly}
 {soc}
 Can't you [A]see, can't you [Asus2/G]see, what that [D]woman, she been doin' to [A]me
 Can't you [A]see, can't you [Asus2/G]see, what that [D]woman, she been doin' to [A]me
 
-{c: Original Volume}
+{comment: Original Volume}
 (Can't you [A]see), Oh she's a crazy l[Asus2/G]ady, 
 (what that [D]woman), what that woman she been doin' to [A]me
 (Can't you [A]see), Lord I can't stand it no[Asus2/G] more, 
@@ -143,14 +143,14 @@ Can't you [A]see, can't you [Asus2/G]see, what that [D]woman, she been doin' to 
 
 
 
-{c: Solo 3}
+{comment: Solo 3}
 | A | Asus2/G | D | A |
 
 | A | Asus2/G | D | A |
 
 
 
-{c: Outro}
-{c: Add Flute}
+{comment: Outro}
+{comment: Add Flute}
 | A | Asus2/G | D | A |
 

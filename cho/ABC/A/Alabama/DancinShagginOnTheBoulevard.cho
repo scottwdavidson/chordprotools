@@ -4,8 +4,8 @@
 {duration: }
 {tempo: }
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 [G]Well, the Magic Attic's where the [C]music rolls
@@ -63,7 +63,7 @@ And the Bama b[G]oys at the Bowery[C]
 Well, now they c[G]an't dance but they play for free[D]
 {end_of_verse}
 
-{c: Outro}
+{comment: Outro}
 Dancin',[Am7] shaggin' on the Blvd.[G]
 Dancin',[Am7] shaggin' on the Blvd.[G]
 

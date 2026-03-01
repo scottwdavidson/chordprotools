@@ -7,16 +7,16 @@
 {meta: backing: 45}
 {meta: performance: C#m}
 
-{c:***********************************************}
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 45   }
-{c:**  meta: performance: C#m   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 45   }
+{comment:**  meta: performance: C#m   }
+{comment:***********************************************}
 
 {comment: Intro}
 [C#m] [Amaj7]Uh huh...  [E]  [B]Life's like this.
 [C#m] Uh huh, [Amaj7]uh huh... [E] That's the [B]way it is.
-{c: BB Beat Verse}
+{comment: BB Beat Verse}
 [C#m] [Amaj7]  [E]  'Cause [B]life's like this.
 [C#m] Uh huh, [Amaj7]uh huh... [E] That's the [B]way it is.
 
@@ -30,27 +30,27 @@
 {eov}
 
 {comment: Pre-Chorus}
-{c: BB Beat PreChorus}
+{comment: BB Beat PreChorus}
 [Aadd9]Somebody else 'round everyone else
 You're [C#m]watching your back like you can't relax
 You're [Aadd9]tryin' to be cool
 You look like a fool to m[B]e
 Tell me...
 
-{c: BB Beat Chorus 1}
+{comment: BB Beat Chorus 1}
 {soc}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
 [B]Life's like this, you
-{c: BB Beat Chorus 2}
+{comment: BB Beat Chorus 2}
 [C#m] You fall and you cra[A]wl and you break
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it
 No, no, [E]no..
 {eoc}
 
-{c: BB Beat Verse}
+{comment: BB Beat Verse}
 {sov}
 [E]You come - over unannounced
 [C#m]Dressed up like you're somethin' else
@@ -61,27 +61,27 @@ No, no, [E]no..
 {eov}
 
 {comment: Pre-Chorus}
-{c: BB Beat PreChorus}
+{comment: BB Beat PreChorus}
 [Aadd9]Somebody else 'round everyone else
 You're [C#m]watching your back like you can't relax
 You're [Aadd9]tryin' to be cool
 You look like a fool to m[B]e
 Tell me...
 
-{c: BB Beat Chorus 1}
+{comment: BB Beat Chorus 1}
 {soc}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
 [B]Life's like this, you
-{c: BB Beat Chorus 2}
+{comment: BB Beat Chorus 2}
 [C#m] You fall and you cra[A]wl and you break
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it
 No, no, [E]no..
 {eoc}
 
-{c: BB Beat Verse}
+{comment: BB Beat Verse}
 {comment: Bridge}
 [C#m]No, no, no... [Aadd9]No, no, no... [B]No, no, no...
 
@@ -92,20 +92,20 @@ No, no, [E]no..
 {eov}
 
 {comment: Pre-Chorus}
-{c: BB Beat PreChorus}
+{comment: BB Beat PreChorus}
 [Aadd9]Somebody else 'round everyone else
 You're [C#m]watching your back like you can't relax
 You're [Aadd9]tryin' to be cool
 You look like a fool to m[B]e
 Tell me...
 
-{c: BB Beat Chorus 1}
+{comment: BB Beat Chorus 1}
 {soc}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
 [B]Life's like this, you
-{c: BB Beat Chorus 2}
+{comment: BB Beat Chorus 2}
 [C#m] You fall and you cra[A]wl and you break
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it
@@ -113,13 +113,13 @@ No, no, [E]no..
 {eoc}
 
 {comment: Outro}
-{c: BB Beat Chorus 1}
+{comment: BB Beat Chorus 1}
 {soc}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
 [B]Life's like this, you
-{c: BB Beat Chorus 2}
+{comment: BB Beat Chorus 2}
 [C#m] You fall and you cra[A]wl and you break
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it

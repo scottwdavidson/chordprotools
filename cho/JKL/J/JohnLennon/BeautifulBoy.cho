@@ -3,12 +3,12 @@
 {key: D}
 {tempo: 100}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {columns: 2}
 
-{c:Intro}
+{comment:Intro}
 | D D6 | Em | D D6 | Em |
 
 {sov}
@@ -65,5 +65,5 @@ Before you [D]cross the [D6]street[D] [D6]
 [Em7]Darling, darling, darling [D6]Sean
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | D D6 | Em | D D6 | Em |

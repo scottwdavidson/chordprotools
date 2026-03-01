@@ -4,13 +4,13 @@
 {duration: 3:10}
 {tempo: 153}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro - bass only}
+{comment: Intro - bass only}
 | A . . . | E . . . | Bm7 . . . | D . . . |
 
-{c: Intro}
+{comment: Intro}
 | A . . . | E . . . | Bm7 . . . | D . . . |
 | A . . . | E . . . | Bm7 . . . | D . . . |
 | A . . . | E . . . | Bm7 . . . | D . . . |
@@ -30,7 +30,7 @@ I'll run a[A]way with you[E]
 I'll run a[Bm7]way with you"[D]
 {end_of_verse}
 
-{c: Interlude}
+{comment: Interlude}
 | A . . . | E . . . | Bm7 . . . | D . . . |
 | A . . . | E . . . | Bm7 . . . | D . . . |
 | A . . . | E . . . | Bm7 . . . | D . . . |
@@ -56,7 +56,7 @@ You're just like a [A]dream[E]
 You're just like a [Bm7]dream[D]
 {end_of_chorus}
 
-{c: Interlude}
+{comment: Interlude}
 | A . . . | E . . . | Bm . . . | D . . . |
 | A . . . | E . . . | Bm . . . | D . . . |
 | A . . . | E . . . | Bm . . . | D . . . |

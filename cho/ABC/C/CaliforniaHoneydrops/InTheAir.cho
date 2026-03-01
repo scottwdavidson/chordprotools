@@ -2,10 +2,10 @@
 {artist: The California Honeydrops}
 {key: E}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | E A | E A | x4
 
 {sov}
@@ -15,7 +15,7 @@
 [Am7]Music all [Bm7]in the a[E]ir
 {eov}
 
-{c: Interlude}
+{comment: Interlude}
 | E A | E A | x1
 
 {sov}
@@ -26,7 +26,7 @@
 [Am7]There was [Bm7]music al[E]l in the air
 {eov}
 
-{c: Bridge}
+{comment: Bridge}
 {sob}
 | ---[G#m7]---------[F#m7]--- | x1
 | -----[B7]----- |
@@ -45,20 +45,20 @@ There was [Am7]music all [Bm7]in the a[E]ir
 [E7]Ooh sweet [Am7]music i[Bm]n the [E]air
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 [A]I dreamed a dream today[E]
 [A]That you were home to stay[E]
 [A]And dropped the [G#7]color in thi[C#m]s world of [Am7]grey
 [Am7]Ooh [Bm7]baby[E]
 
-{c: Instrumental: (16 bars total)}
+{comment: Instrumental: (16 bars total)}
 | E    A    |  E   |    3x
 | Am7  Bm7  |  E   |
 
 | E    A    |  E   |    3x
 | Am7  Bm7  |  E   |
 
-{c: Bridge 2}
+{comment: Bridge 2}
 {sob}
 | ---[G#m7]---------[F#m7]--- | x3
 | -----[B7]----- |
@@ -72,12 +72,12 @@ There was [Am7]music all [Bm7]in the a[E]ir
 [Am7]Witho[Bm7]ut musi[E]c in the air
 {eov}
 
-{c: Outro}
+{comment: Outro}
 [Am7]Witho[Bm7]ut musi[E]c - Oh baby
 [Am7]Witho[Bm7]ut musi[E]c- I can't make it girl
 [Am7]Witho[Bm7]ut musi[E]c - Oh in the air
 [Am7]Witho[Bm7]ut musi[E]c- Please baby
 [Am7]Witho[Bm7]ut musi[E]c- All in the air
 
-{c: Instrumental Outro}
+{comment: Instrumental Outro}
 | E7  | Am7  Bm7  |  E  |  x4

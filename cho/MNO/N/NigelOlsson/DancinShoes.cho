@@ -3,8 +3,8 @@
 {key: Bm}
 {tempo: 101}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {sov}
 T[Am]oo many long conve[Em]rsations
@@ -36,7 +36,7 @@ S[Dm]pin on that wh[G]eel
 S[Dm]pin on that wh[G]eel of ro[C]mance
 {eoc}
 
-{c:Solo}
+{comment:Solo}
 | C . | Em . | F . | G . | x4
 Ah oh [Dm]ah ah ah [C]oh[C/E]
 
@@ -57,7 +57,7 @@ C[Dm]aught on that w[G]heel
 Ca[Dm]ught on that wh[G]eel of rom[C]ance
 {eoc}
 
-{c:KeyChange}
+{comment:KeyChange}
 {soc}
 ([Db]Put on your da[Fm]ncin' sh[Gb]oes)[Ab])
 Put on your dancin' shoes

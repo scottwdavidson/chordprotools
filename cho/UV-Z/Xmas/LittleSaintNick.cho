@@ -4,10 +4,10 @@
 {duration: 1:45}
 {tempo: 131}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
 | G C/G G C/G | G C/G G C/G |
 
@@ -67,7 +67,7 @@ It's the [C]little [C6]Saint [C]Nick ([C6]little [C]Saint [C6]Nick.)
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 [Am7]Ooh... [D7]
 [Am7]Merry [D7]Christmas Sain[G]t Nick.
 (Christmas comes this [E7/G#]time each year)

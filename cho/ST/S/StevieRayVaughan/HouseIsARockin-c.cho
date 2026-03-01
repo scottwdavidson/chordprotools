@@ -6,17 +6,17 @@
 {meta: countin: 8}
 {meta: backing: 38}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 38   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 38   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | C7 . . . | C7 . . . |
 | C7 . . . | C7 . . . |
 
 
-{c: Add Piano}
+{comment: Add Piano}
 | C7 . . . | C7 . . . |
 | C7 . . . | C7 . . . |
 
@@ -27,7 +27,7 @@ Yeah the [C7]house is a rockin don't bother knockin
 Yeah the [G7]house is a rockin don't bother come on [C7]in
 {end_of_chorus}
 
-{c: SCOTT VOCAL}
+{comment: SCOTT VOCAL}
 {start_of_verse}
 [C7]Kick off your shoes start a-los-ing the blues
 [C7]This old house ain't got nothing to lose
@@ -54,7 +54,7 @@ Yeah the [G7]house is a rockin don't bother come on [C7]in
 
 | C7 .  .  .  | C7 . . . | C7 . . . | C7 . . . |
 
-{c: Return to standard blues riff}
+{comment: Return to standard blues riff}
 | C7 .  .  .  | C7 . . . | 
 
 {start_of_chorus}
@@ -63,7 +63,7 @@ Yeah the [C7]house is a rockin don't bother knockin
 Yeah the [G7]house is a rockin don't bother come on [C7]
 {end_of_chorus}
 
-{c: JEFF VOCAL}
+{comment: JEFF VOCAL}
 {start_of_verse}
 Walk[C7]in up the street you can hear the sound
 Of some [C7]bad honky tonkers really laying it down

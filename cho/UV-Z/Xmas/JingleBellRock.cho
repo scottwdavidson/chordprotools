@@ -5,11 +5,11 @@
 {tempo: 118}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4}
+{comment:***********************************************}
 
-{c: Chords For Guitar Intro}
+{comment: Chords For Guitar Intro}
 | C . Cmaj7 . | C . C6 . | C . . . | . walk down |
 
 
@@ -30,7 +30,7 @@
 {eov}
 
 
-{c: Bridge I}
+{comment: Bridge I}
 {sob}
 [F] What a bright time, it's the [F#dim7]right time to [C]rock the night away.
 Jingle [D7]bell time is a swell time
@@ -47,7 +47,7 @@ Jingle [D7]bell time is a swell time
 {eov}
 
 
-{c: Choir Section}
+{comment: Choir Section}
 {sov}
 [C]Jingle bell, [Cmaj7]jingle bell, [C6]jingle bell [C]rock,
 [C6]Jingle bells [C#dim7]chime in and [Dm7]jingle bell [G7]time.
@@ -57,7 +57,7 @@ Jingle [D7]bell time is a swell time
 {eov}
 
 
-{c: Bridge II}
+{comment: Bridge II}
 {sob}
 [F] What a bright time, it's the [F#dim7]right time to [C]rock the night away.
 Jingle [D7]bell time is a swell time
@@ -65,7 +65,7 @@ Jingle [D7]bell time is a swell time
 {eob}
 
 
-{c: Outro}
+{comment: Outro}
 {sov}
 [C]Giddy-up [Cmaj7]jingle horse [C6]pick up your [C]feet,
 [C6]jingle a[C]round the [A7]clock.

@@ -4,10 +4,10 @@
 {duration: 4:00}
 {tempo: 125}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | (pickup G-Bb-C) |
 | Cm7 ...        | Bb ../ Bb/C | Cm7 ../ Bb | Bb ../ Bb/Ab |
 | Bb/Ab ../ Bb/C | Bb ...      | Gm/C .. Bb | Bb   (G-Bb-C)| 
@@ -43,7 +43,7 @@ Ride like the [Cm7]wind.  [Bb]
 Gonna ride like the wind.
 {eoc}
 
-{c:Instrumental}
+{comment:Instrumental}
 | Cm9 ... | Cm9 . Dm7 Ebmaj7   | 
 | Cm9 ... | Cm9 . Ebmaj7 Dm7   | 
 | Cm9 ... | Cm9 Dm7 Ebmaj7 Cm9 | 

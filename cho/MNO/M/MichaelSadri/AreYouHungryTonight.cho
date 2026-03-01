@@ -5,10 +5,10 @@
 {tempo: 66}
 {time: 3/4}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Dm7 . . |G7 . . | C . . | G7 . . |
 
 
@@ -30,7 +30,7 @@ Tell me [Dm7]dear, are you [G7]hungry to[C]night?  [G7]
 {eov}
 
 
-{c: Start Monologue}
+{comment: Start Monologue}
 [C]You know, someone said that the [Em]lasagna at [Am]Vaso Azzurro is the best, 
 Especially if you enjoy [C7]it with their caesar salad and garlic bread.
 
@@ -50,7 +50,7 @@ Especially if you enjoy [C7]it with their caesar salad and garlic bread.
 [C]Now the restaurant is about to [Em]close.
 The [D7]waiter brings you a rose and I guess that's how it goes,
 [Dm7]When you dine at [G7]Vaso [C]Azzurro.  [G7]
-{c: End Monologue}
+{comment: End Monologue}
 
 
 {sov}

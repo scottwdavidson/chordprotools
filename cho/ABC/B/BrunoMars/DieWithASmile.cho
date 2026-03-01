@@ -6,10 +6,10 @@
 {meta: countin: 4}
 {meta: backing: 64}
 
-{c:***********************************************}
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 64   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 64   }
+{comment:***********************************************}
 
 {comment: Intro}
 [Amaj7]... Ooh [Dmaj7]Ooh

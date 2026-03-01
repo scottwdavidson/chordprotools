@@ -5,7 +5,7 @@
 {tempo: 65}
 
 
-{c: Intro}
+{comment: Intro}
 | E . . . | F#m . . . | G#m . F#m . | E . . . |
 
 
@@ -57,5 +57,5 @@
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 | E |

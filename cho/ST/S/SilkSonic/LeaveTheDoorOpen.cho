@@ -2,8 +2,8 @@
 {artist: Silk Sonic}
 {key: F}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 [Fmaj7]| / / / / |[G/F]/ / / / |
@@ -24,7 +24,7 @@ We should be d[Em7]ancin', romancin'
 In the east wing a[Am7]nd the west wing of this mansion, what's happenin'?
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 [Ebmaj7]I ain't playin' no games
 Every word that I [Abadd9]say is coming straight from the heart
 So [Abmaj7]if you [Gm7]tryna [Fm7]lay in these [G7sus4]arms
@@ -53,7 +53,7 @@ I'm talking ki[Em7]ssing, cuddling
 Rose petals [Am7]in the bathtub. Girl, let's jump in, it's bubblin'
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 [Ebmaj7]I ain't playin' no games
 Every word that I [Abadd9]say is coming straight from the heart
 So [Abmaj7]if you [Gm7]tryna[Fm7] lay in these [G7sus4]arms
@@ -86,7 +86,7 @@ And you want me like I want you t[Ab7sus4]onight, baby
 Tell me that you’re coming t[Dbmaj7]hrough (W[Bb7]oo!)
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 [A]La-la-laaaa-la-la-la-[Ab]la (Tell me)
 Tell me that you're coming t[Dbmaj7]hrough (Woo) (Woo) ( [Bb7]Woo )
 [A]La-la-laaaa-la-la-la-l[Ab]a (La-la-la-la-la)
@@ -97,4 +97,4 @@ Tell me that you're coming [Dbmaj7]through (For you) Girl, I'm here just waiting
 [Bb7]Come on over, I'll adore you
 [A]La-la-laaaa-la-la-la-la ...
 
-{c: fade out}
+{comment: fade out}

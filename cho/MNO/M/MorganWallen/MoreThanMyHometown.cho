@@ -5,10 +5,10 @@
 {tempo: 126}
 {time: 4/4}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | G | G | Am | Am | Em | Em | C | C |
 
 {sov}
@@ -73,7 +73,7 @@ But that [Em]ain't you and me so I guess I'll see you [C]around
 Cause I can't love you more than my hometo[G]wn
 {eoc}
 
-{c: Outro} 
+{comment: Outro} 
 [G]Love you more than my home[Am]town
 Love you more than my home[Em]town
 Love you more, baby, [C]love you more

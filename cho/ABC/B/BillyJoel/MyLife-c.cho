@@ -7,13 +7,13 @@
 {meta: countin: 8}
 {meta: backing: 14}
 
-{c:***********************************************}
-{c:**  meta: nord: P32}
-{c:**  meta: countin: 8}
-{c:**  meta: backing: 14}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P32}
+{comment:**  meta: countin: 8}
+{comment:**  meta: backing: 14}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | C . . . | C . . .  | C . . . | 
 | F . C F/C . F6/C C | C . . . |
 | F . C F/C . F6/C C | C . . . |
@@ -31,7 +31,7 @@ Bought a ticket to the W[F]est Coast_[F][F]
 [G]Now he gives them a stand-up routine in L[C].A.
 {end_of_verse}
 
-{c: Interlude}
+{comment: Interlude}
 | C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
 | C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
 
@@ -42,7 +42,7 @@ Bought a ticket to the W[F]est Coast_[F][F]
 [G]   Go ahead with your own life, and leave me a[Am]lone
 {end_of_chorus}
 
-{c: Bridge}
+{comment: Bridge}
 [Am]I never said you had to offer me a s[E7/G#]econd chance_[E7/G#]
 [C]  I never said I was a victim of c[D9]ircumstance_[D7][E][F]
 [F]  I still be[C/E]long,  [E]   don't get me [Am]wrong
@@ -58,7 +58,7 @@ In your [F]own space_[F][C/E][Dm][C]
 [G]Either way it's okay to wake up with your[C]self
 {end_of_verse}
 
-{c: Interlude}
+{comment: Interlude}
 | C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
 | C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
 
@@ -69,7 +69,7 @@ In your [F]own space_[F][C/E][Dm][C]
 [G]   Go ahead with your own life, and leave me a[Am]lone
 {end_of_chorus}
 
-{c: Bridge}
+{comment: Bridge}
 [Am]I never said you had to offer me a s[E7/G#]econd chance_[E7/G#]
 [C]  I never said I was a victim of c[D9]ircumstance_[D7][E][F]
 [F]  I still be[C/E]long,  [E]   don't get me [Am]wrong

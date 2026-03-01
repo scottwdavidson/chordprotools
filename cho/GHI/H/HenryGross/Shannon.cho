@@ -2,7 +2,7 @@
 {artist: Henry Gross}
 {key: F}
 
-{c:Intro}
+{comment:Intro}
 | F . Gm . | F . Gm . | F . Gm . | F . Gm . |
 
 {sov}
@@ -44,6 +44,6 @@ She [Dm/C]knows how [Dm/B]much we [A]really [Bb]miss he[Csus]r [C]
 {eoc}
 
 
-{c:Outro}
+{comment:Outro}
 [F]Just like the [Eb]one in [Bb]our back[Dm]yard[F]
 | F . Gm . | F . Gm . | F . Gm . | F . Gm . |

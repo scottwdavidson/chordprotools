@@ -5,9 +5,9 @@
 {duration: 3:00}
 {meta: nord: N53}
 
-{c:***********************************************}
-{c:**  meta: nord: N53}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N53}
+{comment:***********************************************}
 
 {start_of_verse}
 I can [A]tell there's something you don't want to [E]tell me
@@ -16,7 +16,7 @@ I know y[A]ou want to break it to me ge[E]ntly
 Well, s[F#]weet baby say what's on your mi[B7]nd i[C7]nd i[B7]nd
 {end_of_verse}
 
-{c: Beatbuddy Starts}
+{comment: Beatbuddy Starts}
 
 {start_of_chorus}
 Let 'er rip [E][E]  Let it fly[E][E]
@@ -41,7 +41,7 @@ So if you're [B7]gonna say goodbye
 Don't t[A]ake all damn night Let 'er ri[E]p[E] Let i[E]t [E]fly
 {end_of_chorus}
 
-{c: piano solo}
+{comment: piano solo}
 | A | E | A | B7 |
 
 {sob}
@@ -60,7 +60,7 @@ So if you're [B7]gonna say goodbye
 Don't t[A]ake all damn night Let 'er ri[E]p[E] Let i[E]t [E]fly
 {end_of_chorus}
 
-{c: piano solo}
+{comment: piano solo}
 | A | E | A | B7 |
 
 {sob}
@@ -82,6 +82,6 @@ So if you're [B7]gonna say goodbye
 Don't t[A]ake all damn night Let 'er ri[E]p[E] Let i[E]t [E]fly
 {end_of_chorus}
 
-{c: outro}
+{comment: outro}
 | E |
 

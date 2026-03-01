@@ -6,12 +6,12 @@
 {meta: nord: O14}
 {meta:countin: 4}
 
-{c:***********************************************}
-{c:** meta: nord: O14}
-{c:** meta:countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:** meta: nord: O14}
+{comment:** meta:countin: 4}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | E |
 
 {soc}
@@ -34,7 +34,7 @@ And tell me that's it nice and then you [E]run
 Yea[B7] yea Little Sister don't you [C7]do what your [B7]big sister's [E]done.
 {eoc}
 
-{c: instrumental}
+{comment: instrumental}
 | E | A | E | B | C B | E |
 
 {sov}
@@ -50,7 +50,7 @@ And tell me that's it nice and then you [E]run
 Yea[B7] yea Little Sister don't you [C7]do what your [B7]big sister's [E]done.
 {eoc}
 
-{c: instrumental}
+{comment: instrumental}
 | E | A | E | B | C B | E |
 
 {sov}
@@ -66,6 +66,6 @@ And tell me that's it nice and then you [E]run
 Yea[B7] yea Little Sister don't you [C7]do what your [B7]big sister's [E]done.
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 [B7]Little Sister don't you [C7]do what your [B7]big sister's [E]done.
 Aw[B7] Little Sister don't you [C7]do what your [B7]big sister's [E]done.

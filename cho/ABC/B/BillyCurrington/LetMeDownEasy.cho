@@ -7,13 +7,13 @@
 {meta: backing: 85}
 {meta: performance: G}
 
-{c:***********************************************}
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 85   }
-{c:**  meta: performance: G   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 85   }
+{comment:**  meta: performance: G   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | G . . . | C/G . . . | 
 | G . . . | C/G . . . |
 
@@ -59,7 +59,7 @@ I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy.
 If I [F]fal[C/E]l,__[C/E]_[G]_[C/E]__ can you let me down [G]easy. [C/G]
 {end_of_chorus}
 
-{c: Outro}
+{comment: Outro}
 Let me down [G]easy [C/E]
 
 | G . . . | C/G . . . |

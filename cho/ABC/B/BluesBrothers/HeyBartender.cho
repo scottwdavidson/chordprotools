@@ -2,8 +2,8 @@
 {artist: Blues Brothers}
 {key: A}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {sov}
 [A]I WENT BALLING THE OTHER NIGHT
@@ -50,7 +50,7 @@ A DRAW O[E]NE, DRAW TWO, DRAW T[D]HREE, FOUR GLASSES OF B[A]EER
 [A]lAST ROUND OF ALCOHOL!
 {eov}
 
-{c: OUTRO}
+{comment: OUTRO}
 I SAID [D]HEY BARTENDER (HEY BARTENDER)
 [A]HEY BARTENDER (HEY BARTENDER)
 [D]HEY BARTENDER (HEY BARTENDER)

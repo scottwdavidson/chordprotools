@@ -6,12 +6,12 @@
 {meta: nord: N54}
 {meta: countin: 0}
 
-{c:***********************************************}
-{c:**  meta: nord: N54   }
-{c:**  meta: countin: 0   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N54   }
+{comment:**  meta: countin: 0   }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | E A/E | E A/E | E A/E | E A/E | 
 | E A/E | E A/E | E A/E | E A/E | 
 
@@ -29,7 +29,7 @@
 [B7]Yesterday's gone, yesterday's gone
 {eoc}
 
-{c:Turnaround}
+{comment:Turnaround}
 | E D | A | E D | A | 
 
 {sov}
@@ -46,7 +46,7 @@
 [B7]Yesterday's gone, yesterday's gone
 {eoc}
 
-{c:Piano Solo}
+{comment:Piano Solo}
 | B   | B  |
 | E D | A  | E D | A  | E D | A |
 | B   | B  | B   | B  |
@@ -70,7 +70,7 @@
 [B7]Yesterday's gone, yesterday's gone
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 [E]Ooo[D/E]h, [A]   Don't you look [E]back[D/E][A]
 [E]Ooo[D/E]h, [A]   Don't you look [E]back[D/E][A]
 [E]Ooo[D/E]h, [A]   Don't you look [E]back[D/E][A]

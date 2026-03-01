@@ -7,18 +7,18 @@
 {meta: countin: 4}
 {meta: backing: 13}
 
-{c:***********************************************}
-{c:**  meta: nord: O42   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 13   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O42   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 13   }
+{comment:***********************************************}
 
 {comment: Piano Intro}
 | G . . . | G . . . | Am . . . | Am . . . | 
 | D . . . | C . . . | G . . .  | D . . .  |
 
 
-{c: octave higher}
+{comment: octave higher}
 | G . . . | G . . . | Am . . . | Am . . . | 
 | D . . . | C . . . | G . . .  | D . . .  |
 

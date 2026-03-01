@@ -7,13 +7,13 @@
 {meta: countin: 4}
 {meta: backing: 57}
 
-{c:***********************************************}
-{c:**  meta: nord: P55   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 57   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 57   }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | G ... | G ... | G ... | G ... |
 
 
@@ -43,7 +43,7 @@
 And le[C]t me hear some down home bl[G]ues.[D]
 {end_of_chorus}
 
-{c: Solo}
+{comment: Solo}
 | G . . . | G . . . | G . . . | G . . . |
 | C . . . | C . . . | G . . . | G . . . |
 | D . . . | C . . . | G . . . | D . . . |
@@ -67,7 +67,7 @@ Down home bl[G]ues[D]
 And pa[C]rty off these down home [G]blues[D]
 {end_of_chorus}
 
-{c: Outro}
+{comment: Outro}
 | G . . . | G . . . | G . . . | G . . . |
 | C . . . | C . . . | G . . . | G . . . |
 | D . . . | C . . . | G . . . | D . . . |

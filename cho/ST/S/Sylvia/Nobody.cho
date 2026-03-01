@@ -6,11 +6,11 @@
 {meta:countin: 8}
 {meta:backing: 63}
 
-{c:*****************************************}
-{c:** meta:nord: P00 **}
-{c:** meta:countin: 8 **}
-{c:** meta:backing: 63 **}
-{c:*****************************************}
+{comment:*****************************************}
+{comment:** meta:nord: P00 **}
+{comment:** meta:countin: 8 **}
+{comment:** meta:backing: 63 **}
+{comment:*****************************************}
 
 
 {comment: Intro}
@@ -82,7 +82,7 @@ But I can l[Em]ove you like nobody c[A]an...
 even [D]better_[Em/D][D]_[Em/D][D]
 {end_of_chorus}
 
-{c: Outro}
+{comment: Outro}
 {start_of_chorus}
 Well your no[Em]body ca[A]lled today 
 s[D]he hung [F#m/C]up when I as[Bm]ked her name

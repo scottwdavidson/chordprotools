@@ -2,10 +2,10 @@
 {artist: Gilbert O'Sullivan}
 {key: Bb}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 |Bbmaj7 Eb/Bb Bb |Bbmaj7 Eb/Bb Bb |Bbmaj7 Eb/Bb Bb | F7  |
 
 {sov}
@@ -14,7 +14,7 @@ Get d[Eb]own, get dow[Bb/D]n, get dow[Cm]n
 You're a [F7]bad dog baby [Eb] but I still [F7]want you 'ro[Bb]und
 {eov}
 
-{c: Turnaround}
+{comment: Turnaround}
 | Eb/Bb Bb Eb/Bb Bb | F7  |
 
 {sov}
@@ -23,7 +23,7 @@ So get d[Eb]own, get dow[Bb/D]n, get dow[Cm]n
 Keep your [F7]hands to yourself [Eb] - I'm strictly [F7]out of bo[Bb]unds
 {eov}
 
-{c: Turnaround}
+{comment: Turnaround}
 | Eb/Bb Bb Eb/Bb Bb | F7  |
 
 {sob}
@@ -58,7 +58,7 @@ You're a [F7]bad dog baby [Eb]  But I still [F7]want you 'ro[Dm]und a[Gm]round
 [Cm7] I still want [F7]you around   -[Bb][Eb/Bb][Bb]Mm mm mm[F]
 {eov}
 
-{c:Outro}
+{comment:Outro}
 [Fsus][F7]Mm   mm  [Eb/Bb]m     [Bb]  Mm   mm   mm   [F#sus] [F#7] Oo  oo oo [E/B] O[B]o  oo oo
 [Absus]Oo  oo oo[Ab]   Oo  oo oo  [Db]    Oo  oo oo[Db]     Oo[F7]h
 [Bb][Eb/Bb]Bad [Bb]Ba[Eb/Bb]by  [B]bad [Eb/Bb]dog [Bb]ba[Eb/Bb]by

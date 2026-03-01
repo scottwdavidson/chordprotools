@@ -8,12 +8,12 @@
 {meta: backing: 84}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: nord: P54   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 84   }
-{c:**  meta: performance: Ab   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P54   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 84   }
+{comment:**  meta: performance: Ab   }
+{comment:***********************************************}
 
 {comment: Intro}
 | Cmaj7 C . . | C . . . | Em . . . | G . . . |

@@ -2,10 +2,10 @@
 {artist: Mitch Ryder and The Detroit Wheels}
 {key: C}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:INTRO}
+{comment:INTRO}
 | C7 F C7 | 4X  hammer on C7
 
 {soc}
@@ -49,10 +49,10 @@ She's a [C]real humdinger and I like it like that..
 [C]Devil with the [F]blue dress [C]on.
 {eoc}
 
-{c:Bridge to Eb}
+{comment:Bridge to Eb}
 | C . C7 . | C . C7 . | C C7 C7 C7 | Gaug |
 
-{c: Good Golly, Miss Molly}
+{comment: Good Golly, Miss Molly}
 {sov}
 [Eb]Good golly, Miss Molly, you sure like to ball.
 Good golly, Miss [Ab]Molly, you sure like to b[Eb]all.
@@ -67,7 +67,7 @@ While you're [Ab]rockin' and a-[Bb]rolling,
 Can't you hear your Mama [Eb]call?
 {eov}
 
-{c: Gitar Solo}
+{comment: Gitar Solo}
 | Eb7 | Eb7 | Eb7 | Eb7 |
 | C7  | C7  | C7  | C7  |
 

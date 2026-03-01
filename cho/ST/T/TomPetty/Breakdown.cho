@@ -7,18 +7,18 @@
 {meta: performance: Am}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:** meta: nord: P11}
-{c:** meta: performance: Am}
-{c:** meta: countin: 4  }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:** meta: nord: P11}
+{comment:** meta: performance: Am}
+{comment:** meta: countin: 4  }
+{comment:***********************************************}
 
 {comment: Intro}
-{c: drum / piano}
+{comment: drum / piano}
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
 
-{c: guitar enters - add "Ahs"}
+{comment: guitar enters - add "Ahs"}
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 
 | Am . G . | Am . G . | 

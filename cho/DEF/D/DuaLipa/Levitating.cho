@@ -2,10 +2,10 @@
 {artist: Dua Lipa}
 {key: Am}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Am | Em | Dm | Am |
 
 {sov} 
@@ -19,7 +19,7 @@ Where the [Dm]music don't stop for [Am]life
 You [Dm]met me at the perfect [Am]time
 {eov} 
  
-{c:Pre-Chorus}
+{comment:Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
@@ -36,7 +36,7 @@ I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]
 I'm levitating
 {eoc}
  
-{c:Interlude}
+{comment:Interlude}
 | Am | Em | Dm | Am |
 
 {sov}
@@ -51,7 +51,7 @@ I [Am]feel like we're forever every [Em]time we get together
 But [Dm]whatever, let's get lost on [Am]Mars
 {eov}
  
-{c:Pre-Chorus}
+{comment:Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
@@ -69,7 +69,7 @@ I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]
 I'm levitating
 {eoc} 
  
-{c:Post-Chorus}
+{comment:Post-Chorus}
 [Am]  You could fly [Em]away with me [Dm]tonight
 You could fly [Am]away with me tonight
 [Am]  Baby, let me [Em]take you for a ride
@@ -96,7 +96,7 @@ And I'm [Dm]feeling so electric, dance our [Am]ass off
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
 {eob} 
  
-{c:Pre-Chorus}
+{comment:Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
@@ -108,7 +108,7 @@ I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]
 I'm levitating
 {eoc} 
  
-{c:Post-Chorus}
+{comment:Post-Chorus}
 [Am]  You could fly [Em]away with me [Dm]tonight
 You could fly [Am]away with me tonight
 [Am]  Baby, let me [Em]take you for a ride [Dm]  

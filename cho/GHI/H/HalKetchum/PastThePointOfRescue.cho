@@ -8,15 +8,15 @@
 {meta: backing: 15}
 {meta: performance: Em}
 
-{c:***********************************************}
-{c:**  meta: nord: O:24}
-{c:**  meta: countin: 8}
-{c:**  meta: backing: 15}
-{c:**  meta: performance: Em}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O:24}
+{comment:**  meta: countin: 8}
+{comment:**  meta: backing: 15}
+{comment:**  meta: performance: Em}
+{comment:***********************************************}
 
 
-{c:Intro}
+{comment:Intro}
 | Em | D | A | Em |
 
 {sov}
@@ -28,7 +28,7 @@
 [D]No you don't, but I [A]do
 {eov}
 
-{c: Core Riff}
+{comment: Core Riff}
 | Em | Em |
 
 {sov}
@@ -40,7 +40,7 @@
 [D]No you don't, but I [A]do
 {eov}
 
-{c: Core Riff}
+{comment: Core Riff}
 | Em |
 
 {soc}
@@ -50,7 +50,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 [D]No you don't, but I [A]do
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | Em | D | A | Em |
 
 {sov}
@@ -62,7 +62,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 [D]No you don't, but I [A]do
 {eov}
 
-{c: Core Riff}
+{comment: Core Riff}
 | Em |
 
 {soc}
@@ -72,7 +72,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 [D]No you don't, but I [A]do
 {eoc}
 
-{c: Core Riff}
+{comment: Core Riff}
 | Em |
 
 {soc}
@@ -85,7 +85,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 I, [D]no you don't, but I [Em]do
 I, [D]no you don't, but I [Em]do
 
-{c: Outro}
+{comment: Outro}
 | Em | D | A | Em | 
 | Em | D | A | Em | 
 | Em | D | A | Em | 

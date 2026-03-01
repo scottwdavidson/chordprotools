@@ -5,11 +5,11 @@
 {tempo: 110}
 {meta: nord: N52}
 
-{c:***********************************************}
-{c:**  meta: nord: N52   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N52   }
+{comment:***********************************************}
 
-{c: Needs to be edited / verified}
+{comment: Needs to be edited / verified}
 {sov}
 [Am7]A dying      [D]flame, [Bm7]    you're free   [Em7]again
 [Am7]Who could       [D]love  [Gmaj7]      and do that to [G7]you
@@ -38,7 +38,7 @@ Fir[Am7]st wound of pri[Dsus4]de    [D]  [Bm7] but how you cri[Em7]ed and cried
 But[Am7] save your tea[D]rs        [Esus4]   you've got years and yea[E7]rs
 {eov}
 
-{c:Solo}
+{comment:Solo}
 
 {soc}
 F[Am7]ool if you think it's o[Dsus4]ver[D]

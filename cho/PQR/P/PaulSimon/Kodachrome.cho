@@ -3,10 +3,10 @@
 {key: D}
 {tempo: 136}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | D | D | G | G7 | Em | A | D | Em A7 |
 
 {sov}
@@ -48,12 +48,12 @@ I love to take a [G]photograph[C]
 So Mama, don't ta[A]ke my [D7]Kodachrome a[G]way [G][Bm][Em]
 {eoc}
 
-{c: Bridge}
+{comment: Bridge}
 Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 
-{c: Outro}
+{comment: Outro}
 [G]Mama, don't take my Kodachrome
 [Bm]Mama, don't take my Kodachrome
 [Em]Mama, don't take my Kodachrome (away)
@@ -65,5 +65,5 @@ Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 [G]Mama, don't take my Kodachrome [Bm]whewwwwww
 [Em]Mama, don't take my Kodachrome (away)
 
-{c: Instrumental Outro}
+{comment: Instrumental Outro}
 ||: G | Bm | Em | Em :|| x 3 

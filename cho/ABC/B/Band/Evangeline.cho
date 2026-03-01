@@ -4,10 +4,10 @@
 {duration: 2:50}
 {tempo: 140}
 
-{c: in 3}
+{comment: in 3}
 
 
-{c: Intro}
+{comment: Intro}
 | E . . | E . . | E . . | E . . | E . . | E . . |
 
 | A . . | A . . | A . . | A . . |
@@ -36,7 +36,7 @@ That [E]pulled her [E]man a[A]way.   [A]     [A]     [A]
 {eoc}
 
 
-{c: Interlude}
+{comment: Interlude}
 | E . . | E . . | E . . | E . . | E . . | E . . |
 
 | A . . | A . . | A . . | A . . |
@@ -73,7 +73,7 @@ That [E]pulled her [E]man a[A]way.   [A]     [A]     [A]
 
 
 
-{c: Outro}
+{comment: Outro}
 | E . . | E . . | E . . | E . . | E . . | E . . |
 
 | A . . | A . . | A . . | A

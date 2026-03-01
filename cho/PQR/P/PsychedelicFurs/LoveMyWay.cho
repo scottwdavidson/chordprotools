@@ -3,10 +3,10 @@
 {key: C}
 {tempo: 129}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 |[Cmaj7]I|[Cmaj7]|N[B7][B7]|[Cmaj7]TR|[Cmaj7]|O[B7][B7]|
 
 {sov}
@@ -43,7 +43,7 @@ There's [B7]dust in all their hearts
 [C]   I fol[B7]low where my mind goes
 {eoc}
 
-{c:Solo}
+{comment:Solo}
 |[Cmaj7]S|[Cmaj7]|O[B7][B7]|[Cmaj7]L|[Cmaj7]|O[B7][B7]|
 
 {soc}
@@ -60,5 +60,5 @@ And [B7]put on your new face
 [B7]Yeah yeah yeah yeah yeah
 {eov}
 
-{c:Intro}
+{comment:Intro}
 |[Cmaj7]O|[Cmaj7]|U[B7][B7]|[Cmaj7]TR|[Cmaj7]|O[B7][B7]|

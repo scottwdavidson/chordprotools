@@ -3,10 +3,10 @@
 {key: C}
 {duration: 3:11}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | C . . . | Am7 . . . | F . . . | G . . . |
 | C . . . | Am7 . . . | F . . . | G . . . |
 
@@ -28,7 +28,7 @@ as a summer [F]breeze[G]
 [F/D]And there ain't no [G]more where that came [C]from
 {end_of_verse}
 
-{c: Bridge}
+{comment: Bridge}
 I must have [F]said to my[Em]self
 There might be [F/D]somebody else out [C]there somewhere[G/B]
 I must have [F]said to my[Em]self

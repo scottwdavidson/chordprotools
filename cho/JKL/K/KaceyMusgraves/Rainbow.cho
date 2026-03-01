@@ -5,9 +5,9 @@
 {tempo: 65}
 {meta: nord: P23}
 
-{c:***********************************************}
-{c:**  meta: nord: P23}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P23}
+{comment:***********************************************}
 
 {comment: Intro}
 | Eb . Cm7 . | Absus2 . Eb . |
@@ -46,7 +46,7 @@ That there's[Cm] always been a [Eb]rainbow hangin[Bb7]g over your [Eb]head
 Oh, tie [Cm]up the boat, take [G+/B]off your coat, and [Eb/Bb]take a look around[F9]
 Every[Eb/G]thing is [Abadd2]alright now
 
-{c:Outro}
+{comment:Outro}
 {soc}
 Cause the [Eb]sky is finally [Cm]open, [Absus2]rain and wind stopped [Eb]blowin[Bbsus/D]'
 But you're [Cm]stuck out in the [F]same old storm [Bb]again [Bb(add2)/D][Ab/Bb]

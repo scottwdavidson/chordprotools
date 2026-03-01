@@ -4,11 +4,11 @@
 {duration: 2:30}
 {meta: performance: E}
 
-{c:***********************************************}
-{c:**  meta: performance: E}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: E}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 |  C#m7  |  C#m7  |
 
 
@@ -34,11 +34,11 @@
 {eov}
 
 
-{c:-- Carry That Weight --}
-{c: Performance Key - Eb}
+{comment:-- Carry That Weight --}
+{comment: Performance Key - Eb}
 
 
-{c: Intro}
+{comment: Intro}
 |  Cm7  | F7sus4 Fm7     |  Bb7  | Ebsus4 Eb    |
 |  Abmaj7  | Dm7b5 G7    |  Cm7  |
 
@@ -57,7 +57,7 @@ You b[Cm7]reak down.
 [Bb9sus4]Carry that [Bb]weight a l[Eb]ong time. [Eb/D]
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 |  Cm7  | F7sus4 Fm7     |  Bb7  | Ebsus4 Eb    |
 |  Abmaj7  | Dm7b5 G7    |  Cm7  |
 
@@ -75,6 +75,6 @@ I b[Cm7]reak down.
 [Bb9sus4]Carry that [Bb]weight a l[Eb]ong time. [Eb/D]
 {eoc}
 
-{c: Coda}
+{comment: Coda}
 |  Cm7  | F7sus4 Fm7     |  Bb7  | Ebsus4 Eb    |
 |  Abmaj7  | Dm7b5 G7    |  Cm7  |

@@ -5,9 +5,9 @@
 {tempo: 96}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4}
+{comment:***********************************************}
 
 {sov}
 It's [G]beginning to look a [C]lot like [G]Christmas, every[B7]where you [C]go. [E7]
@@ -51,7 +51,7 @@ right with[Am]in [D7]your [G]heart.
 
 
 
-{c: Instrumental}
+{comment: Instrumental}
 | G . C . | G . . . | G . B7 . | C . E7 . |
 
 | Am . D . | D7 . Am . | D . A7 . | Am . D . |

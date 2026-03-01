@@ -2,10 +2,10 @@
 {artist: Genesis}
 {key: G}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Bbm7 . | Cm7 . | Dbmaj7 . | Eb . |
 
 {sov}
@@ -20,7 +20,7 @@ But never [Eb]finding the answers
 [Db] And n[Bbm]o one li[Eb]stening
 {eov}
 
-{c:Pre-Chorus}
+{comment:Pre-Chorus}
 {soc}
 [Bbm7] All this ti[Cm7]me I still rem[Dbmaj7]ember everything you sa[Eb]id, a haaaa
 [Bbm7] There's so m[Cm7]uch you promised
@@ -34,7 +34,7 @@ But never [Eb]finding the answers
 [Ab] You know I want you but I'm i[Db]n too de[Cm7]ep
 {eoc}
 
-{c:Post-Chorus}
+{comment:Post-Chorus}
 [Bbm7] So listen, l[Cm7/Bb]isten to [Bbm7]me
 Oh you [Cm7/Bb]must beli[Bbm7]eve me
 I can feel your [Cm7/Bb]eyes go thr[Bbm7]ough me but I don't know wh[Eb/Db]y
@@ -51,7 +51,7 @@ When [Eb]I didn't want to
 [Db] I a[Bbm]lmost beli[Eb]eved you
 {eov}
 
-{c:Pre-Chorus}
+{comment:Pre-Chorus}
 {soc}
 [Bbm7] All this ti[Cm7]me I still rem[Dbmaj7]ember everything you sa[Eb]id, a haaaa
 [Bbm7] There's so m[Cm7]uch you promised
@@ -65,17 +65,17 @@ When [Eb]I didn't want to
 [Ab] You know I want you but I'm i[Db]n too de[Cm7]ep
 {eoc}
 
-{c:Post-Chorus}
+{comment:Post-Chorus}
 [Bbm7] So listen, l[Cm7/Bb]isten to [Bbm7]me
 Oh you [Cm7/Bb]must beli[Bbm7]eve me
 I can feel your [Cm7/Bb]eyes go thr[Bbm7]ough me but I don't know wh[Eb/Db]y
 
-{c: Instrumental}
+{comment: Instrumental}
 |  F   . | Bbadd9 | %  | Ebadd9 Ab |
 |  Ab  F | Bbadd9 | %  | Ebadd9    |
 |  Ab  F | Eb  Ab | Ab | Ab/C Cm   |
 
-{c:Pre-Chorus}
+{comment:Pre-Chorus}
 {soc}
 [Bbm7] All this ti[Cm7]me I still rem[Dbmaj7]ember everything you sa[Eb]id, a haaaa
 [Bbm7] There's so m[Cm7]uch you promised

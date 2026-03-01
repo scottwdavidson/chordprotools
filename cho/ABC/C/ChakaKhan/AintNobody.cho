@@ -2,12 +2,12 @@
 {artist: Chaka Khan / Rufus}
 {key: Em}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {columns: 2}
 
-{c:Intro}
+{comment:Intro}
 | Em D/E | Em D/E | Em D/E | Em D/E |
 
 {sov}
@@ -18,7 +18,7 @@
 [Cmaj7]What was [D/C]I gonna do?   [Cmaj7]I let my[D/C]self go
 {eov}
 
-{c: Pre-chorus}
+{comment: Pre-chorus}
 [Em/B]And now we're fly[Bm7]in' through the [Cmaj7]stars
 I hope t[D/C]his night will l[Em]ast forever[D/E][Em][D/E]
 
@@ -30,7 +30,7 @@ I hope t[D/C]his night will l[Em]ast forever[D/E][Em][D/E]
 [Cmaj7]You knew [D/C]I could not resist   [Cmaj7]I needed [D/C]someone
 {eov}
 
-{c: Pre-chorus}
+{comment: Pre-chorus}
 [Em/B]And now we're fly[Bm7]in' through the [Cmaj7]stars
 I hope t[D/C]his night will l[Em]ast forever[D/E]
 Hu[Em]h, huh, hu[D/E]h, huh
@@ -41,7 +41,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em]Ain't nob[D/G]ody   [Am]Loves me[Cmaj7] better than you
 {eoc}
 
-{c:Intro}
+{comment:Intro}
 | Em D/E | Em D/E | Em D/E | Em D/E |
 
 {sov}
@@ -52,7 +52,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Cmaj7]I want t[D/C]his dream to be real [Cmaj7]I need t[D/C]his feelin'
 {eov}
 
-{c: Pre-chorus}
+{comment: Pre-chorus}
 [Em/B]I make my wish up[Bm7]on a star [Cmaj7]
 And hope[D/C] this night will[Em]last forever[D/E]
 Hu[Em]h, huh, hu[D/E]h, huh
@@ -74,7 +74,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em][D/E] An[Am7]d our love's so deep we ca[D]nnot measure
 {eob}
 
-{c: Chorus repeat}
+{comment: Chorus repeat}
 {soc}
 [Em]Ain't nob[D/G]ody   [Am]Loves me bett[Cmaj7]er
 [Em]Makes me[D/G]happy  [Am]Makes me[Cmaj7] feel this way

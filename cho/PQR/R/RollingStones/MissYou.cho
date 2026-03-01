@@ -2,10 +2,10 @@
 {artist: Rolling Stones}
 {key: Am}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Am | Dm | Am | Dm |
 
 {start_of_verse}
@@ -46,7 +46,7 @@ Aaah, aaah,[Am]aaah, aaah, aaah, aaah, aaah.
 Aaah, aaah, [Dm]aaah, aaah.
 {end_of_chorus}
 
-{c: Bridge}
+{comment: Bridge}
 {sob}
 [F]Oh, [Em]everybody waits so lon[Dm]g.
 [F]Oh [Em]baby, why you wait so lon[Dm]g.
@@ -75,7 +75,7 @@ Aaah, aaah,[Am]aaah, aaah, aaah, aaah, aaah.
 Aaah, aaah, [Dm]aaah, aaah.
 {end_of_chorus}
 
-{c: Outro}
+{comment: Outro}
 {start_of_verse}
 I won't [Dm]miss you child.
 I guess I'm [Am]lying to myself.

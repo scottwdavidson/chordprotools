@@ -4,11 +4,11 @@
 {duration: 4:00}
 {meta: nord: O21}
 
-{c:***********************************************}
-{c:**  meta: nord: O21}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O21}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Am Bm/D | Am7 Bm/D |
 | Am Bm/D | Am7 Bm/D |
 
@@ -33,7 +33,7 @@ Her eyes were [Am]clear and [D]bright
 But she's not [A7]there
 {end_of_chorus}
 
-{c: Interlude}
+{comment: Interlude}
 | Am Bm/D | Am7 Bm/D |
 | Am Bm/D | Am7 Bm/D |
 
@@ -56,8 +56,8 @@ Her eyes were [Am]clear and [D]bright
 But she's not [A7]there
 {end_of_chorus}
 
-{c: V--E--N--U--S}
-{c:Intro}
+{comment: V--E--N--U--S}
+{comment:Intro}
 | B7sus4 | B7sus4 |
 | Em A   | Em A   |
 | B7sus4 | B7sus4 |
@@ -76,7 +76,7 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
-{c: Solo}
+{comment: Solo}
 | Em  A | Em  A | Em  A | Em  A |   
 | Em  A | Em  A | Em  A | Em    |
 
@@ -93,10 +93,10 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
-{c: Interlude}
+{comment: Interlude}
 | A5 B5 | A5 B5 | A5 B5 | A5 B5 | 
 
-{c: Ahhhhhhs}
+{comment: Ahhhhhhs}
 | Em A | Em A | Em A | Em A |
 | Em A | Em A | Em A | E G A B B A G |
 
@@ -106,12 +106,12 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
-{c: Interlude}
+{comment: Interlude}
 | A5 B5  | A5 B5  | A5 B5  | A5 B5  | 
 | B7sus4 | B7sus4 | Em A   | Em  A  | 
 | B7sus4 | B7sus4 | 
 
-{c: Ahhhhhhs}
+{comment: Ahhhhhhs}
 | Em A | Em A | Em A | Em A |
 | Em A | Em A | Em A | E G A B B A G |
 
@@ -121,6 +121,6 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
-{c:Outro}
+{comment:Outro}
 | B7sus4 | B7sus4 | Em A   | Em  A  | B7sus4 | B7sus4 |
 | Em     |

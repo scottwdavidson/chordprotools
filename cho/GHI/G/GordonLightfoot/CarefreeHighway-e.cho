@@ -5,9 +5,9 @@
 {tempo: 85}
 {meta: performance: E}
 
-{c:***********************************************}
-{c:**  meta: performance: E}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: E}
+{comment:***********************************************}
 
 {comment: Intro}
 | E ... | D ... | A ... | Bsus4 ... | B ... |
@@ -37,7 +37,7 @@ Now the [E]thing that I call [B]living is just [G#]being satis[C#m]fied,
 With [A]knowing I got [B]no one left to [E]blame
 {eov}
 
-{c: Jeff double "highway", "Ahh"}
+{comment: Jeff double "highway", "Ahh"}
 {soc}
 [E]Carefree [D]highway,[A]  I got to [B]see you my old [E]flame
 Carefree [D]highway,[A]  you’ve seen [B]better days
@@ -56,7 +56,7 @@ Well I [E]guess it must be [B]wander lust or [G#]trying to get [C#m]free,
 [A]From the good old [B]faithful feeling we once [E]knew
 {eov}
 
-{c: Jeff double "highway", "Ahh"}
+{comment: Jeff double "highway", "Ahh"}
 {soc}
 [E]Carefree [D]highway,[A]  let me [B]slip away on [E]you
 Carefree [D]highway,[A]  you’ve seen [B]better days

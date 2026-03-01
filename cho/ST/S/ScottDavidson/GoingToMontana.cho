@@ -6,12 +6,12 @@
 {meta: nord: P14}
 {meta: countin: 8}
 
-{c:***********************************************}
-{c:**  meta: nord: P14}
-{c:**  meta: countin: 8}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P14}
+{comment:**  meta: countin: 8}
+{comment:***********************************************}
 
-{c:Intro (piano)}
+{comment:Intro (piano)}
 | Am ... | Am . - G Am | Dm .  .  .  | Dm . - C Dm |
 | Am ... | Em .  .  .  | Am . - G Am | Am .  .  .  |
 
@@ -45,11 +45,11 @@ G[Am]oing to Montana
 To [Em]be by her [Am]side
 {end_of_chorus}
 
-{c:Piano Solo}
+{comment:Piano Solo}
 | Am ... | Am ... | Dm ... | Dm ... |
 | Am ... | Em ... | Am ... | Am ... |
 
-{c: Bridge}
+{comment: Bridge}
 She's my [C]ship for eve[D]ry shore
 She's my [F]dance for eve[E]ry floor
 She's my [C]swim for eve[D]ry stream
@@ -72,7 +72,7 @@ To [Em]be by her [Am]side
 [F]My feelings [G]for [Am]you 
 {end_of_verse}
 
-{c: Outro}
+{comment: Outro}
 I'm [Am]holding Montana_[G][Am]
 H[Dm]olding Montana_[C][Dm]
 H[Am]olding Montana
@@ -80,17 +80,17 @@ Love to [Em]be by her [Am]side
 H[Am]olding Montana
 Love to [Em]be by her [Am]side
 
-{c: 73 bpm / double time}
+{comment: 73 bpm / double time}
 
-{c: Instrumental Outro}
+{comment: Instrumental Outro}
 | Am Am . G | Am . . . | F F . C | F . . . |
 | Dm Dm . C | Dm . . . | E . . . | E . . . | x2
 
 
-{c: Guitar Solo}
+{comment: Guitar Solo}
 | Am Am . G | Am . . . | F F . C | F . . . |
 | Dm Dm . C | Dm . . . | E . . . | E . . . | x3
 
 
-{c: Coda}
+{comment: Coda}
 | Am Am . G | Am |

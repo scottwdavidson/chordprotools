@@ -22,8 +22,8 @@ Tell me the [B]truth
 [N.C.]Ain't you my Te Ni Nee Ni [A]Nu?[E]
 {end_of_verse}
 
-{c:Harmonica Solo: 12 bars}
-{c:Keyboard Solo: 12 bars}
+{comment:Harmonica Solo: 12 bars}
+{comment:Keyboard Solo: 12 bars}
 
 {start_of_verse}
 Come on, [E]baby
@@ -37,7 +37,7 @@ Now when you [B]through
 [N.C.] Ain't you my Te Ni Nee Ni [A]Nu?[E]
 {end_of_verse}
 
-{c:Guitar Solo: 12 bars}
+{comment:Guitar Solo: 12 bars}
 
 {start_of_verse}
 I want [E]you
@@ -48,5 +48,5 @@ Tell me the [B]truth
 [N.C.]Ain't you my Te Ni Nee Ni [A]Nu?[E]
 {end_of_verse}
 
-{c:Outro}
+{comment:Outro}
 | E | A | B | 12 bars blues

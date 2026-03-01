@@ -6,12 +6,12 @@
 {meta: countin: 4}
 {meta: performance: C}
 
-{c:***********************************************}
-{c:**  meta: countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4}
+{comment:***********************************************}
 
 
-{c: Intro}
+{comment: Intro}
 | C . . . | C . . . | Am . . . | Am . . . |
 
 | Dm . . . | Dm . . . | G . . . | G . . . |
@@ -33,7 +33,7 @@ I'll [G]give it to someone special.
 {eoc}
 
 
-{c: Keyboard Solo I}
+{comment: Keyboard Solo I}
 | C . . . | C . . . | Am . . . | Am . . . |
 
 | Dm . . . | Dm . . . | G . . . | G . . . |
@@ -69,7 +69,7 @@ I'll [G]give it to someone special.
 {eoc}
 
 
-{c: Keyboard Solo II}
+{comment: Keyboard Solo II}
 | C . . . | C . . . | Am . . . | Am . . . |
 
 | Dm . . . | Dm . . . | G . . . | G . . . |
@@ -98,7 +98,7 @@ I'll [G]give it to someone special.
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 
 {soc}
 [C]Last Christmas I gave you my heart,

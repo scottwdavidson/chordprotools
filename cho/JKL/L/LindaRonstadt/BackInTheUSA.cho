@@ -8,13 +8,13 @@
 {meta: nord: P55}
 
 
-{c:***********************************************}
-{c:** meta: countin: 4}
-{c:** meta: backing: 61}
-{c:** meta: nord: P55}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:** meta: countin: 4}
+{comment:** meta: backing: 61}
+{comment:** meta: nord: P55}
+{comment:***********************************************}
 
-{c:INTRO}
+{comment:INTRO}
 | <Chuck Berry guitar lick on G> |
 | C  . . . | C  . . . |
 | G  . . . | G  . . . |
@@ -34,7 +34,7 @@ we [C]just touched ground on an international run[G]way..
 let [D]alone just to be at my home back in ol' St. [G]Lou.
 {end_of_verse}
 
-{c: INTERLUDE:PIANO (&GUITAR) 12 bars}
+{comment: INTERLUDE:PIANO (&GUITAR) 12 bars}
 | G7 . . . | G7 . . . | 
 | G7 . . . | G7 . . . | 
 | C  . . . | C  . . . |
@@ -48,7 +48,7 @@ From the [C]coast of California to the shores of Delaware [G]Bay.
 You can [D]bet your life I did, till I got back to the U. S. [G]A.
 {end_of_verse}
 
-{c: INTERLUDE:GUITAR (&PIANO) 12 bars}
+{comment: INTERLUDE:GUITAR (&PIANO) 12 bars}
 | G7 . . . | G7 . . . | 
 | G7 . . . | G7 . . . | 
 | C  . . . | C  . . . |
@@ -68,13 +68,13 @@ Yes, [C]I'm so glad I'm livin' in the U.S.[G]A.
 [D]Anything you want, we got [C]right here in the U.S.[G]A.
 {end_of_verse}
 
-{c: Carmen & Jean}
-{c:OUTRO}
+{comment: Carmen & Jean}
+{comment:OUTRO}
 [G]Well, we're so glad I'm livin' in the U.S.A.
 Yes, [C]we're so glad I'm livin' in the U.S.[G]A.
 [D]Anything you want, we got it [C]right here in the U.S.[G]A. 
 
-{c: Carmen & Jean}
+{comment: Carmen & Jean}
 [G]Well, we're so glad, we're so glad 
 [C]We're so glad
 [G]We're so glad

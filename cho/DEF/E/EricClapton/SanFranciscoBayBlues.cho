@@ -4,10 +4,10 @@
 {duration: 3:00}
 {tempo: 162}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
 
 
@@ -51,7 +51,7 @@ It's gone [C]be another brand new [A7]day.
 
 
 
-{c: Solo 1 - Piano or Harmonica}
+{comment: Solo 1 - Piano or Harmonica}
 
 | C . . . | F . . . | C . . . | C7 . . . |
 
@@ -64,7 +64,7 @@ It's gone [C]be another brand new [A7]day.
 
 
 
-{c: Solo 2 - Kazoos!}
+{comment: Solo 2 - Kazoos!}
 
 | C . . . | F . . . | C . . . | C7 . . . |
 
@@ -100,7 +100,7 @@ It's gone [C]be another brand new [A7]day.
 {eov}
 
 
-{c: Outro}
+{comment: Outro}
 [D7/F#]Walkin' with my baby down
 [G7]By the San Francisco Ba[C]y,  [A7]
 
@@ -110,7 +110,7 @@ Yeah, I'm [D7/F#]Walkin' with my baby down
 [C]Bay [F] . .  [C] [G] [C]
 
 
-{c: single note lick}
+{comment: single note lick}
 (C C G D E C)
 
 (Finish on C7 chord)

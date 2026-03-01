@@ -6,12 +6,12 @@
 {meta: countin: 8 (with pickup))}
 {meta: backing: 43}
 
-{c:***********************************************}
-{c:**  meta: countin: 8 (with pickup))   }
-{c:**  meta: backing: 43   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8 (with pickup))   }
+{comment:**  meta: backing: 43   }
+{comment:***********************************************}
 
-{c: Intro - with Xylophone}
+{comment: Intro - with Xylophone}
 
 | F#m ... | E ... | D ... | D ... |
 
@@ -71,7 +71,7 @@ he's [D]under my [A]thumb (Ah, take it easy babe. Yeah)
 
 
 
-{c: Solo}
+{comment: Solo}
 
 | F#m ... | E ... | D ... | D ... |
 

@@ -8,12 +8,12 @@
 {meta: backing: 27}
 {meta: performance: Bb (+3)}
 
-{c:***********************************************}
-{c:**  meta: nord: O24}
-{c:**  meta: countin: 8}
-{c:**  meta: backing: 27}
-{c:**  meta: performance: Bb (+3)}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O24}
+{comment:**  meta: countin: 8}
+{comment:**  meta: backing: 27}
+{comment:**  meta: performance: Bb (+3)}
+{comment:***********************************************}
 
 
 {comment: Intro}
@@ -29,7 +29,7 @@ In the doorway in the [D]sunset light
 [G]You could be my [D]Mr. Right
 {end_of_verse}
 
-{c: pre-chorus}
+{comment: pre-chorus}
 [C]   I was [D]puttin' my [Em]heart and [D]soul on the [C]line
 Said you n[D]eeded some [Em]time
 Just a l[D]ittle more [C]time to make [D]up your m[Em]ind

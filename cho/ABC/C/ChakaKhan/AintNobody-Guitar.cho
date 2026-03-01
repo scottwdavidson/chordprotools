@@ -2,12 +2,12 @@
 {artist: Chaka Khan / Rufus}
 {key: Em}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {columns: 2}
 
-{c:Intro}
+{comment:Intro}
 | Em D/E | Em D/E | Em D/E - [A F# E D] | Em D/E - [A F# E D] |
 
 {sov}
@@ -18,7 +18,7 @@
 [Cmaj7]What was [D/C]I gonna do? [G A B C] [Cmaj7]I let my[D/C]self go [B G F# E]
 {eov}
 
-{c: Pre-chorus}
+{comment: Pre-chorus}
 [Em/B]And now we're fly[Bm7]in' through the [Cmaj7]stars [G A B C]
 I hope t[D/C]his night will l[Em]ast forever[D/E][Em][D/E] [A F# E D]
 
@@ -30,7 +30,7 @@ I hope t[D/C]his night will l[Em]ast forever[D/E][Em][D/E] [A F# E D]
 [Cmaj7]You knew [D/C]I could not resist [G A B C]  [Cmaj7]I needed [D/C]someone [B G F# E]
 {eov}
 
-{c: Pre-chorus}
+{comment: Pre-chorus}
 [Em/B]And now we're fly[Bm7]in' through the [Cmaj7]stars [G A B C]
 I hope t[D/C]his night will l[Em]ast forever[D/E] [A F# E D]
 Hu[Em]h, huh, hu[D/E]h, huh
@@ -41,7 +41,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em]Ain't nob[D/G]ody [G F# E D]  [Am]Loves me[Cmaj7] better than you [D E F# G]
 {eoc}
 
-{c:Intro}
+{comment:Intro}
 | Em D/E | Em D/E | Em D/E - [A F# E D] | Em D/E - [A F# E D] |
 
 {sov}
@@ -52,7 +52,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Cmaj7]I want t[D/C]his dream to be real [G A B C]  [Cmaj7]I need t[D/C]his feelin' [B G F# E]
 {eov}
 
-{c: Pre-chorus}
+{comment: Pre-chorus}
 [Em/B]I make my wish up[Bm7]on a star [Cmaj7] [G A B C]
 And hope[D/C] this night will[Em]last forever[D/E] [A F# E D]
 Hu[Em]h, huh, hu[D/E]h, huh
@@ -70,7 +70,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em][D/E] An[Am7]d our love's so deep we ca[D]nnot measure [E D C B]
 {eob}
 
-{c: Chorus repeat}
+{comment: Chorus repeat}
 {soc}
 [Em]Ain't nob[D/G]ody [G F# E D]  [Am]Loves me bett[Cmaj7]er [D E F# G]
 [Em]Makes me [D/G]happy [G F# E D] [Am]Makes me[Cmaj7] feel this way [D E F# G]

@@ -8,12 +8,12 @@
 {meta: backing: 30}
 {meta: performance: Eb}
 
-{c:***********************************************}
-{c:**  meta: nord: O12}
-{c:**  meta: countin: 4}
-{c:**  meta: backing: 30}
-{c:**  meta: performance: Eb}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O12}
+{comment:**  meta: countin: 4}
+{comment:**  meta: backing: 30}
+{comment:**  meta: performance: Eb}
+{comment:***********************************************}
 
 {comment: Guitar: acoustic guitar; capo 3rd fret}
 
@@ -39,7 +39,7 @@
 {end_of_chorus}
 
 
-{c: Interlude}
+{comment: Interlude}
 | C  | Cmaj7  | C7  | Cmaj7  |
 
 
@@ -60,11 +60,11 @@
 {end_of_chorus}
 
 
-{c: Interlude II - Harmonica both phrases}
+{comment: Interlude II - Harmonica both phrases}
 | C  | Cmaj7  | C7  | Cmaj7  |
 | C  | Cmaj7  | C7  | Cmaj7  |
 
-{c: Solo}
+{comment: Solo}
 | Dm  G  | C  Am7  | Dm  G  | C  C7  |
 
 
@@ -77,7 +77,7 @@
 {end_of_chorus}
 
 
-{c: Outro}
+{comment: Outro}
 [C]me [Cmaj7] [C7] [Cmaj7]  So kiss
 [C]me [Cmaj7] [C7] [Cmaj7]  So kiss
 [C]me [Cmaj7] [C7] [Cmaj7]  So kiss

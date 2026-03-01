@@ -8,22 +8,22 @@
 {meta: backing: 31}
 {meta: performance: Bb}
 
-{c:***********************************************}
-{c:**  meta: nord: P24}
-{c:**  meta: countin: 4}
-{c:**  meta: backing: 31}
-{c:**  meta: performance: Bb}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P24}
+{comment:**  meta: countin: 4}
+{comment:**  meta: backing: 31}
+{comment:**  meta: performance: Bb}
+{comment:***********************************************}
 
-{c: Guitar: acoustic guitar; capo 3rd fret}
-{c: opening riff starts with an eighth note pickup (D)}
+{comment: Guitar: acoustic guitar; capo 3rd fret}
+{comment: opening riff starts with an eighth note pickup (D)}
 
-{c: Piano Intro}
+{comment: Piano Intro}
 | G  D  | Cadd9  D/F# | 
 
 | G  D  | Cadd9  D/F# |
 
-{c: Guitar Joins Intro}
+{comment: Guitar Joins Intro}
 | G  D  | Cadd9  D/F# | 
 
 | G  D  | Cadd9  D/F# |
@@ -44,7 +44,7 @@ And [Am]I just [G]can't con[C]tain
 This [Am]feeling [G]that re[C]mains [D7]
 {end_of_verse}
 
-{c: Interlude}
+{comment: Interlude}
 | G  D  | Cadd9  D/F# | G  D  | Cadd9  D/F# |
 | G  D  | Cadd9  G/B | Am  G  | C  | C  D7 |
 
@@ -75,7 +75,7 @@ And [Am]I just [G]can't con[C]tain
 This [Am]feeling [G]that re[C]mains [D7]
 {end_of_verse}
 
-{c: Outro}
+{comment: Outro}
 [G]There [D]she go[Cadd9]es [D/F#] (There she goes again)
 [G]There [D]she go[Cadd9]es [D/F#] (There she goes again)
 [G]There [D]she [C]goes ...[D/F#] [G]

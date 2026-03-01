@@ -6,12 +6,12 @@
 {meta: countin: 8}
 {meta: backing: 35}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 35   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 35   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 |  Em   |  Bm   |   C    |   D   |
 
 {sov}
@@ -36,7 +36,7 @@ When you [D]hypno--[Em]tize [Bm]with your [C]eyes
 A [D]heart of [Em]stone can [Bm]turn to [C]clay[D]
 {eoc}
 
-{c: Doo Chorus}
+{comment: Doo Chorus}
 [Em]Doo, doo[Bm], doo [C], doo[D]
 
 {sov}
@@ -48,7 +48,7 @@ Who would believe it
 With a word you dry my tears
 {eov}
 
-{c: Middle 8}
+{comment: Middle 8}
 [Cmaj7]And If I wanted to
 [Bm7]I could never be [E7]free
 [Am7]I never believed it was [Bm7]true
@@ -66,5 +66,5 @@ When you [D]hypno--[Em]tize [Bm]with your [C]eyes
 A [D]heart of [Em]stone can [Bm]turn to [C]clay[D]
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 [Em]Doo, doo[Bm], doo [C], doo[D]

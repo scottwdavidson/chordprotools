@@ -8,14 +8,14 @@
 {meta: backing: 77}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: nord: A3(M14)   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 77   }
-{c:**  meta: performance: A   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: A3(M14)   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 77   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | C . . . | F . . . | C . . . | F . . . | 
 
 {start_of_verse}
@@ -39,7 +39,7 @@ I really [Am/E]love to watch them [Dm]roll[Dm/C]
 [F]I just [Ab6]had to let it go
 {end_of_chorus}
 
-{c: Instrumental}
+{comment: Instrumental}
 | C . . . | F . . . | C . . . | F . . . | 
 
 {start_of_verse}
@@ -49,7 +49,7 @@ Well, I tell them there's no problem[F], only so[C]lutions__
 I [F]told them there's no [Dm]hurry, I'm just [G]sitting here doing [G7]tiiiiiime[G]
 {end_of_verse}
 
-{c: Outro}
+{comment: Outro}
 {start_of_chorus}
 [F]I'm just [G]sitting here watching the [C]wheels go round and [Am]round[F]
 I really [Am/E]love to watch them [Dm]roll[Dm/C]

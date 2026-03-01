@@ -4,10 +4,10 @@
 {duration: }
 {tempo: 117}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Em |
 
 {sov}
@@ -53,5 +53,5 @@ Any time (any time)[Em][G][C]
 [Em]It's [D]the [C]time of the [G]season for [C6]lovi[E]ng
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | Em | C |

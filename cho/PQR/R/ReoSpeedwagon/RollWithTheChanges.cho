@@ -2,10 +2,10 @@
 {artist: REO Speedwagon}
 {key: C}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | C | F / C | Bb/C F/C | C | 
 | C | F / C | Bb/C F/C | C | 
 
@@ -29,7 +29,7 @@ Take and [C]drink of
 To [G7/D]roll with the ch[G]anges
 {eob}
 
-{c:Interlude}
+{comment:Interlude}
 | C | F / C | Bb/C F/C | C | 
 
 {sov}
@@ -60,4 +60,4 @@ To [G7/D]roll with the ch[G]anges
 [Bb/C]Oh,[F/C] roll with the cha[C]nges
 {eoc}
 
-{c: ... repeat chorus / solos}
+{comment: ... repeat chorus / solos}

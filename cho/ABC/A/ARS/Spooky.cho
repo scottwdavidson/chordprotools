@@ -8,14 +8,14 @@
 {meta: countin: 4}
 {meta: backing: 36}
 
-{c:***********************************************}
-{c:**  meta: nord: P34   }
-{c:**  meta: roland: C013   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 36   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P34   }
+{comment:**  meta: roland: C013   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 36   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Bm7 | Bm7 | Bm7 | Bm7 |
 | Em7 | A6  | Em7 | A6  |
 
@@ -38,7 +38,7 @@ And then you [A6]smile, and [Bbdim7]hold my hand
 [Bm7]Spooky! [Cm7]Spooky! hey
 {eov}
 
-{c: Solo}
+{comment: Solo}
 | Fm7 | Bb6 | Fm7 |  Bb6 |
 | Fm7 | Bb6 | Fm7 |  Bb6 |
 | Fm7 | Bb6 | Bdim7 |
@@ -53,7 +53,7 @@ So I'll pro[Bb6]pose... [Bdim7]on Halloween.
 [Cm7]spooky, yeah-uh!
 {eov}
 
-{c: Solo}
+{comment: Solo}
 | Fm7 | Bb6 | Fm7 |  Bb6 |
 | Fm7 | Bb6 | Fm7 |  Bb6 |
 | Fm7 | Bb6 | Fm7 |  Bb6 |
@@ -61,5 +61,5 @@ So I'll pro[Bb6]pose... [Bdim7]on Halloween.
 | Fm7 | Bb6 | Bdim7 |
 | Fm7 | Bb6 | Fm7 |  Bb6 |
 
-{c: Outro}
+{comment: Outro}
 |Cm7 | Cm7 | Cm7 | Cm7 |

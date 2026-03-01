@@ -3,8 +3,8 @@
 {key: C}
 {tempo: 119}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 | C | G | Fadd9 | Fadd9 | Am | G | Fadd2 | Fadd2 |
 
@@ -53,5 +53,5 @@ while the [Fadd9]wind and the waves wash away my blues
 [Dm]kill a few more [G]days in Jackson[C]ville.[C][C]
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 | Dm | Bb7 | C |

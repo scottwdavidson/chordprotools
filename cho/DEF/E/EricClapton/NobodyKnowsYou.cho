@@ -7,13 +7,13 @@
 {meta: countin: 4}
 {meta: performance: C}
 
-{c:***********************************************}
-{c:**  meta: nord: N45}
-{c:**  meta: countin: 4}
-{c:**  meta: performance: C}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N45}
+{comment:**  meta: countin: 4}
+{comment:**  meta: performance: C}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
 | C . E7 . | A7 . . . | Dm . A7 . | Dm . . . |
 
@@ -50,7 +50,7 @@
 {eov}
 
 
-{c: Guitar Solo}
+{comment: Guitar Solo}
 
 | C . E7 . | A7 . . . | Dm . A7 . | Dm . . . |
 
@@ -58,7 +58,7 @@
 
 
 
-{c: Piano Solo}
+{comment: Piano Solo}
 
 | C . E7 . | A7 . . . | Dm . A7 . | Dm . . . |
 
@@ -86,6 +86,6 @@ Lord,[C] No[E7]body [A7]knows you
 [F]Nobody knows you (nobody knows you)
 [D7]Nobody [G7]knows you [N.C.] when you're down and out.
 
-{c: guitar lick}
+{comment: guitar lick}
 
 [B9] [C9]

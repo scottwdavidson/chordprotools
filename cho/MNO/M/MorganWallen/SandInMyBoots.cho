@@ -5,11 +5,11 @@
 {tempo: 70}
 {meta: nord: N52}
 
-{c:***********************************************}
-{c:**  meta: nord: N52   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N52   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 |C C2| F | G | C |
 
 {sov}
@@ -47,15 +47,15 @@ Somethin' 'b[C]out the way she [C/E]kissed mе tells me sh[F]e'd lovе Eastern T
 Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my b[C]oots
 {eoc}
 
-{c: Scott Solo}
+{comment: Scott Solo}
 | C . C/E . | F . C . |
 | F . C   . | G . . . |
 
-{c: Jeff Solo}
+{comment: Jeff Solo}
 | C . C/E . | F . C . |
 | F . C   . | G . Am . |
 
-{c: Interlude}
+{comment: Interlude}
 | F | Am | F | G |
 
 {sob}
@@ -72,5 +72,5 @@ Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my b[Am]oots
 Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my boots
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 |C C2| F | G | C |

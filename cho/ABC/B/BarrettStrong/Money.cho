@@ -7,16 +7,16 @@
 {meta: version: 1.0}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: nord: O15   }
-{c:**  meta: version: 1.0   }
-{c:**  meta: countin: 4   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O15   }
+{comment:**  meta: version: 1.0   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
-{c:Intro - piano}
+{comment:Intro - piano}
 | E | E | E | E | A | A | E | E | B7 | A | E | B7 |
 
-{c: JEFF VOCAL}
+{comment: JEFF VOCAL}
 {sov}
 [E] The[N.C.] best things in life are free,[A7]
 [E] But[N.C.]you can keep 'em for the birds and bees;
@@ -29,7 +29,7 @@ That's what I [B7]wa...[A7]nt,
 That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {eoc}
 
-{c: CARMEN VOCAL}
+{comment: CARMEN VOCAL}
 {sov}
 [E] You[N.C.]r love give me such a thrill,[A7]
 [E] But[N.C.]your love don't pay my bills;
@@ -42,14 +42,14 @@ That's what I [B7]wa...[A7]nt,
 That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {eoc}
 
-{c: Piano Solo}
+{comment: Piano Solo}
 | E  | E | E | E  | 
 
 | A  | A | E | E  | 
 
 | B7 | A | E | B7 |
 
-{c: CARMEN VOCAL}
+{comment: CARMEN VOCAL}
 {sov}
 [E] Mon[N.C.]ey don't get everything it's true,[A7]
 [E] Wha[N.C.]t it don't get I can't use.
@@ -62,14 +62,14 @@ That's what I [B7]wa...[A7]nt,
 That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {eoc}
 
-{c: Jeff Guitar Solo}
+{comment: Jeff Guitar Solo}
 | E  | E | E | E  | 
 
 | A  | A | E | E  | 
 
 | B7 | A | E | B7 |
 
-{c: CARMEN VOCAL}
+{comment: CARMEN VOCAL}
 {sov}
 [E] Mon[N.C.]ey don't get everything it's true,[A7]
 [E] Wha[N.C.]t it don't get I can't use.
@@ -82,16 +82,16 @@ That's what I [B7]wa...[A7]nt,
 That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {eoc}
 
-{c: Scott Piano Solo}
+{comment: Scott Piano Solo}
 | E | E | E | E | A | A | E | E | B7 | A | E | B7 |
 
-{c: JEFF VOCAL}
-{c:Coda}
+{comment: JEFF VOCAL}
+{comment:Coda}
 [E]Money, (that's what I want), lot's of money, (that's what I want).
 Whole lot of [A7]money, (that's what I want), uh[E]-huh[A7], (that's what [E]I want).
 Oh [B7]oh oh oh, [A7]oh oh,[E] yeah, (that's[A7] what [E]I want[B7]).
 
-{c: JEFF VOCAL}
+{comment: JEFF VOCAL}
 Give me [E]money, (that's what I want), lot's of money, (that's what I want).
 Oh, that mean [A7]green, yeah, that's right, baby, that's what I[E] mean[A7].[E]
 Oh [B7]oh oh oh, [A7]oh oh,[E] yeah, (that's[A7] what [E]I want[B7]).

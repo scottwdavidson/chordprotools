@@ -2,10 +2,10 @@
 {artist: Pat Green}
 {key: D}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Dsus2. D Dsus4. | D. . Dsus2 | . D . . | G5 . . . | G5 . . . |
 | Dsus2. D Dsus4. | D. . Dsus2 | . D . . | G5 . . . | G5 . . . |
 | Dsus2. D Dsus4. | D. . Dsus2 | . D . . | G5 . . . | G5 . . . |
@@ -27,7 +27,7 @@ Ok[Em7]ay, alri[A]ght, [Em7]just might get a little [A]high tonight
 Ok[Em7]ay, alri[A]ght, carry on
 {end_of_chorus}
 
-{c: Instrumental}
+{comment: Instrumental}
 | Dsus2. D Dsus4. | D. . Dsus2 | . D . . | G5 . . . | G5 . . . |
 | Dsus2. D Dsus4. | D. . Dsus2 | . D . . | G5 . . . | G5 . . . |
 | Dsus2. D Dsus4. | D. . Dsus2 | . D . . | G5 . . . | G5 . . . |
@@ -49,8 +49,8 @@ Ok[Em7]ay, alri[A]ght, [Em7]just might get a little [A]high tonight
 Ok[Em7]ay, alri[A]ght, carry o[D]n, yeah
 {end_of_chorus}
 
-{c: Solo}
-{c: TBD}
+{comment: Solo}
+{comment: TBD}
 
 {start_of_verse}
 [Em]Love'll make sure that you got your troubl[D]es

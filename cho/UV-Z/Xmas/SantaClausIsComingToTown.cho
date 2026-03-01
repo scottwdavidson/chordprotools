@@ -4,10 +4,10 @@
 {duration: 3:30}
 {tempo: 118}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | C . . . | F(add2) . Gsus . |    (repeat vamp over spoken chatting)
 
 
@@ -59,7 +59,7 @@ You'd [C]better not pout, I'm [F]telling you why:
 {eoc}
 
 
-{c: Solo}
+{comment: Solo}
 | C . . . | F . . . | C . . . | F . . . |
 
 | C . . . | F . . . | C . . . | F . . . |
@@ -91,13 +91,13 @@ You'd [C]better not [C7/Bb]pout, I'm [F/A]telling you [Fm/Ab]why:
 {eoc}
 
 
-{c: Interlude}
+{comment: Interlude}
 | C . . . | Fadd2 . Gsus . | C . . . | Fadd2 . Gsus . |
 
 | C . . . | Fadd2 . Gsus . |
 
 
-{c: Outro}
+{comment: Outro}
 [C]Santa Claus is [Fadd2]coming to to[Gsus]wn.
 [C]Santa Claus is [Fadd2]coming to to[Gsus]wn.
 [C]Santa Claus is [Fadd2]coming to to[Gsus]wn.
@@ -114,5 +114,5 @@ You'd [C]better not [C7/Bb]pout, I'm [F/A]telling you [Fm/Ab]why:
 {eoc}
 
 
-{c: Coda}
+{comment: Coda}
 | C . Am . | Dm . G7sus . | C . . . | C . . . | 

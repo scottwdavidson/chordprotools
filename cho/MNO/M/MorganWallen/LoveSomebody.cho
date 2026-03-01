@@ -7,13 +7,13 @@
 {meta: backing: 51}
 {meta: nord: P52}
 
-{c:***********************************************}
-{c:** meta: countin: 8}
-{c:** meta: backing: 51 }
-{c:** meta: nord: P52 }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:** meta: countin: 8}
+{comment:** meta: backing: 51 }
+{comment:** meta: nord: P52 }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Em . . . | C . . . | D . . . | Bm . . . | 
 | Em . . . | C . . . | D . . . | Bm . . . | 
 

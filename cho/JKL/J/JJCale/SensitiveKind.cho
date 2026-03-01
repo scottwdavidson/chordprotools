@@ -5,12 +5,12 @@
 {tempo: 101}
 {meta: nord: N11}
 
-{c:***********************************************}
-{c:**  meta: nord: N11}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N11}
+{comment:***********************************************}
 
-{c: Intro}
-{c: Piano Only - first 8 bars}
+{comment: Intro}
+{comment: Piano Only - first 8 bars}
 |  Dm  |  Dm  |  Dm  |  Dm  |  
 
 |  G  |  G  |  Dm  |  Dm  |
@@ -21,7 +21,7 @@
 
 
 
-{c: Guitar Enters - next 8 bars (with pickup from previous measure)}
+{comment: Guitar Enters - next 8 bars (with pickup from previous measure)}
 |  Dm  |  Dm  |  G  |  G  |  
 
 |  Dm  |  A7  |  Dm  |  Dm  |
@@ -32,7 +32,7 @@
 
 
 
-{c: Scott Vocals}
+{comment: Scott Vocals}
 {sov}
 Don't take her for [Dm]granted, she has a hard [Dm]time.
 Don't misunder[G]stand her or play with her [Dm]mind.
@@ -41,7 +41,7 @@ You've got to [Dm]know [A7]she's the sensitive [Dm]kind.
 {eov}
 
 
-{c: Fran Vocals}
+{comment: Fran Vocals}
 {sov}
 Tell her you love [Dm]her, each and every [Dm]night.
 And you will discov[G]er she will treat you [Dm]right.
@@ -50,7 +50,7 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 {eov}
 
 
-{c: Piano Solo}
+{comment: Piano Solo}
 |  Dm  |  Dm  |  Dm  |  Dm  |  
 
 |   G   |  G   |  Dm  |  Dm  |
@@ -62,7 +62,7 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 
 
 
-{c: Jeff Vocals}
+{comment: Jeff Vocals}
 {sov}
 She gets lo[Dm]nely waiting for [Dm]you.
 You are the on[G]ly thing to help her [Dm]through.
@@ -71,7 +71,7 @@ You've got to [Dm]know [A7]she's the sensitive k[Dm]ind.
 {eov}
 
 
-{c: Guitar Solo}
+{comment: Guitar Solo}
 |  Dm  |  Dm  |  Dm  |  Dm  |  
 
 |   G   |  G   |  Dm  |  Dm  |
@@ -83,7 +83,7 @@ You've got to [Dm]know [A7]she's the sensitive k[Dm]ind.
 
 
 
-{c: Fran Vocals}
+{comment: Fran Vocals}
 {sov}
 Tell her you love [Dm]her, each and every [Dm]night.
 And you will discov[G]er she will treat you [Dm]right.
@@ -92,7 +92,7 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 {eov}
 
 
-{c: Outro Solos}
+{comment: Outro Solos}
 ||: Dm  |  Dm  |  Dm  |  Dm  |  
 
 |   G   |  G   |  Dm  |  Dm  |

@@ -4,10 +4,10 @@
 {duration: 3:00}
 {tempo: 63}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: 8-bar Piano Intro}
+{comment: 8-bar Piano Intro}
 
 
 
@@ -96,5 +96,5 @@ Why don’t you [G7]realize
 [F#]  Vienna waits [B]for you
 
 
-{c: Coda - Intro Instrumental}
+{comment: Coda - Intro Instrumental}
 

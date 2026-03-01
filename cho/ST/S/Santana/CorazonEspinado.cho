@@ -8,7 +8,7 @@
 {meta:countin: 0}
 
 
-{c:Intro}
+{comment:Intro}
 | Bm Em F#7 | F#7 |   (piano)
 | Bm Em F#7 | F#7 |   (piano)
 | Bm Em F#7 | F#7 |   
@@ -43,7 +43,7 @@ Ay, ay, [Bm]ay, [Em]como me [F#7]duele el amor
 | Bm Em F#7 | F#7 | x2
 {eoc}
 
-{c:Solo}
+{comment:Solo}
 | Bm Em F#7 | F#7 |    x4 x2
 
 {sob}
@@ -55,14 +55,14 @@ Ay, ay, [Bm]ay, [Em]como me [F#7]duele el amor
    [F#7]Corazón espi[Bm]nado[Em] , [F#7]Corazón espi[Bm]nado[F#7][F#7][F#7]
 {eob}
 
-{c:Solo}
+{comment:Solo}
 | Bm F#7 | Bm F#7 |    x4
 
-{c:Outro}
+{comment:Outro}
    [Bm]Corazón [F#]espinado , [Bm]Corazón es[F#]pinado 
    [Bm]Corazón [F#]espinado , [Bm]Corazón es[F#]pinado 
 
-{c:Coda}
+{comment:Coda}
 | Bm Em F#7 | F# |      x8
 
 

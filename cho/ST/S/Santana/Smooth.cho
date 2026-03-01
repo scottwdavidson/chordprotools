@@ -7,10 +7,10 @@
 {meta:countin: 0}
 
 
-{c:***********************************************}
-{c:** meta:countin: 0 }
-{c:** meta: nord: P25 }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:** meta:countin: 0 }
+{comment:** meta: nord: P25 }
+{comment:***********************************************}
 
 {comment: Guitar Intro}
 
@@ -60,7 +60,7 @@ You [Am]got the kind of lo[F]vin' that [E7]can be so smooth, yeah.
 {end_of_chorus}
 
 
-{c: Interlude}
+{comment: Interlude}
 | Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
 
 
@@ -100,12 +100,12 @@ You [Am]got the kind of lo[F]vin' that [E7]can be so smooth, yeah.
 {end_of_chorus}
 
 
-{c: Chromatic run before guitar solo}
+{comment: Chromatic run before guitar solo}
 | . . Edim7 Fdim7 F#dim7 Gdim7 G#dim7 |
 
 
 
-{c: Guitar Solo - 18 bars}
+{comment: Guitar Solo - 18 bars}
 
 (Part 1 - Am F E7 pattern for 8 bars)
 | Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
@@ -134,7 +134,7 @@ You [Am]got the kind of lo[F]vin' that [E7]can be so smooth, yeah.
 {end_of_chorus}
 
 
-{c: Outro - Guitar solo plus vocal ad lib}
+{comment: Outro - Guitar solo plus vocal ad lib}
 [Am]  [F] [E7]Or else forget about it,
 [Am]  [F] [E7]Or else forget about it,
 [Am]  [F] [E7]Ah, let's all forget about it,
@@ -144,7 +144,7 @@ You [Am]got the kind of lo[F]vin' that [E7]can be so smooth, yeah.
 [Am] Oh, no [F]no. [E7]Oh, let's all forget about it,
 [Am] Hey, ah [F] [E7]Oh, let's all forget about it,
 
-{c: Guitar solo to close}
+{comment: Guitar solo to close}
 | Am . F E7 | E7 . . . | Am . F E7 | E7 . . . | (repeat)
 
 [Am]

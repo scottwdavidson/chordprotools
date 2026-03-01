@@ -3,10 +3,10 @@
 {key: F}
 {tempo: 164}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | E . A/E . | E7 . A/E . | x2
 
 {sov}
@@ -68,7 +68,7 @@ You don't [A7]pull the mask off that old Lone Ranger
 And you [B7]don't mess around with Jim[E].[A/E].[E7].[A/E].[B7]
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 [E]Yeah, big Jim got his hat
 Find out where it's at
 And it's not hustling people strange to you

@@ -6,10 +6,10 @@
 {meta: countin: 8 ; start with pickup}
 {meta: backing: 25}
 
-{c:***********************************************}
-{c:**  meta: countin: 8 ; start with pickup}
-{c:**  meta: backing: 25}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8 ; start with pickup}
+{comment:**  meta: backing: 25}
+{comment:***********************************************}
 
 {comment: Intro}
 | . . . C C# | D . F E | D . E F# | G . . . | A C B A |
@@ -37,7 +37,7 @@ Won't you [A]come upstairs girl,[E] and have a drink of cham[A]pagne
 [C]Shootin' [C#]you s[D]traight, [F]lit[E]tle [D]girl? Won't you do the [G]same?
 
 
-{c: Solo}
+{comment: Solo}
 | A . . . | A . . . | G . . . | A . . . |
 
 | A . . . | A . . . | G . . . | A . . . |

@@ -7,11 +7,11 @@
 {meta: countin: 4}
 {meta: backing: 26}
 
-{c:***********************************************}
-{c:**  meta: nord: O23}
-{c:**  meta: countin: 4}
-{c:**  meta: backing: 26}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O23}
+{comment:**  meta: countin: 4}
+{comment:**  meta: backing: 26}
+{comment:***********************************************}
 
 {comment: Intro - 8 bars}
 
@@ -29,7 +29,7 @@ Rang [Am]true,[D] sure rang tr[G]ue.
 {end_of_verse}
 
 
-{c: Fran/Jeff harmony on "It never rains ..."}
+{comment: Fran/Jeff harmony on "It never rains ..."}
 {start_of_chorus}
 Seems it [Am]never rains in south[D]ern Califor[G]nia.
 Seems I've of[Am]ten heard that kind[D] of talk bef[G]ore.
@@ -45,7 +45,7 @@ I'm under [Am]loved, I'm underf[D]ed.
 I wanna go [G]home!
 {end_of_verse}
 
-{c: Fran/Jeff harmony on "It never rains ..."}
+{comment: Fran/Jeff harmony on "It never rains ..."}
 {start_of_chorus}
 It never [Am]rains in Califor[D]nia,
 But [G]girl, don't they warn[Em] ya?
@@ -53,7 +53,7 @@ It pou[Am]rs,[D] man, it pou[G]rs.
 {end_of_chorus}
 
 
-{c: Bridge}
+{comment: Bridge}
 
 | Am | D | G | G |
 
@@ -69,7 +69,7 @@ Gimme a [Am]break,[D] give me a [G]break.
 {end_of_verse}
 
 
-{c: Fran/Jeff harmony on "It never rains ..."}
+{comment: Fran/Jeff harmony on "It never rains ..."}
 {start_of_chorus}
 Seems it [Am]never rains in south[D]ern Califor[G]nia.
 Seems I've of[Am]ten heard that kind[D] of talk bef[G]ore.

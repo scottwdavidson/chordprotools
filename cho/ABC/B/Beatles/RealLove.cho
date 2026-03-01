@@ -2,10 +2,10 @@
 {artist: The Beatles}
 {key: C}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Cm | G/B | Cm | G/B |
 
 {sov}
@@ -29,7 +29,7 @@ Was waiting for[C] love[F][C][F]
 It's [Am]real l[F]ove, it's [G]real
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | Cm | G | Cm | G |
 
 {sov}
@@ -46,7 +46,7 @@ Was waiting for[C] love[F][C][F]
 It's [Am]real l[F]ove, it's [G]real
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | Cm | G | Cm | G |
 
 {sov}

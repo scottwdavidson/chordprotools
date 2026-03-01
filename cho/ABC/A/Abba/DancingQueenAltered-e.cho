@@ -2,10 +2,10 @@
 {artist: Abba}
 {key: E}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | E | A/E | E | E | E | A/E | A | A |
 | E | A/E | E | E | E | A/E | A | A |
 
@@ -27,7 +27,7 @@ only[E] seventeen[E]
 the [E]dancing queen
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | E | A/E | E | E | E | A/E | A | A |
 | E | A/E | E | E | E | A/E | A | A |
 
@@ -49,7 +49,7 @@ from the [E]tambourine[E]
 the [E]dancing queen
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | E | A/E | E | E | E | A/E | A | A |
 | E | A/E | E | E | E | A/E | A | A |
 
@@ -63,6 +63,6 @@ only[E]seventeen[E]
 the [E]dancing queen
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | E | A/E | E | E | E | A/E | A | A |
 

@@ -6,12 +6,12 @@
 {meta: nord: N52}
 {meta: performance: E}
 
-{c:***********************************************}
-{c:**  meta: nord: N52}
-{c:**  meta: performance: E}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N52}
+{comment:**  meta: performance: E}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | D ... | C ... | G ... | Asus4 ... | A ... |
 
 {sov}
@@ -28,7 +28,7 @@ The [Bm]morning after [A]blues, from my [G]head down [D/F#]to my [E7sus4]shoes [
 [D] Carefree [C]highway,[G]  let me [Asus4]slip away, [A]slip away on [D]you
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | D ... | C ... | G ... | A ... |
 | D ... | C ... | G ... | Asus4 ... | A ... |
 
@@ -39,7 +39,7 @@ Now the [D]thing that I call [A]living is just [F#]being satis[Bm]fied,
 With [G]knowing I got [A]no one left to [D]blame
 {eov}
 
-{c: Jeff double "highway", "Ahh"}
+{comment: Jeff double "highway", "Ahh"}
 {soc}
 [D]Carefree [C]highway,[G]  I got to [A]see you my old [D]flame
 Carefree [C]highway,[G]  you've seen [A]better days
@@ -47,7 +47,7 @@ Carefree [C]highway,[G]  you've seen [A]better days
 [D] Carefree [C]highway,[G]  let me [Asus4]slip away, [A]slip away on [D]you
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | D ... | C ... | G ... | A ... |
 | D ... | C ... | G ... | Asus4 ... | A ... |
 
@@ -58,7 +58,7 @@ Well I [D]guess it must be [A]wander lust or [F#]trying to get [Bm]free,
 [G]From the good old [A]faithful feeling we once [D]knew
 {eov}
 
-{c: Jeff double "highway", "Ahh"}
+{comment: Jeff double "highway", "Ahh"}
 {soc}
 [D]Carefree [C]highway,[G]  let me [A]slip away on [D]you
 Carefree [C]highway,[G]  you've seen [A]better days
@@ -74,7 +74,7 @@ Carefree [C]highway,[G]  you've seen [A]better days
 [D] Carefree [C]highway,[G]  let me [Asus4]slip away, [A]slip away on [D]you
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | D ... | C ... | G ... | A ... |
 | D ... | C ... | G ... | Asus4 ... | A ... |
 | D |

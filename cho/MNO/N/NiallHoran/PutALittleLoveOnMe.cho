@@ -2,10 +2,10 @@
 {artist: Niall Horan}
 {key: G}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | [G]G | [D]D  | [C]C |
 
 {sov}
@@ -16,7 +16,7 @@
 {eov}
 
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 Are you a[G]ll dressed up but with n[G/F#]owhere to go?
 Are your t[Em]ears falling down when the l[D]ights are low?
 Another Fr[G]iday night tryna [G/F#]put on a show
@@ -41,7 +41,7 @@ When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [Em]Is it wrong that I stil[C]l don't know my heart?
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 Are you a[G]ll dressed up but with n[G/F#]owhere to go?
 Are your t[Em]ears falling down when the l[C]ights are low?
 Another Fr[G]iday night tryna [G/F#]put on a show
@@ -59,7 +59,7 @@ When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [G]To put a little l[D]ove on [G]me
 {eoc}
 
-{c: Refrain}
+{comment: Refrain}
 [Em]Last night I lay awake
 [G]Stuck on the things we say
 [Am]And when I close my eyes, the fi[D]rst thing I hear you say is-
@@ -73,6 +73,6 @@ When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [G]To put a little l[D]ove on [G]me
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 [Cm]You're the only one I n[G]eed
 [G]So put your love [D]on me[G]

@@ -9,15 +9,15 @@
 {meta: countin: 8}
 {meta: backing: 32}
 
-{c:***********************************************}
-{c:**  meta: nord: P45}
-{c:**  meta: roland: C012}
-{c:**  meta: version: 0.0}
-{c:**  meta: countin: 8}
-{c:**  meta: backing: 32}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P45}
+{comment:**  meta: roland: C012}
+{comment:**  meta: version: 0.0}
+{comment:**  meta: countin: 8}
+{comment:**  meta: backing: 32}
+{comment:***********************************************}
 
-{c: Roland  C022 }
+{comment: Roland  C022 }
 {comment: Intro}
 | Am . A7sus4 . | Fmaj7/A . G . |
 | Am . A7sus4 . | Fmaj7/A . G . |

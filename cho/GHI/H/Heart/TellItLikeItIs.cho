@@ -5,10 +5,10 @@
 {tempo: 67}
 {time: 6/8}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Caug |
 
 {sov}
@@ -45,7 +45,7 @@ Ooh ooh yeah,[F6][F#dim7] deep down in[Gm6]side,
 Just forget [Gm]your [C7]foolish [F]pride.[Fmaj7][F6]
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | Am | Dm | Am Dm | Am Bb | C | Gm7 | Am |
 Ooooooh-ohhh-I-I-I-I...
 
@@ -57,7 +57,7 @@ Just let your conscience be your [F]guide.[Fmaj7][F6][F#dim7]
 Just forget [Gm]your [C7]foolish [F]pride.[Fmaj7][F6]
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 [C]Ohh, (tell it like it [Gm6]is)..yeaaaaaaah, [C7]tell it to me, baby,
 tell it to me..don't you want to tell me right [F]now?[Fmaj7]
 [C]Yeah, yeah yeah, [Gm6]yeah..(tell it like it is.)

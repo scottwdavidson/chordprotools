@@ -4,13 +4,13 @@
 {duration: 3:40}
 {tempo: 98}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Bass Intro}
+{comment:Bass Intro}
 || E  | C#m7 | Amaj9 | Cmaj7 Bm7 |
 
-{c:Keyboard + Bass Intro}
+{comment:Keyboard + Bass Intro}
 | E  | C#m7 | Amaj9 | Cmaj7 Bm7 ||
 
 {sov}
@@ -20,7 +20,7 @@ And the sunlight hurts my eyes[Cmaj7][Bm7]
 Bears heavy on my [Cmaj7]mind
 {eov}
 
-{c:PreChorus}
+{comment:PreChorus}
 [Cmaj7/D]Then I look at you[D/E]
 And the world's a[Am7]lright with me[Bm7]
 [D11]Just one look at you[E11]
@@ -38,7 +38,7 @@ Seems impossible to face[Cmaj7][Bm7]
 Always seems to know the [Cmaj7]way
 {eov}
 
-{c:PreChorus}
+{comment:PreChorus}
 [Cmaj7/D]Then I look at you[D/E]
 And the world's a[Am7]lright with me[Bm7]
 [D11]Just one look at you[E11]
@@ -56,7 +56,7 @@ Seems impossible to face[Cmaj7][Bm7]
 Always seems to know the [Cmaj7]way
 {eov}
 
-{c:PreChorus}
+{comment:PreChorus}
 [Cmaj7/D]Then I look at you[D/E]
 And the world's a[Am7]lright with me[Bm7]
 [D11]Just one look at you[E11]
@@ -71,8 +71,8 @@ A lovely [E]day (Lovely day lovely day [C#m7]lovely day lovely day [Amaj9]lovely
 A lovely [E]day (Lovely day lovely day [C#m7]lovely day lovely day [Amaj9]lovely day lovely day [Cmaj7]lovely day lovely [Bm7]day)
 {eoc}
 
-{c:Chord Hints - E        can be played B--E-G#-B}
-{c:Chord Hints - C#m7  can be played C#-E-G#-B}
-{c:Chord Hints - Amaj9 can be played C#-E-G#-B}
-{c:Chord Hints - Cmaj7 can be played C--E-G--B}
-{c:Chord Hints - Bm7    can be played B--D-F#-A}
+{comment:Chord Hints - E        can be played B--E-G#-B}
+{comment:Chord Hints - C#m7  can be played C#-E-G#-B}
+{comment:Chord Hints - Amaj9 can be played C#-E-G#-B}
+{comment:Chord Hints - Cmaj7 can be played C--E-G--B}
+{comment:Chord Hints - Bm7    can be played B--D-F#-A}

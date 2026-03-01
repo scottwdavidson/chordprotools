@@ -5,15 +5,15 @@
 {tempo: 130}
 {meta: nord: N41}
 
-{c:***********************************************}
-{c:**  meta: nord: N41}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N41}
+{comment:***********************************************}
 
 {columns: 2}
 
 
 
-{c:Intro; DR Intro:Part1(8)}
+{comment:Intro; DR Intro:Part1(8)}
 {start_of_grid 4x4+1}
 
 
@@ -35,7 +35,7 @@
 
 {end_of_grid}
 
-{c: DR Part2(8)}
+{comment: DR Part2(8)}
 {start_of_grid 4x4+1}
 
 
@@ -67,7 +67,7 @@ Look at [Bb]me, I'm self-employed
 I [F]love to work at nothin' all [C]day
 {eov}
 
-{c:DR Part 3}
+{comment:DR Part 3}
 {soc}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
@@ -76,8 +76,8 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 Work out
 {eoc}
 
-{c:DR Part 4}
-{c:Guitar Solo 1}
+{comment:DR Part 4}
+{comment:Guitar Solo 1}
 {start_of_grid 4x4+1}
 
 || C . | Bb . | F . | C . |
@@ -88,7 +88,7 @@ Work out
 
 {end_of_grid}
 
-{c:DR Part 5}
+{comment:DR Part 5}
 {sov}
 If it were [C]easy as fishin'
 You could [Bb]be a musician
@@ -104,7 +104,7 @@ And we're [Bb]all self-employed
 We [F]love to work at nothin' all [C]day
 {eov}
 
-{c:DR Part 6}
+{comment:DR Part 6}
 {soc}
 And we be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
@@ -112,8 +112,8 @@ We be [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
 {eoc}
 
-{c:Guitar Solo 2}
-{c:DR Part 7}
+{comment:Guitar Solo 2}
+{comment:DR Part 7}
 {start_of_grid 4x4}
 
 
@@ -127,13 +127,13 @@ We be [C]takin' care of business[Bb] (it's all mine)
 {end_of_grid}
 
 
-{c:Interlude}
+{comment:Interlude}
 {soc}
 [NC] [NC] Whoooo!
 [NC] alright [NC]
 {eoc}
 
-{c:Power chords: 2 -> 3 beats pattern}
+{comment:Power chords: 2 -> 3 beats pattern}
 {soc}
 
 [C] [F] [Eb] [Bb]
@@ -146,7 +146,7 @@ We be [C]takin' care of business[Bb] (it's all mine)
 
 {eoc}
 
-{c:Guitar Solo 3}
+{comment:Guitar Solo 3}
 {start_of_grid 4x4}
 
 ||  C . | Bb . | F . | C . | 
@@ -157,7 +157,7 @@ We be [C]takin' care of business[Bb] (it's all mine)
 
 {end_of_grid}
  
-{c:DR Part 8}
+{comment:DR Part 8}
 {sov}
 You [C]get up every morning
 From your [Bb]'larm clock's warning
@@ -173,7 +173,7 @@ Look at [Bb]me, I'm self-employed
 I [F]love to work at nothin' all [C]day
 {eov}
 
-{c:DR Part 9}
+{comment:DR Part 9}
 {soc}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
@@ -181,13 +181,13 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
 {eoc}
 
-{c:DR Part 10}
+{comment:DR Part 10}
 {start_of_grid 4x4}
 || N.C. . | N.C. . | N.C. . | N.C. . | 
 {end_of_grid}
 
-{c:DR Part 11}
-{c:A Cappella}
+{comment:DR Part 11}
+{comment:A Cappella}
 {soc}
 [NC] Takin' care of business [NC]
 
@@ -199,7 +199,7 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 
 {eoc}
 
-{c:staccato chords}
+{comment:staccato chords}
 {soc}
 [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
@@ -207,8 +207,8 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business[C] (workin' overtime)
 {eoc}
 
-{c:DR Part 12}
-{c:standard pattern}
+{comment:DR Part 12}
+{comment:standard pattern}
 {soc}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
@@ -216,7 +216,7 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
 {eoc}
 
-{c:Piano Solo}
+{comment:Piano Solo}
 {start_of_grid 4x4+1}
 
 ||  C . | Bb . | F . | C . | 
@@ -229,7 +229,7 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 
 {end_of_grid}
 
-{c:Outro}
+{comment:Outro}
 {soc}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
@@ -237,7 +237,7 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
 {eoc}
 
-{c:with opening lick}
+{comment:with opening lick}
 {start_of_grid 4x4+1}
 ||  C . | Bb . | F . | C . || x2 (finish on final C chord)
 {end_of_grid}

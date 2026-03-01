@@ -6,12 +6,12 @@
 {meta: nord: N24}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: nord: N24}
-{c:**  meta: countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N24}
+{comment:**  meta: countin: 4}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | A | D#m7 Dmaj7/A | E13 E9 |
 
 {start_of_verse}
@@ -69,7 +69,7 @@ Don't you think it's strange?
 [D/E]Just go a[E9]head, let your hai[A]r down
 {start_of_chorus}
 
-{c:Outro}
+{comment:Outro}
 [A]Girl, put your records on, [B9/F#]tell me your favourite song
 [D/E]You go ahead, let your hai[A]r down
 [A]Sapphire and faded jeans, [B7/F#]I hope you get your dreams,

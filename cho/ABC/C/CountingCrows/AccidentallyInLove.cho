@@ -6,12 +6,12 @@
 {meta: nord: O11}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: nord: O11}
-{c:**  meta: countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O11}
+{comment:**  meta: countin: 4}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 |  G  |  C  |  G  |  D  |
 
 
@@ -47,7 +47,7 @@ Well, I [A]didn't mean to do it, but there's[D] no escaping your [C]love.   Ahhh
 {eov}
 
 
-{c: Bridge 1}
+{comment: Bridge 1}
 [Em] These lines of [C]lightning mean we're [G]never alone,
 [Am]never alone, [N.C.] no no.
 
@@ -66,14 +66,14 @@ We [C]were once upon a [D]time in [Em]love. |  A  |  C  |
 
 
 
-{c: Bridge 2}
-{c: Piano Only}
+{comment: Bridge 2}
+{comment: Piano Only}
 We're accidentally in [G]love.  | [C]
 Accidentally in [Em]love.   | [D]
 Accidentally in [G]love.  | [C]
 Accidentally in [Em]love.   | [D]
 
-{c: Add Guitar}
+{comment: Add Guitar}
 Accidentally in [G]love.  | [C]
 Accidentally in [Em]love.   | [D]
 Accidentally in [G]love.  | [C]
@@ -81,7 +81,7 @@ Accidentally in [Em]love.   | [D] Accidentally...
 
 
 
-{c: Bridge 3}
+{comment: Bridge 3}
 [G] I'm in love, I'm in love,[C] I'm in love, I'm in love,
 [Em] I'm in love, I'm in love, [D] accidentally.
 [G] I'm in love, I'm in love,[C] I'm in love, I'm in love,

@@ -5,9 +5,9 @@
 {tempo: 136}
 {meta: nord: P23}
 
-{c:***********************************************}
-{c:**  meta: nord: P23}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P23}
+{comment:***********************************************}
 
 {comment: Intro}
 | Ebsus2 . . . | Bb/D . . . | Cm7(4) . . . | Bb/D . . . | 
@@ -25,7 +25,7 @@
 [Eb]You were always [Bb/D]there when I looked b[Cm7(4)]ack[Bb/D]
 {end_of_verse}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 {start_of_chorus}   
 You had to [Ebsus2]do it all al[Bb/D]one
 Make a [Ebsus2]living, make a h[Bb/D]ome
@@ -59,7 +59,7 @@ I [Bb]promise you[F/A] ther[Gm]e will [Bb/F]come a day[C/E]
 Butterfly__ f[F]ly away[Ebsus2][Bb/D][Cm7(4)][Bb/D]
 {end_of_chorus}
 
-{c: Outro}
+{comment: Outro}
 [Ebsus2]Butterfly, [Bb/D]Butterfly, [Cm7(4)]Butterfly
 Butterfly__ f[F]ly away[Ebsus2][Bb/D][Cm7(4)][Bb/D]
 [Ebsus2]Butterfly, [Bb/D]Butterfly, [Cm7(4)]Butterfly

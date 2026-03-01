@@ -8,12 +8,12 @@
 {meta: countin: 8}
 {meta: performance: C#m}
 
-{c:***********************************************}
-{c:** meta: backing: 59}
-{c:** meta: nord: P54}
-{c:** meta: countin: 8}
-{c:** meta: performance: C#m}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:** meta: backing: 59}
+{comment:** meta: nord: P54}
+{comment:** meta: countin: 8}
+{comment:** meta: performance: C#m}
+{comment:***********************************************}
 
 
 

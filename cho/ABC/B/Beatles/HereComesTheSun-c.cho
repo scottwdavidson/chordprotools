@@ -2,12 +2,12 @@
 {artist: The Beatles}
 {key: A}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {transpose: 3}
 
-{c:Intro}
+{comment:Intro}
 | A | A | D | E7 | 
 | A | A | D | E7 | 
 
@@ -42,7 +42,7 @@
 {eoc}
 | D A/C# Bm7 | A E7 | A | E | 
 
-{c:Interlude 3/8, 3/8, 5/8 - third inversion}
+{comment:Interlude 3/8, 3/8, 5/8 - third inversion}
 | C | G | D | A | E7 | 
 
 {sob}
@@ -51,7 +51,7 @@
 [C]Sun, [G]sun, [D]sun, here it [A]comes 
 {eob}
 
-{c:Instrumenetal Bridge}
+{comment:Instrumenetal Bridge}
 | E7 | E7sus4 |  E7 | 
 
 {sov}
@@ -66,5 +66,5 @@
 {eoc}
 | D A/C# Bm7 | A E7 | A | E | 
 
-{c:Instrumental Outro 3/8, 3/8, 5/8 - third inversion}
+{comment:Instrumental Outro 3/8, 3/8, 5/8 - third inversion}
 | C | G | D | A |

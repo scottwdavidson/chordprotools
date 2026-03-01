@@ -7,14 +7,14 @@
 {meta: countin: 8}
 {meta: backing: 23}
 
-{c:***********************************************}
-{c:**  meta: nord: O42}
-{c:**  meta: countin: 8}
-{c:**  meta: backing: 23}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O42}
+{comment:**  meta: countin: 8}
+{comment:**  meta: backing: 23}
+{comment:***********************************************}
 
-{c: Intro}
-{c: piano (A octave) w/ drum for 3 measures}
+{comment: Intro}
+{comment: piano (A octave) w/ drum for 3 measures}
 | (1) (2) Am7 Am7 | Bm D Am7 |
 
 | (1) (2) Am7 Am7 | Bm D Am7 |
@@ -48,7 +48,7 @@ When it's a[Dm7]bout you[G]
 That I [E7]am a-woah woah oh [Am7]oh
 {eov}
 
-{c:Interlude}
+{comment:Interlude}
 | D Am7 | D Am7 | D Am7 |
 
 {soc}
@@ -76,10 +76,10 @@ Well it's a[Dm7]round you[G]
 That I [E7]am a-woah woah oh [Am]oh
 {eov}
 
-{c:Interlude}
+{comment:Interlude}
 | D Am7 | D Am7 | D Am7 |
 
-{c:Solo}
+{comment:Solo}
 | Am7 | Am7 | D | D   | 
 
 | Am7 | Am7 | D | D   | 
@@ -99,8 +99,8 @@ That I [E7]am a-woah woah oh [Am]oh
 You [D]sure do [F]sure do [C]sure do, you [G/B]sure do shine
 {eoc}
 
-{c:Outro}
-{c:Solo}
+{comment:Outro}
+{comment:Solo}
 | Am7 | Am7 | D | D | 
 
 | Am7 | Am7 | D | D   | 

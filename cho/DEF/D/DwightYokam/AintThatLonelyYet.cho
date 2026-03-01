@@ -4,10 +4,10 @@
 {duration: 3:10}
 {tempo: 107}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | F C | Dm | Bb C | F Bb/F F | 
 
 {sov}
@@ -25,7 +25,7 @@ Guess you're [C7]hungry for [A/C#]some more;[Dm]... girl,
 [F][C/E]After [Dm]what you've put me [A7]through, no, I ain't [Bb]that [C]lonely [F]yet
 {eoc}
 
-{c:Instrumental Turnaround}
+{comment:Instrumental Turnaround}
 | F C | Dm | Bb C | F Bb/F F | 
 
 {sov}
@@ -46,7 +46,7 @@ I got [C7]caught up in [A/C#]her [Dm] web, of [Bb]love [C]and [F]lies.
 [Bb]ev'rything you do [G7]just brings me down[C], woa [A/C#]and I,
 {eob}
 
-{c:(play 3 times)}
+{comment:(play 3 times)}
 {soc} 
 [C/E]'Cause I 
 [Dm]ain't that lonely [A7]yet, no, [Bb]I ain't that [C]lonely yet;[F]

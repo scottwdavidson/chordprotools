@@ -6,16 +6,16 @@
 {meta: nord: ???}
 {meta: performance: G}
 
-{c:***********************************************}
-{c:**  meta: nord: ???}
-{c:**  meta: performance: G}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: ???}
+{comment:**  meta: performance: G}
+{comment:***********************************************}
 
-{c: Intro - Piano Only}
+{comment: Intro - Piano Only}
 [G/D]  [C/E]  [F#]
 
 
-{c: Intro}
+{comment: Intro}
 | G . . . | G . . . | Em . . . | Em . . . |
 
 | C . . . | C . . . | D . . . | D . . . |
@@ -36,7 +36,7 @@ We were [D]hoppin' and boppin' to the Crocodile Rock, well
 
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 [Em]Crocodile Rockin' is something shockin'
 When your [A7]feet just can't keep still.
@@ -48,7 +48,7 @@ When [A7]Susie wore her dresses tight and
 
 
 
-{c: Interlude I}
+{comment: Interlude I}
 [G]La... [G] La La La La
 [Em]La... [Em] La La La La
 [C]La... [C] La La La La
@@ -69,7 +69,7 @@ We really th[D]ought the Crocodile Rock would last, well
 
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 [Em]Crocodile Rockin' is something shockin'
 When your [A7]feet just can't keep still.
@@ -81,7 +81,7 @@ When [A7]Susie wore her dresses tight and
 
 
 
-{c: Interlude I}
+{comment: Interlude I}
 [G]La... [G] La La La La
 [Em]La... [Em] La La La La
 [C]La... [C] La La La La
@@ -102,7 +102,7 @@ We were [D]hoppin' and boppin' to the Crocodile Rock, well
 
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 [Em]Crocodile Rockin' is something shockin'
 When your [A7]feet just can't keep still.
@@ -114,7 +114,7 @@ When [A7]Susie wore her dresses tight and
 
 
 
-{c: Outro - repeat as needed}
+{comment: Outro - repeat as needed}
 [G]La... [G] La La La La
 [Em]La... [Em] La La La La
 [C]La... [C] La La La La

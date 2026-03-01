@@ -5,11 +5,11 @@
 {tempo: 78}
 {meta: nord: P25}
 
-{c:***********************************************}
-{c:**  meta: nord: P25}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P25}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Gm . C . | Gm . C . | Gm . C . | 
 
 {start_of_verse}
@@ -52,7 +52,7 @@ You're hanging [Gm]round...[C]ba..[Gm]by.[C]
 Lord knows you got to [Gm]change.[C]..[Gm]....[C][Gm][C][Gm][C]
 {end_of_chorus}
 
-{c: Solos}
+{comment: Solos}
 | Gm . C . | Gm . C . | Gm . C . | 
 
 {start_of_verse}
@@ -75,10 +75,10 @@ You're hanging [Gm]round...[C]ba..[Gm]by.[C]
 Lord knows you got to [Gm]change.[C]..[Gm]....[C][Gm][C][Gm][C]
 {end_of_chorus}
 
-{c: Solos}
+{comment: Solos}
 | Gm . C . | Gm . C . | Gm . C . | 
 
-{c: Outro}
+{comment: Outro}
 {start_of_chorus}
 [C]I'm getting [Gm]tired of [C]waiting and
 [Gm]fooling a[C]round,

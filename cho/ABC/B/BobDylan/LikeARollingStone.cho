@@ -2,10 +2,10 @@
 {artist: Bob Dylan}
 {key: C}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | C Fmaj7/C | C Fmaj7/C | C Fmaj7/C | C Fmaj7/C |
 
 {sov}
@@ -15,7 +15,7 @@ You [C/E]threw the bums a dime [F]in your prime[G],   didn't you?
 you're [Em]bound to fall" You thought [F]they were all [G]a kiddin' you
 {eov}
 
-{c:interlude}
+{comment:interlude}
 [Gb][F]  You used to [G]laugh about[Gb]
 [F]  Everybody that was [G]hangin' out
 
@@ -41,7 +41,7 @@ No[C]body has ever taught you [Dm7]how to live out on the [Em]street
 And now you're [F]gonna have to get [G]used to it
 {eov}
 
-{c:interlude}
+{comment:interlude}
 [F]  You said you'd neve[G]r  compromise
 [F]  With the mystery tramp, but now you[G]realize
 

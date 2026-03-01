@@ -4,12 +4,12 @@
 {duration: 3:00}
 {tempo: 63}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {columns: 2}
 
-{c:INTRODUCTION}
+{comment:INTRODUCTION}
 
 {sov}
 [Gm]   Slow down you [Bb]crazy child
@@ -57,7 +57,7 @@ When will you [Gb7]realize
 [F]  Vienna waits [Bb]for you
 {eoc}
 
-{c: PIANO SOLO}
+{comment: PIANO SOLO}
 | Gm ... | Bb ... | F ...   | Ab ...    |
 | Eb ... | Bb ... | Am7 ... | C/D . D . |
 
@@ -82,4 +82,4 @@ Why don't you [Gb7]realize
 [G7]   When will you [Gb7]realize
 [F]  Vienna waits [Bb]for you
 
-{c: Piano Outro}
+{comment: Piano Outro}

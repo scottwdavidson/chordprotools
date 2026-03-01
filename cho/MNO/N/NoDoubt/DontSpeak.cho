@@ -6,10 +6,10 @@
 {meta: nord: N45}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: nord: N45}
-{c:**  meta: countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N45}
+{comment:**  meta: countin: 4}
+{comment:***********************************************}
 
 {comment: Intro}
 | Cm . . . | Cm . . . |
@@ -64,27 +64,27 @@ I [Bbm]know what you're t[Eb]hinking
 Don't [C]tell me 'cause it [Fm7]hurts[Bbm][Eb]
 {end_of_chorus}
 
-{c: Bridge}
+{comment: Bridge}
 {start_of_chorus}
 [Db]It's all e[Ab/C]nding
 We've got to st[Cb]op pre[Gb/Bb]tending who we 
 [A]are[Eb7][Absus4][Ab]
 {end_of_chorus}
 
-{c: Guitar Solo}
+{comment: Guitar Solo}
 |Cm   Gm7  | Fm7  Bb | 
 |Cm   Gm7  | Fm7  Bb | 
 |Cm   Gm7  | Fm7  Bb | 
 |Gm7 Cm | Fm7     |
 
 
-{c: Piano Solo}
+{comment: Piano Solo}
 |Cm   Gm7  | Fm7  Bb | 
 |Cm   Gm7  | Fm7  Bb | 
 |Cm   Gm7  | Fm7  Bb | 
 |Gm7 Cm | Fm7     |
 
-{c: Interlude}
+{comment: Interlude}
 [Cm]You and me[Gm7]
 I[Fm7] can see us [Bb]dying ... a[Fm7]re we?[Bb]
 

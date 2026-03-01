@@ -4,13 +4,13 @@
 {duration: 2:50}
 {tempo: 176}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro - Part 1}
+{comment: Intro - Part 1}
 4 measures of drum intro
 
-{c: Intro - Guitar}
+{comment: Intro - Guitar}
 12 bar solo
 
 | E7 | E7 | E7 | E7 |
@@ -60,7 +60,7 @@ Well, it's [B7]over, I k[A7]now it but I can't let [E7]go.  [E7]
 {end_of_chorus}
 
 
-{c: Solo}
+{comment: Solo}
 12 bar blues x2 (do one repeat)
 
 ||: | E7 | E7 | E7 | E7 |
@@ -100,7 +100,7 @@ Well, it's [B7]over, I k[A7]now it but I can't let [E7]go.  [E7]
 {end_of_chorus} 
 
 
-{c: Outro}
+{comment: Outro}
 It's o[B7]ver, I k[A7]now it but I can't let [E7]go.  [E7]
 And it's o[B7]ver, I k[A7]now it but I can't let [E7]go.  [E7]
 

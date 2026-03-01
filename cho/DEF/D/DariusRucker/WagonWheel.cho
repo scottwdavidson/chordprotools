@@ -7,13 +7,13 @@
 {meta: version: 1.0}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: nord: O55   }
-{c:**  meta: version: 1.0   }
-{c:**  meta: countin: 4   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: version: 1.0   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | G  | D | 
 | Em | C | 
 | G  | D | 
@@ -41,7 +41,7 @@ R[Em]ock me momma like a s[C]outh bound train
 H[G]ey,[D]  momma r[C]ock me
 {eoc}
 
-{c:Instrumental}
+{comment:Instrumental}
 | G  | D | 
 | Em | C | 
 | G  | D | 
@@ -65,7 +65,7 @@ R[Em]ock me momma like a s[C]outh bound train
 H[G]ey,[D]  momma r[C]ock me
 {eoc}
 
-{c:Instrumental}
+{comment:Instrumental}
 | G  | D | 
 | Em | C | 
 | G  | D | 
@@ -100,7 +100,7 @@ R[Em]ock me momma like a s[C]outh bound train
 H[G]ey,[D]  momma r[C]ock me
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | G  | D | 
 | Em | C | 
 | G  | D | 

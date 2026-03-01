@@ -8,12 +8,12 @@
 {meta: backing: 74}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: nord: N51   }
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 74   }
-{c:**  meta: performance: A   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N51   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 74   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro}
 | B . . . | B . . . |

@@ -2,10 +2,10 @@
 {artist: Bob Seger}
 {key: Em}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Em | Em |
 
 {sov}
@@ -53,7 +53,7 @@ There I [C]go, [D]  turn the [Em]page, ah
 As the [A]sweat pours out your body like the music that you play[Em]
 {eob}
 
-{c: Saxophone Riff}
+{comment: Saxophone Riff}
 | Em | Em |
 
 {sov}
@@ -71,7 +71,7 @@ Here I [D]go, playing [A]star again
 There I [C]go, [D]  turn the [Em]page
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 [Em]Ah, here I [D]am, on the [Em]road again
 There I [D]am, up on the [Em]stage
 Here I [D]go, playing [A]star again

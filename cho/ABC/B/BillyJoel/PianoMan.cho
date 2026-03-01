@@ -5,11 +5,11 @@
 {tempo: 178}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: performance: A}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: A}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | C ..     | G/B .. | F/A .. | C/G .. | 
 | Fmaj7 .. | C/E .. | D7 ..  | G ..   |
 
@@ -27,7 +27,7 @@ making [F]love to his [G7sus]tonic and [C]gin
 {eov}
 
 
-{c: Piano Interlude}
+{comment: Piano Interlude}
 | C .. | G/B .. | F/A .. | C/G .. | 
 | F ..     | G7sus .. | C .. | C .. |
 | F/C .. | 
@@ -42,7 +42,7 @@ I [F/A]knew it [C/G]complete when
 {eov}
 
 
-{c: Bridge}
+{comment: Bridge}
 
 [F/A]Da da da [Am/G]    de de [D7/F#]Da         [F]   [F/A]   dada [Am/G]         dede [D7/F#]da        [D7]  da [G]da[G/F]
 
@@ -57,7 +57,7 @@ And [F]you've got us [G11]feeling al[C]right.
 {eoc}
 
 
-{c: Harmonica}
+{comment: Harmonica}
 [C]C  [Em/B]F/C  C[F/A]maj7[C/G]  G11[F][G11]
 [C] [F/C][Cmaj7][G11]
 
@@ -79,7 +79,7 @@ If [F]I could get o[G11]ut of this p[C]lace.
 {eov}
 
 
-{c: Bridge}
+{comment: Bridge}
 [F/A]Da da da [Am/G]    de de [D7/F#]Da         [F]   [F/A]   dada [Am/G]         dede [D7/F#]da        [D7]  da [G]da[G/F][G]
 
 
@@ -91,7 +91,7 @@ And [F]probably [G11]will be for [C]life.
 {eov}
 
 
-{c: Harmonica}
+{comment: Harmonica}
 [C]C  [Em/B]      [F/A]F/C[C/G][F][G11]
 
 
@@ -104,7 +104,7 @@ But it's [F]better than [G11]drinking a[C]lone.
 
 
 
-{c: Instrumental}
+{comment: Instrumental}
 
 [F/A]Am  [Am/G]Am/G  [D7/F#]D7/F#  [F]F
 [F/A]G  G[Am/G]/F  C/[D7/F#]E  G/D[D7]
@@ -118,7 +118,7 @@ And [F]you've got us [G11]feeling al[C]right.
 {eoc}
 
 
-{c: Harmonica}
+{comment: Harmonica}
 [C]C  [G/B]F/C  [F/A]Cmaj[C/G]7  G1[F]1[G11]
 [C] [F/C][Cmaj7][G11]
 
@@ -139,7 +139,7 @@ And s[F]ay man wh[G11]at are you do[C]ing here?
 {eov}
 
 
-{c: Bridge}
+{comment: Bridge}
 [F/A]Da da da [Am/G]    de de [D7/F#]Da         [F]    [F/A]  dada  [Am/G]        dede d[D7/F#]a         [D7] da da[G][G/F][C/E][G/D]
 
 
@@ -153,6 +153,6 @@ And [F]you've got us [G11]feeling al[C]right
 
 
 
-{c: Harmonica}
+{comment: Harmonica}
 [C]C  [G/B]F/C  [F/A]Cmaj[C/G]7  G1[F]1[G11]
 C  F/C  Cmaj7  G/F  C/E  G/D  C

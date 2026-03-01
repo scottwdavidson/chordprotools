@@ -7,13 +7,13 @@
 {meta: backing: 29}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 29   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 29   }
+{comment:***********************************************}
 
 
-{c: Intro}
+{comment: Intro}
 | A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
 
 | A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
@@ -31,7 +31,7 @@
 {eov}
 
 
-{c: Interlude I}
+{comment: Interlude I}
 | A  D/A  A  E/A  .  . |  D/A  E/A  Esus4/A  E/A  |
 
 | A  D/A  A  E/A  .  . |  D/A  D/A  A  .  |
@@ -55,7 +55,7 @@
 {eoc}
 
 
-{c: Interlude II}
+{comment: Interlude II}
 | A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
 
 | A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
@@ -78,11 +78,11 @@
 {eoc}
 
 
-{c: 3 Bar Drum Fill}
+{comment: 3 Bar Drum Fill}
 | . . . . | . . . . | . . . . |
 
 
-{c: A Cappella (chords are implied for vocal harmony)}
+{comment: A Cappella (chords are implied for vocal harmony)}
 
 {sob}
 [A] Oh, let it [D/A]rock, [D] let it [D]ro_[E]ll__
@@ -92,11 +92,11 @@
 {eob}
 
 
-{c: 4 Bar Drum Pattern}
+{comment: 4 Bar Drum Pattern}
 | . . . . | . . . . | . . . . | . . . . |
 
 
-{c: Interlude III}
+{comment: Interlude III}
 | A  D/A  A  E/A  .  . |  D/A  E/A  Esus4/A  E/A  |
 
 | A  D/A  A  E/A  .  . |  D/A  D/A  A  .  |
@@ -111,7 +111,7 @@
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 {sov}
 [A] Little [E/A]ditty 'bout [D/A]Jack and Di_[E/A]ane,__
 [A] Two American [E/A]kids doin' [D/A]best they [A]can.

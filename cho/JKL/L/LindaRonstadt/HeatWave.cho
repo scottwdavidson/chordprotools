@@ -7,11 +7,11 @@
 {meta: backing: 60}
 {meta: nord: P55}
 
-{c:***********************************************}
-{c:** meta: backing: 60}
-{c:** meta: nord: P55}
-{c:** meta: countin: 8}
-{c:**************************************}
+{comment:***********************************************}
+{comment:** meta: backing: 60}
+{comment:** meta: nord: P55}
+{comment:** meta: countin: 8}
+{comment:**************************************}
 
 {comment: Intro}
 | Eb Ab Eb Ab | Eb Ab Eb Ab   |

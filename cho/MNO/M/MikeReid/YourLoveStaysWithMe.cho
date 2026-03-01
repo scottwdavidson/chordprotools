@@ -2,10 +2,10 @@
 {artist: Mike Reid}
 {key: E}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | D5 / G | D | Asus | D | 
 
 {sov}
@@ -23,7 +23,7 @@ I'm not [G]alone, I know I'll ne[Bm]ver[A] b[E]e
 [G]Your love [G/A]stays with [D]me
 {eoc}
 
-{c: Instrumental}
+{comment: Instrumental}
 | D5 / G | D | Asus | D | 
 
 {sov}
@@ -41,5 +41,5 @@ I'm not [G]alone, I know I'll ne[Bm]ver[A] b[E]e
 [G]Your love [G/A]stays with [D]me
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 | D5 / G | D | Asus | D | 

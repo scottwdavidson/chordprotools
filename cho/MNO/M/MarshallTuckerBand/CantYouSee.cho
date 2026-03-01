@@ -8,14 +8,14 @@
 {meta: countin: 4}
 {meta: performance: A}
 
-{c:***********************************************}
-{c:**  meta: nord: N34}
-{c:**  meta: version: 1.0}
-{c:**  meta: countin: 4}
-{c:**  meta: performance: A}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N34}
+{comment:**  meta: version: 1.0}
+{comment:**  meta: countin: 4}
+{comment:**  meta: performance: A}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 |D |Dsus2/C  |G  |D  | 
 
 |D |Dsus2/C  |G  |D  | 
@@ -53,7 +53,7 @@
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman been doin' to [D]me
 {eoc}
 
-{c: (Piano) Solo}
+{comment: (Piano) Solo}
 |D |Dsus2/C  |G  |D  | 
 |D |Dsus2/C  |G  |D  | 
 
@@ -71,16 +71,16 @@
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman been doin' to [D]me
 {eoc}
 
-{c: (Guitar) Solo}
+{comment: (Guitar) Solo}
 |D |Dsus2/C  |G  |D  | 
 |D |Dsus2/C  |G  |D  | 
 
-{c: BB - PART 2}
+{comment: BB - PART 2}
 {soc}
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman, she been doin' to[D]me
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman been doin' to [D]me
 
-{c: BB - PART 3}
+{comment: BB - PART 3}
 [D](Can't you see), [Dsus2/C]Oh she's a crazy lady, 
    (what that [G]woman), what that woman she been doin' to[D]me
 [D](Can't you see), [Dsus2/C]Lord I can't stand it no more, 
@@ -97,10 +97,10 @@
 (What that [G]woman)__Till the train, it [D]run out of track
 {eov}
 
-{c: Solo3}
+{comment: Solo3}
 |D |Dsus2/C  |G  |D  | 
 |D |Dsus2/C  |G  |D  | 
 
-{c: BB - OFF}
-{c:Outro}
+{comment: BB - OFF}
+{comment:Outro}
 |D  |Dsus2/C |G  |D  | 

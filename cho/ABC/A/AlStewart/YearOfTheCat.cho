@@ -7,11 +7,11 @@
 {meta: countin: 4}
 {meta: backing: 20}
 
-{c:***********************************************}
-{c:**  meta: nord: M22}
-{c:**  meta: countin: 4}
-{c:**  meta: backing: 20}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: M22}
+{comment:**  meta: countin: 4}
+{comment:**  meta: backing: 20}
+{comment:***********************************************}
 
 {meta: ev: U6}
 
@@ -52,7 +52,7 @@ She'll just [Am7]tell you that she came[D]
 in the Year of the [CM7]Cat.
 {eov}
 
-{c:Verse Turnaround}
+{comment:Verse Turnaround}
 | CM7 . D6 Em | . . . D6 | 
 
 
@@ -76,7 +76,7 @@ just like a [Am7]river running through[D]
 the Year of the [CM7]Cat
 {eov}
 
-{c:Verse Turnaround}
+{comment:Verse Turnaround}
 | CM7 . D6 Em | . . . D6 | 
 
 
@@ -96,8 +96,8 @@ so you [G]take her - to [F]find what's [C]waiting in[D]side
 the Year of the [CM7]Cat
 {eob}
 
-{c:Piano (String) Solo}
-{c:Verse Turnaround}
+{comment:Piano (String) Solo}
+{comment:Verse Turnaround}
 | CM7 . D6 Em | . . . D6 | 
 
 
@@ -109,7 +109,7 @@ the Year of the [CM7]Cat
 
 | Am7 .  .  . | D . .  . | 
 
-{c:1st Guitar Solo}
+{comment:1st Guitar Solo}
 | CM7 . D6 Em | . . . D6 | 
 
 
@@ -128,7 +128,7 @@ the Year of the [CM7]Cat
 
 | D6  D7      | D6  D7   |
 
-{c:2nd Guitar Solo}
+{comment:2nd Guitar Solo}
 | D           | GM7      | 
 
 | D           | GM7      | 
@@ -139,7 +139,7 @@ the Year of the [CM7]Cat
 | Em          | A/C#     | A/C#  |
 
 
-{c:Piano (Sax) Solo}
+{comment:Piano (Sax) Solo}
 | CM7 . D6 Em | . . . D6 | 
 
 | CM7 . D6 Em | . . . D6 | 
@@ -162,7 +162,7 @@ but for [Am7]now you're gonna stay[D]
 in the Year of the [CM7]Cat.
 {eov}
 
-{c:Outro}
+{comment:Outro}
 | CM7 . D6 Em | . . . D6 | CM7 . D6 Em | . . . D6 | 
 | CM7 . D6 Em | . . . .  | Am7 .  .  . | D . .  . | 
 | CM7 . D6 Em | . . . D6 | CM7 . D6 Em | . . . D6 | 

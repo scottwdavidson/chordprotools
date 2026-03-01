@@ -3,12 +3,12 @@
 {key: G}
 {tempo: 78}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
-{c: Verse 1}
+{comment: Verse 1}
 
 {sov}
 [G6]L is [Gmaj7]for the way you [Am7]look at [D7]me.
@@ -18,7 +18,7 @@
 {eov}
 
 
-{c: Verse 2}
+{comment: Verse 2}
 
 {sov}
 [G6]Love is [Gmaj7]all that I can [Am7]give to [D7]you.
@@ -27,12 +27,12 @@
 [Cmaj7]Take my heart and [C#dim7]please don't break it.
 {eov}
 
-{c: Chorus and Turnaround}
+{comment: Chorus and Turnaround}
 [G6]Love was [D7]made for me and [G6]you. [Am7]  [D7]
 
 
-{c: Solos}
+{comment: Solos}
 
 
-{c: Outro}
+{comment: Outro}
 [G6]Love was [D7]made for me and [G6]you.

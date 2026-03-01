@@ -6,10 +6,10 @@
 {meta: countin: 8}
 {meta: backing: 34}
 
-{c:***********************************************}
-{c:**  meta: countin: 8}
-{c:**  meta: backing: 34}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8}
+{comment:**  meta: backing: 34}
+{comment:***********************************************}
 
 {comment: Intro}
 8 bars
@@ -40,7 +40,7 @@ I got a [E5]bad case of [B]lovin' you.
 {eoc}
 
 
-{c: Interlude}
+{comment: Interlude}
 4 bars
 
 | . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
@@ -62,7 +62,7 @@ I got a [E5]bad case of [B]lovin' you.
 {eoc}
 
 
-{c: Guitar Solo}
+{comment: Guitar Solo}
 12 bars
 
 | . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
@@ -73,13 +73,13 @@ I got a [E5]bad case of [B]lovin' you.
 
 
 
-{c: Bridge}
+{comment: Bridge}
 [A] I know you like it, (guitar lick over A)
 [E5] You like it on top. (guitar lick over E)
 [A] Tell me ma-[C#m]ma, [B] are you gonna stop?
 
 
-{c: Interlude}
+{comment: Interlude}
 4 bars
 
 | . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
@@ -100,7 +100,7 @@ I got a [E5]bad case of [B]lovin' you.
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 2 bars
 
 | E5 . . . | . . . . | 

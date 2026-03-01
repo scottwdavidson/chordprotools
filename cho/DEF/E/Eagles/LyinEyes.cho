@@ -6,12 +6,12 @@
 {meta: nord: O55}
 {meta: countin: 8}
 
-{c:***********************************************}
-{c:**  meta: nord: O55   }
-{c:**  meta: countin: 8   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | G ... | Gmaj ... | C ... | Am ... | D ... | G ... |
 
 {sov}
@@ -43,7 +43,7 @@ I thought by [G] now [G7]you'd real[C]ize [A7]
 There [Am] ain't no way to [D] hide your lyin [G] eyes
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | G ... | Gmaj ... | C ... | Am ... | D ... | G ... |
 
 {sov}
@@ -69,7 +69,7 @@ There [Am] ain't no way to [D] hide your lyin [G] eyes
 [Am] Honey you can't [D] hide your lyin [G] eyes
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | G ... | Gmaj ... | C ... | Am ... | D ... | G ... |
 
 

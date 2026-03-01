@@ -2,29 +2,29 @@
 {artist: Olivia Rodrigo}
 {key: G}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
-{c:all chords in 2nd inversion }
-{c:verse pattern 3/4 | 4/4 | 3/4 | 4/4 | 4/4 ... }
+{comment:Intro}
+{comment:all chords in 2nd inversion }
+{comment:verse pattern 3/4 | 4/4 | 3/4 | 4/4 | 4/4 ... }
 | Eb Cm7 Gm | Ab ... | Eb Cm7 Gm | Ab ... |
 
 {sov}
 I [Eb]found a gu[Cm]y, told me [Gm]I was a [Ab]star
 He [Eb]held the doo[Cm]r, held my [Gm]hand in the [Ab]dark
-{c:      4/4}
+{comment:      4/4}
 And he's pe[Cm]rfect on pa[Eb/Bb]per, but he's ly[Ab]ing to my face
 Does he t[Cm]hink that I'm the ki[Eb/Bb]nda girl who [Ab]needs to be saved?
 {eov}
 
-{c:break}
+{comment:break}
 | Eb Cm7 Gm | Ab ... |
 
 {sov}
 And there's [Eb]one more [Cm]boy, he's [Gm]from my [Ab]past
 We [Eb]fell in lo[Cm]ve, but it [Gm]didn’t l[Ab]ast
-{c:      4/4}
+{comment:      4/4}
 'Cause the se[Cm]cond I fig[Eb/Bb]ure it out, he p[Ab]ushes me away
 [Cm]And I won't fight [Eb/Bb]for love if yo[Ab]u won't meet me halfway
 And I s[Bb]ay that I'm through, but this [Bb7]song's still for you
@@ -49,7 +49,7 @@ I thought the [Eb]perfect guy [Cm]would come and [Gm]find [Ab]me
 Now [Bb]happy ever after, it don't come [Bb7]so easily[C]
 {eov}
 
-{c: KEY CHANGE}
+{comment: KEY CHANGE}
 
 {soc}
 [Bb]All I wa[C]nt is love that lasts[Dm7]

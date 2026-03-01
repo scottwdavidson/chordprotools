@@ -5,9 +5,9 @@
 {tempo: 120}
 {meta: version: 1.0}
 
-{c:***********************************************}
-{c:**  meta: version: 1.0   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: version: 1.0   }
+{comment:***********************************************}
 
 {comment: Intro}
 | C | % | % | F G |
@@ -46,7 +46,7 @@ Say that you [D7]love me
 Oh, [F]my, my, [G]my it's a beautiful d[C]ay.
 {eoc}
 
-{c: Key Change}
+{comment: Key Change}
 
 {soc}
 [D]Ha, ha, ha, beautiful Sun[G]day

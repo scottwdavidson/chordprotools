@@ -2,10 +2,10 @@
 {artist: Hall & Oates}
 {key: Eb}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Fm9    | %         | %      | %         |  (x4)
 | Fm9    | Fm9 Bb Bb | Fm9    | Fm9 Bb Bb |  (x4)
 
@@ -43,7 +43,7 @@ Oh, [Fm9]I can't go for that, ([Bb]No can do)
 Oh, [Fm9]I can't go for that, ([Bb]No can do)
 {eoc}
 
-{c:Solo}
+{comment:Solo}
 
 {soc}
 [C]I--[Cmaj7] I 'll do any[C7]thing that you want me [Fmaj7]to do,[F6]
@@ -55,7 +55,7 @@ Oh, [Fm9]I can't go for that, ([Bb]No can do)
 Oh, [Fm9]I can't go for that, ([Bb]No can do)
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 But [Fm9]I can't go for that, ([Bb]No can do)
 No, [Fm9]I can't go for that, ([Bb]No can do)
 Oh, [Fm9]I can't go for that, ([Bb]No can do)

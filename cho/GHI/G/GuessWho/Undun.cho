@@ -4,10 +4,10 @@
 {duration: 3:30}
 {tempo: 100}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Am6/C B | Am6/C B | Am6/C B | B B N/C |
  
 {sov}
@@ -69,8 +69,8 @@ She's [Am6/C]gone too [B]far
 She's [Am6/C]lost the [B]sun[B][B]
 {eoc}
 
-{c:2:04}
-{c:Vocal Solo}
+{comment:2:04}
+{comment:Vocal Solo}
 {soc}
 [NC]She's come un-[Em]dun[A7]
 [G]Da da da da da da da [F#m7]da da da
@@ -78,10 +78,10 @@ She's [Am6/C]lost the [B]sun[B][B]
 [Am7]Da da da, [D7]da da da da[G] da da da da[C9][B9]
 {eoc}
 
-{c:Piano Solo}
+{comment:Piano Solo}
 |Em A7| G | F#m7 | B7 | F#m7 | Am7 D7 | G | C9 B9 |
 
-{c:Outro}
+{comment:Outro}
 {soc}
 [Am6/C]It's too [B]late
 She's [Am6/C]gone too [B]far
@@ -95,7 +95,7 @@ She's come un[Em]dun[A7]
 [Am7][D7]it was too [G]late[C9][B9]
 {eov}
 
-{c:2:57}
+{comment:2:57}
  
 {sov}
 She's come un[Em]dun[A7]
@@ -104,7 +104,7 @@ She's come un[Em]dun[A7]
 [Am7]mama, [D7]It was too [G]late, aaeeaaeete[C9][B9]
 {eov}
 
-{c:3:06}
+{comment:3:06}
 
 {soc}
 [Am6/C]It's too [B]late
@@ -112,8 +112,8 @@ She's [Am6/C]gone too [B]far
 She's [Am6/C]lost the [B]sun[B][B]
 {eoc}
 
-{c:3:12}
+{comment:3:12}
 
-{c:Outro ( ritardando )}
+{comment:Outro ( ritardando )}
 [NC]She's come un-[Em]dun[A]
 [G]dah do do do do do[F#m7]do do [F7]do doot [Em]doot!

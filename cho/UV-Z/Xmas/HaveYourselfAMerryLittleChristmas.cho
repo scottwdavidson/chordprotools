@@ -4,10 +4,10 @@
 {duration: 2:50}
 {tempo: 80}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | E7 . A7 . | D7 . G7 . |
 
 
@@ -23,7 +23,7 @@
 {eov}
 
 
-{c: Bridge I}
+{comment: Bridge I}
 {sob}
 [F]Here we [Fm]are as in [Cmaj7]olden days,[Ebdim7] happy [Dm7]golden days [G+] of [Cmaj7]yore.__[C6]
 [F#m7b5]Faithful [B7]friends who are [Em]dear us [A7] gather [G]near to us [D7] once [G7sus]more.__[G7]
@@ -37,11 +37,11 @@ And [F]have your[Am/E]self a [Dm7]merry little [G7]Christmas [C]now.____
 {eov}
 
 
-{c: Solo}
+{comment: Solo}
 | F . Fm . | Cmaj7 . Ebmaj7 . | Dm7 . G+ . | Cmaj7 . C6 |
 
 
-{c: Bridge II}
+{comment: Bridge II}
 {sob}
 [F#m7b5]Faithful [B7]friends who are [Em]dear us [A7] gather [G]near to us [D7] once [G7sus]more.__[G7]
 {eob}
@@ -53,5 +53,5 @@ And [F]have your[Am/E]self a [Dm7]merry little [G7]Christmas [C]now.____
 {eov}
 
 
-{c: Outro}
+{comment: Outro}
 And [F]have your[Am/E]self a [Dm7]merry little [G7]Christmas [C]now.

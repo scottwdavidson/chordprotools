@@ -4,8 +4,8 @@
 {duration: 3:24}
 {tempo: 63}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Piano Intro}
 | E ... | E ... | E ... | E ... |
@@ -59,4 +59,4 @@
 [A]Sweet Caro[D]line,[(D]   [C#]   [F#)]    [D]good times never seemed so [E]good
 {end_of_chorus}
 
-{c: (fade out)}
+{comment: (fade out)}

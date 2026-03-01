@@ -5,7 +5,7 @@
 {duration: 5:20}
 
 
-{c: Intro}
+{comment: Intro}
 |  C  Fadd9  |  Gadd4  Fadd9 |  C  Fadd9  |  Gadd4  Fadd9  |
 
 
@@ -27,7 +27,7 @@ And [Fadd9]you make me [C]cry.
 [Gadd4] I believe it's time for me to fly.
 {eov}
 
-{c: Interlude}
+{comment: Interlude}
 |  C  Fadd9  |  Gadd4  Fadd9 |  C  Fadd9  |  Gadd4  Fadd9  |
 
 {sov}
@@ -56,7 +56,7 @@ And that's just how [Fadd9]it's got to [C]be.
 But it's time for me to [Fadd9]fly - [Gadd4]yy
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 |  C  |  C  |  Fadd9  |  Fadd9  |  Gadd4  |  Gadd4  |  C  |  C 
 
 
@@ -71,7 +71,7 @@ It's time for me to fly[Fadd9] - yy.[Gadd4]
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 It's time for me to fly.[C] (It's [Fadd9]time for me to fly.[Gadd4])
 It's time for me to fly.[C] (It's [Fadd9]time for me to fly.[Gadd4])
 It's time for me to fly.[C] (It's [Fadd9]time for me to fly.[Gadd4])

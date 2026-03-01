@@ -6,14 +6,14 @@
 {meta: countin: 8}
 {meta: backing: 37}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 37   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 37   }
+{comment:***********************************************}
 
-{c: Intro}
-{c: 8 beat count in}
-{c: drums}
+{comment: Intro}
+{comment: 8 beat count in}
+{comment: drums}
 | . . . .     | . . . . | 
 | . . . .     | . . . . |
 
@@ -33,7 +33,7 @@ Eight hours, for what?_[C][G]
 Oh, tell me what I got...
 {end_of_verse}
 
-{c:prechorus}
+{comment:prechorus}
 {start_of_chorus}
 [C]I got this feelin that times just a holdin me [G]do[C]wn,_[G]_[C]_[G]_[C]
 [C]I'll hit the ceiling[C#m7b5]...or else i'll tear up this [D]town..[E7]..[F#dim7]..ae[D/F#]
@@ -51,11 +51,11 @@ Los[G]e [C]your[G]blues
 [F]Everybody [C]cut foot[G]loose_[G]_[C]_[G]_[C]
 {end_of_chorus}
 
-{c: NO UPDATES BELOW YET }
-{c: NO UPDATES BELOW YET }
-{c: NO UPDATES BELOW YET }
-{c: NO UPDATES BELOW YET }
-{c: NO UPDATES BELOW YET }
+{comment: NO UPDATES BELOW YET }
+{comment: NO UPDATES BELOW YET }
+{comment: NO UPDATES BELOW YET }
+{comment: NO UPDATES BELOW YET }
+{comment: NO UPDATES BELOW YET }
 {start_of_verse}
 [G]You're playing so [C]cool, 
 [G]Obeying every rul[C]e, 
@@ -63,7 +63,7 @@ Dig[G] way down in your h[C]eart [G]
 You're yearning, burning for some,
 {end_of_verse}
 
-{c:prechorus}
+{comment:prechorus}
 {start_of_chorus}
 [C]somebody to tell you,
 that life ain't passing you [G]by [C][G]

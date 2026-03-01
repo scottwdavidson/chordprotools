@@ -6,12 +6,12 @@
 {meta: countin: 8}
 {meta: backing: 69}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 69   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 69   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | A D/A A | A D/A A | A D/A A | A D/A A |
 
 {sov}
@@ -33,9 +33,9 @@ Till she kissed me and s[E]aid
 Till she whispered, "I love [E]you so"
 {eov}
 
-{c: Chorus}
+{comment: Chorus}
 
-{c: Instrumental}
+{comment: Instrumental}
 | A D/A A | A D/A A | A D/A A | A D/A E |
 | C       | C Am    | Dm      | Dm E    |
 
@@ -48,7 +48,7 @@ Till she whispered, "I love [E]you so"
 [F#7]Don't ever [Bm]let me g[Dm]o (don't let me go)"[G7]
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 | F#madd9 F#m | F#m9(maj7)/E# F#m(maj7)/E# |
 | F#madd9/E F#m7/E | F#m6/D# | Dadd9 | Asus4 A | Fadd9 |
 | D | E | A |

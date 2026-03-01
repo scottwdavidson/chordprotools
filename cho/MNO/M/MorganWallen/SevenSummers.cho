@@ -7,7 +7,7 @@
 {meta: nord: N24}
 {meta: countin: 4}
 
-{c: Intro}
+{comment: Intro}
 | Cmaj7 | Fmaj7 | Cmaj7 | Fmaj7 |
 
 {sov}
@@ -48,7 +48,7 @@
 [Dm7]Does it ever make you sad to know,[G]that was seven summers ago?
 {eoc}
 
-{c: Post Chorus}
+{comment: Post Chorus}
 [Cmaj7]Ooh  ... seven summers ago [Fmaj7] (Ooh-ooh, ooh-ooh)
 Seven summers ago [Cmaj7](Ooh, ooh-ooh, ooh-ooh, [Fmaj7]ooh-ooh)
 
@@ -62,6 +62,6 @@ Seven summers ago [Cmaj7](Ooh, ooh-ooh, ooh-ooh, [Fmaj7]ooh-ooh)
 [Dm7]Does it ever make you sad to know,[G]that was seven summers ago?
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 [Cmaj7]Ooh  ... seven summers ago [Fmaj7] (Ooh-ooh, ooh-ooh)
 Seven summers ago [Cmaj7](Ooh, ooh-ooh, ooh-ooh, [Fmaj7]ooh-ooh)

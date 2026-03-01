@@ -4,10 +4,10 @@
 {duration: 2:10}
 {tempo: 94}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro (freely)}
+{comment: Intro (freely)}
 
 You know [Fmaj7]Dasher and [Em7]Dancer and [Dm7]Prancer and [Cmaj7]Vixen,
 [Fmaj7]Comet and [Em7]Cupid and [Dm7]Donner and [Cmaj7]Blitzen,
@@ -15,7 +15,7 @@ You know [Fmaj7]Dasher and [Em7]Dancer and [Dm7]Prancer and [Cmaj7]Vixen,
 the most [D7sus4]famous [D7]reindeer of [G7]all?
 
 
-{c: medium shuffle}
+{comment: medium shuffle}
 
 {sov}
 [Cmaj7]Rudolph the [Dm7]red-nosed [Em7]reindeer__[Dm7]__[G7#5]
@@ -50,7 +50,7 @@ the most [D7sus4]famous [D7]reindeer of [G7]all?
 {eov}
 
 
-{c: Solo - (Over Verses)}
+{comment: Solo - (Over Verses)}
 
 | Cmaj7 . Dm7 . | Em7 . Dm7 G7#5 | Cmaj7 . Em7 Ebdim7 | G7/D . G7 . |
 | Dm7 . G7 . | Dm7 . G7 . | Dm7 . G7 . | Cmaj7 . G7sus4 . |
@@ -67,7 +67,7 @@ the most [D7sus4]famous [D7]reindeer of [G7]all?
 {eob}
 
 
-{c: Outro}
+{comment: Outro}
 
 {sov}
 [Cmaj7]Then how the [Dm7]reindeer [Em7]loved him__[Dm7]__[G7#5]

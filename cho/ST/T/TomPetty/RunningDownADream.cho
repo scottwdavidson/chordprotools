@@ -8,14 +8,14 @@
 {meta: backing: 16}
 {meta: performance: E}
 
-{c:***********************************************}
-{c:**  meta: nord: N51   }
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 16   }
-{c:**  meta: performance: E }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N51   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 16   }
+{comment:**  meta: performance: E }
+{comment:***********************************************}
 
-{c: roland -> C012 (Sweep)}
+{comment: roland -> C012 (Sweep)}
 
 {comment: Intro}
 | E ... | E ... | E ... | E ... |

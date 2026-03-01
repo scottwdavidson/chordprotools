@@ -2,10 +2,10 @@
 {artist: Carole King}
 {key: D}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro (Start on 5)}
+{comment: Intro (Start on 5)}
 [|] [D] [|] [%] [|] [%] [|] [%] [|]
 [|] [A] [|] [%] [|]
 
@@ -29,7 +29,7 @@ and they ain't the [G]kind that you can [D]see
 Oh, these [A]chains of love[G7] got a hold on [D]me, yeah[A]
 {eoc}
 
-{c: Instrumental}
+{comment: Instrumental}
 [|] [D] [|] [G]  [|] [D] [|] [%] [|]
 [|] [G] [|] [%]  [|] [D] [|] [%] [|]
 [|] [A] [|] [G7] [|] [D] [|] [A] [|]
@@ -58,7 +58,7 @@ and they ain't the [G]kind (oh no) that you can [D]see
 Oh, these [A]chains of love[G7] got a hold on [D]me, yeah[A]
 {eoc}
 
-{c: Outro (guitar licks in between vocals)}
+{comment: Outro (guitar licks in between vocals)}
 [D]Chains, chains of love, chains of [D]love, chains of [D]love
 
 (8 bars guitar -- change rhythm to be like horn section over D)

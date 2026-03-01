@@ -6,11 +6,11 @@
 {time: 4/4}
 {meta: nord: N35}
 
-{c:***********************************************}
-{c:**  meta: nord: N35}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N35}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Am ... | D ... | G ... | . |
 
 
@@ -68,7 +68,7 @@ Half of me wants a [Am]cold beer
 [D] And the other half does [G] too [D/F#]
 {end_of_chorus}
 
-{c:Outro}
+{comment:Outro}
 [Em] Yeah, half of me wants a [Am]cold, cold beer
 [D] The other half wants two
 [G]Woo-hoo!

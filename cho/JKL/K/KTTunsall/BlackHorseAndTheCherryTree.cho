@@ -5,12 +5,12 @@
 {tempo: 103}
 {meta: countin: 8}
 
-{c:***********************************************}
-{c:**  meta: countin: 8}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8}
+{comment:***********************************************}
 
-{c: BB Beat 1}
-{c: Intro}
+{comment: BB Beat 1}
+{comment: Intro}
 [N.C.]--- Two - three - four
 Woo-[Em]hoo, woo-[B7]hoo[Em]
 Woo-[Em]hoo, woo-[B7]hoo[Em]
@@ -39,18 +39,18 @@ He said, "Hey there baby, will you marry me?"
 Woo-[Em]hoo, woo-[B7]hoo  [Em]But I said
 {eov}
 
-{c: BB Beat 2}
+{comment: BB Beat 2}
 {soc}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're not the one for [Em]me
 
-{c: BB Beat 3}
+{comment: BB Beat 3}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're [N.C.]not the one for me
 {eoc}
 
-{c: BB Beat 1}
-{c: Break}
+{comment: BB Beat 1}
+{comment: Break}
 [Em]Woo[Em]   [Em]   [Em7]     woo [Em]hoo[Em][Em][Em7][Em]
 
 {sov}
@@ -71,18 +71,18 @@ And now I've got a hole for the world to see
 Woo-[Em]hoo, woo-[B7]hoo [Em]And it said
 {eov}
 
-{c: BB Beat 2}
+{comment: BB Beat 2}
 {soc}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're not the one fo[Em]r me
 
-{c: BB Beat 3}
+{comment: BB Beat 3}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're not the one for me
 {eoc}
 
-{c: BB Beat 1}
-{c: Break}
+{comment: BB Beat 1}
+{comment: Break}
 [Em](Wo[Em]o) [Em]   [Em7]    (woo [Em]hoo[Em])[Em][Em7][Em]
 [Em](Wo[Em]o) [Em]   [Em7]    [Em]   (woo [Em]hoo[Em])[Em][Em7][Em]
 
@@ -91,12 +91,12 @@ I said, [Em]no, [D]no, [C9]you're not the one for me
 [N.C.]No, no, no, no (Woo-hoo). No, no-oh (Woo-hoo).
 [N.C.]No, no.  You're not the one for me.
 
-{c: BB Beat 2}
+{comment: BB Beat 2}
 {soc}
 [Em]Big black [D]horse [Cmaj7] and a cherry [Em]tree
 [Em]I can't quite [D]get there 'cause my [C9]heart's forsaken [Em]me yeah yeah yeah (Woo-hoo)
 
-{c: BB Beat 3}
+{comment: BB Beat 3}
 [Em]Big black [D]horse (Woo-hoo) [Cmaj7]and a cherry [Em]tree (Woo-hoo)
 [Em]I can't quite [D]get there 'cause my [C9]heart's forsaken me
 {eoc}

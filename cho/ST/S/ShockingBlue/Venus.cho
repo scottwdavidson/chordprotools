@@ -2,10 +2,10 @@
 {artist: Shocking Blue}
 {key: A}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | B7sus4 | B7sus4 | Em A   | Em  A  | 
 | B7sus4 | B7sus4 | Em A   | Em  A  | 
 
@@ -22,7 +22,7 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {eoc}
 
-{c: Solo}
+{comment: Solo}
 | Em  A | x7
 | Em    |
 
@@ -39,10 +39,10 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | A5 B5 | x4
 
-{c: Ahhhhhhs}
+{comment: Ahhhhhhs}
 | Em A | x7 
 | E G A B B A G |
 
@@ -52,12 +52,12 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | A5 B5  | x4
 | B7sus4 | B7sus4 | Em A   | Em  A  | 
 | B7sus4 | B7sus4 | Em A   | Em  A  | 
 
-{c: Ahhhhhhs}
+{comment: Ahhhhhhs}
 | Em A | x7 
 | E G A B B A G |
 

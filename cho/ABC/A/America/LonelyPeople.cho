@@ -5,9 +5,9 @@
 {tempo: 155}
 {meta: nord: M15(A3)}
 
-{c:*********************}
-{c: meta: nord: M15(A3)}
-{c:*********************}
+{comment:*********************}
+{comment: meta: nord: M15(A3)}
+{comment:*********************}
 
 {comment: Intro}
 | D . . . | Bm . . . | F#m  . . . | F#m  .  .  . |

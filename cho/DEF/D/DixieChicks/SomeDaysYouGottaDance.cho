@@ -4,10 +4,10 @@
 {duration: 2:28}
 {tempo: 170}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | E | 
 
 {sov}
@@ -50,7 +50,7 @@ Live it up when you get the chance
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 {eoc}
 
-{c: Solo}
+{comment: Solo}
 [E] [A][E][B][E]
 
 {soc}
@@ -61,7 +61,7 @@ Live it up when you get the chance
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 Come on and lo[B]osen up those c[A]hains and da[E]nce

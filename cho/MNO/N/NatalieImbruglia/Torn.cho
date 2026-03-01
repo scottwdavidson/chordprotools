@@ -7,11 +7,11 @@
 {meta: countin: 4}
 {meta: backing: 52}
 
-{c:***********************************************}
-{c:**  meta: nord: P51   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 52   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P51   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 52   }
+{comment:***********************************************}
 
 {comment: Intro}
 | F5 . . . | Fsus4 . . . | F . . . | Fsus2/4 . . . |

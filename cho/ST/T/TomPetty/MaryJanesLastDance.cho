@@ -4,10 +4,10 @@
 {duration: 3:20}
 {tempo: 85}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
 
 
@@ -46,7 +46,7 @@ She [D]said I dig you baby but I [Am]gotta keep movin' ...
 {eov}
 
 
-{c: Interlude II}
+{comment: Interlude II}
 [Am]... [G] On  - [D]  Keep movin' on. [Am]
 
 | Am . G . | D . Am . |
@@ -60,7 +60,7 @@ She [D]said I dig you baby but I [Am]gotta keep movin' ...
 {eoc}
 
 
-{c: Interlude III}
+{comment: Interlude III}
 | Am . G . | D . Am . |
 
 | Am . G . | D . Am . |
@@ -90,7 +90,7 @@ I'm [D]tired of myself, [Am]tired of this town.
 {eoc}
 
 
-{c: Guitar Solo}
+{comment: Guitar Solo}
 | Am . G . | D . Am . |
 
 | Am . G . | D . Am . |
@@ -125,5 +125,5 @@ It was [Am]too cold to cry when I [G]woke up alone,
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 | Am . G . | D . Am . | (repeat pattern - ad lib)

@@ -5,11 +5,11 @@
 {tempo: 90}
 {meta: nord: N31}
 
-{c:***********************************************}
-{c:** meta: nord: N31 }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:** meta: nord: N31 }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | E F#m | E  | E F#m | E/G# | A  | E  | A | A/B B | 
 
 {sov}
@@ -47,7 +47,7 @@ She nee[E]ds [F#m]new [A]faces
 She k[B]nows the high s[E]takes she k[F#m7]nows the higher stak[A/B]es [B]
 {eoc}
 
-{c:Solo}
+{comment:Solo}
 [E]-- [F#m7] | [E]-- | [E]--[F#m7] | [E]--
 [E]Ahh [F#m7]ahh Ah[E]hh 
 [F#m7]Ahh [F#m7/B]ah..[E]ahh
@@ -69,5 +69,5 @@ Wide [F#m7]open spac[A]es she [B]knows the high [E]stakes [F#m7]
 [A] she kn[B]ows the high [E]stakes wide [F#m7]open space[A/B]s [B]
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | E F#m | A A/B | E |

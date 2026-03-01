@@ -2,8 +2,8 @@
 {artist: Luke Bryan}
 {key: C}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 | G/C C C G/C | C C C/F G | 
@@ -72,6 +72,6 @@ And she said, [F]play it again, [C]play it again, play it again[G]
 And I said, [F]play it again, [C]play it again, play it again[G]
 {end_of_chorus}
 
-{c: Outro}
+{comment: Outro}
 Yeah, [F]play it again, [C]play it again, play it again[G][Am][G]
 Somebody, [F]play it again, [C]play it again, play it again[G]

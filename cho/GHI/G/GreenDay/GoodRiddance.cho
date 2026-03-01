@@ -4,10 +4,10 @@
 {duration: 2:10}
 {tempo: 95}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | G | G | Cadd9 | D |
 | G | G | Cadd9 | D |
 
@@ -23,7 +23,7 @@
 [Em]I hope you had the [D]time of your [G]life.
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | G | G | Cadd9 | D |
 | G | G | Cadd9 | D |
 
@@ -39,7 +39,7 @@
 [Em]I hope you had the [D]time of your [G]life.
 {eoc}
 
-{c: Instrumental}
+{comment: Instrumental}
 | G | G | Cadd9 | D |
 | G | G | Cadd9 | D |
 | G | G | Cadd9 | D |
@@ -52,7 +52,7 @@
 [Em]I hope you had the [D]time of your [G]life.
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | G | G | Cadd9 | D |
 | G | G | Cadd9 | D |
 
@@ -61,7 +61,7 @@
 [Em]I hope you had the [D]time of your [G]life.
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 | G | G | Cadd9 | D |
 | G | G | Cadd9 | D |
 | G |

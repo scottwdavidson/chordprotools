@@ -7,11 +7,11 @@
 {meta: countin: 4}
 {meta: performance: F#m}
 
-{c:***********************************************}
-{c:**  meta: nord: P41}
-{c:**  meta: countin: 4}
-{c:**  meta: performance: F#m}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P41}
+{comment:**  meta: countin: 4}
+{comment:**  meta: performance: F#m}
+{comment:***********************************************}
 
 {comment: Intro}
 | Am ... | F ... | G ... | Am ... | 
@@ -28,19 +28,19 @@ Uh uh [G]uh uh uh uh uh [Am]uh
 And then the [Am]band slowed the tempo when the [F]music took you down
 Uh uh [G]uh uh uh uh uh [Am]uh
 
-{c: BB-PART-02}
+{comment: BB-PART-02}
 It was the [Am]same old song with the [F]melancholy sound
 Uh uh [G]uh uh uh uh uh [Am]uh[G]
 {end_of_verse}
 
-{c: BB-PART-03}
+{comment: BB-PART-03}
 {start_of_chorus}
 [F]__[F]_They don't [C]wri[C]te 'em like that any[G]mor[G]e[Dm]_[Dm]
 
 [F]__[F]_They just don't [C]wri[C]te 'em like that any[G]more__[G]
 {end_of_chorus}
 
-{c: BB-PART-01}
+{comment: BB-PART-01}
 {start_of_verse}
 We been [Am]living together for a [F]million years
 Uh uh [G]uh uh uh uh uh [Am]uh
@@ -51,20 +51,20 @@ Uh uh [G]uh uh uh uh uh [Am]uh
 [Am]And then the jukebox plays a song I [F]used to know
 Uh uh [G]uh uh uh uh uh [Am]uh
 
-{c: BB-PART-02}
+{comment: BB-PART-02}
 [Am]And now I'm staring at the bodies as they're [F]dancing so slow
 Uh uh [G]uh uh uh uh uh [Am]uh[G]
 {end_of_verse}
 
-{c: BB-PART-03}
+{comment: BB-PART-03}
 {start_of_chorus}
 [F]__[F]_They don't [C]wri[C]te 'em like that any[G]mor[G]e[Dm]_[Dm]
 
 [F]__[F]_They just don't [C]wri[C]te 'em like that any[G]more__[G]
 {end_of_chorus}
 
-{c: BB-PART-01}
-{c: Repeat Intro}
+{comment: BB-PART-01}
+{comment: Repeat Intro}
 | Am ... | F ... | G ... | Am ... | 
 
 | Am ... | F ... | G ... | Am ... | 
@@ -73,12 +73,12 @@ Uh uh [G]uh uh uh uh uh [Am]uh[G]
 Now I [Am]wind up staring at an [F]empty glass
 Uh uh [G]uh uh uh uh uh [Am]uh
 
-{c: BB-PART-02}
+{comment: BB-PART-02}
 [Am]Cause it's so easy to say that you'll [F]forget your past
 Uh uh [G]uh uh uh uh uh [Am]uh[G]
 {end_of_verse}
 
-{c: BB-PART-03}
+{comment: BB-PART-03}
 {start_of_chorus}
 [F]__[F]_They don't [C]wri[C]te 'em like that any[G]mor[G]e[Dm]_[Dm]
 
@@ -94,8 +94,8 @@ Uh uh [G]uh uh uh uh uh [Am]uh[G]
 {end_of_chorus}
 
 
-{c: BB-PART-01}
-{c: Repeat Intro}
+{comment: BB-PART-01}
+{comment: Repeat Intro}
 | Am ... | F ... | G ... | Am ... | 
 
 | Am ... | F ... | G ... | Am ... | 
@@ -104,12 +104,12 @@ Uh uh [G]uh uh uh uh uh [Am]uh[G]
 Now I [Am]wind up staring at an [F]empty glass
 Uh uh [G]uh uh uh uh uh [Am]uh
 
-{c: BB-PART-02}
+{comment: BB-PART-02}
 [Am]Cause it's so easy to say that you'll [F]forget your past
 Uh uh [G]uh uh uh uh uh [Am]uh[G]
 {end_of_verse}
 
-{c: BB-PART-03}
+{comment: BB-PART-03}
 {start_of_chorus}
 [F]__[F]_They don't [C]wri[C]te 'em like that any[G]mor[G]e[Dm]_[Dm]
 

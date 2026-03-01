@@ -2,10 +2,10 @@
 {artist: Suzy Quatro}
 {key: G}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:DUET}
+{comment:DUET}
 {soc}
 [N.C.]Our love is al[Am]ive, [D]  and so we beg[G]in,[Em]
 foolishly la[Am]ying our hearts on the ta[D]ble, stumblin` [G]in.[Em]
@@ -22,7 +22,7 @@ you know, these [Am]reckless thoughts of m[D]ine are following y[G]ou.[Em]
 (duet)Whatever it t[Am]akes, b[D]aby, I`ll do it for y[G]ou.
 {eov}
 
-{c:DUET}
+{comment:DUET}
 {soc}
 [G]  Our love is al[Am]ive, [D]  and so we beg[G]in,[Em]
 foolishly la[Am]ying our hearts on the ta[D]ble, stumblin` [G]in.[Em]
@@ -30,7 +30,7 @@ Our love is a f[Am]lame,[D]  burning with[G]in,[Em]
 now and then f[Am]irelight will c[D]atch us, stumblin` [G]in.[Em]
 {eoc}
 
-{c: Instrumental}
+{comment: Instrumental}
 | Am | D | G | Em | Am | D | G | Em |
 
 {sov}
@@ -41,7 +41,7 @@ now and then f[Am]irelight will c[D]atch us, stumblin` [G]in.[Em]
 (duet)Whatever you n[Am]eed, b[D7]aby, you`ve got it from [G]me.
 {eov}
 
-{c:DUET}
+{comment:DUET}
 {soc}
 [G]  Our love is al[Am]ive, [D]  and so we beg[G]in,[Em]
 foolishly la[Am]ying our hearts on the ta[D]ble, stumblin` [G]in.[Em]
@@ -49,8 +49,8 @@ Our love is a f[Am]lame,[D]  burning with[G]in,[Em]
 now and then [Am]firelight will c[D]atch us, stumblin` [G]in.[Em]
 {eoc}
 
-{c:DUET}
-{c: Outro}
+{comment:DUET}
+{comment: Outro}
 Stumblin` [Am]in,  [D]  stumblin` [G]in,[Em]
 foolishly la[Am]ying our hearts on the t[D]able, stumblin`[G]in..[Em]...
 Ah, stumblin` [Am]in,  [D]  stumblin` [G]in .[Em]..

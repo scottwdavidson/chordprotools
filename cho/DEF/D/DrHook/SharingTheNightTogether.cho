@@ -2,10 +2,10 @@
 {artist: Dr. Hook}
 {key: C}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | C | Am | F | G | 
 | C | Am | F | G | 
 
@@ -19,7 +19,7 @@
 {eov}
 
 {soc}
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 [Dm]  If I seem to [Em7]come on too strong
 [Dm]  I hope that you will [Em7]understand
 [Dm]  I say these things cause I'd [Em7]like to know
@@ -53,7 +53,7 @@ Y[F]eah, sh[G]aring the night
 {eov}
 
 {soc}
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 [Dm]  Like to get to [Em7]know you better
 [Dm]  Is there a place where[Em7]we can go
 [Dm]  Where we can be a[Em7]lone together
@@ -66,4 +66,4 @@ Sh[G]aring the night to[C]get[Am]her[F]
 Sh[G]aring the night to[C]get[Am]her[F]
 {eoc}
 
-{c: Fade Out}
+{comment: Fade Out}

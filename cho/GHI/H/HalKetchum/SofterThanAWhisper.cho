@@ -4,10 +4,10 @@
 {duration: 3:05}
 {tempo: 95}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Cmaj7 | G |  D | G | Cmaj7 | G | C D6 | G | 
 
 {sov}
@@ -24,7 +24,7 @@ It was gen[C9]tle as a bab[G]y's hand...[D]but it held me like a [Em]chain
 It was so[C9]fter than a w[G]hisp[Em]er...when l[C6]ove called[C/D] out my [G]name
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | Cmaj7 | G | C D6 | G | 
 
 {sov}
@@ -41,7 +41,7 @@ It was gen[C9]tle as a bab[G]y's hand...[D]but it held me like a [Em]chain
 It was so[C9]fter than a w[G]hisp[Em]er...when l[C6]ove called[C/D] out my [G]name
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 It was so[C9]fter than a w[G]hisp[Em]er...when l[C6]ove called[C/D] out my [G]name
 | Cmaj7 | G | C D6 | G |
 

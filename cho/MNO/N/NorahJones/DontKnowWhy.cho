@@ -7,11 +7,11 @@
 {meta: countin: 4}
 {meta: backing: 28}
 
-{c:***********************************************}
-{c:**  meta: nord: ??}
-{c:**  meta: countin: 4}
-{c:**  meta: backing: 28}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: ??}
+{comment:**  meta: countin: 4}
+{comment:**  meta: backing: 28}
+{comment:***********************************************}
 
 {comment: Intro}
 | Bbmaj7 . Bb7 . | Ebmaj7 . D7#5 . | Gm7 . C7 . | F7sus4 . . . |
@@ -50,7 +50,7 @@ My [Gm7]heart  is        [C7]drenched in            [F]wine,[F7]
 But [Gm7]you'll    be    [C7]on       my       [F]mind [F5/Eb]  for    -   [Bb/D] ev    -   [F/C]er.
 {end_of_chorus}
 
-{c: Piano Solo}
+{comment: Piano Solo}
 | Bbmaj7 . Bb7 . | Ebmaj7 . D7#5 . | Gm7 . C7 . | F7sus4 . . . |
 | Bbmaj7 . Bb7 . | Ebmaj7 . D7#5 . | Gm7 . C7 . | F7sus4 . . . |
 

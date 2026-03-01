@@ -5,13 +5,13 @@
 {meta: nord: N51}
 {meta: performance: N51}
 
-{c:***********************************************}
-{c:**  meta: nord: N51}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N51}
+{comment:***********************************************}
 
 
-{c: Intro}
-{c: Guitar Only - voicings with 1st, 2nd and 6th strings open}
+{comment: Intro}
+{comment: Guitar Only - voicings with 1st, 2nd and 6th strings open}
 |  E  |  Emaj7  |  Aadd9  |  Emaj7  |  Badd11  |  C#m7  |  Aadd9  |  E  |
 
 
@@ -39,25 +39,25 @@ And you c[Aadd9]an't get [E]out of it.
 {eoc}
 
 
-{c:-- I Still Haven't Found What I'm Looking For --}
-{c: Performance Key - C}
+{comment:-- I Still Haven't Found What I'm Looking For --}
+{comment: Performance Key - C}
 |  E  |  Em  |  C  |  C  |
 |  C  |  C   |  C  |  C  |
 
-{c: Add guitar}
+{comment: Add guitar}
 |  F  |  F   |  C  |  C  |
 
 
 
 
 
-{c: Start chorus chords - instrumental}
+{comment: Start chorus chords - instrumental}
 |  G  |  F  |  C  |  C  | 
 
 
 
 
-{c: Start verse}
+{comment: Start verse}
 
 {sov}
 I have [C]climbed the highest [C]mountains,
@@ -93,5 +93,5 @@ But I [G]still haven't [F]found what I'm [C]looking for.
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 |  C  |  C  |  F  |  F  |  C  |  C  | G  |  F  |  C  |  C  |

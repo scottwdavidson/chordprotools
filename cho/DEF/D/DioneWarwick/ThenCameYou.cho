@@ -7,19 +7,19 @@
 {meta: countin: 4}
 {meta: backing: 33}
 
-{c:***********************************************}
-{c:**  meta: nord: M23   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 33   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: M23   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 33   }
+{comment:***********************************************}
 
 {meta: coutin : 4}
 
-{c:***********************************************}
-{c: meta: nord : M23 **}
-{c: meta: backing : 33 **}
-{c: coutin : 4 **}
-{c:***********************************************}
+{comment:***********************************************}
+{comment: meta: nord : M23 **}
+{comment: meta: backing : 33 **}
+{comment: coutin : 4 **}
+{comment:***********************************************}
 
 
 {comment: Intro}
@@ -56,7 +56,7 @@ I ne[Bbmaj7]ver knew [D9sus]love b[Gm7]efore
 [Bb]Then came [F]you
 {end_of_chorus}
 
-{c:Interlude}
+{comment:Interlude}
 | F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
 | F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
 
@@ -85,7 +85,7 @@ I ne[Bbmaj7]ver knew [D9sus]love b[Gm7]efore
 [Bb]Then came [F]you
 {end_of_chorus}
 
-{c:Interlude / Key Change}
+{comment:Interlude / Key Change}
 | F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
 | F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
 

@@ -7,13 +7,13 @@
 {meta: backing: 87}
 {meta: performance: Bb}
 
-{c:***********************************************}
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 87   }
-{c:**  meta: performance: Bb   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 87   }
+{comment:**  meta: performance: Bb   }
+{comment:***********************************************}
 
-{c: Guitar capo 3}
+{comment: Guitar capo 3}
 
 
 {comment: Intro}

@@ -2,10 +2,10 @@
 {artist: Kane Brown}
 {key: Gm}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 Bury me in G[Gm]eorgia
 Mm-hmm[C][Bb][Gm]
 Mm-hmm[C][Bb]
@@ -54,7 +54,7 @@ Georgia[C]
 [Bb]Hell, yeah
 {eoc}
 
-{c: Solo}
+{comment: Solo}
 | Gm  | Gm  | Gm  |
 
 {sob}
@@ -77,9 +77,9 @@ When I d[D7]ie, bury me in G[Gm]eorgia
 Mm-hmm[C][Bb]
 {eoc}
 
-{c: Post-Chorus}
+{comment: Post-Chorus}
 Yeah[Gm]
 That's funky right there [C]     [Bb](Mm-hmm, come on)
 
-{c: Ending Solo}
+{comment: Ending Solo}
 | Gm  | Gm  | Gm  | C   Bb  | 8x

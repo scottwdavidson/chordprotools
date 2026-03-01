@@ -3,8 +3,8 @@
 {key: G}
 {duration: 2:00}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 
@@ -22,7 +22,7 @@
 [Am]. . [C/D]. .  [G]. . . . 
 {end_of_verse}
 
-{c: descending counter melody ? }
+{comment: descending counter melody ? }
 {start_of_chorus}
 [Bm]. . . .  [Em]. . . .  
 [Am7]. . . . [D]. . . . 
@@ -37,7 +37,7 @@
 [Am]. . [C/D]. .  [G]. . . . 
 {end_of_verse}
 
-{c: 2nd chorus, but unique or bridge }
+{comment: 2nd chorus, but unique or bridge }
 {start_of_chorus}
 [Em].  .  .  .       [Am7sus2]. . [Am7]. .  
 [Dsus4]. .  [D7]. .  [G]. . . . 
@@ -52,7 +52,7 @@
 [Am]. . [C/D]. .  [G]. . . . 
 {end_of_verse}
 
-{c: Outro}
+{comment: Outro}
 [Am]. . [C/D]. .  [G]. . . . 
 [G]. .  [Em]. . [Bm]. . . . 
 [Am]. . [C/D]. .  [G]. . . . 

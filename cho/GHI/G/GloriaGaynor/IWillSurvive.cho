@@ -5,9 +5,9 @@
 {tempo: 117}
 {meta: nord: 024}
 
-{c:***********************************************}
-{c:**  meta: nord: 024}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: 024}
+{comment:***********************************************}
 
 {comment: Intro}
 | Am | 
@@ -19,7 +19,7 @@ But then I [Fmaj7]spent so many nights, thinking [Bm7b5]how you did me wrong,
 And I grew [Esus4]strong; and I learned [E]how to get along.
 {end_of_verse}
 
-{c: start BB}
+{comment: start BB}
 {start_of_verse}
 And so you're [Am]back, from outer [Dm]space,
 I just walked [G]in to find you here, with that sad [Cmaj7]look upon your face.

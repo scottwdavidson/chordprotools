@@ -2,10 +2,10 @@
 {artist: Doobie Brothers}
 {key: B}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Em6/F# E/F# | B/F#  | C#7/F# F#7sus4 | F#7sus4 | x2
 
 {sov}
@@ -15,7 +15,7 @@
 [Em6/F#]    Fairly [E/F#]soon [B/F#]    the time will [C#7/F#]tell[F#7sus4]
 {eov}
 
-{c:preChorus}
+{comment:preChorus}
 [B5]You,[B5/A] [E/G#]telling me the [Em/G]things you're gonna do [E/F#]for
 [B5]me [B5/A]  [E/G#]I ain't blind and I[Em/G]don't like what I think I [E/F#]see
 
@@ -34,7 +34,7 @@
 [Em6/F#]    Tied in [E/F#]poverty's [B/F#]de-[C#7/F#]spair[F#7sus4]
 {eov}
 
-{c:preChorus}
+{comment:preChorus}
 [B5]You,[B5/A] [E/G#]telling me the [Em/G]things you're gonna do [E/F#]for
 [B5]me [B5/A]  [E/G#]I ain't blind and I[Em/G]don't like what I think I [E/F#]see
 
@@ -45,15 +45,15 @@
 [B7/D#](Takin' it [E]to [Em/F]the [B/F#]----)[E/F#]
 {eoc}
 
-{c:solo}
+{comment:solo}
 | Em6/F# E/F# | B/F#  | C#7/F# F#7sus4 | F#7sus4 | x4
 
 
-{c:preChorus}
+{comment:preChorus}
 [B5]You,[B5/A] [E/G#]telling me the [Em/G]things you're gonna do [E/F#]for
 [B5]me [B5/A]  [E/G#]I ain't blind and I[Em/G]don't like what I think I [E/F#]see
 
-{c:Outro}
+{comment:Outro}
 {soc}
 [B7/D#](Takin' it [E]to [Em/F]the [B/F#]streets)[E/F#]
 [B7/D#](Takin' it [E]to [Em/F]the [B/F#]streets)[E/F#]

@@ -5,9 +5,9 @@
 {tempo: 128}
 {meta: nord: ???}
 
-{c:***********************************************}
-{c:**  meta: nord: ???}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: ???}
+{comment:***********************************************}
 
 {comment: Intro}
 | D . G . | A A7 . .  |
@@ -79,7 +79,7 @@ And let me know that you're [D]mine  ([G]let me know you're [A]mine- ooooh)
 
 
 
-{c: Outro}
+{comment: Outro}
 Well shake it, shake it, shake it [D]baby, now  ([G]shake it up [A]baby)
 Well shake it, shake it, shake it [D]baby, now  ([G]shake it up [A]baby)
 Well shake it, shake it, shake it [D]baby, now  ([G]shake it up [A]baby)

@@ -2,11 +2,11 @@
 {artist: Still Corners}
 {key: Dm}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
-{c: Keyboard "pluck" -> A .. C .. D }
+{comment: Intro}
+{comment: Keyboard "pluck" -> A .. C .. D }
 | Dm | Am | Em | G | x12 
 
 {sov}
@@ -20,7 +20,7 @@
 [Em]Around[G]
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | Dm | Am | Em | G |
 
 {sov}
@@ -37,7 +37,7 @@
 [Dm]Around[Am]
 {eoc}
 
-{c: Interlude}
+{comment: Interlude}
 | Dm | Am | Em | G |
 | Dm | Am | Em | G |
 
@@ -47,7 +47,7 @@
 [Em]Wait. White [G]Sands. White San[Dm]ds.
 {eov}
 
-{c: Interlude}
+{comment: Interlude}
 | Dm | Am | Em | G |
 
 {sob}
@@ -55,16 +55,16 @@
 [Em]Ride on, Ride [G]on. W[G]on't you ride o[Dm]n?
 {eob}
 
-{c: Interlude}
+{comment: Interlude}
 | Dm | Am | Em | G |
 
 [Dm]On a lonely highway[Am].   [Em]On a lonely highway[G].
 
-{c: Interlude}
+{comment: Interlude}
 | Dm | Am | Em | G |
 
 [Dm]Around[Am]
 [Em]Around[G]
 
-{c: Outro}
+{comment: Outro}
 | Dm | Am | Em | G | x4

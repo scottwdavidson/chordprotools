@@ -2,10 +2,10 @@
 {artist: Taylor Swift}
 {key: G}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Bm | Bm | G | G | Bm | Bm | G | G | 
 
 {sov}
@@ -60,7 +60,7 @@ Cause we never go o[G]ut of style, we never go out of
 style (we never go, we never go OUT OF STYLE!))
 {eoc}
 
-{c: Bridge 2}
+{comment: Bridge 2}
 Take me [D]home
 Just take me [G]home
 Just take me [D]home, uh oh...

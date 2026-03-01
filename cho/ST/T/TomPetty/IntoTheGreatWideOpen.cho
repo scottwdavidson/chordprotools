@@ -4,10 +4,10 @@
 {duration: 3:20}
 {tempo: 82}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
 
 4 bars
@@ -50,7 +50,7 @@ A [G]rebel with[Fadd9]out a cl__[Em]ue. [Asus2] . .
 
 
 
-{c: Interlude}
+{comment: Interlude}
 4 bars
 | Em . Em(maj7) . | Em7 . Em6 . | Em . Em(maj7) . | Em7 . Em6 . |
 
@@ -83,7 +83,7 @@ A [G]rebel with[Fadd9]out a cl__[Em]ue. [Asus2] . .
 {eoc}
 
 
-{c: Outro}
+{comment: Outro}
 {soc}
 [G]Into the grea[C]t wide [D]open,
 [G]Under them ski[Em]es of [D]blue. [Am]

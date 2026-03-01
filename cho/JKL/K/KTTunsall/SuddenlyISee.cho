@@ -2,10 +2,10 @@
 {artist: KT Tunstall}
 {key: D}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro:}
+{comment: Intro:}
 | D | D/C | D | G | x3
 
 {sov}
@@ -33,7 +33,7 @@ Suddenly I [Bm]see[F#]
 [Gm]Why the hell it [C7]means so much to [(D)]me
 {eoc}
 
-{c: Instrumental}
+{comment: Instrumental}
 | D | D/C | D | G |
 
 {sov}

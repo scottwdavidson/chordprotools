@@ -4,10 +4,10 @@
 {duration: 3:50}
 {tempo: 99}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . |
 | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . |
 
@@ -24,7 +24,7 @@ Don't wa[D7/A]it for ans[Gm]wers, just ta[Bb7/F]ke your cha[C7/E]nces,
 Don't a[Cm7/F]sk me w[Bb]hy
 {eoc}
 
-{c:Turnaround}
+{comment:Turnaround}
 | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . |
 
 {start_of_verse}

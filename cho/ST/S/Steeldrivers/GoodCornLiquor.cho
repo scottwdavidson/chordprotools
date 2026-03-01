@@ -2,10 +2,10 @@
 {artist: Steeldrivers}
 {key: E}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 |(E) |(E) |(E) |(E) |(A) |2/4(A)(G) |4/4(E) |(E) | x 2
 
 {soc}
@@ -15,7 +15,7 @@
 [A]Fruit jar full of that good [G]corn [E]liquor
 {soc}
 
-{c: Solo}
+{comment: Solo}
 |4/4(E) |(E) |(E) |(E) |(A) |2/4(A)(G) |4/4(E) |(E) | x 2
 
 {sov}
@@ -32,7 +32,7 @@ And times got tough, and mama got sicker
 [A]Fruit jar full of that good [G]corn [E]liquor
 {soc}
 
-{c: Solo}
+{comment: Solo}
 |4/4(E) |(E) |(E) |(E) |(A) |2/4(A)(G) |4/4(E) |(E) | x 2
 
 {sov}
@@ -49,5 +49,5 @@ And [A]daddy stopped running that good [G]corn [E]liquor
 [A]Fruit jar full of that good [G]corn [E]liquor
 {soc}
 
-{c:Outro}  
+{comment:Outro}  
 |4/4(E) |(E) |(E) |(E) |(A) |2/4(A) |(E)

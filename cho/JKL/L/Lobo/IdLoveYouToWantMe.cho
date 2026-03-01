@@ -4,9 +4,9 @@
 {duration: 3:45}
 {meta: countin: 8}
 
-{c:***********************************************}
-{c:*** meta: countin: 8}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:*** meta: countin: 8}
+{comment:***********************************************}
 
 {sov}
 [G]When I saw you standing there
@@ -47,7 +47,7 @@ The way that I wan[C]t to (Ahh)
 If you'd[D] only let it be[G] (Ahh)
 {eoc}
 
-{c:Solo}
+{comment:Solo}
 |G | Am7 | C | G | 
 
 {sov}
@@ -74,6 +74,6 @@ The way that I wan[C]t to (Ahh)
 If you'd[D] only let it be[G] (Ahh)
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | G | G | Am7 | C | 
 | G | G | Am7 | C | 

@@ -6,17 +6,17 @@
 {meta: countin: 8}
 {meta: backing: 38}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 38   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 38   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | B7 . . . | B7 . . . |
 | B7 . . . | B7 . . . |
 
 
-{c: Add Piano}
+{comment: Add Piano}
 | B7 . . . | B7 . . . |
 | B7 . . . | B7 . . . |
 
@@ -27,7 +27,7 @@ Yeah the [B7]house is a rockin don't bother knockin
 Yeah the [F#7]house is a rockin don't bother come on [B7]in
 {end_of_chorus}
 
-{c: SCOTT VOCAL}
+{comment: SCOTT VOCAL}
 {start_of_verse}
 [B7]Kick off your shoes start a-los-ing the blues
 [B7]This old house ain't got nothing to lose
@@ -54,11 +54,11 @@ Yeah the [F#7]house is a rockin don't bother come on [B7]in
 
 | B7 .  .  .  | B7 . . . | B7 . . . | B7 . . . |
 
-{c: Return to standard blues riff}
+{comment: Return to standard blues riff}
 | B7 .  .  .  | B7 . . . | 
 
 
-{c: JEFF VOCAL}
+{comment: JEFF VOCAL}
 {start_of_chorus}
 Well the [B7]house is a rockin don't bother knockin
 Yeah the [B7]house is a rockin don't bother knockin

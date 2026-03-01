@@ -8,14 +8,14 @@
 {meta: backing: 10}
 {meta: performance: F}
 
-{c:***********************************************}
-{c:**  meta: nord: M44   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 10   }
-{c:**  meta: performance: F   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: M44   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 10   }
+{comment:**  meta: performance: F   }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | F . . . | F . . . |
 
 {sov}
@@ -38,7 +38,7 @@ how she [Dm]swore that it [Bb]never would [F]end.
 I [Dm]remember how she [C]held me,  [Bb]oh so tight.
 [Bb]Wish I didn’t know now what I [C]didn’t know then.
 
-{c: double first and last Against the wind}
+{comment: double first and last Against the wind}
 [F]Against the [Am]wind,[Bb] we were running against the [F]wind.
 We were [Bb]young and [Am]strong, we were [Gm]running a[Bb]gainst the [F]wind.
 {eoc}
@@ -63,12 +63,12 @@ breaking [Dm]all of the [Bb]rules that would [F]bend.
 I be[Dm]gin to [C]find myself just [Bb]searching,
 searching for shelter a[C]gain and again.
 
-{c: double first and last Against the wind}
+{comment: double first and last Against the wind}
 [F]Against the [Am]wind,[Bb]  a little something against the [F]wind.
 I [Bb]found my[Am]self seeking [Gm]shelter a[Bb]gainst the [F]wind.
 {eoc}
 
-{c: Solo}
+{comment: Solo}
 | (wind) F ...    | F ... |
 | F ...  | F ...  | F ...  | F ...  |
 | Am ... | Am ... | Bb ...  | F ...  |
@@ -76,24 +76,24 @@ I [Bb]found my[Am]self seeking [Gm]shelter a[Bb]gainst the [F]wind.
 | F ...  | F ...  | Am (C/A-D/B-E-C A/C-B/D-C/G) | Am ... |
 | Bb ...  | F ...  | Bb ...  | C ...  | C ... |
 
-{c: Bridge}
+{comment: Bridge}
 Well those [Dm]drifter’s [C]days are past me [F]now,
 I’ve got [Dm]so much [Bb]more to think a[F]bout.
 [Dm]Deadlines and [C]commitments[Bb];
 what to leave in, [C]what to leave out.
 
 {soc}
-{c: double first and last Against the wind}
+{comment: double first and last Against the wind}
 A[F]gainst the [Am]wind,[Bb]
 I’m still running against the [F]wind.
 I’m [Bb]older [Am]now but still [Gm]running a[Bb]gainst the [F]wind.
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 Well, [Bb]I’m older [Am]now but still [C7]running...
 Against the [Bb]wind
 
-{c: Against the wind harmonies: C -> Bb, Bb -> A}
+{comment: Against the wind harmonies: C -> Bb, Bb -> A}
 Against the [F]wind
 Against the [Bb]wind (still running)
 Against the [F]wind (I m still running against the wind)
@@ -102,4 +102,4 @@ Against the [F]wind (I m still running against the wind)
 Against the [Bb]wind (still running)
 Against the [F]wind (running against the wind, running against the wind)
 [Bb] [F]
-{c: End Outro}
+{comment: End Outro}

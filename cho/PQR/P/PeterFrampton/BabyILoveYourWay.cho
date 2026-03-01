@@ -4,10 +4,10 @@
 {duration: 3:40}
 {tempo: 78}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | G | G/F# | Em | Em/D | C | Bm | Am | Am7/D |
 
 {sov}
@@ -17,7 +17,7 @@ And the[Em/D]y're [C]moving a[F7]cross the page
 Far [Em/D]a[C]way from the [F7]city
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 But [Bm]Don't hesi[E7]tate
 'Cause your [Am]love won't [D7]wait
 
@@ -27,7 +27,7 @@ But [Bm]Don't hesi[E7]tate
 [G]Wanna [D]be with you night and d[Am]ay, ay[C]
 {eoc}
 
-{c: Turnaround}
+{comment: Turnaround}
 | G | G/F# | Em | Em/D | C | Bm | Am | Am7/D |
 
 {sov}
@@ -37,7 +37,7 @@ With t[Em/D]he [C]help of some [F7]fireflies
 I c[Em/D]an [C]see them un[F7]der the pine
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 But [Bm]Don't hesi[E7]tate
 'Cause your [Am]love won't [D7]wait
 
@@ -47,7 +47,7 @@ But [Bm]Don't hesi[E7]tate
 [G]Wanna [D]be with you night and d[Am]ay, ay[C]
 {eoc}
 
-{c: solo}
+{comment: solo}
 ||: G | G/F# | Em | Em/D | C | C | F7 | F7 :|| x2
 
 {sob}
@@ -63,7 +63,7 @@ I wish I could [C]buy one
 Out of [F7]season
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 But [Bm]Don't hesi[E7]tate
 'Cause your [Am]love won't [D7]wait
 

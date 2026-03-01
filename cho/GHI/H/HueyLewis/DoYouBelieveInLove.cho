@@ -2,10 +2,10 @@
 {artist: Huey Lewis and the News}
 {key: G}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | G D/G G | G G4 | G D/G G | G G4 C/G G |
 | G D/G G | G4 ... |
 
@@ -26,7 +26,7 @@ I wanna love you all over [C][D]
 Cause your [C]making me believe it[D] too(---[C][D]---)
 {eoc}
 
-{c: guitar fill}
+{comment: guitar fill}
 
 {sov}
 Now the[G]feeling (feeling) is beginning to grow
@@ -45,9 +45,9 @@ I wanna love you all over [C][D]
 Cause your [C]making me believe it[D] too(---[C][D]---)
 {eoc}
 
-{c: guitar fill}
+{comment: guitar fill}
 
-{c: Solo}
+{comment: Solo}
 | G  | Bm  | C  | D  | G  |
 
 {sob}

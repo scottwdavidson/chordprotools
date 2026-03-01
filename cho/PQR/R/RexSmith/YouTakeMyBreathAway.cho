@@ -3,10 +3,10 @@
 {key: Bb}
 {tempo: 96}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Ebsus24 Eb | Bb F | Ebsus2 Eb | Bb F |
 
 {sov}
@@ -38,7 +38,7 @@ And I don't know what to s[Gm]ay[Gmmaj7][Gm7][Gm/C][C7]
 'Cause you t[F7sus]ake my b[F7]reath [Bb]away.
 {eoc}
 
-{c:Instrumental}
+{comment:Instrumental}
 | Dm7 | G7sus G7 | Cm7/F | F7sus F7 |
 
 {sov}
@@ -56,4 +56,4 @@ So you take my b[F7sus]reath a[Bb]way, [Ab/C]yeah [Bb/D]yeah [Eb6sus]yeah
 I say, I say, I say you t[Bb]ake my breath away[Ab/C][Bb/D][Eb6sus]
 {eov}
 
-{c:Outro}
+{comment:Outro}

@@ -7,13 +7,13 @@
 {meta: countin: 8}
 {meta: backing: 42}
 
-{c:***********************************************}
-{c:**  meta: nord: O55   }
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 42   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 42   }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | G C/G G C/G | G C/G G C/G  | 
 
 | G C/G G C/G | G7 C/G G C/G |
@@ -22,7 +22,7 @@
 
 | G C/G G C/G | G  D7 D7 D7  |
 
-{c: lead - Scott}
+{comment: lead - Scott}
 {sov}
 Well, the [G]south side of Chicago
 Is the [A7]baddest part of town.
@@ -59,7 +59,7 @@ The [A7]baddest man in the whole damn town.
 And [D7]meaner than a [C]junkyard do[G]g.[D7]
 {eoc}
 
-{c: lead - Jeff}
+{comment: lead - Jeff}
 {sov}
 Well, [G]Friday 'bout a week ago,
 [A7]Leroy's shootin' dice.
@@ -96,6 +96,6 @@ The [A7]baddest man in the whole damn town.
 And [D7]meaner than a [C]junkyard do[G]g.
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 Yes, you were [B7]badder than old King [C]Kong
 And [D7]meaner than a [C]junkyard [G]dog.

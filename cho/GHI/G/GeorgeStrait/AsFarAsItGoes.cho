@@ -5,10 +5,10 @@
 {tempo: 137}
 {time: 4/4}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | C | G/C | C | G/C |
 | C | G/C | F | G   |
 
@@ -58,6 +58,6 @@ But [Em]after that baby I'm [Dm]through[Gsus][G7]
 [Dm]But that's as [rit][Gsus]far [G7]as it [C]goes
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | C  | Em | F | G7 | C |
 

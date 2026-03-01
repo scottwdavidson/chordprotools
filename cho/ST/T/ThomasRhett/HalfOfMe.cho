@@ -9,14 +9,14 @@
 {meta: countin: 4}
 {meta: backing: 11}
 
-{c:***********************************************}
-{c:**  meta: nord: N35}
-{c:**  meta: version: 1.0}
-{c:**  meta: countin: 4}
-{c:**  meta: backing: 11}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N35}
+{comment:**  meta: version: 1.0}
+{comment:**  meta: countin: 4}
+{comment:**  meta: backing: 11}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Am ... | D ... | G ... | . |
 
 {start_of_verse}
@@ -85,7 +85,7 @@ Half of me wants a [Am]cold beer
 
 
 
-{c:Outro}
+{comment:Outro}
 [Em] Yeah, half of me wants a [Am]cold, cold beer
 [D] The other half wants two
 [G]Woo-hoo!

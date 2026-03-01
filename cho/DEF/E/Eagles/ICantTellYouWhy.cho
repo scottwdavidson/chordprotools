@@ -2,10 +2,10 @@
 {artist: Eagles}
 {key: Bm}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | (B4) . Bm7 A/B  | . . (B5)(B5)(F#4) |
 | (B4) . Bm7 F#m7 | F#m7 |
 
@@ -39,7 +39,7 @@ no, baby, [Gmaj7]I can't tell you [F#7sus4]why[F#7]
 [Gmjaj7]I can't tell you [F#m7]why
 {eoc}
 
-{c:Interlude}
+{comment:Interlude}
 | (B4) . Bm7 A/B  | . . (B5)(B5)(F#4) |
 | (B4) . Bm7 F#m7 | F#m7 |
 
@@ -52,5 +52,5 @@ I [Gmaj7]can't tell you wh[Fm#7]y
 I [Gmaj7]can't tell you wh[Fm#7]y
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | Gmaj7 . | F#m7 |

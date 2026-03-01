@@ -5,13 +5,13 @@
 {tempo: 148}
 {meta: nord: M25}
 
-{c:***********************************************}
-{c:**  meta: nord: M25}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: M25}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
-{c: F(1st), Am(3rd), D(2nd), Bb(3rd)}
+{comment: F(1st), Am(3rd), D(2nd), Bb(3rd)}
 
 | F . . . | Am . . . | Dm . . .  | Bb . . . |
 
@@ -35,7 +35,7 @@ I be[Bb]lieve
 {end_of_chorus}
 
 
-{c: Enter Drums and Bass}
+{comment: Enter Drums and Bass}
 {start_of_verse}
 The [F]only thing that matters now is [Am]everything You think of [Dm]me[Bb]
 In [F]You I find my worth, in You I [Am]find my identi[Dm]ty, o-ooh[Bb]
@@ -70,14 +70,14 @@ I be[Bb]lieve
 {end_of_chorus}
 
 
-{c:Refrain}
+{comment:Refrain}
 Oh I be[F]lieve, yes I b[Am]elieve
 What You [Dm]say of me
 Oh I be[Bb]lieve
 
 
-{c:Outro}
+{comment:Outro}
 
-{c: F(1st), Am(3rd), D(2nd), Bb(3rd)}
+{comment: F(1st), Am(3rd), D(2nd), Bb(3rd)}
 
 | F . . . | Am . . . | Dm . . . |Bb . Gm7 . | F |

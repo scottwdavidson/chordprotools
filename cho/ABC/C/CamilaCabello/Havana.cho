@@ -2,8 +2,8 @@
 {artist: Camila Cabello}
 {key: Gm}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 |[Gm]Gm [Eb]Eb[D7]D7 |
@@ -25,7 +25,7 @@ I'm [Gm]doin' forever [Eb]in a minute [D7](that summer night in June)
 and [Gm]Papa says he got [Eb]malo in him[D7]
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 [D7]He got me feelin' like
 [Gm]oooh ooh-[Eb]ooh oo[D7]oh
 I knew it when I [Gm]met him
@@ -70,7 +70,7 @@ Havana ooh na [Gm]na
 |[Gm]Gm [Eb]Eb[D7]D7 |
 |[Gm]Gm [Eb]Eb[D7]D7 |
 
-{c: Pre-chorus}
+{comment: Pre-chorus}
 [Gm]oooh-[Eb]oooh-o[D7]oh
 [Gm]oooh-[Eb]oooh-o[D7]oh take me back to my Havana...
 
@@ -83,7 +83,7 @@ My [Eb]heart is in Hav[D7]ana
 Havana ooh na [Gm]na
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 [Gm]    [Eb]oh na na n[D7]a (oh na yeah)
 [Gm]    [Eb]oh na na n[D7]a
 [Gm]    [Eb]oh na na n[D7]a (no no no take me back)

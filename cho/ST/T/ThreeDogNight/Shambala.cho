@@ -6,12 +6,12 @@
 {meta: nord: O55}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: nord: O55   }
-{c:**  meta: countin: 4   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | E D | A | 
 | E D | A | 
 | E D | A | 
@@ -50,7 +50,7 @@ y[E]eah - yeah - y[D]eah - yeah - y[A]eah.
 [A]How does your [D/A]light [A]shine in the [D]halls of [A]Shambala?
 {end_of_chorus}
 
-{c:Interlude}
+{comment:Interlude}
 | E D | A | 
 | E D | A | 
 | E D | A | 
@@ -89,6 +89,6 @@ Ahh - ahh, [E]oooh - oo[D]oh, [A]oooh - oooh, yeah.
 O[E]n the ro[D]ad to Sham[A]bala
 {end_of_verse}
 
-{c:Interlude}
+{comment:Interlude}
 | E D | A | E D | A | 
 | E D | A | E D | A |

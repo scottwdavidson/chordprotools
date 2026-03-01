@@ -5,10 +5,10 @@
 {tempo: 137}
 {time: 4/4}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | D | A/D | D | A/D |
 | D | A/D | G | A   |
 
@@ -58,7 +58,7 @@ But [F#m]after that baby I'm [Em]through[Asus][A7]
 [Em]But that's as [rit][Asus]far [A7]as it [D]goes
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 | D | F#m | G | A7 | D |
 
 

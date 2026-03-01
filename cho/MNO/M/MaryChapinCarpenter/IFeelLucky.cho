@@ -7,13 +7,13 @@
 {meta: backing: 56}
 {meta: nord: A01}
 
-{c:*****************************************}
-{c: meta: countin: 8}
-{c: meta: backing: 56}
-{c: meta: nord: A01}
-{c:*****************************************}
+{comment:*****************************************}
+{comment: meta: countin: 8}
+{comment: meta: backing: 56}
+{comment: meta: nord: A01}
+{comment:*****************************************}
 
-{c:Intro}
+{comment:Intro}
 | B . . . | B  . . . |
 | B . . . | F#7 . . . |
 | B . . . | B  . . . |
@@ -34,7 +34,7 @@ N[F#7]o Professor Doom gonna stand in my way
 [B]Mmm[No Chord]mm, I feel lucky today
 {end_of_chorus}
 
-{c:Instrumental}
+{comment:Instrumental}
 | B . . . | B . . . |
 | B . . . | B . . . |
 
@@ -53,7 +53,7 @@ No t[F#7]ropical depression gonna steal my sun away
 [B]Mm[N.C.]mmm, I feel lucky today
 {end_of_chorus}
 
-{c: GuitarSolo}
+{comment: GuitarSolo}
 | E7 . . . | E7 . . . | 
 | B . . . | B . . . | 
 | F#7 . . . | F#7 . . . |
@@ -79,7 +79,7 @@ I feel [E]lucky, brrrrr, I feel [B]lucky, yeah
 [B]Mm[No Chord]mmmm, I feel lucky today
 {end_of_chorus}
 
-{c:Outro - Piano Solo}
+{comment:Outro - Piano Solo}
 |B   . . . | B   . . . | B . . . | B . . .  |
 |E   . . . | E   . . . | B . . . | B . . .  |
 |F#7 . . . | F#7 . . . | B . . . | C# C . B | 

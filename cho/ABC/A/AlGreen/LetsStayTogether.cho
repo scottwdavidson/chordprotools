@@ -2,10 +2,10 @@
 {artist: Al Green}
 {key: F}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Gm9 . Am7 Am7 | Gm7 . Am7 Am7 | Gm9 . Am7 Am7 | Gm7 . C7 . |
 Let's stay together (whispered)
 
@@ -30,7 +30,7 @@ Lovin' you w[Gm7]hether, whether
 Times are [Bbmaj7]good or [Am7]bad, [Dm]happy or [C]sad
 {eob}
 
-{c: Interlude}
+{comment: Interlude}
 | Gm9  | Gm9 | Abmaj7 | Gm9 | Abmaj7 | Abmaj7 | 
 
 Whether times are [Bbmaj7]good or [Am7]bad, [Dm]happy or [C]sad
@@ -52,7 +52,7 @@ Lovin' you w[Gm7]hether, whether
 Times are [Bbmaj7]good or [Am7]bad, [Dm]happy or [C]sad
 {eob}
 
-{c:Solo (1/2 verse)}
+{comment:Solo (1/2 verse)}
 | F  | F  | Dm9  | Dm9  |
 | Bb | Bb | Bbm9 | Bbm9 |
 
@@ -69,7 +69,7 @@ Lovin' you w[Gm7]hether, whether
 Times are [Bbmaj7]good or [Am7]bad, [Dm]happy or [C]sad
 {eob}
 
-{c:Outro}
+{comment:Outro}
 [Bbmaj7]good or [Am7]bad, [Dm7]happy or [C]sad
 [Bbmaj7]good or [Am7]bad, [Dm7]happy or [C]sad
 [Fmaj7]let's stay together

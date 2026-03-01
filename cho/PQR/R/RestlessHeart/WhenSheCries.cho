@@ -3,10 +3,10 @@
 {key: A}
 {tempo: 113}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Aadd2 | F#m | Aadd2 | F#m |
 
 {sov}
@@ -52,16 +52,16 @@ When she cries[Aadd2][F#m7][Aadd2][F#m7]
 {eoc}
 
 
-{c: Solo}
+{comment: Solo}
 | A/D | A/C# | Bm7 E7 | D/A A E/F# | F#m7 |
 | A/D | A/C# | A/B B7 | Bm7/E E |  
 
-{c: Outro}
+{comment: Outro}
 [E]So I [A/D]pray this [A/C#]time
 I can b[Bm7]e the [E7]man that sh[D/A]e [A]de[E/F#]serves
 [F#m7]'Cause I [Bm7]die a little each [E]time
 When she cries
 
-{c: Outro Solo}
+{comment: Outro Solo}
 ||: A/D | A/C# | Bm7 E7 | D/A A E/F# F#m7 |
   | A/D | A/C# | A/B B7 | Bm7/E E :|| repeat and fade 

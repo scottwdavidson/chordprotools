@@ -7,11 +7,11 @@
 {meta: countin: 8}
 {meta: backing: 55}
 
-{c:***********************************************}
-{c:**  meta: nord: A01   }
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 55   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: A01   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 55   }
+{comment:***********************************************}
 
 {comment: Intro}
 | G . . . | G . . . |
@@ -30,7 +30,7 @@
 [Am]Since you've been gone[Em]_[F(add#4)]
 {end_of_verse}
 
-{c: bridge}
+{comment: bridge}
 [F(add#4)]And all you'd ever [G]hear me say
 Is [Am]how I pictur[Em]ed me with you
 [F(add#4)]That's all you'd ever [G]hear me say

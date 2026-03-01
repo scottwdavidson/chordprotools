@@ -8,14 +8,14 @@
 {meta: backing: 40}
 {meta: performance: E}
 
-{c:***********************************************}
-{c:**  meta: nord: N51   }
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 40   }
-{c:**  meta: performance: E }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N51   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 40   }
+{comment:**  meta: performance: E }
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | C#m7 ... | AM7 ... | C#m7 ... | AM7 ...    |
 | E . . .  | B/E ... | A . E .  | A . A/B B7 |
 
@@ -82,7 +82,7 @@ What a [C#m]good wife you would [AM7]be (such a fine girl)
 But my [E]life my lover my [B/E]lady is the [A]sea[E] (d[A]o,do...)[A/B][B7]
 {eoc}
 
-{c:Outro}
+{comment:Outro}
 He said, [C#m]Brandy you're a [AM7]fine girl (you're a fine girl)
 What a [C#m]good wife you would [AM7]be (such a fine girl)
 But my [E]life my lover my [B/E]lady is the [A]sea[E] (d[A]o,[A]do.[A/B]..[B7][E]..)

@@ -4,10 +4,10 @@
 {duration: 3:20}
 {tempo: 117}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 
 
 8 bars
@@ -70,7 +70,7 @@ Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 
 {sov}
-{c: staccato chords}
+{comment: staccato chords}
 Well, t[F#m7]he [Gm7]Illinois Central
 And th[F#m7]e [Gm7]Southern Central freight,
 You gott[F#m7]a [Gm7]keep on pushin' mama,
@@ -89,7 +89,7 @@ Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 
 
-{c: Instrumental Solo}
+{comment: Instrumental Solo}
 
 | Gm7 . . G11 | Gm7 . . G11 | Gm7 . . G11 | Gm7 . . G11 |
 
@@ -104,7 +104,7 @@ Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 
 {sov}
-{c: staccato chords}
+{comment: staccato chords}
 Well, t[F#m7]he [Gm7]Illinois Central
 And th[F#m7]e [Gm7]Southern Central freight,
 You gott[F#m7]a [Gm7]keep on pushin' mama,
@@ -124,7 +124,7 @@ Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 
 {sov}
-{c: staccato chords}
+{comment: staccato chords}
 W[F#m7]here [Gm7]pistons [Gm7]keep on [Gm7]churnin' [Gm7]
 [F#m7]And the [Gm7]wheels go [Gm7]'round and [Gm7]'round  [Gm7]
 [F#m7]And the [Gm7]steel rails[Gm7] are [Gm7]cold and h[Gm7]ard
@@ -133,7 +133,7 @@ W[F#m7]here [Gm7]pistons [Gm7]keep on [Gm7]churnin' [Gm7]
 
 
  
-{c: Closing Chorus}
+{comment: Closing Chorus}
 {soc}
 [Cm7]Without love, [Cm7#13]where would you be right now?
 
@@ -141,13 +141,13 @@ W[F#m7]here [Gm7]pistons [Gm7]keep on [Gm7]churnin' [Gm7]
 
 Without [Eb7]lo__[Gm/D]__[D7]ve?
 
-{c: Freely}
+{comment: Freely}
 [Cm7]Ooooh...  [N.C.]Where would you be now?
 {eoc}
 
 
 
-{c: Outro - Ad Lib}
+{comment: Outro - Ad Lib}
 
 | Gm7 . . G11 | Gm7 . . G11 |
 

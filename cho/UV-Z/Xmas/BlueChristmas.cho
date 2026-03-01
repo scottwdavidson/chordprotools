@@ -4,8 +4,8 @@
 {duration: 1:50}
 {tempo: 95}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {sov}
 I'll have a [E]blue [E]Christmas with-[B7]out you.
@@ -31,7 +31,7 @@ But [B7]I’ll have a blue, blue, blue, blue [E]Christmas.
 {eov}
 
 
-{c: Outro}
+{comment: Outro}
 You’ll be [E7]doin’ all right with your [A]Christmas of [F#]white,
 But [B7]I’ll have a blue, blue, blue, blue [E]Christmas.
 Oh, [B7]I’ll have a blue, blue, blue, blue [E]Christmas.

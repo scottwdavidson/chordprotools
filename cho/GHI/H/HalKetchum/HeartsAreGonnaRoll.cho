@@ -8,21 +8,21 @@
 {meta: backing: 12}
 {meta: performance: D}
 
-{c:***********************************************}
-{c:**  meta: nord: P21}
-{c:**  meta: countin: 8}
-{c:**  meta: backing: 12}
-{c:**  meta: performance: D}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P21}
+{comment:**  meta: countin: 8}
+{comment:**  meta: backing: 12}
+{comment:**  meta: performance: D}
+{comment:***********************************************}
 
 
-{c: Intro I - Guitar only}
+{comment: Intro I - Guitar only}
 | D . G . | C . G . | 
 
 | D . G . | C . G . | 
 
 
-{c: Intro II - Add Piano}
+{comment: Intro II - Add Piano}
 | D . G . | C . G . | 
 
 | D . G . | C . G . | 
@@ -38,7 +38,7 @@ Had him wr[D]apped around her [G]finger,[C]  [G]        doing a[D]nythi[G]ng she
 {eov}
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 Before [D]hearts are gonna [G]roll,[C]  [G]       h[D]eads are gonna [G]turn [C] [G]
 [Bm]Tears are gonna fall, a br[G]idge is gonna burn
@@ -55,7 +55,7 @@ She'll [D]take you to the l[G]imit,  [C]  [G]       just to lea[D]ve you [G] han
 {eov}
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 [D]Hearts are gonna [G]roll,[C]  [G]      h[D]eads are gonna [G]turn [C] [G]
 [Bm]Tears are gonna fall, a br[G]idge is gonna burn
@@ -63,13 +63,13 @@ She'll [D]take you to the l[G]imit,  [C]  [G]       just to lea[D]ve you [G] han
 {eoc}
 
 
-{c: Bridge}
+{comment: Bridge}
 [G]  Don't fall under the spell of her eyes boy,  [D] she's not looking at you [D][(triplets)]
 [G]  Take it from somebody who knows,   [A] she's moving right on through.
 
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 [D]Hearts are gonna [G]roll,[C]  [G]     h[D]eads are gonna [G]turn [C] [G]
 [Bm]Tears are gonna fall, a br[G]idge is gonna burn
@@ -78,14 +78,14 @@ She'll [D]take you to the l[G]imit,  [C]  [G]       just to lea[D]ve you [G] han
 
 
 
-{c: Softer}
+{comment: Softer}
 {sov}
 Ever s[D]ince she was a [G]baby,[C]  [G]      sittin' o[D]n her d[G]addy's kne[C]e[G]
 Had him wr[D]apped around her [G]finger,[C]  [G]      doing a[D]nythi[G]ng she ple[C]ased[G]
 {eov}
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 And [D]hearts are gonna [G]roll. [C] [G]     He[D]arts are gonna [G]roll. [C] [G]
 [D]Hearts are gonna [G]roll. [C] [G]     He[D]arts are gonna [G]roll [C](watch 'em roll now) [G]
@@ -93,7 +93,7 @@ And [D]hearts are gonna [G]roll. [C] [G]     He[D]arts are gonna [G]roll. [C] [G
 
 
 
-{c: Coda}
+{comment: Coda}
 | D . G . | C . G . | 
 
 | D . G . | C . G . | 

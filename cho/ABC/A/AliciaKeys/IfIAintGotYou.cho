@@ -2,10 +2,10 @@
 {artist: Alicia Keys}
 {key: G}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Cmaj7 | Cmaj7 | Bm7 | Bm7 | Am7 | Am7 | Gmaj7 |  Gmaj7 Am7 Bm7 |
 | Cmaj7 | Cmaj7 | Bm7 | Bm7  Bbm7 | Am7 | Am7 | Gmaj7 | Gmaj7 Am |
 
@@ -16,7 +16,7 @@
 [Am7]   Some people live just to play the [D7]game
 {eov}
 
-{c: Pre-Chorus}
+{comment: Pre-Chorus}
 [Gmaj7]Some people [Am7]think that the [Bm7]physical [Am7]things
 De[Gmaj7]fine   [Am7]what's wi[Bm7]thin
 [Cmaj7][Bm7]And [Am7]I've [Gmaj7]been there be[Am7]fore

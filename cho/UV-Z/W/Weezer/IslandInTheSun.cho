@@ -7,11 +7,11 @@
 {meta: countin: 4}
 {meta: backing: 58}
 
-{c:***********************************************}
-{c:**  meta: nord: P54   }
-{c:**  meta: countin: 4   }
-{c:**  meta: backing: 58   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P54   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 58   }
+{comment:***********************************************}
 
 {comment: Intro}
 [Em]   [Am]   [D]  [G]Hip, hip.

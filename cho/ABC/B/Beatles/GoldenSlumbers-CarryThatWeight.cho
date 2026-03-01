@@ -2,10 +2,10 @@
 {artist: Beatles}
 {key: Gb}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Ebm7 | Ebm7 | 
 
 {sov}
@@ -29,9 +29,9 @@
 [Db7] And I will sing a lullab[Gb]y
 {eov}
 
-{c:-- Carry That Weight --}
+{comment:-- Carry That Weight --}
 
-{c:Intro}
+{comment:Intro}
 | Cm7 | Cm7 |
 
 {sov}
@@ -48,7 +48,7 @@ You b[Cm7]reak down[Bb][Eb][Bb]
 [Bb]Carry that w[Bb7]eight a [Eb]long time.[Bb/D]
 {eod}
 
-{c:Interlude}
+{comment:Interlude}
 | Cm7 | Cm7 |
 
 {sov}

@@ -6,12 +6,12 @@
 {meta: nord: O24}
 {meta: countin: 4}
 
-{c:***********************************************}
-{c:**  meta: nord: O24}
-{c:**  meta: countin: 4}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O24}
+{comment:**  meta: countin: 4}
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | Aadd2 . Em7 . | G . D/F# | 
 
 | Aadd2 . Em7 . | G . D/F# | 
@@ -34,13 +34,13 @@ I[G]f we burn it down and it t[D/F#]akes all night
 It's a [Aadd2]slow bur[Em7]n,  [G]   [D/F#]yeah
 {eoc}
 
-{c: Instrumental}
+{comment: Instrumental}
 | Aadd2 . Cadd2 . | G . D/F# | 
 
 | Aadd2 . Cadd2 . | G . D/F# | 
 
 
-{c: (drum 1 before 2nd phrase)}
+{comment: (drum 1 before 2nd phrase)}
 {sov}
 In T[Aadd2]ennessee, the [Em7]sun's goin' down
 But [G]in Beijing, they're he[D/F#]ading out to work[Aadd2][Cadd2][G][D/F#]
@@ -56,11 +56,11 @@ I[G]f we burn it down and it t[D/F#]akes all night
 It's a [Aadd2]slow bur[Em7]n,  [G]   [D/F#]
 {eoc}
 
-{c: Etheral Keys}
-{c: Bridge}
+{comment: Etheral Keys}
+{comment: Bridge}
 [Cadd2]  ooh whatever feels good[Em7]
 
-{c: Instrumental}
+{comment: Instrumental}
 [Aadd2](Uh ah ahhh)[Em7][G][D/F#]
 
 [Aadd2](Uh ah ahhh)[Cadd2](a[G]hh)[D/F#]
@@ -69,12 +69,12 @@ It's a [Aadd2]slow bur[Em7]n,  [G]   [D/F#]
 
 [Aadd2](Uh ah ahhh)[Cadd2](a[G]hh)[D/F#]
 
-{c: (drum 1)}
+{comment: (drum 1)}
 [Aadd2](Ahhh)[Em7][G][D/F#]
 [Aadd2] [Em7][G][D/F#]
 [Aadd2] [Cadd2][G][D/F#]
 
-{c: Outro}
+{comment: Outro}
 [Aadd2]Old soul, w[Em7]aiting my turn
 I [G]know a few things, but I s[D/F#]till got a lot to l[Aadd2]earn[Cadd2]
 So[G]I[D/F#]'m alright with a [Aadd2]slow bur[Em7]n_[G][D/F#]

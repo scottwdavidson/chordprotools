@@ -7,20 +7,20 @@
 {meta: countin: 8}
 {meta: performance: C}
 
-{c:***********************************************}
-{c:**  meta: nord: ???}
-{c:**  meta: countin: 8}
-{c:**  meta: performance: C}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: ???}
+{comment:**  meta: countin: 8}
+{comment:**  meta: performance: C}
+{comment:***********************************************}
 
-{c: Intro - Acoustic Guitar Only}
+{comment: Intro - Acoustic Guitar Only}
 | F . C . | Am . G . | F . C . | Am . G . |
 
 
 
 
 
-{c: Intro - Add Piano}
+{comment: Intro - Add Piano}
 | F . C . | Am . G . | F . C . | Am . G . |
 
 
@@ -60,7 +60,7 @@ and the [F]sea may bu[C]rn.[Am][G]
 {eov}
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 I'm [F]learning to [C]fly, ([Am]learning to [G]fly)
 but I [F]ain't got [C]wings. ([Am]learning to [G]fly)
@@ -72,7 +72,7 @@ is the [F]hardest [C]thing. ([Am]learning to [G]fly)
 
 
 
-{c: Solo - Electric Guitar}
+{comment: Solo - Electric Guitar}
 | F . C . | Am . G . | F . C . | Am . G . |
 
 | F . C . | Am . G . | F . C . | Am . G . |
@@ -97,7 +97,7 @@ when [F]I get th[C]ere.[Am][G]
 
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 I'm [F]learning to [C]fly,[Am][G]
 a[F]round the [C]clouds,[Am][G]
@@ -109,11 +109,11 @@ a[F]round the [C]clouds,[Am][G]
 
 
 
-{c: Interlude}
+{comment: Interlude}
 | F . C . | Am . G . | F . C . | Am . G . |
 
 
-{c: Chorus}
+{comment: Chorus}
 {soc}
 I'm [F]learning to [C]fly, ([Am]learning to [G]fly)
 but I [F]ain't got [C]wings.[Am][G]
@@ -122,7 +122,7 @@ is the [F]hardest [C]thing.[Am][G]
 {eoc}
 
 
-{c: Chorus 2}
+{comment: Chorus 2}
 {soc}
 I'm [F]learning to [C]fly, ([Am]learning to [G]fly)
 a[F]round the [C]clouds,[Am][G]
@@ -130,7 +130,7 @@ a[F]round the [C]clouds,[Am][G]
 [F]must come [C]down.[Am][G]
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 
 I'm [F]learning to [C]fly, ([Am]learning to [G]fly)
 [F]     [C]    ([Am]learning to [G]fly)

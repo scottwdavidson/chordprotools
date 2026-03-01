@@ -7,11 +7,11 @@
 {meta: backing: 75}
 {meta: nord: M14(A3)}
 
-{c:**********************}
-{c:** meta: countin: 4}
-{c:** meta: backing: 75}
-{c:** meta: nord: M14(A3)}
-{c:**********************}
+{comment:**********************}
+{comment:** meta: countin: 4}
+{comment:** meta: backing: 75}
+{comment:** meta: nord: M14(A3)}
+{comment:**********************}
 
 
 {comment: Intro}

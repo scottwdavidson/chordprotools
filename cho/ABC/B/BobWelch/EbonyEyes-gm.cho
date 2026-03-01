@@ -7,13 +7,13 @@
 {meta: backing: 44}
 {meta: performance: Gm}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 44   }
-{c:**  meta: performance: Gm }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 44   }
+{comment:**  meta: performance: Gm }
+{comment:***********************************************}
 
-{c: Intro}
+{comment: Intro}
 | N.C. |  Gm  |  Dm  |
 | N.C. |  Gm  |  Dm  |
 | N.C. |  Gm  |  Dm  |
@@ -37,7 +37,7 @@ That I'll be [D5]holding you close [Gm]tonight [F]
 That I'll be [D5]holding you close [Gm]tonight
 {eoc}
 
-{c: Intro}
+{comment: Intro}
 | N.C. |   Gm  |   Dm  |
 | N.C. |   Gm  |   Dm  |
 

@@ -4,10 +4,10 @@
 {duration: 3:30}
 {tempo: 136}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro (piano)}
+{comment:Intro (piano)}
 | Am ... | Am . - G Am | Dm .  .  .  | Dm . - C Dm |
 | Am ... | Em .  .  .  | Am . - G Am | Am .  .  .  |
 
@@ -46,13 +46,13 @@ G[Am]oing to Montana
 To [Em]be by her [Am]side
 {end_of_chorus}
 
-{c:Piano Solo}
+{comment:Piano Solo}
 | Am ... | Am ... | Dm ... | Dm ... |
 | Am ... | Em ... | Am ... | Am ... |
 
 {{ NEW }}
 {{ Incorporated portion of original lyrics, reformatted and added new final line "Daydream"}}
-{c: Bridge}
+{comment: Bridge}
 She's my [C]ship for eve[D]ry shore
 She's my [F]dance for eve[E]ry floor
 She's my [C]swim for eve[D]ry stream
@@ -78,7 +78,7 @@ To [Em]be by her [Am]side
 [F]My feelings [G]for [Am]you 
 {end_of_verse}
 
-{c: Outro}
+{comment: Outro}
 I'm [Am]holding Montana_[G][Am]
 H[Dm]olding Montana_[C][Dm]
 H[Am]olding Montana
@@ -88,17 +88,17 @@ Love to [Em]be by her [Am]side
 
 {{ Increase BPM to 146 ( 73 x 2) on Drum Machine }}
 {{ Instrumental Outro }}
-{c: 73 bpm / double time}
+{comment: 73 bpm / double time}
 
-{c: Outro}
+{comment: Outro}
 | Am Am . G | Am . . . | F F . C | F . . . |
 | Dm Dm . C | Dm . . . | E . . . | E . . . | x2
 
 
-{c: Guitar Solo}
+{comment: Guitar Solo}
 | Am Am . G | Am . . . | F F . C | F . . . |
 | Dm Dm . C | Dm . . . | E . . . | E . . . | x3
 
 
-{c: Coda}
+{comment: Coda}
 | Am Am . G | Am |

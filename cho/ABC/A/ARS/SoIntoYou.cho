@@ -4,10 +4,10 @@
 {duration: 3:50}
 {tempo: 87}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c: Intro ( cut time )}
+{comment: Intro ( cut time )}
 ||: F7sus4 | F7sus4 | F7sus4/Db | F7sus4/C :||
  |  Fm7    | Fm7    | Fm7       | Fm7 |
 
@@ -38,7 +38,7 @@ Gonna love you all [Bbm7]over, over and over
 [Cm]Me into you, you into me, me into you
 {eob}
 
-{c: Bridge}
+{comment: Bridge}
 [Bbm7] -- [Bbm7]I am so into [Fm7]you [Fm7]
 [Bbm7] -- [Bbm7]I am so into [C7][C7][C7] ooh, ooh, ooh, ooh
 [Fm7]
@@ -60,7 +60,7 @@ I am [Bbm7]so into you, baby
 I can't get to nothin' [Fm7]else [Fm7]
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 No, no, no, come on [Bbm7]baby 
 [Bbm7] -- [Bbm7]I am so into [Fm7]you (Love the things I do)
 Listen, baby [Bbm7] -- [Bm7]Driving me crazy, oh, oh, [Fm7]oh 

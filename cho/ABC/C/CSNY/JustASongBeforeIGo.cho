@@ -6,10 +6,10 @@
 {meta: nord: M14(A2)}
 {meta: performance: Dm}
 
-{c:***********************************************}
-{c:**** meta: nord: M14(A2)}
-{c:**** meta: performance: Dm}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**** meta: nord: M14(A2)}
+{comment:**** meta: performance: Dm}
+{comment:***********************************************}
 
 
 {comment: Intro piano only}

@@ -2,10 +2,10 @@
 {artist: Doobie Brothers}
 {key: F}
 
-{c:***********************************************}
-{c:***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{c:Intro}
+{comment:Intro}
 | Fm6/G F/G | C/G  | D7/G G7sus4 | G7sus4 | x2
 
 {sov}
@@ -15,7 +15,7 @@
 [Fm6/G]    Fairly [F/G]soon [C/G]    the time will [D7/G]tell[G7sus4]
 {eov}
 
-{c:preChorus}
+{comment:preChorus}
 [C5]You,[C5/Bb] [F/A]telling me the [Fm/Ab]things you're gonna do [F/G]for
 [C5]me [C5/Bb]  [F/A]I ain't blind and I[Fm/Ab]don't like what I think I [F/G]see
 
@@ -34,7 +34,7 @@
 [Fm6/G]    Tied in [F/G]poverty's [C/G]de-[D7/G]spair[G7sus4]
 {eov}
 
-{c:preChorus}
+{comment:preChorus}
 [C5]You,[C5/Bb] [F/A]telling me the [Fm/Ab]things you're gonna do [F/G]for
 [C5]me [C5/Bb]  [F/A]I ain't blind and I[Fm/Ab]don't like what I think I [F/G]see
 
@@ -45,15 +45,15 @@
 [C7/E]Takin' it [F]to [Fm/Gb]the [C/G]----[F/G]
 {eoc}
 
-{c:solo}
+{comment:solo}
 | Fm6/G F/G | C/G  | D7/G G7sus4 | G7 sus4 | x4
 
 
-{c:preChorus}
+{comment:preChorus}
 [C5]You,[C5/Bb] [F/A]telling me the [Fm/Ab]things you're gonna do [F/G]for
 [C5]me [C5/Bb]  [F/A]I ain't blind and I[Fm/Ab]don't like what I think I [F/G]see
 
-{c:Outro}
+{comment:Outro}
 [C7/E]Takin' it [F]to [Fm/Gb]the [C/G]streets[F/G](Takin' to the Streets)
 [C7/E]Takin' it [F]to [Fm/Gb]the [C/G]streets[F/G](No more people)
 [C7/E]Takin' it [F]to [Fm/Gb]the [C/G]streets[F/G](Takin' to the Streets)

@@ -4,7 +4,7 @@
 {tempo: 85}
 {key: C}
 
-{c: Intro}
+{comment: Intro}
 | C | G/C | F/C | G/C |
 | C | G/C | F/C | G/C |
 
@@ -36,7 +36,7 @@ Now my [C]old world is [G/C]gone for [F/C]dead[G/C]
 'Cos I [C]can't get it [G]out of my [F]head[G]
 {eoc}
 
-{c: Instrumental Bridge}
+{comment: Instrumental Bridge}
 ||: C | Cmaj7 | C7 | F7 | G7 :|| x2
 ||: C | Cmaj7 | C7 | F7 | G7 :|| x2
 | Ab | Ab | Bb | Bb | C | C | 
@@ -56,5 +56,5 @@ Now my [C]old world is [G/C]gone for [F/C]dead[G/C]
 'Cos I [C]can't get it [G]out of my [F]head[G]
 {eoc}
 
-{c: Outro}
+{comment: Outro}
 | C | Cmaj7 | C7 | F7 | G7 | Ab | Bb | C | 
