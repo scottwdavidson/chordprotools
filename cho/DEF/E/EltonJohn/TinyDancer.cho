@@ -3,13 +3,15 @@
 {key: C}
 {duration: 5:50}
 {tempo: 72}
+{meta: nord: P55}
+{meta: countin: 8}
 {meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: performance: A}
-{comment: ***********************************************}
-
-
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro - Main Theme}
 |  C  .  F/C  .  |  C  .  F/C  .  |

@@ -3,15 +3,15 @@
 {key: A}
 {duration: 5:50}
 {tempo: 72}
-{meta: performance: A}
+{meta: nord: P55}
 {meta: countin: 8}
+{meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: performance: A}
-{comment: **  meta: countin: 8}
-{comment: ***********************************************}
-
-
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro - Main Theme}
 |  A  .  D/A  .  |  A  .  D/A  .  |
