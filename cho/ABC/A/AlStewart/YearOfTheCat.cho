@@ -6,6 +6,7 @@
 {meta: nord: M22}
 {meta: countin: 4}
 {meta: backing: 20}
+{meta: ve: U6}
 
 {comment: ***********************************************}
 {comment: **  meta: nord: M22}
@@ -13,7 +14,6 @@
 {comment: **  meta: backing: 20}
 {comment: ***********************************************}
 
-{meta: ev: U6}
 
 {comment: Intro (piano)}
 

@@ -14,7 +14,7 @@ Let's Stay Together,Al Green,F,,,,,,,,,,,,./cho/ABC/A/AlGreen/LetsStayTogether.c
 If I Ain't Got You,Alicia Keys,G,,,,,,,,,,,,./cho/ABC/A/AliciaKeys/IfIAintGotYou.cho
 One Way Out,The Allman Brothers Band,A,,110,,,,,,,,,,./cho/ABC/A/AllmanBrothers/OneWayOut.cho
 Southbound,Allman Brothers,F,,,,,,,,,,,,./cho/ABC/A/AllmanBrothers/Southbound.cho
-Year of the Cat,Al Stewart,Em,4:00,116,4,20,M22,,,,,,,./cho/ABC/A/AlStewart/YearOfTheCat.cho
+Year of the Cat,Al Stewart,Em,4:00,116,4,20,M22,,U6,,,,,./cho/ABC/A/AlStewart/YearOfTheCat.cho
 A Horse With No Name,America,Em,3:40,123,,,,,,,,,,./cho/ABC/A/America/AHorseWithNoName.cho
 Lonely People,America,D,2:10,155,,,M15(A3),,,,,,,./cho/ABC/A/America/LonelyPeople.cho
 Ventura Highway,America,G,3:20,130,???,,???,,,,,,,./cho/ABC/A/America/VenturaHighway.cho
@@ -222,8 +222,8 @@ Watching The Wheels,John Lennon,A,3:30,83,4,77,A3(M14),,,A,,,,./cho/JKL/J/JohnLe
 Watching The Wheels,John Lennon,C,3:30,83,4,77,A3(M14),,,A,,,,./cho/JKL/J/JohnLennon/WatchingTheWheels.cho
 Woman,John Lennon,Eb,3:00,159,,,,,,,,,,./cho/JKL/J/JohnLennon/Woman.cho
 I’m Gonna Find Another You,John Mayer,A,3:00,150,,,,,,,,,,./cho/JKL/J/JohnMayer/ImGonnaFindAnotherYou.cho
-Ain't Even Done With The Night,John Mellencamp,B,4:10,120,8,74,N51,,,A,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight.cho
 Ain't Even Done With The Night,John Mellencamp,A,4:10,120,8,74,N51,,,A,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight-a.cho
+Ain't Even Done With The Night,John Mellencamp,B,4:10,120,8,74,N51,,,A,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight.cho
 Cherry Bomb,John Mellencamp,G,4:10,113,,,,,,,,,,./cho/JKL/J/JohnMellencamp/CherryBomb.cho
 Jack and Diane,John Mellencamp,A,3:40,104,4,29,,,,A,,,,./cho/JKL/J/JohnMellencamp/JackandDiane.cho
 R.O.C.K. In The U.S.A,John Mellencamp,E,2:55,166,8,54,,,,,,,,./cho/JKL/J/JohnMellencamp/ROCKInTheUSA.cho
@@ -433,8 +433,8 @@ Runnin' Down A Dream,Tom Petty,E,3:45,170,8,16,N51,,,E,,,,./cho/ST/T/TomPetty/Ru
 Hey Soul Sister,Train,B,,,,,,,,,,,,./cho/ST/T/Train/HeySoulSister.cho
 Handle With Care,Traveling Wilburys,G,3:18,122,4,80,M22,,P12,,,,,./cho/ST/T/TravelingWilburys/HandleWithCare.cho
 Stuck In A Moment / I Still Haven't Found,U2,E / C,,TBD,,,N51,,,N51,,,,./cho/UV-Z/U2/StuckInAMoment-IStillHaventFound.cho
-Brown Eyed Girl,Van Morrison,G,3:01,149,8,76,P55,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
 Jump,Van Halen,C,3:55,130,,,,,,,,,,./cho/UV-Z/V/VanHalen/Jump.cho
+Brown Eyed Girl,Van Morrison,G,3:01,149,8,76,P55,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
 Blinding Lights,The Weeknd,Fm,3:20,171,,,,,,,,,,./cho/UV-Z/W/Weeknd/BlindingLights.cho
 Save Your Tears,The Weeknd,C,,,,,,,,,,,,./cho/UV-Z/W/Weeknd/SaveYourTears.cho
 Island In The Sun,Weezer,Em,3:00,115,4,58,P54,,,,,,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho
