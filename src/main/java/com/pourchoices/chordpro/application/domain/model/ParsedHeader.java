@@ -28,16 +28,16 @@ public class ParsedHeader implements Comparable<ParsedHeader> {
 
         // metas as ephemeral comments
         builder.append("\n");
-        builder.append("{c:***********************************************}\n");
+        builder.append("{comment:***********************************************}\n");
         for (ParsedHeaderLine parsedHeaderLine : headerLines) {
             if (parsedHeaderLine.getHeaderDirective().isMeta()) {
                 String parsedHeaderLineNoCurlies = parsedHeaderLine.toString();
                 parsedHeaderLineNoCurlies = parsedHeaderLineNoCurlies.replaceAll("^\\{|\\}$", "");
 
-                builder.append("{c:**  ").append(parsedHeaderLineNoCurlies).append("   }\n");
+                builder.append("{comment:**  ").append(parsedHeaderLineNoCurlies).append("   }\n");
             }
         }
-        builder.append("{c:***********************************************}\n");
+        builder.append("{comment:***********************************************}\n");
 
         return builder.toString();
     }

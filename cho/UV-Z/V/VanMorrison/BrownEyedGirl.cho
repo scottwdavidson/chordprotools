@@ -1,22 +1,23 @@
 {title: Brown Eyed Girl}
 {artist: Van Morrison}
 {key: G}
-{duration: 3:00}
+{duration: 3:01}
 {tempo: 149}
+{meta: nord: P55}
 {meta: countin: 8}
 {meta: backing: 76}
 
-{c:***********************************************}
-{c:**  meta: countin: 8   }
-{c:**  meta: backing: 76   }
-{c:***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 76   }
+{comment:***********************************************}
 
 {comment: Intro}
 | G . . . | C . . . | G . . . | D . . . | 
 | G . . . | C . . . | G . . . | D . . . | 
 
-{comment: Scott vocal}
-{start_of_verse}
+{start_of_verse: Scott vocal}
 [G] Hey where did we [C]go
 [G] Days when the rains [D]came
 [G] Down in the [C]hollow
@@ -30,8 +31,7 @@
 {end_of_verse}
 
 
-{comment: Jeff vocal}
-{start_of_verse}
+{start_of_verse: Jeff vocal}
 [G] Whatever hap[C]pened
 [G] Tuesday and so [D]slow
 [G] Going down the old [C]mine
@@ -63,8 +63,7 @@ With a[G] transistor ra[D7]dio
 | G . . . | D . . . | 
 
 
-{comment: Scott vocal}
-{start_of_verse}
+{start_of_verse: Scott vocal}
 [G] So hard to find [C]my way
 [G] Now that I'm all on[D]my own
 [G] I saw you just the [C]other day
