@@ -3,18 +3,18 @@
 {key: G}
 {duration: 3:45}
 {tempo: 90}
+{capo: 3}
+{meta: nord: D53}
 {meta: countin: 4}
 {meta: backing: 87}
 {meta: performance: Bb}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 87   }
-{comment: **  meta: performance: Bb   }
-{comment: ***********************************************}
-
-{comment: Guitar capo 3}
-
+{comment:***********************************************}
+{comment:**  meta: nord: D53   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 87   }
+{comment:**  meta: performance: Bb   }
+{comment:***********************************************}
 
 {comment: Intro}
 | G . . Gsus4 | G . . Gsus4 | Cmaj7 . . C | Cmaj7 . . C |
