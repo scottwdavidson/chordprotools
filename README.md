@@ -62,6 +62,14 @@ Updates a set of chordpro song file's metadata based on changes made in the song
 ./update-songs
 ```
 
+### Find Song
+Shortcut tool which executes a find of all song files and then greps for the 
+provided input argument so that you can quickly get a song's full path to be 
+used in other commands, e.g., update song(s). 
+
+```
+./update-songs
+```
 ### (new feature) Generate set list
 
 ## Future Plans
