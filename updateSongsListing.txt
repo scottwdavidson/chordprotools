@@ -1,8 +1,8 @@
+./cho/ST/T/TommyTutone/Jenny-867-5309.cho
+./cho/ABC/B/BruceSpringsteen/CoverMe.cho
+./cho/MNO/N/NickLowe/CruelToBeKind.cho
+./cho/ST/T/ToddRundgren/ISawTheLight.cho
+./cho/DEF/E/EltonJohn/Daniel-a.cho
+./cho/DEF/E/EltonJohn/Daniel.cho
 ./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
-./cho/GHI/H/Hooters/AndWeDanced-g.cho
-./cho/GHI/H/Hooters/AndWeDanced.cho
-./cho/ABC/B/BobSeger/StillTheSame-a.cho
-./cho/ABC/B/BobSeger/StillTheSame.cho
-./cho/ST/T/TravelingWilburys/HandleWithCare.cho
-./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight.cho
-./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight-a.cho
+./cho/ST/S/SealsCrofts/SummerBreeze.cho

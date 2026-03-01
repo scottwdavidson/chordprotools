@@ -4,12 +4,16 @@
 {duration: 3:25}
 {tempo: 76}
 {meta: nord: 041}
+{meta: roland: P55}
 {meta: countin: 4}
+{meta: ve: P25}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: 041}
-{comment: **  meta: countin: 4}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: 041   }
+{comment:**  meta: roland: P55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: ve: P25   }
+{comment:***********************************************}
 
 {comment: Intro}
 | Em . Am7/E .    | Em . Am7/E . | 
