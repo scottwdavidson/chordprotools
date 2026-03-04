@@ -25,7 +25,7 @@
 
 | (1) (2) Am7 Am7 | Bm D Am7 |
 
-{soc}
+{start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
 
 [Am7]You sure do [Bm7]shine [D][Am7]
@@ -33,9 +33,9 @@
 [Am7]Glad I f[Bm7]ound you [D][Am7]
 
 [Am7]Glad you're [Bm7]mine [D][Am7]
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse: Verse 1 (enter guitar)}
 Oh my [Am]love
 You're like a [Em]precious stone
 Part of [Am]earth
@@ -53,7 +53,7 @@ That I [E7]am a-woah woah oh [Am7]oh
 {comment:Interlude}
 | D Am7 | D Am7 | D Am7 |
 
-{soc}
+{start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
 
 [Am7]Roaming [Bm7]wild [D][Am7]
@@ -61,9 +61,9 @@ That I [E7]am a-woah woah oh [Am7]oh
 [Am7]Such a r[Bm7]are thing [D][Am7]
 
 [Am7]Radiant [Bm7]child [D][Am7]
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 I could never [Am]find
 Another one [Em]like you
 Part of [Am]me
@@ -90,7 +90,7 @@ That I [E7]am a-woah woah oh [Am]oh
 
 | F   | G   | A | Am7 |
 
-{soc}
+{start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
 [Am7]You sure do [Bm7]shine [D][Am7]
 [Am7]Diamond g[Bm7]irl [D][Am7]
@@ -99,7 +99,7 @@ That I [E7]am a-woah woah oh [Am]oh
 [Am7]You sure do [Bm7]shine [D][Am7]
 [Am7]Diamond g[Bm7]irl [D][Am7]
 You [D]sure do [F]sure do [C]sure do, you [G/B]sure do shine
-{eoc}
+{end_of_chorus}
 
 {comment:Outro}
 {comment:Solo}
