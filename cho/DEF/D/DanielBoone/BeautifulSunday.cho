@@ -3,11 +3,13 @@
 {key: C}
 {duration: 3:00}
 {tempo: 120}
+{meta: nord: P55}
 {meta: version: 1.0}
 
-{comment: ***********************************************}
-{comment: **  meta: version: 1.0   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: version: 1.0   }
+{comment:***********************************************}
 
 {comment: Intro}
 | C | % | % | F G |

@@ -3,7 +3,13 @@
 {key: G}
 {duration: 3:40}
 {tempo: 68}
+{meta: nord: N12}
+{meta: countin: 8}
 
+{comment:***********************************************}
+{comment:**  meta: nord: N12   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: no guitar}
 {start_of_verse}

@@ -1,20 +1,19 @@
 {title: Hearts Are Gonna Roll}
 {artist: Hal Ketchum}
 {key: D}
-{tempo: 100}
 {duration: 3:15}
+{tempo: 100}
 {meta: nord: P21}
 {meta: countin: 8}
 {meta: backing: 12}
-{meta: performance: D}
+{meta: ve: P13}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P21}
-{comment: **  meta: countin: 8}
-{comment: **  meta: backing: 12}
-{comment: **  meta: performance: D}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: nord: P21   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 12   }
+{comment:**  meta: ve: P13   }
+{comment:***********************************************}
 
 {comment: Intro I - Guitar only}
 | D . G . | C . G . | 

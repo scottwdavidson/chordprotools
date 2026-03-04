@@ -117,7 +117,7 @@ Put Your Records On,Corrine Bailey Rae,A,3:00,96,4,,N24,,,,,,,./cho/ABC/C/Corrin
 Accidentally In Love,Counting Crows,G,3:00,138,4,,O11,,,,,,,./cho/ABC/C/CountingCrows/AccidentallyInLove.cho
 Just A Song Before I Go,"Crosby, Stills, Nash and Young",Dm,4:00,107,,,M14(A2),,,Dm,,,,./cho/ABC/C/CSNY/JustASongBeforeIGo.cho
 Just Like Heaven,The Cure,A,3:10,153,,,,,,,,,,./cho/ABC/C/Cure/JustLikeHeaven.cho
-Beautiful Sunday,Daniel Boone,C,3:00,120,,,,,,,,,1.0,./cho/DEF/D/DanielBoone/BeautifulSunday.cho
+Beautiful Sunday,Daniel Boone,C,3:00,120,,,P55,,,,,,1.0,./cho/DEF/D/DanielBoone/BeautifulSunday.cho
 Hold My Hand,Hootie (Darius Rucker) and the Blowfish,B,3:35,101,,,,,,,,,,./cho/DEF/D/DariusRucker/HoldMyHand.cho
 Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,,1.0,./cho/DEF/D/DariusRucker/WagonWheel.cho
 Leap Of Faith,Delbert McClinton,B,,,,,,,,,,,,./cho/DEF/D/DelbertMcClinton/LeapOfFaith.cho
@@ -150,7 +150,7 @@ When I Was A Boy,ELO ( Jeff Lynne ),C,,,,,,,,,,,,./cho/DEF/E/ELO/WhenIWasABoy.ch
 Crocodile Rock,Elton John,G,3:10,151,,,???,,,G,,,,./cho/DEF/E/EltonJohn/CrocodileRock.cho
 Daniel,Elton John,A,3:30,66,8,,N43,,,,,,,./cho/DEF/E/EltonJohn/Daniel-a.cho
 Daniel,Elton John,C,3:30,66,,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel.cho
-Rocket Man,Elton John,G,3:40,68,,,,,,,,,,./cho/DEF/E/EltonJohn/RocketMan.cho
+Rocket Man,Elton John,G,3:40,68,8,,N12,,,,,,,./cho/DEF/E/EltonJohn/RocketMan.cho
 Tiny Dancer,Elton John,A,5:50,72,8,,P55,,,A,,,,./cho/DEF/E/EltonJohn/TinyDancer-a.cho
 Tiny Dancer,Elton John,C,5:50,72,8,,P55,,,A,,,,./cho/DEF/E/EltonJohn/TinyDancer.cho
 Burning Love,Elvis,D,,144,,,,,,,,,,./cho/DEF/E/Elvis/BurningLove.cho
@@ -188,7 +188,7 @@ Good Riddance (Time of Your Life),Green Day,G,2:10,95,,,,,,,,,,./cho/GHI/G/Green
 Breakup Song,Greg Kihn,F#m,3:00,136,4,,P41,,,F#m,,,,./cho/GHI/G/GregKihn/BreakupSong-f#m.cho
 Breakup Song,Greg Kihn,Am,2:49,136,4,,P41,,,F#m,,,,./cho/GHI/G/GregKihn/BreakupSong.cho
 Undun,Guess Who,Em,3:30,100,,,,,,,,,,./cho/GHI/G/GuessWho/Undun.cho
-Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,12,P21,,,D,,,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho
+Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,12,P21,,P13,,,,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho
 Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,15,O:24,,,Em,,,,./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho
 Small Town Saturday Night,Hal Ketchum,G,2:30,100,8,73,,,,G,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
 Softer Than a Whisper,Hal Ketchum,C,3:05,95,,,,,,,,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho
@@ -298,7 +298,7 @@ Your Love Stays With Me,Mike Reid,E,,,,,,,,,,,,./cho/MNO/M/MikeReid/YourLoveStay
 Butterfly Fly Away,Miley Cyrus / Billy Ray Cyrus,Eb,2:35,136,,,P23,,,,,,,./cho/MNO/M/MileyCyrus/ButterflyFlyAway.cho
 Flowers,Miley Cyrus,Am,3:00,122,8,,N21,,,,,,,./cho/MNO/M/MileyCyrus/Flowers.cho
 Devil With The Blue Dress,Mitch Ryder and The Detroit Wheels,C,,,,,,,,,,,,./cho/MNO/M/MitchRyder/DevilWithTheBlueDress.cho
-I Melt With You,Modern English,C,3:55,156,8,71,,,,,,,,./cho/MNO/M/ModernEnglish/IMeltWithYou.cho
+I Melt With You,Modern English,C,3:55,156,8,71,O55,,,,,,,./cho/MNO/M/ModernEnglish/IMeltWithYou.cho
 Love Somebody,Morgan Wallen,Em,3:00,120,8,51,P52,,,,,,,./cho/MNO/M/MorganWallen/LoveSomebody.cho
 Man Made A Bar,Morgan Wallen (Eric Church),E,,105,,,,,,,,,,./cho/MNO/M/MorganWallen/ManMadeABar-e.cho
 Man Made A Bar,Morgan Wallen (Eric Church),C,,105,,,,,,,,,,./cho/MNO/M/MorganWallen/ManMadeABar.cho
@@ -381,7 +381,7 @@ Hesitate (partial),Scott Davidson,Bb,3:00,86,,,,,,,,,,./cho/ST/S/ScottDavidson/H
 Progress (for now),Scott Davidson,D,2:00,,,,,,,,,,,./cho/ST/S/ScottDavidson/Progress.cho
 Sunrise in Cork,Scott Davidson,G,2:00,,,,,,,,,,,./cho/ST/S/ScottDavidson/SunriseInCork.cho
 When Will We Sing Together Again,Scott Davidson,F,2:30,102,,,,,,,,,,./cho/ST/S/ScottDavidson/WhenWillWeSingTogetherAgain.cho
-Diamond Girl,Seals and Crofts,Am,3:45,127,8,23,O42,,,,,,,./cho/ST/S/SealsCrofts/DiamondGirl.cho
+Diamond Girl,Seals and Crofts,Am,3:45,127,8,23,O42,,P26,,,,,./cho/ST/S/SealsCrofts/DiamondGirl.cho
 Summer Breeze,Seals and Crofts,E,3:25,76,4,,041,P55,P25,,,,,./cho/ST/S/SealsCrofts/SummerBreeze.cho
 We May Never Pass This Way Again,Seals & Crofts,E,3:50,88,4,86,M14,,,,,,,./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho
 She's Not There / Venus,Zombies / Shocking Blue,A,4:00,,,,O21,,,,,,,./cho/ST/S/ShockingBlue/ShesNotThere-Venus.cho
