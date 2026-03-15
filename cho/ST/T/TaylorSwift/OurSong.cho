@@ -4,12 +4,10 @@
 {duration: 2:40}
 {tempo: 89}
 {meta: countin: 4}
-{meta: backing: 41}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 41   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {comment: Intro}
 | . . D D |

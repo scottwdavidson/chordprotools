@@ -1,4 +1,4 @@
 mvn spring-boot:run \
  -Dspring-boot.run.arguments="update-song \
-./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight-a.cho"
+ ./cho/ST/T/TomPetty/HereComesMyGirl.cho "
 

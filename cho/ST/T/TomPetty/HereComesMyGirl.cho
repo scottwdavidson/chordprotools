@@ -1,8 +1,15 @@
 {title: Here Comes My Girl}
 {artist: Tom Petty and the Heartbreakers}
 {key: E}
-{tempo: 104}
 {duration: 4:00}
+{tempo: 104}
+{meta: countin: 0}
+{meta: backing: 28}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 0   }
+{comment:**  meta: backing: 28   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 | A     . . . | B/A . . . |
