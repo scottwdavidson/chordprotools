@@ -5,15 +5,13 @@
 {tempo: 170}
 {meta: nord: N51}
 {meta: countin: 8}
-{meta: backing: 16}
 {meta: performance: E}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N51   }
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 16   }
-{comment: **  meta: performance: E }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N51   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: roland -> C012 (Sweep)}
 

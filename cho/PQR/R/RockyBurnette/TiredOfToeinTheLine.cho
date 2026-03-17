@@ -5,13 +5,11 @@
 {tempo: 120}
 {meta: nord: O14}
 {meta: countin: 8}
-{meta: backing: 17}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: O14   }
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 17   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O14   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: Intro}
 (Piano)

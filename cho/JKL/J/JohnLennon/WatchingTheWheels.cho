@@ -2,16 +2,16 @@
 {artist: John Lennon}
 {key: C}
 {duration: 3:30}
-{tempo: 36}
+{tempo: 83}
 {capo: -3}
 {meta: nord: A3(M14)}
 {meta: countin: 4}
-{meta: backing: 77}
+{meta: backing: 17}
 
 {comment:***********************************************}
 {comment:**  meta: nord: A3(M14)   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 77   }
+{comment:**  meta: backing: 17   }
 {comment:***********************************************}
 
 {comment: Intro}

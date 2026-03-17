@@ -3,16 +3,13 @@
 {key: E}
 {duration: 3:30}
 {tempo: 120}
-{meta: countin: 8}
-{meta: backing: 17}
 {meta: nord: O14}
+{meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 17   }
-{comment: **  meta: nord: 17   }
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: nord: O14   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: Intro}
 (Piano)
