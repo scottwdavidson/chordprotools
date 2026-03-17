@@ -1,19 +1,19 @@
 {title: Still the Same}
 {artist: Bob Seger}
 {key: A}
-{tempo: 115}
 {duration: 3:28}
+{tempo: 115}
 {meta: nord: P54}
 {meta: countin: 4}
-{meta: backing: 84}
+{meta: backing: 41}
 {meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P54   }
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 84   }
-{comment: **  meta: performance: A   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P54   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 41   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro}
 | Amaj7 A . . | A . . . | C#m . . . | E . . . |

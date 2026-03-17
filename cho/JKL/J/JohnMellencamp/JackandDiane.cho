@@ -4,14 +4,12 @@
 {duration: 3:40}
 {tempo: 104}
 {meta: countin: 4}
-{meta: backing: 29}
 {meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 29   }
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro}
 | A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |

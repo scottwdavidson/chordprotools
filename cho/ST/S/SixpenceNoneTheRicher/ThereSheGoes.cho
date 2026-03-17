@@ -5,15 +5,13 @@
 {tempo: 123}
 {meta: nord: P24}
 {meta: countin: 4}
-{meta: backing: 31}
 {meta: performance: Bb}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P24}
-{comment: **  meta: countin: 4}
-{comment: **  meta: backing: 31}
-{comment: **  meta: performance: Bb}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P24   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: Bb   }
+{comment:***********************************************}
 
 {comment: Guitar: acoustic guitar; capo 3rd fret}
 {comment: opening riff starts with an eighth note pickup (D)}
