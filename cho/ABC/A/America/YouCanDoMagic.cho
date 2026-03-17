@@ -4,12 +4,10 @@
 {duration: 3:40}
 {tempo: 130}
 {meta: countin: 8}
-{meta: backing: 35}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 35   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: Intro}
 |  Em   |  Bm   |   C    |   D   |

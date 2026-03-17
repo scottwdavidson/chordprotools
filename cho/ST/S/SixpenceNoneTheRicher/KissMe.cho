@@ -5,15 +5,13 @@
 {tempo: 100}
 {meta: nord: O12}
 {meta: countin: 4}
-{meta: backing: 30}
 {meta: performance: Eb}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: O12}
-{comment: **  meta: countin: 4}
-{comment: **  meta: backing: 30}
-{comment: **  meta: performance: Eb}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O12   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: Eb   }
+{comment:***********************************************}
 
 {comment: Guitar: acoustic guitar; capo 3rd fret}
 
