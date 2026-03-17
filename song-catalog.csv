@@ -213,15 +213,15 @@ Bad Bad Leroy Brown,Jim Croce,G,2:35,148,8,,O55,,,,,,,./cho/JKL/J/JimCroce/BadBa
 You Don't Mess Around With Jim,Jim Croce,F,,164,,,,,,,,,,./cho/JKL/J/JimCroce/YouDontMessAroundWithJim.cho
 Call Me The Breeze,J.J. Cale,F#,3:10,180,,,,,,,,,,./cho/JKL/J/JJCale/CallMeTheBreeze.cho
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,,,./cho/JKL/J/JJCale/SensitiveKind.cho
-Bye Bye,Jo Dee Messina,Bb,3:12,134,8,,O24,,,Bb,,,,./cho/JKL/J/JoDeeMessina/ByeBye-bb.cho
-Bye Bye,Jo Dee Messina,G,3:12,134,8,,O24,,,Bb (+3),,,,./cho/JKL/J/JoDeeMessina/ByeBye.cho
-Unchain My Heart,Joe Cocker,Am,5:07,118,0,18,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeart.cho
+Bye Bye,Jo Dee Messina,Bb,3:12,134,8,27,O24,,,Bb,,,,./cho/JKL/J/JoDeeMessina/ByeBye-bb.cho
+Bye Bye,Jo Dee Messina,G,3:12,134,8,27,O24,,,Bb (+3),,,,./cho/JKL/J/JoDeeMessina/ByeBye.cho
+Unchain My Heart,Joe Cocker,Am,5:07,118,0,,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeart.cho
 Unchain My Heart (Extended),Joe Cocker,Am,5:07,118,0,18,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho
 Memphis in the Meantime,John Hiatt,E,,,,,,,,,,,,./cho/JKL/J/JohnHiatt/MemphisInTheMeantime.cho
 Beautiful Boy,John Lennon,D,,100,,,,,,,,,,./cho/JKL/J/JohnLennon/BeautifulBoy.cho
 Oh My Love,John Lennon,A,2:45,64,,,,,,,,,,./cho/JKL/J/JohnLennon/OhMyLove.cho
-Watching The Wheels,John Lennon,A,3:30,36,4,77,A3(M14),,,,,,,./cho/JKL/J/JohnLennon/WatchingTheWheels-a.cho
-Watching The Wheels,John Lennon,C,3:30,36,4,77,A3(M14),,,,,-3,,./cho/JKL/J/JohnLennon/WatchingTheWheels.cho
+Watching The Wheels,John Lennon,A,3:30,83,4,17,A3(M14),,,,,,,./cho/JKL/J/JohnLennon/WatchingTheWheels-a.cho
+Watching The Wheels,John Lennon,C,3:30,83,4,17,A3(M14),,,,,-3,,./cho/JKL/J/JohnLennon/WatchingTheWheels.cho
 Woman,John Lennon,Eb,3:00,159,,,,,,,,,,./cho/JKL/J/JohnLennon/Woman.cho
 I’m Gonna Find Another You,John Mayer,A,3:00,150,,,,,,,,,,./cho/JKL/J/JohnMayer/ImGonnaFindAnotherYou.cho
 Ain't Even Done With The Night,John Mellencamp,A,4:10,120,8,29,N12,,,,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight-a.cho
@@ -316,7 +316,7 @@ Sweet Caroline,Neil Diamond,B,3:24,63,,,,,,,,,,./cho/MNO/N/NeilDiamond/SweetCaro
 Harvest Moon,Neil Young,D,3:45,90,,,,,,,,,,./cho/MNO/N/NeilYoung/HarvestMoon.cho
 Put A Little Love On Me,Niall Horan,G,,,,,,,,,,,,./cho/MNO/N/NiallHoran/PutALittleLoveOnMe.cho
 This Town,Niall Horan,G,,,,,,,,,,,,./cho/MNO/N/NiallHoran/ThisTown.cho
-Cruel To Be Kind,Nick Lowe,C,3:10,125,8,68,P11,,P26,,,,,./cho/MNO/N/NickLowe/CruelToBeKind.cho
+Cruel To Be Kind,Nick Lowe,C,3:10,125,8,16,P11,,P26,,,,,./cho/MNO/N/NickLowe/CruelToBeKind.cho
 Dancin' Shoes,Nigel Olsson,Bm,,101,,,,,,,,,,./cho/MNO/N/NigelOlsson/DancinShoes.cho
 Don't Speak,No Doubt(Gwen Stephani),Cm,3:45,76,4,,N45,,,,,,,./cho/MNO/N/NoDoubt/DontSpeak.cho
 Don't Know Why,Norah Jones,Bb,3:06,88,4,,??,,,,,,,./cho/MNO/N/NorahJones/DontKnowWhy.cho
@@ -359,8 +359,8 @@ Killing Me Softly With His Song,Roberta Flack,A,,122,,,,,,,,,,./cho/PQR/R/Robert
 Bad Case Of Lovin' You,Robert Palmer,E,2:50,146,8,34,,,,,,,,./cho/PQR/R/RobertPalmer/BadCaseOfLovinYou.cho
 Every Kinda People,Robert Palmer,F,,,,,,,,,,,,./cho/PQR/R/RobertPalmer/EveryKindaPeople.cho
 Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,,,,,,,,,,./cho/PQR/R/RobertPlant/CantLetGo.cho
-Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,17,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
-Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,17,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
+Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
+Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
 Honky Tonk Women,The Rolling Stones,G,2:50,121,4,,N51,,,,4/4,,,./cho/PQR/R/RollingStones/HonkyTonkWomen.cho
 Miss You,Rolling Stones,Am,,,,,,,,,,,,./cho/PQR/R/RollingStones/MissYou.cho
 Under My Thumb,Rolling Stones,A,3:40,127,8 (with pickup)),43,,,,,,,,./cho/PQR/R/RollingStones/UnderMyThumb.cho
@@ -433,8 +433,7 @@ Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,0,28,,,,,,,,./cho/
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,,,./cho/ST/T/TomPetty/LearningToFly.cho
 Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,,,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
-Runnin' Down A Dream,Tom Petty,E,3:45,170,8,16,N51,,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
-You Don't Know How It Feels,Tom Petty,E,3:45,74,,,,,,,,,,./cho/ST/T/TomPetty/YouDontKnowHowItFeels.cho
+Runnin' Down A Dream,Tom Petty,E,3:45,170,8,,N51,,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
 Hey Soul Sister,Train,B,,,,,,,,,,,,./cho/ST/T/Train/HeySoulSister.cho
 Handle With Care,Traveling Wilburys,G,3:18,122,4,38,M22,,P12,,,,,./cho/ST/T/TravelingWilburys/HandleWithCare.cho
 T-R-O-U-B-L-E,Travis Tritt,F,2:45,178,,,,,,,,,,./cho/ST/T/TravisTritt/TROUBLE.cho
