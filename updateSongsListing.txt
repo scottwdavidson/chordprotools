@@ -1,8 +1,9 @@
-./cho/ST/T/TommyTutone/Jenny-867-5309.cho
-./cho/ABC/B/BruceSpringsteen/CoverMe.cho
+./cho/JKL/J/JoeCocker/UnchainMyHeart.cho
+./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho
+./cho/JKL/J/JohnLennon/WatchingTheWheels-a.cho
+./cho/JKL/J/JohnLennon/WatchingTheWheels.cho
 ./cho/MNO/N/NickLowe/CruelToBeKind.cho
-./cho/ST/T/ToddRundgren/ISawTheLight.cho
-./cho/DEF/E/EltonJohn/Daniel-a.cho
-./cho/DEF/E/EltonJohn/Daniel.cho
-./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
-./cho/ST/S/SealsCrofts/SummerBreeze.cho
+./cho/ST/T/TomPetty/RunningDownADream.cho
+./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho
+./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
+./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
