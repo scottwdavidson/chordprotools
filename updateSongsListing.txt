@@ -1,6 +1,1 @@
-./cho/ST/T/TomPetty/MaryJanesLastDance.cho
-./cho/ST/T/TomPetty/HereComesMyGirl.cho
-./cho/ST/T/TomPetty/YouDontKnowHowItFeels.cho
-./cho/DEF/E/EricClapton/Layla.cho
-./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
-./cho/PQR/R/RollingStones/UnderMyThumb.cho
+./cho/DEF/E/EltonJohn/CrocodileRock.cho
