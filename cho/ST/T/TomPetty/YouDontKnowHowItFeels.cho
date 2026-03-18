@@ -1,8 +1,13 @@
 {title: You Don't Know How It Feels}
 {artist: Tom Petty}
 {key: E}
-{tempo: 74}
 {duration: 3:45}
+{tempo: 74}
+{meta: nord: P31}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P31   }
+{comment:***********************************************}
 
 {start_of_part: Intro(BB : Rock 1, Country Pop Rock)}
 | E . A . | E . A . |

@@ -51,7 +51,7 @@ You Wont See Me,The Beatles,A,3:22,116,,,,,,,,,,./cho/ABC/B/Beatles/YouWontSeeMe
 Fanny Be Tender With My Love,Bee Gees,E,4:00,97,,,,,,,,,,./cho/ABC/B/BeeGees/FannyBeTenderWithMyLove.cho
 How Deep Is Your Love,Bee Gees,Eb,3:30,103,,,M11,,,,,,,./cho/ABC/B/BeeGees/HowDeepIsYourLove.cho
 Run To Me,Bee Gees,A,,,,,,,,,,,,./cho/ABC/B/BeeGees/RunToMe.cho
-If I Said You Have A Beautiful Body,Bellamy Brothers,E,3:10,118,,,,,,,,,,./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
+If I Said You Have A Beautiful Body,Bellamy Brothers,E,3:10,118,8,,P15,,,,,,,./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
 Ain't No Sunshine,Bill Withers,Em,3:00,78,,,,,,,,,,./cho/ABC/B/BillWithers/AintNoSunshine.cho
 Lovely Day,Bill Withers,E,3:40,98,,,,,,,,,,./cho/ABC/B/BillWithers/LovelyDay.cho
 Let Me Down Easy,Billy Currington,G,3:30,125,4,42,P55,,,G,,,,./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
@@ -157,7 +157,7 @@ Burning Love,Elvis,D,,144,,,,,,,,,,./cho/DEF/E/Elvis/BurningLove.cho
 I'd Really Love To See You Tonight,England Dan / John Ford Coley,F,,,,,,,,,,,,./cho/DEF/E/EnglandDanJohnFordColey/IdReallyLoveToSeeYouTonight.cho
 Change The World,Eric Clapton,E,3:30,97,,,,,,,,,,./cho/DEF/E/EricClapton/ChangeTheWorld.cho
 Cocaine,Eric Clapton,E,,,,,,,,,,,,./cho/DEF/E/EricClapton/Cocaine.cho
-Layla,Eric Clapton,Dm,4:00,94,4,,???,,,Dm,,,,./cho/DEF/E/EricClapton/Layla.cho
+Layla,Eric Clapton,Dm,4:00,94,4,,O55,,,Dm,,,,./cho/DEF/E/EricClapton/Layla.cho
 Nobody Knows You When You're Down And Out,Eric Clapton,C,3:50,89,4,,N45,,,C,,,,./cho/DEF/E/EricClapton/NobodyKnowsYou.cho
 Over the Rainbow,Eric Clapton,E,,,,,,,,,,,,./cho/DEF/E/EricClapton/OverTheRainbow-e.cho
 San Francisco Bay Blues,Eric Clapton,C,3:00,162,,,,,,,,,,./cho/DEF/E/EricClapton/SanFranciscoBayBlues.cho
@@ -213,8 +213,8 @@ Bad Bad Leroy Brown,Jim Croce,G,2:35,148,8,,O55,,,,,,,./cho/JKL/J/JimCroce/BadBa
 You Don't Mess Around With Jim,Jim Croce,F,,164,,,,,,,,,,./cho/JKL/J/JimCroce/YouDontMessAroundWithJim.cho
 Call Me The Breeze,J.J. Cale,F#,3:10,180,,,,,,,,,,./cho/JKL/J/JJCale/CallMeTheBreeze.cho
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,,,./cho/JKL/J/JJCale/SensitiveKind.cho
-Bye Bye,Jo Dee Messina,Bb,3:12,134,8,27,O24,,,Bb,,,,./cho/JKL/J/JoDeeMessina/ByeBye-bb.cho
-Bye Bye,Jo Dee Messina,G,3:12,134,8,27,O24,,,Bb (+3),,,,./cho/JKL/J/JoDeeMessina/ByeBye.cho
+Bye Bye,Jo Dee Messina,Bb,3:12,134,8,,O24,,,Bb,,,,./cho/JKL/J/JoDeeMessina/ByeBye-bb.cho
+Bye Bye,Jo Dee Messina,G,3:12,134,8,,O24,,,Bb (+3),,,,./cho/JKL/J/JoDeeMessina/ByeBye.cho
 Unchain My Heart,Joe Cocker,Am,5:07,118,0,,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeart.cho
 Unchain My Heart (Extended),Joe Cocker,Am,5:07,118,0,18,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho
 Memphis in the Meantime,John Hiatt,E,,,,,,,,,,,,./cho/JKL/J/JohnHiatt/MemphisInTheMeantime.cho
@@ -363,7 +363,7 @@ Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,,O14,,,,,,,./cho/PQR/R/Rock
 Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
 Honky Tonk Women,The Rolling Stones,G,2:50,121,4,,N51,,,,4/4,,,./cho/PQR/R/RollingStones/HonkyTonkWomen.cho
 Miss You,Rolling Stones,Am,,,,,,,,,,,,./cho/PQR/R/RollingStones/MissYou.cho
-Under My Thumb,Rolling Stones,A,3:40,127,8 (with pickup)),43,,,,,,,,./cho/PQR/R/RollingStones/UnderMyThumb.cho
+Under My Thumb,Rolling Stones,A,3:40,127,8 (with pickup)),43,P51,,,,,,,./cho/PQR/R/RollingStones/UnderMyThumb.cho
 What I Like About You,Romantics,A,2:20,166,8,19,P44,,,,,,,./cho/PQR/R/Romantics/WhatILikeAboutYou.cho
 Be My Baby,The Ronettes,A,2:40,138,,,,,,,,,,./cho/PQR/R/Ronettes/BeMyBaby.cho
 There's No Getting Over Me,Ronnie Milsap,C,4:00,100,4,,??,,,E,,,,./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe-c.cho
@@ -429,11 +429,12 @@ Breakdown,Tom Petty,Am,3:00,114,4,,P11,,,Am,,,,./cho/ST/T/TomPetty/Breakdown.cho
 Don't Do Me Like That,Tom Petty,G,2:20,116,,,,,,,,,,./cho/ST/T/TomPetty/DontDoMeLikeThat.cho
 Free Fallin' (BASS),Tom Petty,E,3:30,85,4,,,,,E,,,,./cho/ST/T/TomPetty/FreeFallin-BASS.cho
 Free Fallin',Tom Petty,D,3:30,85,4,,,,,E,,2,,./cho/ST/T/TomPetty/FreeFallin-guitar-d.cho
-Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,0,28,P31,,,,,,,./cho/ST/T/TomPetty/HereComesMyGirl.cho
+Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,0,28,,,,,,,,./cho/ST/T/TomPetty/HereComesMyGirl.cho
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,,,./cho/ST/T/TomPetty/LearningToFly.cho
-Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,,,P31,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
+Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,,,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
 Runnin' Down A Dream,Tom Petty,E,3:45,170,8,,N51,,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
+You Don't Know How It Feels,Tom Petty,E,3:45,74,,,P31,,,,,,,./cho/ST/T/TomPetty/YouDontKnowHowItFeels.cho
 Hey Soul Sister,Train,B,,,,,,,,,,,,./cho/ST/T/Train/HeySoulSister.cho
 Handle With Care,Traveling Wilburys,G,3:18,122,4,38,M22,,P12,,,,,./cho/ST/T/TravelingWilburys/HandleWithCare.cho
 T-R-O-U-B-L-E,Travis Tritt,F,2:45,178,,,,,,,,,,./cho/ST/T/TravisTritt/TROUBLE.cho

@@ -1,8 +1,15 @@
 {title: If I Said You Have A Beautiful Body}
 {artist: Bellamy Brothers}
 {key: E}
-{tempo: 118}
 {duration: 3:10}
+{tempo: 118}
+{meta: nord: P15}
+{meta: countin: 8}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P15   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: Intro}
 | E    | E    | E    | E    |

@@ -3,13 +3,15 @@
 {key: A}
 {duration: 3:40}
 {tempo: 127}
+{meta: nord: P51}
 {meta: countin: 8 (with pickup))}
 {meta: backing: 43}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8 (with pickup))   }
-{comment: **  meta: backing: 43   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P51   }
+{comment:**  meta: countin: 8 (with pickup))   }
+{comment:**  meta: backing: 43   }
+{comment:***********************************************}
 
 {comment: Intro - with Xylophone}
 

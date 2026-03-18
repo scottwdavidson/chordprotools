@@ -1,9 +1,6 @@
-./cho/JKL/J/JoeCocker/UnchainMyHeart.cho
-./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho
-./cho/JKL/J/JohnLennon/WatchingTheWheels-a.cho
-./cho/JKL/J/JohnLennon/WatchingTheWheels.cho
-./cho/MNO/N/NickLowe/CruelToBeKind.cho
-./cho/ST/T/TomPetty/RunningDownADream.cho
-./cho/ST/S/SealsCrofts/WeMayNeverPassThisWayAgain.cho
-./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
-./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
+./cho/ST/T/TomPetty/MaryJanesLastDance.cho
+./cho/ST/T/TomPetty/HereComesMyGirl.cho
+./cho/ST/T/TomPetty/YouDontKnowHowItFeels.cho
+./cho/DEF/E/EricClapton/Layla.cho
+./cho/ABC/B/BellamyBrothers/IfISaidYouHaveABeautifulBody.cho
+./cho/PQR/R/RollingStones/UnderMyThumb.cho

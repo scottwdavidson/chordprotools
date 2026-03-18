@@ -3,13 +3,15 @@
 {key: Dm}
 {duration: 4:00}
 {tempo: 94}
-{meta: nord: ???}
+{meta: nord: O55}
+{meta: countin: 4}
 {meta: performance: Dm}
-{meta: countin: 4} 
 
-{comment: ***********************************************}
-{comment: **  meta: performance: Dm}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: Dm   }
+{comment:***********************************************}
 
 {comment: Intro - Acoustic Guitar Only}
 | Dm . Bb . | C . Dm . | Dm . Bb . | C . Dm . |
