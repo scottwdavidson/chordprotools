@@ -147,7 +147,7 @@ Can't Get You Out Of My Head,ELO,C,4:00,85,,,,,,,,,,./cho/DEF/E/ELO/CantGetYouOu
 Midnight Blue,ELO,F,4:10,141,,,,,,D,,,,./cho/DEF/E/ELO/MidnightBlue.cho
 Rockaria,ELO / Jeff Lynne,D,,,,,,,,,,,,./cho/DEF/E/ELO/Rockaria.cho
 When I Was A Boy,ELO ( Jeff Lynne ),C,,,,,,,,,,,,./cho/DEF/E/ELO/WhenIWasABoy.cho
-Crocodile Rock,Elton John,G,3:10,151,8,87,P25,,,G,,,,./cho/DEF/E/EltonJohn/CrocodileRock.cho
+Crocodile Rock,Elton John,G,3:10,151,8,33,P25,,,G,,,,./cho/DEF/E/EltonJohn/CrocodileRock.cho
 Daniel,Elton John,A,3:30,66,8,,N43,,,,,,,./cho/DEF/E/EltonJohn/Daniel-a.cho
 Daniel,Elton John,C,3:30,66,,,,,,,,,,./cho/DEF/E/EltonJohn/Daniel.cho
 Rocket Man,Elton John,G,3:40,68,8,,N12,,,,,,,./cho/DEF/E/EltonJohn/RocketMan.cho
@@ -429,7 +429,7 @@ Breakdown,Tom Petty,Am,3:00,114,4,,P11,,,Am,,,,./cho/ST/T/TomPetty/Breakdown.cho
 Don't Do Me Like That,Tom Petty,G,2:20,116,,,,,,,,,,./cho/ST/T/TomPetty/DontDoMeLikeThat.cho
 Free Fallin' (BASS),Tom Petty,E,3:30,85,4,,,,,E,,,,./cho/ST/T/TomPetty/FreeFallin-BASS.cho
 Free Fallin',Tom Petty,D,3:30,85,4,,,,,E,,2,,./cho/ST/T/TomPetty/FreeFallin-guitar-d.cho
-Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,0,28,,,,,,,,./cho/ST/T/TomPetty/HereComesMyGirl.cho
+Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,4,28,,,,,,,,./cho/ST/T/TomPetty/HereComesMyGirl.cho
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,,,./cho/ST/T/TomPetty/LearningToFly.cho
 Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,,,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
