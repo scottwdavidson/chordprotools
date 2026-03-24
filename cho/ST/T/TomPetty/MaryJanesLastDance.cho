@@ -3,9 +3,13 @@
 {key: Am}
 {duration: 3:20}
 {tempo: 85}
+{meta: countin: 4}
+{meta: backing: 27}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 27   }
+{comment:***********************************************}
 
 {comment: Intro}
 

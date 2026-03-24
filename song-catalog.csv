@@ -125,7 +125,7 @@ Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,,1.0,./cho/DEF/D/DariusRucker/Wa
 Leap Of Faith,Delbert McClinton,B,,,,,,,,,,,,./cho/DEF/D/DelbertMcClinton/LeapOfFaith.cho
 One More Day,Diamond Rio,E,3:45,100,,,,,,,,,,./cho/DEF/D/DiamondRio/OneMoreDay.cho
 Heartbreaker,Dionne Warwick / Bee Gees,G,,,,,,,,,,,,./cho/DEF/D/DioneWarwick/HeartBreaker.cho
-Then Came You,Dionne Warwick,F,3:00,116,4,33,M23,,,,,,,./cho/DEF/D/DioneWarwick/ThenCameYou.cho
+Then Came You,Dionne Warwick,F,3:00,116,4,,M23,,,,,,,./cho/DEF/D/DioneWarwick/ThenCameYou.cho
 Let 'Er Rip,Dixie Chicks,A,3:00,150,,,N53,,,,,,,./cho/DEF/D/DixieChicks/LetErRip.cho
 Some Days You Gotta Dance,Dixie Chicks,E,2:28,170,,,,,,,,,,./cho/DEF/D/DixieChicks/SomeDaysYouGottaDance.cho
 Wide Open Spaces,Dixie Chicks,D,3:00,90,,,N31,,,,,,,./cho/DEF/D/DixieChicks/WideOpenSpaces.cho
@@ -193,7 +193,7 @@ Breakup Song,Greg Kihn,Am,2:49,136,4,,P41,,,F#m,,,,./cho/GHI/G/GregKihn/BreakupS
 Undun,Guess Who,Em,3:30,100,,,,,,,,,,./cho/GHI/G/GuessWho/Undun.cho
 Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,12,P21,,P13,,,,,./cho/GHI/H/HalKetchum/HeartsAreGonnaRoll.cho
 Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,15,O:24,,,Em,,,,./cho/GHI/H/HalKetchum/PastThePointOfRescue.cho
-Small Town Saturday Night,Hal Ketchum,G,2:30,100,8,27,,,,G,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
+Small Town Saturday Night,Hal Ketchum,G,2:30,100,8,,,,,G,,,,./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
 Softer Than a Whisper,Hal Ketchum,C,3:05,95,,,,,,,,,,./cho/GHI/H/HalKetchum/SofterThanAWhisper.cho
 Everything Your Heart Desires,Hall & Oates,A,,108,,,,,,,,,,./cho/GHI/H/HallAndOates/EverythingYourHeartDesires.cho
 I Can't Go For That,Hall & Oates,Eb,,,,,,,,,,,,./cho/GHI/H/HallAndOates/ICantGoForThat.cho
@@ -361,7 +361,7 @@ Steal Away,Robbie Dupree,F,,,,,,,,,,,,./cho/PQR/R/RobbieDupree/StealAway.cho
 Killing Me Softly With His Song,Roberta Flack,A,,122,,,,,,,,,,./cho/PQR/R/RobertaFlack/KillingMeSoftly-a.cho
 Bad Case Of Lovin' You,Robert Palmer,E,2:50,146,8,34,,,,,,,,./cho/PQR/R/RobertPalmer/BadCaseOfLovinYou.cho
 Every Kinda People,Robert Palmer,F,,,,,,,,,,,,./cho/PQR/R/RobertPalmer/EveryKindaPeople.cho
-Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,,,,,,,,,,./cho/PQR/R/RobertPlant/CantLetGo.cho
+Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,,24,,,,,,,,./cho/PQR/R/RobertPlant/CantLetGo.cho
 Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
 Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
 Honky Tonk Women,The Rolling Stones,G,2:50,121,4,,N51,,,,4/4,,,./cho/PQR/R/RollingStones/HonkyTonkWomen.cho
@@ -435,7 +435,7 @@ Free Fallin',Tom Petty,D,3:30,85,4,,,,,E,,2,,./cho/ST/T/TomPetty/FreeFallin-guit
 Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,4,28,,,,,,,,./cho/ST/T/TomPetty/HereComesMyGirl.cho
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,,,./cho/ST/T/TomPetty/LearningToFly.cho
-Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,,,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
+Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,4,27,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
 Runnin' Down A Dream,Tom Petty,E,3:45,170,8,,N51,,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
 You Don't Know How It Feels,Tom Petty,E,3:45,74,,,P31,,,,,,,./cho/ST/T/TomPetty/YouDontKnowHowItFeels.cho
 You Wreck Me,Tom Petty,D,3:05,164,8,33,,,,,,,,./cho/ST/T/TomPetty/YouWreckMe.cho
@@ -447,7 +447,7 @@ Jump,Van Halen,C,3:55,130,,,,,,,,,,./cho/UV-Z/V/VanHalen/Jump.cho
 Brown Eyed Girl,Van Morrison,G,3:01,149,8,76,P55,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
 Blinding Lights,The Weeknd,Fm,3:20,171,,,,,,,,,,./cho/UV-Z/W/Weeknd/BlindingLights.cho
 Save Your Tears,The Weeknd,C,,,,,,,,,,,,./cho/UV-Z/W/Weeknd/SaveYourTears.cho
-Island In The Sun,Weezer,Em,3:00,115,4,24,P54,,,,,,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho
+Island In The Sun,Weezer,Em,3:00,115,4,,P54,,,,,,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho
 Crazy,Willie Nelson,Eb,2:30,,,,,,,,,,,./cho/UV-Z/W/WillieNelson/Crazy.cho
 Blue Christmas,Elvis Presley,E,1:50,95,,,,,,,,,,./cho/UV-Z/Xmas/BlueChristmas.cho
 Have Yourself A Merry Little Christmas,Bing Crosby,C,2:50,80,,,,,,,,,,./cho/UV-Z/Xmas/HaveYourselfAMerryLittleChristmas.cho
