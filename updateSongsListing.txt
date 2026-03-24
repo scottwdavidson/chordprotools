@@ -1,5 +1,1 @@
-./cho/PQR/R/RobertPlant/CantLetGo.cho
-./cho/ST/T/TomPetty/MaryJanesLastDance.cho
-./cho/GHI/H/HalKetchum/SmallTownSaturdayNight.cho
-./cho/UV-Z/W/Weezer/IslandInTheSun.cho
-./cho/DEF/D/DioneWarwick/ThenCameYou.cho
+./cho/ST/T/TomPetty/YouWreckMe.cho
