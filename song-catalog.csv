@@ -4,7 +4,8 @@ Dancing Queen (Altered),Abba,A,,,,,,,,,,,,./cho/ABC/A/Abba/DancingQueenAltered.c
 Does Your Mother Know,Abba,G,3:10,120,8,62,M22,,,,,,,./cho/ABC/A/Abba/DoesYourMotherKnow.cho
 Take On Me,Aha,A,3:00,100,,,,,,,,,,./cho/ABC/A/Aha/TakeOnMe.cho
 "Dancin', Shaggin' on the Boulevard",Alabama,A,,,,,,,,,,,,./cho/ABC/A/Alabama/DancinShagginOnTheBoulevard.cho
-Remember When,Alan Jackson,G,,,,,,,,,,,,./cho/ABC/A/AlanJackson/RememberWhen.cho
+Remember When,Alan Jackson,G,3:00,100,,,,,,,,,,./cho/ABC/A/AlanJackson/RememberWhen.cho
+Remember When (Linda's Version),"Alan Jackson, Scott Davidson",G,3:00,100,,,,,,,,,,./cho/ABC/A/AlanJackson/RememberWhenLinda.cho
 Undercover Angel,Alan O'Day,Bb,3:30,98,,,,,,,,,,./cho/ABC/A/AlanODay/UndercoverAngel.cho
 Don't Answer Me,Alan Parsons Project,G,,,,,,,,,,,,./cho/ABC/A/AlanParsonsProject/DontAnswerMe.cho
 Eye In The Sky,Alan Parsons Project,D,,,,,,,,,,,,./cho/ABC/A/AlanParsonsProject/EyeInTheSky.cho
@@ -110,6 +111,7 @@ Starting Over,Chris Stapleton,G,3:45,90,4,46,D53,,,Bb,,3,,./cho/ABC/C/ChrisStapl
 Where Are You Listening To?,Chris Stapleton,Bb,,,,,,,,,,,,./cho/ABC/C/ChrisStapleton/WhatAreYouListeningToo.cho
 Ride Like The Wind,Christopher Cross,Eb,4:00,125,,,,,,,,,,./cho/ABC/C/ChristopherCross/RideLikeTheWind.cho
 Easy,Commodores,F,3:40,67,,,,,,,,,,./cho/ABC/C/Commodores/Easy-f.cho
+Easy,Commodores,Ab,4:10,67,4,,,,,,,,,./cho/ABC/C/Commodores/Easy.cho
 Sail On,Commodores,D,,,,,,,,,,,,./cho/ABC/C/Commodores/SailOn.cho
 Pretty Little Baby,Connie Francis,Db,,,,,,,,,,,,./cho/ABC/C/ConnieFrancis/PrettyLittleBaby.cho
 Who's Sorry Now,Connie Francis,Bb,,,,,,,,,,,,./cho/ABC/C/ConnieFrancis/WhosSorryNow.cho
@@ -121,6 +123,7 @@ Beautiful Sunday,Daniel Boone,C,3:00,120,,,P55,,,,,,1.0,./cho/DEF/D/DanielBoone/
 Hold My Hand,Hootie (Darius Rucker) and the Blowfish,B,3:35,101,,,,,,,,,,./cho/DEF/D/DariusRucker/HoldMyHand.cho
 Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,,1.0,./cho/DEF/D/DariusRucker/WagonWheel.cho
 Leap Of Faith,Delbert McClinton,B,,,,,,,,,,,,./cho/DEF/D/DelbertMcClinton/LeapOfFaith.cho
+One More Day,Diamond Rio,E,3:45,100,,,,,,,,,,./cho/DEF/D/DiamondRio/OneMoreDay.cho
 Heartbreaker,Dionne Warwick / Bee Gees,G,,,,,,,,,,,,./cho/DEF/D/DioneWarwick/HeartBreaker.cho
 Then Came You,Dionne Warwick,F,3:00,116,4,33,M23,,,,,,,./cho/DEF/D/DioneWarwick/ThenCameYou.cho
 Let 'Er Rip,Dixie Chicks,A,3:00,150,,,N53,,,,,,,./cho/DEF/D/DixieChicks/LetErRip.cho
@@ -435,12 +438,13 @@ Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,,,./cho/ST/T/TomPetty/LearningT
 Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,,,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
 Runnin' Down A Dream,Tom Petty,E,3:45,170,8,,N51,,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
 You Don't Know How It Feels,Tom Petty,E,3:45,74,,,P31,,,,,,,./cho/ST/T/TomPetty/YouDontKnowHowItFeels.cho
+You Wreck Me,Tom Petty,D,3:05,164,8,33,,,,,,,,./cho/ST/T/TomPetty/YouWreckMe.cho
 Hey Soul Sister,Train,B,,,,,,,,,,,,./cho/ST/T/Train/HeySoulSister.cho
 Handle With Care,Traveling Wilburys,G,3:18,122,4,38,M22,,P12,,,,,./cho/ST/T/TravelingWilburys/HandleWithCare.cho
 T-R-O-U-B-L-E,Travis Tritt,F,2:45,178,,,,,,,,,,./cho/ST/T/TravisTritt/TROUBLE.cho
 Stuck In A Moment / I Still Haven't Found,U2,E / C,,TBD,,,N51,,,N51,,,,./cho/UV-Z/U2/StuckInAMoment-IStillHaventFound.cho
 Jump,Van Halen,C,3:55,130,,,,,,,,,,./cho/UV-Z/V/VanHalen/Jump.cho
-Brown Eyed Girl,Van Morrison,G,3:01,149,8,31,P55,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
+Brown Eyed Girl,Van Morrison,G,3:01,149,8,76,P55,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
 Blinding Lights,The Weeknd,Fm,3:20,171,,,,,,,,,,./cho/UV-Z/W/Weeknd/BlindingLights.cho
 Save Your Tears,The Weeknd,C,,,,,,,,,,,,./cho/UV-Z/W/Weeknd/SaveYourTears.cho
 Island In The Sun,Weezer,Em,3:00,115,4,24,P54,,,,,,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho
