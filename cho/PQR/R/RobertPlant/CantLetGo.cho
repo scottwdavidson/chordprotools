@@ -11,8 +11,10 @@
 {comment:**  meta: backing: 24   }
 {comment:***********************************************}
 
+{comment: In 2 - cut time}
+
 {comment: Intro - Part 1}
-4 measures of drum intro
+4 measures (in 2) of drum intro
 
 {comment: Intro - Guitar}
 12 bar solo
@@ -64,8 +66,8 @@ Well, it's [B7]over, I k[A7]now it but I can't let [E7]go.  [E7]
 {end_of_chorus}
 
 
-{comment: Solo}
-{comment: 12 bar blues x2 (do one repeat)}
+{comment: Solo - 12 bar blues}
+{comment: Guitar}
 
 | E7 | E7 | E7 | E7 |
 
@@ -120,3 +122,6 @@ And it's o[B7]ver, I k[A7]now it but I can't let [E7]go.  [E7]
 | B7 | A7 | E7 | E7 |
 
 | B7 | A7 | E7 | E7 |
+
+{comment: Drum Outro}
+5 measures (in 2) of drums
