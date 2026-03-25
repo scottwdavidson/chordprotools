@@ -3,7 +3,15 @@
 {key: Ab}
 {duration: 4:10}
 {tempo: 67}
+{meta: nord: P55-3}
 {meta: countin: 4}
+{meta: backing: 36}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P55-3   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 36   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 | Ab   . Cm7 . | Bbm7 . Bbm7/Eb . |

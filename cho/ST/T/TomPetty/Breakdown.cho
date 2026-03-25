@@ -4,14 +4,16 @@
 {duration: 3:00}
 {tempo: 114}
 {meta: nord: P11}
-{meta: performance: Am}
 {meta: countin: 4}
+{meta: ve: P29}
+{meta: performance: Am}
 
-{comment: ***********************************************}
-{comment: ** meta: nord: P11}
-{comment: ** meta: performance: Am}
-{comment: ** meta: countin: 4  }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P11   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: ve: P29   }
+{comment:**  meta: performance: Am   }
+{comment:***********************************************}
 
 {comment: Intro}
 {comment: drum / piano}

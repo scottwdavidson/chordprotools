@@ -110,8 +110,8 @@ Fool If You Think It's Over,Chris Rea,Am,4:10,110,,,N52,,,,,,,./cho/ABC/C/ChrisR
 Starting Over,Chris Stapleton,G,3:45,90,4,46,D53,,,Bb,,3,,./cho/ABC/C/ChrisStapleton/StartingOver.cho
 Where Are You Listening To?,Chris Stapleton,Bb,,,,,,,,,,,,./cho/ABC/C/ChrisStapleton/WhatAreYouListeningToo.cho
 Ride Like The Wind,Christopher Cross,Eb,4:00,125,,,,,,,,,,./cho/ABC/C/ChristopherCross/RideLikeTheWind.cho
-Easy,Commodores,F,3:40,67,,,,,,,,,,./cho/ABC/C/Commodores/Easy-f.cho
-Easy,Commodores,Ab,4:10,67,4,,,,,,,,,./cho/ABC/C/Commodores/Easy.cho
+Easy,Commodores,F,3:40,67,4,36,P55-3,,,,,,,./cho/ABC/C/Commodores/Easy-f.cho
+Easy,Commodores,Ab,4:10,67,4,36,P55-3,,,,,,,./cho/ABC/C/Commodores/Easy.cho
 Sail On,Commodores,D,,,,,,,,,,,,./cho/ABC/C/Commodores/SailOn.cho
 Pretty Little Baby,Connie Francis,Db,,,,,,,,,,,,./cho/ABC/C/ConnieFrancis/PrettyLittleBaby.cho
 Who's Sorry Now,Connie Francis,Bb,,,,,,,,,,,,./cho/ABC/C/ConnieFrancis/WhosSorryNow.cho
@@ -361,7 +361,7 @@ Steal Away,Robbie Dupree,F,,,,,,,,,,,,./cho/PQR/R/RobbieDupree/StealAway.cho
 Killing Me Softly With His Song,Roberta Flack,A,,122,,,,,,,,,,./cho/PQR/R/RobertaFlack/KillingMeSoftly-a.cho
 Bad Case Of Lovin' You,Robert Palmer,E,2:50,146,8,34,,,,,,,,./cho/PQR/R/RobertPalmer/BadCaseOfLovinYou.cho
 Every Kinda People,Robert Palmer,F,,,,,,,,,,,,./cho/PQR/R/RobertPalmer/EveryKindaPeople.cho
-Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,,24,,,,,,,,./cho/PQR/R/RobertPlant/CantLetGo.cho
+Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,,24,O15,,,,,,,./cho/PQR/R/RobertPlant/CantLetGo.cho
 Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho
 Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho
 Honky Tonk Women,The Rolling Stones,G,2:50,121,4,,N51,,,,4/4,,,./cho/PQR/R/RollingStones/HonkyTonkWomen.cho
@@ -428,7 +428,7 @@ Calling San Francisco,Tommy Castro and the Painkillers,C,,,,,,,,,,,,./cho/ST/T/T
 Calling San Francisco,Tommy Castro and the Painkillers,G,,,,,,,,,,,,./cho/ST/T/TommyCastroNPainkillers/CallingSanFran-g.cho
 Nasty Habits,Tommy Castro and the Painkillers,C,,,,,,,,,,,,./cho/ST/T/TommyCastroNPainkillers/NastyHabits.cho
 Jenny 867-5309,Tommie Tutone,F#m,3:55,138,8,37,P55,,P13,,,,,./cho/ST/T/TommyTutone/Jenny-867-5309.cho
-Breakdown,Tom Petty,Am,3:00,114,4,,P11,,,Am,,,,./cho/ST/T/TomPetty/Breakdown.cho
+Breakdown,Tom Petty,Am,3:00,114,4,,P11,,P29,Am,,,,./cho/ST/T/TomPetty/Breakdown.cho
 Don't Do Me Like That,Tom Petty,G,2:20,116,,,,,,,,,,./cho/ST/T/TomPetty/DontDoMeLikeThat.cho
 Free Fallin' (BASS),Tom Petty,E,3:30,85,4,,,,,E,,,,./cho/ST/T/TomPetty/FreeFallin-BASS.cho
 Free Fallin',Tom Petty,D,3:30,85,4,,,,,E,,2,,./cho/ST/T/TomPetty/FreeFallin-guitar-d.cho
@@ -444,7 +444,7 @@ Handle With Care,Traveling Wilburys,G,3:18,122,4,38,M22,,P12,,,,,./cho/ST/T/Trav
 T-R-O-U-B-L-E,Travis Tritt,F,2:45,178,,,,,,,,,,./cho/ST/T/TravisTritt/TROUBLE.cho
 Stuck In A Moment / I Still Haven't Found,U2,E / C,,TBD,,,N51,,,N51,,,,./cho/UV-Z/U2/StuckInAMoment-IStillHaventFound.cho
 Jump,Van Halen,C,3:55,130,,,,,,,,,,./cho/UV-Z/V/VanHalen/Jump.cho
-Brown Eyed Girl,Van Morrison,G,3:01,149,8,76,P55,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
+Brown Eyed Girl,Van Morrison,G,3:01,149,8,31,P55,,,,,,,./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
 Blinding Lights,The Weeknd,Fm,3:20,171,,,,,,,,,,./cho/UV-Z/W/Weeknd/BlindingLights.cho
 Save Your Tears,The Weeknd,C,,,,,,,,,,,,./cho/UV-Z/W/Weeknd/SaveYourTears.cho
 Island In The Sun,Weezer,Em,3:00,115,4,,P54,,,,,,,./cho/UV-Z/W/Weezer/IslandInTheSun.cho
