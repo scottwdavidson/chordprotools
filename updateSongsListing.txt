@@ -1,5 +1,2 @@
-./cho/UV-Z/V/VanMorrison/BrownEyedGirl.cho
 ./cho/PQR/R/RobertPlant/CantLetGo.cho
-./cho/ST/T/TomPetty/Breakdown.cho
-./cho/ABC/C/Commodores/Easy-f.cho
-./cho/ABC/C/Commodores/Easy.cho
+./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho
