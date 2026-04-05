@@ -4,70 +4,69 @@
 {tempo: 120}
 
 {comment: Intro ( drums only )}
-| . . . . | . . . . | 
+. | . . . . | . . . . | 
 
-{comment: Intro ( synth and drums )}
-| C  . . . | C  . . . | 
-| Bb . . . | Bb . . . |
-| Ab . . . | Ab . . . |
-| Bb . . . | Bb . . . |
-| Ab . . . | Ab . . . |
-| Bb . . . | Bb . . . |
-| Bb/F . . . | Bb/F . . . |
+{comment: Intro - synth and drums }
+. | [C]  . . . | [C]  . . . | 
+. | [Bb] . . . | [Bb] . . . |
+. | [Ab] . . . | [Ab] . . . |
+. | [Bb] . . . | [Bb] . . . |
+. | [Ab] . . . | [Ab] . . . |
+. | [Bb] . . . | [Bb] . . . |
+. | [Bb/F] . . . | [Bb/F] . . . |
 
-| F . . . | F . . . |
-| F . . . | F . . . |
+. | [F] . . . | [F] . . . |
+. | [F] . . . | [F] . . . |   
 
+{comment: Intro - full band }
+. | [F] - [C/F] - [F]    | [F] - [Bb/F] - [C/F] | 
+. | [F] - [C/F] [F] [Bb/F] | [Bb/F]     . . . | 
 
-{comment: Intro}
-| F - C/F - F    | F - Bb/F - C/F | 
-| F - C/F F Bb/F | Bb/F     . . . | 
-
-| F - C/F - F    | F - Bb/F - C/F | 
-| F - C/F F Bb/F | Bb/F     . . . | 
+. | [F] - [C/F] - [F]    | [F] - [Bb/F] - [C/F] | 
+. | [F] - [C/F] [F] [Bb/F] | [Bb/F]     . . . | 
 
 
 {start_of_verse}
-I said, [G]Go if you wanna go,_[C/F][G] stay if you want to stay_[C/F][G]
+I said, [F]Go if you wanna go,_[C/F][F] stay if you want to stay_[C/F][F]
 I didn't [Am7]care if you hung around me, I didn't c[Dm7]are if you went away
-[G]I know you were never right,_[C/F][G] I'll admit I was never wrong_[C/F][G]
+[F]I know you were never right,_[C/F][F] I'll admit I was never wrong_[C/F][F]
 I could [Am7]never make up my mind, I made it u[Dm7]p as I went along
 {end_of_verse}
 
 {comment: Bridge}
-And though I [C]treated you like a [G/D]child,
-I'm gonna [Bb/D]miss you for the rest of my l[G]ife..[C/D].
+And though I [Bb]treated you like a [F/C]child,
+I'm gonna [Bb/D]miss you for the rest of my l[F]ife..[C/D].
 
 {start_of_chorus}
-[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
-[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
-[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou_[D/E]
+[C]All I need is a [F/A]miracle, All I[C/G] need is y[F]ou
+[C]All I need is a [F/A]miracle, All I[C/G] need is y[F]ou
+[C]All I need is a [F/A]miracle, All I[C/G] need is y[F]ou_[Bb/C]
 {end_of_chorus}
 
 {start_of_verse}
-I [G]never had any time,_[C/F][G] and I never had any call_[C/F][G]
-But I went [Am7]out of my way just to hurt you, the on[Dm7]e I shouldn't hurt at all
-I [G]thought I was bein' cool,_[C/F][G] yeah I thought I was bein' strong_[C/F][G]
-But it's [Am7]always the same old story, you never kn[Dm7]ow what you've got 'til it's gone
+I [G]never had any time,_[D/G][G] and I never had any call_[D/G][G]
+But I went [Bm7]out of my way just to hurt you, the on[Em7]e I shouldn't hurt at all
+I [G]thought I was bein' cool,_[D/G][G] yeah I thought I was bein' strong_[D/G][G]
+But it's [Bm7]always the same old story, you never kn[Em7]ow what you've got 'til it's gone
 {end_of_verse}
 
 {comment: Bridge}
 If I [C]ever catch up with [G/D]you,
-I'm gonna [Bb/D]love you for the rest of your [G]life.[C/D]..
+I'm gonna [C/E]love you for the rest of your [G]life.[D/E]..
 
 {start_of_chorus}
 [D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
 [D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
-[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou_[D/E]
+[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou_[C/D]
 {end_of_chorus}
 
-{comment: Solo}
-| G   . . . | D/G . G . | G   . . . | D/G . G . |
-| Bm7 . . . | Bm7 . . . | Em7 . . . | Em7 . . (And if I) |
+{comment: solo}
+. | [G]   . . . | [D/G] . [G] . | [G]   . . . | [D/G] . [G] . |
+. | [Bm7] . . . | [Bm7] .  .  . | [Em7] . . . | [Em7] . . (And if I) |
 
 {comment: Bridge}
 If I [C]ever catch up with [G/D]you,
-I'm gonna [Bb/D]love you for the rest of your [G]life.[D/E]..
+I'm gonna [C/E]love you for the rest of your [G]life.[D/E]..
 
 {start_of_chorus}
 [D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
