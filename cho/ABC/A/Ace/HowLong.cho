@@ -1,9 +1,13 @@
 {title: How Long}
 {artist: Ace}
 {key: C}
+{duration: 3:01}
 {tempo: 121}
-{duration: 3:00}
 {meta: countin: 4}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {comment: Intro}
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |

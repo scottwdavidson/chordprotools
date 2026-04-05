@@ -1,9 +1,13 @@
 {title: ( I Just ) Died In Your Arms}
 {artist: Cutting Crew}
-{key: Bm }
+{key: Bm}
+{duration: 4:05}
 {tempo: 125}
-{duration: 4:25}
 {meta: countin: 8}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: Intro ( keyboards )}
 . | Bm . . . | Esus4. Em. Esus4 | 
