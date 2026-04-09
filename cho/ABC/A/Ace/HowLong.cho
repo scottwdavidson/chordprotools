@@ -1,74 +1,82 @@
 {title: How Long}
 {artist: Ace}
-{key: C}
-{duration: 3:01}
+{duration: 3:00}
+{key: Bb}
 {tempo: 121}
 {meta: countin: 4}
 
-{comment:***********************************************}
-{comment:**  meta: countin: 4   }
-{comment:***********************************************}
+{comment: ***********************************************}
+{comment: **  meta: countin: 4}
+{comment: ***********************************************}
 
-{comment: Intro}
+
+{comment: Intro - Bass Only}
+. | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |
+
+
+{comment: Intro - Drums Enter}
+. | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |
+
+
+{comment: Intro - Keys Enter}
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . [Bm7] . |
 
 
 {start_of_chorus: Chorus}
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_[Gm7]
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_[Gm7]
+[Cm7]How  long [Gm7] has this been g[Fm7]oing on?    [Gm7]
+[Cm7]How  long [Gm7] has this been g[Fm7]oing on?    [Gm7]
 {end_of_chorus}
 
 
 {start_of_verse: Verse 1}
-Well, [Gm7]your [Ab/Bb]friends     with their fancy per[Bb7]suasion
-Don't ad[Ab/Bb]mit  that it's part of a [Bb]scheme
-But I [Ab/Bb]can't help but have my sus[Bb7]picion
-'Cause I [Ab/Bb]ain't quite as dumb as I [Bb]seem And you[Ab/Bb]
-said you was never in[Bb7]tending
-[Ab/Bb]To   break up our scene in this [Bb7]way
-But there [Ab/Bb]ain't any use in pre[Bb7]tending
-It could [Ab/Bb]happen to us a[Bb7]ny day[Bm7]
+Well, your [Ab/Bb]friends with their fancy per[Bb7]suasion
+Don’t ad[Ab/Bb]mit that it’s part of a [Bb7]scheme.
+But I [Ab/Bb]can’t help but have my sus[Bb7]picion
+’Cause I [Ab/Bb]ain’t quite as dumb as I [Bb7]seem.
+And you[Ab/Bb] said you was never in[Bb7]tending
+[Ab/Bb]To break up our scene in this [Bb7]way.
+But there [Ab/Bb]ain’t any use in pre[Bb7]tending
+It could [Ab/Bb]happen to us a[Bb7]ny day.[Bm7]
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_[Gm7]
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_[Gm7]
+[Cm7]How  long [Gm7] has this been g[Fm7]oing on?    [Gm7]
+[Cm7]How  long [Gm7] has this been g[Fm7]oing on?    [Gm7]
 {end_of_chorus}
 
 
-{comment: solo }
-. | Cm . . F/C | F/C . . . | Cm . . F/C | F/C . . . |
-. | Cm . . F/C | F/C . . . | Cm . . F/C | F/C . . . |
+{comment: solo}
+. | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . . |
+. | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . . |
 
-. | Cm . . F/C | F/C . . . | Cm . . F/C | F/C . . . |
-. | Cm . . F/C | F/C . . . | Cm . . F/C | F/C . . (Oh) |
+. | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . . |
+. | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . (Oh) |
+
 
 {start_of_verse: Verse 2}
-Oh, your friends[Ab/Bb]     with their fancy per[Bb7]suasion
-Don't ad[Ab/Bb]mit  that it's part of [Bb7]a  scheme
-But I [Ab/Bb]can't help but have my sus[Bb7]picion
-'Cause I [Ab/Bb]ain't quite as dumb as I[Bb7]   seem
+Oh, your friends[Ab/Bb] with their fancy per[Bb7]suasion
+Don’t ad[Ab/Bb]mit that it’s part of [Bb7]a scheme.
+But I [Ab/Bb]can’t help but have my sus[Bb7]picion
+’Cause I [Ab/Bb]ain’t quite as dumb as I[Bb7] seem.
 Oh, [Ab/Bb]you  said you was never in[Bb7]tending
-Mm, to [Ab/Bb]break up our scene in this [Bb7]way
-But there [Ab/Bb]ain't any use in pre[Bb7]tending
-It could [Ab/Bb]happen to us any [Bb7]day[Bm7]
+Mm, to [Ab/Bb]break up our scene in this [Bb7]way.
+But there [Ab/Bb]ain’t any use in pre[Bb7]tending
+It could [Ab/Bb]happen to us any [Bb7]day.  [Bm7]
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_[Gm7]
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_Ho[Gm7]ow Long
+[Cm7]How long [Gm7] has this been g[Fm7]oing on?         [Gm7]
+[Cm7]How long [Gm7] has this been g[Fm7]oing on?  (How Long?)[Gm7]
 
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_Ho[Gm7]ow Long
-[Cm7]How  long [Gm7]   Has this been g[Fm7]oing on?_[Gm7]
+[Cm7]How long [Gm7] has this been g[Fm7]oing on?  (How Long?)[Gm7]
+[Cm7]How long [Gm7] has this been g[Fm7]oing on?  (How Long?)[Gm7]
 {end_of_chorus}
 
 
 
 {start_of_chorus: Outro}
-[Cm7]How  long ...
+[Cm7]How [Gm7]long? [Fm7]
 {end_of_chorus}
-
-

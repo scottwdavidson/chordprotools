@@ -1,0 +1,82 @@
+{title: How Long}
+{artist: Ace}
+{duration: 3:00}
+{key: A}
+{tempo: 121}
+{meta: countin: 4}
+
+{comment: ***********************************************}
+{comment: **  meta: countin: 4}
+{comment: ***********************************************}
+
+
+{comment: Intro - Bass Only}
+. | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . . . |
+
+
+{comment: Intro - Drums Enter}
+. | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . . . |
+
+
+{comment: Intro - Keys Enter}
+. | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . . . |
+. | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . [A#m7] . |
+
+
+{start_of_chorus: Chorus}
+[Bm7]How  long [F#m7] has this been g[Em7]oing on?    [F#m7]
+[Bm7]How  long [F#m7] has this been g[Em7]oing on?    [F#m7]
+{end_of_chorus}
+
+
+{start_of_verse: Verse 1}
+Well, your [G/A]friends with their fancy per[A7]suasion
+Don’t ad[G/A]mit that it’s part of a [A7]scheme.
+But I [G/A]can’t help but have my sus[A7]picion
+’Cause I [G/A]ain’t quite as dumb as I [A7]seem.
+And you[G/A] said you was never in[A7]tending
+[G/A]To break up our scene in this [A7]way.
+But there [G/A]ain’t any use in pre[A7]tending
+It could [G/A]happen to us a[A7]ny day.[A#m7]
+{end_of_verse}
+
+
+{start_of_chorus: Chorus}
+[Bm7]How  long [F#m7] has this been g[Em7]oing on?    [F#m7]
+[Bm7]How  long [F#m7] has this been g[Em7]oing on?    [F#m7]
+{end_of_chorus}
+
+
+{comment: solo}
+. | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . . |
+. | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . . |
+
+. | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . . |
+. | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . (Oh) |
+
+
+{start_of_verse: Verse 2}
+Oh, your friends[G/A] with their fancy per[A7]suasion
+Don’t ad[G/A]mit that it’s part of [A7]a scheme.
+But I [G/A]can’t help but have my sus[A7]picion
+’Cause I [G/A]ain’t quite as dumb as I[A7] seem.
+Oh, [G/A]you  said you was never in[A7]tending
+Mm, to [G/A]break up our scene in this [A7]way.
+But there [G/A]ain’t any use in pre[A7]tending
+It could [G/A]happen to us any [A7]day.  [A#m7]
+{end_of_verse}
+
+
+{start_of_chorus: Chorus}
+[Bm7]How long [F#m7] has this been g[Em7]oing on?         [F#m7]
+[Bm7]How long [F#m7] has this been g[Em7]oing on?  (How Long?)[F#m7]
+
+[Bm7]How long [F#m7] has this been g[Em7]oing on?  (How Long?)[F#m7]
+[Bm7]How long [F#m7] has this been g[Em7]oing on?  (How Long?)[F#m7]
+{end_of_chorus}
+
+
+
+{start_of_chorus: Outro}
+[Bm7]How [F#m7]long? [Em7]
+{end_of_chorus}
