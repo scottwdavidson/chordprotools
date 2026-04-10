@@ -4,10 +4,12 @@
 {duration: 2:30}
 {tempo: 100}
 {meta: countin: 8}
+{meta: backing: 49}
 {meta: performance: G}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 49   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 

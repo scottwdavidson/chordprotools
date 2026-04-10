@@ -5,10 +5,12 @@
 {tempo: 102}
 {meta: nord: P25}
 {meta: countin: 4}
+{meta: backing: 58}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P25   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 58   }
 {comment:***********************************************}
 
 {comment: Intro}

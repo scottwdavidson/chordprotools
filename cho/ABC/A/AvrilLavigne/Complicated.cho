@@ -3,9 +3,13 @@
 {key: Dm}
 {duration: 3:40}
 {tempo: 78}
+{meta: countin: 4}
+{meta: backing: 94}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 94   }
+{comment:***********************************************}
 
 {comment: Duration: 3:25}
 

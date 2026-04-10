@@ -4,9 +4,11 @@
 {duration: 4:05}
 {tempo: 125}
 {meta: countin: 8}
+{meta: backing: 45}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 45   }
 {comment:***********************************************}
 
 {comment: Intro ( keyboards )}

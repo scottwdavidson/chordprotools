@@ -4,9 +4,11 @@
 {duration: 3:10}
 {tempo: 135}
 {meta: countin: 8 ; start with pickup}
+{meta: backing: 91}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8 ; start with pickup   }
+{comment:**  meta: backing: 91   }
 {comment:***********************************************}
 
 {comment: Intro}

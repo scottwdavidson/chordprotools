@@ -4,9 +4,13 @@
 {duration: 2:50}
 {tempo: 176}
 {meta: nord: O15}
+{meta: countin: 4}
+{meta: backing: 42}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O15   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 42   }
 {comment:***********************************************}
 
 {comment: In 2 - cut time}

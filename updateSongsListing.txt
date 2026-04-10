@@ -1,2 +1,1 @@
-./cho/ABC/C/CuttingCrew/DiedInYourArms.cho
-./cho/ABC/A/Ace/HowLong.cho
+./cho/MNO/M/Midland/DrinkingProblem.cho
