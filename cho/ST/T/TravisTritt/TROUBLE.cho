@@ -1,8 +1,15 @@
 {title: T-R-O-U-B-L-E}
 {artist: Travis Tritt}
 {key: F}
-{tempo: 178}
 {duration: 2:45}
+{tempo: 178}
+{meta: countin: 4}
+{meta: backing: 88}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 88   }
+{comment:***********************************************}
 
 {start_of_verse: Verse}
 Well I play an [Bb]old guitar from nine till half past o-[F]ne

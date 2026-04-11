@@ -1,14 +1,15 @@
 {title: How Long}
 {artist: Ace}
-{duration: 3:00}
 {key: Bb}
+{duration: 3:00}
 {tempo: 121}
 {meta: countin: 4}
+{meta: backing: 48}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 48   }
+{comment:***********************************************}
 
 {comment: Intro - Bass Only}
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |

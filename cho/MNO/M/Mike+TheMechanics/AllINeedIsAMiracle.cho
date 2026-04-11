@@ -1,7 +1,15 @@
 {title: All I Need Is A Miracle}
 {artist: Mike and the Mechanics}
 {key: F}
+{duration: }
 {tempo: 120}
+{meta: countin: 4}
+{meta: backing: 50}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 50   }
+{comment:***********************************************}
 
 {comment: Intro ( drums only )}
 . | . . . . | . . . . | 

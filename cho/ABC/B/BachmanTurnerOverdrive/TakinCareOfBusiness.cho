@@ -4,10 +4,14 @@
 {duration: 4:50}
 {tempo: 130}
 {meta: nord: N41}
+{meta: countin: 8}
+{meta: backing: 25}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N41}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N41   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 25   }
+{comment:***********************************************}
 
 {columns: 2}
 
