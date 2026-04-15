@@ -2,8 +2,8 @@ TITLE,ARTIST,KEY,DURATION,TEMPO,COUNTIN,BACKING,NORD,ROLAND,VE,PERFORMANCE KEY,T
 Dancing Queen (Altered),Abba,E,,,,,,,,,,,,./cho/ABC/A/Abba/DancingQueenAltered-e.cho
 Dancing Queen (Altered),Abba,A,,,,,,,,,,,,./cho/ABC/A/Abba/DancingQueenAltered.cho
 Does Your Mother Know,Abba,G,3:10,120,8,62,M22,,,,,,,./cho/ABC/A/Abba/DoesYourMotherKnow.cho
-How Long,Ace,A,3:00,121,4,48,,,,,,,,./cho/ABC/A/Ace/HowLong-a.cho
-How Long,Ace,Bb,3:00,121,4,48,,,,,,,,./cho/ABC/A/Ace/HowLong.cho
+How Long,Ace,A,3:00,121,4,48,M11,,,,,,,./cho/ABC/A/Ace/HowLong-a.cho
+How Long,Ace,Bb,3:00,121,4,48,M11,,,,,,,./cho/ABC/A/Ace/HowLong.cho
 Take On Me,Aha,A,3:00,100,,,,,,,,,,./cho/ABC/A/Aha/TakeOnMe.cho
 "Dancin', Shaggin' on the Boulevard",Alabama,A,,,,,,,,,,,,./cho/ABC/A/Alabama/DancinShagginOnTheBoulevard.cho
 Remember When,Alan Jackson,G,3:00,100,,,,,,,,,,./cho/ABC/A/AlanJackson/RememberWhen.cho
@@ -21,7 +21,7 @@ Year of the Cat,Al Stewart,Em,4:00,116,4,20,M22,,U6,,,,,./cho/ABC/A/AlStewart/Ye
 A Horse With No Name,America,Em,3:40,123,,,,,,,,,,./cho/ABC/A/America/AHorseWithNoName.cho
 Lonely People,America,D,2:10,155,,,M15(A3),,,,,,,./cho/ABC/A/America/LonelyPeople.cho
 Ventura Highway,America,G,3:20,130,???,,???,,,,,,,./cho/ABC/A/America/VenturaHighway.cho
-You Can Do Magic,America,Em,3:40,130,8,92,,,,,,,,./cho/ABC/A/America/YouCanDoMagic.cho
+You Can Do Magic,America,Em,3:40,130,8,,,,,,,,,./cho/ABC/A/America/YouCanDoMagic.cho
 Sweet Pea,Amos Lee,C,2:00,100,,,,,,E,,,,./cho/ABC/A/AmosLee/SweetPea.cho
 Valerie,Ami Winehouse,Eb,3:10,105,4,,P54,,,,,,,./cho/ABC/A/AmyWinehouse/Valerie.cho
 Shadows In The Moonlight,Anne Murray,A,,,,,,,,,,,,./cho/ABC/A/AnneMurray/ShadowsInTheMoonlight.cho
@@ -80,8 +80,8 @@ Like A Rolling Stone,Bob Dylan,C,,,,,,,,,,,,./cho/ABC/B/BobDylan/LikeARollingSto
 Make You Feel My Love,Bob Dylan,C,,70,,,,,,,,,,./cho/ABC/B/BobDylan/MakeYouFeelMyLove.cho
 Against the Wind,Bob Seger,F,3:50,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind-f.cho
 Against the Wind,Bob Seger,G,4:00,109,4,10,M44,,,F,,,,./cho/ABC/B/BobSeger/AgainstTheWind.cho
-Still the Same,Bob Seger,A,3:28,115,4,41,P54,,,A,,,,./cho/ABC/B/BobSeger/StillTheSame-a.cho
-Still the Same,Bob Seger,C,3:28,115,4,41,P54,,,A,,,,./cho/ABC/B/BobSeger/StillTheSame.cho
+Still the Same,Bob Seger,A,3:28,115,4,41,P55,,,A,,,,./cho/ABC/B/BobSeger/StillTheSame-a.cho
+Still the Same,Bob Seger,C,3:28,115,4,41,P55,,,A,,,,./cho/ABC/B/BobSeger/StillTheSame.cho
 Turn The Page,Bob Seger,Em,,,,,,,,,,,,./cho/ABC/B/BobSeger/TurnThePage.cho
 Ebony Eyes,Bob Welch,Gm,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes-gm.cho
 Ebony Eyes,Bob Welch,Am,2:51,116,8,44,,,,Gm,,,,./cho/ABC/B/BobWelch/EbonyEyes.cho
@@ -126,7 +126,7 @@ Put Your Records On,Corrine Bailey Rae,A,3:00,96,4,,N24,,,,,,,./cho/ABC/C/Corrin
 Accidentally In Love,Counting Crows,G,3:00,138,4,,O11,,,,,,,./cho/ABC/C/CountingCrows/AccidentallyInLove.cho
 Just A Song Before I Go,"Crosby, Stills, Nash and Young",Dm,4:00,107,,,M14(A2),,,Dm,,,,./cho/ABC/C/CSNY/JustASongBeforeIGo.cho
 Just Like Heaven,The Cure,A,3:10,153,,,,,,,,,,./cho/ABC/C/Cure/JustLikeHeaven.cho
-( I Just ) Died In Your Arms,Cutting Crew,Bm,4:05,125,8,45,,,,,,,,./cho/ABC/C/CuttingCrew/DiedInYourArms.cho
+( I Just ) Died In Your Arms,Cutting Crew,Bm,4:05,125,8,45,P15,,,,,,,./cho/ABC/C/CuttingCrew/DiedInYourArms.cho
 Beautiful Sunday,Daniel Boone,C,3:00,120,,,P55,,,,,,1.0,./cho/DEF/D/DanielBoone/BeautifulSunday.cho
 Hold My Hand,Hootie (Darius Rucker) and the Blowfish,B,3:35,101,,,,,,,,,,./cho/DEF/D/DariusRucker/HoldMyHand.cho
 Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,,1.0,./cho/DEF/D/DariusRucker/WagonWheel.cho
@@ -210,8 +210,8 @@ Tell It Like It Is,Heart,F,3:50,67,,,,,,,6/8,,,./cho/GHI/H/Heart/TellItLikeItIs.
 Always and Forever,Heatwave,D,,,,,,,,,,,,./cho/GHI/H/Heatwave/AlwaysAndForever.cho
 Shannon,Henry Gross,F,,,,,,,,,,,,./cho/GHI/H/HenryGross/Shannon.cho
 The Air That I Breathe,The Hollies,C,,,,,,,,,,,,./cho/GHI/H/Hollies/TheAirThatIBreathe.cho
-And We Danced - G,The Hooters,G,3:45,144,8,81,,,,G,,,,./cho/GHI/H/Hooters/AndWeDanced-g.cho
-And We Danced - A,The Hooters,A,3:45,144,8,81,,,,G,,,,./cho/GHI/H/Hooters/AndWeDanced.cho
+And We Danced - G,The Hooters,G,3:45,144,8,81,P31,,,G,,,,./cho/GHI/H/Hooters/AndWeDanced-g.cho
+And We Danced - A,The Hooters,A,3:45,144,8,81,P31,,,G,,,,./cho/GHI/H/Hooters/AndWeDanced.cho
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,,,./cho/GHI/H/HueyLewis/DoYouBelieveInLove.cho
 Need You Tonight,INXS,C,2:55,109,,,,,,,,,,./cho/GHI/I/INXS/NeedYouTonight.cho
 Running On Empty - G,Jackson Brown,G,4:10,137,8,72,P55,,,G,,,,./cho/JKL/J/JacksonBrowne/RunningOnEmpty-g.cho
@@ -227,7 +227,7 @@ Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,,,./cho/JKL/J/JJCale/SensitiveKind.
 Bye Bye,Jo Dee Messina,Bb,3:12,134,8,89,O24,,,Bb,,,,./cho/JKL/J/JoDeeMessina/ByeBye-bb.cho
 Bye Bye,Jo Dee Messina,G,3:12,134,8,89,O24,,,Bb (+3),,,,./cho/JKL/J/JoDeeMessina/ByeBye.cho
 Unchain My Heart,Joe Cocker,Am,5:07,118,0,86,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeart.cho
-Unchain My Heart (Extended),Joe Cocker,Am,5:07,118,0,,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho
+Unchain My Heart (Extended),Joe Cocker,Am,5:07,118,0,18,O:24,,,,,,,./cho/JKL/J/JoeCocker/UnchainMyHeartExtended.cho
 Memphis in the Meantime,John Hiatt,E,,,,,,,,,,,,./cho/JKL/J/JohnHiatt/MemphisInTheMeantime.cho
 Beautiful Boy,John Lennon,D,,100,,,,,,,,,,./cho/JKL/J/JohnLennon/BeautifulBoy.cho
 Oh My Love,John Lennon,A,2:45,64,,,,,,,,,,./cho/JKL/J/JohnLennon/OhMyLove.cho
@@ -238,7 +238,7 @@ I’m Gonna Find Another You,John Mayer,A,3:00,150,,,,,,,,,,./cho/JKL/J/JohnMaye
 Ain't Even Done With The Night,John Mellencamp,A,4:10,120,8,29,N12,,,,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight-a.cho
 Ain't Even Done With The Night,John Mellencamp,B,4:10,120,8,29,N12,,,,,,,./cho/JKL/J/JohnMellencamp/AintEvenDoneWithTheNight.cho
 Cherry Bomb,John Mellencamp,G,4:10,113,,,,,,,,,,./cho/JKL/J/JohnMellencamp/CherryBomb.cho
-Jack and Diane,John Mellencamp,A,3:40,104,4,74,,,,A,,,,./cho/JKL/J/JohnMellencamp/JackandDiane.cho
+Jack and Diane,John Mellencamp,A,3:40,104,4,,,,,A,,,,./cho/JKL/J/JohnMellencamp/JackandDiane.cho
 R.O.C.K. In The U.S.A,John Mellencamp,E,2:55,166,8,54,,,,,,,,./cho/JKL/J/JohnMellencamp/ROCKInTheUSA.cho
 Looking for Love,Johnny Lee,E,,120,,,,,,,,,,./cho/JKL/J/JohnnyLee/LookingForLove.cho
 Don't Forget (Welcome to Wrexham),Jon Hume,C,,,,,,,,,,,,./cho/JKL/J/JonHume/DontForget.cho
@@ -306,7 +306,7 @@ Old Fashioned Feeling,Midland,G,,,,,,,,,,,,./cho/MNO/M/Midland/OldFashionedFeeli
 Roll Away,Midland,C,,,,,,,,,,,,./cho/MNO/M/Midland/RollAway.cho
 Take Her Off Your Hands,Midland,D,,,,,,,,,,,,./cho/MNO/M/Midland/TakeHerOffYourHands.cho
 Vegas,Midland,D,3:28,133,,,,,,,,,,./cho/MNO/M/Midland/Vegas.cho
-All I Need Is A Miracle,Mike and the Mechanics,F,,120,4,50,,,,,,,,./cho/MNO/M/Mike+TheMechanics/AllINeedIsAMiracle.cho
+All I Need Is A Miracle,Mike and the Mechanics,F,3:10,120,8,50,P51,,,,,,,./cho/MNO/M/Mike+TheMechanics/AllINeedIsAMiracle.cho
 Your Love Stays With Me,Mike Reid,E,,,,,,,,,,,,./cho/MNO/M/MikeReid/YourLoveStaysWithMe.cho
 Butterfly Fly Away,Miley Cyrus / Billy Ray Cyrus,Eb,2:35,136,,,P23,,,,,,,./cho/MNO/M/MileyCyrus/ButterflyFlyAway.cho
 Flowers,Miley Cyrus,Am,3:00,122,8,,N21,,,,,,,./cho/MNO/M/MileyCyrus/Flowers.cho
@@ -347,7 +347,7 @@ Show Me The Way,Peter Frampton,D,3:45,137,8,87,,,,,,,,./cho/PQR/P/PeterFrampton/
 Let My Love Open The Door,Pete Townsend,A,2:30,165,8,22,M51,,U35,A,,,,./cho/PQR/P/PeteTownsend/LetMyLoveOpenTheDoor.cho
 Do You Remember ?,Phil Collins,F,,,,,,,,,,,,./cho/PQR/P/PhilCollins/DoYouRemember.cho
 I Had Some Help,Post Malone ( w/ Morgan Wallen),C,,,,,,,,,,,,./cho/PQR/P/PostMalone/IHadSomeHelp.cho
-Ghost In You,Psychelic Furs,Bb,,123,,,,,,,,,,./cho/PQR/P/PsychedelicFurs/GhostInYou.cho
+Ghost In You,Psychelic Furs,Bb,4:00,123,,,,,,,,,,./cho/PQR/P/PsychedelicFurs/GhostInYou.cho
 Love My Way,Psychelic Furs,C,,129,,,,,,,,,,./cho/PQR/P/PsychedelicFurs/LoveMyWay.cho
 Let Me Love You Tonight,Pure Prairie League,Bb,,,,,,,,,,,,./cho/PQR/P/PurePrairieLeague/LetMeLoveYouTonight.cho
 Creep,Radiohead,G,,,,,,,,,,,,./cho/PQR/R/Radiohead/Creep.cho
@@ -447,7 +447,7 @@ Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,4,28,,,,,,,,./cho/
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,,./cho/ST/T/TomPetty/IntoTheGreatWideOpen.cho
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,,,./cho/ST/T/TomPetty/LearningToFly.cho
 Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,4,27,,,,,,,,./cho/ST/T/TomPetty/MaryJanesLastDance.cho
-Runnin' Down A Dream,Tom Petty,E,3:45,170,8,68,N51,,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
+Runnin' Down A Dream,Tom Petty,E,3:45,170,8,,N51,,,E,,,,./cho/ST/T/TomPetty/RunningDownADream.cho
 You Don't Know How It Feels,Tom Petty,E,3:45,74,,,P31,,,,,,,./cho/ST/T/TomPetty/YouDontKnowHowItFeels.cho
 You Wreck Me,Tom Petty,D,3:05,164,8,35,,,,,,,,./cho/ST/T/TomPetty/YouWreckMe.cho
 You Wanted More,Tonic,E,,114,,,,,,,,,,./cho/ST/T/Tonic/YouWantedMore.cho

@@ -17,7 +17,7 @@
 |  A  .  D/A  .  |  A  .  D/A  .  |
 |  A  .  D/A  .  |  A  .  D/A  .  |
 
-{start_of_verse: BB-01}
+{start_of_verse: Verse (BB-01)}
 [A] Blue jean ba[D/A]by,[A] L.A. [D/A]lady,
 [A] seamstress for the band.[D/F#]  [E/G#]
 [A] Pretty e[D/A]yed, [A] pirate s[D/A]mile,
@@ -33,7 +33,7 @@
 |  A  .  D/A  .  |  A  .  D/A  .  |
 
 
-{start_of_verse: (guitar enter)}
+{start_of_verse: Verse (guitar enter)}
 [A] Jesus fr[D/A]eaks,[A] out in the [D/A]street,
 [A] handing tickets out for God.[D/F#]  [E/G#]
 [A] Turning [D/A]back, [A] she just [D/A]laughs,
@@ -49,14 +49,14 @@
 |  A  .  D/A  .  |  A  .  .  .  |
 
 
-{comment: Pre-Chorus: BB-02}
+{comment: Pre-Chorus: (BB-02)}
 [F]  But oh how it feels[G] so real
 [Em7]lying here with no[Am] one near.
 On[F]ly you, and you can [G]hear me
 When I say [E7/G#]softly [E7/B]slowly  [A/B]
 
 
-{start_of_chorus: BB-03}
+{start_of_chorus: Chorus (BB-03)}
 [D] Hold me clo[A/C#]ser tiny dan[Bm]cer. [A/C#]
 [D] Count the head[A/C#]lights on the high[E/F#]way.
 [D] Lay me down[A/C#] in sheets of li[Bm]nen. [A/C#]
@@ -71,11 +71,12 @@ When I say [E7/G#]softly [E7/B]slowly  [A/B]
 {comment: Transition}
 |  Dadd9/F#  .  .  .  |  E/F#  .  .  .  |  D/A  .  .  .  |
 
+{comment: BB-04}
 {comment: Interlude - Main Theme}
 |  A  .  D/A  .  |  A  .  D/A  .  |
 
 
-{start_of_verse: BB-04}
+{start_of_verse: Verse}
 [A] Blue jean ba[D/A]by,[A] L.A. [D/A]lady,
 [A] seamstress for the band.[D/F#]  [E/G#]
 [A] Pretty e[D/A]yed, [A] pirate s[D/A]mile,
@@ -91,14 +92,14 @@ When I say [E7/G#]softly [E7/B]slowly  [A/B]
 |  A  .  D/A  .  |  A  .  .  .  |
 
 
-{comment: Pre-Chorus: BB-05}
+{comment: Pre-Chorus (BB-05)}
 [F]  But oh how it feels[G] so real
 [Em7]lying here with no[Am] one near.
 On[F]ly you, and you can [G]hear me
 When I say [E7/Ab]softly [E7/B]slowly  [A/B]
 
 
-{start_of_chorus: BB-06}
+{start_of_chorus: Chorus (BB-06)}
 [D] Hold me clo[A/C#]ser tiny dan[Bm]cer. [A/C#]
 [D] Count the head[A/C#]lights on the high[E/F#]way.
 [D] Lay me down[A/C#] in sheets of li[Bm]nen. [A/C#]

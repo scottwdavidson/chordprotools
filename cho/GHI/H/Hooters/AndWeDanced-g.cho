@@ -3,15 +3,17 @@
 {key: G}
 {duration: 3:45}
 {tempo: 144}
+{meta: nord: P31}
 {meta: countin: 8}
 {meta: backing: 81}
 {meta: performance: G}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 81   }
-{comment: **  meta: performance: G   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P31   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 81   }
+{comment:**  meta: performance: G   }
+{comment:***********************************************}
 
 {comment: Intro - Mandolin and Synth}
 |Csus2  .  .  .  | Dsus  D  .  .  | G/B  .  .  .  | Csus2  .  .  .  |
