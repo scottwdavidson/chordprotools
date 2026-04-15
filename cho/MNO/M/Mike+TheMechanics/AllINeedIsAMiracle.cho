@@ -1,13 +1,15 @@
 {title: All I Need Is A Miracle}
 {artist: Mike and the Mechanics}
 {key: F}
-{duration: }
+{duration: 3:10}
 {tempo: 120}
-{meta: countin: 4}
+{meta: nord: P51}
+{meta: countin: 8}
 {meta: backing: 50}
 
 {comment:***********************************************}
-{comment:**  meta: countin: 4   }
+{comment:**  meta: nord: P51   }
+{comment:**  meta: countin: 8   }
 {comment:**  meta: backing: 50   }
 {comment:***********************************************}
 
@@ -69,15 +71,21 @@ I'm gonna [C/E]love you for the rest of your [G]life.[D/E]..
 {end_of_chorus}
 
 {comment: solo}
-. | [G]   . . . | [D/G] . [G] . | [G]   . . . | [D/G] . [G] . |
-. | [Bm7] . . . | [Bm7] .  .  . | [Em7] . . . | [Em7] . . (And if I) |
+. | [A] . . . | [E] . [A] . | [A] . . . | [E] . [A] . |
+. | [C#m7] . . . | [C#m7] .  .  . | [F#m7] . . . | [F#m7] . . (If I) |
 
 {comment: Bridge}
 If I [C]ever catch up with [G/D]you,
 I'm gonna [C/E]love you for the rest of your [G]life.[D/E]..
 
 {start_of_chorus}
-[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
-[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
-[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
+[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou (All I need is a miracle) 
+[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou (All I need is a miracle) 
+[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou (All I need is a miracle) 
+
+[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou (All I need is a miracle) 
+[D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou (All I need is a miracle) 
+( drum ) <rest> . . . | . . . . | [G] .  |
+
+
 {end_of_chorus}

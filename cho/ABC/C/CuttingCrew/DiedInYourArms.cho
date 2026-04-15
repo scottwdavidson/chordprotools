@@ -3,10 +3,12 @@
 {key: Bm}
 {duration: 4:05}
 {tempo: 125}
+{meta: nord: P15}
 {meta: countin: 8}
 {meta: backing: 45}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P15   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: 45   }
 {comment:***********************************************}

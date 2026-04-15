@@ -1,1 +1,8 @@
-./cho/MNO/M/Midland/DrinkingProblem.cho
+./cho/MNO/M/Mike+TheMechanics/AllINeedIsAMiracle.cho
+./cho/ABC/C/CuttingCrew/DiedInYourArms.cho
+./cho/ABC/A/Ace/HowLong-a.cho
+./cho/ABC/A/Ace/HowLong.cho
+./cho/ABC/B/BobSeger/StillTheSame-a.cho
+./cho/ABC/B/BobSeger/StillTheSame.cho
+./cho/GHI/H/Hooters/AndWeDanced-g.cho
+./cho/GHI/H/Hooters/AndWeDanced.cho
