@@ -1,8 +1,15 @@
 {title: Hey California}
 {artist: Jon Pardi}
-{duration: 3:40}
 {key: Em}
+{duration: 3:40}
 {tempo: 130}
+{meta: nord: P55}
+{meta: countin: 4}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [Em] . . . | [D] . . . | [Cmaj7] . . . | . . . . |
@@ -47,11 +54,12 @@ This [C]Sumner County summer's never felt this cold
 Tell me why your [Em]sunshine went and [D]stole mine away from [C]me
 [Em]Ooh[D], hey, Cali[C]fornia
 Let her know it's [Em]pouring more than [D]rain here in Tenne[C]ssee
-And I'm drowning in her memo[Em]ry[D][Cmaj7]
+And I'm drowning in her memo[Em]ry...
 {end_of_chorus}
 
 
 {comment: Guitar Solo}
+. | [Em] . . . | [D] . . . | [Cmaj7] . . . | . . . . |
 . | [Em] . . . | [D] . . . | [Cmaj7] . . . | . . . . |
 
 {start_of_bridge: Bridge}
@@ -60,7 +68,7 @@ She's somewhere on the [Em]west coast
 Running 'round them [C]hills in Hollywood
 Probably got some [Em]new friends
 Boxed up all her [D]boots and
-I got a [C]feeling she's gone for good
+I got a [C]feeling she's gone for good_[C]--[C]
 {end_of_bridge}
 
 
@@ -70,11 +78,13 @@ Tell me why your [Em]sunshine went and [D]stole mine away from [C]me
 [Em]Ooh[D], hey, Cali[C]fornia
 Let her know it's [Em]pouring more than [D]rain here in Tenne[C]ssee
 And I'm drowning in her memo[Em]ry[D][Cmaj7]
-Just drowning in her memo[Em]ry[D][Cmaj7]
+Just drowning in her memo[Em]ry
 {end_of_chorus}
 
 
 {start_of_part: Outro}
 . | [Em] . . . | [D] . . . | [Cmaj7] . . . | . . . . |
 . | [Em] . . . | [D] . . . | [Cmaj7] . . . | . . . . |
+. | [Em] . . . | [D] . . . | [Cmaj7] . . . | . . . . |
+. | [Cmaj7]  |
 {end_of_part}
