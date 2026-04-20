@@ -1,0 +1,18 @@
+@startuml
+
+!includesub ../../port/in/catalog-mgmt-ports.puml!CORE
+!includesub ../../port/out/catalog-mgmt-ports.puml!CORE
+!includesub ../../../adapter/out/catalog-mgmt-adapters.puml!CORE
+
+!startsub CORE
+class GenerateSongCatalogService <<application.service.catalog>> implements GenerateSongCatalogUseCase {}
+class ImportNewSongService <<application.service.catalog>> implements ImportNewSongUseCase {}
+
+class CatalogEntryDto {}
+
+GenerateSongCatalogService --> CatalogManagementPort
+ImportNewSongService --> CatalogManagementPort
+
+
+!endsub CORE
+@enduml

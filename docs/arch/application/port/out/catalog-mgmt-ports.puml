@@ -1,0 +1,14 @@
+@startuml
+
+!startsub CORE
+
+interface CatalogManagementPort {
+
+    readCatalogFromCsv(Path path) : Map<String, CatalogEntry>
+    writeCatalogToCsv(Path path, List<CatalogEntryDto> catalogEntryDtos) : void
+
+}
+
+!endsub CORE
+
+@enduml

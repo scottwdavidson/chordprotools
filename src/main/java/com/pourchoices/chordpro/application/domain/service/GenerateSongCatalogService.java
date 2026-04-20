@@ -31,7 +31,7 @@ public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
 
     private final ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig;
 
-    public void generateIndex(String songsListingPathString){
+    public void generateSongCatalog(String songsListingPathString){
 
         // read the song catalog path string file
         ChordProFileListing chordProFileListing = this.readSongListService.readSongList(songsListingPathString);

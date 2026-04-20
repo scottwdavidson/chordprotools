@@ -25,7 +25,7 @@ public class GenerateSongCatalogCommand implements Runnable {
 
         LOGGER.info("Generating song catalog from: {}", songsListingPathString);
 
-        this.generateIndexService.generateIndex(songsListingPathString);
+        this.generateIndexService.generateSongCatalog(songsListingPathString);
 
     }
 }

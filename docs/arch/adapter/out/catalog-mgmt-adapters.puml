@@ -1,0 +1,34 @@
+@startuml
+
+!include ../../application/port/out/catalog-mgmt-ports.puml
+
+!startsub CORE
+
+class CatalogManagementAdapter <<adapter.port.out.catalog>> implements CatalogManagementPort{
+
+  + readCatalogFromCsv(Path path) : Map<String, CatalogEntry>
+  + writeCatalogToCsv(Path path, List<CatalogEntryDto> catalogEntryDtos) : void
+
+}
+
+class CatalogFileReader {
+ + read(Path chordproSongPath) : List<String>
+}
+class CatalogFileWriter {
+ + write(Path chordproSongPath, List<String>) : void
+}
+
+class CatalogEntryDto {}
+
+CatalogManagementAdapter --> CatalogFileReader
+
+CatalogManagementAdapter --> CatalogFileWriter
+
+CatalogManagementAdapter --> CatalogEntryDto
+
+!endsub CORE
+
+
+@enduml
+
+' plantuml -Dmydate="$(date +%Y-%m-%d_%H:%M)" catalog-adaptors.puml

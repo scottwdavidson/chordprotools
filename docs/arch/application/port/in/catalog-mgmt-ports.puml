@@ -1,0 +1,14 @@
+@startuml
+
+!startsub CORE
+interface GenerateSongCatalogUseCase {
+  + generateSongCatalog(String songsListingPathString): void
+}
+
+interface ImportNewSongUseCase {
+   + importNewSong(String chordproSongPathString) : void
+}
+
+!endsub CORE
+
+@enduml

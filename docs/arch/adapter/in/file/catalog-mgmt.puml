@@ -1,0 +1,41 @@
+@startuml
+
+' Check these paths! If running from CLI, ensure these exist relative to this file
+!includesub ../../../application/port/in/catalog-mgmt-ports.puml!CORE
+!includesub ../../../application/domain/service/catalog-mgmt-services.puml!CORE
+
+
+title Catalog Management Architecture
+
+' --- CLEAN ARCHITECTURE COLOR PALETTE ---
+skinparam class<<adapter.in.file.command>> {
+    BackgroundColor #E3F2FD
+    BorderColor #1565C0
+    HeaderBackgroundColor #BBDEFB
+}
+
+skinparam class<<application.service.catalog>> {
+    BackgroundColor #F1F8E9
+    BorderColor #33691E
+}
+
+class GenerateSongCatalogCommand <<adapter.in.file.command>> {
+    generateSongCatalog(String songsListingPathString) : void
+}
+
+class ImportNewSongCommand <<adapter.in.file.command>> {
+    importNewSong(String chordproSongPathString) : void
+}
+
+' Associations
+GenerateSongCatalogCommand --> GenerateSongCatalogUseCase
+ImportNewSongCommand --> ImportNewSongUseCase
+
+' Standardized Metadata
+header Last Updated: %mydate%
+footer Release Management
+caption Generated from catalog-mgmt.puml
+
+@enduml
+
+' plantuml -Dmydate="$(date +%Y-%m-%d_%H:%M)" catalog-mgmt.puml
