@@ -4,6 +4,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
 import com.pourchoices.chordpro.adapter.in.file.UpdateSongCommand;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -19,9 +20,8 @@ import java.util.stream.Collectors;
  * Reader which reads the entire ChordPro file into a list of "lines" to then be processed
  */
 @Service
+@Slf4j
 public class CatalogFileReader {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(CatalogFileReader.class);
 
     private CatalogEntryMapper catalogEntryMapper;
 
@@ -32,7 +32,7 @@ public class CatalogFileReader {
     @SneakyThrows
     public Map<String, CatalogEntry> readCatalogFromCsv(Path catalogIndexPath)  {
 
-        LOGGER.info("catalogIndexPath: {}", catalogIndexPath);
+        log.info("catalogIndexPath: {}", catalogIndexPath);
 
         List<CatalogEntryDto> dtoCatalog;
         try (Reader reader = Files.newBufferedReader(Path.of(catalogIndexPath.toFile().getAbsolutePath()))) {

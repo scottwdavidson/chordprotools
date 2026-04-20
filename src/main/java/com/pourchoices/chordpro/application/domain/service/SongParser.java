@@ -24,7 +24,6 @@ import org.slf4j.LoggerFactory;
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class SongParser {
 
-//    private final static Logger LOGGER = LoggerFactory.getLogger(SongParser.class);
     private final SongLineParser songLineParser;
 
     public ParsedSong parse(String chordproFilename, List<String> songFile) {

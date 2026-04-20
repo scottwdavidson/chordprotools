@@ -1,14 +1,14 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Comparator;
 import java.util.List;
 
+@Slf4j
 public class CustomColumnComparator implements Comparator<String> {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(CustomColumnComparator.class);
 
     private final List<String> desiredOrder;
 

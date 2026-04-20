@@ -12,8 +12,6 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class ReadSongListService  {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(ReadSongListService.class);
-
     private final SongListingFileReader songListingFileReader;
 
     public ChordProFileListing readSongList(String songsListingPathString){

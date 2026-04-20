@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -14,29 +15,14 @@ import picocli.CommandLine.Command;
                 UpdateSongsCommand.class,
                 UpdateSongCommand.class
         })
+@Slf4j
 public class ChordproToolsMainCommand implements Runnable {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(ChordproToolsMainCommand.class);
 
     @Override
     public void run() {
-        LOGGER.info(" ... should not be here !! ");
+        log.info(" ... should not be here !! ");
         System.out.println("Use one of the subcommands.");
     }
 
-//	@Autowired
-//	private HeaderFixer headerFixer;
-//
-//	public static void main(String[] args) {
-//
-//		SpringApplication.run(ChordproParserApplication.class, args);
-//	}
-//
-//	@Override
-//	public void run(String... args) throws Exception {
-//		        String songsFilename = args[0];
-//
-//        this.headerFixer.fix(songsFilename);
-//
-//	}
 }

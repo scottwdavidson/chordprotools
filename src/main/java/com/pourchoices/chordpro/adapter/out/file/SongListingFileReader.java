@@ -3,6 +3,7 @@ package com.pourchoices.chordpro.adapter.out.file;
 import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import com.pourchoices.chordpro.application.domain.service.SongLineParser;
 import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -14,9 +15,8 @@ import java.io.FileReader;
  * Reader which reads the songs listing file and returns them in an ordered List for processing.
  */
 @Service
+@Slf4j
 public class SongListingFileReader {
-
-    private final static Logger LOGGER = LoggerFactory.getLogger(SongLineParser.class);
 
     @SneakyThrows
     public ChordProFileListing read(String songsListingPathString) {
@@ -29,7 +29,7 @@ public class SongListingFileReader {
 
             // Read lines until the end of the file (readLine() returns null)
             while ((songFilename = reader.readLine()) != null) {
-                LOGGER.info("songFilename: {}", songFilename);
+                log.info("songFilename: {}", songFilename);
                 builder.chordProFileName(songFilename.trim());
             }
         }

@@ -7,6 +7,7 @@ import com.pourchoices.chordpro.application.domain.model.*;
 import com.pourchoices.chordpro.application.port.in.GenerateSongCatalogUseCase;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +20,8 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
+@Slf4j
 public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(GenerateSongCatalogService.class);
 
     private final ReadSongListService readSongListService;
     private final CatalogFileWriter catalogFileWriter;
@@ -40,7 +40,7 @@ public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
         List<CatalogEntryDto> catalogEntryDtos = new ArrayList<>();
         for(String chordProFilename: chordProFileListing.getChordProFileNames()) {
 
-            LOGGER.info("chordProFilename: {}", chordProFilename);
+            log.info("chordProFilename: {}", chordProFilename);
 
             List<String> songFile = this.chordProFileReader.read(Paths.get(chordProFilename));
             ParsedSong song = this.songParser.parse(chordProFilename, songFile);
@@ -50,10 +50,10 @@ public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
 
         }
 
-        LOGGER.info("Catalog DTOs: {}", catalogEntryDtos);
+        log.info("Catalog DTOs: {}", catalogEntryDtos);
 
         Path catalogIndexPath = Paths.get(this.chordproCatalogIndexPathConfig.getCatalogIndexPath());
-        LOGGER.info("catalogIndexPath: {}", catalogIndexPath);
+        log.info("catalogIndexPath: {}", catalogIndexPath);
 
         this.catalogFileWriter.writeCatalogToCsv(catalogIndexPath,catalogEntryDtos);
     }
