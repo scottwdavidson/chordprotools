@@ -12,7 +12,9 @@
 {comment:***********************************************}
 
 {start_of_part: Intro}
-. | [C#m] 
+. | [C#m] . . . | [C#m] . . . |
+. | [C#m] . . . | [C#m] . . . |
+
 {end_of_part}
 
 
@@ -42,7 +44,8 @@ But we're gonna dance the dust right off them tonight
 
 {comment: Post-Chorus}
 [C#m]   Yeah girl
-[B]  [F#]  Got a little [C#m]dirt on my boots[B][F#]
+[B]  [F#]  Got a little 
+[C#m]dirt on my boots[B][F#]
 
 
 {start_of_verse: Verse 2}
@@ -70,8 +73,8 @@ But we're gonna dance the dust right off them tonight
 
 
 {comment: Post-Chorus}
-[C#m]   Yeah girl
-[B]  [F#]  Got a little [C#m]dirt on my boots[B][F#]
+[C#m]   Yeah girl [B]  [F#]  
+Got a little [C#m]dirt on my boots[B] [F#]
 
 
 {start_of_part: Interlude}
