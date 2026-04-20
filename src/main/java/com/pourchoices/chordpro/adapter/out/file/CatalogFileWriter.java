@@ -6,6 +6,7 @@ import com.opencsv.bean.StatefulBeanToCsv;
 import com.opencsv.bean.StatefulBeanToCsvBuilder;
 import com.pourchoices.chordpro.application.domain.service.HeaderFixer;
 import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -19,14 +20,13 @@ import java.util.List;
  * Writer which writhes the entire ChordPro catalog
  */
 @Service
+@Slf4j
 public class CatalogFileWriter {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(CatalogFileWriter.class);
 
     @SneakyThrows
     public void writeCatalogToCsv(Path path, List<CatalogEntryDto> catalogEntryDtos)  {
 
-        LOGGER.info("Catalog File Path: {}", path.toFile().getAbsolutePath());
+        log.info("Catalog File Path: {}", path.toFile().getAbsolutePath());
 
         // Create the writer
         Writer writer = new FileWriter(path.toFile());

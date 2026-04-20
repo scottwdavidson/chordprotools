@@ -6,6 +6,7 @@ import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
 import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +18,9 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
+@Slf4j
 public class HeaderFixer {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(HeaderFixer.class);
     private final SongParser songParser;
     private final SongListingFileReader songListingFileReader;
     private final ChordProFileReader chordProFileReader;
@@ -30,11 +31,11 @@ public class HeaderFixer {
         // read the song listing file
         ChordProFileListing chordProFileListing = this.songListingFileReader.read(songsFilename);
 
-        LOGGER.info("ChordProFileListing: {}", chordProFileListing);
+        log.info("ChordProFileListing: {}", chordProFileListing);
 
         // iterate through the song listing and fix each song
         for(String songFilename : chordProFileListing.getChordProFileNames()){
-            LOGGER.info("Fixing : {}", songFilename);
+            log.info("Fixing : {}", songFilename);
             fixSong(songFilename);
         }
     }
@@ -52,10 +53,4 @@ public class HeaderFixer {
 
     }
 
-//    public static void main(String[] args) {
-//
-//        String songFilename = args[0];
-//        LOGGER.info("Input filename: {}", songFilename);
-//        fix(songFilename);
-//    }
 }

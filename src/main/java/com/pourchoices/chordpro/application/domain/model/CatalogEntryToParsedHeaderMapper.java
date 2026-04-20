@@ -1,12 +1,9 @@
 package com.pourchoices.chordpro.application.domain.model;
 
-import com.pourchoices.chordpro.adapter.out.file.CatalogEntryDto;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
 @Component
-public class ParsedHeaderMapper {
+public class CatalogEntryToParsedHeaderMapper {
 
 
     public ParsedHeader fromCatalogEntry(CatalogEntry catalogEntry) {

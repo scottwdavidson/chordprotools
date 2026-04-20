@@ -10,8 +10,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class SongLineParser {
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(SongLineParser.class);
-
     public ParsedHeaderLine parseHeaderLine(String line) {
 
         // remove ending white space, then beginning and ending curly braces
