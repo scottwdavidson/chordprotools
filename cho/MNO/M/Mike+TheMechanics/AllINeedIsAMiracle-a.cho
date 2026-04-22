@@ -1,7 +1,7 @@
 {title: All I Need Is A Miracle}
 {artist: Mike and the Mechanics}
 {duration: 3:10}
-{key: A}
+{key: D}
 {tempo: 120}
 {meta: nord: P51}
 {meta: countin: 8}
@@ -72,7 +72,7 @@ I’m gonna [A/C#]love you for the rest of your [E]life.[B/C#]..
 
 {comment: solo}
 . | [F#] . . . | [C#] . [F#] . | [F#] . . . | [C#] . [F#] . |
-. | [A#m7] . . . | [A#m7] .  .  . | [F#m7] . . . | [F#m7] . . (If I) |
+. | [A#m7] . . . | [A#m7] .  .  . | [D#m7] . . . | [D#m7] . . (If I) |
 
 {comment: Bridge}
 If I [A]ever catch up with [E/B]you,
@@ -86,5 +86,5 @@ I’m gonna [A/C#]love you for the rest of your [E]life.[B/C#]..
 
 [B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou (All I need is a miracle)
 [B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou (All I need is a miracle)
-( drum ) <rest> . . . | . . . . | [E] .  |
+( drum ) <rest> [E/C#] . . | [E/C#] . . . | [B] |
 {end_of_chorus}
