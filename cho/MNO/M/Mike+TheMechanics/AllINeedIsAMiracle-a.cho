@@ -3,7 +3,7 @@
 {duration: 3:10}
 {key: D}
 {tempo: 120}
-{meta: nord: P51}
+{meta: nord:15}
 {meta: countin: 8}
 {meta: backing: 50}
 
@@ -65,9 +65,9 @@ If I [A]ever catch up with [E/B]you,
 I’m gonna [A/C#]love you for the rest of your [E]life.[B/C#]..
 
 {start_of_chorus}
-[B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou
-[B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou
-[B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou_[A/B]
+[B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou (All I need is a miracle)
+[B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou (All I need is a miracle)
+[B]All I need is a [E/G#]miracle, All I[B/F#] need is y[E]ou_[A/B] 
 {end_of_chorus}
 
 {comment: solo}

@@ -14,8 +14,8 @@
 {comment: ***********************************************}
 
 {comment: Intro}
-| Em . . . | C . . . | D . . . | Bm . . . | 
-| Em . . . | C . . . | D . . . | Bm . . . | 
+. | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . | 
+. | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . |
 
 {start_of_verse}
 [Em]Rumors goin' all over town
@@ -72,8 +72,8 @@ I just wanna [C]love some-
 {end_of_chorus}
 
 {comment: Instrumental}
-| Em . . . | C . . . | D . . . | Bm . . . | 
-| Em . . . | C . . . | D . . . | Bm . . . | 
+. | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . | 
+. | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . |
 
 {comment: JEFF double 1st & 3rd lines}
 {start_of_chorus}
@@ -88,5 +88,6 @@ I just wanna [C]love some-body
 {end_of_chorus}
 
 {comment: Outro}
-| Em . . . | C . . . | D . . . | Bm . . . | 
-| Em . . . | C . . . | D . . . | ----     |
+. | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . | 
+. | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . |
+. | [Em] --- |

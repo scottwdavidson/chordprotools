@@ -16,7 +16,7 @@
 {comment: ***********************************************}
 
 {comment: Intro}
-| F . . . | F . . . |
+. | [F] . . . | [F] . . . |
 
 {sov}
 [F]It seems like yesterday,
@@ -42,6 +42,10 @@ I [Dm]remember how she [C]held me,  [Bb]oh so tight.
 [F]Against the [Am]wind,[Bb] we were running against the [F]wind.
 We were [Bb]young and [Am]strong, we were [Gm]running a[Bb]gainst the [F]wind.
 {eoc}
+
+. | [F] (wind) . . | [F] . . . |
+. | [F] .      . . | [F] . . . | 
+
 
 {sov}
 And the [F]years rolled slowly past.
@@ -69,12 +73,14 @@ I [Bb]found my[Am]self seeking [Gm]shelter a[Bb]gainst the [F]wind.
 {eoc}
 
 {comment: Solo}
-| (wind) F ...    | F ... |
-| F ...  | F ...  | F ...  | F ...  |
-| Am ... | Am ... | Bb ...  | F ...  |
-| C ...  | Bb (F-G-A Bb/F-Bb/E-Bb/F)   |
-| F ...  | F ...  | Am (C/A-D/B-E-C A/C-B/D-C/G) | Am ... |
-| Bb ...  | F ...  | Bb ...  | C ...  | C ... |
+. | [F] (wind) . . | [F] . . . |
+. | [F] .      . . | [F] . . . | 
+
+. | [F] ... | [F] ... | 
+. | [Am] ... | [Am] ... | [Bb] ...  | [F] ...  |
+. | [C] ...  | [Bb] (F-G-A Bb/F-Bb/E-Bb/F)   |
+. | [F] ...  | [F] ...  | [Am] (C/A-D/B-E-C A/C-B/D-C/G) | [Am] ... |
+. | [Bb] ...  | [F] ...  | [Bb] ...  | [C] ...  | [C] ... |
 
 {comment: Bridge}
 Well those [Dm]drifter’s [C]days are past me [F]now,
@@ -101,5 +107,5 @@ Against the [Bb]wind (I m still running)
 Against the [F]wind (I m still running against the wind)
 Against the [Bb]wind (still running)
 Against the [F]wind (running against the wind, running against the wind)
-[Bb] [F]
+. | [Bb] | [F] |
 {comment: End Outro}
