@@ -83,25 +83,36 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
+                    <!--
+                      Explicit processor classpath: tells Maven where to find each processor JAR.
+                      lombok-mapstruct-binding removed — it is unreliable across Java 17 patch
+                      versions and sometimes silently fails to enforce ordering (see build history).
+                    -->
                     <annotationProcessorPaths>
-                        <!-- 1) Lombok FIRST — generates constructors/getters/setters/builders -->
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
                         </path>
-                        <!-- 2) Binding shim SECOND — enforces Lombok→MapStruct ordering -->
-                        <path>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok-mapstruct-binding</artifactId>
-                            <version>0.2.0</version>
-                        </path>
-                        <!-- 3) MapStruct LAST — sees fully-processed classes with all Lombok-generated code -->
                         <path>
                             <groupId>org.mapstruct</groupId>
                             <artifactId>mapstruct-processor</artifactId>
                             <version>1.6.3</version>
                         </path>
                     </annotationProcessorPaths>
+                    <!--
+                      Explicit processor execution order via javac -processor flag.
+                      This is deterministic — javac runs them in this exact sequence every time,
+                      with no service-loader discovery races.
+                        1. Lombok main processor  — rewrites AST, adds getters/builders/etc.
+                        2. Lombok claiming processor — marks Lombok annotations as "claimed" so
+                           no downstream processor accidentally re-processes them.
+                        3. MapStruct              — now sees a fully Lombok-processed type model.
+                    -->
+                    <annotationProcessors>
+                        <annotationProcessor>lombok.launch.AnnotationProcessorHider$AnnotationProcessor</annotationProcessor>
+                        <annotationProcessor>lombok.launch.AnnotationProcessorHider$ClaimingProcessor</annotationProcessor>
+                        <annotationProcessor>org.mapstruct.ap.MappingProcessor</annotationProcessor>
+                    </annotationProcessors>
                 </configuration>
             </plugin>
             <plugin>
