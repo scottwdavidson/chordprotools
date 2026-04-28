@@ -2,7 +2,6 @@ package com.pourchoices.chordpro.adapter.out.file;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mapstruct.factory.Mappers;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
  */
 class CatalogEntryMapperTest {
 
-    private final CatalogEntryMapper mapper = Mappers.getMapper(CatalogEntryMapper.class);
+    private final CatalogEntryMapper mapper = new CatalogEntryMapper();
 
     @Test
     void testToDto_SingleObject() {
