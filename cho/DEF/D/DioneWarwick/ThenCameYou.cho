@@ -5,19 +5,13 @@
 {tempo: 116}
 {meta: nord: M23}
 {meta: countin: 4}
+{meta: backing: 09}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M23   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 09   }
 {comment:***********************************************}
-
-{meta: coutin : 4}
-
-{comment: ***********************************************}
-{comment: meta: nord : M23 **}
-{comment: meta: backing : 33 **}
-{comment: coutin : 4 **}
-{comment: ***********************************************}
 
 
 {comment: Intro}
