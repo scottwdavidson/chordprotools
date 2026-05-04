@@ -30,5 +30,6 @@ public class CatalogEntry {
     String backing;
     String ve;
     String performanceKey;
+    String set;
 
 }

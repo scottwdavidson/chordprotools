@@ -116,6 +116,14 @@ public class CatalogEntryToParsedHeaderMapper {
                             .build());
         }
 
+        if (null != catalogEntry.getSet() && !catalogEntry.getSet().isBlank()) {
+            parsedHeaderBuilder.headerLine(
+                    ParsedHeaderLine.builder()
+                            .headerDirective(HeaderDirective.SET)
+                            .value(catalogEntry.getSet())
+                            .build());
+        }
+
         return parsedHeaderBuilder.build();
     }
 }

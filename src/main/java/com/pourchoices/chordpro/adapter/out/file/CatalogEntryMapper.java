@@ -35,6 +35,7 @@ public class CatalogEntryMapper {
                 .backing(dto.getBacking())
                 .ve(dto.getVe())
                 .performanceKey(dto.getPerformanceKey())
+                .set(dto.getSet())
                 .build();
     }
 
@@ -56,6 +57,7 @@ public class CatalogEntryMapper {
                 .backing(entity.getBacking())
                 .ve(entity.getVe())
                 .performanceKey(entity.getPerformanceKey())
+                .set(entity.getSet())
                 .build();
     }
 

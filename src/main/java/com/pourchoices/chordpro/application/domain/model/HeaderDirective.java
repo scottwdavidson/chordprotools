@@ -27,6 +27,7 @@ public enum HeaderDirective {
     VERSION(List.of("version"), "0.0", true, true, 44),
     COUNTIN(List.of("countin", "Countin", "CountIn"), "24", false, true, 42),
     BACKING(List.of("backing", "Backing Track"), "99", false, true, 30),
+    SET(List.of("Set"), "null", false, true, 25),
     VE(List.of("ve", "VE"), "U99", false, true, 28),
     PERFORMANCE_KEY(List.of("performance", "performanceKey", "PerformanceKey", "Performance Key"), "Hm", false, true, 20),
     EPHEMERAL_COMMENT(List.of("**"), "null", false, false, 10),
