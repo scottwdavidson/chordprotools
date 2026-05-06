@@ -1,82 +1,524 @@
-# Pour Choices CLI: OnSong ChordPro Catalog Manager
-This command-line application was developed to streamline the management and standardization of ChordPro (.cho) files for the [Pour Choices band](https://pourchoicesmusic.com). It addresses the specific need to ensure consistency across the band's song library, particularly for performance-critical metadata used with the OnSong music application.
+# Pour Choices CLI — ChordPro Catalog Manager
 
-The tool works by creating a unified catalog of all songs from a designated directory, allowing band members to easily update song information in a familiar spreadsheet format. It then applies these changes back to the individual ChordPro files, ensuring everyone has the most up-to-date and complete versions.
+A command-line tool built for the [Pour Choices band](https://pourchoicesmusic.com) to manage, standardize, and export the band's full library of ChordPro (`.cho`) song files. It treats `song-catalog.csv` as the single source of truth for song metadata and provides a set of commands to keep the catalog and the individual song files in sync — plus generate gig-ready setlists.
 
-## Key Features
-- Song Cataloging: Automatically scans and catalogs all ChordPro (.cho) files within a specified directory.
+---
 
-- Standardized Metadata: Enforces the inclusion of essential OnSong metadata fields such as title, author, key, and duration, which is crucial for features like auto-scrolling.
+## Table of Contents
 
-- Custom Performance Metadata: Allows for the management of performance-specific information that can be displayed at the top of the chord sheet, including:
+1. [Overview](#1-overview)
+2. [Command Summary](#2-command-summary)
+3. [Commands](#3-commands)
+   - [generate-song-catalog](#generate-song-catalog)
+   - [import-new-song](#import-new-song)
+   - [update-song](#update-song)
+   - [update-songs](#update-songs)
+   - [export-setlist](#export-setlist)
+4. [Utility Scripts](#4-utility-scripts)
+5. [How to Add a New Command](#5-how-to-add-a-new-command)
 
-  - nord: The specific voice to use on the Nord piano.
+---
 
-  - capo: Whether a capo is needed on the guitar.
+## 1. Overview
 
-  - backing_track: The associated backing track number from an RC-500 Looper.
+### What It Does
 
-  - countin: The type of count-in (e.g., from the backing track or Beat Buddy drum machine).
+The tool operates on two primary data sources that live at the root of this repository:
 
-- CSV-based Editing: Generates a .csv file for easy, bulk editing of song data using spreadsheet applications like Google Sheets or Microsoft Excel.
+| Resource | Purpose |
+|---|---|
+| `song-catalog.csv` | The master catalog — one row per song file, all metadata fields |
+| `cho/**/*.cho` | The individual ChordPro song files consumed by OnSong |
 
-- File Application: Applies all changes from the edited .csv file back to the individual ChordPro files.
-
-## How It Works
-A set of CLI commands provide band members a means to create the initial __song-catalog.csv__ catalog file and then add metadata to the catalog, which will then be reflected in the respective chordpro file. As new songs are added, they will be ingested into catalog and then be available for metadata updates. 
-
-## Installation
-TBD 
-
-## Usage
-The following subsections describe the core use cases and how to execute them via the CLI. 
-
-### Generate Song Catalog
-Generates an entirely new catalog based on the set of chordpro song files found under the __cho__ directory. 
+The general workflow is:
 
 ```
+1. Scan .cho files  ──▶  generate-song-catalog  ──▶  song-catalog.csv
+                                                         │
+2. Edit metadata in a spreadsheet (Google Sheets, Excel) ◀──┘
+                                                         │
+3. tidy-song-catalog  (strips Windows newline artifacts) │
+                                                         ▼
+4. update-song / update-songs  ──▶  .cho files updated with new metadata
+                                                         │
+5. export-setlist  ──▶  setlist.csv  (gig-night printout)
+```
+
+### Song Catalog Fields
+
+Each row in `song-catalog.csv` maps to a ChordPro file and carries the following metadata:
+
+| Field | Description |
+|---|---|
+| `TITLE` | Song title |
+| `ARTIST` | Artist or band name |
+| `KEY` | Musical key of this specific `.cho` file |
+| `DURATION` | Song duration (e.g. `3:30`) |
+| `TEMPO` | BPM |
+| `COUNTIN` | Count-in type — beat buddy, backing track, etc. |
+| `BACKING` | Backing track number on the RC-500 Looper |
+| `NORD` | Voice preset on the Nord piano |
+| `ROLAND` | Voice preset on the Roland keyboard |
+| `VE` | Vocal effects preset |
+| `PERFORMANCE KEY` | Key the band actually performs in (may differ from the `.cho` file's key) |
+| `TIME SIGNATURE` | Time signature (e.g. `4/4`) |
+| `CAPO` | Guitar capo position, if any |
+| `VERSION` | Version tag for songs with multiple arrangements |
+| `CHORDPRO FILENAME` | Relative path to the `.cho` file |
+| `SET` | Set assignment code (e.g. `A01`, `B02`) — drives the setlist |
+
+### Technology Stack
+
+| Layer | Technology |
+|---|---|
+| Language | Java 17 |
+| Framework | Spring Boot 3.5 |
+| CLI | [picocli](https://picocli.info) via `picocli-spring-boot-starter` |
+| CSV I/O | [OpenCSV](https://opencsv.sourceforge.net) |
+| Build | Apache Maven |
+
+### Repository Layout
+
+```
+chordprotools/
+├── cho/                    # ChordPro song files (ABC/, DEF/, GHI/, ...)
+├── pdf/                    # PDF lead sheets and fake books
+├── song-catalog.csv        # Master song catalog — edit this in a spreadsheet
+├── setlist.csv             # Generated by export-setlist; not committed
+├── generate-song-catalog   # Script — rebuild the entire catalog from .cho files
+├── update-song             # Script — push one song's catalog metadata to its .cho file
+├── update-songs            # Script — push a list of songs from updateSongsListing.txt
+├── find-song               # Script — search .cho files by filename fragment
+├── tidy-song-catalog       # Script — strip Windows (\r) newlines from the CSV
+├── fix-directive           # Script — bulk-fix legacy {c: directives to {comment:
+├── fix-directive-dry-run   # Script — preview of fix-directive changes
+├── copyChoSetlist          # Script — copy all .cho files to ~/tmp/setlist-ff/
+├── copyAllSetlist          # Script — copy all .cho and .pdf to ~/tmp/setlist-ff/
+├── copySetlist             # Script — copy a hand-curated gig setlist to ~/tmp/setlist-ff/
+├── help                    # Script — show CLI help
+└── src/                    # Java source code
+    └── main/java/com/pourchoices/chordpro/
+        ├── adapter/in/file/        # picocli commands (CLI adapters)
+        ├── adapter/out/file/       # CSV file readers / writers
+        ├── application/domain/
+        │   ├── model/              # Domain objects (CatalogEntry, Setlist, ...)
+        │   └── service/            # Business logic services
+        ├── application/port/in/    # Input port interfaces (use cases)
+        └── application/port/out/   # Output port interfaces
+```
+
+---
+
+## 2. Command Summary
+
+All commands are exposed through the `chordpro-parser` CLI application. Each has a corresponding top-level shell script for everyday use.
+
+| Script | CLI Subcommand | Description |
+|---|---|---|
+| `./generate-song-catalog` | `generate-song-catalog` | Scan all `.cho` files and rebuild `song-catalog.csv` from scratch |
+| *(direct invocation)* | `import-new-song` | Add a single newly-created `.cho` file into the catalog |
+| `./update-song` | `update-song` | Push catalog metadata back into one specific `.cho` file |
+| `./update-songs` | `update-songs` | Push catalog metadata back into a list of `.cho` files |
+| `./export-setlist` *(or direct)* | `export-setlist` | Filter the catalog to set-assigned songs and export a gig-ready `setlist.csv` |
+
+Quick help at any time:
+
+```zsh
+./help
+```
+
+---
+
+## 3. Commands
+
+### `generate-song-catalog`
+
+**Script:** `./generate-song-catalog`
+
+Recursively scans every `.cho` file under the `cho/` directory, parses the ChordPro headers from each file, and writes a fresh `song-catalog.csv`. Run this when bootstrapping the catalog or after adding a batch of new songs.
+
+> ⚠️ This **overwrites** the existing `song-catalog.csv`. Make sure any unsaved spreadsheet edits have already been applied via `update-song` / `update-songs` before running.
+
+**What the script does:**
+
+```zsh
+# 1. Build a sorted file listing of every .cho file
+find . -name "*.cho" | sort >& songsListing.txt
+
+# 2. Run the catalog generator against that listing
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="generate-song-catalog ./songsListing.txt"
+```
+
+**Usage:**
+
+```zsh
 ./generate-song-catalog
 ```
 
-### Tidy Catalog
-Helper script which will remove the carriage return (__"\r"__) that is typically added to the newline (__"\n"__) when editing with local spreadsheet tools or Google Sheets. 
+**After running:**
+- Open `song-catalog.csv` in Google Sheets or Excel
+- Fill in the metadata columns for new or updated songs
+- Run `./tidy-song-catalog` after saving to strip any Windows newline artifacts
+- Apply changes back to `.cho` files with `./update-song` or `./update-songs`
+
+---
+
+### `import-new-song`
+
+**Script:** *(none yet — invoke directly)*
+
+Adds a single newly-created `.cho` file to the existing `song-catalog.csv` without regenerating the whole catalog. Useful when you've just written or downloaded one new song.
+
+**Direct invocation:**
+
+```zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="import-new-song ./cho/ABC/B/BillyJoel/PressToPlay.cho"
+```
+
+**Tip:** Use `./find-song` first to confirm the exact path of the new file:
+
+```zsh
+./find-song PressToPlay
+# → ./cho/ABC/B/BillyJoel/PressToPlay.cho
+```
+
+---
+
+### `update-song`
+
+**Script:** `./update-song`
+
+Reads the metadata for a single song from `song-catalog.csv` and writes it back into that song's `.cho` file header. This is the primary way catalog edits flow back into the ChordPro files.
+
+**What the script does:**
+
+```zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="update-song ./cho/ST/T/TomPetty/HereComesMyGirl.cho"
+```
+
+The target `.cho` file path is hard-coded in the script — edit it before running.
+
+**Workflow:**
+
+1. Edit the song's row in `song-catalog.csv` (e.g. update the Nord preset, tempo, or key)
+2. Save and run `./tidy-song-catalog` if the file was edited in Google Sheets or Excel
+3. Update the path inside `./update-song` to point at the target file
+4. Run `./update-song`
+
+**Finding a song's path:**
+
+```zsh
+./find-song HereComesMyGirl
+# → ./cho/ST/T/TomPetty/HereComesMyGirl.cho
+```
+
+---
+
+### `update-songs`
+
+**Script:** `./update-songs`
+
+Applies catalog metadata to a batch of `.cho` files in a single pass. The list of files to update is read from `updateSongsListing.txt` — one path per line.
+
+**What the script does:**
+
+```zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="update-songs ./updateSongsListing.txt"
+```
+
+**Workflow:**
+
+1. Edit `updateSongsListing.txt` to list the `.cho` files you want to update, one per line:
+
+   ```
+   ./cho/ABC/B/BillyJoel/PianoMan.cho
+   ./cho/DEF/E/EltonJohn/RocketMan.cho
+   ./cho/ST/T/TomPetty/Breakdown.cho
+   ```
+
+2. Run `./tidy-song-catalog` if the catalog was recently saved from a spreadsheet
+3. Run `./update-songs`
+
+**Tip:** `./find-song` helps build the listing quickly:
+
+```zsh
+./find-song PianoMan >> updateSongsListing.txt
+```
+
+---
+
+### `export-setlist`
+
+**Script:** `./export-setlist` *(not yet created — see below for direct invocation)*
+
+Reads `song-catalog.csv`, filters it to only the songs that have a value in the `SET` column, sorts them by that value (e.g. `A01 → A02 → B01 → B02`), and writes a `setlist.csv`. Also prints a formatted summary table to the terminal for a quick pre-gig eyeball check.
+
+The `SET` column uses a sortable alphanumeric code to define the running order across sets:
+
+| Code | Meaning |
+|---|---|
+| `A01` | Set A, song 1 |
+| `A02` | Set A, song 2 |
+| `B01` | Set B, song 1 |
+| `C03` | Set C, song 3 |
+
+**Direct invocation (default output path `./setlist.csv`):**
+
+```zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="export-setlist"
+```
+
+**Custom output path:**
+
+```zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="export-setlist --output ./gig-2025-06-14.csv"
+```
+
+**Terminal output example:**
 
 ```
+Setlist export complete — 7 songs written to ./setlist.csv
+
+SET     TITLE                                     ARTIST                     KEY
+-------------------------------------------------------------------------------------
+A01     How Long                                  Ace                        A
+A02     Year of the Cat                           Al Stewart                 Em
+B01     Hungry Heart                              Bruce Springsteen          C
+B02     Daniel                                    Elton John                 C
+C01     My Life                                   Billy Joel                 D
+C02     Money (That's What I Want)                Barrett Strong             E
+C03     Ebony Eyes                                Bob Welch                  Gm
+```
+
+**To create a convenience script**, add an `export-setlist` file at the repo root:
+
+```zsh
+#!/bin/zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="export-setlist ${1:+--output $1}"
+```
+
+Then `chmod +x export-setlist` and call it as:
+
+```zsh
+./export-setlist                          # → setlist.csv
+./export-setlist ./gig-2025-06-14.csv    # → named output
+```
+
+---
+
+## 4. Utility Scripts
+
+These scripts are pure shell — they do not invoke the Java application.
+
+### `tidy-song-catalog`
+
+Strips Windows-style carriage returns (`\r`) from `song-catalog.csv`. Always run this after saving the catalog from Google Sheets or Excel before running any update command.
+
+```zsh
 ./tidy-song-catalog
 ```
 
-### Import New Song 
-Brings in a newly added song into the song catalog. 
+### `find-song`
 
-### Update A Song
-Updates the chordpro song file's metadata based on changes made in the song catalog. 
+Searches all `.cho` files under `cho/` by filename fragment. Useful for quickly getting the full path to pass into `update-song` or `updateSongsListing.txt`.
 
-```
-./update-song
-```
+```zsh
+./find-song HereComesMyGirl
+# → ./cho/ST/T/TomPetty/HereComesMyGirl.cho
 
-### Update Songs
-Updates a set of chordpro song file's metadata based on changes made in the song catalog. 
-
-```
-./update-songs
+./find-song PianoMan
+# → ./cho/ABC/B/BillyJoel/PianoMan-a.cho
+# → ./cho/ABC/B/BillyJoel/PianoMan-old.cho
+# → ./cho/ABC/B/BillyJoel/PianoMan.cho
 ```
 
-### Find Song
-Shortcut tool which executes a find of all song files and then greps for the 
-provided input argument so that you can quickly get a song's full path to be 
-used in other commands, e.g., update song(s). 
+### `fix-directive`
+
+Bulk-updates all `.cho` files to replace legacy `{c:` comment directives with the standards-compliant `{comment:` form. Run this once after pulling in older ChordPro files from outside sources.
+
+```zsh
+# Preview changes first
+./fix-directive-dry-run
+
+# Apply changes
+./fix-directive
+```
+
+### `copyChoSetlist`
+
+Copies every `.cho` file in the repository into `~/tmp/setlist-ff/`, creating the directory fresh each time. Useful for staging all song files for import into OnSong or another reader app.
+
+```zsh
+./copyChoSetlist
+```
+
+### `copyAllSetlist`
+
+Like `copyChoSetlist` but also includes all `.pdf` lead sheets and fake books. Does **not** recreate the directory first — it adds to whatever is already in `~/tmp/setlist-ff/`.
+
+```zsh
+./copyAllSetlist
+```
+
+### `copySetlist`
+
+Copies a hand-curated list of specific `.cho` files (and select PDFs) into `~/tmp/setlist-ff/`. Edit this script directly to match the songs for a specific gig. Unlike `export-setlist`, this script is maintained manually.
+
+```zsh
+./copySetlist
+```
+
+> **Note:** As `export-setlist` matures, the goal is to have the `SET` column drive setlist management entirely, reducing the need for manual `copySetlist` edits.
+
+---
+
+## 5. How to Add a New Command
+
+The application follows a [Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) pattern. Adding a new command requires touching five files in a consistent, layered order. The `export-setlist` feature is a good reference implementation to follow.
+
+### Step 1 — Define the domain model (if needed)
+
+If the command introduces a new concept, create an immutable domain object in:
 
 ```
-./update-songs
+src/main/java/com/pourchoices/chordpro/application/domain/model/
 ```
-### (new feature) Generate set list
 
-## Future Plans
-The initial version of this application is complete, and we plan to expand its functionality to provide other valuable gig and practice support features for the band.
+Use Lombok `@Value` + `@Builder` to keep it concise and immutable, matching the pattern of `CatalogEntry` and `Setlist`.
+
+### Step 2 — Create the input port (use case interface)
+
+Define what the command *does* as an interface in:
+
+```
+src/main/java/com/pourchoices/chordpro/application/port/in/
+```
+
+```java
+public interface MyNewFeatureUseCase {
+    MyResult doTheThing(String someInput);
+}
+```
+
+### Step 3 — Implement the service
+
+Write the business logic in:
+
+```
+src/main/java/com/pourchoices/chordpro/application/domain/service/
+```
+
+- Annotate with `@Service`
+- Inject dependencies via `@AllArgsConstructor(onConstructor_ = @__(@Autowired))`
+- Implement the use case interface from Step 2
+- Depend only on port interfaces and domain objects — never on adapter classes directly
+
+```java
+@Service
+@AllArgsConstructor(onConstructor_ = @__(@Autowired))
+@Slf4j
+public class MyNewFeatureService implements MyNewFeatureUseCase {
+
+    private final CatalogPort catalogPort;
+    private final ChordproCatalogIndexPathConfig config;
+
+    @Override
+    public MyResult doTheThing(String someInput) {
+        // business logic here
+    }
+}
+```
+
+### Step 4 — Create the picocli command
+
+Add the CLI adapter in:
+
+```
+src/main/java/com/pourchoices/chordpro/adapter/in/file/
+```
+
+```java
+@Component
+@Command(name = "my-new-command", description = "Does the thing.")
+@Slf4j
+public class MyNewCommand implements Runnable {
+
+    @Autowired
+    private MyNewFeatureUseCase myNewFeatureUseCase;
+
+    @Parameters(index = "0", description = "The input value.")
+    private String someInput;
+
+    @Override
+    public void run() {
+        myNewFeatureUseCase.doTheThing(someInput);
+    }
+}
+```
+
+Use `@Parameters` for positional arguments and `@Option` for named flags (e.g. `--output`).
+
+### Step 5 — Register the command
+
+Add the new command class to the `subcommands` list in `ChordproToolsMainCommand`:
+
+```java
+@Command(name = "chordpro-parser",
+         mixinStandardHelpOptions = true,
+         subcommands = {
+                 GenerateSongCatalogCommand.class,
+                 ImportNewSongCommand.class,
+                 UpdateSongsCommand.class,
+                 UpdateSongCommand.class,
+                 ExportSetlistCommand.class,
+                 MyNewCommand.class        // ← add here
+         })
+public class ChordproToolsMainCommand implements Runnable { ... }
+```
+
+### Step 6 — Add a shell script (optional but recommended)
+
+Create a convenience script at the repo root that wraps the Maven invocation:
+
+```zsh
+#!/bin/zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="my-new-command $1"
+```
+
+Make it executable:
+
+```zsh
+chmod +x my-new-command-script
+```
+
+### Step 7 — Write a test
+
+Add a unit test under:
+
+```
+src/test/java/com/pourchoices/chordpro/
+```
+
+Mirror the existing test structure — mock collaborators with Mockito, test the service logic independently of Spring context.
+
+### Step 8 — Update this README
+
+Add a row to the [Command Summary](#2-command-summary) table and a section under [Commands](#3-commands).
+
+---
 
 ## Contributing
-We welcome contributions from fellow band members and developers. If you have an idea for a new feature or find a bug, please open an issue or submit a pull request.
+
+Contributions from band members and developers are welcome. Open an issue or submit a pull request for new features or bug fixes.
 
 ## License
+
 This project is licensed under the MIT License.
