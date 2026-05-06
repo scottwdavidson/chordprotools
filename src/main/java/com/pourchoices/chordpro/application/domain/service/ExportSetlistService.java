@@ -1,7 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.adapter.out.file.CatalogEntryMapper;
-import com.pourchoices.chordpro.adapter.out.file.CatalogFileWriter;
+import com.pourchoices.chordpro.adapter.out.file.SetlistEntryDto;
+import com.pourchoices.chordpro.adapter.out.file.SetlistFileWriter;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.Setlist;
 import com.pourchoices.chordpro.application.port.in.ExportSetlistUseCase;
@@ -22,8 +22,9 @@ import org.springframework.stereotype.Service;
  * sorts them by that value (lexicographic — e.g. A01, A02, B01), and writes the result
  * to a setlist CSV file.
  *
- * <p>The output CSV shares the same column layout as the master catalog so that
- * existing tooling (printers, scripts, other commands) can consume it without changes.
+ * <p>The in-memory {@link Setlist} retains the full {@link CatalogEntry} data for
+ * downstream use.  The CSV output is written via {@link SetlistFileWriter} using the
+ * slim {@link SetlistEntryDto} view: SET, SONG TITLE, SONG ARTIST, KEY only.
  */
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
@@ -31,8 +32,7 @@ import org.springframework.stereotype.Service;
 public class ExportSetlistService implements ExportSetlistUseCase {
 
     private final CatalogPort catalogPort;
-    private final CatalogFileWriter catalogFileWriter;
-    private final CatalogEntryMapper catalogEntryMapper;
+    private final SetlistFileWriter setlistFileWriter;
     private final ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig;
 
     @Override
@@ -56,9 +56,18 @@ public class ExportSetlistService implements ExportSetlistUseCase {
                 .entries(setlistEntries)
                 .build();
 
-        // --- 4. Write the setlist CSV (reusing the catalog writer — same format) ---
+        // --- 4. Project to the slim view DTO and write the setlist CSV ---
+        List<SetlistEntryDto> setlistDtos = setlistEntries.stream()
+                .map(e -> SetlistEntryDto.builder()
+                        .set(e.getSet())
+                        .songTitle(e.getTitle())
+                        .songArtist(e.getArtist())
+                        .key(e.getKey())
+                        .build())
+                .toList();
+
         Path outputPath = Paths.get(outputPathString);
-        catalogFileWriter.writeCatalogToCsv(outputPath, catalogEntryMapper.toDtoList(setlistEntries));
+        setlistFileWriter.writeSetlistToCsv(outputPath, setlistDtos);
         log.info("Setlist ({} songs) written to {}", setlist.size(), outputPath.toAbsolutePath());
 
         return setlist;
