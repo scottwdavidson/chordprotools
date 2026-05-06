@@ -1,22 +1,22 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.port.in.ImportNewSongUseCase;
-import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * Placeholder — import-new-song is not yet implemented.
+ *
+ * When implemented this service will:
+ *   1. Parse the supplied .cho file into a ParsedSong
+ *   2. Derive a CatalogEntry from the parsed header
+ *   3. Append the new entry to the song-catalog.csv via CatalogPort
+ */
 @Service
-@AllArgsConstructor(onConstructor_ = @__(@Autowired))
 public class ImportNewSongService implements ImportNewSongUseCase {
-
 
     @Override
     public void importNewSong(String chordproSongPathString) {
-
-        // import the song catalog
-
-        // import the song
-
-
+        throw new UnsupportedOperationException(
+                "import-new-song is not yet implemented: " + chordproSongPathString);
     }
 }

@@ -1,15 +1,8 @@
 package com.pourchoices.chordpro.application.domain.model;
 
-import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
-import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
-import com.pourchoices.chordpro.application.domain.model.ParsedSongPhrase;
-import com.pourchoices.chordpro.application.domain.model.SongDirective;
 import lombok.Builder;
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
 
 
 @Value

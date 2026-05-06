@@ -1,8 +1,6 @@
 package com.pourchoices.chordpro.application.domain.model;
 
-import com.opencsv.bean.CsvBindByName;
 import lombok.Builder;
-import lombok.Data;
 import lombok.NonNull;
 import lombok.Value;
 

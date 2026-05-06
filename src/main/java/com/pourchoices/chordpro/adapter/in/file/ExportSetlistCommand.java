@@ -4,7 +4,6 @@ import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.Setlist;
 import com.pourchoices.chordpro.application.port.in.ExportSetlistUseCase;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
@@ -32,8 +31,11 @@ public class ExportSetlistCommand implements Runnable {
 
     private static final String DEFAULT_OUTPUT = "./setlist.csv";
 
-    @Autowired
-    private ExportSetlistUseCase exportSetlistUseCase;
+    private final ExportSetlistUseCase exportSetlistUseCase;
+
+    public ExportSetlistCommand(ExportSetlistUseCase exportSetlistUseCase) {
+        this.exportSetlistUseCase = exportSetlistUseCase;
+    }
 
     @Option(
             names = {"--output", "-o"},

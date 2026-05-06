@@ -1,27 +1,27 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.file.Path;
 
 /**
- * Reader which writes the ParsedSong to the specified chordpro filename
+ * Writes a {@link ParsedSong} back to its chordpro file, overwriting the existing content.
  */
 @Service
+@Slf4j
 public class ChordProFileWriter {
 
     public void write(Path chordproSongPath, ParsedSong parsedSong) {
 
-        // TODO shouldn't I be passing a Path ?
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(chordproSongPath.toFile(), false))) { // Using false for overwrite
-
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(chordproSongPath.toFile(), false))) {
             writer.write(parsedSong.toString());
-
-        } catch (IOException ioException) {
-            // Handle the exception, e.g., print stack trace or rethrow.
-            ioException.printStackTrace();
+        } catch (IOException e) {
+            log.error("Failed to write chordpro file: {}", chordproSongPath, e);
         }
     }
 }

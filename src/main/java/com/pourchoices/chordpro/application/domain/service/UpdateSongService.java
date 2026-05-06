@@ -1,7 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
-import com.pourchoices.chordpro.application.domain.model.CatalogEntryToParsedHeaderMapper;
+import com.pourchoices.chordpro.application.domain.service.CatalogEntryToParsedHeaderMapper;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import com.pourchoices.chordpro.application.port.in.UpdateSongUseCase;

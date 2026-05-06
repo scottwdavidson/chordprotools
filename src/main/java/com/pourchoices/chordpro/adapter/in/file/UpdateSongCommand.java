@@ -2,13 +2,9 @@ package com.pourchoices.chordpro.adapter.in.file;
 
 import com.pourchoices.chordpro.application.port.in.UpdateSongUseCase;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Parameters;
-
 
 @Component
 @Command(name = "update-song", description = "Updates a specific chord sheet based on the catalog")
@@ -18,15 +14,15 @@ public class UpdateSongCommand implements Runnable {
     @Parameters(index = "0", description = "Path to the song to be updated.")
     private String chordproSongPathString;
 
-    @Autowired
-    private UpdateSongUseCase updateSongService;
+    private final UpdateSongUseCase updateSongUseCase;
+
+    public UpdateSongCommand(UpdateSongUseCase updateSongUseCase) {
+        this.updateSongUseCase = updateSongUseCase;
+    }
 
     @Override
     public void run() {
-
-        // Your index generation logic here, using this.inputFile
-        log.info("Updating Song: {}", chordproSongPathString);
-
-        this.updateSongService.updateSong(chordproSongPathString);
+        log.info("Updating song: {}", chordproSongPathString);
+        this.updateSongUseCase.updateSong(chordproSongPathString);
     }
 }

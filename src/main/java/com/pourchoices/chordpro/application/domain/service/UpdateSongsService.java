@@ -1,6 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.application.domain.model.*;
+import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import com.pourchoices.chordpro.application.port.in.UpdateSongsUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

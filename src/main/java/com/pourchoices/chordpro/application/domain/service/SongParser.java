@@ -11,9 +11,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /**
  * Parsing a chordpro song ( file ) in the form of a java.util.List of java.lang.String objects
  * into a ParsedSong object.

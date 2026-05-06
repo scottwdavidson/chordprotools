@@ -1,21 +1,20 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
-import lombok.Builder;
-import lombok.Value;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Reader which reads the entire ChordPro file into a list of "lines" to then be processed
+ * Reads a ChordPro song file into a list of raw lines for downstream processing.
  */
 @Service
+@Slf4j
 public class ChordProFileReader {
 
     public List<String> read(Path chordproSongPath) {
@@ -25,14 +24,12 @@ public class ChordProFileReader {
         try (BufferedReader reader = new BufferedReader(new FileReader(chordproSongPath.toFile()))) {
 
             String line;
-
-            // Read lines until the end of the file (readLine() returns null)
             while ((line = reader.readLine()) != null) {
                 songFile.add(line);
             }
+
         } catch (IOException e) {
-            // Handle any potential I/O errors (e.g., file not found, permissions issues)
-            e.printStackTrace();
+            log.error("Failed to read chordpro file: {}", chordproSongPath, e);
         }
 
         return songFile;
