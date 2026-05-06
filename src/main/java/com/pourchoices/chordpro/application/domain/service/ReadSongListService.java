@@ -1,23 +1,18 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
-import com.pourchoices.chordpro.application.domain.model.*;
+import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
+import com.pourchoices.chordpro.application.port.out.SongListingPort;
 import lombok.AllArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
-public class ReadSongListService  {
+public class ReadSongListService {
 
-    private final SongListingFileReader songListingFileReader;
+    private final SongListingPort songListingPort;
 
-    public ChordProFileListing readSongList(String songsListingPathString){
-
-        // read the song catalog path string file
-        return this.songListingFileReader.read(songsListingPathString);
-
+    public ChordProFileListing readSongList(String songsListingPathString) {
+        return this.songListingPort.readSongListing(songsListingPathString);
     }
 }

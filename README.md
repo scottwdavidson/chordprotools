@@ -1,6 +1,6 @@
 # Pour Choices CLI — ChordPro Catalog Manager
 
-A command-line tool built for the [Pour Choices band](https://pourchoicesmusic.com) to manage, standardize, and export the band's full library of ChordPro (`.cho`) song files. It treats `song-catalog.csv` as the single source of truth for song metadata and provides a set of commands to keep the catalog and the individual song files in sync — plus generate gig-ready setlists.
+A command-line tool built for the [Pour Choices band](https://pourchoicesmusic.com) to standardize and manage the band's full library of ChordPro (`.cho`) song files. It treats `song-catalog.csv` as the single source of truth for song metadata and provides a set of commands to keep the catalog and the individual song files in sync — plus generate gig-ready setlists.
 
 ---
 

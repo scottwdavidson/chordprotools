@@ -1,14 +1,11 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
-import com.pourchoices.chordpro.adapter.out.file.SongListingFileReader;
-import com.pourchoices.chordpro.adapter.out.file.ChordProFileWriter;
 import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import com.pourchoices.chordpro.application.port.out.ChordProPort;
+import com.pourchoices.chordpro.application.port.out.SongListingPort;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,35 +19,29 @@ import java.util.List;
 public class HeaderFixer {
 
     private final SongParser songParser;
-    private final SongListingFileReader songListingFileReader;
-    private final ChordProFileReader chordProFileReader;
-    private final ChordProFileWriter chordProFileWriter;
+    private final SongListingPort songListingPort;
+    private final ChordProPort chordProPort;
 
-    public void fix(String songsFilename){
+    public void fix(String songsFilename) {
 
-        // read the song listing file
-        ChordProFileListing chordProFileListing = this.songListingFileReader.read(songsFilename);
+        ChordProFileListing chordProFileListing = this.songListingPort.readSongListing(songsFilename);
 
         log.info("ChordProFileListing: {}", chordProFileListing);
 
-        // iterate through the song listing and fix each song
-        for(String songFilename : chordProFileListing.getChordProFileNames()){
+        for (String songFilename : chordProFileListing.getChordProFileNames()) {
             log.info("Fixing : {}", songFilename);
             fixSong(songFilename);
         }
     }
+
     public void fixSong(String chordproSongFilename) {
 
-        // read the song file and parse it
         Path chordproSongPath = Paths.get(chordproSongFilename);
-        List<String> songAsStringLines = this.chordProFileReader.read(chordproSongPath);
+        List<String> songAsStringLines = this.chordProPort.read(chordproSongPath);
         ParsedSong parsedSong = this.songParser.parse(chordproSongFilename, songAsStringLines);
 
         // add missing mandatory header directives ( w/ default values )
 
-        // write the updated song file
-        this.chordProFileWriter.write(chordproSongPath, parsedSong);
-
+        this.chordProPort.write(chordproSongPath, parsedSong);
     }
-
 }

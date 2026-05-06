@@ -10,8 +10,13 @@ import java.util.List;
 @Service
 public class ChordProAdapter implements ChordProPort {
 
-    private ChordProFileReader chordProFileReader;
-    private ChordProFileWriter chordProFileWriter;
+    private final ChordProFileReader chordProFileReader;
+    private final ChordProFileWriter chordProFileWriter;
+
+    public ChordProAdapter(ChordProFileReader chordProFileReader, ChordProFileWriter chordProFileWriter) {
+        this.chordProFileReader = chordProFileReader;
+        this.chordProFileWriter = chordProFileWriter;
+    }
 
     @Override
     public List<String> read(Path chordproSongPath) {

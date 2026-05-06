@@ -1,15 +1,17 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.adapter.out.file.CatalogEntryDto;
-import com.pourchoices.chordpro.adapter.out.file.CatalogFileWriter;
-import com.pourchoices.chordpro.adapter.out.file.ChordProFileReader;
-import com.pourchoices.chordpro.application.domain.model.*;
+import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
+import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
+import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import com.pourchoices.chordpro.application.port.in.GenerateSongCatalogUseCase;
+import com.pourchoices.chordpro.application.port.out.CatalogPort;
+import com.pourchoices.chordpro.application.port.out.ChordProPort;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,97 +26,72 @@ import java.util.List;
 public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
 
     private final ReadSongListService readSongListService;
-    private final CatalogFileWriter catalogFileWriter;
-
-    private final ChordProFileReader chordProFileReader;
+    private final CatalogPort catalogPort;
+    private final ChordProPort chordProPort;
     private final SongParser songParser;
-
     private final ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig;
 
-    public void generateSongCatalog(String songsListingPathString){
+    public void generateSongCatalog(String songsListingPathString) {
 
-        // read the song catalog path string file
-        ChordProFileListing chordProFileListing = this.readSongListService.readSongList(songsListingPathString);
+        // read the song listing file
+        ChordProFileListing chordProFileListing =
+                this.readSongListService.readSongList(songsListingPathString);
 
-        // parse each song and insert the metadata into the index
-        List<CatalogEntryDto> catalogEntryDtos = new ArrayList<>();
-        for(String chordProFilename: chordProFileListing.getChordProFileNames()) {
+        // parse each song and map its header metadata into a domain CatalogEntry
+        List<CatalogEntry> catalogEntries = new ArrayList<>();
+        for (String chordProFilename : chordProFileListing.getChordProFileNames()) {
 
             log.info("chordProFilename: {}", chordProFilename);
 
-            List<String> songFile = this.chordProFileReader.read(Paths.get(chordProFilename));
+            List<String> songFile = this.chordProPort.read(Paths.get(chordProFilename));
             ParsedSong song = this.songParser.parse(chordProFilename, songFile);
 
-            ParsedHeader parsedHeader = song.getParsedHeader();
-            catalogEntryDtos.add(toCatalogEntryDto(chordProFilename, parsedHeader));
-
+            CatalogEntry entry = toCatalogEntry(chordProFilename, song.getParsedHeader());
+            if (entry != null) {
+                catalogEntries.add(entry);
+            }
         }
 
-        log.info("Catalog DTOs: {}", catalogEntryDtos);
+        log.info("Catalog entries: {}", catalogEntries.size());
 
-        Path catalogIndexPath = Paths.get(this.chordproCatalogIndexPathConfig.getCatalogIndexPath());
+        Path catalogIndexPath = Paths.get(chordproCatalogIndexPathConfig.getCatalogIndexPath());
         log.info("catalogIndexPath: {}", catalogIndexPath);
 
-        this.catalogFileWriter.writeCatalogToCsv(catalogIndexPath,catalogEntryDtos);
+        this.catalogPort.writeCatalogToCsv(catalogIndexPath, catalogEntries);
     }
 
-    private CatalogEntryDto toCatalogEntryDto(String chordproFilename, ParsedHeader parsedHeader){
+    private CatalogEntry toCatalogEntry(String chordproFilename, ParsedHeader parsedHeader) {
 
-        CatalogEntryDto.CatalogEntryDtoBuilder builder = CatalogEntryDto.builder();
-
-        if ( parsedHeader.getHeaderLines().isEmpty() ) {
+        if (parsedHeader.getHeaderLines().isEmpty()) {
             return null;
         }
 
-        builder.chordProFilename(chordproFilename);
+        CatalogEntry.CatalogEntryBuilder builder = CatalogEntry.builder()
+                .chordProFilename(chordproFilename)
+                .title("")
+                .artist("")
+                .key("")
+                .duration("");
 
-        for (ParsedHeaderLine parsedHeaderLine : parsedHeader.getHeaderLines()) {
+        for (ParsedHeaderLine line : parsedHeader.getHeaderLines()) {
+            HeaderDirective d = line.getHeaderDirective();
+            String v = line.getValue();
 
-            if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.TITLE){
-                builder.title(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.ARTIST){
-                builder.artist(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.KEY){
-                builder.key(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.DURATION){
-                builder.duration(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.TEMPO){
-                builder.tempo(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.TIME_SIGNATURE){
-                builder.timeSignature(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.CAPO){
-                builder.capo(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.NORD){
-                builder.nord(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.ROLAND){
-                builder.roland(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.VERSION){
-                builder.version(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.COUNTIN){
-                builder.countin(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.BACKING){
-                builder.backing(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.VE){
-                builder.ve(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.PERFORMANCE_KEY){
-                builder.performanceKey(parsedHeaderLine.getValue());
-            }
-            else if (parsedHeaderLine.getHeaderDirective() == HeaderDirective.SET){
-                builder.set(parsedHeaderLine.getValue());
-            }
+            if (d == HeaderDirective.TITLE)            builder.title(v);
+            else if (d == HeaderDirective.ARTIST)      builder.artist(v);
+            else if (d == HeaderDirective.KEY)         builder.key(v);
+            else if (d == HeaderDirective.DURATION)    builder.duration(v);
+            else if (d == HeaderDirective.TEMPO)       builder.tempo(v);
+            else if (d == HeaderDirective.TIME_SIGNATURE) builder.timeSignature(v);
+            else if (d == HeaderDirective.CAPO)        builder.capo(v);
+            else if (d == HeaderDirective.NORD)        builder.nord(v);
+            else if (d == HeaderDirective.ROLAND)      builder.roland(v);
+            else if (d == HeaderDirective.VERSION)     builder.version(v);
+            else if (d == HeaderDirective.COUNTIN)     builder.countin(v);
+            else if (d == HeaderDirective.BACKING)     builder.backing(v);
+            else if (d == HeaderDirective.VE)          builder.ve(v);
+            else if (d == HeaderDirective.PERFORMANCE_KEY) builder.performanceKey(v);
+            else if (d == HeaderDirective.SET)         builder.set(v);
         }
 
         return builder.build();

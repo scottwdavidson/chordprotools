@@ -28,10 +28,7 @@ public class ChordproParserApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		String songsFilename = args[0];
-
 		new CommandLine(chordproToolsMainCommand, factory).execute(args);
-
 	}
 
 }
