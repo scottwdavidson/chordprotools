@@ -1,6 +1,6 @@
 {title: More Than My Hometown}
 {artist: Morgan Wallen}
-{key: G}
+{key: F}
 {duration: 3:10}
 {tempo: 126}
 {time: 4/4}
@@ -9,72 +9,73 @@
 {comment: ***********************************************}
 
 {comment: Intro}
-| G | G | Am | Am | Em | Em | C | C |
+. | [F]  | [F]  | [Gm] | [Gm] |
+. | [Dm] | [Dm] | [Bb] | [Bb] |
 
-{sov}
-[G]Girl our mama's are best friends and so are we
-The whole to[Am]wn was rooting for us like the home team
-[Em]Most likely to settle down, plant a few roots real [C]deep and let 'em grow
-{eov}
+{start_of_verse}
+[F]Girl our mama's are best friends and so are we
+The whole to[Gm]wn was rooting for us like the home team
+[Dm]Most likely to settle down, plant a few roots real [Bb]deep and let 'em grow
+{end_of_verse}
 
-{sov}
-[G]We can't stop this real world from spinning us
-[Am]Your bright lights called, I don't blame you for picking up
-[Em]Your big dream bags are all packed up and ready to [C]go
+{start_of_verse}
+[F]We can't stop this real world from spinning us
+[Gm]Your bright lights called, I don't blame you for picking up
+[Dm]Your big dream bags are all packed up and ready to [Bb]go
 But I just need you to know
-{eov}
- 
-{soc} 
-[G]That I love you more than a California sunset
-More than a beer [Am]when you ain't 21 yet
-More than a Sun[Em]day morning Lord turnin' some poor lost soul f[C]ound, Halleluiah bound
+{end_of_verse}
 
-Yeah, I love you [G]more than a feeling when a bass hits the hook
-When the g[Am]uy gets the girl at the end of the book
-But baby, t[Em]his might be the last time I get to lay [C]you down
-Cause I can't love you more than my hometo[G]wn [G][G]
-{eoc}
+{start_of_chorus}
+[F]That I love you more than a California sunset
+More than a beer [Gm]when you ain't 21 yet
+More than a Sun[Dm]day morning Lord turnin' some poor lost soul f[Bb]ound, Halleluiah bound
 
-{sov}
-[G]I ain't the runaway kind, I can't change that
-[Am]My heart's stuck in these streets like the train tracks
-[Em]City sky ain't the same black
-Ain't that a ma[C]p dot shame, man, to think that
-{eov}
+Yeah, I love you [F]more than a feeling when a bass hits the hook
+When the g[Gm]uy gets the girl at the end of the book
+But baby, t[Dm]his might be the last time I get to lay [Bb]you down
+Cause I can't love you more than my hometo[F]wn [F][F]
+{end_of_chorus}
 
-{soc} 
-[G]That I love you more than a California sunset
-More than a beer [Am]when you ain't 21 yet
-More than a Sun[Em]day morning Lord turnin' some poor lost soul f[C]ound, Halleluiah bound
+{start_of_verse}
+[F]I ain't the runaway kind, I can't change that
+[Gm]My heart's stuck in these streets like the train tracks
+[Dm]City sky ain't the same black
+Ain't that a ma[Bb]p dot shame, man, to think that
+{end_of_verse}
 
-Yeah, I love you [G]more than the feeling when a bass hits the hook
-When the g[Am]uy gets the girl at the end of the book
-But baby, t[Em]his might be the last time I get to lay [C]you down
-Cause I can't love you more than my hometo[G]wn[G]
-{eoc}
-  
-{sob}
-Yeah, You g[G]ot a wild in your eyes that I just wasn't born with
-I'm a same [Am]gas station cup of coffee in the mornin'
-I need a h[Em]ouse on the hill, girl, not in 'em so hang onto [C]these words
+{start_of_chorus}
+[F]That I love you more than a California sunset
+More than a beer [Gm]when you ain't 21 yet
+More than a Sun[Dm]day morning Lord turnin' some poor lost soul f[Bb]ound, Halleluiah bound
+
+Yeah, I love you [F]more than the feeling when a bass hits the hook
+When the g[Gm]uy gets the girl at the end of the book
+But baby, t[Dm]his might be the last time I get to lay [Bb]you down
+Cause I can't love you more than my hometo[F]wn[F]
+{end_of_chorus}
+
+{start_of_part: Bridge}
+Yeah, You g[F]ot a wild in your eyes that I just wasn't born with
+I'm a same [Gm]gas station cup of coffee in the mornin'
+I need a h[Dm]ouse on the hill, girl, not in 'em so hang onto [Bb]these words
 till them avenues help you forget 'em
-{eob}
- 
- 
-{soc} 
-[G]That I love you more than a California sunset
-I love you [Am]more in a 20 dollar sundress 
-Hate that [Em]loaded down car you got your keys in
-Girl, but I hate [C]even more that you're leavin'
+{end_of_part}
 
-[G]'Cause, I love you more than the feeling when a bass hits the hook
-When the g[Am]uy gets the girl at the end of the book
-But that [Em]ain't you and me so I guess I'll see you [C]around
-Cause I can't love you more than my hometo[G]wn
-{eoc}
+{start_of_chorus}
+[F]That I love you more than a California sunset
+I love you [Gm]more in a 20 dollar sundress
+Hate that [Dm]loaded down car you got your keys in
+Girl, but I hate [Bb]even more that you're leavin'
 
-{comment: Outro} 
-[G]Love you more than my home[Am]town
-Love you more than my home[Em]town
-Love you more, baby, [C]love you more
-| G | G | 
+[F]'Cause, I love you more than the feeling when a bass hits the hook
+When the g[Gm]uy gets the girl at the end of the book
+But that [Dm]ain't you and me so I guess I'll see you [Bb]around
+Cause I can't love you more than my hometo[F]wn
+{end_of_chorus}
+
+{comment: Outro}
+[F]Love you more than my home[Gm]town
+Love you more than my home[Dm]town
+Love you more, baby, [Bb]love you more
+
+. | [F]  | [F]  | 
