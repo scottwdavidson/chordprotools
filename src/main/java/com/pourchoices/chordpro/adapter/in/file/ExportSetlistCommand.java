@@ -60,13 +60,22 @@ public class ExportSetlistCommand implements Runnable {
                     entry.getSet(),
                     truncate(entry.getTitle(), 40),
                     truncate(entry.getArtist(), 25),
-                    entry.getKey());
+                    resolveKey(entry));
         }
         System.out.println();
     }
 
     private String truncate(String value, int maxLen) {
         if (value == null) return "";
-        return value.length() <= maxLen ? value : value.substring(0, maxLen - 1) + "…";
+        return value.length() <= maxLen ? value : value.substring(0, maxLen - 1) + "\u2026";
+    }
+
+    /**
+     * Returns the Performance Key when one is set, falling back to the chart key.
+     * Mirrors the resolution logic in {@link com.pourchoices.chordpro.adapter.out.file.SetlistAdapter}.
+     */
+    private String resolveKey(CatalogEntry entry) {
+        String pk = entry.getPerformanceKey();
+        return (pk != null && !pk.isBlank()) ? pk : entry.getKey();
     }
 }

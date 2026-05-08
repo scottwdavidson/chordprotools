@@ -23,9 +23,19 @@ public class SetlistAdapter implements SetlistPort {
                         .set(e.getSet())
                         .songTitle(e.getTitle())
                         .songArtist(e.getArtist())
-                        .key(e.getKey())
+                        .key(resolveKey(e))
                         .build())
                 .toList();
         this.setlistFileWriter.writeSetlistToCsv(outputPath, dtos);
+    }
+
+    /**
+     * Returns the Performance Key when one is set, falling back to the chart key.
+     * The performance key is the key the band actually plays in, which may differ
+     * from the key the .cho file is written in.
+     */
+    private String resolveKey(CatalogEntry entry) {
+        String pk = entry.getPerformanceKey();
+        return (pk != null && !pk.isBlank()) ? pk : entry.getKey();
     }
 }
