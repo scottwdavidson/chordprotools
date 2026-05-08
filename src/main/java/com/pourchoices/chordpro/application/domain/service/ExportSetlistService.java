@@ -50,8 +50,9 @@ public class ExportSetlistService implements ExportSetlistUseCase {
                 .toList();
         log.info("Found {} entries with a Set value (before de-duplication)", withSet.size());
 
-        // 3. De-duplicate: when the standard file and a key-variant file both carry
-        //    the same set code, keep only the standard (base) file.
+        // 3. De-duplicate: when a base file and a key-variant share the same song
+        //    (same directory + base stem), keep only the base and handle all set-code
+        //    combinations per the rules in deduplicate().
         List<CatalogEntry> setlistEntries = deduplicate(withSet).stream()
                 .sorted(Comparator.comparing(CatalogEntry::getSet))
                 .toList();
@@ -75,60 +76,110 @@ public class ExportSetlistService implements ExportSetlistUseCase {
     // -------------------------------------------------------------------------
 
     /**
-     * De-duplicates entries that represent the same song assigned to the same set position.
+     * De-duplicates entries that are variants of the same song (same parent directory
+     * and base stem) when more than one of those variants has a Set value assigned.
      *
      * <p>File naming convention: standard key → {@code SongName.cho}; key variant →
-     * {@code SongName-KEY.cho} (e.g., {@code MyLife-c.cho} for the C-major version).
-     * A trailing segment is treated as a musical-key suffix when it matches
-     * {@code -[a-gA-G][#b]?m?} (e.g., {@code -c}, {@code -am}, {@code -g#m}, {@code -bb}).
+     * {@code SongName-KEY.cho} (e.g., {@code MyLife-c.cho}).  A trailing segment is
+     * treated as a musical-key suffix when it matches {@code -[a-gA-G][#b]?m?}.
      *
-     * <p>When two or more entries share the same (parent directory, base stem, set code),
-     * only the standard (non-key-variant) file is retained.  If all entries in the group
-     * are key variants, the first one wins and a warning is logged.
+     * <p>Decision rules (applied per group of entries sharing the same dir + base stem):
+     * <ul>
+     *   <li><b>No collision</b> – only one entry in the group → keep as-is.</li>
+     *   <li><b>Scenario A</b> – base + variant, same set code → keep base, drop variant (INFO).</li>
+     *   <li><b>Scenario B</b> – only a variant has a set code (base has none / doesn't exist)
+     *       → single-member group, falls through as «no collision».</li>
+     *   <li><b>Scenario C</b> – base + variant, different set codes → keep base, log WARN
+     *       that the variant is being ignored.</li>
+     *   <li><b>Both variants, same set</b> – keep first encountered, log WARN (no base).</li>
+     *   <li><b>Both variants, different sets</b> – keep first encountered, log WARN about
+     *       the discrepancy and the absence of a base version.</li>
+     * </ul>
      */
     private List<CatalogEntry> deduplicate(List<CatalogEntry> entries) {
-        // Key: "dir/baseStem:setCode" → chosen entry for that slot
-        Map<String, CatalogEntry> chosen = new LinkedHashMap<>();
-
+        // Group by (parent dir, base stem) — set code intentionally excluded so that
+        // base+variant pairs with *different* set codes still collide here.
+        Map<String, List<CatalogEntry>> groups = new LinkedHashMap<>();
         for (CatalogEntry entry : entries) {
-            String key = buildDedupeKey(entry);
-            CatalogEntry existing = chosen.get(key);
+            groups.computeIfAbsent(buildGroupKey(entry), k -> new ArrayList<>()).add(entry);
+        }
 
-            if (existing == null) {
-                chosen.put(key, entry);
+        List<CatalogEntry> result = new ArrayList<>();
+        for (List<CatalogEntry> group : groups.values()) {
+            if (group.size() == 1) {
+                result.add(group.get(0)); // no collision — keep as-is
+                continue;
+            }
+
+            List<CatalogEntry> bases    = group.stream()
+                    .filter(e ->  isBaseVersion(e.getChordProFilename())).toList();
+            List<CatalogEntry> variants = group.stream()
+                    .filter(e -> !isBaseVersion(e.getChordProFilename())).toList();
+
+            if (!bases.isEmpty()) {
+                // A base version exists — it always wins.
+                CatalogEntry base = bases.get(0);
+                result.add(base);
+
+                for (CatalogEntry variant : variants) {
+                    if (variant.getSet().equals(base.getSet())) {
+                        // Scenario A: same set code — expected, quiet drop.
+                        log.info("De-dup [A]: dropping keyed variant '{}' (set '{}') — "
+                                        + "base '{}' already covers this set position.",
+                                variant.getChordProFilename(), variant.getSet(),
+                                base.getChordProFilename());
+                    } else {
+                        // Scenario C: different set codes — base wins, variant ignored with WARN.
+                        log.warn("De-dup [C]: ignoring keyed variant '{}' (set '{}') — "
+                                        + "base '{}' (set '{}') takes precedence. "
+                                        + "If this variant was meant for a different set, "
+                                        + "assign the set value to the base file instead.",
+                                variant.getChordProFilename(), variant.getSet(),
+                                base.getChordProFilename(), base.getSet());
+                    }
+                }
             } else {
-                boolean entryIsBase    = isBaseVersion(entry.getChordProFilename());
-                boolean existingIsBase = isBaseVersion(existing.getChordProFilename());
+                // No base version — all entries are keyed variants.
+                CatalogEntry first = variants.get(0);
+                result.add(first);
 
-                if (entryIsBase && !existingIsBase) {
-                    // Replace the keyed variant already in the map with the base version
-                    log.info("De-dup: replacing keyed variant {} with base version {}",
-                            existing.getChordProFilename(), entry.getChordProFilename());
-                    chosen.put(key, entry);
-                } else if (!entryIsBase && existingIsBase) {
-                    // Existing is already the base — discard this keyed variant
-                    log.info("De-dup: discarding keyed variant {} (base {} already selected)",
-                            entry.getChordProFilename(), existing.getChordProFilename());
-                } else {
-                    // Both base, or both keyed variants — keep whichever arrived first, warn
-                    log.warn("De-dup: ambiguous duplicates '{}' and '{}' share set '{}'; keeping first.",
-                            existing.getChordProFilename(), entry.getChordProFilename(), entry.getSet());
+                boolean allSameSet = variants.stream()
+                        .allMatch(v -> v.getSet().equals(first.getSet()));
+
+                for (CatalogEntry other : variants.subList(1, variants.size())) {
+                    if (allSameSet) {
+                        // Both variants, same set code.
+                        log.warn("De-dup [both variants, same set]: '{}' and '{}' both carry set '{}' "
+                                        + "and neither is the base version; keeping '{}'. "
+                                        + "Consider assigning the set value to the base file.",
+                                first.getChordProFilename(), other.getChordProFilename(),
+                                first.getSet(), first.getChordProFilename());
+                    } else {
+                        // Both variants, different set codes — worst case.
+                        log.warn("De-dup [both variants, different sets]: '{}' (set '{}') and '{}' (set '{}') "
+                                        + "conflict and no base version exists; keeping '{}'. "
+                                        + "Resolve by assigning the set value to the base file.",
+                                first.getChordProFilename(), first.getSet(),
+                                other.getChordProFilename(), other.getSet(),
+                                first.getChordProFilename());
+                    }
                 }
             }
         }
 
-        return new ArrayList<>(chosen.values());
+        return result;
     }
 
     /**
-     * Builds the de-duplication key as {@code "parentDir/baseStem:setCode"}.
-     * Two entries collide when they are variants of the same song in the same set slot.
+     * Builds the grouping key as {@code "parentDir/baseStem"}.
+     * The set code is deliberately excluded so variants with different set codes
+     * are still recognised as siblings of the same song.
      */
-    private String buildDedupeKey(CatalogEntry entry) {
+    private String buildGroupKey(CatalogEntry entry) {
         Path filePath = Paths.get(entry.getChordProFilename());
         String dir      = filePath.getParent() != null ? filePath.getParent().toString() : "";
         String baseStem = extractBaseStem(filePath.getFileName().toString());
-        return dir + "/" + baseStem + ":" + entry.getSet();
+        return dir + "/" + baseStem;
     }
 
     /**
