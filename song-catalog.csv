@@ -61,8 +61,8 @@ Lovely Day,Bill Withers,E,3:40,98,,,,,,,,,,./cho/ABC/B/BillWithers/LovelyDay.cho
 Let Me Down Easy,Billy Currington,G,3:30,125,4,24,P55,,,G,,,,./cho/ABC/B/BillyCurrington/LetMeDownEasy.cho,
 Don't Ask Me Why,Billy Joel,Bb,3:50,99,,,,,,,,,,./cho/ABC/B/BillyJoel/DontAskMeWhy.cho,
 Movin' Out,Billy Joel,Dm,,120,,,,,,,,,,./cho/ABC/B/BillyJoel/MovinOut.cho,
-My Life,Billy Joel,C,3:40,131,8,14,P32,,,,,,,./cho/ABC/B/BillyJoel/MyLife-c.cho,
-My Life,Billy Joel,D,3:40,131,8,14,P32,,,C,,,,./cho/ABC/B/BillyJoel/MyLife.cho,
+My Life,Billy Joel,C,3:40,131,8,14,P32,,,C,,,,./cho/ABC/B/BillyJoel/MyLife-c.cho,B10
+My Life,Billy Joel,D,3:40,131,8,14,P32,,,C,,,,./cho/ABC/B/BillyJoel/MyLife.cho,B11
 Piano Man,Billy Joel,Gb,4:40,178,,,,,,A,,,,./cho/ABC/B/BillyJoel/PianoMan-a.cho,
 Piano Man,Billy Joel,C,4:40,178,,,,,,,,,,./cho/ABC/B/BillyJoel/PianoMan-old.cho,
 Piano Man,Billy Joel,C,4:40,178,,,,,,A,,,,./cho/ABC/B/BillyJoel/PianoMan.cho,
@@ -356,7 +356,7 @@ I Had Some Help,Post Malone ( w/ Morgan Wallen),C,,,,,,,,,,,,./cho/PQR/P/PostMal
 Ghost In You,Psychelic Furs,Bb,4:00,123,,,,,,,,,,./cho/PQR/P/PsychedelicFurs/GhostInYou.cho,
 Love My Way,Psychelic Furs,C,,129,,,,,,,,,,./cho/PQR/P/PsychedelicFurs/LoveMyWay.cho,
 Let Me Love You Tonight,Pure Prairie League,Bb,,,,,,,,,,,,./cho/PQR/P/PurePrairieLeague/LetMeLoveYouTonight.cho,
-Creep,Radiohead,G,,,,,,,,,,,,./cho/PQR/R/Radiohead/Creep.cho,
+Creep,Radiohead,G,,,,,,,,,,,,./cho/PQR/R/Radiohead/Creep.cho,A01
 Blitzkreig Bop,Ramones,A,2:12,180,,,,,,,,,,./cho/PQR/R/Ramones/BlitzkreigBop.cho,
 I Wanna Be Sedated,Ramones,E,,180,,,,,,,,,,./cho/PQR/R/Ramones/IWannaBeSedated.cho,
 Forever's As Far As I'll Go,Mike Reid/Alabama,Eb,,,,,,,,,,,,./cho/PQR/R/RandyTravis/ForeversAsFarAsIllGo.cho,
@@ -381,19 +381,19 @@ Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,4,42,O15,,,,,,,./cho/PQR/R/
 Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,77,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine-e.cho,
 Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,77,O14,,,,,,,./cho/PQR/R/RockyBurnette/TiredOfToeinTheLine.cho,
 Honky Tonk Women,The Rolling Stones,G,2:50,121,4,,N51,,,,4/4,,,./cho/PQR/R/RollingStones/HonkyTonkWomen.cho,
-Miss You,Rolling Stones,Am,,,,,,,,,,,,./cho/PQR/R/RollingStones/MissYou.cho,
+Miss You,Rolling Stones,Am,,,,,,,,,,,,./cho/PQR/R/RollingStones/MissYou.cho,C01
 Under My Thumb,Rolling Stones,A,3:40,127,8 (with pickup)),43,P51,,,,,,,./cho/PQR/R/RollingStones/UnderMyThumb.cho,
 What I Like About You,Romantics,A,2:20,166,8,19,P44,,,,,,,./cho/PQR/R/Romantics/WhatILikeAboutYou.cho,
 Be My Baby,The Ronettes,A,2:40,138,,,,,,,,,,./cho/PQR/R/Ronettes/BeMyBaby.cho,
 There's No Getting Over Me,Ronnie Milsap,C,4:00,100,4,,??,,,E,,,,./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe-c.cho,
 There's No Getting Over Me,Ronnie Milsap,E,4:00,100,4,,??,,,,,,,./cho/PQR/R/RonnieMilsap/TheresNoGettingOverMe.cho,
 Smooth Operator,Sade,Am,3:30,120,0,,53,,,,,,,./cho/ST/S/Sade/SmoothOperator.cho,
-Chevy Van,Sammy Johns,A,,,,,,,,,,,,./cho/ST/S/SammyJohns/ChevyVan.cho,
-Black Magic Woman,Santana,Dm,,,,,,,,,,,,./cho/ST/S/Santana/BlackMagicWoman.cho,
+Chevy Van,Sammy Johns,A,,,,,,,,,,,,./cho/ST/S/SammyJohns/ChevyVan.cho,B03
+Black Magic Woman,Santana,Dm,,,,,,,,,,,,./cho/ST/S/Santana/BlackMagicWoman.cho,C02
 Corazon Espinado,Santana,Bm,3:30,120,0,,P00,,,,4/4,,,./cho/ST/S/Santana/CorazonEspinado.cho,
 Evil Ways,Santana,Gm,3:30,78,,,P25,,,,,,,./cho/ST/S/Santana/EvilWays.cho,
 Smooth,Santana,Am,4:00,116,0,,P25,,,,,,,./cho/ST/S/Santana/Smooth.cho,
-Sleep Walk,Santo and Johnny,C,,,,,,,,,,,,./cho/ST/S/SantoAndJohnny/SleepWalk.cho,
+Sleep Walk,Santo and Johnny,C,,,,,,,,,,,,./cho/ST/S/SantoAndJohnny/SleepWalk.cho,A07
 Diminished Idea,Scott Davidson,Bb,3:00,86,,,,,,,,,,./cho/ST/S/ScottDavidson/DiminishedIdea.cho,
 Dream Drift,Scott Davidson,F,3:00,86,,,,,,,,,,./cho/ST/S/ScottDavidson/DreamDrift.cho,
 Going To Montana,"Michael Sadri, Scott Davidson",Am,3:30,136,8,,P14,,,,,,,./cho/ST/S/ScottDavidson/GoingToMontana.cho,
