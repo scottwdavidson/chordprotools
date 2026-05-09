@@ -9,7 +9,7 @@ import lombok.Value;
 public class CatalogEntry {
 
     @NonNull
-    String chordProFilename;
+    SongId songId;
     @NonNull
     String title;
     @NonNull

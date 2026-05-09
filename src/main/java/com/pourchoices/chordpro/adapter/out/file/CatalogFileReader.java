@@ -1,12 +1,9 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
 import com.opencsv.bean.CsvToBeanBuilder;
-import com.pourchoices.chordpro.adapter.in.file.UpdateSongCommand;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.io.Reader;
@@ -48,7 +45,7 @@ public class CatalogFileReader {
 
         // Create an immutable map using Java Streams
         return catalog.stream()
-                .collect(Collectors.toUnmodifiableMap(CatalogEntry::getChordProFilename, dto -> dto));
+                .collect(Collectors.toUnmodifiableMap(e -> e.getSongId().toString(), dto -> dto));
 
     }
 }

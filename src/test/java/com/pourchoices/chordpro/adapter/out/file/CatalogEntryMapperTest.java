@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.adapter.out.file;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.SongId;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +23,7 @@ class CatalogEntryMapperTest {
     void testToDto_SingleObject() {
         // Given
         CatalogEntry entity = CatalogEntry.builder()
-                .chordProFilename("/ABC/A/Abba/DancingQueen.cho")
+                .songId(SongId.parse("ABC/A/Abba/DancingQueen"))
                 .title("Test Song Title")
                 .artist("Test Artist")
                 .key("C")
@@ -44,7 +45,7 @@ class CatalogEntryMapperTest {
 
         // Then
         assertThat(dto).isNotNull();
-        assertThat(dto.getChordProFilename()).isEqualTo(entity.getChordProFilename());
+        assertThat(dto.getSongId()).isEqualTo(entity.getSongId().toString());
         assertThat(dto.getTitle()).isEqualTo(entity.getTitle());
         assertThat(dto.getArtist()).isEqualTo(entity.getArtist());
         assertThat(dto.getKey()).isEqualTo(entity.getKey());
@@ -65,7 +66,7 @@ class CatalogEntryMapperTest {
     void testToEntity_SingleObject() {
         // Given
         CatalogEntryDto dto = CatalogEntryDto.builder()
-                .chordProFilename("/ABC/A/Another/TestSong.cho")
+                .songId("ABC/C/Another/TestSong")
                 .title("Another Test Song")
                 .artist("Another Artist")
                 .key("G")
@@ -87,7 +88,7 @@ class CatalogEntryMapperTest {
 
         // Then
         assertThat(entity).isNotNull();
-        assertThat(entity.getChordProFilename()).isEqualTo(dto.getChordProFilename());
+        assertThat(entity.getSongId().toString()).isEqualTo(dto.getSongId());
         assertThat(entity.getTitle()).isEqualTo(dto.getTitle());
         assertThat(entity.getArtist()).isEqualTo(dto.getArtist());
         assertThat(entity.getKey()).isEqualTo(dto.getKey());
@@ -108,8 +109,8 @@ class CatalogEntryMapperTest {
     void testToDtoList() {
         // Given
         List<CatalogEntry> entities = Arrays.asList(
-                CatalogEntry.builder().title("Title1").artist("Artist1").key("C").chordProFilename("/ABC/A/Another/TestSong.cho").duration("3:00").build(),
-                CatalogEntry.builder().title("Title2").artist("Artist2").key("D").chordProFilename("/ABC/B/BSong.cho").duration("3:00").build()
+                CatalogEntry.builder().title("Title1").artist("Artist1").key("C").songId(SongId.parse("ABC/A/Another/TestSong")).duration("3:00").build(),
+                CatalogEntry.builder().title("Title2").artist("Artist2").key("D").songId(SongId.parse("ABC/B/BSong/TestSong")).duration("3:00").build()
         );
 
         // When
@@ -124,8 +125,8 @@ class CatalogEntryMapperTest {
     void testToEntityList() {
         // Given
         List<CatalogEntryDto> dtoList = Arrays.asList(
-                CatalogEntryDto.builder().title("DtoTitle1").key("Fm").chordProFilename("ABC/C/ColdPlay/Song").artist("DtoArtist1").duration("3:00").build(),
-                CatalogEntryDto.builder().title("DtoTitle2").artist("DtoArtist2").key("Fm").chordProFilename("ABC/C/ColdPlay/Song").duration("4:00").build());
+                CatalogEntryDto.builder().title("DtoTitle1").key("Fm").songId("ABC/C/ColdPlay/Song").artist("DtoArtist1").duration("3:00").build(),
+                CatalogEntryDto.builder().title("DtoTitle2").artist("DtoArtist2").key("Fm").songId("ABC/C/ColdPlay/Song").duration("4:00").build());
 
         // When
         List<CatalogEntry> entities = mapper.toEntityList(dtoList);

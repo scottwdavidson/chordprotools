@@ -2,6 +2,7 @@ package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
+import com.pourchoices.chordpro.application.domain.model.ChordProPath;
 import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
@@ -67,7 +68,7 @@ public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
         }
 
         CatalogEntry.CatalogEntryBuilder builder = CatalogEntry.builder()
-                .chordProFilename(chordproFilename)
+                .songId(ChordProPath.toSongId(chordproFilename))
                 .title("")
                 .artist("")
                 .key("")

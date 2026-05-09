@@ -101,7 +101,7 @@ public class ExportSetlistService implements ExportSetlistUseCase {
         // base+variant pairs with *different* set codes still collide here.
         Map<String, List<CatalogEntry>> groups = new LinkedHashMap<>();
         for (CatalogEntry entry : entries) {
-            groups.computeIfAbsent(buildGroupKey(entry), k -> new ArrayList<>()).add(entry);
+            groups.computeIfAbsent(entry.getSongId().toGroupKey(), k -> new ArrayList<>()).add(entry);
         }
 
         List<CatalogEntry> result = new ArrayList<>();
@@ -112,9 +112,9 @@ public class ExportSetlistService implements ExportSetlistUseCase {
             }
 
             List<CatalogEntry> bases    = group.stream()
-                    .filter(e ->  isBaseVersion(e.getChordProFilename())).toList();
+                    .filter(e ->  e.getSongId().isBaseVersion()).toList();
             List<CatalogEntry> variants = group.stream()
-                    .filter(e -> !isBaseVersion(e.getChordProFilename())).toList();
+                    .filter(e -> !e.getSongId().isBaseVersion()).toList();
 
             if (!bases.isEmpty()) {
                 // A base version exists — it always wins.
@@ -126,16 +126,16 @@ public class ExportSetlistService implements ExportSetlistUseCase {
                         // Scenario A: same set code — expected, quiet drop.
                         log.info("De-dup [A]: dropping keyed variant '{}' (set '{}') — "
                                         + "base '{}' already covers this set position.",
-                                variant.getChordProFilename(), variant.getSet(),
-                                base.getChordProFilename());
+                                variant.getSongId(), variant.getSet(),
+                                base.getSongId());
                     } else {
                         // Scenario C: different set codes — base wins, variant ignored with WARN.
                         log.warn("De-dup [C]: ignoring keyed variant '{}' (set '{}') — "
                                         + "base '{}' (set '{}') takes precedence. "
                                         + "If this variant was meant for a different set, "
                                         + "assign the set value to the base file instead.",
-                                variant.getChordProFilename(), variant.getSet(),
-                                base.getChordProFilename(), base.getSet());
+                                variant.getSongId(), variant.getSet(),
+                                base.getSongId(), base.getSet());
                     }
                 }
             } else {
@@ -152,16 +152,16 @@ public class ExportSetlistService implements ExportSetlistUseCase {
                         log.warn("De-dup [both variants, same set]: '{}' and '{}' both carry set '{}' "
                                         + "and neither is the base version; keeping '{}'. "
                                         + "Consider assigning the set value to the base file.",
-                                first.getChordProFilename(), other.getChordProFilename(),
-                                first.getSet(), first.getChordProFilename());
+                                first.getSongId(), other.getSongId(),
+                                first.getSet(), first.getSongId());
                     } else {
                         // Both variants, different set codes — worst case.
                         log.warn("De-dup [both variants, different sets]: '{}' (set '{}') and '{}' (set '{}') "
                                         + "conflict and no base version exists; keeping '{}'. "
                                         + "Resolve by assigning the set value to the base file.",
-                                first.getChordProFilename(), first.getSet(),
-                                other.getChordProFilename(), other.getSet(),
-                                first.getChordProFilename());
+                                first.getSongId(), first.getSet(),
+                                other.getSongId(), other.getSet(),
+                                first.getSongId());
                     }
                 }
             }
@@ -170,38 +170,8 @@ public class ExportSetlistService implements ExportSetlistUseCase {
         return result;
     }
 
-    /**
-     * Builds the grouping key as {@code "parentDir/baseStem"}.
-     * The set code is deliberately excluded so variants with different set codes
-     * are still recognised as siblings of the same song.
-     */
-    private String buildGroupKey(CatalogEntry entry) {
-        Path filePath = Paths.get(entry.getChordProFilename());
-        String dir      = filePath.getParent() != null ? filePath.getParent().toString() : "";
-        String baseStem = extractBaseStem(filePath.getFileName().toString());
-        return dir + "/" + baseStem;
-    }
-
-    /**
-     * Strips the {@code .cho} extension and any trailing musical-key suffix from a filename.
-     * Examples: {@code MyLife-c.cho} → {@code MyLife}, {@code HowLong-a.cho} → {@code HowLong},
-     * {@code PianoMan-old.cho} → {@code PianoMan-old} (not a key suffix).
-     *
-     * <p>A key suffix matches {@code -[a-gA-G][#b]?m?} (i.e., a dash followed by a note
-     * letter, an optional accidental, and an optional minor indicator).
-     */
-    private String extractBaseStem(String filename) {
-        String stem = filename.replaceAll("(?i)\\.cho$", "");
-        return stem.replaceAll("-[a-gA-G][#b]?m?$", "");
-    }
-
-    /**
-     * Returns {@code true} when the file has no musical-key suffix — it is the
-     * canonical, standard-key version of the song.
-     */
-    private boolean isBaseVersion(String chordProFilename) {
-        String filename = Paths.get(chordProFilename).getFileName().toString();
-        String stem     = filename.replaceAll("(?i)\\.cho$", "");
-        return stem.equals(extractBaseStem(filename));
-    }
+    // -------------------------------------------------------------------------
+    // (No filename-parsing helpers needed here — SongId.toGroupKey() and
+    //  SongId.isBaseVersion() encapsulate that logic on the domain model.)
+    // -------------------------------------------------------------------------
 }

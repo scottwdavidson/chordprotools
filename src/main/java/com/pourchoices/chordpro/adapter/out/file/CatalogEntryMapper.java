@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.SongId;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -20,7 +21,7 @@ public class CatalogEntryMapper {
     public CatalogEntry toEntity(CatalogEntryDto dto) {
         if (dto == null) return null;
         return CatalogEntry.builder()
-                .chordProFilename(dto.getChordProFilename())
+                .songId(SongId.parse(dto.getSongId()))
                 .title(dto.getTitle())
                 .artist(dto.getArtist())
                 .key(dto.getKey())
@@ -42,7 +43,7 @@ public class CatalogEntryMapper {
     public CatalogEntryDto toDto(CatalogEntry entity) {
         if (entity == null) return null;
         return CatalogEntryDto.builder()
-                .chordProFilename(entity.getChordProFilename())
+                .songId(entity.getSongId().toString())
                 .title(entity.getTitle())
                 .artist(entity.getArtist())
                 .key(entity.getKey())

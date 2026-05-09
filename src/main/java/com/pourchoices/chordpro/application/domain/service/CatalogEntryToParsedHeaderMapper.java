@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.ChordProPath;
 import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
@@ -16,7 +17,7 @@ public class CatalogEntryToParsedHeaderMapper {
     public ParsedHeader fromCatalogEntry(CatalogEntry entry) {
 
         ParsedHeader.ParsedHeaderBuilder builder = ParsedHeader.builder()
-                .chordProFilename(entry.getChordProFilename());
+                .chordProFilename(ChordProPath.toFilePath(entry.getSongId()));
 
         // mandatory
         builder.headerLine(lineFor(HeaderDirective.TITLE,    entry.getTitle()));

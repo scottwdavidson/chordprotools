@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.ChordProPath;
 import com.pourchoices.chordpro.application.domain.service.CatalogEntryToParsedHeaderMapper;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
@@ -39,11 +40,13 @@ public class UpdateSongService implements UpdateSongUseCase {
         Path catalogPath = Paths.get(chordproCatalogIndexPathConfig.getCatalogIndexPath());
         Map<String, CatalogEntry> catalogMap = this.catalogPort.readCatalogFromCsv(catalogPath);
 
-        // find the song to be updated
-        CatalogEntry catalogEntry = catalogMap.get(chordproSongPathString);
+        // find the song to be updated (catalog keyed by song-ID string, not full file path)
+        String songIdString = ChordProPath.toSongId(chordproSongPathString).toString();
+        CatalogEntry catalogEntry = catalogMap.get(songIdString);
 
         if (catalogEntry == null) {
-            log.error("Catalog Entry not found in Catalog Path: {}", chordproSongPathString);
+            log.error("Catalog Entry not found for song ID '{}' (derived from path: {})",
+                    songIdString, chordproSongPathString);
             return;
         }
 
