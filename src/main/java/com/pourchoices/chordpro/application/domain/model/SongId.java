@@ -38,6 +38,12 @@ public class SongId {
      */
     private static final Pattern KEY_ALT_PATTERN = Pattern.compile("-([a-gA-G][#b]?m?)$");
 
+    /**
+     * Valid cluster prefixes are 2-3 uppercase letters.
+     * 8 three-letter clusters (ABC...VWX) plus the remainder cluster (YZ) = 26 letters exactly.
+     */
+    private static final Pattern CLUSTER_PREFIX_PATTERN = Pattern.compile("^[A-Z]{2,3}$");
+
     /** e.g. {@code ABC}, {@code DEF} — top-level library directory. */
     @NonNull String clusterPrefix;
 
@@ -76,6 +82,12 @@ public class SongId {
             throw new IllegalArgumentException(
                     "Expected 4 path segments (clusterPrefix/clusterElement/artist/title[-key])"
                     + " but got " + parts.length + " in: \"" + songIdString + "\"");
+        }
+
+        if (!CLUSTER_PREFIX_PATTERN.matcher(parts[0]).matches()) {
+            throw new IllegalArgumentException(
+                    "clusterPrefix must be 2-3 uppercase letters (e.g. ABC or YZ)"
+                    + " but got: \"" + parts[0] + "\" in: \"" + songIdString + "\"");
         }
 
         String lastSegment = parts[3];
