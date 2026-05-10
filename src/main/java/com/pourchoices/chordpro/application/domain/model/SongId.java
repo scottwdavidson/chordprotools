@@ -10,11 +10,11 @@ import java.util.regex.Pattern;
 /**
  * Structured identity for a ChordPro song file.
  *
- * <p>Format: {@code clusterPrefix/clusterElement/artist/title[-keyAlternative]}
+ * <p>Format: {@code clusterPrefix:clusterElement:artist:title[-keyAlternative]}
  * <pre>
- *   ABC/B/BillyJoel/MyLife        ← base (standard key)
- *   ABC/B/BillyJoel/MyLife-c      ← key variant (C)
- *   DEF/E/EltonJohn/RocketMan     ← no variant
+ *   ABC:B:BillyJoel:MyLife        ← base (standard key)
+ *   ABC:B:BillyJoel:MyLife-c      ← key variant (C)
+ *   DEF:E:EltonJohn:RocketMan     ← no variant
  * </pre>
  *
  * <p>The four mandatory segments exactly mirror the file-system directory
@@ -69,18 +69,18 @@ public class SongId {
     /**
      * Parses a song-ID string into its component parts.
      *
-     * @param songIdString e.g. {@code "ABC/B/BillyJoel/MyLife-c"}
+     * @param songIdString e.g. {@code "ABC:B:BillyJoel:MyLife-c"}
      * @return populated {@link SongId}
-     * @throws IllegalArgumentException if the string does not have exactly four path segments
+     * @throws IllegalArgumentException if the string does not have exactly four colon-separated segments
      */
     public static SongId parse(String songIdString) {
         if (songIdString == null || songIdString.isBlank()) {
             throw new IllegalArgumentException("songIdString must not be blank");
         }
-        String[] parts = songIdString.split("/", -1);
+        String[] parts = songIdString.split(":", -1);
         if (parts.length != 4) {
             throw new IllegalArgumentException(
-                    "Expected 4 path segments (clusterPrefix/clusterElement/artist/title[-key])"
+                    "Expected 4 colon-separated segments (clusterPrefix:clusterElement:artist:title[-key])"
                     + " but got " + parts.length + " in: \"" + songIdString + "\"");
         }
 
@@ -117,11 +117,11 @@ public class SongId {
 
     /**
      * Canonical song-ID string, including any key-alternative suffix.
-     * e.g. {@code "ABC/B/BillyJoel/MyLife-c"} or {@code "ABC/B/BillyJoel/MyLife"}
+     * e.g. {@code "ABC:B:BillyJoel:MyLife-c"} or {@code "ABC:B:BillyJoel:MyLife"}
      */
     @Override
     public String toString() {
-        String base = clusterPrefix + "/" + clusterElement + "/" + artist + "/" + title;
+        String base = clusterPrefix + ":" + clusterElement + ":" + artist + ":" + title;
         return hasKeyAlternative() ? base + "-" + keyAlternative : base;
     }
 
@@ -129,10 +129,10 @@ public class SongId {
      * De-duplication grouping key — the song ID <em>without</em> the
      * key-alternative suffix, so a base file and all its variants resolve to
      * the same group key.
-     * e.g. {@code "ABC/B/BillyJoel/MyLife"} for both {@code MyLife} and {@code MyLife-c}.
+     * e.g. {@code "ABC:B:BillyJoel:MyLife"} for both {@code MyLife} and {@code MyLife-c}.
      */
     public String toGroupKey() {
-        return clusterPrefix + "/" + clusterElement + "/" + artist + "/" + title;
+        return clusterPrefix + ":" + clusterElement + ":" + artist + ":" + title;
     }
 
     /**

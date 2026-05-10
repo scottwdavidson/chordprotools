@@ -23,7 +23,7 @@ class CatalogEntryMapperTest {
     void testToDto_SingleObject() {
         // Given
         CatalogEntry entity = CatalogEntry.builder()
-                .songId(SongId.parse("ABC/A/Abba/DancingQueen"))
+                .songId(SongId.parse("ABC:A:Abba:DancingQueen"))
                 .title("Test Song Title")
                 .artist("Test Artist")
                 .key("C")
@@ -66,7 +66,7 @@ class CatalogEntryMapperTest {
     void testToEntity_SingleObject() {
         // Given
         CatalogEntryDto dto = CatalogEntryDto.builder()
-                .songId("ABC/C/Another/TestSong")
+                .songId("ABC:C:Another:TestSong")
                 .title("Another Test Song")
                 .artist("Another Artist")
                 .key("G")
@@ -109,8 +109,8 @@ class CatalogEntryMapperTest {
     void testToDtoList() {
         // Given
         List<CatalogEntry> entities = Arrays.asList(
-                CatalogEntry.builder().title("Title1").artist("Artist1").key("C").songId(SongId.parse("ABC/A/Another/TestSong")).duration("3:00").build(),
-                CatalogEntry.builder().title("Title2").artist("Artist2").key("D").songId(SongId.parse("ABC/B/BSong/TestSong")).duration("3:00").build()
+                CatalogEntry.builder().title("Title1").artist("Artist1").key("C").songId(SongId.parse("ABC:A:Another:TestSong")).duration("3:00").build(),
+                CatalogEntry.builder().title("Title2").artist("Artist2").key("D").songId(SongId.parse("ABC:B:BSong:TestSong")).duration("3:00").build()
         );
 
         // When
@@ -125,8 +125,8 @@ class CatalogEntryMapperTest {
     void testToEntityList() {
         // Given
         List<CatalogEntryDto> dtoList = Arrays.asList(
-                CatalogEntryDto.builder().title("DtoTitle1").key("Fm").songId("ABC/C/ColdPlay/Song").artist("DtoArtist1").duration("3:00").build(),
-                CatalogEntryDto.builder().title("DtoTitle2").artist("DtoArtist2").key("Fm").songId("ABC/C/ColdPlay/Song").duration("4:00").build());
+                CatalogEntryDto.builder().title("DtoTitle1").key("Fm").songId("ABC:C:ColdPlay:Song").artist("DtoArtist1").duration("3:00").build(),
+                CatalogEntryDto.builder().title("DtoTitle2").artist("DtoArtist2").key("Fm").songId("ABC:C:ColdPlay:Song").duration("4:00").build());
 
         // When
         List<CatalogEntry> entities = mapper.toEntityList(dtoList);
