@@ -37,6 +37,7 @@ class CatalogEntryMapperTest {
                 .backing("Full Band")
                 .ve("Verse-Chorus")
                 .performanceKey("C#")
+                .songLabel("PianoMan")
                 .set("A01")
                 .build();
 
@@ -59,6 +60,7 @@ class CatalogEntryMapperTest {
         assertThat(dto.getBacking()).isEqualTo(entity.getBacking());
         assertThat(dto.getVe()).isEqualTo(entity.getVe());
         assertThat(dto.getPerformanceKey()).isEqualTo(entity.getPerformanceKey());
+        assertThat(dto.getSongLabel()).isEqualTo(entity.getSongLabel());
         assertThat(dto.getSet()).isEqualTo(entity.getSet());
     }
 
@@ -80,6 +82,7 @@ class CatalogEntryMapperTest {
                 .backing("Acoustic")
                 .ve("Chorus-Verse")
                 .performanceKey("A")
+                .songLabel("AnotherSong")
                 .set("B03")
                 .build();
 
@@ -102,6 +105,7 @@ class CatalogEntryMapperTest {
         assertThat(entity.getBacking()).isEqualTo(dto.getBacking());
         assertThat(entity.getVe()).isEqualTo(dto.getVe());
         assertThat(entity.getPerformanceKey()).isEqualTo(dto.getPerformanceKey());
+        assertThat(entity.getSongLabel()).isEqualTo(dto.getSongLabel());
         assertThat(entity.getSet()).isEqualTo(dto.getSet());
     }
 

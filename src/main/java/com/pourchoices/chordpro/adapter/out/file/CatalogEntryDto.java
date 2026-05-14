@@ -22,7 +22,7 @@ public class CatalogEntryDto {
     "title","artist","key","duration","tempo",
     "countin","backing","nord","roland","ve",
     "performance key",
-    "time signature","capo","version","song id","set");
+    "time signature","capo","version","song id","song label","set");
 
 
     @CsvBindByName(column = "song id")
@@ -55,6 +55,8 @@ public class CatalogEntryDto {
     String ve;
     @CsvBindByName(column = "performance key")
     String performanceKey;
+    @CsvBindByName(column = "song label")
+    String songLabel;
     @CsvBindByName(column = "set")
     String set;
 

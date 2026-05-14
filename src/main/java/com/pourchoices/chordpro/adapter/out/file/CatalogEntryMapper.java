@@ -2,6 +2,7 @@ package com.pourchoices.chordpro.adapter.out.file;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SongId;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -16,10 +17,20 @@ import java.util.List;
  * flat mapping with identical field names, plain Java is simpler and safer.
  */
 @Component
+@Slf4j
 public class CatalogEntryMapper {
+
+    private static final int SONG_LABEL_MAX_LENGTH = 12;
 
     public CatalogEntry toEntity(CatalogEntryDto dto) {
         if (dto == null) return null;
+
+        if (dto.getSongLabel() != null && dto.getSongLabel().length() > SONG_LABEL_MAX_LENGTH) {
+            log.warn("Song label '{}' for song '{}' exceeds the RC-500 limit of {} characters — "
+                    + "it will display truncated on the hardware.",
+                    dto.getSongLabel(), dto.getSongId(), SONG_LABEL_MAX_LENGTH);
+        }
+
         return CatalogEntry.builder()
                 .songId(SongId.parse(dto.getSongId()))
                 .title(dto.getTitle())
@@ -36,6 +47,7 @@ public class CatalogEntryMapper {
                 .backing(dto.getBacking())
                 .ve(dto.getVe())
                 .performanceKey(dto.getPerformanceKey())
+                .songLabel(dto.getSongLabel())
                 .set(dto.getSet())
                 .build();
     }
@@ -58,6 +70,7 @@ public class CatalogEntryMapper {
                 .backing(entity.getBacking())
                 .ve(entity.getVe())
                 .performanceKey(entity.getPerformanceKey())
+                .songLabel(entity.getSongLabel())
                 .set(entity.getSet())
                 .build();
     }
