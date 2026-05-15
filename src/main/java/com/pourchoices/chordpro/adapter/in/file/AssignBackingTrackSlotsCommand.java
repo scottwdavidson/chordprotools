@@ -1,7 +1,7 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
-import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.Setlist;
+import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
 import com.pourchoices.chordpro.application.port.in.AssignBackingTrackSlotsUseCase;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -10,7 +10,7 @@ import picocli.CommandLine.Option;
 
 /**
  * CLI command that reassigns RC-500 backing-track slot numbers for every song
- * in the current setlist, then regenerates the setlist CSV.
+ * in the target gig's setlist, then regenerates the setlist CSV.
  *
  * <p>Slot allocation:
  * <ul>
@@ -22,7 +22,8 @@ import picocli.CommandLine.Option;
  * <p>Usage:
  * <pre>
  *   chordpro-parser assign-backing-track-slots
- *   chordpro-parser assign-backing-track-slots --output ./gig-2025-06-14-setlist.csv
+ *   chordpro-parser assign-backing-track-slots --gig 2026-06-14-rusty-nail
+ *   chordpro-parser assign-backing-track-slots --gig 2026-06-14-rusty-nail --output ./rusty-nail-setlist.csv
  * </pre>
  */
 @Component
@@ -43,6 +44,13 @@ public class AssignBackingTrackSlotsCommand implements Runnable {
     }
 
     @Option(
+            names = {"--gig", "-g"},
+            description = "Gig slug (e.g. 2026-06-14-rusty-nail). " +
+                          "Defaults to the lexicographically latest gig in setlist-assignments.csv."
+    )
+    private String gig;
+
+    @Option(
             names = {"--output", "-o"},
             description = "Output path for the regenerated setlist CSV (default: ${DEFAULT-VALUE})",
             defaultValue = DEFAULT_OUTPUT
@@ -51,16 +59,16 @@ public class AssignBackingTrackSlotsCommand implements Runnable {
 
     @Override
     public void run() {
-        log.info("Assigning RC-500 backing-track slots ...");
+        log.info("Assigning RC-500 backing-track slots for gig: {}", gig);
 
-        Setlist setlist = useCase.assignSlots(outputPath);
+        Setlist setlist = useCase.assignSlots(gig, outputPath);
 
-        System.out.printf("%nBacking-track slot assignment complete — %d songs written to %s%n%n",
-                setlist.size(), outputPath);
+        System.out.printf("%nBacking-track slot assignment complete — %d songs for gig '%s' written to %s%n%n",
+                setlist.size(), setlist.getGig(), outputPath);
 
         System.out.printf("%-6s  %-40s  %-25s  %-6s  %s%n", "SET", "TITLE", "ARTIST", "KEY", "SLOT");
         System.out.println("-".repeat(95));
-        for (CatalogEntry entry : setlist.getEntries()) {
+        for (SetlistEntry entry : setlist.getEntries()) {
             System.out.printf("%-6s  %-40s  %-25s  %-6s  %s%n",
                     entry.getSet(),
                     truncate(entry.getTitle(), 40),
@@ -76,12 +84,12 @@ public class AssignBackingTrackSlotsCommand implements Runnable {
         return value.length() <= maxLen ? value : value.substring(0, maxLen - 1) + "\u2026";
     }
 
-    private String resolveKey(CatalogEntry entry) {
+    private String resolveKey(SetlistEntry entry) {
         String pk = entry.getPerformanceKey();
         return (pk != null && !pk.isBlank()) ? pk : entry.getKey();
     }
 
-    private String resolvedBacking(CatalogEntry entry) {
+    private String resolvedBacking(SetlistEntry entry) {
         String b = entry.getBacking();
         if (b == null || b.isBlank() || "99".equals(b)) return "—";
         return b;

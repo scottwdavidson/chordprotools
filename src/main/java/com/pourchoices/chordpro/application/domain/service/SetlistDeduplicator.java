@@ -1,6 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * De-duplicates a list of {@link CatalogEntry} objects that may contain both a
+ * De-duplicates a list of {@link SetlistEntry} objects that may contain both a
  * base version and one or more key-variant versions of the same song.
  *
  * <p>Extracted from {@link ExportSetlistService} so that any service that needs
@@ -37,26 +37,26 @@ public class SetlistDeduplicator {
      *   <li><b>Both variants, different sets</b> – keep first [WARN].</li>
      * </ul>
      */
-    public List<CatalogEntry> deduplicate(List<CatalogEntry> entries) {
-        Map<String, List<CatalogEntry>> groups = new LinkedHashMap<>();
-        for (CatalogEntry entry : entries) {
+    public List<SetlistEntry> deduplicate(List<SetlistEntry> entries) {
+        Map<String, List<SetlistEntry>> groups = new LinkedHashMap<>();
+        for (SetlistEntry entry : entries) {
             groups.computeIfAbsent(entry.getSongId().toGroupKey(), k -> new ArrayList<>()).add(entry);
         }
 
-        List<CatalogEntry> result = new ArrayList<>();
-        for (List<CatalogEntry> group : groups.values()) {
+        List<SetlistEntry> result = new ArrayList<>();
+        for (List<SetlistEntry> group : groups.values()) {
             if (group.size() == 1) {
                 result.add(group.get(0));
                 continue;
             }
 
-            List<CatalogEntry> bases    = group.stream().filter(e ->  e.getSongId().isBaseVersion()).toList();
-            List<CatalogEntry> variants = group.stream().filter(e -> !e.getSongId().isBaseVersion()).toList();
+            List<SetlistEntry> bases    = group.stream().filter(e ->  e.getSongId().isBaseVersion()).toList();
+            List<SetlistEntry> variants = group.stream().filter(e -> !e.getSongId().isBaseVersion()).toList();
 
             if (!bases.isEmpty()) {
-                CatalogEntry base = bases.get(0);
+                SetlistEntry base = bases.get(0);
                 result.add(base);
-                for (CatalogEntry variant : variants) {
+                for (SetlistEntry variant : variants) {
                     if (variant.getSet().equals(base.getSet())) {
                         log.info("De-dup [A]: dropping keyed variant '{}' (set '{}') — base '{}' already covers this set position.",
                                 variant.getSongId(), variant.getSet(), base.getSongId());
@@ -66,10 +66,10 @@ public class SetlistDeduplicator {
                     }
                 }
             } else {
-                CatalogEntry first = variants.get(0);
+                SetlistEntry first = variants.get(0);
                 result.add(first);
                 boolean allSameSet = variants.stream().allMatch(v -> v.getSet().equals(first.getSet()));
-                for (CatalogEntry other : variants.subList(1, variants.size())) {
+                for (SetlistEntry other : variants.subList(1, variants.size())) {
                     if (allSameSet) {
                         log.warn("De-dup [both variants, same set]: '{}' and '{}' both carry set '{}'; keeping '{}'.",
                                 first.getSongId(), other.getSongId(), first.getSet(), first.getSongId());

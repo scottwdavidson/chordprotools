@@ -3,10 +3,14 @@ package com.pourchoices.chordpro.application.domain.service;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.ChordProPath;
 import com.pourchoices.chordpro.application.domain.model.Setlist;
+import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
+import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
 import com.pourchoices.chordpro.application.port.in.AssignBackingTrackSlotsUseCase;
 import com.pourchoices.chordpro.application.port.out.CatalogPort;
+import com.pourchoices.chordpro.application.port.out.SetlistAssignmentsPort;
 import com.pourchoices.chordpro.application.port.out.SetlistPort;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
+import com.pourchoices.chordpro.config.ChordproSetlistAssignmentsPathConfig;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,25 +25,24 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Assigns RC-500 backing-track slot numbers to all songs that have a Set designation
- * and a real backing track (i.e., BACKING is not blank and not the sentinel "99").
+ * Assigns RC-500 backing-track slot numbers to all songs that have a set designation
+ * for the target gig and a real backing track (BACKING non-blank and not sentinel "99").
  *
  * <h3>Slot allocation rules</h3>
  * <ul>
- *   <li><b>In-set songs</b> (SET prefix A–Y, e.g. A01, B03, C11) — sorted by SET code,
- *       slots assigned sequentially starting at {@value #IN_SET_START_SLOT}.</li>
- *   <li><b>Backup songs</b> (SET prefix Z, e.g. Z0, Z1) — sorted alphabetically by title,
- *       slots assigned sequentially starting at {@value #BACKUP_START_SLOT}, capped at
- *       {@value #MAX_SLOT}.</li>
- *   <li>Songs with no backing track (blank or "99" BACKING) are included in the setlist
- *       but skipped during slot assignment — their BACKING value is not modified.</li>
+ *   <li><b>In-set songs</b> (SET prefix A–Y) — sorted by SET code, slots starting at
+ *       {@value #IN_SET_START_SLOT}.</li>
+ *   <li><b>Backup songs</b> (SET prefix Z) — sorted alphabetically by title, slots
+ *       starting at {@value #BACKUP_START_SLOT}, capped at {@value #MAX_SLOT}.</li>
+ *   <li>Songs with no backing track (blank or "99") are included in the setlist but
+ *       skipped during slot assignment.</li>
  * </ul>
  *
  * <h3>Side-effects</h3>
  * <ol>
  *   <li>Writes the updated {@code song-catalog.csv} (all entries, not just set songs).</li>
  *   <li>Calls {@link UpdateSongService} for every song whose BACKING value changed,
- *       pushing the new value into the individual {@code .cho} file.</li>
+ *       pushing the new slot into the individual {@code .cho} file.</li>
  *   <li>Writes a fresh {@code setlist.csv} via {@link SetlistPort}.</li>
  * </ol>
  */
@@ -57,39 +60,45 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
     /** Highest slot the RC-500 supports. */
     static final int MAX_SLOT = 99;
 
-    /** Sentinel value indicating a song has no backing track. */
     private static final String NO_BACKING_SENTINEL = "99";
 
     private final CatalogPort catalogPort;
     private final SetlistPort setlistPort;
-    private final ChordproCatalogIndexPathConfig config;
+    private final SetlistAssignmentsPort assignmentsPort;
+    private final ChordproCatalogIndexPathConfig catalogConfig;
+    private final ChordproSetlistAssignmentsPathConfig assignmentsConfig;
     private final SetlistDeduplicator deduplicator;
+    private final SetlistJoiner joiner;
     private final UpdateSongService updateSongService;
 
     @Override
-    public Setlist assignSlots(String outputPath) {
+    public Setlist assignSlots(String gigParam, String outputPath) {
 
-        // ── 1. Load the full catalog ─────────────────────────────────────────
-        Path catalogPath = Paths.get(config.getCatalogIndexPath());
+        // ── 1. Load catalog and assignments ─────────────────────────────────
+        Path catalogPath = Paths.get(catalogConfig.getCatalogIndexPath());
         Map<String, CatalogEntry> catalogMap = new HashMap<>(catalogPort.readCatalogFromCsv(catalogPath));
         log.info("Loaded {} total catalog entries", catalogMap.size());
 
-        // ── 2. Filter to set-assigned songs, then de-duplicate ───────────────
-        List<CatalogEntry> withSet = catalogMap.values().stream()
-                .filter(e -> e.getSet() != null && !e.getSet().isBlank())
-                .toList();
-        List<CatalogEntry> deduped = deduplicator.deduplicate(withSet);
-        log.info("{} set-assigned entries after de-duplication", deduped.size());
+        Path assignmentsPath = Paths.get(assignmentsConfig.getSetlistAssignmentsPath());
+        List<SetlistAssignment> allAssignments = assignmentsPort.readAssignments(assignmentsPath);
+        log.info("Loaded {} total assignment(s)", allAssignments.size());
+
+        // ── 2. Resolve gig, join catalog + assignments, de-duplicate ─────────
+        String resolvedGig = joiner.resolveGig(gigParam, allAssignments);
+        List<SetlistEntry> joined = joiner.join(gigParam, allAssignments, catalogMap);
+        List<SetlistEntry> deduped = deduplicator.deduplicate(joined);
+        log.info("{} set-assigned entries after de-duplication for gig '{}'",
+                deduped.size(), resolvedGig);
 
         // ── 3. Split into in-set (A–Y prefix) vs. backup (Z prefix) ─────────
-        List<CatalogEntry> inSet = deduped.stream()
+        List<SetlistEntry> inSet = deduped.stream()
                 .filter(e -> !e.getSet().toUpperCase().startsWith("Z"))
-                .sorted(Comparator.comparing(CatalogEntry::getSet))
+                .sorted(Comparator.comparing(SetlistEntry::getSet))
                 .toList();
 
-        List<CatalogEntry> backup = deduped.stream()
+        List<SetlistEntry> backup = deduped.stream()
                 .filter(e -> e.getSet().toUpperCase().startsWith("Z"))
-                .sorted(Comparator.comparing(CatalogEntry::getTitle))
+                .sorted(Comparator.comparing(SetlistEntry::getTitle))
                 .toList();
 
         log.info("In-set: {} songs, Backup (Z-set): {} songs", inSet.size(), backup.size());
@@ -98,25 +107,28 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
         Map<String, CatalogEntry> updated = new HashMap<>();
 
         int inSetSlot = IN_SET_START_SLOT;
-        for (CatalogEntry entry : inSet) {
+        for (SetlistEntry entry : inSet) {
             if (!hasBacking(entry)) continue;
             String newSlot = String.valueOf(inSetSlot++);
             if (!newSlot.equals(entry.getBacking())) {
-                updated.put(entry.getSongId().toString(), entry.toBuilder().backing(newSlot).build());
+                updated.put(entry.getSongId().toString(),
+                        entry.getSong().toBuilder().backing(newSlot).build());
             }
         }
         log.info("Assigned in-set slots {} – {}", IN_SET_START_SLOT, inSetSlot - 1);
 
         int backupSlot = BACKUP_START_SLOT;
-        for (CatalogEntry entry : backup) {
+        for (SetlistEntry entry : backup) {
             if (!hasBacking(entry)) continue;
             if (backupSlot > MAX_SLOT) {
-                log.warn("RC-500 slot limit ({}) reached — skipping backup song '{}'", MAX_SLOT, entry.getTitle());
+                log.warn("RC-500 slot limit ({}) reached — skipping backup song '{}'",
+                        MAX_SLOT, entry.getTitle());
                 continue;
             }
             String newSlot = String.valueOf(backupSlot++);
             if (!newSlot.equals(entry.getBacking())) {
-                updated.put(entry.getSongId().toString(), entry.toBuilder().backing(newSlot).build());
+                updated.put(entry.getSongId().toString(),
+                        entry.getSong().toBuilder().backing(newSlot).build());
             }
         }
         log.info("Assigned backup slots {} – {}", BACKUP_START_SLOT, backupSlot - 1);
@@ -138,18 +150,16 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
             updateSongService.updateSong(filePath);
         }
 
-        // ── 8. Build the final setlist (with updated backing values) ─────────
-        List<CatalogEntry> finalSetlistEntries = allEntries.stream()
-                .filter(e -> e.getSet() != null && !e.getSet().isBlank())
-                .sorted(Comparator.comparing(CatalogEntry::getSet))
+        // ── 8. Re-join updated catalog with assignments to build final setlist
+        List<SetlistEntry> finalJoined = joiner.join(resolvedGig, allAssignments, catalogMap);
+        List<SetlistEntry> setlistEntries = deduplicator.deduplicate(finalJoined).stream()
+                .sorted(Comparator.comparing(SetlistEntry::getSet))
                 .toList();
 
-        // Re-run dedup on the refreshed entries to produce the clean setlist
-        List<CatalogEntry> setlistEntries = deduplicator.deduplicate(finalSetlistEntries).stream()
-                .sorted(Comparator.comparing(CatalogEntry::getSet))
-                .toList();
-
-        Setlist setlist = Setlist.builder().entries(setlistEntries).build();
+        Setlist setlist = Setlist.builder()
+                .gig(resolvedGig)
+                .entries(setlistEntries)
+                .build();
 
         // ── 9. Write the setlist CSV ──────────────────────────────────────────
         setlistPort.writeSetlistToCsv(Paths.get(outputPath), setlistEntries);
@@ -158,11 +168,7 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
         return setlist;
     }
 
-    /**
-     * Returns {@code true} when a song has a real backing track on the RC-500 —
-     * i.e., BACKING is non-blank and not the no-backing sentinel {@value #NO_BACKING_SENTINEL}.
-     */
-    private boolean hasBacking(CatalogEntry entry) {
+    private boolean hasBacking(SetlistEntry entry) {
         String b = entry.getBacking();
         return b != null && !b.isBlank() && !NO_BACKING_SENTINEL.equals(b);
     }
