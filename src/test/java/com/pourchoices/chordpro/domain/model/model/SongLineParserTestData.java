@@ -108,15 +108,6 @@ public interface SongLineParserTestData {
             .value(PERFORMANCE_KEY_VALUE_01)
             .build();
 
-    // Version
-    public final static String VERSION_VALUE_01 = "1.0";
-    public final static String VERSION_01 = "{meta: version: " + VERSION_VALUE_01 + "}";
-    public final static ParsedHeaderLine VERSION_EXPECTED_PARSED_LINE_01 =
-            ParsedHeaderLine.builder()
-                    .headerDirective(HeaderDirective.VERSION)
-                    .value(VERSION_VALUE_01)
-                    .build();
-
     // Document Comment
     public final static String DOCUMENT_COMMENT_COMMENT_01 = "this song is about ... ";
     public final static String DOCUMENT_COMMENT_01 = "{{"+ DOCUMENT_COMMENT_COMMENT_01 + "}}";

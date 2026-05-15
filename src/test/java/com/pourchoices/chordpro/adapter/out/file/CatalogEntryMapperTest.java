@@ -32,7 +32,6 @@ class CatalogEntryMapperTest {
                 .timeSignature("4/4")
                 .capo("0")
                 .nord("Yes")
-                .version("1.0")
                 .countin("4")
                 .backing("Full Band")
                 .ve("Verse-Chorus")
@@ -55,7 +54,6 @@ class CatalogEntryMapperTest {
         assertThat(dto.getTimeSignature()).isEqualTo(entity.getTimeSignature());
         assertThat(dto.getCapo()).isEqualTo(entity.getCapo());
         assertThat(dto.getNord()).isEqualTo(entity.getNord());
-        assertThat(dto.getVersion()).isEqualTo(entity.getVersion());
         assertThat(dto.getCountin()).isEqualTo(entity.getCountin());
         assertThat(dto.getBacking()).isEqualTo(entity.getBacking());
         assertThat(dto.getVe()).isEqualTo(entity.getVe());
@@ -77,7 +75,6 @@ class CatalogEntryMapperTest {
                 .timeSignature("3/4")
                 .capo("2")
                 .nord("No")
-                .version("2.1")
                 .countin("2")
                 .backing("Acoustic")
                 .ve("Chorus-Verse")
@@ -100,7 +97,6 @@ class CatalogEntryMapperTest {
         assertThat(entity.getTimeSignature()).isEqualTo(dto.getTimeSignature());
         assertThat(entity.getCapo()).isEqualTo(dto.getCapo());
         assertThat(entity.getNord()).isEqualTo(dto.getNord());
-        assertThat(entity.getVersion()).isEqualTo(dto.getVersion());
         assertThat(entity.getCountin()).isEqualTo(dto.getCountin());
         assertThat(entity.getBacking()).isEqualTo(dto.getBacking());
         assertThat(entity.getVe()).isEqualTo(dto.getVe());

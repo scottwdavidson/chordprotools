@@ -9,7 +9,7 @@ public interface SongParserTestData extends SongLineParserTestData {
 
     // School's Out Song File
     public final static List<String> SONG_FILE_01 = List.of(
-            TITLE_01, ARTIST_01, KEY_01, DURATION_01, TEMPO_01, NORD_01, ROLAND_01, VERSION_01, DOCUMENT_COMMENT_01, SONG_COMMENT_01, START_OF_VERSE_01, START_OF_CHORUS_01);
+            TITLE_01, ARTIST_01, KEY_01, DURATION_01, TEMPO_01, NORD_01, ROLAND_01, DOCUMENT_COMMENT_01, SONG_COMMENT_01, START_OF_VERSE_01, START_OF_CHORUS_01);
 
     public final static List<ParsedHeaderLine> EXPECTED_PARSED_SONG_FILE_01 = List.of(
             TITLE_EXPECTED_PARSED_LINE_01,
@@ -18,8 +18,7 @@ public interface SongParserTestData extends SongLineParserTestData {
             DURATION_EXPECTED_PARSED_LINE_01,
             TEMPO_EXPECTED_PARSED_LINE_01,
             NORD_EXPECTED_PARSED_LINE_01,
-            ROLAND_EXPECTED_PARSED_LINE_01,
-            VERSION_EXPECTED_PARSED_LINE_01
+            ROLAND_EXPECTED_PARSED_LINE_01
     );
 
     public final static ParsedHeader EXPECTED_PARSED_HEADER_01 =
@@ -31,7 +30,6 @@ public interface SongParserTestData extends SongLineParserTestData {
                     .headerLine(DURATION_EXPECTED_PARSED_LINE_01)
                     .headerLine(TEMPO_EXPECTED_PARSED_LINE_01)
                     .headerLine(NORD_EXPECTED_PARSED_LINE_01)
-                    .headerLine(VERSION_EXPECTED_PARSED_LINE_01)
                     .build();
 
     public final static List<String> TEST_CHORDPRO_PARSED_FILE = List.of(

@@ -63,7 +63,6 @@ Each row in `song-catalog.csv` maps to a ChordPro file and carries the following
 | `PERFORMANCE KEY` | Key the band actually performs in (may differ from the `.cho` file's key) |
 | `TIME SIGNATURE` | Time signature (e.g. `4/4`) |
 | `CAPO` | Guitar capo position, if any |
-| `VERSION` | Version tag for songs with multiple arrangements |
 | `CHORDPRO FILENAME` | Relative path to the `.cho` file |
 | `SET` | Set assignment code (e.g. `A01`, `B02`) — drives the setlist |
 

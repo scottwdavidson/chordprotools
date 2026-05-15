@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-14 (session 5)
+# Last updated: 2026-05-15 (session 6)
 
 ---
 
@@ -34,7 +34,7 @@ Run via: `mvn spring-boot:run -Dspring-boot.run.arguments="<subcommand> <args>"`
 
 ```
 TITLE, ARTIST, KEY, DURATION, TEMPO, COUNTIN, BACKING, NORD, ROLAND, VE,
-PERFORMANCE KEY, TIME SIGNATURE, CAPO, VERSION, SONG ID, SONG LABEL, SET
+PERFORMANCE KEY, TIME SIGNATURE, CAPO, SONG ID, SONG LABEL, SET
 ```
 
 - **SONG ID**: structured key `CLUSTER:LETTER:ArtistDir:SongStem[-keyVariant]`
@@ -45,11 +45,10 @@ PERFORMANCE KEY, TIME SIGNATURE, CAPO, VERSION, SONG ID, SONG LABEL, SET
 - **PERFORMANCE KEY**: key band actually plays in (may differ from chart key in `.cho` file)
 - **COUNTIN**: count-in source (e.g. `4` = BeatBuddy, `8` = backing track, `24` = default)
 - **BACKING**: track number on RC-500 looper (e.g. `48`)
-- **SONG LABEL**: RC-500 display label, max 12 chars (hardware). HeaderDirective cardinality 29 (between BACKING=30 and VE=28). Null sentinel = `"null"`.
 - **NORD**: Nord piano voice preset (e.g. `M11`, `M22`)
 - **ROLAND**: Roland keyboard voice preset
 - **VE**: VE-500 vocal harmony preset (e.g. `U99`)
-- **VERSION**: version tag for songs with multiple arrangements (default `0.0`)
+- **NORD**: Nord piano voice preset (e.g. `M11`, `M22`)
 
 Mandatory fields (always present in `.cho` header): TITLE, ARTIST, KEY, DURATION, TEMPO
 Optional fields: only written to `.cho` when non-blank in catalog

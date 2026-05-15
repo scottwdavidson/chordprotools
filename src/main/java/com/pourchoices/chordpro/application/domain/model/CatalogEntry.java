@@ -23,7 +23,6 @@ public class CatalogEntry {
     String capo;
     String nord;
     String roland;
-    String version;
     String countin;
     String backing;
     String ve;

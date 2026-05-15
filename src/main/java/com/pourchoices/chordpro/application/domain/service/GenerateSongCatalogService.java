@@ -87,7 +87,6 @@ public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
             else if (d == HeaderDirective.CAPO)        builder.capo(v);
             else if (d == HeaderDirective.NORD)        builder.nord(v);
             else if (d == HeaderDirective.ROLAND)      builder.roland(v);
-            else if (d == HeaderDirective.VERSION)     builder.version(v);
             else if (d == HeaderDirective.COUNTIN)     builder.countin(v);
             else if (d == HeaderDirective.BACKING)     builder.backing(v);
             else if (d == HeaderDirective.SONG_LABEL)   builder.songLabel(v);

@@ -24,7 +24,6 @@ public enum HeaderDirective {
     CAPO(List.of("capo","Capo"),   false, 60),
     NORD(List.of("nord", "Nord", "N"), "null", true, true, 50),
     ROLAND(List.of("roland"), "null", true, true, 49),
-    VERSION(List.of("version"), "0.0", true, true, 44),
     COUNTIN(List.of("countin", "Countin", "CountIn"), "24", false, true, 42),
     BACKING(List.of("backing", "Backing Track"), "99", false, true, 30),
     SONG_LABEL(List.of("label", "Label", "song label"), "null", false, true, 29),
