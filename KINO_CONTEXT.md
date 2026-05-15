@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-15 (session 6)
+# Last updated: 2026-05-15 (session 8 — Phase 1 complete)
 
 ---
 
@@ -315,7 +315,19 @@ Adding new songs:
 
 ## NOTABLE GOTCHAS
 
-- `generate-song-catalog` CLEARS columns not in .cho headers (SET, PERFORMANCE KEY, etc.) — always push edits first
+- `generate-song-catalog` CLEARS columns not in .cho headers (SET, PERFORMANCE KEY, etc.) — always push edits first via update-songs before regenerating. **Planned fix:** merge-preserve mode (Option 0 in data-storage-options.md).
+- **DATA MODEL DECISION (session 7):** Full analysis in `docs/architecture/data-storage-options.md`. Summary:
+  - CSVs ARE the database. No binary DB in Git (kills diffs + Google Sheets editability).
+  - **Planned:** split into `song-catalog.csv` (song identity + hardware) and `setlist-assignments.csv` (gig planning). Join on SONG ID at runtime in Java. **PHASE 1 COMPLETE (session 8).**
+  - `setlist-assignments.csv` columns: `GIG, SONG ID, SET` — one row per song-in-gig assignment (long/tidy format). GIG is a date-first slug e.g. `2026-06-14-rusty-nail`. Multiple gigs = multiple rows sharing the same GIG value. Filter by GIG in the service layer.
+  - Seeded with 2 placeholder rows (gig=`tbd`). User to recreate real gig data from past setlists.
+  - New infrastructure: `SetlistAssignment` (domain), `SetlistAssignmentDto`, `SetlistAssignmentMapper`, `SetlistAssignmentsPort` (out), `SetlistAssignmentsFileReader`, `SetlistAssignmentsFileWriter`, `SetlistAssignmentsAdapter`, `ChordproSetlistAssignmentsPathConfig`.
+  - Property: `chordprotools.setlist-assignments=./setlist-assignments.csv`
+  - **Phase 2 next:** pivot setlist services (ExportSetlistService, AssignBackingTrackSlotsService, SetlistDeduplicator) to join song-catalog + setlist-assignments on SONG ID.
+  - **Phase 3 next:** strip SET from CatalogEntry, HeaderDirective, DTO/mapper chain, .cho files, song-catalog.csv.
+  - SET should eventually leave HeaderDirective + .cho files entirely (gig data ≠ musical data).
+  - H2/SQLite rejected: binary formats, non-editable in Sheets, no capability gain at 500-row scale.
+  - Google Sheets stays as the editing surface — hard constraint, guitarist must be able to edit without tooling.
 - Catalog key is SongId string (e.g. `ABC:B:BillyJoel:MyLife`), NOT file path
 - `tidy-song-catalog` MUST be run after any spreadsheet save before update-song/update-songs
 - Key variant files (`Song-c.cho`) matched by regex `-[a-gA-G][#b]?m?` — non-key suffixes like `-old`, `-MVP` are NOT variants
