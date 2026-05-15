@@ -36,7 +36,6 @@ public class CatalogEntryToParsedHeaderMapper {
         addIfPresent(builder, HeaderDirective.SONG_LABEL,       entry.getSongLabel());
         addIfPresent(builder, HeaderDirective.VE,              entry.getVe());
         addIfPresent(builder, HeaderDirective.PERFORMANCE_KEY, entry.getPerformanceKey());
-        addIfPresent(builder, HeaderDirective.SET,             entry.getSet());
 
         return builder.build();
     }

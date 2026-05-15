@@ -3,11 +3,6 @@
 {key: Dm}
 {duration: 3:00}
 {tempo: 80}
-{meta: Set: C08}
-
-{comment:***********************************************}
-{comment:**  meta: Set: C08   }
-{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [Dm]     . . . | [Gm7] . . [Am7] | 

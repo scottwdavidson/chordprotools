@@ -324,7 +324,18 @@ Adding new songs:
   - New infrastructure: `SetlistAssignment` (domain), `SetlistAssignmentDto`, `SetlistAssignmentMapper`, `SetlistAssignmentsPort` (out), `SetlistAssignmentsFileReader`, `SetlistAssignmentsFileWriter`, `SetlistAssignmentsAdapter`, `ChordproSetlistAssignmentsPathConfig`.
   - Property: `chordprotools.setlist-assignments=./setlist-assignments.csv`
   - **Phase 2 next:** pivot setlist services (ExportSetlistService, AssignBackingTrackSlotsService, SetlistDeduplicator) to join song-catalog + setlist-assignments on SONG ID.
-  - **Phase 3 next:** strip SET from CatalogEntry, HeaderDirective, DTO/mapper chain, .cho files, song-catalog.csv.
+  - **Phase 3 COMPLETE (session 8):** SET fully removed from the catalog side.
+    - `CatalogEntry`: `String set` field removed.
+    - `HeaderDirective`: `SET` enum constant removed.
+    - `CatalogEntryDto`: `"set"` removed from CATALOG_COLUMN_ORDER + `@CsvBindByName` field removed. Now 15 columns.
+    - `CatalogEntryMapper`: `.set()` calls removed from both `toEntity()` and `toDto()`.
+    - `CatalogEntryToParsedHeaderMapper`: `addIfPresent(SET, ...)` call removed.
+    - `GenerateSongCatalogService`: `else if SET builder.set(v)` branch removed.
+    - `CatalogEntryMapperTest`: `.set()` builder calls + `assertThat(set)` assertions removed.
+    - `song-catalog.csv`: SET column stripped (487 rows, now 15 columns).
+    - `MyLife-c.cho`: `{meta: Set: B10}` + mirror comment line removed.
+    - `CarelessWhisper.cho`: `{meta: Set: C08}` + entire comment block removed (was the only meta directive on that song).
+    - Tests: 61 passing. SET is gone from the catalog entirely.
   - SET should eventually leave HeaderDirective + .cho files entirely (gig data ≠ musical data).
   - H2/SQLite rejected: binary formats, non-editable in Sheets, no capability gain at 500-row scale.
   - Google Sheets stays as the editing surface — hard constraint, guitarist must be able to edit without tooling.

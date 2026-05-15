@@ -28,7 +28,6 @@ public enum HeaderDirective {
     BACKING(List.of("backing", "Backing Track"), "99", false, true, 30),
     SONG_LABEL(List.of("label", "Label", "song label"), "null", false, true, 29),
     VE(List.of("ve", "VE"), "U99", false, true, 28),
-    SET(List.of("Set"), "null", false, true, 25),
     PERFORMANCE_KEY(List.of("performance", "performanceKey", "PerformanceKey", "Performance Key"), "Hm", false, true, 20),
     EPHEMERAL_COMMENT(List.of("**"), "null", false, false, 10),
     UNPARSED_META(List.of("meta"),  "0", false, false,1 );

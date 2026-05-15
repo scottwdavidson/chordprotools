@@ -47,7 +47,6 @@ public class CatalogEntryMapper {
                 .ve(dto.getVe())
                 .performanceKey(dto.getPerformanceKey())
                 .songLabel(dto.getSongLabel())
-                .set(dto.getSet())
                 .build();
     }
 
@@ -69,7 +68,6 @@ public class CatalogEntryMapper {
                 .ve(entity.getVe())
                 .performanceKey(entity.getPerformanceKey())
                 .songLabel(entity.getSongLabel())
-                .set(entity.getSet())
                 .build();
     }
 

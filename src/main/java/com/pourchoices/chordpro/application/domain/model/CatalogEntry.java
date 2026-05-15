@@ -29,6 +29,5 @@ public class CatalogEntry {
     String performanceKey;
     /** RC-500 display label — max 12 characters (hardware constraint). */
     String songLabel;
-    String set;
 
 }
