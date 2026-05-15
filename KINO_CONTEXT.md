@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-14 (session 2)
+# Last updated: 2026-05-14 (session 5)
 
 ---
 
@@ -103,12 +103,24 @@ Thin wrapper: `List<CatalogEntry>` — deduplicated, SET-sorted subset
 - Script: `./update-songs`
 - Edit `updateSongsListing.txt` with one .cho path per line
 
+### `assign-backing-track-slots` → `AssignBackingTrackSlotsCommand/Service`
+- Reassigns RC-500 slot numbers for all set-assigned songs that have a real backing track
+- **In-set songs** (SET prefix A–Y): sorted by SET code, slots assigned from **5** upward
+- **Backup songs** (SET prefix Z, e.g. Z0, Z1): sorted alphabetically by title, slots from **50** upward (hard cap at 99)
+- Songs with BACKING blank or "99" are skipped (no slot change)
+- Side-effects in order: write updated catalog CSV → call UpdateSongService per changed .cho → write fresh setlist.csv
+- Script: `./assign-backing-track-slots` (optional `--output` arg for custom setlist path)
+- Constants in service: `IN_SET_START_SLOT=5`, `BACKUP_START_SLOT=50`, `MAX_SLOT=99`
+- Dedup reuses `SetlistDeduplicator` component
+
 ### `export-setlist` → `ExportSetlistCommand/Service`
 - Filters catalog to entries with non-blank SET, deduplicates, sorts by SET code, writes setlist.csv
 - Prints formatted table to stdout
 - Optional `--output` arg for custom path
+- **Dedup logic**: extracted from `ExportSetlistService` into `SetlistDeduplicator` (@Component) — shared by `ExportSetlistService` and `AssignBackingTrackSlotsService`
+- **SetlistEntryDto**: includes `backing` column (blank when no backing or sentinel 99). Order: set, song title, song artist, key, backing
+- **ExportSetlistCommand stdout**: shows SET / TITLE / ARTIST / KEY / BACKING
 - **Dedup rules** (base=no keyAlt, variant=has keyAlt):
-  - No collision (1 in group): keep as-is
   - Scenario A (base+variant, same SET): keep base, drop variant [INFO]
   - Scenario B (only variant has SET): single-member group, keep
   - Scenario C (base+variant, different SET): keep base, warn [WARN]
@@ -138,7 +150,7 @@ Thin wrapper: `List<CatalogEntry>` — deduplicated, SET-sorted subset
 | `./copyAllSetlist` | copy all .cho + .pdf to ~/tmp/setlist-ff/ (adds to existing) |
 | `./copySetlist` | hand-curated gig setlist copy script (edit per gig) |
 | `./help` | show CLI help |
-| `./update-catalog` | convenience alias for batch update flow |
+| `./assign-backing-track-slots` | reassign RC-500 slots for all set songs, update catalog + .cho files, regenerate setlist |
 
 ---
 
@@ -213,9 +225,72 @@ Reference impl for new commands: `ExportSetlistCommand/Service` (most complete)
 
 ---
 
+---
+
+## RC-500 SONG LABEL DESIGN RULES
+
+The RC-500 looper has a **12-character display that physically splits into two rows of 6**.
+Row 1 = chars [0:6], Row 2 = chars [6:12]. There is no way to control the split — it is always at position 6.
+
+### The core goal
+Position 6 must be a **natural semantic break** so both rows read as meaningful words/phrases independently.
+A label like `CoverMe` (7 chars) would display as `CoverM` / `e` — terrible. `Cover  Me` is correct.
+
+### Three strategies (in order of preference)
+
+1. **CamelCase capital at position 7** — cleanest, no wasted chars
+   - `LaIslaBonita` → `LaIsla` / `Bonita`
+   - `YouMayBeRigh` → `YouMay` / `BeRigh`
+   - `LittleSister` → `Little` / `Sister`
+   - `GuitarWeeps`  → `Guitar` / `Weeps`
+
+2. **Space at position 6** — use when a complete first word is exactly 5 chars (space lands at 6)
+   - `Wagon Wheel`  → `Wagon ` / `Wheel`
+   - `Never Rains`  → `Never ` / `Rains`
+   - `And WeDance`  → `And We` / `Dance`
+   - `I Saw Light`  → `I Saw ` / `Light`
+
+3. **Padding spaces to fill row 1** — use when first word is <5 chars; pad with spaces to reach 6
+   - `Tiny  Dancer` → `Tiny  ` / `Dancer`  (2 spaces)
+   - `Die   Smile`  → `Die   ` / `Smile`   (3 spaces)
+   - `How   Long`   → `How   ` / `Long`    (3 spaces)
+   - `Cover  Me`    → `Cover ` / `Me`      (2 spaces — first word is 5 chars)
+
+### Anti-pattern: leading space on row 2
+If the label produces a leading space on row 2, the strategy is wrong — the space belongs on row 1 as padding.
+- `Takin Care` → `Takin ` / `Care` ✔  (space is trailing on row 1, not leading on row 2)
+- This was caught and fixed in a post-run correction pass.
+
+### Methodology for picking a label
+1. Start from the **most recognisable word or phrase** in the song title — not necessarily the first words
+   - "It Never Rains in Southern California" → `Never Rains`
+   - "Just A Song Before I Go" → `BeforeIGo` (the distinctive hook)
+   - "While My Guitar Gently Weeps" → `GuitarWeeps`
+2. Prefer whole words over abbreviations; abbreviate only when needed to fit
+   - Drop articles/prepositions first: "The", "A", "Of", "In", "And"
+   - Vowel-drop for common words: `Aganst` (Against), `Diamnd` (Diamond), `Unchn` (Unchain)
+   - Avoid abbreviations that destroy recognisability: `Prblm` is borderline, always prefer full second word
+3. Use CamelCase to signal word boundaries when spaces are dropped
+   - `RunOnEmpty`, `BadBadLeroy`, `SinceUGone`
+4. Numbers are fair game and often perfect: `Jenny 8675` (everyone knows the rest)
+5. Unsolvable case: **single 7-char words** — the split is always mid-word
+   - `Trouble` (Travis Tritt T-R-O-U-B-L-E) → `Troubl` / `e` — unavoidable
+
+### CamelCase label vs SET code
+These are orthogonal. The label identifies the song on the RC-500 hardware *regardless of set membership*.
+Both base version and all key-variant rows in the catalog carry the same label.
+Key-variant detection uses `SongId.isBaseVersion()` / `KEY_ALT_PATTERN: -[a-gA-G][#b]?m?`
+
+### Validation rule
+Max 12 chars — enforced at write time (WARN log, not truncation).
+All 111 labelled rows in catalog pass as of session 5.
+
+---
+
 ## CURRENT STATE / IN-PROGRESS
 
-- **SONG LABEL field**: Fully implemented and live. `song-catalog.csv` regenerated with 487 entries. Column sits between SONG ID and SET. Written to .cho as `{meta: label: ...}`.
+- **SONG LABEL field**: Fully implemented. Column between SONG ID and SET in CSV. Written to .cho as `{meta: label: ...}`. 111 rows populated across all songs with backing tracks. Full label design rules documented in RC-500 SONG LABEL DESIGN RULES section above.
+- **assign-backing-track-slots**: Fully implemented. `SetlistDeduplicator` extracted. `SetlistEntryDto` now carries BACKING column.
 - **SET management**: `set` field added to CatalogEntry and song-catalog.csv. `export-setlist` command is fully implemented.
 - **Sets work in flight**: Several new commands related to set management are planned but not yet started (beyond export-setlist).
 - **import-new-song**: Stubbed, throws UnsupportedOperationException.

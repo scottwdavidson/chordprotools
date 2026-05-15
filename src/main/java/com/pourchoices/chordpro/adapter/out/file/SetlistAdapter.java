@@ -24,6 +24,7 @@ public class SetlistAdapter implements SetlistPort {
                         .songTitle(e.getTitle())
                         .songArtist(e.getArtist())
                         .key(resolveKey(e))
+                        .backing(resolvedBacking(e))
                         .build())
                 .toList();
         this.setlistFileWriter.writeSetlistToCsv(outputPath, dtos);
@@ -31,11 +32,19 @@ public class SetlistAdapter implements SetlistPort {
 
     /**
      * Returns the Performance Key when one is set, falling back to the chart key.
-     * The performance key is the key the band actually plays in, which may differ
-     * from the key the .cho file is written in.
      */
     private String resolveKey(CatalogEntry entry) {
         String pk = entry.getPerformanceKey();
         return (pk != null && !pk.isBlank()) ? pk : entry.getKey();
+    }
+
+    /**
+     * Returns the backing track slot number, or blank when no real backing track is assigned.
+     * The sentinel value "99" is treated as "no backing track" and mapped to blank.
+     */
+    private String resolvedBacking(CatalogEntry entry) {
+        String b = entry.getBacking();
+        if (b == null || b.isBlank() || "99".equals(b)) return "";
+        return b;
     }
 }

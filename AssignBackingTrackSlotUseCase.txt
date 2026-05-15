@@ -1,0 +1,14 @@
+This is a use case description doc to be shared with Code Puppy. 
+
+Use Case: Assign Backing Track Slots
+
+Background: in the song-catalog we'll define the Sets to be played in the next gig using the Set property. Many of the songs will have backing tracks and it's challenging if the backing tracks are spread all over the 1 thru 99 slots on the RC-500. Our Sets tend to be pretty similar from gig to gig but do change so best approach is to just order the backing tracks for each set and make it as easy as possible on ourselves during the gig. We will also have many (40 to 50 at least ) backing track that are not used in the gig BUT we'll want them on the RC-500 and assigned in the chord pro song file just in case we go off script. 
+
+High level design approach : we need a new command called Assign Backing Track Slots which looks at the current song-catalog and updates all of the songs which have a set designator to a backing track slot, starting at slot number 5. we'll need to have a specialized designator for backing tracks which aren't in the planned set but needed in case of a request , extra time or I just feel like playing it. These will be grouped simply as Z0 and Z1 meaning that the alphabetized ( by name ) Z0 songs will be added to the RC-500 AFTER all of the regular set songs and space permitting, we'll add the Z1 songs. So, a typical set will have 2 or 3 groups of songs w/ prefixes A, B, C and each prefix will have an order number, e.g., A01, A02, A03 ... A11, B01, B02 ... B10, C01, C02, C03 ... C15. So the "in set" songs are easily identified (A01, B09, C10, etc. ) and the "backup set" songs are also easily identifiable (Z0 or Z1 ) and standard natural language ( alphabetic ) sorting can be applied.  
+
+Algorithm: the algorithm is pretty straightforward
+ - find all songs with a set designation and sort 
+ - sequentially assign backing track slots ( starting at 5 ) for the "in set songs" ( A's, B's, etc. ) in the order in which they are to be played. (Note / Recall, some songs wont' have a backing track ). 
+ - sequentially assign backing track slots ( starting at 50 ) for the "backup set songs" and if you run out (99) is the highest slot number, then just stop 
+ - update all the songs which were changed by a backing track slot assignment ( literally update the chordpro song file by calling the equivalent of the update-song command )
+ - generate a new setlist.csv (note, this should include the backing track property ) 

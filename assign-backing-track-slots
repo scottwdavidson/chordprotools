@@ -1,0 +1,3 @@
+#!/bin/zsh
+mvn spring-boot:run \
+  -Dspring-boot.run.arguments="assign-backing-track-slots ${1:+--output $1}"

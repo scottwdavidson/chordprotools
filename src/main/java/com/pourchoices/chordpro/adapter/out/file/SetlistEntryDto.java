@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 public class SetlistEntryDto {
 
     public static final List<String> SETLIST_COLUMN_ORDER =
-            Arrays.asList("set", "song title", "song artist", "key");
+            Arrays.asList("set", "song title", "song artist", "key", "backing");
 
     @CsvBindByName(column = "set")
     private String set;
@@ -36,4 +36,7 @@ public class SetlistEntryDto {
 
     @CsvBindByName(column = "key")
     private String key;
+
+    @CsvBindByName(column = "backing")
+    private String backing;
 }

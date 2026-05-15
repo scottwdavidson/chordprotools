@@ -13,9 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -24,8 +22,8 @@ import java.util.Map;
  * sorts them by that value (lexicographic — e.g. A01, A02, B01), and writes the result
  * to a setlist CSV file.
  *
- * <p>The in-memory {@link Setlist} retains the full {@link CatalogEntry} data for
- * downstream use. The CSV projection is delegated entirely to {@link SetlistPort}.
+ * <p>De-duplication of base/variant pairs is delegated to {@link SetlistDeduplicator}.
+ * The CSV projection is delegated entirely to {@link SetlistPort}.
  */
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
@@ -35,6 +33,7 @@ public class ExportSetlistService implements ExportSetlistUseCase {
     private final CatalogPort catalogPort;
     private final SetlistPort setlistPort;
     private final ChordproCatalogIndexPathConfig chordproCatalogIndexPathConfig;
+    private final SetlistDeduplicator deduplicator;
 
     @Override
     public Setlist exportSetlist(String outputPathString) {
@@ -50,10 +49,8 @@ public class ExportSetlistService implements ExportSetlistUseCase {
                 .toList();
         log.info("Found {} entries with a Set value (before de-duplication)", withSet.size());
 
-        // 3. De-duplicate: when a base file and a key-variant share the same song
-        //    (same directory + base stem), keep only the base and handle all set-code
-        //    combinations per the rules in deduplicate().
-        List<CatalogEntry> setlistEntries = deduplicate(withSet).stream()
+        // 3. De-duplicate via shared component, then sort by set code
+        List<CatalogEntry> setlistEntries = deduplicator.deduplicate(withSet).stream()
                 .sorted(Comparator.comparing(CatalogEntry::getSet))
                 .toList();
         log.info("{} entries remain after de-duplication", setlistEntries.size());
@@ -70,108 +67,4 @@ public class ExportSetlistService implements ExportSetlistUseCase {
 
         return setlist;
     }
-
-    // -------------------------------------------------------------------------
-    // De-duplication helpers
-    // -------------------------------------------------------------------------
-
-    /**
-     * De-duplicates entries that are variants of the same song (same parent directory
-     * and base stem) when more than one of those variants has a Set value assigned.
-     *
-     * <p>File naming convention: standard key → {@code SongName.cho}; key variant →
-     * {@code SongName-KEY.cho} (e.g., {@code MyLife-c.cho}).  A trailing segment is
-     * treated as a musical-key suffix when it matches {@code -[a-gA-G][#b]?m?}.
-     *
-     * <p>Decision rules (applied per group of entries sharing the same dir + base stem):
-     * <ul>
-     *   <li><b>No collision</b> – only one entry in the group → keep as-is.</li>
-     *   <li><b>Scenario A</b> – base + variant, same set code → keep base, drop variant (INFO).</li>
-     *   <li><b>Scenario B</b> – only a variant has a set code (base has none / doesn't exist)
-     *       → single-member group, falls through as «no collision».</li>
-     *   <li><b>Scenario C</b> – base + variant, different set codes → keep base, log WARN
-     *       that the variant is being ignored.</li>
-     *   <li><b>Both variants, same set</b> – keep first encountered, log WARN (no base).</li>
-     *   <li><b>Both variants, different sets</b> – keep first encountered, log WARN about
-     *       the discrepancy and the absence of a base version.</li>
-     * </ul>
-     */
-    private List<CatalogEntry> deduplicate(List<CatalogEntry> entries) {
-        // Group by (parent dir, base stem) — set code intentionally excluded so that
-        // base+variant pairs with *different* set codes still collide here.
-        Map<String, List<CatalogEntry>> groups = new LinkedHashMap<>();
-        for (CatalogEntry entry : entries) {
-            groups.computeIfAbsent(entry.getSongId().toGroupKey(), k -> new ArrayList<>()).add(entry);
-        }
-
-        List<CatalogEntry> result = new ArrayList<>();
-        for (List<CatalogEntry> group : groups.values()) {
-            if (group.size() == 1) {
-                result.add(group.get(0)); // no collision — keep as-is
-                continue;
-            }
-
-            List<CatalogEntry> bases    = group.stream()
-                    .filter(e ->  e.getSongId().isBaseVersion()).toList();
-            List<CatalogEntry> variants = group.stream()
-                    .filter(e -> !e.getSongId().isBaseVersion()).toList();
-
-            if (!bases.isEmpty()) {
-                // A base version exists — it always wins.
-                CatalogEntry base = bases.get(0);
-                result.add(base);
-
-                for (CatalogEntry variant : variants) {
-                    if (variant.getSet().equals(base.getSet())) {
-                        // Scenario A: same set code — expected, quiet drop.
-                        log.info("De-dup [A]: dropping keyed variant '{}' (set '{}') — "
-                                        + "base '{}' already covers this set position.",
-                                variant.getSongId(), variant.getSet(),
-                                base.getSongId());
-                    } else {
-                        // Scenario C: different set codes — base wins, variant ignored with WARN.
-                        log.warn("De-dup [C]: ignoring keyed variant '{}' (set '{}') — "
-                                        + "base '{}' (set '{}') takes precedence. "
-                                        + "If this variant was meant for a different set, "
-                                        + "assign the set value to the base file instead.",
-                                variant.getSongId(), variant.getSet(),
-                                base.getSongId(), base.getSet());
-                    }
-                }
-            } else {
-                // No base version — all entries are keyed variants.
-                CatalogEntry first = variants.get(0);
-                result.add(first);
-
-                boolean allSameSet = variants.stream()
-                        .allMatch(v -> v.getSet().equals(first.getSet()));
-
-                for (CatalogEntry other : variants.subList(1, variants.size())) {
-                    if (allSameSet) {
-                        // Both variants, same set code.
-                        log.warn("De-dup [both variants, same set]: '{}' and '{}' both carry set '{}' "
-                                        + "and neither is the base version; keeping '{}'. "
-                                        + "Consider assigning the set value to the base file.",
-                                first.getSongId(), other.getSongId(),
-                                first.getSet(), first.getSongId());
-                    } else {
-                        // Both variants, different set codes — worst case.
-                        log.warn("De-dup [both variants, different sets]: '{}' (set '{}') and '{}' (set '{}') "
-                                        + "conflict and no base version exists; keeping '{}'. "
-                                        + "Resolve by assigning the set value to the base file.",
-                                first.getSongId(), first.getSet(),
-                                other.getSongId(), other.getSet(),
-                                first.getSongId());
-                    }
-                }
-            }
-        }
-
-        return result;
-    }
-
-    // -------------------------------------------------------------------------
-    // (No filename-parsing helpers needed here — SongId.toGroupKey() and
-    //  SongId.isBaseVersion() encapsulate that logic on the domain model.)
-    // -------------------------------------------------------------------------
 }

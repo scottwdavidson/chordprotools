@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.NonNull;
 import lombok.Value;
 
-@Builder
+@Builder(toBuilder = true)
 @Value
 public class CatalogEntry {
 

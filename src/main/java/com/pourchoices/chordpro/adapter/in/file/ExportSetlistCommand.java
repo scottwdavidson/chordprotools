@@ -53,14 +53,15 @@ public class ExportSetlistCommand implements Runnable {
         System.out.printf("%nSetlist export complete — %d songs written to %s%n%n", setlist.size(), outputPath);
 
         // Print a human-readable summary to stdout so Scott can eyeball it right away
-        System.out.printf("%-6s  %-40s  %-25s  %s%n", "SET", "TITLE", "ARTIST", "KEY");
-        System.out.println("-".repeat(85));
+        System.out.printf("%-6s  %-40s  %-25s  %-6s  %s%n", "SET", "TITLE", "ARTIST", "KEY", "BACKING");
+        System.out.println("-".repeat(95));
         for (CatalogEntry entry : setlist.getEntries()) {
-            System.out.printf("%-6s  %-40s  %-25s  %s%n",
+            System.out.printf("%-6s  %-40s  %-25s  %-6s  %s%n",
                     entry.getSet(),
                     truncate(entry.getTitle(), 40),
                     truncate(entry.getArtist(), 25),
-                    resolveKey(entry));
+                    resolveKey(entry),
+                    resolvedBacking(entry));
         }
         System.out.println();
     }
@@ -77,5 +78,12 @@ public class ExportSetlistCommand implements Runnable {
     private String resolveKey(CatalogEntry entry) {
         String pk = entry.getPerformanceKey();
         return (pk != null && !pk.isBlank()) ? pk : entry.getKey();
+    }
+
+    /** Blank out the sentinel value so the table stays clean. */
+    private String resolvedBacking(CatalogEntry entry) {
+        String b = entry.getBacking();
+        if (b == null || b.isBlank() || "99".equals(b)) return "";
+        return b;
     }
 }
