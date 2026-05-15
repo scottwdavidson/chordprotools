@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-15 (session 8 — Phase 1 + Phase 2 complete)
+# Last updated: 2026-05-15 (session 9)
 
 ---
 
@@ -313,9 +313,24 @@ Adding new songs:
 
 ---
 
-## NOTABLE GOTCHAS
+## CHO FILE LINTING (session 9)
 
-- `generate-song-catalog` CLEARS columns not in .cho headers (SET, PERFORMANCE KEY, etc.) — always push edits first via update-songs before regenerating. **Planned fix:** merge-preserve mode (Option 0 in data-storage-options.md).
+- `lint-cho.zsh` — standalone zsh script at project root.
+- **Modes:** `--check` (default, exit 1 on violations, safe for CI/pre-commit) | `--fix` (in-place correction, exit 0)
+- **Target:** `./cho` by default; accepts a file or directory argument.
+- **Rules** (defined once as parallel FROM/TO arrays, grep pattern + perl sub derived from them):
+  - `{soc}/{eoc}` → `{start_of_chorus}/{end_of_chorus}`
+  - `{sov}/{eov}` → `{start_of_verse}/{end_of_verse}`
+  - `{sob}/{eob}` → `{start_of_bridge}/{end_of_bridge}`
+  - `{sot}/{eot}` → `{start_of_tab}/{end_of_tab}`
+  - `{sog}/{eog}` → `{start_of_grid}/{end_of_grid}`
+  - `{start_of_tabs}/{end_of_tabs}` → `{start_of_tab}/{end_of_tab}` (typo fix)
+- **Intentionally excluded:** `{start_of_part}/{end_of_part}` (custom extension OnSong handles), parameterised grid directives e.g. `{start_of_grid 4x4+1}` (already full-form).
+- **Status:** 201 of 488 files corrected; `--check` now exits 0 across entire corpus.
+- **Future:** Java `normalize-cho-files` command to enforce same rules within the Spring CLI (explicit, not auto-hooked).
+
+- `generate-song-catalog` was designed for **batch ingestion** (adding/updating many songs at once). Scott has noted a future goal: a discrete `add-song-to-catalog` command that imports a single new song without full re-ingestion. Keep this in mind for future sessions.
+- `generate-song-catalog` CLEARS columns not in .cho headers (PERFORMANCE KEY etc.) — always push edits first via update-songs. Now safe for SET since SET is fully removed from the catalog (lives only in setlist-assignments.csv).
 - **DATA MODEL DECISION (session 7):** Full analysis in `docs/architecture/data-storage-options.md`. Summary:
   - CSVs ARE the database. No binary DB in Git (kills diffs + Google Sheets editability).
   - **Planned:** split into `song-catalog.csv` (song identity + hardware) and `setlist-assignments.csv` (gig planning). Join on SONG ID at runtime in Java. **PHASE 1 COMPLETE (session 8).**
