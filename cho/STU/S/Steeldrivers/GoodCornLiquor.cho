@@ -8,46 +8,46 @@
 {comment:Intro}
 |(E) |(E) |(E) |(E) |(A) |2/4(A)(G) |4/4(E) |(E) | x 2
 
-{soc}
+{start_of_chorus}
 [E]Well, the sun don't shine on a moonshine still
 [A]Copper line hiding in the side [G]of a [E]hill
 [E]It'll get you there, it'll get you there quicker
 [A]Fruit jar full of that good [G]corn [E]liquor
-{soc}
+{start_of_chorus}
 
 {comment: Solo}
 |4/4(E) |(E) |(E) |(E) |(A) |2/4(A)(G) |4/4(E) |(E) | x 2
 
-{sov}
+{start_of_verse}
 [E]Now when I was young about five or six
 [A]Daddy lost a job and my mama [G]took [E]sick
 And times got tough, and mama got sicker
 [A]Daddy started running that good [G]corn [E]liquor
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [E]Well, the sun don't shine on a moonshine still
 [A]Copper line hiding in the side [G]of a [E]hill
 [E]It'll get you there, it'll get you there quicker
 [A]Fruit jar full of that good [G]corn [E]liquor
-{soc}
+{start_of_chorus}
 
 {comment: Solo}
 |4/4(E) |(E) |(E) |(E) |(A) |2/4(A)(G) |4/4(E) |(E) | x 2
 
-{sov}
+{start_of_verse}
 [E]I remember that night, it was a blood red moon
 And [A]daddy was doing what he had [G]to [E]do
 When a shot rang out, and the sheriff pulled the trigger
 And [A]daddy stopped running that good [G]corn [E]liquor
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [E]Well, the sun don't shine on a moonshine still
 [A]Copper line hiding in the side [G]of a [E]hill
 [E]It'll get you there, it'll get you there quicker
 [A]Fruit jar full of that good [G]corn [E]liquor
-{soc}
+{start_of_chorus}
 
 {comment:Outro}  
 |4/4(E) |(E) |(E) |(E) |(A) |2/4(A) |(E)

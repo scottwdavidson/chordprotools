@@ -11,7 +11,7 @@
 | G | G | G | G | 
 
 {comment: PIANO ONLY}
-{sov}
+{start_of_verse}
 [G]You're on the phone with your girlfriend, she's up[D]set
 She's going off about something that you [Am]said
 'Cause she doesn't get your humor like [C]I do
@@ -19,7 +19,7 @@ She's going off about something that you [Am]said
 [G]I'm in the room it's a typical Tuesday [D]night
 I'm listening to the kind of music she doesn't [Am]like
 And she'll never know your story like [C]I do
-{eov}
+{end_of_verse}
 
 {comment: ADD GUITAR}
 {comment: PreChorus}
@@ -30,18 +30,18 @@ But sh[Am]e wears short skirts, [C]I wear T-shirts
 That what you're [D]looking for has been here the whole time
 
 {comment:DR-03}
-{soc}
+{start_of_chorus}
 If you could [G]see that I'm the one who understands you
 [D]Been here all along, so why can't you [Am]see?
 You belong with [C]me, you belong with me[G]
-{eoc}
+{end_of_chorus}
 
 {comment: Interlude}
 {comment:DR-04}
 | G | G | 
 
 {comment: PIANO ONLY}
-{sov}
+{start_of_verse}
 [G]Walkin' the streets with you and your worn out [D]jeans
 I can't help thinking this is how it ought to [Am]be
 Laughing on a park bench, thinking to myself[C]
@@ -51,7 +51,7 @@ And you'[G]ve got a smile that could light up this whole [D]town
 I haven't seen it in a while since she brought you [Am]down
 You say you're fine, I know you better than that
 [C]Hey whatcha doing with a girl like that
-{eov}
+{end_of_verse}
 
 {comment: ADD GUITAR}
 {comment: PreChorus}
@@ -62,7 +62,7 @@ But sh[Am]e wears high heels, [C]I wear sneakers
 That what you're [D]looking for has been here the whole time
 
 {comment:DR-06}
-{soc}
+{start_of_chorus}
 If you could [G]see that I'm the one who understands you
 [D]Been here all along, so why can't you [Am]see?
 You belong with [C]me, you belong ...
@@ -70,7 +70,7 @@ You belong with [C]me, you belong ...
 [G]Standing by and waiting at your back door
 [D]All this time how could you not know, ba[Am]by
 You belong with [C]me, you belong with me[G]
-{eoc}
+{end_of_chorus}
 
 {comment: Solo}
 {comment: PIANO SOLO}
@@ -88,7 +88,7 @@ Think I [G]know where you belong
 Think I [D]know it's with me
 
 {comment:DR-08}
-{soc}
+{start_of_chorus}
 Can't you [G]see that I'm the one who understands you
 [D]Been here all along, so why can't you [Am]see?
 You belong with [C]me, you belong with me[G]
@@ -97,7 +97,7 @@ You belong with [C]me, you belong with me[G]
 [G]Standing by and waiting at your back door
 [D]All this time how could you not know, ba[Am]by
 You belong with [C]me, you belong with me[G]
-{eoc}
+{end_of_chorus}
 
 
 {comment:Outro}

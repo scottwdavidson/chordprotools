@@ -8,7 +8,7 @@
 
 | D | A | Gadd9 | Gadd9 | Bm | A | Gadd9 | Gadd9 |
 
-{sov}
+{start_of_verse}
 [Dadd9]It wasn't even [A]in my plan;
 a week[Gadd9] in the sun and some fun in the sand.
 [Bm]I was really [F#m]only passin' [G]through.[G]
@@ -16,16 +16,16 @@ a week[Gadd9] in the sun and some fun in the sand.
 [Gadd9]Standin' in line for a burger and fries.
 [Bm]Coinci[F#m7]dentally, so were [G]you.[G]
 [Bm]Now we took a [F#m]quiet corner [Gadd2]booth[A7sus][A7]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [D]Didn't plan on [A]hangin' out in [G]Florida;[G]
 [D]never was too[A] good at standin' [G]still[G]
 [Em]Suddenly it's [C9]lookin' like I'm [F#m7]gonn[B7]a
 [Em]kill a few more [A]days in Jackson[D]ville.[D][D]
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [Dadd9]I'm givin' up my [A]walkin' shoes
 while the [Gadd9]wind and the waves wash away my blues
 [Bm]and you help [F#m7]me lose track of [G]time.[G]
@@ -33,25 +33,25 @@ while the [Gadd9]wind and the waves wash away my blues
 [Gadd9]rockin' in your arms by a rollin' sea.
 [Bm]It was easy [F#m7]makin' up my [G]mind;[G]
 [Bm]Now I can see for[F#m7]ever in your [Gadd2]eyes, your [A]eyes[A7]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [D]Didn't plan on [A]hangin' out in [G]Florida;[G]
 [D]never was too[A] good at standin' [G]still[G]
 [Em]Suddenly it's [C9]lookin' like I'm [F#m7]gonn[B7]a
 [Em]kill a few more [A]days in Jackson[D]ville.
-{eoc}
+{end_of_chorus}
 
 {comment: Instrumental}
 | D | A | Gadd9 | Gadd9 | Bm | F#m | G | A |
 
-{soc}
+{start_of_chorus}
 [D]Didn't plan on [A]hangin' out in [G]Florida;[G]
 [D]never was too[A] good at standin' [G]still[G]
 [Em]Suddenly it's [C9]lookin' like I'm [F#m7]gonn[B7]a
 [Em]kill a few more [A]days in Jackson[D]ville.[D][B7]
 [Em]kill a few more [A]days in Jackson[D]ville.[D][D]
-{eoc}
+{end_of_chorus}
 
 {comment: Outro}
 | Em | C#7 | D |

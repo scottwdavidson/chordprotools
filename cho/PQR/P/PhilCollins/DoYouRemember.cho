@@ -10,12 +10,12 @@
 {comment:Intro}
 | F | Am | Bb | C | x2
 
-{sov}
+{start_of_verse}
 [F]We never talked abou[Am]t it
 But I [Bb]hear the blame was m[C]ine
 and I'd [F]call you up to say I'm [Am]sorry
 But I w[Bb]ouldn't want to waste your [C]time
-{eov}
+{end_of_verse}
 
 {comment:PreChorus}
 'Cause I [Gm7]love you, but I can't [F]take any more
@@ -23,17 +23,17 @@ There's a[Gm7] look I can't describe in yo[F]ur eyes
 [Gm7]If we could try, like we tr[F]ied before[Am]
 Would you keep on telling me thos[Gm7]e lies? (Telling me lies)
 
-{soc}
+{start_of_chorus}
 [F]Ooh, [Am] [Bb] [C]Do you remem[F]ber
 [Am7][Bb] (Do you remember) [C]
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [F]There seemed no way to make[Am]up
 'Cause [Bb]it seemed your mind w[C]as set
 And the [F]way you looked it to[Am]ld me
 It's a [Bb]look I know I'll never forg[C]et
-{eov}
+{end_of_verse}
 
 {comment:PreChorus}
 [Gm7]You could've come over to my [F]side
@@ -41,23 +41,23 @@ It's a [Bb]look I know I'll never forg[C]et
 [Gm7]You could've tried to see the [F]distance between us[Am]
 But it seemed too far for you to [Gm7]go (So far to go)
 
-{soc}
+{start_of_chorus}
 [F]Ooh, [Am] [Bb] [C]Do you remem[F]ber
 [Am7][Bb] (Do you remember) [C]
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [Am]Through all of m[Dm]y life
 [Am]In spite of all the[Dm]pain
 [Am]You know people are fu[Dm]nny sometimes
 'Cause the[Gm7]y just can't wait
 To get hurt a[C]gain
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [F]Ooh, [Am] [Bb] [C]Do you remem[F]ber
 [Am7][Bb] (Do you remember) [C]
-{eoc}
+{end_of_chorus}
 
 {start_of_verse}
 There are things we won't recall

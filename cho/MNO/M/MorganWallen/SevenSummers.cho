@@ -10,14 +10,14 @@
 {comment: Intro}
 | Cmaj7 | Fmaj7 | Cmaj7 | Fmaj7 |
 
-{sov}
+{start_of_verse}
 [Cmaj7]Yeah, you used to talk about [Cmaj7]getting even further South
 [Fmaj7]Somewhere where the summer lasted all year 'round
 [Cmaj7]Probably got a big ol' diamond on your hand right now [Cmaj7]maybe a baby or a couple by now
 [Fmaj7]Long driveway to a big white house
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Dm7]But I wonder when you're drinking if you [G]find yourself thinking about
 [Cmaj7]That boy from East [Am7]Tennessee
 [Dm7]And I know we both knew better, [G]but we still said forever
@@ -25,20 +25,20 @@
 [Dm7]Were we dumb or just younger, [G]who knows?
 [Cmaj7]Back then, you used to love the river [Am7]and sippin' on a sixer with [Dm7]me
 [Dm7]Does it ever make you sad to know,[G]that was seven summers ago?
-{eoc}
+{end_of_chorus}
 
-{sob}
+{start_of_bridge}
 [Cmaj7]Ooh, ooh-ooh, [Fmaj7]ooh-ooh
-{eob}
+{end_of_bridge}
 
-{sov}
+{start_of_verse}
 [Cmaj7]Yeah, I bet your daddy's so proud [Cmaj7]of how his little girl turned out
 [Fmaj7]Think she dodged a bullet of a good old boy like me
 [Cmaj7]'Cause I still,  go drinkin', same friends on Friday, [Cmaj7]Bought a few acres, couple roads off the highway
 [Fmaj7]Guess you never saw things my way anyway
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Dm7]But I wonder when you're drinking if you [G]find yourself thinking about
 [Cmaj7]That boy from East [Am7]Tennessee
 [Dm7]And I know we both knew better, [G]but we still said forever
@@ -46,13 +46,13 @@
 [Dm7]Were we dumb or just younger, [G]who knows?
 [Cmaj7]Back then, you used to love the river [Am7]and sippin' on a sixer with [Dm7]me
 [Dm7]Does it ever make you sad to know,[G]that was seven summers ago?
-{eoc}
+{end_of_chorus}
 
 {comment: Post Chorus}
 [Cmaj7]Ooh  ... seven summers ago [Fmaj7] (Ooh-ooh, ooh-ooh)
 Seven summers ago [Cmaj7](Ooh, ooh-ooh, ooh-ooh, [Fmaj7]ooh-ooh)
 
-{soc}
+{start_of_chorus}
 [Dm7]But I wonder when you're drinking if you [G]find yourself thinking about
 [Cmaj7]That boy from East [Am7]Tennessee
 [Dm7]And I know we both knew better, [G]but we still said forever
@@ -60,7 +60,7 @@ Seven summers ago [Cmaj7](Ooh, ooh-ooh, ooh-ooh, [Fmaj7]ooh-ooh)
 [Dm7]Were we dumb or just younger, [G]who knows?
 [Cmaj7]Back then, you used to love the river [Am7]and sippin' on a sixer with [Dm7]me
 [Dm7]Does it ever make you sad to know,[G]that was seven summers ago?
-{eoc}
+{end_of_chorus}
 
 {comment: Outro}
 [Cmaj7]Ooh  ... seven summers ago [Fmaj7] (Ooh-ooh, ooh-ooh)

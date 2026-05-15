@@ -11,24 +11,24 @@
 | G . . . | Em . . . | C . . . | D . . . |
 
 
-{sov}
+{start_of_verse}
 [G]Rockin' around the Christmas tree at the [D9]Christmas party hop
 [D9]Mistletoe hung where you can see every couple tries to [G]stop
 [G]Rockin' around the Christmas tree let the [D9]Christmas spirit ring
 [D9]Later we'll have some pumpkin pie and we'll do some carol[G]ing
-{eov}
+{end_of_verse}
 
 
-{sob}
+{start_of_bridge}
 [C]You will get a sentimental feel[Bm]in' when you hear
 [Em]Voices [Em(maj7)]singin' [Em7]"Let's be jolly. [A]Deck the halls with bou[D]ghs of hol[D7]ly."
-{eob}
+{end_of_bridge}
 
 
-{sov}
+{start_of_verse}
 [G]Rockin' around the Christmas tree have a [D9]happy holiday.
 [D9]Everyone dancin' merrily in the new old fashioned way.[G]
-{eov}
+{end_of_verse}
 
 {c; Solo}
 
@@ -42,16 +42,16 @@
 
 
 
-{sob}
+{start_of_bridge}
 [C]You will get a sentimental feel[Bm]in' when you hear
 [Em]Voices [Em(maj7)]singin' [Em7]"Let's be jolly. [A]Deck the halls with bou[D]ghs of hol[D7]ly."
-{eob}
+{end_of_bridge}
 
 
-{sov}
+{start_of_verse}
 [G]Rockin' around the Christmas tree have a [D9]happy holiday.
 [D9]Everyone dancin' merrily in the new...  [Ebdim7]old... fash[C/E]__ion [D7/F#]way!
-{eov}
+{end_of_verse}
 
 
 {comment: Outro}

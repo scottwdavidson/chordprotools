@@ -8,14 +8,14 @@
 {comment:INTRO}
 | C7 F C7 | 4X  hammer on C7
 
-{soc}
+{start_of_chorus}
 [G7]Devil with the blue dress, blue dress, blue dress..
 [F]Devil with the blue dress on.
 [C]Devil with the [F]blue dress, [C]blue dress, [F]blue dress..
 [C]Devil with the [F]blue dress [C]on.
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [C]Fee, fee, fi, fi, [F]fo-fo, [C]fum.
 [C]Look at Molly now, [F]here she [C]comes.
 [C]Wearin' her wig hat and shades to match,
@@ -23,16 +23,16 @@
 she's got high-heel shoes and an alligator hat.
 [F]Wearin' her pearls and her diamond rings,
 she's got [C]bracelets on her fingers, now, and everything..
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [G7]Devil with the blue dress, blue dress, blue dress..
 [F]Devil with the blue dress on.
 [C]Devil with the [F]blue dress, [C]blue dress, [F]blue dress..
 [C]Devil with the [F]blue dress [C]on.
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [C]Wearin' her perfume, [F]Chanel No. [C]5.
 [C]Got to be the finest [F]girl [C]alive.
 [C]She walks real cool, catches everybody's eye.
@@ -40,20 +40,20 @@ she's got [C]bracelets on her fingers, now, and everything..
 She got such good lovin' they can't say goodbye.
 [F]Not too skinny, she's not too fat..
 She's a [C]real humdinger and I like it like that..
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [G7]Devil with the blue dress, blue dress, blue dress..
 [F]Devil with the blue dress on.
 [C]Devil with the [F]blue dress, [C]blue dress, [F]blue dress..
 [C]Devil with the [F]blue dress [C]on.
-{eoc}
+{end_of_chorus}
 
 {comment:Bridge to Eb}
 | C . C7 . | C . C7 . | C C7 C7 C7 | Gaug |
 
 {comment: Good Golly, Miss Molly}
-{sov}
+{start_of_verse}
 [Eb]Good golly, Miss Molly, you sure like to ball.
 Good golly, Miss [Ab]Molly, you sure like to b[Eb]all.
 When you're rockin' and [Bb]rollin',
@@ -65,13 +65,13 @@ See Miss Molly rockin' at the House of Blue Lights.
 Good golly, Miss [Ab]Molly, you sure like to b[Eb]all.
 While you're [Ab]rockin' and a-[Bb]rolling,
 Can't you hear your Mama [Eb]call?
-{eov}
+{end_of_verse}
 
 {comment: Gitar Solo}
 | Eb7 | Eb7 | Eb7 | Eb7 |
 | C7  | C7  | C7  | C7  |
 
-{sov}
+{start_of_verse}
 [C]Fee, fee, fi, fi, [F]fo-fo, [C]fum.
 [C]Look at Molly now, [F]here she [C]comes.
 [C]Wearin' her wig hat and shades to match,
@@ -79,9 +79,9 @@ Can't you hear your Mama [Eb]call?
 she's got high-heel shoes and an alligator hat.
 [F]Wearin' her pearls and her diamond rings,
 she's got [C]bracelets on her fingers, now, and everything..
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [G7]Devil with the blue dress, blue dress, blue dress..
 [F]Devil with the blue dress on.
 [C]Devil with the [F]blue dress, [C]blue dress, [F]blue dress..
@@ -89,4 +89,4 @@ she's got [C]bracelets on her fingers, now, and everything..
 
 [G7]Devil with the blue dress, blue dress, blue dress..
 [F]Devil with the blue dress on.
-{eoc}
+{end_of_chorus}

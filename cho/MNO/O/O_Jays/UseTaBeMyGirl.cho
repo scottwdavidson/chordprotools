@@ -8,15 +8,15 @@
 {comment:Intro}
 | F  | C  | F  | C  | 
 
-{sov}
+{start_of_verse}
 [F]Ooh, good lov[C]in'
 [F]The girl's got plenty good lo[C]vin'[F]
 Ask me how I kn[C]ow
 And I'll tell you s[Am7]o
 She used ta be my gi[Dm7]rl[G]
-{eov}
+{end_of_verse}
 
-{sov}
+{start_of_verse}
 I, I re[C]spect her
 When she was [F]mine
 I used to ne[C]glect her
@@ -25,12 +25,12 @@ Than [C]I could give
 But as l[Am7]ong as I live
 She'll [Dm7]be my girl[G]
 (N[C]o Chord)
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 She, she used ta be my girl
 She [F]used ta be my gir[C]l[F]
-{eoc}
+{end_of_chorus}
 
 She had a charming perso[C]nality
 The girl was s[Am7]o right for me

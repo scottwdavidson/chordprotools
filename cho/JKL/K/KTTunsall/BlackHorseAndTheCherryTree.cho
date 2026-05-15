@@ -15,45 +15,45 @@
 Woo-[Em]hoo, woo-[B7]hoo[Em]
 Woo-[Em]hoo, woo-[B7]hoo[Em]
 
-{sov}
+{start_of_verse}
 [N.C.]Well my heart knows me better than I know myself
 So I'm gonna let it do all the talking.
 Woo-[Em]hoo, woo-[B7]hoo[Em]
-{eov}
+{end_of_verse}
 
-{sov}
+{start_of_verse}
 [N.C.]I came across a place in the middle of nowhere
 With a big black horse and a cherry tree.
 Woo-[Em]hoo, woo-[B7]hoo[Em]
-{eov}
+{end_of_verse}
 
-{sov}
+{start_of_verse}
 [N.C.]I felt a little fear upon my back
 I said, "Don't look back, just keep on walking.
 Woo-[Em]hoo, woo-[B7]hoo[Em]
-{eov}
+{end_of_verse}
 
-{sov}
+{start_of_verse}
 [N.C.]When the big black horse said, "Look this way"
 He said, "Hey there baby, will you marry me?"
 Woo-[Em]hoo, woo-[B7]hoo  [Em]But I said
-{eov}
+{end_of_verse}
 
 {comment: BB Beat 2}
-{soc}
+{start_of_chorus}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're not the one for [Em]me
 
 {comment: BB Beat 3}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're [N.C.]not the one for me
-{eoc}
+{end_of_chorus}
 
 {comment: BB Beat 1}
 {comment: Break}
 [Em]Woo[Em]   [Em]   [Em7]     woo [Em]hoo[Em][Em][Em7][Em]
 
-{sov}
+{start_of_verse}
 [N.C.]And my heart hit a problem, in the early hours,
 So I stopped it dead for a beat or two.
 Woo-[Em]hoo, woo-[B7]hoo[Em]
@@ -69,17 +69,17 @@ Woo-[Em]hoo, woo-[B7]hoo[Em]
 [N.C.]Now it won't come back, 'cause it's oh so happy
 And now I've got a hole for the world to see
 Woo-[Em]hoo, woo-[B7]hoo [Em]And it said
-{eov}
+{end_of_verse}
 
 {comment: BB Beat 2}
-{soc}
+{start_of_chorus}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're not the one fo[Em]r me
 
 {comment: BB Beat 3}
 [Em]No, [D]no.  [D6]No, [Cmaj7]no, no, no
 I said, [Em]no, [D]no, [C9]you're not the one for me
-{eoc}
+{end_of_chorus}
 
 {comment: BB Beat 1}
 {comment: Break}
@@ -92,11 +92,11 @@ I said, [Em]no, [D]no, [C9]you're not the one for me
 [N.C.]No, no.  You're not the one for me.
 
 {comment: BB Beat 2}
-{soc}
+{start_of_chorus}
 [Em]Big black [D]horse [Cmaj7] and a cherry [Em]tree
 [Em]I can't quite [D]get there 'cause my [C9]heart's forsaken [Em]me yeah yeah yeah (Woo-hoo)
 
 {comment: BB Beat 3}
 [Em]Big black [D]horse (Woo-hoo) [Cmaj7]and a cherry [Em]tree (Woo-hoo)
 [Em]I can't quite [D]get there 'cause my [C9]heart's forsaken me
-{eoc}
+{end_of_chorus}

@@ -56,7 +56,7 @@
 
 {end_of_grid}
 
-{sov}
+{start_of_verse}
 You [C]get up every morning
 From your [Bb]'larm clock's warning
 Take the [F]8:15 into the [C]city
@@ -69,16 +69,16 @@ And start your [F]slaving job to get your [C]pay
 If you [C]ever get annoyed
 Look at [Bb]me, I'm self-employed
 I [F]love to work at nothin' all [C]day
-{eov}
+{end_of_verse}
 
 {comment:DR Part 3}
-{soc}
+{start_of_chorus}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
 I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
 Work out
-{eoc}
+{end_of_chorus}
 
 {comment:DR Part 4}
 {comment:Guitar Solo 1}
@@ -93,7 +93,7 @@ Work out
 {end_of_grid}
 
 {comment:DR Part 5}
-{sov}
+{start_of_verse}
 If it were [C]easy as fishin'
 You could [Bb]be a musician
 If [F]you could make sounds loud or [C]mellow
@@ -106,15 +106,15 @@ Just a-[Bb]lying in the sun
 It's the [C]work that we avoid
 And we're [Bb]all self-employed
 We [F]love to work at nothin' all [C]day
-{eov}
+{end_of_verse}
 
 {comment:DR Part 6}
-{soc}
+{start_of_chorus}
 And we be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
 We be [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
-{eoc}
+{end_of_chorus}
 
 {comment:Guitar Solo 2}
 {comment:DR Part 7}
@@ -132,13 +132,13 @@ We be [C]takin' care of business[Bb] (it's all mine)
 
 
 {comment:Interlude}
-{soc}
+{start_of_chorus}
 [NC] [NC] Whoooo!
 [NC] alright [NC]
-{eoc}
+{end_of_chorus}
 
 {comment:Power chords: 2 -> 3 beats pattern}
-{soc}
+{start_of_chorus}
 
 [C] [F] [Eb] [Bb]
 
@@ -148,7 +148,7 @@ We be [C]takin' care of business[Bb] (it's all mine)
 
 [C] [F] everyday [Eb] [Bb] Wooooo!
 
-{eoc}
+{end_of_chorus}
 
 {comment:Guitar Solo 3}
 {start_of_grid 4x4}
@@ -162,7 +162,7 @@ We be [C]takin' care of business[Bb] (it's all mine)
 {end_of_grid}
  
 {comment:DR Part 8}
-{sov}
+{start_of_verse}
 You [C]get up every morning
 From your [Bb]'larm clock's warning
 Take the [F]8:15 into the [C]city
@@ -175,15 +175,15 @@ And start your [F]slaving job to get your [C]pay
 If you [C]ever get annoyed
 Look at [Bb]me, I'm self-employed
 I [F]love to work at nothin' all [C]day
-{eov}
+{end_of_verse}
 
 {comment:DR Part 9}
-{soc}
+{start_of_chorus}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
 I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
-{eoc}
+{end_of_chorus}
 
 {comment:DR Part 10}
 {start_of_grid 4x4}
@@ -192,7 +192,7 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 
 {comment:DR Part 11}
 {comment:A Cappella}
-{soc}
+{start_of_chorus}
 [NC] Takin' care of business [NC]
 
 [NC] Takin' care of business [NC]
@@ -201,24 +201,24 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 
 [NC] Takin' care of business [NC]
 
-{eoc}
+{end_of_chorus}
 
 {comment:staccato chords}
-{soc}
+{start_of_chorus}
 [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
 [C]Takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business[C] (workin' overtime)
-{eoc}
+{end_of_chorus}
 
 {comment:DR Part 12}
 {comment:standard pattern}
-{soc}
+{start_of_chorus}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
 I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
-{eoc}
+{end_of_chorus}
 
 {comment:Piano Solo}
 {start_of_grid 4x4+1}
@@ -234,12 +234,12 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 {end_of_grid}
 
 {comment:Outro}
-{soc}
+{start_of_chorus}
 And I'll be [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
 I've been [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
-{eoc}
+{end_of_chorus}
 
 {comment:with opening lick}
 {start_of_grid 4x4+1}

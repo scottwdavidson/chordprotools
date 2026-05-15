@@ -8,12 +8,12 @@
 {comment: Intro}
 | [G]G | [D]D  | [C]C |
 
-{sov}
+{start_of_verse}
 [G]We fight, we get high[Bm]holding on to love
 [Em]We came down 'cause there wa[D]s nothing holding us
 [G]Is it wrong that I st[Bm]ill wonder where you are?
 [Em]Is it wrong that I sti[D]ll don't know my heart?
-{eov}
+{end_of_verse}
 
 
 {comment: Pre-Chorus}
@@ -25,21 +25,21 @@ Do you hat[Em]e the weekend 'cause nobody'[D]s calling?
 N.C.
 So darling
 
-{soc}
+{start_of_chorus}
 [G]Put a little l[D*]ove on me[C*]
 [G]Put a little l[D*]ove on me[C*]
 When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [G]I look ar[D]ound as my [Em]heart is collap[C]sing
 [Cm]'Cause you're the only one I nee[G]d
 [G]To put a little l[D]ove on [G]me
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [G]We wrote and we wrote[Bm]'til there were no more words
 [Em]We laughed and we crie[C]d until we saw our worst
 [G]Is it wrong that I st[Bm]ill wonder where you are?
 [Em]Is it wrong that I stil[C]l don't know my heart?
-{eov}
+{end_of_verse}
 
 {comment: Pre-Chorus}
 Are you a[G]ll dressed up but with n[G/F#]owhere to go?
@@ -50,28 +50,28 @@ Do you hat[Em]e the weekend 'cause nobody'[C]s calling?
 N.C.
 Will someone
 
-{soc}
+{start_of_chorus}
 [G]Put a little l[D*]ove on me[C*]
 [G]Put a little l[D*]ove on me[C*]
 When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [G]I look ar[D]ound as my [Em]heart is collap[C]sing
 [Cm]'Cause you're the only one I nee[G]d
 [G]To put a little l[D]ove on [G]me
-{eoc}
+{end_of_chorus}
 
 {comment: Refrain}
 [Em]Last night I lay awake
 [G]Stuck on the things we say
 [Am]And when I close my eyes, the fi[D]rst thing I hear you say is-
 
-{soc}
+{start_of_chorus}
 [G]Put a little l[D*]ove on me[C*]
 [G]Put a little l[D*]ove on me[C*]
 When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [G]I look ar[D]ound as my [Em]heart is collap[C]sing
 [Cm]'Cause you're the only one I nee[G]d
 [G]To put a little l[D]ove on [G]me
-{eoc}
+{end_of_chorus}
 
 {comment: Outro}
 [Cm]You're the only one I n[G]eed

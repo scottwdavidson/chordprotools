@@ -13,22 +13,22 @@
 {comment:Pre-Verse}
 [Cm]Oo [Bb]Oo [Ab]Oo [G7]Oo  x4
 
-{sov}
+{start_of_verse}
 [Cm]Black and orange [Bb]stray cat [Ab]sittin' on a [G7]fence.[Cm][Bb][Ab][G7]
 [Cm]Ain't got en[Bb]ough dough to p[Ab]ay the r[G7]ent.[Cm][Bb][Ab][G7]
 [Cm]I'm flat [Bb]broke but [Ab]I don't [G7]care,   
 {comment: DR2}
 I [Cm]stru[N.C.]t right by with [N.C.]my tail in the air.
-{eov}
+{end_of_verse}
 
 {comment: DR1}
-{soc}
+{start_of_chorus}
 [Fm]Stray cat [Eb]strut I'm a [Db]ladies [C7]cat, 
 I'm a [Fm]feline Casa[Eb]nova hey [Db]man that's [C7]that.
 Get a [Fm]shoe thrown [Eb]at me from a [Db]mean old [C7]man.  
 {comment: DR2}
 [Fm]Get[N.C.] my dinner [N.C.]from a garbage can.
-{eoc}
+{end_of_chorus}
 
 {comment: DR1}
 {comment:Instrumental}
@@ -44,20 +44,20 @@ Get a [Fm]shoe thrown [Eb]at me from a [Db]mean old [C7]man.
 {end_of_grid}
 
 {comment: DR1}
-{sob}
+{start_of_bridge}
 [Fm]I don't bother [Fm7]chasing mice ar[Cm]ound.[Cm] [Eb]
 I [Fm]slink down the alley [Fm7]looking for a fight
 h[D7]owlin' to the moonlight on a [G7b9#5]hot summer night.
-{eob}
+{end_of_bridge}
 
 {comment: Ooh background vocals}
-{sov}
+{start_of_verse}
 [Cm]Singin' the blu[Bb]es while the [Ab]lady cats [G7]cry.
 [Cm]Wild stra[Bb]y cat you're a r[Ab]eal gone [G7]guy. 
 I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild but I
 {comment: DR2}
 [Cm]got cat class[N.C.] and I got [N.C.]cat style.
-{eov}
+{end_of_verse}
 
 {comment: Instrumental}
 {start_of_grid 4x4+1}
@@ -89,20 +89,20 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild but I
 {end_of_grid}
 
 {comment: DR1}
-{sob}
+{start_of_bridge}
 [Fm]I don't bother [Fm7]chasing mice ar[Cm]ound.[Cm] [Eb]
 I [Fm]slink down the alley [Fm7]looking for a fight
 h[D7]owlin' to the moonlight on a [G7b9#5]hot summer night.
-{eob}
+{end_of_bridge}
 
 {comment: Ooh background vocals}
-{sov}
+{start_of_verse}
 [Cm]Singin' the blu[Bb]es while the [Ab]lady cats [G7]cry.
 [Cm]Wild stra[Bb]y cat you're a r[Ab]eal gone [G7]guy. 
 I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild 
 {comment: DR2}
 [Cm]but I got cat [N.C.]class and I got [N.C.]cat style.
-{eov}
+{end_of_verse}
 
 {comment: Outro}
 {comment: Walking Bass}

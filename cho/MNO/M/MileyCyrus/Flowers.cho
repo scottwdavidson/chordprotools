@@ -16,12 +16,12 @@
 
 {comment:DR START (Intro / DR1)}
 
-{sov}
+{start_of_verse}
 We were [Am]good, we were [Dm]gold
 Kind of [G]dream that can't be [C]sold
 We were [Am]right 'til we [Dm]weren't
 Built a [G]home and watched it [C]burn
-{eov}
+{end_of_verse}
 
 {comment:DR2}
 {comment:Pre-Chorus}
@@ -29,7 +29,7 @@ Mmm, [Am]I didn't wanna leave you, [Dm]I didn't wanna lie
 S[E7]tarted to cry but then remembered, I
 
 {comment:DR3}
-{soc}
+{start_of_chorus}
 [Am]I can buy myself [Dm]flowers
 [G] Write my name in the [C]sand[G/B]
 [Am] Talk to myself for [Dm]hours
@@ -38,19 +38,19 @@ S[E7]tarted to cry but then remembered, I
 [Am] I can take myself [Dm]dancing
 [G] And I can hold my own [C]hand[G/B]
 Yeah, I can [F]love me better [E7]than you [Am]can
-{eoc}
+{end_of_chorus}
 
 {comment:Post-Chorus}
 (Can love me better, [Dm]I can love me better, baby
 [G] Can love me better, [C]I can love me [G/B]better, baby
 
 {comment:DR5}
-{sov}
+{start_of_verse}
 Paint my [Am]nails, cherry [Dm]red
 Match the [G]roses that you [C]left[Cmaj7]
 No re[Am]morse, no re[Dm]gret
 I for[G]get every word you [C]said[Cmaj7]
-{eov}
+{end_of_verse}
 
 {comment:DR6}
 {comment:Pre-Chorus}
@@ -58,7 +58,7 @@ Ooh, [Am]I didn't wanna leave you, baby, [Dm]I didn't wanna fight
 S[E7]tarted to cry but then remembered I
 
 {comment:DR7}
-{soc}
+{start_of_chorus}
 [Am]I can buy myself [Dm]flowers
 [G] Write my name in the [C]sand[C/B]
 [Am] Talk to myself for [Dm]hours
@@ -67,7 +67,7 @@ S[E7]tarted to cry but then remembered I
 [Am] I can take myself [Dm]dancing, yeah
 [G] And I can hold my own [C]hand[C/B]
 Yeah, I can [F]love me better [E7]than you [Am]can
-{eoc}
+{end_of_chorus}
 
 {comment:Post-Chorus}
 Can love me better, [Dm]I can love me better, baby
@@ -81,7 +81,7 @@ Can love me better, [Dm]I can love me better, baby
 S[E7]tarted to cry but then remembered I
 
 {comment:DR10}
-{soc}
+{start_of_chorus}
 [Am]I can buy myself [Dm]flowers (Uh-uh)
 [G] Write my name in the [C]sand[C/B]
 [Am] Talk to myself for [Dm]hours (Yeah-eah)
@@ -91,7 +91,7 @@ S[E7]tarted to cry but then remembered I
 [G] And I can hold my own [C]hand[C/B]
 Yeah, I can [F]love me better [E7]than
 Yeah, I can [F]love me better [E7]than you [Am]can
-{eoc}
+{end_of_chorus}
 
 {comment:Outro}
 Can love me better, [Dm]I can love me better, baby

@@ -8,7 +8,7 @@
 {comment:Intro}
 | Am | Em | Dm | Am |
 
-{sov} 
+{start_of_verse} 
 [Am]If you wanna run away with [Em]me, I know a galaxy
 And [Dm]I could take you for a [Am]ride
 I [Am]had a premonition that we [Em]fell into a rhythm
@@ -17,7 +17,7 @@ Where the [Dm]music don't stop for [Am]life
 [Dm]Shining just the way you [Am]like
 [Am]If you're feeling like you need a [Em]little bit of company
 You [Dm]met me at the perfect [Am]time
-{eov} 
+{end_of_verse} 
  
 {comment:Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
@@ -25,7 +25,7 @@ You [Dm]met me at the perfect [Am]time
 [Am]  The Milky [Em]Way, we're renegading
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
 
-{soc}
+{start_of_chorus}
 I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
 I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]  
  
@@ -34,12 +34,12 @@ I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
 I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]  
  
 I'm levitating
-{eoc}
+{end_of_chorus}
  
 {comment:Interlude}
 | Am | Em | Dm | Am |
 
-{sov}
+{start_of_verse}
 [Am]I believe that you're for me, I [Em]feel it in our energy
 I [Dm]see us written in the [Am]stars
 [Am]We can go wherever, so let's [Em]do it now or never
@@ -49,7 +49,7 @@ Baby, [Dm]nothing's ever ever too [Am]far
 [Dm]Shining just the way we [Am]are
 I [Am]feel like we're forever every [Em]time we get together
 But [Dm]whatever, let's get lost on [Am]Mars
-{eov}
+{end_of_verse}
  
 {comment:Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
@@ -58,7 +58,7 @@ But [Dm]whatever, let's get lost on [Am]Mars
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
  
  
-{soc}
+{start_of_chorus}
 I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
 I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]  
  
@@ -67,7 +67,7 @@ I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
 I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]  
  
 I'm levitating
-{eoc} 
+{end_of_chorus} 
  
 {comment:Post-Chorus}
 [Am]  You could fly [Em]away with me [Dm]tonight
@@ -84,7 +84,7 @@ Yeah, yeah, yeah, yeah, [Am]yeah
 I'm levitating
  
  
-{sob}
+{start_of_bridge}
 [Am]My love is like a rocket, watch it [Em]blast off
 And I'm [Dm]feeling so electric, dance our [Am]ass off
 [Am]And even if I wanted to, I [Em]can't stop
@@ -94,19 +94,19 @@ And I'm [Dm]feeling so electric, dance our [Am]ass off
 And I'm [Dm]feeling so electric, dance our [Am]ass off
 [Am]And even if I wanted to, I [Em]can't stop
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
-{eob} 
+{end_of_bridge} 
  
 {comment:Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
  
-{soc}
+{start_of_chorus}
 I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
 I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]  
  
 I'm levitating
-{eoc} 
+{end_of_chorus} 
  
 {comment:Post-Chorus}
 [Am]  You could fly [Em]away with me [Dm]tonight
@@ -118,7 +118,7 @@ You could fly [Am]away with me tonight
 [Am]  Baby, let me [Em]take you for a ride [Dm]  
  
  
-{soc}
+{start_of_chorus}
 I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
 I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]  
  
@@ -127,4 +127,4 @@ I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
 I need [Am]you [Em]all night, [Dm]come on dance with me  [Am]  
  
 I'm levitating
-{eoc}
+{end_of_chorus}

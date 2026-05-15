@@ -20,14 +20,14 @@
 [C#m] [Amaj7]  [E]  'Cause [B]life's like this.
 [C#m] Uh huh, [Amaj7]uh huh... [E] That's the [B]way it is.
 
-{sov}
+{start_of_verse}
 [E] Chill out, what you yellin' for?
 [C#m] Lay back, it's all been done before
 [Aadd9] And if you could only [B]let it be, you will see.
 [E] I like - you the way you are
 [C#m]When we're - drivin' in your car
 [Aadd9] And you're talking to me [B]one on one but you've become...
-{eov}
+{end_of_verse}
 
 {comment: Pre-Chorus}
 {comment: BB Beat PreChorus}
@@ -38,7 +38,7 @@ You look like a fool to m[B]e
 Tell me...
 
 {comment: BB Beat Chorus 1}
-{soc}
+{start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
@@ -48,17 +48,17 @@ I [B]see the way you're
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it
 No, no, [E]no..
-{eoc}
+{end_of_chorus}
 
 {comment: BB Beat Verse}
-{sov}
+{start_of_verse}
 [E]You come - over unannounced
 [C#m]Dressed up like you're somethin' else
 [Aadd9] Where you are ain't where it's [B]at you see. You're making me
 [E]Laugh out - when you strike your pose
 [C#m]Take off - all your preppy clothes
 [Aadd9] You know you're not fooling [B]anyone when you've become...
-{eov}
+{end_of_verse}
 
 {comment: Pre-Chorus}
 {comment: BB Beat PreChorus}
@@ -69,7 +69,7 @@ You look like a fool to m[B]e
 Tell me...
 
 {comment: BB Beat Chorus 1}
-{soc}
+{start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
@@ -79,17 +79,17 @@ I [B]see the way you're
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it
 No, no, [E]no..
-{eoc}
+{end_of_chorus}
 
 {comment: BB Beat Verse}
 {comment: Bridge}
 [C#m]No, no, no... [Aadd9]No, no, no... [B]No, no, no...
 
-{sov}
+{start_of_verse}
 [E] Chill out, what you yellin' for?
 [C#m] Lay back, it's all been done before
 [Aadd9] And if you could only [B]let it be, you will see.
-{eov}
+{end_of_verse}
 
 {comment: Pre-Chorus}
 {comment: BB Beat PreChorus}
@@ -100,7 +100,7 @@ You look like a fool to m[B]e
 Tell me...
 
 {comment: BB Beat Chorus 1}
-{soc}
+{start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
@@ -110,11 +110,11 @@ I [B]see the way you're
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it
 No, no, [E]no..
-{eoc}
+{end_of_chorus}
 
 {comment: Outro}
 {comment: BB Beat Chorus 1}
-{soc}
+{start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
 [C#m]acting like you're somebody [A]else getting me frustrat[E]ed
@@ -124,5 +124,5 @@ I [B]see the way you're
 And you ta[E]ke what you get and you tu[B]rn it into [F#m]honesty
 And promise me I'm never gonna find you [A]fake it
 No, no, [E]no..
-{eoc}
+{end_of_chorus}
 

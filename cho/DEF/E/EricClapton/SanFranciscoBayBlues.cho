@@ -26,7 +26,7 @@
 
 
 
-{sov}
+{start_of_verse}
 I got the [C]blues from my baby
 Livin' [F]by the San Francisco B[C]ay.  [C7]
 The [F]ocean liner's not so far awa[C]y.  [C7]
@@ -34,11 +34,11 @@ I [F]didn't mean to treat her so bad.
 She was the [C]best girl I ever have [A7]had.
 I [D7/F#]said goodbye, I can take a cry.
 [G7] I wanna lay down 'n' die.
-{eov}
+{end_of_verse}
 
 
 
-{sov}
+{start_of_verse}
 I [C]ain't got a nickel and I
 [F]Ain't got a lousy dime. [C]  [C7]
 She [F]don't come back,
@@ -47,7 +47,7 @@ Ya [F]ever get back to stay,
 It's gone [C]be another brand new [A7]day.
 [D7/F#]Walkin' with my baby down
 [G7]By the San Francisco Ba[C]y.  [G]
-{eov}
+{end_of_verse}
 
 
 
@@ -76,7 +76,7 @@ It's gone [C]be another brand new [A7]day.
 
 
 
-{sov}
+{start_of_verse}
 [C]Sittin' down, [F]lookin' from a [C]back door,
 [C]Wond'rin' which [F]way to go.[C]
 [F] The woman I'm so crazy 'bout,
@@ -85,10 +85,10 @@ It's gone [C]be another brand new [A7]day.
 [C] Because I'm feelin' [A7]blue.
 [D7/F#]Ride all the way to the end of the line,
 [G7] Thinkin' only of you.
-{eov}
+{end_of_verse}
 
 
-{sov}
+{start_of_verse}
 [C]Meanwhile, [F]livin' in the [C]city,
 [C]Just about to [F]go in-[C]sane.
 [F] All I heard my baby, Lord,
@@ -97,7 +97,7 @@ If I [F]ever get back to stay,
 It's gone [C]be another brand new [A7]day.
 [D7/F#]Walkin' with my baby down
 [G7]By the San Francisco Ba[C]y, hey, [A7]hey.
-{eov}
+{end_of_verse}
 
 
 {comment: Outro}

@@ -8,42 +8,42 @@
 {comment: Intro}
 | E A | E A | x4
 
-{sov}
+{start_of_verse}
 [E]There used to be a [A]bird that [E]san[A]g
 [E]By my win[A]dow aft[E]er it [A]rained
 [E]Skies would cl[A]ear a sweet [G#7]song I'd [C#m]hear
 [Am7]Music all [Bm7]in the a[E]ir
-{eov}
+{end_of_verse}
 
 {comment: Interlude}
 | E A | E A | x1
 
-{sov}
+{start_of_verse}
 [E]It used to be this g[A]arden [E]gre[A]w
 [E]Spring and summer i[A]n full b[E]loo[A]m,
 [E]Bees [A]buzzin' 'round the b[G#]lossoming [C#m]trees
 [Am7]Music all [Bm7]in the a[E]ir
 [Am7]There was [Bm7]music al[E]l in the air
-{eov}
+{end_of_verse}
 
 {comment: Bridge}
-{sob}
+{start_of_bridge}
 | ---[G#m7]---------[F#m7]--- | x1
 | -----[B7]----- |
-{eob}
+{end_of_bridge}
 
-{sov}
+{start_of_verse}
 [E]But baby since you'[A]ve been [E]gon[A]e
 [E]All the so[A]ng birds h[E]ave flown [A]on
 [E]All my neighbors sa[A]y remember [G#]back in the[C#m] day
 There was [Am7]music [Bm7]in the ai[E]r
 There was [Am7]music all [Bm7]in the a[E]ir
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [E7]Ooh sweet [Am7]music i[Bm]n the [E]air
 [E7]Ooh sweet [Am7]music i[Bm]n the [E]air
-{eoc}
+{end_of_chorus}
 
 {comment: Interlude}
 [A]I dreamed a dream today[E]
@@ -59,18 +59,18 @@ There was [Am7]music all [Bm7]in the a[E]ir
 | Am7  Bm7  |  E   |
 
 {comment: Bridge 2}
-{sob}
+{start_of_bridge}
 | ---[G#m7]---------[F#m7]--- | x3
 | -----[B7]----- |
-{eob}
+{end_of_bridge}
 
-{sov}
+{start_of_verse}
 [E]ooh baby, I can't m[A]ake it on [E]my [A]own
 [E]Tears from my ey[A]es won't make this [E]garden gr[A]ow
 [E]This old house just[A] ain't no [G#]home[C#m]
 [Am7]Witho[Bm7]ut musi[E]c in the air
 [Am7]Witho[Bm7]ut musi[E]c in the air
-{eov}
+{end_of_verse}
 
 {comment: Outro}
 [Am7]Witho[Bm7]ut musi[E]c - Oh baby

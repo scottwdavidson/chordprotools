@@ -12,7 +12,7 @@
 | Dm7 . . |G7 . . | C . . | G7 . . |
 
 
-{sov} 
+{start_of_verse} 
 Are you [C]hungry to[Em]night? 
 Shall we [Am]eat out tonight? 
 Are you [C7]craving for something [F]delicious? 
@@ -27,7 +27,7 @@ The [D7]ambiance...   is [Dm7]out of sight!  [G7]
 Do you [C]feel the temp[Em]tations? 
 Shall I [D7]make reservations?
 Tell me [Dm7]dear, are you [G7]hungry to[C]night?  [G7]
-{eov}
+{end_of_verse}
 
 
 {comment: Start Monologue}
@@ -53,8 +53,8 @@ The [D7]waiter brings you a rose and I guess that's how it goes,
 {comment: End Monologue}
 
 
-{sov}
+{start_of_verse}
 [C]Do you feel the [Em]temptations? 
 Shall I [D7]make reservations? 
 Tell me [Dm7]dear, are you [G7]hungry tonight?  [C]
-{eov}
+{end_of_verse}

@@ -18,16 +18,16 @@
 [Am]Da da da n [G/B]da da da [Fsus2]da[x2]
 
 
-{sov}
+{start_of_verse}
 [Am] Grew up in a [G/B]small town
 [C] And when the rain would [Fsus2]fall down
 [Am] I'd just [G/B]stare out my [Fsus2]window
 [Am] Dreaming of what [G/B]could be
 [C] And if I'd end up [Fsus2]happy
 [Am]I w[G]ould p[Fsus2]ray
-{eov}
+{end_of_verse}
 
-{sov}
+{start_of_verse}
 [Am] Trying hard to [G/B]reach out
 [C] But when I tried to [Fsus2]speak out
 [Am] Felt like [G/B]no one could [Fsus2]hear me
@@ -35,9 +35,9 @@
 [C] But something felt so [Fsus2]wrong here
 [Am]So [G/B]I'd p[Fsus2]ray
 [Am] I could [G]break aw[D]ay [Fsus2][G]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [C]I'll spread my wings and I'll [G]learn how to fly.
 I'll [Am]do what it takes till [Fsus2]I touch the sky.
 [C]Make a wish, take a chance,
@@ -46,13 +46,13 @@ I'll [Am]do what it takes till [Fsus2]I touch the sky.
 But [Am]I won't forget all the [Fsus2]ones that I love.
 I'll [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
-{eoc}
+{end_of_chorus}
 
 {comment: Instrumental}
 [Am]Da da da n [G/B]da da, [C]Da da da n [Fsus2]da da
 [Am]Da da da n [G/B]da da da [Fsus2]da
 
-{sov}
+{start_of_verse}
 [Am] Wanna feel the [G/B]warm breeze
 [C] Sleep under a [Fsus2]palm tree
 [Am] Feel the [G/B]rush of the [Fsus2]ocean
@@ -60,9 +60,9 @@ I'll [C]take a risk, take a chance,
 [C] Travel on a [Fsus2]jetplane
 [Am]Far [G/B]aw[Fsus2]ay
 And [Am]break [G]aw[D]ay [Fsus2][G/B]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [C]I'll spread my wings and I'll [G]learn how to fly.
 I'll [Am]do what it takes till [Fsus2]I touch the sky.
 [C]Make a wish, take a chance,
@@ -71,18 +71,18 @@ I'll [Am]do what it takes till [Fsus2]I touch the sky.
 [Am]But I won't forget all the [Fsus2]ones that I love.
 I'll [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
-{eoc}
+{end_of_chorus}
 
-{sob}
+{start_of_bridge}
 [G]Buildings with a hundred floors
 [C] Swinging with re[Fsus2]volving doors
 [G] Maybe I don't know where they'll[C] take[F]me
 [G] Gotta keep movin on[C] movin on
 [F] Fly a[D]way
 Break a[F]way [G]
-{eob}
+{end_of_bridge}
 
-{soc}
+{start_of_chorus}
 [C]I'll spread my wings and I'll [G]learn how to fly.
 [Am]Though it's not easy to [Fsus2]tell you goodbye
 [C]Take a risk, take a chance,
@@ -93,4 +93,4 @@ I gotta [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
 [Am]Break [G]aw[Fsus2]ay
 [Am]Break [G]aw[Fsus2]ay
-{eoc}
+{end_of_chorus}

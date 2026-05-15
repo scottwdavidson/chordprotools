@@ -9,7 +9,7 @@
 | A | E | Bm | D |
 | A | E | Bm | D |
 
-{sov}
+{start_of_verse}
 "Show me, show me, [A]show me how you [E]do that trick
 The [Bm]one that makes me [D]scream" she said
 "The [A]one that makes me [E]laugh" she said
@@ -18,13 +18,13 @@ And [Bm]threw her arms a[D]round my neck
 And I [Bm]promise you, I [D]promise that
 I'll run a[A]way with you[E]
 I'll run a[Bm]way with you"[D]
-{eov}
+{end_of_verse}
 
 {comment: Instrumental}
 | A | E | Bm | D |
 | A | E | Bm | D |
 
-{sov}
+{start_of_verse}
 [A]Spinning on that [E]dizzy edge
 I [Bm]kissed her face and [D]kissed her head
 And [A]dreamed of all the [E]different ways
@@ -32,9 +32,9 @@ I [Bm]had to make her [D]glow
 "[A]Why are you so [E]far away?" she s[Bm]aid
 "Why won't you [D]ever know that I'm in [A]love with you[E]
 That I'm in [Bm]love with you"[D]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [F#m]You   [G]Soft and only
 [F#m]You   [G]Lost and lonely
 [F#m]You   [G]Strange as angels
@@ -42,13 +42,13 @@ That I'm in [Bm]love with you"[D]
 [D]Twisting in the water
 You're just like a [A]dream[E]
 You're just like a [Bm]dream[D]
-{eoc}
+{end_of_chorus}
 
 {comment: Instrumental}
 | A | E | Bm | D |
 | A | E | Bm | D |
 
-{sov}
+{start_of_verse}
 [A]Daylight licked me [E]into shape
 I [Bm]must have been a[D]sleep for days
 And [A]moving lips to [E]breathe her name
@@ -57,14 +57,14 @@ And [A]found myself a[E]lone, alone
 A[Bm]lone above a [D]raging sea
 That [A]stole the only [E]girl I loved
 And [Bm]drowned her deep in[D]side of me
-{eov}
+{end_of_verse}
 
 {comment: Instrumental}
 | A | E | Bm | D |
 
-{soc}
+{start_of_chorus}
 [F#m]You    [G]Soft and only
 [F#m]You    [G]Lost and lonely
 [F#m]You
 [G]You're Just like heaven[D]
-{eoc}
+{end_of_chorus}

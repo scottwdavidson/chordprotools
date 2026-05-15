@@ -5,47 +5,47 @@
 {comment: ***********************************************}
 {comment: ***********************************************}
 
-{sov}
+{start_of_verse}
 [C]Baby sneezes[Am7], mommy pleases,[F] daddy breezes in[C]
 So good on paper[Am7], so romantic[F], but so bewildering[C]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [F]I know nothing stays the sam[Dm7]e
 But if you're willing to play the gam[Bb]e
 It's coming around again[F]
 So [F/Eb]don't [Eb]mind if I [Eb/C]fall a[D/C]part
 There's [F/A]more room in a [C/E]broken heart
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [C]You pay the grocer[Am], fix the toaster,[F] kiss the host goodbye[C]
 Then you break the window[Am], burn the soufflé,[F] scream a lullaby[C]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [F]I know nothing stays the sam[Dm7]e
 But if you're willing to play the gam[Bbadd9]e
 It's coming around again[F]
 So [F/Eb]don't [Eb]mind if I [Eb/C]fall a[D/C]part
 There's [F/A]more room in a [C/E]broken heart
-{eoc}
+{end_of_chorus}
 
-{sob}
+{start_of_bridge}
 [C]And I believe in lov[Am]e but what else can I do?[F] I'm so in love with you[C]
-{eob}
+{end_of_bridge}
 
-{soc}
+{start_of_chorus}
 [F]I know nothing stays the sam[Dm7]e but if you're willing to play the game[Bbadd9]
 It will be coming around again[F]
-{eoc}
+{end_of_chorus}
 
-{soc}
+{start_of_chorus}
 [F]Baby sneezes (I believe in l[Dm7]ove) Mummy pleases (I believe in[Bbadd9]love)
 Daddy breezes in [F](I believe in love)
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [F]I know nothing stays the sa[Dm7]me (I believe in love)
 But if you're willing to play the [Bbadd9]game (I believe in love)
 It will be coming around again[F](I believe in love)
@@ -53,13 +53,13 @@ It will be coming around again[F](I believe in love)
 [Dm7]I believe in love (I believe in love)
 I believe in [Bbadd9]love (I believe in love)
 [F]Coming around again Coming around again
-{eoc}
+{end_of_chorus}
 
-{soc}
+{start_of_chorus}
 [F] Nothing stays the same[Dm7](I believe in love)
 But if you're willing to play the game[Bbadd9](I believe in love)
 It will be coming around again[F](I believe in love)
-{eoc}
+{end_of_chorus}
 
 {comment:Outro}
 [F]Oh, I believe in love (I believe in love)

@@ -23,16 +23,16 @@
 
 
 
-{sov}
+{start_of_verse}
 One more n[Bm]ight, one more d[E]own
 One more, [A]one more [F#m]round
 First one [Bm]in, last one [E]out
 Givin' this [A]town lots to talk [F#m]about
 They don't [Bm]know
 What they don't [E]know
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 People say I've got a [Bm]drinkin' problem
 That ain't no reason to [A]stop
 People sayin' that I've [Bm]hit rock bottom
@@ -43,21 +43,21 @@ People say I've got a d[Bm]rinkin' problem,
 But I got [E] no problem drinkin' at all
 [A]They keep on talkin', [F#m]drawin' conclusions
 [Bm]They call it a problem, [E]I call it a solution
-{eoc}
+{end_of_chorus}
 
 {comment: Interlude}
 | A . . . | F#m . . . | Bm . . . | E . . . |
 
-{sov}
+{start_of_verse}
 Last call [Bm]gets later and [E]later
 I come in [A]here so I don't have to hate [F#m]her
 Same ole [Bm]folks, same ole [E]songs
 Same ole, [A]same ole blue [F#m]neon
 The same ole [Bm]buzz
 Just becaus[E]e
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 People say I've got a [Bm]drinkin' problem
 That ain't no reason to [A]stop
 People sayin' that I've [Bm]hit rock bottom
@@ -70,14 +70,14 @@ But I [E]got no problem drinkin' at all
 [Bm]They call it a problem, [E]I call it a solution
 [A]Just sittin' here in all my [F#m]grand illusions
 [Bm]They call it a problem I [E]call it a solution
-{eoc}
+{end_of_chorus}
 
 {comment: Bridge}
 | Bm . . . | Bm . . . | A . . . | A . . . |
 
 Just a [Bm]solution  [E7]  [E6]  [E]
 
-{soc}
+{start_of_chorus}
 It's a broken hearted [D]thinkin' problem
 So pull another bottle off the [C#m]wall
 People say I got a [Bm]drinkin' problem,
@@ -88,4 +88,4 @@ But I've [E]got no problem drinkin' at all
 [Bm]They call it a problem I call i[E]t a solution
 
 [A]
-{eoc}
+{end_of_chorus}

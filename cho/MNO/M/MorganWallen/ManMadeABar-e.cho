@@ -9,7 +9,7 @@
 {comment: Intro}
 [E]E   [Emaj7]Emaj7   [Amaj7]Amaj7[A]A
 
-{sov}
+{start_of_verse}
 S[E]at down on a [Emaj7]barstool, like a d[A]ern fool
 'Cause she walked out aga[E]in
 Bartender said I [Emaj7]got you
@@ -19,10 +19,10 @@ Opened up back in [Emaj7]'85,
 A[A]nd got me over my first wife
 B[E]een staying busy since the [Emaj7]first night
 It's a s[A]tory old as time
-{eov}
+{end_of_verse}
 
 
-{soc}
+{start_of_chorus}
 God made the w[E]orld
 In seven short days
 He said it was g[A]ood, I bet it was great
@@ -35,10 +35,10 @@ Oh, but he [F#m7]didn't make no p[E]lace to go
 When she b[A]reaks your heart
 
 So man made a b[E]ar[Emaj7][A]
-{eoc}
+{end_of_chorus}
 
 
-{sov}
+{start_of_verse}
 F[E]or some guys it's a good time
 The h[A]alf price, half dozen buckets of b[E]eer
 Some say it's a [Emaj7]cover band
@@ -47,9 +47,9 @@ I know why they're h[C#m]ere
 
 Didn't go the way he p[B]lanned it
 Damn the d[A]evil did some damage
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 God made the w[E]orld
 
 In seven short days
@@ -65,15 +65,15 @@ When she b[A]reaks your heart
 
 So man made a b[E]ar
 Y[A]eaaah, man made a b[E]ar[A]
-{eoc}
+{end_of_chorus}
 
-{sob}
+{start_of_bridge}
 And sometimes an a[C#m]ngel falls too h[B]ard
 Loses m[A]ore than just a piece of her heart
 And she n[F#m7]eeds a place to [F#m]go and make a [A]brand new start
-{eob}
+{end_of_bridge}
 
-{soc}
+{start_of_chorus}
 God made the w[E]orld
 
 In seven short days
@@ -89,4 +89,4 @@ When she b[A]reaks your heart
 
 So man made a b[E]ar, (man made a b[A]ar)
 Y[A]eaaah, man made a b[E]ar[A]
-{eoc}
+{end_of_chorus}

@@ -16,7 +16,7 @@
 {comment: Intro}
 |E     |Esus4  |E     |Esus4  |
 
-{sov}
+{start_of_verse}
 [E]Life, so they [G#m7]say
 Is but a [A]game and they let it slip a[E]way[Esus4][E]
 [E]Love, like [G#m7]the autumn sun
@@ -29,18 +29,18 @@ Should be [A]dyin' but it's only just be[E]gun[Esus4][E]
 [F*]Whisper in our [G*]ears
 and all the [A*]years will come and g[B*]o
 And take us [C*]up, always [D*]up
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Bm7]We may never pass this [Esus4]way again
 [Bm7]We may never pass this [Esus4]way again
 [Bm7]We may never pass this [Esus4]way again
-{eoc}
+{end_of_chorus}
 
 {comment: Instrumental}
 |E     |Aadd9/E  |Emaj7  |Aadd9/E  |
 
-{sov}
+{start_of_verse}
 [E]Dreams, so they [G#m7]say
 Are for the [A]fools and they let them drift a[E]way[Esus4][E]
 [E]Peace, like [G#m7]the silent dove
@@ -53,16 +53,16 @@ Should be [A]flyin' but it's only just be[E]gun[Esus4][E]
 [F*]Cast away our [G*]fears
 and all the [A*]years will come and [B*]go
 Take us u[C*]p, always [D*]up
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Bm7]We may never pass this [Esus4]way again
 [Bm7]We may never pass this [Esus4]way again
 [Bm7]We may never pass this [Esus4]way again
-{eoc}
+{end_of_chorus}
 
 {comment: Bridge}
-{sob}
+{start_of_bridge}
 So [C7]  I wanna laugh while the [G7]laughin' is easy
 [C7]   I wanna cry if it [G7]makes it worthwhile
 [C7]  I may [C#dim7]never pass this [G7]wa- [F#7]ay  [F7]a -  [Em7]gain
@@ -72,7 +72,7 @@ So [C7]  I wanna laugh while the [G7]laughin' is easy
 [C7]   Like I'm the journey and [G7]you're the journey's end
 [C7]   I may n[C#dim7]ever pass this [G7]wa- [F#7]ay   [F7]a - [Em7]gain
 [G/A]That's why I [A7]want it with [C/D]you, baby
-{eob}
+{end_of_bridge}
 
 {comment: Interlude}
 | F/Bb | 
@@ -81,12 +81,12 @@ So [C7]  I wanna laugh while the [G7]laughin' is easy
 | Bm7 . . .  |Esus4 . . . | 
 | Bm7 . . .  |Esus4 . . . | 
 
-{soc}
+{start_of_chorus}
 [Bm7]We may never pass this [Esus4]way again
 [Bm7]We may never pass this [Esus4]way again
 [Bm7]We may never pass this [Esus4]way again
 [Bm7]We may never pass this [Esus4]way again
-{eoc}
+{end_of_chorus}
 
 {comment: Outro}
 |E     |Aadd9/E  |Emaj7  |Aadd9/E  |

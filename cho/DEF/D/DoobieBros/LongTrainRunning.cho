@@ -35,14 +35,14 @@
 
 
 
-{sov}
+{start_of_verse}
 [Gm7]Down round the corner, [G11]
 [Gm7]Half a mile from here, [G11]
 [Gm7]You see those old trains runnin' [G11]
 And you [Gm7]watch them disappear. [G11]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Cm7]Without love, [Cm7#13]where would you be right now?
 
 | Gm7 . . G11 | Gm7 . . G11 |
@@ -50,18 +50,18 @@ And you [Gm7]watch them disappear. [G11]
 Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 | Gm7 . . G11 | Gm7 . . G11 |
-{eoc}
+{end_of_chorus}
 
 
 
-{sov}
+{start_of_verse}
 [Gm7]You know I saw Miss Lucy, [G11]
 [Gm7]Down along the tracks. [G11]
 She [Gm7]lost her home and her famil[G11]y
 And she [Gm7]won't be comin' back. [G11]
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Cm7]Without love, [Cm7#13]where would you be right now?
 
 | Gm7 . . G11 | Gm7 . . G11 |
@@ -69,19 +69,19 @@ And she [Gm7]won't be comin' back. [G11]
 Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 | Gm7 . . G11 | Gm7 . . G11 |
-{eoc}
+{end_of_chorus}
 
 
 
-{sov}
+{start_of_verse}
 {comment: staccato chords}
 Well, t[F#m7]he [Gm7]Illinois Central
 And th[F#m7]e [Gm7]Southern Central freight,
 You gott[F#m7]a [Gm7]keep on pushin' mama,
 'Caus[F#m7]e you [Gm7]know their running' late.
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Cm7]Without love, [Cm7#13]where would you be right now?
 
 | Gm7 . . G11 | Gm7 . . G11 |
@@ -89,7 +89,7 @@ You gott[F#m7]a [Gm7]keep on pushin' mama,
 Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 | Gm7 . . G11 | Gm7 . . G11 |
-{eoc}
+{end_of_chorus}
 
 
 
@@ -107,15 +107,15 @@ Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 
 
-{sov}
+{start_of_verse}
 {comment: staccato chords}
 Well, t[F#m7]he [Gm7]Illinois Central
 And th[F#m7]e [Gm7]Southern Central freight,
 You gott[F#m7]a [Gm7]keep on pushin' mama,
 'Caus[F#m7]e you [Gm7]know their running' late.
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Cm7]Without love, [Cm7#13]where would you be right now?
 
 | Gm7 . . G11 | Gm7 . . G11 |
@@ -123,22 +123,22 @@ You gott[F#m7]a [Gm7]keep on pushin' mama,
 Without [Eb7]lo__[Gm/D]__[D7]___[Gm7]ve?
 
 | Gm7 . . G11 | Gm7 . . G11 |
-{eoc}
+{end_of_chorus}
 
 
 
-{sov}
+{start_of_verse}
 {comment: staccato chords}
 W[F#m7]here [Gm7]pistons [Gm7]keep on [Gm7]churnin' [Gm7]
 [F#m7]And the [Gm7]wheels go [Gm7]'round and [Gm7]'round  [Gm7]
 [F#m7]And the [Gm7]steel rails[Gm7] are [Gm7]cold and h[Gm7]ard
 [F#m7]For the [Gm7]miles that [Gm7]they go [Gm7]down.
-{eov}
+{end_of_verse}
 
 
  
 {comment: Closing Chorus}
-{soc}
+{start_of_chorus}
 [Cm7]Without love, [Cm7#13]where would you be right now?
 
 | Gm7 . . G11 | Gm7 . . G11 |
@@ -147,7 +147,7 @@ Without [Eb7]lo__[Gm/D]__[D7]ve?
 
 {comment: Freely}
 [Cm7]Ooooh...  [N.C.]Where would you be now?
-{eoc}
+{end_of_chorus}
 
 
 

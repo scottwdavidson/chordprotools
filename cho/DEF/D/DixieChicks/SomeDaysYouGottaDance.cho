@@ -10,7 +10,7 @@
 {comment:Intro}
 | E | 
 
-{sov}
+{start_of_verse}
 [E]Well it was about five to five on a Friday
 [E]We were all getting ready to go
 [E]And the boss-man started screamin'
@@ -21,17 +21,17 @@ Cos yo[E]u’re gonna have to stay
 My he[B]art was thumpin’
 I was jum[E]pin
 I had to get awaaaaaay
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [E]Some days you gotta dance
 Live it up when you get the chance
 [A]Cause when the world doesn’t make no sense
 [E]And your feelin just a little too tense
 You gotta lo[B]osen up those c[A]hains and da[E]nce
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [E]Well I was talkin’ with my baby
 [E]Over a small glass of tea
 [E]And he asked a load of questions
@@ -40,26 +40,26 @@ My mind was r[A]acing I was pacing
 The wo[E]rds just a wouldn’t come
 And there [B]was only one thing left to do
 I feel it coming on[E]nnnnn
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [E]Some days you gotta dance
 Live it up when you get the chance
 [A]Cause when the world doesn’t make no sense
 [E]And your feelin just a little too tense
 You gotta lo[B]osen up those c[A]hains and da[E]nce
-{eoc}
+{end_of_chorus}
 
 {comment: Solo}
 [E] [A][E][B][E]
 
-{soc}
+{start_of_chorus}
 [E]Some days you gotta dance
 Live it up when you get the chance
 [A]Cause when the world doesn’t make no sense
 [E]And your feelin just a little too tense
 You gotta lo[B]osen up those c[A]hains and da[E]nce
-{eoc}
+{end_of_chorus}
 
 {comment:Outro}
 You gotta lo[B]osen up those c[A]hains and da[E]nce

@@ -12,36 +12,36 @@
 | Am D Bm Em  | C F7 G . |
 | Am D Bm Em  | C F7 G . |
 
-{sov}
+{start_of_verse}
 [Gmaj7]The mood is right
 [G6]The spirits up
 [D/G]We're here tonight
 [G]And that's enough
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Am]Simp[D]ly [Bm]ha-[Em]ving a
 [C]wonderful [F7]Christmas_[G]time
 [Am]Simp[D]ly [Bm]ha_[Em]ving a
 [C]wonderful [Cm]Christmas [G]time
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [Gmaj7]The party's on
 [G6]The feelings here
 [D/G]That only counts
 [G]This time of year
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Am]Simp[D]ly [Bm]ha-[Em]ving a
 [C]wonderful [F7]Christmas_[G]time
 [Am]Simp[D]ly [Bm]ha_[Em]ving a
 [C]wonderful [Cm]Christmas [G]time
-{eoc}
+{end_of_chorus}
 
 {comment: BRIDGE}
-{soc}
+{start_of_chorus}
 [G]The choir of [C]children
 [D]sing their [G]song
 [G]Ding dong ding dong ding dong ding
@@ -53,21 +53,21 @@
 | Gmaj7 . . . | G6 . . . | D/G . . . | G . . . | 
 | Gmaj7 . . . | G6 . . . | D/G . . . | G . . . | 
 
-{soc}
+{start_of_chorus}
 [Am]Simp[D]ly [Bm]ha-[Em]ving a
 [C]wonderful [F7]Christmas_[G]time
 [Am]Simp[D]ly [Bm]ha_[Em]ving a
 [C]wonderful [Cm]Christmas [G]time
-{eoc}
+{end_of_chorus}
 
-{sov}
+{start_of_verse}
 [Gmaj7]The word is out
 [G]About the town
 [D/G]So lift your glass
 [G]And don't look down
-{eov}
+{end_of_verse}
 
-{soc}
+{start_of_chorus}
 [Am]Simp[D]ly [Bm]ha-[Em]ving a
 [C]wonderful [F7]Christmas_[G]time
 [Am]Simp[D]ly [Bm]ha_[Em]ving a
@@ -76,5 +76,5 @@
 [C]wonderful [F7]Christmas_[G]time
 [Am]Simp[D]ly [Bm]ha_[Em]ving a
 [C]wonderful [Cm]Christmas [G]time
-{eoc}
+{end_of_chorus}
 
