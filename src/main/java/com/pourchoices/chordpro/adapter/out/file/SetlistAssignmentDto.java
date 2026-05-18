@@ -19,7 +19,7 @@ import java.util.List;
 public class SetlistAssignmentDto {
 
     public static final List<String> COLUMN_ORDER =
-            Arrays.asList("gig", "song id", "set");
+            Arrays.asList("gig", "song id", "set", "title", "artist");
 
     @CsvBindByName(column = "gig")
     String gig;
@@ -29,4 +29,12 @@ public class SetlistAssignmentDto {
 
     @CsvBindByName(column = "set")
     String set;
+
+    /** Human-readable song title — decorative only, ignored on read. */
+    @CsvBindByName(column = "title")
+    String title;
+
+    /** Human-readable artist name — decorative only, ignored on read. */
+    @CsvBindByName(column = "artist")
+    String artist;
 }

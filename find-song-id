@@ -1,0 +1,41 @@
+#!/bin/zsh
+# Search song-catalog.csv by title or artist fragment.
+# Prints TITLE, ARTIST, KEY, SONG ID — ready to copy-paste into setlist-assignments.csv.
+#
+# Usage:  ./find-song-id <fragment>
+#         ./find-song-id "piano"
+#         ./find-song-id "joel"
+
+if [[ -z "$1" ]]; then
+  echo "Usage: ./find-song-id <title-or-artist-fragment>"
+  exit 1
+fi
+
+python3 - "$1" <<'PYEOF'
+import csv, sys
+
+fragment = sys.argv[1].lower()
+matches = []
+
+with open("song-catalog.csv", newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        if fragment in row["TITLE"].lower() or fragment in row["ARTIST"].lower():
+            matches.append(row)
+
+if not matches:
+    print(f"No songs found matching '{sys.argv[1]}'")
+    sys.exit(1)
+
+fmt = "{:<40}  {:<25}  {:<5}  {}"
+print()
+print(fmt.format("TITLE", "ARTIST", "KEY", "SONG ID"))
+print("-" * 100)
+for r in matches:
+    print(fmt.format(
+        r["TITLE"][:40],
+        r["ARTIST"][:25],
+        r.get("KEY", "")[:5],
+        r["SONG ID"],
+    ))
+print()
+PYEOF

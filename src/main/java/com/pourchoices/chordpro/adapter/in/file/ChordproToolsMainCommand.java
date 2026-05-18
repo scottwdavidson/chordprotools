@@ -13,7 +13,8 @@ import picocli.CommandLine.Command;
                 UpdateSongsCommand.class,
                 UpdateSongCommand.class,
                 ExportSetlistCommand.class,
-                AssignBackingTrackSlotsCommand.class
+                AssignBackingTrackSlotsCommand.class,
+                CopyGigCommand.class
         })
 @Slf4j
 public class ChordproToolsMainCommand implements Runnable {

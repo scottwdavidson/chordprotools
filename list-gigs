@@ -1,0 +1,23 @@
+#!/bin/zsh
+# List all gigs in setlist-assignments.csv with song counts.
+# Usage: ./list-gigs
+
+python3 - <<'PYEOF'
+import csv
+from collections import Counter
+
+counts = Counter()
+with open("setlist-assignments.csv", newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        counts[row["GIG"]] += 1
+
+if not counts:
+    print("No gigs found in setlist-assignments.csv")
+else:
+    print()
+    print(f"{'GIG':<40}  SONGS")
+    print("-" * 50)
+    for gig in sorted(counts):
+        print(f"{gig:<40}  {counts[gig]}")
+    print()
+PYEOF

@@ -157,6 +157,13 @@ Key methods: `join(gigParam, allAssignments, catalog)`, `resolveGig(gigParam, al
   - Both variants diff SET, no base: keep first [WARN]
 - Key resolution: `performanceKey ?? key` (used in both CSV and stdout)
 
+### `copy-gig` → `CopyGigCommand/Service`
+- Clones all setlist assignments from a source gig to a new target gig slug
+- Rewrites entire `setlist-assignments.csv` with TITLE and ARTIST columns enriched from the catalog (human-readable in Sheets without cross-referencing song-catalog.csv)
+- Guard-rails: source gig must exist; target must not have assignments yet (unless `--force`)
+- Options: `<sourceGig>` (positional), `<targetGig>` (positional), `--force`/`-f`
+- Script: `./copy-gig <source-gig> <target-gig> [--force]`
+
 ### `import-new-song` → `ImportNewSongCommand/Service`
 - **NOT YET IMPLEMENTED** — throws UnsupportedOperationException
 - Planned: parse one new .cho and append to catalog without regenerating all
@@ -172,6 +179,9 @@ Key methods: `join(gigParam, allAssignments, catalog)`, `resolveGig(gigParam, al
 | `./update-song` | single song catalog→.cho (edit path inside) |
 | `./update-songs` | batch catalog→.cho from updateSongsListing.txt |
 | `./find-song <fragment>` | grep .cho filenames by fragment, prints full path |
+| `./find-song-id <fragment>` | search song-catalog.csv by title or artist; prints TITLE / ARTIST / KEY / SONG ID |
+| `./list-gigs` | list all gig slugs in setlist-assignments.csv with song counts |
+| `./copy-gig <src> <tgt>` | clone a gig's setlist to a new slug; rewrites assignments CSV with enriched TITLE+ARTIST |
 | `./tidy-song-catalog` | strip \r from CSV (required after Google Sheets/Excel save) |
 | `./fix-directive` | bulk replace `{c:` with `{comment:` in all .cho files |
 | `./fix-directive-dry-run` | preview of above |
@@ -331,6 +341,10 @@ All 111 labelled rows in catalog pass as of session 5.
 - **SONG LABEL field**: Fully implemented. Column between SONG ID and SET in CSV. Written to .cho as `{meta: label: ...}`. 111 rows populated across all songs with backing tracks. Full label design rules documented in RC-500 SONG LABEL DESIGN RULES section above.
 - **assign-backing-track-slots**: Fully implemented. `SetlistDeduplicator` extracted. `SetlistEntryDto` now carries BACKING column.
 - **SET management**: Fully migrated. SET column removed from `CatalogEntry` and `song-catalog.csv` (Phase 3 complete). SET now lives exclusively in `setlist-assignments.csv`. `export-setlist` command is fully implemented and joins both CSVs at runtime.
+- **setlist-assignments.csv enrichment (session 10)**: `SetlistAssignmentDto` now carries TITLE and ARTIST as decorative columns. The reader ignores them if absent (backward compatible). `SetlistAssignmentsPort.writeEnrichedAssignments()` populates them from the catalog. `copy-gig` always writes enriched rows so the file is self-readable in Sheets.
+- **copy-gig (session 10)**: Fully implemented. Clones any gig's assignments to a new slug, with `--force` to overwrite. Writes enriched CSV.
+- **find-song-id (session 10)**: Shell script. Searches song-catalog.csv by title or artist fragment; prints TITLE / ARTIST / KEY / SONG ID table. Python-based, no Java required.
+- **list-gigs (session 10)**: Shell script. Prints all gig slugs with song counts from setlist-assignments.csv.
 - **Sets work in flight**: Several new commands related to set management are planned but not yet started (beyond export-setlist).
 - **import-new-song**: Stubbed, throws UnsupportedOperationException.
 - **copySetlist** (shell script): Still maintained manually. Goal is to eventually drive it entirely from SET column via export-setlist.

@@ -1,11 +1,13 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
+import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
 import com.pourchoices.chordpro.application.port.out.SetlistAssignmentsPort;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Adapter implementing {@link SetlistAssignmentsPort} via CSV file I/O.
@@ -37,5 +39,12 @@ public class SetlistAssignmentsAdapter implements SetlistAssignmentsPort {
     @Override
     public void writeAssignments(Path path, List<SetlistAssignment> assignments) {
         writer.writeAssignments(path, mapper.toDtoList(assignments));
+    }
+
+    @Override
+    public void writeEnrichedAssignments(Path path,
+                                         List<SetlistAssignment> assignments,
+                                         Map<String, CatalogEntry> catalog) {
+        writer.writeAssignments(path, mapper.toEnrichedDtoList(assignments, catalog));
     }
 }

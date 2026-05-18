@@ -1,0 +1,7 @@
+#!/bin/zsh
+# Copy all songs from one gig to a new gig slug.
+# Usage: ./copy-gig <source-gig> <target-gig>
+# Example: ./copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail
+
+mvn -q spring-boot:run \
+  -Dspring-boot.run.arguments="copy-gig $*"
