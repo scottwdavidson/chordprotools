@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-15 (session 9)
+# Last updated: 2026-05-17 (session 10)
 
 ---
 
@@ -34,8 +34,10 @@ Run via: `mvn spring-boot:run -Dspring-boot.run.arguments="<subcommand> <args>"`
 
 ```
 TITLE, ARTIST, KEY, DURATION, TEMPO, COUNTIN, BACKING, NORD, ROLAND, VE,
-PERFORMANCE KEY, TIME SIGNATURE, CAPO, SONG ID, SONG LABEL, SET
+PERFORMANCE KEY, TIME SIGNATURE, CAPO, SONG ID, SONG LABEL
 ```
+
+(15 columns. SET was removed in Phase 3 — it now lives exclusively in `setlist-assignments.csv`.)
 
 - **SONG ID**: structured key `CLUSTER:LETTER:ArtistDir:SongStem[-keyVariant]`
   - e.g. `ABC:B:BillyJoel:MyLife` or `ABC:B:BillyJoel:MyLife-c`
@@ -48,7 +50,6 @@ PERFORMANCE KEY, TIME SIGNATURE, CAPO, SONG ID, SONG LABEL, SET
 - **NORD**: Nord piano voice preset (e.g. `M11`, `M22`)
 - **ROLAND**: Roland keyboard voice preset
 - **VE**: VE-500 vocal harmony preset (e.g. `U99`)
-- **NORD**: Nord piano voice preset (e.g. `M11`, `M22`)
 
 Mandatory fields (always present in `.cho` header): TITLE, ARTIST, KEY, DURATION, TEMPO
 Optional fields: only written to `.cho` when non-blank in catalog
@@ -73,13 +74,41 @@ All recognized `.cho` header directives with:
 - `cardinality`: ordering (TITLE=90 highest, UNPARSED_META=1 lowest)
 - `mandatory`: whether always written
 - `meta`: whether written as `{meta: directive: value}` vs `{directive: value}`
-- Key directives: TITLE(90), ARTIST(89), KEY(88), DURATION(87), TEMPO(86), COUNTIN(42), BACKING(30), SET(25), VE(28), PERFORMANCE_KEY(20), NORD(50), ROLAND(49)
+- Key directives: TITLE(90), ARTIST(89), KEY(88), DURATION(87), TEMPO(86), COUNTIN(42), BACKING(30), SONG_LABEL(29), VE(28), PERFORMANCE_KEY(20), NORD(50), ROLAND(49)
+
+### Rc500MemoryBank / Rc500Slot / Rc500Track (@Value @Builder)
+Domain model for the RC-500 `.RC0` memory-bank file format.
+- `Rc500MemoryBank`: holds `List<Rc500Slot>` + `findByIndex(int)` helper
+- `Rc500Slot`: one slot — `slotIndex`, `name`, `backingTrack: Rc500Track`, `clickTrack: Rc500Track`, `hasAnyAudio()`
+- `Rc500Track`: audio track presence / metadata within a slot
+- Port: `Rc500Port` (out) — `readMemoryBank(path)` / `writeMemoryBank(path, bank)` (read-modify-write strategy)
+- Adapter stack: `Rc500Adapter`, `Rc500FileReader`, `Rc500FileWriter`, `Rc500Mapper`, `Rc500SlotDto`, `Rc500TrackDto`, `Rc500AssignDto`, `Rc500ParseException` — all in `adapter/out/file/`
+- **Not yet wired to any picocli command** — infrastructure is in place; command TBD
+
+### ChordProTransposer (static utility class)
+Transposes ChordPro-formatted lines by ±N half-steps. Handles sharps/flats, enharmonic equivalents, double accidentals.
+Key methods: `transpose(line, halfSteps, useFlats)`, `transposeUp(line, halfSteps)`, `transposeDown(line, halfSteps)`.
+Not wired to any command yet — available for future transposition use case.
+
+### SongDirective (domain model)
+Represents a single parsed directive line from a `.cho` file body (non-header). Exists in `application/domain/model/`. Details TBD.
 
 ### ParsedSong
 A parsed `.cho` file: ParsedHeader + raw body lines (chords/lyrics unchanged)
 
-### Setlist
-Thin wrapper: `List<CatalogEntry>` — deduplicated, SET-sorted subset
+### SetlistEntry (@Value @Builder)
+Join result: one `CatalogEntry` (song metadata) + one `SetlistAssignment` (gig position).
+Delegate methods: `getSet()`, `getGig()`, `getSongId()`, `getTitle()`, `getArtist()`, `getKey()`, `getBacking()`, `getPerformanceKey()`.
+This is the primary unit of currency for all setlist-producing services.
+
+### SetlistJoiner (@Component)
+Resolves gig slug (explicit `--gig` param or falls back to lexicographically last GIG value in assignments),
+filters `SetlistAssignment` rows to that gig, joins with the catalog map, and returns `List<SetlistEntry>`.
+Shared by `ExportSetlistService` and `AssignBackingTrackSlotsService`.
+Key methods: `join(gigParam, allAssignments, catalog)`, `resolveGig(gigParam, allAssignments)`.
+
+### Setlist (@Value @Builder)
+`gig: String` + `entries: List<SetlistEntry>` + `size()`. Produced by both setlist services, consumed by CLI commands for stdout rendering and summary output.
 
 ---
 
@@ -103,19 +132,20 @@ Thin wrapper: `List<CatalogEntry>` — deduplicated, SET-sorted subset
 - Edit `updateSongsListing.txt` with one .cho path per line
 
 ### `assign-backing-track-slots` → `AssignBackingTrackSlotsCommand/Service`
-- Reassigns RC-500 slot numbers for all set-assigned songs that have a real backing track
+- Loads `song-catalog.csv` + `setlist-assignments.csv`, resolves target gig via `SetlistJoiner`, deduplicates via `SetlistDeduplicator`, splits into in-set (A–Y prefix) vs backup (Z prefix)
+- Reassigns RC-500 slot numbers for all gig-assigned songs that have a real backing track
 - **In-set songs** (SET prefix A–Y): sorted by SET code, slots assigned from **5** upward
 - **Backup songs** (SET prefix Z, e.g. Z0, Z1): sorted alphabetically by title, slots from **50** upward (hard cap at 99)
 - Songs with BACKING blank or "99" are skipped (no slot change)
-- Side-effects in order: write updated catalog CSV → call UpdateSongService per changed .cho → write fresh setlist.csv
-- Script: `./assign-backing-track-slots` (optional `--output` arg for custom setlist path)
+- Side-effects in order: write updated catalog CSV → call UpdateSongService per changed .cho → re-join + write fresh setlist.csv
+- Options: `--gig`/`-g` (slug; auto-resolves to latest gig if omitted), `--output`/`-o` (default `./setlist.csv`)
 - Constants in service: `IN_SET_START_SLOT=5`, `BACKUP_START_SLOT=50`, `MAX_SLOT=99`
 - Dedup reuses `SetlistDeduplicator` component
 
 ### `export-setlist` → `ExportSetlistCommand/Service`
-- Filters catalog to entries with non-blank SET, deduplicates, sorts by SET code, writes setlist.csv
-- Prints formatted table to stdout
-- Optional `--output` arg for custom path
+- Loads `song-catalog.csv` + `setlist-assignments.csv`, resolves target gig, joins via `SetlistJoiner`, deduplicates via `SetlistDeduplicator`, sorts by SET code, writes `setlist.csv`
+- Prints formatted table to stdout (SET / TITLE / ARTIST / KEY / BACKING)
+- Options: `--gig`/`-g` (slug e.g. `2026-06-14-rusty-nail`; auto-resolves to lexicographically latest gig if omitted), `--output`/`-o` (default `./setlist.csv`)
 - **Dedup logic**: extracted from `ExportSetlistService` into `SetlistDeduplicator` (@Component) — shared by `ExportSetlistService` and `AssignBackingTrackSlotsService`
 - **SetlistEntryDto**: includes `backing` column (blank when no backing or sentinel 99). Order: set, song title, song artist, key, backing
 - **ExportSetlistCommand stdout**: shows SET / TITLE / ARTIST / KEY / BACKING
@@ -167,7 +197,7 @@ Standard ChordPro + Pour Choices extensions in header:
 {meta: countin: 4}
 {meta: backing: 48}
 {meta: ve: U99}
-{meta: Set: A01}
+{meta: label: PianoMan}       ← RC-500 display label (max 12 chars)
 
 {comment: Section Name}
 | chord charts |
@@ -197,6 +227,18 @@ updateSongsListing.txt # edit before running update-songs
 songsListing.txt       # generated by generate-song-catalog script
 src/main/java/com/pourchoices/chordpro/
   adapter/in/file/     # picocli @Command classes
+  adapter/out/file/    # port implementations (adapters, DTOs, mappers, file I/O)
+                       # Catalog: CatalogAdapter, CatalogEntryDto, CatalogEntryMapper,
+                       #          CatalogFileReader, CatalogFileWriter
+                       # ChordPro: ChordProAdapter, ChordProFileReader, ChordProFileWriter
+                       # Setlist: SetlistAdapter, SetlistEntryDto, SetlistFileWriter
+                       # SetlistAssignments: SetlistAssignmentsAdapter,
+                       #   SetlistAssignmentDto, SetlistAssignmentMapper,
+                       #   SetlistAssignmentsFileReader, SetlistAssignmentsFileWriter
+                       # RC-500: Rc500Adapter, Rc500FileReader, Rc500FileWriter,
+                       #   Rc500Mapper, Rc500SlotDto, Rc500TrackDto, Rc500AssignDto,
+                       #   Rc500ParseException
+                       # Misc: CustomColumnComparator, SongListingAdapter, SongListingFileReader
   application/domain/
     model/             # immutable domain objects
     service/           # business logic, implements use case interfaces
@@ -221,8 +263,6 @@ Adding a new command requires in order:
 8. Test under `src/test/` mirroring package structure
 
 Reference impl for new commands: `ExportSetlistCommand/Service` (most complete)
-
----
 
 ---
 
@@ -290,7 +330,7 @@ All 111 labelled rows in catalog pass as of session 5.
 
 - **SONG LABEL field**: Fully implemented. Column between SONG ID and SET in CSV. Written to .cho as `{meta: label: ...}`. 111 rows populated across all songs with backing tracks. Full label design rules documented in RC-500 SONG LABEL DESIGN RULES section above.
 - **assign-backing-track-slots**: Fully implemented. `SetlistDeduplicator` extracted. `SetlistEntryDto` now carries BACKING column.
-- **SET management**: `set` field added to CatalogEntry and song-catalog.csv. `export-setlist` command is fully implemented.
+- **SET management**: Fully migrated. SET column removed from `CatalogEntry` and `song-catalog.csv` (Phase 3 complete). SET now lives exclusively in `setlist-assignments.csv`. `export-setlist` command is fully implemented and joins both CSVs at runtime.
 - **Sets work in flight**: Several new commands related to set management are planned but not yet started (beyond export-setlist).
 - **import-new-song**: Stubbed, throws UnsupportedOperationException.
 - **copySetlist** (shell script): Still maintained manually. Goal is to eventually drive it entirely from SET column via export-setlist.
@@ -338,7 +378,11 @@ Adding new songs:
   - Seeded with 2 placeholder rows (gig=`tbd`). User to recreate real gig data from past setlists.
   - New infrastructure: `SetlistAssignment` (domain), `SetlistAssignmentDto`, `SetlistAssignmentMapper`, `SetlistAssignmentsPort` (out), `SetlistAssignmentsFileReader`, `SetlistAssignmentsFileWriter`, `SetlistAssignmentsAdapter`, `ChordproSetlistAssignmentsPathConfig`.
   - Property: `chordprotools.setlist-assignments=./setlist-assignments.csv`
-  - **Phase 2 next:** pivot setlist services (ExportSetlistService, AssignBackingTrackSlotsService, SetlistDeduplicator) to join song-catalog + setlist-assignments on SONG ID.
+  - **Phase 2 COMPLETE (session 9):** pivot setlist services (ExportSetlistService, AssignBackingTrackSlotsService, SetlistDeduplicator) to join song-catalog + setlist-assignments on SONG ID.
+    - `SetlistJoiner` (@Component) added: resolves gig, joins assignments → catalog, returns `List<SetlistEntry>`.
+    - `SetlistEntry` domain object added: wraps `CatalogEntry` + `SetlistAssignment` with delegate accessors.
+    - `Setlist` domain object extended: now carries `gig: String` + `entries: List<SetlistEntry>` (was bare `List<CatalogEntry>`).
+    - Both `ExportSetlistService` and `AssignBackingTrackSlotsService` now use `SetlistJoiner`; both accept `--gig` / `-g` option.
   - **Phase 3 COMPLETE (session 8):** SET fully removed from the catalog side.
     - `CatalogEntry`: `String set` field removed.
     - `HeaderDirective`: `SET` enum constant removed.
