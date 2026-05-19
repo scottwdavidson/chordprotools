@@ -4,13 +4,14 @@
 {duration: 4:00}
 {tempo: 107}
 {meta: nord: M14(A2)}
+{meta: label: BeforeIGo}
 {meta: performance: Dm}
 
-{comment: ***********************************************}
-{comment: **** meta: nord: M14(A2)}
-{comment: **** meta: performance: Dm}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: nord: M14(A2)   }
+{comment:**  meta: label: BeforeIGo   }
+{comment:**  meta: performance: Dm   }
+{comment:***********************************************}
 
 {comment: Intro piano only}
 |Dm . . . | Am . . . | Bb . . . | Gm . . . |

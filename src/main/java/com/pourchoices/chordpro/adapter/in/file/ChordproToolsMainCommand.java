@@ -8,8 +8,8 @@ import picocli.CommandLine.Command;
 @Command(name = "chordpro-parser",
         mixinStandardHelpOptions = true,
         subcommands = {
-                GenerateSongCatalogCommand.class,
                 ImportNewSongCommand.class,
+                VerifyCatalogCommand.class,
                 UpdateSongsCommand.class,
                 UpdateSongCommand.class,
                 ExportSetlistCommand.class,

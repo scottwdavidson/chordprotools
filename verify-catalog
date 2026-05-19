@@ -1,0 +1,9 @@
+#!/bin/zsh
+# Verify that every song-catalog.csv entry matches its .cho file.
+# Reports MISSING FILE and DRIFT. Exits 1 if any issues are found.
+#
+# Usage:
+#   ./verify-catalog
+
+mvn -q spring-boot:run \
+  -Dspring-boot.run.arguments="verify-catalog"

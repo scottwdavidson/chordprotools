@@ -1,0 +1,10 @@
+#!/bin/zsh
+# Import a new .cho file into song-catalog.csv.
+# The SONG ID is derived from the file path — you never construct it manually.
+#
+# Usage:
+#   ./import-song cho/ABC/B/BillyJoel/MovingOut.cho
+#   ./import-song --dry-run cho/ABC/B/BillyJoel/MovingOut.cho
+
+mvn -q spring-boot:run \
+  -Dspring-boot.run.arguments="import-song $*"

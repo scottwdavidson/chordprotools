@@ -42,7 +42,7 @@ public final class ChordProPath {
      */
     public static SongId toSongId(String filePath) {
         String songIdString = filePath
-                .replaceFirst("^\\./cho/", "")
+                .replaceFirst("^(\\./)?(cho/)", "")
                 .replaceAll("\\.cho$", "")
                 .replace('/', ':');
         return SongId.parse(songIdString);

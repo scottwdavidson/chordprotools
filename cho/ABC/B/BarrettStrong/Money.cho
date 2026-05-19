@@ -4,6 +4,15 @@
 {duration: 3:45}
 {tempo: 132}
 {meta: nord: O15}
+{meta: countin: 4}
+{meta: label: Money Thats}
+
+{comment:***********************************************}
+{comment:**  meta: nord: O15   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: label: Money Thats   }
+{comment:***********************************************}
+
 {meta: version: 1.0}
 {meta: countin: 4}
 
