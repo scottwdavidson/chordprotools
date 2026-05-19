@@ -5,12 +5,16 @@
 {tempo: 88}
 {meta: nord: ??}
 {meta: countin: 4}
-{meta: backing: 90}
+{meta: backing: RC}
+{meta: rc-slot: 90}
+{meta: label: Dont  Know}
 
 {comment:***********************************************}
 {comment:**  meta: nord: ??   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 90   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 90   }
+{comment:**  meta: label: Dont  Know   }
 {comment:***********************************************}
 
 {comment: Intro}

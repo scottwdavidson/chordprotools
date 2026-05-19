@@ -5,13 +5,15 @@
 {tempo: 162}
 {meta: nord: O42}
 {meta: countin: 4}
-{meta: backing: 62}
+{meta: backing: RC}
+{meta: rc-slot: 62}
 {meta: label: MuchToYoung}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O42   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 62   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 62   }
 {comment:**  meta: label: MuchToYoung   }
 {comment:***********************************************}
 

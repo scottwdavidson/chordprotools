@@ -6,13 +6,15 @@
 {capo: -3}
 {meta: nord: A3(M14)}
 {meta: countin: 4}
-{meta: backing: 14}
+{meta: backing: RC}
+{meta: rc-slot: 14}
 {meta: label: Watch Wheels}
 
 {comment:***********************************************}
 {comment:**  meta: nord: A3(M14)   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 14   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 14   }
 {comment:**  meta: label: Watch Wheels   }
 {comment:***********************************************}
 

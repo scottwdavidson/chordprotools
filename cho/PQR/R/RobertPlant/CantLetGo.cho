@@ -5,13 +5,15 @@
 {tempo: 176}
 {meta: nord: O15}
 {meta: countin: 4}
-{meta: backing: 53}
+{meta: backing: RC}
+{meta: rc-slot: 53}
 {meta: label: Cant  LetGo}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O15   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 53   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 53   }
 {comment:**  meta: label: Cant  LetGo   }
 {comment:***********************************************}
 

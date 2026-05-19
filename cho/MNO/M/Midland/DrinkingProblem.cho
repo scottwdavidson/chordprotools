@@ -5,12 +5,16 @@
 {tempo: 102}
 {meta: nord: P25}
 {meta: countin: 4}
-{meta: backing: 58}
+{meta: backing: RC}
+{meta: rc-slot: 58}
+{meta: label: DrnkinPrblm}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P25   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 58   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 58   }
+{comment:**  meta: label: DrnkinPrblm   }
 {comment:***********************************************}
 
 {comment: Intro}

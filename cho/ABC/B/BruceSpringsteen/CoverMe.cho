@@ -5,13 +5,15 @@
 {tempo: 120}
 {meta: nord: P54}
 {meta: countin: 4}
-{meta: backing: 55}
+{meta: backing: RC}
+{meta: rc-slot: 55}
 {meta: label: Cover  Me}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P54   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 55   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 55   }
 {comment:**  meta: label: Cover  Me   }
 {comment:***********************************************}
 

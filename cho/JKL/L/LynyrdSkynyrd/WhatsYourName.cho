@@ -4,11 +4,15 @@
 {duration: 3:10}
 {tempo: 135}
 {meta: countin: 8 ; start with pickup}
-{meta: backing: 91}
+{meta: backing: RC}
+{meta: rc-slot: 91}
+{meta: label: Whats YrNam}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8 ; start with pickup   }
-{comment:**  meta: backing: 91   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 91   }
+{comment:**  meta: label: Whats YrNam   }
 {comment:***********************************************}
 
 {comment: Intro}

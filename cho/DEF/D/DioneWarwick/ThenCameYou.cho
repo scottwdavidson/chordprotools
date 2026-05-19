@@ -5,14 +5,17 @@
 {tempo: 116}
 {meta: nord: M23}
 {meta: countin: 4}
-{meta: backing: 09}
+{meta: backing: RC}
+{meta: rc-slot: 09}
+{meta: label: Then  Came}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M23   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 09   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 09   }
+{comment:**  meta: label: Then  Came   }
 {comment:***********************************************}
-
 
 {comment: Intro}
 | F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |

@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
+import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SongId;
 import lombok.extern.slf4j.Slf4j;
@@ -43,7 +44,8 @@ public class CatalogEntryMapper {
                 .nord(dto.getNord())
                 .roland(dto.getRoland())
                 .countin(dto.getCountin())
-                .backing(dto.getBacking())
+                .backingType(BackingType.fromString(dto.getBacking()))
+                .rcSlot(dto.getRcSlot())
                 .ve(dto.getVe())
                 .performanceKey(dto.getPerformanceKey())
                 .songLabel(dto.getSongLabel())
@@ -64,7 +66,8 @@ public class CatalogEntryMapper {
                 .nord(entity.getNord())
                 .roland(entity.getRoland())
                 .countin(entity.getCountin())
-                .backing(entity.getBacking())
+                .backing(entity.getBackingType() != null ? entity.getBackingType().name() : null)
+                .rcSlot(entity.getRcSlot())
                 .ve(entity.getVe())
                 .performanceKey(entity.getPerformanceKey())
                 .songLabel(entity.getSongLabel())

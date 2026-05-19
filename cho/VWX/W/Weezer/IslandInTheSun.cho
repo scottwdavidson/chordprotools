@@ -5,13 +5,15 @@
 {tempo: 115}
 {meta: nord: P54}
 {meta: countin: 4}
-{meta: backing: 59}
+{meta: backing: RC}
+{meta: rc-slot: 59}
 {meta: label: IslandInSun}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P54   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 59   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 59   }
 {comment:**  meta: label: IslandInSun   }
 {comment:***********************************************}
 

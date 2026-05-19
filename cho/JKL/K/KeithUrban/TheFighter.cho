@@ -4,12 +4,16 @@
 {duration: 2:40}
 {tempo: }
 {meta: countin: 8}
-{meta: backing: 70}
+{meta: backing: RC}
+{meta: rc-slot: 70}
+{meta: label: The   Fight}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 70   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 70   }
+{comment:**  meta: label: The   Fight   }
+{comment:***********************************************}
 
 {comment: Intro}
 | Gmaj7 . . . | Asus  . . . | 

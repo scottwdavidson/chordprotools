@@ -4,13 +4,16 @@
 {duration: 3:47}
 {tempo: 123}
 {meta: countin: 4}
-{meta: backing: 78}
+{meta: backing: RC}
+{meta: rc-slot: 78}
+{meta: label: GuitarWeeps}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 78   }
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 78   }
+{comment:**  meta: label: GuitarWeeps   }
+{comment:***********************************************}
 
 {comment: Intro }
 | Am . . . | Am/G . . . | D9/F# . . . | F . . . | 

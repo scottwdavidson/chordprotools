@@ -1,17 +1,21 @@
 {title: All I Need Is A Miracle}
 {artist: Mike and the Mechanics}
-{duration: 3:10}
 {key: D}
+{duration: 3:10}
 {tempo: 120}
-{meta: nord:15}
+{meta: nord: 15}
 {meta: countin: 8}
-{meta: backing: 50}
+{meta: backing: RC}
+{meta: rc-slot: 50}
+{meta: label: All I Need}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P51}
-{comment: **  meta: countin: 8}
-{comment: **  meta: backing: 50}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: 15   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 50   }
+{comment:**  meta: label: All I Need   }
+{comment:***********************************************}
 
 {comment: Intro ( drums only )}
 . | . . . . | . . . . |

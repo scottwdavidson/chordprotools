@@ -5,13 +5,17 @@
 {tempo: 149}
 {meta: nord: P51}
 {meta: countin: 4}
-{meta: backing: 65}
+{meta: backing: RC}
+{meta: rc-slot: 65}
+{meta: label: Apt}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P51   }
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 65   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P51   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 65   }
+{comment:**  meta: label: Apt   }
+{comment:***********************************************}
 
 {comment: Carmen / Jean : Over 8 beats}
 | GAME ... START |

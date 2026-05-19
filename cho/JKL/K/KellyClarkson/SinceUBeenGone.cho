@@ -5,13 +5,17 @@
 {tempo: }
 {meta: nord: A01}
 {meta: countin: 8}
-{meta: backing: 55}
+{meta: backing: RC}
+{meta: rc-slot: 55}
+{meta: label: SinceUGone}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: A01   }
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 55   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: A01   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 55   }
+{comment:**  meta: label: SinceUGone   }
+{comment:***********************************************}
 
 {comment: Intro}
 | G . . . | G . . . |

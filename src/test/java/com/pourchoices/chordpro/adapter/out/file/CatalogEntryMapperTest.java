@@ -1,4 +1,5 @@
 package com.pourchoices.chordpro.adapter.out.file;
+import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SongId;
 import org.junit.jupiter.api.BeforeEach;
@@ -33,7 +34,8 @@ class CatalogEntryMapperTest {
                 .capo("0")
                 .nord("Yes")
                 .countin("4")
-                .backing("Full Band")
+                .backingType(BackingType.RC)
+                .rcSlot("48")
                 .ve("Verse-Chorus")
                 .performanceKey("C#")
                 .songLabel("PianoMan")
@@ -54,7 +56,8 @@ class CatalogEntryMapperTest {
         assertThat(dto.getCapo()).isEqualTo(entity.getCapo());
         assertThat(dto.getNord()).isEqualTo(entity.getNord());
         assertThat(dto.getCountin()).isEqualTo(entity.getCountin());
-        assertThat(dto.getBacking()).isEqualTo(entity.getBacking());
+        assertThat(dto.getBacking()).isEqualTo("RC");
+        assertThat(dto.getRcSlot()).isEqualTo(entity.getRcSlot());
         assertThat(dto.getVe()).isEqualTo(entity.getVe());
         assertThat(dto.getPerformanceKey()).isEqualTo(entity.getPerformanceKey());
         assertThat(dto.getSongLabel()).isEqualTo(entity.getSongLabel());
@@ -74,7 +77,7 @@ class CatalogEntryMapperTest {
                 .capo("2")
                 .nord("No")
                 .countin("2")
-                .backing("Acoustic")
+                .backing("BB")
                 .ve("Chorus-Verse")
                 .performanceKey("A")
                 .songLabel("AnotherSong")
@@ -95,7 +98,8 @@ class CatalogEntryMapperTest {
         assertThat(entity.getCapo()).isEqualTo(dto.getCapo());
         assertThat(entity.getNord()).isEqualTo(dto.getNord());
         assertThat(entity.getCountin()).isEqualTo(dto.getCountin());
-        assertThat(entity.getBacking()).isEqualTo(dto.getBacking());
+        assertThat(entity.getBackingType()).isEqualTo(BackingType.BB);
+        assertThat(entity.getRcSlot()).isNull();
         assertThat(entity.getVe()).isEqualTo(dto.getVe());
         assertThat(entity.getPerformanceKey()).isEqualTo(dto.getPerformanceKey());
         assertThat(entity.getSongLabel()).isEqualTo(dto.getSongLabel());

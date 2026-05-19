@@ -4,12 +4,16 @@
 {duration: }
 {tempo: }
 {meta: countin: 4}
-{meta: backing: 64}
+{meta: backing: RC}
+{meta: rc-slot: 64}
+{meta: label: Die   Smile}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 64   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 64   }
+{comment:**  meta: label: Die   Smile   }
+{comment:***********************************************}
 
 {comment: Intro}
 [Amaj7]... Ooh [Dmaj7]Ooh

@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
 import com.pourchoices.chordpro.application.domain.model.ChordProPath;
@@ -88,7 +89,8 @@ public class GenerateSongCatalogService implements GenerateSongCatalogUseCase {
             else if (d == HeaderDirective.NORD)        builder.nord(v);
             else if (d == HeaderDirective.ROLAND)      builder.roland(v);
             else if (d == HeaderDirective.COUNTIN)     builder.countin(v);
-            else if (d == HeaderDirective.BACKING)     builder.backing(v);
+            else if (d == HeaderDirective.BACKING)     builder.backingType(BackingType.fromString(v));
+            else if (d == HeaderDirective.RC_SLOT)     builder.rcSlot(v);
             else if (d == HeaderDirective.SONG_LABEL)   builder.songLabel(v);
             else if (d == HeaderDirective.VE)          builder.ve(v);
             else if (d == HeaderDirective.PERFORMANCE_KEY) builder.performanceKey(v);

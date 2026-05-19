@@ -2,16 +2,21 @@
 {artist: Kelly Clarkson}
 {key: Am}
 {duration: 3:45}
+{tempo: }
 {time: 3/4}
-{meta: countin: 6}
-{meta: backing: 53}
 {meta: nord: A01}
+{meta: countin: 6}
+{meta: backing: RC}
+{meta: rc-slot: 53}
+{meta: label: Break  Away}
 
-{comment: *****************************************}
-{comment: meta: countin: 6}
-{comment: meta: backing: 53}
-{comment: meta: nord: A01}
-{comment: *****************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: A01   }
+{comment:**  meta: countin: 6   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 53   }
+{comment:**  meta: label: Break  Away   }
+{comment:***********************************************}
 
 {comment: Intro}
 [Am]Da da da n [G/B]da da, [C]Da da da n [Fsus2]da da

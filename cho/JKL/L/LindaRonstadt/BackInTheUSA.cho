@@ -1,18 +1,21 @@
 {title: Back In The USA}
 {artist: Linda Ronstadt}
-{key:G}
-{tempo:165}
+{key: G}
 {duration: 3:00}
-{meta: countin: 4}
-{meta: backing: 61}
+{tempo: 165}
 {meta: nord: P55}
+{meta: countin: 4}
+{meta: backing: RC}
+{meta: rc-slot: 61}
+{meta: label: BackIn USA}
 
-
-{comment: ***********************************************}
-{comment: ** meta: countin: 4}
-{comment: ** meta: backing: 61}
-{comment: ** meta: nord: P55}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 61   }
+{comment:**  meta: label: BackIn USA   }
+{comment:***********************************************}
 
 {comment:INTRO}
 | <Chuck Berry guitar lick on G> |

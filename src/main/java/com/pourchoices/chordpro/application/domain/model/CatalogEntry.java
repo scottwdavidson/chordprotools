@@ -24,7 +24,10 @@ public class CatalogEntry {
     String nord;
     String roland;
     String countin;
-    String backing;
+    /** Which device provides the backing track for this song; null = no backing. */
+    BackingType backingType;
+    /** Last assigned RC-500 slot number; null for BB and no-backing songs. */
+    String rcSlot;
     String ve;
     String performanceKey;
     /** RC-500 display label — max 12 characters (hardware constraint). */

@@ -5,13 +5,17 @@
 {tempo: 123}
 {meta: nord: P24}
 {meta: countin: 4}
-{meta: backing: 76}
+{meta: backing: RC}
+{meta: rc-slot: 76}
+{meta: label: There  She}
 {meta: performance: Bb}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P24   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 76   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 76   }
+{comment:**  meta: label: There  She   }
 {comment:**  meta: performance: Bb   }
 {comment:***********************************************}
 

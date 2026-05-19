@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.ChordProPath;
 import com.pourchoices.chordpro.application.domain.model.Setlist;
@@ -60,9 +61,7 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
     /** Highest slot the RC-500 supports. */
     static final int MAX_SLOT = 99;
 
-    private static final String NO_BACKING_SENTINEL = "99";
-
-    private final CatalogPort catalogPort;
+private final CatalogPort catalogPort;
     private final SetlistPort setlistPort;
     private final SetlistAssignmentsPort assignmentsPort;
     private final ChordproCatalogIndexPathConfig catalogConfig;
@@ -112,7 +111,7 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
             String newSlot = String.valueOf(inSetSlot++);
             if (!newSlot.equals(entry.getBacking())) {
                 updated.put(entry.getSongId().toString(),
-                        entry.getSong().toBuilder().backing(newSlot).build());
+                        entry.getSong().toBuilder().rcSlot(newSlot).build());
             }
         }
         log.info("Assigned in-set slots {} – {}", IN_SET_START_SLOT, inSetSlot - 1);
@@ -128,7 +127,7 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
             String newSlot = String.valueOf(backupSlot++);
             if (!newSlot.equals(entry.getBacking())) {
                 updated.put(entry.getSongId().toString(),
-                        entry.getSong().toBuilder().backing(newSlot).build());
+                        entry.getSong().toBuilder().rcSlot(newSlot).build());
             }
         }
         log.info("Assigned backup slots {} – {}", BACKUP_START_SLOT, backupSlot - 1);
@@ -169,7 +168,6 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
     }
 
     private boolean hasBacking(SetlistEntry entry) {
-        String b = entry.getBacking();
-        return b != null && !b.isBlank() && !NO_BACKING_SENTINEL.equals(b);
+        return entry.getBackingType() == BackingType.RC;
     }
 }

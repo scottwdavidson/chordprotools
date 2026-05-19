@@ -4,12 +4,16 @@
 {duration: 2:50}
 {tempo: 120}
 {meta: countin: 8}
-{meta: backing: 69}
+{meta: backing: RC}
+{meta: rc-slot: 69}
+{meta: label: Go AllWay}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 69   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 69   }
+{comment:**  meta: label: Go AllWay   }
+{comment:***********************************************}
 
 {comment: Intro}
 | A D/A A | A D/A A | A D/A A | A D/A A |

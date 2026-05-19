@@ -4,12 +4,16 @@
 {duration: 4:10}
 {tempo: 106}
 {meta: countin: 4}
-{meta: backing: 67}
+{meta: backing: RC}
+{meta: rc-slot: 67}
+{meta: label: Pink  Pony}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 67   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 67   }
+{comment:**  meta: label: Pink  Pony   }
+{comment:***********************************************}
 
 {comment: Intro}
 | C7 . . . |

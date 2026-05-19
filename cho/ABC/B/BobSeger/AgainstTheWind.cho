@@ -5,14 +5,16 @@
 {tempo: 109}
 {meta: nord: M44}
 {meta: countin: 4}
-{meta: backing: 6}
+{meta: backing: RC}
+{meta: rc-slot: 6}
 {meta: label: AganstWind}
 {meta: performance: F}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M44   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 6   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 6   }
 {comment:**  meta: label: AganstWind   }
 {comment:**  meta: performance: F   }
 {comment:***********************************************}

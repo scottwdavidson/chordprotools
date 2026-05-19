@@ -5,13 +5,15 @@
 {tempo: 88}
 {meta: nord: P53}
 {meta: countin: 4}
-{meta: backing: 68}
+{meta: backing: RC}
+{meta: rc-slot: 68}
 {meta: label: Thats  All}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P53   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 68   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 68   }
 {comment:**  meta: label: Thats  All   }
 {comment:***********************************************}
 

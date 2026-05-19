@@ -5,7 +5,7 @@ import lombok.Value;
 
 /**
  * A joined view of a {@link CatalogEntry} (song metadata) and a {@link SetlistAssignment}
- * (gig position).  This is the unit of currency for all setlist-producing services.
+ * (gig position). This is the unit of currency for all setlist-producing services.
  *
  * <p>Convenience delegate methods are provided for the fields most commonly accessed
  * by setlist services and CLI commands, so callers rarely need to drill into
@@ -31,10 +31,12 @@ public class SetlistEntry {
 
     // ── Delegates: song ──────────────────────────────────────────────────
 
-    public SongId getSongId()          { return song.getSongId(); }
-    public String getTitle()           { return song.getTitle(); }
-    public String getArtist()          { return song.getArtist(); }
-    public String getKey()             { return song.getKey(); }
-    public String getBacking()         { return song.getBacking(); }
-    public String getPerformanceKey()  { return song.getPerformanceKey(); }
+    public SongId getSongId()           { return song.getSongId(); }
+    public String getTitle()            { return song.getTitle(); }
+    public String getArtist()           { return song.getArtist(); }
+    public String getKey()              { return song.getKey(); }
+    /** RC-500 slot number for display in the setlist; null for BB and no-backing songs. */
+    public String getBacking()          { return song.getRcSlot(); }
+    public BackingType getBackingType() { return song.getBackingType(); }
+    public String getPerformanceKey()   { return song.getPerformanceKey(); }
 }

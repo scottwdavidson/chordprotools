@@ -5,12 +5,16 @@
 {tempo: 117}
 {meta: nord: O23}
 {meta: countin: 4}
-{meta: backing: 71}
+{meta: backing: RC}
+{meta: rc-slot: 71}
+{meta: label: Never Rains}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O23   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 71   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 71   }
+{comment:**  meta: label: Never Rains   }
 {comment:***********************************************}
 
 {comment: Intro - 8 bars}

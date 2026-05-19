@@ -5,12 +5,16 @@
 {tempo: 148}
 {meta: nord: O55}
 {meta: countin: 8}
-{meta: backing: 85}
+{meta: backing: RC}
+{meta: rc-slot: 85}
+{meta: label: BadBadLeroy}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O55   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 85   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 85   }
+{comment:**  meta: label: BadBadLeroy   }
 {comment:***********************************************}
 
 {comment:Intro}

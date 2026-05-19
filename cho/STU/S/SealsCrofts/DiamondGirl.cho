@@ -5,14 +5,16 @@
 {tempo: 127}
 {meta: nord: O42}
 {meta: countin: 8}
-{meta: backing: 7}
+{meta: backing: RC}
+{meta: rc-slot: 7}
 {meta: label: DiamndGirl}
 {meta: ve: P26}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O42   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 7   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 7   }
 {comment:**  meta: label: DiamndGirl   }
 {comment:**  meta: ve: P26   }
 {comment:***********************************************}

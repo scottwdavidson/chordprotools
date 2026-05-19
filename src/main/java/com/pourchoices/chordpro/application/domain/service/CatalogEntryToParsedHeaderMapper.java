@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.ChordProPath;
 import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
@@ -32,7 +33,11 @@ public class CatalogEntryToParsedHeaderMapper {
         addIfPresent(builder, HeaderDirective.COUNTIN,         entry.getCountin());
         addIfPresent(builder, HeaderDirective.NORD,            entry.getNord());
         addIfPresent(builder, HeaderDirective.ROLAND,          entry.getRoland());
-        addIfPresent(builder, HeaderDirective.BACKING,         entry.getBacking());
+        // BACKING = device type (RC or BB); RC_SLOT = last assigned slot (RC only)
+        if (entry.getBackingType() != null) {
+            builder.headerLine(lineFor(HeaderDirective.BACKING, entry.getBackingType().name()));
+        }
+        addIfPresent(builder, HeaderDirective.RC_SLOT,         entry.getRcSlot());
         addIfPresent(builder, HeaderDirective.SONG_LABEL,       entry.getSongLabel());
         addIfPresent(builder, HeaderDirective.VE,              entry.getVe());
         addIfPresent(builder, HeaderDirective.PERFORMANCE_KEY, entry.getPerformanceKey());

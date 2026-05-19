@@ -2,16 +2,20 @@
 {artist: Linda Ronstadt}
 {key: Eb}
 {duration: 2:45}
-{meta: countin: 8}
-{tempo:165}
-{meta: backing: 60}
+{tempo: 165}
 {meta: nord: P55}
+{meta: countin: 8}
+{meta: backing: RC}
+{meta: rc-slot: 60}
+{meta: label: Heat  Wave}
 
-{comment: ***********************************************}
-{comment: ** meta: backing: 60}
-{comment: ** meta: nord: P55}
-{comment: ** meta: countin: 8}
-{comment: **************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 60   }
+{comment:**  meta: label: Heat  Wave   }
+{comment:***********************************************}
 
 {comment: Intro}
 | Eb Ab Eb Ab | Eb Ab Eb Ab   |

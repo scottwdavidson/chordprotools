@@ -4,14 +4,18 @@
 {duration: 2:51}
 {tempo: 116}
 {meta: countin: 8}
-{meta: backing: 44}
+{meta: backing: RC}
+{meta: rc-slot: 44}
+{meta: label: Ebony  Eyes}
 {meta: performance: Gm}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 44   }
-{comment: **  meta: performance: Gm }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 44   }
+{comment:**  meta: label: Ebony  Eyes   }
+{comment:**  meta: performance: Gm   }
+{comment:***********************************************}
 
 {comment: Intro}
 | N.C. |  Gm  |  Dm  |

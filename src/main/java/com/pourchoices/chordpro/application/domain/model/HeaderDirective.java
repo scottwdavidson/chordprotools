@@ -25,9 +25,10 @@ public enum HeaderDirective {
     NORD(List.of("nord", "Nord", "N"), "null", true, true, 50),
     ROLAND(List.of("roland"), "null", true, true, 49),
     COUNTIN(List.of("countin", "Countin", "CountIn"), "24", false, true, 42),
-    BACKING(List.of("backing", "Backing Track"), "99", false, true, 30),
-    SONG_LABEL(List.of("label", "Label", "song label"), "null", false, true, 29),
-    VE(List.of("ve", "VE"), "U99", false, true, 28),
+    BACKING(List.of("backing", "Backing Track"), "", false, true, 30),
+    RC_SLOT(List.of("rc-slot"), "", false, true, 29),
+    SONG_LABEL(List.of("label", "Label", "song label"), "null", false, true, 28),
+    VE(List.of("ve", "VE"), "U99", false, true, 27),
     PERFORMANCE_KEY(List.of("performance", "performanceKey", "PerformanceKey", "Performance Key"), "Hm", false, true, 20),
     EPHEMERAL_COMMENT(List.of("**"), "null", false, false, 10),
     UNPARSED_META(List.of("meta"),  "0", false, false,1 );

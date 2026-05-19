@@ -5,12 +5,16 @@
 {tempo: 125}
 {meta: nord: P15}
 {meta: countin: 8}
-{meta: backing: 45}
+{meta: backing: RC}
+{meta: rc-slot: 45}
+{meta: label: DiedInYrArms}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P15   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 45   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 45   }
+{comment:**  meta: label: DiedInYrArms   }
 {comment:***********************************************}
 
 {comment: Intro ( keyboards )}

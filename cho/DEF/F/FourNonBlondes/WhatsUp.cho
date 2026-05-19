@@ -4,12 +4,16 @@
 {duration: 4:00}
 {tempo: 67}
 {meta: countin: 4}
-{meta: backing: 66}
+{meta: backing: RC}
+{meta: rc-slot: 66}
+{meta: label: Whats  Up}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 66   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 66   }
+{comment:**  meta: label: Whats  Up   }
+{comment:***********************************************}
 
 {comment: Intro}
 | A . . . | A . . . | Bm . . . | Bm . . . | 

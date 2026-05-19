@@ -4,13 +4,15 @@
 {duration: 2:30}
 {tempo: 100}
 {meta: countin: 8}
-{meta: backing: 65}
+{meta: backing: RC}
+{meta: rc-slot: 65}
 {meta: label: Small  Town}
 {meta: performance: G}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 65   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 65   }
 {comment:**  meta: label: Small  Town   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}

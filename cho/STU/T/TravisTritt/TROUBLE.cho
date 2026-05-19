@@ -4,12 +4,14 @@
 {duration: 2:45}
 {tempo: 178}
 {meta: countin: 4}
-{meta: backing: 66}
+{meta: backing: RC}
+{meta: rc-slot: 66}
 {meta: label: Trouble}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 66   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 66   }
 {comment:**  meta: label: Trouble   }
 {comment:***********************************************}
 

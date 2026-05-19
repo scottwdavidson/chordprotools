@@ -5,13 +5,15 @@
 {tempo: 150}
 {meta: nord: N35}
 {meta: countin: 4}
-{meta: backing: 24}
+{meta: backing: RC}
+{meta: rc-slot: 24}
 {meta: label: YouMayBeRigh}
 
 {comment:***********************************************}
 {comment:**  meta: nord: N35   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 24   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 24   }
 {comment:**  meta: label: YouMayBeRigh   }
 {comment:***********************************************}
 

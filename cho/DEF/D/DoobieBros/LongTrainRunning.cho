@@ -4,11 +4,15 @@
 {duration: 3:20}
 {tempo: 117}
 {meta: countin: 4}
-{meta: backing: 82}
+{meta: backing: RC}
+{meta: rc-slot: 82}
+{meta: label: Long  Train}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 82   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 82   }
+{comment:**  meta: label: Long  Train   }
 {comment:***********************************************}
 
 {comment: Intro}

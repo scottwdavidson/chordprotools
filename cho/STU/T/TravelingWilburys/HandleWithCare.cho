@@ -5,14 +5,16 @@
 {tempo: 122}
 {meta: nord: M22}
 {meta: countin: 4}
-{meta: backing: 20}
+{meta: backing: RC}
+{meta: rc-slot: 20}
 {meta: label: HandleWCare}
 {meta: ve: P12}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M22   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 20   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 20   }
 {comment:**  meta: label: HandleWCare   }
 {comment:**  meta: ve: P12   }
 {comment:***********************************************}

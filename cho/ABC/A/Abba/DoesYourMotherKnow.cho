@@ -5,13 +5,17 @@
 {tempo: 120}
 {meta: nord: M22}
 {meta: countin: 8}
-{meta: backing: 62}
+{meta: backing: RC}
+{meta: rc-slot: 62}
+{meta: label: DoesYrKnow}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: M22   }
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 62   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: M22   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 62   }
+{comment:**  meta: label: DoesYrKnow   }
+{comment:***********************************************}
 
 {comment: Intro}
 | G   . . . | G   . . . | G   . . . | G   . . . |

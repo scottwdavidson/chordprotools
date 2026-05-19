@@ -4,11 +4,15 @@
 {duration: 2:40}
 {tempo: 89}
 {meta: countin: 4}
-{meta: backing: 84}
+{meta: backing: RC}
+{meta: rc-slot: 84}
+{meta: label: Our   Song}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 84   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 84   }
+{comment:**  meta: label: Our   Song   }
 {comment:***********************************************}
 
 {comment: Intro}

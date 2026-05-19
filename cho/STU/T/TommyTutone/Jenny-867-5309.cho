@@ -5,14 +5,16 @@
 {tempo: 138}
 {meta: nord: P55}
 {meta: countin: 8}
-{meta: backing: 23}
+{meta: backing: RC}
+{meta: rc-slot: 23}
 {meta: label: Jenny 8675}
 {meta: ve: P13}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P55   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 23   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 23   }
 {comment:**  meta: label: Jenny 8675   }
 {comment:**  meta: ve: P13   }
 {comment:***********************************************}

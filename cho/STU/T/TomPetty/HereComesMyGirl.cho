@@ -4,11 +4,15 @@
 {duration: 4:00}
 {tempo: 104}
 {meta: countin: 4}
-{meta: backing: 28}
+{meta: backing: RC}
+{meta: rc-slot: 28}
+{meta: label: Here  Girl}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 28   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 28   }
+{comment:**  meta: label: Here  Girl   }
 {comment:***********************************************}
 
 {start_of_part: Drums Only}

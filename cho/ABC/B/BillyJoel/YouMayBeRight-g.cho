@@ -5,16 +5,19 @@
 {tempo: 150}
 {meta: nord: N35}
 {meta: countin: 4}
-{meta: backing: 21}
+{meta: backing: RC}
+{meta: rc-slot: 21}
+{meta: label: YouMayBeRigh}
 {meta: performance: G}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N35   }
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 21   }
-{comment: **  meta: performance: G   }
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: nord: N35   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 21   }
+{comment:**  meta: label: YouMayBeRigh   }
+{comment:**  meta: performance: G   }
+{comment:***********************************************}
 
 {comment: Intro}
 | G ... | G ... | G ... | G ... |

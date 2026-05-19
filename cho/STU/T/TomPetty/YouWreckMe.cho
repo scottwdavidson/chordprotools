@@ -4,12 +4,14 @@
 {duration: 3:05}
 {tempo: 164}
 {meta: countin: 8}
-{meta: backing: 72}
+{meta: backing: RC}
+{meta: rc-slot: 72}
 {meta: label: You   Wreck}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 72   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 72   }
 {comment:**  meta: label: You   Wreck   }
 {comment:***********************************************}
 

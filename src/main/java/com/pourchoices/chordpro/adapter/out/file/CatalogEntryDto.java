@@ -20,7 +20,7 @@ public class CatalogEntryDto {
     public static final List<String> CATALOG_COLUMN_ORDER = Arrays.asList(
 
     "title","artist","key","duration","tempo",
-    "countin","backing","nord","roland","ve",
+    "countin","backing","rc slot","nord","roland","ve",
     "performance key",
     "time signature","capo","song id","song label");
 
@@ -47,8 +47,12 @@ public class CatalogEntryDto {
     String roland;
     @CsvBindByName(column = "countin")
     String countin;
+    /** Device type string: "RC", "BB", or blank. */
     @CsvBindByName(column = "backing")
     String backing;
+    /** Last assigned RC-500 slot number; blank for BB and no-backing songs. */
+    @CsvBindByName(column = "rc slot")
+    String rcSlot;
     @CsvBindByName(column = "ve")
     String ve;
     @CsvBindByName(column = "performance key")
