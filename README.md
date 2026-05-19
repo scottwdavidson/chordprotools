@@ -199,7 +199,7 @@ into `setlist-assignments.csv`.
 # open song-catalog.csv in Google Sheets, fill in metadata
 ./tidy-song-catalog           # strip Windows \r artifacts after saving from Sheets
 ./update-songs                # push metadata from catalog back to .cho files
-./assign-backing-track-slots  # write SONG LABEL to .cho files and catalog
+./assign-backing-track-slots  # reassign RC-500 slot numbers, update catalog + .cho files, write setlist.csv
 ```
 
 ### Planning a new gig
@@ -239,7 +239,7 @@ into `setlist-assignments.csv`.
 | `./generate-song-catalog` | `generate-song-catalog` | Scan all `.cho` files and rebuild `song-catalog.csv` from scratch |
 | `./update-song` | `update-song` | Push catalog metadata into one specific `.cho` file |
 | `./update-songs` | `update-songs` | Push catalog metadata into a batch of `.cho` files |
-| `./assign-backing-track-slots` | `assign-backing-track-slots` | Write RC-500 `SONG LABEL` metadata to all `.cho` files and the catalog |
+| `./assign-backing-track-slots` | `assign-backing-track-slots` | Reassign RC-500 backing-track slot numbers for the gig; updates `song-catalog.csv`, affected `.cho` files, and writes `setlist.csv` |
 | `./copy-gig` | `copy-gig` | Clone all setlist assignments from one gig to a new gig slug |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
 | *(direct only)* | `import-new-song` | *(Not yet implemented)* Add a single new `.cho` to the catalog |
@@ -303,20 +303,31 @@ headers. This is the primary way catalog edits flow back into the song files.
 
 ### `assign-backing-track-slots`
 
-**Script:** `./assign-backing-track-slots`
+**Script:** `./assign-backing-track-slots [--gig <slug>] [--output <path>]`
 
-Reads the `BACKING` column from `song-catalog.csv` and generates the `SONG LABEL`
-field for every song that has a backing track slot. The label is written both to
-the catalog and directly into the corresponding `.cho` files as a `{meta: label:}`
-directive, so the guitarist's RC-500 display shows the slot number for every song
-regardless of which `.cho` version they have open.
+The command to run when finalising a gig's setlist order. It reassigns RC-500
+backing-track slot numbers for every set-assigned song that has a real backing
+track, then propagates those numbers into the catalog and the individual `.cho`
+files so the guitarist's loop station reflects the running order.
+
+**What it does, in order:**
+
+1. Loads `song-catalog.csv` + `setlist-assignments.csv` and joins them for the target gig
+2. Splits songs into **in-set** (SET prefix A–Y, sorted by SET code) and **backup** (SET prefix Z, sorted alphabetically by title)
+3. Assigns RC-500 slot numbers sequentially — in-set from slot **5** upward, backup from slot **50** upward
+4. Writes the updated `song-catalog.csv` with the new `BACKING` values
+5. Calls `update-song` for every `.cho` file whose slot number changed
+6. Writes a fresh `setlist.csv`
 
 ```zsh
-./assign-backing-track-slots
+./assign-backing-track-slots                              # latest gig
+./assign-backing-track-slots --gig 2026-06-14-rusty-nail  # specific gig
 ```
 
-> Songs without a `BACKING` value are skipped — they don't need a label
-> because there is no backing track to cue.
+> Songs with no `BACKING` value, or the sentinel value `99`, are included in the
+> setlist but skipped during slot assignment — they have no backing track to cue.
+
+> Slots 1–4 are intentionally left free. Slots 50–99 are reserved for backup songs.
 
 ---
 
@@ -498,7 +509,7 @@ chordprotools/
 ├── generate-song-catalog        # Rebuild catalog from all .cho files
 ├── update-song                  # Push one song's catalog metadata to its .cho
 ├── update-songs                 # Push a batch of songs from updateSongsListing.txt
-├── assign-backing-track-slots   # Write SONG LABEL to .cho files + catalog
+├── assign-backing-track-slots   # Reassign RC-500 slot numbers for the gig; update catalog + .cho files + setlist.csv
 ├── copy-gig                     # Clone a gig's assignments to a new gig slug
 ├── export-setlist               # Generate setlist.csv from catalog + assignments
 │
