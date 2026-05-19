@@ -532,7 +532,7 @@ chordprotools/
 
 | Layer | Technology |
 |---|---|
-| Language | Java 17 |
+| Language | Java 21 |
 | Framework | Spring Boot 3.5 |
 | CLI | [picocli](https://picocli.info) via `picocli-spring-boot-starter` |
 | CSV I/O | [OpenCSV](https://opencsv.sourceforge.net) |
