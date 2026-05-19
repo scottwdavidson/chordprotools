@@ -1,4 +1,8 @@
-mvn spring-boot:run \
- -Dspring-boot.run.arguments="update-song \
- ./cho/ST/T/TomPetty/HereComesMyGirl.cho "
+#!/bin/zsh
+# Update a single .cho file from the catalog.
+#
+# Usage:
+#   ./update-song cho/ABC/B/BillyJoel/MovingOut.cho
 
+mvn -q spring-boot:run \
+  -Dspring-boot.run.arguments="update-song $*"
