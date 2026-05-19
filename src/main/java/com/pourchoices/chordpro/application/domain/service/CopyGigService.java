@@ -1,11 +1,8 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
 import com.pourchoices.chordpro.application.port.in.CopyGigUseCase;
-import com.pourchoices.chordpro.application.port.out.CatalogPort;
 import com.pourchoices.chordpro.application.port.out.SetlistAssignmentsPort;
-import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import com.pourchoices.chordpro.config.ChordproSetlistAssignmentsPathConfig;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -16,15 +13,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
  * Copies all setlist assignments from one gig to a new gig slug.
- *
- * <p>The full assignments file is rewritten with enriched TITLE and ARTIST
- * columns so it is human-readable when opened in Google Sheets or Excel.
  *
  * <h3>Guard-rails</h3>
  * <ul>
@@ -38,19 +31,14 @@ import java.util.stream.Collectors;
 public class CopyGigService implements CopyGigUseCase {
 
     private final SetlistAssignmentsPort assignmentsPort;
-    private final CatalogPort catalogPort;
     private final ChordproSetlistAssignmentsPathConfig assignmentsConfig;
-    private final ChordproCatalogIndexPathConfig catalogConfig;
 
     @Override
     public int copyGig(String sourceGig, String targetGig, boolean force) {
 
-        // ── 1. Load everything ───────────────────────────────────────────────
+        // ── 1. Load assignments ──────────────────────────────────────────────
         Path assignmentsPath = Paths.get(assignmentsConfig.getSetlistAssignmentsPath());
         List<SetlistAssignment> allAssignments = assignmentsPort.readAssignments(assignmentsPath);
-
-        Path catalogPath = Paths.get(catalogConfig.getCatalogIndexPath());
-        Map<String, CatalogEntry> catalog = catalogPort.readCatalogFromCsv(catalogPath);
 
         // ── 2. Validate source ───────────────────────────────────────────────
         List<SetlistAssignment> sourceRows = allAssignments.stream()
@@ -93,8 +81,8 @@ public class CopyGigService implements CopyGigUseCase {
         List<SetlistAssignment> merged = new ArrayList<>(retained);
         merged.addAll(newTargetRows);
 
-        // ── 5. Write back enriched (with TITLE and ARTIST columns) ───────────
-        assignmentsPort.writeEnrichedAssignments(assignmentsPath, merged, catalog);
+        // ── 5. Write back ────────────────────────────────────────────────────
+        assignmentsPort.writeAssignments(assignmentsPath, merged);
         log.info("Wrote {} total assignment(s) to {}", merged.size(), assignmentsPath);
         log.info("Copied {} song(s) from '{}' to '{}'",
                 newTargetRows.size(), sourceGig, targetGig);

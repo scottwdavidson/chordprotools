@@ -5,13 +5,15 @@
 {tempo: 116}
 {meta: nord: M22}
 {meta: countin: 4}
-{meta: backing: 20}
+{meta: backing: 8}
+{meta: label: YearOfTheCat}
 {meta: ve: U6}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M22   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 20   }
+{comment:**  meta: backing: 8   }
+{comment:**  meta: label: YearOfTheCat   }
 {comment:**  meta: ve: U6   }
 {comment:***********************************************}
 

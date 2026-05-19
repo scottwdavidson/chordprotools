@@ -5,13 +5,15 @@
 {tempo: 88}
 {meta: nord: P53}
 {meta: countin: 4}
-{meta: backing: 47}
+{meta: backing: 68}
+{meta: label: Thats  All}
 
-{comment: ***********************************************}
-{comment: ** meta: countin: 4 **}
-{comment: ** meta: nord: P53 **}
-{comment: ** meta: backing: 47 **}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P53   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 68   }
+{comment:**  meta: label: Thats  All   }
+{comment:***********************************************}
 
 {comment:Intro}
 | (pickup} B D E G/D | Em7 E5 D/E E5 | Em7 E5 D/E E5 |

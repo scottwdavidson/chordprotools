@@ -5,12 +5,14 @@
 {tempo: 176}
 {meta: nord: O15}
 {meta: countin: 4}
-{meta: backing: 42}
+{meta: backing: 53}
+{meta: label: Cant  LetGo}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O15   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 42   }
+{comment:**  meta: backing: 53   }
+{comment:**  meta: label: Cant  LetGo   }
 {comment:***********************************************}
 
 {comment: In 2 - cut time}

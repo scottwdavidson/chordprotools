@@ -5,12 +5,14 @@
 {tempo: 127}
 {meta: nord: P51}
 {meta: countin: 8 (with pickup))}
-{meta: backing: 43}
+{meta: backing: 70}
+{meta: label: UndrMyThumb}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P51   }
 {comment:**  meta: countin: 8 (with pickup))   }
-{comment:**  meta: backing: 43   }
+{comment:**  meta: backing: 70   }
+{comment:**  meta: label: UndrMyThumb   }
 {comment:***********************************************}
 
 {comment: Intro - with Xylophone}

@@ -5,13 +5,15 @@
 {tempo: 125}
 {meta: nord: P55}
 {meta: countin: 4}
-{meta: backing: 24}
+{meta: backing: 60}
+{meta: label: Let MeDown}
 {meta: performance: G}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P55   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 24   }
+{comment:**  meta: backing: 60   }
+{comment:**  meta: label: Let MeDown   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 

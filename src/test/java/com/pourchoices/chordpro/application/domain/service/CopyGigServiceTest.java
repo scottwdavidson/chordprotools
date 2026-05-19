@@ -1,11 +1,8 @@
 package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
 import com.pourchoices.chordpro.application.domain.model.SongId;
-import com.pourchoices.chordpro.application.port.out.CatalogPort;
 import com.pourchoices.chordpro.application.port.out.SetlistAssignmentsPort;
-import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import com.pourchoices.chordpro.config.ChordproSetlistAssignmentsPathConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -16,12 +13,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.nio.file.Path;
 import java.util.List;
-import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -29,9 +24,7 @@ import static org.mockito.Mockito.when;
 class CopyGigServiceTest {
 
     @Mock SetlistAssignmentsPort assignmentsPort;
-    @Mock CatalogPort catalogPort;
     @Mock ChordproSetlistAssignmentsPathConfig assignmentsConfig;
-    @Mock ChordproCatalogIndexPathConfig catalogConfig;
 
     private CopyGigService service;
 
@@ -49,34 +42,17 @@ class CopyGigServiceTest {
                 .build();
     }
 
-    private static CatalogEntry song(String songId, String title, String artist) {
-        return CatalogEntry.builder()
-                .songId(SongId.parse(songId))
-                .title(title)
-                .artist(artist)
-                .key("C")
-                .duration("3:30")
-                .build();
-    }
-
     private final List<SetlistAssignment> existingAssignments = List.of(
             assignment(SOURCE_GIG, "ABC:B:BillyJoel:PianoMan", "A01"),
             assignment(SOURCE_GIG, "DEF:E:EltonJohn:Daniel",   "A02"),
             assignment(OTHER_GIG,  "ABC:B:BillyJoel:PianoMan", "B01")
     );
 
-    private final Map<String, CatalogEntry> catalog = Map.of(
-            "ABC:B:BillyJoel:PianoMan", song("ABC:B:BillyJoel:PianoMan", "Piano Man", "Billy Joel"),
-            "DEF:E:EltonJohn:Daniel",   song("DEF:E:EltonJohn:Daniel",   "Daniel",    "Elton John")
-    );
-
     @BeforeEach
     void setUp() {
         when(assignmentsConfig.getSetlistAssignmentsPath()).thenReturn("./setlist-assignments.csv");
-        when(catalogConfig.getCatalogIndexPath()).thenReturn("./song-catalog.csv");
         when(assignmentsPort.readAssignments(any(Path.class))).thenReturn(existingAssignments);
-        when(catalogPort.readCatalogFromCsv(any(Path.class))).thenReturn(catalog);
-        service = new CopyGigService(assignmentsPort, catalogPort, assignmentsConfig, catalogConfig);
+        service = new CopyGigService(assignmentsPort, assignmentsConfig);
     }
 
     // ── Happy path ────────────────────────────────────────────────────────────
@@ -91,10 +67,9 @@ class CopyGigServiceTest {
     void copyGig_newRowsHaveTargetGig() {
         service.copyGig(SOURCE_GIG, TARGET_GIG, false);
 
-        ArgumentCaptor<List<SetlistAssignment>> captor = captureWrittenAssignments();
-        List<SetlistAssignment> written = captor.getValue();
+        List<SetlistAssignment> written = captureWrittenAssignments();
 
-        // All original rows preserved, plus 2 new TARG rows = 5 total
+        // All original rows preserved, plus 2 new target rows = 5 total
         assertThat(written).hasSize(5);
         List<SetlistAssignment> targetRows = written.stream()
                 .filter(a -> TARGET_GIG.equals(a.getGig()))
@@ -110,8 +85,7 @@ class CopyGigServiceTest {
     void copyGig_preservesSetsFromSource() {
         service.copyGig(SOURCE_GIG, TARGET_GIG, false);
 
-        ArgumentCaptor<List<SetlistAssignment>> captor = captureWrittenAssignments();
-        List<SetlistAssignment> targetRows = captor.getValue().stream()
+        List<SetlistAssignment> targetRows = captureWrittenAssignments().stream()
                 .filter(a -> TARGET_GIG.equals(a.getGig()))
                 .toList();
 
@@ -123,24 +97,10 @@ class CopyGigServiceTest {
     void copyGig_retainsOtherGigs() {
         service.copyGig(SOURCE_GIG, TARGET_GIG, false);
 
-        ArgumentCaptor<List<SetlistAssignment>> captor = captureWrittenAssignments();
-        long otherGigCount = captor.getValue().stream()
+        long otherGigCount = captureWrittenAssignments().stream()
                 .filter(a -> OTHER_GIG.equals(a.getGig()))
                 .count();
         assertThat(otherGigCount).isEqualTo(1);
-    }
-
-    @Test
-    void copyGig_passesEnrichedCatalogToPort() {
-        service.copyGig(SOURCE_GIG, TARGET_GIG, false);
-
-        ArgumentCaptor<Map<String, CatalogEntry>> catalogCaptor = ArgumentCaptor.forClass(Map.class);
-        verify(assignmentsPort).writeEnrichedAssignments(
-                any(Path.class),
-                any(),
-                catalogCaptor.capture());
-
-        assertThat(catalogCaptor.getValue()).containsKey("ABC:B:BillyJoel:PianoMan");
     }
 
     // ── Guard-rails ───────────────────────────────────────────────────────────
@@ -154,7 +114,6 @@ class CopyGigServiceTest {
 
     @Test
     void copyGig_targetAlreadyExists_throwsWithoutForce() {
-        // SOURCE_GIG already in existingAssignments; use it as target too
         assertThatThrownBy(() -> service.copyGig(SOURCE_GIG, OTHER_GIG, false))
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessageContaining("already has assignments")
@@ -163,12 +122,11 @@ class CopyGigServiceTest {
 
     @Test
     void copyGig_targetAlreadyExists_replaceWithForce() {
-        // OTHER_GIG exists; --force should replace its 1 row with SOURCE_GIG's 2 rows
+        // OTHER_GIG exists with 1 row; --force should replace it with SOURCE_GIG's 2 rows
         int count = service.copyGig(SOURCE_GIG, OTHER_GIG, true);
         assertThat(count).isEqualTo(2);
 
-        ArgumentCaptor<List<SetlistAssignment>> captor = captureWrittenAssignments();
-        long otherGigCount = captor.getValue().stream()
+        long otherGigCount = captureWrittenAssignments().stream()
                 .filter(a -> OTHER_GIG.equals(a.getGig()))
                 .count();
         assertThat(otherGigCount).isEqualTo(2); // replaced, not added
@@ -177,9 +135,9 @@ class CopyGigServiceTest {
     // ── Helpers ───────────────────────────────────────────────────────────────
 
     @SuppressWarnings("unchecked")
-    private ArgumentCaptor<List<SetlistAssignment>> captureWrittenAssignments() {
+    private List<SetlistAssignment> captureWrittenAssignments() {
         ArgumentCaptor<List<SetlistAssignment>> captor = ArgumentCaptor.forClass(List.class);
-        verify(assignmentsPort).writeEnrichedAssignments(any(Path.class), captor.capture(), any());
-        return captor;
+        verify(assignmentsPort).writeAssignments(any(Path.class), captor.capture());
+        return captor.getValue();
     }
 }

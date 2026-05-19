@@ -3,20 +3,21 @@
 {key: A}
 {duration: 2:30}
 {tempo: 165}
-{meta: performance : A}
-{meta: ve: U35}
-{meta: backing: 22}
+{meta: nord: M51}
 {meta: countin: 8}
-{meta: nord : M51}
+{meta: backing: 17}
+{meta: label: Let MyLove}
+{meta: ve: U35}
+{meta: performance: A}
 
-{comment: ***********************************************}
-{comment: ** meta: performance : A}
-{comment: ** meta: ve: U35}
-{comment: ** meta: backing: 22}
-{comment: ** meta: countin: 8}
-{comment: ** meta: nord : M51}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: nord: M51   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 17   }
+{comment:**  meta: label: Let MyLove   }
+{comment:**  meta: ve: U35   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Arpegiator Intro}
 | A . . . | A . . . | A . . . | A . . . |

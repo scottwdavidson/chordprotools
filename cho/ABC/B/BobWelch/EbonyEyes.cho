@@ -4,14 +4,16 @@
 {duration: 2:51}
 {tempo: 116}
 {meta: countin: 8}
-{meta: backing: 44}
+{meta: backing: 57}
+{meta: label: Ebony  Eyes}
 {meta: performance: Gm}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8   }
-{comment: **  meta: backing: 44   }
-{comment: **  meta: performance: Gm }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 57   }
+{comment:**  meta: label: Ebony  Eyes   }
+{comment:**  meta: performance: Gm   }
+{comment:***********************************************}
 
 {comment: Intro}
 | N.C. |   Am  |  Em  |

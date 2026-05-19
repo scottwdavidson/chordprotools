@@ -3,15 +3,17 @@
 {key: Em}
 {duration: 3:00}
 {tempo: 120}
-{meta: countin: 8}
-{meta: backing: 51}
 {meta: nord: P52}
+{meta: countin: 8}
+{meta: backing: 25}
+{meta: label: Love  Smbody}
 
-{comment: ***********************************************}
-{comment: ** meta: countin: 8}
-{comment: ** meta: backing: 51 }
-{comment: ** meta: nord: P52 }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P52   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 25   }
+{comment:**  meta: label: Love  Smbody   }
+{comment:***********************************************}
 
 {comment: Intro}
 . | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . | 

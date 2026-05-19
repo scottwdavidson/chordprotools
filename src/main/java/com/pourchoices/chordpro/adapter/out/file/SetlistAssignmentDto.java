@@ -11,6 +11,10 @@ import java.util.List;
 
 /**
  * OpenCSV-mapped DTO for one row in {@code setlist-assignments.csv}.
+ *
+ * <p>Three columns only: GIG, SONG ID, SET. TITLE and ARTIST live in
+ * {@code song-catalog.csv} and are joined at runtime — they are not
+ * stored here.
  */
 @Builder
 @Data
@@ -19,7 +23,7 @@ import java.util.List;
 public class SetlistAssignmentDto {
 
     public static final List<String> COLUMN_ORDER =
-            Arrays.asList("gig", "song id", "set", "title", "artist");
+            Arrays.asList("gig", "song id", "set");
 
     @CsvBindByName(column = "gig")
     String gig;
@@ -29,12 +33,4 @@ public class SetlistAssignmentDto {
 
     @CsvBindByName(column = "set")
     String set;
-
-    /** Human-readable song title — decorative only, ignored on read. */
-    @CsvBindByName(column = "title")
-    String title;
-
-    /** Human-readable artist name — decorative only, ignored on read. */
-    @CsvBindByName(column = "artist")
-    String artist;
 }

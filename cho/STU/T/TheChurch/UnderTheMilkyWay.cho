@@ -5,6 +5,18 @@
 {tempo: 66}
 {meta: nord: P45}
 {meta: roland: C012}
+{meta: countin: 8}
+{meta: backing: 21}
+{meta: label: Under Milky}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P45   }
+{comment:**  meta: roland: C012   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: 21   }
+{comment:**  meta: label: Under Milky   }
+{comment:***********************************************}
+
 {meta: version: 0.0}
 {meta: countin: 8}
 {meta: backing: 32}

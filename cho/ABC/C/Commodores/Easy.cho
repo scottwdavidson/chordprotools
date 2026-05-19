@@ -5,12 +5,14 @@
 {tempo: 67}
 {meta: nord: P55-3}
 {meta: countin: 4}
-{meta: backing: 36}
+{meta: backing: 56}
+{meta: label: Easy}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P55-3   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 36   }
+{comment:**  meta: backing: 56   }
+{comment:**  meta: label: Easy   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

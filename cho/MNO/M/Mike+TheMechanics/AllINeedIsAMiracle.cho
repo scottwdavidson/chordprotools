@@ -5,12 +5,14 @@
 {tempo: 120}
 {meta: nord: P15}
 {meta: countin: 8}
-{meta: backing: 50}
+{meta: backing: 19}
+{meta: label: All I Need}
 
 {comment:***********************************************}
-{comment:**  meta: nord: P51   }
+{comment:**  meta: nord: P15   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 50   }
+{comment:**  meta: backing: 19   }
+{comment:**  meta: label: All I Need   }
 {comment:***********************************************}
 
 {comment: Intro ( drums only )}

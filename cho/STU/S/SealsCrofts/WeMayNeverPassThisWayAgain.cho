@@ -5,12 +5,14 @@
 {tempo: 45}
 {meta: nord: M14}
 {meta: countin: 4}
-{meta: backing: 18}
+{meta: backing: 13}
+{meta: label: WeMay Never}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M14   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 18   }
+{comment:**  meta: backing: 13   }
+{comment:**  meta: label: WeMay Never   }
 {comment:***********************************************}
 
 {comment: Intro}

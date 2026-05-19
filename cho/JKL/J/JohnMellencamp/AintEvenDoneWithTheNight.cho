@@ -5,12 +5,14 @@
 {tempo: 120}
 {meta: nord: N12}
 {meta: countin: 8}
-{meta: backing: 29}
+{meta: backing: 16}
+{meta: label: Aint  Done}
 
 {comment:***********************************************}
 {comment:**  meta: nord: N12   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 29   }
+{comment:**  meta: backing: 16   }
+{comment:**  meta: label: Aint  Done   }
 {comment:***********************************************}
 
 {comment: Intro}

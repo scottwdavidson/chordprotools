@@ -5,13 +5,15 @@
 {tempo: 120}
 {meta: nord: M14}
 {meta: countin: 4}
-{meta: backing: 30}
+{meta: backing: 15}
+{meta: label: I Saw Light}
 {meta: ve: P25}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M14   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 30   }
+{comment:**  meta: backing: 15   }
+{comment:**  meta: label: I Saw Light   }
 {comment:**  meta: ve: P25   }
 {comment:***********************************************}
 

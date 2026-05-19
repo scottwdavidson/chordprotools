@@ -4,11 +4,13 @@
 {duration: 2:45}
 {tempo: 178}
 {meta: countin: 4}
-{meta: backing: 88}
+{meta: backing: 66}
+{meta: label: Trouble}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: 88   }
+{comment:**  meta: backing: 66   }
+{comment:**  meta: label: Trouble   }
 {comment:***********************************************}
 
 {start_of_verse: Verse}

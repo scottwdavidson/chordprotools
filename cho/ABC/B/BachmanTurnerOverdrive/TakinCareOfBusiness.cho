@@ -5,12 +5,14 @@
 {tempo: 130}
 {meta: nord: N41}
 {meta: countin: 8}
-{meta: backing: 25}
+{meta: backing: 67}
+{meta: label: Takin  Care}
 
 {comment:***********************************************}
 {comment:**  meta: nord: N41   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: backing: 25   }
+{comment:**  meta: backing: 67   }
+{comment:**  meta: label: Takin  Care   }
 {comment:***********************************************}
 
 {columns: 2}

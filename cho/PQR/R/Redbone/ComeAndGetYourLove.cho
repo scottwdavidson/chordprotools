@@ -5,14 +5,15 @@
 {tempo: 106}
 {meta: nord: ??}
 {meta: countin: 4}
-{meta: backing: 83}
+{meta: backing: 54}
+{meta: label: Come  Get}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: ??   }
-{comment: **  meta: countin: 4   }
-{comment: **  meta: backing: 83   }
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: nord: ??   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: 54   }
+{comment:**  meta: label: Come  Get   }
+{comment:***********************************************}
 
 {comment: Intro - Bass/Drums Only}
 | D . . . | D . . . |
