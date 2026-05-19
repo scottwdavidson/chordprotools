@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 /**
  * Unit tests for SetlistJoiner — gig resolution and catalog join logic.
@@ -128,7 +129,9 @@ class SetlistJoinerTest {
     }
 
     @Test
-    void join_danglingAssignment_skipsAndReturnsRest() {
+    void join_missingSongInCatalog_throwsIllegalState() {
+        // Assignments referencing a song that is absent from the catalog are a
+        // data-integrity error: the base version must always exist.
         CatalogEntry daniel = song("DEF:E:EltonJohn:Daniel", "Daniel");
         Map<String, CatalogEntry> catalog = Map.of("DEF:E:EltonJohn:Daniel", daniel);
 
@@ -137,11 +140,10 @@ class SetlistJoinerTest {
                 assignment(GIG_RUSTY, "XYZ:X:Unknown:GhostSong", "A02") // not in catalog
         );
 
-        List<SetlistEntry> result = joiner.join(GIG_RUSTY, assignments, catalog);
-
-        // Ghost song is skipped; Daniel is returned
-        assertThat(result).hasSize(1);
-        assertThat(result.get(0).getTitle()).isEqualTo("Daniel");
+        assertThatThrownBy(() -> joiner.join(GIG_RUSTY, assignments, catalog))
+                .isInstanceOf(IllegalStateException.class)
+                .hasMessageContaining("XYZ:X:Unknown:GhostSong")
+                .hasMessageContaining("song-catalog.csv");
     }
 
     @Test

@@ -16,9 +16,16 @@ public class SetlistAssignmentMapper {
 
     public SetlistAssignment toEntity(SetlistAssignmentDto dto) {
         if (dto == null) return null;
+        SongId songId = SongId.parse(dto.getSongId());
+        if (!songId.isBaseVersion()) {
+            throw new IllegalArgumentException(
+                    "setlist-assignments.csv contains a key-variant SONG ID: '" + dto.getSongId()
+                    + "'. Setlist assignments must reference base versions only (no key suffix). "
+                    + "Change it to: '" + songId.toGroupKey() + "'");
+        }
         return SetlistAssignment.builder()
                 .gig(dto.getGig())
-                .songId(SongId.parse(dto.getSongId()))
+                .songId(songId)
                 .set(dto.getSet())
                 .build();
     }

@@ -55,7 +55,7 @@ class SetlistAssignmentsAdapterTest {
                         .build(),
                 SetlistAssignment.builder()
                         .gig("2025-10-12-theatre")
-                        .songId(SongId.parse("ABC:B:BillyJoel:MyLife-c"))
+                        .songId(SongId.parse("ABC:B:BillyJoel:MyLife"))  // base version only
                         .set("B10")
                         .build()
         );

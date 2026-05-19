@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 class SetlistAssignmentMapperTest {
@@ -32,15 +33,32 @@ class SetlistAssignmentMapperTest {
     void toEntity_mapsAllFields() {
         SetlistAssignmentDto dto = SetlistAssignmentDto.builder()
                 .gig("2025-10-12-theatre")
-                .songId("ABC:B:BillyJoel:MyLife-c")
+                .songId("ABC:B:BillyJoel:MyLife")   // base version — no key suffix
                 .set("B10")
                 .build();
 
         SetlistAssignment entity = mapper.toEntity(dto);
 
         assertThat(entity.getGig()).isEqualTo("2025-10-12-theatre");
-        assertThat(entity.getSongId().toString()).isEqualTo("ABC:B:BillyJoel:MyLife-c");
+        assertThat(entity.getSongId().toString()).isEqualTo("ABC:B:BillyJoel:MyLife");
+        assertThat(entity.getSongId().isBaseVersion()).isTrue();
         assertThat(entity.getSet()).isEqualTo("B10");
+    }
+
+    @Test
+    void toEntity_variantSongId_throwsWithHelpfulMessage() {
+        // Setlist assignments must reference base versions only.
+        // A variant like MyLife-c in the CSV is a data-entry error.
+        SetlistAssignmentDto dto = SetlistAssignmentDto.builder()
+                .gig("2025-10-12-theatre")
+                .songId("ABC:B:BillyJoel:MyLife-c")  // key variant — illegal
+                .set("B10")
+                .build();
+
+        assertThatThrownBy(() -> mapper.toEntity(dto))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessageContaining("ABC:B:BillyJoel:MyLife-c")
+                .hasMessageContaining("ABC:B:BillyJoel:MyLife"); // suggests the fix
     }
 
     @Test

@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 /**
  * Resolves a target gig and joins {@link SetlistAssignment} rows against the
@@ -23,9 +22,9 @@ import java.util.Optional;
  *   <li>If there are no assignments at all, return an empty list and log a warning.</li>
  * </ol>
  *
- * <p>Songs referenced in an assignment but absent from the catalog are skipped
- * with a warning — this handles dangling rows in {@code setlist-assignments.csv}
- * that predate a song being added to the catalog.
+ * <p>Songs referenced in an assignment but absent from the catalog are a
+ * data-integrity error: the base version of every assigned song must exist.
+ * An {@link IllegalStateException} is thrown if a catalog lookup fails.
  */
 @Component
 @Slf4j
@@ -59,8 +58,6 @@ public class SetlistJoiner {
 
         return gigAssignments.stream()
                 .map(a -> buildEntry(a, catalog))
-                .filter(Optional::isPresent)
-                .map(Optional::get)
                 .toList();
     }
 
@@ -78,14 +75,16 @@ public class SetlistJoiner {
                 .orElse(null);
     }
 
-    private Optional<SetlistEntry> buildEntry(SetlistAssignment assignment,
-                                              Map<String, CatalogEntry> catalog) {
+    private SetlistEntry buildEntry(SetlistAssignment assignment,
+                                    Map<String, CatalogEntry> catalog) {
         String id = assignment.getSongId().toString();
         CatalogEntry song = catalog.get(id);
         if (song == null) {
-            log.warn("Assignment references unknown SONG ID '{}' — skipping.", id);
-            return Optional.empty();
+            throw new IllegalStateException(
+                    "Setlist assignment references SONG ID '" + id
+                    + "' which is not present in song-catalog.csv. "
+                    + "The base version of every assigned song must exist in the catalog.");
         }
-        return Optional.of(SetlistEntry.builder().song(song).assignment(assignment).build());
+        return SetlistEntry.builder().song(song).assignment(assignment).build();
     }
 }
