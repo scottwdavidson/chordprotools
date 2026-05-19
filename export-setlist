@@ -1,0 +1,10 @@
+#!/bin/zsh
+# Export a gig-ready setlist CSV from song-catalog.csv + setlist-assignments.csv.
+#
+# Usage:
+#   ./export-setlist                                        # latest gig → ./setlist.csv
+#   ./export-setlist --gig 2026-06-14-rusty-nail            # specific gig
+#   ./export-setlist --gig 2026-06-14-rusty-nail --output ./gig-2026-06-14.csv
+
+mvn -q spring-boot:run \
+  -Dspring-boot.run.arguments="export-setlist $*"
