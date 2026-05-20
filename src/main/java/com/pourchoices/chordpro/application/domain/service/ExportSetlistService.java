@@ -47,7 +47,7 @@ public class ExportSetlistService implements ExportSetlistUseCase {
     private final SetlistJoiner joiner;
 
     @Override
-    public Setlist exportSetlist(String gigParam, String outputPathString) {
+    public Setlist exportSetlist(String gigParam, String outputPathString, boolean includeBackup) {
 
         // 1. Load catalog and assignments
         Path catalogPath = Paths.get(catalogConfig.getCatalogIndexPath());
@@ -63,11 +63,13 @@ public class ExportSetlistService implements ExportSetlistUseCase {
         String resolvedGig = joiner.resolveGig(gigParam, allAssignments);
         log.info("Found {} entries for gig '{}' (before de-duplication)", joined.size(), resolvedGig);
 
-        // 3. De-duplicate, then sort by set code
+        // 3. De-duplicate, optionally strip backup (Z-set) songs, sort by set code
         List<SetlistEntry> setlistEntries = deduplicator.deduplicate(joined).stream()
+                .filter(e -> includeBackup || !e.getSet().toUpperCase().startsWith("Z"))
                 .sorted(Comparator.comparing(SetlistEntry::getSet))
                 .toList();
-        log.info("{} entries remain after de-duplication", setlistEntries.size());
+        log.info("{} entries after de-duplication{}",
+                setlistEntries.size(), includeBackup ? " (backup included)" : " (backup excluded)");
 
         // 4. Wrap in the Setlist domain object
         Setlist setlist = Setlist.builder()
