@@ -38,7 +38,7 @@ Takin' Care of Business,Bachman Turner Overdrive (BTO),C,4:50,130,8,RC,N41,,,,,,
 When I See You Smile,Bad English,G,,,,,,,,,,,ABC:B:BadEnglish:WhenISeeYouSmile,
 Evangeline,The Band,A,2:50,140,,,,,,,,,ABC:B:Band:Evangeline,
 Eternal Flame,The Bangles,G,3:50,80,,,,,,,,,ABC:B:Bangles:EternalFlame,
-Money (That's What I Want),Barrett Strong,E,3:45,132,4,,O15,,,,,,ABC:B:BarrettStrong:Money,Money Thats
+Money (That's What I Want),Barrett Strong,E,3:45,132,4,BB,O15,,,,,,ABC:B:BarrettStrong:Money,Money Thats
 You Made Me Believe In Magic,Bay City Rollers,Ab,,,,,,,,,,,ABC:B:BayCityRollers:YouMadeMeBelieveInMagic,
 Do It Again,Beach Boys,Eb,,,,,,,,,,,ABC:B:BeachBoys:DoItAgain,
 Forever,Dennis Wilson / Beach Boys,D,,,,,,,,,,,ABC:B:BeachBoys:Forever,
@@ -149,7 +149,7 @@ Sharing The Night Together,Dr. Hook,C,,,,,,,,,,,DEF:D:DrHook:SharingTheNightToge
 Levitating,Dua Lipa,Am,,,,,,,,,,,DEF:D:DuaLipa:Levitating,
 Love Again,Dua Lipa,F#m,3:50,116,,,,,,,,,DEF:D:DuaLipa:LoveAgain,
 Ain't That Lonely Yet,Dwight Yoakam,F,3:10,107,,,,,,,,,DEF:D:DwightYokam:AintThatLonelyYet,
-Little Sister,Dwight Yoakam,E,3:00,144,4,,O14,,,,,,DEF:D:DwightYokam:LittleSister,LittleSister
+Little Sister,Dwight Yoakam,E,3:00,144,4,BB,O14,,,,,,DEF:D:DwightYokam:LittleSister,LittleSister
 Can't Get You Out Of My Head,ELO,C,4:00,85,,,,,,,,,DEF:E:ELO:CantGetYouOutOfMyHead,
 Midnight Blue,ELO,F,4:10,141,,,,,,D,,,DEF:E:ELO:MidnightBlue,
 Rockaria,ELO / Jeff Lynne,D,,,,,,,,,,,DEF:E:ELO:Rockaria,

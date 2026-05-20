@@ -5,11 +5,13 @@
 {tempo: 144}
 {meta: nord: O14}
 {meta: countin: 4}
+{meta: backing: BB}
 {meta: label: LittleSister}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O14   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
 {comment:**  meta: label: LittleSister   }
 {comment:***********************************************}
 

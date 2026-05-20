@@ -5,11 +5,13 @@
 {tempo: 132}
 {meta: nord: O15}
 {meta: countin: 4}
+{meta: backing: BB}
 {meta: label: Money Thats}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O15   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
 {comment:**  meta: label: Money Thats   }
 {comment:***********************************************}
 

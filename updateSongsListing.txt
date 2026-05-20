@@ -1,1 +1,2 @@
-./cho/DEF/D/DioneWarwick/ThenCameYou.cho
+./cho/DEF/D/DwightYokam/LittleSister.cho
+./cho/ABC/B/BarrettStrong/Money.cho
