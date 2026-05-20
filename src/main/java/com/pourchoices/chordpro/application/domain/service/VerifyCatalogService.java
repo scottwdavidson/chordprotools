@@ -109,7 +109,7 @@ public class VerifyCatalogService implements VerifyCatalogUseCase {
         check(diffs, "ROLAND",       catalog.getRoland(),                  file.getRoland());
         check(diffs, "VE",           catalog.getVe(),                      file.getVe());
         check(diffs, "BACKING",      backingStr(catalog),                  backingStr(file));
-        check(diffs, "RC SLOT",      catalog.getRcSlot(),                  file.getRcSlot());
+        // RC SLOT is a per-gig assignment (lives in gigs.csv) — not compared here
         check(diffs, "SONG LABEL",   catalog.getSongLabel(),               file.getSongLabel());
         check(diffs, "PERF KEY",     catalog.getPerformanceKey(),          file.getPerformanceKey());
         return diffs;

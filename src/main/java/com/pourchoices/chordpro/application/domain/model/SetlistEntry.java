@@ -35,8 +35,19 @@ public class SetlistEntry {
     public String getTitle()            { return song.getTitle(); }
     public String getArtist()           { return song.getArtist(); }
     public String getKey()              { return song.getKey(); }
-    /** RC-500 slot number for display in the setlist; null for BB and no-backing songs. */
-    public String getBacking()          { return song.getRcSlot(); }
+    /**
+     * Backing indicator for display in the setlist and exports:
+     * {@code "BB"} for Beat Buddy, the RC-500 slot number (from the gig assignment)
+     * for RC-500, or empty string for no backing.
+     */
+    public String getBacking() {
+        if (song.getBackingType() == BackingType.BB) return "BB";
+        if (song.getBackingType() == BackingType.RC) {
+            String slot = assignment.getRcSlot();
+            return slot != null ? slot : "";
+        }
+        return "";
+    }
     public BackingType getBackingType() { return song.getBackingType(); }
     public String getPerformanceKey()   { return song.getPerformanceKey(); }
 }

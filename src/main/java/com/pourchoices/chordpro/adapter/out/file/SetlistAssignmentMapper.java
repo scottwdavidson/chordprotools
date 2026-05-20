@@ -25,6 +25,7 @@ public class SetlistAssignmentMapper {
                 .gig(dto.getGig())
                 .songId(songId)
                 .set(dto.getSet())
+                .rcSlot(blankToNull(dto.getRcSlot()))
                 .build();
     }
 
@@ -34,7 +35,12 @@ public class SetlistAssignmentMapper {
                 .gig(entity.getGig())
                 .songId(entity.getSongId().toString())
                 .set(entity.getSet())
+                .rcSlot(entity.getRcSlot() != null ? entity.getRcSlot() : "")
                 .build();
+    }
+
+    private static String blankToNull(String s) {
+        return (s == null || s.isBlank()) ? null : s.trim();
     }
 
     public List<SetlistAssignment> toEntityList(List<SetlistAssignmentDto> dtos) {

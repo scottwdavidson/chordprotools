@@ -96,7 +96,7 @@ public class ImportNewSongService implements ImportNewSongUseCase {
             System.out.printf("  COUNTIN   : %s%n", nvl(newEntry.getCountin()));
             System.out.printf("  BACKING   : %s%n",
                     newEntry.getBackingType() != null ? newEntry.getBackingType().name() : "");
-            System.out.printf("  RC SLOT   : %s%n", nvl(newEntry.getRcSlot()));
+            System.out.printf("  RC SLOT   : (assigned per gig via assign-backing-track-slots)%n");
             System.out.printf("  NORD      : %s%n", nvl(newEntry.getNord()));
             System.out.printf("  ROLAND    : %s%n", nvl(newEntry.getRoland()));
             System.out.printf("  VE        : %s%n", nvl(newEntry.getVe()));

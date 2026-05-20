@@ -33,11 +33,11 @@ public class CatalogEntryToParsedHeaderMapper {
         addIfPresent(builder, HeaderDirective.COUNTIN,         entry.getCountin());
         addIfPresent(builder, HeaderDirective.NORD,            entry.getNord());
         addIfPresent(builder, HeaderDirective.ROLAND,          entry.getRoland());
-        // BACKING = device type (RC or BB); RC_SLOT = last assigned slot (RC only)
+        // BACKING = device type (RC or BB); RC_SLOT is written by assign-backing-track-slots
+        // and preserved by UpdateSongService — it is NOT a catalog property
         if (entry.getBackingType() != null) {
             builder.headerLine(lineFor(HeaderDirective.BACKING, entry.getBackingType().name()));
         }
-        addIfPresent(builder, HeaderDirective.RC_SLOT,         entry.getRcSlot());
         addIfPresent(builder, HeaderDirective.SONG_LABEL,       entry.getSongLabel());
         addIfPresent(builder, HeaderDirective.VE,              entry.getVe());
         addIfPresent(builder, HeaderDirective.PERFORMANCE_KEY, entry.getPerformanceKey());

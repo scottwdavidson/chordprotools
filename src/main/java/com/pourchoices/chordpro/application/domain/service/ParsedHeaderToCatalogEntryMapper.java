@@ -62,7 +62,8 @@ public class ParsedHeaderToCatalogEntryMapper {
             else if (d == HeaderDirective.ROLAND)          builder.roland(v);
             else if (d == HeaderDirective.COUNTIN)         builder.countin(v);
             else if (d == HeaderDirective.BACKING)         builder.backingType(BackingType.fromString(v));
-            else if (d == HeaderDirective.RC_SLOT)         builder.rcSlot(v);
+            // RC_SLOT is not a catalog property — it lives in gigs.csv and is
+            // preserved in .cho files by UpdateSongService; skip it here.
             else if (d == HeaderDirective.SONG_LABEL)      builder.songLabel(v);
             else if (d == HeaderDirective.VE)              builder.ve(v);
             else if (d == HeaderDirective.PERFORMANCE_KEY) builder.performanceKey(v);

@@ -15,7 +15,7 @@ import lombok.Value;
  * position within that set.
  */
 @Value
-@Builder
+@Builder(toBuilder = true)
 public class SetlistAssignment {
 
     /** Gig identifier — date-first slug, e.g. {@code 2026-06-14-rusty-nail}. */
@@ -26,4 +26,11 @@ public class SetlistAssignment {
 
     /** Compound set-position code, e.g. {@code A01}. */
     @NonNull String set;
+
+    /**
+     * RC-500 slot assigned for this specific gig, e.g. {@code "11"}.
+     * Null / blank until {@code assign-backing-track-slots} has been run for this gig.
+     * Never copied when a gig is cloned via {@code copy-gig}.
+     */
+    String rcSlot;
 }

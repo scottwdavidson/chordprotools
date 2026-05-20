@@ -2,8 +2,9 @@ package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.ChordProPath;
-import com.pourchoices.chordpro.application.domain.service.CatalogEntryToParsedHeaderMapper;
+import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
+import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import com.pourchoices.chordpro.application.port.in.UpdateSongUseCase;
 import com.pourchoices.chordpro.application.port.out.CatalogPort;
@@ -51,7 +52,7 @@ public class UpdateSongService implements UpdateSongUseCase {
         }
 
         // map the catalog entry into a parsed header
-        ParsedHeader potentialCatalogReplacementParsedHeader =
+        ParsedHeader catalogHeader =
                 this.catalogEntryToParsedHeaderMapper.fromCatalogEntry(catalogEntry);
 
         // parse the current song file
@@ -59,10 +60,41 @@ public class UpdateSongService implements UpdateSongUseCase {
         List<String> chordproFileAsList = this.chordProPort.read(chordproSongPath);
         ParsedSong currentParsedSong = this.songParser.parse(chordproSongPathString, chordproFileAsList);
 
+        // RC_SLOT is a gig-specific assignment, not a catalog property.
+        // Preserve whatever slot is currently in the file so that update-song
+        // never silently erases a slot written by assign-backing-track-slots.
+        ParsedHeader newHeader = withPreservedRcSlot(catalogHeader,
+                currentParsedSong.getParsedHeader());
+
         // replace the header if changed
-        if (currentParsedSong.getParsedHeader().compareTo(potentialCatalogReplacementParsedHeader) != 0) {
-            ParsedSong newSong = currentParsedSong.withHeader(potentialCatalogReplacementParsedHeader);
+        if (currentParsedSong.getParsedHeader().compareTo(newHeader) != 0) {
+            ParsedSong newSong = currentParsedSong.withHeader(newHeader);
             this.chordProPort.write(chordproSongPath, newSong);
         }
+    }
+
+    /**
+     * Returns a header identical to {@code catalogHeader} but with the
+     * {@link HeaderDirective#RC_SLOT} line from {@code fileHeader} injected,
+     * if the file currently has one.
+     *
+     * <p>This keeps the rc-slot in the {@code .cho} file across ordinary
+     * {@code update-song} runs — the slot is owned by {@code gigs.csv} and
+     * written directly by {@code assign-backing-track-slots}.
+     */
+    private ParsedHeader withPreservedRcSlot(ParsedHeader catalogHeader,
+                                              ParsedHeader fileHeader) {
+        ParsedHeaderLine existingRcSlot = fileHeader.getHeaderLines().stream()
+                .filter(l -> l.getHeaderDirective() == HeaderDirective.RC_SLOT)
+                .findFirst()
+                .orElse(null);
+
+        if (existingRcSlot == null) return catalogHeader;
+
+        ParsedHeader.ParsedHeaderBuilder builder = ParsedHeader.builder()
+                .chordProFilename(catalogHeader.getChordProFilename());
+        catalogHeader.getHeaderLines().forEach(builder::headerLine);
+        builder.headerLine(existingRcSlot);
+        return builder.build();
     }
 }

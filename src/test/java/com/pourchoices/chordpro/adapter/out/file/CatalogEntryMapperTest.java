@@ -35,7 +35,6 @@ class CatalogEntryMapperTest {
                 .nord("Yes")
                 .countin("4")
                 .backingType(BackingType.RC)
-                .rcSlot("48")
                 .ve("Verse-Chorus")
                 .performanceKey("C#")
                 .songLabel("PianoMan")
@@ -57,7 +56,6 @@ class CatalogEntryMapperTest {
         assertThat(dto.getNord()).isEqualTo(entity.getNord());
         assertThat(dto.getCountin()).isEqualTo(entity.getCountin());
         assertThat(dto.getBacking()).isEqualTo("RC");
-        assertThat(dto.getRcSlot()).isEqualTo(entity.getRcSlot());
         assertThat(dto.getVe()).isEqualTo(entity.getVe());
         assertThat(dto.getPerformanceKey()).isEqualTo(entity.getPerformanceKey());
         assertThat(dto.getSongLabel()).isEqualTo(entity.getSongLabel());
@@ -99,7 +97,6 @@ class CatalogEntryMapperTest {
         assertThat(entity.getNord()).isEqualTo(dto.getNord());
         assertThat(entity.getCountin()).isEqualTo(dto.getCountin());
         assertThat(entity.getBackingType()).isEqualTo(BackingType.BB);
-        assertThat(entity.getRcSlot()).isNull();
         assertThat(entity.getVe()).isEqualTo(dto.getVe());
         assertThat(entity.getPerformanceKey()).isEqualTo(dto.getPerformanceKey());
         assertThat(entity.getSongLabel()).isEqualTo(dto.getSongLabel());

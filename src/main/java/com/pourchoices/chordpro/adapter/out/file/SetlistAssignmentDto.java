@@ -23,7 +23,7 @@ import java.util.List;
 public class SetlistAssignmentDto {
 
     public static final List<String> COLUMN_ORDER =
-            Arrays.asList("gig", "song id", "set");
+            Arrays.asList("gig", "song id", "set", "rc slot");
 
     @CsvBindByName(column = "gig")
     String gig;
@@ -33,4 +33,8 @@ public class SetlistAssignmentDto {
 
     @CsvBindByName(column = "set")
     String set;
+
+    /** RC-500 slot for this gig. Blank until assign-backing-track-slots runs. Never copied with copy-gig. */
+    @CsvBindByName(column = "rc slot")
+    String rcSlot;
 }
