@@ -3,7 +3,7 @@ package com.pourchoices.chordpro.application.domain.service;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
 import com.pourchoices.chordpro.application.port.in.CopyGigUseCase;
 import com.pourchoices.chordpro.application.port.out.SetlistAssignmentsPort;
-import com.pourchoices.chordpro.config.ChordproSetlistAssignmentsPathConfig;
+import com.pourchoices.chordpro.config.ChordproGigsPathConfig;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,13 +31,13 @@ import java.util.stream.Collectors;
 public class CopyGigService implements CopyGigUseCase {
 
     private final SetlistAssignmentsPort assignmentsPort;
-    private final ChordproSetlistAssignmentsPathConfig assignmentsConfig;
+    private final ChordproGigsPathConfig gigsConfig;
 
     @Override
     public int copyGig(String sourceGig, String targetGig, boolean force) {
 
         // ── 1. Load assignments ──────────────────────────────────────────────
-        Path assignmentsPath = Paths.get(assignmentsConfig.getSetlistAssignmentsPath());
+        Path assignmentsPath = Paths.get(gigsConfig.getGigsPath());
         List<SetlistAssignment> allAssignments = assignmentsPort.readAssignments(assignmentsPath);
 
         // ── 2. Validate source ───────────────────────────────────────────────

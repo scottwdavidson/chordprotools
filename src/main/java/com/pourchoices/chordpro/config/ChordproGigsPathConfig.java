@@ -7,14 +7,14 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 /**
- * Resolves the filesystem path for {@code setlist-assignments.csv}.
+ * Resolves the filesystem path for {@code gigs.csv}.
  */
 @Configuration
 @PropertySource("classpath:application.properties")
 @Component
 @Getter
-public class ChordproSetlistAssignmentsPathConfig {
+public class ChordproGigsPathConfig {
 
-    @Value("${chordprotools.setlist-assignments:./setlist-assignments.csv}")
-    private String setlistAssignmentsPath;
+    @Value("${chordprotools.gigs:./gigs.csv}")
+    private String gigsPath;
 }

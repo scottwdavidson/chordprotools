@@ -9,7 +9,7 @@ import com.pourchoices.chordpro.application.port.out.CatalogPort;
 import com.pourchoices.chordpro.application.port.out.SetlistAssignmentsPort;
 import com.pourchoices.chordpro.application.port.out.SetlistPort;
 import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
-import com.pourchoices.chordpro.config.ChordproSetlistAssignmentsPathConfig;
+import com.pourchoices.chordpro.config.ChordproGigsPathConfig;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,7 +42,7 @@ public class ExportSetlistService implements ExportSetlistUseCase {
     private final SetlistPort setlistPort;
     private final SetlistAssignmentsPort assignmentsPort;
     private final ChordproCatalogIndexPathConfig catalogConfig;
-    private final ChordproSetlistAssignmentsPathConfig assignmentsConfig;
+    private final ChordproGigsPathConfig gigsConfig;
     private final SetlistDeduplicator deduplicator;
     private final SetlistJoiner joiner;
 
@@ -54,7 +54,7 @@ public class ExportSetlistService implements ExportSetlistUseCase {
         Map<String, CatalogEntry> catalog = catalogPort.readCatalogFromCsv(catalogPath);
         log.info("Loaded {} total catalog entries from {}", catalog.size(), catalogPath);
 
-        Path assignmentsPath = Paths.get(assignmentsConfig.getSetlistAssignmentsPath());
+        Path assignmentsPath = Paths.get(gigsConfig.getGigsPath());
         List<SetlistAssignment> allAssignments = assignmentsPort.readAssignments(assignmentsPath);
         log.info("Loaded {} total assignment(s)", allAssignments.size());
 

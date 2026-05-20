@@ -3,7 +3,7 @@ package com.pourchoices.chordpro.application.domain.service;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
 import com.pourchoices.chordpro.application.domain.model.SongId;
 import com.pourchoices.chordpro.application.port.out.SetlistAssignmentsPort;
-import com.pourchoices.chordpro.config.ChordproSetlistAssignmentsPathConfig;
+import com.pourchoices.chordpro.config.ChordproGigsPathConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -24,7 +24,7 @@ import static org.mockito.Mockito.when;
 class CopyGigServiceTest {
 
     @Mock SetlistAssignmentsPort assignmentsPort;
-    @Mock ChordproSetlistAssignmentsPathConfig assignmentsConfig;
+    @Mock ChordproGigsPathConfig gigsConfig;
 
     private CopyGigService service;
 
@@ -50,9 +50,9 @@ class CopyGigServiceTest {
 
     @BeforeEach
     void setUp() {
-        when(assignmentsConfig.getSetlistAssignmentsPath()).thenReturn("./setlist-assignments.csv");
+        when(gigsConfig.getGigsPath()).thenReturn("./gigs.csv");
         when(assignmentsPort.readAssignments(any(Path.class))).thenReturn(existingAssignments);
-        service = new CopyGigService(assignmentsPort, assignmentsConfig);
+        service = new CopyGigService(assignmentsPort, gigsConfig);
     }
 
     // ── Happy path ────────────────────────────────────────────────────────────
