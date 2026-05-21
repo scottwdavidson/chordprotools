@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-18 (session 11)
+# Last updated: 2026-05-20 (session 13)
 
 ---
 
@@ -10,7 +10,7 @@ CLI tool for the **Pour Choices band** (pourchoicesmusic.com) to manage ~500 Cho
 
 **Two primary data sources (both at repo root):**
 - `song-catalog.csv` — stable song library, one row per `.cho` file
-- `setlist-assignments.csv` — per-gig assignments, one row per song-in-gig
+- `gigs.csv` — per-gig assignments, one row per song-in-gig (formerly `setlist-assignments.csv`)
 
 **Song files:** `cho/**/*.cho` — consumed by OnSong on stage
 
@@ -42,7 +42,7 @@ TITLE, ARTIST, KEY, DURATION, TEMPO, COUNTIN, BACKING, NORD, ROLAND, VE,
 PERFORMANCE KEY, TIME SIGNATURE, CAPO, SONG ID, SONG LABEL
 ```
 
-(15 columns. SET was removed in Phase 3 — it now lives exclusively in `setlist-assignments.csv`.)
+(15 columns. RC SLOT was removed in session 12 — it now lives exclusively in `gigs.csv`. SET was removed in Phase 3.)
 
 - **SONG ID**: structured key `CLUSTER:LETTER:ArtistDir:SongStem[-keyVariant]`
   - e.g. `ABC:B:BillyJoel:MyLife` or `ABC:B:BillyJoel:MyLife-c`
@@ -51,7 +51,7 @@ PERFORMANCE KEY, TIME SIGNATURE, CAPO, SONG ID, SONG LABEL
 - **SET**: sortable alphanumeric code e.g. `A01`, `A02`, `B01` — drives `export-setlist`
 - **PERFORMANCE KEY**: key band actually plays in (may differ from chart key in `.cho` file)
 - **COUNTIN**: count-in source (e.g. `4` = BeatBuddy, `8` = backing track, `24` = default)
-- **BACKING**: track number on RC-500 looper (e.g. `48`)
+- **BACKING**: device type — `RC` (RC-500 looper), `BB` (BeatBuddy drummer), or blank (no backing). NOT a slot number — the slot lives in `gigs.csv`.
 - **NORD**: Nord piano voice preset (e.g. `M11`, `M22`)
 - **ROLAND**: Roland keyboard voice preset
 - **VE**: VE-500 vocal harmony preset (e.g. `U99`)
@@ -103,7 +103,8 @@ A parsed `.cho` file: ParsedHeader + raw body lines (chords/lyrics unchanged)
 
 ### SetlistEntry (@Value @Builder)
 Join result: one `CatalogEntry` (song metadata) + one `SetlistAssignment` (gig position).
-Delegate methods: `getSet()`, `getGig()`, `getSongId()`, `getTitle()`, `getArtist()`, `getKey()`, `getBacking()`, `getPerformanceKey()`.
+Delegate methods: `getSet()`, `getGig()`, `getSongId()`, `getTitle()`, `getArtist()`, `getKey()`, `getPerformanceKey()`, `getBackingType()`.
+`getBacking()` returns: `"BB"` for BeatBuddy songs, the RC-500 slot from the gig assignment for RC songs, `""` for no backing.
 This is the primary unit of currency for all setlist-producing services.
 
 ### SetlistJoiner (@Component)
@@ -113,8 +114,8 @@ Shared by `ExportSetlistService` and `AssignBackingTrackSlotsService`.
 Key methods: `join(gigParam, allAssignments, catalog)`, `resolveGig(gigParam, allAssignments)`.
 **Failure behaviour (session 11):** `buildEntry()` throws `IllegalStateException` if a SONG ID from assignments is absent from the catalog. A missing base version is a data-integrity violation — fails loudly, never silently skips. (Was: `Optional.empty()` + warning-and-skip.)
 
-### SetlistAssignment (@Value @Builder)
-One row in `setlist-assignments.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position code).
+### SetlistAssignment (@Value @Builder(toBuilder = true))
+One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position code), `rcSlot` (String, nullable — blank until `assign-backing-track-slots` runs for this gig; never copied by `copy-gig`).
 **Invariant (session 11):** `songId` must always be a base version — `SongId.isBaseVersion()` must be true. Variant IDs (e.g. `MyLife-c`) are illegal in assignments. Enforcement: `SetlistAssignmentMapper.toEntity()` validates on read and throws `IllegalArgumentException` with the suggested fix if a variant is found.
 
 ### Setlist (@Value @Builder)
@@ -124,16 +125,26 @@ One row in `setlist-assignments.csv`. Fields: `gig` (slug), `songId` (SongId), `
 
 ## COMMANDS
 
-### `generate-song-catalog` → `GenerateSongCatalogCommand/Service`
-- Reads songsListing.txt (one .cho path per line), parses every file, writes full catalog
-- **OVERWRITES** entire catalog — clears SET/PERFORMANCE KEY etc. that aren't in .cho headers
-- Script: `./generate-song-catalog` (does find+sort into songsListing.txt first)
-- Flow: listing file → parse each .cho → CatalogEntry → write CSV
+### `import-song` → `ImportNewSongCommand/ImportNewSongService`
+- Registers a new `.cho` file in `song-catalog.csv` without touching any other rows
+- SONG ID is derived from the file path via `ChordProPath.toSongId()` — user never constructs it manually
+- Options: positional path arg, `--dry-run`/`-n` (preview without writing)
+- Guards: throws if SONG ID already exists in catalog; throws if file doesn't exist
+- Script: `./import-song <path> [--dry-run]`
+- **Replaces the deleted `generate-song-catalog` for single-song ingestion**
+
+### `verify-catalog` → `VerifyCatalogCommand/VerifyCatalogService`
+- Reads every row in `song-catalog.csv`, opens the corresponding `.cho` file, compares field by field
+- Reports `[MISSING FILE]` (file not on disk) and `[DRIFT]` (field mismatch) per affected row
+- **RC SLOT is intentionally excluded** from comparison — it is a per-gig property owned by `gigs.csv`
+- Script: `./verify-catalog`
+- Returns summary: `verify-catalog: N clean, M issue(s) found`
 
 ### `update-song` → `UpdateSongCommand/Service`
 - Catalog → one .cho file: reads catalog, finds entry by SongId, maps to ParsedHeader, compares to current file, writes only if changed
 - Body (chords/lyrics) is preserved entirely
-- Script: `./update-song` (edit target path inside script before running)
+- **RC SLOT preservation (session 12):** `withPreservedRcSlot()` helper injects any existing `{meta: rc-slot: N}` from the current file into the catalog-derived header before comparison — a slot assigned by `assign-backing-track-slots` is never erased by a catalog update
+- Script: `./update-song <path>` (path as argument)
 - Catalog key: SongId string derived from file path via `ChordProPath.toSongId()`
 
 ### `update-songs` → `UpdateSongsCommand/Service`
@@ -142,38 +153,36 @@ One row in `setlist-assignments.csv`. Fields: `gig` (slug), `songId` (SongId), `
 - Edit `updateSongsListing.txt` with one .cho path per line
 
 ### `assign-backing-track-slots` → `AssignBackingTrackSlotsCommand/Service`
-- Loads `song-catalog.csv` + `setlist-assignments.csv`, resolves target gig via `SetlistJoiner`, deduplicates via `SetlistDeduplicator`, splits into in-set (A–Y prefix) vs backup (Z prefix)
-- Reassigns RC-500 slot numbers for all gig-assigned songs that have a real backing track
+- Loads `song-catalog.csv` + `gigs.csv`, resolves target gig via `SetlistJoiner`, deduplicates via `SetlistDeduplicator`, splits into in-set (A–Y prefix) vs backup (Z prefix)
+- Assigns RC-500 slot numbers for all gig-assigned **RC** songs only (BB and blank are skipped)
 - **In-set songs** (SET prefix A–Y): sorted by SET code, slots assigned from **5** upward
-- **Backup songs** (SET prefix Z, e.g. Z0, Z1): sorted alphabetically by title, slots from **50** upward (hard cap at 99)
-- Songs with BACKING blank or "99" are skipped (no slot change)
-- Side-effects in order: write updated catalog CSV → call UpdateSongService per changed .cho → re-join + write fresh setlist.csv
+- **Backup songs** (SET prefix Z): sorted alphabetically by title, slots from **50** upward (hard cap at 99)
+- **Side-effects (session 12 — catalog no longer touched):**
+  1. Write RC SLOT values for this gig into `gigs.csv` (only this gig’s rows; other gigs untouched)
+  2. `patchRcSlotInFile()` patches `{meta: rc-slot: N}` directly into each affected `.cho` file (strips old RC_SLOT line, adds new one via ParsedHeader builder)
+  3. Re-join with updated assignments → write fresh `setlist.csv`
 - Options: `--gig`/`-g` (slug; auto-resolves to latest gig if omitted), `--output`/`-o` (default `./setlist.csv`)
-- Constants in service: `IN_SET_START_SLOT=5`, `BACKUP_START_SLOT=50`, `MAX_SLOT=99`
-- Dedup reuses `SetlistDeduplicator` component
+- Constants: `IN_SET_START_SLOT=5`, `BACKUP_START_SLOT=50`, `MAX_SLOT=99`
+- Dependencies: `CatalogPort`, `SetlistPort`, `SetlistAssignmentsPort`, `ChordProPort`, `SongParser`, `SetlistDeduplicator`, `SetlistJoiner`
 
 ### `export-setlist` → `ExportSetlistCommand/Service`
-- Loads `song-catalog.csv` + `setlist-assignments.csv`, resolves target gig, joins via `SetlistJoiner`, deduplicates via `SetlistDeduplicator`, sorts by SET code, writes `setlist.csv`
+- Loads `song-catalog.csv` + `gigs.csv`, resolves target gig, joins via `SetlistJoiner`, deduplicates, sorts by SET code, writes `setlist.csv`
 - Prints formatted table to stdout (SET / TITLE / ARTIST / KEY / BACKING)
-- Options: `--gig`/`-g` (slug e.g. `2026-06-14-rusty-nail`; auto-resolves to lexicographically latest gig if omitted), `--output`/`-o` (default `./setlist.csv`)
-- **Dedup logic**: `SetlistDeduplicator` (@Component) shared by `ExportSetlistService` and `AssignBackingTrackSlotsService`
-- **Dedup rule (session 11, simplified):** since assignments now enforce base-version-only SONG IDs, the only possible collision is the same song appearing twice in one gig. `SetlistDeduplicator` keeps the first occurrence and logs WARN. All Scenario A/B/C variant-handling logic has been removed — it is unreachable by construction.
-- **SetlistEntryDto**: includes `backing` column (blank when no backing or sentinel 99). Order: set, song title, song artist, key, backing
-- **ExportSetlistCommand stdout**: shows SET / TITLE / ARTIST / KEY / BACKING
+- **Default (session 13): fan-facing only** — Z-set backup songs excluded from both CSV and stdout
+- **`--verbose`/`-v`**: includes Z-set songs; verbose console table shows a `BACKUP / Z-SET` section separator before the first Z entry
+- `ExportSetlistUseCase.exportSetlist(gigParam, outputPath, includeBackup)` — the `includeBackup` boolean drives the filter in `ExportSetlistService`
+- Options: `--gig`/`-g`, `--output`/`-o` (default `./setlist.csv`), `--verbose`/`-v` (default false)
 - Key resolution: `performanceKey ?? key` (used in both CSV and stdout)
+- `BACKING` column: slot number (from gig’s `gigs.csv` RC SLOT) for RC songs, `"BB"` for BeatBuddy, blank otherwise
 - **Throws** `IllegalStateException` (via `SetlistJoiner`) if any assigned SONG ID is absent from the catalog
 
 ### `copy-gig` → `CopyGigCommand/Service`
 - Clones all setlist assignments from a source gig to a new target gig slug
-- Rewrites entire `setlist-assignments.csv` with TITLE and ARTIST columns enriched from the catalog (human-readable in Sheets without cross-referencing song-catalog.csv)
+- Rewrites entire `gigs.csv` with TITLE and ARTIST columns enriched from the catalog
+- **RC SLOT is never copied** — new gig’s rows always start blank; fresh assignment done via `assign-backing-track-slots`
 - Guard-rails: source gig must exist; target must not have assignments yet (unless `--force`)
 - Options: `<sourceGig>` (positional), `<targetGig>` (positional), `--force`/`-f`
 - Script: `./copy-gig <source-gig> <target-gig> [--force]`
-
-### `import-new-song` → `ImportNewSongCommand/Service`
-- **NOT YET IMPLEMENTED** — throws UnsupportedOperationException
-- Planned: parse one new .cho and append to catalog without regenerating all
-- Wiring exists (command + port interface) so implementation is a drop-in
 
 ---
 
@@ -181,14 +190,15 @@ One row in `setlist-assignments.csv`. Fields: `gig` (slug), `songId` (SongId), `
 
 | Script | What |
 |---|---|
-| `./generate-song-catalog` | find all .cho → songsListing.txt → generate catalog |
-| `./update-song` | single song catalog→.cho (edit path inside) |
+| `./import-song <path> [--dry-run]` | register a new .cho file in song-catalog.csv |
+| `./verify-catalog` | check all catalog entries against their .cho files; report MISSING FILE / DRIFT |
+| `./update-song <path>` | single song catalog→.cho |
 | `./update-songs` | batch catalog→.cho from updateSongsListing.txt |
 | `./find-song <fragment>` | grep .cho filenames by fragment, prints full path |
-| `./find-song-id <fragment>` | search song-catalog.csv by title or artist; shows ONE row per song (base version), annotates `+N key variants`; SONG ID column is always a valid setlist foreign key |
-| `./list-gigs` | list all gig slugs in setlist-assignments.csv with song counts |
-| `./copy-gig <src> <tgt>` | clone a gig’s setlist to a new slug; rewrites assignments CSV with enriched TITLE+ARTIST |
-| `./export-setlist` | generate setlist.csv for the latest (or `--gig`) gig |
+| `./find-song-id <fragment>` | search song-catalog.csv by title or artist; shows ONE row per song (base version), annotates `+N key variants`; SONG ID column is always a valid gigs.csv foreign key |
+| `./list-gigs` | list all gig slugs in gigs.csv with song counts |
+| `./copy-gig <src> <tgt>` | clone a gig's setlist to a new slug; rewrites gigs.csv with enriched TITLE+ARTIST; RC SLOT always blank on new rows |
+| `./export-setlist [--verbose]` | generate setlist.csv for the latest (or `--gig`) gig; default excludes Z-sets (fan setlist); `--verbose` includes backup songs |
 | `./tidy-song-catalog` | strip \r from CSV (required after Google Sheets/Excel save) |
 | `./fix-directive` | bulk replace `{c:` with `{comment:` in all .cho files |
 | `./fix-directive-dry-run` | preview of above |
@@ -196,7 +206,7 @@ One row in `setlist-assignments.csv`. Fields: `gig` (slug), `songId` (SongId), `
 | `./copyAllSetlist` | copy all .cho + .pdf to ~/tmp/setlist-ff/ (adds to existing) |
 | `./copySetlist` | hand-curated gig setlist copy script (edit per gig) |
 | `./help` | show CLI help |
-| `./assign-backing-track-slots` | reassign RC-500 slots for all set songs, update catalog + .cho files, regenerate setlist |
+| `./assign-backing-track-slots [--gig]` | assign RC-500 slots for the gig → write `gigs.csv` + patch `.cho` files + regenerate `setlist.csv` |
 
 ---
 
@@ -239,31 +249,32 @@ cho/                   # song library — alphabetical clusters
     Song-c.cho         # key variant: same song in C
 pdf/                   # lead sheets / fake books (not managed by this tool)
 song-catalog.csv       # THE song library source of truth (487 rows, 15 columns)
-setlist-assignments.csv # per-gig setlist assignments (GIG, SONG ID, SET, TITLE, ARTIST)
+gigs.csv               # per-gig setlist assignments (GIG, SONG ID, SET, RC SLOT)
 setlist.csv            # generated by export-setlist, not committed
 updateSongsListing.txt # edit before running update-songs
-songsListing.txt       # generated by generate-song-catalog script
 src/main/java/com/pourchoices/chordpro/
   adapter/in/file/     # picocli @Command classes
   adapter/out/file/    # port implementations (adapters, DTOs, mappers, file I/O)
-                       # Catalog: CatalogAdapter, CatalogEntryDto, CatalogEntryMapper,
+                       # Catalog: CatalogAdapter, CatalogEntryDto (15 cols), CatalogEntryMapper,
                        #          CatalogFileReader, CatalogFileWriter
                        # ChordPro: ChordProAdapter, ChordProFileReader, ChordProFileWriter
                        # Setlist: SetlistAdapter, SetlistEntryDto, SetlistFileWriter
-                       # SetlistAssignments: SetlistAssignmentsAdapter,
-                       #   SetlistAssignmentDto, SetlistAssignmentMapper,
-                       #   SetlistAssignmentsFileReader, SetlistAssignmentsFileWriter
+                       # Gigs: SetlistAssignmentsAdapter (reads/writes gigs.csv),
+                       #   SetlistAssignmentDto (cols: gig, song id, set, rc slot),
+                       #   SetlistAssignmentMapper, SetlistAssignmentsFileReader,
+                       #   SetlistAssignmentsFileWriter
                        # RC-500: Rc500Adapter, Rc500FileReader, Rc500FileWriter,
                        #   Rc500Mapper, Rc500SlotDto, Rc500TrackDto, Rc500AssignDto,
                        #   Rc500ParseException
                        # Misc: CustomColumnComparator, SongListingAdapter, SongListingFileReader
   application/domain/
-    model/             # immutable domain objects
+    model/             # immutable domain objects (BackingType enum, CatalogEntry,
+                       #   SetlistAssignment, SetlistEntry, Setlist, SongId, ParsedSong, ...)
     service/           # business logic, implements use case interfaces
   application/port/in/ # use case interfaces
   application/port/out/# output port interfaces (CatalogPort, ChordProPort, etc.)
   config/              # ChordproCatalogIndexPathConfig → catalog-index path from properties
-docs/architecture/     # command-reference.md (full sequence diagrams), generate-song-catalog.md
+docs/architecture/     # command-reference.md (full sequence diagrams)
 ```
 
 ---
@@ -349,55 +360,58 @@ All 111 labelled rows in catalog pass as of session 5.
 ### Completed (fully implemented, tests green)
 - **SONG LABEL field**: Column between SONG ID and CHORDPRO FILENAME in catalog. Written to .cho as `{meta: label: ...}`. 111 rows populated for all songs with backing tracks. Design rules documented in RC-500 SONG LABEL DESIGN RULES section.
 - **assign-backing-track-slots**: Fully implemented. `SetlistDeduplicator` component extracted. `SetlistEntryDto` carries BACKING column.
-- **SET migration (Phase 3 complete)**: SET column removed from `CatalogEntry` and `song-catalog.csv`. SET lives exclusively in `setlist-assignments.csv`. `export-setlist` joins both CSVs at runtime.
+- **SET migration (Phase 3 complete)**: SET column removed from `CatalogEntry` and `song-catalog.csv`. SET lives exclusively in `gigs.csv`. `export-setlist` joins both CSVs at runtime.
 - **export-setlist**: Fully implemented, including `./export-setlist` shell script.
-- **setlist-assignments.csv enrichment (session 10)**: `SetlistAssignmentDto` carries TITLE and ARTIST as decorative/human-readable columns. Backward-compatible reader (ignores absent columns). `SetlistAssignmentsPort.writeEnrichedAssignments()` populates from catalog. `copy-gig` always writes enriched rows.
+- **gigs.csv enrichment (session 10, formerly setlist-assignments.csv)**: `SetlistAssignmentDto` carries TITLE and ARTIST as decorative/human-readable columns. Backward-compatible reader. `copy-gig` always writes enriched rows.
 - **copy-gig (session 10)**: Fully implemented. Clones any gig’s assignments to a new slug, with `--force` to overwrite.
-- **find-song-id (session 10 → updated session 11)**: Now shows ONE row per song (base version only). Annotates `+N key variants` where alternate transpositions exist. SONG ID column is always a valid, pasteable setlist foreign key.
-- **list-gigs (session 10)**: Shell script. Prints all gig slugs with song counts from setlist-assignments.csv.
-- **Option B — base-version-only SONG IDs in assignments (session 11)**:
-  - `SetlistAssignmentMapper.toEntity()` validates that every SONG ID read from the CSV is a base version (`SongId.isBaseVersion() == true`). Throws `IllegalArgumentException` with exact fix suggestion if a variant ID is found.
-  - `SetlistJoiner.buildEntry()` throws `IllegalStateException` instead of skipping when a SONG ID is not found in the catalog. Missing base = data integrity error.
-  - `SetlistDeduplicator` simplified: Scenarios A/B/C (variant-handling logic) removed entirely — unreachable by construction. Now a lean duplicate-song guard (same base ID twice in a gig → keep first, log WARN).
-  - Live `setlist-assignments.csv` migrated: one bad row (`MyLife-c`) fixed to `MyLife`.
-  - Tests updated: `SetlistAssignmentMapperTest` gets `toEntity_variantSongId_throwsWithHelpfulMessage`. `SetlistJoinerTest` replaces skip test with `join_missingSongInCatalog_throwsIllegalState`. 70 tests passing.
-- **README rewrite (session 11)**: Fully updated to reflect two-CSV architecture, all current commands, Option B invariant, key variants model, four workflow walkthroughs.
-- **lint-cho.zsh (session 9)**: Standalone linter for shorthand ChordPro directives. 201/488 files corrected; `--check` exits 0 across full corpus.
+- **find-song-id (sessions 10–11)**: Shows ONE row per song (base version only). Annotates `+N key variants`. SONG ID column is always a valid, pasteable gigs.csv foreign key.
+- **list-gigs (session 10)**: Shell script. Prints all gig slugs with song counts from gigs.csv.
+- **Option B — base-version-only SONG IDs in assignments (session 11)**: Enforced by `SetlistAssignmentMapper.toEntity()`. `SetlistJoiner.buildEntry()` throws on missing catalog entry. `SetlistDeduplicator` simplified to lean duplicate-song guard.
+- **README rewrite (sessions 11, 13)**: Fully updated to reflect current architecture.
+- **lint-cho.zsh (session 9)**: Standalone linter. 201/488 files corrected; `--check` exits 0 across full corpus.
+- **RC SLOT moved to gigs.csv (session 12)**: `CatalogEntry.rcSlot` removed. `SetlistAssignment.rcSlot` added (nullable). `SetlistAssignmentDto` gains `rc slot` column. `SetlistEntry.getBacking()` returns `"BB"` | slot-from-assignment | `""`. `UpdateSongService.withPreservedRcSlot()` prevents `update-song` from erasing gig-assigned slots. `AssignBackingTrackSlotsService` rewritten: no catalog writes, patches `.cho` files directly. `song-catalog.csv` migrated (16→15 cols). `gigs.csv` migrated (3→4 cols). 69 tests passing.
+- **import-song (session 12)**: Fully implemented. Replaces deleted `generate-song-catalog` for single-song ingestion. Supports `--dry-run`.
+- **verify-catalog (session 12)**: Fully implemented. Reports MISSING FILE and DRIFT per row. RC SLOT intentionally excluded from comparison.
+- **export-setlist --verbose (session 13)**: Default output excludes Z-set backup songs (fan setlist). `--verbose`/`-v` flag includes backup; adds a visual section separator. `ExportSetlistUseCase.exportSetlist()` gains `includeBackup` boolean.
 
 ### Stubbed / not yet implemented
-- **import-new-song**: Throws `UnsupportedOperationException`. Wiring (command + port interface) is in place as a drop-in socket. Workaround: `./generate-song-catalog` to rebuild full catalog.
 - **RC-500 `.RC0` command**: `Rc500MemoryBank` infrastructure fully modelled but not wired to any picocli command.
 - **ChordProTransposer**: Implemented but not wired to any command.
 
 ### Ongoing / manual
-- **copySetlist**: Still maintained manually per gig. Goal: eventually drive entirely from `setlist-assignments.csv` via `export-setlist`.
+- **copySetlist**: Still maintained manually per gig. Goal: eventually drive entirely from `gigs.csv` via `export-setlist`.
 - **SET leaving `.cho` files**: SET directives were removed from `.cho` files in Phase 3. `HeaderDirective.SET` constant can be removed in a future cleanup pass.
 
 ---
 
 ## WORKFLOW (normal session)
 
+**Adding a new song:**
+1. Drop `.cho` file into `cho/CLUSTER/LETTER/Artist/` directory
+2. `./import-song cho/...` (add to catalog; use `--dry-run` to preview first)
+3. Fill in metadata in `song-catalog.csv` in Google Sheets
+4. Save CSV → `./tidy-song-catalog` → `./update-song <path>` to push metadata into file
+5. `./verify-catalog` to confirm everything is consistent
+
 **Updating song metadata:**
 1. Edit `song-catalog.csv` in Google Sheets or Excel
 2. Save CSV → run `./tidy-song-catalog` to strip \r
 3. `./update-song` or `./update-songs` to push metadata into .cho files
+4. `./verify-catalog` to confirm
 
 **Planning / running a gig:**
 1. `./list-gigs` to see existing gig slugs
 2. `./copy-gig <prior-gig> <new-gig>` to clone a prior setlist as a starting point
-3. Edit `setlist-assignments.csv` in Sheets — adjust SET codes, swap SONG IDs
-4. `./export-setlist --gig <slug>` to generate setlist.csv + terminal preview
-5. `./copyChoSetlist` or `./copySetlist` to stage files for OnSong
+3. Edit `gigs.csv` in Sheets — adjust SET codes, swap SONG IDs
+4. `./export-setlist --gig <slug>` to preview the fan setlist (no Z-sets)
+5. `./export-setlist --gig <slug> --verbose` to see the full list including backup songs
+6. **After setlist order is locked:** `./assign-backing-track-slots --gig <slug>` — assigns RC-500 slots, updates `gigs.csv` + `.cho` files, regenerates `setlist.csv`
+7. `./copyChoSetlist` or `./copySetlist` to stage files for OnSong
 
 **Finding a SONG ID to add to a setlist:**
 ```zsh
-./find-song-id "piano"   # → one row per song, SONG ID column safe to paste
+./find-song-id "piano"   # → one row per song, SONG ID column safe to paste into gigs.csv
 ```
-
-**Adding new songs:**
-1. Drop .cho file into `cho/CLUSTER/LETTER/Artist/` directory
-2. Run `./generate-song-catalog` to rebuild full catalog
-   OR (future) `import-new-song` to append single song without full rebuild
 
 ---
 
@@ -417,15 +431,14 @@ All 111 labelled rows in catalog pass as of session 5.
 - **Status:** 201 of 488 files corrected; `--check` now exits 0 across entire corpus.
 - **Future:** Java `normalize-cho-files` command to enforce same rules within the Spring CLI (explicit, not auto-hooked).
 
-- `generate-song-catalog` was designed for **batch ingestion** (adding/updating many songs at once). Scott has noted a future goal: a discrete `add-song-to-catalog` command that imports a single new song without full re-ingestion. Keep this in mind for future sessions.
-- `generate-song-catalog` CLEARS columns not in .cho headers (PERFORMANCE KEY etc.) — always push edits first via update-songs. Now safe for SET since SET is fully removed from the catalog (lives only in setlist-assignments.csv).
+- `import-song` replaced `generate-song-catalog` in session 12. The old command would batch-regenerate the entire catalog from `.cho` files, clearing any catalog-only fields (PERFORMANCE KEY etc.) that weren’t in the `.cho` headers — a footgun. `import-song` is idempotent: it adds one song at a time and never touches existing rows.
 - **DATA MODEL DECISION (session 7):** Full analysis in `docs/architecture/data-storage-options.md`. Summary:
   - CSVs ARE the database. No binary DB in Git (kills diffs + Google Sheets editability).
-  - **Planned:** split into `song-catalog.csv` (song identity + hardware) and `setlist-assignments.csv` (gig planning). Join on SONG ID at runtime in Java. **PHASE 1 COMPLETE (session 8).**
-  - `setlist-assignments.csv` columns: `GIG, SONG ID, SET, TITLE, ARTIST` — one row per song-in-gig assignment (long/tidy format). GIG is a date-first slug e.g. `2026-06-14-rusty-nail`. TITLE and ARTIST are decorative/enriched from catalog at write time; ignored by code on read if absent (backward compat). **SONG ID must be a base version** (session 11 invariant, enforced by mapper).
+  - Split into `song-catalog.csv` (song identity + hardware) and `gigs.csv` (gig planning). Join on SONG ID at runtime in Java. **PHASE 1 COMPLETE (session 8); fully renamed/refactored session 12.**
+  - `gigs.csv` columns: `GIG, SONG ID, SET, RC SLOT` (4 cols). **SONG ID must be a base version** (session 11 invariant, enforced by mapper). RC SLOT is blank until `assign-backing-track-slots` runs for that gig.
   - Seeded with 2 placeholder rows (gig=`tbd`). User to recreate real gig data from past setlists.
-  - New infrastructure: `SetlistAssignment` (domain), `SetlistAssignmentDto`, `SetlistAssignmentMapper`, `SetlistAssignmentsPort` (out), `SetlistAssignmentsFileReader`, `SetlistAssignmentsFileWriter`, `SetlistAssignmentsAdapter`, `ChordproSetlistAssignmentsPathConfig`.
-  - Property: `chordprotools.setlist-assignments=./setlist-assignments.csv`
+  - New infrastructure: `SetlistAssignment` (domain), `SetlistAssignmentDto`, `SetlistAssignmentMapper`, `SetlistAssignmentsPort` (out), `SetlistAssignmentsFileReader`, `SetlistAssignmentsFileWriter`, `SetlistAssignmentsAdapter`, `ChordproGigsPathConfig`.
+  - Property: `chordprotools.gigs=./gigs.csv` (renamed from `chordprotools.setlist-assignments` in session 12)
   - **Phase 2 COMPLETE (session 9):** pivot setlist services (ExportSetlistService, AssignBackingTrackSlotsService, SetlistDeduplicator) to join song-catalog + setlist-assignments on SONG ID.
     - `SetlistJoiner` (@Component) added: resolves gig, joins assignments → catalog, returns `List<SetlistEntry>`.
     - `SetlistEntry` domain object added: wraps `CatalogEntry` + `SetlistAssignment` with delegate accessors.
@@ -450,7 +463,7 @@ All 111 labelled rows in catalog pass as of session 5.
 - Catalog key is SongId string (e.g. `ABC:B:BillyJoel:MyLife`), NOT file path
 - `tidy-song-catalog` MUST be run after any spreadsheet save before update-song/update-songs
 - Key variant files (`Song-c.cho`) matched by regex `-[a-gA-G][#b]?m?` — non-key suffixes like `-old`, `-MVP` are NOT variants
-- `BACKING` value `99` = "no backing track" sentinel
+- `BACKING` value is a device type (`RC` or `BB`); blank = no backing. Sentinel `99` is deprecated and no longer used.
 - `COUNTIN` value `24` = default (no count-in)
 - `SONG LABEL` max 12 chars (RC-500 hardware limit) — mapper logs WARN if exceeded, does NOT truncate
 - `NORD` / `VE` null value sentinel = `"null"` string
