@@ -1,14 +1,22 @@
 {title: Dancin', Shaggin' on the Boulevard}
 {artist: Alabama}
-{key: A}
-{duration: }
-{tempo: }
+{key: G}
+{duration: 4:30}
+{tempo: 103}
+{meta: nord: P:55}
+{meta: countin: 2}
+{meta: backing: RC}
+{meta: performance: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P:55   }
+{comment:**  meta: countin: 2   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: performance: G   }
+{comment:***********************************************}
 
-. | [Am7] . . . | [Bm7/E] . . . | [G] . . . | [G] . . . |
-. | [Am7] . . . | [Bm7/E] . . . | [G] . . . | [G] . . . |
+. | [Am7] . . . | [Am7/D] . . . | [G] . . . | [G] . . . |
+. | [Am7] . . . | [Am7/D] . . . | [G] . . . | [G] . . . |
 
 
 {start_of_verse}
@@ -37,46 +45,50 @@ You know they're [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__
 {end_of_chorus}
 
 {start_of_verse}
-[Em]Got the top down and the traffic's slow[D]
-[C]When it's Sun Fun Weekend we all go[D]
-Where the girls a[Em]re sunnin' and are lookin' goo[C]d
-[Bm7]Well,[Am7] I never met 'em but I w[D]ish I could
+Got the [Em]top down and the [D]traffic's slow
+When it's [C]Sun Fun Weekend we all [D]go
+Where the [Em]girls are sunnin' and are [C]lookin' good
+Well, I [G]never met 'em but I w[D]ish I could
 {end_of_verse}
 
 {start_of_chorus}
-And we'd go they're [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
-We'd go they're [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
+And we'd go [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
+We'd go [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
 {end_of_chorus}
 
 {start_of_verse}
-[Em]Well, the embers singin' up on ocean drive[D]
-[C]And the castaways are gettin' loud tonight[D]
-At the electric [Em]circus they all getin' dow[C]n
-[Bm7]And the [Am7]Carousel's spinnin' ro[D]und and round
+Well, the [G]embers singin' up on [C]ocean drive
+And the [G]castaways are gettin' [D]loud tonight
+At the [G]'lectric circus they all [C]getin' down
+And the [G]Carousel's spinnin' ro[D]und and round
 {end_of_verse}
 
 {start_of_chorus}
-See them [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
-See them [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
+You see them [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
+See 'em [Am7]dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
 {end_of_chorus}
 
 {start_of_verse}
 Well, I'm [G]hangin' out down at [C]Sloppy Joe's
-They may [G]doze but they never [C]close
+And they may [G]doze but they never [D]close
 And the [G]Bama boys at the [C]Bowery
-Well, now they c[G]an't dance but they [D]play for free
+And they c[G]an't dance but they [D]play for free
 {end_of_verse}
 
 {comment: Outro}
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
+[Am7]They like dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
+[Am7]You know dancin',[Am7/D] shaggin' on the [G]Boulevard__[E7] 
 
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
+[Am7]They were dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
+[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7] 
 
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
 
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7]
-[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__ 
+[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[E7]
+[Am7]Mmm,[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7] 
+
+[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[E]
+[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[Bm7]-[Bb7] 
+
+[Am7]Dancin',[Am7/D] shaggin' on the [G]Boulevard__[E7]
+. | [Am7] . . . | [Am7/D] . . . | [G] . . . | [G]  |
 
