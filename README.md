@@ -236,11 +236,16 @@ The `getBacking()` accessor on a setlist entry returns:
 # 1. Drop the .cho file into the right cluster directory:
 #    cho/<alpha-group>/<initial>/<ArtistCamelCase>/TitleCamelCase.cho
 #
+#    The file must have at minimum:
+#      {title: Movin' Out}    ← human-readable; must match the path identity
+#      {artist: Billy Joel}   ← same
+#      {key: A}               ← strongly recommended; fill rest in Sheets later
+#
 # 2. Import it — SONG ID is derived from the path automatically:
 ./import-song cho/ABC/B/BillyJoel/MovingOut.cho --dry-run   # preview first
 ./import-song cho/ABC/B/BillyJoel/MovingOut.cho             # add to catalog
 #
-# 3. Open song-catalog.csv in Google Sheets, fill in metadata for the new row
+# 3. Open song-catalog.csv in Google Sheets, fill in remaining metadata
 # 4. Save CSV → tidy → push metadata back to the file:
 ./tidy-song-catalog
 ./update-song cho/ABC/B/BillyJoel/MovingOut.cho
@@ -329,13 +334,40 @@ automatically from the file path — you never construct it manually.
 ./import-song cho/ABC/B/BillyJoel/MovingOut.cho
 ```
 
+#### What the `.cho` file needs at import time
+
+The SONG ID is derived from the **file path**, so technically no directives
+are required for the import to succeed. In practice, the file should have at
+minimum:
+
+| Directive | Status | Why |
+|---|---|---|
+| `{title: ...}` | **Required** | Catalog display, setlist output, `find-song-id` search |
+| `{artist: ...}` | **Required** | Same — a catalog row without an artist is a ghost |
+| `{key: ...}` | Strongly recommended | `export-setlist` KEY column; you know this at chart time |
+| Everything else | Fill in later in Sheets | Hardware presets, tempo, duration, label, etc. |
+
+The path is the **canonical identity** — the directives are its human-readable
+form. `BillyJoel/MovingOut.cho` should have `{artist: Billy Joel}` and
+`{title: Movin' Out}`: same entity, different representation. They don't need
+to be character-for-character identical, but they must be unambiguously the
+same song.
+
+#### Minimum viable `.cho` file
+
+```
+{title: Movin' Out}
+{artist: Billy Joel}
+{key: A}
+```
+
 Guards:
-- Throws if the SONG ID already exists in the catalog
-- Throws if the file does not exist
+- Throws if the `.cho` file does not exist
+- Throws if the derived SONG ID already exists in the catalog
 
 After importing, open `song-catalog.csv` in Google Sheets to fill in the
-metadata row, then run `./tidy-song-catalog` and `./update-song` to push
-the metadata back into the `.cho` file.
+remaining metadata, then run `./tidy-song-catalog` and `./update-song` to
+push it back into the `.cho` file.
 
 ---
 
