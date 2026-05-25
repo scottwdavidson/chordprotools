@@ -236,10 +236,10 @@ The `getBacking()` accessor on a setlist entry returns:
 # 1. Drop the .cho file into the right cluster directory:
 #    cho/<alpha-group>/<initial>/<ArtistCamelCase>/TitleCamelCase.cho
 #
-#    The file must have at minimum:
-#      {title: Movin' Out}    ← human-readable; must match the path identity
-#      {artist: Billy Joel}   ← same
-#      {key: A}               ← strongly recommended; fill rest in Sheets later
+#    Path uses the simplified form; metadata can be richer:
+#      {title: Movin' Out (Anthony's Song)}  ← full title; path just uses MovingOut
+#      {artist: Billy Joel}                  ← primary artist; path matches
+#      {key: A}                              ← required; OnSong needs it explicit
 #
 # 2. Import it — SONG ID is derived from the path automatically:
 ./import-song cho/ABC/B/BillyJoel/MovingOut.cho --dry-run   # preview first
@@ -336,27 +336,45 @@ automatically from the file path — you never construct it manually.
 
 #### What the `.cho` file needs at import time
 
-The SONG ID is derived from the **file path**, so technically no directives
-are required for the import to succeed. In practice, the file should have at
-minimum:
+Three directives are **required** before importing:
 
-| Directive | Status | Why |
-|---|---|---|
-| `{title: ...}` | **Required** | Catalog display, setlist output, `find-song-id` search |
-| `{artist: ...}` | **Required** | Same — a catalog row without an artist is a ghost |
-| `{key: ...}` | Strongly recommended | `export-setlist` KEY column; you know this at chart time |
-| Everything else | Fill in later in Sheets | Hardware presets, tempo, duration, label, etc. |
+| Directive | Why |
+|---|---|
+| `{title: ...}` | Catalog display, setlist output, `find-song-id` search |
+| `{artist: ...}` | Same — a row without an artist is a ghost in the catalog |
+| `{key: ...}` | OnSong derives the key from the first chord if absent — always set it explicitly |
 
-The path is the **canonical identity** — the directives are its human-readable
-form. `BillyJoel/MovingOut.cho` should have `{artist: Billy Joel}` and
-`{title: Movin' Out}`: same entity, different representation. They don't need
-to be character-for-character identical, but they must be unambiguously the
-same song.
+Everything else (tempo, duration, hardware presets, label) can be left blank
+and filled in later via Google Sheets → `./tidy-song-catalog` → `./update-song`.
+
+#### Path vs. metadata — simplified vs. full
+
+The file **path** is a compact, filesystem-safe identifier. The **directives**
+are the human-readable form and can carry more detail. The two don't need to
+be identical — they just need to refer unambiguously to the same song.
+
+**Artist:** use the primary/headline artist in the path. The `{artist:}`
+directive can include the full credit.
+
+```
+cho/ABC/B/BrunoMars/UptownFunk.cho
+  {artist: Bruno Mars ft. Mark Ronson}   ← full credit in metadata
+  ↑ path uses primary artist only
+```
+
+**Title:** use the standard short name in the path. The `{title:}` directive
+can include a parenthetical or subtitle that would make the filename unwieldy.
+
+```
+cho/STU/S/Supertramp/TheLogicalSong.cho
+  {title: The Logical Song (What Are We)}   ← full title in metadata
+  ↑ path uses the recognisable short form
+```
 
 #### Minimum viable `.cho` file
 
 ```
-{title: Movin' Out}
+{title: Movin' Out (Anthony's Song)}
 {artist: Billy Joel}
 {key: A}
 ```
