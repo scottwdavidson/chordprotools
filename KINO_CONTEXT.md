@@ -199,7 +199,8 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 | `./list-gigs` | list all gig slugs in gigs.csv with song counts |
 | `./copy-gig <src> <tgt>` | clone a gig's setlist to a new slug; rewrites gigs.csv with enriched TITLE+ARTIST; RC SLOT always blank on new rows |
 | `./export-setlist [--verbose]` | generate setlist.csv for the latest (or `--gig`) gig; default excludes Z-sets (fan setlist); `--verbose` includes backup songs |
-| `./tidy-song-catalog` | strip \r from CSV (required after Google Sheets/Excel save) |
+| `./tidy-song-catalog` | strip \r from song-catalog.csv (required after Google Sheets/Excel save) |
+| `./tidy-gigs` | strip \r from gigs.csv (required after Google Sheets/Excel save) |
 | `./fix-directive` | bulk replace `{c:` with `{comment:` in all .cho files |
 | `./fix-directive-dry-run` | preview of above |
 | `./copyChoSetlist` | copy all .cho to ~/tmp/setlist-ff/ (recreates dir) |
@@ -403,7 +404,7 @@ All 111 labelled rows in catalog pass as of session 5.
 1. `./list-gigs` to see existing gig slugs
 2. `./copy-gig <prior-gig> <new-gig>` to clone a prior setlist as a starting point
 3. Edit `gigs.csv` in Sheets — adjust SET codes, swap SONG IDs
-4. `./export-setlist --gig <slug>` to preview the fan setlist (no Z-sets)
+4. Save CSV → `./tidy-gigs` → `./export-setlist --gig <slug>` to preview the fan setlist (no Z-sets)
 5. `./export-setlist --gig <slug> --verbose` to see the full list including backup songs
 6. **After setlist order is locked:** `./assign-backing-track-slots --gig <slug>` — assigns RC-500 slots, updates `gigs.csv` + `.cho` files, regenerates `setlist.csv`
 7. `./copyChoSetlist` or `./copySetlist` to stage files for OnSong
@@ -461,7 +462,7 @@ All 111 labelled rows in catalog pass as of session 5.
   - H2/SQLite rejected: binary formats, non-editable in Sheets, no capability gain at 500-row scale.
   - Google Sheets stays as the editing surface — hard constraint, guitarist must be able to edit without tooling.
 - Catalog key is SongId string (e.g. `ABC:B:BillyJoel:MyLife`), NOT file path
-- `tidy-song-catalog` MUST be run after any spreadsheet save before update-song/update-songs
+- `tidy-song-catalog` / `tidy-gigs` MUST be run after any spreadsheet save before update-song/update-songs or gig commands
 - Key variant files (`Song-c.cho`) matched by regex `-[a-gA-G][#b]?m?` — non-key suffixes like `-old`, `-MVP` are NOT variants
 - `BACKING` value is a device type (`RC` or `BB`); blank = no backing. Sentinel `99` is deprecated and no longer used.
 - `COUNTIN` value `24` = default (no count-in)

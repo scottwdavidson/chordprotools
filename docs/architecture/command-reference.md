@@ -408,5 +408,5 @@ ImportNewSongCommand
 | `update-catalog` | Convenience alias around the batch update flow |
 | `find-song` | Quick grep helper to locate a song by name |
 | `copySetlist` / `copyChoSetlist` / `copyAllSetlist` | Copy setlist `.cho` files to a staging directory |
-| `tidy-song-catalog` | Maintenance script for catalog housekeeping |
+| `tidy-song-catalog` / `tidy-gigs` | Strip `\r` from `song-catalog.csv` / `gigs.csv` after Sheets/Excel save |
 | `fix-directive` / `fix-directive-dry-run` | Bulk-fix a directive across many `.cho` files |

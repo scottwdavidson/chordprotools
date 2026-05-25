@@ -1,0 +1,5 @@
+# remove the carriage returns "\r"
+sed 's/\r//g' ./gigs.csv > ./temporary-gigs.csv
+
+# mv temp in gigs
+mv ./temporary-gigs.csv ./gigs.csv

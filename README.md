@@ -560,14 +560,15 @@ use in `update-song` or `updateSongsListing.txt`.
 # → ./cho/STU/T/TomPetty/HereComesMyGirl.cho
 ```
 
-### `tidy-song-catalog`
+### `tidy-song-catalog` / `tidy-gigs`
 
-Strips Windows-style carriage returns (`\r`) from `song-catalog.csv`.
-Always run this after saving the catalog from Google Sheets or Excel before
+Strips Windows-style carriage returns (`\r`) from `song-catalog.csv` and `gigs.csv`
+respectively. Always run after saving either file from Google Sheets or Excel before
 running any update command.
 
 ```zsh
-./tidy-song-catalog
+./tidy-song-catalog   # cleans song-catalog.csv
+./tidy-gigs           # cleans gigs.csv
 ```
 
 ### `fix-directive`
@@ -627,7 +628,8 @@ chordprotools/
 ├── list-gigs                    # List all gig slugs with song counts
 ├── find-song                    # Search .cho filenames by fragment → file path
 │
-├── tidy-song-catalog            # Strip Windows \r from catalog CSV
+├── tidy-song-catalog            # Strip Windows \r from song-catalog.csv
+├── tidy-gigs                    # Strip Windows \r from gigs.csv
 ├── lint-cho.zsh                 # Lint/fix shorthand ChordPro directives in .cho files
 ├── fix-directive                # Bulk-replace {c: with {comment: in .cho files
 ├── fix-directive-dry-run        # Preview fix-directive changes
