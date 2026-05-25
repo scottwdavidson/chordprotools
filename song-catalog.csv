@@ -44,7 +44,7 @@ Do It Again,Beach Boys,Eb,,,,,,,,,,,ABC:B:BeachBoys:DoItAgain,
 Forever,Dennis Wilson / Beach Boys,D,,,,,,,,,,,ABC:B:BeachBoys:Forever,
 "Fun, Fun, Fun",Beach Boys,D,3:00,156,,,M14,,,D,,,ABC:B:BeachBoys:FunFunFun,
 Golden Slumbers / Carry That Weight,Beatles,Gb,,,,,,,,,,,ABC:B:Beatles:GoldenSlumbers-CarryThatWeight,
-Golden Slumbers / Carry That Weight,Beatles,E,2:30,,,,,,,E,,,ABC:B:Beatles:GoldenSlumbers-CarryThatWeight_e-eb,
+Golden Slumbers / Carry That Weight,Beatles,E,2:30,,,,,,,E,,,ABC:B:Beatles:GoldenSlumbers-CarryThatWeight-e,
 Here Comes The Sun,The Beatles,A,,,,,,,,,,,ABC:B:Beatles:HereComesTheSun,
 Here Comes The Sun,The Beatles,A,,,,,,,,,,,ABC:B:Beatles:HereComesTheSun-c,
 Here Comes The Sun,The Beatles,C,,,,,,,,,,,ABC:B:Beatles:HereComesTheSun-c-jeff,
@@ -173,7 +173,7 @@ Change The World,Eric Clapton,E,3:30,97,,,,,,,,,DEF:E:EricClapton:ChangeTheWorld
 Cocaine,Eric Clapton,E,,,,,,,,,,,DEF:E:EricClapton:Cocaine,
 Layla,Eric Clapton,Dm,4:00,94,4,,O55,,,Dm,,,DEF:E:EricClapton:Layla,
 Nobody Knows You When You're Down And Out,Eric Clapton,C,3:50,89,4,,N45,,,C,,,DEF:E:EricClapton:NobodyKnowsYou,
-Over the Rainbow,Eric Clapton,E,,,,,,,,,,,DEF:E:EricClapton:OverTheRainbow-e,
+Over the Rainbow,Eric Clapton,E,,,,,,,,,,,DEF:E:EricClapton:OverTheRainbow,
 San Francisco Bay Blues,Eric Clapton,C,3:00,162,,,,,,,,,DEF:E:EricClapton:SanFranciscoBayBlues,
 Downhome Blues,Etta James,G,4:30,85,4,RC,P55,,,,,,DEF:E:EttaJames:DownhomeBlues,Down  Blues
 You Are The Woman,Firefall,A,3:30,120,,,,,,,,,DEF:F:Firefall:YouAreTheWoman,
@@ -380,7 +380,7 @@ Steal Away,Robbie Dupree,A,,,,,,,,,,,PQR:R:RobbieDupree:StealAway_inA,
 Bad Case Of Lovin' You,Robert Palmer,E,2:50,146,8,RC,,,,,,,PQR:R:RobertPalmer:BadCaseOfLovinYou,BadCaseLove
 Every Kinda People,Robert Palmer,F,,,,,,,,,,,PQR:R:RobertPalmer:EveryKindaPeople,
 Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,4,RC,O15,,,,,,PQR:R:RobertPlant:CantLetGo,Cant  LetGo
-Killing Me Softly With His Song,Roberta Flack,A,,122,,,,,,,,,PQR:R:RobertaFlack:KillingMeSoftly-a,
+Killing Me Softly With His Song,Roberta Flack,A,,122,,,,,,,,,PQR:R:RobertaFlack:KillingMeSoftly,
 Tired Of Toein' The Line,Rocky Burnette,G,3:30,120,8,RC,O14,,,,,,PQR:R:RockyBurnette:TiredOfToeinTheLine,Toein  Line
 Tired Of Toein' The Line,Rocky Burnette,E,3:30,120,8,RC,O14,,,,,,PQR:R:RockyBurnette:TiredOfToeinTheLine-e,Toein  Line
 Honky Tonk Women,The Rolling Stones,G,2:50,121,4,,N51,,,,4/4,,PQR:R:RollingStones:HonkyTonkWomen,
@@ -448,8 +448,7 @@ Your Smile,Toby Keith,A,,77,,,,,,,4/4,,STU:T:TobyKeith:YourSmile-a,
 I Saw The Light,Todd Rundgren,C,3:00,120,4,RC,M14,,P25,,,,STU:T:ToddRundgren:ISawTheLight,I Saw Light
 Breakdown,Tom Petty,Am,3:00,114,4,,P11,,P29,Am,,,STU:T:TomPetty:Breakdown,
 Don't Do Me Like That,Tom Petty,G,2:20,116,,,,,,,,,STU:T:TomPetty:DontDoMeLikeThat,
-Free Fallin' (BASS),Tom Petty,E,3:30,85,4,,,,,E,,,STU:T:TomPetty:FreeFallin-BASS,
-Free Fallin',Tom Petty,D,3:30,85,4,,,,,E,,2,STU:T:TomPetty:FreeFallin-guitar-d,
+Free Fallin',Tom Petty,D,3:30,85,4,,,,,E,,2,STU:T:TomPetty:FreeFallin,
 Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,4,RC,,,,,,,STU:T:TomPetty:HereComesMyGirl,Here  Girl
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,,STU:T:TomPetty:IntoTheGreatWideOpen,
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,,STU:T:TomPetty:LearningToFly,
@@ -458,7 +457,7 @@ Runnin' Down A Dream,Tom Petty,E,3:45,170,8,,N51,,,E,,,STU:T:TomPetty:RunningDow
 You Don't Know How It Feels,Tom Petty,E,3:45,74,,,P31,,,,,,STU:T:TomPetty:YouDontKnowHowItFeels,
 You Wreck Me,Tom Petty,D,3:05,164,8,RC,,,,,,,STU:T:TomPetty:YouWreckMe,You   Wreck
 Calling San Francisco,Tommy Castro and the Painkillers,C,,,,,,,,,,,STU:T:TommyCastroNPainkillers:CallingSanFrac,
-Calling San Francisco,Tommy Castro and the Painkillers,G,,,,,,,,,,,STU:T:TommyCastroNPainkillers:CallingSanFran-g,
+Calling San Francisco,Tommy Castro and the Painkillers,G,,,,,,,,,,,STU:T:TommyCastroNPainkillers:CallingSanFran,
 Nasty Habits,Tommy Castro and the Painkillers,C,,,,,,,,,,,STU:T:TommyCastroNPainkillers:NastyHabits,
 Jenny 867-5309,Tommie Tutone,F#m,3:55,138,8,RC,P55,,P13,,,,STU:T:TommyTutone:Jenny-867-5309,Jenny 8675
 You Wanted More,Tonic,E,,114,,,,,,,,,STU:T:Tonic:YouWantedMore,
