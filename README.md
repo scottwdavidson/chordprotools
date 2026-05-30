@@ -33,6 +33,7 @@ change freely gig to gig without touching song metadata.
    - [copy-gig](#copy-gig)
    - [export-setlist](#export-setlist)
 6. [Utility Scripts](#6-utility-scripts)
+   - [deploy-rc500](#deploy-rc500)
 7. [Repository Layout](#7-repository-layout)
 8. [Technology Stack](#8-technology-stack)
 9. [How to Add a New Command](#9-how-to-add-a-new-command)
@@ -69,6 +70,10 @@ change freely gig to gig without touching song metadata.
       (clone prior gig)        │  (once setlist order is locked)
                                ▼
                  RC SLOT written to gigs.csv + .cho files
+
+                               │  deploy-rc500
+                               ▼
+                 backing.wav + click.wav copied to RC-500
 
                                │  export-setlist
                                ▼
@@ -286,6 +291,18 @@ require a re-run.
 # → {meta: rc-slot: N} patched into each affected .cho file
 # → setlist.csv regenerated
 ```
+
+Once slots are assigned, deploy the audio files to the RC-500:
+
+```zsh
+# Preview what will be copied — no files written:
+./deploy-rc500 2026-06-14-rusty-nail --dry-run
+
+# Connect RC-500 via USB, then deploy for real:
+./deploy-rc500 2026-06-14-rusty-nail
+```
+
+See [deploy-rc500](#deploy-rc500) for full configuration details.
 
 ### Adding songs to an existing gig
 
@@ -567,6 +584,81 @@ The `BACKING` column shows:
 These scripts are pure shell or Python — they do not invoke the Java application
 unless noted.
 
+### `deploy-rc500`
+
+**Script:** `./deploy-rc500 [GIG_SLUG] [--dry-run]`
+
+Copies `backing.wav` and `click.wav` audio files from the local backing-track
+library to the RC-500 looper pedal over USB. Run this after
+`assign-backing-track-slots` has locked in the slot numbers for the gig.
+
+```zsh
+# Preview all copy operations — nothing is written:
+./deploy-rc500 --dry-run
+
+# Deploy the latest gig (auto-detected from gigs.csv):
+./deploy-rc500
+
+# Deploy a specific gig:
+./deploy-rc500 2026-06-14-rusty-nail
+
+# Specific gig, dry run:
+./deploy-rc500 2026-06-14-rusty-nail --dry-run
+```
+
+#### Source path layout
+
+The script resolves each song's backing-track folder from its Song ID:
+
+```
+<BACKING_SOURCE_ROOT>/<CLUSTER>/<LETTER>/<Artist>/<SongTitle>/
+  backing.wav    ← required
+  click.wav      ← optional
+```
+
+Key-variant suffixes are stripped from the title when building the path
+(e.g. Song ID `BillyJoel:YouMayBeRight-g` → folder `YouMayBeRight/`).
+
+#### Target path layout (standard RC-500 WAVE structure)
+
+```
+<RC500_TARGET_ROOT>/ROLAND/WAVE/
+  <NNN>_1/backing.wav    ← NNN = rc_slot zero-padded to 3 digits
+  <NNN>_2/click.wav
+```
+
+Example: slot `7` → `007_1/backing.wav` and `007_2/click.wav`.
+
+#### Error handling
+
+| Situation | Behaviour |
+|---|---|
+| `backing.wav` missing | Loud red WARNING box printed; song skipped entirely |
+| `click.wav` missing | INFO message only; backing track is still copied |
+| RC-500 not mounted (real run) | FATAL — script aborts before touching any files |
+| Song has no RC slot assigned | Silently skipped (run `assign-backing-track-slots` first) |
+
+#### Configuration
+
+Two values are required — set them as **environment variables** (highest precedence)
+or in **`.chordprotoolsrc`** at the project root (gitignored, machine-specific):
+
+| Key | Description |
+|---|---|
+| `BACKING_SOURCE_ROOT` / `backing_source_root` | Root of your local backing-track library |
+| `RC500_TARGET_ROOT` / `rc500_target_root` | RC-500 mount point (e.g. `/Volumes/RC-500`) |
+
+To get started, copy the committed template and fill in your paths:
+
+```zsh
+cp .chordprotoolsrc.template .chordprotoolsrc
+# then edit .chordprotoolsrc with your machine’s actual paths
+```
+
+For testing without the RC-500 connected, point `rc500_target_root` at any
+local directory (e.g. `/tmp/rc500-test`) — the `--dry-run` flag is also
+useful for validating paths before physically plugging in the device.
+
 ### `find-song-id`
 
 Search `song-catalog.csv` by title or artist fragment. Prints one row per song
@@ -670,9 +762,13 @@ chordprotools/
 ├── verify-catalog               # Check catalog ↔ .cho file consistency
 ├── update-song                  # Push one song's catalog metadata to its .cho file
 ├── update-songs                 # Push a batch of songs from updateSongsListing.txt
-├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; update gigs.csv + .cho files + setlist.csv
+├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; writes to gigs.csv + patches .cho files + regenerates setlist.csv
 ├── copy-gig                     # Clone a gig's assignments to a new gig slug
 ├── export-setlist               # Generate setlist.csv from catalog + assignments
+├── deploy-rc500                 # Copy backing.wav / click.wav to RC-500 WAVE dirs (slot-numbered)
+│
+├── .chordprotoolsrc.template    # Config template — copy to .chordprotoolsrc and set your paths
+├── .chordprotoolsrc             # Machine-specific config (gitignored) — backing + RC-500 roots
 │
 ├── find-song-id                 # Search catalog by title/artist → SONG ID
 ├── list-gigs                    # List all gig slugs with song counts

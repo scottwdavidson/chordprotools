@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-20 (session 13)
+# Last updated: 2026-05-29 (session 14)
 
 ---
 
@@ -208,6 +208,7 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 | `./copySetlist` | hand-curated gig setlist copy script (edit per gig) |
 | `./help` | show CLI help |
 | `./assign-backing-track-slots [--gig]` | assign RC-500 slots for the gig → write `gigs.csv` + patch `.cho` files + regenerate `setlist.csv` |
+| `./deploy-rc500 [GIG_SLUG] [--dry-run]` | copy `backing.wav`+`click.wav` from local library to RC-500 WAVE dirs; config via env vars or `.chordprotoolsrc` |
 
 ---
 
@@ -374,9 +375,10 @@ All 111 labelled rows in catalog pass as of session 5.
 - **import-song (session 12)**: Fully implemented. Replaces deleted `generate-song-catalog` for single-song ingestion. Supports `--dry-run`.
 - **verify-catalog (session 12)**: Fully implemented. Reports MISSING FILE and DRIFT per row. RC SLOT intentionally excluded from comparison.
 - **export-setlist --verbose (session 13)**: Default output excludes Z-set backup songs (fan setlist). `--verbose`/`-v` flag includes backup; adds a visual section separator. `ExportSetlistUseCase.exportSetlist()` gains `includeBackup` boolean.
+- **deploy-rc500 (session 14)**: Pure zsh script. Reads `gigs.csv` for the target gig (defaults to lexicographically latest), resolves source path as `<BACKING_SOURCE_ROOT>/<CLUSTER>/<LETTER>/<Artist>/<BaseSongTitle>/`, copies to `<RC500_TARGET_ROOT>/ROLAND/WAVE/<NNN>_1/backing.wav` and `<NNN>_2/click.wav` (NNN = rc_slot zero-padded to 3 digits, no offset). Key-variant suffix stripped from Song ID title using same pattern as Java `SongId.KEY_ALT_PATTERN` (`-[a-gA-G][#b]?m?`). Missing `backing.wav` → bold red WARNING box + skip; missing `click.wav` → INFO + backing still copied. `--dry-run` flag previews all paths without writing. Config via env vars (highest precedence) or `.chordprotoolsrc` at project root (gitignored). `.chordprotoolsrc.template` committed as onboarding aid for bandmates. RC-500 mount guard: fails fast if target dir not found (real runs only; bypassed by `--dry-run`).
 
 ### Stubbed / not yet implemented
-- **RC-500 `.RC0` command**: `Rc500MemoryBank` infrastructure fully modelled but not wired to any picocli command.
+- **RC-500 `.RC0` command**: `Rc500MemoryBank` infrastructure fully modelled but not wired to any picocli command. (The `deploy-rc500` zsh script handles audio file deployment; the `.RC0` command would handle memory-bank name/config updates — a separate future capability.)
 - **ChordProTransposer**: Implemented but not wired to any command.
 
 ### Ongoing / manual
@@ -407,7 +409,8 @@ All 111 labelled rows in catalog pass as of session 5.
 4. Save CSV → `./tidy-gigs` → `./export-setlist --gig <slug>` to preview the fan setlist (no Z-sets)
 5. `./export-setlist --gig <slug> --verbose` to see the full list including backup songs
 6. **After setlist order is locked:** `./assign-backing-track-slots --gig <slug>` — assigns RC-500 slots, updates `gigs.csv` + `.cho` files, regenerates `setlist.csv`
-7. `./copyChoSetlist` or `./copySetlist` to stage files for OnSong
+7. **After slots assigned:** `./deploy-rc500 <slug> --dry-run` (preview), then `./deploy-rc500 <slug>` with RC-500 connected to copy backing/click tracks to device
+8. `./copyChoSetlist` or `./copySetlist` to stage files for OnSong
 
 **Finding a SONG ID to add to a setlist:**
 ```zsh
