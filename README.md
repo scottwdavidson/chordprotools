@@ -73,7 +73,8 @@ change freely gig to gig without touching song metadata.
 
                                │  deploy-rc500
                                ▼
-                 backing.wav + click.wav copied to RC-500
+              deploy-rc500-<timestamp>.sh generated
+              (review, edit, then run against RC-500)
 
                                │  export-setlist
                                ▼
@@ -292,17 +293,25 @@ require a re-run.
 # → setlist.csv regenerated
 ```
 
-Once slots are assigned, deploy the audio files to the RC-500:
+Once slots are assigned, generate the RC-500 deploy script:
 
 ```zsh
-# Preview what will be copied — no files written:
-./deploy-rc500 2026-06-14-rusty-nail --dry-run
+# Generate for the latest gig (paths from application.properties):
+./deploy-rc500
 
-# Connect RC-500 via USB, then deploy for real:
-./deploy-rc500 2026-06-14-rusty-nail
+# Generate for a specific gig:
+./deploy-rc500 --gig 2026-06-14-rusty-nail
+
+# Override paths at the command line:
+./deploy-rc500 --gig 2026-06-14-rusty-nail \
+    --source /Volumes/G-DRIVE/BackingTracks \
+    --target /Volumes/RC-500
 ```
 
-See [deploy-rc500](#deploy-rc500) for full configuration details.
+This generates a `deploy-rc500-<timestamp>.sh` script you can review, trim
+(e.g. just the songs for tonight’s practice), then run.
+
+See [deploy-rc500](#deploy-rc500) for the full command reference.
 
 ### Adding songs to an existing gig
 
@@ -581,83 +590,135 @@ The `BACKING` column shows:
 
 ## 6. Utility Scripts
 
-These scripts are pure shell or Python — they do not invoke the Java application
-unless noted.
+Most scripts are thin shell shims that invoke the Java CLI application.
+`deploy-rc500` is a full Java-backed command that generates a throwaway script
+rather than performing copies directly.
 
 ### `deploy-rc500`
 
-**Script:** `./deploy-rc500 [GIG_SLUG] [--dry-run]`
+**Script:** `./deploy-rc500 [OPTIONS]`
+**Java command:** `deploy-rc500` → `GenerateRc500DeployScriptCommand` / `GenerateRc500DeployScriptService`
 
-Copies `backing.wav` and `click.wav` audio files from the local backing-track
-library to the RC-500 looper pedal over USB. Run this after
-`assign-backing-track-slots` has locked in the slot numbers for the gig.
+Generates a timestamped, human-editable shell script containing plain `cp`
+commands to copy `backing.wav` and `click.wav` files from the local library
+to the RC-500 looper pedal. Run this after `assign-backing-track-slots` has
+locked in slot numbers for the gig.
+
+The generated script is intentionally simple — just `cp` commands with
+comments — so you can open it in any editor, remove songs you don’t need
+(e.g. for a partial practice load), then run what’s left.
 
 ```zsh
-# Preview all copy operations — nothing is written:
-./deploy-rc500 --dry-run
-
-# Deploy the latest gig (auto-detected from gigs.csv):
+# Generate for the latest gig (paths read from application.properties):
 ./deploy-rc500
 
-# Deploy a specific gig:
-./deploy-rc500 2026-06-14-rusty-nail
+# Specific gig:
+./deploy-rc500 --gig 2026-06-14-rusty-nail
 
-# Specific gig, dry run:
-./deploy-rc500 2026-06-14-rusty-nail --dry-run
+# Override source/target paths at the command line:
+./deploy-rc500 --gig 2026-06-14-rusty-nail \
+    --source /Volumes/G-DRIVE/BackingTracks \
+    --target /Volumes/RC-500
+
+# Write the generated script to a specific directory:
+./deploy-rc500 --output-dir ~/Desktop
 ```
+
+#### Options
+
+| Option | Description |
+|---|---|
+| `--gig` / `-g` | Gig slug. Defaults to the lexicographically latest gig in `gigs.csv`. |
+| `--source` / `-s` | Root of the local backing-track library. Overrides `application.properties`. |
+| `--target` / `-t` | RC-500 mount point / root directory. Overrides `application.properties`. |
+| `--output-dir` / `-o` | Where to write the generated script (default: current directory). |
 
 #### Source path layout
 
-The script resolves each song's backing-track folder from its Song ID:
-
 ```
-<BACKING_SOURCE_ROOT>/<CLUSTER>/<LETTER>/<Artist>/<SongTitle>/
+<source>/<CLUSTER>/<LETTER>/<Artist>/<SongTitle>/
   backing.wav    ← required
   click.wav      ← optional
 ```
 
-Key-variant suffixes are stripped from the title when building the path
-(e.g. Song ID `BillyJoel:YouMayBeRight-g` → folder `YouMayBeRight/`).
+Key-variant suffixes are stripped automatically — `SongId.getTitle()` already
+holds the base title, so `BillyJoel:YouMayBeRight-g` → folder `YouMayBeRight/`
+with no extra logic required.
 
 #### Target path layout (standard RC-500 WAVE structure)
 
 ```
-<RC500_TARGET_ROOT>/ROLAND/WAVE/
-  <NNN>_1/backing.wav    ← NNN = rc_slot zero-padded to 3 digits
+<target>/ROLAND/WAVE/
+  <NNN>_1/backing.wav    ← NNN = RC slot zero-padded to 3 digits
   <NNN>_2/click.wav
 ```
 
 Example: slot `7` → `007_1/backing.wav` and `007_2/click.wav`.
 
-#### Error handling
+> **No `mkdir -p`.** The target directory structure is expected to already
+> exist (either the live RC-500 or a pre-built local test mirror).
+> The generated script contains only `cp` commands.
 
-| Situation | Behaviour |
+#### Generated script behaviour by case
+
+| Situation at generation time | What appears in the script |
 |---|---|
-| `backing.wav` missing | Loud red WARNING box printed; song skipped entirely |
-| `click.wav` missing | INFO message only; backing track is still copied |
-| RC-500 not mounted (real run) | FATAL — script aborts before touching any files |
-| Song has no RC slot assigned | Silently skipped (run `assign-backing-track-slots` first) |
+| `backing.wav` found | Live `cp` command |
+| `backing.wav` missing | `⚠ WARNING` comment block; `cp` is commented out with the expect|
+| `click.wav` found | Live `cp` command |
+| `click.wav` missing | `# INFO` comment; line omitted (normal for some songs) |
+| Song has no RC slot | Skipped entirely (not yet assigned — run `assign-backing-track-slots` first) |
+
+#### Generated script format
+
+```sh
+#!/bin/zsh
+# ===============================================================
+# RC-500 Deploy Script
+# Generated : 2026-06-14T09:15:03
+# Gig       : 2026-06-14-rusty-nail
+# Songs     : 32 RC-slotted assignment(s)
+# Source    : /Volumes/G-DRIVE/BackingTracks
+# Target    : /Volumes/RC-500
+# ===============================================================
+# Edit before running — copy only the songs you need.
+# Run: ./deploy-rc500-20260614-091503.sh
+# ===============================================================
+
+# ── ChrisStapleton / StartingOver  [slot 005 / set A03] ─────────
+cp "/Volumes/G-DRIVE/.../StartingOver/backing.wav" \
+   "/Volumes/RC-500/ROLAND/WAVE/005_1/backing.wav"
+cp "/Volumes/G-DRIVE/.../StartingOver/click.wav" \
+   "/Volumes/RC-500/ROLAND/WAVE/005_2/click.wav"
+
+# ── BobSeger / AgainstTheWind  [slot 006 / set A04] ──────────
+cp "/Volumes/G-DRIVE/.../AgainstTheWind/backing.wav" \
+   "/Volumes/RC-500/ROLAND/WAVE/006_1/backing.wav"
+# INFO: No click.wav found for BobSeger / AgainstTheWind — omitted
+
+# ── SealsCrofts / DiamondGirl  [slot 007 / set A05] ─────────
+# ⚠ WARNING: backing.wav NOT FOUND at generation time
+# Expected : /Volumes/G-DRIVE/.../DiamondGirl/backing.wav
+# Uncomment once the file is in place:
+# cp ".../DiamondGirl/backing.wav" \
+#    "/Volumes/RC-500/ROLAND/WAVE/007_1/backing.wav"
+```
 
 #### Configuration
 
-Two values are required — set them as **environment variables** (highest precedence)
-or in **`.chordprotoolsrc`** at the project root (gitignored, machine-specific):
+Set the source and target paths in `application.properties` (committed,
+but left blank by default since paths are machine-specific):
 
-| Key | Description |
-|---|---|
-| `BACKING_SOURCE_ROOT` / `backing_source_root` | Root of your local backing-track library |
-| `RC500_TARGET_ROOT` / `rc500_target_root` | RC-500 mount point (e.g. `/Volumes/RC-500`) |
-
-To get started, copy the committed template and fill in your paths:
-
-```zsh
-cp .chordprotoolsrc.template .chordprotoolsrc
-# then edit .chordprotoolsrc with your machine’s actual paths
+```properties
+chordprotools.backing-source-root=/Volumes/G-DRIVE/BackingTracks
+chordprotools.rc500-target-root=/Volumes/RC-500
 ```
 
-For testing without the RC-500 connected, point `rc500_target_root` at any
-local directory (e.g. `/tmp/rc500-test`) — the `--dry-run` flag is also
-useful for validating paths before physically plugging in the device.
+Or pass them directly with `--source` / `--target` for one-off runs or
+when testing against a local directory instead of the mounted pedal.
+
+> Generated scripts are gitignored (`deploy-rc500-*.sh`) — they are
+> throwaway artifacts, not source code.
 
 ### `find-song-id`
 
@@ -765,10 +826,7 @@ chordprotools/
 ├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; writes to gigs.csv + patches .cho files + regenerates setlist.csv
 ├── copy-gig                     # Clone a gig's assignments to a new gig slug
 ├── export-setlist               # Generate setlist.csv from catalog + assignments
-├── deploy-rc500                 # Copy backing.wav / click.wav to RC-500 WAVE dirs (slot-numbered)
-│
-├── .chordprotoolsrc.template    # Config template — copy to .chordprotoolsrc and set your paths
-├── .chordprotoolsrc             # Machine-specific config (gitignored) — backing + RC-500 roots
+├── deploy-rc500                 # Generates deploy-rc500-<timestamp>.sh with cp commands for RC-500 audio files
 │
 ├── find-song-id                 # Search catalog by title/artist → SONG ID
 ├── list-gigs                    # List all gig slugs with song counts
