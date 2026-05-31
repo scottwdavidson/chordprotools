@@ -38,5 +38,5 @@ build/
 ### Personal ###
 songsListing.txt
 setlist.csv
-.chordprotoolsrc
+deploy-rc500-*.sh
 

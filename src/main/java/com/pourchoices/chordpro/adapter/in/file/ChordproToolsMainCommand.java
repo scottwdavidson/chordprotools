@@ -14,7 +14,8 @@ import picocli.CommandLine.Command;
                 UpdateSongCommand.class,
                 ExportSetlistCommand.class,
                 AssignBackingTrackSlotsCommand.class,
-                CopyGigCommand.class
+                CopyGigCommand.class,
+                GenerateRc500DeployScriptCommand.class
         })
 @Slf4j
 public class ChordproToolsMainCommand implements Runnable {
