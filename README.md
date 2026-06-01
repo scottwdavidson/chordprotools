@@ -334,6 +334,8 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Assign RC-500 slot numbers for the gig; writes to `gigs.csv` + patches `.cho` files; regenerates `setlist.csv` |
 | `./copy-gig` | `copy-gig` | Clone all gig assignments from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
+| `./find-song-id` | `find-song-id` | Search the catalog by title/artist fragment → SONG ID to paste into `gigs.csv` |
+| `./list-gigs` | `list-gigs` | List every gig slug in `gigs.csv` with a song count |
 
 Quick help at any time:
 
@@ -755,6 +757,7 @@ when testing against a local directory instead of the mounted pedal.
 
 ### `find-song-id`
 
+**Java command** (`find-song-id` → `FindSongIdCommand` / `FindSongIdService`).
 Search `song-catalog.csv` by title or artist fragment. Prints one row per song
 (base version only), annotating how many key variants exist. The `SONG ID`
 column is always a valid base ID safe to paste into `gigs.csv`.
@@ -768,6 +771,12 @@ Piano Man     Billy Joel   C     ABC:B:BillyJoel:PianoMan  +1 key variant
 ./find-song-id "joel"
 # → all Billy Joel songs
 ```
+
+Key-variant grouping reuses `SongId.toGroupKey()` from the domain model (the
+same rule the rest of the app uses), so there is no duplicated regex. If a song
+exists only as a key variant with no base version in the catalog, it is flagged
+`[!]` as an orphan — a data-integrity issue to fix before using the ID in a
+setlist. Exits with code 1 if nothing matches.
 
 ### `list-gigs`
 
