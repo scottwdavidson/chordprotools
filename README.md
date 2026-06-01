@@ -372,9 +372,9 @@ automatically — nobody has to remember to run `./build`, and you can never
 accidentally run yesterday's code. (Rebuild messages go to stderr, so piped
 or redirected command output stays clean.)
 
-> **Note:** `find-song-id` and `list-gigs` are inline Python scripts and
-> `tidy-*`, `fix-*`, `copy*Setlist`, `lint-cho.zsh` are pure shell — none of
-> these touch the JAR.
+> **Note:** `tidy-*`, `fix-*`, `copy*Setlist`, `lint-cho.zsh`, and `find-song`
+> are pure shell — none of these touch the JAR. (All the catalog/gig commands,
+> including `find-song-id` and `list-gigs`, are Java and go through `cpt`.)
 
 ---
 
@@ -780,8 +780,11 @@ setlist. Exits with code 1 if nothing matches.
 
 ### `list-gigs`
 
+**Java command** (`list-gigs` → `ListGigsCommand` / `ListGigsService`).
 List every gig slug in `gigs.csv` with a song count. Quick reference before
-running `copy-gig` or `export-setlist`.
+running `copy-gig` or `export-setlist`. Reuses `SetlistAssignmentsPort` — the
+same reader every other gig command uses — rather than parsing the CSV directly.
+Gigs are sorted by slug (date-first slugs sort chronologically).
 
 ```zsh
 ./list-gigs
