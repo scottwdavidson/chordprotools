@@ -350,8 +350,8 @@ directly with `java -jar` — typically under **1 second**.
 
 | Script | Purpose |
 |---|---|
-| `./build` | Compile + package the fat JAR (`mvn package -DskipTests`). Run after code changes. |
-| `./cpt <command> [args]` | Internal launcher. Runs the JAR directly; builds it automatically if missing; warns if Java sources are newer than the JAR. |
+| `./build` | Compile + package the fat JAR (`mvn package -DskipTests`). Run manually any time; also called automatically by `cpt`. |
+| `./cpt <command> [args]` | Internal launcher. Runs the JAR directly; **auto-rebuilds** it whenever it's missing or out of date, so the code you run always matches the code on disk. |
 
 You rarely call these directly — every command shim (`./export-setlist`,
 `./deploy-rc500`, …) delegates to `./cpt`. The flow:
@@ -359,13 +359,16 @@ You rarely call these directly — every command shim (`./export-setlist`,
 ```
 ./deploy-rc500 --gig …
    └─► ./cpt deploy-rc500 --gig …
-          ├─ JAR missing?        → ./build, then run
-          ├─ sources newer?      → warn "run ./build", run anyway
-          └─ up to date          → java -jar … (fast path)
+          ├─ JAR missing or out of date?  → ./build, then run
+          └─ up to date                   → java -jar … (fast path)
 ```
 
-After editing any Java code, run `./build` once to refresh the JAR. If you
-forget, the next command will warn you that sources are newer than the JAR.
+**Never goes stale.** “Out of date” means any file under `src/main`, or
+`pom.xml`, is newer than the JAR. So after a plain `git pull` that changes
+code, resources, or dependencies, the very next command rebuilds
+automatically — nobody has to remember to run `./build`, and you can never
+accidentally run yesterday's code. (Rebuild messages go to stderr, so piped
+or redirected command output stays clean.)
 
 > **Note:** `find-song-id` and `list-gigs` are inline Python scripts and
 > `tidy-*`, `fix-*`, `copy*Setlist`, `lint-cho.zsh` are pure shell — none of

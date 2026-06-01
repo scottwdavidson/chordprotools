@@ -5,10 +5,14 @@
 # `mvn spring-boot:run`, which avoids Maven's startup overhead on every call
 # (~5-10s → <1s).
 #
-# Behaviour:
+# Behaviour ("never go stale"):
 #   - JAR missing            → build it automatically, then run
-#   - Java sources newer     → warn (JAR is stale), then run anyway
-#   - everything up to date  → run immediately
+#   - JAR out of date        → rebuild it automatically, then run
+#   - everything up to date  → run immediately (fast path)
+#
+# "Out of date" = any file under src/main, or pom.xml, is newer than the JAR.
+# This means a plain `git pull` that changes code, resources, or dependencies
+# is picked up automatically — you never have to remember to run ./build.
 #
 # You normally never call this directly — the command shims (export-setlist,
 # deploy-rc500, etc.) delegate to it. But you can:
@@ -22,12 +26,22 @@ jar_path() {
   ls "$DIR"/target/chordpro-parser-*.jar 2>/dev/null | grep -v '\.original$' | head -1
 }
 
+# Is a rebuild needed? True if no JAR, or any source/pom is newer than the JAR.
+needs_build() {
+  local jar="$1"
+  [[ -z "$jar" ]] && return 0
+  [[ -n "$(find "$DIR/src/main" "$DIR/pom.xml" -newer "$jar" -type f -print -quit 2>/dev/null)" ]]
+}
+
 JAR=$(jar_path)
 
-# 1. No JAR yet → build it.
-if [[ -z "$JAR" ]]; then
-  echo "⚙  No JAR found — building first (one-time)..."
-  "$DIR/build"
+if needs_build "$JAR"; then
+  if [[ -z "$JAR" ]]; then
+    echo "⚙  No JAR found — building first (one-time)..." >&2
+  else
+    echo "⚙  Sources changed since last build — rebuilding..." >&2
+  fi
+  "$DIR/build" >&2
   JAR=$(jar_path)
   if [[ -z "$JAR" ]]; then
     echo "✗  Build did not produce a JAR. Run ./build to see the error." >&2
@@ -35,11 +49,4 @@ if [[ -z "$JAR" ]]; then
   fi
 fi
 
-# 2. Stale check — any source file newer than the JAR?
-if [[ -n "$(find "$DIR/src/main" -newer "$JAR" -name '*.java' -print -quit 2>/dev/null)" ]]; then
-  echo "⚠  Java sources are newer than the JAR — it may be out of date." >&2
-  echo "   Run ./build to recompile.  (Running the existing JAR for now.)" >&2
-fi
-
-# 3. Run it.
 exec java -jar "$JAR" "$@"
