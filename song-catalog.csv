@@ -136,6 +136,7 @@ Beautiful Sunday,Daniel Boone,C,3:00,120,,,P55,,,,,,DEF:D:DanielBoone:BeautifulS
 Hold My Hand,Hootie (Darius Rucker) and the Blowfish,B,3:35,101,,,,,,,,,DEF:D:DariusRucker:HoldMyHand,
 Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,,DEF:D:DariusRucker:WagonWheel,Wagon Wheel
 Leap Of Faith,Delbert McClinton,B,,,,,,,,,,,DEF:D:DelbertMcClinton:LeapOfFaith,
+Enjoy the Silence,Depeche Mode,Bm,,,,,,,,,,,DEF:D:DepecheMode:EnjoyTheSilence,
 One More Day,Diamond Rio,E,3:45,100,,,,,,,,,DEF:D:DiamondRio:OneMoreDay,
 Heartbreaker,Dionne Warwick / Bee Gees,G,,,,,,,,,,,DEF:D:DioneWarwick:HeartBreaker,
 Then Came You,Dionne Warwick,F,3:00,116,4,RC,M23,,,,,,DEF:D:DioneWarwick:ThenCameYou,Then  Came
@@ -220,6 +221,7 @@ The Air That I Breathe,The Hollies,C,,,,,,,,,,,GHI:H:Hollies:TheAirThatIBreathe,
 And We Danced,The Hooters,A,3:45,144,8,RC,P31,,,G,,,GHI:H:Hooters:AndWeDanced,And WeDance
 And We Danced,The Hooters,G,3:45,144,8,RC,P31,,,G,,,GHI:H:Hooters:AndWeDanced-g,And WeDance
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,,GHI:H:HueyLewis:DoYouBelieveInLove,
+Don't You Want Me,The Human League,Am,,,,,,,,,,,GHI:H:HumanLeague:DontYouWantMe,
 Need You Tonight,INXS,C,2:55,109,,,,,,,,,GHI:I:INXS:NeedYouTonight,
 Call Me The Breeze,J.J. Cale,F#,3:10,180,,,,,,,,,JKL:J:JJCale:CallMeTheBreeze,
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,,JKL:J:JJCale:SensitiveKind,
@@ -351,6 +353,7 @@ I Don't Like To Sleep Alone,Paul Anka,Bb,3:00,75,,,,,,,,,PQR:P:PaulAnka:IDontLik
 Silly Love Songs,Paul McCartney,C,,,,,,,,,,,PQR:P:PaulMcCartney:SillyLoveSongs,
 Kodachrome,Paul Simon,D,,136,,,,,,,,,PQR:P:PaulSimon:Kodachrome,
 You Have The Right To Remain Silent,Perfect Stranger,G,,,,,,,,,,,PQR:P:PerfectStranger:YouHaveTheRightToRemainSilent,
+West End Girls,Pet Shop Boys,Dm,,,,,,,,,,,PQR:P:PetShopBoys:WestEndGirls,
 Let My Love Open The Door,Pete Townsend,A,2:30,165,8,RC,M51,,U35,A,,,PQR:P:PeteTownsend:LetMyLoveOpenTheDoor,Let MyLove
 Baby I Love Your Way,Peter Frampton,G,3:40,78,,,,,,,,,PQR:P:PeterFrampton:BabyILoveYourWay,
 I'm In You,Peter Frampton,C,4:00,99,,,,,,C,,,PQR:P:PeterFrampton:ImInYou,
