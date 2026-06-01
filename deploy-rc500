@@ -1,3 +1,11 @@
 #!/bin/zsh
-mvn -q spring-boot:run \
-  -Dspring-boot.run.arguments="deploy-rc500 $*"
+# Generates a timestamped shell script (deploy-rc500-<timestamp>.sh) with cp
+# commands to copy backing.wav / click.wav files to the RC-500.
+#
+# Usage:
+#   ./deploy-rc500
+#   ./deploy-rc500 --gig 2026-06-14-rusty-nail
+#   ./deploy-rc500 --gig 2026-06-14-rusty-nail --source /path/to/lib --target /Volumes/RC-500
+#   ./deploy-rc500 --output-dir ~/Desktop
+
+"${0:a:h}/cpt" deploy-rc500 "$@"

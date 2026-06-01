@@ -6,5 +6,4 @@
 #   ./import-song cho/ABC/B/BillyJoel/MovingOut.cho
 #   ./import-song --dry-run cho/ABC/B/BillyJoel/MovingOut.cho
 
-mvn -q spring-boot:run \
-  -Dspring-boot.run.arguments="import-song $*"
+"${0:a:h}/cpt" import-song "$@"

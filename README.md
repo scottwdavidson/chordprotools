@@ -341,6 +341,36 @@ Quick help at any time:
 ./help
 ```
 
+### How commands run (build once, run fast)
+
+The Java-backed command shims do **not** run `mvn spring-boot:run` on every
+invocation (which adds ~5–10s of Maven overhead each time). Instead they
+delegate to an internal launcher, **`cpt`**, which runs the packaged fat JAR
+directly with `java -jar` — typically under **1 second**.
+
+| Script | Purpose |
+|---|---|
+| `./build` | Compile + package the fat JAR (`mvn package -DskipTests`). Run after code changes. |
+| `./cpt <command> [args]` | Internal launcher. Runs the JAR directly; builds it automatically if missing; warns if Java sources are newer than the JAR. |
+
+You rarely call these directly — every command shim (`./export-setlist`,
+`./deploy-rc500`, …) delegates to `./cpt`. The flow:
+
+```
+./deploy-rc500 --gig …
+   └─► ./cpt deploy-rc500 --gig …
+          ├─ JAR missing?        → ./build, then run
+          ├─ sources newer?      → warn "run ./build", run anyway
+          └─ up to date          → java -jar … (fast path)
+```
+
+After editing any Java code, run `./build` once to refresh the JAR. If you
+forget, the next command will warn you that sources are newer than the JAR.
+
+> **Note:** `find-song-id` and `list-gigs` are inline Python scripts and
+> `tidy-*`, `fix-*`, `copy*Setlist`, `lint-cho.zsh` are pure shell — none of
+> these touch the JAR.
+
 ---
 
 ## 5. Commands
@@ -818,6 +848,9 @@ chordprotools/
 │
 ├── song-catalog.csv             # Master song catalog (15 cols) — edit in a spreadsheet
 ├── gigs.csv                     # Gig assignments (GIG, SONG ID, SET, RC SLOT) — edit in a spreadsheet
+│
+├── build                        # Compile + package the fat JAR (run after code changes)
+├── cpt                          # Internal launcher — runs the JAR directly (java -jar), auto-builds if missing
 │
 ├── import-song                  # Register a new .cho file in the catalog
 ├── verify-catalog               # Check catalog ↔ .cho file consistency

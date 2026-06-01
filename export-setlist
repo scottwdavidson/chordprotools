@@ -6,5 +6,4 @@
 #   ./export-setlist --gig 2026-06-14-rusty-nail            # specific gig
 #   ./export-setlist --gig 2026-06-14-rusty-nail --output ./gig-2026-06-14.csv
 
-mvn -q spring-boot:run \
-  -Dspring-boot.run.arguments="export-setlist $*"
+"${0:a:h}/cpt" export-setlist "$@"

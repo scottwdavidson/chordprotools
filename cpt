@@ -1,0 +1,45 @@
+#!/bin/zsh
+# Internal launcher for all Java-backed chordprotools commands.
+#
+# Runs the packaged fat JAR directly (java -jar) instead of going through
+# `mvn spring-boot:run`, which avoids Maven's startup overhead on every call
+# (~5-10s → <1s).
+#
+# Behaviour:
+#   - JAR missing            → build it automatically, then run
+#   - Java sources newer     → warn (JAR is stale), then run anyway
+#   - everything up to date  → run immediately
+#
+# You normally never call this directly — the command shims (export-setlist,
+# deploy-rc500, etc.) delegate to it. But you can:
+#   ./cpt deploy-rc500 --gig 2026-06-14-rusty-nail
+#   ./cpt --help
+
+set -euo pipefail
+DIR="${0:a:h}"
+
+jar_path() {
+  ls "$DIR"/target/chordpro-parser-*.jar 2>/dev/null | grep -v '\.original$' | head -1
+}
+
+JAR=$(jar_path)
+
+# 1. No JAR yet → build it.
+if [[ -z "$JAR" ]]; then
+  echo "⚙  No JAR found — building first (one-time)..."
+  "$DIR/build"
+  JAR=$(jar_path)
+  if [[ -z "$JAR" ]]; then
+    echo "✗  Build did not produce a JAR. Run ./build to see the error." >&2
+    exit 1
+  fi
+fi
+
+# 2. Stale check — any source file newer than the JAR?
+if [[ -n "$(find "$DIR/src/main" -newer "$JAR" -name '*.java' -print -quit 2>/dev/null)" ]]; then
+  echo "⚠  Java sources are newer than the JAR — it may be out of date." >&2
+  echo "   Run ./build to recompile.  (Running the existing JAR for now.)" >&2
+fi
+
+# 3. Run it.
+exec java -jar "$JAR" "$@"

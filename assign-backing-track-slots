@@ -1,3 +1,9 @@
 #!/bin/zsh
-mvn spring-boot:run \
-  -Dspring-boot.run.arguments="assign-backing-track-slots ${1:+--output $1}"
+# Assign RC-500 backing-track slots for a gig.
+# Writes slots to gigs.csv, patches .cho files, regenerates setlist.csv.
+#
+# Usage:
+#   ./assign-backing-track-slots
+#   ./assign-backing-track-slots <output-file>
+
+"${0:a:h}/cpt" assign-backing-track-slots ${1:+--output $1}

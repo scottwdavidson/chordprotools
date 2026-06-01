@@ -5,5 +5,4 @@
 # Usage:
 #   ./verify-catalog
 
-mvn -q spring-boot:run \
-  -Dspring-boot.run.arguments="verify-catalog"
+"${0:a:h}/cpt" verify-catalog "$@"

@@ -1,6 +1,6 @@
 # KINO_CONTEXT — chordprotools
 # Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-05-29 (session 14)
+# Last updated: 2026-06-01 (session 15)
 
 ---
 
@@ -188,8 +188,12 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 
 ## SHELL SCRIPTS (root of repo)
 
+**Execution model (session 15):** Java-backed shims no longer call `mvn spring-boot:run` (slow, ~5-10s). They delegate to `./cpt`, which runs the packaged fat JAR directly via `java -jar` (<1s). `./cpt` auto-builds if the JAR is missing and warns if `src/main` Java sources are newer than the JAR. `./build` does `mvn package -DskipTests`. Run `./build` after editing Java code.
+
 | Script | What |
 |---|---|
+| `./build` | compile + package fat JAR (`mvn package -DskipTests`); run after code changes |
+| `./cpt <cmd> [args]` | internal launcher: `java -jar target/chordpro-parser-*.jar`; auto-builds if JAR missing; warns if sources newer than JAR |
 | `./import-song <path> [--dry-run]` | register a new .cho file in song-catalog.csv |
 | `./verify-catalog` | check all catalog entries against their .cho files; report MISSING FILE / DRIFT |
 | `./update-song <path>` | single song catalog→.cho |
@@ -376,6 +380,7 @@ All 111 labelled rows in catalog pass as of session 5.
 - **verify-catalog (session 12)**: Fully implemented. Reports MISSING FILE and DRIFT per row. RC SLOT intentionally excluded from comparison.
 - **export-setlist --verbose (session 13)**: Default output excludes Z-set backup songs (fan setlist). `--verbose`/`-v` flag includes backup; adds a visual section separator. `ExportSetlistUseCase.exportSetlist()` gains `includeBackup` boolean.
 - **deploy-rc500 (session 14, refactored session 14)**: Java picocli command (`GenerateRc500DeployScriptCommand` / `GenerateRc500DeployScriptService`) — NOT a shell script. Generates `deploy-rc500-<timestamp>.sh` containing pure `cp` commands (no `mkdir`, no logic) so user can review, trim, and run. Key-variant stripped via `SongId.getTitle()` (already the base title). Assignments sorted by RC slot number. `backing.wav` missing at generation time → `⚠ WARNING` comment block, `cp` commented out. `click.wav` missing → `# INFO` comment, line omitted. No RC slot → silently skipped. Config: `chordprotools.backing-source-root` + `chordprotools.rc500-target-root` in `application.properties` (blank defaults, machine-specific); `--source`/`--target` CLI flags override. Options: `--gig`/`-g`, `--source`/`-s`, `--target`/`-t`, `--output-dir`/`-o`. Generated scripts are gitignored (`deploy-rc500-*.sh`). `ChordproRc500Config` is the new config bean. Shell script `deploy-rc500` is a 3-line shim like all other commands.
+- **Fast command execution / build+cpt launcher (session 15)**: Created `./build` (`mvn package -DskipTests`, ~4s) and `./cpt` (internal launcher running `java -jar target/chordpro-parser-*.jar`, <1s vs ~5-10s for `mvn spring-boot:run`). `./cpt`: auto-builds if JAR missing; warns (stderr) if any `src/main/**/*.java` is newer than the JAR (via `find -newer`); `exec java -jar` for the run. All 9 Java-backed shims (`verify-catalog`, `update-songs`, `update-song`, `export-setlist`, `import-song`, `copy-gig`, `assign-backing-track-slots`, `deploy-rc500`, `help`) rewritten as 1-line delegations: `"${0:a:h}/cpt" <command> "$@"`. JAR name resolved by glob (version-agnostic), filtering `.original`. `target/` already gitignored. NOT touched: `find-song-id` + `list-gigs` (inline Python), `tidy-*`/`fix-*`/`copy*Setlist`/`lint-cho.zsh`/`find-song` (pure shell), `update-catalog` (references unregistered command, likely dead).
 
 ### Stubbed / not yet implemented
 - **RC-500 `.RC0` command**: `Rc500MemoryBank` infrastructure fully modelled but not wired to any picocli command. (`deploy-rc500` handles audio file deployment via generated scripts; the `.RC0` command would handle memory-bank name/config updates — a separate future capability.)

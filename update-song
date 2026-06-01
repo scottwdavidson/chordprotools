@@ -4,5 +4,4 @@
 # Usage:
 #   ./update-song cho/ABC/B/BillyJoel/MovingOut.cho
 
-mvn -q spring-boot:run \
-  -Dspring-boot.run.arguments="update-song $*"
+"${0:a:h}/cpt" update-song "$@"

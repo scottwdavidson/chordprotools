@@ -1,4 +1,7 @@
-mvn spring-boot:run \
- -Dspring-boot.run.arguments="--help"
+#!/bin/zsh
+# Show the top-level CLI help (all available commands).
+#
+# Usage:
+#   ./help
 
-
+"${0:a:h}/cpt" --help

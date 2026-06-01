@@ -1,2 +1,7 @@
-mvn spring-boot:run \
- -Dspring-boot.run.arguments="update-songs ./updateSongsListing.txt"
+#!/bin/zsh
+# Update all .cho files listed in updateSongsListing.txt from the catalog.
+#
+# Usage:
+#   ./update-songs
+
+"${0:a:h}/cpt" update-songs ./updateSongsListing.txt

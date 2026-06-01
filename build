@@ -1,0 +1,18 @@
+#!/bin/zsh
+# Compiles the project and packages the fat JAR.
+# Run this after making code changes.
+#
+# Usage:
+#   ./build
+
+set -euo pipefail
+DIR="${0:a:h}"
+
+echo "⚙  Building chordprotools..."
+START=$SECONDS
+mvn -q -f "$DIR/pom.xml" package -DskipTests
+ELAPSED=$(( SECONDS - START ))
+
+JAR=$(ls "$DIR"/target/chordpro-parser-*.jar 2>/dev/null | grep -v '\.original$' | head -1)
+echo "✓  Build complete in ${ELAPSED}s"
+echo "   $JAR"
