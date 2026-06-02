@@ -23,7 +23,7 @@ set -euo pipefail
 DIR="${0:a:h}"
 
 jar_path() {
-  ls "$DIR"/target/chordpro-parser-*.jar 2>/dev/null | grep -v '\.original$' | head -1
+ls "$DIR"/target/chordpro-tools-*.jar 2>/dev/null | grep -v '\.original$' | head -1
 }
 
 # Is a rebuild needed? True if no JAR, or any source/pom is newer than the JAR.

@@ -20,16 +20,16 @@ import picocli.CommandLine.Option;
  *
  * <pre>
  *   # latest gig, fan setlist only (default)
- *   chordpro-parser export-setlist
+ *   chordpro-tools export-setlist
  *
  *   # full list including backup songs
- *   chordpro-parser export-setlist --verbose
+ *   chordpro-tools export-setlist --verbose
  *
  *   # specific gig, verbose
- *   chordpro-parser export-setlist --gig 2026-06-14-rusty-nail --verbose
+ *   chordpro-tools export-setlist --gig 2026-06-14-rusty-nail --verbose
  *
  *   # custom output path
- *   chordpro-parser export-setlist --output ./rusty-nail-setlist.csv
+ *   chordpro-tools export-setlist --output ./rusty-nail-setlist.csv
  * </pre>
  */
 @Component

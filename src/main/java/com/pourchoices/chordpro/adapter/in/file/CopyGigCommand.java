@@ -17,10 +17,10 @@ import picocli.CommandLine.Parameters;
  * <p>Usage examples:
  * <pre>
  *   # copy last month's gig to the next one
- *   chordpro-parser copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail
+ *   chordpro-tools copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail
  *
  *   # replace an already-started target gig
- *   chordpro-parser copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail --force
+ *   chordpro-tools copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail --force
  * </pre>
  */
 @Component

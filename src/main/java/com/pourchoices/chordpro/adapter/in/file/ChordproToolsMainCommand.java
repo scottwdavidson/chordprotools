@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import picocli.CommandLine.Command;
 
 @Component
-@Command(name = "chordpro-parser",
+@Command(name = "chordpro-tools",
         mixinStandardHelpOptions = true,
         subcommands = {
                 ImportNewSongCommand.class,

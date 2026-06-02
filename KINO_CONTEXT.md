@@ -193,7 +193,7 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 | Script | What |
 |---|---|
 | `./build` | compile + package fat JAR (`mvn package -DskipTests`); run after code changes |
-| `./cpt <cmd> [args]` | internal launcher: `java -jar target/chordpro-parser-*.jar`; auto-rebuilds if JAR missing or any src/main file or pom.xml is newer than JAR (never stale) |
+| `./cpt <cmd> [args]` | internal launcher: `java -jar target/chordpro-tools-*.jar`; auto-rebuilds if JAR missing or any src/main file or pom.xml is newer than JAR (never stale) |
 | `./import-song <path> [--dry-run]` | register a new .cho file in song-catalog.csv |
 | `./verify-catalog` | check all catalog entries against their .cho files; report MISSING FILE / DRIFT |
 | `./update-song <path>` | single song catalog→.cho |

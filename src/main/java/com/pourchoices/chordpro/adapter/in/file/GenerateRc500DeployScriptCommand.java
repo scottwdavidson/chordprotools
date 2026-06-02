@@ -22,15 +22,15 @@ import java.nio.file.Paths;
  * <p>Usage:
  * <pre>
  *   # Generate for the latest gig, using application.properties defaults:
- *   chordpro-parser deploy-rc500
+ *   chordpro-tools deploy-rc500
  *
  *   # Specific gig, override paths at the command line:
- *   chordpro-parser deploy-rc500 --gig 2026-06-14-rusty-nail \
+ *   chordpro-tools deploy-rc500 --gig 2026-06-14-rusty-nail \
  *       --source /Volumes/G-DRIVE/BackingTracks \
  *       --target /Volumes/RC-500
  *
  *   # Write the generated script to a specific directory:
- *   chordpro-parser deploy-rc500 --output-dir ~/Desktop
+ *   chordpro-tools deploy-rc500 --output-dir ~/Desktop
  * </pre>
  */
 @Component

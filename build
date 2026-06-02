@@ -13,6 +13,6 @@ START=$SECONDS
 mvn -q -f "$DIR/pom.xml" package -DskipTests
 ELAPSED=$(( SECONDS - START ))
 
-JAR=$(ls "$DIR"/target/chordpro-parser-*.jar 2>/dev/null | grep -v '\.original$' | head -1)
+JAR=$(ls "$DIR"/target/chordpro-tools-*.jar 2>/dev/null | grep -v '\.original$' | head -1)
 echo "✓  Build complete in ${ELAPSED}s"
 echo "   $JAR"

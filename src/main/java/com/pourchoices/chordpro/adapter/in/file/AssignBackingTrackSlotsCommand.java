@@ -21,9 +21,9 @@ import picocli.CommandLine.Option;
  *
  * <p>Usage:
  * <pre>
- *   chordpro-parser assign-backing-track-slots
- *   chordpro-parser assign-backing-track-slots --gig 2026-06-14-rusty-nail
- *   chordpro-parser assign-backing-track-slots --gig 2026-06-14-rusty-nail --output ./rusty-nail-setlist.csv
+ *   chordpro-tools assign-backing-track-slots
+ *   chordpro-tools assign-backing-track-slots --gig 2026-06-14-rusty-nail
+ *   chordpro-tools assign-backing-track-slots --gig 2026-06-14-rusty-nail --output ./rusty-nail-setlist.csv
  * </pre>
  */
 @Component

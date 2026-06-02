@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pourchoices</groupId>
-    <artifactId>chordpro-parser</artifactId>
+    <artifactId>chordpro-tools</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chordpro</name>
-    <description>Demo project for Spring Boot</description>
+    <name>chordpro-tools</name>
+    <description>Command-line tools for managing a ChordPro song catalog</description>
     <url/>
     <licenses>
         <license/>
