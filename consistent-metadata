@@ -1,0 +1,13 @@
+#!/bin/zsh
+# Check that key-variants of a song share consistent catalog metadata.
+# Everything must match except KEY and CAPO (the per-variant levers); the
+# performance key MUST match. Also flags filename/key mismatches.
+#
+# Dry-run by default. Exits non-zero if any issues are found.
+#
+# Usage:
+#   ./consistent-metadata                  # report only
+#   ./consistent-metadata --fix            # fix drift from base variants
+#   ./consistent-metadata --fix --source ABC:B:BobSeger:HollywoodNights-b
+
+"${0:a:h}/cpt" consistent-metadata "$@"

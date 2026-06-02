@@ -28,6 +28,7 @@ change freely gig to gig without touching song metadata.
 5. [Commands](#5-commands)
    - [import-song](#import-song)
    - [verify-catalog](#verify-catalog)
+   - [consistent-metadata](#consistent-metadata)
    - [update-song / update-songs](#update-song--update-songs)
    - [assign-backing-track-slots](#assign-backing-track-slots)
    - [copy-gig](#copy-gig)
@@ -329,6 +330,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 |---|---|---|
 | `./import-song` | `import-song` | Register a new `.cho` file in `song-catalog.csv` (SONG ID derived from file path) |
 | `./verify-catalog` | `verify-catalog` | Check every `song-catalog.csv` entry against its `.cho` file; report MISSING FILE or DRIFT |
+| `./consistent-metadata` | `consistent-metadata` | Check key-variants of a song share consistent metadata (all but key/capo); `--fix` to repair drift |
 | `./update-song` | `update-song` | Push catalog metadata into a song (by song ID) and all its key-variants |
 | `./update-songs` | `update-songs` | Push catalog metadata into a batch of songs (by song ID) |
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Assign RC-500 slot numbers for the gig; writes to `gigs.csv` + patches `.cho` files; regenerates `setlist.csv` |
@@ -472,6 +474,54 @@ Use `verify-catalog` as a sanity check after any bulk operation (e.g. after
 running `update-songs` or after manually editing `.cho` files). Note that
 `RC SLOT` is intentionally excluded from the comparison — it is a per-gig
 assignment owned by `gigs.csv`, not a song property.
+
+---
+
+### `consistent-metadata`
+
+**Script:** `./consistent-metadata [--fix] [--source <song-id>]`
+
+A periodic "tidy" check that key-variants of the **same song** agree on their
+metadata. Two key-variants (e.g. `HollywoodNights.cho` in E and
+`HollywoodNights-b.cho` in B) are the same song in different keys, so all their
+catalog metadata should be identical — the *only* legitimate differences are
+the written **key** and the **capo**.
+
+> **Performance key is an invariant.** The performance key is the *sounding*
+> key everyone actually plays in, so it must match across variants. Example:
+> the standard variant is written in key **C** with no capo; the guitarist's
+> variant is written in **B♭** with **capo 2**. Both sound in **C**, so the
+> performance key is **C** for both. Only `key` and `capo` may differ.
+
+It scans the whole catalog and reports two classes of issue:
+
+| Issue | Meaning |
+|---|---|
+| `DRIFT` | A field other than KEY/CAPO differs between variants (incl. performance key) |
+| `FILENAME/KEY` | A variant's filename key suffix (e.g. `-b`) disagrees with its `{key:}` (enharmonic-aware) |
+
+```zsh
+./consistent-metadata
+# → [DRIFT] ABC:B:BobSeger:HollywoodNights
+# →   ABC:B:BobSeger:HollywoodNights  vs  ABC:B:BobSeger:HollywoodNights-b
+# →       COUNTIN  '8'  vs  ''
+# → consistent-metadata: 42 group(s) with variants, ... , 19 issue(s)
+```
+
+**Dry-run by default.** Exits with the number of issue groups (CI-friendly).
+
+**`--fix`** repairs `DRIFT` by copying the shared metadata from a source-of-
+truth variant into `song-catalog.csv` (then run `update-song <groupId>` to push
+it into the `.cho` files — it fans out to all variants). The source defaults to
+each group's base (standard-key) variant; override with `--source <song-id>`.
+
+```zsh
+./consistent-metadata --fix
+./consistent-metadata --fix --source ABC:B:BobSeger:HollywoodNights-b
+```
+
+> `FILENAME/KEY` issues are **never auto-fixed** — renaming a file or rewriting
+> a key is a human decision (just do it in git). They are report-only.
 
 ---
 
@@ -880,6 +930,7 @@ chordprotools/
 │
 ├── import-song                  # Register a new .cho file in the catalog
 ├── verify-catalog               # Check catalog ↔ .cho file consistency
+├── consistent-metadata          # Check key-variants share consistent metadata (--fix to repair)
 ├── update-song                  # Push one song's catalog metadata (by song ID) to its .cho file(s)
 ├── update-songs                 # Push a batch of songs (by song ID) from updateSongsListing.txt
 ├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; writes to gigs.csv + patches .cho files + regenerates setlist.csv

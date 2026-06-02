@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -44,6 +43,7 @@ public class VerifyCatalogService implements VerifyCatalogUseCase {
     private final SongParser songParser;
     private final ParsedHeaderToCatalogEntryMapper parsedHeaderMapper;
     private final ChordproCatalogIndexPathConfig catalogConfig;
+    private final CatalogEntryComparator comparator;
 
     @Override
     public int verifyCatalog() {
@@ -74,7 +74,7 @@ public class VerifyCatalogService implements VerifyCatalogUseCase {
             ParsedSong parsed = songParser.parse(filePath, lines);
             CatalogEntry fileEntry = parsedHeaderMapper.toCatalogEntry(filePath, parsed.getParsedHeader());
 
-            List<String> diffs = diff(catalogEntry, fileEntry);
+            List<String> diffs = comparator.diff(catalogEntry, fileEntry, comparator.allFields());
             if (diffs.isEmpty()) {
                 clean++;
             } else {
@@ -91,43 +91,5 @@ public class VerifyCatalogService implements VerifyCatalogUseCase {
         }
 
         return issues;
-    }
-
-    // ── Field-by-field diff ──────────────────────────────────────────────────
-
-    private List<String> diff(CatalogEntry catalog, CatalogEntry file) {
-        List<String> diffs = new ArrayList<>();
-        check(diffs, "TITLE",        catalog.getTitle(),                   file.getTitle());
-        check(diffs, "ARTIST",       catalog.getArtist(),                  file.getArtist());
-        check(diffs, "KEY",          catalog.getKey(),                     file.getKey());
-        check(diffs, "DURATION",     catalog.getDuration(),                file.getDuration());
-        check(diffs, "TEMPO",        catalog.getTempo(),                   file.getTempo());
-        check(diffs, "TIME SIG",     catalog.getTimeSignature(),           file.getTimeSignature());
-        check(diffs, "CAPO",         catalog.getCapo(),                    file.getCapo());
-        check(diffs, "COUNTIN",      catalog.getCountin(),                 file.getCountin());
-        check(diffs, "NORD",         catalog.getNord(),                    file.getNord());
-        check(diffs, "ROLAND",       catalog.getRoland(),                  file.getRoland());
-        check(diffs, "VE",           catalog.getVe(),                      file.getVe());
-        check(diffs, "BACKING",      backingStr(catalog),                  backingStr(file));
-        // RC SLOT is a per-gig assignment (lives in gigs.csv) — not compared here
-        check(diffs, "SONG LABEL",   catalog.getSongLabel(),               file.getSongLabel());
-        check(diffs, "PERF KEY",     catalog.getPerformanceKey(),          file.getPerformanceKey());
-        return diffs;
-    }
-
-    private void check(List<String> diffs, String field, String catalog, String file) {
-        String c = normalise(catalog);
-        String f = normalise(file);
-        if (!c.equals(f)) {
-            diffs.add(String.format("%-12s catalog='%s'  file='%s'", field, c, f));
-        }
-    }
-
-    private static String normalise(String value) {
-        return value == null ? "" : value.trim();
-    }
-
-    private static String backingStr(CatalogEntry e) {
-        return e.getBackingType() != null ? e.getBackingType().name() : "";
     }
 }
