@@ -145,15 +145,18 @@ sequenceDiagram
 
 ### 4.2 `update-song`
 
-**Purpose:** Pushes the catalog metadata for **one** song back into its `.cho`
-file, updating the header block in place.  Preserves the body (chords/lyrics)
-and all user-managed catalog columns (`SET`, etc.).  No-ops if the parsed
-header already matches.
+**Purpose:** Pushes the catalog metadata for a song back into its `.cho`
+file(s), updating the header block in place.  Identified by **song ID**, not a
+file path.  Because song metadata (duration, count-in, tempo, …) is shared
+across key-variants, a single invocation fans out to the base file **and every
+key-variant** in the same song group.  Preserves the body (chords/lyrics) and
+the gig-specific `RC_SLOT`.  No-ops per file if the parsed header already
+matches.
 
 **Usage:**
 ```bash
 mvn spring-boot:run \
-  -Dspring-boot.run.arguments="update-song ./cho/ABC/B/BillyJoel/MyLife.cho"
+  -Dspring-boot.run.arguments="update-song ABC:B:BillyJoel:MyLife"
 ```
 
 ```mermaid
@@ -172,18 +175,18 @@ sequenceDiagram
     participant SP   as SongParser
     participant CPFW as ChordProFileWriter
 
-    User ->> Cmd  : update-song path/to/Song.cho
-    Cmd  ->> Svc  : updateSong(path)
+    User ->> Cmd  : update-song ABC:B:Artist:Title
+    Cmd  ->> Svc  : updateSong(songId)
 
     rect rgb(30,60,90)
-        Note over Svc,CFR: Phase 1 — load catalog entry
+        Note over Svc,CFR: Phase 1 — load catalog & select song group
         Svc  ->> CatP : readCatalogFromCsv(catalogPath)
         CatP ->> CatA : readCatalogFromCsv(catalogPath)
         CatA ->> CFR  : readCatalogFromCsv(catalogPath)
-        CFR  -->> CatA: Map filename → CatalogEntry
-        CatA -->> CatP: Map filename → CatalogEntry
-        CatP -->> Svc : Map filename → CatalogEntry
-        Note over Svc : look up entry by filename key
+        CFR  -->> CatA: Map songId → CatalogEntry
+        CatA -->> CatP: Map songId → CatalogEntry
+        CatP -->> Svc : Map songId → CatalogEntry
+        Note over Svc : select all entries sharing songId.toGroupKey()
     end
 
     rect rgb(30,80,50)
@@ -228,8 +231,8 @@ sequenceDiagram
 
 ### 4.3 `update-songs`
 
-**Purpose:** Batch version of `update-song`. Reads a text file listing `.cho`
-paths and calls `UpdateSongService` for each one in order.
+**Purpose:** Batch version of `update-song`. Reads a text file listing **song
+IDs** and calls `UpdateSongService` for each one in order.
 
 **Usage:**
 ```bash
@@ -267,7 +270,7 @@ sequenceDiagram
     rect rgb(30,80,50)
         Note over Svc,USS: Phase 2 — delegate to UpdateSongService per file
         loop each chordProFilename
-            Svc ->> USS : updateSong(chordProFilename)
+            Svc ->> USS : updateSong(SongId.parse(line))
             Note over USS: full update-song flow (see §4.2)
             USS -->> Svc: done
         end

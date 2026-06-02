@@ -252,9 +252,9 @@ The `getBacking()` accessor on a setlist entry returns:
 ./import-song cho/ABC/B/BillyJoel/MovingOut.cho             # add to catalog
 #
 # 3. Open song-catalog.csv in Google Sheets, fill in remaining metadata
-# 4. Save CSV → tidy → push metadata back to the file:
+# 4. Save CSV → tidy → push metadata back to the file (by SONG ID):
 ./tidy-song-catalog
-./update-song cho/ABC/B/BillyJoel/MovingOut.cho
+./update-song ABC:B:BillyJoel:MovingOut
 #
 # 5. Confirm catalog and file agree:
 ./verify-catalog
@@ -265,7 +265,7 @@ The `getBacking()` accessor on a setlist entry returns:
 ```zsh
 # Edit the row in song-catalog.csv in Sheets, then:
 ./tidy-song-catalog
-./update-song cho/ABC/B/BillyJoel/PianoMan.cho   # or use ./find-song PianoMan to get the path
+./update-song ABC:B:BillyJoel:PianoMan   # or use ./find-song-id PianoMan to get the song ID
 ./verify-catalog
 ```
 
@@ -329,8 +329,8 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 |---|---|---|
 | `./import-song` | `import-song` | Register a new `.cho` file in `song-catalog.csv` (SONG ID derived from file path) |
 | `./verify-catalog` | `verify-catalog` | Check every `song-catalog.csv` entry against its `.cho` file; report MISSING FILE or DRIFT |
-| `./update-song` | `update-song` | Push catalog metadata into one specific `.cho` file |
-| `./update-songs` | `update-songs` | Push catalog metadata into a batch of `.cho` files |
+| `./update-song` | `update-song` | Push catalog metadata into a song (by song ID) and all its key-variants |
+| `./update-songs` | `update-songs` | Push catalog metadata into a batch of songs (by song ID) |
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Assign RC-500 slot numbers for the gig; writes to `gigs.csv` + patches `.cho` files; regenerates `setlist.csv` |
 | `./copy-gig` | `copy-gig` | Clone all gig assignments from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
@@ -477,10 +477,21 @@ assignment owned by `gigs.csv`, not a song property.
 
 ### `update-song` / `update-songs`
 
-**Scripts:** `./update-song <path>`, `./update-songs`
+**Scripts:** `./update-song <song-id>`, `./update-songs`
 
 Reads metadata from `song-catalog.csv` and writes it back into `.cho` file
 headers. This is the primary way catalog edits flow back into the song files.
+
+A song is identified by its **song ID** (e.g. `ABC:B:BillyJoel:PianoMan`), not
+a file path. Because song metadata (duration, count-in, tempo, …) is shared
+across key-variants, a single `update-song` invocation fans out to the base
+file **and every key-variant** in the same song group — change the duration
+once and it lands in all of them.
+
+> **Limitation:** because the argument is a song ID and not a file path, shell
+> **tab-completion no longer works** for it. Use `./find-song-id <fragment>`
+> to look up the song ID you need (it prints the SONG ID column, and annotates
+> songs that have alternate-key variants).
 
 > `update-song` preserves any `{meta: rc-slot: N}` already in the file —
 > a slot assigned by `assign-backing-track-slots` is never erased by a
@@ -489,17 +500,17 @@ headers. This is the primary way catalog edits flow back into the song files.
 **Single song:**
 
 ```zsh
-./update-song cho/ABC/B/BillyJoel/PianoMan.cho
+./update-song ABC:B:BillyJoel:PianoMan
 
-# Find a song's path first if needed:
-./find-song PianoMan
-# → ./cho/ABC/B/BillyJoel/PianoMan.cho
+# Find a song's ID first if needed:
+./find-song-id PianoMan
+# → PianoMan | Billy Joel | C | ABC:B:BillyJoel:PianoMan (+2 variants)
 ```
 
 **Batch:**
 
 ```zsh
-# Edit updateSongsListing.txt — one .cho path per line
+# Edit updateSongsListing.txt — one song ID per line
 ./update-songs
 ```
 
@@ -869,8 +880,8 @@ chordprotools/
 │
 ├── import-song                  # Register a new .cho file in the catalog
 ├── verify-catalog               # Check catalog ↔ .cho file consistency
-├── update-song                  # Push one song's catalog metadata to its .cho file
-├── update-songs                 # Push a batch of songs from updateSongsListing.txt
+├── update-song                  # Push one song's catalog metadata (by song ID) to its .cho file(s)
+├── update-songs                 # Push a batch of songs (by song ID) from updateSongsListing.txt
 ├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; writes to gigs.csv + patches .cho files + regenerates setlist.csv
 ├── copy-gig                     # Clone a gig's assignments to a new gig slug
 ├── export-setlist               # Generate setlist.csv from catalog + assignments

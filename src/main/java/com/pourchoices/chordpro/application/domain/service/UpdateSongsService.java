@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.ChordProFileListing;
+import com.pourchoices.chordpro.application.domain.model.SongId;
 import com.pourchoices.chordpro.application.port.in.UpdateSongsUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,13 +15,14 @@ public class UpdateSongsService implements UpdateSongsUseCase {
     private final UpdateSongService updateSongService;
 
     @Override
-    public void updateSongs(String chordproSongPathString) {
+    public void updateSongs(String songIdsListingPathString) {
 
-        ChordProFileListing chordProFileListing = readSongListService.readSongList(chordproSongPathString);
+        ChordProFileListing chordProFileListing =
+                readSongListService.readSongList(songIdsListingPathString);
 
-        for (String chordProSongPathString : chordProFileListing.getChordProFileNames()) {
+        for (String songIdString : chordProFileListing.getChordProFileNames()) {
 
-            this.updateSongService.updateSong(chordProSongPathString);
+            this.updateSongService.updateSong(SongId.parse(songIdString));
         }
     }
 }

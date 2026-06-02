@@ -1,7 +1,7 @@
 #!/bin/zsh
-# Update a single .cho file from the catalog.
+# Update a song (and all its key-variants) from the catalog, by song ID.
 #
 # Usage:
-#   ./update-song cho/ABC/B/BillyJoel/MovingOut.cho
+#   ./update-song ABC:B:BillyJoel:MyLife
 
 "${0:a:h}/cpt" update-song "$@"

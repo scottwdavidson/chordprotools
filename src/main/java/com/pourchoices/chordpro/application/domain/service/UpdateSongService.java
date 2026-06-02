@@ -6,6 +6,7 @@ import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeader;
 import com.pourchoices.chordpro.application.domain.model.ParsedHeaderLine;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import com.pourchoices.chordpro.application.domain.model.SongId;
 import com.pourchoices.chordpro.application.port.in.UpdateSongUseCase;
 import com.pourchoices.chordpro.application.port.out.CatalogPort;
 import com.pourchoices.chordpro.application.port.out.ChordProPort;
@@ -22,6 +23,10 @@ import java.util.Map;
 
 /**
  * Updates a chordpro song file based on the current song catalog metadata.
+ *
+ * <p>Song metadata (duration, count-in, tempo, …) is shared across all
+ * key-variants of a song, so a single {@link #updateSong(SongId)} call fans
+ * out to the base file and every key-variant in the same song group.
  */
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
@@ -35,21 +40,36 @@ public class UpdateSongService implements UpdateSongUseCase {
     private final CatalogEntryToParsedHeaderMapper catalogEntryToParsedHeaderMapper;
 
     @Override
-    public void updateSong(String chordproSongPathString) {
+    public void updateSong(SongId songId) {
 
-        // load the catalog
+        // load the catalog (keyed by canonical song-ID string)
         Path catalogPath = Paths.get(chordproCatalogIndexPathConfig.getCatalogIndexPath());
         Map<String, CatalogEntry> catalogMap = this.catalogPort.readCatalogFromCsv(catalogPath);
 
-        // find the song to be updated (catalog keyed by song-ID string, not full file path)
-        String songIdString = ChordProPath.toSongId(chordproSongPathString).toString();
-        CatalogEntry catalogEntry = catalogMap.get(songIdString);
+        // Metadata is a property of the song group, not the individual file:
+        // update the base file and every key-variant sharing this group key.
+        String groupKey = songId.toGroupKey();
+        List<CatalogEntry> groupEntries = catalogMap.values().stream()
+                .filter(entry -> entry.getSongId().toGroupKey().equals(groupKey))
+                .toList();
 
-        if (catalogEntry == null) {
-            log.error("Catalog Entry not found for song ID '{}' (derived from path: {})",
-                    songIdString, chordproSongPathString);
+        if (groupEntries.isEmpty()) {
+            log.error("No catalog entries found for song group '{}' (from song ID: {})",
+                    groupKey, songId);
             return;
         }
+
+        groupEntries.forEach(this::updateCatalogEntryFile);
+    }
+
+    /**
+     * Applies a single catalog entry's metadata to its corresponding
+     * {@code .cho} file, preserving any gig-specific RC-slot already present.
+     */
+    private void updateCatalogEntryFile(CatalogEntry catalogEntry) {
+
+        String chordproSongPathString = ChordProPath.toFilePath(catalogEntry.getSongId());
+        log.info("Updating song file: {}", chordproSongPathString);
 
         // map the catalog entry into a parsed header
         ParsedHeader catalogHeader =
@@ -83,7 +103,7 @@ public class UpdateSongService implements UpdateSongUseCase {
      * written directly by {@code assign-backing-track-slots}.
      */
     private ParsedHeader withPreservedRcSlot(ParsedHeader catalogHeader,
-                                              ParsedHeader fileHeader) {
+                                             ParsedHeader fileHeader) {
         ParsedHeaderLine existingRcSlot = fileHeader.getHeaderLines().stream()
                 .filter(l -> l.getHeaderDirective() == HeaderDirective.RC_SLOT)
                 .findFirst()

@@ -1,2 +1,2 @@
-./cho/DEF/D/DwightYokam/LittleSister.cho
-./cho/ABC/B/BarrettStrong/Money.cho
+DEF:D:DwightYokam:LittleSister
+ABC:B:BarrettStrong:Money
