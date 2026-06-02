@@ -523,6 +523,38 @@ each group's base (standard-key) variant; override with `--source <song-id>`.
 > `FILENAME/KEY` issues are **never auto-fixed** — renaming a file or rewriting
 > a key is a human decision (just do it in git). They are report-only.
 
+#### ⚠️ Before you run `--fix` — read this
+
+`--fix` copies the shared fields **from the source variant to the others**. By
+default the source is the **base** (standard-key) variant. This creates one
+important footgun:
+
+> **The "empty base" trap.** If the base variant is *missing* a field that a
+> key-variant *has* (e.g. the base has no performance key but `-g` does), the
+> default `--fix` will copy the base's **empty** value over the variant's good
+> data — wiping it. When the drift report shows `PERF KEY '' vs 'G'` (empty on
+> the base, populated on the variant), do **not** blindly `--fix`. Either fix
+> the base by hand first, or run `--fix --source <the-populated-variant>` so the
+> good value wins.
+
+Recommended workflow:
+
+1. **Commit first.** `--fix` rewrites `song-catalog.csv`; git is your undo.
+2. **Read the dry-run** and bucket the findings:
+   - *Base is correct* → safe to `--fix` (default source).
+   - *Base is empty / variant is correct* → `--fix --source <variant-id>`.
+   - *Both look wrong* (e.g. a malformed value like `Bb (+3)` in a field) → fix
+     by hand in the spreadsheet.
+3. **`--fix`** the safe ones.
+4. **Push to the files:** `./update-song <groupId>` for each fixed song — it
+   fans out the corrected metadata to the base file *and* all key-variants.
+5. **Re-run** `./consistent-metadata` to confirm it's clean.
+
+> **Run order matters.** `consistent-metadata` operates on `song-catalog.csv`.
+> If you've edited the catalog in a spreadsheet, run `./tidy-song-catalog`
+> first. After `--fix`, run `./update-song` (not the other way round) so the
+> `.cho` files receive the corrected catalog values.
+
 ---
 
 ### `update-song` / `update-songs`
