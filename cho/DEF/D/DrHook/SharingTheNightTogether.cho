@@ -1,9 +1,17 @@
 {title: Sharing The Night Together}
 {artist: Dr. Hook}
 {key: C}
+{duration: 2:45}
+{tempo: 154}
+{meta: nord: P11}
+{meta: countin: 8}
+{meta: performance: E}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P11   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: Intro}
 | C | Am | F | G | 
@@ -62,6 +70,8 @@ Y[F]eah, sh[G]aring the night
 And start sh[G]aring the night to[C]gether [Am]whoa
 Y[F]eah, sh[G]aring the night to[C]gether [Am]whoa
 Y[F]eah, sh[G]aring the night to[C]get[Am]her[F]
+Sh[G]aring the night to[C]get[Am]her[F]
+Sh[G]aring the night to[C]get[Am]her[F]
 Sh[G]aring the night to[C]get[Am]her[F]
 Sh[G]aring the night to[C]get[Am]her[F]
 {end_of_chorus}
