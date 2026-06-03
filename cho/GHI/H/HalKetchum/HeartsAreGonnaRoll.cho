@@ -6,7 +6,7 @@
 {meta: nord: P21}
 {meta: countin: 8}
 {meta: backing: RC}
-{meta: rc-slot: 10}
+{meta: rc-slot: 12}
 {meta: label: HeartsGonna}
 {meta: ve: P13}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: P21   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 10   }
+{comment:**  meta: rc-slot: 12   }
 {comment:**  meta: label: HeartsGonna   }
 {comment:**  meta: ve: P13   }
 {comment:***********************************************}
