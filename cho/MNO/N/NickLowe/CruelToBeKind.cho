@@ -6,7 +6,7 @@
 {meta: nord: P11}
 {meta: countin: 8}
 {meta: backing: RC}
-{meta: rc-slot: 9}
+{meta: rc-slot: 16}
 {meta: label: Cruel BeKind}
 {meta: ve: P26}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: P11   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 9   }
+{comment:**  meta: rc-slot: 16   }
 {comment:**  meta: label: Cruel BeKind   }
 {comment:**  meta: ve: P26   }
 {comment:***********************************************}
