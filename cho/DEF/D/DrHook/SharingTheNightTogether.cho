@@ -5,17 +5,21 @@
 {tempo: 154}
 {meta: nord: P11}
 {meta: countin: 8}
+{meta: backing: RC}
+{meta: rc-slot: 93}
 {meta: performance: E}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P11   }
 {comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 93   }
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 
 {comment: Intro}
-| C | Am | F | G | 
-| C | Am | F | G | 
+. | [C] . . . | [Am] . . . | [F] . . . | [G] . . . | 
+. | [C] . . . | [Am] . . . | [F] . . . | [G] . . . | 
 
 {start_of_verse}
 [C]  You're looking kinda [Am]lonely girl

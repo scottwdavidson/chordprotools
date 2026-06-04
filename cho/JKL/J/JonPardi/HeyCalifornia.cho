@@ -5,10 +5,16 @@
 {tempo: 130}
 {meta: nord: P55}
 {meta: countin: 4}
+{meta: backing: RC}
+{meta: rc-slot: 73}
+{meta: label: Hey   Cali}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P55   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 73   }
+{comment:**  meta: label: Hey   Cali   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
