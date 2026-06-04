@@ -27,7 +27,7 @@ import java.util.Map;
  *
  * <p>Gig resolution: uses the explicitly supplied {@code gigParam} when non-blank;
  * otherwise defaults to the lexicographically last GIG value in
- * {@code setlist-assignments.csv} (date-first slugs sort chronologically).
+ * {@code gigs.csv} (date-first slugs sort chronologically).
  *
  * <p>De-duplication of base/variant pairs is delegated to {@link SetlistDeduplicator}.
  * The join between catalog and assignments is delegated to {@link SetlistJoiner}.

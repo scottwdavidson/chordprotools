@@ -13,7 +13,7 @@ import java.util.Map;
  * De-duplicates a list of {@link SetlistEntry} objects that may contain the
  * same song assigned to a gig more than once (human-entry error).
  *
- * <p>Since {@code setlist-assignments.csv} enforces base-version-only SONG IDs,
+ * <p>Since {@code gigs.csv} enforces base-version-only SONG IDs,
  * key-variant collisions cannot occur here.  The only realistic duplicate is the
  * same base SONG ID appearing twice in one gig's assignments (e.g., after a
  * copy-and-edit mistake).  In that case the first occurrence is kept and a

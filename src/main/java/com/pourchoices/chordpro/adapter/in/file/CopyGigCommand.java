@@ -39,7 +39,7 @@ public class CopyGigCommand implements Runnable {
         this.useCase = useCase;
     }
 
-    @Parameters(index = "0", description = "Gig slug to copy from (must exist in setlist-assignments.csv)")
+    @Parameters(index = "0", description = "Gig slug to copy from (must exist in gigs.csv)")
     private String sourceGig;
 
     @Parameters(index = "1", description = "New gig slug to create")
@@ -58,7 +58,7 @@ public class CopyGigCommand implements Runnable {
         try {
             int count = useCase.copyGig(sourceGig, targetGig, force);
             System.out.printf("%nCopied %d song(s) from '%s' to '%s'.%n", count, sourceGig, targetGig);
-            System.out.printf("Edit setlist-assignments.csv in Sheets to reorder or swap songs.%n%n");
+            System.out.printf("Edit gigs.csv in Sheets to reorder or swap songs.%n%n");
         } catch (IllegalArgumentException e) {
             System.err.println("Error: " + e.getMessage());
             System.exit(1);

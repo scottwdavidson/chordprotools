@@ -99,14 +99,14 @@ song-catalog.csv          ← song identity + hardware presets
                              SONG LABEL, PERFORMANCE KEY, CAPO,
                              TIME SIGNATURE, SONG ID)
 
-setlist-assignments.csv   ← gig metadata only
+gigs.csv                  ← gig metadata only
                             (SONG ID, GIG, SET, POSITION, NOTES)
 ```
 
 `song-catalog.csv` is regenerated freely by `generate-song-catalog` — it contains only
 data that can be reconstructed from `.cho` files. No merge-preserve needed, no gotcha.
 
-`setlist-assignments.csv` is pure human input. The tool never overwrites it. Google
+`gigs.csv` is pure human input. The tool never overwrites it. Google
 Sheets opens it alongside the song catalog (two tabs) when planning a setlist.
 
 Commands that need both (e.g. `export-setlist`, `assign-backing-track-slots`) join on
@@ -245,7 +245,7 @@ This is exactly what Option 1 does.
 ### What Option 1 looks like for the guitarist
 
 Working on a setlist for the June gig:
-1. Open `setlist-assignments.csv` in Google Sheets
+1. Open `gigs.csv` in Google Sheets
 2. Add/edit rows: `2026-06-14 Rusty Nail | SongId | A | 3 | play slow intro`
 3. Save → `./tidy-song-catalog`
 4. `./export-setlist --gig "2026-06-14 Rusty Nail"`
@@ -264,7 +264,7 @@ planning data. Mixing these concerns in the same file means every set change req
 touching `.cho` files, which are the band's core musical assets.
 
 Under Option 1, `SET` leaves `HeaderDirective` entirely and lives only in
-`setlist-assignments.csv`. The `.cho` files become purely musical documents. This is
+`gigs.csv`. The `.cho` files become purely musical documents. This is
 a cleaner separation and reduces the blast radius of `update-songs` runs.
 
 ---

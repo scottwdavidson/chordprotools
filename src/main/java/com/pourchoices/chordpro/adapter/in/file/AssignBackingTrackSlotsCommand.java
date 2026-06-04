@@ -46,7 +46,7 @@ public class AssignBackingTrackSlotsCommand implements Runnable {
     @Option(
             names = {"--gig", "-g"},
             description = "Gig slug (e.g. 2026-06-14-rusty-nail). " +
-                          "Defaults to the lexicographically latest gig in setlist-assignments.csv."
+                          "Defaults to the lexicographically latest gig in gigs.csv."
     )
     private String gig;
 

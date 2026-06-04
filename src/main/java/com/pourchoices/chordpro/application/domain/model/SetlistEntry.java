@@ -18,7 +18,7 @@ public class SetlistEntry {
     /** Full song metadata from {@code song-catalog.csv}. */
     CatalogEntry song;
 
-    /** Gig assignment from {@code setlist-assignments.csv}. */
+    /** Gig assignment from {@code gigs.csv}. */
     SetlistAssignment assignment;
 
     // ── Delegates: assignment ────────────────────────────────────────────

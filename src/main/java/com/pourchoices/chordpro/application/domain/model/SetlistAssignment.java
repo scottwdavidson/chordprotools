@@ -7,7 +7,7 @@ import lombok.Value;
 /**
  * Represents a single song's assignment to a specific gig setlist.
  *
- * <p>One row in {@code setlist-assignments.csv}.  The same song may appear in
+ * <p>One row in {@code gigs.csv}.  The same song may appear in
  * many gigs — each occurrence is a distinct {@code SetlistAssignment}.
  *
  * <p>The {@code set} field uses the compound position code (e.g. {@code A01},

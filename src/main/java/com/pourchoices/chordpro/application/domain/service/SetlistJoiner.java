@@ -36,7 +36,7 @@ public class SetlistJoiner {
      * the resulting {@link SetlistEntry} list.
      *
      * @param gigParam      explicit gig slug from the CLI, or {@code null} / blank to auto-resolve
-     * @param allAssignments all rows from {@code setlist-assignments.csv}
+     * @param allAssignments all rows from {@code gigs.csv}
      * @param catalog        the full song catalog keyed by SONG ID string
      * @return joined entries for the resolved gig (may be empty)
      */

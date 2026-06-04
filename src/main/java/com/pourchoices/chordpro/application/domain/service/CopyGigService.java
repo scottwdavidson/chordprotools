@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  *
  * <h3>Guard-rails</h3>
  * <ul>
- *   <li>Source gig must exist in {@code setlist-assignments.csv}.</li>
+ *   <li>Source gig must exist in {@code gigs.csv}.</li>
  *   <li>Target gig must not already have assignments, unless {@code force = true}.</li>
  * </ul>
  */
@@ -47,7 +47,7 @@ public class CopyGigService implements CopyGigUseCase {
 
         if (sourceRows.isEmpty()) {
             throw new IllegalArgumentException(
-                    "Source gig not found in setlist-assignments.csv: '" + sourceGig + "'");
+                    "Source gig not found in gigs.csv: '" + sourceGig + "'");
         }
         log.info("Found {} assignment(s) in source gig '{}'", sourceRows.size(), sourceGig);
 
