@@ -10,76 +10,44 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * De-duplicates a list of {@link SetlistEntry} objects that may contain both a
- * base version and one or more key-variant versions of the same song.
+ * De-duplicates a list of {@link SetlistEntry} objects that may contain the
+ * same song assigned to a gig more than once (human-entry error).
  *
- * <p>Extracted from {@link ExportSetlistService} so that any service that needs
- * a clean, de-duplicated setlist view can reuse the same rules without duplicating
- * logic.
+ * <p>Since {@code setlist-assignments.csv} enforces base-version-only SONG IDs,
+ * key-variant collisions cannot occur here.  The only realistic duplicate is the
+ * same base SONG ID appearing twice in one gig's assignments (e.g., after a
+ * copy-and-edit mistake).  In that case the first occurrence is kept and a
+ * warning is logged.
  *
- * <p>See {@link #deduplicate(List)} for the full decision matrix.
+ * <p>Grouping is done on {@link com.pourchoices.chordpro.application.domain.model.SongId#toGroupKey()}
+ * which is identical to {@code toString()} for base versions, keeping the
+ * implementation consistent with the broader codebase convention.
  */
 @Component
 @Slf4j
 public class SetlistDeduplicator {
 
     /**
-     * De-duplicates entries that are variants of the same song (same parent directory
-     * and base stem) when more than one of those variants has a Set value assigned.
-     *
-     * <p>Decision rules (applied per group sharing the same dir + base stem):
-     * <ul>
-     *   <li><b>No collision</b> – only one entry in the group → keep as-is.</li>
-     *   <li><b>Scenario A</b> – base + variant, same set code → keep base, drop variant [INFO].</li>
-     *   <li><b>Scenario B</b> – only a variant has a set code → single-member group, keep.</li>
-     *   <li><b>Scenario C</b> – base + variant, different set codes → keep base [WARN].</li>
-     *   <li><b>Both variants, same set</b> – keep first [WARN].</li>
-     *   <li><b>Both variants, different sets</b> – keep first [WARN].</li>
-     * </ul>
+     * Returns a de-duplicated list, preserving insertion order.
+     * If the same song appears more than once, the first entry wins and the
+     * rest are logged as warnings.
      */
     public List<SetlistEntry> deduplicate(List<SetlistEntry> entries) {
-        Map<String, List<SetlistEntry>> groups = new LinkedHashMap<>();
+        Map<String, SetlistEntry> seen = new LinkedHashMap<>();
+
         for (SetlistEntry entry : entries) {
-            groups.computeIfAbsent(entry.getSongId().toGroupKey(), k -> new ArrayList<>()).add(entry);
-        }
-
-        List<SetlistEntry> result = new ArrayList<>();
-        for (List<SetlistEntry> group : groups.values()) {
-            if (group.size() == 1) {
-                result.add(group.get(0));
-                continue;
-            }
-
-            List<SetlistEntry> bases    = group.stream().filter(e ->  e.getSongId().isBaseVersion()).toList();
-            List<SetlistEntry> variants = group.stream().filter(e -> !e.getSongId().isBaseVersion()).toList();
-
-            if (!bases.isEmpty()) {
-                SetlistEntry base = bases.get(0);
-                result.add(base);
-                for (SetlistEntry variant : variants) {
-                    if (variant.getSet().equals(base.getSet())) {
-                        log.info("De-dup [A]: dropping keyed variant '{}' (set '{}') — base '{}' already covers this set position.",
-                                variant.getSongId(), variant.getSet(), base.getSongId());
-                    } else {
-                        log.warn("De-dup [C]: ignoring keyed variant '{}' (set '{}') — base '{}' (set '{}') takes precedence.",
-                                variant.getSongId(), variant.getSet(), base.getSongId(), base.getSet());
-                    }
-                }
+            String key = entry.getSongId().toGroupKey();
+            if (seen.containsKey(key)) {
+                log.warn("De-dup: '{}' appears more than once in this gig's assignments "
+                        + "(set '{}' vs set '{}'). Keeping first occurrence.",
+                        key,
+                        seen.get(key).getSet(),
+                        entry.getSet());
             } else {
-                SetlistEntry first = variants.get(0);
-                result.add(first);
-                boolean allSameSet = variants.stream().allMatch(v -> v.getSet().equals(first.getSet()));
-                for (SetlistEntry other : variants.subList(1, variants.size())) {
-                    if (allSameSet) {
-                        log.warn("De-dup [both variants, same set]: '{}' and '{}' both carry set '{}'; keeping '{}'.",
-                                first.getSongId(), other.getSongId(), first.getSet(), first.getSongId());
-                    } else {
-                        log.warn("De-dup [both variants, different sets]: '{}' (set '{}') and '{}' (set '{}') conflict; keeping '{}'.",
-                                first.getSongId(), first.getSet(), other.getSongId(), other.getSet(), first.getSongId());
-                    }
-                }
+                seen.put(key, entry);
             }
         }
-        return result;
+
+        return new ArrayList<>(seen.values());
     }
 }

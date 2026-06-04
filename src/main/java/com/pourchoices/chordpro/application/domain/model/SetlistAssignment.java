@@ -13,6 +13,12 @@ import lombok.Value;
  * <p>The {@code set} field uses the compound position code (e.g. {@code A01},
  * {@code B03}, {@code Z1}) that encodes both the set letter and the song's
  * position within that set.
+ *
+ * <p><strong>Invariant:</strong> {@code songId} must always be a base version
+ * (i.e. {@link SongId#isBaseVersion()} returns {@code true}).  Key variants
+ * (e.g. {@code MyLife-c}) must never be used as setlist foreign keys; only the
+ * base song identity (e.g. {@code MyLife}) is valid.  Enforcement is the
+ * responsibility of the mapper layer when reading from CSV.
  */
 @Value
 @Builder(toBuilder = true)
