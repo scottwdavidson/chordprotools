@@ -13,24 +13,15 @@
 {comment:**  meta: label: Wagon Wheel   }
 {comment:***********************************************}
 
-{meta: version: 1.0}
-{meta: countin: 4}
-
-{comment: ***********************************************}
-{comment: **  meta: nord: O55   }
-{comment: **  meta: version: 1.0   }
-{comment: **  meta: countin: 4   }
-{comment: ***********************************************}
-
 {comment:Intro}
-| G  | D | 
-| Em | C | 
-| G  | D | 
-| Em | C | 
-| G  | D | 
-| Em | C | 
-| G  | D | 
-| C  | C | 
+. | [G]  | [D] | 
+. | [Em] | [C] | 
+. | [G]  | [D] | 
+. | [Em] | [C] | 
+. | [G]  | [D] | 
+. | [Em] | [C] | 
+. | [G]  | [D] | 
+. | [C]  | [C] | 
 
 {start_of_verse}
 H[G]eading down south to the l[D]and of the pines
