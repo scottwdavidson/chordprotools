@@ -6,7 +6,7 @@
 {meta: nord: M14}
 {meta: countin: 4}
 {meta: backing: RC}
-{meta: rc-slot: 15}
+{meta: rc-slot: 30}
 {meta: label: I Saw Light}
 {meta: ve: P25}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: M14   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 15   }
+{comment:**  meta: rc-slot: 30   }
 {comment:**  meta: label: I Saw Light   }
 {comment:**  meta: ve: P25   }
 {comment:***********************************************}

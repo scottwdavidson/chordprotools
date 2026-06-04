@@ -6,7 +6,7 @@
 {meta: nord: M22}
 {meta: countin: 4}
 {meta: backing: RC}
-{meta: rc-slot: 20}
+{meta: rc-slot: 38}
 {meta: label: HandleWCare}
 {meta: ve: P12}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: M22   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 20   }
+{comment:**  meta: rc-slot: 38   }
 {comment:**  meta: label: HandleWCare   }
 {comment:**  meta: ve: P12   }
 {comment:***********************************************}

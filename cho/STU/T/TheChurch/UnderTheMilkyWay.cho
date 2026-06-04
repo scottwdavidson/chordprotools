@@ -7,7 +7,7 @@
 {meta: roland: C012}
 {meta: countin: 8}
 {meta: backing: RC}
-{meta: rc-slot: 21}
+{meta: rc-slot: 32}
 {meta: label: Under Milky}
 
 {comment:***********************************************}
@@ -15,7 +15,7 @@
 {comment:**  meta: roland: C012   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 21   }
+{comment:**  meta: rc-slot: 32   }
 {comment:**  meta: label: Under Milky   }
 {comment:***********************************************}
 
