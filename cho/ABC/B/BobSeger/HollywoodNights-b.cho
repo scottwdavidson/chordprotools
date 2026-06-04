@@ -3,6 +3,17 @@
 {key: B}
 {duration: 4:40}
 {tempo: 150}
+{meta: countin: 8}
+{meta: backing: RC}
+{meta: rc-slot: 8}
+{meta: label: HllywdNights}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 8   }
+{comment:**  meta: label: HllywdNights   }
+{comment:***********************************************}
 
 
 {start_of_part: Intro}

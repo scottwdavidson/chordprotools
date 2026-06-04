@@ -6,12 +6,14 @@
 {meta: nord: P:55}
 {meta: countin: 2}
 {meta: backing: RC}
+{meta: rc-slot: 94}
 {meta: performance: G}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P:55   }
 {comment:**  meta: countin: 2   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 94   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 
