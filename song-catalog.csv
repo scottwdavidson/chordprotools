@@ -81,8 +81,8 @@ Like A Rolling Stone,Bob Dylan,C,,,,,,,,,,,ABC:B:BobDylan:LikeARollingStone,
 Make You Feel My Love,Bob Dylan,C,,70,,,,,,,,,ABC:B:BobDylan:MakeYouFeelMyLove,
 Against the Wind,Bob Seger,G,4:00,109,4,RC,M44,,,F,,,ABC:B:BobSeger:AgainstTheWind,AganstWind
 Against the Wind,Bob Seger,F,3:50,109,4,RC,M44,,,F,,,ABC:B:BobSeger:AgainstTheWind-f,AganstWind
-Hollywood Nights,Bob Seger,E,4:40,150,8,RC,,,,,,,ABC:B:BobSeger:HollywoodNights,HllywdNights
-Hollywood Nights,Bob Seger,B,4:40,150,8,RC,,,,,,,ABC:B:BobSeger:HollywoodNights-b,HllywdNights
+Hollywood Nights,Bob Seger,E,4:40,150,8,RC,O25,,,,,,ABC:B:BobSeger:HollywoodNights,HllywdNights
+Hollywood Nights,Bob Seger,B,4:40,150,8,RC,O25,,,,,,ABC:B:BobSeger:HollywoodNights-b,HllywdNights
 Still the Same,Bob Seger,C,3:28,115,4,RC,P55,,,A,,,ABC:B:BobSeger:StillTheSame,Still Same
 Still the Same,Bob Seger,A,3:28,115,4,RC,P55,,,A,,,ABC:B:BobSeger:StillTheSame-a,Still Same
 Turn The Page,Bob Seger,Em,,,,,,,,,,,ABC:B:BobSeger:TurnThePage,
@@ -150,7 +150,8 @@ Long Train Runnin',Doobie Brothers,Gm,3:20,117,4,RC,,,,,,,DEF:D:DoobieBros:LongT
 Long Train Runnin’,Doobie Brothers,Gm,,,,,,,,,,,DEF:D:DoobieBros:LongTrainRunning-MVP,
 Takin' It To The Streets,Doobie Brothers,F,,,,,,,,,,,DEF:D:DoobieBros:TakinItToTheStreets,
 Takin' It To The Streets,Doobie Brothers,B,,,,,,,,,,,DEF:D:DoobieBros:TakinItToTheStreets-b,
-Sharing The Night Together,Dr. Hook,C,2:45,154,8,RC,P11,,,E,,,DEF:D:DrHook:SharingTheNightTogether,
+Sharing The Night Together,Dr. Hook,C,2:45,154,4,RC,P11,,,E,,,DEF:D:DrHook:SharingTheNightTogether,
+Sharing The Night Together,Dr. Hook,E,2:45,154,4,RC,P11,,,E,,,DEF:D:DrHook:SharingTheNightTogether-e,
 Levitating,Dua Lipa,Am,,,,,,,,,,,DEF:D:DuaLipa:Levitating,
 Love Again,Dua Lipa,F#m,3:50,116,,,,,,,,,DEF:D:DuaLipa:LoveAgain,
 Ordinary World,Duran Duran,Bm,,,,,,,,,,,DEF:D:DuranDuran:OrdinaryWorld,

@@ -4,17 +4,17 @@
 {duration: 2:45}
 {tempo: 154}
 {meta: nord: P11}
-{meta: countin: 8}
+{meta: countin: 4}
 {meta: backing: RC}
 {meta: rc-slot: 93}
 {meta: performance: E}
 
 {comment:***********************************************}
-{comment:**  meta: nord: P11   }
-{comment:**  meta: countin: 8   }
-{comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 93   }
-{comment:**  meta: performance: E   }
+{comment:**meta: nord: P11 }
+{comment:**meta: countin: 4 }
+{comment:**meta: backing: RC }
+{comment:**meta: rc-slot: 93 }
+{comment:**meta: performance: E }
 {comment:***********************************************}
 
 {comment: Intro}
@@ -22,20 +22,20 @@
 . | [E] . . . | [C#m] . . . | [A] . . . | [B] . . . | 
 
 {start_of_verse}
-[E]  You're looking kinda [C#m]lonely girl
-[A]  Would you like [B]someone new to [E]talk to[C#m]
-  Ah-y[A]eah, al[B]right
-[E]  I'm feeling kinda [C#m]lonely too
-  If you don't m[A]ind can I [B]sit down here be[E]side you[C#m]
-  Ah-y[A]eah, al[B]right
+[E]You're looking kinda [C#m]lonely girl
+[A]Would you like [B]someone new to [E]talk to[C#m]
+Ah-y[A]eah, al[B]right
+[E]I'm feeling kinda [C#m]lonely too
+If you don't m[A]ind can I [B]sit down here be[E]side you[C#m]
+Ah-y[A]eah, al[B]right
 {end_of_verse}
 
 {start_of_chorus}
 {comment: Pre-Chorus}
-[F#m]  If I seem to [G#m7]come on too strong
-[F#m]  I hope that you will [G#m7]understand
-[F#m]  I say these things cause I'd [G#m7]like to know
-  If you're as [A]lonely as I [F#7]am and if you'd m[A]ind
+[F#m]If I seem to [G#m7]come on too strong
+[F#m]I hope that you will [G#m7]understand
+[F#m]I say these things cause I'd [G#m7]like to know
+If you're as [A]lonely as I [F#7]am and if you'd m[A]ind
 
 Sh[B]aring the night to[E]gether [C#m]whoa
 Y[A]eah, sh[B]aring the night to[E]gether [C#m]whoa
@@ -43,10 +43,10 @@ Y[A]eah, sh[B]aring the night
 {end_of_chorus}
 
 {start_of_bridge}
-[C#m]  We could bring in the [G#m]morning girl
-  If you [A]want to go that [B]far[B/C]
-[C#m]  And if tomorrow [G#m]finds us together
-  [A]Right here the way we [B]are, would you m[A]ind
+[C#m]We could bring in the [G#m]morning girl
+If you [A]want to go that [B]far[B/C]
+[C#m]And if tomorrow [G#m]finds us together
+[A]Right here the way we [B]are, would you m[A]ind
 {end_of_bridge}
 
 {start_of_chorus}
@@ -56,20 +56,20 @@ Y[A]eah, sh[B]aring the night
 {end_of_chorus}
 
 {start_of_verse}
-[E]  Would you like to [C#m]dance with me and [A]hold me
-  You know I [B]want to be holding [E]you[C#m]
-  Ah-y[A]eah, al[B]right
-[E]  Cause I like feeling [C#m]like I do
-  And I [A]see in your eyes that you're [B]liking and I'm liking it [E]too[C#m]
-  Ah y[A]eah, al[B]right
+[E]Would you like to [C#m]dance with me and [A]hold me
+You know I [B]want to be holding [E]you[C#m]
+Ah-y[A]eah, al[B]right
+[E]Cause I like feeling [C#m]like I do
+And I [A]see in your eyes that you're [B]liking and I'm liking it [E]too[C#m]
+Ah y[A]eah, al[B]right
 {end_of_verse}
 
 {start_of_chorus}
 {comment: Pre-Chorus}
-[F#m]  Like to get to [G#m7]know you better
-[F#m]  Is there a place where[G#m7]we can go
-[F#m]  Where we can be a[G#m7]lone together
-  And [A]turn the lights down [F#7]low[A]
+[F#m]Like to get to [G#m7]know you better
+[F#m]Is there a place where[G#m7]we can go
+[F#m]Where we can be a[G#m7]lone together
+And [A]turn the lights down [F#7]low[A]
 
 And start sh[B]aring the night to[E]gether [C#m]whoa
 Y[A]eah, sh[B]aring the night to[E]gether [C#m]whoa
