@@ -13,7 +13,7 @@ import picocli.CommandLine.Option;
  * CLI adapter for {@code consistent-metadata}.
  *
  * <p>Scans the whole catalog for key-variant metadata inconsistencies. Two
- * checks: cross-variant DRIFT (any field but KEY/CAPO differs) and FILENAME/KEY
+ * checks: cross-variant DRIFT (any field but KEY differs) and FILENAME/KEY
  * mismatch. Dry-run by default; {@code --fix} repairs DRIFT in the catalog.
  *
  * <pre>
@@ -28,7 +28,7 @@ import picocli.CommandLine.Option;
 @Command(
         name = "consistent-metadata",
         description = "Checks that key-variants of a song share consistent catalog "
-                + "metadata (everything but KEY and CAPO, including performance key). "
+                + "metadata (everything but KEY, including performance key). "
                 + "Also flags filename/key mismatches. Dry-run unless --fix is given."
 )
 @Slf4j

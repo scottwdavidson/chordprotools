@@ -172,13 +172,13 @@ drift or overwritten by `--fix`.
 **Proposed convention (future):** a tagged comment directive, e.g.
 
 ```
-{comment: @only(HollywoodNights-b) capo 2 to match horns}
+{comment: @only(HollywoodNights-b) drop-D tuning to match horns}
 ```
 
 or a dedicated directive:
 
 ```
-{meta: version-note: capo 2 to match horns}
+{meta: version-note: drop-D tuning to match horns}
 ```
 
 `SongBodyDiffer` would recognise these and bucket them as **VERSION NOTE** —
@@ -231,10 +231,10 @@ from the target key signature (sharps for sharp keys, flats for flat keys).
    a character when a chord name changes width (`[A]`→`[A#]`). Do we care about
    exact column alignment? **Recommendation:** compare *semantically* (chords +
    lyrics), not column-for-column, to avoid false positives.
-4. **Capo interaction** — a capo'd variant might intentionally use different
-   *shapes* for the same sounding pitch. 👉 If `{capo:}` differs between
-   variants, transposition-equality breaks down. v1 should **detect capo
-   mismatch and refuse `--fix`**, deferring to the human.
+4. **Alternate fingering** — a variant might intentionally use different
+   *shapes* for the same sounding pitch (e.g. drop-D tuning). 👉 If tuning
+   differs between variants, transposition-equality breaks down. v1 should
+   **detect tuning mismatch and refuse `--fix`**, deferring to the human.
 5. **Performance** — full-catalog scan transposes every body; fine for a few
    hundred songs, but the default should probably be **single-song**
    (`consistent-song-data <songId>`) with an opt-in `--all`.
@@ -264,7 +264,7 @@ from the target key signature (sharps for sharp keys, flats for flat keys).
    guard + tests. Everything else depends on this being correct.
 2. **Phase 1 — detection (dry-run only).** Canonicaliser + differ + report.
    Read-only, safe, immediately useful. Ship this first.
-3. **Phase 2 — `--fix`.** Body regeneration with capo-mismatch refusal and git
+3. **Phase 2 — `--fix`.** Body regeneration with tuning-mismatch refusal and git
    safety messaging.
 4. **Phase 3 — version-specific annotations (§7).** Only once the convention is
    agreed.
@@ -277,7 +277,7 @@ from the target key signature (sharps for sharp keys, flats for flat keys).
    or scan everything by default? I lean single-song for the heavy one.
 2. **Slash chords** — confirm the transposer gap matters for your charts (it
    clearly does for Hollywood Nights — lots of `[A/E]`). This gates `--fix`.
-3. **Capo mismatch** — agree we refuse `--fix` and just report when `{capo:}`
+3. **Tuning mismatch** — agree we refuse `--fix` and just report when tuning
    differs between variants?
 4. **Alignment** — semantic compare (ignore column drift) acceptable, or do you
    want chord charts to stay column-aligned?

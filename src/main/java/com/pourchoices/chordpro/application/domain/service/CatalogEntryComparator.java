@@ -22,7 +22,7 @@ import java.util.function.Function;
  *       it uses {@link #allFields()} (minus per-gig RC slot).</li>
  *   <li><b>consistent-metadata</b> compares variants of the same song — it uses
  *       {@link #crossVariantFields()}, which additionally excludes the
- *       per-variant levers KEY and CAPO.</li>
+ *       per-variant lever KEY.</li>
  * </ul>
  */
 @Service
@@ -51,7 +51,6 @@ public class CatalogEntryComparator {
         fields.add(new Field("DURATION",    CatalogEntry::getDuration));
         fields.add(new Field("TEMPO",       CatalogEntry::getTempo));
         fields.add(new Field("TIME SIG",    CatalogEntry::getTimeSignature));
-        fields.add(new Field("CAPO",        CatalogEntry::getCapo));
         fields.add(new Field("COUNTIN",     CatalogEntry::getCountin));
         fields.add(new Field("NORD",        CatalogEntry::getNord));
         fields.add(new Field("ROLAND",      CatalogEntry::getRoland));
@@ -65,14 +64,14 @@ public class CatalogEntryComparator {
     /**
      * Fields that must be identical across key-variants of the same song.
      *
-     * <p>Excludes KEY and CAPO — the two legitimate per-variant levers (the
-     * guitarist may play in a different written key with a capo). Everything
+     * <p>Excludes KEY — the legitimate per-variant lever (the guitarist may
+     * play in a different written key). Everything
      * else, <b>including PERFORMANCE KEY</b> (the sounding key everyone actually
      * plays in), must match.
      */
     public List<Field> crossVariantFields() {
         return allFields().stream()
-                .filter(f -> !f.label().equals("KEY") && !f.label().equals("CAPO"))
+                .filter(f -> !f.label().equals("KEY"))
                 .toList();
     }
 

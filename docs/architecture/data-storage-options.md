@@ -96,7 +96,7 @@ insurance and closes the biggest current foot-gun.
 song-catalog.csv          ← song identity + hardware presets
                             (TITLE, ARTIST, KEY, TEMPO, DURATION,
                              BACKING, NORD, ROLAND, VE, COUNTIN,
-                             SONG LABEL, PERFORMANCE KEY, CAPO,
+                             SONG LABEL, PERFORMANCE KEY,
                              TIME SIGNATURE, SONG ID)
 
 gigs.csv                  ← gig metadata only

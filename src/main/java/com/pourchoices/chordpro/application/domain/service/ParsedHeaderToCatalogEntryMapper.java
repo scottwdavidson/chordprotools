@@ -57,7 +57,6 @@ public class ParsedHeaderToCatalogEntryMapper {
             else if (d == HeaderDirective.DURATION)        builder.duration(v);
             else if (d == HeaderDirective.TEMPO)           builder.tempo(v);
             else if (d == HeaderDirective.TIME_SIGNATURE)  builder.timeSignature(v);
-            else if (d == HeaderDirective.CAPO)            builder.capo(v);
             else if (d == HeaderDirective.NORD)            builder.nord(v);
             else if (d == HeaderDirective.ROLAND)          builder.roland(v);
             else if (d == HeaderDirective.COUNTIN)         builder.countin(v);

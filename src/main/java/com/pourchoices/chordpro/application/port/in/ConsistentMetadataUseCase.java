@@ -7,7 +7,7 @@ import com.pourchoices.chordpro.application.domain.model.MetadataConsistencyRepo
  *
  * <p>Scans the whole catalog. Two checks per song group:
  * <ol>
- *   <li><b>DRIFT</b> — any field other than KEY/CAPO differs between variants
+ *   <li><b>DRIFT</b> — any field other than KEY differs between variants
  *       (including PERFORMANCE KEY, which must always match — it's the sounding
  *       key everyone plays in).</li>
  *   <li><b>FILENAME/KEY</b> — a variant whose filename encodes a key (e.g.

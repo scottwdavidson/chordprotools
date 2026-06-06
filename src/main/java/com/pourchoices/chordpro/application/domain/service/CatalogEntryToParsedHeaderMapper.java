@@ -28,7 +28,6 @@ public class CatalogEntryToParsedHeaderMapper {
         builder.headerLine(lineFor(HeaderDirective.TEMPO,    entry.getTempo()));
 
         // optional — only added when the field has a real value
-        addIfPresent(builder, HeaderDirective.CAPO,            entry.getCapo());
         addIfPresent(builder, HeaderDirective.TIME_SIGNATURE,  entry.getTimeSignature());
         addIfPresent(builder, HeaderDirective.COUNTIN,         entry.getCountin());
         addIfPresent(builder, HeaderDirective.NORD,            entry.getNord());

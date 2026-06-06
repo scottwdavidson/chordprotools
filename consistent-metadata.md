@@ -85,17 +85,17 @@ Plus a top-level shell shim `./consistent-metadata` delegating to `./cpt`.
 For each song **group** (all entries sharing `SongId.toGroupKey()`):
 
 1. Collect all `CatalogEntry` rows in the group.
-2. Compare every field **except** `KEY` and `CAPO` (the two levers that
-   legitimately differ per-variant) across all variants.
+2. Compare every field **except** `KEY` (the lever that
+   legitimately differs per-variant) across all variants.
 3. Any field whose normalised value isn't identical across all variants is a
    **DRIFT** finding.
 
 > **Why `PERFORMANCE KEY` is compared (not excluded).** The performance key is
 > the *sounding* key everyone actually plays in — it must be identical across
-> variants. Example: the standard variant is written in key **C** with no capo;
-> the guitarist's variant is written in key **B♭** with **capo 2**. Both sound
-> in **C**, so `PERFORMANCE KEY = C` for both. The written `{key:}` and the
-> `{capo:}` are the two things that may differ; everything else — including
+> variants. Example: the standard variant is written in key **C**;
+> the guitarist's variant is written in key **B♭**. Both sound
+> in **C**, so `PERFORMANCE KEY = C` for both. The written `{key:}`
+> is the only thing that may differ; everything else — including
 > performance key — must match.
 
 Reuses the exact field list and `normalise()` logic already in
@@ -105,7 +105,7 @@ refactor of `verify-catalog` that both features benefit from.
 
 > **Fields compared:** TITLE, ARTIST, DURATION, TEMPO, TIME SIG, COUNTIN,
 > NORD, ROLAND, VE, BACKING, SONG LABEL, **PERFORMANCE KEY**.
-> **Fields excluded:** KEY, CAPO (per-variant levers), RC SLOT (per-gig).
+> **Fields excluded:** KEY (per-variant lever), RC SLOT (per-gig).
 
 ### Check B — filename key vs file key
 
@@ -194,11 +194,11 @@ rewriting a key has real musical consequences and ties into transposition
 
 ## 8. Test scenarios
 
-1. Group with identical metadata except key & capo → **clean**.
+1. Group with identical metadata except key → **clean**.
 2. Group where one variant has a different `tempo` → **DRIFT**.
 3. Group where one variant has a different `performance key` → **DRIFT**
    (performance key is an invariant).
-4. Group where variants differ only by `key` and `capo` (capo-2 example) →
+4. Group where variants differ only by `key` →
    **clean**.
 5. Variant `-b` whose `{key:}` is `E` → **FILENAME/KEY** (report only).
 6. Variant `-bb` whose key is `A#` → **clean** (enharmonic).
@@ -211,8 +211,8 @@ rewriting a key has real musical consequences and ties into transposition
 ## 9. Resolved decisions (Scott, 2026-06-02)
 
 1. **Performance key is an invariant** — it must match across variants (it's the
-   sounding key). `KEY` and `CAPO` are the per-variant levers and are the only
-   fields excluded from drift. *(Doc updated in §4.)*
+   sounding key). `KEY` is the per-variant lever and is the only
+   field excluded from drift. *(Doc updated in §4.)*
 2. **Enharmonic equality** — `-bb` (B♭) ≡ catalog key `A#`. Treated as the same
    key. (Unlikely in practice, but handled correctly.)
 3. **`MusicalKey` value object** — yes, build the OO abstraction now; it owns

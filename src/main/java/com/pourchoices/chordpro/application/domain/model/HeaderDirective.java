@@ -21,7 +21,6 @@ public enum HeaderDirective {
     DURATION(List.of("duration"), 87),
     TEMPO(List.of("tempo"), 86),
     TIME_SIGNATURE(List.of("time"), false,85),
-    CAPO(List.of("capo","Capo"),   false, 60),
     NORD(List.of("nord", "Nord", "N"), "null", true, true, 50),
     ROLAND(List.of("roland"), "null", true, true, 49),
     COUNTIN(List.of("countin", "Countin", "CountIn"), "24", false, true, 42),

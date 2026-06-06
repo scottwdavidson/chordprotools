@@ -39,7 +39,7 @@ Run via: `mvn spring-boot:run -Dspring-boot.run.arguments="<subcommand> <args>"`
 
 ```
 TITLE, ARTIST, KEY, DURATION, TEMPO, COUNTIN, BACKING, NORD, ROLAND, VE,
-PERFORMANCE KEY, TIME SIGNATURE, CAPO, SONG ID, SONG LABEL
+PERFORMANCE KEY, TIME SIGNATURE, SONG ID, SONG LABEL
 ```
 
 (15 columns. RC SLOT was removed in session 12 — it now lives exclusively in `gigs.csv`. SET was removed in Phase 3.)

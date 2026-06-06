@@ -102,19 +102,6 @@ class ConsistentMetadataServiceTest {
     }
 
     @Test
-    void differentCapo_isClean() {
-        // Capo is a legitimate per-variant lever (guitarist capos to match).
-        givenCatalog(
-                base("ABC:B:BobSeger:HollywoodNights", "E").capo("0").build(),
-                base("ABC:B:BobSeger:HollywoodNights-b", "B").capo("2").build()
-        );
-
-        MetadataConsistencyReport report = service.check(false, null);
-
-        assertThat(report.issueCount()).isZero();
-    }
-
-    @Test
     void singleVariant_isSkipped() {
         givenCatalog(base("ABC:B:BobSeger:HollywoodNights", "E").build());
 

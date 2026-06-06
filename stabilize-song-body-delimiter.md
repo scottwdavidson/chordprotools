@@ -131,7 +131,7 @@ To avoid ambiguity, the migration tool must classify every pre-body line. The
 header region is **exactly**:
 
 1. **Known header directives** (`HeaderDirective` enum): `title`, `artist`,
-   `key`, `duration`, `tempo`, `time`, `capo`, and all `{meta: …}` forms
+   `key`, `duration`, `tempo`, `time`, and all `{meta: …}` forms
    (`nord`, `roland`, `countin`, `backing`, `rc-slot`, `label`, `ve`,
    `performance`).
 2. **The metadata echo banner** — the block of `{comment:****…}` /

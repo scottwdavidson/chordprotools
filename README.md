@@ -112,7 +112,6 @@ One row per `.cho` file. All permanent metadata for that specific file version l
 | `VE` | Vocal effects preset |
 | `PERFORMANCE KEY` | Key the band actually performs in (may differ from the file's `KEY`) |
 | `TIME SIGNATURE` | Time signature (e.g. `4/4`) |
-| `CAPO` | Guitar capo position, if any |
 | `SONG ID` | Unique identifier — derived from the file path (e.g. `ABC:B:BillyJoel:PianoMan`) |
 | `SONG LABEL` | RC-500 display label — shown on the guitarist's loop station screen (max 12 chars) |
 
@@ -330,7 +329,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 |---|---|---|
 | `./import-song` | `import-song` | Register a new `.cho` file in `song-catalog.csv` (SONG ID derived from file path) |
 | `./verify-catalog` | `verify-catalog` | Check every `song-catalog.csv` entry against its `.cho` file; report MISSING FILE or DRIFT |
-| `./consistent-metadata` | `consistent-metadata` | Check key-variants of a song share consistent metadata (all but key/capo); `--fix` to repair drift |
+| `./consistent-metadata` | `consistent-metadata` | Check key-variants of a song share consistent metadata (all but key); `--fix` to repair drift |
 | `./update-song` | `update-song` | Push catalog metadata into a song (by song ID) and all its key-variants |
 | `./update-songs` | `update-songs` | Push catalog metadata into a batch of songs (by song ID) |
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Assign RC-500 slot numbers for the gig; writes to `gigs.csv` + patches `.cho` files; regenerates `setlist.csv` |
@@ -484,20 +483,20 @@ assignment owned by `gigs.csv`, not a song property.
 A periodic "tidy" check that key-variants of the **same song** agree on their
 metadata. Two key-variants (e.g. `HollywoodNights.cho` in E and
 `HollywoodNights-b.cho` in B) are the same song in different keys, so all their
-catalog metadata should be identical — the *only* legitimate differences are
-the written **key** and the **capo**.
+catalog metadata should be identical — the *only* legitimate difference is
+the written **key**.
 
 > **Performance key is an invariant.** The performance key is the *sounding*
 > key everyone actually plays in, so it must match across variants. Example:
-> the standard variant is written in key **C** with no capo; the guitarist's
-> variant is written in **B♭** with **capo 2**. Both sound in **C**, so the
-> performance key is **C** for both. Only `key` and `capo` may differ.
+> the standard variant is written in key **C**; the guitarist's
+> variant is written in **B♭**. Both sound in **C**, so the
+> performance key is **C** for both. Only `key` may differ.
 
 It scans the whole catalog and reports two classes of issue:
 
 | Issue | Meaning |
 |---|---|
-| `DRIFT` | A field other than KEY/CAPO differs between variants (incl. performance key) |
+| `DRIFT` | A field other than KEY differs between variants (incl. performance key) |
 | `FILENAME/KEY` | A variant's filename key suffix (e.g. `-b`) disagrees with its `{key:}` (enharmonic-aware) |
 
 ```zsh

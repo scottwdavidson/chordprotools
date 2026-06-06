@@ -31,7 +31,6 @@ class CatalogEntryMapperTest {
                 .duration("3:30")
                 .tempo("120")
                 .timeSignature("4/4")
-                .capo("0")
                 .nord("Yes")
                 .countin("4")
                 .backingType(BackingType.RC)
@@ -52,7 +51,6 @@ class CatalogEntryMapperTest {
         assertThat(dto.getDuration()).isEqualTo(entity.getDuration());
         assertThat(dto.getTempo()).isEqualTo(entity.getTempo());
         assertThat(dto.getTimeSignature()).isEqualTo(entity.getTimeSignature());
-        assertThat(dto.getCapo()).isEqualTo(entity.getCapo());
         assertThat(dto.getNord()).isEqualTo(entity.getNord());
         assertThat(dto.getCountin()).isEqualTo(entity.getCountin());
         assertThat(dto.getBacking()).isEqualTo("RC");
@@ -72,7 +70,6 @@ class CatalogEntryMapperTest {
                 .duration("4:00")
                 .tempo("100")
                 .timeSignature("3/4")
-                .capo("2")
                 .nord("No")
                 .countin("2")
                 .backing("BB")
@@ -93,7 +90,6 @@ class CatalogEntryMapperTest {
         assertThat(entity.getDuration()).isEqualTo(dto.getDuration());
         assertThat(entity.getTempo()).isEqualTo(dto.getTempo());
         assertThat(entity.getTimeSignature()).isEqualTo(dto.getTimeSignature());
-        assertThat(entity.getCapo()).isEqualTo(dto.getCapo());
         assertThat(entity.getNord()).isEqualTo(dto.getNord());
         assertThat(entity.getCountin()).isEqualTo(dto.getCountin());
         assertThat(entity.getBackingType()).isEqualTo(BackingType.BB);

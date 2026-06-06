@@ -158,7 +158,7 @@ public class ConsistentMetadataService implements ConsistentMetadataUseCase {
                 continue;
             }
             // Copy every shared field from source, keeping the variant's own
-            // identity, KEY and CAPO (the legitimate per-variant levers).
+            // identity and KEY (the legitimate per-variant lever).
             CatalogEntry fixed = variant.toBuilder()
                     .title(source.getTitle())
                     .artist(source.getArtist())

@@ -20,7 +20,6 @@ public class CatalogEntry {
     String duration;
     String tempo;
     String timeSignature;
-    String capo;
     String nord;
     String roland;
     String countin;

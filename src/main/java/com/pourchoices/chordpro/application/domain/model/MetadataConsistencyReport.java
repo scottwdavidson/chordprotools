@@ -18,7 +18,7 @@ public class MetadataConsistencyReport {
 
     /** The kind of inconsistency found within a song group. */
     public enum FindingType {
-        /** A non-key/-capo field differs between variants of the same song. */
+        /** A non-key field differs between variants of the same song. */
         DRIFT,
         /** A variant's filename key suffix disagrees with its {@code {key:}}. */
         FILENAME_KEY
