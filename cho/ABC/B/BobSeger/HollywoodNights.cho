@@ -3,18 +3,19 @@
 {key: E}
 {duration: 4:40}
 {tempo: 150}
+{meta: nord: O25}
 {meta: countin: 8}
 {meta: backing: RC}
 {meta: rc-slot: 8}
 {meta: label: HllywdNights}
 
 {comment:***********************************************}
+{comment:**  meta: nord: O25   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 8   }
 {comment:**  meta: label: HllywdNights   }
 {comment:***********************************************}
-
 
 {start_of_part: Intro}
 . | [E5] . . . | [E5] . . . | [A/E] . . . | [A/E] . . . |
