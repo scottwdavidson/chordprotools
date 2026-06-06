@@ -118,7 +118,7 @@ Ain't Nobody,Chaka Khan / Rufus,Em,,,,,,,,,,,ABC:C:ChakaKhan:AintNobody,
 Ain't Nobody - Guitar,Chaka Khan / Rufus,Em,,,,,,,,,,,ABC:C:ChakaKhan:AintNobody-Guitar,
 Pink Pony Club,Chappell Roan,F,4:10,106,4,RC,,,,,,,ABC:C:ChappellRoan:PinkPonyClub,Pink  Pony
 Fool If You Think It's Over,Chris Rea,Am,4:10,110,,,N52,,,,,,ABC:C:ChrisRea:FoolIfYouThinkItsOver,
-Starting Over,Chris Stapleton,G,3:45,90,4,RC,D53,,,Bb,,3,ABC:C:ChrisStapleton:StartingOver,Start Over
+Starting Over,Chris Stapleton,G,3:45,90,4,RC,D53,,,Bb,,,ABC:C:ChrisStapleton:StartingOver,Start Over
 Where Are You Listening To?,Chris Stapleton,Bb,,,,,,,,,,,ABC:C:ChrisStapleton:WhatAreYouListeningToo,
 Ride Like The Wind,Christopher Cross,Eb,4:00,125,,,,,,,,,ABC:C:ChristopherCross:RideLikeTheWind,
 Better Man,Clint Black,E,3:00,162,,,,,,,,,ABC:C:ClintBlack:BetterMan,
@@ -337,6 +337,7 @@ These Boots Are Made For Walkin',Nancy Sinatra,E,2:20,84,4,,,,,E,,,MNO:N:NancySi
 L-O-V-E,Nat King Cole,G,,78,,,,,,,,,MNO:N:NatKingCole:L_O_V_E,
 L-O-V-E,Nat King Cole,C,,78,,,,,,,,,MNO:N:NatKingCole:L_O_V_E-C,
 Torn,Natalie Imbruglia,F,3:35,96,4,RC,P51,,,,,,MNO:N:NatalieImbruglia:Torn,Torn
+Forever In Blue Jeans,Neil Diamond,A,,,,,,,,,,,MNO:N:NeilDiamond:ForeverInBlueJeans,
 Sweet Caroline,Neil Diamond,B,3:24,63,,,,,,,,,MNO:N:NeilDiamond:SweetCaroline,
 Harvest Moon,Neil Young,D,3:45,90,,,,,,,,,MNO:N:NeilYoung:HarvestMoon,
 Put A Little Love On Me,Niall Horan,G,,,,,,,,,,,MNO:N:NiallHoran:PutALittleLoveOnMe,
@@ -382,7 +383,7 @@ Time For Me To Fly,REO Speedwagon,C,5:20,84,,,,,,,,,PQR:R:ReoSpeedwagon:TimeforM
 When She Cries,Restless Heart,A,,113,,,,,,,,,PQR:R:RestlessHeart:WhenSheCries,
 You Take My Breath Away,Rex Smith,Bb,,96,,,,,,,,,PQR:R:RexSmith:YouTakeMyBreathAway,
 Steal Away,Robbie Dupree,F,,,,,,,,,,,PQR:R:RobbieDupree:StealAway,
-Steal Away,Robbie Dupree,A,,,,,,,,,,,PQR:R:RobbieDupree:StealAway_inA,
+Steal Away,Robbie Dupree,A,,,,,,,,,,,PQR:R:RobbieDupree:StealAway-a,
 Bad Case Of Lovin' You,Robert Palmer,E,2:50,146,8,RC,,,,,,,PQR:R:RobertPalmer:BadCaseOfLovinYou,BadCaseLove
 Every Kinda People,Robert Palmer,F,,,,,,,,,,,PQR:R:RobertPalmer:EveryKindaPeople,
 Can't Let Go,Robert Plant & Alison Krauss,E,2:50,176,4,RC,O15,,,,,,PQR:R:RobertPlant:CantLetGo,Cant  LetGo
