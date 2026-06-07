@@ -8,9 +8,39 @@
 set -euo pipefail
 DIR="${0:a:h}"
 
+# ── Auto-select Maven settings by VPN reachability ───────────────────────────
+# Scripts don't source ~/.zshrc, so we replicate the on/off-VPN logic here.
+# On VPN  → Walmart Artifactory;  Off VPN → plain Maven Central.
+# Override with:  MVN_FORCE=walmart ./build   or   MVN_FORCE=central ./build
+# If the per-environment settings files don't exist (e.g. fresh clone on a
+# non-Walmart machine), fall back to Maven's own default settings.
+mvn_settings() {
+  local walmart="$HOME/.m2/settings-walmart.xml"
+  local central="$HOME/.m2/settings-central.xml"
+  case "${MVN_FORCE:-auto}" in
+    walmart) [[ -f "$walmart" ]] && echo "$walmart" ;;
+    central) [[ -f "$central" ]] && echo "$central" ;;
+    *)
+      if nc -z -G2 mvn.ci.artifacts.walmart.com 443 2>/dev/null; then
+        [[ -f "$walmart" ]] && echo "$walmart"
+      else
+        [[ -f "$central" ]] && echo "$central"
+      fi
+      ;;
+  esac
+}
+SETTINGS=$(mvn_settings)
+
 echo "⚙  Building chordprotools..."
+if [[ -n "$SETTINGS" ]]; then
+  echo "   using Maven settings: $SETTINGS"
+  MVN_SETTINGS_ARGS=(-s "$SETTINGS")
+else
+  echo "   using Maven default settings (~/.m2/settings.xml or built-in)"
+  MVN_SETTINGS_ARGS=()
+fi
 START=$SECONDS
-mvn -q -f "$DIR/pom.xml" package -DskipTests
+mvn -q "${MVN_SETTINGS_ARGS[@]}" -f "$DIR/pom.xml" package -DskipTests
 ELAPSED=$(( SECONDS - START ))
 
 JAR=$(ls "$DIR"/target/chordpro-tools-*.jar 2>/dev/null | grep -v '\.original$' | head -1)
