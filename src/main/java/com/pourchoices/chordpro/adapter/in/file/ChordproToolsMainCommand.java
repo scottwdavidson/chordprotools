@@ -7,6 +7,7 @@ import picocli.CommandLine.Command;
 @Component
 @Command(name = "chordpro-tools",
         mixinStandardHelpOptions = true,
+        versionProvider = GitVersionProvider.class,
         subcommands = {
                 ImportNewSongCommand.class,
                 VerifyCatalogCommand.class,
