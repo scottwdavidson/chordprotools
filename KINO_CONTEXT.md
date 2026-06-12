@@ -1,6 +1,8 @@
 # KINO_CONTEXT — chordprotools
-# Agent-owned. Updated end-of-session. Not for human consumption.
-# Last updated: 2026-06-01 (session 15)
+# Canonical project brain, maintained by whatever coding agent is working this repo.
+# (Filename is historical — "Kino" was an earlier agent. You inherit this doc; keep it current.)
+# Update end-of-session whenever code, schemas, commands, or decisions change. Not for human consumption.
+# Last updated: 2026-06-12 (session 16)
 
 ---
 
@@ -42,7 +44,7 @@ TITLE, ARTIST, KEY, DURATION, TEMPO, COUNTIN, BACKING, NORD, ROLAND, VE,
 PERFORMANCE KEY, TIME SIGNATURE, SONG ID, SONG LABEL
 ```
 
-(15 columns. RC SLOT was removed in session 12 — it now lives exclusively in `gigs.csv`. SET was removed in Phase 3.)
+(14 columns. RC SLOT was removed in session 12 — it now lives exclusively in `gigs.csv`. SET was removed in Phase 3. **CAPO was removed in session 16** — it was the 15th column, sat between TIME SIGNATURE and SONG ID, and is now gone from catalog, `.cho` files, and the domain model.)
 
 - **SONG ID**: structured key `CLUSTER:LETTER:ArtistDir:SongStem[-keyVariant]`
   - e.g. `ABC:B:BillyJoel:MyLife` or `ABC:B:BillyJoel:MyLife-c`
@@ -184,6 +186,19 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 - Options: `<sourceGig>` (positional), `<targetGig>` (positional), `--force`/`-f`
 - Script: `./copy-gig <source-gig> <target-gig> [--force]`
 
+### `consistent-metadata` → `ConsistentMetadataCommand/Service` (session 16)
+- Scans the **whole catalog** for key-variant inconsistencies across songs that have 2+ variants (grouped via `SongId.toGroupKey()`)
+- **Two checks:**
+  1. `[DRIFT]` — any non-KEY field differs between variants of the same song (duration, tempo, count-in, backing, label, NORD, ROLAND, VE, **performance key**, time sig, …). Performance key MUST match across variants.
+  2. `[FILENAME/KEY]` — when a variant's filename encodes a key (`-b`, `-c#m`, `-am`), the `{key:}` inside the file must match the key in the filename.
+- **Dry-run by default.** `--fix` repairs DRIFT by propagating metadata from a source-of-truth variant into `song-catalog.csv`. FILENAME/KEY mismatches are **never** auto-fixed (must be fixed by hand).
+- `--source <SONG ID>`: variant to treat as source of truth when fixing (defaults to each group's base/standard-key variant)
+- **Scriptable exit code** = number of issue groups (0 = clean)
+- Domain: `MetadataConsistencyReport` (with nested `Finding` + `FindingType` enum DRIFT/FILENAME_KEY), `CatalogEntryComparator`
+- Use case: `ConsistentMetadataUseCase.check(boolean fix, String sourceSongId)`
+- Script: `./consistent-metadata [--fix] [--source <SONG ID>]`
+- Design doc: `consistent-metadata.md` at repo root
+
 ---
 
 ## SHELL SCRIPTS (root of repo)
@@ -192,8 +207,8 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 
 | Script | What |
 |---|---|
-| `./build` | compile + package fat JAR (`mvn package -DskipTests`); run after code changes |
-| `./cpt <cmd> [args]` | internal launcher: `java -jar target/chordpro-tools-*.jar`; auto-rebuilds if JAR missing or any src/main file or pom.xml is newer than JAR (never stale) |
+| `./build` | compile + package fat JAR (`mvn package -DskipTests`); run after code changes. **Auto-selects Maven settings by VPN reachability (session 16):** `nc -z mvn.ci.artifacts.walmart.com 443` → on-VPN uses `~/.m2/settings-walmart.xml`, off-VPN uses `~/.m2/settings-central.xml`; falls back to Maven defaults if neither exists. Override with `MVN_FORCE=walmart` / `MVN_FORCE=central`. |
+| `./cpt <cmd> [args]` | internal launcher: `java -jar target/chordpro-tools-*.jar`; auto-rebuilds if JAR missing or any src/main file or pom.xml is newer than JAR (never stale). `./cpt --version` prints git-tag version + commit + build time (session 16). |
 | `./import-song <path> [--dry-run]` | register a new .cho file in song-catalog.csv |
 | `./verify-catalog` | check all catalog entries against their .cho files; report MISSING FILE / DRIFT |
 | `./update-song <path>` | single song catalog→.cho |
@@ -212,6 +227,7 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 | `./copySetlist` | hand-curated gig setlist copy script (edit per gig) |
 | `./help` | show CLI help |
 | `./assign-backing-track-slots [--gig]` | assign RC-500 slots for the gig → write `gigs.csv` + patch `.cho` files + regenerate `setlist.csv` |
+| `./consistent-metadata [--fix] [--source <id>]` | **Java command** (session 16). Check key-variants of each song share consistent catalog metadata (everything but KEY, incl. performance key); flags filename/key mismatches. Dry-run unless `--fix`. Exit code = issue-group count |
 | `./deploy-rc500 [--gig] [--source] [--target] [--output-dir]` | Java-backed command. Generates `deploy-rc500-<timestamp>.sh` with plain `cp` commands; config via `application.properties` or CLI flags |
 
 ---
@@ -254,14 +270,14 @@ cho/                   # song library — alphabetical clusters
     Song.cho
     Song-c.cho         # key variant: same song in C
 pdf/                   # lead sheets / fake books (not managed by this tool)
-song-catalog.csv       # THE song library source of truth (487 rows, 15 columns)
+song-catalog.csv       # THE song library source of truth (507 rows, 14 columns)
 gigs.csv               # per-gig setlist assignments (GIG, SONG ID, SET, RC SLOT)
 setlist.csv            # generated by export-setlist, not committed
 updateSongsListing.txt # edit before running update-songs
 src/main/java/com/pourchoices/chordpro/
   adapter/in/file/     # picocli @Command classes
   adapter/out/file/    # port implementations (adapters, DTOs, mappers, file I/O)
-                       # Catalog: CatalogAdapter, CatalogEntryDto (15 cols), CatalogEntryMapper,
+                       # Catalog: CatalogAdapter, CatalogEntryDto (14 cols), CatalogEntryMapper,
                        #          CatalogFileReader, CatalogFileWriter
                        # ChordPro: ChordProAdapter, ChordProFileReader, ChordProFileWriter
                        # Setlist: SetlistAdapter, SetlistEntryDto, SetlistFileWriter
@@ -384,8 +400,15 @@ All 111 labelled rows in catalog pass as of session 5.
 - **list-gigs → Java (session 15)**: Converted from inline-Python shell script to a picocli command. New files: `ListGigsUseCase` (port/in), `ListGigsService` (domain/service), `ListGigsCommand` (adapter/in/file), `GigSummary` (domain/model immutable result), `ListGigsServiceTest` (4 tests). Service reuses `SetlistAssignmentsPort.readAssignments()` (same reader as every other gig command) instead of parsing gigs.csv directly with Python's csv module. Logic: count assignments per `gig` field (TreeMap for sorted-by-slug), map to `GigSummary`. Command prints `No gigs found in gigs.csv` when empty, else a formatted table. Shell script now a `cpt` shim. Live parity verified against raw CSV counts (32/59/59/59/62).
 - **find-song-id → Java (session 15)**: Converted from inline-Python shell script to a picocli command. New files: `FindSongIdUseCase` (port/in), `FindSongIdService` (domain/service), `FindSongIdCommand` (adapter/in/file), `SongMatch` (domain/model immutable result), `FindSongIdServiceTest` (7 tests). Service reuses `SongId.toGroupKey()` + `SongId.isBaseVersion()` instead of re-implementing the key-variant regex the Python had (kills a DRY violation — the regex existed in BOTH Java and Python). Logic: bucket catalog by group key → {base, variants[]}; filter by case-insensitive title/artist fragment; promote first variant as representative + flag `orphan` if no base; sort by title. Command does table formatting + `System.exit(1)` on no match. Shell script now a `cpt` shim. NOTE: `-old` suffix (e.g. `PianoMan-old`) is NOT a key variant (regex only matches `-[a-gA-G][#b]?m?`), so it surfaces as its own base row — identical to old Python behavior.
 - **Clean stdout / logging (session 15)**: Added `spring.main.banner-mode=off` + `logging.level.root=WARN` to `application.properties`. Previously every Java command dumped the Spring banner + INFO logs onto stdout, which would corrupt piping (`find-song-id ... | grep`). Now stdout carries only command output. Re-enable diagnostics per-run with `-Dlogging.level.com.pourchoices.chordpro=DEBUG`.
+- **CAPO removed from catalog + song data (session 16)**: CAPO was the 15th catalog column (between TIME SIGNATURE and SONG ID). Removed everywhere: `CatalogEntry.capo` field, `HeaderDirective.CAPO`, `CatalogEntryDto` (`"capo"` dropped from `CATALOG_COLUMN_ORDER` + `@CsvBindByName` field), `CatalogEntryMapper`, `CatalogEntryToParsedHeaderMapper`/`ParsedHeaderToCatalogEntryMapper`, `CatalogEntryComparator`, `ConsistentMetadataCommand/Service/UseCase`, `MetadataConsistencyReport`. `song-catalog.csv` migrated (15→14 cols across all ~507 rows). `{capo:}` directives stripped from `.cho` files (e.g. `WatchingTheWheels.cho`, `FreeFallin.cho`). README + consistent-metadata.md + consistent-song-data.md + data-storage-options.md + stabilize-song-body-delimiter.md updated. Tests adjusted (CatalogEntryMapperTest, ConsistentMetadataServiceTest). Rationale: capo is a player-side performance choice, not durable song identity — and it muddied cross-variant consistency checks.
+- **consistent-metadata command (session 16)**: Fully implemented. Detects (and `--fix` repairs) cross-variant catalog DRIFT + filename/key mismatches across songs with 2+ key-variants. New files: `ConsistentMetadataUseCase` (port/in), `ConsistentMetadataService` (domain/service), `ConsistentMetadataCommand` (adapter/in/file), `MetadataConsistencyReport` + nested `Finding`/`FindingType` (domain/model), `CatalogEntryComparator` (domain/service). Dry-run by default; `--fix` propagates metadata from a source-of-truth variant (`--source`, defaults to base variant) into `song-catalog.csv`; FILENAME/KEY issues never auto-fixed. Exit code = issue-group count. Design doc: `consistent-metadata.md`. Registered in `ChordproToolsMainCommand.subcommands`; shell shim `./consistent-metadata` delegates via `cpt`.
+- **Git-tag versioning + `--version` (session 16)**: `pom.xml` adds `io.github.git-commit-id:git-commit-id-maven-plugin` (`revision` goal) to bake commit/build metadata into the JAR. New `GitVersionProvider` (adapter/in/file) implements picocli `IVersionProvider`; wired into `ChordproToolsMainCommand` so `./cpt --version` prints `chordpro-tools v<git-tag>` + short commit + ISO build time (e.g. `v1.0.0-dirty`, `commit: 61b5092`).
+- **VPN-aware build (session 16)**: `./build` auto-selects Maven settings since scripts don't source `~/.zshrc`. `nc -z -G2 mvn.ci.artifacts.walmart.com 443` → reachable uses `~/.m2/settings-walmart.xml` (Walmart Artifactory), unreachable uses `~/.m2/settings-central.xml` (Maven Central); neither present → Maven default settings. Override: `MVN_FORCE=walmart` / `MVN_FORCE=central`. Lets bandmates build off-VPN on non-Walmart machines.
+- **Catalog growth (session 16)**: catalog now ~507 song rows / 512 `.cho` files (was 487). New songs added by bandmates via PRs (Black Crowes, The Cure, Gin Blossoms, Seal, New Radicals, Luke Combs, Tainted Love, etc.). Several commits are titled "new, not validated" — this means the **song content itself** (chords/lyrics) hasn't been vetted/learned yet, so those songs are nowhere near gig-ready. It is NOT a reference to `verify-catalog`/`consistent-metadata` tooling status.
 
 ### Stubbed / not yet implemented
+- **`stabilize-song-body-delimiter` (DESIGN ONLY, session 16)**: Plan doc `stabilize-song-body-delimiter.md` at repo root. Goal: insert an explicit non-displaying delimiter line into every `.cho` to unambiguously separate header region from song body (today `SongParser` *infers* the boundary as the first non-header line — fragile, caused a duplicate-metadata incident on `UnderTheMilkyWay.cho`). Prerequisite/foundation for `consistent-song-data.md`. **Not built yet — plan only.**
+- **`consistent-song-data` (DESIGN ONLY)**: Plan doc `consistent-song-data.md` at repo root. Would diff song *bodies* (chords/lyrics/structure) across key-variants — the body-level counterpart to the metadata-level `consistent-metadata` command. Depends on the body-delimiter work above. **Not built yet.**
 - **RC-500 `.RC0` command**: `Rc500MemoryBank` infrastructure fully modelled but not wired to any picocli command. (`deploy-rc500` handles audio file deployment via generated scripts; the `.RC0` command would handle memory-bank name/config updates — a separate future capability.)
 - **ChordProTransposer**: Implemented but not wired to any command.
 
@@ -409,6 +432,7 @@ All 111 labelled rows in catalog pass as of session 5.
 2. Save CSV → run `./tidy-song-catalog` to strip \r
 3. `./update-song` or `./update-songs` to push metadata into .cho files
 4. `./verify-catalog` to confirm
+5. `./consistent-metadata` to confirm key-variants of the same song didn't drift apart (run with `--fix` to auto-repair DRIFT; filename/key mismatches must be fixed by hand)
 
 **Planning / running a gig:**
 1. `./list-gigs` to see existing gig slugs
