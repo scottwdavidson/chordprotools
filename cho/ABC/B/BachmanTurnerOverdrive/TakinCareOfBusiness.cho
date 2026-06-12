@@ -17,48 +17,21 @@
 {comment:**  meta: label: Takin  Care   }
 {comment:***********************************************}
 
-{columns: 2}
-
-
 
 {comment:Intro; DR Intro:Part1(8)}
-{start_of_grid 4x4+1}
+. | [C] . | [Bb] . | [F] . | [C] . |
 
 
 
-
-
-
-
-|| C . | Bb . | F . | C . |
-
-
-
-
-|| C . | Bb . | F . | C . ||
-
-
-
-
-
-{end_of_grid}
+. | [C] . | [Bb] . | [F] . | [C] . |
 
 {comment: DR Part2(8)}
-{start_of_grid 4x4+1}
-
-
-|| C . | Bb . | F . | C . |
+. | [C] . | [Bb] . | [F] . | [C] . |
 
 
 
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-|| C . | Bb . | F . | C . ||
-
-
-
-
-
-{end_of_grid}
 
 {start_of_verse}
 You [C]get up every morning
@@ -86,15 +59,10 @@ Work out
 
 {comment:DR Part 4}
 {comment:Guitar Solo 1}
-{start_of_grid 4x4+1}
-
-|| C . | Bb . | F . | C . |
+. | [C] . | [Bb] . | [F] . | [C] . |
 
 
-
-| C . | Bb . | F . | C . ||
-
-{end_of_grid}
+. | [C] . | [Bb] . | [F] . | [C] . |
 
 {comment:DR Part 5}
 {start_of_verse}
@@ -122,17 +90,9 @@ We be [C]takin' care of business[Bb] (it's all mine)
 
 {comment:Guitar Solo 2}
 {comment:DR Part 7}
-{start_of_grid 4x4}
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-
-|| C . | Bb . | F . | C . |
-
-
-
-|  C . | Bb . | F . | C . ||
-
-
-{end_of_grid}
+. | [C] . | [Bb] . | [F] . | [C] . |
 
 
 {comment:Interlude}
@@ -155,16 +115,10 @@ We be [C]takin' care of business[Bb] (it's all mine)
 {end_of_chorus}
 
 {comment:Guitar Solo 3}
-{start_of_grid 4x4}
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-||  C . | Bb . | F . | C . | 
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-
-
-|   C . | Bb . | F . | C . ||
-
-{end_of_grid}
- 
 {comment:DR Part 8}
 {start_of_verse}
 You [C]get up every morning
@@ -225,17 +179,15 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 {end_of_chorus}
 
 {comment:Piano Solo}
-{start_of_grid 4x4+1}
 
-||  C . | Bb . | F . | C . | 
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-|   C . | Bb . | F . | C . |
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-|   C . | Bb . | F . | C . |
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-|   C . | Bb . | F . | C . ||
+. | [C] . | [Bb] . | [F] . | [C] . |
 
-{end_of_grid}
 
 {comment:Outro}
 {start_of_chorus}
