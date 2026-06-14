@@ -94,6 +94,8 @@ RC-500 backing-track slot numbers are **per-gig assignments** stored in
 
 ## 2. Data Model
 
+<a id="song-catalogcsv"></a>
+
 ### `song-catalog.csv`
 
 One row per `.cho` file. All permanent metadata for that specific file version lives here.
@@ -137,6 +139,8 @@ Examples:
 | `ABC:B:BillyJoel:PianoMan-a` | `cho/ABC/B/BillyJoel/PianoMan-a.cho` *(key variant — see below)* |
 
 ---
+
+<a id="gigscsv"></a>
 
 ### `gigs.csv`
 
@@ -555,6 +559,8 @@ Recommended workflow:
 > `.cho` files receive the corrected catalog values.
 
 ---
+
+<a id="update-song--update-songs"></a>
 
 ### `update-song` / `update-songs`
 
