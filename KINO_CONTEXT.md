@@ -2,7 +2,7 @@
 # Canonical project brain, maintained by whatever coding agent is working this repo.
 # (Filename is historical — "Kino" was an earlier agent. You inherit this doc; keep it current.)
 # Update end-of-session whenever code, schemas, commands, or decisions change. Not for human consumption.
-# Last updated: 2026-06-12 (session 16)
+# Last updated: 2026-06-12 (session 17)
 
 ---
 
@@ -380,6 +380,7 @@ All 111 labelled rows in catalog pass as of session 5.
 ## CURRENT STATE / IN-PROGRESS
 
 ### Completed (fully implemented, tests green)
+- **tidy-gigs command upgrade (session 17)**: Upgraded from bash `sed` script to a PicoCLI command (`TidyGigsCommand`/`Service`/`UseCase`). Strips `\r` and sorts `gigs.csv` by GIG then SET. Includes JUnit tests and uses `chordprotools.gigs` config property to prevent hardcoded overwrites in tests.
 - **SONG LABEL field**: Column between SONG ID and CHORDPRO FILENAME in catalog. Written to .cho as `{meta: label: ...}`. 111 rows populated for all songs with backing tracks. Design rules documented in RC-500 SONG LABEL DESIGN RULES section.
 - **assign-backing-track-slots**: Fully implemented. `SetlistDeduplicator` component extracted. `SetlistEntryDto` carries BACKING column.
 - **SET migration (Phase 3 complete)**: SET column removed from `CatalogEntry` and `song-catalog.csv`. SET lives exclusively in `gigs.csv`. `export-setlist` joins both CSVs at runtime.

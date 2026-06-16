@@ -1,9 +1,14 @@
 {title: Steal Away}
 {artist: Robbie Dupree}
 {key: A}
+{duration: 3:00}
+{tempo: 120}
+{time: F}
+{meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment:Intro}
 | A | A | Aaug | Aaug | A6 | A6 | Aaug | Aaug |
@@ -16,7 +21,7 @@ Then [A6]show me... What I [A7]want to know
 {start_of_chorus}
 Why don't we [Dmaj7]steal away
 Why don't we [Dm7]steal away Into the [A]night
-[F#m7]I know it ain't right[Bm7][Dm7][E7sus]
+[F#m7]I know it ain't right [Bm7]. . . [Dm7] . [E7sus] .
 {end_of_chorus}
 
 {start_of_verse}
@@ -28,24 +33,32 @@ Then [A6]show me, what you [A7]came here for
 Why don't we [Dmaj7]steal away
 Why don't we [Dm7]steal away Into the [A]night
 [F#m7]I know it ain't right
-[Dm7]Into the night,[A]babe
-[F#m7]Make it tonig[Bm7]ht[A6]
+[Bm7]__[Dm7]Into the night,[A]baby
+[F#m7]Make it tonig[Bm7]ht[A6]. . . . [A6]. . . .
 {end_of_chorus}
 
 {comment: Solo}
-| A6 | A6 | D | D | Daug | Daug | D6 | D6 | D7 | D7 |
+. | [D]    . . . | [D]    . . - [Daug] | 
+. | [Daug] . . . | [Daug] . . - [D6]   | 
+. | [D6]   . . . | [D6]   . . - [D7]   | 
+. | [D7]   . . . | [D7]   . . . |
 
 {comment: KEY CHANGE FROM A TO D}
 [Gmaj7]I caught you glancing my [Em7/A]way
-And I know what you're after[Bm7]
-[Bm7]( no second [Bbaug]chances toni[Em7/A]ght)
-[Ab7b5]Why...don't we stea[Gmaj7]l away
-Why don't we steal away[Gm7]
-[Gm/A]Why don't we steal away[Gmaj7]
-Why don't we steal away[Gm7]
+And I know what you're [Bm7]after
+( no second [Bbaug]chances toni[Em7/A]ght)
+[Ab7b5]Why...don't we 
+[Gmaj7]steal away
+Why don't we [Gm7]steal away [Gm/A]Why don't we 
+[Gmaj7]steal away, Why don't we 
+[Gm7]steal away
 
-{comment:Outro}
-{comment: Repeat}
+{start_of_part: Outro}
 Into the night[D]
-||: [Bm7]I know it ain't right[Em7],  [Gm7] Into the ni[D]ght[Bm7] :||
-[D] (night)
+[Bm7]I know it ain't right[Em7],  [Gm7] Into the ni[D]ght
+[Bm7]I know it ain't right[Em7],  [Gm7] Why Don't We Steal Aw[D]ay
+[Bm7]I know it ain't right[Em7],  [Gm7] Into the ni[D]ght Baby
+[Bm7] ------------ [Em7],  [Gm7] Why don't we steal away [D]
+[Bm7] Make it Tonight Baby [Em7],  [Gm7] Why Don't we steal away 
+[D]
+

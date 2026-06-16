@@ -1,9 +1,14 @@
 {title: Steal Away}
 {artist: Robbie Dupree}
 {key: F}
+{duration: 3:00}
+{tempo: 120}
+{time: F}
+{meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment:Intro}
 | F | F | Faug | Faug | F6 | F6 | Faug | Faug |

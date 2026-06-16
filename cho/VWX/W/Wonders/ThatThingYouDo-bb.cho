@@ -1,6 +1,13 @@
 {title: That Thing You Do}
 {artist: The Wonders}
 {key: Bb}
+{duration: 2:30}
+{tempo: 134}
+{meta: countin: 8}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: Intro}
 [Bb] [Ebm] [Bb] [Ebm]

@@ -1,5 +1,5 @@
-# remove the carriage returns "\r"
-sed 's/\r//g' ./gigs.csv > ./temporary-gigs.csv
+#!/bin/bash
 
-# mv temp in gigs
-mv ./temporary-gigs.csv ./gigs.csv
+# Delegate to PicoCLI to remove carriage returns "\r"
+# and to correctly sort the rows by GIG, then SET.
+./cpt tidy-gigs
