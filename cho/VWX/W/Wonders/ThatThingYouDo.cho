@@ -3,28 +3,31 @@
 {key: E}
 {duration: 2:30}
 {tempo: 134}
-{meta: countin: 8}
+{meta: countin: 4}
+{meta: backing: RC}
 
 {comment:***********************************************}
-{comment:**  meta: countin: 8   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
-{comment: Intro}
-[E] [Am] [E] [Am]
+{start_of_part: Intro}
+. | [E] . . . | [Am] . . . |
+{end_of_part}
 
 {start_of_verse: Verse 1}
 [E] You, [A] doin' [B] that thing you [E] do
-[A] Breakin' [B] my heart [C#m] into a million [F#] pieces
-[F#m] Like you al[Am]ways [B] do
-[E] And you, [A] don't mean [B] to be [E] cruel
-[A] You never [B] even [C#m] knew about the [F#] heartache
-[D] I've been goin' [B] through
+[A] Breakin' my [B]heart in [C#m]to a million pi[F#]eces
+[F#m] Like you always [Am7]do [B7]
+And [E]you, [A]don't mean [B]to be [E]cruel
+You [A]never [B]even [C#m]knew about the heart[F#]ache
+[D]I've been goin' [B]through
 {end_of_verse}
 
 {start_of_chorus: Chorus}
-Well, [C#m] I try and [F#] try to forget you, girl
-[E] But it's [E7] just so [A] hard to [Am] do
-[E] Every time you [Am] do that thing you [E] do [B]
+Well, I [C#m]try and try to for[F#]get you, girl
+But it's [E7]just so [E7/G#]hard to [A]do_[Am]
+[E]Every time you [Am]do that thing you [E]do_[B7]
 {end_of_chorus}
 
 {start_of_verse: Verse 2}
@@ -37,34 +40,34 @@ Well, [C#m] I try and [F#] try to forget you, girl
 {end_of_verse}
 
 {start_of_chorus: Chorus}
-'Cause [C#m] I try and [F#] try to forget you, girl
-[E] But it's [E7] just so [A] hard to [Am] do
-[E] Every time you [Am] do that thing you [E] do
+Cause, I [C#m]try and try to for[F#]get you, girl
+But it's [E7]just so [E7/G#]hard to [A]do_[Am]
+[E]Every time you [Am]do that thing you [E]do_
 {end_of_chorus}
 
 {start_of_bridge: Bridge}
-[A] I don't ask a lot, girl (I don't ask a lot, girl)
-[C#m] But I know one thing's for sure (know one thing's for sure)
-[F#] It's your love I haven't got, girl
+[A]I don't ask a lot, girl (I don't ask a lot, girl)
+But I [C#m]know one thing's for sure (know one thing's for sure)
+It's the [F#]love I haven't got, girl
 [B] And I just [C] can't take it [B] anymore (Wow!)
 {end_of_bridge}
 
 {comment: Guitar Solo}
-[E] [A] [B] 
-[E] [A] [B]
-[C#m] [F#] 
-[F#m] [C] [B]
+. | [E] . . . | [A] . [B] . | 
+. | [E] . . . | [A] . [B] . | 
+. | [C#m] . . . | [F#] . . . |
+. | [F#m] . . . | [C] . [B] (cause) |
 
 {start_of_verse: Verse 3}
-[E] 'Cause we, [A] could be [B] happy can't you [E] see
-[A] If you'd [B] only [C#m] let me be the one to [F#] hold you
-[D] And keep you here with [B] me
+'Cause [E]we, could be [A]happy [B]can't you 
+[E]see If you'd [A]only [B]let me [C#m]be the one to hold [F#]you
+And [D]keep you here with [B]me
 {end_of_verse}
 
 {start_of_chorus: Chorus & Outro}
-'Cause [C#m] it hurts me [F#] so just to see you go
-[E] Around [E7] with some[A]one [Am] new
-[E] And if I know [Am] you you're doin' that thing
-[E] Every day [Am] just doin' that thing
-[E] I can't take you [B] doin' that thing you [A] do [Am] [E] [E6]
+'Cause it [C#m]hurts me so just to [F#]see you go
+A[E]round with [E7/G#]someone [A]new_[Am]
+And if [E]I know you, you're [Am]doin' that thing
+[E]Every day just [Am]doin' that thing
+[E]I can't take you [B7]doin' that thing you do[A]_[Am]_[E]_[Emaj7]
 {end_of_chorus}
