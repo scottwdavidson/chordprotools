@@ -2,8 +2,13 @@
 {artist: Tears for Fears}
 {key: Em}
 
-{comment: Intro}
-[Em] [A] [Em] [A]
+{start_of_part: Intro}
+. | [Em] .    .    - [A] | [A] . . . |
+.   G B  F# G E F# D C#
+
+. | [Em] .    .    - [A] | [A] . . . |
+.   G B  F# G E F# G A
+{end_of_part}
 
 {start_of_verse: Verse 1}
 [Em] All around me are fa[G]miliar faces
@@ -43,7 +48,14 @@ When people run in [A] circles it's a very, very
 [Em] Mad [A] world, [Em] mad [A] world
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Em] Enlarge your [A] world
 [Em] Mad [A] world
-[Em] [A] [Em]
+
+. | [Em] .    .    - [A] | [A] . . . |
+.   G B  F# G E F# D C#
+
+. | [Em] .    .    - [A] | [A] . . . |
+.   G B  F# G E F# G A
+{end_of_part}
+

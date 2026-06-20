@@ -51,8 +51,11 @@ For straightforward licks, use lowercase letters for the notes to visually disti
 
 ```text
 {start_of_part: Intro}
-. | [Fm] .    .   [Bb] |
-.   Ab C G Ab F G Eb D
+. | [Em] .    .    - [A] | [A] . . . |
+.   G B  F# G E F# D C#
+
+. | [Em] .    .    - [A] | [A] . . . |
+.   G B  F# G E F# G A
 {end_of_part}
 ```
 
@@ -100,3 +103,7 @@ With the [C] chords placed directly [D] over the text.
 {start_of_part: Outro}
 . | [Em] . . . | [C] . . . | [G] . . . | [D] . . . |
 {end_of_part}
+
+# TODO
+- add details about "." and "-" ( quarter note and eigth note ) use Mad World 
+- add flow process where the core metadata is added *ONLY* in initial draft prior to `import-song` ( song catalog updates after that )
