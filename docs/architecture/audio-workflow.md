@@ -3,8 +3,8 @@
 
 ## 1. Executive Summary
 The `chordprotools` audio processing module defines the ingestion, alignment, manipulation, and distribution of multi-track audio to generate performance-ready assets. The system standardizes external audio sources into two synchronized high-fidelity outputs optimized for live performance:
-1. **Rhythm Accompaniment Asset (Track 2 Role):** Public-facing instrumental accompaniment routed to the main front-of-house (FOH) PA system.
-2. **Isolated Timing Asset (Track 1 Role):** Internal-facing timing reference routed exclusively to the band’s In-Ear Monitors (IEMs).
+1. **Rhythm Accompaniment Asset (Backing Track):** Public-facing instrumental accompaniment routed to the main front-of-house (FOH) PA system.
+2. **Isolated Timing Asset (Click Track):** Internal-facing timing reference routed exclusively to the band’s In-Ear Monitors (IEMs).
 
 By utilizing structured track boundaries, explicit count-in logic, and vocal ceiling transpositions, this workflow ensures rock-solid live synchronization while maintaining the authentic energy of a live performance.
 
@@ -45,7 +45,7 @@ The implementation pipeline spans three distinct environments: Source Ingestion,
 | Component | Responsibility / Input | Output / Role |
 | :--- | :--- | :--- |
 | **Karaoke-Version API/Web** | Sourced stem files (Compressed `.mp3`). | Raw materials: Rhythm stems + explicitly padded Click stems. |
-| **Anyshift / Anytune** | Selective transposition of pitched stems (e.g., Bass guitar). | Pitch-corrected `.mp3` stems matching the band's performance key. Non-pitched tracks (drums, clicks) bypass this component. |
+| **Anytune** | Selective transposition of pitched stems (e.g., Bass guitar). | Pitch-corrected `.mp3` stems matching the band's performance key. Non-pitched tracks (drums, clicks) bypass this component. |
 | **Logic Pro DAW** | Track alignment, structure building, and automation. | High-fidelity master files (`.wav`) + automated SHA-256 cryptographic sidecar manifests generated upon export to Google Drive. |
 | **Google Drive Storage** | Cloud repository for generated assets and verification manifests. | The definitive Source of Truth (SoT). |
 | **RC-500 Looper Pedal** | Dual-track hardware playback engine. | Discretely splits physical Track 1 (Click to IEMs) and physical Track 2 (Backing to Mains). |
@@ -110,6 +110,80 @@ To eliminate human error, the pipeline introduces a digital handshake verificati
 2. **Post-Sync Differential Audit:** After writing data to the RC-500 hardware via USB, an automated utility within `chordprotools` streams the tracks directly off the mounted looper pedal file system, calculates local runtime hashes, and diffs them against the remote Google Drive manifest. Any missing tracks, misaligned tracks, or mismatched checksums trigger immediate deployment warnings before the gear is packed for a gig.
 
 ---
+
+
+# Section VI. System Integrity & Automated Validation
+6.1 The Handshake Architecture
+To guarantee that the physical files present on the BOSS RC-500 precisely match the authorized master mixes stored on Google Drive, chordprotools implements a detached cryptographic signature protocol. This process protects the band from silent disk corruption over USB, accidental track omissions, or lingering stale data from a prior setlist.
+[Logic Pro Export] ──► Calculate SHA-256 ──► Write manifest.json to Google Drive
+                                                    │
+                                                    ▼ (Verification Step)
+[RC-500 Mounted via USB] ──► Stream Bytes ──► Compare Local vs. Remote Hashes
+
+6.2 Cloud Manifest Specification (manifest.json)
+Upon compiling and exporting .wav assets to the Google Drive Source of Truth, the engineering process generates an aggregated manifest.json file at the root of the gig folder. This single file acts as the ultimate digital ledger for the entire setlist deployment.
+The json file maps the explicit hardware directory target to its unique file identifiers, runtime mode, and individual file hashes.
+
+```
+{
+  "gig_slug": "2026-07-04-fourth-of-july",
+  "generated_timestamp": "2026-06-20T14:55:00Z",
+  "total_slots": 2,
+  "assignments": [
+    {
+      "rc_slot": 5,
+      "song_id": "ABC:B:BillyJoel:MyLife",
+      "deployment_mode": "live",
+      "tracks": {
+        "track_1": {
+          "physical_filename": "_MYLIFE.WAV",
+          "role": "timing_performance_asset",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "track_2": {
+          "physical_filename": "MYLIFE.WAV",
+          "role": "rhythm_accompaniment_asset",
+          "sha256": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+        }
+      }
+    },
+    {
+      "rc_slot": 6,
+      "song_id": "GHI:S:SteelyDan:DoItAgain",
+      "deployment_mode": "practice",
+      "tracks": {
+        "track_1": {
+          "physical_filename": "PRX-FULL.WAV",
+          "role": "practice_full_mix",
+          "sha256": "8f434346648f6b96df89ddd92e4727b139cc0bbf4b38bf291b582b855e3b0c44"
+        },
+        "track_2": {
+          "physical_filename": "PRX-LIVE.WAV",
+          "role": "practice_live_mix",
+          "sha256": "4a5e3c88e9f2113aa89ddc8812f45ea291c139abef4b38bf291b582b855e3b0c"
+        }
+      }
+    }
+  ]
+}
+```
+
+6.3 Verification Tool Runtime Algorithm
+The chordprotools CLI utility executes the verification via a lightweight streaming adapter over USB, eliminating the need to copy files off the looper back to the local hard drive.
+1. Manifest Retrieval: The tool downloads the manifest.json for the target gig from the cloud repository.
+2. Mount Detection: The tool checks the volume configuration path for the active loop station drive (e.g., /Volumes/BOSS_RC500/ or configured properties).
+3. Iterative Stream Hashing: For each assigned slot listed in the manifest, the tool targets the specific sub-directories: • It reaches into ROLAND/WAVE/005_1/ and grabs the target .wav file name listed in the manifest. • It uses a Java streaming buffer (e.g., DigestInputStream wrapping a standard file input stream) to read the bytes directly off the physical hardware disk block-by-block. • The bytes are piped into a MessageDigest instance configured for SHA-256.
+4. Differential Validation Rules: • MATCH: The computed local hash completely mirrors the cloud manifest string. The asset is authenticated. • MISMATCH (Critical Flag): If the hashes differ, it signals that the file on disk is corrupted, truncated, or belongs to a different song/version. • ORPHAN / STALE (Warning Flag): If a folder on the device contains audio assets not accounted for in the current gig's manifest entries, the tool flags it as dead weight that should be cleaned to reclaim memory space.
+Thought Experiment for Code Assistance:
+When we wire this up to a picocli subcommand (e.g., ./cpt verify-hardware --gig 2026-07-04), we can make the output incredibly scannable for your quick pre-gig inspection:
+Slot [05]  Label: MyLife       ➔ Track 1: OK  ➔ Track 2: OK
+Slot [06]  Label: DoItAgain    ➔ Track 1: OK  ➔ Track 2: ⚠ MISMATCH (Hash Differs)
+Slot [07]  Label: PianoMan     ➔ Track 1: ✖ MISSING FILE
+
+
+
+
+
 
 ## 6. System Documentation Outline
 
