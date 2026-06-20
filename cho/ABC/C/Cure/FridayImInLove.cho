@@ -1,12 +1,25 @@
 {title: Friday I'm In Love}
 {artist: The Cure}
 {key: D}
-{tempo: 136}
 {duration: 3:15}
+{tempo: 136}
+{meta: countin: 5}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 5   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
-[D][G][D][A][Bm][G][D][A]
-[D][G][D][A][Bm][G][D][A]
+. | . <pickup> |
+. | [D] . . . | [G] . . . |
+. | [D] . . . | [A] . . . | 
+. | [Bm] . . . | [G] . . . | 
+. | [D] . . . | [A] . . . |
+
+. | [D] . . . | [G] . . . |
+. | [D] . . . | [A] . . . | 
+. | [Bm] . . . | [G] . . . | 
+. | [D] . . . | [A] . . . |
 {end_of_part}
 
 
@@ -24,9 +37,8 @@ It's Fri[D]day I'm in [A]love
 
 {start_of_chorus: Chorus}
 [G]Saturday [A]wait
-And [Bm]Sunday always [G]comes too late
-[D][A]
-[But][Friday]
+[Bm]Sunday always [G]comes too late
+But [D]Friday never [A]hesitates
 {end_of_chorus}
 
 
@@ -39,7 +51,10 @@ It's Fri[D]day I'm in [A]love
 
 
 {start_of_part: Solo}
-[D][G][D][A][Bm][G][D][A]
+. | [D] . . . | [G] . . . |
+. | [D] . . . | [A] . . . | 
+. | [Bm] . . . | [G] . . . | 
+. | [D] . . . | [A] . . . |
 {end_of_part}
 
 
@@ -53,29 +68,26 @@ It's Fri[D]day I'm in [A]love
 
 {start_of_chorus: Chorus}
 [G]Saturday [A]wait
-And [Bm]Sunday always [G]comes too late
-[D][A]
-[But][Friday]
+[Bm]Sunday always [G]comes too late
+But [D]Friday never [A]hesitates
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Bm]  Dressed up to the [Cadd9]eyes 
 It's a wonderful surpri[D]se
 To see your [A]shoes and your spirits rise[Bm]
-Throwing out your [Cadd9]frown
-And just smiling at the sound[D]
+Throw out your [Cadd9]frown
+And just smile at the sound[D]
 Sleek as a [A]shriek
 Spinning round and round[Bm]
 Always take a big [Cadd9]bite 
 It's such a gorgeous sight[D]
 To see you [A]eat in the middle of the night[Bm]
-You can never get e[Cadd9]nough
-Enough of this stuff
-[D]
-[Friday]
-I'm [A]in love
-{end_of_bridge}
+If You can't get e[Cadd9]nough
+Enough of this stuff[D]
+it's Friday I'm[A]in love
+{end_of_part}
 
 
 {start_of_verse: Verse 4}
@@ -91,6 +103,13 @@ It's Fri[D]day I'm in [A]love
 
 
 {start_of_part: Outro}
-[D][G][D][A][Bm][G][D][A]
-[D][G][D][A][Bm][G][D][A]
+. | [D] . . . | [G] . . . |
+. | [D] . . . | [A] . . . | 
+. | [Bm] . . . | [G] . . . | 
+. | [D] . . . | [A] . . . |
+
+. | [D] . . . | [G] . . . |
+. | [D] . . . | [A] . . . | 
+. | [Bm] . . . | [G] . . . | 
+. | [D] . . . | [A] . . . |
 {end_of_part}
