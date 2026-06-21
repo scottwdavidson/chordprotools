@@ -307,11 +307,12 @@ Play It Again,Luke Bryan,C,,,,,,,,,,JKL:L:LukeBryan:PlayItAgain,
 Can't Tell Me I'm Wrong,Luke Combs,Bb,2:50,126,,,,,,,,JKL:L:LukeCombs:CantTellMeImWrong,
 Just Like Heaven,The Cure / Lumineers,A,,,,,,,,,,JKL:L:Lumineers:JustLikeHeaven,
 Sweet Home Alabama,Lynard Skynard,D,,,,,,,,,,JKL:L:LynyrdSkynyrd:SweetHomeAlabama,
-What's Your Name,Lynyrd Skynyrd,G,3:10,135,8 ; start with pickup,RC,,,,,,JKL:L:LynyrdSkynyrd:WhatsYourName,Whats YrNam
+What's Your Name,Lynyrd Skynyrd,G,3:10,135,8,RC,,,,,,JKL:L:LynyrdSkynyrd:WhatsYourName,Whats YrNam
 I Wish You Would,Mackenzie Carpenter & Midland,D,3:10,,,,,,,,,MNO:M:MackenzieCarpenter:IWishYouWould,
 La Isla Bonita,Madonna,C#m,4:00,100,8,RC,P54,,,C#m,,MNO:M:Madonna:LaIslaBonita,LaIslaBonita
 Dream A Little Dream Of Me,Mama Cass,C,,133,,,,,,,,MNO:M:MamaCass:DreamALittleDreamOfMe,
 One Day She’s Here,Marcus King Band,Bm,,,,,,,,,,MNO:M:MarcusKing:OneDayShesHere,
+"Someday, Someway",Marchall Crenshall,A,2:45,155,8,RC,,,,,,MNO:M:MarshallCrenshaw:SomedaySomeway,
 Can't You See,Marshall Tucker Band,D,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee,
 Can't You See,Marshall Tucker Band,A,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee-a,
 Heard It in a Love Song,Marshall Tucker Band,D,4:20,110,,,,,,,,MNO:M:MarshallTuckerBand:HeardItInALoveSong,
