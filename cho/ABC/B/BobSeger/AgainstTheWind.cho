@@ -6,7 +6,7 @@
 {meta: nord: M44}
 {meta: countin: 4}
 {meta: backing: RC}
-{meta: rc-slot: 6}
+{meta: rc-slot: 10}
 {meta: label: AganstWind}
 {meta: performance: F}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: M44   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 6   }
+{comment:**  meta: rc-slot: 10   }
 {comment:**  meta: label: AganstWind   }
 {comment:**  meta: performance: F   }
 {comment:***********************************************}

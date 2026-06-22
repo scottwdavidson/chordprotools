@@ -5,10 +5,12 @@
 {tempo: 134}
 {meta: countin: 8}
 {meta: backing: RC}
+{meta: rc-slot: 7}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 7   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
