@@ -3,6 +3,11 @@
 {key: D}
 {duration: 3:00}
 {tempo: 120}
+{meta: nord: O54}
+
+{comment:***********************************************}
+{comment:**  meta: nord: O54   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | E . . . | F#m7 . . . | 
