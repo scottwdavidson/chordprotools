@@ -6,7 +6,7 @@
 {meta: nord: P25}
 {meta: countin: 8}
 {meta: backing: RC}
-{meta: rc-slot: 27}
+{meta: rc-slot: 33}
 {meta: label: CrocodRock}
 {meta: performance: G}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: P25   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 27   }
+{comment:**  meta: rc-slot: 33   }
 {comment:**  meta: label: CrocodRock   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}

@@ -4,9 +4,15 @@
 {duration: 3:15}
 {tempo: 136}
 {meta: countin: 5}
+{meta: backing: RC}
+{meta: rc-slot: 5}
+{meta: label: FridayInLove}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 5   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 5   }
+{comment:**  meta: label: FridayInLove   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

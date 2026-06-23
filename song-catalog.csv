@@ -133,7 +133,7 @@ Pretty Little Baby,Connie Francis,Db,,,,,,,,,,ABC:C:ConnieFrancis:PrettyLittleBa
 Who's Sorry Now,Connie Francis,Bb,,,,,,,,,,ABC:C:ConnieFrancis:WhosSorryNow,
 Put Your Records On,Corrine Bailey Rae,A,3:00,96,4,,N24,,,,,ABC:C:CorrineBailyRae:PutYourRecordsOn,
 Accidentally In Love,Counting Crows,G,3:00,138,4,,O11,,,,,ABC:C:CountingCrows:AccidentallyInLove,
-Friday I'm In Love,The Cure,D,3:15,136,5,,,,,,,ABC:C:Cure:FridayImInLove,
+Friday I'm In Love,The Cure,D,3:15,136,5,RC,,,,,,ABC:C:Cure:FridayImInLove,FridayInLove
 Just Like Heaven,The Cure,A,3:10,153,,,,,,,,ABC:C:Cure:JustLikeHeaven,
 ( I Just ) Died In Your Arms,Cutting Crew,Bm,4:05,125,8,RC,P15,,,,,ABC:C:CuttingCrew:DiedInYourArms,DiedInYrArms
 Beautiful Sunday,Daniel Boone,C,3:00,120,,,P55,,,,,DEF:D:DanielBoone:BeautifulSunday,
@@ -499,6 +499,7 @@ Save Your Tears,The Weeknd,C,,,,,,,,,,VWX:W:Weeknd:SaveYourTears,
 Island In The Sun,Weezer,Em,3:00,115,4,RC,P54,,,,,VWX:W:Weezer:IslandInTheSun,IslandInSun
 Crazy,Willie Nelson,Eb,2:30,,,,,,,,,VWX:W:WillieNelson:Crazy,
 That Thing You Do,The Wonders,E,2:30,134,8,RC,O52,,,,,VWX:W:Wonders:ThatThingYouDo,
+That Thing You Do,The Wonders,A,2:30,134,8,RC,O52,,,,,VWX:W:Wonders:ThatThingYouDo-a,
 That Thing You Do,The Wonders,Bb,2:30,134,8,RC,O52,,,,,VWX:W:Wonders:ThatThingYouDo-bb,
 Blue Christmas,Elvis Presley,E,1:50,95,,,,,,,,VWX:X:Xmas:BlueChristmas,
 Have Yourself A Merry Little Christmas,Bing Crosby,C,2:50,80,,,,,,,,VWX:X:Xmas:HaveYourselfAMerryLittleChristmas,

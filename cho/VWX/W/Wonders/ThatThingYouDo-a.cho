@@ -1,0 +1,75 @@
+{title: That Thing You Do}
+{artist: The Wonders}
+{key: A}
+{duration: 2:30}
+{tempo: 134}
+{meta: countin: 8}
+{meta: backing: RC}
+{meta: rc-slot: 7}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 7   }
+{comment:***********************************************}
+
+{start_of_part: Intro}
+. | [A] . . . | [Dm] . . . |
+{end_of_part}
+
+{start_of_verse: Verse 1}
+[A] You, [D] doin' [E] that thing you [A] do
+[D] Breakin' my [E]heart in [F#m]to a million pi[B]eces
+[Bm] Like you always [Dm7]do [E7]
+And [A]you, [D]don't mean [E]to be [A]cruel
+You [D]never [E]even [F#m]knew about the heart[B]ache
+[G]I've been goin' [E]through
+{end_of_verse}
+
+{start_of_chorus: Chorus}
+Well, I [F#m]try and try to for[B]get you, girl
+But it's [A7]just so [A7/C#]hard to [D]do_[Dm]
+[A]Every time you [Dm]do that thing you [A]do_[E7]
+{end_of_chorus}
+
+{start_of_verse: Verse 2}
+[A] I, [D] know all [E] the games you [A] play
+[D] And I'm [E] gonna find a [F#m] way to let you [B] know that
+[Bm] You'll be [Dm] mine some [E] day
+[A] 'Cause we, [D] could be [E] happy can't you [A] see
+[D] If you'd [E] only [F#m] let me be the one to [B] hold you
+[G] And keep you here with [E] me
+{end_of_verse}
+
+{start_of_chorus: Chorus}
+Cause, I [F#m]try and try to for[B]get you, girl
+But it's [A7]just so [A7/C#]hard to [D]do_[Dm]
+[A]Every time you [Dm]do that thing you [A]do_
+{end_of_chorus}
+
+{start_of_bridge: Bridge}
+[D]I don't ask a lot, girl (I don't ask a lot, girl)
+But I [F#m]know one thing's for sure (know one thing's for sure)
+It's the [B]love I haven't got, girl
+[E] And I just [F] can't take it [E] anymore (Wow!)
+{end_of_bridge}
+
+{comment: Guitar Solo}
+. | [A] . . . | [D] . [E] . | 
+. | [A] . . . | [D] . [E] . | 
+. | [F#m] . . . | [B] . . . |
+. | [Bm] . . . | [F] . [E] (cause) |
+
+{start_of_verse: Verse 3}
+'Cause [A]we, could be [D]happy [E]can't you 
+[A]see If you'd [D]only [E]let me [F#m]be the one to hold [B]you
+And [G]keep you here with [E]me
+{end_of_verse}
+
+{start_of_chorus: Chorus & Outro}
+'Cause it [F#m]hurts me so just to [B]see you go
+A[A]round with [A7/C#]someone [D]new_[Dm]
+And if [A]I know you, you're [Dm]doin' that thing
+[A]Every day just [Dm]doin' that thing
+[A]I can't take you [E7]doin' that thing you do[D]_[Dm]_[A]_[Amaj7]
+{end_of_chorus}
