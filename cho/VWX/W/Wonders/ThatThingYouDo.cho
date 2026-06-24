@@ -15,7 +15,8 @@
 {comment:***********************************************}
 
 {start_of_part: Intro}
-. | <drum> . . . | <drum> . . . |
+. | (drum) . . . | (drum) . . . |
+
 . | [E]    . . . | [Am] . . . |
 {end_of_part}
 
@@ -30,37 +31,38 @@ You [A]never [B]even [C#m]knew about the heart[F#]ache
 
 {start_of_chorus: Chorus}
 Well, I [C#m]try and try to for[F#]get you, girl
-But it's [E7]just so [E7/G#]hard to [A]do_[Am]
+But it's [E]just so [E7/G#]hard to [A]do_[Am]
 [E]Every time you [Am]do that thing you [E]do_[B7]
 {end_of_chorus}
 
 {start_of_verse: Verse 2}
-[E] I, [A] know all [B] the games you [E] play
-[A] And I'm [B] gonna find a [C#m] way to let you [F#] know that
-[F#m] You'll be [Am] mine some [B] day
-[E] 'Cause we, [A] could be [B] happy can't you [E] see
-[A] If you'd [B] only [C#m] let me be the one to [F#] hold you
-[D] And keep you here with [B] me
+[E] I, [A] know all the g[B]ames you [E] play
+[A] And I'm g[B]onna find a w[C#m]ay to let you [F#] know that
+[F#m] You'll be m[Am]ine some [B]day
+'Cause [E]we, could be h[A]appy c[B]an't you s[E]ee
+If you'd o[A]nly l[B]et me b[C#m]e the one to h[F#]old you
+And k[D]eep you here with [B]me
 {end_of_verse}
 
 {start_of_chorus: Chorus}
 Cause, I [C#m]try and try to for[F#]get you, girl
-But it's [E7]just so [E7/G#]hard to [A]do_[Am]
+But it's [E]just so [E7/G#]hard to [A]do_[Am]
 [E]Every time you [Am]do that thing you [E]do_
 {end_of_chorus}
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [A]I don't ask a lot, girl (I don't ask a lot, girl)
 But I [C#m]know one thing's for sure (know one thing's for sure)
 It's the [F#]love I haven't got, girl
-[B] And I just [C] can't take it [B] anymore (Wow!)
-{end_of_bridge}
+And I j[B]ust can't take it [C]any-[B]more (Wow!)
+{end_of_part}
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 . | [E] . . . | [A] . [B] . | 
 . | [E] . . . | [A] . [B] . | 
 . | [C#m] . . . | [F#] . . . |
 . | [F#m] . . . | [C] . [B] (cause) |
+{end_of_part}
 
 {start_of_verse: Verse 3}
 'Cause [E]we, could be [A]happy [B]can't you 
@@ -71,7 +73,7 @@ And [D]keep you here with [B]me
 {start_of_chorus: Chorus & Outro}
 'Cause it [C#m]hurts me so just to [F#]see you go
 A[E]round with [E7/G#]someone [A]new_[Am]
-And if [E]I know you, you're [Am]doin' that thing
+And if I kn-[E]ow you, you're [Am]doin' that thing
 [E]Every day just [Am]doin' that thing
 [E]I can't take you [B7]doin' that thing you do[A]_[Am]_[E]_[Emaj7]
 {end_of_chorus}
