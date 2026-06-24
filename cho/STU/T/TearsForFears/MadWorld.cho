@@ -3,18 +3,12 @@
 {key: Em}
 
 {start_of_part: Intro}
-. | [Em] .    .    - [A] | [A] . . . |
-.   G B  F# G E F# D C#
-
-. | [Em] .    .    - [A] | [A] . . . |
-.   G B  F# G E F# G A
-{end_of_part}
-
-{start_of_part: Intro}
-. | [Em] .    .    - [A] | [A] . . . |
 [Em]G  B  F#  G  E  F# [A]D  C# [A]-----
 
-. | [Em] .    .    - [A] | [A] . . . |
+[Em]G  B  F#  G  E  F# [A]G  A [A]-----
+
+[Em]G  B  F#  G  E  F# [A]D  C# [A]-----
+
 [Em]G  B  F#  G  E  F# [A]G  A [A]-----
 {end_of_part}
 
@@ -56,14 +50,30 @@ When people run in [A] circles it's a very, very
 [Em] Mad [A] world, [Em] mad [A] world
 {end_of_chorus}
 
+{start_of_part: Instrumental}
+[Em]G  B  F#  G  E  F# [A]D  C# [A]-----
+
+[Em]G  B  F#  G  E  F# [A]G  A [A]-----
+
+[Em]G  B  F#  G  E  F# [A]D  C# [A]-----
+
+[Em]G  B  F#  G  E  F# [A]G  A [A]-----
+{end_of_part}
+
+{start_of_chorus: Chorus}
+[Em] And I find it kind of [A] funny, I find it kind of [Em] sad
+The dreams in which I'm [A] dying are the best I've ever [Em] had
+I find it hard to [A] tell you, I find it hard to [Em] take
+When people run in [A] circles it's a very, very
+[Em] Mad [A] world, [Em] mad [A] world
+{end_of_chorus}
+
 {start_of_part: Outro}
 [Em] Enlarge your [A] world
 [Em] Mad [A] world
 
-. | [Em] .    .    - [A] | [A] . . . |
-.   G B  F# G E F# D C#
+[Em]G  B  F#  G  E  F# [A]D  C# [A]-----
 
-. | [Em] .    .    - [A] | [A] . . . |
-.   G B  F# G E F# G A
+[Em]G  B  F#  G  E  F# [A]G  A [A]-----
 {end_of_part}
 
