@@ -1,11 +1,13 @@
 {title: Ghost In You}
-{artist: Psychelic Furs}
+{artist: Psychedelic Furs}
 {key: Bb}
+{duration: 3:40}
 {tempo: 123}
-{duration: 4:00}
+{meta: backing: RC}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: backing: RC   }
+{comment:***********************************************}
 
 {comment:Intro}
 |I[Bb]|N[Eb]|NT[Bb]|O[Eb]|
