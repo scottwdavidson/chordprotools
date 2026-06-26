@@ -1,6 +1,11 @@
 {title: Mad World}
 {artist: Tears for Fears}
 {key: Em}
+{duration: 3:00}
+{tempo: 102}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 [Em]G  B  F#  G  E  F# [A]D  C# [A]-----
