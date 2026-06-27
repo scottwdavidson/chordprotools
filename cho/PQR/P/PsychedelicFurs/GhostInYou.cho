@@ -9,8 +9,17 @@
 {comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
-{comment:Intro}
-|I[Bb]|N[Eb]|NT[Bb]|O[Eb]|
+{start_of_part:Intro}
+. | [Bb]   . . . | [Bb]   . . . | 
+. | [Eb+2] . . . | [Eb+2] . . . | 
+. | [Bb]   . . . | [Bb]   . . . | 
+. | [Eb+2] . . . | [Eb+2] . . . | 
+
+. | [Eb+2] . . . | [Eb+2] . . . | 
+. | [Dm7]  . . . | [Dm7]  . . . | 
+. | [Eb+2] . . . | [Eb+2] . . . | 
+. | [Dm7]  . . . | [Dm7]  . . . | 
+{end_of_part}
 
 {start_of_verse}
 A [Bb]man in my shoes runs the light, and a[Eb]ll the papers lie tonight but
@@ -29,7 +38,7 @@ Ins[F]ide you the time moves and [Eb]she don't fade.
 The [Bb]race is on I'm on your side, and h[Eb]earing you my engines die, I'm
 [Bb]in a mood for you, or for r[Eb]unning away.
 [Eb]Stars come down in y[Dm]ou.
-[Eb]And love (love, love), yo[Bb]u can't gi[Dm]ve it away.[F]
+[Eb]And love (love, love), you can't gi[Dm]ve it away.[F]
 {end_of_verse}
 
 {start_of_chorus}
@@ -38,15 +47,24 @@ The [F]ghost in you she don't [Eb]fade.
 Ins[F]ide you the time moves and [Eb]she don't fade.
 {end_of_chorus}
 
-{comment:Bridge}
-|I[Bb]|N[Eb]|NT[Bb]|O[Eb]|
+{start_of_part: Instrumental}
+. | [Bb]   . . . | [Bb]   . . . | 
+. | [Eb+2] . . . | [Eb+2] . . . | 
+. | [Bb]   . . . | [Bb]   . . . | 
+. | [Eb+2] . . . | [Eb+2] . . . | 
 
-{start_of_verse}
+. | [Eb+2] . . . | [Eb+2] . . . | 
+. | [Dm7]  . . . | [Dm7]  . . . | 
+. | [Eb+2] . . . | [Eb+2] . . . | 
+. | [Dm7]  . . . | [Dm7]  . . . | 
+{end_of_part}
+
+{start_of_part: Bridge}
 [Bb]Don't you go it makes no sense when, a[Eb]ll you talking supermen just
 [Bb]take away the time, and g[Eb]et in the way.
 [Eb]Ain't it just like r[Dm]ain? And
 [Eb]love (love, love) is only h[Dm]eaven away.[F]
-{end_of_verse}
+{end_of_part}
 
 {start_of_chorus}
 Ins[F]ide you the time moves and [Eb]she don't fade.
@@ -55,5 +73,9 @@ Ins[F]ide you the time moves and [Eb]she don't fade.
 The [Bb]ghost in you she don't fa[Eb]de.
 {end_of_chorus}
 
-{comment:Outro}
-|I[Bb]|N[Eb]|NT[Bb]|O[Eb]|
+{start_of_part: Outro}
+Ins[F]ide you the time moves and [Eb]she don't fade.
+The [F]ghost in you she don't [Eb]fade.
+{end_of_part}
+
+. | [Bb] . . . |
