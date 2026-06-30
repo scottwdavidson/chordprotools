@@ -1,6 +1,6 @@
-package com.pourchoices.chordprotools.application.service;
+package com.pourchoices.chordpro.application.domain.service;
 
-import com.pourchoices.chordprotools.application.port.in.TidyGigsUseCase;
+import com.pourchoices.chordpro.application.port.in.TidyGigsUseCase;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.Files;

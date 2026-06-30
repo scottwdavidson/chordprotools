@@ -1,6 +1,6 @@
-package com.pourchoices.chordprotools.adapter.in.cli;
+package com.pourchoices.chordpro.adapter.in.file;
 
-import com.pourchoices.chordprotools.application.port.in.TidyGigsUseCase;
+import com.pourchoices.chordpro.application.port.in.TidyGigsUseCase;
 import org.springframework.stereotype.Component;
 import picocli.CommandLine.Command;
 

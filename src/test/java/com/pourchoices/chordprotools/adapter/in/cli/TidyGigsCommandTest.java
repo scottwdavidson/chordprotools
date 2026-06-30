@@ -1,6 +1,7 @@
 package com.pourchoices.chordprotools.adapter.in.cli;
 
-import com.pourchoices.chordprotools.application.port.in.TidyGigsUseCase;
+import com.pourchoices.chordpro.adapter.in.file.TidyGigsCommand;
+import com.pourchoices.chordpro.application.port.in.TidyGigsUseCase;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
