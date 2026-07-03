@@ -4,9 +4,10 @@
 {tempo: 70}
 
 {start_of_part: Intro}
-[C][G/B][Bb][F]
-[Fm][C][Am]
-[Dm][G]
+. | [C] . . . | [G/B] . . . |
+. | [Bb] . . . | [F] . . . |
+. | [Fm] . . . | [C] . . . | [Am] . [Dm] . |
+. | [G] . . . |
 {end_of_part}
 
 
@@ -39,8 +40,10 @@ There's[F] no doubt in my mind where you[G] belong
 
 
 {start_of_part: Interlude}
-[G/B][Bb][F][Fm]
-[C][Am][Dm][G][C]
+. | [C] . . . | [G/B] . . . |
+. | [Bb] . . . | [F] . . . |
+. | [Fm] . . . | [C] . . . | [Am] . [Dm] . |
+. | [G] . . . |
 {end_of_part}
 
 
@@ -61,6 +64,8 @@ Winds of change are blowing [C]wild and free
 
 
 {start_of_part: Outro}
-[C][G/B][Bb][F]
-[Fm][C][Am][Dm][G][C]
+. | [C] . . . | [G/B] . . . |
+. | [Bb] . . . | [F] . . . |
+. | [Fm] . . . | [C] . . . | [Am] . [Dm] . |
+. | [G] . . . |
 {end_of_part}}
