@@ -3,12 +3,24 @@
 {key: G}
 {duration: 4:10}
 {tempo: 113}
+{meta: nord: O55}
+{meta: countin: 4}
+{meta: backing: RC}
+{meta: performance: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: performance: G   }
+{comment:***********************************************}
 
-{comment: Intro}
-|[G]G G2 |[Am7]Am7 |[G]G |[Am7]Am |[G]G |[Am7]Am7 |
+{start_of_part: Intro}
+. | [G] . [G2] . | [Am7] . . . |
+. | [G] . . .    | [Am7] . . . |
+. | [G] . . .    | [Am7] . . . |
+. | [G] . . .    | [Am7] . . (well) |
+{end_of_part}
 
 {start_of_verse}
 [G]Well, I lived on the [Am]outskirts of town
