@@ -1,8 +1,19 @@
 {title: Better Man}
 {artist: Clint Black}
 {key: E}
-{tempo: 162}
 {duration: 3:00}
+{tempo: 162}
+{meta: nord: O55}
+{meta: countin: 4}
+{meta: backing: RC}
+{meta: performance: E}
+
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [A] . [E/G#] . | [F#m] . [E/G#] . |
