@@ -1,74 +1,101 @@
 {title: Don't Dream It's Over}
 {artist: Crowded House}
 {key: C}
+{duration: 3:40}
+{tempo: 81}
+{meta: countin: 4}
+{meta: backing: RC}
+{meta: performance: C}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: performance: C   }
+{comment:***********************************************}
 
 {comment: Intro}
-[C] [Fmaj7] [C] [Fmaj7]
+. | [Csus2] . . . | [Gm/C] . . [Gm7/C] |
+
+. | [Csus2] . . . | [Gm/C] . . [Gm7/C] |
+
 
 {start_of_verse: Verse 1}
-[C] There is free[Fmaj7]dom within, there is [C] freedom with[Fmaj7]out
-[C] Try to catch the [Fmaj7] deluge in a [C] paper [Fmaj7] cup
-[C] There's a [Fmaj7] battle ahead, many [C] battles are [Fmaj7] lost
-[C] But you'll never [Fmaj7] see the end of the [C] road [Fmaj7] while you're travelin' with [G] me
+[Csus2] There is freedom within,[Am] there is freedom without.
+[F] Try to catch the deluge in a paper [E]cup.  [Esus4]
+[Csus2] There's a battle ahead,[Am] many battles are lost
+[F] But you'll never see the end of the road while you're [E]travelin' with me.
 {end_of_verse}
 
-{start_of_bridge: Pre-Chorus}
-[Em] Hey now, [F] hey now
-[Em] Don't dream it's [F] over
-[Em] Hey now, [F] hey now
-[G] When the world comes in
-{end_of_bridge}
 
 {start_of_chorus: Chorus}
-They [C] come, they [Fmaj7] come
-[C] To build a [Fmaj7] wall between [C] us
-[Fmaj7] You know they [C] won't [Fmaj7] win
+[F] Hey now, [G]hey now
+Don't [C]dream it's [Am]over.
+[F] Hey now, [G]hey now
+When the [C]world comes i[Am]n.
+The[F]y come, they[G] come
+[C] To build a wall bet[Am]ween us.
+[F] We know they won't win.  [G]
+{end_of_chorus}
+
 
 {start_of_verse: Verse 2}
-[C] Now I'm [Fmaj7] towing my car, there's a [C] hole in the [Fmaj7] roof
-[C] My possessions are [Fmaj7] causing me [C] suspicion but [Fmaj7] there's no proof
-[C] In the [Fmaj7] paper today, tales of [C] war and of [Fmaj7] waste
-[C] But you turn [Fmaj7] right around to [C] face the [Fmaj7] eyes of the [G] world
+[Csus2] Now I'm towing my car,[Am] there's a hole in the roof.
+[F] My possessions are causing me suspicion but [E]there's no proof.
+[Csus2] In the paper today,[Am] tales of war and of waste
+[F] But you turn right over to the T.V. [G]page.
 {end_of_verse}
 
-{start_of_bridge: Pre-Chorus}
-[Em] Hey now, [F] hey now
-[Em] Don't dream it's [F] over
-[Em] Hey now, [F] hey now
-[G] When the world comes in
-{end_of_bridge}
 
 {start_of_chorus: Chorus}
-They [C] come, they [Fmaj7] come
-[C] To build a [Fmaj7] wall between [C] us
-[Fmaj7] You know they [C] won't [Fmaj7] win
+[F] Hey now, [G]hey now
+Don't [C]dream it's [Am]over.
+[F] Hey now, [G]hey now
+When the [C]world comes i[Am]n.
+The[F]y come, they[G] come
+[C] To build a wall bet[Am]ween us.
+[F] We know they won't win. (plus 2/4 measure)
+{end_of_chorus}
+
 
 {comment: Organ Solo}
-[C] [Fmaj7] [C] [Fmaj7]
-[C] [Fmaj7] [C] [Fmaj7]
-[G]
+. | [C] . . . | [Am] . . . | [F] . . . | [E] . . . |
 
-{start_of_bridge: Pre-Chorus}
-[Em] Hey now, [F] hey now
-[Em] Don't dream it's [F] over
-[Em] Hey now, [F] hey now
-[G] When the world comes in
-{end_of_bridge}
+. | [C] . . . | [Am] . . . | [F] . . . | [E] . . . |
 
-{start_of_chorus: Chorus}
-They [C] come, they [Fmaj7] come
-[C] To build a [Fmaj7] wall between [C] us
-[Fmaj7] You know they [C] won't [Fmaj7] win
+
+{comment: Guitar Solo}
+. | [F] . [G] . | [F] . [G] . | [F] . [G] . |
+
+. | [Bb7] . . . | [Bb7] . . . |
+
 
 {start_of_verse: Verse 3}
-[C] Now I'm [Fmaj7] walking again to the [C] beat of a [Fmaj7] drum
-[C] And I'm [Fmaj7] counting the steps to the [C] door of your [Fmaj7] heart
-[C] Only [Fmaj7] shadows ahead, barely [C] clearing the [Fmaj7] roof
-[C] Get to [Fmaj7] know the feelin' of [C] liberation and [Fmaj7] relief [G]
+[Csus2] Now I'm walking again[Am] to the beat of a drum.
+[F] And I'm counting the steps to the door of your [E]heart.
+[Csus2] Only shadows ahead, [Am] barely clearing the roof.
+[F] Get to know the feelin' of liberation a[E]nd release.
 {end_of_verse}
 
-{comment: Outro}
-[C] Don't dream it's [Fmaj7] over
-[C] Don't dream it's [Fmaj7] over
-[C] Don't dream it's [Fmaj7] over
-[C] Don't dream it's [Fmaj7] over [C]
+
+{start_of_chorus: Chorus}
+[F] Hey now, [G]hey now
+Don't [C]dream it's [Am]over.
+[F] Hey now, [G]hey now
+When the [C]world comes i[Am]n.
+The[F]y come, they[G] come
+[C] To build a wall bet[Am]ween us.
+[F] We know they won't win. (plus 2/4 measure)
+{end_of_chorus}
+
+
+{comment: Outro (Organ vamp plus vocal ad lib)}
+. | [F] . [G] . | [C] . [Am] . | (don't let them win)
+. | [F] . [G] . | [C] . [Am] . | 
+
+. | [F] . [G] . | [C] . [Am] . | 
+. | [F] . [G] . | [C] . [Am] . | (don't let them win)
+
+. | [F] . [G] . | [C] . [Am] . | (don't let them win)
+. | [F] . [G] . | [C] . [Am] . | 
+
+[C]
