@@ -1,208 +1,123 @@
 {title: Ordinary World}
 {artist: Duran Duran}
 {key: Bm}
+{duration: 4:35}
+{tempo: 140}
+{meta: countin: 8}
+{meta: backing: RC}
+{meta: label: OrdnryWorld}
+{meta: performance: Bm}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: label: OrdnryWorld   }
+{comment:**  meta: performance: Bm   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
-. | [A]     . .     . | [Em] . . . | 
-. | [Csus2] . [G/B] . | [D] . . . | 
-
-. | [A]     . .     . | [Em]  . . . | 
-. | [Csus2] . [G/B] . | [Bb6] . . . | 
-
+. | [Bsus2]  . . . | [D6/9] . [E5] . |
 {end_of_part}
 
 
 {start_of_verse: Verse 1}
-[Bm7]Came in from a rainy Thursday 
-[D]on the avenue[Esus4]
-[Bm7]Thought I heard you talking softly [D]-- [Esus4]--      
-[Bm7]I turned on the lights the T V 
-[D]and the radio[Esus4]
-[Bm7]Still I can't escape the ghost of [D]you[Esus4]
+[Bsus2] Came in from a rainy Thursday [D6/9]on the avenue. [E5]
+[Bsus2] Thought I heard you talking softly.[D6/9]   [E5]
+[Bsus2] I turned on the lights the T.V. a[D6/9]nd the radio.    [E5]
+[Bsus2] Still I can't escape the ghost of [D6/9]you.    [E5]
 {end_of_verse}
 
 
 {start_of_part: Pre-Chorus}
-[Bm7]What is happening to it all?
-[F#m]Crazy some would say
-[C#7]Where is the life that I recog[D]nize?
-[Gone]
+[Bsus2]What has happened to it all?
+[F#m]Crazy some would say.
+[C#7]Where is the life that I recog[D]nize? (gone away)
 {end_of_part}
 
 
 {start_of_chorus: Chorus}
-[A] But I won't cry for yesterday[Em]
-There's an ordinary world[Csus2]     Somehow I[G/B]
-have to find[D]
+[A] But I won't cry for yester[Em]day.
+There's an ordinary wo[Csus2]rld,
+Somehow I[G/B] have to f[D]ind.
+
 [A] And as I try to make my [Em]way
-To the ordinary world[Csus2]     I will learn[G/B]
-to survive[Gm/A#][Bm7][Esus4]
+To the ordinary wo[Csus2]rld,
+I will l[G/B]earn to sur[Gm/A#]vive.
 {end_of_chorus}
 
 
+{start_of_part: Interlude}
+. | [Bsus2]  . . . | [D6/9] . [E5] . |
+{end_of_part}
+
+
 {start_of_verse: Verse 2}
-[Bm7]Passion or coincidence
-Once [D]prompted you to say[Esus4][Bm7]
-Pride will tear us both a part
-[D]  [Esus4]      Well now[Bm7] pride's gone out the window,
-Across the roof[D]tops run away[Esus4]      [Bm7]     Left me in the vacuum of m[D]y hea[Esus4]rt[Bm7]
+[Bsus2] Passion or coincidence once [D6/9]prompted you to say: [E5]
+[Bsus2] "Pride will tear us both a part" [D6/9]______[E5]__ Well now
+[Bsus2] Pride's gone out the window - across the r[D6/9]ooftops - run away.  [E5]
+[Bsus2] Left me in the vacuum of my hea[D6/9]rt.  [E5]
 {end_of_verse}
 
 
 {comment: Pre Chorus}
-What is happening to me?
+[Bsus2]What is happening to me?
 [F#m]Crazy some would say
-[C#7]Where is my friend when I need you[D] most?
-[Gone]
+[C#7]Where is my friend when I nee[D]d you most? (gone away)
+{end_of_part}
 
 
 {start_of_chorus: Chorus}
-[A] But I won't cry for yesterday[Em]
-There's an ordinary world[Csus2]     Somehow I[G/B]
-have to find[D]
+[A] But I won't cry for yester[Em]day.
+There's an ordinary wo[Csus2]rld,
+Somehow I[G/B] have to f[D]ind.
+
 [A] And as I try to make my [Em]way
-To the ordinary world[Csus2]     I will learn[G/B]
-to survive[D]
+To the ordinary wo[Csus2]rld,
+I will l[G/B]earn to sur[D]vive.
 {end_of_chorus}
 
 
-{start_of_part: Solo 1}
-[A][Em][Csus2][G/B][D]
-[A][Em]
-[Csus2][G/B][Gm/A#]
+{start_of_part: Solo - ad lib vocals}
+. | [A] . . . | [Em] . . . | [Csus2] . [G/B] . | [D] . . . |
+
+. | [A] . . . | [Em] . . . | [Csus2] . [G/B] . | [Gm/A#] . . . |
 {end_of_part}
 
 
 {start_of_verse: Verse 3}
-[Bm7]Papers in the roadside
-Tell of [D]suffering and greif[Esus4][Bm7]
-Feared today forgot tomorrow
-[D]  [Esus4]      Oo[Bm7] here be side the news of
-Holy war[D] and ho lyneed[Esus4][Bm7]
-Ours is just a little sorrowed [D]talk[Esus4]
+[Bsus2] Papers in the roadside tell of [D6/9]suffering and greed. [E5]
+[Bsus2] Feared today forgot tomor[D6/9]row. ______[E5]_____ oh oh
+[Bsus2] Here beside the news of Holy w[D6/9]ar and holy need.  [E5]
+[Bsus2] Ours is just a little sorrowed [D6/9]talk.  [E5] (run away)
 {end_of_verse}
 
 
-{start_of_part: Solo 2}
-[A]  [Em]   [Csus2]      [G/B]    [D]   Just blown away
-[A][Em][Csus2][G/B][D]
-{end_of_part}
-
-
 {start_of_chorus: Chorus}
-[A] And I won't cry for yesterday[Em]
-There's an ordinary world[Csus2]     Somehow I[G/B]
-have to find[D]
+[A] And I don't cry for yester[Em]day.
+There's an ordinary wo[Csus2]rld,
+Somehow I[G/B] have to f[D]ind.
+
 [A] And as I try to make my [Em]way
-To the ordinary world[Csus2]     I will learn[G/B]
-to survive[D]
-[A]
-[Every]
+To the ordinary wo[Csus2]rld,
+I will l[G/B]earn to sur[D]vive.
 {end_of_chorus}
 
 
 {start_of_part: Outro}
-[Em]   Is my Worl[Csus2]d     I will lear[G/B]n
-to survive[D]
+Every [A]woooo__[Em]rld   ...   is my w[Csus2]oooooo__[G/B]oooooo___[D]old
+                                                       (I will learn to survive)
+
+Any [A]woooo__[Em]rld   ...   is my w[Csus2]oooooo__[G/B]oooooo___[D]old
+                                                     (I will learn to survive)
+
+Any [A]woooo__[Em]rld   ...   is my w[Csus2]oooooo__[G/B]oooooo___[D]old
+
+
+Every [A]woooo__[Em]rld   ...   is a w[Csus2]oooooo__[G/B]oooooo___[D]old
+
+
+Every [A]woooo__[Em]rld   ...   [Csus2]  [G/B]  [D]
+
+
 [A]
-[Any]
-[Em]   Is my Worl[Csus2]d     I will lear[G/B]n
-to survive[D]
-[A]
-[Any]
-[Em]   Is my Worl[Csus2]d[G/B]
-[D][A]
-[Every]
 {end_of_part}
-
-
-{comment: Outro (Fade Out)}
-[Em]   Is my Worl[Csus2]d[G/B][D]
-
-=======
-
-{comment: Intro}
-[Bm] [Gmaj7] [A] [F#m]
-[Bm] [Gmaj7] [A] [F#m]
-
-{start_of_verse: Verse 1}
-[Bm] Came from a [Gmaj7] late night, [A] sudden game of [F#m] cards
-[Bm] With no one [Gmaj7] to talk to, [A] and no one to [F#m] blame
-[Bm] Turned out the [Gmaj7] porchlight, [A] to baseline the [F#m] stars
-[Bm] And suffered the [Gmaj7] dawning, [A] speakin' my [F#m] name
-{end_of_verse}
-
-{start_of_bridge: Pre-Chorus}
-[G] Mutat[A]ion, [F#m] heaven or [G] hell
-[G] I can [A] turn the secret [F#m] grasp into the [G] sound
-[Em7] Somehow [A] goodbye
-{end_of_bridge}
-
-{start_of_chorus: Chorus}
-But I won't [D] cry for yesterday
-There's an [A] ordinary world
-Somehow [Em] I have to [G] find
-And as I [D] try to make my way
-To the [A] ordinary world
-I will [Em7] learn to sur[G]vive [A]
-{end_of_chorus}
-
-{comment: Interlude}
-[Bm] [Gmaj7] [A] [F#m]
-
-{start_of_verse: Verse 2}
-[Bm] Passion or [Gmaj7] coincidence [A] once prompted you to [F#m] say
-"P[Bm]ride will tear us [Gmaj7] both apart"
-Well, [A] pride's gone a[F#m]way
-[Bm] And there's only [Gmaj7] left here, [A] a fool's empty [F#m] space
-[Bm] Hideous [Gmaj7] as the truth [A] appears
-I have to [F#m] face
-{end_of_verse}
-
-{start_of_bridge: Pre-Chorus}
-[G] The learn[A]ing, [F#m] fires of the [G] soul
-[G] Burning [A] paper houses [F#m] down into the [G] ash
-[Em7] And it's [G] goodbye
-{end_of_bridge}
-
-{start_of_chorus: Chorus}
-But I won't [D] cry for yesterday
-There's an [A] ordinary world
-Somehow [Em] I have to [G] find
-And as I [D] try to make my way
-To the [A] ordinary world
-I will [Em7] learn to sur[G]vive [A]
-{end_of_chorus}
-
-{comment: Guitar Solo}
-[G] [A] [F#m] [G]
-[G] [A] [F#m] [G]
-[Em7] [A]
-
-{start_of_verse: Verse 3}
-[Bm] Every [Gmaj7] world is [A] my world [F#m]
-[Bm] (Any [Gmaj7] world is [A] my world) [F#m]
-[Bm] Any [Gmaj7] world is [A] my world [F#m]
-[Bm] (Any [Gmaj7] world is [A] my world) [F#m]
-{end_of_verse}
-
-{start_of_bridge: Pre-Chorus}
-[G] Papers in [A] the roadside, [F#m] tell of suffering and [G] greed
-[G] Here today, [A] forgot tomorrow, [F#m] ooh, besides the [G] news of holy [Em7] war and holy [A] need
-Ooh, but I don't [A] cry
-{end_of_bridge}
-
-{start_of_chorus: Chorus & Outro}
-But I won't [D] cry for yesterday
-There's an [A] ordinary world
-Somehow [Em] I have to [G] find
-And as I [D] try to make my way
-To the [A] ordinary world
-Everyone [Em7] is in[G]side [A]
-Every world [D] is my world
-(There's an [A] ordinary world)
-Somehow [Em] I have to [G] find
-(Any world is [D] my world)
-To the [A] ordinary world
-[Em7] [G] [A] [D]
-{end_of_chorus}
