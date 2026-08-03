@@ -1,45 +1,52 @@
 {title: Til I Hear It From You}
 {artist: Gin Blossoms}
 {key: A}
-{tempo: 124}
 {duration: 3:40}
+{tempo: 124}
+{meta: countin: 8}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
+
 
 {start_of_part: Intro}
-[A][F#m][C#m][E]
-[A][F#m][C#m]
-[E]
+.| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
+
+.| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
 {end_of_part}
 
 
 {start_of_verse: Verse 1}
-[A] I didn't ask
-[F#m]  They shouldn't have t[C#m]old me
-At [E]first I'd laugh, but now
-[A] It's sinking in fast
-[F#m]  Whatever they've so[C#m]ld me
+[A] I didn't [F#m]ask. They shouldn't have t[C#m]old me.
+At [E]first I'd laugh, but now[A].
+It's sinking in f[F#m]ast, whatever they've so[C#m]ld me.
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-Well [E]baby I don't want to [D]take advice from fools
-[E] I'll just figure [D]everything is cool
-[E] Until I he[A]ar it from[E/G#]    y[F#m]ou[A5/E][D]
+Well [E]baby I don't want to [D]take advice from f[E]ools.
+I'll just figure [D]everything is c[E]ool.
+Until I he[A]ar it f[E/G#]rom____ y[F#m]ou__.        [A5/E]__________  [E] [D]
+                                   (Hear it from you)
 {end_of_chorus}
 
 
 {start_of_verse: Verse 2}
-[A] It gets hard
-[F#m]  The memory's fa[C#m]ded
-[E]Who gets what they say
-[A] It's likely they're[F#m]  just jealous and ja[C#m]ded
+[A] It gets [F#m]hard. The memories fa[C#m]ded.
+W[E]ho gets what they s[A]ay.
+It's likely they[F#m]'re just jealous and ja[C#m]ded.
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-Well [E]maybe I don't want to [D]take advice from fools
-[E] I'll just figure [D]everything is cool
-[E] Until I he[A]ar it from[E/G#]    y[F#m]ou[A5/E][D]
-Until I he[A]ar it from[E/G#]    y[F#m]ou[A5/E][D]
+Well [E]baby I don't want to [D]take advice from f[E]ools.
+I'll just figure [D]everything is c[E]ool.
+Until I he[A]ar it f[E/G#]rom____ y[F#m]ou__.        [A5/E]__________  [E] [D]
+                                   (Hear it from you)
+
+Until I he[A]ar it f[E/G#]rom____ y[F#m]ou__.        [A5/E]__________  [E] [D]
+                                   (Hear it from you)
 {end_of_chorus}
 
 
@@ -47,46 +54,64 @@ Until I he[A]ar it from[E/G#]    y[F#m]ou[A5/E][D]
 [E] I can't let it g[A]et me off
 [D] Or break up my tra[B]in of thought
 [E] As far as I know, no[A]thing's wrong
-[G] Until I [D]hear it from[A] you
+[G] Until I [D]hear it from[A] you.
 {end_of_bridge}
 
 
 {start_of_part: Solo}
-[F#m][C#m][E][A]
-[F#m][C#m][E][D]
-[E][D][E]
+.| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
+   youoouu!
+
+.| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
+
+.| [D] . . . | [E] . . . | [D] . . . | [E] . . . | [E] . . . |
 {end_of_part}
 
 
 {start_of_verse: Verse 3}
-[A] Still thinking about not living witho[C#m]ut it
-[E]Outside looking in
-[A] Til we're talking about[F#m]  it, not stepping arou[C#m]nd it
-[E]Maybe
+[A] Still thinking about not living witho[C#m]ut it.
+[E]Outside looking i[A]n.
+Til we're talking about[F#m] it, not stepping arou[C#m]nd it.
+[E]Maybe... | . . . . |
 {end_of_verse}
 
 
-{start_of_chorus: Chorus}
-I don't want to [D]take advice from fools
-[E] I'll just figure [D]everything is cool
-[E] Until I he[A]ar it from[E/G#]    y[F#m]ou[A5/E][D]
-Until I he[A]ar it from[E/G#]    y[F#m]ou[A5/E][D]
-Until I he[A]ar it from[E/G#]    y[F#m]ou[A5/E][D]
-Until I hear it from[A] you[F#m]  ohh[C#m]
-[E] Until I hear it from[A] you[F#m]  ohh[C#m]
-[E] Until I hear it from [A]you
-Won't take advi[F#m]ce from fools
-[C#m]  I'll figure everythi[E]ng is cool
-[A] Won't take advi[F#m]ce from fools
-[C#m]  I'll figure everythi[E]ng is cool
-{end_of_chorus}
-
-
 {start_of_part: Outro}
-[A][E/G#][F#m][A5/E][C#m][E]
+I don't want to [D]take advice from f[E]ools.
+I'll just figure [D]everything is c[E]ool.
+
+Until I he[A]ar it f[E/G#]rom____ y[F#m]ou__.        [A5/E]__________  [E] [D]
+                                   (Hear it from you)
+
+Until I he[A]ar it f[E/G#]rom____ y[F#m]ou__.        [A5/E]__________  [E] [D]
+                                   (Hear it from you)
+
+Until I he[A]ar it f[E/G#]rom____ y[F#m]ou__.        [A5/E]   [E]Til I h[D]ear it from
+                                   (Hear it from you)
+
+
+
+[A]Yoooo____[F#m]uuu!  Oh n[C#m]o.______ [E] Til I hear it from
+
+[A]Yoooo____[F#m]uuu!  Oh n[C#m]o.______ [E] Til I hear it from
+
+
+
+[A]Yoooo____[F#m]uuu!  Oh n[C#m]o.______ [E] Til I hear it from
+(Won't take advice from fools. I figure everything is cool)
+
+
+[A]Yoooo____[F#m]uuu!  Oh n[C#m]o.______ [E] Til I hear it from
+(Won't take advice from fools. I figure everything is cool)
+
+
+.| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
+   youoouu!
+
+.| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
+
+
+.| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
+
+[A]
 {end_of_part}
-
-
-{comment: Fade Out}
-[A][E/G#][F#m][A5/E][C#m][E]
-[A][E/G#][F#m][A5/E][C#m]
