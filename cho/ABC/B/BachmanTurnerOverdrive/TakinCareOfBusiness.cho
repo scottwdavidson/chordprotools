@@ -144,62 +144,42 @@ I've been [C]takin' care of business[Bb] (it's all mine)
 {end_of_chorus}
 
 {comment:DR Part 10}
-{start_of_grid 4x4}
-|| N.C. . | N.C. . | N.C. . | N.C. . | 
-{end_of_grid}
+{start_of_part: Drum Only}
+. | [NC] . . . | [NC] . . . | 
+. | [NC] . . . | [NC] . . . | 
+{end_of_part}
 
 {comment:DR Part 11}
 {comment:A Cappella}
-{start_of_chorus}
-[NC] Takin' care of business [NC]
-
-[NC] Takin' care of business [NC]
-
-[NC] Takin' care of business [NC]
-
-[NC] Takin' care of business [NC]
-
-{end_of_chorus}
+{start_of_part: Accapella }
+. | [NC] Takin' care of business | [NC] . . . |
+. | [NC] Takin' care of business | [NC] . . . |
+. | [NC] Takin' care of business | [NC] . . . |
+. | [NC] Takin' care of business | [NC] . . . |
+{end_of_part}
 
 {comment:staccato chords}
 {start_of_chorus}
 [C]Takin' care of business[Bb] (every day)
 [F]Takin' care of business[C] (every way)
+
 [C]Takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business[C] (workin' overtime)
 {end_of_chorus}
 
 {comment:DR Part 12}
 {comment:standard pattern}
-{start_of_chorus}
-And I'll be [C]Takin' care of business[Bb] (every day)
-[F]Takin' care of business[C] (every way)
-I've been [C]takin' care of business[Bb] (it's all mine)
-[F]Takin' care of business and [C] (workin' overtime)
-{end_of_chorus}
+{start_of_part: Outro}
+And I'll be [C]Takin' care of business[Bb] 
+[F]Takin' care of business[C] 
+We've been [C]takin' care of business[Bb] 
+We've been [F]takin' care of business[Bb] 
 
-{comment:Piano Solo}
-
-. | [C] . | [Bb] . | [F] . | [C] . |
-
-. | [C] . | [Bb] . | [F] . | [C] . |
-
-. | [C] . | [Bb] . | [F] . | [C] . |
-
-. | [C] . | [Bb] . | [F] . | [C] . |
-
-
-{comment:Outro}
-{start_of_chorus}
-And I'll be [C]Takin' care of business[Bb] (every day)
-[F]Takin' care of business[C] (every way)
-I've been [C]takin' care of business[Bb] (it's all mine)
-[F]Takin' care of business and [C] (workin' overtime)
-{end_of_chorus}
-
-{comment:with opening lick}
-{start_of_grid 4x4+1}
-||  C . | Bb . | F . | C . || x2 (finish on final C chord)
-{end_of_grid}
+[C]Takin' care of business[Bb] 
+[F]Takin' care of business[C] 
+[C]takin' care of business[Bb] 
+[F]Takin' care of business[C] 
+[C]---
+{end_of_part}
 
 
