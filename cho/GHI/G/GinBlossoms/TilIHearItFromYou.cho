@@ -4,11 +4,14 @@
 {duration: 3:40}
 {tempo: 124}
 {meta: countin: 8}
+{meta: backing: RC}
+{meta: performance: G}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: performance: G   }
 {comment:***********************************************}
-
 
 {start_of_part: Intro}
 .| [A] . . . | [F#m] . . . | [C#m] . . . | [E] . . . |
