@@ -9,8 +9,12 @@
 
 {comment: ***********************************************}
 {comment: ** meta: nord: ??}
-{comment: ** meta: countin: 4}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 66   }
 {comment: ***********************************************}
+
+
 
 {comment: Intro}
 | C . . . | Am . . . |

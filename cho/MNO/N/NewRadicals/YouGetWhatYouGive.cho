@@ -4,6 +4,14 @@
 {tempo: 114}
 {duration: 4:20}
 
+
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 65   }
+{comment:***********************************************}
+
+
 {start_of_part: Intro}
 . | [A] . . . | [G5] . . . |
 . | [A] . . . | [G5] . . . |

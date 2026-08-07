@@ -10,8 +10,11 @@
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 67   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
+
+
 
 {start_of_part: Intro}
 .| [G] . . . | [Em] . . . | [Bm] . . . | [D] . . . |
