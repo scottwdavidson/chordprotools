@@ -6,14 +6,14 @@
 {meta: nord: P51}
 {meta: countin: 8 (with pickup))}
 {meta: backing: RC}
-{meta: rc-slot: 70}
+{meta: rc-slot: 43}
 {meta: label: UndrMyThumb}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P51   }
 {comment:**  meta: countin: 8 (with pickup))   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 70   }
+{comment:**  meta: rc-slot: 43   }
 {comment:**  meta: label: UndrMyThumb   }
 {comment:***********************************************}
 

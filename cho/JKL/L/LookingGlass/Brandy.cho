@@ -6,7 +6,7 @@
 {meta: nord: N51}
 {meta: countin: 8}
 {meta: backing: RC}
-{meta: rc-slot: 52}
+{meta: rc-slot: 40}
 {meta: label: Brandy}
 {meta: performance: E}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: N51   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 52   }
+{comment:**  meta: rc-slot: 40   }
 {comment:**  meta: label: Brandy   }
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
