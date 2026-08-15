@@ -3,6 +3,12 @@
 # (Filename is historical — "Kino" was an earlier agent. You inherit this doc; keep it current.)
 # Update end-of-session whenever code, schemas, commands, or decisions change. Not for human consumption.
 # Last updated: 2026-08-15 (session 18)
+# See also: PRODUCT_PLAN.md — the living launch-readiness checklist + roadmap doc.
+#           Phase 1 = Scott personally verifies every core feature (RC-500 hardware
+#           pipeline flagged as highest-risk/least-verified). Phase 2 = roadmap,
+#           built from Phase 1's issue log + idea parking lot. Check its status
+#           before assuming a feature is "done" — built and tests-green does not
+#           necessarily mean gig-verified.
 
 ---
 
