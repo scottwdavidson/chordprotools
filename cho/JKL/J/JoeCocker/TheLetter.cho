@@ -3,10 +3,14 @@
 {key: Gm}
 {duration: 4:10}
 {tempo: 90}
+{meta: nord: P55}
+{meta: roland: A058}
 {meta: countin: 4}
 {meta: backing: RC}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: roland: A058   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
 {comment:***********************************************}
