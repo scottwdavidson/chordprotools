@@ -1,8 +1,15 @@
 {title: Can't Tell Me I'm Wrong}
 {artist: Luke Combs}
 {key: Bb}
-{tempo: 126}
 {duration: 2:50}
+{tempo: 126}
+{meta: roland: P11}
+{meta: countin: 6}
+
+{comment:***********************************************}
+{comment:**  meta: roland: P11   }
+{comment:**  meta: countin: 6   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 [Cm7][F][Bb][Gm]

@@ -1,8 +1,15 @@
 {title: Be By You}
 {artist: Luke Combs}
 {key: C}
-{tempo: 94}
 {duration: 2:55}
+{tempo: 94}
+{meta: nord: P11}
+{meta: countin: 4}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P11   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [C] . [G] . | [F] . . . |
