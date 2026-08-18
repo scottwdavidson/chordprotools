@@ -3,15 +3,16 @@
 {key: Bm}
 {duration: 4:35}
 {tempo: 140}
+{meta: nord: N32}
 {meta: countin: 8}
 {meta: backing: RC}
 {meta: label: OrdnryWorld}
 {meta: performance: Bm}
 
 {comment:***********************************************}
+{comment:**  meta: nord: N32   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 64   }
 {comment:**  meta: label: OrdnryWorld   }
 {comment:**  meta: performance: Bm   }
 {comment:***********************************************}
