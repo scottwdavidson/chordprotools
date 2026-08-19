@@ -1,12 +1,16 @@
 {title: Today's The Day}
 {artist: America}
-{key: D}
+{key: E}
 {duration: 3:00}
-{tempo: 120}
+{tempo: 96}
 {meta: nord: O54}
+{meta: countin: 4}
+{meta: backing: BB}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O54   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
@@ -71,6 +75,19 @@ day'[F#m7]s the da[B7sus]y_[B7]
 . | G   . . . | D . . . | Em . . . | D/F# . . . | 
 . | G   . . . | D . . . | Em . . . | D/F# . . . | 
 . | D/B . . . | B . . . |
+
+{start_of_verse: Verse 3}
+[E]Hold me clos[F#m7]e
+You turn [E/G#]nighttime into da[F#m7]y
+
+And [E]you're the mos[F#m7]t
+Brightest[E]star that lights my wa[F#m7]y
+{end_of_verse}
+
+{start_of_part: Pre-Chorus}
+So [G#m7]come home to me no[F#m7]w
+Cause it [G#m7]won't matter any-[A]how__[A]how__
+{end_of_part}
 
 {start_of_chorus: Repeat Chorus(1)}
 [E]I've got this [G#m7]feeling 
