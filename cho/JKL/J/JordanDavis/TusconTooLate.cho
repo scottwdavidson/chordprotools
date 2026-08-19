@@ -1,9 +1,21 @@
 {title: Tuscon Too Late}
 {artist: Jordan Davis}
 {key: G}
+{duration: 2:45}
+{tempo: 106}
+{meta: nord: P33}
+{meta: countin: 4}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P33   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
+
+{start_of_part: Intro}
+. | [G]  . [Gmaj7] . | [Em] . [G]     . |
+
+. | [G]  . [Gmaj7] . | [Em] . [G]     . |
+{end_of_part}
 
 {start_of_verse}
 I didn't k[G]now if we were over or just on the rocks
@@ -26,12 +38,9 @@ And h[G]eaven knows I [D/F#]let her slip aw[Em]ay
 I showed [Am]up and she's gone
 Guess I g[D]ot to Tucson too l[G]ate
 
-E -[G]3-3-2-2-[C]0--0-[Em]------[G]--
-B --------------3-------
-G ----------------0h2-0-
-D ----------------------
-A ----------------------
-E ----------------------
+{start_of_part: Interlude}
+. | [G]  . [Gmaj7] . | [Em] . [G]     . |
+{end_of_part}
 
 {start_of_verse}
 I wonder [G]if she sat there stirring vodka with a straw
@@ -65,28 +74,15 @@ And that [Am7]747 somewhere b[D]etween here and heaven
 And h[G]eaven knows I let [D/F#]her slip a[Em7]way
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 I showed [Am7]up and she's gone
 Guess I w[D]aited too long
 Like a [Am]sad country song
 Damn, I g[D]ot to Tucson
-Too l[G]ate
+Too l[G]ate [Gmaj7] ( Tuscon [Em] too la[G]te)
+Too l[G]ate . [Gmaj7]. [Em]Oh, I got to Tucson too l[G]ate
+{end_of_part}
 
-E -[G]3-3-2-2-[C]0--0-[Em]--------
-B --------------3-------
-G ----------------0h2-0-
-D ----------------------
-A ----------------------
-E ----------------------
-(Tucson too l[C]ate)[Em]
 
-Too l[G]ate
 
-E -[G]3-3-2-2-[C]0--0-------[G]--
-B --------------3-------
-G ----------------0h2-0-
-D ----------------------
-A ----------------------
-E ----------------------
 
-[C]Oh, I got to Tucson too l[G]ate
