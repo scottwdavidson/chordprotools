@@ -3,11 +3,11 @@
 {key: Bb}
 {duration: 2:50}
 {tempo: 126}
-{meta: roland: P11}
+{meta: nord: P33}
 {meta: countin: 6}
 
 {comment:***********************************************}
-{comment:**  meta: roland: P11   }
+{comment:**  meta: nord: P33   }
 {comment:**  meta: countin: 6   }
 {comment:***********************************************}
 
@@ -18,11 +18,12 @@
 
 
 {start_of_verse: Verse 1}
-Tell me I'm [Cm7]wrong, but you look like you're [F]lookin' for somebody to [Bb]drink with
+Tell me I'm [Cm7]wrong, 
+but you look like you're [F]lookin' for somebody to [Bb]drink with
 The way that you're [Gm]leanin' up against the [Cm7]bar
 Tell me I'm [F]wrong
-Seems like you wanna [Bb]know what my name is, [Gm]babe
-It's Mr. Never Break Your [Cm7]Heart
+Seems like you wanna [Bb]know what my name is, 
+[Gm]babe ... it's Mr. Never Break Your [Cm7]Heart
 [F]Mr. Want You in My [Bb]Arms[Gm]
 {end_of_verse}
 
@@ -78,4 +79,4 @@ But we got some[Gm]thing tween us goin [Cm7]on to[F]night
 You can't tell me I'm [Cm7]wrong[F][Bb][Gm]
 You can't tell me I'm [Cm7]wrong[F][Bb][Gm][Cm]
 
-{comment: Improvish to chorus after backing track finishes}
+{comment: Improvise to chorus after backing track finishes}
