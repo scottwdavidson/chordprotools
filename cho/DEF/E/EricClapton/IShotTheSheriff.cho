@@ -3,9 +3,11 @@
 {key: Gm}
 {duration: 3:50}
 {tempo: 94}
+{meta: countin: 4}
 {meta: performance: Gm}
 
 {comment:***********************************************}
+{comment:**  meta: countin: 4   }
 {comment:**  meta: performance: Gm   }
 {comment:***********************************************}
 
@@ -63,7 +65,7 @@ He [Ebmaj7]said, "Kill it be[Dm7]fore it [Gm]grows."  I say...
 So I [Ebmaj7]shot__, [Dm7]_____I shot him[Gm] down.  I say...
 {end_of_verse}
 
-
+{comment: wait for drum pickup}
 {start_of_part: Interlude III}
 . | [Gm] . . . | [Gm] . . . | [Gm] . . . | [Gm] . . . |
 {end_of_part}
@@ -100,19 +102,11 @@ So I [Ebmaj7]shot__, [Dm7]_____I shot him[Gm] down.  I say...
 . | [Ebmaj7] . [Dm7] . | [Gm] . . . |
 . | [Ebmaj7] . [Dm7] . | [Gm] . . . |
 . | [Ebmaj7] . [Dm7] . | [Gm] . . . |
+
+. | [Ebmaj7] . [Dm7] . | [Gm] . . . |
+. | [Ebmaj7] . [Dm7] . | [Gm] . . . |
 {end_of_part}
 
-{start_of_part: Interlude I}
-. | [Gm] . . . | [Gm] . . . | [Gm] . |  (note 2/4 measure)
+{start_of_part: Outro}
+. | [Gm] . . . | [Gm] . . . |
 {end_of_part}
-
-{start_of_chorus: Outro}
-[Gm]I shot the sheriff,[Cm]  but I didn't shoot the [Gm]deputy. Oh, no...
-[Gm]I shot the sheriff,[Cm]  but I did not shoot no [Gm]deputy. Oh, no...
-
-[Gm]I shot the sheriff,[Cm]  but I didn't shoot the [Gm]deputy. Oh, no...
-[Gm]I shot the sheriff,[Cm]  but I did not shoot no [Gm]deputy. Oh, no...
-
-{end_of_chorus}
-
-. | [Gm] . . . | [Gm] . . . | 
