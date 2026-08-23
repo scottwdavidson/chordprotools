@@ -5,9 +5,8 @@
 {tempo: 80}
 
 {start_of_part: Strings}
-. | [D] . [Dadd2] . | [E/D] . [A/D] . |
-. | [D] . . . | [Bm7] . . . |
-. | [C#m7] . . . |
+. | [D]        . [Dadd2]   . | [E/D] . [A/D] . | [D] . . . | 
+. | [Bm7](2nd) . [F#](3rd) . | [C#m7](3rd) . . (->) |
 {end_of_part}
 
 {start_of_part: Intro}
