@@ -1,7 +1,7 @@
 {title: The Letter}
 {artist: Joe Cocker}
 {key: Gm}
-{duration: 4:10}
+{duration: 3:20}
 {tempo: 90}
 {meta: nord: P55}
 {meta: roland: A058}
@@ -18,15 +18,14 @@
 {start_of_part: Intro}
 . | [Bbm] . . . | [Bbm] . . . |
 . | [Bbm] . . . | [Bbm] . . . |
-
 {end_of_part}
 
 {start_of_verse: Verse 1}
 [Bbm] Give me a ticket for an aero[Gb]plane
-[Bbm] I ain't got time to take[Eb]  no fast train
-[Bbm] Ooh the lonely days[Bbm/Ab]  are gone
-[Gdim] I'm comin' home[Gb]
-[F]My baby, she wrote me a let[Bbm]ter
+[Bbm] I ain't got time to take[Eb] no fast train
+[Bbm] Ooh the lonely [Bbm/Ab]days are gone
+[Gdim] I'm comin' h[Gb]ome
+[F]  My baby, she wrote me a let[Bbm]ter
 {end_of_verse}
 
 {start_of_part: Interlude}
@@ -35,10 +34,10 @@
 {end_of_part}
 
 {start_of_verse: Verse 2}
-[Bbm]   I don't care how much I got[Gb]  to spend
-[Bbm]   I'm gonna find my way[Eb]  back home again
-[Bbm]Ooh the lonely days[Bbm/Ab]  are gone
-[Gdim]    I'm comin' home[Gb]
+[Bbm] I don't care how much I got[Gb] to spend
+[Bbm] I'm gonna find my way[Eb] back home again
+[Bbm] Ooh the lonely [Bbm/Ab]days are gone
+[Gdim] I'm comin' h[Gb]ome
 [F] Yeah my baby she wrote me a let[Bbm]ter
 {end_of_verse}
 
@@ -48,86 +47,74 @@
 {end_of_part}
 
 {start_of_chorus: Chorus}
-Said she [Gb]couldn't live[Db]  with out[Ab]  me no more
-[Db]Listen to me mis[Ab]ter
-[Gb]  Can't you see I'm rea[Db]dy
-Withamy [Ab]baby once more
+Well she [Db]wrote me a let[Ab]ter
+S[Gb]aid she couldn't l[Db]ive wit[Ab]out me no more
+[Db] Listen to me mis[Ab]ter
+[Gb] Can't you see me ra[Db]vin' for my [Ab]baby once more?
 [F]Anyway
 {end_of_chorus}
 
 {start_of_verse: Verse 3}
-[Bbm]   I don't care how much I got[Gb]  to spend
-[Bbm]   I'm gonna find my way[Eb]  back home again
-[Bbm]Ooh the lonely days[Bbm/Ab]  are gone
-[Gdim]    I'm comin' home[Gb]
+[Bbm] I don't care how much I got[Gb] to spend
+[Bbm] I'm gonna find my way[Eb] back home again
+[Bbm]Ooh the lonely [Bbm/Ab]days are gone
+[Gdim] I'm comin' h[Gb]ome
 [F]My baby, she wrote me a let[Bbm]ter
 {end_of_verse}
 
+
 {start_of_part: Interlude}
 . | - [Bbm] [Db] [Eb] [Db][Eb][Db] |
 . | - [Bbm] [Db] [Eb] [Db][Eb][Db] |
 {end_of_part}
+
 
 {start_of_part: Solo 1}
-. | [Bbm]   . . . | [Bbm] . . . | 
-. | [Gb]   . . . | [Gb] . . . |
-. | [Bbm]   . . . | [Bbm] . . . | 
-. | [Eb]    . . . | [Eb]  . . . |
-. | [Bbm]   . . . | [Ab]  . . . | 
-. | [Gdim] . . . | [Gb] . . . | 
-. | [F]    . . . | [F]  . . . |
+. | [Bbm] . . . | [Gb] . . . | [Bbm] . . . | [Eb] . . . |
+. | [Bbm] . [Ab] . | [Gdim] . [Gb] . | [F] . . . |
 {end_of_part}
+
 
 {start_of_part: Interlude}
 . | - [Bbm] [Db] [Eb] [Db][Eb][Db] |
 . | - [Bbm] [Db] [Eb] [Db][Eb][Db] |
 {end_of_part}
+
 
 {start_of_part: Solo 2}
-. | [Bbm]   . . . | [Bbm] . . . | 
-. | [Gb]   . . . | [Gb] . . . |
-. | [Bbm]   . . . | [Bbm] . . . | 
-. | [Eb]    . . . | [Eb]  . . . |
-. | [Bbm]   . . . | [Ab]  . . . | 
-. | [Gdim] . . . | [Gb] . . . | 
-. | [F]    . . . | [F]  . . . |
+. | [Bbm] . . . | [Gb] . . . | [Bbm] . . . | [Eb] . . . |
+. | [Bbm] . [Ab] . | [Gdim] . [Gb] . | [F] . . . |
 {end_of_part}
+
 
 {start_of_part: Interlude}
 . | - [Bbm] [Db] [Eb] [Db][Eb][Db] |
 . | - [Bbm] [Db] [Eb] [Db][Eb][Db] |
 {end_of_part}
 
+
 {start_of_chorus: Chorus}
-[Db]  Well she [Db]wrote me a let[Ab]ter
-Said[Gb]  she couldn't live[Db]  with out[Ab]  me no more
-[Db]Listen to me mis[Ab]ter
-[Gb]  Can't you see I'm rea[Db]dy
-Withamy [Ab]baby once more
+Well she [Db]wrote me a let[Ab]ter
+S[Gb]aid she couldn't l[Db]ive wit[Ab]out me no more
+[Db] Listen to me mis[Ab]ter
+[Gb] Don't you hear me ra[Db]vin' for my [Ab]baby once more?
 [F]Anyway
 {end_of_chorus}
 
 {start_of_verse: Verse 4}
-[Bbm]   Give me a ticket for an aero[Gb]plane
-[Bbm]   I ain't got time to take[Eb]  no fast train
-[Bbm]Ooh the lonely days[Bbm/Ab]  are gone
-[Gdim]    I'm comin' home[Gb]
-[F]My baby, she wrote me a let[Bbm]ter
+[Bbm] Give me a ticket for an aero[Gb]plane
+[Bbm] I ain't got time to take[Eb] no fast train
+[Bbm] Ooh the lonely [Bbm/Ab]days are gone
+[Gdim] I'm comin' h[Gb]ome
+[F]  My baby, she wrote me a let[Bbm]ter
 {end_of_verse}
-
-{start_of_part: Interlude}
-. | [Bbm] [Db] [Eb] [Db][Eb][Db] |
-. | [Bbm] [Db] [Eb] [Db][Eb][Db] |
-{end_of_part}
-
-{comment: cut here}
-{start_of_part: Interlude}
-[Bbm] My Baby Wrote Me A Letter ( x 20 )
-{end_of_part}
 
 {start_of_part: Outro}
 . | [Bbm] [Db] [Eb] [Db][Eb][Db] |
 . | [Bbm] [Db] [Eb] [Db][Eb][Db] |
 . | [Bbm] [Db] [Eb] [Db][Eb][Db] |
-. | [Bbm] [Db] [Eb] [Db][Eb][Db] |
+
+. | [Bbm] . [Bbm] . |
+
+. | [Bbm7b5] |
 {end_of_part}
