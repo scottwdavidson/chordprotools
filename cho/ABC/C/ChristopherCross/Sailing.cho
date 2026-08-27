@@ -4,6 +4,9 @@
 {duration: 4:15}
 {tempo: 80}
 
+{comment:**  meta: rc-slot: 82   }
+
+
 {start_of_part: Strings}
 . | [D]        . [Dadd2]     . | [E/D] . [A/D] . | [D] . . . | 
 . | [Bm7](2nd) . [F#m7](3rd) . | [C#m7](3rd) . . (->) |

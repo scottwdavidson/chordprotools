@@ -13,6 +13,7 @@
 {comment:**  meta: nord: N32   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 64   }
 {comment:**  meta: label: OrdnryWorld   }
 {comment:**  meta: performance: Bm   }
 {comment:***********************************************}
