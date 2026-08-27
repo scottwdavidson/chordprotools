@@ -3,8 +3,12 @@
 {key: Em}
 {duration: 3:00}
 {tempo: 102}
+{meta: nord: P54}
+{meta: backing: BB}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P54   }
+{comment:**  meta: backing: BB   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
@@ -35,6 +39,12 @@ I find it hard to [A] tell you, I find it hard to [Em] take
 When people run in [A] circles it's a very, very
 [Em] Mad [A] world, [Em] mad [A] world
 {end_of_chorus}
+
+{start_of_part: Intro}
+[Em]G  B  F#  G  E  F# [A]D  C# [A]-----
+
+[Em]G  B  F#  G  E  F# [A]G  A [A]-----
+{end_of_part}
 
 {start_of_verse: Verse 2}
 [Em] Children waiting for the [G] day they feel good

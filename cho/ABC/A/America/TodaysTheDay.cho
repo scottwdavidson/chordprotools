@@ -2,13 +2,13 @@
 {artist: America}
 {key: E}
 {duration: 3:00}
-{tempo: 96}
-{meta: nord: O54}
+{tempo: 101}
+{meta: nord: P54}
 {meta: countin: 4}
 {meta: backing: BB}
 
 {comment:***********************************************}
-{comment:**  meta: nord: O54   }
+{comment:**  meta: nord: P54   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: BB   }
 {comment:***********************************************}
@@ -24,7 +24,7 @@
 You turn [E/G#]nighttime into da[F#m7]y
 
 And [E]you're the mos[F#m7]t
-Brightest[E]star that lights my wa[F#m7]y
+Brightest [E]star that lights my wa[F#m7]y
 {end_of_verse}
 
 {start_of_part: Pre-Chorus}
