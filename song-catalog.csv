@@ -190,7 +190,7 @@ Burning Love,Elvis,D,,144,,,,,,,,DEF:E:Elvis:BurningLove,
 I'd Really Love To See You Tonight,England Dan / John Ford Coley,F,,,,,,,,,,DEF:E:EnglandDanJohnFordColey:IdReallyLoveToSeeYouTonight,
 Change The World,Eric Clapton,E,3:30,97,,,,,,,,DEF:E:EricClapton:ChangeTheWorld,
 Cocaine,Eric Clapton,E,,,,,,,,,,DEF:E:EricClapton:Cocaine,
-I Shot the Sheriff,Eric Clapton,Gm,3:50,94,4,,,,,Gm,,DEF:E:EricClapton:IShotTheSheriff,
+I Shot the Sheriff,Eric Clapton,Gm,3:50,94,4,,P54,A052,,Gm,,DEF:E:EricClapton:IShotTheSheriff,
 Layla,Eric Clapton,Dm,4:00,94,4,,O55,,,Dm,,DEF:E:EricClapton:Layla,
 Nobody Knows You When You're Down And Out,Eric Clapton,C,3:50,89,4,,N45,,,C,,DEF:E:EricClapton:NobodyKnowsYou,
 Over the Rainbow,Eric Clapton,E,,,,,,,,,,DEF:E:EricClapton:OverTheRainbow,
@@ -244,8 +244,8 @@ And We Danced,The Hooters,G,3:45,144,8,RC,P31,,,G,,GHI:H:Hooters:AndWeDanced-g,A
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,GHI:H:HueyLewis:DoYouBelieveInLove,
 Don't You Want Me,The Human League,Am,,,,,,,,,,GHI:H:HumanLeague:DontYouWantMe,
 Need You Tonight,INXS,C,2:55,109,,,,,,,,GHI:I:INXS:NeedYouTonight,
-Call Me The Breeze,J.J. Cale,F#,3:10,180,,,,,,,,JKL:J:JJCale:CallMeTheBreeze,
-Call Me The Breeze,J.J. Cale,G,3:10,180,,,,,,,,JKL:J:JJCale:CallMeTheBreeze-g,
+Call Me The Breeze,J.J. Cale,F#,3:10,180,4,BB,O55,,,,,JKL:J:JJCale:CallMeTheBreeze,
+Call Me The Breeze,J.J. Cale,G,3:10,180,4,BB,O55,,,,,JKL:J:JJCale:CallMeTheBreeze-g,
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,JKL:J:JJCale:SensitiveKind,
 Running On Empty,Jackson Brown,A,4:10,137,8,RC,P55,,,,,JKL:J:JacksonBrowne:RunningOnEmpty,Run OnEmpty
 Running On Empty - G,Jackson Brown,G,4:10,137,8,RC,P55,,,G,,JKL:J:JacksonBrowne:RunningOnEmpty-g,Run OnEmpty
@@ -258,7 +258,7 @@ You Don't Mess Around With Jim,Jim Croce,F,,164,,,,,,,,JKL:J:JimCroce:YouDontMes
 Bye Bye,Jo Dee Messina,G,3:12,134,8,RC,O24,,,Bb (+3),,JKL:J:JoDeeMessina:ByeBye,ByeBye
 Bye Bye,Jo Dee Messina,Bb,3:12,134,8,RC,O24,,,Bb,,JKL:J:JoDeeMessina:ByeBye-bb,ByeBye
 Feelin' Alright,Joe Cocker,C,4:00,88,,,,,,,,JKL:J:JoeCocker:FeelinAlright,
-The Letter,Joe Cocker,Gm,3:20,90,4,RC,P55,A058,,,,JKL:J:JoeCocker:TheLetter,
+The Letter,Joe Cocker,Bbm,3:20,90,4,RC,P55,A058,,,,JKL:J:JoeCocker:TheLetter,
 The Letter,Joe Cocker,Gm,3:20,90,4,RC,P55,A058,,,,JKL:J:JoeCocker:TheLetter-gm,
 Unchain My Heart,Joe Cocker,Am,5:07,118,0,RC,O:24,,,,,JKL:J:JoeCocker:UnchainMyHeart,Unchn Heart
 Unchain My Heart (Extended),Joe Cocker,Am,5:07,118,0,RC,O:24,,,,,JKL:J:JoeCocker:UnchainMyHeartExtended,Unchn Heart

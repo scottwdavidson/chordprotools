@@ -3,8 +3,15 @@
 {key: G}
 {duration: 3:10}
 {tempo: 180}
+{meta: nord: O55}
+{meta: countin: 4}
+{meta: backing: BB}
 
-
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
+{comment:***********************************************}
 
 {comment: Intro}
 
