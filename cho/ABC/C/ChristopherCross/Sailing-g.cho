@@ -1,0 +1,105 @@
+{title: Sailing}
+{artist: Christopher Cross}
+{key: A}
+{duration: 4:15}
+{tempo: 80}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P33   }
+{comment:**  meta: rc-slot: 82   }
+{comment:***********************************************}
+
+
+{start_of_part: Strings}
+. | [C]        . [Cadd2]     . | [D/C] . [G/C] . | [C] . . . | 
+. | [Am7](2nd) . [Em7](3rd) . | [Bm7](3rd) . . (->) |
+{end_of_part}
+
+{start_of_part: Intro}
+. | [Csus(#4)] . [Cadd2] . | [Csus(#4)] . [Cadd2] . | 
+. | [Em9]    . [Em11] . | [Em9]    . [Em11] . |
+. | [D/C]     . [G/C]   . | [D/C]     . [G/C]   . |
+. | [D/A]     . [G]     . | [D/A]     . [G].    . |
+{end_of_part}
+
+
+{start_of_verse: Verse 1}
+Well, it's not [Csus(#4)]far down to para[Cadd2]dise
+At [Csus(#4)]least it's not for [Cadd2]me
+And if the wind [Em9]is right you can sail [Em11]away
+And [Em9]find tranquility__[Em11]
+Oh, the can[D/C]vas can do mir[G/C]acles
+[D/C]Just you wait and [G/C]see
+[D/G]Believe [G]me__[D/G]_[G]
+{end_of_verse}
+
+{start_of_verse: Verse 1}
+It's not fa[Csus(#4)]r    to never-never[Cadd2]land
+No [Csus(#4)]reason to preten[Cadd2]d
+And if the wi[Em9]nd  is right you can [Em11]find the joy
+Of [Em9]innocence again_[Em11]
+Oh, the can[D/C]vas can do mir[G/C]acles
+[D/C]Just you wait and [G/C]see
+[D/G]Believe [G]me__[D/G]_[G]
+{end_of_verse}
+
+{start_of_chorus: Chorus}
+[D/A]Sailing [G]Takes me away 
+[D/A]to where [G]I've always [Csus(#4)]heard it could be[Cadd2]_[Csus(#4)]_[Cadd2]
+Just a drea[Am7]m  and the wind to car[Em7]ry  me
+And [Bm7]soon I will be free[Csus(#4)]
+{end_of_chorus}
+
+{start_of_part: Interlude}
+. | [Csus(#4)] . [Cadd2] . | [Csus(#4)] . [Cadd2] . | 
+{end_of_part}
+
+{start_of_verse: Verse 2}
+[D/A]Fantasy, [G]it gets the 
+[D/A]Best of me, [G]When I'm 
+[Em9]sailin[Em11]g_[Em9]_[Em11]
+[D/C]All  caught up in the rev[G/C]erie
+[D/C]Every word is a [G/C]symphony
+Won't you belie[D/G]ve me?__[G]_[D/G]_[G]
+{end_of_verse}
+
+{start_of_chorus: Chorus}
+[D/A]Sailing [G]Takes me away 
+[D/A]to where [G]I've always [Csus(#4)]heard it could be[Cadd2]_[Csus(#4)]_[Cadd2]
+Just a drea[Am7]m  and the wind to car[Em7]ry  me
+And [Bm7]soon I will be free[Csus(#4)]
+{end_of_chorus}
+
+{start_of_part: Interlude}
+. | [Csus(#4)] . [Cadd2] . | [Csus(#4)] . [Cadd2] . | 
+{end_of_part}
+
+{start_of_bridge: Bridge}
+. | [Gadd9]  . .       . | [Ebadd9] . [Eadd9] . | 
+. | [Dbadd9] . [Ebadd9] . | [Eadd9] . .       . | 
+
+. | [Bbadd9] . .       . | [Gbadd9] . [Abadd9] . | 
+. | [Ebadd9] . [Eadd9] . | [Gadd9]  . .        . |
+{end_of_bridge}
+
+
+{start_of_verse: Verse 3}
+Well, it's not  [Csus(#4)]far back to san[Cadd2]ity
+At [Csus(#4)]least it's not for m[Cadd2]e
+And if the wind [Em9]is right you can sail[Em11] away
+And [Em9]find serenity_[Em11]
+Oh, the can[D/C]vas can do mir[G/C]acles
+[D/C]Just you wait and [G/C]see
+[D/G]Believe [G]me__[D/G]_[G]_[D/G]_[G]
+{end_of_verse}
+
+{start_of_chorus: Chorus}
+[D/A]Sailing [G]Takes me away 
+[D/A]to where [G]I've always [Csus(#4)]heard it could be[Cadd2]_[Csus(#4)]_[Cadd2]
+Just a drea[Am7]m  and the wind to car[Em7]ry  me
+And [Bm7]soon I will be free[Csus(#4)]
+{end_of_chorus}
+
+{start_of_part: Outro}
+. | [Csus(#4)] . [Cadd2] . | [Csus(#4)] . [Cadd2] . | 
+{end_of_part}

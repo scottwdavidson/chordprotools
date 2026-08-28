@@ -3,9 +3,12 @@
 {key: D}
 {duration: 4:15}
 {tempo: 80}
+{meta: nord: P33}
 
+{comment:***********************************************}
+{comment:**  meta: nord: P33   }
 {comment:**  meta: rc-slot: 82   }
-
+{comment:***********************************************}
 
 {start_of_part: Strings}
 . | [D]        . [Dadd2]     . | [E/D] . [A/D] . | [D] . . . | 
@@ -55,9 +58,9 @@ And [C#m7]soon I will be free[Dsus2(#4)]
 [E/A]Fantasy, [A]it gets the 
 [E/A]Best of me, [A]When I'm 
 [F#m9]sailin[F#m11]g_[F#m9]_[F#m11]
-[E/A]All  caught up in the rev[A/D]erie
-[E/A]Every word is a [A/D]symphony
-Won't you belie[E/A]ve me?__[A]
+[E/D]All  caught up in the rev[A/D]erie
+[E/D]Every word is a [A/D]symphony
+Won't you belie[E/A]ve me?__[A]_[E/A]_[A]
 {end_of_verse}
 
 {start_of_chorus: Chorus}
@@ -87,7 +90,7 @@ And if the wind [F#m9]is right you can sail[F#m11] away
 And [F#m9]find serenity_[F#m11]
 Oh, the can[E/D]vas can do mir[A/D]acles
 [E/D]Just you wait and [A/D]see
-[E/A]Believe [A]me__[E/A]_[A]
+[E/A]Believe [A]me__[E/A]_[A]_[E/A]_[A]
 {end_of_verse}
 
 {start_of_chorus: Chorus}
