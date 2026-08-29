@@ -1,33 +1,28 @@
 {title: There's No Getting Over Me}
 {artist: Ronnie Milsap}
 {key: C}
-{duration: 4:00}
+{duration: 3:30}
 {tempo: 100}
-{meta: nord: ??}
+{meta: nord: P55}
 {meta: countin: 4}
 {meta: performance: E}
 
-{comment: ***********************************************}
-{comment: ** meta: nord: ??}
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 66   }
-{comment: ***********************************************}
-
-
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: Intro}
 | C . . . | Am . . . |
 | C . . . | Am . . . |
 
-{comment: Ronnie}
 {start_of_verse}
-[C]Well you can walk out on me [Am]tonight
+Well you can [C]walk out on me [Am]tonight
 If you [C]think that it ain't feeling [Am]right
 But [Dm]darling there's ain't [G7]no getting over [C]me[Am]
 {end_of_verse}
 
-{comment: Kasey}
 {start_of_verse}
 Well you can [C]say that you need to be [Am]free
 But there ain't [C]no place that I won't [Am]be
@@ -35,15 +30,14 @@ Sweet [Dm]darling there ain't [G7]no getting over [C]me[C/Am]
 {end_of_verse}
 
 {start_of_chorus}
-(Ronnie) I'll be the [Am]bill you forgot to [Em]pay
-(Kasey) I'll be the [Dm]dream that keeps you a[C]wake
-(Ronnie) I'll be the [Am]song on the ra[Em]dio
-(Kasey) I'll be the [Dm]reason that you tell the GIRLS [G7]no
+I'll be the [Am]bill you forgot to [Em]pay
+I'll be the [Dm]dream that keeps you a[C]wake
+I'll be the [Am]song on the ra[Em]dio
+I'll be the [Dm]reason that you tell the boys [G7]no
 
-(Ronnie) Don't you know
+Don't you know
 {end_of_chorus}
 
-{comment: Ronnie & Kasey}
 {start_of_verse}
 You can [C]tell everyone that we're [Am]through
 You might [C]even believe it [Am]too
@@ -58,13 +52,12 @@ Sweet [Dm]darling there ain't [G7]no getting over [C]me[C/Am]
 | C . . .  | C/Am . . . |
 
 {start_of_chorus}
-(Ronnie) I'll be the [Am]face that you see in the [Em]crowd
-(Kasey) I'll be the [Dm]times that you [G7]cry out [C]loud
-(Ronnie) I'll be the [Am]smile when there's no one [Em]around
-(Kasey) I'll be the [Dm]book that you just can't put [G7]down
+I'll be the [Am]face that you see in the [Em]crowd
+I'll be the [Dm]times that you cry out [C]loud
+I'll be the [Am]smile when there's no one [Em]around
+I'll be the [Dm]book that you just can't put [G7]down
 {end_of_chorus}
 
-{comment: Ronnie & Kasey}
 {start_of_verse}
 So you [C]can walk out on me [Am]tonight
 If you [C]think that it ain't feeling [Am]right
@@ -72,7 +65,6 @@ But [Dm]darling there's ain't [G7]no getting over [C]me_[Am]
 S[Dm]weet darling there's ain't [G7]no getting over [C]me[C/Am]
 {end_of_verse}
 
-{comment: Ronnie & Kasey}
 {comment: Outro}
 No no [Am]no no 
 no [Dm]Darling there ain't [G7]no getting over [C]me

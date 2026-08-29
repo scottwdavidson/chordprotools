@@ -1,18 +1,17 @@
 {title: There's No Getting Over Me}
 {artist: Ronnie Milsap}
 {key: E}
-{duration: 4:00}
+{duration: 3:30}
 {tempo: 100}
-{meta: nord: ??}
+{meta: nord: P55}
 {meta: countin: 4}
+{meta: performance: E}
 
-{comment: ***********************************************}
-{comment: ** meta: nord: ??}
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
 {comment:**  meta: countin: 4   }
-{comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 66   }
-{comment: ***********************************************}
-
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: Intro}
 | E . . . | C#m . . . |
