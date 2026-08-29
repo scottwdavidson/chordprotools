@@ -2,6 +2,7 @@ package com.pourchoices.chordpro.application.domain.model;
 
 import lombok.Value;
 
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -87,5 +88,45 @@ public class MusicalKey {
      */
     public static boolean isParseable(String key) {
         return key != null && KEY_PATTERN.matcher(key.trim()).matches();
+    }
+
+    /**
+     * Major-key chromatic positions that prefer flat spelling (F, Bb, Eb, Ab,
+     * Db). Circle-of-fifths flat side, per band convention.
+     *
+     * <p><b>Tie-break:</b> position 6 (F#/Gb) is deliberately excluded here and
+     * defaults to sharp ({@code F#}) instead of flat ({@code Gb}) — both are
+     * valid enharmonic spellings of the same key in real music theory, and
+     * F# is the far more common spelling in contemporary rock/pop guitar
+     * charts (this band's repertoire).
+     */
+    private static final Set<Integer> FLAT_MAJOR_POSITIONS = Set.of(5, 10, 3, 8, 1);
+
+    /**
+     * Minor-key chromatic positions that prefer flat spelling (Dm, Gm, Cm,
+     * Fm, Bbm, Ebm).
+     *
+     * <p><b>Tie-break:</b> position 3 (D#m/Ebm) is included here — Eb minor
+     * is the far more common practical spelling versus D# minor, which is
+     * essentially never used in real charts.
+     */
+    private static final Set<Integer> FLAT_MINOR_POSITIONS = Set.of(2, 7, 0, 5, 10, 3);
+
+    /**
+     * Whether this key should be spelled using flats (as opposed to sharps)
+     * when rendering a transposed chord. Neutral keys (C major, A minor)
+     * fall through to sharps by default, matching {@link #FLAT_MAJOR_POSITIONS}
+     * / {@link #FLAT_MINOR_POSITIONS} not containing their positions.
+     *
+     * <p>Two chromatic positions (major position 6, minor position 3) are
+     * genuinely ambiguous in real music theory — both a flat and a sharp
+     * spelling are valid, commonly-used names for the same key. See the
+     * tie-break notes on {@link #FLAT_MAJOR_POSITIONS} / {@link #FLAT_MINOR_POSITIONS}
+     * for the deliberate, documented choice made here.
+     */
+    public boolean prefersFlats() {
+        return minor
+                ? FLAT_MINOR_POSITIONS.contains(chromaticPosition)
+                : FLAT_MAJOR_POSITIONS.contains(chromaticPosition);
     }
 }
