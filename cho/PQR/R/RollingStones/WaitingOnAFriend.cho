@@ -1,8 +1,15 @@
 {title: Waiting On A Friend}
 {artist: Rolling Stones}
 {key: C}
-{tempo: 114}
 {duration: 4:20}
+{tempo: 114}
+{meta: nord: P55}
+{meta: backing: RC}
+
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: backing: RC   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [Cadd9] . . . | [F] . . . | [Cadd9] . . . | [F] . . . |
