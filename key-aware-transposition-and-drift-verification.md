@@ -1,6 +1,6 @@
 # Design: Key-Aware ChordPro Transposition & Semantic Drift Verification
 
-> **Status:** Phase 0 complete (2026-08-29) · Phase 1 next · **Author:** Kino  (absorbing a spec drafted with
+> **Status:** Phase 1 complete (2026-08-30) · Phase 2 next · **Author:** Kino  (absorbing a spec drafted with
 > another agent) · **Date:** 2026-08-29
 > **Scope:** A `transpose` command that key-spells correctly, plus a generic
 > `verify-sync` drift engine reused by the already-parked `consistent-song-data`
@@ -206,6 +206,61 @@ chordprotools transpose <input.cho> --offset <semitones> --output <path>
 - `TransposeServiceTest`: round-trip correctness, `{key:}` directive updated,
   correct enharmonic spelling for a flat target and a sharp target, slash
   chords carried through correctly, missing-key error case.
+
+### 6.1 Implementation notes (2026-08-30)
+
+- `MusicalKey` gained `noteName(int, boolean)` (static, the single source of
+  truth for chromatic note spelling), `canonicalName()` (renders e.g.
+  `"F#"`, `"Bbm"` for writing back into `{key:}`), and `transposeBy(int)`
+  (preserves major/minor quality). `ChordProTransposer` was refactored to
+  call `MusicalKey.noteName()` instead of keeping its own private
+  sharp/flat arrays — small DRY cleanup, since both classes work in the same
+  12-note chromatic space.
+- **Regression guardrail, implemented properly (not naively):** an early
+  draft of `findUnrecognizedChordAttempts` just reused "fails
+  `isValidQuality`" as the warning trigger — caught by a test failure
+  before it shipped, because that also flags every `[Bridge]`/`[Chorus]` in
+  the catalog (same root cause that makes `transpose` correctly leave them
+  untouched also makes them look "unrecognized"). Fixed with a narrower,
+  separate `isKnownNonChordAnnotation` check, grounded in a real grep audit
+  of the catalog rather than guessed:
+  - **Known section labels** (`bridge`, `chorus`, `bass` — the only three
+    that actually appear): allow-listed by exact word match, not warned on.
+  - **Riff notation** (`[E F# G A]`): detected structurally (2+
+    whitespace-separated valid note tokens), not by a fixed list.
+  - **Fret-position hints** (`[C (17th - 3-6)]`, `[Em (9th - 1,3)]`):
+    detected structurally (quality ends in a parenthetical preceded by
+    whitespace, with a valid-or-empty quality prefix), not by hardcoding
+    "17th/9th/etc." This is also why fret-hinted chords still aren't
+    actually transposed — same known Phase-0 limitation, just confirmed it
+    won't cry wolf about it.
+  - Everything else that starts with a note letter but fails
+    `isValidQuality` **does** get flagged — confirmed live against a
+    synthetic bad file (`[Gmjaj7]`/`[Fmjaj7]` warned, `[Bridge]` on the
+    same line stayed silent).
+- **Known catalog-quality follow-up surfaced, not yet fixed:** the same grep
+  audit turned up several single-word letters-only brackets that don't look
+  like intentional annotations and aren't chords either — `[Barely]`,
+  `[Come]`, `[down]`, `[drop]`, `[Everywhere]`, `[Fly]`, `[for]`, `[Get]`,
+  `[Ahhhhh]`/`[Ahhhhhh]`, `[Capo:]`, `[Chord]`, `[DEsus]`. These read like
+  accidentally-bracketed lyric words (or, for `[Capo:]`, a directive that
+  should probably be `{capo: ...}` instead of a bracket) but weren't chased
+  down as part of this phase — out of scope for "ship `transpose`," and
+  exactly the kind of thing the warning guardrail will now surface
+  naturally the first time someone transposes those specific songs, rather
+  than needing a dedicated sweep today.
+- **Exit-code gap found, not fixed (cross-cutting, pre-existing):**
+  `ChordproParserApplication.run()` discards `CommandLine.execute()`'s
+  return code entirely — `System.exit(SpringApplication.exit(...))` always
+  returns `0` regardless of whether the command threw. Confirmed live: both
+  the missing-file and same-input-output guards printed a correct error
+  and stack trace but still exited `0`. This affects **every** command in
+  the app (not new to `transpose`), so it wasn't silently patched here —
+  flagged to Scott as a real, separate finding worth its own decision.
+- Live-tested end-to-end against real catalog files (not just unit tests):
+  `HollywoodNights.cho` transposed +5 (E→A) with slash chords (`A/E→D/A`,
+  `D/E→G/A`) all correct and line count unchanged; `RunningOnEmpty-g.cho`
+  (fret-hint-heavy) transposed with zero false-positive warnings.
 
 ---
 

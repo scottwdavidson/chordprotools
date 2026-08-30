@@ -119,4 +119,50 @@ class MusicalKeyTest {
         // never used in real charts. See FLAT_MINOR_POSITIONS javadoc.
         assertThat(MusicalKey.parse("D#m").prefersFlats()).isTrue();
     }
+
+    @Test
+    void noteName_sharpsAndFlats() {
+        assertThat(MusicalKey.noteName(6, false)).isEqualTo("F#");
+        assertThat(MusicalKey.noteName(6, true)).isEqualTo("Gb");
+        assertThat(MusicalKey.noteName(0, false)).isEqualTo("C");
+    }
+
+    @Test
+    void noteName_normalizesOutOfRangePositions() {
+        assertThat(MusicalKey.noteName(-1, false)).isEqualTo("B");
+        assertThat(MusicalKey.noteName(12, false)).isEqualTo("C");
+    }
+
+    @Test
+    void canonicalName_majorAndMinor() {
+        assertThat(MusicalKey.parse("C").canonicalName()).isEqualTo("C");
+        assertThat(MusicalKey.parse("Am").canonicalName()).isEqualTo("Am");
+    }
+
+    @Test
+    void canonicalName_usesKeyDrivenSpelling() {
+        // Bb major prefers flats - a key that's chromatically Bb should
+        // always render as "Bb", never "A#", regardless of input spelling.
+        assertThat(MusicalKey.parse("A#").canonicalName()).isEqualTo("Bb");
+        // D major prefers sharps - chromatically F# should render as "F#".
+        assertThat(MusicalKey.parse("Gb").canonicalName()).isEqualTo("F#");
+    }
+
+    @Test
+    void transposeBy_preservesQuality() {
+        assertThat(MusicalKey.parse("C").transposeBy(2)).isEqualTo(MusicalKey.parse("D"));
+        assertThat(MusicalKey.parse("Am").transposeBy(2)).isEqualTo(MusicalKey.parse("Bm"));
+    }
+
+    @Test
+    void transposeBy_wrapsAroundNegativeAndOverflow() {
+        assertThat(MusicalKey.parse("C").transposeBy(-1)).isEqualTo(MusicalKey.parse("B"));
+        assertThat(MusicalKey.parse("B").transposeBy(1)).isEqualTo(MusicalKey.parse("C"));
+        assertThat(MusicalKey.parse("C").transposeBy(13)).isEqualTo(MusicalKey.parse("C#"));
+    }
+
+    @Test
+    void transposeBy_zeroReturnsSameKey() {
+        assertThat(MusicalKey.parse("F#m").transposeBy(0)).isEqualTo(MusicalKey.parse("F#m"));
+    }
 }

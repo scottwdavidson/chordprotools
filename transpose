@@ -1,0 +1,7 @@
+#!/bin/zsh
+# Transposes a .cho file to a new key. Never overwrites the input file.
+#
+# Usage:
+#   ./transpose cho/ABC/B/BobSeger/HollywoodNights.cho --offset 5 --output /tmp/out.cho
+
+"${0:a:h}/cpt" transpose "$@"

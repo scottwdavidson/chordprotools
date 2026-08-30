@@ -129,4 +129,48 @@ public class MusicalKey {
                 ? FLAT_MINOR_POSITIONS.contains(chromaticPosition)
                 : FLAT_MAJOR_POSITIONS.contains(chromaticPosition);
     }
+
+    /**
+     * Note names indexed by chromatic position (0-11, C = 0), sharp spelling.
+     * The single source of truth for pitch-class names — {@link
+     * com.pourchoices.chordpro.application.domain.service.ChordProTransposer}
+     * reuses this instead of keeping its own copy.
+     */
+    private static final String[] SHARP_NAMES = {
+            "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"
+    };
+
+    /** Note names indexed by chromatic position (0-11, C = 0), flat spelling. */
+    private static final String[] FLAT_NAMES = {
+            "C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"
+    };
+
+    /**
+     * Renders a chromatic position (0-11) as a note name, spelled with flats
+     * or sharps as requested. {@code chromaticPosition} is normalized with
+     * {@link Math#floorMod} so callers can pass any integer, not just 0-11.
+     */
+    public static String noteName(int chromaticPosition, boolean useFlats) {
+        int position = Math.floorMod(chromaticPosition, 12);
+        return (useFlats ? FLAT_NAMES : SHARP_NAMES)[position];
+    }
+
+    /**
+     * Renders this key's canonical name for display / writing back into a
+     * {@code {key:}} directive, e.g. {@code "F#"}, {@code "Bbm"}. Spelling
+     * (flat vs sharp) is chosen via {@link #prefersFlats()}.
+     */
+    public String canonicalName() {
+        return noteName(chromaticPosition, prefersFlats()) + (minor ? "m" : "");
+    }
+
+    /**
+     * Returns the key reached by transposing this key up (or down, for a
+     * negative value) by {@code halfSteps} semitones. Quality (major/minor)
+     * is preserved — transposition never changes a major key into a minor
+     * one or vice versa.
+     */
+    public MusicalKey transposeBy(int halfSteps) {
+        return new MusicalKey(Math.floorMod(chromaticPosition + halfSteps, 12), minor);
+    }
 }

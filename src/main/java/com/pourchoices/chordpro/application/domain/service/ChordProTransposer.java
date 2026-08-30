@@ -3,8 +3,11 @@ package com.pourchoices.chordpro.application.domain.service;
 import com.pourchoices.chordpro.application.domain.model.MusicalKey;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -21,13 +24,8 @@ import java.util.regex.Pattern;
 @Service
 public class ChordProTransposer {
 
-    private static final String[] CHROMATIC_SCALE_SHARPS = {
-            "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"
-    };
-
-    private static final String[] CHROMATIC_SCALE_FLATS = {
-            "C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"
-    };
+    // Chromatic note names live on MusicalKey (single source of truth for
+    // pitch-class spelling) - see MusicalKey.noteName().
 
     // Enharmonic equivalents normalized to a standard note before re-spelling.
     private static final Map<String, String> ENHARMONIC_MAP = new HashMap<>();
@@ -145,6 +143,93 @@ public class ChordProTransposer {
     }
 
     /**
+     * Known non-chord bracket annotations actually found in this catalog's
+     * {@code .cho} files, grounded in a real grep audit rather than guessed:
+     * section labels used as instrument/part cues. Extend this list
+     * deliberately (not automatically) if a new one shows up - that's
+     * exactly what {@link #findUnrecognizedChordAttempts} warning about it
+     * first is for.
+     */
+    private static final Set<String> KNOWN_SECTION_LABELS = Set.of("bridge", "chorus", "bass");
+
+    /**
+     * Riff / scale-run notation: two or more space-separated note tokens,
+     * e.g. {@code "E F# G A"}. Real lead-guitar riff annotations in this
+     * catalog, not a chord.
+     */
+    private static final Pattern RIFF_PATTERN = Pattern.compile(
+            "[A-G][#b]*(\\s+[A-G][#b]*)+", Pattern.CASE_INSENSITIVE);
+
+    /**
+     * A quality string ending in a parenthetical annotation preceded by
+     * whitespace, e.g. {@code "m (9th - 1,3)"} or {@code " (17th - 3-6)"} -
+     * real fret-position hints found in this catalog. Group 1 captures
+     * whatever quality text (if any) precedes the hint.
+     */
+    private static final Pattern FRET_HINT_SUFFIX_PATTERN = Pattern.compile("^(.*?)\\s+\\([^()]*\\)$");
+
+    /**
+     * Distinguishes "legitimate non-chord bracket content we already know
+     * about" from "probably a typo or bad copy-paste" for the
+     * {@link #findUnrecognizedChordAttempts} warning guardrail. This is
+     * deliberately a narrower, more conservative check than
+     * {@link #isValidQuality} — {@code isValidQuality} answering "false" is
+     * enough reason to leave a bracket untouched during transpose (safe
+     * default), but it is NOT enough reason to warn about it, or every
+     * {@code [Bridge]}/{@code [Chorus]} in the catalog would trigger a false
+     * alarm every time.
+     */
+    private boolean isKnownNonChordAnnotation(String root, String quality) {
+        String label = (root + quality).replaceAll(":$", "").trim().toLowerCase();
+        if (KNOWN_SECTION_LABELS.contains(label)) {
+            return true;
+        }
+
+        if (RIFF_PATTERN.matcher(root + quality).matches()) {
+            return true;
+        }
+
+        Matcher fretHint = FRET_HINT_SUFFIX_PATTERN.matcher(quality);
+        if (fretHint.matches()) {
+            String precedingQuality = fretHint.group(1);
+            return precedingQuality.isEmpty() || isValidQuality(precedingQuality);
+        }
+
+        return false;
+    }
+
+    /**
+     * Scans a line for brackets that look like a chord attempt (start with a
+     * note letter A-G) but fail the {@link #QUALITY_PATTERN} grammar AND
+     * aren't a recognized non-chord annotation (section label, riff,
+     * fret-position hint) - i.e. something a human probably meant as a
+     * chord, but got typo'd, mangled by a bad copy-paste, or otherwise
+     * doesn't parse. Used by the {@code transpose} command to warn instead
+     * of silently leaving the bracket untouched, so bad chord data gets
+     * caught the next time someone tries to transpose that song rather than
+     * lurking forever.
+     *
+     * @return the exact unrecognized bracket text (e.g. {@code "[Fmjaj7]"}),
+     *         empty if the whole line is clean
+     */
+    public List<String> findUnrecognizedChordAttempts(String line) {
+        List<String> unrecognized = new ArrayList<>();
+        if (line == null || line.isEmpty()) {
+            return unrecognized;
+        }
+
+        Matcher matcher = CHORD_PATTERN.matcher(line);
+        while (matcher.find()) {
+            String root = matcher.group(1);
+            String quality = matcher.group(2);
+            if (!isValidQuality(quality) && !isKnownNonChordAnnotation(root, quality)) {
+                unrecognized.add(matcher.group());
+            }
+        }
+        return unrecognized;
+    }
+
+    /**
      * Transposes a single note (root or bass) by the specified number of
      * half steps. Returns the original text unchanged if it can't be parsed
      * as a note.
@@ -157,8 +242,7 @@ public class ChordProTransposer {
 
         int newPosition = Math.floorMod(currentPosition + halfSteps, 12);
 
-        String[] scale = useFlats ? CHROMATIC_SCALE_FLATS : CHROMATIC_SCALE_SHARPS;
-        return normalizeNote(scale[newPosition], useFlats);
+        return normalizeNote(MusicalKey.noteName(newPosition, useFlats), useFlats);
     }
 
     /**
@@ -210,15 +294,13 @@ public class ChordProTransposer {
         if (note.contains("##")) {
             String baseNote = note.substring(0, 1);
             int position = (getNotePosition(baseNote) + 2) % 12;
-            String[] scale = useFlats ? CHROMATIC_SCALE_FLATS : CHROMATIC_SCALE_SHARPS;
-            return scale[position];
+            return MusicalKey.noteName(position, useFlats);
         }
 
         if (note.contains("bb")) {
             String baseNote = note.substring(0, 1);
             int position = Math.floorMod(getNotePosition(baseNote) - 2, 12);
-            String[] scale = useFlats ? CHROMATIC_SCALE_FLATS : CHROMATIC_SCALE_SHARPS;
-            return scale[position];
+            return MusicalKey.noteName(position, useFlats);
         }
 
         if (note.contains("b#") || note.contains("#b")) {

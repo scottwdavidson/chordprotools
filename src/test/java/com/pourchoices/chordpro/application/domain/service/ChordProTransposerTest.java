@@ -137,4 +137,48 @@ class ChordProTransposerTest {
         assertThat(transposer.transpose("[F]riff", 1, MusicalKey.parse("C")))
                 .isEqualTo("[F#]riff");
     }
+
+    // --- findUnrecognizedChordAttempts (Phase 1 warning guardrail) ---
+
+    @Test
+    void findUnrecognizedChordAttempts_flagsMalformedBracket() {
+        assertThat(transposer.findUnrecognizedChordAttempts("[Fmjaj7]word"))
+                .containsExactly("[Fmjaj7]");
+    }
+
+    @Test
+    void findUnrecognizedChordAttempts_ignoresValidChords() {
+        assertThat(transposer.findUnrecognizedChordAttempts("[C]hello [Gm7]world")).isEmpty();
+    }
+
+    @Test
+    void findUnrecognizedChordAttempts_ignoresLegitimateNonChordBrackets() {
+        // Section labels and riff notation are legitimate, not "unrecognized
+        // chord attempts" - the guardrail must not cry wolf on these.
+        assertThat(transposer.findUnrecognizedChordAttempts("[Bridge]")).isEmpty();
+        assertThat(transposer.findUnrecognizedChordAttempts("[Bridge:]")).isEmpty();
+        assertThat(transposer.findUnrecognizedChordAttempts("[Chorus]")).isEmpty();
+        assertThat(transposer.findUnrecognizedChordAttempts("[bass]")).isEmpty();
+        assertThat(transposer.findUnrecognizedChordAttempts("[E F# G A]")).isEmpty();
+    }
+
+    @Test
+    void findUnrecognizedChordAttempts_ignoresFretPositionHints() {
+        // Real notation from RunningOnEmpty-g.cho - a chord followed by a
+        // guitar fret-position hint, not a typo.
+        assertThat(transposer.findUnrecognizedChordAttempts("[C (17th - 3-6)]")).isEmpty();
+        assertThat(transposer.findUnrecognizedChordAttempts("[Em (9th - 1,3)]")).isEmpty();
+    }
+
+    @Test
+    void findUnrecognizedChordAttempts_findsMultiplePerLine() {
+        assertThat(transposer.findUnrecognizedChordAttempts("[Fmjaj7]word[Gdimzz]"))
+                .containsExactly("[Fmjaj7]", "[Gdimzz]");
+    }
+
+    @Test
+    void findUnrecognizedChordAttempts_nullOrEmptyLine_returnsEmpty() {
+        assertThat(transposer.findUnrecognizedChordAttempts(null)).isEmpty();
+        assertThat(transposer.findUnrecognizedChordAttempts("")).isEmpty();
+    }
 }
