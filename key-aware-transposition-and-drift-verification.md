@@ -1,6 +1,6 @@
 # Design: Key-Aware ChordPro Transposition & Semantic Drift Verification
 
-> **Status:** Phase 2 complete (2026-08-30) · Phase 3 next · **Author:** Kino  (absorbing a spec drafted with
+> **Status:** Phase 3 complete (2026-08-30) · remaining work is deferred (§9) · **Author:** Kino  (absorbing a spec drafted with
 > another agent) · **Date:** 2026-08-29
 > **Scope:** A `transpose` command that key-spells correctly, plus a generic
 > `verify-sync` drift engine reused by the already-parked `consistent-song-data`
@@ -355,6 +355,30 @@ chordprotools consistent-song-data <songId>
    report shape as `verify-sync`.
 4. Detection/dry-run only in this phase — matches the original design doc's
    own phased recommendation (harden → detect → fix → annotations).
+
+### 8.1 Implementation notes (2026-08-30)
+
+- One deliberate, small deviation from the architecture diagram in §4:
+  `ConsistentSongDataService` depends on the `VerifySyncUseCase` **port**
+  rather than the concrete `SemanticDiffService` class. Same engine either
+  way (Spring wires whatever implements the port) — just a stricter
+  hexagonal-architecture choice, and it made the service trivially
+  testable by mocking the port directly instead of its transitive
+  dependencies.
+- `check(SongId)` accepts *any* variant's ID and always resolves + checks
+  the whole group — asking about `HollywoodNights-b` gives the identical
+  result as asking about the base `HollywoodNights`.
+- Guard-rails: throws if the group has zero catalog entries (bad/typo'd
+  song ID); returns an empty report list (not an error) if the group has
+  only one variant — nothing to compare isn't a failure.
+- Live-tested end-to-end against the real catalog, not just unit tests:
+  `HollywoodNights` (base + `-b`) reported clean; a song with no
+  key-variants (`RocketMan`) reported "nothing to check"; a bogus song ID
+  threw the expected error; a deliberately-corrupted temp copy of
+  `HollywoodNights-b.cho` was correctly caught (1 lyric issue, exit code 1)
+  and restored afterward, confirmed via `git status` that the real catalog
+  file was untouched.
+- 169/169 tests green, `./build` succeeds.
 
 ---
 

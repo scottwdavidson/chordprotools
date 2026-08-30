@@ -1,0 +1,9 @@
+#!/bin/zsh
+# Checks that every key-variant of a song shares the same lyrics and
+# harmonic content, once transposition/enharmonic differences are
+# accounted for. Detection only - no --fix in this phase.
+#
+# Usage:
+#   ./consistent-song-data ABC:B:BobSeger:HollywoodNights
+
+"${0:a:h}/cpt" consistent-song-data "$@"

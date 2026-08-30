@@ -21,7 +21,8 @@ FindSongIdCommand.class,
                 ListGigsCommand.class,
                 ConsistentMetadataCommand.class,
                 TransposeCommand.class,
-                VerifySyncCommand.class
+                VerifySyncCommand.class,
+                ConsistentSongDataCommand.class
         })
 @Slf4j
 public class ChordproToolsMainCommand implements Runnable {
