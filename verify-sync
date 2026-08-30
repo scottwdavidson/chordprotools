@@ -1,0 +1,8 @@
+#!/bin/zsh
+# Compares two .cho files for semantic drift (lyric or harmonic) that
+# survives pure transposition and enharmonic respelling.
+#
+# Usage:
+#   ./verify-sync cho/ABC/B/BobSeger/HollywoodNights.cho cho/ABC/B/BobSeger/HollywoodNights-b.cho
+
+"${0:a:h}/cpt" verify-sync "$@"

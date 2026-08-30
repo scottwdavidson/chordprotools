@@ -19,7 +19,10 @@ import picocli.CommandLine.Command;
                 GenerateRc500DeployScriptCommand.class,
 FindSongIdCommand.class,
                 ListGigsCommand.class,
-                ConsistentMetadataCommand.class
+                ConsistentMetadataCommand.class,
+                TransposeCommand.class,
+                VerifySyncCommand.class,
+                ConsistentSongDataCommand.class
         })
 @Slf4j
 public class ChordproToolsMainCommand implements Runnable {

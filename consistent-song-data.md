@@ -1,6 +1,21 @@
 # Design: `consistent-song-data`
 
-> **Status:** Draft for review · **Author:** Kino 🐶 · **Date:** 2026-06-02
+> **STATUS: SUPERSEDED (2026-08-30).** This early draft proposed a
+> "canonicalise-then-diff" approach (transpose one variant's body into the
+> other's key, then line-diff). The feature was ultimately built with a
+> different, simpler engine: **`key-aware-transposition-and-drift-verification.md`**
+> compares chord **roots as Roman-numeral scale degrees** relative to each
+> file's own key, rather than transposing whole bodies and diffing text. That
+> approach avoids re-deriving flat/sharp spelling choices during diffing and
+> reuses the same engine for both the generic `verify-sync <fileA> <fileB>`
+> command and the catalog-aware `consistent-song-data <songId>` wrapper this
+> doc originally proposed. **Both commands are shipped and in production.**
+> Kept here for historical context only — read the doc above for what
+> actually exists today; several ideas below (version-specific annotations,
+> `--fix` mode, tuning-mismatch refusal) are still open and tracked in that
+> doc's §9 (Explicitly deferred).
+
+> **Status:** Draft for review · **Author:** Kino · **Date:** 2026-06-02
 > **Scope:** Body/content consistency across key-variants — the chords and
 > lyrics, not just the catalog metadata.
 > **Sibling:** `consistent-metadata.md` (catalog-level check). Read that first.

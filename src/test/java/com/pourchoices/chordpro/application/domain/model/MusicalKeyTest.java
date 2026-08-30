@@ -64,4 +64,145 @@ class MusicalKeyTest {
         assertThatThrownBy(() -> MusicalKey.parse("nope"))
                 .isInstanceOf(IllegalArgumentException.class);
     }
+
+    @Test
+    void prefersFlats_flatMajorKeys() {
+        assertThat(MusicalKey.parse("F").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Bb").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Eb").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Ab").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Db").prefersFlats()).isTrue();
+    }
+
+    @Test
+    void prefersFlats_flatMinorKeys() {
+        assertThat(MusicalKey.parse("Dm").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Gm").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Cm").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Fm").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Bbm").prefersFlats()).isTrue();
+        assertThat(MusicalKey.parse("Ebm").prefersFlats()).isTrue();
+    }
+
+    @Test
+    void prefersFlats_sharpMajorKeys() {
+        assertThat(MusicalKey.parse("G").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("D").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("A").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("E").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("B").prefersFlats()).isFalse();
+    }
+
+    @Test
+    void prefersFlats_sharpMinorKeys() {
+        assertThat(MusicalKey.parse("Em").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("Bm").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("C#m").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("G#m").prefersFlats()).isFalse();
+    }
+
+    @Test
+    void prefersFlats_neutralKeysDefaultToSharp() {
+        assertThat(MusicalKey.parse("C").prefersFlats()).isFalse();
+        assertThat(MusicalKey.parse("Am").prefersFlats()).isFalse();
+    }
+
+    @Test
+    void prefersFlats_documentedTieBreaks() {
+        // F#/Gb major: both valid enharmonic spellings of the same key.
+        // Deliberately defaults to sharp (F#) - more common in this band's
+        // rock/pop repertoire. See MusicalKey.FLAT_MAJOR_POSITIONS javadoc.
+        assertThat(MusicalKey.parse("F#").prefersFlats()).isFalse();
+
+        // D#m/Ebm minor: both valid enharmonic spellings of the same key.
+        // Deliberately defaults to flat (Ebm) - D# minor is essentially
+        // never used in real charts. See FLAT_MINOR_POSITIONS javadoc.
+        assertThat(MusicalKey.parse("D#m").prefersFlats()).isTrue();
+    }
+
+    @Test
+    void noteName_sharpsAndFlats() {
+        assertThat(MusicalKey.noteName(6, false)).isEqualTo("F#");
+        assertThat(MusicalKey.noteName(6, true)).isEqualTo("Gb");
+        assertThat(MusicalKey.noteName(0, false)).isEqualTo("C");
+    }
+
+    @Test
+    void noteName_normalizesOutOfRangePositions() {
+        assertThat(MusicalKey.noteName(-1, false)).isEqualTo("B");
+        assertThat(MusicalKey.noteName(12, false)).isEqualTo("C");
+    }
+
+    @Test
+    void canonicalName_majorAndMinor() {
+        assertThat(MusicalKey.parse("C").canonicalName()).isEqualTo("C");
+        assertThat(MusicalKey.parse("Am").canonicalName()).isEqualTo("Am");
+    }
+
+    @Test
+    void canonicalName_usesKeyDrivenSpelling() {
+        // Bb major prefers flats - a key that's chromatically Bb should
+        // always render as "Bb", never "A#", regardless of input spelling.
+        assertThat(MusicalKey.parse("A#").canonicalName()).isEqualTo("Bb");
+        // D major prefers sharps - chromatically F# should render as "F#".
+        assertThat(MusicalKey.parse("Gb").canonicalName()).isEqualTo("F#");
+    }
+
+    @Test
+    void transposeBy_preservesQuality() {
+        assertThat(MusicalKey.parse("C").transposeBy(2)).isEqualTo(MusicalKey.parse("D"));
+        assertThat(MusicalKey.parse("Am").transposeBy(2)).isEqualTo(MusicalKey.parse("Bm"));
+    }
+
+    @Test
+    void transposeBy_wrapsAroundNegativeAndOverflow() {
+        assertThat(MusicalKey.parse("C").transposeBy(-1)).isEqualTo(MusicalKey.parse("B"));
+        assertThat(MusicalKey.parse("B").transposeBy(1)).isEqualTo(MusicalKey.parse("C"));
+        assertThat(MusicalKey.parse("C").transposeBy(13)).isEqualTo(MusicalKey.parse("C#"));
+    }
+
+    @Test
+    void transposeBy_zeroReturnsSameKey() {
+        assertThat(MusicalKey.parse("F#m").transposeBy(0)).isEqualTo(MusicalKey.parse("F#m"));
+    }
+
+    // --- romanNumeralDegree (Phase 2 harmonic drift check) ---
+
+    @Test
+    void romanNumeralDegree_majorDiatonicDegrees() {
+        MusicalKey c = MusicalKey.parse("C");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("C").getChromaticPosition())).isEqualTo("I");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("D").getChromaticPosition())).isEqualTo("ii");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("G").getChromaticPosition())).isEqualTo("V");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("B").getChromaticPosition())).isEqualTo("vii\u00b0");
+    }
+
+    @Test
+    void romanNumeralDegree_minorDiatonicDegrees() {
+        MusicalKey am = MusicalKey.parse("Am");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("A").getChromaticPosition())).isEqualTo("i");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("C").getChromaticPosition())).isEqualTo("III");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("E").getChromaticPosition())).isEqualTo("v");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("F").getChromaticPosition())).isEqualTo("VI");
+    }
+
+    @Test
+    void romanNumeralDegree_isIndependentOfEnharmonicSpelling() {
+        // A# and Bb are the same chromatic position - must produce the same degree.
+        MusicalKey c = MusicalKey.parse("C");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("A#").getChromaticPosition()))
+                .isEqualTo(c.romanNumeralDegree(MusicalKey.parse("Bb").getChromaticPosition()));
+    }
+
+    @Test
+    void romanNumeralDegree_transpositionInvariant() {
+        // The whole point: transposing both the key and the chord by the same
+        // amount must never change the resulting degree.
+        MusicalKey keyC = MusicalKey.parse("C");
+        MusicalKey keyD = keyC.transposeBy(2);
+        int chordRootInC = MusicalKey.parse("G").getChromaticPosition();
+        int chordRootInD = MusicalKey.parse("A").getChromaticPosition();
+        assertThat(keyC.romanNumeralDegree(chordRootInC))
+                .isEqualTo(keyD.romanNumeralDegree(chordRootInD));
+    }
 }
