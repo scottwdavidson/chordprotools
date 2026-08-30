@@ -29,6 +29,9 @@ change freely gig to gig without touching song metadata.
    - [import-song](#import-song)
    - [verify-catalog](#verify-catalog)
    - [consistent-metadata](#consistent-metadata)
+   - [transpose](#transpose)
+   - [verify-sync](#verify-sync)
+   - [consistent-song-data](#consistent-song-data)
    - [update-song / update-songs](#update-song--update-songs)
    - [assign-backing-track-slots](#assign-backing-track-slots)
    - [copy-gig](#copy-gig)
@@ -334,6 +337,9 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./import-song` | `import-song` | Register a new `.cho` file in `song-catalog.csv` (SONG ID derived from file path) |
 | `./verify-catalog` | `verify-catalog` | Check every `song-catalog.csv` entry against its `.cho` file; report MISSING FILE or DRIFT |
 | `./consistent-metadata` | `consistent-metadata` | Check key-variants of a song share consistent metadata (all but key); `--fix` to repair drift |
+| `./transpose` | `transpose` | Transpose a `.cho` file to a new key — rewrites `{key:}` and every chord, correct accidental spelling; never overwrites the input |
+| `./verify-sync` | `verify-sync` | Compare any two `.cho` files for semantic drift (lyrics/chords) that survives pure transposition |
+| `./consistent-song-data` | `consistent-song-data` | Check that a song's key-variants share the same lyrics and harmonic content, not just metadata |
 | `./update-song` | `update-song` | Push catalog metadata into a song (by song ID) and all its key-variants |
 | `./update-songs` | `update-songs` | Push catalog metadata into a batch of songs (by song ID) |
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Assign RC-500 slot numbers for the gig; writes to `gigs.csv` + patches `.cho` files; regenerates `setlist.csv` |
@@ -557,6 +563,133 @@ Recommended workflow:
 > If you've edited the catalog in a spreadsheet, run `./tidy-song-catalog`
 > first. After `--fix`, run `./update-song` (not the other way round) so the
 > `.cho` files receive the corrected catalog values.
+
+---
+
+### `transpose`
+
+**Script:** `./transpose <input.cho> --offset <semitones> --output <path>`
+
+Transposes a ChordPro file to a new key: rewrites the `{key:}` directive and
+every recognized chord (including slash-chord bass notes), spelling
+accidentals correctly for the target key. `--output` is **mandatory** — this
+command never overwrites the input file, even if you try (it hard-errors if
+`--output` resolves to the same path as the input).
+
+```zsh
+./transpose cho/ABC/B/BobSeger/HollywoodNights.cho --offset 5 --output /tmp/HollywoodNights-a.cho
+# → Transposed cho/ABC/B/BobSeger/HollywoodNights.cho: E -> A (+5 semitones) -> /tmp/HollywoodNights-a.cho
+```
+
+Offset can be negative to transpose down:
+
+```zsh
+./transpose cho/ABC/B/BobSeger/HollywoodNights.cho --offset -2 --output /tmp/HollywoodNights-d.cho
+```
+
+**What it handles:**
+- Root notes and slash-chord bass notes (`[A/E]` up 2 semitones → `[B/F#]`)
+- Correct sharp/flat spelling based on the *target* key (transposing into
+  Bb major produces `Eb`, not `D#`)
+- Non-chord brackets — section labels (`[Bridge]`, `[Chorus]`), riff notation
+  (`[E F# G A]`), and fret-position hints (`[C (17th - 3-6)]`) all pass
+  through untouched
+
+**Regression guardrail:** if a bracket looks like it was *meant* to be a
+chord (starts with a note letter) but doesn't parse as one, `transpose`
+prints a warning instead of silently leaving it — this is how typos and bad
+copy-pastes get caught instead of lurking in the catalog forever:
+
+```zsh
+./transpose cho/some/bad/Song.cho --offset 2 --output /tmp/out.cho
+# → WARNING: body line 6 looks like a chord but wasn't recognized (left untransposed): [Gmjaj7]
+```
+
+(Warnings print to stderr, the transpose confirmation to stdout — pipe/redirect
+either independently.)
+
+> **Known limitation:** chords with a literal `/` inside the extension
+> itself (not a bass note), like `[C6/9]`, aren't recognized as a single
+> chord and are left untouched — a deliberate tradeoff to avoid false
+> positives elsewhere.
+
+---
+
+### `verify-sync`
+
+**Script:** `./verify-sync <fileA.cho> <fileB.cho>`
+
+Compares any two `.cho` files for **semantic drift** — differences in lyrics
+or harmony that survive a pure transposition. Catalog-agnostic: takes two raw
+file paths, no SONG ID lookup needed, so it works on any two files (a real
+reason this exists: catching the day someone edits one key-variant of a song
+and forgets the other).
+
+Two independent checks:
+- **Lyric drift** — strips out chords/directives, normalizes whitespace,
+  compares the remaining text line-by-line.
+- **Harmonic drift** — converts every chord's root to a Roman-numeral scale
+  degree relative to *that file's own* key, and compares the degree
+  sequences. This is what makes a pure transposition (same song, different
+  key) or an enharmonic respelling (`A#` vs `Bb`) never a false positive —
+  only a genuine chord *substitution* is flagged.
+
+```zsh
+./verify-sync cho/ABC/B/BobSeger/HollywoodNights.cho cho/ABC/B/BobSeger/HollywoodNights-b.cho
+
+# → verify-sync: cho/ABC/B/BobSeger/HollywoodNights.cho  vs  cho/ABC/B/BobSeger/HollywoodNights-b.cho
+# → No drift detected.
+```
+
+When something's actually wrong:
+
+```zsh
+./verify-sync cho/ABC/B/BobSeger/HollywoodNights.cho /tmp/HollywoodNights-broken.cho
+
+# → verify-sync: cho/ABC/B/BobSeger/HollywoodNights.cho  vs  /tmp/HollywoodNights-broken.cho
+# → [LYRIC] line 11: File A: "She stood there bright as the sun on that California coast."  |  File B: "She stood there bright as the sun on that Californian coast."
+# → [HARMONIC] line 11: File A has IV (A), File B has bVII (D)
+# → verify-sync: 2 issue(s) found.
+```
+
+`verify-sync` exits with the number of findings (0 = clean, CI-friendly).
+
+> **Known v1 simplification:** the harmonic check compares scale-degree
+> only, not the full chord extension — two chords with the same root and a
+> different extension on the same degree (e.g. `Cmaj7` vs `C7`) won't be
+> flagged by this check alone.
+
+---
+
+### `consistent-song-data`
+
+**Script:** `./consistent-song-data <song-id>`
+
+The catalog-aware sibling of `verify-sync` — and the *content* counterpart to
+`consistent-metadata` (which only checks catalog fields, never chords or
+lyrics). Resolves every key-variant of a song from `song-catalog.csv`, picks
+the base (standard-key) variant as the reference, and runs `verify-sync`'s
+engine against each other variant. Works from *any* variant's SONG ID —
+asking about `HollywoodNights-b` checks the same group as asking about the
+base `HollywoodNights`.
+
+```zsh
+./consistent-song-data ABC:B:BobSeger:HollywoodNights
+# → --- ./cho/ABC/B/BobSeger/HollywoodNights.cho  vs  ./cho/ABC/B/BobSeger/HollywoodNights-b.cho ---
+# → No drift detected.
+# → consistent-song-data: 1 variant(s) checked, 0 issue(s) total.
+```
+
+A song with no key-variants reports cleanly (nothing to check, not an error):
+
+```zsh
+./consistent-song-data DEF:E:EltonJohn:RocketMan
+# → No key-variants to compare - nothing to check. 
+```
+
+Exits with the total number of findings across every variant. **Detection
+only** in this phase — no `--fix` yet (mutating `.cho` files needs more care
+than a metadata copy; see the design doc for why it's deferred).
 
 ---
 
@@ -968,6 +1101,9 @@ chordprotools/
 ├── import-song                  # Register a new .cho file in the catalog
 ├── verify-catalog               # Check catalog ↔ .cho file consistency
 ├── consistent-metadata          # Check key-variants share consistent metadata (--fix to repair)
+├── transpose                    # Transpose a .cho file to a new key (rewrites {key:} + chords, never overwrites input)
+├── verify-sync                  # Compare any two .cho files for semantic (lyric/harmonic) drift
+├── consistent-song-data         # Check key-variants of a song share the same lyrics/harmony, not just metadata
 ├── update-song                  # Push one song's catalog metadata (by song ID) to its .cho file(s)
 ├── update-songs                 # Push a batch of songs (by song ID) from updateSongsListing.txt
 ├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; writes to gigs.csv + patches .cho files + regenerates setlist.csv

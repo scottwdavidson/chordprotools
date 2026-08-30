@@ -39,6 +39,16 @@ To prevent OnSong from misinterpreting text or forcing an accidental default key
 - Use periods . inside the measure to represent beats where a chord is held or silent.
 - Place chords in brackets [X] exactly on the beat they occur.
 
+### Square Brackets Are Reserved For Chords Only
+`[...]` must contain a chord (or a section/riff/fret-hint token the tooling
+already recognizes as non-chord content — see below). Never use square
+brackets for lyric asides, technique notes, or one-off annotations — use
+parentheses instead, e.g. `(Capo: no capo)`, `(drop 6th on the turnaround)`.
+This matters beyond style: `./transpose` treats anything in brackets that
+*looks* like it was meant to be a chord (starts with a note letter A-G) as
+a warning candidate if it doesn't parse as a valid chord, so stray brackets
+around plain words can get mistaken for typos during a future transpose.
+
 ### Examples:
 - One chord held for the full measure (4/4 time): . | [Am] . . . |
 - Two measures: Chord A plays for 3 beats, Chord D on beat 4, Chord E holds the next measure: . | [A] . . [D] | [E] . . . |
