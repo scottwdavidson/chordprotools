@@ -165,4 +165,44 @@ class MusicalKeyTest {
     void transposeBy_zeroReturnsSameKey() {
         assertThat(MusicalKey.parse("F#m").transposeBy(0)).isEqualTo(MusicalKey.parse("F#m"));
     }
+
+    // --- romanNumeralDegree (Phase 2 harmonic drift check) ---
+
+    @Test
+    void romanNumeralDegree_majorDiatonicDegrees() {
+        MusicalKey c = MusicalKey.parse("C");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("C").getChromaticPosition())).isEqualTo("I");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("D").getChromaticPosition())).isEqualTo("ii");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("G").getChromaticPosition())).isEqualTo("V");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("B").getChromaticPosition())).isEqualTo("vii\u00b0");
+    }
+
+    @Test
+    void romanNumeralDegree_minorDiatonicDegrees() {
+        MusicalKey am = MusicalKey.parse("Am");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("A").getChromaticPosition())).isEqualTo("i");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("C").getChromaticPosition())).isEqualTo("III");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("E").getChromaticPosition())).isEqualTo("v");
+        assertThat(am.romanNumeralDegree(MusicalKey.parse("F").getChromaticPosition())).isEqualTo("VI");
+    }
+
+    @Test
+    void romanNumeralDegree_isIndependentOfEnharmonicSpelling() {
+        // A# and Bb are the same chromatic position - must produce the same degree.
+        MusicalKey c = MusicalKey.parse("C");
+        assertThat(c.romanNumeralDegree(MusicalKey.parse("A#").getChromaticPosition()))
+                .isEqualTo(c.romanNumeralDegree(MusicalKey.parse("Bb").getChromaticPosition()));
+    }
+
+    @Test
+    void romanNumeralDegree_transpositionInvariant() {
+        // The whole point: transposing both the key and the chord by the same
+        // amount must never change the resulting degree.
+        MusicalKey keyC = MusicalKey.parse("C");
+        MusicalKey keyD = keyC.transposeBy(2);
+        int chordRootInC = MusicalKey.parse("G").getChromaticPosition();
+        int chordRootInD = MusicalKey.parse("A").getChromaticPosition();
+        assertThat(keyC.romanNumeralDegree(chordRootInC))
+                .isEqualTo(keyD.romanNumeralDegree(chordRootInD));
+    }
 }

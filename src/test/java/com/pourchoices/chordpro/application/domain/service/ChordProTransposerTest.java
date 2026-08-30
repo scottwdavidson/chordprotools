@@ -181,4 +181,34 @@ class ChordProTransposerTest {
         assertThat(transposer.findUnrecognizedChordAttempts(null)).isEmpty();
         assertThat(transposer.findUnrecognizedChordAttempts("")).isEmpty();
     }
+
+    // --- extractChordRoots (Phase 2 harmonic drift check) ---
+
+    @Test
+    void extractChordRoots_returnsRootsInOrder() {
+        assertThat(transposer.extractChordRoots("[C]Hello [Am]world [F]this [G]is a test"))
+                .containsExactly("C", "A", "F", "G");
+    }
+
+    @Test
+    void extractChordRoots_ignoresNonChordBrackets() {
+        assertThat(transposer.extractChordRoots("[C][Bridge][Am][E F# G A]"))
+                .containsExactly("C", "A");
+    }
+
+    @Test
+    void extractChordRoots_slashChordReturnsRootOnly() {
+        assertThat(transposer.extractChordRoots("[A/E]riff")).containsExactly("A");
+    }
+
+    @Test
+    void extractChordRoots_nullOrEmptyLine_returnsEmpty() {
+        assertThat(transposer.extractChordRoots(null)).isEmpty();
+        assertThat(transposer.extractChordRoots("")).isEmpty();
+    }
+
+    @Test
+    void extractChordRoots_noChords_returnsEmpty() {
+        assertThat(transposer.extractChordRoots("just plain lyrics, no chords here")).isEmpty();
+    }
 }

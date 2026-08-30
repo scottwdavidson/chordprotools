@@ -173,4 +173,39 @@ public class MusicalKey {
     public MusicalKey transposeBy(int halfSteps) {
         return new MusicalKey(Math.floorMod(chromaticPosition + halfSteps, 12), minor);
     }
+
+    /**
+     * Roman-numeral scale-degree names, indexed by chromatic interval (0-11)
+     * from this key's tonic. The 7 diatonic degrees use the exact
+     * upper/lower-case + ° convention from the design spec (major: I, ii,
+     * iii, IV, V, vi, vii°; natural minor: i, ii°, III, iv, v, VI, VII). The
+     * other 5 chromatic positions per mode are a deliberate, documented
+     * convention chosen for <b>internally consistent comparison</b> (used by
+     * {@code SemanticDiffService} to detect harmonic drift) rather than a
+     * claim of being the one true music-theory label: major spells
+     * chromatic notes as "flat of the degree above" (bII, bIII, bV, bVI,
+     * bVII — all standard borrowed-chord names in rock/pop), while minor
+     * spells them as "sharp of the degree below" (matching how melodic/
+     * harmonic minor actually raise the 6th and 7th degrees; position 11 as
+     * "vii°" is the harmonic-minor leading-tone diminished chord, a real and
+     * common minor-key chord, not an arbitrary chromatic guess).
+     */
+    private static final String[] MAJOR_ROMAN_NUMERALS = {
+            "I", "bII", "ii", "bIII", "iii", "IV", "bV", "V", "bVI", "vi", "bVII", "vii\u00b0"
+    };
+
+    private static final String[] MINOR_ROMAN_NUMERALS = {
+            "i", "bII", "ii\u00b0", "III", "#III", "iv", "#iv", "v", "VI", "#VI", "VII", "vii\u00b0"
+    };
+
+    /**
+     * The Roman-numeral scale-degree name for a chromatic pitch relative to
+     * this key, e.g. {@code C.romanNumeralDegree(7)} (G, the 5th) → {@code
+     * "V"}. See {@link #MAJOR_ROMAN_NUMERALS} / {@link #MINOR_ROMAN_NUMERALS}
+     * for the chromatic-position naming convention.
+     */
+    public String romanNumeralDegree(int chordRootChromaticPosition) {
+        int interval = Math.floorMod(chordRootChromaticPosition - chromaticPosition, 12);
+        return (minor ? MINOR_ROMAN_NUMERALS : MAJOR_ROMAN_NUMERALS)[interval];
+    }
 }

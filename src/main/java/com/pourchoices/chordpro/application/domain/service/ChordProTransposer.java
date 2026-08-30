@@ -230,6 +230,28 @@ public class ChordProTransposer {
     }
 
     /**
+     * Extracts the root note of every recognized chord in a line, in order,
+     * ignoring brackets that don't parse as a chord (section labels, riffs,
+     * fret-hints, typos). Used by {@link SemanticDiffService} to compare
+     * harmonic content between two files without duplicating the chord
+     * grammar a second time.
+     */
+    public List<String> extractChordRoots(String line) {
+        List<String> roots = new ArrayList<>();
+        if (line == null || line.isEmpty()) {
+            return roots;
+        }
+
+        Matcher matcher = CHORD_PATTERN.matcher(line);
+        while (matcher.find()) {
+            if (isValidQuality(matcher.group(2))) {
+                roots.add(matcher.group(1));
+            }
+        }
+        return roots;
+    }
+
+    /**
      * Transposes a single note (root or bass) by the specified number of
      * half steps. Returns the original text unchanged if it can't be parsed
      * as a note.

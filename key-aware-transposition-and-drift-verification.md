@@ -1,6 +1,6 @@
 # Design: Key-Aware ChordPro Transposition & Semantic Drift Verification
 
-> **Status:** Phase 1 complete (2026-08-30) · Phase 2 next · **Author:** Kino  (absorbing a spec drafted with
+> **Status:** Phase 2 complete (2026-08-30) · Phase 3 next · **Author:** Kino  (absorbing a spec drafted with
 > another agent) · **Date:** 2026-08-29
 > **Scope:** A `transpose` command that key-spells correctly, plus a generic
 > `verify-sync` drift engine reused by the already-parked `consistent-song-data`
@@ -312,6 +312,29 @@ number of findings (0 = clean, CI-friendly).
 - Genuine chord substitution → harmonic drift finding, correct line/degrees.
 - Enharmonic spelling difference only (`A#` vs `Bb`) → **clean**, not a false
   drift.
+
+### 7.5 Implementation notes (2026-08-30)
+
+- `MusicalKey` gained `romanNumeralDegree(int)`. The 7 diatonic degrees
+  match the spec's exact case/° convention. The 5 remaining chromatic
+  positions per mode are a deliberate, documented convention chosen for
+  **internally consistent comparison** rather than a claim of being the
+  one true music-theory label: major spells chromatics as "flat of the
+  degree above" (bII, bIII, bV, bVI, bVII — all standard rock/pop
+  borrowed-chord names), minor spells them as "sharp of the degree below"
+  (matching how melodic/harmonic minor actually raise the 6th/7th; position
+  11 as `vii°` is the real harmonic-minor leading-tone diminished chord,
+  not an arbitrary guess).
+- `ChordProTransposer` gained `extractChordRoots(String)`, reusing the same
+  `CHORD_PATTERN`/`isValidQuality` as `transpose` — no second chord grammar
+  to keep in sync.
+- Live-tested end-to-end, not just unit tests: `verify-sync` against the
+  real `HollywoodNights.cho` / `HollywoodNights-b.cho` key-variant pair
+  reported clean; against `transpose`'s own output (offset +3) reported
+  clean; against a deliberately-corrupted copy (one lyric typo, one chord
+  substitution `[A/E]`→`[D/A]`) correctly reported both a `LYRIC_DESYNC`
+  and a `HARMONIC_DRIFT` finding (`IV (A)` vs `bVII (D)`), exit code 2.
+- 162/162 tests green, `./build` succeeds.
 
 ---
 

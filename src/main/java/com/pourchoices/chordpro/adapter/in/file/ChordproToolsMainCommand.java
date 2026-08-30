@@ -20,7 +20,8 @@ import picocli.CommandLine.Command;
 FindSongIdCommand.class,
                 ListGigsCommand.class,
                 ConsistentMetadataCommand.class,
-                TransposeCommand.class
+                TransposeCommand.class,
+                VerifySyncCommand.class
         })
 @Slf4j
 public class ChordproToolsMainCommand implements Runnable {
