@@ -1,5 +1,7 @@
 package com.pourchoices.chordpro.application.port.in;
 
+import com.pourchoices.chordpro.application.domain.model.TransposeResult;
+
 public interface TransposeUseCase {
 
     /**
@@ -10,6 +12,9 @@ public interface TransposeUseCase {
      * @param offsetSemitones semitones to transpose (positive = up, negative = down)
      * @param outputPath      path to write the transposed file; must differ
      *                        from {@code inputPath} — the input is never overwritten
+     * @return a structured summary of what was transposed and to where; the
+     *         caller (CLI adapter, or an orchestrating service) decides how,
+     *         or whether, to present it
      */
-    void transpose(String inputPath, int offsetSemitones, String outputPath);
+    TransposeResult transpose(String inputPath, int offsetSemitones, String outputPath);
 }

@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.ImportResult;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
 import com.pourchoices.chordpro.application.port.in.ImportNewSongUseCase;
 import com.pourchoices.chordpro.application.port.out.CatalogPort;
@@ -32,9 +33,11 @@ import java.util.Map;
  *   <li>The derived SONG ID must not already be present in the catalog.</li>
  * </ul>
  *
- * <p>When {@code dryRun = true} the service prints exactly what would be
- * appended and exits without writing anything — useful for verifying the
- * file path convention and checking how metadata parsed before committing.
+ * <p>When {@code dryRun = true} the service computes and returns exactly
+ * what would be appended without writing anything — the caller (CLI
+ * adapter, or a future orchestrating service) decides how to present that
+ * preview. This service never prints; see the hexagonal boundary notes in
+ * {@code command-reference.md}.
  */
 @Service
 @AllArgsConstructor(onConstructor_ = @__(@Autowired))
@@ -48,16 +51,16 @@ public class ImportNewSongService implements ImportNewSongUseCase {
     private final ChordproCatalogIndexPathConfig catalogConfig;
 
     @Override
-    public void importNewSong(String chordproSongPathString, boolean dryRun) {
+    public ImportResult importNewSong(String chordproSongPathString, boolean dryRun) {
 
-        // ── 1. Validate the file exists ──────────────────────────────────────
+        // 1. Validate the file exists.
         Path songPath = Paths.get(chordproSongPathString);
         if (!Files.exists(songPath)) {
             throw new IllegalArgumentException(
                     "File not found: " + songPath.toAbsolutePath());
         }
 
-        // ── 2. Parse the .cho file ───────────────────────────────────────────
+        // 2. Parse the .cho file.
         List<String> lines = chordProPort.read(songPath);
         ParsedSong parsedSong = songParser.parse(chordproSongPathString, lines);
         CatalogEntry newEntry = parsedHeaderMapper.toCatalogEntry(
@@ -72,7 +75,7 @@ public class ImportNewSongService implements ImportNewSongUseCase {
         String songIdStr = newEntry.getSongId().toString();
         log.info("Derived SONG ID: {}", songIdStr);
 
-        // ── 3. Load catalog and guard against duplicates ─────────────────────
+        // 3. Load catalog and guard against duplicates.
         Path catalogPath = Paths.get(catalogConfig.getCatalogIndexPath());
         Map<String, CatalogEntry> existing = catalogPort.readCatalogFromCsv(catalogPath);
 
@@ -82,43 +85,28 @@ public class ImportNewSongService implements ImportNewSongUseCase {
                     + "Use update-song to modify existing songs.");
         }
 
-        // ── 4. Dry-run: print and stop ───────────────────────────────────────
+        // 4. Dry-run: return a preview, write nothing.
         if (dryRun) {
-            System.out.println();
-            System.out.println("DRY RUN — nothing written to song-catalog.csv");
-            System.out.println();
-            System.out.printf("  SONG ID   : %s%n", songIdStr);
-            System.out.printf("  TITLE     : %s%n", newEntry.getTitle());
-            System.out.printf("  ARTIST    : %s%n", newEntry.getArtist());
-            System.out.printf("  KEY       : %s%n", newEntry.getKey());
-            System.out.printf("  DURATION  : %s%n", newEntry.getDuration());
-            System.out.printf("  TEMPO     : %s%n", nvl(newEntry.getTempo()));
-            System.out.printf("  COUNTIN   : %s%n", nvl(newEntry.getCountin()));
-            System.out.printf("  BACKING   : %s%n",
-                    newEntry.getBackingType() != null ? newEntry.getBackingType().name() : "");
-            System.out.printf("  RC SLOT   : (assigned per gig via assign-backing-track-slots)%n");
-            System.out.printf("  NORD      : %s%n", nvl(newEntry.getNord()));
-            System.out.printf("  ROLAND    : %s%n", nvl(newEntry.getRoland()));
-            System.out.printf("  VE        : %s%n", nvl(newEntry.getVe()));
-            System.out.printf("  PERF KEY  : %s%n", nvl(newEntry.getPerformanceKey()));
-            System.out.printf("  SONG LABEL: %s%n", nvl(newEntry.getSongLabel()));
-            System.out.println();
-            return;
+            return ImportResult.builder()
+                    .catalogEntry(newEntry)
+                    .dryRun(true)
+                    .catalogSizeAfter(existing.size())
+                    .build();
         }
 
-        // ── 5. Append, sort, write ───────────────────────────────────────────
+        // 5. Append, sort, write.
         List<CatalogEntry> updated = new ArrayList<>(existing.values());
         updated.add(newEntry);
         updated.sort(Comparator.comparing(e -> e.getSongId().toString()));
 
         catalogPort.writeCatalogToCsv(catalogPath, updated);
 
-        System.out.printf("Imported '%s' (%s) as SONG ID: %s%n",
-                newEntry.getTitle(), newEntry.getArtist(), songIdStr);
         log.info("song-catalog.csv updated — {} entries total", updated.size());
-    }
 
-    private static String nvl(String value) {
-        return value != null ? value : "";
+        return ImportResult.builder()
+                .catalogEntry(newEntry)
+                .dryRun(false)
+                .catalogSizeAfter(updated.size())
+                .build();
     }
 }

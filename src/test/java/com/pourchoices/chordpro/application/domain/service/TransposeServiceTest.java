@@ -2,6 +2,7 @@ package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.HeaderDirective;
 import com.pourchoices.chordpro.application.domain.model.ParsedSong;
+import com.pourchoices.chordpro.application.domain.model.TransposeResult;
 import com.pourchoices.chordpro.application.port.out.ChordProPort;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -65,6 +66,36 @@ class TransposeServiceTest {
         service.transpose(inputFile.toString(), 2, outputFile.toString());
 
         assertThat(keyValue(captureWrittenSong())).isEqualTo("A");
+    }
+
+    @Test
+    void transpose_returnsStructuredResult() {
+        when(chordProPort.read(inputFile)).thenReturn(SIMPLE_SONG);
+
+        TransposeResult result = service.transpose(inputFile.toString(), 2, outputFile.toString());
+
+        assertThat(result.getInputPath()).isEqualTo(inputFile.toString());
+        assertThat(result.getOutputPath()).isEqualTo(outputFile.toString());
+        assertThat(result.getSourceKeyRaw()).isEqualTo("G");
+        assertThat(result.targetKeyName()).isEqualTo("A");
+        assertThat(result.getOffsetSemitones()).isEqualTo(2);
+        assertThat(result.getWarnings()).isEmpty();
+    }
+
+    @Test
+    void transpose_collectsWarningsInsteadOfPrinting_forUnrecognizedChordAttempts() {
+        when(chordProPort.read(inputFile)).thenReturn(List.of(
+                "{title: Test Song}",
+                "{artist: Test Artist}",
+                "{key: G}",
+                "",
+                "[Fmjaj7]bad chord attempt"
+        ));
+
+        TransposeResult result = service.transpose(inputFile.toString(), 2, outputFile.toString());
+
+        assertThat(result.getWarnings()).hasSize(1);
+        assertThat(result.getWarnings().get(0)).contains("Fmjaj7");
     }
 
     @Test

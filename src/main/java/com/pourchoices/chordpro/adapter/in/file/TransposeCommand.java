@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
+import com.pourchoices.chordpro.application.domain.model.TransposeResult;
 import com.pourchoices.chordpro.application.port.in.TransposeUseCase;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -14,6 +15,10 @@ import picocli.CommandLine.Parameters;
  * {@code {key:}} directive and every chord in the body with correct
  * accidental spelling for the target key. {@code --output} is mandatory —
  * this command never overwrites the input file.
+ *
+ * <p>All presentation lives here, not in {@link com.pourchoices.chordpro.application.domain.service.TransposeService} —
+ * the service returns a structured {@link TransposeResult} and this adapter
+ * decides what to print.
  *
  * <pre>
  *   ./transpose cho/ABC/B/BobSeger/HollywoodNights.cho --offset 5 --output /tmp/HollywoodNights-b.cho
@@ -48,6 +53,17 @@ public class TransposeCommand implements Runnable {
     @Override
     public void run() {
         log.info("transpose: {} --offset {} --output {}", inputPath, offset, outputPath);
-        transposeUseCase.transpose(inputPath, offset, outputPath);
+        TransposeResult result = transposeUseCase.transpose(inputPath, offset, outputPath);
+        print(result);
+    }
+
+    private void print(TransposeResult result) {
+        for (String warning : result.getWarnings()) {
+            System.err.printf("WARNING: %s%n", warning);
+        }
+        int offsetSemitones = result.getOffsetSemitones();
+        System.out.printf("Transposed %s: %s -> %s (%+d semitone%s) -> %s%n",
+                result.getInputPath(), result.getSourceKeyRaw(), result.targetKeyName(),
+                offsetSemitones, Math.abs(offsetSemitones) == 1 ? "" : "s", result.getOutputPath());
     }
 }
