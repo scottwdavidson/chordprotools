@@ -41,4 +41,17 @@ public class SetlistAssignmentsFileReader {
         log.info("Read {} setlist assignment(s)", assignments.size());
         return assignments;
     }
+
+    /**
+     * Reads the file as raw text lines with no CSV validation. Returns an
+     * empty list if the file doesn't exist, matching the "empty or not
+     * found" case {@code tidy-gigs} treats as a no-op.
+     */
+    @SneakyThrows
+    public List<String> readRawLines(Path path) {
+        if (!Files.exists(path)) {
+            return List.of();
+        }
+        return Files.readAllLines(path);
+    }
 }

@@ -38,4 +38,14 @@ public class SetlistAssignmentsAdapter implements SetlistAssignmentsPort {
     public void writeAssignments(Path path, List<SetlistAssignment> assignments) {
         writer.writeAssignments(path, mapper.toDtoList(assignments));
     }
+
+    @Override
+    public List<String> readRawLines(Path path) {
+        return reader.readRawLines(path);
+    }
+
+    @Override
+    public void writeRawLines(Path path, List<String> lines) {
+        writer.writeRawLines(path, lines);
+    }
 }

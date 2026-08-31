@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.FileWriter;
 import java.io.Writer;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
@@ -43,5 +44,12 @@ public class SetlistAssignmentsFileWriter {
 
         beanToCsv.write(dtos);
         writer.close();
+    }
+
+    /** Writes raw text lines back verbatim - the repair counterpart to {@code readRawLines}. */
+    @SneakyThrows
+    public void writeRawLines(Path path, List<String> lines) {
+        log.info("Writing {} raw line(s) to {}", lines.size(), path);
+        Files.write(path, lines);
     }
 }

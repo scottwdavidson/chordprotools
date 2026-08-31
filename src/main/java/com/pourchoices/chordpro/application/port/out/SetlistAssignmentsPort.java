@@ -16,4 +16,15 @@ public interface SetlistAssignmentsPort {
     List<SetlistAssignment> readAssignments(Path path);
 
     void writeAssignments(Path path, List<SetlistAssignment> assignments);
+
+    /**
+     * Reads {@code gigs.csv} as raw text lines, with no CSV field-count
+     * validation - used by {@code tidy-gigs} to detect and repair a
+     * malformed file before attempting the strict {@link #readAssignments}
+     * parse. Returns an empty list if the file doesn't exist.
+     */
+    List<String> readRawLines(Path path);
+
+    /** Writes raw text lines back verbatim - the repair counterpart to {@link #readRawLines}. */
+    void writeRawLines(Path path, List<String> lines);
 }
