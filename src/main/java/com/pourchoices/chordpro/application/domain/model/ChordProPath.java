@@ -1,5 +1,7 @@
 package com.pourchoices.chordpro.application.domain.model;
 
+import java.util.regex.Pattern;
+
 /**
  * Converts between a {@link SongId} and the full ChordPro file-system path.
  *
@@ -17,6 +19,9 @@ public final class ChordProPath {
 
     private static final String BASE_PATH = "./cho/";
     private static final String EXTENSION  = ".cho";
+
+    /** Matches an optional "./" followed by a literal "cho/" at the very start of the string. */
+    private static final Pattern CHO_RELATIVE_PREFIX = Pattern.compile("^(\\./)?cho/");
 
     private ChordProPath() {}
 
@@ -41,6 +46,12 @@ public final class ChordProPath {
      * @throws IllegalArgumentException if the resulting song-ID string is invalid
      */
     public static SongId toSongId(String filePath) {
+        if (!CHO_RELATIVE_PREFIX.matcher(filePath).find()) {
+            throw new IllegalArgumentException(
+                    "Expected a path starting with \"cho/\" (relative to the project root), "
+                    + "but got: \"" + filePath + "\". Absolute paths, or paths outside the "
+                    + "cho/ tree, can't be converted to a SONG ID.");
+        }
         String songIdString = filePath
                 .replaceFirst("^(\\./)?(cho/)", "")
                 .replaceAll("\\.cho$", "")

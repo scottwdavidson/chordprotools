@@ -143,6 +143,31 @@ public class SongId {
         return !hasKeyAlternative();
     }
 
+    /**
+     * Returns a new {@link SongId} for the same song group (same cluster,
+     * artist, and title) but with a different key-alternative suffix —
+     * exactly the derivation a key-variant file needs from its source.
+     *
+     * <p><b>Not re-validated here:</b> the caller is responsible for
+     * supplying a suffix that already matches the {@code -[a-g][#b]?m?}
+     * convention (e.g. {@code MusicalKey.canonicalName().toLowerCase()}
+     * always does). Pass {@code null} or blank to get the base (no-suffix)
+     * version of this song.
+     *
+     * @param newKeyAlternative e.g. {@code "bb"}, {@code "c#m"}, or
+     *                          {@code null} for the base version
+     * @return a new {@link SongId} in the same group with the given suffix
+     */
+    public SongId withKeyAlternative(String newKeyAlternative) {
+        return SongId.builder()
+                .clusterPrefix(clusterPrefix)
+                .clusterElement(clusterElement)
+                .artist(artist)
+                .title(title)
+                .keyAlternative(newKeyAlternative)
+                .build();
+    }
+
     // -------------------------------------------------------------------------
     // Private helpers
     // -------------------------------------------------------------------------
