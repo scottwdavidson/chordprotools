@@ -6,6 +6,12 @@ sequence flow, and key business-logic notes.
 For a deep-dive into the canonical hexagonal pattern that every command
 follows, see [`generate-song-catalog.md`](generate-song-catalog.md).
 
+> **Known gap in this doc:** `verify-sync`, `consistent-song-data`,
+> `consistent-metadata`, and `find-song-id` aren't documented here yet — this
+> file predates them. See `README.md` §5 for their usage/behavior in the
+> meantime; only `import-song` and `transpose` were brought current here as
+> part of the `transpose` SONG-ID-orchestration work.
+
 ---
 
 ## 1. Architecture at a Glance
@@ -376,16 +382,17 @@ sequenceDiagram
 
 ---
 
-### 4.5 `import-new-song` ⚠️ Not yet implemented
+### 4.5 `import-song`
 
-**Purpose (planned):** Parse a new `.cho` file and append a row to
-`song-catalog.csv` without touching existing rows.
+**Purpose:** Parse a new `.cho` file and append a row to `song-catalog.csv`
+without touching existing rows. Rejects a duplicate SONG ID. Supports
+`--dry-run` to preview the catalog row without writing anything.
 
-**Current state:** `ImportNewSongService` throws
-`UnsupportedOperationException`. The command wiring and port interface exist
-so the feature can be dropped in without touching any other class.
-
-**Planned flow (when implemented):**
+**Usage:**
+```bash
+./import-song cho/ABC/B/BillyJoel/PianoMan-bb.cho
+./import-song cho/ABC/B/BillyJoel/PianoMan-bb.cho --dry-run
+```
 
 ```
 ImportNewSongCommand
@@ -393,11 +400,81 @@ ImportNewSongCommand
     → ImportNewSongService
         1. ChordProPort.read()  — read the .cho file
         2. SongParser.parse()   — extract header metadata
-        3. toCatalogEntry()     — map ParsedHeader → CatalogEntry
-        4. CatalogPort.readCatalogFromCsv()   — load existing catalog
-        5. append new entry
-        6. CatalogPort.writeCatalogToCsv()    — write updated catalog
+        3. ChordProPath.toSongId()  — derive the SONG ID from the file path
+        4. CatalogPort.readCatalogFromCsv()   — load existing catalog, reject duplicates
+        5. toCatalogEntry()     — map ParsedHeader → CatalogEntry
+        6. append new entry, CatalogPort.writeCatalogToCsv()  — skipped when --dry-run
 ```
+
+Returns a structured `ImportResult` (catalog entry, dry-run flag, resulting
+catalog size) — `ImportNewSongCommand` owns all presentation (preview text,
+success message), the service never prints directly.
+
+---
+
+### 4.6 `transpose`
+
+**Purpose:** Creates a new key-variant of a song from its SONG ID —
+transposes the `.cho` file, derives the output filename/SONG ID
+automatically from the naming convention, and (by default) registers it via
+`import-song`. This is the first command in the app that **composes two
+other commands' services** rather than doing one atomic thing itself — see
+the convention note below before adding a second one.
+
+**Usage:**
+```bash
+./transpose ABC:B:BobSeger:HollywoodNights --offset 5
+./transpose ABC:B:BobSeger:HollywoodNights-b --offset -2 --no-import
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant Cmd  as TransposeCommand
+    participant Svc  as TransposeSongService
+    participant TS   as TransposeService
+    participant INS  as ImportNewSongService
+
+    User ->> Cmd : transpose SONG_ID --offset N [--no-import]
+    Cmd  ->> Svc : transposeSong(songId, offset, skipImport)
+
+    rect rgb(30,60,90)
+        Note over Svc: Resolve source path (ChordProPath), peek {key:}
+        Note over Svc: Compute target key/SongId (SongId.withKeyAlternative)
+        Note over Svc: Guard: musical key already used in this song's group?
+        Note over Svc: Guard: target file already exists?
+    end
+
+    rect rgb(30,80,50)
+        Note over Svc,TS: Step 1 — delegate to the existing engine
+        Svc ->> TS  : transpose(sourcePath, offset, targetPath)
+        TS  -->> Svc: TransposeResult
+    end
+
+    rect rgb(90,40,10)
+        Note over Svc,INS: Step 2 — catalog it (unless --no-import)
+        Svc ->> INS : importNewSong(targetPath, dryRun=false)
+        alt import succeeds
+            INS -->> Svc: ImportResult
+        else import throws
+            Note over Svc: no rollback — the .cho file stays; failure reported
+        end
+    end
+    Svc -->> Cmd : TransposeSongResult
+    Note over Cmd : owns all presentation, including the import-failure message
+```
+
+> **Convention: composing commands.** `TransposeSongService` injects the
+> *concrete* `TransposeService` and `ImportNewSongService` classes directly
+> (same pattern `UpdateSongsService` already uses for `UpdateSongService`) —
+> there is no generic `Workflow`/`Step`/pipeline abstraction in this codebase,
+> and none should be added speculatively. Two or three composed steps is
+> comfortably handled by one service class calling other services in order
+> and translating their results/exceptions into its own structured result
+> (see `TransposeSongResult`). Only consider extracting shared pipeline
+> infrastructure once a third or fourth real orchestrator shows up **and**
+> a genuine repeated shape has emerged — not before (YAGNI).
 
 ---
 

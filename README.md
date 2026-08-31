@@ -337,7 +337,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./import-song` | `import-song` | Register a new `.cho` file in `song-catalog.csv` (SONG ID derived from file path) |
 | `./verify-catalog` | `verify-catalog` | Check every `song-catalog.csv` entry against its `.cho` file; report MISSING FILE or DRIFT |
 | `./consistent-metadata` | `consistent-metadata` | Check key-variants of a song share consistent metadata (all but key); `--fix` to repair drift |
-| `./transpose` | `transpose` | Transpose a `.cho` file to a new key — rewrites `{key:}` and every chord, correct accidental spelling; never overwrites the input |
+| `./transpose` | `transpose` | Create a new key-variant of a song from its SONG ID: transposes, derives the output filename automatically, and (by default) catalogs it |
 | `./verify-sync` | `verify-sync` | Compare any two `.cho` files for semantic drift (lyrics/chords) that survives pure transposition |
 | `./consistent-song-data` | `consistent-song-data` | Check that a song's key-variants share the same lyrics and harmonic content, not just metadata |
 | `./update-song` | `update-song` | Push catalog metadata into a song (by song ID) and all its key-variants |
@@ -568,26 +568,50 @@ Recommended workflow:
 
 ### `transpose`
 
-**Script:** `./transpose <input.cho> --offset <semitones> --output <path>`
+**Script:** `./transpose <SONG_ID> --offset <semitones> [--no-import]`
 
-Transposes a ChordPro file to a new key: rewrites the `{key:}` directive and
-every recognized chord (including slash-chord bass notes), spelling
-accidentals correctly for the target key. `--output` is **mandatory** — this
-command never overwrites the input file, even if you try (it hard-errors if
-`--output` resolves to the same path as the input).
-
-```zsh
-./transpose cho/ABC/B/BobSeger/HollywoodNights.cho --offset 5 --output /tmp/HollywoodNights-a.cho
-# → Transposed cho/ABC/B/BobSeger/HollywoodNights.cho: E -> A (+5 semitones) -> /tmp/HollywoodNights-a.cho
-```
-
-Offset can be negative to transpose down:
+Creates a **new key-variant** of a song: resolves the source `.cho` file from
+its SONG ID (see `./find-song-id`), transposes it, and derives the output
+filename/SONG ID automatically from the naming convention — you never name
+an output path yourself, and the command never overwrites the input or an
+existing file.
 
 ```zsh
-./transpose cho/ABC/B/BobSeger/HollywoodNights.cho --offset -2 --output /tmp/HollywoodNights-d.cho
+./transpose ABC:B:BillyJoel:MovinOut --offset 2
+# → Transposed ./cho/ABC/B/BillyJoel/MovinOut.cho: Dm -> Em (+2 semitones) -> ./cho/ABC/B/BillyJoel/MovinOut-em.cho
+# → Imported as SONG ID: ABC:B:BillyJoel:MovinOut-em
 ```
 
-**What it handles:**
+By default the new variant is **also registered in `song-catalog.csv`** —
+that second line is a real catalog import, not just a file write. Pass
+`--no-import` to write only the `.cho` file:
+
+```zsh
+./transpose ABC:B:BobSeger:HollywoodNights --offset -2 --no-import
+# → Transposed ./cho/ABC/B/BobSeger/HollywoodNights.cho: E -> D (-2 semitones) -> ./cho/ABC/B/BobSeger/HollywoodNights-d.cho
+# → Catalog import skipped (--no-import). Run ./import-song ./cho/ABC/B/BobSeger/HollywoodNights-d.cho to add it.
+```
+
+You can also transpose from an existing key-variant, not just the base file —
+the new variant lands in the same song group either way:
+
+```zsh
+./transpose ABC:B:BobSeger:HollywoodNights-b --offset 2
+# → new variant is still grouped under ABC:B:BobSeger:HollywoodNights
+```
+
+**Guardrails, before anything gets written:**
+- **Duplicate-key guard** — refuses to create a variant in a musical key that
+  already exists anywhere in the song's group, even under a different
+  filename or a different enharmonic spelling (e.g. it catches a `C#`
+  catalog entry when the computed target spells the same pitch `Db`).
+- **Overwrite guard** — refuses to write over an existing target file.
+- **Import-failure handling** — if the transpose itself succeeds but the
+  catalog step fails afterward, the `.cho` file is **left in place** (never
+  rolled back) and the error tells you the exact `./import-song <path>`
+  command to finish the job by hand.
+
+**What the transposition itself handles:**
 - Root notes and slash-chord bass notes (`[A/E]` up 2 semitones → `[B/F#]`)
 - Correct sharp/flat spelling based on the *target* key (transposing into
   Bb major produces `Eb`, not `D#`)
@@ -601,17 +625,23 @@ prints a warning instead of silently leaving it — this is how typos and bad
 copy-pastes get caught instead of lurking in the catalog forever:
 
 ```zsh
-./transpose cho/some/bad/Song.cho --offset 2 --output /tmp/out.cho
+./transpose ABC:X:SomeArtist:SomeBadSong --offset 2
 # → WARNING: body line 6 looks like a chord but wasn't recognized (left untransposed): [Gmjaj7]
 ```
 
-(Warnings print to stderr, the transpose confirmation to stdout — pipe/redirect
-either independently.)
+(Warnings print to stderr, everything else to stdout — pipe/redirect either
+independently.)
 
 > **Known limitation:** chords with a literal `/` inside the extension
 > itself (not a bass note), like `[C6/9]`, aren't recognized as a single
 > chord and are left untouched — a deliberate tradeoff to avoid false
 > positives elsewhere.
+>
+> **Need the old file-in/file-out behavior** (e.g. transposing to a scratch
+> file outside the catalog)? That lower-level engine still exists
+> (`TransposeService`) but isn't exposed as its own CLI command — `transpose`
+> is SONG-ID-only by design, to keep the naming convention enforced rather
+> than optional.
 
 ---
 
@@ -1101,7 +1131,7 @@ chordprotools/
 ├── import-song                  # Register a new .cho file in the catalog
 ├── verify-catalog               # Check catalog ↔ .cho file consistency
 ├── consistent-metadata          # Check key-variants share consistent metadata (--fix to repair)
-├── transpose                    # Transpose a .cho file to a new key (rewrites {key:} + chords, never overwrites input)
+├── transpose                    # Create a new key-variant of a song by SONG ID (transposes + auto-catalogs it)
 ├── verify-sync                  # Compare any two .cho files for semantic (lyric/harmonic) drift
 ├── consistent-song-data         # Check key-variants of a song share the same lyrics/harmony, not just metadata
 ├── update-song                  # Push one song's catalog metadata (by song ID) to its .cho file(s)

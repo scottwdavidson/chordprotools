@@ -1,6 +1,8 @@
 # Design: Key-Aware ChordPro Transposition & Semantic Drift Verification
 
-> **Status:** Phase 3 complete (2026-08-30) · remaining work is deferred (§9) · **Author:** Kino  (absorbing a spec drafted with
+> **Status:** Phase 3 complete (2026-08-30) · Phase 4 (SONG-ID-driven
+> `transpose` orchestration) complete (2026-08-31), see §13 · remaining work
+> is deferred (§9) · **Author:** Kino  (absorbing a spec drafted with
 > another agent) · **Date:** 2026-08-29
 > **Scope:** A `transpose` command that key-spells correctly, plus a generic
 > `verify-sync` drift engine reused by the already-parked `consistent-song-data`
@@ -185,6 +187,14 @@ Full suite (123 tests, whole project) still green after this change.
 ---
 
 ## 6. Phase 1 — `transpose` command
+
+> **Superseded (2026-08-31, see §13):** the CLI interface described in this
+> section was replaced with a SONG-ID-driven one
+> (`./transpose <SONG_ID> --offset N [--no-import]`) that also auto-catalogs
+> the result. The engine described here (`TransposeUseCase`/`TransposeService`)
+> is unchanged and still does the actual transposition — it's just no longer
+> exposed directly as its own CLI surface. Kept below for the historical
+> record of how the engine itself was built.
 
 ```
 chordprotools transpose <input.cho> --offset <semitones> --output <path>
@@ -458,6 +468,84 @@ parser forever" principle:
   not a data problem.
 - `[Gdim79]` in `DiminishedIdea.cho` — confirmed intentional Gdim7(add9);
   already parses correctly under the Phase 0 quality grammar as-is.
+
+---
+
+## 13. Phase 4 - SONG-ID-driven `transpose` orchestration - **DONE (2026-08-31)**
+
+Originally out of scope for this doc (Phases 0-3 above), but raised as a
+follow-up once real usage made the gap obvious: the file-in/file-out
+interface from Section 6 required the caller to already know and correctly
+apply the `-<key>` naming convention by hand, and left the resulting file
+un-cataloged. Two manual steps, two chances to get the filename or the
+catalog entry wrong.
+
+New interface:
+
+```
+./transpose <SONG_ID> --offset <semitones> [--no-import]
+```
+
+What changed:
+
+- `SongId.withKeyAlternative(String)` - derives a same-group `SongId` with a
+  different (or no) key-alternative suffix, e.g.
+  `ABC:B:BillyJoel:PianoMan.withKeyAlternative("bb")` becomes
+  `ABC:B:BillyJoel:PianoMan-bb`.
+- `ChordProPath.toSongId` hardened to fail with a clear, actionable message
+  when handed a path that doesn't start with `cho/`/`./cho/`, instead of
+  silently mis-parsing an absolute path into a confusing
+  "expected 4 segments but got N" error from deep inside `SongId.parse`.
+- `TransposeSongUseCase` (port/in) / `TransposeSongService` (domain/service) -
+  composes the existing `TransposeService` (Section 6) and
+  `ImportNewSongService` (already-implemented, previously untested) into one
+  workflow. Same service-injects-concrete-service composition pattern
+  `UpdateSongsService` already uses for `UpdateSongService` - no new
+  "workflow framework" was built for this; see discussion notes below.
+- `TransposeCommand` rewritten for the new interface - the old
+  `--output`-based interface is gone, not kept alongside.
+- Guard rails, checked before anything is written:
+  1. Duplicate-key guard - refuses to create a variant whose musical key
+     already exists anywhere in the song's group, enharmonic-aware (compares
+     `MusicalKey` values, not raw catalog strings or filenames) - catches,
+     for example, transposing a `-b` variant back down to a key the base
+     file already covers, even if the existing catalog row spells it `C#`
+     and the newly-computed one would spell it `Db`.
+  2. Overwrite guard - refuses to write over an existing target file.
+- Import-failure handling (deliberate, not a bug): if the transpose succeeds
+  but the subsequent catalog import throws, the `.cho` file is never rolled
+  back - it's valid content and stays in place. The failure is reported with
+  the exact `./import-song <path>` command needed to finish the job by hand.
+  This was a real decision, not an oversight - the alternative (auto-delete
+  a successfully-written file because a separate step failed) was
+  considered and rejected as more surprising, not less.
+- Also closed, as prep work: `TransposeService`/`ImportNewSongService` no
+  longer call `System.out`/`System.err` directly - both now return
+  structured results (`TransposeResult`/`ImportResult`) and their respective
+  CLI adapters own 100% of the presentation. This was a real hexagonal-
+  boundary leak (domain services printing) that had to close before
+  composing them, since a composed workflow can't sensibly decide what to
+  print if its collaborators already printed on its behalf.
+
+On "should this be a generic workflow/pipeline framework?" - considered
+and explicitly rejected for now. Two composed steps doesn't justify
+`Workflow`/`Step`/pipeline infrastructure; direct service composition (a
+service class injecting other concrete services, exactly like
+`UpdateSongsService`) is treated as the established convention, not a gap.
+Revisit only once a third or fourth real orchestrator shows up and a
+genuine repeated shape emerges.
+
+Testing: `ChordProPathTest` and `SongIdTest` added (neither had direct
+coverage before - both are central to the whole SONG ID system).
+`ImportNewSongServiceTest` added (5 tests - previously zero coverage).
+`TransposeSongServiceTest` added (9 tests): happy path, deriving a sibling
+from an existing non-base variant, `--no-import`, import-failure handling,
+missing-source-file guard, existing-target-file guard, and two
+key-collision guard tests (same spelling + genuine enharmonic spelling).
+Also manually smoke-tested end-to-end against real catalog data
+(`ABC:B:BillyJoel:MovinOut`, Dm to Em, +2 semitones): chord qualities
+preserved correctly (`Em7-5` to `F#m7-5`), catalog row appended correctly,
+then reverted cleanly. 204/204 automated tests passing.
 
 **Guardrail decision:** rather than build a separate lint tool or duplicate
 the chord-validity grammar in `lint-cho.zsh`, Phase 1's `transpose` command
