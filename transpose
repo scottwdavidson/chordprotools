@@ -1,7 +1,13 @@
 #!/bin/zsh
-# Transposes a .cho file to a new key. Never overwrites the input file.
+# Creates a new key-variant of a song: transposes its .cho file and (by
+# default) registers it in song-catalog.csv. The output filename/SONG ID is
+# derived automatically from the naming convention - never overwrites an
+# existing file, and never overwrites the source.
 #
 # Usage:
-#   ./transpose cho/ABC/B/BobSeger/HollywoodNights.cho --offset 5 --output /tmp/out.cho
+#   ./transpose <SONG_ID> --offset <N> [--no-import]
+#
+#   ./transpose ABC:B:BobSeger:HollywoodNights --offset 5
+#   ./transpose ABC:B:BobSeger:HollywoodNights-b --offset -2 --no-import
 
 "${0:a:h}/cpt" transpose "$@"
