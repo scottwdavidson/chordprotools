@@ -8,11 +8,8 @@ import picocli.CommandLine.Option;
 import picocli.CommandLine.Parameters;
 
 /**
- * CLI command that copies all setlist assignments from one gig to a new gig slug.
- *
- * <p>The copied assignments are written with TITLE and ARTIST columns enriched
- * from the song catalog so the CSV is human-readable in Google Sheets or Excel
- * without cross-referencing {@code song-catalog.csv}.
+ * CLI command that copies all setlist assignments from one gig to a new gig slug,
+ * including RC SLOT values.
  *
  * <p>Usage examples:
  * <pre>
@@ -26,9 +23,8 @@ import picocli.CommandLine.Parameters;
 @Component
 @Command(
         name = "copy-gig",
-        description = "Copies all setlist assignments from SOURCE-GIG to TARGET-GIG. "
-                    + "The assignments file is rewritten with TITLE and ARTIST columns "
-                    + "populated for easy editing in Google Sheets."
+        description = "Copies all setlist assignments (including RC SLOT) from SOURCE-GIG to "
+                    + "TARGET-GIG for editing in gigs.csv."
 )
 @Slf4j
 public class CopyGigCommand implements Runnable {

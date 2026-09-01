@@ -17,7 +17,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * Copies all setlist assignments from one gig to a new gig slug.
+ * Copies all setlist assignments from one gig to a new gig slug, including
+ * RC SLOT values.
  *
  * <h3>Guard-rails</h3>
  * <ul>
@@ -66,11 +67,17 @@ public class CopyGigService implements CopyGigUseCase {
         }
 
         // ── 4. Build the new full assignments list ───────────────────────────
+        // RC SLOT is copied forward: from one gig to the next, the setlist
+        // typically only drops/adds a song or two, so the prior gig's slots
+        // are usually still fine as-is. Run assign-backing-track-slots
+        // afterward to fill in slots for any newly-added songs, or
+        // --reoptimize to renumber everything from scratch.
         List<SetlistAssignment> newTargetRows = sourceRows.stream()
                 .map(a -> SetlistAssignment.builder()
                         .gig(targetGig)
                         .songId(a.getSongId())
                         .set(a.getSet())
+                        .rcSlot(a.getRcSlot())
                         .build())
                 .toList();
 

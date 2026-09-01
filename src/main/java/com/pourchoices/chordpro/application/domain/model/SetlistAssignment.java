@@ -35,8 +35,11 @@ public class SetlistAssignment {
 
     /**
      * RC-500 slot assigned for this specific gig, e.g. {@code "11"}.
-     * Null / blank until {@code assign-backing-track-slots} has been run for this gig.
-     * Never copied when a gig is cloned via {@code copy-gig}.
+     * Null / blank until {@code assign-backing-track-slots} has been run for this gig,
+     * or until typed in by hand directly in {@code gigs.csv}.
+     * Copied forward when a gig is cloned via {@code copy-gig} - re-run
+     * {@code assign-backing-track-slots} afterward to fill in slots for any newly
+     * added songs, or pass {@code --reoptimize} to renumber everything from scratch.
      */
     String rcSlot;
 }

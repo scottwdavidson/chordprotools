@@ -42,9 +42,18 @@ class CopyGigServiceTest {
                 .build();
     }
 
+    private static SetlistAssignment assignmentWithSlot(String gig, String songId, String set, String rcSlot) {
+        return SetlistAssignment.builder()
+                .gig(gig)
+                .songId(SongId.parse(songId))
+                .set(set)
+                .rcSlot(rcSlot)
+                .build();
+    }
+
     private final List<SetlistAssignment> existingAssignments = List.of(
-            assignment(SOURCE_GIG, "ABC:B:BillyJoel:PianoMan", "A01"),
-            assignment(SOURCE_GIG, "DEF:E:EltonJohn:Daniel",   "A02"),
+            assignmentWithSlot(SOURCE_GIG, "ABC:B:BillyJoel:PianoMan", "A01", "7"),
+            assignment(SOURCE_GIG, "DEF:E:EltonJohn:Daniel",   "A02"), // no slot yet
             assignment(OTHER_GIG,  "ABC:B:BillyJoel:PianoMan", "B01")
     );
 
@@ -130,6 +139,36 @@ class CopyGigServiceTest {
                 .filter(a -> OTHER_GIG.equals(a.getGig()))
                 .count();
         assertThat(otherGigCount).isEqualTo(2); // replaced, not added
+    }
+
+    // ── RC SLOT copy behavior ────────────────────────────────────────────────
+
+    @Test
+    void copyGig_copiesNonBlankRcSlotForward() {
+        service.copyGig(SOURCE_GIG, TARGET_GIG, false);
+
+        List<SetlistAssignment> targetRows = captureWrittenAssignments().stream()
+                .filter(a -> TARGET_GIG.equals(a.getGig()))
+                .toList();
+
+        assertThat(targetRows)
+                .filteredOn(a -> "ABC:B:BillyJoel:PianoMan".equals(a.getSongId().toString()))
+                .extracting(SetlistAssignment::getRcSlot)
+                .containsExactly("7");
+    }
+
+    @Test
+    void copyGig_blankRcSlotStaysBlank() {
+        service.copyGig(SOURCE_GIG, TARGET_GIG, false);
+
+        List<SetlistAssignment> targetRows = captureWrittenAssignments().stream()
+                .filter(a -> TARGET_GIG.equals(a.getGig()))
+                .toList();
+
+        assertThat(targetRows)
+                .filteredOn(a -> "DEF:E:EltonJohn:Daniel".equals(a.getSongId().toString()))
+                .extracting(SetlistAssignment::getRcSlot)
+                .containsOnlyNulls();
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────
