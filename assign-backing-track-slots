@@ -2,8 +2,14 @@
 # Assign RC-500 backing-track slots for a gig.
 # Writes slots to gigs.csv, patches .cho files, regenerates setlist.csv.
 #
+# Default mode preserves any RC SLOT already in gigs.csv (hand-typed or
+# from a previous run) and only fills in blanks. Pass --reoptimize to
+# ignore existing values and recompute every slot from scratch.
+#
 # Usage:
 #   ./assign-backing-track-slots
-#   ./assign-backing-track-slots <output-file>
+#   ./assign-backing-track-slots --gig <gig-slug>
+#   ./assign-backing-track-slots --gig <gig-slug> --output <path>
+#   ./assign-backing-track-slots --gig <gig-slug> --reoptimize
 
-"${0:a:h}/cpt" assign-backing-track-slots ${1:+--output $1}
+"${0:a:h}/cpt" assign-backing-track-slots "$@"

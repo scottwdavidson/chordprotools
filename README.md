@@ -155,12 +155,18 @@ assigned to a specific gig.
 | `GIG` | Gig identifier slug, date-first (e.g. `2026-06-14-rusty-nail`) |
 | `SONG ID` | Foreign key into `song-catalog.csv` — **always the base version** (no key suffix) |
 | `SET` | Compound position code — encodes set letter and song position within it |
-| `RC SLOT` | RC-500 slot assigned for this gig — blank until `assign-backing-track-slots` is run |
+| `RC SLOT` | RC-500 slot assigned for this gig — blank until assigned, either by `assign-backing-track-slots` or by typing a number directly into the cell |
 
-> **RC SLOT is gig-specific.** Running `assign-backing-track-slots` for one gig
-> populates that gig's rows only — other gigs are never touched. `copy-gig` always
-> copies rows with a blank RC SLOT so the new gig starts fresh and gets its own
-> independent slot assignment.
+> **RC SLOT is gig-specific.** `assign-backing-track-slots` for one gig only
+> touches that gig's rows — other gigs are never affected. `copy-gig` **copies
+> RC SLOT forward** from source to target gig (blank stays blank, a number
+> copies verbatim) — the common case is adding/dropping a song or two between
+> gigs, not renumbering everything from scratch.
+
+> **A hand-typed RC SLOT is just as valid as an algorithmically-assigned one.**
+> `assign-backing-track-slots` in its default mode never overwrites a non-blank
+> value in this column, no matter how it got there — see
+> [assign-backing-track-slots](#assign-backing-track-slots) for the full story.
 
 > **RC SLOT only applies to RC songs.** BeatBuddy songs (`BACKING=BB`) never get
 > a slot — the BeatBuddy has its own beat selection independent of the RC-500.
@@ -203,9 +209,11 @@ only a variant exists, the system will throw when attempting a setlist join.
 
 - `BACKING`, `SONG LABEL`, and all other metadata are written to **all** versions
   of a song, because the guitarist may open either `.cho` file on stage.
-- `{meta: rc-slot: N}` is written by `assign-backing-track-slots` to all
-  `.cho` versions of a song, so the slot is visible regardless of which file
-  is open on the iPad.
+- `{meta: rc-slot: N (gig-name)}` is written by `assign-backing-track-slots` to
+  all `.cho` versions of a song, annotated with the gig it was assigned for, so
+  the slot — and which gig it's actually good for — is visible regardless of
+  which file is open on the iPad. The write is skipped when the value hasn't
+  changed, so re-running against an unchanged gig touches no files.
 - Setlists reference only the base SONG ID — the system treats "Piano Man"
   as one song regardless of how many transposed files exist.
 
@@ -280,24 +288,35 @@ The `getBacking()` accessor on a setlist entry returns:
 
 ```zsh
 ./list-gigs                                                   # see existing gigs + song counts
-./copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail        # clone a prior gig as a starting point
+./copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail        # clone a prior gig as a starting point (RC SLOT copies forward too)
 # open gigs.csv in Sheets
 # reorder SET codes, swap songs as needed
+./tidy-gigs                                                   # required after any Sheets/Excel save
 ./export-setlist --gig 2026-06-14-rusty-nail                  # preview the fan setlist (no Z-sets)
 ./export-setlist --gig 2026-06-14-rusty-nail --verbose        # preview with backup songs too
 ```
 
 ### Locking in a gig (finalising backing-track slots)
 
-Run `assign-backing-track-slots` **after** the setlist order is finalised —
-slot numbers are derived from SET code order, so changes to order after assignment
-require a re-run.
+Run `assign-backing-track-slots` once the setlist is settled enough to load the
+RC-500. It's safe to run early and often — by default it never touches a slot
+that's already there (whether `copy-gig` carried it forward or you typed it in
+by hand), it only fills in blanks for songs that don't have one yet. Adding or
+dropping a song later and running it again just fills in the new gaps.
 
 ```zsh
 ./assign-backing-track-slots --gig 2026-06-14-rusty-nail
-# → Slots written to gigs.csv (this gig only)
-# → {meta: rc-slot: N} patched into each affected .cho file
+# → Existing RC SLOT values in gigs.csv (this gig only) are left untouched
+# → Blank RC SLOT values get the next free number (gaps filled before extending upward)
+# → {meta: rc-slot: N (2026-06-14-rusty-nail)} synced into each affected .cho file
 # → setlist.csv regenerated
+```
+
+Want a genuine from-scratch renumber instead (e.g. the set order changed enough
+that the old numbers no longer make sense)? Add `--reoptimize`:
+
+```zsh
+./assign-backing-track-slots --gig 2026-06-14-rusty-nail --reoptimize
 ```
 
 Once slots are assigned, generate the RC-500 deploy script:
@@ -342,8 +361,8 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./consistent-song-data` | `consistent-song-data` | Check that a song's key-variants share the same lyrics and harmonic content, not just metadata |
 | `./update-song` | `update-song` | Push catalog metadata into a song (by song ID) and all its key-variants |
 | `./update-songs` | `update-songs` | Push catalog metadata into a batch of songs (by song ID) |
-| `./assign-backing-track-slots` | `assign-backing-track-slots` | Assign RC-500 slot numbers for the gig; writes to `gigs.csv` + patches `.cho` files; regenerates `setlist.csv` |
-| `./copy-gig` | `copy-gig` | Clone all gig assignments from one gig slug to a new one |
+| `./assign-backing-track-slots` | `assign-backing-track-slots` | Fill in RC-500 slot numbers for the gig, preserving whatever's already in `gigs.csv` by default; `--reoptimize` to recompute everything from scratch |
+| `./copy-gig` | `copy-gig` | Clone all gig assignments (including RC SLOT) from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
 | `./find-song-id` | `find-song-id` | Search the catalog by title/artist fragment → SONG ID to paste into `gigs.csv` |
 | `./list-gigs` | `list-gigs` | List every gig slug in `gigs.csv` with a song count |
@@ -743,8 +762,8 @@ once and it lands in all of them.
 > to look up the song ID you need (it prints the SONG ID column, and annotates
 > songs that have alternate-key variants).
 
-> `update-song` preserves any `{meta: rc-slot: N}` already in the file —
-> a slot assigned by `assign-backing-track-slots` is never erased by a
+> `update-song` preserves any `{meta: rc-slot: N (gig-name)}` already in the
+> file — a slot assigned by `assign-backing-track-slots` is never erased by a
 > catalog update.
 
 **Single song:**
@@ -768,30 +787,67 @@ once and it lands in all of them.
 
 ### `assign-backing-track-slots`
 
-**Script:** `./assign-backing-track-slots [--gig <slug>] [--output <path>]`
+**Script:** `./assign-backing-track-slots [--gig <slug>] [--output <path>] [--reoptimize]`
 
-The command to run when finalising a gig's setlist order. It assigns RC-500
-backing-track slot numbers for every set-assigned RC song, then propagates
+Assigns RC-500 backing-track slot numbers for a gig's setlist, then propagates
 those numbers into `gigs.csv` and directly into the individual `.cho` files.
 
-**What it does, in order:**
+**Default mode preserves and fills** — the mode you want almost all the time:
 
 1. Loads `song-catalog.csv` + `gigs.csv` and resolves the target gig
-2. Splits songs into **in-set** (SET prefix A–Y, sorted by SET code) and **backup** (SET prefix Z, sorted alphabetically by title)
-3. Assigns RC-500 slot numbers — in-set from slot **5** upward, backup from slot **50** upward
-4. Writes RC SLOT values for this gig into `gigs.csv` (**only this gig's rows are updated**)
-5. Patches `{meta: rc-slot: N}` directly into each affected `.cho` file
-6. Writes a fresh `setlist.csv`
+2. Any RC-backed song that **already has a non-blank RC SLOT** for this gig —
+   whether set by a previous run of this command, or typed straight into the
+   spreadsheet by hand — is **left completely untouched**
+3. Splits the remaining (blank) songs into **in-set** (SET prefix A–Y, sorted
+   by SET code) and **backup** (SET prefix Z, sorted alphabetically by title)
+4. Assigns numbers to those blank songs only — in-set starting at slot **5**,
+   backup starting at slot **50** — filling any gap in the existing numbers
+   before extending upward
+5. Writes the full set of slot values (preserved + newly assigned) for this
+   gig into `gigs.csv` (**only this gig's rows are touched**)
+6. Syncs `{meta: rc-slot: N (gig-name)}` into every affected `.cho` file —
+   skipping the write entirely for any file whose value is already correct,
+   so re-running against an unchanged gig touches zero files
+7. Writes a fresh `setlist.csv`
 
 ```zsh
-./assign-backing-track-slots                              # latest gig
-./assign-backing-track-slots --gig 2026-06-14-rusty-nail  # specific gig
+./assign-backing-track-slots                              # latest gig, preserve mode
+./assign-backing-track-slots --gig 2026-06-14-rusty-nail  # specific gig, preserve mode
 ```
+
+**Sample output:**
+
+```
+Backing-track slot sync complete for gig '2026-06-14-rusty-nail' — kept 28 existing slot(s), assigned 3 new slot(s), written to ./setlist.csv
+
+SET     TITLE                                     ARTIST                     KEY     SLOT
+-----------------------------------------------------------------------------------------------
+A01     Starting Over                             Chris Stapleton            Bb      5
+A02     Against the Wind                          Bob Seger                  F       6
+...
+```
+
+**Want a genuine from-scratch renumber instead?** Pass `--reoptimize` to ignore
+whatever's currently in `gigs.csv` for this gig and recompute every slot from
+scratch, exactly like the old always-recompute behavior:
+
+```zsh
+./assign-backing-track-slots --gig 2026-06-14-rusty-nail --reoptimize
+```
+
+> **Guard-rail:** in default (preserve) mode, if `gigs.csv` has ambiguous data
+> for this gig — a non-numeric or out-of-range (1–99) RC SLOT, or two
+> different songs claiming the same slot — the command **aborts with nothing
+> written at all** (not `gigs.csv`, not any `.cho` file, not `setlist.csv`) and
+> reports exactly which songs/values need a human look. Fix the flagged rows
+> in `gigs.csv` and re-run.
 
 > **BeatBuddy songs** (`BACKING=BB`) are included in the setlist but skipped
 > during slot assignment — BeatBuddy beat selection is done on the pedal itself.
 
-> **Songs with no backing** (`BACKING` blank) are likewise skipped.
+> **Songs with no backing** (`BACKING` blank) are likewise skipped. If a song's
+> `BACKING` type changes away from `RC`, any stray RC SLOT value left over in
+> `gigs.csv` for it is cleared automatically.
 
 > Slots 1–4 are intentionally left free. Slots 50–99 are reserved for backup songs.
 
@@ -804,28 +860,28 @@ those numbers into `gigs.csv` and directly into the individual `.cho` files.
 
 **Script:** `./copy-gig <source-gig> <target-gig> [--force]`
 
-Clones all setlist assignments from an existing gig to a new gig slug. The
-new rows are written with `TITLE` and `ARTIST` enriched from the catalog so
-the CSV is immediately readable in Google Sheets.
+Clones all setlist assignments from an existing gig to a new gig slug,
+**including RC SLOT values** — a blank stays blank, a number copies verbatim.
 
 ```zsh
-# Start next month's gig from last month's setlist
+# Start next month's gig from last month's setlist, RC slots and all
 ./copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail
 
 # Re-clone over a target you have already started editing
 ./copy-gig 2026-05-10-rusty-nail 2026-06-14-rusty-nail --force
 ```
 
-**RC SLOT is never copied.** The new gig's rows always start with a blank RC SLOT
-column so slot numbers are assigned fresh when `assign-backing-track-slots` is run
-for the new gig.
-
 Guard-rails:
 - Source gig must exist in `gigs.csv` — throws if not found
 - Target gig must not already have assignments unless `--force` is passed
 
 After cloning, open `gigs.csv` in Google Sheets, adjust SET codes to reorder
-songs, and swap in different SONG IDs where the set list differs from the prior gig.
+songs, and swap in different SONG IDs where the set list differs from the prior
+gig. Then run `./tidy-gigs` (required after any Sheets/Excel save) and
+`./assign-backing-track-slots --gig <target-gig>` — in its default mode it will
+fill in slots only for whatever you added, leaving every copied-forward slot
+exactly as it was. Pass `--reoptimize` there instead if you'd rather renumber
+everything from scratch.
 
 ---
 
@@ -1071,13 +1127,35 @@ use in `update-song` or `updateSongsListing.txt`.
 
 ### `tidy-song-catalog` / `tidy-gigs`
 
-Strips Windows-style carriage returns (`\r`) from `song-catalog.csv` and `gigs.csv`
-respectively. Always run after saving either file from Google Sheets or Excel before
-running any update command.
+Cleans up CSV files after a save from Google Sheets or Excel — **always run
+before** `update-song`/`update-songs` or any gig command.
+
+`tidy-song-catalog` strips Windows-style carriage returns (`\r`) from
+`song-catalog.csv`.
+
+`tidy-gigs` does more, since `gigs.csv` gets hand-edited in a spreadsheet far
+more often:
+
+- Strips `\r` from every line (same as `tidy-song-catalog`)
+- **Repairs rows with missing trailing commas** — a very common spreadsheet
+  artifact when the last column (`RC SLOT`) is left blank and the save drops
+  the trailing comma entirely. Any row with fewer fields than the header is
+  padded back out to the correct column count.
+- **Refuses to guess on rows with too many fields.** These are reported with
+  their line number and left completely untouched — nothing else in the file
+  is written until you fix them by hand.
+- Sorts all rows by `GIG` then `SET`
 
 ```zsh
 ./tidy-song-catalog   # cleans song-catalog.csv
-./tidy-gigs           # cleans gigs.csv
+./tidy-gigs           # cleans + repairs + sorts gigs.csv
+```
+
+**Sample output when a row needs manual attention:**
+
+```
+ERROR: gigs.csv has 1 row(s) with MORE fields than the header - can't safely guess how to repair these. Refusing to touch the file.
+  Line 42: 2026-06-14-rusty-nail,ABC:B:BillyJoel:PianoMan,A01,5,extra-stray-value
 ```
 
 ### `fix-directive`
