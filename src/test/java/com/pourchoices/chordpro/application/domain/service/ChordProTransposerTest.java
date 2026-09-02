@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.BracketedLine;
 import com.pourchoices.chordpro.application.domain.model.MusicalKey;
 import org.junit.jupiter.api.Test;
 
@@ -210,5 +211,81 @@ class ChordProTransposerTest {
     @Test
     void extractChordRoots_noChords_returnsEmpty() {
         assertThat(transposer.extractChordRoots("just plain lyrics, no chords here")).isEmpty();
+    }
+
+    // --- bracketBareChords (instrumental-notation normalization) ---
+
+    @Test
+    void bracketBareChords_wrapsSimpleBareChords() {
+        assertThat(transposer.bracketBareChords("| C   . . .  | C   . . . |").getLine())
+                .isEqualTo("| [C]   . . .  | [C]   . . . |");
+    }
+
+    @Test
+    void bracketBareChords_wrapsQualityAndSlashBass() {
+        assertThat(transposer.bracketBareChords("| Am7 . . . | G/B . . . |").getLine())
+                .isEqualTo("| [Am7] . . . | [G/B] . . . |");
+    }
+
+    @Test
+    void bracketBareChords_reportsWrappedTokens() {
+        assertThat(transposer.bracketBareChords("| C . . . | Am7 . . . |").getWrappedTokens())
+                .containsExactly("C", "Am7");
+    }
+
+    @Test
+    void bracketBareChords_leavesAlreadyBracketedChordsUntouched_noDoubleWrap() {
+        assertThat(transposer.bracketBareChords("[Am7/D] . . . | [G]|").getLine())
+                .isEqualTo("[Am7/D] . . . | [G]|");
+        assertThat(transposer.bracketBareChords("[Am7/D] . . . | [G]|").changed()).isFalse();
+    }
+
+    @Test
+    void bracketBareChords_leavesNoChordMarkerUntouched() {
+        assertThat(transposer.bracketBareChords("| N.C. | Gm |").getLine())
+                .isEqualTo("| N.C. | [Gm] |");
+    }
+
+    @Test
+    void bracketBareChords_leavesDotsAndPipesUntouched() {
+        assertThat(transposer.bracketBareChords(". | . . . |").getLine())
+                .isEqualTo(". | . . . |");
+    }
+
+    @Test
+    void bracketBareChords_leavesRepeatShorthandAndStrumSlashUntouched() {
+        // Repeat/strum notation is a separate, un-fixed drift category -
+        // this method's job is only bracket-wrapping actual chords.
+        assertThat(transposer.bracketBareChords("C | G | A | D :|| x 3").getLine())
+                .isEqualTo("[C] | [G] | [A] | [D] :|| x 3");
+        assertThat(transposer.bracketBareChords("| / / / / |").getLine())
+                .isEqualTo("| / / / / |");
+    }
+
+    @Test
+    void bracketBareChords_doesNotMatchLetterInsideOrdinaryWord() {
+        // Regression: an early version of the word-boundary regex matched
+        // the bare "f" inside "if" as a chord attempt.
+        assertThat(transposer.bracketBareChords("| G . (if you believe)").getLine())
+                .isEqualTo("| [G] . (if you believe)");
+    }
+
+    @Test
+    void bracketBareChords_leavesSectionLabelsUntouched() {
+        assertThat(transposer.bracketBareChords("{start_of_part: Bridge}").getLine())
+                .isEqualTo("{start_of_part: Bridge}");
+    }
+
+    @Test
+    void bracketBareChords_noBareChords_reportsUnchanged() {
+        BracketedLine result = transposer.bracketBareChords("[C] . . . | [G] . . . |");
+        assertThat(result.changed()).isFalse();
+        assertThat(result.getWrappedTokens()).isEmpty();
+    }
+
+    @Test
+    void bracketBareChords_nullOrEmptyLine_returnsUnchanged() {
+        assertThat(transposer.bracketBareChords(null).getLine()).isEmpty();
+        assertThat(transposer.bracketBareChords("").getLine()).isEmpty();
     }
 }

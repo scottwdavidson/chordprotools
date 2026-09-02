@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.BracketedLine;
 import com.pourchoices.chordpro.application.domain.model.MusicalKey;
 import org.springframework.stereotype.Service;
 
@@ -45,6 +46,20 @@ public class ChordProTransposer {
      */
     private static final Pattern CHORD_PATTERN = Pattern.compile(
             "\\[([A-G][#b]*)([^/\\]]*)(?:/([A-G][#b]*))?]",
+            Pattern.CASE_INSENSITIVE);
+
+    /**
+     * Matches either an already-bracketed chord group (consumed and left
+     * untouched) or a bare, unbracketed chord-shaped token: root note,
+     * quality/extension text, optional slash bass. Mirrors
+     * {@link #CHORD_PATTERN}'s inner grammar exactly but without requiring
+     * surrounding brackets — used by {@link #bracketBareChords} to find
+     * instrumental-notation chords typed without brackets (and therefore
+     * invisible to {@link #transpose}).
+     */
+    private static final Pattern BARE_CHORD_PATTERN = Pattern.compile(
+            "\\[[^\\]]*]"
+                    + "|\\b([A-G][#b]*)([^/\\s|]*)(?:/([A-G][#b]*))?",
             Pattern.CASE_INSENSITIVE);
 
     /**
@@ -227,6 +242,57 @@ public class ChordProTransposer {
             }
         }
         return unrecognized;
+    }
+
+    /**
+     * Wraps every bare (unbracketed) chord-shaped token in a line with
+     * {@code [ ]} so it becomes visible to {@link #transpose}. Used by
+     * {@code bracket-chords} to fix instrumental/dot-notation sections
+     * written with bare chords (e.g. {@code | C . . . | G . . . |}) rather
+     * than the bracketed convention (e.g. {@code | [C] . . . | [G] . . . |}).
+     *
+     * <p>Deliberately conservative, same philosophy as {@link #transpose}:
+     * a token only gets wrapped if it fully parses as a chord via
+     * {@link #isValidQuality} and isn't a
+     * {@link #isKnownNonChordAnnotation known non-chord annotation}.
+     * Already-bracketed groups are copied through untouched (never
+     * double-wrapped). Anything else — dots, pipes, repeat shorthand,
+     * stray lyric fragments, typos — is left exactly as-is.
+     *
+     * @return the (possibly unchanged) line plus the bare tokens that got wrapped
+     */
+    public BracketedLine bracketBareChords(String line) {
+        if (line == null || line.isEmpty()) {
+            return BracketedLine.builder().line(line == null ? "" : line).build();
+        }
+
+        Matcher matcher = BARE_CHORD_PATTERN.matcher(line);
+        StringBuilder result = new StringBuilder();
+        List<String> wrapped = new ArrayList<>();
+        int lastEnd = 0;
+
+        while (matcher.find()) {
+            result.append(line, lastEnd, matcher.start());
+
+            String root = matcher.group(1);
+            if (root == null) {
+                // Matched the already-bracketed alternative - leave as-is.
+                result.append(matcher.group());
+            } else {
+                String quality = matcher.group(2);
+                if (isValidQuality(quality) && !isKnownNonChordAnnotation(root, quality)) {
+                    result.append('[').append(matcher.group()).append(']');
+                    wrapped.add(matcher.group());
+                } else {
+                    result.append(matcher.group());
+                }
+            }
+
+            lastEnd = matcher.end();
+        }
+        result.append(line, lastEnd, line.length());
+
+        return BracketedLine.builder().line(result.toString()).wrappedTokens(wrapped).build();
     }
 
     /**

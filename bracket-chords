@@ -1,0 +1,16 @@
+#!/bin/zsh
+# Finds instrumental-notation drift across the whole catalog:
+#   - bare (unbracketed) chords in dot-notation lines - invisible to
+#     transpose. Safely auto-fixable.
+#   - repeat shorthand (:||, xN) - shortens the line count OnSong scrolls
+#     through. Never auto-fixed; needs manual expansion.
+#   - strum-slash notation (/ / / /) - unclear intent. Never auto-fixed;
+#     needs manual review.
+#
+# Dry-run by default. Exits with the number of remaining issues.
+#
+# Usage:
+#   ./bracket-chords            # report only
+#   ./bracket-chords --fix      # wrap bare chords in brackets
+
+"${0:a:h}/cpt" bracket-chords "$@"

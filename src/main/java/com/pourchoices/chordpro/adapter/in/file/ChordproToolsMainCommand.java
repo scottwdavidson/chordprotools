@@ -23,7 +23,8 @@ FindSongIdCommand.class,
                 TransposeCommand.class,
                 VerifySyncCommand.class,
                 ConsistentSongDataCommand.class,
-                TidyGigsCommand.class
+                TidyGigsCommand.class,
+                BracketChordsCommand.class
         })
 @Slf4j
 public class ChordproToolsMainCommand implements Runnable {

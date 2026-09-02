@@ -18,6 +18,13 @@ public class ParsedSong {
                 .build();
     }
 
+    public ParsedSong withLines(List<String> newLines) {
+        return ParsedSong.builder()
+                .parsedHeader(getParsedHeader())
+                .lines(newLines)
+                .build();
+    }
+
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
