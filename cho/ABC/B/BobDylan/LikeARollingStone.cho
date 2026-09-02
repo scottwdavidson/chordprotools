@@ -2,11 +2,11 @@
 {artist: Bob Dylan}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| C Fmaj7/C | C Fmaj7/C | C Fmaj7/C | C Fmaj7/C |
+| [C] [Fmaj7/C] | [C] [Fmaj7/C] | [C] [Fmaj7/C] | [C] [Fmaj7/C] |
 
 {start_of_verse}
 [C]Once upon a time you [Dm7]dressed so fine
@@ -32,7 +32,7 @@ Like a rolling stone[C][F][G]
 {end_of_chorus}
 
 {comment: Instrumental}
-| C  F | G  | G  |
+| [C]  [F] | [G]  | [G]  |
 
 {start_of_verse}
 Aww, You've[C] gone to the [Dm7]finest school all righ[Em]t, Miss Lonely
@@ -60,7 +60,7 @@ Like a rolling stone[C][F][G]
 {end_of_chorus}
 
 {comment: Instrumental}
-| C  F | G  | G  |
+| [C]  [F] | [G]  | [G]  |
 
 {start_of_verse}
 Aww, You[C] never turned a[Dm7]round to see the frowns[Em]
@@ -86,7 +86,7 @@ Like a rolling stone[C][F][G]
 {end_of_chorus}
 
 {comment: Instrumental}
-| C  F | G  | G  |
+| [C]  [F] | [G]  | [G]  |
 
 {start_of_verse}
 Aww[C], Princess on the [Dm7]steeple and all the [Em]pretty people
@@ -112,4 +112,4 @@ Like a rolling stone[C][F][G]
 {end_of_chorus}
 
 {comment: Instrumental}
-| C  F | G  | G  |
+| [C]  [F] | [G]  | [G]  |

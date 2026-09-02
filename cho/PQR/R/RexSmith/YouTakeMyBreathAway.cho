@@ -3,11 +3,11 @@
 {key: Bb}
 {tempo: 96}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Ebsus24 Eb | Bb F | Ebsus2 Eb | Bb F |
+| [Ebsus24] [Eb] | [Bb] [F] | [Ebsus2] [Eb] | [Bb] [F] |
 
 {start_of_verse}
 Y[Bb]ou...
@@ -39,7 +39,7 @@ And I don't know what to s[Gm]ay[Gmmaj7][Gm7][Gm/C][C7]
 {end_of_chorus}
 
 {comment:Instrumental}
-| Dm7 | G7sus G7 | Cm7/F | F7sus F7 |
+| [Dm7] | [G7sus] [G7] | [Cm7/F] | [F7sus] [F7] |
 
 {start_of_verse}
 Y[Bb]ou...

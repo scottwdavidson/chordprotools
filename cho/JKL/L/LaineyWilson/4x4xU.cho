@@ -2,9 +2,12 @@
 {artist: Lainey Wilson}
 {key: G}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| G .   .   . | Am7 . . . |
-| Cadd9 . . . | G  .  . . |
+| [G] .   .   . | [Am7] . . . |
+| [Cadd9] . . . | [G]  .  . . |
 
 {start_of_verse}
 [G]I'm the kind to take the keys
@@ -94,5 +97,5 @@ Oo[G]h
 
 
 {comment: Fade Out}
-| G .   .   . | Am7 . . . |
-| Cadd9 . . . | G  .  . . |
+| [G] .   .   . | [Am7] . . . |
+| [Cadd9] . . . | [G]  .  . . |

@@ -1,8 +1,11 @@
-{title:Be My Baby}
-{artist:The Ronettes}
-{key:A}
-{tempo:138}
-{duration:2:40} 
+{title: Be My Baby}
+{artist: The Ronettes}
+{key: A}
+{duration: 2:40}
+{tempo: 138}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 {comment: Drums intro}
@@ -49,13 +52,13 @@ So won't you please[A]
 
 {comment: Piano / Guitar solo}
 {comment: Piano}
-| A . . . | A . . . | Bm7 . . . | Bm7 . . . |
-| A . . . | A . . . | Bm7 . . . | Bm7 . . . || 
+| [A] . . . | [A] . . . | [Bm7] . . . | [Bm7] . . . |
+| [A] . . . | [A] . . . | [Bm7] . . . | [Bm7] . . . || 
 
 {comment: Guitar}
-| Cm7 . . . | Cm7 . . . | F#7 . . . | F#7 . . . | 
-| B7  . . . | B7  . . . | E7 . [D/E] [Em7b5] | 
-| E7 (so come on and ) |
+| [Cm7] . . . | [Cm7] . . . | [F#7] . . . | [F#7] . . . | 
+| [B7]  . . . | [B7]  . . . | [E7] . [D/E] [Em7b5] | 
+| [E7] (so come on and ) |
 
 {start_of_chorus}
 So come on and plea[A]se

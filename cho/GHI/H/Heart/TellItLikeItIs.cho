@@ -5,11 +5,11 @@
 {tempo: 67}
 {time: 6/8}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Caug |
+| [Caug] |
 
 {start_of_verse}
 If you [Gm6]want something to [C7]play with, go
@@ -46,7 +46,7 @@ Just forget [Gm]your [C7]foolish [F]pride.[Fmaj7][F6]
 {end_of_chorus}
 
 {comment: Interlude}
-| Am | Dm | Am Dm | Am Bb | C | Gm7 | Am |
+| [Am] | [Dm] | [Am] [Dm] | [Am] [Bb] | [C] | [Gm7] | [Am] |
 Ooooooh-ohhh-I-I-I-I...
 
 {start_of_chorus}

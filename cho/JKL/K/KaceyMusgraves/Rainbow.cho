@@ -5,13 +5,13 @@
 {tempo: 65}
 {meta: nord: P23}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P23}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P23   }
+{comment:***********************************************}
 
 {comment: Intro}
-| Eb . Cm7 . | Absus2 . Eb . |
-| Eb . Cm7 . | Absus2 . . .  |
+| [Eb] . [Cm7] . | [Absus2] . [Eb] . |
+| [Eb] . [Cm7] . | [Absus2] . . .  |
 
 {start_of_verse}
 [Eb]When it rains it [Cm7]pours, but you [Absus2]didn't even [Eb]notice
@@ -40,7 +40,7 @@ That there's[Cm] always been a [Eb]rainbow hangin[Bb7]g over your [Eb]head
 {end_of_chorus}
 
 {comment: Interlude}
-| Eb . Cm7 . | Ab . Eb . | Cm7 . Absus2 . | Bbsus . Bb -> |
+| [Eb] . [Cm7] . | [Ab] . [Eb] . | [Cm7] . [Absus2] . | [Bbsus] . [Bb] -> |
 
 {comment: Bridge}
 Oh, tie [Cm]up the boat, take [G+/B]off your coat, and [Eb/Bb]take a look around[F9]

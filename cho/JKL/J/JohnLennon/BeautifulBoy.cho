@@ -3,13 +3,13 @@
 {key: D}
 {tempo: 100}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {columns: 2}
 
 {comment:Intro}
-| D D6 | Em | D D6 | Em |
+| [D] [D6] | [Em] | [D] [D6] | [Em] |
 
 {start_of_verse}
 [D]Close your [D6]eyes  [D]   [D6]
@@ -66,4 +66,4 @@ Before you [D]cross the [D6]street[D] [D6]
 {end_of_chorus}
 
 {comment:Outro}
-| D D6 | Em | D D6 | Em |
+| [D] [D6] | [Em] | [D] [D6] | [Em] |

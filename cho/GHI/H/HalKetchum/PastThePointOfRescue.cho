@@ -20,7 +20,7 @@
 {comment:***********************************************}
 
 {comment:Intro}
-| Em | D | A | Em |
+| [Em] | [D] | [A] | [Em] |
 
 {start_of_verse}
 [Em]  Last night I dreamed you were [D]back again
@@ -32,7 +32,7 @@
 {end_of_verse}
 
 {comment: Core Riff}
-| Em | Em |
+| [Em] | [Em] |
 
 {start_of_verse}
 [Em]Days like a slow train [D]trickle by
@@ -44,7 +44,7 @@
 {end_of_verse}
 
 {comment: Core Riff}
-| Em |
+| [Em] |
 
 {start_of_chorus}
 But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
@@ -54,7 +54,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 {end_of_chorus}
 
 {comment:Interlude}
-| Em | D | A | Em |
+| [Em] | [D] | [A] | [Em] |
 
 {start_of_verse}
 [Em]I swore I'd never fall like [D]this again
@@ -66,7 +66,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 {end_of_verse}
 
 {comment: Core Riff}
-| Em |
+| [Em] |
 
 {start_of_chorus}
 But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
@@ -76,7 +76,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 {end_of_chorus}
 
 {comment: Core Riff}
-| Em |
+| [Em] |
 
 {start_of_chorus}
 But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
@@ -89,11 +89,11 @@ I, [D]no you don't, but I [Em]do
 I, [D]no you don't, but I [Em]do
 
 {comment: Outro}
-| Em | D | A | Em | 
-| Em | D | A | Em | 
-| Em | D | A | Em | 
-| Em | D | A | Em | 
+| [Em] | [D] | [A] | [Em] | 
+| [Em] | [D] | [A] | [Em] | 
+| [Em] | [D] | [A] | [Em] | 
+| [Em] | [D] | [A] | [Em] | 
 
-| Em | D | A | Em | 
-| Em | D | A | Em | 
-| Em | 
+| [Em] | [D] | [A] | [Em] | 
+| [Em] | [D] | [A] | [Em] | 
+| [Em] | 

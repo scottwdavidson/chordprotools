@@ -4,15 +4,15 @@
 {duration: 3:50}
 {tempo: 116}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: String Intro}
 
 {comment: Intro}
 | - - (F#:A:F#:E)|
-| F#m . D . | Bm . E . | 
-| F#m . D . | Bm . E . | 
+| [F#m] . [D] . | [Bm] . [E] . | 
+| [F#m] . [D] . | [Bm] . [E] . | 
 
 {start_of_verse}
 [F#m] I never [D]thought that I would [Bm]find a way [E]out

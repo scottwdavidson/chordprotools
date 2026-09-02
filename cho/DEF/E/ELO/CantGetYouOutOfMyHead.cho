@@ -1,12 +1,15 @@
 {title: Can't Get You Out Of My Head}
 {artist: ELO}
+{key: C}
 {duration: 4:00}
 {tempo: 85}
-{key: C}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| C | G/C | F/C | G/C |
-| C | G/C | F/C | G/C |
+| [C] | [G/C] | [F/C] | [G/C] |
+| [C] | [G/C] | [F/C] | [G/C] |
 
 {start_of_verse}
 [Cadd9]Midnight, on the [Am]water[Asus2][Am]
@@ -37,9 +40,9 @@ Now my [C]old world is [G/C]gone for [F/C]dead[G/C]
 {end_of_chorus}
 
 {comment: Instrumental Bridge}
-||: C | Cmaj7 | C7 | F7 | G7 :|| x2
-||: C | Cmaj7 | C7 | F7 | G7 :|| x2
-| Ab | Ab | Bb | Bb | C | C | 
+||: [C] | [Cmaj7] | [C7] | [F7] | [G7] :|| x2
+||: [C] | [Cmaj7] | [C7] | [F7] | [G7] :|| x2
+| [Ab] | [Ab] | [Bb] | [Bb] | [C] | [C] | 
 
 {start_of_verse}
 [Cadd9]Bank job, in the [Am]city[Asus2][Am]
@@ -57,4 +60,4 @@ Now my [C]old world is [G/C]gone for [F/C]dead[G/C]
 {end_of_chorus}
 
 {comment: Outro}
-| C | Cmaj7 | C7 | F7 | G7 | Ab | Bb | C | 
+| [C] | [Cmaj7] | [C7] | [F7] | [G7] | [Ab] | [Bb] | [C] | 

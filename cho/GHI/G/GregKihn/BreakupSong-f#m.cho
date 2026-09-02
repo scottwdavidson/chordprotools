@@ -16,9 +16,9 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| F#m ... | D ... | E ... | F#m ... | 
+| [F#m] ... | [D] ... | [E] ... | [F#m] ... | 
 
-| F#m ... | D ... | E ... | F#m ... | 
+| [F#m] ... | [D] ... | [E] ... | [F#m] ... | 
 
 
 
@@ -69,9 +69,9 @@ Uh uh [E]uh uh uh uh uh [F#m]uh[E]
 
 {comment: BB-PART-01}
 {comment: Repeat Intro}
-| F#m ... | D ... | E ... | F#m ... | 
+| [F#m] ... | [D] ... | [E] ... | [F#m] ... | 
 
-| F#m ... | D ... | E ... | F#m ... | 
+| [F#m] ... | [D] ... | [E] ... | [F#m] ... | 
 
 {start_of_verse}
 Now I [F#m]wind up staring at an [D]empty glass
@@ -100,9 +100,9 @@ Uh uh [E]uh uh uh uh uh [F#m]uh[E]
 
 {comment: BB-PART-01}
 {comment: Repeat Intro}
-| F#m ... | D ... | E ... | F#m ... | 
+| [F#m] ... | [D] ... | [E] ... | [F#m] ... | 
 
-| F#m ... | D ... | E ... | F#m ... | 
+| [F#m] ... | [D] ... | [E] ... | [F#m] ... | 
 
 
 {start_of_verse}
@@ -129,4 +129,4 @@ Uh uh [E]uh uh uh uh uh [F#m]uh[E]
 [D]__[D]_They just don't [A]wri[A]te 'em like that any[E]more__[E]
 {end_of_chorus}
 
-| F#m F#m |
+| [F#m] [F#m] |

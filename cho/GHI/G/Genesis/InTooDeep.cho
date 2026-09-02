@@ -2,11 +2,11 @@
 {artist: Genesis}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Bbm7 . | Cm7 . | Dbmaj7 . | Eb . |
+| [Bbm7] . | [Cm7] . | [Dbmaj7] . | [Eb] . |
 
 {start_of_verse}
 [Fm7] All that time I was sear[Db]ching
@@ -71,9 +71,9 @@ Oh you [Cm7/Bb]must beli[Bbm7]eve me
 I can feel your [Cm7/Bb]eyes go thr[Bbm7]ough me but I don't know wh[Eb/Db]y
 
 {comment: Instrumental}
-|  F   . | Bbadd9 | %  | Ebadd9 Ab |
-|  Ab  F | Bbadd9 | %  | Ebadd9    |
-|  Ab  F | Eb  Ab | Ab | Ab/C Cm   |
+|  [F]   . | [Bbadd9] | %  | [Ebadd9] [Ab] |
+|  [Ab]  [F] | [Bbadd9] | %  | [Ebadd9]    |
+|  [Ab]  [F] | [Eb]  [Ab] | [Ab] | [Ab/C] [Cm]   |
 
 {comment:Pre-Chorus}
 {start_of_chorus}

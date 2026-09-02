@@ -3,10 +3,10 @@
 {key: D}
 {tempo: 119}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-| D | A | Gadd9 | Gadd9 | Bm | A | Gadd9 | Gadd9 |
+| [D] | [A] | [Gadd9] | [Gadd9] | [Bm] | [A] | [Gadd9] | [Gadd9] |
 
 {start_of_verse}
 [Dadd9]It wasn't even [A]in my plan;
@@ -43,7 +43,7 @@ while the [Gadd9]wind and the waves wash away my blues
 {end_of_chorus}
 
 {comment: Instrumental}
-| D | A | Gadd9 | Gadd9 | Bm | F#m | G | A |
+| [D] | [A] | [Gadd9] | [Gadd9] | [Bm] | [F#m] | [G] | [A] |
 
 {start_of_chorus}
 [D]Didn't plan on [A]hangin' out in [G]Florida;[G]
@@ -54,4 +54,4 @@ while the [Gadd9]wind and the waves wash away my blues
 {end_of_chorus}
 
 {comment: Outro}
-| Em | C#7 | D |
+| [Em] | [C#7] | [D] |

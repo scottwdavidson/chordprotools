@@ -20,9 +20,9 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| Cmaj7 C . . | C . . . | Em . . . | G . . . |
+| [Cmaj7] [C] . . | [C] . . . | [Em] . . . | [G] . . . |
 
-| Cmaj7 C . . | C . . . | Em . . . | G . . . | G . . . |
+| [Cmaj7] [C] . . | [C] . . . | [Em] . . . | [G] . . . | [G] . . . |
 
 
 {start_of_verse}
@@ -68,9 +68,9 @@ You still aim [G]high.  [G]
 
 
 {comment: Interlude}
-| Cmaj7 C . . | C . . . | Em . . . | G . . . |
+| [Cmaj7] [C] . . | [C] . . . | [Em] . . . | [G] . . . |
 
-| Cmaj7 C . . | C . . . | Em . . . | G . . . |
+| [Cmaj7] [C] . . | [C] . . . | [Em] . . . | [G] . . . |
 
 
 {start_of_chorus}

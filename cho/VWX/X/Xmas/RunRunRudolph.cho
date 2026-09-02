@@ -5,9 +5,9 @@
 {tempo: 151}
 {meta: countin: 4}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {comment: Guitar Intro Pattern - Section I}
 {comment: Over A major}
@@ -19,7 +19,7 @@
 {comment: Guitar Intro Pattern - Section II}
 {comment: Now in 4/4 time}
 
-| D . . . | D . . . | A . . . | A . . . | E . . . | E . . . | A . . . | A . . . |
+| [D] . . . | [D] . . . | [A] . . . | [A] . . . | [E] . . . | [E] . . . | [A] . . . | [A] . . . |
 
 
 
@@ -53,11 +53,11 @@ And then a[E]way went Rudolph whizzing like a shooting [A]star.
 
 {comment: Guitar Solo}
 
-| A . . . | A . . . | A . . . | A . . . |
+| [A] . . . | [A] . . . | [A] . . . | [A] . . . |
 
-| D . . . | D . . . | A . . . | A . . . |
+| [D] . . . | [D] . . . | [A] . . . | [A] . . . |
 
-| E . . . | E . . . | A . . . | A . . . |
+| [E] . . . | [E] . . . | [A] . . . | [A] . . . |
 
  
 

@@ -1,12 +1,15 @@
 {title: Cigarette Daydreams}
 {artist: Cage The Elephant}
 {key: D}
-{tempo: 114}
 {duration: 3:00}
+{tempo: 114}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| D . . . | Dmaj7 . . . | Em . . . |
-| G . . . | A . . . |
+| [D] . . . | [Dmaj7] . . . | [Em] . . . |
+| [G] . . . | [A] . . . |
 
 {start_of_verse}
 [D] Did you stand there all a[Dmaj7]lone?

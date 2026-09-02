@@ -3,11 +3,11 @@
 {key: Am}
 {tempo: 126}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Am | C | G | D |
+| [Am] | [C] | [G] | [D] |
 
 
 {start_of_verse}
@@ -50,7 +50,7 @@ That we forg[D]et to begin but
 
 
 {comment: Bridge}
-| Am | C | G | D |
+| [Am] | [C] | [G] | [D] |
 
 
 {start_of_verse}

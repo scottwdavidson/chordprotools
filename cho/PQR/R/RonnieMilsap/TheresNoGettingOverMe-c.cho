@@ -14,8 +14,8 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| C . . . | Am . . . |
-| C . . . | Am . . . |
+| [C] . . . | [Am] . . . |
+| [C] . . . | [Am] . . . |
 
 {start_of_verse}
 Well you can [C]walk out on me [Am]tonight
@@ -46,10 +46,10 @@ Sweet [Dm]darling there ain't [G7]no getting over [C]me[C/Am]
 {end_of_verse}
 
 {comment: solo}
-| C . . .  | Am . . . |
-| C . . .  | Am . . . |
-| Dm . . . | G7 . . . |
-| C . . .  | C/Am . . . |
+| [C] . . .  | [Am] . . . |
+| [C] . . .  | [Am] . . . |
+| [Dm] . . . | [G7] . . . |
+| [C] . . .  | [C/A]m . . . |
 
 {start_of_chorus}
 I'll be the [Am]face that you see in the [Em]crowd
@@ -74,5 +74,5 @@ There ain't [G7]no getting over [C]me
 There ain't no [G7]getting over [C]me
 
 {comment: Outro}
-| C . . .  | Am . . . | C . . . | Am . . . |
-| Dm . . . | G7 . . . | C . . . | C . . . |
+| [C] . . .  | [Am] . . . | [C] . . . | [Am] . . . |
+| [Dm] . . . | [G7] . . . | [C] . . . | [C] . . . |

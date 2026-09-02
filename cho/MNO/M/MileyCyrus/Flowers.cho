@@ -1,18 +1,18 @@
 {title: Flowers}
 {artist: Miley Cyrus}
 {key: Am}
-{tempo: 122}
 {duration: 3:00}
-{meta:nord: N21}
-{meta:countin: 8}
+{tempo: 122}
+{meta: nord: N21}
+{meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: ** meta:nord: N21}
-{comment: ** meta:countin: 8}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N21   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment:Intro}
-| Cmaj7   |
+| [Cmaj7]   |
 
 {comment:DR START (Intro / DR1)}
 

@@ -18,8 +18,8 @@
 {comment:***********************************************}
 
 {comment:Intro}
-| (pickup} B D E G/D | Em7 E5 D/E E5 | Em7 E5 D/E E5 |
-| Em7 E5 C6/9 D6/9   | E5  .  .   .  |
+| (pickup} [B] [D] [E] [G/D] | [Em7] [E5] [D/E] [E5] | [Em7] [E5] [D/E] [E5] |
+| [Em7] [E5] [C6]/9 [D6]/9   | [E5]  .  .   .  |
 
 {start_of_verse}
 Just as I t[Em]hought it was going al[D/E]right,
@@ -74,12 +74,12 @@ Say we'll be together, [Em]till the end.
 {end_of_bridge}
 
 {comment: Instrumental}
-| (pickup} B D E G/D | Em7 E5 D/E E5 | Em7 E5 D/E E5 |
-| Em7 E5 C6/9 D6/9   | E5  .  .   .  |
-| Am7 . . . | D7 . . . |
-| Am7 . . . | D7 . . . |
-| Am7 . . . | D7 . . . |
-| Am7 . . . | D7 . . Em |
+| (pickup} [B] [D] [E] [G/D] | [Em7] [E5] [D/E] [E5] | [Em7] [E5] [D/E] [E5] |
+| [Em7] [E5] [C6]/9 [D6]/9   | [E5]  .  .   .  |
+| [Am7] . . . | [D7] . . . |
+| [Am7] . . . | [D7] . . . |
+| [Am7] . . . | [D7] . . . |
+| [Am7] . . . | [D7] . . [Em] |
 
 
 {comment: SCOTT}
@@ -115,13 +115,13 @@ Always the [Am7]same, it's just a [D]shame, that's [Em]all.
 
 
 {comment: Instrumental}
-| Em7 E5 D/E E5      | Em7 E5 D/E E5 |
-| Em7 E5 C6/9 D6/9   | E5  .  .   .  |
-| Am7  .  D  .       | Am7 .  D   .  |
-| Am7  .  D  .       | Em7 .  .   .  |
-| Em . . . |
-| Em7 E5 D/E E5      | Em7 E5 D/E E5 |
-| Em7 E5 C6/9 D6/9   | E5  .  .   .  |
-| Am7  .  D  .       | Am7 .  D   .  |
-| Am7  .  D  .       | Em7 .  .   .  |
-| Em . . . |
+| [Em7] [E5] [D/E] [E5]      | [Em7] [E5] [D/E] [E5] |
+| [Em7] [E5] [C6]/9 [D6]/9   | [E5]  .  .   .  |
+| [Am7]  .  [D]  .       | [Am7] .  [D]   .  |
+| [Am7]  .  [D]  .       | [Em7] .  .   .  |
+| [Em] . . . |
+| [Em7] [E5] [D/E] [E5]      | [Em7] [E5] [D/E] [E5] |
+| [Em7] [E5] [C6]/9 [D6]/9   | [E5]  .  .   .  |
+| [Am7]  .  [D]  .       | [Am7] .  [D]   .  |
+| [Am7]  .  [D]  .       | [Em7] .  .   .  |
+| [Em] . . . |

@@ -2,11 +2,11 @@
 {artist: Bad English}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Gsus |
+| [Gsus] |
 
 {start_of_verse}
 [G]  Sometimes I wonder how I'd ever [C]make it through,
@@ -48,7 +48,7 @@ So [Em]right...
 {end_of_bridge}
 
 {comment:Solo}
-|(Em)   | D/F#  | Bm    | E     |
+|(Em)   | [D/F#]  | [Bm]    | [E]     |
 
 {start_of_chorus}
 [A]  When I [E]see you [D]smile, I can face the [A]world, oh [E]oh, you know [D]I can do anything[E]

@@ -1,9 +1,12 @@
 {title: Te Ni Nee Ni}
-{artist:Lou Ann Barton}
+{artist: Lou Ann Barton}
 {key: E}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 Intro:
-| E | A | B | 12 bars blues
+| [E] | [A] | [B] | 12 bars blues
 
 {start_of_verse}
 I want [E]you
@@ -49,4 +52,4 @@ Tell me the [B]truth
 {end_of_verse}
 
 {comment:Outro}
-| E | A | B | 12 bars blues
+| [E] | [A] | [B] | 12 bars blues

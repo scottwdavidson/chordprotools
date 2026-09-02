@@ -1,12 +1,15 @@
 {title: Tonight I Wanna Cry}
 {artist: Keith Urban}
 {key: G}
-{tempo: 104}
 {duration: 3:59}
+{tempo: 104}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
-| G . . . | G(add9)/B . . . | C . . . | C . . . |
-| G . . . | G(add9)/B . . . | C . . . | C . . . |
+| [G] . . . | [G(add9)/B] . . . | [C] . . . | [C] . . . |
+| [G] . . . | [G(add9)/B] . . . | [C] . . . | [C] . . . |
 {end_of_part}
 
 
@@ -28,7 +31,7 @@ To[G/C]night I wanna [G]cry.
 {end_of_chorus}
 
 {start_of_part: Interlude}
-| G . . . | G(add9)/B . . . | C . . . | C . . . |
+| [G] . . . | [G(add9)/B] . . . | [C] . . . | [C] . . . |
 {end_of_part}
 
 
@@ -50,8 +53,8 @@ To[G/C]night I wanna [Gsus/A]cry.
 {end_of_chorus}
 
 {start_of_part: Turn around}
-| Gsus/A . . . | Bm7 . . . | C . . . | Gadd9/B . .    . |
-| Gsus/A . . . | G/B . . . | C . . . | D       . B/D# . |
+| [Gsus/A] . . . | [Bm7] . . . | [C] . . . | [Gadd9/B] . .    . |
+| [Gsus/A] . . . | [G/B] . . . | [C] . . . | [D]       . [B/D#] . |
 {end_of_part}
 
 
@@ -66,6 +69,6 @@ To[G/C]night I wanna [Gsus/A]cry.
 Tonight [N.C.]I wanna cry.
 
 {start_of_part: Outro}
-| G . . . | G(add9)/B . . . | C . . . | C . . . |
-| G . . . | G(add9)/B . . . | C . . . | C . . . |
+| [G] . . . | [G(add9)/B] . . . | [C] . . . | [C] . . . |
+| [G] . . . | [G(add9)/B] . . . | [C] . . . | [C] . . . |
 {end_of_part}

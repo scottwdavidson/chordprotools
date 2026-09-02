@@ -4,17 +4,17 @@
 {duration: }
 {tempo: }
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro - organ}
-| Dm | Dm | Dm | Dm |
+| [Dm] | [Dm] | [Dm] | [Dm] |
 
 {comment: Intro - guitar / organ / percussion}
-| Dm | Dm | Dm | Dm | x 2
-| Dm | Dm | Dm | Am | 
-| Am | Dm | Dm | Gm | 
-| Dm | Dm | A7 | Dm |
+| [Dm] | [Dm] | [Dm] | [Dm] | x 2
+| [Dm] | [Dm] | [Dm] | [Am] | 
+| [Am] | [Dm] | [Dm] | [Gm] | 
+| [Dm] | [Dm] | [A7] | [Dm] |
 
 {start_of_verse}
 I got a black magic w[Dm]oman, I got a black magic w[Am]oman
@@ -31,9 +31,9 @@ You just mi[A7]ght pick up my magic st[Dm]icks
 {end_of_verse}
 
 {comment: Solo}
-||: Dm | Dm | Dm | Am | 
-  | Am | Dm | Dm | Gm | 
-  | Dm | Dm | A7 | Dm :|| x2
+||: [Dm] | [Dm] | [Dm] | [Am] | 
+  | [Am] | [Dm] | [Dm] | [Gm] | 
+  | [Dm] | [Dm] | [A7] | [Dm] :|| x2
 
 {start_of_verse}
 Got your spell on me [Dm]baby, you got your spell on me [Am]baby
@@ -42,16 +42,16 @@ I n[Dm]eed you so bad magic w[A7]oman I can't leave you al[Dm]one
 {end_of_verse}
 
 {comment: Outro - organ/guitar}
-||: Dm | Dm | Dm | Dm :|| x2
+||: [Dm] | [Dm] | [Dm] | [Dm] :|| x2
 
 {comment: Outro}
-  | D A | D A | D A | D A |
+  | [D] [A] | [D] [A] | [D] [A] | [D] [A] |
 
-||: D | D | D | D :|| x 9
-||: D | D | D |
-    C | G | A | D :|| x 3
-||: D | A | C |
-    C | G | A | D :|| x 8
+||: [D] | [D] | [D] | [D] :|| x 9
+||: [D] | [D] | [D] |
+    [C] | [G] | [A] | [D] :|| x 3
+||: [D] | [A] | [C] |
+    [C] | [G] | [A] | [D] :|| x 8
 
 
 

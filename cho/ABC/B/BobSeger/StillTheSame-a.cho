@@ -20,9 +20,9 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| Amaj7 A . . | A . . . | C#m . . . | E . . . |
+| [Amaj7] [A] . . | [A] . . . | [C#m] . . . | [E] . . . |
 
-| Amaj7 A . . | A . . . | C#m . . . | E . . . | E . . . |
+| [Amaj7] [A] . . | [A] . . . | [C#m] . . . | [E] . . . | [E] . . . |
 
 
 {start_of_verse}
@@ -77,10 +77,10 @@ You still aim [E]high.  [E]
 
 
 {comment: Interlude}
-| Amaj7 A . . | A . . . | C#m . . . | E . . . |
+| [Amaj7] [A] . . | [A] . . . | [C#m] . . . | [E] . . . |
                                           (Still the same, still the same)
 
-| Amaj7 A . . | A . . . | C#m . . . | E . . . |
+| [Amaj7] [A] . . | [A] . . . | [C#m] . . . | [E] . . . |
                                           (Still the same, still the same)
 
 

@@ -18,8 +18,8 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| Eb Ab Eb Ab | Eb Ab Eb Ab   |
-| Eb Ab Eb Ab | Eb (whenever) |
+| [Eb] [Ab] [Eb] [Ab] | [Eb] [Ab] [Eb] [Ab]   |
+| [Eb] [Ab] [Eb] [Ab] | [Eb] (whenever) |
 
 {start_of_verse}
 Whenever I'm [Fm7]with him,
@@ -54,10 +54,10 @@ It's like a h[Eb]eat[Ab]-wave[Eb]_[Ab]
 {end_of_chorus}
 
 {comment: Interlude}
-| Fm7 . . . | Gm7 . . . | Cm7 . . . | Cm7 . . . |
-| Fm7 . . . | Gm7 . . . | Cm7 . . . | Cm7 . . . |
-| Fm7 . . . | Gm7 . . . | Ab  . . . | Bb  . . . |
-| Eb  . . . | Eb  . . . | Eb  . . . | Eb (sometimes) | 
+| [Fm7] . . . | [Gm7] . . . | [Cm7] . . . | [Cm7] . . . |
+| [Fm7] . . . | [Gm7] . . . | [Cm7] . . . | [Cm7] . . . |
+| [Fm7] . . . | [Gm7] . . . | [Ab]  . . . | [Bb]  . . . |
+| [Eb]  . . . | [Eb]  . . . | [Eb]  . . . | [Eb] (sometimes) | 
 
 {start_of_verse}
 Sometimes I star[Fm7]e in space,
@@ -91,4 +91,4 @@ H[Eb]eat[Ab]-wave[Eb]_[Ab]
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 
-| Fm7 . Fm7 .| Gm7 . Gm7 . | Cm . Cm . |
+| [Fm7] . [Fm7] .| [Gm7] . [Gm7] . | [Cm] . [Cm] . |

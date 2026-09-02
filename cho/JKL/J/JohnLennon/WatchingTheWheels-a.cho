@@ -18,7 +18,7 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| A . . Am | D . . . | A . . . | D . . . | 
+| [A] . . [Am] | [D] . . . | [A] . . . | [D] . . . | 
 
 {start_of_verse: Verse 1}
 [A]People say I'm crazy[D], doing what I'm [A]doing__[D]
@@ -42,7 +42,7 @@ I really [F#m/C#]love to watch them [Bm]roll[Bm/A]
 {end_of_chorus}
 
 {comment: Instrumental}
-| A . . Am | D . . . | A . . . | D . . . | 
+| [A] . . [Am] | [D] . . . | [A] . . . | [D] . . . | 
 
 {start_of_verse}
 Ah, [A]people asking questions[D], lost in con[A]fusion__[D]

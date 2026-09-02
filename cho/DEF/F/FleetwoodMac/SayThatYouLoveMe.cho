@@ -7,21 +7,20 @@
 {meta: countin: 4}
 {meta: performance: A}
 
-{comment: ***********************************************}
-{comment: ** meta: nord: N12}
-{comment: ** meta: performance: A}
-{comment: ** meta: backing: 100}
-{comment: ** meta: countin: 4  }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N12   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro}
-|  A    D/A | A    D/A  | 
+|  [A]    [D/A] | [A]    [D/A]  | 
 
-|  A    D/A | A    D/A  |
+|  [A]    [D/A] | [A]    [D/A]  |
 
-|  A    D/A | A   F#m E | 
+|  [A]    [D/A] | [A]   [F#m] [E] | 
 
-|  A    D/A | A   F#m E |
+|  [A]    [D/A] | [A]   [F#m] [E] |
 
 
 {start_of_verse}
@@ -57,15 +56,15 @@ And you sa[F#m]y-[E]ay that you [A]love me.
 
 
 {comment: Guitar Solo - Part 1}
-| Bm   | E   | Bm     | E  |
+| [Bm]   | [E]   | [Bm]     | [E]  |
 
-| Bm   | E   | A  D/A | A  |
+| [Bm]   | [E]   | [A]  [D/A] | [A]  |
 
 
 {comment: Guitar Solo - Part 2}
-| Bm   | E   | Bm     | E  |
+| [Bm]   | [E]   | [Bm]     | [E]  |
 
-| Bm   | E   | A  D/A | A  |
+| [Bm]   | [E]   | [A]  [D/A] | [A]  |
 
 
 {start_of_verse}
@@ -90,7 +89,7 @@ And [F#m]there's not a[E]nother living [A]soul around,
 You [F#m]woo [E]me [D]until the [A]sun comes up
 And you sa[F#m]y-[E]ay that you [A]love me.
 Sa[F#m]y-[E]ay that you [A]love me.
-Sa[F#m]y-[E]ay that you [D]love me.  |  D  |
+Sa[F#m]y-[E]ay that you [D]love me.  |  [D]  |
 {end_of_chorus}
 
 
@@ -100,4 +99,4 @@ Sa[F#m]y-[E]ay that you [D]love me.  |  D  |
 [A]  [D/A]  [A]Falling, [D/A]falling, [A]falling,  [D/A]  [A]    [D/A]
 [A]  [D/A]  [A]Falling, [D/A]falling, [A]falling,  [D/A]  [A]    [D/A]
 
-|  A  |
+|  [A]  |

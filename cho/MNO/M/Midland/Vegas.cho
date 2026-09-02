@@ -4,11 +4,11 @@
 {duration: 3:28}
 {tempo: 133}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| D ... | Dmaj7 ... | G . A . | D ... | ?
+| [D] ... | [Dmaj7] ... | [G] . [A] . | [D] ... | ?
 
 {start_of_verse}
 [D]Feeding slot machines, [Dmaj7]drinking free drinks, [G]we struck up a [A]conver[D]sation
@@ -55,7 +55,7 @@ But that's what [G]happens when what [F#m]happens in
 
 
 {comment: Pedal Steel Solo}
-| F#m ... | Em ... | A ... | D ... |
+| [F#m] ... | [Em] ... | [A] ... | [D] ... |
 
 
 {comment: Outro}

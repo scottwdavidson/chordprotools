@@ -2,10 +2,13 @@
 {artist: Robert Palmer}
 {key: F}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {{ https://www.sheetmusicdirect.com/en-US/se/ID_No/17481/Product.aspx}}
 
 {comment: Intro}
-| Fmaj 7 . . . | x 16 ? 
+| [Fmaj] 7 . . . | x 16 ? 
 
 {start_of_verse}
 Said the [Fmaj7]fight to make ends meet
@@ -43,7 +46,7 @@ To [Fmaj7]make the world go round
 {end_of_chorus}
 
 {comment: Solo}
-| Fmaj7 |  Dm7 |  Bb | Gm |
+| [Fmaj7] |  [Dm7] |  [Bb] | [Gm] |
 
 {start_of_verse}
 You know that [Fmaj7]loves the only goal

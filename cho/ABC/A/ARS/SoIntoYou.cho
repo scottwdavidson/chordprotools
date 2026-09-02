@@ -4,12 +4,12 @@
 {duration: 3:50}
 {tempo: 87}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro ( cut time )}
-||: F7sus4 | F7sus4 | F7sus4/Db | F7sus4/C :||
- |  Fm7    | Fm7    | Fm7       | Fm7 |
+||: [F7sus4] | [F7sus4] | [F7sus4/Db] | [F7sus4/C] :||
+ |  [Fm7]    | [Fm7]    | [Fm7]       | [Fm7] |
 
 {start_of_verse}
 [Fm7]When you walked into the room

@@ -5,15 +5,15 @@
 {tempo: 101}
 {meta: nord: N11}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N11}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N11   }
+{comment:***********************************************}
 
 {comment: Intro}
 {comment: Piano Only - first 8 bars}
-|  Dm  |  Dm  |  Dm  |  Dm  |  
+|  [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
-|  G  |  G  |  Dm  |  Dm  |
+|  [G]  |  [G]  |  [Dm]  |  [Dm]  |
 
 
 
@@ -22,9 +22,9 @@
 
 
 {comment: Guitar Enters - next 8 bars (with pickup from previous measure)}
-|  Dm  |  Dm  |  G  |  G  |  
+|  [Dm]  |  [Dm]  |  [G]  |  [G]  |  
 
-|  Dm  |  A7  |  Dm  |  Dm  |
+|  [Dm]  |  [A7]  |  [Dm]  |  [Dm]  |
 
 
 
@@ -51,13 +51,13 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 
 
 {comment: Piano Solo}
-|  Dm  |  Dm  |  Dm  |  Dm  |  
+|  [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
-|   G   |  G   |  Dm  |  Dm  |
+|   [G]   |  [G]   |  [Dm]  |  [Dm]  |
 
-|   Dm  |  Dm  |  G   |  G  |  
+|   [Dm]  |  [Dm]  |  [G]   |  [G]  |  
 
-|   Dm  |  A7  |  Dm  |  Dm  |
+|   [Dm]  |  [A7]  |  [Dm]  |  [Dm]  |
 
 
 
@@ -72,13 +72,13 @@ You've got to [Dm]know [A7]she's the sensitive k[Dm]ind.
 
 
 {comment: Guitar Solo}
-|  Dm  |  Dm  |  Dm  |  Dm  |  
+|  [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
-|   G   |  G   |  Dm  |  Dm  |
+|   [G]   |  [G]   |  [Dm]  |  [Dm]  |
 
-|   Dm  |  Dm  |  G   |  G  |  
+|   [Dm]  |  [Dm]  |  [G]   |  [G]  |  
 
-|   Dm  |  A7  |  Dm  |  Dm  |
+|   [Dm]  |  [A7]  |  [Dm]  |  [Dm]  |
 
 
 
@@ -93,11 +93,11 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 
 
 {comment: Outro Solos}
-||: Dm  |  Dm  |  Dm  |  Dm  |  
+||: [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
-|   G   |  G   |  Dm  |  Dm  |
+|   [G]   |  [G]   |  [Dm]  |  [Dm]  |
 
-|   Dm  |  Dm  |  G   |  G  |  
+|   [Dm]  |  [Dm]  |  [G]   |  [G]  |  
 
-|   Dm  |  A7  |  Dm  |  Dm  :||
+|   [Dm]  |  [A7]  |  [Dm]  |  [Dm]  :||
 

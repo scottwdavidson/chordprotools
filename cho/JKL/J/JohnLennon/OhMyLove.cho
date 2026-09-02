@@ -4,11 +4,14 @@
 {duration: 2:45}
 {tempo: 64}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| Bm7 . . . | C#m7 . . .    | 
-| Bm7 . . . | C#m7 . . .    | 
-| D   . . . | C#m  . . C#m6 |
-| Bm7 . . . | A    . . .    | 
+| [Bm7] . . . | [C#m7] . . .    | 
+| [Bm7] . . . | [C#m7] . . .    | 
+| [D]   . . . | [C#m]  . . [C#m6] |
+| [Bm7] . . . | [A]    . . .    | 
 
 {start_of_verse}
 [D]Oh my love for the first[C#m7]time in my life
@@ -44,5 +47,5 @@ Oh, [C#m7]I  feel love
 {end_of_chorus}
 
 {comment: Outro}
-| D   . .      . | C#m  . . C#m6 |
-| Bm7 . E9sus4 . | A    . . .    | 
+| [D]   . .      . | [C#m]  . . [C#m6] |
+| [Bm7] . [E9sus4] . | [A]    . . .    | 

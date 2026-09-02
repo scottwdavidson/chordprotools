@@ -4,15 +4,15 @@
 {duration: 3:20}
 {tempo: 82}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 
 
 4 bars
 
-| Em . Em(maj7) . | Em7 . Em6 . | Em . Em(maj7) . | Em7 . Em6 . |
+| [Em] . [Em(maj7)] . | [Em7] . [Em6] . | [Em] . [Em(maj7)] . | [Em7] . [Em6] . |
 
 
 
@@ -52,7 +52,7 @@ A [G]rebel with[Fadd9]out a cl__[Em]ue. [Asus2] . .
 
 {comment: Interlude}
 4 bars
-| Em . Em(maj7) . | Em7 . Em6 . | Em . Em(maj7) . | Em7 . Em6 . |
+| [Em] . [Em(maj7)] . | [Em7] . [Em6] . | [Em] . [Em(maj7)] . | [Em7] . [Em6] . |
 
 
 

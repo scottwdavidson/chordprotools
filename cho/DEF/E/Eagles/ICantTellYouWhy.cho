@@ -2,12 +2,12 @@
 {artist: Eagles}
 {key: Bm}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| (B4) . Bm7 A/B  | . . (B5)(B5)(F#4) |
-| (B4) . Bm7 F#m7 | F#m7 |
+| (B4) . [Bm7] [A/B]  | . . (B5)(B5)(F#4) |
+| (B4) . [Bm7] [F#m7] | [F#m7] |
 
 {start_of_verse}
 [Dmaj7]Look at us baby, up all night
@@ -40,8 +40,8 @@ no, baby, [Gmaj7]I can't tell you [F#7sus4]why[F#7]
 {end_of_chorus}
 
 {comment:Interlude}
-| (B4) . Bm7 A/B  | . . (B5)(B5)(F#4) |
-| (B4) . Bm7 F#m7 | F#m7 |
+| (B4) . [Bm7] [A/B]  | . . (B5)(B5)(F#4) |
+| (B4) . [Bm7] [F#m7] | [F#m7] |
 
 {start_of_chorus}
 [Bm]Every time I try to [A/B]walk away
@@ -53,4 +53,4 @@ I [Gmaj7]can't tell you wh[Fm#7]y
 {end_of_chorus}
 
 {comment:Outro}
-| Gmaj7 . | F#m7 |
+| [Gmaj7] . | [F#m7] |

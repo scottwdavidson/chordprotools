@@ -4,13 +4,16 @@
 {duration: 2:50}
 {tempo: 140}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: in 3}
 
 
 {comment: Intro}
-| E . . | E . . | E . . | E . . | E . . | E . . |
+| [E] . . | [E] . . | [E] . . | [E] . . | [E] . . | [E] . . |
 
-| A . . | A . . | A . . | A . . |
+| [A] . . | [A] . . | [A] . . | [A] . . |
 
 
 {start_of_verse}
@@ -37,9 +40,9 @@ That [E]pulled her [E]man a[A]way.   [A]     [A]     [A]
 
 
 {comment: Interlude}
-| E . . | E . . | E . . | E . . | E . . | E . . |
+| [E] . . | [E] . . | [E] . . | [E] . . | [E] . . | [E] . . |
 
-| A . . | A . . | A . . | A . . |
+| [A] . . | [A] . . | [A] . . | [A] . . |
 
 
 {start_of_verse}
@@ -74,6 +77,6 @@ That [E]pulled her [E]man a[A]way.   [A]     [A]     [A]
 
 
 {comment: Outro}
-| E . . | E . . | E . . | E . . | E . . | E . . |
+| [E] . . | [E] . . | [E] . . | [E] . . | [E] . . | [E] . . |
 
-| A . . | A . . | A . . | A
+| [A] . . | [A] . . | [A] . . | [A]

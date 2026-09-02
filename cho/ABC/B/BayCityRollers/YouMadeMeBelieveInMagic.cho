@@ -2,13 +2,16 @@
 {artist: Bay City Rollers}
 {key: Ab}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| Ab  . . . | Ab  . . . | 
-| Bb6 . . . | Bb6 . . . |
-| Ab  . . . | Ab  . . . | 
-| Bb6 . . . | Bb6 . . . |
-| Ab  . . . | Bb6 . . . | 
-| Fm9 . . . | Bb  . . . |
+| [Ab]  . . . | [Ab]  . . . | 
+| [Bb6] . . . | [Bb6] . . . |
+| [Ab]  . . . | [Ab]  . . . | 
+| [Bb6] . . . | [Bb6] . . . |
+| [Ab]  . . . | [Bb6] . . . | 
+| [Fm9] . . . | [Bb]  . . . |
 
 {start_of_verse}
 [Abmaj7]I belie[Gm7]ved that love has gon[Abmaj7]e, have no[Bb] strength to carry o[Abmaj7]n
@@ -37,8 +40,8 @@ your love's put a [Cm7]magic into my[Gm7] lif[Bb]e
 {end_of_chorus}
 
 {comment: Solo}
-| Ab Bb Cm . | Cm . . . | Ab Bb Cm . | Cm . . . |
-| Ab Bb Cm . | Ab . . . | Bb . . (you)|
+| [Ab] [Bb] [Cm] . | [Cm] . . . | [Ab] [Bb] [Cm] . | [Cm] . . . |
+| [Ab] [Bb] [Cm] . | [Ab] . . . | [Bb] . . (you)|
 
 {start_of_chorus}
 You m[Ab]ade me bel[Bb]ieve in m[Cm]agic, 

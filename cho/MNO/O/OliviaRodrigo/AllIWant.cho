@@ -2,13 +2,13 @@
 {artist: Olivia Rodrigo}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
 {comment:all chords in 2nd inversion }
 {comment:verse pattern 3/4 | 4/4 | 3/4 | 4/4 | 4/4 ... }
-| Eb Cm7 Gm | Ab ... | Eb Cm7 Gm | Ab ... |
+| [Eb] [Cm7] [Gm] | [Ab] ... | [Eb] [Cm7] [Gm] | [Ab] ... |
 
 {start_of_verse}
 I [Eb]found a gu[Cm]y, told me [Gm]I was a [Ab]star
@@ -19,7 +19,7 @@ Does he t[Cm]hink that I'm the ki[Eb/Bb]nda girl who [Ab]needs to be saved?
 {end_of_verse}
 
 {comment:break}
-| Eb Cm7 Gm | Ab ... |
+| [Eb] [Cm7] [Gm] | [Ab] ... |
 
 {start_of_verse}
 And there's [Eb]one more [Cm]boy, he's [Gm]from my [Ab]past

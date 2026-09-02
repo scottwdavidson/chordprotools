@@ -4,14 +4,14 @@
 {duration: 3:40}
 {tempo: 98}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Bass Intro}
-|| E  | C#m7 | Amaj9 | Cmaj7 Bm7 |
+|| [E]  | [C#m7] | [Amaj9] | [Cmaj7] [Bm7] |
 
 {comment:Keyboard + Bass Intro}
-| E  | C#m7 | Amaj9 | Cmaj7 Bm7 ||
+| [E]  | [C#m7] | [Amaj9] | [Cmaj7] [Bm7] ||
 
 {start_of_verse}
 [E]When I wake up in the [C#m7]morning love[Amaj7]

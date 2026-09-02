@@ -4,9 +4,12 @@
 {duration: 3:30}
 {tempo: 144}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
-. | Am . . . | Am- F/C Am F/C Am- | Am- Gsus2/4 Gsus2/4- G G |
-. | Gsus2/4- . G . | Am . . F/C- | F/C . . - Gsus2 |
+. | [Am] . . . | Am- [F/C] [Am] [F/C] Am- | Am- [Gsus2]/4 [Gsus2]/4- [G] [G] |
+. | [Gsus2]/4- . [G] . | [Am] . . [F/C]- | [F/C] . . - [Gsus2] |
 
 
 {end_of_part}

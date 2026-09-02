@@ -3,19 +3,22 @@
 {key: C}
 {tempo: 120}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
-| Em . Em/D . | Cmaj7 . . . | B . . . | 
-| Cmaj7 . . . | E . D E/G# | Am . Em/G | 
-| D/F# . C/E . | Bm/ D . B/D# . | Em7 . Em/D . |
-| Cmaj7 . . . | B7 . . . | Cmaj7 . . .  | E7 . D9/F# E7/G# |
-| Am . Am9/G . | D/F# . C/E . | B/D# . A/C# . | 
-| B . B/A . | Em . . . | 
+| [Em] . [Em/D] . | [Cmaj7] . . . | [B] . . . | 
+| [Cmaj7] . . . | [E] . [D] [E/G#] | [Am] . [Em/G] | 
+| [D/F#] . [C/E] . | [Bm]/ [D] . [B/D#] . | [Em7] . [Em/D] . |
+| [Cmaj7] . . . | [B7] . . . | [Cmaj7] . . .  | [E7] . [D9/F#] [E7/G#] |
+| [Am] . [Am9/G] . | [D/F#] . [C/E] . | [B/D#] . [A/C#] . | 
+| [B] . [B/A] . | [Em] . . . | 
 {end_of_part}
 
 
 {start_of_bridge: Bridge}
-| Em . . . | Em . . . | C7 . . . | C7 . . . | 
-| Em . . . | Em . . . | C7 . . . | C7 . (well we) | 
+| [Em] . . . | [Em] . . . | [C7] . . . | [C7] . . . | 
+| [Em] . . . | [Em] . . . | [C7] . . . | [C7] . (well we) | 
 {end_of_bridge}
 
 

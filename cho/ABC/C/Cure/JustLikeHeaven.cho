@@ -4,20 +4,20 @@
 {duration: 3:10}
 {tempo: 153}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro - bass only}
-| A . . . | E . . . | Bm7 . . . | D . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
 
 {comment: Intro}
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
 
 {start_of_verse}
 "Show me, show me, [A]show me how you [E]do that trick
@@ -31,10 +31,10 @@ I'll run a[Bm7]way with you"[D]
 {end_of_verse}
 
 {comment: Interlude}
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
-| A . . . | E . . . | Bm7 . . . | D . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
 
 {start_of_verse}
 [A]Spinning on that [E]dizzy edge
@@ -57,10 +57,10 @@ You're just like a [Bm7]dream[D]
 {end_of_chorus}
 
 {comment: Interlude}
-| A . . . | E . . . | Bm . . . | D . . . |
-| A . . . | E . . . | Bm . . . | D . . . |
-| A . . . | E . . . | Bm . . . | D . . . |
-| A . . . | E . . . | Bm . . . | D . . . |
+| [A] . . . | [E] . . . | [Bm] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm] . . . | [D] . . . |
+| [A] . . . | [E] . . . | [Bm] . . . | [D] . . . |
 
 {start_of_verse}
 [A]Daylight licked me [E]into shape

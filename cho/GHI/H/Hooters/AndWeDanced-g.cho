@@ -20,14 +20,14 @@
 {comment:***********************************************}
 
 {comment: Intro - Mandolin and Synth}
-|Csus2  .  .  .  | Dsus  D  .  .  | G/B  .  .  .  | Csus2  .  .  .  |
-|Csus2  .  .  .  | Dsus  D  .  .  | Em7  .  .  .  | Csus2  .  .  .  |
+|[Csus2]  .  .  .  | [Dsus]  [D]  .  .  | [G/B]  .  .  .  | [Csus2]  .  .  .  |
+|[Csus2]  .  .  .  | [Dsus]  [D]  .  .  | [Em7]  .  .  .  | [Csus2]  .  .  .  |
 
 
 {comment: Intro - Main Theme}
-| G  D/G  G  .  | C/G  .  .  G  | G  D/G  G  .  | C  .  Em  .  |
-| G  D/G  G  .  | C/G  .  .  G  | G  D/G  G  .  | C  .  Em  .  |
-| G  D/G  G  .  | C/G  .  .  G  | G  D/G  G  .  | Em  .  .  .  | Em  . |
+| [G]  [D/G]  [G]  .  | [C/G]  .  .  [G]  | [G]  [D/G]  [G]  .  | [C]  .  [Em]  .  |
+| [G]  [D/G]  [G]  .  | [C/G]  .  .  [G]  | [G]  [D/G]  [G]  .  | [C]  .  [Em]  .  |
+| [G]  [D/G]  [G]  .  | [C/G]  .  .  [G]  | [G]  [D/G]  [G]  .  | [Em]  .  .  .  | [Em]  . |
 
 
 {start_of_verse}
@@ -65,16 +65,16 @@ Yea, we d[C]anced and danced and danced.
 
 
 {comment: Interlude - Chorus Theme}
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
+| [G]  .  .  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  [Em]  .  |
                                                                 (And we danced)
 
-| G  .  .  .  | C  .  G  .  | D  .  G  .  | Em  .  .  .  |
+| [G]  .  .  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [Em]  .  .  .  |
 
 
 {comment: Bridge - Mandolin Theme}
-|Am11  .  .  .  | Dsus  D  .  .  | G/B  .  .  .  | Am11  .  .  .  |
+|[Am11]  .  .  .  | [Dsus]  [D]  .  .  | [G/B]  .  .  .  | [Am11]  .  .  .  |
  
-|Am11  .  .  .  | Dsus  D  .  .  | Em7  .  .  .  | Am11  .  .  .  |
+|[Am11]  .  .  .  | [Dsus]  [D]  .  .  | [Em7]  .  .  .  | [Am11]  .  .  .  |
 
 
 {start_of_bridge}
@@ -100,25 +100,25 @@ Yea, we d[C]anced and danced and danced.
 
 {comment: Outro - Chorus Theme}
 
-| G  D/G  G  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
+| [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  [Em]  .  |
 (danced and danced and danced                         And we danced)
-| G  D/G  G  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
+| [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  .  .  |
                                                                  (And we danced)
 
 
-| G  D/G  G  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
+| [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  [Em]  .  |
                                                                    (And we danced)
-| G  D/G  G  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
+| [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  .  .  |
                                                                  (And we danced)
 
 
-| G  D/G  G  .  | C  .  G  .  | D  .  G  .  | C  .  Em  .  |
+| [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  [Em]  .  |
                                                                    (And we danced)
-| G  D/G  G  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
+| [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  .  .  |
                                                                  (And we danced)
 
 
-| G  D/G  G  .  | C  .  G  .  | D  .  G  .  | C  .  .  .  |
+| [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  .  .  |
 
 
-| C |
+| [C] |

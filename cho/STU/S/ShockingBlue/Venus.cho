@@ -2,12 +2,12 @@
 {artist: Shocking Blue}
 {key: A}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| B7sus4 | B7sus4 | Em A   | Em  A  | 
-| B7sus4 | B7sus4 | Em A   | Em  A  | 
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | 
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | 
 
 {start_of_verse}
 A [Em]goddess on a [A]mountain t[Em]op,[A]
@@ -23,8 +23,8 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
 {comment: Solo}
-| Em  A | x7
-| Em    |
+| [Em]  [A] | x7
+| [Em]    |
 
 {start_of_verse}
 Her [Em]weapons are [A]her crystal ey[Em]es,[A]
@@ -40,11 +40,11 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
 {comment: Interlude}
-| A5 B5 | x4
+| [A5] [B5] | x4
 
 {comment: Ahhhhhhs}
-| Em A | x7 
-| E G A B B A G |
+| [Em] [A] | x7 
+| [E] [G] [A] [B] [B] [A] [G] |
 
 {start_of_chorus}
 She's [Am]got it,[D]   [Am]  yeah ba[D]by, she's [Em]got it.[A][Em][A]
@@ -53,13 +53,13 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
 {comment: Interlude}
-| A5 B5  | x4
-| B7sus4 | B7sus4 | Em A   | Em  A  | 
-| B7sus4 | B7sus4 | Em A   | Em  A  | 
+| [A5] [B5]  | x4
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | 
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | 
 
 {comment: Ahhhhhhs}
-| Em A | x7 
-| E G A B B A G |
+| [Em] [A] | x7 
+| [E] [G] [A] [B] [B] [A] [G] |
 
 {start_of_chorus}
 She's [Am]got it,[D]   [Am]  yeah ba[D]by, she's [Em]got it.[A][Em][A]
@@ -67,6 +67,6 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
-| B7sus4 | B7sus4 | Em A   | Em  A  | 
-| B7sus4 | B7sus4 | Em A   | Em  A  | 
-| Em     |
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | 
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | 
+| [Em]     |

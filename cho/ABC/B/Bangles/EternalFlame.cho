@@ -1,12 +1,15 @@
 {title: Eternal Flame}
 {artist: The Bangles}
 {key: G}
-{tempo: 80}
 {duration: 3:50}
+{tempo: 80}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| G . Gsus4 . | G . Gsus4 . |
-| G . Gsus4 . | G . Gsus4 . |
+| [G] . [Gsus4] . | [G] . [Gsus4] . |
+| [G] . [Gsus4] . | [G] . [Gsus4] . |
 
 
 {start_of_verse}

@@ -22,12 +22,12 @@
 {comment:***********************************************}
 
 {comment: Arpegiator Intro}
-| A . . . | A . . . | A . . . | A . . . |
-| A . . . | A . . . | A . . . | A . . . |
+| [A] . . . | [A] . . . | [A] . . . | [A] . . . |
+| [A] . . . | [A] . . . | [A] . . . | [A] . . . |
 
 {comment: Intro}
-| A . E E | D . . E   | A A E E | D . .   E |
-| A A E E | D . D-D E | A A E E | D . D-D E |
+| [A] . [E] [E] | [D] . . [E]   | [A] [A] [E] [E] | [D] . .   [E] |
+| [A] [A] [E] [E] | [D] . D-D [E] | [A] [A] [E] [E] | [D] . D-D [E] |
 
 {start_of_verse}
 Wh[A]en people ke[E]ep repe[D]ating__[E]    
@@ -114,7 +114,7 @@ You're [A]so lucky [E]I'm arou[D]nd[E]
 {end_of_chorus}
 
 {comment: Outro - Arpegiator}
-| A . . . | A . . . | A . . . | A . . . |
+| [A] . . . | [A] . . . | [A] . . . | [A] . . . |
 
 {comment: ref -> }
 {comment: see https://youtu.be/77ajdGlGMwM?si=Y1qDtmD3fmio2h0E}

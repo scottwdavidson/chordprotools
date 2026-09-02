@@ -16,10 +16,10 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| Em . Am7/E .    | Em . Am7/E . | 
+| [Em] . [Am7/E] .    | [Em] . [Am7/E] . | 
 
-| Em Cmaj7/B Am7 | Em . Am7/E . | 
-| Em Cmaj7/B Am7 | Em . Am7/E . | 
+| [Em] [Cmaj7/B] [Am7] | [Em] . [Am7/E] . | 
+| [Em] [Cmaj7/B] [Am7] | [Em] . [Am7/E] . | 
 
 
 {start_of_verse}
@@ -37,8 +37,8 @@
 {end_of_chorus}
 
 {comment: Instrumental}
-| Em Cmaj7/B Am7 | Em . Am/E . | 
-| Em Cmaj7/B Am7 | Em . Am/E . | 
+| [Em] [Cmaj7/B] [Am7] | [Em] . [Am/E] . | 
+| [Em] [Cmaj7/B] [Am7] | [Em] . [Am/E] . | 
 
 {start_of_verse}
 [E]  See the paper [G]laying on the sidewalk
@@ -77,6 +77,6 @@ In the [Amaj7/B]wor  -  o[A6/B]rld
 
 {comment: Outro}
 {comment: Instrumental}
-| Em Cmaj7/B Am7 | Em . Am/E . | 
-| Em Cmaj7/B Am7 | Em . Am/E . | 
-| E |
+| [Em] [Cmaj7/B] [Am7] | [Em] . [Am/E] . | 
+| [Em] [Cmaj7/B] [Am7] | [Em] . [Am/E] . | 
+| [E] |

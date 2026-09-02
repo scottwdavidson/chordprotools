@@ -4,18 +4,20 @@
 {duration: 3:10}
 {tempo: 110}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Tempo is in 2 (cut time)}
 
 
 {comment: Intro}
-| G . | G . | C . | C G |
+| [G] . | [G] . | [C] . | [C] [G] |
 
-| G . | G . | C . | C G |
+| [G] . | [G] . | [C] . | [C] [G] |
 
-| G . | G . | C . | C G |
+| [G] . | [G] . | [C] . | [C] [G] |
 
-| G . | G . | C . | C G |
+| [G] . | [G] . | [C] . | [C] [G] |
 
 
 
@@ -92,15 +94,15 @@ If [D]I get home before daylight,
 
 {comment: Solo}
 
-| G . | G . | C . | C G |
+| [G] . | [G] . | [C] . | [C] [G] |
 
-| G . | G . | C . | C G |
+| [G] . | [G] . | [C] . | [C] [G] |
 
-| D . | D . | Am . | Am . |
+| [D] . | [D] . | [Am] . | [Am] . |
 
-| D . | D . | Am . | Am . |
+| [D] . | [D] . | [Am] . | [Am] . |
 
-| D . | D . | D . | D . |
+| [D] . | [D] . | [D] . | [D] . |
 
 
 

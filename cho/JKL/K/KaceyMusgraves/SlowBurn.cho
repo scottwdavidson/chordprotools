@@ -6,15 +6,15 @@
 {meta: nord: O24}
 {meta: countin: 4}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: O24}
-{comment: **  meta: countin: 4}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O24   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {comment: Intro}
-| Aadd2 . Em7 . | G . D/F# | 
+| [Aadd2] . [Em7] . | [G] . [D/F#] | 
 
-| Aadd2 . Em7 . | G . D/F# | 
+| [Aadd2] . [Em7] . | [G] . [D/F#] | 
 
 
 {start_of_verse}
@@ -35,9 +35,9 @@ It's a [Aadd2]slow bur[Em7]n,  [G]   [D/F#]yeah
 {end_of_chorus}
 
 {comment: Instrumental}
-| Aadd2 . Cadd2 . | G . D/F# | 
+| [Aadd2] . [Cadd2] . | [G] . [D/F#] | 
 
-| Aadd2 . Cadd2 . | G . D/F# | 
+| [Aadd2] . [Cadd2] . | [G] . [D/F#] | 
 
 
 {comment: (drum 1 before 2nd phrase)}

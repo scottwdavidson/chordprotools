@@ -6,16 +6,16 @@
 {meta: nord: O55}
 {meta: countin: 4}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: O55   }
-{comment: **  meta: countin: 4   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O55   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {comment:Intro}
-| E D | A | 
-| E D | A | 
-| E D | A | 
-| E D | A |
+| [E] [D] | [A] | 
+| [E] [D] | [A] | 
+| [E] [D] | [A] | 
+| [E] [D] | [A] |
 
 {start_of_verse}
 Wash a[E]way my troub[D]les, wash aw[A]ay my pain,
@@ -51,10 +51,10 @@ y[E]eah - yeah - y[D]eah - yeah - y[A]eah.
 {end_of_chorus}
 
 {comment:Interlude}
-| E D | A | 
-| E D | A | 
-| E D | A | 
-| E D | A |
+| [E] [D] | [A] | 
+| [E] [D] | [A] | 
+| [E] [D] | [A] | 
+| [E] [D] | [A] |
 
 {start_of_verse}
 I can [E]tell my [D]sister, by the [A]flowers in her eyes,
@@ -90,5 +90,5 @@ O[E]n the ro[D]ad to Sham[A]bala
 {end_of_verse}
 
 {comment:Interlude}
-| E D | A | E D | A | 
-| E D | A | E D | A |
+| [E] [D] | [A] | [E] [D] | [A] | 
+| [E] [D] | [A] | [E] [D] | [A] |

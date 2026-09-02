@@ -1,11 +1,14 @@
 {title: Sentimental Lady}
 {artist: Bob Welch}
 {key: E}
-{tempo: 72}
 {duration: 2:45}
+{tempo: 72}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E . F#m7 . | E . F#m7 . | E . F#m7 . | E . F#m7 . |
+| [E] . [F#m7] . | [E] . [F#m7] . | [E] . [F#m7] . | [E] . [F#m7] . |
 
 
 {start_of_verse}
@@ -36,10 +39,10 @@ Blow[Emaj7]ing through [F#m7]my life  again
 
 
 {comment: Solo}
-| E . . . | A . . . |
-| B . . . | E . . . |
-| E . . . | A . . . |
-| B . . . | E . . . |
+| [E] . . . | [A] . . . |
+| [B] . . . | [E] . . . |
+| [E] . . . | [A] . . . |
+| [B] . . . | [E] . . . |
 
 {comment: Solo - check}
 [E]Yeah, sentimental[B]        [A] lady[B][A][E]

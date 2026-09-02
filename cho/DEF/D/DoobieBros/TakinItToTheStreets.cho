@@ -2,11 +2,11 @@
 {artist: Doobie Brothers}
 {key: F}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Fm6/G F/G | C/G  | D7/G G7sus4 | G7sus4 | x2
+| [Fm6/G] [F/G] | [C/G]  | [D7/G] [G7sus4] | [G7sus4] | x2
 
 {start_of_verse}
 [Fm6/G]    You don't [F/G]know [C/G]me but I'm your [D7/G]bro - [G7sus4]ther
@@ -46,7 +46,7 @@
 {end_of_chorus}
 
 {comment:solo}
-| Fm6/G F/G | C/G  | D7/G G7sus4 | G7 sus4 | x4
+| [Fm6/G] [F/G] | [C/G]  | [D7/G] [G7sus4] | [G7] sus4 | x4
 
 
 {comment:preChorus}

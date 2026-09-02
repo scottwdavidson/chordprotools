@@ -2,12 +2,12 @@
 {artist: Abba}
 {key: A}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| A | D/A | A | A | A | D/A | A | A |
-| A | D/A | A | A | A | D/A | A | A |
+| [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
+| [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
 
 {start_of_verse}
 [A]Friday night and lights are [D]low
@@ -28,8 +28,8 @@ the [A]dancing queen
 {end_of_chorus}
 
 {comment:Interlude}
-| A | D/A | A | A | A | D/A | A | A |
-| A | D/A | A | A | A | D/A | A | A |
+| [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
+| [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
 
 {start_of_verse}
 [A]Anybody can be that [D]guy
@@ -50,8 +50,8 @@ the [A]dancing queen
 {end_of_chorus}
 
 {comment:Interlude}
-| A | D/A | A | A | A | D/A | A | A |
-| A | D/A | A | A | A | D/A | A | A |
+| [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
+| [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
 
 {start_of_chorus}
 And when you[Bm] get the chance[E] you are the
@@ -64,4 +64,4 @@ the [A]dancing queen
 {end_of_chorus}
 
 {comment:Outro}
-| A | D/A | A | A | A | D/A | A | A |
+| [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |

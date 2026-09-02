@@ -52,8 +52,8 @@
 {end_of_chorus}
 
 {comment: (Piano) Solo}
-|D |Dsus2/C  |G  |D  | 
-|D |Dsus2/C  |G  |D  | 
+|[D] |[Dsus2/C]  |[G]  |[D]  | 
+|[D] |[Dsus2/C]  |[G]  |[D]  | 
 
 {start_of_verse}
 [D]I'm gonna buy me a ticket now,
@@ -70,8 +70,8 @@
 {end_of_chorus}
 
 {comment: (Guitar) Solo}
-|D |Dsus2/C  |G  |D  | 
-|D |Dsus2/C  |G  |D  | 
+|[D] |[Dsus2/C]  |[G]  |[D]  | 
+|[D] |[Dsus2/C]  |[G]  |[D]  | 
 
 {comment: BB - PART 2}
 {start_of_chorus}
@@ -96,9 +96,9 @@
 {end_of_verse}
 
 {comment: Solo3}
-|D |Dsus2/C  |G  |D  | 
-|D |Dsus2/C  |G  |D  | 
+|[D] |[Dsus2/C]  |[G]  |[D]  | 
+|[D] |[Dsus2/C]  |[G]  |[D]  | 
 
 {comment: BB - OFF}
 {comment:Outro}
-|D  |Dsus2/C |G  |D  | 
+|[D]  |[Dsus2/C] |[G]  |[D]  | 

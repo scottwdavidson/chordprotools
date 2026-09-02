@@ -18,13 +18,13 @@
 {comment:***********************************************}
 
 {comment: Piano Intro}
-| G . . . | G . . . | Am . . . | Am . . . | 
-| D . . . | C . . . | G . . .  | D . . .  |
+| [G] . . . | [G] . . . | [Am] . . . | [Am] . . . | 
+| [D] . . . | [C] . . . | [G] . . .  | [D] . . .  |
 
 
 {comment: octave higher}
-| G . . . | G . . . | Am . . . | Am . . . | 
-| D . . . | C . . . | G . . .  | D . . .  |
+| [G] . . . | [G] . . . | [Am] . . . | [Am] . . . | 
+| [D] . . . | [C] . . . | [G] . . .  | [D] . . .  |
 
 {start_of_verse}
 [G]This old highway's getting lon[Am]ger
@@ -54,11 +54,11 @@ I'm [C]much too young to [D]feel this damn [G]old
 
 
 {comment: Instrumental}
-| G . . . | G . . . | Am . . . | Am . . . | 
-| D . . . | C . . . | G . . .  | D . . .  |
+| [G] . . . | [G] . . . | [Am] . . . | [Am] . . . | 
+| [D] . . . | [C] . . . | [G] . . .  | [D] . . .  |
 
-| G . . . | G . . . | Am . . . | Am . . . | 
-| D . . . | C . . . | G . . .  | D . . .  |
+| [G] . . . | [G] . . . | [Am] . . . | [Am] . . . | 
+| [D] . . . | [C] . . . | [G] . . .  | [D] . . .  |
 
 {start_of_verse}
 The [G]competition's getting y[Am]ounger

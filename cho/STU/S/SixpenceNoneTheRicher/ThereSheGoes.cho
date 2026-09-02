@@ -23,14 +23,14 @@
 {comment: opening riff starts with an eighth note pickup (D)}
 
 {comment: Piano Intro}
-| G  D  | Cadd9  D/F# | 
+| [G]  [D]  | [Cadd9]  [D/F#] | 
 
-| G  D  | Cadd9  D/F# |
+| [G]  [D]  | [Cadd9]  [D/F#] |
 
 {comment: Guitar Joins Intro}
-| G  D  | Cadd9  D/F# | 
+| [G]  [D]  | [Cadd9]  [D/F#] | 
 
-| G  D  | Cadd9  D/F# |
+| [G]  [D]  | [Cadd9]  [D/F#] |
 
 {start_of_verse}
 [G]There [D]she go[Cadd9]es [D/F#]
@@ -49,8 +49,8 @@ This [Am]feeling [G]that re[C]mains [D7]
 {end_of_verse}
 
 {comment: Interlude}
-| G  D  | Cadd9  D/F# | G  D  | Cadd9  D/F# |
-| G  D  | Cadd9  G/B | Am  G  | C  | C  D7 |
+| [G]  [D]  | [Cadd9]  [D/F#] | [G]  [D]  | [Cadd9]  [D/F#] |
+| [G]  [D]  | [Cadd9]  [G/B] | [Am]  [G]  | [C]  | [C]  [D7] |
 
 
 {start_of_verse}

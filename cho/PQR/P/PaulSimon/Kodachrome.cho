@@ -3,11 +3,11 @@
 {key: D}
 {tempo: 136}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| D | D | G | G7 | Em | A | D | Em A7 |
+| [D] | [D] | [G] | [G7] | [Em] | [A] | [D] | [Em] [A7] |
 
 {start_of_verse}
 When I think [D]back
@@ -66,4 +66,4 @@ Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 [Em]Mama, don't take my Kodachrome (away)
 
 {comment: Instrumental Outro}
-||: G | Bm | Em | Em :|| x 3 
+||: [G] | [Bm] | [Em] | [Em] :|| x 3 

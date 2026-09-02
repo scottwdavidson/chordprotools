@@ -4,13 +4,13 @@
 {duration: 4:00}
 {meta: nord: O21}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: O21}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: O21   }
+{comment:***********************************************}
 
 {comment: Intro}
-| Am Bm/D | Am7 Bm/D |
-| Am Bm/D | Am7 Bm/D |
+| [Am] [Bm/D] | [Am7] [Bm/D] |
+| [Am] [Bm/D] | [Am7] [Bm/D] |
 
 {start_of_verse}
 [Am7]Well, no one [D]told me a[Am7]bout [D]her[Am7], 
@@ -34,8 +34,8 @@ But she's not [A7]there
 {end_of_chorus}
 
 {comment: Interlude}
-| Am Bm/D | Am7 Bm/D |
-| Am Bm/D | Am7 Bm/D |
+| [Am] [Bm/D] | [Am7] [Bm/D] |
+| [Am] [Bm/D] | [Am7] [Bm/D] |
 
 {start_of_verse}
 [Am7]Well, no one [D]told me a[Am7]bout [D]her[Am7], what [F]could I [Am]do?[D]
@@ -58,10 +58,10 @@ But she's not [A7]there
 
 {comment: V--E--N--U--S}
 {comment:Intro}
-| B7sus4 | B7sus4 |
-| Em A   | Em A   |
-| B7sus4 | B7sus4 |
-| Em A   | Em A   | Em A | Em A |
+| [B7sus4] | [B7sus4] |
+| [Em] [A]   | [Em] [A]   |
+| [B7sus4] | [B7sus4] |
+| [Em] [A]   | [Em] [A]   | [Em] [A] | [Em] [A] |
 
 {start_of_verse}
 A [Em]goddess on a [A]mountain t[Em]op,[A]
@@ -77,8 +77,8 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
 {comment: Solo}
-| Em  A | Em  A | Em  A | Em  A |   
-| Em  A | Em  A | Em  A | Em    |
+| [Em]  [A] | [Em]  [A] | [Em]  [A] | [Em]  [A] |   
+| [Em]  [A] | [Em]  [A] | [Em]  [A] | [Em]    |
 
 {start_of_verse}
 Her [Em]weapons are [A]her crystal ey[Em]es,[A]
@@ -94,11 +94,11 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
 {comment: Interlude}
-| A5 B5 | A5 B5 | A5 B5 | A5 B5 | 
+| [A5] [B5] | [A5] [B5] | [A5] [B5] | [A5] [B5] | 
 
 {comment: Ahhhhhhs}
-| Em A | Em A | Em A | Em A |
-| Em A | Em A | Em A | E G A B B A G |
+| [Em] [A] | [Em] [A] | [Em] [A] | [Em] [A] |
+| [Em] [A] | [Em] [A] | [Em] [A] | [E] [G] [A] [B] [B] [A] [G] |
 
 {start_of_chorus}
 She's [Am]got it,[D]   [Am]  yeah ba[D]by, she's [Em]got it.[A][Em][A]
@@ -107,13 +107,13 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
 {comment: Interlude}
-| A5 B5  | A5 B5  | A5 B5  | A5 B5  | 
-| B7sus4 | B7sus4 | Em A   | Em  A  | 
-| B7sus4 | B7sus4 | 
+| [A5] [B5]  | [A5] [B5]  | [A5] [B5]  | [A5] [B5]  | 
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | 
+| [B7sus4] | [B7sus4] | 
 
 {comment: Ahhhhhhs}
-| Em A | Em A | Em A | Em A |
-| Em A | Em A | Em A | E G A B B A G |
+| [Em] [A] | [Em] [A] | [Em] [A] | [Em] [A] |
+| [Em] [A] | [Em] [A] | [Em] [A] | [E] [G] [A] [B] [B] [A] [G] |
 
 {start_of_chorus}
 She's [Am]got it,[D]   [Am]  yeah ba[D]by, she's [Em]got it.[A][Em][A]
@@ -122,5 +122,5 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
 {comment:Outro}
-| B7sus4 | B7sus4 | Em A   | Em  A  | B7sus4 | B7sus4 |
-| Em     |
+| [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | [B7sus4] | [B7sus4] |
+| [Em]     |

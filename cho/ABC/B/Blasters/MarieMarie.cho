@@ -1,11 +1,14 @@
 {title: Marie Marie}
 {artist: The Blasters}
 {key: G}
-{tempo: 130}
 {duration: 3:10}
+{tempo: 130}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| D . . . |  
+| [D] . . . |  
 
 {start_of_verse}
 [G]Marie Marie

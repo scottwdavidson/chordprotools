@@ -18,10 +18,10 @@
 {comment: Intro}
 8 bars
 
-| . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
+| . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
 
-| . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
+| . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
 
 
@@ -47,7 +47,7 @@ I got a [E5]bad case of [B]lovin' you.
 {comment: Interlude}
 4 bars
 
-| . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
+| . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
 
 {start_of_verse}
@@ -69,11 +69,11 @@ I got a [E5]bad case of [B]lovin' you.
 {comment: Guitar Solo}
 12 bars
 
-| . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
+| . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
-| . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
+| . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
-| A . . . | . . . . | B . . . | . . . . |
+| [A] . . . | . . . . | [B] . . . | . . . . |
 
 
 
@@ -86,7 +86,7 @@ I got a [E5]bad case of [B]lovin' you.
 {comment: Interlude}
 4 bars
 
-| . E5 . . | E5 . . D5/E | . E5 . . | E5 . . D5/E |
+| . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
 
 {start_of_verse}
@@ -107,6 +107,6 @@ I got a [E5]bad case of [B]lovin' you.
 {comment: Outro}
 2 bars
 
-| E5 . . . | . . . . | 
+| [E5] . . . | . . . . | 
 
 

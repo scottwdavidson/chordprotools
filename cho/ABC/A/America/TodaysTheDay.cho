@@ -14,9 +14,9 @@
 {comment:***********************************************}
 
 {start_of_part: Intro}
-. | E . . . | F#m7 . . . | 
+. | [E] . . . | [F#m7] . . . | 
 
-. | E . . . | F#m7 . . . |
+. | [E] . . . | [F#m7] . . . |
 {end_of_part}
 
 {start_of_verse: Verse 1}
@@ -70,11 +70,11 @@ day'[F#m7]s the da[B7sus]y_[B7]
 {end_of_chorus}
 
 {start_of_part: Solo}
-. | G   . . . | D . . . | Em . . . | D/F# . . . | 
-. | G   . . . | D . . . | Em . . . | D/F# . . . | 
-. | G   . . . | D . . . | Em . . . | D/F# . . . | 
-. | G   . . . | D . . . | Em . . . | D/F# . . . | 
-. | D/B . . . | B . . . |
+. | [G]   . . . | [D] . . . | [Em] . . . | [D/F#] . . . | 
+. | [G]   . . . | [D] . . . | [Em] . . . | [D/F#] . . . | 
+. | [G]   . . . | [D] . . . | [Em] . . . | [D/F#] . . . | 
+. | [G]   . . . | [D] . . . | [Em] . . . | [D/F#] . . . | 
+. | [D/B] . . . | [B] . . . |
 
 {start_of_verse: Verse 3}
 [E]Hold me clos[F#m7]e
@@ -114,9 +114,9 @@ day'[F#m7]s the da[B7sus]y_[B7]
 {end_of_chorus}
 
 {start_of_part: Outro}
-. | E . . . | F#m7 . . . | 
+. | [E] . . . | [F#m7] . . . | 
 
-. | E . . . | F#m7 . . . |
+. | [E] . . . | [F#m7] . . . |
 {end_of_part}
 
 

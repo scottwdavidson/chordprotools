@@ -2,11 +2,11 @@
 {artist: Beatles}
 {key: Gb}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Ebm7 | Ebm7 | 
+| [Ebm7] | [Ebm7] | 
 
 {start_of_verse}
 [Ebm7]Once, there was a way  to get back h[Abm7]omeward
@@ -32,7 +32,7 @@
 {comment:-- Carry That Weight --}
 
 {comment:Intro}
-| Cm7 | Cm7 |
+| [Cm7] | [Cm7] |
 
 {start_of_verse}
 [Cm7] You never give me your [F7sus4]mon -  [Fm7]ey
@@ -49,7 +49,7 @@ You b[Cm7]reak down[Bb][Eb][Bb]
 {eod}
 
 {comment:Interlude}
-| Cm7 | Cm7 |
+| [Cm7] | [Cm7] |
 
 {start_of_verse}
 [Cm7]  I never give you my [F7sus4]pil -  [Fm7]low

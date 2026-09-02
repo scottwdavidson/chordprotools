@@ -6,25 +6,25 @@
 {meta: nord: N35}
 {meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N35}
-{comment: **  meta: countin: 8}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N35   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: ve-500 - P25}
 {comment: BB - Country 6}
 
 {comment: Intro ( Scott piano )}
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 {comment: Jeff join}
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 {start_of_verse}
 [Dsus2]Momma c[Em7]ried when you le[G]ft me  [A]
@@ -49,9 +49,9 @@ Who ain't n[Em7]ever coming b[A]ack home a[Dsus2]gain
 {end_of_chorus}
 
 {comment: Instrumental}
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 {start_of_verse}
 And [Dsus2]I don't kn[Em7]ow why you had to le[G]ave me[A]
@@ -75,13 +75,13 @@ And ton[G]ight you know this wh[A]ole damn town is em[D]pty
 {end_of_chorus}
 
 {comment: Instrumental}
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 {start_of_verse}
 [Dsus2]Late night p[Em7]hone call from the N[G]orth Coast[A]
@@ -104,8 +104,8 @@ And to[G]night you know this wh[A]ole damn house is em[D]pty
 {end_of_chorus}
 
 {comment: Outro}
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
-| Dsus2 ... | Em7 ... | G5 ... | A ... | 
-| D |
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
+| [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
+| [D] |

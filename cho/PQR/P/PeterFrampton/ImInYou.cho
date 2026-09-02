@@ -1,18 +1,18 @@
 {title: I'm In You}
 {artist: Peter Frampton}
 {key: C}
-{tempo: 99}
 {duration: 4:00}
+{tempo: 99}
 {meta: performance: C}
 
-{comment: ***********************************************}
-{comment: **  meta: performance: C}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: C   }
+{comment:***********************************************}
 
 {comment: Intro}
-| x    F  .    .  | 
-| F    .  .    G  | G  .  F/G C  | 
-| F/C  C  F/C  C  | C  .  .   x  |
+| x    [F]  .    .  | 
+| [F]    .  .    [G]  | [G]  .  [F/G] [C]  | 
+| [F/C]  [C]  [F/C]  [C]  | [C]  .  .   x  |
 
 {start_of_verse}
 I don't [F]care where I [Em7]go when I'm [F6]with [G6]you.
@@ -47,13 +47,13 @@ You're in [Gm]me,  [F]
 {end_of_chorus}
 
 {comment: Solo}
-| G    .     G/C  . | G     .     G/C  . |  
-| G    .     G/C  . | G     .     .    . |
-| Bb/F F     .    . | Bb/F  F     .    . | 
-| C    Bb/C  .    . | C     Bb/C  .    . |
-| Bb/F F     .    . | Bb/F  F     .    . | 
-| Am    .    G    . | Am    .    G     . |
-| Am/G  .    G    . | G7sus .    .     . |
+| [G]    .     [G/C]  . | [G]     .     [G/C]  . |  
+| [G]    .     [G/C]  . | [G]     .     .    . |
+| [Bb/F] [F]     .    . | [Bb/F]  [F]     .    . | 
+| [C]    [Bb/C]  .    . | [C]     [Bb/C]  .    . |
+| [Bb/F] [F]     .    . | [Bb/F]  [F]     .    . | 
+| [Am]    .    [G]    . | [Am]    .    [G]     . |
+| [Am/G]  .    [G]    . | [G7sus] .    .     . |
 
 
 {start_of_verse}

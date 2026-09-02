@@ -1,12 +1,15 @@
 {title: You Are The Woman}
 {artist: Firefall}
 {key: A}
-{tempo: 120}
 {duration: 3:30}
+{tempo: 120}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| A . C#m7 . | Bm7 . E . |
-| A . C#m7 . | Bm7 . E . |
+| [A] . [C#m7] . | [Bm7] . [E] . |
+| [A] . [C#m7] . | [Bm7] . [E] . |
 
 {start_of_chorus}
 [A] You are [C#m7]the woman that I've [Bm7]always[E]dreamed of
@@ -48,8 +51,8 @@ Whoa, whoa
 
 
 {comment: Solo}
-| A . C#m7 . | Bm7 . E . |
-| A . C#m7 . | Bm7 . E . |
+| [A] . [C#m7] . | [Bm7] . [E] . |
+| [A] . [C#m7] . | [Bm7] . [E] . |
 
 {comment: Bridge}
 [E]It's hard to tell you all the love I'm feeling

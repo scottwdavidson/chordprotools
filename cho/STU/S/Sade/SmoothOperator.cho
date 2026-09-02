@@ -6,18 +6,18 @@
 {meta: nord: 53}
 {meta: countin: 0}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: 53   }
-{comment: **  meta: countin: 0   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: 53   }
+{comment:**  meta: countin: 0   }
+{comment:***********************************************}
 
 {comment: Intro - Drum, Bass grace}
 | . . . . | . . . . |
 | . . . . | . . . . |
 
 {comment: Bass & Keyboard}
-| Dm7 . . . | Em7 . . . | Dm7 . . . | Em7 . . . | 
-| Dm7 . . . | Em7 . . . | Dm7 . . . | Em7 . . . | 
+| [Dm7] . . . | [Em7] . . . | [Dm7] . . . | [Em7] . . . | 
+| [Dm7] . . . | [Em7] . . . | [Dm7] . . . | [Em7] . . . | 
 
 
 {start_of_verse}
@@ -59,16 +59,16 @@ A[Dm7]cross the North [Am7]and South, [Gm7]to Key
 
 
 {comment: Bass Solo}
-| Dm  . . . | Dm  . . . |
-| Gm7 . . . | Am7 . . . |
-| Dm  . . . | Dm  . . . |
-| Gm7 . . . | Am7 . . . |
+| [Dm]  . . . | [Dm]  . . . |
+| [Gm7] . . . | [Am7] . . . |
+| [Dm]  . . . | [Dm]  . . . |
+| [Gm7] . . . | [Am7] . . . |
 
 {comment: Sax Solo}
-| Dm . Am7 . | Gm7 . Am7 . |
-| Dm . Am7 . | Gm7 . Am7 . |
-| Dm . Am7 . | Gm7 . Am7 . |
-| Dm . Am7 . | Gm7 . Am7 . |
+| [Dm] . [Am7] . | [Gm7] . [Am7] . |
+| [Dm] . [Am7] . | [Gm7] . [Am7] . |
+| [Dm] . [Am7] . | [Gm7] . [Am7] . |
+| [Dm] . [Am7] . | [Gm7] . [Am7] . |
 
 
 {start_of_verse}

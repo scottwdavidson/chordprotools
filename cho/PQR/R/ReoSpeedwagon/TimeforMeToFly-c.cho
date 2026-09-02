@@ -1,22 +1,24 @@
 {title: Time For Me To Fly}
 {artist: REO Speedwagon}
 {key: C}
-{tempo: 84}
 {duration: 5:20}
+{tempo: 84}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-|  C  Fadd9  |  Gadd4  Fadd9 |  C  Fadd9  |  Gadd4  Fadd9  |
+|  [C]  [Fadd9]  |  [Gadd4]  [Fadd9] |  [C]  [Fadd9]  |  [Gadd4]  [Fadd9]  |
 
 
 
 {start_of_verse}
 [C]I've been around for you,
 [Gadd4]Been up and down for you,
-But [Fadd9]I just can't get any relief. |  C  Fadd9/C  C  Fadd9/C  C |
+But [Fadd9]I just can't get any relief. |  [C]  [Fadd9/C]  [C]  [Fadd9/C]  [C] |
 I've [C]swallowed my pride for you,
 [Gadd4]Lived and lied for you,
-But [Fadd9]you still make me feel like a thief. |  C  Fadd9/C  C  Fadd9/C  C |
+But [Fadd9]you still make me feel like [a] thief. |  [C]  [Fadd9/C]  [C]  [Fadd9/C]  [C] |
 
 You got me [Gadd4]stealing your love away
 Cause [Fadd9]you never [C]give it.
@@ -28,15 +30,15 @@ And [Fadd9]you make me [C]cry.
 {end_of_verse}
 
 {comment: Interlude}
-|  C  Fadd9  |  Gadd4  Fadd9 |  C  Fadd9  |  Gadd4  Fadd9  |
+|  [C]  [Fadd9]  |  [Gadd4]  [Fadd9] |  [C]  [Fadd9]  |  [Gadd4]  [Fadd9]  |
 
 {start_of_verse}
 [C]You said we'd work it out.
 You [Gadd4]said that you had no doubt,
-That [Fadd9]deep down we were really in love. |  C  Fadd9/C  C  Fadd9/C  C |
+That [Fadd9]deep down we were really in love. |  [C]  [Fadd9/C]  [C]  [Fadd9/C]  [C] |
 Oh, but I'm [C]tired of holding on
 To a [Gadd4]feeling I know is gone.
-I [Fadd9]do believe that I've had enough. |  C  Fadd9/C  C  Fadd9/C  C |
+I [Fadd9]do believe that I've had enough. |  [C]  [Fadd9/C]  [C]  [Fadd9/C]  [C] |
 
 I've had e[Gadd4]nough of the falseness
 Of a [Fadd9]worn out re[C]lation.
@@ -44,7 +46,7 @@ E[Gadd4]nough of the jealousy
 And the [Fadd9]intole[C]ration.
 [Fadd9]I make you [C]laugh
 And [Fadd9]you make me [C]cry.
-[Gadd4] I believe it's time for me to fly. |  C  Fadd9  |  C  |
+[Gadd4] I believe it's time for me to fly. |  [C]  [Fadd9]  |  [C]  |
 {end_of_verse}
  
 {start_of_chorus}
@@ -57,7 +59,7 @@ But it's time for me to [Fadd9]fly - [Gadd4]yy
 {end_of_chorus}
 
 {comment: Interlude}
-|  C  |  C  |  Fadd9  |  Fadd9  |  Gadd4  |  Gadd4  |  C  |  C 
+|  [C]  |  [C]  |  [Fadd9]  |  [Fadd9]  |  [Gadd4]  |  [Gadd4]  |  [C]  |  [C] 
 
 
 {start_of_chorus}

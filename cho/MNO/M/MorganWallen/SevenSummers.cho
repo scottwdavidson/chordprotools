@@ -7,8 +7,13 @@
 {meta: nord: N24}
 {meta: countin: 4}
 
+{comment:***********************************************}
+{comment:**  meta: nord: N24   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
+
 {comment: Intro}
-| Cmaj7 | Fmaj7 | Cmaj7 | Fmaj7 |
+| [Cmaj7] | [Fmaj7] | [Cmaj7] | [Fmaj7] |
 
 {start_of_verse}
 [Cmaj7]Yeah, you used to talk about [Cmaj7]getting even further South

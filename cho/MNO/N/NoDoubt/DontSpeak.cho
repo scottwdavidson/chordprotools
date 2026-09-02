@@ -6,13 +6,13 @@
 {meta: nord: N45}
 {meta: countin: 4}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N45}
-{comment: **  meta: countin: 4}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N45   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {comment: Intro}
-| Cm . . . | Cm . . . |
+| [Cm] . . . | [Cm] . . . |
 
 {start_of_verse}
 [Cm]You and me
@@ -72,17 +72,17 @@ We've got to st[Cb]op pre[Gb/Bb]tending who we
 {end_of_chorus}
 
 {comment: Guitar Solo}
-|Cm   Gm7  | Fm7  Bb | 
-|Cm   Gm7  | Fm7  Bb | 
-|Cm   Gm7  | Fm7  Bb | 
-|Gm7 Cm | Fm7     |
+|[Cm]   [Gm7]  | [Fm7]  [Bb] | 
+|[Cm]   [Gm7]  | [Fm7]  [Bb] | 
+|[Cm]   [Gm7]  | [Fm7]  [Bb] | 
+|[Gm7] [Cm] | [Fm7]     |
 
 
 {comment: Piano Solo}
-|Cm   Gm7  | Fm7  Bb | 
-|Cm   Gm7  | Fm7  Bb | 
-|Cm   Gm7  | Fm7  Bb | 
-|Gm7 Cm | Fm7     |
+|[Cm]   [Gm7]  | [Fm7]  [Bb] | 
+|[Cm]   [Gm7]  | [Fm7]  [Bb] | 
+|[Cm]   [Gm7]  | [Fm7]  [Bb] | 
+|[Gm7] [Cm] | [Fm7]     |
 
 {comment: Interlude}
 [Cm]You and me[Gm7]
@@ -133,4 +133,4 @@ Don't t[C]ell me 'cause it h[Fm7]urts… [Bbm]   [C]
 Don't t[C]ell me 'cause it h[Fm7]urts… [Bbm]   [C]
 {end_of_chorus} 
 
-| Fm7 |
+| [Fm7] |

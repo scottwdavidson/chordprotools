@@ -3,11 +3,14 @@
 {key: A}
 {tempo: 108}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
-|A  Esus4 |Esus4  Amaj7 |D |D | 2x
+|[A]  [Esus4] |[Esus4]  [Amaj7] |[D] |[D] | 2x
 {end_of_part}
 
-|A |A  Amaj7 |D |D |
+|[A] |[A]  [Amaj7] |[D] |[D] |
 
 
 {start_of_verse: Verse}
@@ -78,7 +81,7 @@ Yeah, hey.[E]..
 
 
 {start_of_part: Instrumental}
-|A  Esus4 |Esus4  Amaj7 |D |D | 2x
+|[A]  [Esus4] |[Esus4]  [Amaj7] |[D] |[D] | 2x
 (Do you still want me?)
 {end_of_part}
 

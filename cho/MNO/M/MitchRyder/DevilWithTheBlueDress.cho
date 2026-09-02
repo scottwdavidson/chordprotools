@@ -2,11 +2,11 @@
 {artist: Mitch Ryder and The Detroit Wheels}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:INTRO}
-| C7 F C7 | 4X  hammer on C7
+| [C7] [F] [C7] | 4X  hammer on [C7]
 
 {start_of_chorus}
 [G7]Devil with the blue dress, blue dress, blue dress..
@@ -50,7 +50,7 @@ She's a [C]real humdinger and I like it like that..
 {end_of_chorus}
 
 {comment:Bridge to Eb}
-| C . C7 . | C . C7 . | C C7 C7 C7 | Gaug |
+| [C] . [C7] . | [C] . [C7] . | [C] [C7] [C7] [C7] | [Gaug] |
 
 {comment: Good Golly, Miss Molly}
 {start_of_verse}
@@ -68,8 +68,8 @@ Can't you hear your Mama [Eb]call?
 {end_of_verse}
 
 {comment: Gitar Solo}
-| Eb7 | Eb7 | Eb7 | Eb7 |
-| C7  | C7  | C7  | C7  |
+| [Eb7] | [Eb7] | [Eb7] | [Eb7] |
+| [C7]  | [C7]  | [C7]  | [C7]  |
 
 {start_of_verse}
 [C]Fee, fee, fi, fi, [F]fo-fo, [C]fum.

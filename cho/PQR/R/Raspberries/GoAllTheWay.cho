@@ -16,7 +16,7 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| A D/A A | A D/A A | A D/A A | A D/A A |
+| [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [A] |
 
 {start_of_verse}
 [C]I never knew how complete[Am] love could be[Dm]
@@ -40,8 +40,8 @@ Till she whispered, "I love [E]you so"
 {comment: Chorus}
 
 {comment: Instrumental}
-| A D/A A | A D/A A | A D/A A | A D/A E |
-| C       | C Am    | Dm      | Dm E    |
+| [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [E] |
+| [C]       | [C] [Am]    | [Dm]      | [Dm] [E]    |
 
 {start_of_chorus}
 [A]Please, [F#m7]go all the [D]way[C#m]
@@ -53,6 +53,6 @@ Till she whispered, "I love [E]you so"
 {end_of_chorus}
 
 {comment: Outro}
-| F#madd9 F#m | F#m9(maj7)/E# F#m(maj7)/E# |
-| F#madd9/E F#m7/E | F#m6/D# | Dadd9 | Asus4 A | Fadd9 |
-| D | E | A |
+| [F#madd9] [F#m] | [F#m9(maj7)/E#] [F#m(maj7)/E#] |
+| [F#madd9/E] [F#m7/E] | [F#m6/D#] | [Dadd9] | [Asus4] [A] | [Fadd9] |
+| [D] | [E] | [A] |

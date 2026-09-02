@@ -4,12 +4,12 @@
 {duration: 2:30}
 {meta: performance: E}
 
-{comment: ***********************************************}
-{comment: **  meta: performance: E}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: Intro}
-|  C#m7  |  C#m7  |
+|  [C#m7]  |  [C#m7]  |
 
 
 {start_of_verse}
@@ -39,8 +39,8 @@
 
 
 {comment: Intro}
-|  Cm7  | F7sus4 Fm7     |  Bb7  | Ebsus4 Eb    |
-|  Abmaj7  | Dm7b5 G7    |  Cm7  |
+|  [Cm7]  | [F7sus4] [Fm7]     |  [Bb7]  | [Ebsus4] [Eb]    |
+|  [Abmaj7]  | [Dm7b5] [G7]    |  [Cm7]  |
 
 
 {start_of_verse}
@@ -58,8 +58,8 @@ You b[Cm7]reak down.
 {end_of_chorus}
 
 {comment: Interlude}
-|  Cm7  | F7sus4 Fm7     |  Bb7  | Ebsus4 Eb    |
-|  Abmaj7  | Dm7b5 G7    |  Cm7  |
+|  [Cm7]  | [F7sus4] [Fm7]     |  [Bb7]  | [Ebsus4] [Eb]    |
+|  [Abmaj7]  | [Dm7b5] [G7]    |  [Cm7]  |
 
 {start_of_verse}
 [Cm7]  I never give you my [F7sus4]pil    -   [Fm7]low,
@@ -76,5 +76,5 @@ I b[Cm7]reak down.
 {end_of_chorus}
 
 {comment: Coda}
-|  Cm7  | F7sus4 Fm7     |  Bb7  | Ebsus4 Eb    |
-|  Abmaj7  | Dm7b5 G7    |  Cm7  |
+|  [Cm7]  | [F7sus4] [Fm7]     |  [Bb7]  | [Ebsus4] [Eb]    |
+|  [Abmaj7]  | [Dm7b5] [G7]    |  [Cm7]  |

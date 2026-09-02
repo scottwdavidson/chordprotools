@@ -2,13 +2,13 @@
 {artist: Tommy Castro and the Painkillers}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Voice - ORGAN}
 {comment:Intro}
-| C7  | C7  | C7  | C7  | F  |  F  | 
-| C7  | C7  | G   | F   | C7 |  C7 |
+| [C7]  | [C7]  | [C7]  | [C7]  | [F]  |  [F]  | 
+| [C7]  | [C7]  | [G]   | [F]   | [C7] |  [C7] |
 
 {start_of_chorus}
 [C7]Everything I do everything I do is bad for me
@@ -35,11 +35,11 @@ I said [F7]hey hey hey everything I do is bad for [C7]me
 {end_of_verse}
 
 {comment:Solo}
-| C7  | C7  | C7  | C7  | F  |  F  | 
-| C7  | C7  | G   | F   | C7 |  C7 |  x2
+| [C7]  | [C7]  | [C7]  | [C7]  | [F]  |  [F]  | 
+| [C7]  | [C7]  | [G]   | [F]   | [C7] |  [C7] |  x2
 
 Drums and lead only
-| F7 | C7 | G7 | F7 | C7 |
+| [F7] | [C7] | [G7] | [F7] | [C7] |
 
 {comment:Outro}
 [C7]I like to gamble a card table's hard to pass

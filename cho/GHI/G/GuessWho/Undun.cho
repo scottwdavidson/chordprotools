@@ -4,11 +4,11 @@
 {duration: 3:30}
 {tempo: 100}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Am6/C B | Am6/C B | Am6/C B | B B N/C |
+| [Am6/C] [B] | [Am6/C] [B] | [Am6/C] [B] | [B] [B] N/[C] |
  
 {start_of_verse}
 She's come un[Em]dun[A7]
@@ -79,7 +79,7 @@ She's [Am6/C]lost the [B]sun[B][B]
 {end_of_chorus}
 
 {comment:Piano Solo}
-|Em A7| G | F#m7 | B7 | F#m7 | Am7 D7 | G | C9 B9 |
+|[Em] [A7]| [G] | [F#m7] | [B7] | [F#m7] | [Am7] [D7] | [G] | [C9] [B9] |
 
 {comment:Outro}
 {start_of_chorus}

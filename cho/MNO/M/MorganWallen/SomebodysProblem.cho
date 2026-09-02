@@ -4,8 +4,11 @@
 {duration: 2:10}
 {tempo: 97}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| F | Fmaj7 | Bb | C |
+| [F] | [Fmaj7] | [Bb] | [C] |
 
 {start-of-verse}
 A [F]'Bama red four-runner [Fmaj7]pulled into the party

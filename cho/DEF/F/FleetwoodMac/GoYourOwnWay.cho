@@ -6,9 +6,13 @@
 {meta: nord: ???}
 {meta: countin: ???}
 
+{comment:***********************************************}
+{comment:**  meta: nord: ???   }
+{comment:**  meta: countin: ???   }
+{comment:***********************************************}
 
 {comment: Intro}
-| F . . . | F . . . |
+| [F] . . . | [F] . . . |
 
 
 {start_of_verse}
@@ -52,13 +56,13 @@
 
 
 {comment: Solo}
-| F . . . | F . . . | F . . . | C . . . |
+| [F] . . . | [F] . . . | [F] . . . | [C] . . . |
 
-| Bb . . . | Bb . . . | Bb . . . | F . . . |
+| [Bb] . . . | [Bb] . . . | [Bb] . . . | [F] . . . |
 
-| F . . . | F . . . | F . . . | C . . . |
+| [F] . . . | [F] . . . | [F] . . . | [C] . . . |
 
-| Bb . . . | Bb . . . | Bb . . . | Fsus4 . F . |
+| [Bb] . . . | [Bb] . . . | [Bb] . . . | [Fsus4] . [F] . |
 
 
 {start_of_chorus}
@@ -76,15 +80,15 @@
 
 
 {comment: Coda - Solo}
-| Dm . . . | Bb . . . | C . . . | C . . . |
+| [Dm] . . . | [Bb] . . . | [C] . . . | [C] . . . |
 
-| Dm . . . | Bb . . . | C . . . | C . . . |
+| [Dm] . . . | [Bb] . . . | [C] . . . | [C] . . . |
 
-| Dm . . . | Bb . . . | C . . . | C . . . |
+| [Dm] . . . | [Bb] . . . | [C] . . . | [C] . . . |
 
-| Dm . . . | Bb . . . | C . . . | C . . . |
+| [Dm] . . . | [Bb] . . . | [C] . . . | [C] . . . |
 
-| Dm . . . | Bb . . . | C . . . | C . . . |
+| [Dm] . . . | [Bb] . . . | [C] . . . | [C] . . . |
 
 [Dm]  You can g[Bb]o your own way. [C]
 
@@ -94,4 +98,4 @@
 
 [Dm]  You can call[Bb] it ano[C]ther lonely day.
 
-| Dm |
+| [Dm] |

@@ -2,10 +2,13 @@
 {artist: Paul McCartney}
 {key: C}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| C . . . | Em . . . | FM7 . . . | FM7 . . . |
-| C . . . | Em . . . | FM7 . . . | FM7 . . . |
-| C . . . | Em . . . | FM7 . . . | FM7 . . . |
+| [C] . . . | [Em] . . . | [FM7] . . . | [FM7] . . . |
+| [C] . . . | [Em] . . . | [FM7] . . . | [FM7] . . . |
+| [C] . . . | [Em] . . . | [FM7] . . . | [FM7] . . . |
 
 {start_of_verse}
 [C] You'd think that people would have [Em7]had enough of silly love[Fmaj7]songs

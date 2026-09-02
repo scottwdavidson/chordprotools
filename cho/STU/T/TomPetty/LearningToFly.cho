@@ -7,21 +7,21 @@
 {meta: countin: 8}
 {meta: performance: C}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: ???}
-{comment: **  meta: countin: 8}
-{comment: **  meta: performance: C}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: ???   }
+{comment:**  meta: countin: 8   }
+{comment:**  meta: performance: C   }
+{comment:***********************************************}
 
 {comment: Intro - Acoustic Guitar Only}
-| F . C . | Am . G . | F . C . | Am . G . |
+| [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
 
 
 
 
 
 {comment: Intro - Add Piano}
-| F . C . | Am . G . | F . C . | Am . G . |
+| [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
 
 
 
@@ -73,9 +73,9 @@ is the [F]hardest [C]thing. ([Am]learning to [G]fly)
 
 
 {comment: Solo - Electric Guitar}
-| F . C . | Am . G . | F . C . | Am . G . |
+| [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
 
-| F . C . | Am . G . | F . C . | Am . G . |
+| [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
 
 
 
@@ -110,7 +110,7 @@ a[F]round the [C]clouds,[Am][G]
 
 
 {comment: Interlude}
-| F . C . | Am . G . | F . C . | Am . G . |
+| [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
 
 
 {comment: Chorus}
@@ -140,8 +140,8 @@ I'm [F]learning to [C]fly, ([Am]learning to [G]fly)
 [F]     [C]    ([Am]learning to [G]fly)
 
 
-| F . C . | Am . G . |
+| [F] . [C] . | [Am] . [G] . |
 
-| F . C . | Am . G . |
+| [F] . [C] . | [Am] . [G] . |
 
 [F]  [C]

@@ -20,12 +20,12 @@
 {comment:***********************************************}
 
 {comment:Intro}
-| C . . . | C . . .  | C . . . | 
-| F . C F/C . F6/C C | C . . . |
-| F . C F/C . F6/C C | C . . . |
-| F . C F/C . F6/C C | C Am/C Gm/C . . Bb9 |
-| Bb9 . . .| DbM7/Eb  , DbM7/Eb DbM7/Eb | Ab . . . |
-| C Am/C Gm/C . . Bb9 | DbM7/Eb . DbM7/Eb DbM7/Eb | Ab . . . |
+| [C] . . . | [C] . . .  | [C] . . . | 
+| [F] . [C] [F/C] . [F6/C] [C] | [C] . . . |
+| [F] . [C] [F/C] . [F6/C] [C] | [C] . . . |
+| [F] . [C] [F/C] . [F6/C] [C] | [C] [Am/C] [Gm/C] . . [Bb9] |
+| [Bb9] . . .| [DbM7/Eb]  , [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [DbM7/Eb] . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 
 
 {start_of_verse}
@@ -38,8 +38,8 @@ Bought a ticket to the W[F]est Coast_[F][F]
 {end_of_verse}
 
 {comment: Interlude}
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 
 {start_of_chorus}
 [C]I don't need you to [C/E]worry for me cause I'm [F]alright_[F]
@@ -65,8 +65,8 @@ In your [F]own space_[F][C/E][Dm][C]
 {end_of_verse}
 
 {comment: Interlude}
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 
 {start_of_chorus}
 [C]I don't need you to [C/E]worry for me cause I'm [F]alright_[F]
@@ -83,8 +83,8 @@ In your [F]own space_[F][C/E][Dm][C]
 But [F/G]not  [G]on  [F/G]my   [G]time
 
 {comment: Solo}
-| C    | C/E  | F    | F    |
-| G    | G    | C    | C F/C F6/C C |
+| [C]    | [C/E]  | [F]    | [F]    |
+| [G]    | [G]    | [C]    | [C] [F/C] [F6/C] [C] |
 
 
 {start_of_chorus}
@@ -93,10 +93,10 @@ But [F/G]not  [G]on  [F/G]my   [G]time
 {end_of_chorus}
 
 {comment: Outro}
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
-| C Am/C Gm/C . . Bb9 | Bb9 | DbM7/Eb  . DbM7/Eb DbM7/Eb | Ab . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
+| [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 
-| C Am/C Gm/C ... |
+| [C] [Am/C] [Gm/C] ... |

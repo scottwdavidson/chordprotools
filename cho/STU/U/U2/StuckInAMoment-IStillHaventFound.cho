@@ -5,14 +5,14 @@
 {meta: nord: N51}
 {meta: performance: N51}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N51}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: nord: N51   }
+{comment:**  meta: performance: N51   }
+{comment:***********************************************}
 
 {comment: Intro}
 {comment: Guitar Only - voicings with 1st, 2nd and 6th strings open}
-|  E  |  Emaj7  |  Aadd9  |  Emaj7  |  Badd11  |  C#m7  |  Aadd9  |  E  |
+|  [E]  |  [Emaj7]  |  [Aadd9]  |  [Emaj7]  |  [Badd11]  |  [C#m7]  |  [Aadd9]  |  [E]  |
 
 
 
@@ -41,18 +41,18 @@ And you c[Aadd9]an't get [E]out of it.
 
 {comment:-- I Still Haven't Found What I'm Looking For --}
 {comment: Performance Key - C}
-|  E  |  Em  |  C  |  C  |
-|  C  |  C   |  C  |  C  |
+|  [E]  |  [Em]  |  [C]  |  [C]  |
+|  [C]  |  [C]   |  [C]  |  [C]  |
 
 {comment: Add guitar}
-|  F  |  F   |  C  |  C  |
+|  [F]  |  [F]   |  [C]  |  [C]  |
 
 
 
 
 
 {comment: Start chorus chords - instrumental}
-|  G  |  F  |  C  |  C  | 
+|  [G]  |  [F]  |  [C]  |  [C]  | 
 
 
 
@@ -94,4 +94,4 @@ But I [G]still haven't [F]found what I'm [C]looking for.
 
 
 {comment: Outro}
-|  C  |  C  |  F  |  F  |  C  |  C  | G  |  F  |  C  |  C  |
+|  [C]  |  [C]  |  [F]  |  [F]  |  [C]  |  [C]  | [G]  |  [F]  |  [C]  |  [C]  |

@@ -5,9 +5,9 @@
 {tempo: 106}
 {meta: nord: P25}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P25   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P25   }
+{comment:***********************************************}
 
 {comment: SCOTT}
 {start_of_verse}
@@ -28,9 +28,9 @@ P[G]lease, [Em]please, [C]please [D]say, you w[Em]ill. Say you will.
 {end_of_chorus}
 
 {comment: Guitar Solo}
-| B | B | Em | Em | 
+| [B] | [B] | [Em] | [Em] | 
 
-| A | A | D | D |
+| [A] | [A] | [D] | [D] |
 
 {comment: JEFF}
 {comment: falsetto}
@@ -46,17 +46,17 @@ sing [Em]one more song.
 {end_of_verse}
 
 {comment: Kazoo Solo}
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . |  
+| [G] . [Em] . | [C] . [D] . |  
 
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . |  
+| [G] . [Em] . | [C] . [D] . |  
 
 {comment: CARMEN}
 {start_of_verse}
@@ -71,17 +71,17 @@ sing [Em]one more song.
 {end_of_verse}
 
 {comment: Piano}
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . |  
+| [G] . [Em] . | [C] . [D] . |  
 
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . | 
+| [G] . [Em] . | [C] . [D] . | 
 
-| G . Em . | C . D . |  
+| [G] . [Em] . | [C] . [D] . |  
 
 {comment: JEAN}
 {start_of_chorus}
@@ -90,6 +90,6 @@ P[G]lease, [Em]please, [C]please [D]say, you w[Em]ill. Say you will.
 {end_of_chorus}
 
 {comment: Outro}
-| G . Em . | C . D . | G . Em . | C . D . |  
+| [G] . [Em] . | [C] . [D] . | [G] . [Em] . | [C] . [D] . |  
 
-| G . Em . | C . D . | G . Em . | C . D . |  
+| [G] . [Em] . | [C] . [D] . | [G] . [Em] . | [C] . [D] . |  

@@ -6,13 +6,13 @@
 {meta: nord: N52}
 {meta: performance: E}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N52}
-{comment: **  meta: performance: E}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N52   }
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment:Intro}
-| D ... | C ... | G ... | Asus4 ... | A ... |
+| [D] ... | [C] ... | [G] ... | [Asus4] ... | [A] ... |
 
 {start_of_verse}
 [D]Pickin up the [A]pieces of my [F#]sweet shattered d[Bm]rea[A]m,
@@ -29,8 +29,8 @@ The [Bm]morning after [A]blues, from my [G]head down [D/F#]to my [E7sus4]shoes [
 {end_of_chorus}
 
 {comment:Interlude}
-| D ... | C ... | G ... | A ... |
-| D ... | C ... | G ... | Asus4 ... | A ... |
+| [D] ... | [C] ... | [G] ... | [A] ... |
+| [D] ... | [C] ... | [G] ... | [Asus4] ... | [A] ... |
 
 {start_of_verse}
 [D]Turning back the [A]pages to the [F#]times I love [Bm]bes[A]t
@@ -48,8 +48,8 @@ Carefree [C]highway,[G]  you've seen [A]better days
 {end_of_chorus}
 
 {comment:Interlude}
-| D ... | C ... | G ... | A ... |
-| D ... | C ... | G ... | Asus4 ... | A ... |
+| [D] ... | [C] ... | [G] ... | [A] ... |
+| [D] ... | [C] ... | [G] ... | [Asus4] ... | [A] ... |
 
 {start_of_verse}
 [D]Searching thru the [A]fragments of my [F#]dream shattered [Bm]sle[A]ep;
@@ -75,6 +75,6 @@ Carefree [C]highway,[G]  you've seen [A]better days
 {end_of_chorus}
 
 {comment:Outro}
-| D ... | C ... | G ... | A ... |
-| D ... | C ... | G ... | Asus4 ... | A ... |
-| D |
+| [D] ... | [C] ... | [G] ... | [A] ... |
+| [D] ... | [C] ... | [G] ... | [Asus4] ... | [A] ... |
+| [D] |

@@ -4,11 +4,11 @@
 {duration: 4:00}
 {tempo: 125}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E ... | E ... | E ... | E ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
 
 {start_of_verse}
 Well you're [E]dirty and sweet clad in [A]black
@@ -56,8 +56,8 @@ Get it [G]on Bang a [A]gong Get it on[E]
 {end_of_chorus}
 
 {comment: Turnaround E }
-| E ... | E ... | E ... | E ... |
-| E ... | E ... | E ... | E ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
 
 {start_of_verse}
 [E]Well you're dirty and sweet Clad in b[A]lack
@@ -75,8 +75,8 @@ Get it [G]on Bang a [A]gong Get it on[E]
 {end_of_chorus}
 
 {comment: Turnaround E }
-| E ... | E ... | E ... | E ... |
-| E ... | E ... | E ... | E ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
 
 {start_of_chorus}
 Get it [G]on Bang a [A]gong Get it on[E]  
@@ -84,4 +84,4 @@ Get it [G]on Bang a [A]gong Get it on[E]
 {end_of_chorus}
 
 {comment: Outro}
-| G ... | A ... | E ... |
+| [G] ... | [A] ... | [E] ... |

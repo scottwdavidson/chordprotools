@@ -8,11 +8,10 @@
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
-{comment:**  meta: rc-slot: 6   }
 {comment:***********************************************}
 
 {comment:Intro}
-| F | F | Faug | Faug | F6 | F6 | Faug | Faug |
+| [F] | [F] | [Faug] | [Faug] | [F6] | [F6] | [Faug] | [Faug] |
 
 
 {start_of_verse}
@@ -40,7 +39,7 @@ Why don't we [Bbm7]steal away Into the [F]night
 {end_of_chorus}
 
 {comment: Solo}
-| F6 | F6 | Bb | Bb | Bbaug | Bbaug | Bb6 | Bb6 | Bb7 | Bb7 |
+| [F6] | [F6] | [Bb] | [Bb] | [Bbaug] | [Bbaug] | [Bb6] | [Bb6] | [Bb7] | [Bb7] |
 
 {comment: KEY CHANGE FROM F TO Bb}
 [Ebmaj7]I caught you glancing my [Cm7/F]way

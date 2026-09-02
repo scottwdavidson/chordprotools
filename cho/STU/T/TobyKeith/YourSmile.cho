@@ -4,12 +4,12 @@
 {tempo: 77}
 {time: 4/4}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| G | G6 | Gmaj7 | G6 |
-| G | G6 | Gmaj7 | G6 |
+| [G] | [G6] | [Gmaj7] | [G6] |
+| [G] | [G6] | [Gmaj7] | [G6] |
 
 {start_of_verse}
 Now [G]those might be the s[G6]addest b[Gmaj7]ig 'ol baby 
@@ -44,7 +44,7 @@ Turn it [Bm7]upside d[Em]own,
 {end_of_chorus}
 
 {comment: Solo}
-| C | C | C | G | G | G | G | 
+| [C] | [C] | [C] | [G] | [G] | [G] | [G] | 
 
 
 {start_of_chorus}

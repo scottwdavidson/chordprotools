@@ -5,12 +5,12 @@
 {tempo: 90}
 {meta: nord: N31}
 
-{comment: ***********************************************}
-{comment: ** meta: nord: N31 }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N31   }
+{comment:***********************************************}
 
 {comment:Intro}
-| E F#m | E  | E F#m | E/G# | A  | E  | A | A/B B | 
+| [E] [F#m] | [E]  | [E] [F#m] | [E/G#] | [A]  | [E]  | [A] | [A/B] [B] | 
 
 {start_of_verse}
 W[E]ho doesn't k[F#m7]now what I'm [E]talking about
@@ -70,4 +70,4 @@ Wide [F#m7]open spac[A]es she [B]knows the high [E]stakes [F#m7]
 {end_of_chorus}
 
 {comment:Outro}
-| E F#m | A A/B | E |
+| [E] [F#m] | [A] [A/B] | [E] |
