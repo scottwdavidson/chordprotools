@@ -2,11 +2,11 @@
 {artist: The Beatles}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Cm | G/B | Cm | G/B |
+| [Cm] | [G/B] | [Cm] | [G/B] |
 
 {start_of_verse}
 [C]All my little plans and sche[Em]mes
@@ -30,7 +30,7 @@ It's [Am]real l[F]ove, it's [G]real
 {end_of_chorus}
 
 {comment:Interlude}
-| Cm | G | Cm | G |
+| [Cm] | [G] | [Cm] | [G] |
 
 {start_of_verse}
 [C]From this moment on I know[Em]
@@ -47,7 +47,7 @@ It's [Am]real l[F]ove, it's [G]real
 {end_of_chorus}
 
 {comment:Interlude}
-| Cm | G | Cm | G |
+| [Cm] | [G] | [Cm] | [G] |
 
 {start_of_verse}
 [C]Thought I’d been in love bef[Em]ore

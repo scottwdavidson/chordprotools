@@ -5,12 +5,12 @@
 {tempo: 137}
 {time: 4/4}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| D | A/D | D | A/D |
-| D | A/D | G | A   |
+| [D] | [A/D] | [D] | [A/D] |
+| [D] | [A/D] | [G] | [A]   |
 
 {start_of_verse}
 [D]Lately I've [F#m]found myself fa[G]llin'
@@ -59,6 +59,6 @@ But [F#m]after that baby I'm [Em]through[Asus][A7]
 {end_of_chorus}
 
 {comment:Outro}
-| D | F#m | G | A7 | D |
+| [D] | [F#m] | [G] | [A7] | [D] |
 
 

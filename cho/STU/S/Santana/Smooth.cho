@@ -4,23 +4,22 @@
 {duration: 4:00}
 {tempo: 116}
 {meta: nord: P25}
-{meta:countin: 0}
+{meta: countin: 0}
 
-
-{comment: ***********************************************}
-{comment: ** meta:countin: 0 }
-{comment: ** meta: nord: P25 }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P25   }
+{comment:**  meta: countin: 0   }
+{comment:***********************************************}
 
 {comment: Guitar Intro}
 
 
 
-| Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
+| [Am] . [F] [E7] | [E7] . . . | [Am] . [F] [E7] | [E7] . . . |
 
 
 
-| Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
+| [Am] . [F] [E7] | [E7] . . . | [Am] . [F] [E7] | [E7] . . . |
 
 
 
@@ -61,7 +60,7 @@ You [Am]got the kind of lo[F]vin' that [E7]can be so smooth, yeah.
 
 
 {comment: Interlude}
-| Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
+| [Am] . [F] [E7] | [E7] . . . | [Am] . [F] [E7] | [E7] . . . |
 
 
 
@@ -101,27 +100,27 @@ You [Am]got the kind of lo[F]vin' that [E7]can be so smooth, yeah.
 
 
 {comment: Chromatic run before guitar solo}
-| . . Edim7 Fdim7 F#dim7 Gdim7 G#dim7 |
+| . . [Edim7] [Fdim7] [F#dim7] [Gdim7] [G#dim7] |
 
 
 
 {comment: Guitar Solo - 18 bars}
 
 (Part 1 - Am F E7 pattern for 8 bars)
-| Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
+| [Am] . [F] [E7] | [E7] . . . | [Am] . [F] [E7] | [E7] . . . |
 
 
-| Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
+| [Am] . [F] [E7] | [E7] . . . | [Am] . [F] [E7] | [E7] . . . |
 
 
 (Part 2 - Pre-Chorus pattern)
-| Am . F E7 | E7 . . . | Am . F E7 | E7 . . . |
+| [Am] . [F] [E7] | [E7] . . . | [Am] . [F] [E7] | [E7] . . . |
 
 
-| Am . F E7 | E7 . . . | Dm7 . Dm7/C Bm7b5 |
+| [Am] . [F] [E7] | [E7] . . . | [Dm7] . [Dm7/C] [Bm7b5] |
 
 
-| G7 . . . | F#7sus4 . . E7 | E7 . . . |
+| [G7] . . . | [F#7sus4] . . [E7] | [E7] . . . |
 
 
 
@@ -145,6 +144,6 @@ You [Am]got the kind of lo[F]vin' that [E7]can be so smooth, yeah.
 [Am] Hey, ah [F] [E7]Oh, let's all forget about it,
 
 {comment: Guitar solo to close}
-| Am . F E7 | E7 . . . | Am . F E7 | E7 . . . | (repeat)
+| [Am] . [F] [E7] | [E7] . . . | [Am] . [F] [E7] | [E7] . . . | (repeat)
 
 [Am]

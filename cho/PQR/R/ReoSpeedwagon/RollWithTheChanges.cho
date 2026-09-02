@@ -2,12 +2,12 @@
 {artist: REO Speedwagon}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| C | F / C | Bb/C F/C | C | 
-| C | F / C | Bb/C F/C | C | 
+| [C] | [F] / [C] | [Bb/C] [F/C] | [C] | 
+| [C] | [F] / [C] | [Bb/C] [F/C] | [C] | 
 
 {start_of_verse}
 [C]As soon as you are able
@@ -30,7 +30,7 @@ To [G7/D]roll with the ch[G]anges
 {end_of_bridge}
 
 {comment:Interlude}
-| C | F / C | Bb/C F/C | C | 
+| [C] | [F] / [C] | [Bb/C] [F/C] | [C] | 
 
 {start_of_verse}
 [C]I knew it had to happen

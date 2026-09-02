@@ -5,19 +5,19 @@
 {tempo: 178}
 {meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: performance: A}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro}
-| A ..     | E/G# .. | D/F# .. | A/E .. |
-| Dmaj7 .. | A/C# .. | B7 ..  | E ..   |
+| [A] ..     | [E/G#] .. | [D/F#] .. | [A/E] .. |
+| [Dmaj7] .. | [A/C#] .. | [B7] ..  | [E] ..   |
 
-| A ..     | E/G# .. | D/F# .. | A/E .. |
-| D ..     | E7sus .. |
-| A ..     | D/A ..   | Amaj7 .. |
-| D/A A Bm7/A | A .. | D/A .. | Amaj7 |
-| D/A A Bm7/A |
+| [A] ..     | [E/G#] .. | [D/F#] .. | [A/E] .. |
+| [D] ..     | [E7sus] .. |
+| [A] ..     | [D/A] ..   | [Amaj7] .. |
+| [D/A] [A] [Bm7/A] | [A] .. | [D/A] .. | [Amaj7] |
+| [D/A] [A] [Bm7/A] |
 
 {start_of_verse}
 It’s [A]nine o’[E/Ab]clock on a [D/Gb]Saturday,[A/E]
@@ -28,9 +28,9 @@ making [D]love to his [E7sus]tonic and [A]gin
 
 
 {comment: Piano Interlude}
-| A ..     | E/G# .. | D/F# .. | A/E .. |
-| D ..     | E7sus .. | A .. | A .. |
-| D/A .. |
+| [A] ..     | [E/G#] .. | [D/F#] .. | [A/E] .. |
+| [D] ..     | [E7sus] .. | [A] .. | [A] .. |
+| [D/A] .. |
 
 
 {start_of_verse}

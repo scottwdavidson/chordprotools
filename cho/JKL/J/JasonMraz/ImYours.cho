@@ -1,13 +1,14 @@
 {title: I'm Yours}
 {artist: Jason Mraz}
 {key: B}
+{duration: 3:45}
 {tempo: 75}
-{duration: 3:45} 
 
-
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| B . . . | F# . . . | G#m . . . | E . . . |
+| [B] . . . | [F#] . . . | [G#m] . . . | [E] . . . |
 
 {start_of_verse}
 Well, [B]you done done me in, you bet I felt it.
@@ -52,7 +53,7 @@ but do you want to come on[F#] skooch on over cl[E]oser, dear,
 And I will nibble your [C#7/F]ear.
 
 {comment: Interlude}
-| B . F#/A# . | G#m . F# . | E . . . | C#7/F . . . |
+| [B] . [F#/A#] . | [G#m] . [F#] . | [E] . . . | [C#7/F] . . . |
 
 {start_of_verse}
 I've been spending [B]way too long checking my tongue in the mirror
@@ -81,6 +82,6 @@ This, oh this, oh this is our [E]fate. I'm your_or_or_[C#7/F]urs.
 {end_of_chorus}
 
 {comment: Outro}
-| B . . . | F# . . . | G#m . . . | E . . . |
+| [B] . . . | [F#] . . . | [G#m] . . . | [E] . . . |
 
 [B]

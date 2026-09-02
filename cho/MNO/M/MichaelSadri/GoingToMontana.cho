@@ -4,12 +4,12 @@
 {duration: 3:30}
 {tempo: 136}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro (piano)}
-| Am ... | Am . - G Am | Dm .  .  .  | Dm . - C Dm |
-| Am ... | Em .  .  .  | Am . - G Am | Am .  .  .  |
+| [Am] ... | [Am] . - [G] [Am] | [Dm] .  .  .  | [Dm] . - [C] [Dm] |
+| [Am] ... | [Em] .  .  .  | [Am] . - [G] [Am] | [Am] .  .  .  |
 
 
 {{ Same as original, just played twice --> this is definitely the chorus ! }}
@@ -47,8 +47,8 @@ To [Em]be by her [Am]side
 {end_of_chorus}
 
 {comment:Piano Solo}
-| Am ... | Am ... | Dm ... | Dm ... |
-| Am ... | Em ... | Am ... | Am ... |
+| [Am] ... | [Am] ... | [Dm] ... | [Dm] ... |
+| [Am] ... | [Em] ... | [Am] ... | [Am] ... |
 
 {{ NEW }}
 {{ Incorporated portion of original lyrics, reformatted and added new final line "Daydream"}}
@@ -91,14 +91,14 @@ Love to [Em]be by her [Am]side
 {comment: 73 bpm / double time}
 
 {comment: Outro}
-| Am Am . G | Am . . . | F F . C | F . . . |
-| Dm Dm . C | Dm . . . | E . . . | E . . . | x2
+| [Am] [Am] . [G] | [Am] . . . | [F] [F] . [C] | [F] . . . |
+| [Dm] [Dm] . [C] | [Dm] . . . | [E] . . . | [E] . . . | x2
 
 
 {comment: Guitar Solo}
-| Am Am . G | Am . . . | F F . C | F . . . |
-| Dm Dm . C | Dm . . . | E . . . | E . . . | x3
+| [Am] [Am] . [G] | [Am] . . . | [F] [F] . [C] | [F] . . . |
+| [Dm] [Dm] . [C] | [Dm] . . . | [E] . . . | [E] . . . | x3
 
 
 {comment: Coda}
-| Am Am . G | Am |
+| [Am] [Am] . [G] | [Am] |

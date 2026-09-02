@@ -6,14 +6,14 @@
 {meta: nord: N54}
 {meta: countin: 0}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N54   }
-{comment: **  meta: countin: 0   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N54   }
+{comment:**  meta: countin: 0   }
+{comment:***********************************************}
 
 {comment:Intro}
-| E A/E | E A/E | E A/E | E A/E | 
-| E A/E | E A/E | E A/E | E A/E | 
+| [E] [A/E] | [E] [A/E] | [E] [A/E] | [E] [A/E] | 
+| [E] [A/E] | [E] [A/E] | [E] [A/E] | [E] [A/E] | 
 
 {start_of_verse}
 [E]If you [D]wake up and [A]don't want to smile
@@ -30,7 +30,7 @@
 {end_of_chorus}
 
 {comment:Turnaround}
-| E D | A | E D | A | 
+| [E] [D] | [A] | [E] [D] | [A] | 
 
 {start_of_verse}
 [E]Why not [D]think about [A]times to come
@@ -47,9 +47,9 @@
 {end_of_chorus}
 
 {comment:Piano Solo}
-| B   | B  |
-| E D | A  | E D | A  | E D | A |
-| B   | B  | B   | B  |
+| [B]   | [B]  |
+| [E] [D] | [A]  | [E] [D] | [A]  | [E] [D] | [A] |
+| [B]   | [B]  | [B]   | [B]  |
 
 {start_of_verse}
 [E]All I [D]want is to [A]see you smile

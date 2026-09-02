@@ -6,9 +6,14 @@
 {meta: nord: M14}
 {meta: performance: D}
 
+{comment:***********************************************}
+{comment:**  meta: nord: M14   }
+{comment:**  meta: performance: D   }
+{comment:***********************************************}
+
 {comment: Intro}
-| D . . . | G  . . . | 
-| D . . . | A7 . . . |
+| [D] . . . | [G]  . . . | 
+| [D] . . . | [A7] . . . |
 
 {start_of_verse}
 [A7#5]Well she[D]got her daddy's car
@@ -43,9 +48,9 @@ And she'll have [D]fun fun[F#m]fun
 {end_of_chorus}
 
 {comment: Solo}
-| D  . . . | D  . . . | 
-| G  . . . | G  . . . |
-| A7 . . . | A7 . . . |
+| [D]  . . . | [D]  . . . | 
+| [G]  . . . | [G]  . . . |
+| [A7] . . . | [A7] . . . |
 
 
 {start_of_verse}
@@ -69,5 +74,5 @@ And we'll have [D]fun fun[F#m]fun
 {end_of_chorus}
 
 {comment: Outro}
-| D . . . | G  . . . | 
-| D . . . | A7 . . . |
+| [D] . . . | [G]  . . . | 
+| [D] . . . | [A7] . . . |

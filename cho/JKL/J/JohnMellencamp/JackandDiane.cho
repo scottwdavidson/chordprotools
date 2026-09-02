@@ -8,16 +8,15 @@
 
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
-{comment:**  meta: rc-slot: 74   }
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
 {comment: Intro}
-| A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
+| [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
 
-| A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
+| [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
 
-| A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
+| [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
 
 
 
@@ -31,9 +30,9 @@
 
 
 {comment: Interlude I}
-| A  D/A  A  E/A  .  . |  D/A  E/A  Esus4/A  E/A  |
+| [A]  [D/A]  [A]  [E/A]  .  . |  [D/A]  [E/A]  [Esus4/A]  [E/A]  |
 
-| A  D/A  A  E/A  .  . |  D/A  D/A  A  .  |
+| [A]  [D/A]  [A]  [E/A]  .  . |  [D/A]  [D/A]  [A]  .  |
 
 
 {start_of_verse}
@@ -55,9 +54,9 @@
 
 
 {comment: Interlude II}
-| A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
+| [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
 
-| A . . . | E/A . A E/A | D/A . (D 16th notes) | . (D 16th notes) . |
+| [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
 
 
 {start_of_verse}
@@ -96,9 +95,9 @@
 
 
 {comment: Interlude III}
-| A  D/A  A  E/A  .  . |  D/A  E/A  Esus4/A  E/A  |
+| [A]  [D/A]  [A]  [E/A]  .  . |  [D/A]  [E/A]  [Esus4/A]  [E/A]  |
 
-| A  D/A  A  E/A  .  . |  D/A  D/A  A  .  |
+| [A]  [D/A]  [A]  [E/A]  .  . |  [D/A]  [D/A]  [A]  .  |
 
 
 
@@ -117,12 +116,12 @@
 {end_of_verse}
 
 
-| A . E/A A E/A | A . E/A A E/A | D/A . D (16th notes) | . D (16th notes) . |
+| [A] . [E/A] [A] [E/A] | [A] . [E/A] [A] [E/A] | [D/A] . [D] (16th notes) | . [D] (16th notes) . |
 
-| A . E/A A E/A | A . E/A A E/A | D/A . D (16th notes) | . D (16th notes) . |
+| [A] . [E/A] [A] [E/A] | [A] . [E/A] [A] [E/A] | [D/A] . [D] (16th notes) | . [D] (16th notes) . |
 
-| A . E/A A E/A | A . E/A A E/A | D/A . D (16th notes) | . D (16th notes) . |
+| [A] . [E/A] [A] [E/A] | [A] . [E/A] [A] [E/A] | [D/A] . [D] (16th notes) | . [D] (16th notes) . |
 
-| A . E/A A E/A | A . E/A A E/A | D/A . D (16th notes) | . D (16th notes) . |
+| [A] . [E/A] [A] [E/A] | [A] . [E/A] [A] [E/A] | [D/A] . [D] (16th notes) | . [D] (16th notes) . |
 
-| A |
+| [A] |

@@ -1,12 +1,15 @@
 {title: Fanny Be Tender With My Love}
 {artist: Bee Gees}
 {key: E}
-{tempo: 97}
 {duration: 4:00}
+{tempo: 97}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
-| E. B11 . . | Emaj7. B11 . . |
-| E. B11 . . | Emaj7. B11 . . |
+| E. [B11] . . | Emaj7. [B11] . . |
+| E. [B11] . . | Emaj7. [B11] . . |
 
 {end_of_part}
 
@@ -71,7 +74,7 @@ Ooh, be [A]tender with my [G#m]love
 You know how [F#m]easy it [G#]is to [C#m]break it
 Fanny, be [A]tender with my [G#m]love,
 'Cause it's [F#m]all that I've got,
-       A/B                    | A(add9)/B | % | A#/C | B/C# |
+       [A/B]                    | [A(add9)/B] | % | [A#/C] | [B/C#] |
 And my love won't forsake me
 {end_of_chorus}
 

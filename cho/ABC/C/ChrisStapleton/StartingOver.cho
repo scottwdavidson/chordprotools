@@ -20,9 +20,9 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| G . . Gsus4 | G . . Gsus4 | Cmaj7 . . C | Cmaj7 . . C |
+| [G] . . [Gsus4] | [G] . . [Gsus4] | [Cmaj7] . . [C] | [Cmaj7] . . [C] |
 
-| G . . Gsus4 | G . . Gsus4 | Cmaj7 . . C | Cmaj7 . . C |
+| [G] . . [Gsus4] | [G] . . [Gsus4] | [Cmaj7] . . [C] | [Cmaj7] . . [C] |
 
 
 {start_of_verse}
@@ -48,7 +48,7 @@ Starting [G]over
 
 
 {comment: Interlude}
-| G . . Gsus4 | G . . Gsus4 | Cmaj7 . . C | Cmaj7 . . C |
+| [G] . . [Gsus4] | [G] . . [Gsus4] | [Cmaj7] . . [C] | [Cmaj7] . . [C] |
 
 
 {start_of_verse}
@@ -75,8 +75,8 @@ Starting [Cmaj7]over  [C] [Cmaj7] [C]
 
 
 {comment: Bridge}
-| Am . Em . | G . . . |
-| Am . Em . | D . . . | Dsus2 . . . |
+| [Am] . [Em] . | [G] . . . |
+| [Am] . [Em] . | [D] . . . | [Dsus2] . . . |
 
 
 {start_of_chorus}
@@ -91,8 +91,8 @@ Starting [Cmaj7]over  [C] [Cmaj7] [C]
 
 
 {comment: Outro}
-| G . . . | G . . Gsus4 | Cmaj7 . . C | Cmaj7 . . C |
+| [G] . . . | [G] . . [Gsus4] | [Cmaj7] . . [C] | [Cmaj7] . . [C] |
 
-| G . . . | G . . Gsus4 | Cmaj7 . . C | Cmaj7 . . C |
+| [G] . . . | [G] . . [Gsus4] | [Cmaj7] . . [C] | [Cmaj7] . . [C] |
 
-| G |
+| [G] |

@@ -4,9 +4,11 @@
 {duration: 2:35}
 {tempo: 128}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| C . . . |
+| [C] . . . |
 
 {start_of_chorus}
 There's a [C]kind of hush[E7]  all over the world[Am]tonight
@@ -34,8 +36,8 @@ There's a [C]kind of hush[E7]  all over the world[Am]tonight
 {end_of_chorus}
 
 {comment: Solo}
-| C . . . | E7 . . . | Am . . . | C7 . . . |
-| F . . . | G  . . . | C  . . . | G  . . . |
+| [C] . . . | [E7] . . . | [Am] . . . | [C7] . . . |
+| [F] . . . | [G]  . . . | [C]  . . . | [G]  . . . |
 
 {start_of_verse}
 [C7]  So [F]listen very [F6]carefully, get 

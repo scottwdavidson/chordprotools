@@ -4,15 +4,15 @@
 {duration: 4:00}
 {tempo: 125}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 | (pickup G-Bb-C) |
-| Cm7 ...        | Bb ../ Bb/C | Cm7 ../ Bb | Bb ../ Bb/Ab |
-| Bb/Ab ../ Bb/C | Bb ...      | Gm/C .. Bb | Bb   (G-Bb-C)| 
-| Cm    | Bb | Cm | Bb |
-| Amaj7 | Bb | Cm | Bb (it is the night)|
+| [Cm7] ...        | [Bb] ../ [Bb/C] | [Cm7] ../ [Bb] | [Bb] ../ [Bb/Ab] |
+| [Bb/Ab] ../ [Bb/C] | [Bb] ...      | [Gm/C] .. [Bb] | [Bb]   (G-Bb-C)| 
+| [Cm]    | [Bb] | [Cm] | [Bb] |
+| [Amaj7] | [Bb] | [Cm] | [Bb] (it is the night)|
 
 {start_of_verse}
 It is the [Cm]night. My body's [Bb]weak
@@ -44,10 +44,10 @@ Gonna ride like the wind.
 {end_of_chorus}
 
 {comment:Instrumental}
-| Cm9 ... | Cm9 . Dm7 Ebmaj7   | 
-| Cm9 ... | Cm9 . Ebmaj7 Dm7   | 
-| Cm9 ... | Cm9 Dm7 Ebmaj7 Cm9 | 
-| Cm9 Dm7 Ebmaj7 | F6 |
+| [Cm9] ... | [Cm9] . [Dm7] [Ebmaj7]   | 
+| [Cm9] ... | [Cm9] . [Ebmaj7] [Dm7]   | 
+| [Cm9] ... | [Cm9] [Dm7] [Ebmaj7] [Cm9] | 
+| [Cm9] [Dm7] [Ebmaj7] | [F6] |
 
 {start_of_verse}
 [Cm7]Accused and tried and t[Bb]old to hang
@@ -78,13 +78,13 @@ Gonna ride like the wind.
 {end_of_chorus}
 
 {comment: Outro}
-| Cm9 ... | Cm9 . Dm7 Ebmaj7   | 
-| Cm9 ... | Cm9 . Ebmaj7 Dm7   | 
-| Cm9 ... | Cm9 Dm7 Ebmaj7 Cm9 | 
-| Cm9 Dm7 Ebmaj7 | F6 |
+| [Cm9] ... | [Cm9] . [Dm7] [Ebmaj7]   | 
+| [Cm9] ... | [Cm9] . [Ebmaj7] [Dm7]   | 
+| [Cm9] ... | [Cm9] [Dm7] [Ebmaj7] [Cm9] | 
+| [Cm9] [Dm7] [Ebmaj7] | [F6] |
 
-| Cm9 ... | Cm9 . Dm7 Ebmaj7   | 
-| Cm9 ... | Cm9 . Ebmaj7 Dm7   | 
-| Cm9 ... | Cm9 Dm7 Ebmaj7 Cm9 | 
-| Cm9 Dm7 Ebmaj7 | F6 |
+| [Cm9] ... | [Cm9] . [Dm7] [Ebmaj7]   | 
+| [Cm9] ... | [Cm9] . [Ebmaj7] [Dm7]   | 
+| [Cm9] ... | [Cm9] [Dm7] [Ebmaj7] [Cm9] | 
+| [Cm9] [Dm7] [Ebmaj7] | [F6] |
 

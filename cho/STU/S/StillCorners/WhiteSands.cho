@@ -2,12 +2,12 @@
 {artist: Still Corners}
 {key: Dm}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 {comment: Keyboard "pluck" -> A .. C .. D }
-| Dm | Am | Em | G | x12 
+| [Dm] | [Am] | [Em] | [G] | x12 
 
 {start_of_verse}
 [Dm]On a lonely highway. [Am]From where I came
@@ -21,7 +21,7 @@
 {end_of_chorus}
 
 {comment: Interlude}
-| Dm | Am | Em | G |
+| [Dm] | [Am] | [Em] | [G] |
 
 {start_of_verse}
 [Dm]I'm the last drifter, [Am]from the white sands
@@ -38,8 +38,8 @@
 {end_of_chorus}
 
 {comment: Interlude}
-| Dm | Am | Em | G |
-| Dm | Am | Em | G |
+| [Dm] | [Am] | [Em] | [G] |
+| [Dm] | [Am] | [Em] | [G] |
 
 {start_of_verse}
 [D]On a lonely road. [Am]Neon White. [Em]Blue in the Dark.
@@ -48,7 +48,7 @@
 {end_of_verse}
 
 {comment: Interlude}
-| Dm | Am | Em | G |
+| [Dm] | [Am] | [Em] | [G] |
 
 {start_of_bridge}
 [Dm]Ride on, Ride [Am]on. Ride on, Ride [Em]on.
@@ -56,15 +56,15 @@
 {end_of_bridge}
 
 {comment: Interlude}
-| Dm | Am | Em | G |
+| [Dm] | [Am] | [Em] | [G] |
 
 [Dm]On a lonely highway[Am].   [Em]On a lonely highway[G].
 
 {comment: Interlude}
-| Dm | Am | Em | G |
+| [Dm] | [Am] | [Em] | [G] |
 
 [Dm]Around[Am]
 [Em]Around[G]
 
 {comment: Outro}
-| Dm | Am | Em | G | x4
+| [Dm] | [Am] | [Em] | [G] | x4

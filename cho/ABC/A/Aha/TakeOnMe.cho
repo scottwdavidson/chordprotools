@@ -4,12 +4,12 @@
 {duration: 3:00}
 {tempo: 100}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Bm . . . | E . . . | A . . . | D . . . |
-| Bm . . . | E . . . | A . . . | D . . . |
+| [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |
+| [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |
 
 {start_of_verse}
 [Bm]Talking awa[E]y
@@ -44,7 +44,7 @@ In a day or[A] two[Eadd4]...[D6][E]
 {end_of_chorus}
 
 {comment: Bridge}
-| Bm . . . | E . . . | A . . . | D . . . |
+| [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |
 
 {start_of_verse}
 And all [Bm]things that you say[E]
@@ -63,4 +63,4 @@ In a day or[A] two[Eadd4]...[D6][E]
 {end_of_chorus}
 
 {comment: Outro}
-| Bm . . . | E . . . | A . . . | D . . . |
+| [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |

@@ -2,13 +2,13 @@
 {artist: Chaka Khan / Rufus}
 {key: Em}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {columns: 2}
 
 {comment:Intro}
-| Em D/E | Em D/E | Em D/E - [A F# E D] | Em D/E - [A F# E D] |
+| [Em] [D/E] | [Em] [D/E] | [Em] [D/E] - [A F# E D] | [Em] [D/E] - [A F# E D] |
 
 {start_of_verse}
 [Em]Captured [D/E]effortlessly [A F# E D]     [Em]That's t[D/E]he way it was [E F# G A]
@@ -42,7 +42,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 {end_of_chorus}
 
 {comment:Intro}
-| Em D/E | Em D/E | Em D/E - [A F# E D] | Em D/E - [A F# E D] |
+| [Em] [D/E] | [Em] [D/E] | [Em] [D/E] - [A F# E D] | [Em] [D/E] - [A F# E D] |
 
 {start_of_verse}
 [Em]I wait f[D/E]or night time to come [A F# E D]  [Em]And brin[D/E]g you to me [E F# G A]

@@ -16,10 +16,10 @@
 {comment:***********************************************}
 
 {comment: Intro I - Guitar Only}
-| D . A . | E . . . | D . A . | E . . . |
+| [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
 
 {comment: Intro II - Band Enters}
-| D . A . | E . . . | D . A . | E . . . |
+| [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
 
 
 {start_of_part: Verse 1}
@@ -63,17 +63,17 @@
 
 
 {start_of_bridge: Bridge}
-| C . G C | . G . . | C . G C | . G . . |
-| E . B E | . B . . | E . B E | . B . . |
+| [C] . [G] [C] | . [G] . . | [C] . [G] [C] | . [G] . . |
+| [E] . [B] [E] | . [B] . . | [E] . [B] [E] | . [B] . . |
 {end_of_bridge}
 
 
 {start_of_part: Solo}
-| D . A . | E . . . | D . A . | E . . . |
-| D . A . | E . . . | D . A . | E . . . |
+| [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
+| [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
 
-| D . A . | E . . . | D . A . | E . . . |
-| D . A . | E . . . | D . A . | E . . . |
+| [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
+| [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
 {end_of_part}
 
 
@@ -105,8 +105,8 @@
 
 
 {start_of_part: Outro}
-| D . A D | A . E . |
-| D . A D | A . E . |
-| D . A D | A . E . |
-| D . A D | A . E
+| [D] . [A] [D] | [A] . [E] . |
+| [D] . [A] [D] | [A] . [E] . |
+| [D] . [A] [D] | [A] . [E] . |
+| [D] . [A] [D] | [A] . [E]
 {end_of_part}

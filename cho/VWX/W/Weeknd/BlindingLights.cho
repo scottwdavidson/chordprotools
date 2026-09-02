@@ -4,10 +4,12 @@
 {duration: 3:20}
 {tempo: 171}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Fm . . . | Fm . . . | Cm . . . | Cm . . . |
-| Eb . . . | Eb . . . | Bb . . . | Bb . . . |
+| [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
+| [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
 
 {start_of_verse}
 I been tryna [Fm]call
@@ -35,8 +37,8 @@ Hey, hey, hey
 
 
 {comment: Bridge}
-| Fm . . . | Fm . . . | Cm . . . | Cm . . . |
-| Eb . . . | Eb . . . | Bb . . . | Bb . . . |
+| [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
+| [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
 
 {start_of_verse}
 I'm running out of [Fm]time
@@ -73,10 +75,10 @@ Hey, hey, hey
 
 
 {comment: Bridge}
-| Fm . . . | Fm . . . | Cm . . . | Cm . . . |
-| Eb . . . | Eb . . . | Bb . . . | Bb . . . |
-| Fm . . . | Fm . . . | Cm . . . | Cm . . . |
-| Eb . . . | Eb . . . | Bb . . . | Bb . . . |
+| [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
+| [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
+| [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
+| [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
 
 {comment: Outro}
 I said, [Fm]ooh, I'm [Cm]blinded by the lights

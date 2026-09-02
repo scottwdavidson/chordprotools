@@ -1,19 +1,22 @@
 {title: My Best Friend's Girl}
 {artist: The Cars}
 {key: F}
-{tempo: 130}
 {duration: 3:45}
+{tempo: 130}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| F . . . | Bb . C . | 
-| F . . . | Bb . C . | 
-| F . . . | Bb . C . | 
-| F . . . | Bb . C . | 
+| [F] . . . | [Bb] . [C] . | 
+| [F] . . . | [Bb] . [C] . | 
+| [F] . . . | [Bb] . [C] . | 
+| [F] . . . | [Bb] . [C] . | 
 
-| F . . . | Bb . C . | 
-| F . . . | Bb . C . | 
-| F . . . | Bb . C . | 
-| F . . . | Bb . C (you're) | 
+| [F] . . . | [Bb] . [C] . | 
+| [F] . . . | [Bb] . [C] . | 
+| [F] . . . | [Bb] . [C] . | 
+| [F] . . . | [Bb] . [C] (you're) | 
 
 
 {start_of_verse}
@@ -36,8 +39,8 @@ Doesn't know [F]real surprise.[Bb]--[C](here she comes again)
 
 
 {comment: Guitar Solo 1}
-| F . . . | Bb . C . | 
-| F . . . | Bb . C (you've) | 
+| [F] . . . | [Bb] . [C] . | 
+| [F] . . . | [Bb] . [C] (you've) | 
 
 {start_of_verse}
 [C] You've got your 

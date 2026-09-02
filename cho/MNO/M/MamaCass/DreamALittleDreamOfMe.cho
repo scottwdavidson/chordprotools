@@ -3,11 +3,11 @@
 {key: C}
 {tempo: 133}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro - Piano Only}
-| Cmaj7 . . . | Dm . . . | Em . . . | Fmaj7 . . . |
+| [Cmaj7] . . . | [Dm] . . . | [Em] . . . | [Fmaj7] . . . |
 
 {start_of_verse}
 [C6]Stars shining bright a[Ab7]bove [G7]you,
@@ -36,8 +36,8 @@
 {end_of_verse}
 
 {comment: Piano Solo}
-| C6 . . . | Ab7 . G7 . | C6 . . . | A7 . Em7b5 A7 |
-| Dm . Dm7 . | Dm7b5 . Bb9 . | Cmaj7 . Ab7 G7 | C6 . Bbm7 Eb7 |
+| [C6] . . . | [Ab7] . [G7] . | [C6] . . . | [A7] . [Em7b5] [A7] |
+| [Dm] . [Dm7] . | [Dm7b5] . [Bb9] . | [Cmaj7] . [Ab7] [G7] | [C6] . [Bbm7] [Eb7] |
 
 {start_of_chorus}
 [Ab6]Stars [Fm7]fading, but [Bbm7]I linger [Eb7]on, dear, [Ab6]still [Fm7]craving your [Bbm7]kiss. [Eb7]

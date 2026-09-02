@@ -16,15 +16,15 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
 
-| E .  A .  | D   . A   . |
-| E .  A .  | D   . A   . |
-| E .  A .  | D   . A   . |
-| E .  A .  | D   . A   . |
+| [E] .  [A] .  | [D]   . [A]   . |
+| [E] .  [A] .  | [D]   . [A]   . |
+| [E] .  [A] .  | [D]   . [A]   . |
+| [E] .  [A] .  | [D]   . [A]   . |
 
 {start_of_verse}
 They [E]come from the [A]cities and they 
@@ -39,7 +39,7 @@ They [E]come from the [A]cities and they
 [E]R. O. [A]C. K.  in the [D]U. S. A[A], yeah, yeah[B]
 [N.C.] Rockin' in the U. S. A.
 {end_of_chorus}
-| E .  A .  | D   . A   . |
+| [E] .  [A] .  | [D]   . [A]   . |
 
 
 {start_of_verse}
@@ -55,27 +55,27 @@ With the [E]blind faith of [A]Jesus, you
 [D]know that [A]they just [B]might . . .
 [N.C.]Rockin' in the U. S. A.
 {end_of_verse}
-| E .  A .  | D   .  .   . |
-| E .  A .  | D   .  .   . |
+| [E] .  [A] .  | [D]   .  .   . |
+| [E] .  [A] .  | [D]   .  .   . |
 
 
 {comment: Flute / Keyboard Solo}
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
 
 {comment: Guitar Solo}
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
-| E . A/E . | D/E . A/E . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
 
 {comment: Drums / Bass Only}
-| E . A/E . | D/E . A/E . | 
+| [E] . [A/E] . | [D/E] . [A/E] . | 
 
 {comment: Keyboard Only}
-| E . A/E . | D/E . A/E . |
+| [E] . [A/E] . | [D/E] . [A/E] . |
 
 {start_of_verse}
 [E]Voices from [A]nowhere and 
@@ -90,7 +90,7 @@ There was [E]Frankie Lymon, [A]Bobby Fuller,
 [D]Reeves, let's don't [A]forget James [B]Brown.
 [N.C.] Rockin' in the U. S. A.
 {end_of_verse}
-| E .  A .  | D   . A   . |
+| [E] .  [A] .  | [D]   . [A]   . |
 
 {comment: Outro}
 [E]R. O. [A]C. K.  in the [D]U. S. A[A]
@@ -106,4 +106,4 @@ There was [E]Frankie Lymon, [A]Bobby Fuller,
 [E]R. O. [A]C. K.  in the [D]U. S. A[A]
 [E]R. O. [A]C. K.  in the [D]U. S. A[A]
 
-| E ... |
+| [E] ... |

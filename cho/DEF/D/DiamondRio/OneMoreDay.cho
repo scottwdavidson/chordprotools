@@ -1,15 +1,18 @@
 {title: One More Day}
 {artist: Diamond Rio}
 {key: E}
-{tempo: 100}
 {duration: 3:45}
+{tempo: 100}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E . . . | C#m7 . . . |
-| A . . . | B . . . |
+| [E] . . . | [C#m7] . . . |
+| [A] . . . | [B] . . . |
 
-| E . . . | C#m7 . . . |
-| A . . . | B . . . |
+| [E] . . . | [C#m7] . . . |
+| [A] . . . | [B] . . . |
 
 {start_of_verse: Verse 1}
 [E]Last night I [C#m]had a crazy[E] dream[C#m]

@@ -1,12 +1,15 @@
-{title:Its So Easy}
-{artist:Linda Ronstadt}
-{key:E}
-{tempo:120}
+{title: Its So Easy}
+{artist: Linda Ronstadt}
+{key: E}
 {duration: 2:45}
+{tempo: 120}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E . . . | B . . . | A . .   . | B . . . |
-| E . . . | A . . . | B . A/B . | E . . . |
+| [E] . . . | [B] . . . | [A] . .   . | [B] . . . |
+| [E] . . . | [A] . . . | [B] . [A/B] . | [E] . . . |
 
 
 {start_of_chorus}

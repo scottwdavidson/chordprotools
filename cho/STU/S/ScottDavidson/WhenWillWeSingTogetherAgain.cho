@@ -4,6 +4,9 @@
 {duration: 2:30}
 {tempo: 102}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_verse}
 A [F]few rehearsals find[Am/E]ing your best keys, 
 barely [Dm]time to work out the [Cdim]harmonies
@@ -30,10 +33,10 @@ and [Dm]we'll sing this song for you [Cdim]every day
 {end_of_verse}
 
 {comment: solo}
-| F  . . . | Am / E . . . |
-| Dm . . . | Cdim   . . . |
-| Gm . . . | C7     . . . | 
-| F  . . . | F      . . . | 
+| [F]  . . . | [Am] / [E] . . . |
+| [Dm] . . . | [Cdim]   . . . |
+| [Gm] . . . | [C7]     . . . | 
+| [F]  . . . | [F]      . . . | 
 
 {start_of_chorus}
 But [Dm] hang on tight to the [Am]rhythm, 

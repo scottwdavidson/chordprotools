@@ -2,19 +2,19 @@
 {artist: The Beatles}
 {key: A}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| A | A | D | E7 | 
-| A | A | D | E7 | 
+| [A] | [A] | [D] | [E7] | 
+| [A] | [A] | [D] | [E7] | 
 
 {start_of_chorus}
 [A]Here comes the sun (doo doo doo doo)
 [D]Here comes the [B]sun, and I say
 [A]It's alright
 {end_of_chorus}
-| D A/C# Bm7 | A E7 | A | E | 
+| [D] [A/C#] [Bm7] | [A] [E7] | [A] | [E] | 
 
 {start_of_verse}
 [A]Little darling, it's been a long, [D]cold, lonely win[E7]ter
@@ -26,7 +26,7 @@
 [D]Here comes the [B]sun, and I say
 [A]It's alright
 {end_of_chorus}
-| D A/C# Bm7 | A E7 | A | E | 
+| [D] [A/C#] [Bm7] | [A] [E7] | [A] | [E] | 
 
 {start_of_verse}
 [A]Little darling, the smiles return[D]ing to their [E7]faces
@@ -38,10 +38,10 @@
 [D]Here comes the [B]sun, and I say
 [A]It's alright
 {end_of_chorus}
-| D A/C# Bm7 | A E7 | A | E | 
+| [D] [A/C#] [Bm7] | [A] [E7] | [A] | [E] | 
 
 {comment:Interlude 3/8, 3/8, 5/8 - third inversion}
-| C | G | D | A | E7 | 
+| [C] | [G] | [D] | [A] | [E7] | 
 
 {start_of_bridge}
 [C]Sun, [G]sun, [D]sun, here it [A]comes 
@@ -50,7 +50,7 @@
 {end_of_bridge}
 
 {comment:Instrumenetal Bridge}
-| E7 | E7sus4 |  E7 | 
+| [E7] | [E7sus4] |  [E7] | 
 
 {start_of_verse}
 [A]Little darling, I feel that ice [D]is slowing [E7]melting
@@ -62,7 +62,7 @@
 [D]Here comes the [B]sun, and I say
 [A]It's alright
 {end_of_chorus}
-| D A/C# Bm7 | A E7 | A | E | 
+| [D] [A/C#] [Bm7] | [A] [E7] | [A] | [E] | 
 
 {comment:Instrumental Outro 3/8, 3/8, 5/8 - third inversion}
-| C | G | D | A |
+| [C] | [G] | [D] | [A] |

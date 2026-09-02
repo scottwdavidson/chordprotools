@@ -10,15 +10,14 @@
 {comment:***********************************************}
 {comment:**  meta: nord: N51   }
 {comment:**  meta: countin: 8   }
-{comment:**  meta: rc-slot: 68   }
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 
 {comment: roland -> C012 (Sweep)}
 
 {comment: Intro}
-| E ... | E ... | E ... | E ... |
-| E ... | E ... | E ... | E ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
 
 {start_of_verse}
 It was a [E]beautiful day, the sun beat down
@@ -78,26 +77,26 @@ Wo[D]rkin' on a [G]mystery[E]
 {end_of_chorus}
 
 {comment: Outro}
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 (guitar lick)  (Woo-) | D (oo) . . . | D (guitar lick)
-(Woo-) | E (oo) . . . | E (guitar lick) | E .  . . | E (guitar lick) |
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] (guitar lick)  (Woo-) | [D] (oo) . . . | [D] (guitar lick)
+(Woo-) | [E] (oo) . . . | [E] (guitar lick) | [E] .  . . | [E] (guitar lick) |
 
 {comment: Guitar Solo}
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 . . (Woo-) | D (oo) . . . | D . . .
-(Woo-) | E (oo) . . . | E . . . | E .  . . | E . . . |
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . .
+(Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 . . (Woo-) | D (oo) . . . | D . . .
-(Woo-) | E (oo) . . . | E . . . | E .  . . | E . . . |
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . .
+(Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 . . (Woo-) | D (oo) . . . | D . . .
-(Woo-) | E (oo) . . . | E . . . | E .  . . | E . . . |
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . .
+(Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 . . (Woo-) | D (oo) . . . | D . . .
-(Woo-) | E (oo) . . . | E . . . | E .  . . | E . . . |
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . .
+(Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 . . (Woo-) | D (oo) . . . | D . . .
-(Woo-) | E (oo) . . . | E . . . | E .  . . | E . . . |
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . .
+(Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 . . (Woo-) | D (oo) . . . | D . . .
-(Woo-) | E (oo) . . . | E . . . | E .  . . | E . . . |
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . .
+(Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
-(Woo-) | Cmaj7 (oo) . . . | Cmaj7 . . (Woo-) | D (oo) . . . | D . . . (Woo-) | E (oo)
+(Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . . (Woo-) | [E] (oo)

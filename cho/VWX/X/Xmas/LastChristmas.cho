@@ -6,15 +6,15 @@
 {meta: countin: 4}
 {meta: performance: C}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 4}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: C   }
+{comment:***********************************************}
 
 {comment: Intro}
-| C . . . | C . . . | Am . . . | Am . . . |
+| [C] . . . | [C] . . . | [Am] . . . | [Am] . . . |
 
-| Dm . . . | Dm . . . | G . . . | G . . . |
+| [Dm] . . . | [Dm] . . . | [G] . . . | [G] . . . |
 
 
 
@@ -34,9 +34,9 @@ I'll [G]give it to someone special.
 
 
 {comment: Keyboard Solo I}
-| C . . . | C . . . | Am . . . | Am . . . |
+| [C] . . . | [C] . . . | [Am] . . . | [Am] . . . |
 
-| Dm . . . | Dm . . . | G . . . | G . . . |
+| [Dm] . . . | [Dm] . . . | [G] . . . | [G] . . . |
 
 
 {start_of_verse}
@@ -70,9 +70,9 @@ I'll [G]give it to someone special.
 
 
 {comment: Keyboard Solo II}
-| C . . . | C . . . | Am . . . | Am . . . |
+| [C] . . . | [C] . . . | [Am] . . . | [Am] . . . |
 
-| Dm . . . | Dm . . . | G . . . | G . . . |
+| [Dm] . . . | [Dm] . . . | [G] . . . | [G] . . . |
 
 
 {start_of_verse}

@@ -1,12 +1,15 @@
 {title: Time Passages}
 {artist: Al Stewart}
+{key: Eb}
 {duration: 6:00}
 {tempo: 111}
-{key: Eb}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
-. | Eb . Bb/Eb . | Bb/Eb . . Ab    | 
-. | Eb . Bb    . | Gm    . . Ab/Bb | 
+. | [Eb] . [Bb/Eb] . | [Bb/Eb] . . [Ab]    | 
+. | [Eb] . [Bb]    . | [Gm]    . . [Ab/Bb] | 
 {end_of_part}
 
 {start_of_verse:Verse 1}
@@ -25,8 +28,8 @@ Ye[Eb]ars go[Bb] falling in the [Cm]fading [F]light.
 {end_of_chorus}
 
 {start_of_part: Interlude}
-. | Eb . Bb/Eb . | Bb/Eb . . Ab    | 
-. | Eb . Bb    . | Gm    . . Ab/Bb | 
+. | [Eb] . [Bb/Eb] . | [Bb/Eb] . . [Ab]    | 
+. | [Eb] . [Bb]    . | [Gm]    . . [Ab/Bb] | 
 {end_of_part}
 
 {start_of_verse:Verse 2}
@@ -44,8 +47,8 @@ The[Eb]er's some[Bb]thing back there that you [Cm]left [F]behind.
 {end_of_chorus}
 
 {start_of_part: Interlude}
-. | Eb . Bb/Eb . | Bb/Eb . . Ab | 
-. | Eb . Bb    . | Gm    . . Ab | 
+. | [Eb] . [Bb/Eb] . | [Bb/Eb] . . [Ab] | 
+. | [Eb] . [Bb]    . | [Gm]    . . [Ab] | 
 {end_of_part}
 
 {start_of_part: Bridge}
@@ -55,8 +58,8 @@ It's just a game that you play.
 {end_of_part}
 
 {start_of_part: Interlude}
-. | Eb . Bb/Eb . | Bb/Eb . . Ab | 
-. | Eb . Bb    . | Gm    . . Ab | 
+. | [Eb] . [Bb/Eb] . | [Bb/Eb] . . [Ab] | 
+. | [Eb] . [Bb]    . | [Gm]    . . [Ab] | 
 {end_of_part}
 
 {start_of_verse:Verse 3}
@@ -74,12 +77,12 @@ The[Eb]er's some[Bb]thing back there that you [Cm]left [F]behind.
 {end_of_chorus}
 
 {start_of_part: Interlude}
-. | Eb . Bb/Eb . | Bb/Eb . . Ab | 
-. | Eb . Bb    . | Gm    . . Ab | 
+. | [Eb] . [Bb/Eb] . | [Bb/Eb] . . [Ab] | 
+. | [Eb] . [Bb]    . | [Gm]    . . [Ab] | 
 {end_of_part}
 
 {start_of_part: Outro}
-. | Eb . Bb/Eb . | Bb/Eb . . Ab | 
-. | Eb . Bb    . | Gm    . . Ab | 
+. | [Eb] . [Bb/Eb] . | [Bb/Eb] . . [Ab] | 
+. | [Eb] . [Bb]    . | [Gm]    . . [Ab] | 
 {end_of_part}
 

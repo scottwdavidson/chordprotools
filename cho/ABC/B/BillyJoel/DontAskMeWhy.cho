@@ -4,12 +4,12 @@
 {duration: 3:50}
 {tempo: 99}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . |
-| Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . |
+| [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . |
+| [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . |
 
 
 {start_of_verse}
@@ -25,7 +25,7 @@ Don't a[Cm7/F]sk me w[Bb]hy
 {end_of_chorus}
 
 {comment:Turnaround}
-| Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . | Bb . Eb/Bb . |
+| [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . |
 
 {start_of_verse}
 {end_of_verse}

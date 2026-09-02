@@ -1,15 +1,18 @@
 {title: You Might Think}
 {artist: The Cars}
 {key: D}
-{tempo: 140}
 {duration: 3:04}
+{tempo: 140}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| D . . . | G . . . |
-| A . . . | D . . . |
+| [D] . . . | [G] . . . |
+| [A] . . . | [D] . . . |
 
-| D . . . | G  . . . |
-| A . . . | Bm . . . |
+| [D] . . . | [G]  . . . |
+| [A] . . . | [Bm] . . . |
 
 
 {start_of_verse}

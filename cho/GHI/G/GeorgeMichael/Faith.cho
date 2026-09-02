@@ -2,12 +2,15 @@
 {artist: George Michael}
 {key: B}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro ( Organ )}
-| B . B/D . | Esus . E  . | 
-| C#m . . . | B/F# . F# . |
-| B . B/D . | Esus . E  . | 
-| C#m . . . | B/F# . .  . |
-| F#  . . . |
+| [B] . [B/D] . | [Esus] . [E]  . | 
+| [C#m] . . . | [B/F#] . [F#] . |
+| [B] . [B/D] . | [Esus] . [E]  . | 
+| [C#m] . . . | [B/F#] . .  . |
+| [F#]  . . . |
 
 {start_of_verse}
 [B] Well I guess it would be [B]nice if I could touch your body

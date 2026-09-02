@@ -2,11 +2,11 @@
 {artist: Al Green}
 {key: F}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Gm9 . Am7 Am7 | Gm7 . Am7 Am7 | Gm9 . Am7 Am7 | Gm7 . C7 . |
+| [Gm9] . [Am7] [Am7] | [Gm7] . [Am7] [Am7] | [Gm9] . [Am7] [Am7] | [Gm7] . [C7] . |
 Let's stay together (whispered)
 
 {start_of_verse}
@@ -31,7 +31,7 @@ Times are [Bbmaj7]good or [Am7]bad, [Dm]happy or [C]sad
 {end_of_bridge}
 
 {comment: Interlude}
-| Gm9  | Gm9 | Abmaj7 | Gm9 | Abmaj7 | Abmaj7 | 
+| [Gm9]  | [Gm9] | [Abmaj7] | [Gm9] | [Abmaj7] | [Abmaj7] | 
 
 Whether times are [Bbmaj7]good or [Am7]bad, [Dm]happy or [C]sad
 
@@ -53,8 +53,8 @@ Times are [Bbmaj7]good or [Am7]bad, [Dm]happy or [C]sad
 {end_of_bridge}
 
 {comment:Solo (1/2 verse)}
-| F  | F  | Dm9  | Dm9  |
-| Bb | Bb | Bbm9 | Bbm9 |
+| [F]  | [F]  | [Dm9]  | [Dm9]  |
+| [Bb] | [Bb] | [Bbm9] | [Bbm9] |
 
 [Am7]Let me [Gm7]be the [F]one you come [Em]running [Dm9]to
 [Am7]I'll [Gm7]never [F]be  [Am7]uu-nn[Dm9]true

@@ -4,12 +4,12 @@
 {duration: 3:14}
 {tempo: 93}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| F . C/E . | Ebadd9 . Bb/D . | 
-| F . C/E . | Bb/D   . C7   . | 
+| [F] . [C/E] . | [Ebadd9] . [Bb/D] . | 
+| [F] . [C/E] . | [Bb/D]   . [C7]   . | 
 
 
 {start_of_verse}
@@ -24,8 +24,8 @@ But [Bb]That's al[Gm]right, my [C7sus]love
 {end_of_verse}
 
 {comment: Interlude}
-| F . C/E . | Ebadd9 . Bb/D . | 
-| F . C/E . | Bb/D   . C7   . | 
+| [F] . [C/E] . | [Ebadd9] . [Bb/D] . | 
+| [F] . [C/E] . | [Bb/D]   . [C7]   . | 
 
 {start_of_verse}
 [F] When you touch[Am/F] my weary [Cm/F]head
@@ -47,10 +47,10 @@ that's my [F]home[C][Bb][C]
 [Dm]Home is just an[C]other word for [Gm7]you[Gm7/C]
 
 {comment: Solo 1/2 verse}
-| F . Am/F  . | Cm/F . . . | 
-| Bb . Bb/G . | Csus . C . |
-| F . Am/F  . | Cm/F . . . | 
-| Bb . Bb/G . | Csus . C . |
+| [F] . [Am/F]  . | [Cm/F] . . . | 
+| [Bb] . [Bb/G] . | [Csus] . [C] . |
+| [F] . [Am/F]  . | [Cm/F] . . . | 
+| [Bb] . [Bb/G] . | [Csus] . [C] . |
 
 Well I [Am]never had a place
 That I could [Bb]call my [F/A]very own[Gm]
@@ -58,7 +58,7 @@ But [Bb]That's all right, [Gm]my [Csus]love[C]
 Cause you're my [F]home[C]
 
 {comment: Interlude}
-| F . C/E . | Ebadd9 . Bb/D . | 
+| [F] . [C/E] . | [Ebadd9] . [Bb/D] . | 
 
 {start_of_verse}
 [F] If I [Am/F]travel all my [Cm/F]life
@@ -73,5 +73,5 @@ Cause you're my [F]home
 {end_of_verse}
 
 {comment: Outro}
-| F . C/E . | Ebadd9 . Bb/D . | 
-| F . C/E . | Bb/D   . C7   . | 
+| [F] . [C/E] . | [Ebadd9] . [Bb/D] . | 
+| [F] . [C/E] . | [Bb/D]   . [C7]   . | 

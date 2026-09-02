@@ -5,19 +5,19 @@
 {tempo: 178}
 {meta: performance: A}
 
-{comment: ***********************************************}
-{comment: **  meta: performance: A}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: A   }
+{comment:***********************************************}
 
 {comment: Intro}
-| C ..     | G/B .. | F/A .. | C/G .. | 
-| Fmaj7 .. | C/E .. | D7 ..  | G ..   |
+| [C] ..     | [G/B] .. | [F/A] .. | [C/G] .. | 
+| [Fmaj7] .. | [C/E] .. | [D7] ..  | [G] ..   |
 
-| C ..     | G/B .. | F/A .. | C/G .. | 
-| F ..     | G7sus .. | 
-| C ..     | F/C ..   | Cmaj7 .. |
-| F/C C Dm7/C | C .. | F/C .. | Cmaj7 |
-| F/C C Dm7/C |
+| [C] ..     | [G/B] .. | [F/A] .. | [C/G] .. | 
+| [F] ..     | [G7sus] .. | 
+| [C] ..     | [F/C] ..   | [Cmaj7] .. |
+| [F/C] [C] [Dm7/C] | [C] .. | [F/C] .. | [Cmaj7] |
+| [F/C] [C] [Dm7/C] |
 
 {start_of_verse}
 It's [C]nine o'[G/B]clock on a [F/A]Saturday,[C/G]     
@@ -28,9 +28,9 @@ making [F]love to his [G7sus]tonic and [C]gin
 
 
 {comment: Piano Interlude}
-| C .. | G/B .. | F/A .. | C/G .. | 
-| F ..     | G7sus .. | C .. | C .. |
-| F/C .. | 
+| [C] .. | [G/B] .. | [F/A] .. | [C/G] .. | 
+| [F] ..     | [G7sus] .. | [C] .. | [C] .. |
+| [F/C] .. | 
 
 
 {start_of_verse}

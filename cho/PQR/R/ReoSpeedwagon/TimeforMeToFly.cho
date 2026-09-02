@@ -1,24 +1,27 @@
 {title: Time For Me To Fly}
 {artist: REO Speedwagon}
 {key: D}
-{tempo: 84}
 {duration: 5:20}
+{tempo: 84}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Acoustic Guitar Tuning - Open D (D A D F# A D }
 
 
 {comment: Intro}
-|  D  Gadd9  |  Aadd4  Gadd9 |  D  Gadd9  |  Aadd4  Gadd9  |
+|  [D]  [Gadd9]  |  [Aadd4]  [Gadd9] |  [D]  [Gadd9]  |  [Aadd4]  [Gadd9]  |
 
 
 
 {start_of_verse}
 [D]I've been around for you,
 [Aadd4]Been up and down for you,
-But [Gadd9]I just can't get any relief. |  D  Gadd9/D  D  Gadd9/D  D |
+But [Gadd9]I just can't get any relief. |  [D]  [Gadd9/D]  [D]  [Gadd9/D]  [D] |
 I've [D]swallowed my pride for you,
 [Aadd4]Lived and lied for you,
-But [Gadd9]you still make me feel like a thief. |  D  Gadd9/D  D  Gadd9/D  D |
+But [Gadd9]you still make me feel like [a] thief. |  [D]  [Gadd9/D]  [D]  [Gadd9/D]  [D] |
 
 You got me [Aadd4]stealing your love away
 Cause [Gadd9]you never [D]give it.
@@ -30,15 +33,15 @@ And [Gadd9]you make me [D]cry.
 {end_of_verse}
 
 {comment: Interlude}
-|  D  Gadd9  |  Aadd4  Gadd9 |  D  Gadd9  |  Aadd4  Gadd9  |
+|  [D]  [Gadd9]  |  [Aadd4]  [Gadd9] |  [D]  [Gadd9]  |  [Aadd4]  [Gadd9]  |
 
 {start_of_verse}
 [D]You said we'd work it out.
 You [Aadd4]said that you had no doubt,
-That [Gadd9]deep down we were really in love. |  D  Gadd9/D  D  Gadd9/D  D |
+That [Gadd9]deep down we were really in love. |  [D]  [Gadd9/D]  [D]  [Gadd9/D]  [D] |
 Oh, but I'm [D]tired of holding on
 To a [Aadd4]feeling I know is gone.
-I [Gadd9]do believe that I've had enough. |  D  Gadd9/D  D  Gadd9/D  D |
+I [Gadd9]do believe that I've had enough. |  [D]  [Gadd9/D]  [D]  [Gadd9/D]  [D] |
 
 I've had e[Aadd4]nough of the falseness
 Of a [Gadd9]worn out re[D]lation.
@@ -46,7 +49,7 @@ E[Aadd4]nough of the jealousy
 And the [Gadd9]intole[D]ration.
 [Gadd9]I make you [D]laugh
 And [Gadd9]you make me [D]cry.
-[Aadd4] I believe it's time for me to fly. |  D  Gadd9  |  D  |
+[Aadd4] I believe it's time for me to fly. |  [D]  [Gadd9]  |  [D]  |
 {end_of_verse}
  
 {start_of_chorus}
@@ -59,7 +62,7 @@ But it's time for me to [Gadd9]fly - [Aadd4]yy
 {end_of_chorus}
 
 {comment: Interlude}
-|  D  |  D  |  Gadd9  |  Gadd9  |  Aadd4  |  Aadd4  |  D  |  D 
+|  [D]  |  [D]  |  [Gadd9]  |  [Gadd9]  |  [Aadd4]  |  [Aadd4]  |  [D]  |  [D] 
 
 
 {start_of_chorus}

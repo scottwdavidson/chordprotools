@@ -4,11 +4,11 @@
 {duration: }
 {tempo: 117}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Em |
+| [Em] |
 
 {start_of_verse}
 It's the [Em]time, of the season[Em][G][C]
@@ -54,4 +54,4 @@ Any time (any time)[Em][G][C]
 {end_of_chorus}
 
 {comment:Outro}
-| Em | C |
+| [Em] | [C] |

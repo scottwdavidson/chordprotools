@@ -6,14 +6,14 @@
 {meta: nord: P14}
 {meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P14}
-{comment: **  meta: countin: 8}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P14   }
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment:Intro (piano)}
-| Am ... | Am . - G Am | Dm .  .  .  | Dm . - C Dm |
-| Am ... | Em .  .  .  | Am . - G Am | Am .  .  .  |
+| [Am] ... | [Am] . - [G] [Am] | [Dm] .  .  .  | [Dm] . - [C] [Dm] |
+| [Am] ... | [Em] .  .  .  | [Am] . - [G] [Am] | [Am] .  .  .  |
 
 
 {start_of_chorus}
@@ -46,8 +46,8 @@ To [Em]be by her [Am]side
 {end_of_chorus}
 
 {comment:Piano Solo}
-| Am ... | Am ... | Dm ... | Dm ... |
-| Am ... | Em ... | Am ... | Am ... |
+| [Am] ... | [Am] ... | [Dm] ... | [Dm] ... |
+| [Am] ... | [Em] ... | [Am] ... | [Am] ... |
 
 {comment: Bridge}
 She's my [C]ship for eve[D]ry shore
@@ -83,14 +83,14 @@ Love to [Em]be by her [Am]side
 {comment: 73 bpm / double time}
 
 {comment: Instrumental Outro}
-| Am Am . G | Am . . . | F F . C | F . . . |
-| Dm Dm . C | Dm . . . | E . . . | E . . . | x2
+| [Am] [Am] . [G] | [Am] . . . | [F] [F] . [C] | [F] . . . |
+| [Dm] [Dm] . [C] | [Dm] . . . | [E] . . . | [E] . . . | x2
 
 
 {comment: Guitar Solo}
-| Am Am . G | Am . . . | F F . C | F . . . |
-| Dm Dm . C | Dm . . . | E . . . | E . . . | x3
+| [Am] [Am] . [G] | [Am] . . . | [F] [F] . [C] | [F] . . . |
+| [Dm] [Dm] . [C] | [Dm] . . . | [E] . . . | [E] . . . | x3
 
 
 {comment: Coda}
-| Am Am . G | Am |
+| [Am] [Am] . [G] | [Am] |

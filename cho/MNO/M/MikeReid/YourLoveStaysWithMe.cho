@@ -2,11 +2,11 @@
 {artist: Mike Reid}
 {key: E}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| D5 / G | D | Asus | D | 
+| [D5] / [G] | [D] | [Asus] | [D] | 
 
 {start_of_verse}
 [D5G]It's dark in here, I Fe[D]el so alone
@@ -24,7 +24,7 @@ I'm not [G]alone, I know I'll ne[Bm]ver[A] b[E]e
 {end_of_chorus}
 
 {comment: Instrumental}
-| D5 / G | D | Asus | D | 
+| [D5] / [G] | [D] | [Asus] | [D] | 
 
 {start_of_verse}
 [D5/G]When cold rains fall against my [D]skin
@@ -42,4 +42,4 @@ I'm not [G]alone, I know I'll ne[Bm]ver[A] b[E]e
 {end_of_chorus}
 
 {comment: Outro}
-| D5 / G | D | Asus | D | 
+| [D5] / [G] | [D] | [Asus] | [D] | 

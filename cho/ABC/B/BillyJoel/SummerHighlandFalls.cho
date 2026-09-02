@@ -4,15 +4,15 @@
 {duration: 3:22}
 {tempo: 90}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| F   . . . | Fmaj7/A . . . | Gm7    . . . | Bbadd2 . . . |
-| Am7 . . . | C       . . . | Bbadd2 . . . | Bbadd2 . . . |
+| [F]   . . . | [Fmaj7/A] . . . | [Gm7]    . . . | [Bbadd2] . . . |
+| [Am7] . . . | [C]       . . . | [Bbadd2] . . . | [Bbadd2] . . . |
 
-| F   . . . | Fmaj7/A . . . | Gm7    . . . | Bbadd2 . . . |
-| Am7 . . . | C       . . . | Bbadd2 . . . | Bbadd2 . . . |
+| [F]   . . . | [Fmaj7/A] . . . | [Gm7]    . . . | [Bbadd2] . . . |
+| [Am7] . . . | [C]       . . . | [Bbadd2] . . . | [Bbadd2] . . . |
 
 
 {start_of_verse}
@@ -28,8 +28,8 @@ And [G7sus]I can only [G7]stand apart and [Csus]sympathize[C]
 For we are [Bb]always what our [F/A]situations hand [Gm]us
 It's either [C]sadness or[Bbadd2]  euphoria[Eb/Bb][Bb]
 {end_of_chorus}
-| F   . . . | Fmaj7/A . . . | Gm7    . . . | Bbadd2 . . . |
-| Am7 . . . | C       . . . | Bbadd2 . . . | Bbadd2 . . . |
+| [F]   . . . | [Fmaj7/A] . . . | [Gm7]    . . . | [Bbadd2] . . . |
+| [Am7] . . . | [C]       . . . | [Bbadd2] . . . | [Bbadd2] . . . |
 
 {start_of_verse}
 So we'll [F]argue and we'll com[Fmaj7]promise
@@ -47,10 +47,10 @@ It's either [C]sadness or[Bbadd2]  euphoria[Eb]_[Bb]
 {end_of_chorus}
 
 {comment: Instrumental}
-| F   . . . | Fmaj7/A . . . | Gm7 . . . | Bbadd2 . . . |
-| F   . . . | Fmaj7/A . . . | Gm7 . . . | Bbadd2 . . . |
-| F   . . . | Fmaj7/A . . . | Gm7 . . . | Bbadd2 . . . |
-| C   . . . | G.      . . . | C   . . . |
+| [F]   . . . | [Fmaj7/A] . . . | [Gm7] . . . | [Bbadd2] . . . |
+| [F]   . . . | [Fmaj7/A] . . . | [Gm7] . . . | [Bbadd2] . . . |
+| [F]   . . . | [Fmaj7/A] . . . | [Gm7] . . . | [Bbadd2] . . . |
+| [C]   . . . | G.      . . . | [C]   . . . |
 
 {start_of_chorus}
 [A/C#]    How [Dm]thoughtlessly we [C]dissipate our [Bbadd2]energies[F/A]
@@ -61,8 +61,8 @@ It's either sadness or[F] euphoria
 {end_of_chorus}
 
 {comment: Outro}
-| (euphoria)| Fmaj7/A . . . | Gm7    . . . | Bbadd2 . . . |
-| Am7 . . . | C       . . . | Bbadd2 . . . | Bbadd2 . . . |
+| (euphoria)| [Fmaj7/A] . . . | [Gm7]    . . . | [Bbadd2] . . . |
+| [Am7] . . . | [C]       . . . | [Bbadd2] . . . | [Bbadd2] . . . |
 
-| F   . . . | Fmaj7/A . . . | Gm7    . . . | Bbadd2 . . . |
-| Am7 . . . | C       . . . | Bbadd2 . . . | Bbadd2 . . . |
+| [F]   . . . | [Fmaj7/A] . . . | [Gm7]    . . . | [Bbadd2] . . . |
+| [Am7] . . . | [C]       . . . | [Bbadd2] . . . | [Bbadd2] . . . |

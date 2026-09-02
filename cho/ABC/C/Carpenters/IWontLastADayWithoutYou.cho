@@ -6,14 +6,14 @@
 {meta: nord: P54}
 {meta: countin: 4}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P54   }
-{comment: **  meta: countin: 4   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P54   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
 
 {comment: Intro}
-| G . Bm . | C . D . |
-| G . Bm . | C . D . |
+| [G] . [Bm] . | [C] . [D] . |
+| [G] . [Bm] . | [C] . [D] . |
 
 
 {start_of_verse}
@@ -33,8 +33,8 @@ But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
 
 {comment: Turn Around}
-| G . Bm . | C . D . |
-| G . Bm . | C . D . |
+| [G] . [Bm] . | [C] . [D] . |
+| [G] . [Bm] . | [C] . [D] . |
 
 {start_of_verse}
 [G]So many [Bm]times
@@ -86,6 +86,6 @@ But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
 
 {comment: Outro}
-| G . Bm . | C . D . |
-| G . Bm . | C . D . |
+| [G] . [Bm] . | [C] . [D] . |
+| [G] . [Bm] . | [C] . [D] . |
 

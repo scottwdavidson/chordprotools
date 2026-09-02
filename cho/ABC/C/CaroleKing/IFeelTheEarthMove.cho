@@ -2,9 +2,12 @@
 {artist: Carole King}
 {key: Eb}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| Cm . . . | Cm . F/C . |
-| Cm . . . | Cm . F/C . |
+| [Cm] . . . | [Cm] . [F/C] . |
+| [Cm] . . . | [Cm] . [F/C] . |
 
 
 {start_of_chorus}
@@ -32,11 +35,11 @@ Whenever [Cmadd9]you're around[Cm][Cm7][Cmadd9]
 
 
 {comment: Piano & Guitar Solo}
-| Cm . . . | Cm . F/C . |
-| Cm . . . | Cm . F/C . |
-| Cm . . . | Cm . F/C . |
-| Cm . . . | Cm . F/C . |
-| Cm . . . | Cm . F/C . |
+| [Cm] . . . | [Cm] . [F/C] . |
+| [Cm] . . . | [Cm] . [F/C] . |
+| [Cm] . . . | [Cm] . [F/C] . |
+| [Cm] . . . | [Cm] . [F/C] . |
+| [Cm] . . . | [Cm] . [F/C] . |
 
 
 {start_of_verse}

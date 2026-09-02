@@ -2,11 +2,11 @@
 {artist: Bob Seger}
 {key: Em}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Em | Em |
+| [Em] | [Em] |
 
 {start_of_verse}
 On a [Em]long and lonesome highway, east of Omaha
@@ -54,7 +54,7 @@ As the [A]sweat pours out your body like the music that you play[Em]
 {end_of_bridge}
 
 {comment: Saxophone Riff}
-| Em | Em |
+| [Em] | [Em] |
 
 {start_of_verse}
 (slightly muted chords, strum once for the quiet part)
@@ -78,6 +78,6 @@ Here I [D]go, playing [A]star again
 There I [C]go, [D]  there I [Em]go
 
 {comment: Saxophone Riff}
-| Em | Em |
-| Em | Em |
+| [Em] | [Em] |
+| [Em] | [Em] |
 

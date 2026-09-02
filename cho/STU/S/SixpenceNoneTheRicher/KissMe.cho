@@ -23,8 +23,8 @@
 
 
 {comment: Intro}
-| C  | Cmaj7  | C7  | Cmaj7  |
-| C  | Cmaj7  | C7  | Cmaj7  |
+| [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
+| [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
 
 {start_of_verse}
 [C]Kiss me [Cmaj7]out of the bearded barley
@@ -44,7 +44,7 @@
 
 
 {comment: Interlude}
-| C  | Cmaj7  | C7  | Cmaj7  |
+| [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
 
 
 {start_of_verse}
@@ -65,11 +65,11 @@
 
 
 {comment: Interlude II - Harmonica both phrases}
-| C  | Cmaj7  | C7  | Cmaj7  |
-| C  | Cmaj7  | C7  | Cmaj7  |
+| [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
+| [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
 
 {comment: Solo}
-| Dm  G  | C  Am7  | Dm  G  | C  C7  |
+| [Dm]  [G]  | [C]  [Am7]  | [Dm]  [G]  | [C]  [C7]  |
 
 
 {start_of_chorus}

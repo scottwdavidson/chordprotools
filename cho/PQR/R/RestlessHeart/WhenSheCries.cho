@@ -3,11 +3,11 @@
 {key: A}
 {tempo: 113}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Aadd2 | F#m | Aadd2 | F#m |
+| [Aadd2] | [F#m] | [Aadd2] | [F#m] |
 
 {start_of_verse}
 [A]The road I have travel[D]led on
@@ -53,8 +53,8 @@ When she cries[Aadd2][F#m7][Aadd2][F#m7]
 
 
 {comment: Solo}
-| A/D | A/C# | Bm7 E7 | D/A A E/F# | F#m7 |
-| A/D | A/C# | A/B B7 | Bm7/E E |  
+| [A/D] | [A/C#] | [Bm7] [E7] | [D/A] [A] [E/F#] | [F#m7] |
+| [A/D] | [A/C#] | [A/B] [B7] | [Bm7/E] [E] |  
 
 {comment: Outro}
 [E]So I [A/D]pray this [A/C#]time
@@ -63,5 +63,5 @@ I can b[Bm7]e the [E7]man that sh[D/A]e [A]de[E/F#]serves
 When she cries
 
 {comment: Outro Solo}
-||: A/D | A/C# | Bm7 E7 | D/A A E/F# F#m7 |
-  | A/D | A/C# | A/B B7 | Bm7/E E :|| repeat and fade 
+||: [A/D] | [A/C#] | [Bm7] [E7] | [D/A] [A] [E/F#] [F#m7] |
+  | [A/D] | [A/C#] | [A/B] [B7] | [Bm7/E] [E] :|| repeat and fade 

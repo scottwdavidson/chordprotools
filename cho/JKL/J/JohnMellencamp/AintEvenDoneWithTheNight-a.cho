@@ -18,20 +18,20 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| A . . . | A . . . |
-| D . . . | D . . . |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . . . |
 
 {comment: keyboard enters}
-| A . . . | A . . . |
-| D . . . | D . . . |
-| A . . . | A . . . |
-| D . . . | D . . . |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . . . |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . . . |
 
 {comment: backing Bass enters}
-| A . . . | A . . . |
-| D . . . | D . . . |
-| A . . . | A . . . |
-| D . . . | D . - - |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . . . |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . - - |
 
 
 {start_of_verse}
@@ -59,11 +59,11 @@ Well, all night,[A]all night
 And I [E7]ain't even done with the [A]night
 {end_of_chorus}
 
-| A . . . | A . . . |
-| D . . . | D . . . |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . . . |
 
-| A . . . | A . . . |
-| D . . . | D . . . |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . . . |
 
 {start_of_verse}
 Well, I don't k[A]now no good comeons
@@ -93,10 +93,10 @@ And I [E7]ain't even done with the [F#m]night
 
 
 {comment: Solo}
-| F#m. . . | E . . . |
-| D. . . | D . . . |
-| F#m. . . | D . . . |
-| E. . . | E - - - |
+| F#m. . . | [E] . . . |
+| D. . . | [D] . . . |
+| F#m. . . | [D] . . . |
+| E. . . | [E] - - - |
 
 ain't even done with the [A]night, hold tight
 
@@ -121,6 +121,6 @@ And I [E]ain't even done with the [A]night
 [D] No, I ain't even done with the [A]night[D]
 
 (tom drum fill)
-| A . . . | A . . . |
-| D . . . | D . . . | (tom drum fill with initial eighth notes)
-| A - - - |
+| [A] . . . | [A] . . . |
+| [D] . . . | [D] . . . | (tom drum fill with initial eighth notes)
+| [A] - - - |

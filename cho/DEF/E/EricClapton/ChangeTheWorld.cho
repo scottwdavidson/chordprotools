@@ -1,12 +1,15 @@
 {title: Change The World}
 {artist: Eric Clapton}
 {key: E}
-{tempo: 97} 
 {duration: 3:30}
+{tempo: 97}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E . F#m7 | G | G . F#m7 E      | E . . . |
-| E . F#m7 | G | G . F#m7 B7sus4 | B7sus4 . . . |
+| [E] . [F#m7] | [G] | [G] . [F#m7] [E]      | [E] . . . |
+| [E] . [F#m7] | [G] | [G] . [F#m7] [B7sus4] | [B7sus4] . . . |
 
 {start_of_verse}
 [E]If I could [A/E]reach the s[E7]tars
@@ -28,7 +31,7 @@ That I can [F#m7]change[G#7] the [C#m7]world
 {end_of_chorus}
 
 {comment: turn around}
-| E . F#m7 | G | G . F#m7 E      | E . . . |
+| [E] . [F#m7] | [G] | [G] . [F#m7] [E]      | [E] . . . |
 
 {start_of_verse}
 [E]If I could [A/E]be [E7]king
@@ -53,8 +56,8 @@ That I can [F#m7]change[G#7] the [C#m7]world
 {comment: Solo}
 Baby [A7sus4]if I could[E/G#] 
 ch[Gdim7]ange[F#m11]__the wo[E]rld
-| E . F#m7 | G | G . F#m7 E   | E . . . |
-| E . F#m7 | G | G . F#m7 G#7 | G#7 . . (I could) |
+| [E] . [F#m7] | [G] | [G] . [F#m7] [E]   | [E] . . . |
+| [E] . [F#m7] | [G] | [G] . [F#m7] [G#7] | [G#7] . . (I could) |
 
 
 {start_of_chorus}
@@ -66,4 +69,4 @@ change[Gdim7]__[G6/9]_the world
 {end_of_chorus}
 
 {comment: Outro}
-| E . F#m7 | G | G . F#m7 E   | E . . . |
+| [E] . [F#m7] | [G] | [G] . [F#m7] [E]   | [E] . . . |

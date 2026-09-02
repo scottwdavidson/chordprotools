@@ -5,12 +5,12 @@
 {tempo: 70}
 {meta: nord: N52}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N52   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N52   }
+{comment:***********************************************}
 
 {comment: Intro}
-|C C2| F | G | C |
+|[C] [C2]| [F] | [G] | [C] |
 
 {start_of_verse}
 She a[C]sked me where I was fro[F]m
@@ -48,15 +48,15 @@ Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my b[C]oots
 {end_of_chorus}
 
 {comment: Scott Solo}
-| C . C/E . | F . C . |
-| F . C   . | G . . . |
+| [C] . [C/E] . | [F] . [C] . |
+| [F] . [C]   . | [G] . . . |
 
 {comment: Jeff Solo}
-| C . C/E . | F . C . |
-| F . C   . | G . Am . |
+| [C] . [C/E] . | [F] . [C] . |
+| [F] . [C]   . | [G] . [Am] . |
 
 {comment: Interlude}
-| F | Am | F | G |
+| [F] | [Am] | [F] | [G] |
 
 {start_of_bridge}
 I said [C]meet me in the [F]mornin'
@@ -73,4 +73,4 @@ Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my boots
 {end_of_chorus}
 
 {comment: Outro}
-|C C2| F | G | C |
+|[C] [C2]| [F] | [G] | [C] |

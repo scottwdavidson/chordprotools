@@ -4,8 +4,8 @@
 {duration: 1:50}
 {tempo: 95}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 Oh, the [C]weather [G7]outside is fright[C]ful,
@@ -41,9 +41,9 @@ Let it [G7]snow, let it [G]snow, let it [C]snow.__[G]
 
 {comment: Solo}
 
-| C . G7 . | C . . . | C . D7 . | G . . . |
+| [C] . [G7] . | [C] . . . | [C] . [D7] . | [G] . . . |
 
-| Dm . A7 . | Dm . . . | G7 . G . | C . . . |
+| [Dm] . [A7] . | [Dm] . . . | [G7] . [G] . | [C] . . . |
 
 
 {start_of_chorus}

@@ -5,12 +5,12 @@
 {tempo: 78}
 {meta: nord: P25}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: P25}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: P25   }
+{comment:***********************************************}
 
 {comment: Intro}
-| Gm . C . | Gm . C . | Gm . C . | 
+| [Gm] . [C] . | [Gm] . [C] . | [Gm] . [C] . | 
 
 {start_of_verse}
 [Gm]...You've got to change your evil 
@@ -53,7 +53,7 @@ Lord knows you got to [Gm]change.[C]..[Gm]....[C][Gm][C][Gm][C]
 {end_of_chorus}
 
 {comment: Solos}
-| Gm . C . | Gm . C . | Gm . C . | 
+| [Gm] . [C] . | [Gm] . [C] . | [Gm] . [C] . | 
 
 {start_of_verse}
 [Gm]-[C]-[Gm]__When I come 
@@ -76,7 +76,7 @@ Lord knows you got to [Gm]change.[C]..[Gm]....[C][Gm][C][Gm][C]
 {end_of_chorus}
 
 {comment: Solos}
-| Gm . C . | Gm . C . | Gm . C . | 
+| [Gm] . [C] . | [Gm] . [C] . | [Gm] . [C] . | 
 
 {comment: Outro}
 {start_of_chorus}

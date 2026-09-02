@@ -16,7 +16,7 @@
 {comment:***********************************************}
 
 {comment:Intro - piano}
-| E | E | E | E | A | A | E | E | B7 | A | E | B7 |
+| [E] | [E] | [E] | [E] | [A] | [A] | [E] | [E] | [B7] | [A] | [E] | [B7] |
 
 {comment: JEFF VOCAL}
 {start_of_verse}
@@ -45,11 +45,11 @@ That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {end_of_chorus}
 
 {comment: Piano Solo}
-| E  | E | E | E  | 
+| [E]  | [E] | [E] | [E]  | 
 
-| A  | A | E | E  | 
+| [A]  | [A] | [E] | [E]  | 
 
-| B7 | A | E | B7 |
+| [B7] | [A] | [E] | [B7] |
 
 {comment: CARMEN VOCAL}
 {start_of_verse}
@@ -65,11 +65,11 @@ That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {end_of_chorus}
 
 {comment: Jeff Guitar Solo}
-| E  | E | E | E  | 
+| [E]  | [E] | [E] | [E]  | 
 
-| A  | A | E | E  | 
+| [A]  | [A] | [E] | [E]  | 
 
-| B7 | A | E | B7 |
+| [B7] | [A] | [E] | [B7] |
 
 {comment: CARMEN VOCAL}
 {start_of_verse}
@@ -85,7 +85,7 @@ That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {end_of_chorus}
 
 {comment: Scott Piano Solo}
-| E | E | E | E | A | A | E | E | B7 | A | E | B7 |
+| [E] | [E] | [E] | [E] | [A] | [A] | [E] | [E] | [B7] | [A] | [E] | [B7] |
 
 {comment: JEFF VOCAL}
 {comment:Coda}

@@ -1,15 +1,18 @@
 {title: Magic}
 {artist: The Cars}
 {key: A}
-{tempo: 125}
 {duration: 4:00}
+{tempo: 125}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro 1}
-| A . Dsus2 . | E . Esus E |
-| A . Dsus2 . | E . Esus E |
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
 
-| A . Dsus2 . | E . Esus E |
-| A . Dsus2 . | E . Esus E |
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
 
 {start_of_verse}
 [A]Summer,[D]  [E] it turns me upside [A]down[D]

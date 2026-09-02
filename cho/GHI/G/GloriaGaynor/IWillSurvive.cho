@@ -5,12 +5,12 @@
 {tempo: 117}
 {meta: nord: 024}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: 024}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: 024   }
+{comment:***********************************************}
 
 {comment: Intro}
-| Am | 
+| [Am] | 
 
 {start_of_verse}
 At [Am]first I was afraid, I was [Dm]petrified,
@@ -41,7 +41,7 @@ And I'll sur[Esus4]vive, I will sur[E]vive, hey he[Am]y
 {end_of_chorus}
 
 {comment: Interlude}
-| Am . Dm . | G . Cmaj7 . | Fmaj7 . Bm7b5 . | Esus4 . E . | 
+| [Am] . [Dm] . | [G] . [Cmaj7] . | [Fmaj7] . [Bm7b5] . | [Esus4] . [E] . | 
 
 {start_of_verse}
 It took [Am]all the strength I had not to [Dm]fall apart.
@@ -78,7 +78,7 @@ And I'll sur[Esus4]vive, I will sur[E]vive, I will sur[Am]vive...
 
 {comment: }
 {comment: Interlude}
-| Am . Dm . | G . Cmaj7 . | Fmaj7 . Bm7b5 . | Esus4 . E . | 
+| [Am] . [Dm] . | [G] . [Cmaj7] . | [Fmaj7] . [Bm7b5] . | [Esus4] . [E] . | 
 
 {start_of_verse}
 It took [Am]all the strength I had not to [Dm]fall apart.
@@ -103,7 +103,7 @@ And I'll sur[Esus4]vive, I will sur[E]vive. I will [Am]survive
 {end_of_chorus}
 
 {comment: Interlude}
-| Am . Dm . | G . Cmaj7 . | Fmaj7 . Bm7b5 . | Esus4 . E . | 
+| [Am] . [Dm] . | [G] . [Cmaj7] . | [Fmaj7] . [Bm7b5] . | [Esus4] . [E] . | 
 
 (Fade out)
 

@@ -1,11 +1,14 @@
-{title:You Wont See Me}
+{title: You Wont See Me}
 {artist: The Beatles}
 {key: A}
 {duration: 3:22}
 {tempo: 116}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| D . . . A | A A/G# F# (when F#/E I call) |
+| [D] . . . [A] | [A] [A/G#] [F#] (when [F#/E] I call) |
 
 
 
@@ -92,4 +95,4 @@ If [D]you [A]won't see me
 
 
 {comment: Outro}
-| A . . . | B . . . | D . . . | A . . . |
+| [A] . . . | [B] . . . | [D] . . . | [A] . . . |

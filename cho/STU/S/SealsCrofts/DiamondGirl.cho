@@ -21,13 +21,13 @@
 
 {comment: Intro}
 {comment: piano (A octave) w/ drum for 3 measures}
-| (1) (2) Am7 Am7 | Bm D Am7 |
+| (1) (2) [Am7] [Am7] | [Bm] [D] [Am7] |
 
-| (1) (2) Am7 Am7 | Bm D Am7 |
+| (1) (2) [Am7] [Am7] | [Bm] [D] [Am7] |
 
-| (1) (2) Am7 Am7 | Bm D Am7 |
+| (1) (2) [Am7] [Am7] | [Bm] [D] [Am7] |
 
-| (1) (2) Am7 Am7 | Bm D Am7 |
+| (1) (2) [Am7] [Am7] | [Bm] [D] [Am7] |
 
 {start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
@@ -55,7 +55,7 @@ That I [E7]am a-woah woah oh [Am7]oh
 {end_of_verse}
 
 {comment:Interlude}
-| D Am7 | D Am7 | D Am7 |
+| [D] [Am7] | [D] [Am7] | [D] [Am7] |
 
 {start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
@@ -83,16 +83,16 @@ That I [E7]am a-woah woah oh [Am]oh
 {end_of_verse}
 
 {comment:Interlude}
-| D Am7 | D Am7 | D Am7 |
+| [D] [Am7] | [D] [Am7] | [D] [Am7] |
 
 {comment:Solo}
-| Am7 | Am7 | D | D   | 
+| [Am7] | [Am7] | [D] | [D]   | 
 
-| Am7 | Am7 | D | D   | 
+| [Am7] | [Am7] | [D] | [D]   | 
 
-| Am7 | Am7 | D | D   | 
+| [Am7] | [Am7] | [D] | [D]   | 
 
-| F   | G   | A | Am7 |
+| [F]   | [G]   | [A] | [Am7] |
 
 {start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
@@ -107,10 +107,10 @@ You [D]sure do [F]sure do [C]sure do, you [G/B]sure do shine
 
 {comment:Outro}
 {comment:Solo}
-| Am7 | Am7 | D | D | 
+| [Am7] | [Am7] | [D] | [D] | 
 
-| Am7 | Am7 | D | D   | 
+| [Am7] | [Am7] | [D] | [D]   | 
 
-| Am7 | Am7 | D | D   | 
+| [Am7] | [Am7] | [D] | [D]   | 
 
-| F   | G   | A | A |
+| [F]   | [G]   | [A] | [A] |

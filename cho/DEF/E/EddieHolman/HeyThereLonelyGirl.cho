@@ -3,12 +3,12 @@
 {key: G}
 {duration: 3:00}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Cmaj7 . . . | Bm7 . . . | Am7 . . . | Gmaj7 . . . |
-| Cmaj7 . . . | Bm7 . . . | Am7 . . . | G     . . . |
+| [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [Gmaj7] . . . |
+| [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [G]     . . . |
 
 {start_of_chorus}
 Hey there hey [Cmaj7]lonely girl, [Bm7]my only girl
@@ -50,10 +50,10 @@ Hey there [Cmaj7]lonely girl, [Bm7]lonely girl
 {end_of_chorus}
 
 {comment: piano solo}
-| Cmaj7 . . . | Bm7 . . . | Am7 . . . | Gmaj7 . . . |
-| Cmaj7 . . . | Bm7 . . . | Am7 . . . | G     . . . |
-| Cmaj7 . . . | Bm7 . . . | Am7 . . . | Gmaj7 . . . |
-| Cmaj7 . . . | Bm7 . . . | Am7 . . . | G     . . . |
+| [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [Gmaj7] . . . |
+| [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [G]     . . . |
+| [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [Gmaj7] . . . |
+| [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [G]     . . . |
 
 {comment: Outro}
 {start_of_chorus}

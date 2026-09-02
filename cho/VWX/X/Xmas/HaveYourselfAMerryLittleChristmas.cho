@@ -4,11 +4,11 @@
 {duration: 2:50}
 {tempo: 80}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E7 . A7 . | D7 . G7 . |
+| [E7] . [A7] . | [D7] . [G7] . |
 
 
 {start_of_verse}
@@ -38,7 +38,7 @@ And [F]have your[Am/E]self a [Dm7]merry little [G7]Christmas [C]now.____
 
 
 {comment: Solo}
-| F . Fm . | Cmaj7 . Ebmaj7 . | Dm7 . G+ . | Cmaj7 . C6 |
+| [F] . [Fm] . | [Cmaj7] . [Ebmaj7] . | [Dm7] . [G+] . | [Cmaj7] . [C6] |
 
 
 {comment: Bridge II}

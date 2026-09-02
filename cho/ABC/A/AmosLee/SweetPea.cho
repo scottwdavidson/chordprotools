@@ -5,6 +5,10 @@
 {tempo: 100}
 {meta: performance: E}
 
+{comment:***********************************************}
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
+
 {comment: Guitar capo 4}
 
 {comment: ***********************************************}
@@ -14,9 +18,9 @@
 
 
 {comment: Intro}
-| C . . . | E7 . . . | Am . . . | D7/F# . . . |
+| [C] . . . | [E7] . . . | [Am] . . . | [D7/F#] . . . |
 
-| C . Am . | F . G . | C . Am . | F . G . | 
+| [C] . [Am] . | [F] . [G] . | [C] . [Am] . | [F] . [G] . | 
 
 
 {start_of_verse}
@@ -40,8 +44,8 @@ I'm t[D7/F#]rying to stay humble.
 But I ne[G]ver think before I say.
 
 {comment: Intro}
-| C . . . | E7 . . . | Am . . . | D7/F# . . . |
-| C . Am . | F . G . | C . Am . | F . G . | 
+| [C] . . . | [E7] . . . | [Am] . . . | [D7/F#] . . . |
+| [C] . [Am] . | [F] . [G] . | [C] . [Am] . | [F] . [G] . | 
 
 {start_of_verse}
 [C]Sweet pea [E7]keeper of my soul.

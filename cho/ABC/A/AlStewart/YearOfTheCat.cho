@@ -22,27 +22,27 @@
 {comment: Intro (piano)}
 
 
-| CM7 . D6 Em | . . . D6 | CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
 
-| CM7 . D6 Em | . . . .  | Am7 .  .  . | D . .  . | 
-
-
-
-| CM7 . D6 Em | . . . D6 | CM7 . D6 Em | . . . D6 | 
-
-| CM7 . D6 Em | . . . .  | Am7 .  .  . | D . .  . | 
+| [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
 
 
 
-| Gmaj7  | Cmaj7 | Gmaj7  | Cmaj7 |
+| [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
 
-| Emaj7  | Am    | D6 D7  | D6 D7 |
+| [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
 
 
 
-| CM7 . D6 Em | . . . D6 | CM7 . D6 Em | . . . D6 | 
+| [Gmaj7]  | [Cmaj7] | [Gmaj7]  | [Cmaj7] |
 
-| CM7 . D6 Em | . . . .  | Am7 .  .  . | D . .  . | 
+| [Emaj7]  | [Am]    | [D6] [D7]  | [D6] [D7] |
+
+
+
+| [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
+
+| [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
 
 {start_of_verse}
 On a [CM7]morning from a [Bm]Bogart [Em]movie,
@@ -57,16 +57,16 @@ in the Year of the [CM7]Cat.
 {end_of_verse}
 
 {comment:Verse Turnaround}
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . .  | 
+| [CM7] . [D6] [Em] | . . . .  | 
 
 
-| Am7 .  .  . | D . .  . | 
+| [Am7] .  .  . | [D] . .  . | 
 
 {start_of_verse}
 She [CM7]doesn't give you [Bm]time for [Em]questions
@@ -81,16 +81,16 @@ the Year of the [CM7]Cat
 {end_of_verse}
 
 {comment:Verse Turnaround}
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . .  | 
+| [CM7] . [D6] [Em] | . . . .  | 
 
 
-| Am7 .  .  . | D . .  . | 
+| [Am7] .  .  . | [D] . .  . | 
 
 {start_of_bridge}
 Well she [B]looks at you so [C]cooly
@@ -102,57 +102,57 @@ the Year of the [CM7]Cat
 
 {comment:Piano (String) Solo}
 {comment:Verse Turnaround}
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . .  | 
+| [CM7] . [D6] [Em] | . . . .  | 
 
 
-| Am7 .  .  . | D . .  . | 
+| [Am7] .  .  . | [D] . .  . | 
 
 {comment:1st Guitar Solo}
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| CM7 . D6 Em | . . . .  | 
+| [CM7] . [D6] [Em] | . . . .  | 
 
-| Am7 .  .  . | D . .  . | 
+| [Am7] .  .  . | [D] . .  . | 
 
-| GM7         | CM7      | 
+| [GM7]         | [CM7]      | 
 
-| GM7         | CM7      |
+| [GM7]         | [CM7]      |
 
-| Emaj7       | Am       | 
+| [Emaj7]       | [Am]       | 
 
-| D6  D7      | D6  D7   |
+| [D6]  [D7]      | [D6]  [D7]   |
 
 {comment:2nd Guitar Solo}
-| D           | GM7      | 
+| [D]           | [GM7]      | 
 
-| D           | GM7      | 
+| [D]           | [GM7]      | 
 
 
-| Bm          | B/D#     | 
+| [Bm]          | [B/D#]     | 
 
-| Em          | A/C#     | A/C#  |
+| [Em]          | [A/C#]     | [A/C#]  |
 
 
 {comment:Piano (Sax) Solo}
-| CM7 . D6 Em | . . . D6 | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
-| CM7 . D6 Em | . . . D6 | 
-
-
-| CM7 . D6 Em | . . . .  | 
+| [CM7] . [D6] [Em] | . . . [D6] | 
 
 
-| Am7 .  .  . | D . .  . | 
+| [CM7] . [D6] [Em] | . . . .  | 
+
+
+| [Am7] .  .  . | [D] . .  . | 
 
 {start_of_verse}
 Well [CM7]morning comes and [Bm]you're still with [Em]her
@@ -167,9 +167,9 @@ in the Year of the [CM7]Cat.
 {end_of_verse}
 
 {comment:Outro}
-| CM7 . D6 Em | . . . D6 | CM7 . D6 Em | . . . D6 | 
-| CM7 . D6 Em | . . . .  | Am7 .  .  . | D . .  . | 
-| CM7 . D6 Em | . . . D6 | CM7 . D6 Em | . . . D6 | 
-| CM7 . D6 Em | . . . .  | Am7 .  .  . | D . .  . | 
-| CM7 |
+| [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
+| [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
+| [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
+| [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
+| [CM7] |
 

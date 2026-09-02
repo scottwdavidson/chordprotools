@@ -2,11 +2,14 @@
 {artist: Alan Parsons Project}
 {key: G}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| C   . . .  | C   . . . | 
-| Am7 . . .  | Am7 . . . |
-| Dm7 . . .  | Dm7 . . . |
-| Gsus . G . | G . (if you believe)
+| [C]   . . .  | [C]   . . . | 
+| [Am7] . . .  | [Am7] . . . |
+| [Dm7] . . .  | [Dm7] . . . |
+| [Gsus] . [G] . | [G] . (if you believe)
 
 {start_of_verse}
 [Gsus4] [G] If you be[C]lieve in the power of magic,
@@ -56,10 +59,10 @@ Stay on your island,
 {end_of_chorus}
 
 {comment: Solo - unverified}
-| C   . . .  | C   . . . | 
-| Am7 . . .  | Am7 . . . |
-| Dm7 . . .  | Dm7 . . . |
-| Gsus . G . | G   . . . |
+| [C]   . . .  | [C]   . . . | 
+| [Am7] . . .  | [Am7] . . . |
+| [Dm7] . . .  | [Dm7] . . . |
+| [Gsus] . [G] . | [G]   . . . |
 
 
 {start_of_chorus}

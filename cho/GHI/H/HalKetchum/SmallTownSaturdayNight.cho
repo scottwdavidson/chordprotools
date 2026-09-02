@@ -19,9 +19,9 @@
 
 {comment: Intro}
 
-| C . G . | D . G . | C . G . | D . . . |
+| [C] . [G] . | [D] . [G] . | [C] . [G] . | [D] . . . |
 
-| G . . . | G . . . | G . . . | G . . . |
+| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 
 
 {start_of_verse}
@@ -42,7 +42,7 @@ It's a [C] small [G]town [D7]Saturday [G]night [G]
 
 {comment: Interlude}
 
-| C . G . | D . | G . . . | G . . . |
+| [C] . [G] . | [D] . | [G] . . . | [G] . . . |
 
 
 {start_of_verse}
@@ -63,7 +63,7 @@ It's a [C] small [G]town [D7]Saturday [G]night [G]
 
 {comment: Solo}
 
-| C . G . | D . G . | C . G . | D . . . | G . . . | G . . . |
+| [C] . [G] . | [D] . [G] . | [C] . [G] . | [D] . . . | [G] . . . | [G] . . . |
 
 
 {start_of_verse}
@@ -88,4 +88,4 @@ It's a [C] small [G]town [D7]Saturday [G]night [G]
 
 {comment: Outro}
 
-| C . G . | D . | G 
+| [C] . [G] . | [D] . | [G] 

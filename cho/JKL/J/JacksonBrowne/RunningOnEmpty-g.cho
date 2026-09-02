@@ -25,9 +25,9 @@
 
 
 {comment: Intro}
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
-| C/G . . . | G    . . . | Em  . . . | Em  . . . | 
-| C   . . . | G/B  . . . | D   . . . | D   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+| [C/G] . . . | [G]    . . . | [Em]  . . . | [Em]  . . . | 
+| [C]   . . . | [G/B]  . . . | [D]   . . . | [D]   . . . | 
 
 {start_of_verse}
 [C/G] Looking out at the road 
@@ -69,9 +69,9 @@ But I'm running behind[Em (9th - 1,3)]
 
 
 {comment: Solo}
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
-| C/G . . . | G    . . . | Em  . . . | Em  . . . | 
-| C   . . . | G/B  . . . | D   . . . | D   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+| [C/G] . . . | [G]    . . . | [Em]  . . . | [Em]  . . . | 
+| [C]   . . . | [G/B]  . . . | [D]   . . . | [D]   . . . | 
 
 
 {comment: Bridge}
@@ -130,12 +130,12 @@ You know the [C/G]way you look so kind[G]
 
 
 {comment: Solo --> Update to match backing }
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
-| C/G . . . | G    . . . | C/G . . . | G   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+| [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 
 {comment: Outro}
-| C/G . . . | G  . . . | C G/B Am7 | G . . . |
+| [C/G] . . . | [G]  . . . | [C] [G/B] [Am7] | [G] . . . |

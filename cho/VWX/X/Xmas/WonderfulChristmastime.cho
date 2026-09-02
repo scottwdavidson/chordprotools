@@ -2,15 +2,15 @@
 {artist: Paul McCartney}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: recorded key Bb (up 3 half steps)}
 
 {comment: Intro}
-| Gmaj7 . . . | G6 . . . | D/G . . . | G . . . | 
-| Am D Bm Em  | C F7 G . |
-| Am D Bm Em  | C F7 G . |
+| [Gmaj7] . . . | [G6] . . . | [D/G] . . . | [G] . . . | 
+| [Am] [D] [Bm] [Em]  | [C] [F7] [G] . |
+| [Am] [D] [Bm] [Em]  | [C] [F7] [G] . |
 
 {start_of_verse}
 [Gmaj7]The mood is right
@@ -50,8 +50,8 @@
 [G/B]Do da do da do da do
 
 {comment: Instrumental}
-| Gmaj7 . . . | G6 . . . | D/G . . . | G . . . | 
-| Gmaj7 . . . | G6 . . . | D/G . . . | G . . . | 
+| [Gmaj7] . . . | [G6] . . . | [D/G] . . . | [G] . . . | 
+| [Gmaj7] . . . | [G6] . . . | [D/G] . . . | [G] . . . | 
 
 {start_of_chorus}
 [Am]Simp[D]ly [Bm]ha-[Em]ving a

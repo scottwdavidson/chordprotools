@@ -2,13 +2,13 @@
 {artist: Taylor Swift}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
 {comment: PIANO ONLY}
 {comment:DR-01}
-| G | G | G | G | 
+| [G] | [G] | [G] | [G] | 
 
 {comment: PIANO ONLY}
 {start_of_verse}
@@ -38,7 +38,7 @@ You belong with [C]me, you belong with me[G]
 
 {comment: Interlude}
 {comment:DR-04}
-| G | G | 
+| [G] | [G] | 
 
 {comment: PIANO ONLY}
 {start_of_verse}
@@ -74,7 +74,7 @@ You belong with [C]me, you belong with me[G]
 
 {comment: Solo}
 {comment: PIANO SOLO}
-| G | G | D | D | Am7 | Am7 | C | 
+| [G] | [G] | [D] | [D] | [Am7] | [Am7] | [C] | 
 
 {comment:Bridge}
 {comment:DR-07}

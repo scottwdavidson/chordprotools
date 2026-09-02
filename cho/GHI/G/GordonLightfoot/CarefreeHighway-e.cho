@@ -5,12 +5,12 @@
 {tempo: 85}
 {meta: performance: E}
 
-{comment: ***********************************************}
-{comment: **  meta: performance: E}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: Intro}
-| E ... | D ... | A ... | Bsus4 ... | B ... |
+| [E] ... | [D] ... | [A] ... | [Bsus4] ... | [B] ... |
 
 {start_of_verse}
 [E]Pickin up the [B]pieces of my [G#]sweet shattered d[C#m]rea[B]m,
@@ -27,8 +27,8 @@ The [C#m]morning after [B]blues, from my [A]head down [E/G#]to my [F#7sus4]shoes
 {end_of_chorus}
 
 {comment: Interlude}
-| E ... | D ... | A ... | B ... |
-| E ... | D ... | A ... | Bsus4 ... | B ... |
+| [E] ... | [D] ... | [A] ... | [B] ... |
+| [E] ... | [D] ... | [A] ... | [Bsus4] ... | [B] ... |
 
 {start_of_verse}
 [E]Turning back the [B]pages to the [G#]times I love [C#m]bes[B]t
@@ -46,8 +46,8 @@ Carefree [D]highway,[A]  you’ve seen [B]better days
 {end_of_chorus}
 
 {comment: Interlude}
-| E ... | D ... | A ... | B ... |
-| E ... | D ... | A ... | Bsus4 ... | B ... |
+| [E] ... | [D] ... | [A] ... | [B] ... |
+| [E] ... | [D] ... | [A] ... | [Bsus4] ... | [B] ... |
 
 {start_of_verse}
 [E]Searching thru the [B]fragments of my [G#]dream shattered [C#m]sle[B]ep;
@@ -73,5 +73,5 @@ Carefree [D]highway,[A]  you’ve seen [B]better days
 {end_of_chorus}
 
 {comment: Outro}
-| E ... | D ... | A ... | B ... |
-| E ... | D ... | A ... | Bsus4 ... | B ... |
+| [E] ... | [D] ... | [A] ... | [B] ... |
+| [E] ... | [D] ... | [A] ... | [Bsus4] ... | [B] ... |

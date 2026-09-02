@@ -17,14 +17,14 @@
 
 {comment: Intro}
 {comment: drum / piano}
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
 
 {comment: guitar enters - add "Ahs"}
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
 
 {start_of_verse}
 [Am]It's al[G]right if you [Am]love me,[G]
@@ -49,15 +49,15 @@ Say [Am]there ain't no [G]use in pre[Am]tending,[G]
 {end_of_chorus}
 
 {comment: Piano RIFF}
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
 
 {comment: Guitar/Piano Instrumental}
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
-| F ...    |
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [F] ...    |
 
 {start_of_chorus}
 [Am]Break[G]down [F]go ahead and [G]give it to me
@@ -68,10 +68,10 @@ Say [Am]there ain't no [G]use in pre[Am]tending,[G]
 {end_of_chorus}
 
 {comment: Pre-Outro -> Guitar/Piano}
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
-| Am . G . | Am . G . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
+| [Am] . [G] . | [Am] . [G] . | 
 
 {start_of_verse}
 Say [Am]there ain't no [G]use in pre[Am]tending,[G]
@@ -88,4 +88,4 @@ Say [Am]there ain't no [G]use in pre[Am]tending,[G]
 ...it's al[F]right,[F6][Fmaj7][F6]
 {end_of_chorus}
 
-| Am |
+| [Am] |

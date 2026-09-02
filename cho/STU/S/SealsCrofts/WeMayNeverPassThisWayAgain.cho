@@ -18,7 +18,7 @@
 {comment:***********************************************}
 
 {comment: Intro}
-|E     |Esus4  |E     |Esus4  |
+|[E]     |[Esus4]  |[E]     |[Esus4]  |
 
 {start_of_verse}
 [E]Life, so they [G#m7]say
@@ -42,7 +42,7 @@ And take us [C*]up, always [D*]up
 {end_of_chorus}
 
 {comment: Instrumental}
-|E     |Aadd9/E  |Emaj7  |Aadd9/E  |
+|[E]     |[Aadd9/E]  |[Emaj7]  |[Aadd9/E]  |
 
 {start_of_verse}
 [E]Dreams, so they [G#m7]say
@@ -79,11 +79,11 @@ So [C7]  I wanna laugh while the [G7]laughin' is easy
 {end_of_bridge}
 
 {comment: Interlude}
-| F/Bb | 
-| Bm7 . . .  |Esus4 . . . | 
-| Bm7 . . .  |Esus4 . . . | 
-| Bm7 . . .  |Esus4 . . . | 
-| Bm7 . . .  |Esus4 . . . | 
+| [F/Bb] | 
+| [Bm7] . . .  |[Esus4] . . . | 
+| [Bm7] . . .  |[Esus4] . . . | 
+| [Bm7] . . .  |[Esus4] . . . | 
+| [Bm7] . . .  |[Esus4] . . . | 
 
 {start_of_chorus}
 [Bm7]We may never pass this [Esus4]way again
@@ -93,5 +93,5 @@ So [C7]  I wanna laugh while the [G7]laughin' is easy
 {end_of_chorus}
 
 {comment: Outro}
-|E     |Aadd9/E  |Emaj7  |Aadd9/E  |
-|E     |
+|[E]     |[Aadd9/E]  |[Emaj7]  |[Aadd9/E]  |
+|[E]     |

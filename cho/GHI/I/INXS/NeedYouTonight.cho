@@ -4,13 +4,16 @@
 {duration: 2:55}
 {tempo: 109}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
 | . . . . | . . . . | . . . . | . . . . |
 | . . . . | . . . . | . . (Come over here ). . | . . . . |
 Come over here
 
-| C . . . | Eb Dm C . |
-| C . . . | Eb Dm C . |
+| [C] . . . | [Eb] [Dm] [C] . |
+| [C] . . . | [Eb] [Dm] [C] . |
 
 {start_of_verse}
 [C]. . . . [F7]All you got is this mo[C]ment
@@ -30,7 +33,7 @@ I've got[C]to let you know
 [Eb]__[Dm]You[C]'re one of my kind
 {end_of_chorus}
 
-| C . . . | Eb Dm C . |
+| [C] . . . | [Eb] [Dm] [C] . |
 
 {start_of_verse}
 [C]. . . . [F7]I need you tonight[C]

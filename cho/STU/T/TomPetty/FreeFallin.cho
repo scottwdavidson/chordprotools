@@ -3,19 +3,18 @@
 {key: D}
 {duration: 3:30}
 {tempo: 85}
-{meta: performance: E}
 {meta: countin: 4}
+{meta: performance: E}
 
-{comment: ***********************************************}
-{comment: ** meta: performance: E **}
-{comment: ** meta: countin: 4 **}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: Intro}
-|  D  .  G  .  |  G  D  Asus4  .  |
+|  [D]  .  [G]  .  |  [G]  [D]  [Asus4]  .  |
 
-|  D  .  G  .  |  G  D  Asus4  .  |
+|  [D]  .  [G]  .  |  [G]  [D]  [Asus4]  .  |
 
 
 
@@ -28,7 +27,7 @@ Loves [D]hor - [G]ses, and her [G]boy - f[D]riend [Asus4]too.
 
 
 {comment: Drums and bass enter}
-|  D  .  G  .  |  G  D  Asus4  .  |
+|  [D]  .  [G]  .  |  [G]  [D]  [Asus4]  .  |
 
 
 {start_of_verse}
@@ -60,11 +59,11 @@ Yeah I'm [D]free, [G]  ...  [G] [D] [Asus4]           free [D]fallin'    [G]  ..
 
 
 {comment: Interlude}
-|  D  .  G  .  |  G  D  Asus4  .  |
+|  [D]  .  [G]  .  |  [G]  [D]  [Asus4]  .  |
 
 [D](Free [G]fallin', now [G]I'm [D]free [Asus4]fallin', now I'm)
 
-|  D  .  G  .  |  G  D  Asus4  .  |
+|  [D]  .  [G]  .  |  [G]  [D]  [Asus4]  .  |
 
 [D](Free [G]fallin', now [G]I'm [D]free [Asus4]fallin')
 
@@ -89,7 +88,7 @@ free [D]fallin' (free [G] fallin' now I'm [G] [D]free [Asus4]fallin', now I'm)
 
 
 {comment: Bridge}
-|  D5  .  G5  .  |  D5  .  A5  .  |
+|  [D5]  .  [G5]  .  |  [D5]  .  [A5]  .  |
 
 [D5](Free [G5]fallin', now I'm [D5]free [A5]fallin')
 
@@ -104,6 +103,6 @@ free [D]fallin' (free [G] fallin' now I'm [G] [D]free [Asus4]fallin', now I'm)
 Yeah I'm [D]free, (free [G] fallin' now I'm [G] [D]free [Asus4]fallin', now I'm)
 free [D]fallin' (free [G] fallin' now I'm [G] [D]free [Asus4]fallin', now I'm)
 
-| D |
+| [D] |
 
 

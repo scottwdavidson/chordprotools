@@ -9,7 +9,7 @@
 
 {comment:Intro}
 {start_of_grid 4x4+1}
-|| Cm . Bb . | Ab .  G7 . || x2
+|| [Cm] . [Bb] . | [Ab] .  [G7] . || x2
 {end_of_grid}
 
 {comment:Pre-Verse}
@@ -35,14 +35,14 @@ Get a [Fm]shoe thrown [Eb]at me from a [Db]mean old [C7]man.
 {comment: DR1}
 {comment:Instrumental}
 {start_of_grid 4x4+1}
-|| Cm . Bb . | Ab .  G7 . || x2
+|| [Cm] . [Bb] . | [Ab] .  [G7] . || x2
 {end_of_grid}
 
 {comment:Guitar Solo}
 {start_of_grid 4x4+1}
-|| Cm . Bb . | Ab . G7 . | x3
+|| [Cm] . [Bb] . | [Ab] . [G7] . | x3
 {comment: DR2}
-| Cm N.C. . . | N.C. . . . ||
+| [Cm] N.C. . . | N.C. . . . ||
 {end_of_grid}
 
 {comment: DR1}
@@ -63,30 +63,30 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild but I
 
 {comment: Instrumental}
 {start_of_grid 4x4+1}
-|| Cm . Bb . | Ab .  G7 . || x2
+|| [Cm] . [Bb] . | [Ab] .  [G7] . || x2
 {end_of_grid}
 
 {comment: Walking Bass – 8 bars}
 {start_of_grid 4x4+1}
-|| Cm . . . | Ab7 . G7b9#5 . || x4
+|| [Cm] . . . | [Ab7] . [G7b9#5] . || x4
 {end_of_grid}
 
 {comment: DR2}
 {comment: Piano Solo – 8 bars}
 {start_of_grid 4x4+1}
-|| Cm . Bb . | Ab . G7 . | x3
-| Cm N.C. . . | N.C. . . . ||
+|| [Cm] . [Bb] . | [Ab] . [G7] . | x3
+| [Cm] N.C. . . | N.C. . . . ||
 {end_of_grid}
 
 {comment: Walking Bass – 8 bars}
 {start_of_grid 4x4+1}
-|| Cm . . . | Ab7 . G7b9#5 . || x4
+|| [Cm] . . . | [Ab7] . [G7b9#5] . || x4
 {end_of_grid}
 
 {comment: Guitar Solo – 8 bars}
 {start_of_grid 4x4+1}
-|| Cm . Bb . | Ab . G7 . | x3
-| Cm N.C. . . | N.C. . . . ||
+|| [Cm] . [Bb] . | [Ab] . [G7] . | x3
+| [Cm] N.C. . . | N.C. . . . ||
 {comment: DR2}
 {end_of_grid}
 
@@ -109,11 +109,11 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild
 {comment: Outro}
 {comment: Walking Bass}
 {start_of_grid 4x4+1}
-|| Cm . Bb . | Ab . G7 . |
+|| [Cm] . [Bb] . | [Ab] . [G7] . |
 {end_of_grid}
 
 {comment: END DRUM}
 {comment: Guitar Closing Lick – 2 bars}
 {start_of_grid 4x4+1}
-|| Cm N.C. . . | N.C. . . Cm9 ||
+|| [Cm] N.C. . . | N.C. . . [Cm9] ||
 {end_of_grid}

@@ -2,12 +2,12 @@
 {artist: The Cure / Lumineers}
 {key: A}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| A | E | Bm | D |
-| A | E | Bm | D |
+| [A] | [E] | [Bm] | [D] |
+| [A] | [E] | [Bm] | [D] |
 
 {start_of_verse}
 "Show me, show me, [A]show me how you [E]do that trick
@@ -21,8 +21,8 @@ I'll run a[Bm]way with you"[D]
 {end_of_verse}
 
 {comment: Instrumental}
-| A | E | Bm | D |
-| A | E | Bm | D |
+| [A] | [E] | [Bm] | [D] |
+| [A] | [E] | [Bm] | [D] |
 
 {start_of_verse}
 [A]Spinning on that [E]dizzy edge
@@ -45,8 +45,8 @@ You're just like a [Bm]dream[D]
 {end_of_chorus}
 
 {comment: Instrumental}
-| A | E | Bm | D |
-| A | E | Bm | D |
+| [A] | [E] | [Bm] | [D] |
+| [A] | [E] | [Bm] | [D] |
 
 {start_of_verse}
 [A]Daylight licked me [E]into shape
@@ -60,7 +60,7 @@ And [Bm]drowned her deep in[D]side of me
 {end_of_verse}
 
 {comment: Instrumental}
-| A | E | Bm | D |
+| [A] | [E] | [Bm] | [D] |
 
 {start_of_chorus}
 [F#m]You    [G]Soft and only

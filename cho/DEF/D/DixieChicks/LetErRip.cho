@@ -1,13 +1,13 @@
 {title: Let 'Er Rip}
 {artist: Dixie Chicks}
 {key: A}
-{tempo: 150}
 {duration: 3:00}
+{tempo: 150}
 {meta: nord: N53}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N53}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N53   }
+{comment:***********************************************}
 
 {start_of_verse}
 I can [A]tell there's something you don't want to [E]tell me
@@ -42,7 +42,7 @@ Don't t[A]ake all damn night Let 'er ri[E]p[E] Let i[E]t [E]fly
 {end_of_chorus}
 
 {comment: piano solo}
-| A | E | A | B7 |
+| [A] | [E] | [A] | [B7] |
 
 {start_of_bridge}
 [A]It ain't no big deal  [E]Ain't no great lost
@@ -61,7 +61,7 @@ Don't t[A]ake all damn night Let 'er ri[E]p[E] Let i[E]t [E]fly
 {end_of_chorus}
 
 {comment: piano solo}
-| A | E | A | B7 |
+| [A] | [E] | [A] | [B7] |
 
 {start_of_bridge}
 [A]It ain't no big deal  [E]Ain't no great lost
@@ -83,5 +83,5 @@ Don't t[A]ake all damn night Let 'er ri[E]p[E] Let i[E]t [E]fly
 {end_of_chorus}
 
 {comment: outro}
-| E |
+| [E] |
 

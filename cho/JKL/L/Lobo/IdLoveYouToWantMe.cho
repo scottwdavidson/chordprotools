@@ -4,9 +4,9 @@
 {duration: 3:45}
 {meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: *** meta: countin: 8}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {start_of_verse}
 [G]When I saw you standing there
@@ -48,7 +48,7 @@ If you'd[D] only let it be[G] (Ahh)
 {end_of_chorus}
 
 {comment:Solo}
-|G | Am7 | C | G | 
+|[G] | [Am7] | [C] | [G] | 
 
 {start_of_verse}
 [G]Now it took time for me to know
@@ -75,5 +75,5 @@ If you'd[D] only let it be[G] (Ahh)
 {end_of_chorus}
 
 {comment:Outro}
-| G | G | Am7 | C | 
-| G | G | Am7 | C | 
+| [G] | [G] | [Am7] | [C] | 
+| [G] | [G] | [Am7] | [C] | 

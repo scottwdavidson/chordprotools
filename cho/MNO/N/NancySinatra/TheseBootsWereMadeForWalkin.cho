@@ -6,17 +6,17 @@
 {meta: countin: 4}
 {meta: performance: E}
 
-{comment: ***********************************************}
-{comment: ** meta:countin: 4}
-{comment: ** meta:performance: E}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: performance: E   }
+{comment:***********************************************}
 
 {comment: Intro - Chromatic Walkdown}
-| E  .  D#  .  | D   .  C#  .  |  
-| C  .  B   .  | A#  .  A   .  |
+| [E]  .  [D#]  .  | [D]   .  [C#]  .  |  
+| [C]  .  [B]   .  | [A#]  .  [A]   .  |
 
-| E  .  .   .  | E   .  .   .  | 
-| E  .  .   .  | E   .  .   .  | 
+| [E]  .  .   .  | [E]   .  .   .  | 
+| [E]  .  .   .  | [E]   .  .   .  | 
 
 
 {start_of_verse}
@@ -35,9 +35,9 @@ And [G]that's just what they'll [E]do.
 
 
 {comment: Interlude I}
-|  E  .  D#  .  |  D  .  C#  .  |  C  .  B  .  |  A#  .  A  .  |
+|  [E]  .  [D#]  .  |  [D]  .  [C#]  .  |  [C]  .  [B]  .  |  [A#]  .  [A]  .  |
 
-| E  .  .  .  | E  .  .  .  | E  .  .  .  | E  .  .  .  | 
+| [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | 
 
 
 {start_of_verse}
@@ -56,9 +56,9 @@ And [G]that's just what they'll [E]do.
 
 
 {comment: Interlude II}
-|  E  .  D#  .  |  D  .  C#  .  |  C  .  B  .  |  A#  .  A  .  |
+|  [E]  .  [D#]  .  |  [D]  .  [C#]  .  |  [C]  .  [B]  .  |  [A#]  .  [A]  .  |
 
-| E  .  .  .  | E  .  .  .  | E  .  .  .  | E  .  .  .  | 
+| [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | 
 
 
 {start_of_verse}
@@ -77,13 +77,13 @@ And [G]that's just what they'll [E]do,
 
 
 {comment: Outro}
-|  E  .  D#  .  |  D  .  C#  .  |  C  .  B  .  |  A#  .  A  .  |
+|  [E]  .  [D#]  .  |  [D]  .  [C#]  .  |  [C]  .  [B]  .  |  [A#]  .  [A]  .  |
 
-| E . . Are you ready boots? ... Start walkin' . . E |
+| [E] . . Are you ready boots? ... Start walkin' . . [E] |
 
 
 {comment: double time}
 
-| E  .  .  .  | E  .  .  .  | E  .  .  .  | E  .  .  .  | (repeat)
+| [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | (repeat)
 
-| E |
+| [E] |

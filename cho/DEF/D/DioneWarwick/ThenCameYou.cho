@@ -18,13 +18,13 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
 {start_of_verse}
 [F]Ever since I m[Gm7/F]et ya
@@ -52,8 +52,8 @@ I ne[Bbmaj7]ver knew [D9sus]love b[Gm7]efore
 {end_of_chorus}
 
 {comment:Interlude}
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
 {start_of_verse}
 [F]Now that I have [Gm7/F]found ya
@@ -81,16 +81,16 @@ I ne[Bbmaj7]ver knew [D9sus]love b[Gm7]efore
 {end_of_chorus}
 
 {comment:Interlude / Key Change}
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
-| F F Bb/F Eb/F | Eb/F Bb/F F Bb/F F |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
+| [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
 
-| F# F# B/F# E/F# | E/F# B/F# F# B/F# F# |
-| F# F# B/F# E/F# | E/F# B/F# F# B/F# F# |
+| [F#] [F#] [B/F#] [E/F#] | [E/F#] [B/F#] [F#] [B/F#] [F#] |
+| [F#] [F#] [B/F#] [E/F#] | [E/F#] [B/F#] [F#] [B/F#] [F#] |
 
 
-| G G C/G  F/G  | F/G C/G G C/G G | 
-| G G C/G  F/G  | F/G C/G G C/G G | 
+| [G] [G] [C/G]  [F/G]  | [F/G] [C/G] [G] [C/G] [G] | 
+| [G] [G] [C/G]  [F/G]  | [F/G] [C/G] [G] [C/G] [G] | 
 
 {start_of_chorus}
 I ne[Cmaj7]ver knew [E9sus]love b[Am7]efore
@@ -101,7 +101,7 @@ I ne[Cmaj7]ver knew [E9sus]love b[Am7]efore
 [C]Then came [G]you
 {end_of_chorus}
 
-| G G C/G  F/G  | F/G C/G G C/G G | 
+| [G] [G] [C/G]  [F/G]  | [F/G] [C/G] [G] [C/G] [G] | 
 
 {start_of_chorus}
 I ne[Cmaj7]ver knew [E9sus]love b[Am7]efore

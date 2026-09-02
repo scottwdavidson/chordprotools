@@ -2,11 +2,11 @@
 {artist: The California Honeydrops}
 {key: E}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E A | E A | x4
+| [E] [A] | [E] [A] | x4
 
 {start_of_verse}
 [E]There used to be a [A]bird that [E]san[A]g
@@ -16,7 +16,7 @@
 {end_of_verse}
 
 {comment: Interlude}
-| E A | E A | x1
+| [E] [A] | [E] [A] | x1
 
 {start_of_verse}
 [E]It used to be this g[A]arden [E]gre[A]w
@@ -52,11 +52,11 @@ There was [Am7]music all [Bm7]in the a[E]ir
 [Am7]Ooh [Bm7]baby[E]
 
 {comment: Instrumental: (16 bars total)}
-| E    A    |  E   |    3x
-| Am7  Bm7  |  E   |
+| [E]    [A]    |  [E]   |    3x
+| [Am7]  [Bm7]  |  [E]   |
 
-| E    A    |  E   |    3x
-| Am7  Bm7  |  E   |
+| [E]    [A]    |  [E]   |    3x
+| [Am7]  [Bm7]  |  [E]   |
 
 {comment: Bridge 2}
 {start_of_bridge}
@@ -80,4 +80,4 @@ There was [Am7]music all [Bm7]in the a[E]ir
 [Am7]Witho[Bm7]ut musi[E]c- All in the air
 
 {comment: Instrumental Outro}
-| E7  | Am7  Bm7  |  E  |  x4
+| [E7]  | [Am7]  [Bm7]  |  [E]  |  x4

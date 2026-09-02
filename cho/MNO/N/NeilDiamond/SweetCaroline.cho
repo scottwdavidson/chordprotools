@@ -4,11 +4,11 @@
 {duration: 3:24}
 {tempo: 63}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Piano Intro}
-| E ... | E ... | E ... | E ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
 
 {start_of_verse}
 [A]Where it began [D]I can't begin to knowin'
@@ -50,7 +50,7 @@
 
 
 {comment: Piano Instrumental}
-| E ... | E ... | E ... | E ... |
+| [E] ... | [E] ... | [E] ... | [E] ... |
 
 
 {start_of_chorus}

@@ -5,15 +5,15 @@
 {tempo: 148}
 {meta: nord: M25}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: M25}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: M25   }
+{comment:***********************************************}
 
 {comment: Intro}
 
 {comment: F(1st), Am(3rd), D(2nd), Bb(3rd)}
 
-| F . . . | Am . . . | Dm . . .  | Bb . . . |
+| [F] . . . | [Am] . . . | [Dm] . . .  | [Bb] . . . |
 
 
 {start_of_verse}
@@ -80,4 +80,4 @@ Oh I be[Bb]lieve
 
 {comment: F(1st), Am(3rd), D(2nd), Bb(3rd)}
 
-| F . . . | Am . . . | Dm . . . |Bb . Gm7 . | F |
+| [F] . . . | [Am] . . . | [Dm] . . . |[Bb] . [Gm7] . | [F] |

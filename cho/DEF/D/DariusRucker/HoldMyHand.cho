@@ -4,12 +4,12 @@
 {duration: 3:35}
 {tempo: 101}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Bsus2 . E . | Bsus2 . E . | 
-| Bsus2 . E . | Bsus2 . E . | 
+| [Bsus2] . [E] . | [Bsus2] . [E] . | 
+| [Bsus2] . [E] . | [Bsus2] . [E] . | 
 
 {start_of_verse}
 [Bsus2]      [E] With a little [Bsus2]love, [E] and some [Bsus2]tenderness[E]
@@ -48,8 +48,8 @@ Won't you let me run with you? Yeah
 
 
 {comment: Interlude}
-| Bsus2 . E . | Bsus2 . E . | 
-| Bsus2 . E . | Bsus2 . E . | 
+| [Bsus2] . [E] . | [Bsus2] . [E] . | 
+| [Bsus2] . [E] . | [Bsus2] . [E] . | 
 [E] See I was was[Bsus2]ted, a[E]nd I was [Bsus2]wastin' time[E]
 
 
@@ -75,8 +75,8 @@ Won't you let me run with you?
 
 
 {comment: Solo}
-| Bsus2 . E . | Bsus2 . E . | 
-| Bsus2 . E . | Bsus2 . E . | 
+| [Bsus2] . [E] . | [Bsus2] . [E] . | 
+| [Bsus2] . [E] . | [Bsus2] . [E] . | 
 
 {start_of_chorus}
 [B]Hold [E]my [F#]hand want you to hold my hand

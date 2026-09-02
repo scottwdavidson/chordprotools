@@ -2,11 +2,11 @@
 {artist: KT Tunstall}
 {key: D}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro:}
-| D | D/C | D | G | x3
+| [D] | [D/C] | [D] | [G] | x3
 
 {start_of_verse}
 Her [Dsus2]face is a map of the [C]world
@@ -34,7 +34,7 @@ Suddenly I [Bm]see[F#]
 {end_of_chorus}
 
 {comment: Instrumental}
-| D | D/C | D | G |
+| [D] | [D/C] | [D] | [G] |
 
 {start_of_verse}
 I [Dsus2]feel like walking the [C]world

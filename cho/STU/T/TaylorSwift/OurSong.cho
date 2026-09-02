@@ -16,13 +16,13 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| . . D D |
+| . . [D] [D] |
 
 {comment: Guitar Enters}
-| D . . . | Em . . . |
-| G . . . | A  . . . |
-| D . . . | Em . . . |
-| G . . . | A  . . . |
+| [D] . . . | [Em] . . . |
+| [G] . . . | [A]  . . . |
+| [D] . . . | [Em] . . . |
+| [G] . . . | [A]  . . . |
 
 
 {start_of_verse}
@@ -52,8 +52,8 @@ Asking God[D] if [G]he could play it again
 
 
 {comment: Interlude}
-| D . . . | Em . . . |
-| G . . . | A  . . . |
+| [D] . . . | [Em] . . . |
+| [G] . . . | [A]  . . . |
 
 
 {start_of_verse}
@@ -79,10 +79,10 @@ Asking God[D] if [G]he could play it again
 
 
 {comment: Interlude}
-| D . . . | Em . . . |
-| G . . . | A  (La da da da) . . . |
-| D . . . | Em . . . |
-| G . . . | A  . . . |
+| [D] . . . | [Em] . . . |
+| [G] . . . | [A]  (La da da da) . . . |
+| [D] . . . | [Em] . . . |
+| [G] . . . | [A]  . . . |
 
 
 {start_of_bridge}

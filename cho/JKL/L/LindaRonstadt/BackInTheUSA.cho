@@ -19,10 +19,10 @@
 
 {comment:INTRO}
 | <Chuck Berry guitar lick on G> |
-| C  . . . | C  . . . |
-| G  . . . | G  . . . |
-| D  . . . | D  . . . |
-| G  . . . | G  . . . |
+| [C]  . . . | [C]  . . . |
+| [G]  . . . | [G]  . . . |
+| [D]  . . . | [D]  . . . |
+| [G]  . . . | [G]  . . . |
 
 
 {start_of_verse}
@@ -38,12 +38,12 @@ let [D]alone just to be at my home back in ol' St. [G]Lou.
 {end_of_verse}
 
 {comment: INTERLUDE:PIANO (&GUITAR) 12 bars}
-| G7 . . . | G7 . . . | 
-| G7 . . . | G7 . . . | 
-| C  . . . | C  . . . |
-| G  . . . | G  . . . |
-| D  . . . | D  . . . |
-| G  . . . | G  . . . |
+| [G7] . . . | [G7] . . . | 
+| [G7] . . . | [G7] . . . | 
+| [C]  . . . | [C]  . . . |
+| [G]  . . . | [G]  . . . |
+| [D]  . . . | [D]  . . . |
+| [G]  . . . | [G]  . . . |
 
 {start_of_verse}
 [G]Did I miss the skyscrapers, did I miss the long freeways?
@@ -52,12 +52,12 @@ You can [D]bet your life I did, till I got back to the U. S. [G]A.
 {end_of_verse}
 
 {comment: INTERLUDE:GUITAR (&PIANO) 12 bars}
-| G7 . . . | G7 . . . | 
-| G7 . . . | G7 . . . | 
-| C  . . . | C  . . . |
-| G  . . . | G  . . . |
-| D  . . . | D  . . . |
-| G  . . . | G  . . . |
+| [G7] . . . | [G7] . . . | 
+| [G7] . . . | [G7] . . . | 
+| [C]  . . . | [C]  . . . |
+| [G]  . . . | [G]  . . . |
+| [D]  . . . | [D]  . . . |
+| [G]  . . . | [G]  . . . |
 
 {start_of_verse}
 [G]Looking hard for a drive-in, searching for a corner cafe.
@@ -81,4 +81,4 @@ Yes, [C]we're so glad I'm livin' in the U.S.[G]A.
 [G]Well, we're so glad, we're so glad 
 [C]We're so glad
 [G]We're so glad
-| D . . . | D . . . | G . . . | G . . . |
+| [D] . . . | [D] . . . | [G] . . . | [G] . . . |

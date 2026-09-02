@@ -4,11 +4,11 @@
 {duration: 3:40}
 {tempo: 78}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| G | G/F# | Em | Em/D | C | Bm | Am | Am7/D |
+| [G] | [G/F#] | [Em] | [Em/D] | [C] | [Bm] | [Am] | [Am7/D] |
 
 {start_of_verse}
 [G]Shadows grow so [G/F#]long before my [Em]eyes
@@ -28,7 +28,7 @@ But [Bm]Don't hesi[E7]tate
 {end_of_chorus}
 
 {comment: Turnaround}
-| G | G/F# | Em | Em/D | C | Bm | Am | Am7/D |
+| [G] | [G/F#] | [Em] | [Em/D] | [C] | [Bm] | [Am] | [Am7/D] |
 
 {start_of_verse}
 [G]Moon appears to [G/F#]shine and light the [Em]sky
@@ -48,7 +48,7 @@ But [Bm]Don't hesi[E7]tate
 {end_of_chorus}
 
 {comment: solo}
-||: G | G/F# | Em | Em/D | C | C | F7 | F7 :|| x2
+||: [G] | [G/F#] | [Em] | [Em/D] | [C] | [C] | [F7] | [F7] :|| x2
 
 {start_of_bridge}
 But [Bm]Don't hesi[E7]tate
@@ -74,4 +74,4 @@ But [Bm]Don't hesi[E7]tate
 {end_of_chorus}
 
 [Outro]
-| G | G/F# | Em | Em/D | C | Bm | Am | Am7/D | G |
+| [G] | [G/F#] | [Em] | [Em/D] | [C] | [Bm] | [Am] | [Am7/D] | [G] |

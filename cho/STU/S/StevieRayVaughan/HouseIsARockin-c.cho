@@ -16,13 +16,13 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| C7 . . . | C7 . . . |
-| C7 . . . | C7 . . . |
+| [C7] . . . | [C7] . . . |
+| [C7] . . . | [C7] . . . |
 
 
 {comment: Add Piano}
-| C7 . . . | C7 . . . |
-| C7 . . . | C7 . . . |
+| [C7] . . . | [C7] . . . |
+| [C7] . . . | [C7] . . . |
 
 
 {start_of_chorus}
@@ -46,20 +46,20 @@ Yeah the [G7]house is a rockin don't bother come on [C7]in
 {end_of_chorus}
 
 {comment: Piano solo}
-| C7 <pickup> |
-| C7 . . . | C7 . . . | C7 . . . | C7 . . . |
-| F7 . . . | F7 . . . | C7 . . . | C7 . . . |
-| G7 . . .| G7 . . .| C7 . . . | C7 . . . |
+| [C7] <pickup> |
+| [C7] . . . | [C7] . . . | [C7] . . . | [C7] . . . |
+| [F7] . . . | [F7] . . . | [C7] . . . | [C7] . . . |
+| [G7] . . .| [G7] . . .| [C7] . . . | [C7] . . . |
 
 {comment: Guitar solo}
-| C7 .  .  .  | C7 . . . | C7 . . . | C7 . . . |
-| F7 .  .  .  | F7 . . . | C7 . . . | C7 . . . |
-| G7 .  .  .  | G7 . . . | C7 . . . | C7 . . . |
+| [C7] .  .  .  | [C7] . . . | [C7] . . . | [C7] . . . |
+| [F7] .  .  .  | [F7] . . . | [C7] . . . | [C7] . . . |
+| [G7] .  .  .  | [G7] . . . | [C7] . . . | [C7] . . . |
 
-| C7 .  .  .  | C7 . . . | C7 . . . | C7 . . . |
+| [C7] .  .  .  | [C7] . . . | [C7] . . . | [C7] . . . |
 
 {comment: Return to standard blues riff}
-| C7 .  .  .  | C7 . . . | 
+| [C7] .  .  .  | [C7] . . . | 
 
 {start_of_chorus}
 Well the [C7]house is a rockin don't bother knockin

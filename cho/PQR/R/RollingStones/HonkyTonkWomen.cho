@@ -7,8 +7,13 @@
 {meta: nord: N51}
 {meta: countin: 4}
 
+{comment:***********************************************}
+{comment:**  meta: nord: N51   }
+{comment:**  meta: countin: 4   }
+{comment:***********************************************}
+
 {start_of_part: Intro}
-| G . . . | G . . . |
+| [G] . . . | [G] . . . |
 {end_of_part}
 
 
@@ -42,11 +47,11 @@ Yeah, alright!
 
 
 {start_of_part: Solo}
-| G . . . | G . . . | C . Csus . | C . . . |
-| G . . . | A . . . | D . Dsus . | D . . . |
+| [G] . . . | [G] . . . | [C] . [Csus] . | [C] . . . |
+| [G] . . . | [A] . . . | [D] . [Dsus] . | [D] . . . |
 
-| G . . . | G . . . | C . Csus . | C . . . |
-| G . . . | D . . . | G . .    . | G . . . |
+| [G] . . . | [G] . . . | [C] . [Csus] . | [C] . . . |
+| [G] . . . | [D] . . . | [G] . .    . | [G] . . . |
 {end_of_part}
 
 {start_of_chorus}

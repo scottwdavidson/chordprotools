@@ -18,8 +18,8 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| G . . . | C . . . | G . . . | D . . . | 
-| G . . . | C . . . | G . . . | D . . . | 
+| [G] . . . | [C] . . . | [G] . . . | [D] . . . | 
+| [G] . . . | [C] . . . | [G] . . . | [D] . . . | 
 
 {start_of_verse: Scott vocal}
 [G] Hey where did we [C]go
@@ -60,14 +60,14 @@ With a[G] transistor ra[D7]dio
 
 {comment: piano solo}
 {comment: 2 measure riff}
-| G . . . | G . . . |
+| [G] . . . | [G] . . . |
 
 {comment: 2 measure single notes}
-| G . . . | G . . . |
+| [G] . . . | [G] . . . |
 
 {comment: 4 measure bass / piano}
-| G . . . | C . . . | 
-| G . . . | D . . . | 
+| [G] . . . | [C] . . . | 
+| [G] . . . | [D] . . . | 
 
 
 {start_of_verse: Scott vocal}

@@ -14,8 +14,8 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| E . . . | C#m . . . |
-| E . . . | C#m . . . |
+| [E] . . . | [C#m] . . . |
+| [E] . . . | [C#m] . . . |
 
 {comment: Ronnie}
 {start_of_verse}
@@ -49,10 +49,10 @@ Sweet [F#m]darling there ain't [B7]no getting over [E]me[E/C#m]
 {end_of_verse}
 
 {comment: solo}
-| E . . .   | C#m . . . |
-| E . . .   | C#m . . . |
-| F#m . . . | B7 . . . |
-| E . . .   | E/C# . . . |
+| [E] . . .   | [C#m] . . . |
+| [E] . . .   | [C#m] . . . |
+| [F#m] . . . | [B7] . . . |
+| [E] . . .   | [E/C#] . . . |
 
 {start_of_chorus}
 (Ronnie) I'll be the [C#m]face that you see in the [G#m]crowd
@@ -78,5 +78,5 @@ There ain't [B7]no getting over [E]me
 There ain't no [B7]getting over [E]me
 
 {comment: Outro}
-| E   . . . | Cm# . . . | E . . . | Cm# . . . |
-| F#m . . . | B7  . . . | E . . . | E .  .  . |
+| [E]   . . . | Cm# . . . | [E] . . . | Cm# . . . |
+| [F#m] . . . | [B7]  . . . | [E] . . . | [E] .  .  . |

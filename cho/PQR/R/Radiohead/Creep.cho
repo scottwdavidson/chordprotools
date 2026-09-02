@@ -2,11 +2,14 @@
 {artist: Radiohead}
 {key: G}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| G  . . . | G . . . |
-| B  . . . | B . . . | 
-| C  . . . | C . . . |
-| Cm . . . | Cm ( when you were here before )
+| [G]  . . . | [G] . . . |
+| [B]  . . . | [B] . . . | 
+| [C]  . . . | [C] . . . |
+| [Cm] . . . | [Cm] ( when you were here before )
 
 {start_of_verse}
 When you were here before

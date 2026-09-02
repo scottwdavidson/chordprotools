@@ -2,11 +2,11 @@
 {artist: Gilbert O'Sullivan}
 {key: Bb}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-|Bbmaj7 Eb/Bb Bb |Bbmaj7 Eb/Bb Bb |Bbmaj7 Eb/Bb Bb | F7  |
+|[Bbmaj7] [Eb/Bb] [Bb] |[Bbmaj7] [Eb/Bb] [Bb] |[Bbmaj7] [Eb/Bb] [Bb] | [F7]  |
 
 {start_of_verse}
 [Bb]Told you once before And I won't tell you no more
@@ -15,7 +15,7 @@ You're a [F7]bad dog baby [Eb] but I still [F7]want you 'ro[Bb]und
 {end_of_verse}
 
 {comment: Turnaround}
-| Eb/Bb Bb Eb/Bb Bb | F7  |
+| [Eb/Bb] [Bb] [Eb/Bb] [Bb] | [F7]  |
 
 {start_of_verse}
 [Bb]You give me the creeps When you jump on your feet
@@ -24,7 +24,7 @@ Keep your [F7]hands to yourself [Eb] - I'm strictly [F7]out of bo[Bb]unds
 {end_of_verse}
 
 {comment: Turnaround}
-| Eb/Bb Bb Eb/Bb Bb | F7  |
+| [Eb/Bb] [Bb] [Eb/Bb] [Bb] | [F7]  |
 
 {start_of_bridge}
 O[Dm]nce upon a time I drank a little wine  Was as [Gm/D]happy as could be, happy as could be

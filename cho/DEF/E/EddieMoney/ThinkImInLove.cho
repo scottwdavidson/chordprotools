@@ -4,11 +4,11 @@
 {duration: 4:00}
 {tempo: 152}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E ... | B ... | E . A B |
+| [E] ... | [B] ... | [E] . [A] [B] |
 
 {start_of_verse}
 [E]Ooh, [A]somethin's got a hold on me [E]now[B][E]
@@ -28,7 +28,7 @@ It's gotta be [A]love
 {end_of_chorus}
 
 {comment: Fill}
-| E ... | B ... | E . A B |
+| [E] ... | [B] ... | [E] . [A] [B] |
 
 {start_of_verse}
 It sur[E]rounds me
@@ -52,10 +52,10 @@ It's gotta be [A]love
 [E]    I [B]think I'm in [E]love, oh [A]no, no, [B]no
 
 {comment: Guitar Solo}
-| E ... | A ... | E ... | .. B E |
-| E ... | A ... | B ... | A ...  |
-| E ... | A ... | E ... | .. B E |
-| F#m   | E/G#  | A ... | E ...  |
+| [E] ... | [A] ... | [E] ... | .. [B] [E] |
+| [E] ... | [A] ... | [B] ... | [A] ...  |
+| [E] ... | [A] ... | [E] ... | .. [B] [E] |
+| [F#m]   | [E/G#]  | [A] ... | [E] ...  |
 
 {start_of_chorus}
 I think I'm in [C#m]love[B]

@@ -4,11 +4,11 @@
 {duration: 3:10}
 {tempo: 107}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| F C | Dm | Bb C | F Bb/F F | 
+| [F] [C] | [Dm] | [Bb] [C] | [F] [Bb/F] [F] | 
 
 {start_of_verse}
 [F]You keep callin' me [Bb]on the tele[F]phone,
@@ -26,7 +26,7 @@ Guess you're [C7]hungry for [A/C#]some more;[Dm]... girl,
 {end_of_chorus}
 
 {comment:Instrumental Turnaround}
-| F C | Dm | Bb C | F Bb/F F | 
+| [F] [C] | [Dm] | [Bb] [C] | [F] [Bb/F] [F] | 
 
 {start_of_verse}
 [F]Once there was this[Bb] spider in my [F] bed;

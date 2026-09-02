@@ -4,11 +4,11 @@
 {duration: 3:05}
 {tempo: 95}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| Cmaj7 | G |  D | G | Cmaj7 | G | C D6 | G | 
+| [Cmaj7] | [G] |  [D] | [G] | [Cmaj7] | [G] | [C] [D6] | [G] | 
 
 {start_of_verse}
 [Cmaj7]I've often [G]wondered... how l[D]ove would strike me [G]next
@@ -25,7 +25,7 @@ It was so[C9]fter than a w[G]hisp[Em]er...when l[C6]ove called[C/D] out my [G]na
 {end_of_chorus}
 
 {comment: Interlude}
-| Cmaj7 | G | C D6 | G | 
+| [Cmaj7] | [G] | [C] [D6] | [G] | 
 
 {start_of_verse}
 Last n[Cmaj7]ight you laid s[G]leeping...and I t[D]hought I heard a [G]sound
@@ -43,5 +43,5 @@ It was so[C9]fter than a w[G]hisp[Em]er...when l[C6]ove called[C/D] out my [G]na
 
 {comment:Outro}
 It was so[C9]fter than a w[G]hisp[Em]er...when l[C6]ove called[C/D] out my [G]name
-| Cmaj7 | G | C D6 | G |
+| [Cmaj7] | [G] | [C] [D6] | [G] |
 

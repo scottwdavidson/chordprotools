@@ -2,8 +2,8 @@
 {artist: Allman Brothers}
 {key: F}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
 | [Bb7] [B7] | [C7] N.C. | N.C. [Bb7] [B7] | [C7] N.C. | [C9] |
@@ -29,9 +29,9 @@ Well you can [G9]tell your other man,[F9] Sweet daddy's on his [C9]way.
 {end_of_bridge}
 
 {comment: Guitar solo}
-| Bb7 B7 C7 . | C7 | . Bb7 B7 C7 | C9 | . Eb7 E7 F |
-| F9   | F9   | C9 | 
-| C9   | G9   | F9 | C9 |
+| [Bb7] [B7] [C7] . | [C7] | . [Bb7] [B7] [C7] | [C9] | . [Eb7] [E7] [F] |
+| [F9]   | [F9]   | [C9] | 
+| [C9]   | [G9]   | [F9] | [C9] |
 
 {start_of_verse}
 [C9]Got your hands full now baby, as soon as I hit that door.
@@ -48,9 +48,9 @@ I'm goin' [C9]Southbound, yeah baby
 {end_of_bridge}
 
 {comment: Piano solo}
-| C9 | C9 | C9 | C9 | F9 | F9 | 
-| C9 | C9 | G9 | F9 | C9 | C9 | x2 
+| [C9] | [C9] | [C9] | [C9] | [F9] | [F9] | 
+| [C9] | [C9] | [G9] | [F9] | [C9] | [C9] | x2 
 
 {comment: Outro-Guitar solo}
-| C9 | C9 | C9 | C9 | F9 | F9 | 
-| C9 | C9 | G9 | F9 | C9 | C9 | x2 
+| [C9] | [C9] | [C9] | [C9] | [F9] | [F9] | 
+| [C9] | [C9] | [G9] | [F9] | [C9] | [C9] | x2 

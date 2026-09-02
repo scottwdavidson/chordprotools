@@ -1,18 +1,17 @@
-{title:Don't Expect Me To Be Your Friend}
-{artist:Lobo}
+{title: Don't Expect Me To Be Your Friend}
+{artist: Lobo}
 {key: C}
-{tempo: 78}
 {duration: 3:30}
+{tempo: 78}
 {meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: *** meta: countin: 4}
-{comment: ***********************************************}
-
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: Intro}
-| C . . . | Dm7 . . . |
-| C . . . | Dm7 . . . |
+| [C] . . . | [Dm7] . . . |
+| [C] . . . | [Dm7] . . . |
 
 {start_of_verse}
 I [C]stopped sending [Dm]flowers to your[C] apartment__[Dm]
@@ -22,7 +21,7 @@ I [C]stopped dropping[Dm] by without an [C]appointment__[Dm]
 {end_of_verse}
 
 {comment: Interlude}
-| C . . . | Dm7 . . . |
+| [C] . . . | [Dm7] . . . |
 
 {start_of_verse}
 [C]Sometimes late at [Dm]night you'll st[C]ill call me__[Dm]
@@ -39,8 +38,8 @@ So[F] don't ex[Em]pect [Dm]me to be your [C]friend
 {end_of_chorus}
 
 {comment: Interlude}
-| C . . . | Dm7 . . . |
-| C . . . | Dm7 . . . |
+| [C] . . . | [Dm7] . . . |
+| [C] . . . | [Dm7] . . . |
 
 {start_of_verse}
 I [C]don't walk down [Dm]through the vil[C]lage or o[Dm]ther places
@@ -57,8 +56,8 @@ So[F] don't ex[Em]pect [Dm]me to be your [C]friend
 {end_of_chorus}
 
 {comment: Interlude}
-| C . . . | Dm7 . . . |
-| C . . . | Dm7 . . . |
+| [C] . . . | [Dm7] . . . |
+| [C] . . . | [Dm7] . . . |
 
 
 {start_of_verse}
@@ -77,5 +76,5 @@ So[F] don't ex[Em]pect [Dm]me to be your [C]friend
 {end_of_chorus}
 
 {comment: Outro}
-| C . . . | Dm7 . . . |
-| C . . . | Dm7 . . . | 
+| [C] . . . | [Dm7] . . . |
+| [C] . . . | [Dm7] . . . | 

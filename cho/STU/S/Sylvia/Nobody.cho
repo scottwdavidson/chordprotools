@@ -18,10 +18,10 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| . Dm/C   C  . | Dm/C   . C  . | 
-| . Bdim/A Am . | Bdim/A . Am . | 
-| . Dm/C   C  . | Dm/C   . C  . | 
-| . Bdim/A Am . | Bdim/A . Am . | 
+| . [Dm/C]   [C]  . | [Dm/C]   . [C]  . | 
+| . [Bdim/A] [Am] . | [Bdim/A] . [Am] . | 
+| . [Dm/C]   [C]  . | [Dm/C]   . [C]  . | 
+| . [Bdim/A] [Am] . | [Bdim/A] . [Am] . | 
 
 {start_of_verse}
 S[C]itting in a restaurant; she walked by 
@@ -46,8 +46,8 @@ But I can l[Dm]ove you like nobody c[G]an
 even bet[C]ter_[Dm/C][C]_[Dm/C][C]
 {end_of_chorus}
 
-| . Dm/C   C  . | Dm/C   . C  . | 
-| . Bdim/A Am . | Bdim/A . Am . | 
+| . [Dm/C]   [C]  . | [Dm/C]   . [C]  . | 
+| . [Bdim/A] [Am] . | [Bdim/A] . [Am] . | 
 
 {start_of_verse}
 La[C]te last night we went for a drive
@@ -72,8 +72,8 @@ even bet[C]ter_[Dm/C][C]_[Dm/C][C]
 {end_of_chorus}
 
 {comment: Instrumental}
-| . Dm/C   C  . | Dm/C . C  . | 
-| . Em/D   Am . | Em/D . Am . | 
+| . [Dm/C]   [C]  . | [Dm/C] . [C]  . | 
+| . [Em/D]   [Am] . | [Em/D] . [Am] . | 
 
 {start_of_chorus}
 Well your no[Em]body ca[A]lled today 
@@ -94,5 +94,5 @@ Well I won[Em]der d[A]oes she think she's
 being cl[D]ever.  ([G]Cle[D]ver  [G]OOH [D]OOH)
 {end_of_chorus}
 
-| G . D . |
+| [G] . [D] . |
 

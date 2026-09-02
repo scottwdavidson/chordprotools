@@ -1,11 +1,14 @@
 {title: Seasons in the Sun}
 {artist: Terry Jacks}
 {key: F}
-{tempo: 100}
 {duration: 3:30}
+{tempo: 100}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Ab Bb B Ab | Ab Bb B C |
+| [Ab] [Bb] [B] [Ab] | [Ab] [Bb] [B] [C] |
 
 
 {start_of_verse}

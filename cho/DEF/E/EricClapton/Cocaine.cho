@@ -4,14 +4,14 @@
 {duration: }
 {tempo: }
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| E ... | D ... | 
-| E ... | D ... | 
-| E ... | D ... | 
-| E ... | D ... | 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | 
 
 {start_of_verse}
 If you w[E]ant to hang out
@@ -46,10 +46,10 @@ Coc[E]aine[D][E][D]
 {end_of_chorus}
 
 {comment: Solo}
-| E ... | D ... | 
-| E ... | D ... | 
-| E ... | D ... | 
-| E ... | D ... | ... until done :-) 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | ... until done :-) 
 
 {start_of_verse}
 If your d[E]ay is gone
@@ -68,7 +68,7 @@ Coc[E]aine[D][E][D]
 {end_of_chorus}
 
 {comment: Outro}
-| E ... | D ... | 
-| E ... | D ... | 
-| E ... | D ... | 
-| E ... | D ... | ... until done :-) 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | 
+| [E] ... | [D] ... | ... until done :-) 

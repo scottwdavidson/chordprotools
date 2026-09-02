@@ -3,12 +3,12 @@
 {key: A}
 {tempo: 90}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Intro}
-| Asus2  . . . | Asus2  . . . | F#m11 . . . | F#m11   . . . |
-| D6sus2 . . . | D6sus2 . . . | Esus4 . . . | E . Esus4 . . |
+| [Asus2]  . . . | [Asus2]  . . . | [F#m11] . . . | [F#m11]   . . . |
+| [D6sus2] . . . | [D6sus2] . . . | [Esus4] . . . | [E] . [Esus4] . . |
 
 {start_of_verse}
 I was [Asus2]standing
@@ -44,8 +44,8 @@ When we're [D6sus4]hungry
 {end_of_verse}
 
 {comment: Solo}
-| Asus2  . . . | Asus2  . . . | F#m11 . . . | F#m11   . . . |
-| D6sus2 . . . | D6sus2 . . . | Esus4 . . . | E . Esus4 . . |
+| [Asus2]  . . . | [Asus2]  . . . | [F#m11] . . . | [F#m11]   . . . |
+| [D6sus2] . . . | [D6sus2] . . . | [Esus4] . . . | [E] . [Esus4] . . |
 
 {comment: bridge}
 I would [D]die for you

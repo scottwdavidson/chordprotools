@@ -2,9 +2,12 @@
 {artist: Connie Francis}
 {key: Db}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Intro}
-| Db . Bbm . | Ebm7 . Ab7 . | 
-| Db . Bbm . | Ebm7 . Ab7 . | 
+| [Db] . [Bbm] . | [Ebm7] . [Ab7] . | 
+| [Db] . [Bbm] . | [Ebm7] . [Ab7] . | 
 [Db]Pretty little [Bbm]baby[Ebm]   (Yah, [Ab]yah)
 [Db]Pretty little [Bbm]baby[Ebm]   (Yah, [Ab]yah)
 
@@ -37,10 +40,10 @@
 
 
 {comment: Interlude}
-| D . Bm . | Em . A . |
-| D . Bm . | Em . A . |
-| D . Bm . | Em . A . |
-| D . Bm . | Em . A . |
+| [D] . [Bm] . | [Em] . [A] . |
+| [D] . [Bm] . | [Em] . [A] . |
+| [D] . [Bm] . | [Em] . [A] . |
+| [D] . [Bm] . | [Em] . [A] . |
 
 
 {start_of_chorus}

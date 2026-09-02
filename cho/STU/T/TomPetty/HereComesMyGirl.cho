@@ -20,10 +20,10 @@
 {end_of_part}
 
 {start_of_part: Intro}
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
 {end_of_part}
 
 
@@ -71,10 +71,10 @@ Here comes my [E]girl_[A]
 
 
 {start_of_part: Interlude}
-| F#7 . . . | F#7 (watch her walk). . . |
-| F#7 . . . | F#7 . . . |
-| F#7 . . . | F#7 . . . |
-| F#7 . . . | F#7 . . . |
+| [F#7] . . . | [F#7] (watch her walk). . . |
+| [F#7] . . . | [F#7] . . . |
+| [F#7] . . . | [F#7] . . . |
+| [F#7] . . . | [F#7] . . . |
 {end_of_part}
 
 
@@ -102,20 +102,20 @@ Here comes my [E]girl_[A]
 
 
 {start_of_part: Outro}
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
 
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
 
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
-| A         . . . | B/A . . . |
-| Aadd2 . . . | B/A . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
+| [A]         . . . | [B/A] . . . |
+| [Aadd2] . . . | [B/A] . . . |
 
-| A |
+| [A] |
 {end_of_part}

@@ -4,11 +4,11 @@
 {duration: 2:10}
 {tempo: 123}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment:Intro}
-| F . C . | Bb . . Bb C| F . C . | Bb . . .|
+| [F] . [C] . | [Bb] . . [Bb] [C]| [F] . [C] . | [Bb] . . .|
 
 {start_of_verse}
 Well, you [F]woke me from a [C/E]dream about yo[Bb]u
@@ -33,7 +33,7 @@ Of my ho[Bb]pes and d[Bb/C]reams [C7]and
 {end_of_chorus}
 
 {comment:Interlude}
-| F . C . | Bb . . Bb C|F . C . | Bb . . .|
+| [F] . [C] . | [Bb] . . [Bb] [C]|[F] . [C] . | [Bb] . . .|
 
 {start_of_verse}
 Well, I [F]see you writing [C/E]something d[Bb]own
@@ -59,6 +59,6 @@ Of my ho[Bb]pes and d[Bb/C]reams [C7]and
 {end_of_chorus}
 
 {comment:Outro}
-| F . C . | Bb . . Bb C|F . C . | Bb . . .|
+| [F] . [C] . | [Bb] . . [Bb] [C]|[F] . [C] . | [Bb] . . .|
 
 
