@@ -5,6 +5,8 @@
 {tempo: 125}
 
 {comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: rc-slot: 90   }
 {comment:***********************************************}
 
 {comment: Intro 1}
@@ -24,16 +26,18 @@
 With the [E]cleats aclicking
 [A] A tempe[D]ramental glow
 [E]  [A] How could you [D]let me go[E]
-Oh, I got a [F#m]hold on you
 {end_of_verse}
 
 
 {comment: Pre-Chorus}
+Oh, I got a [F#m]hold on you
 Got a [D]hold on you
 I've got a [E]hold on you tonight
+.| [F#m] . . . |
+
 [F#m]Oh, I got a hold on you
 I got a [D]hold on you
-[E]That's right
+[E](Got a hold on you)  [E]That's right
 
 
 {start_of_chorus}
@@ -41,8 +45,8 @@ I got a [D]hold on you
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
 Just a little magic[A]
-You [D]know it's true
-[E] I got a [F#m]hold on you
+You [D]know it's true [E]
+I got a [F#m]hold on you | . . . . |
 {end_of_chorus}
 
 
@@ -56,16 +60,17 @@ Oh, [A]twisted[D]
 [A] How far[D] can you take[E]it
 [A] Till you [D]realize[E]
 [A] There's magic [D]in your eyes[E]
-I got a [F#m]hold on you
 {end_of_verse}
 
-
 {comment: Pre-Chorus}
+Oh, I got a [F#m]hold on you
 Got a [D]hold on you
-Got a [E]hold on you tonight
-[F#m]I  got a hold on you
-Got a [D]hold on you
-[E]Yeah, oh, yeah, oh
+I've got a [E]hold on you tonight
+.| [F#m] . . . |
+
+[F#m]Oh, I got a hold on you
+I got a [D]hold on you
+[E](Got a hold on you)  [E]That's right
 
 
 {start_of_chorus}
@@ -78,17 +83,21 @@ Ma[A]gic [D]pulls me through[E]
 
 
 {comment: Bridge}
-I got a [F#m]hold on you[E]
+I got a [F#m]hold on you [E]
 
 
 {comment: Solo}
-[A]A [D]D [E]E [A]A [D]D[E]
-[E] I've got [F#m]a hold on you
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
+
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
+| [A] . [Dsus2] . | [E] . [Esus] [E] |
 
 
 {comment: Pre-Chorus}
+I've got [F#m]a hold on you
 I got a [D]hold on you
-[E]That's right, it's magic
+[E](Got a hold on you)  [E]That's right it's magic
 
 
 {start_of_chorus}
@@ -108,5 +117,5 @@ That's true[E]
 When I'm with you[A] Uh oh,[D]
 it's ma[E]gic
 [A] Your magic [D]pulls me through[E]
-Oh, it's ma[A]gic Uh oh,[D]
-it's magic
+Oh, it's ma[F#m]gic [E]
+[A]
