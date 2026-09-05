@@ -40,3 +40,6 @@ songsListing.txt
 setlist.csv
 deploy-rc500-*.sh
 
+### Local scratch output (setlist staging, etc.) - never synced to git ###
+work/
+

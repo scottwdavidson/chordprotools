@@ -232,8 +232,8 @@ One row in `gigs.csv`. Fields: `gig` (slug), `songId` (SongId), `set` (position 
 | `./tidy-gigs` | strip \r from gigs.csv (required after Google Sheets/Excel save) |
 | `./fix-directive` | bulk replace `{c:` with `{comment:` in all .cho files |
 | `./fix-directive-dry-run` | preview of above |
-| `./copyChoSetlist` | copy all .cho to ~/tmp/setlist-ff/ (recreates dir) |
-| `./copyAllSetlist` | copy all .cho + .pdf to ~/tmp/setlist-ff/ (adds to existing) |
+| `./copyChoSetlist` | copy all .cho to ./work/setlist-ff/ (recreates dir) |
+| `./copyAllSetlist` | copy all .cho + .pdf to ./work/setlist-ff/ (adds to existing) |
 | `./copySetlist` | hand-curated gig setlist copy script (edit per gig) |
 | `./help` | show CLI help |
 | `./assign-backing-track-slots [--gig]` | assign RC-500 slots for the gig → write `gigs.csv` + patch `.cho` files + regenerate `setlist.csv` |

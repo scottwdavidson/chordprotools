@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 
-rm -rf ~/tmp/setlist-pdf
-mkdir ~/tmp/setlist-pdf
+rm -rf ./work/setlist-pdf
+mkdir -p ./work/setlist-pdf
 
-cp /Users/scott/G-PARA/____PARA/resources/digitalMusic/**/*.pdf(.) ~/tmp/setlist-pdf/
+cp /Users/scott/G-PARA/____PARA/resources/digitalMusic/**/*.pdf(.) ./work/setlist-pdf/
 
 

@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
-for file in **/*.cho(.); do cp "$file" ~/tmp/setlist-ff/; done
+# \cp bypasses any `cp -i` alias, -f forces overwrite w/o prompting,
+# and </dev/null guarantees we never silently block waiting on stdin.
+mkdir -p ./work/setlist-ff
+for file in **/*.cho(.); do \cp -f "$file" ./work/setlist-ff/ < /dev/null; done
 
-for file in **/*.pdf(.); do cp "$file" ~/tmp/setlist-ff/; done
+for file in **/*.pdf(.); do \cp -f "$file" ./work/setlist-ff/ < /dev/null; done

@@ -1180,7 +1180,9 @@ Lints `.cho` files for shorthand directives (e.g. `{soc}` → `{start_of_chorus}
 ### `copyChoSetlist` / `copyAllSetlist` / `copyPdfSetlist` / `copySetlist`
 
 Stage song files for import into OnSong or another reader app by copying
-them into `~/tmp/setlist-ff/`.
+them into `./work/setlist-ff/` (project-local, gitignored — kept out of
+`~/tmp` since a repo checkout under iCloud/OneDrive-synced folders can
+stall on cloud placeholder files during the copy).
 
 | Script | What it copies |
 |---|---|

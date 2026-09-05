@@ -146,7 +146,7 @@ crash.
 ## 8. Relationship to existing staging scripts
 
 `copyChoSetlist` / `copyAllSetlist` / `copyPdfSetlist` / `copySetlist`
-currently do a flat, gig-unaware copy into `~/tmp/setlist-ff/`. `stage-songs`
+currently do a flat, gig-unaware copy into `./work/setlist-ff/`. `stage-songs`
 is a **separate, additive** command — not a replacement in this pass. Once
 it exists and is trusted, consolidating those scripts into it is a fair
 follow-up, but that's a separate migration and explicitly out of scope here.
