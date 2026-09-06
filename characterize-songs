@@ -1,0 +1,10 @@
+#!/bin/zsh
+# Bulk-apply a ratings file onto song-catalog.csv's energy/vocal/genre/
+# sing-along fields. Never overwrites an already-set field.
+#
+# Usage:
+#   ./characterize-songs song-ratings.csv              # report only (dry-run)
+#   ./characterize-songs song-ratings.csv --fix         # apply and write the catalog
+#   ./characterize-songs song-ratings.csv --verbose     # list every still-unrated song
+
+"${0:a:h}/cpt" characterize-songs "$@"

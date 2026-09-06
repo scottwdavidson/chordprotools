@@ -1,0 +1,477 @@
+song group key,title,artist,energy level,vocal intensity,genre primary,genre secondary,sing along
+ABC:A:ARS:DoItOrDie,Do It Or Die,ARS,6,FULL,Rock,,false
+ABC:A:ARS:SoIntoYou,So Into You,ARS,4,FULL,Soft Rock,,false
+ABC:A:ARS:Spooky,Spooky,ARS,6,FULL,Rock,,false
+ABC:A:Abba:DancingQueenAltered,Dancing Queen (Altered),Abba,9,FULL,Disco,Pop,true
+ABC:A:Abba:DoesYourMotherKnow,Does Your Mother Know,Abba,8,FULL,Pop Rock,,false
+ABC:A:Ace:HowLong,How Long,Ace,4,FULL,Soft Rock,,false
+ABC:A:Aha:TakeOnMe,Take On Me,Aha,9,FULL,Synth Pop,New Wave,true
+ABC:A:AlGreen:LetsStayTogether,Let's Stay Together,Al Green,5,FULL,Soul,,false
+ABC:A:AlStewart:TimePassages,Time Passages,Al Stewart,4,FULL,Soft Rock,,false
+ABC:A:AlStewart:YearOfTheCat,Year of the Cat,Al Stewart,4,FULL,Soft Rock,,false
+ABC:A:Alabama:DancinShagginOnTheBoulevard,"Dancin', Shaggin' on the Boulevard",Alabama,7,FULL,Country,,false
+ABC:A:AlanJackson:RememberWhen,Remember When,Alan Jackson,2,FULL,Country,,false
+ABC:A:AlanJackson:RememberWhenLinda,Remember When (Linda's Version),"Alan Jackson, Scott Davidson",2,FULL,Country,,false
+ABC:A:AlanODay:UndercoverAngel,Undercover Angel,Alan O'Day,7,FULL,Pop,Disco,false
+ABC:A:AlanParsonsProject:DontAnswerMe,Don't Answer Me,Alan Parsons Project,6,FULL,Rock,,false
+ABC:A:AlanParsonsProject:EyeInTheSky,Eye In The Sky,Alan Parsons Project,5,FULL,Rock,,false
+ABC:A:AlbertHammond:ItNeverRains,It Never Rains in Southern California,Albert Hammond,4,FULL,Soft Rock,,false
+ABC:A:AliciaKeys:IfIAintGotYou,If I Ain't Got You,Alicia Keys,3,FULL,R&B,Soul,false
+ABC:A:AllmanBrothers:OneWayOut,One Way Out,The Allman Brothers Band,8,FULL,Southern Rock,Blues Rock,false
+ABC:A:AllmanBrothers:Southbound,Southbound,Allman Brothers,7,FULL,Southern Rock,,false
+ABC:A:America:AHorseWithNoName,A Horse With No Name,America,3,FULL,Folk Rock,,false
+ABC:A:America:LonelyPeople,Lonely People,America,3,FULL,Soft Rock,,false
+ABC:A:America:TodaysTheDay,Today's The Day,America,2,FULL,Soft Rock,,false
+ABC:A:America:VenturaHighway,Ventura Highway,America,4,FULL,Folk Rock,,false
+ABC:A:America:YouCanDoMagic,You Can Do Magic,America,5,FULL,Soft Rock,Pop,false
+ABC:A:AmosLee:SweetPea,Sweet Pea,Amos Lee,3,FULL,Folk,Singer-Songwriter,false
+ABC:A:AmyWinehouse:Valerie,Valerie,Ami Winehouse,7,FULL,Soul,Pop,true
+ABC:A:AnneMurray:ShadowsInTheMoonlight,Shadows In The Moonlight,Anne Murray,5,FULL,Country,,false
+ABC:A:ArethaFranklin:BabyILoveYou,Babay I Love You,Aretha Franklin,6,FULL,Soul,,false
+ABC:A:ArloGuthrie:CityOfNewOrleans,City of New Orleans,Arlo Guthrie,3,FULL,Folk,,false
+ABC:A:AvrilLavigne:Complicated,Complicated,Avril Lavigne,7,FULL,Pop Rock,,true
+ABC:B:BachmanTurnerOverdrive:TakinCareOfBusiness,Takin' Care of Business,Bachman Turner Overdrive (BTO),8,FULL,Rock,,true
+ABC:B:BadEnglish:WhenISeeYouSmile,When I See You Smile,Bad English,3,FULL,Rock,Ballad,false
+ABC:B:Band:Evangeline,Evangeline,The Band,5,FULL,Roots Rock,Country Rock,false
+ABC:B:Bangles:EternalFlame,Eternal Flame,The Bangles,3,FULL,Pop,,false
+ABC:B:BarrettStrong:Money,Money (That's What I Want),Barrett Strong,7,FULL,Motown,R&B,true
+ABC:B:BayCityRollers:YouMadeMeBelieveInMagic,You Made Me Believe In Magic,Bay City Rollers,6,FULL,Pop,,false
+ABC:B:BeachBoys:BeTrueToYourSchool,Be True to Your School,The Beach Boys,7,FULL,Pop,Surf Rock,false
+ABC:B:BeachBoys:DoItAgain,Do It Again,Beach Boys,7,FULL,Pop,Surf Rock,false
+ABC:B:BeachBoys:Forever,Forever,Dennis Wilson / Beach Boys,2,FULL,Pop,Ballad,false
+ABC:B:BeachBoys:FunFunFun,"Fun, Fun, Fun",Beach Boys,8,FULL,Surf Rock,,true
+ABC:B:Beatles:GoldenSlumbers-CarryThatWeight,Golden Slumbers / Carry That Weight,Beatles,5,FULL,Rock,Pop,false
+ABC:B:Beatles:HereComesTheSun,Here Comes The Sun,The Beatles,5,FULL,Pop Rock,,true
+ABC:B:Beatles:HereComesTheSun-c-jeff,Here Comes The Sun,The Beatles,5,FULL,Pop Rock,,true
+ABC:B:Beatles:PleaseMrPostman,Please Mr. Postman,The Beatles,7,FULL,Pop,Motown,false
+ABC:B:Beatles:RealLove,Real Love,The Beatles,4,FULL,Pop,,false
+ABC:B:Beatles:TwistAndShout,Twist & Shout,Beatles,9,FULL,Rock and Roll,,true
+ABC:B:Beatles:YouWontSeeMe,You Wont See Me,The Beatles,5,FULL,Pop Rock,,false
+ABC:B:BeeGees:FannyBeTenderWithMyLove,Fanny Be Tender With My Love,Bee Gees,3,FULL,Pop,Ballad,false
+ABC:B:BeeGees:HowDeepIsYourLove,How Deep Is Your Love,Bee Gees,3,FULL,Pop,Disco,true
+ABC:B:BeeGees:RunToMe,Run To Me,Bee Gees,3,FULL,Pop,Ballad,false
+ABC:B:BellamyBrothers:IfISaidYouHaveABeautifulBody,If I Said You Have A Beautiful Body,Bellamy Brothers,6,FULL,Country,,true
+ABC:B:BillWithers:AintNoSunshine,Ain't No Sunshine,Bill Withers,3,FULL,Soul,R&B,true
+ABC:B:BillWithers:LovelyDay,Lovely Day,Bill Withers,5,FULL,Soul,,false
+ABC:B:BillyCurrington:LetMeDownEasy,Let Me Down Easy,Billy Currington,3,FULL,Country,,false
+ABC:B:BillyJoel:AllForLeyna,All For Leyna,Billy Joel,6,FULL,Rock,,false
+ABC:B:BillyJoel:DontAskMeWhy,Don't Ask Me Why,Billy Joel,5,FULL,Pop Rock,,false
+ABC:B:BillyJoel:MovinOut,Movin' Out,Billy Joel,7,FULL,Rock,,false
+ABC:B:BillyJoel:MyLife,My Life,Billy Joel,7,FULL,Rock,,true
+ABC:B:BillyJoel:PianoMan,Piano Man,Billy Joel,4,FULL,Rock,Pop,true
+ABC:B:BillyJoel:PianoMan-old,Piano Man,Billy Joel,4,FULL,Rock,Pop,true
+ABC:B:BillyJoel:SummerHighlandFalls,Summer Highland Falls,Billy Joel,3,FULL,Pop,Ballad,false
+ABC:B:BillyJoel:TheStranger,The Stranger,Billy Joel,5,FULL,Rock,Pop,false
+ABC:B:BillyJoel:Vienna,Vienna,Billy Joel,3,FULL,Pop,Ballad,false
+ABC:B:BillyJoel:YouMayBeRight,You May Be Right,Billy Joel,7,FULL,Rock,,true
+ABC:B:BillyJoel:YoureMyHome,You're My Home,Billy Joel,3,FULL,Pop,Country,false
+ABC:B:BlackCrowes:Remedy,Remedy,The Black Crowes,7,FULL,Blues Rock,,false
+ABC:B:BlakeShelton:Footloose,Footloose,Blake Shelton,8,FULL,Country,,true
+ABC:B:Blasters:MarieMarie,Marie Marie,The Blasters,7,FULL,Rockabilly,,false
+ABC:B:BluesBrothers:HeyBartender,Hey Bartender,Blues Brothers,6,FULL,Blues,,false
+ABC:B:BobDylan:IShallBeReleased,I Shall Be Released,Bob Dylan,3,FULL,Folk,,false
+ABC:B:BobDylan:LikeARollingStone,Like A Rolling Stone,Bob Dylan,6,FULL,Folk Rock,,true
+ABC:B:BobDylan:MakeYouFeelMyLove,Make You Feel My Love,Bob Dylan,2,FULL,Ballad,,false
+ABC:B:BobSeger:AgainstTheWind,Against the Wind,Bob Seger,4,FULL,Rock,,false
+ABC:B:BobSeger:HollywoodNights,Hollywood Nights,Bob Seger,7,FULL,Rock,,false
+ABC:B:BobSeger:StillTheSame,Still the Same,Bob Seger,5,FULL,Rock,,false
+ABC:B:BobSeger:TurnThePage,Turn The Page,Bob Seger,4,FULL,Rock,,false
+ABC:B:BobWelch:EbonyEyes,Ebony Eyes,Bob Welch,6,FULL,Pop Rock,,false
+ABC:B:BobWelch:PreciousLove,Precious Love,Bob Welch,5,FULL,Rock,,false
+ABC:B:BobWelch:SentimentalLady,Sentimental Lady,Bob Welch,3,FULL,Soft Rock,,false
+ABC:B:BonnieRaitt:LoveSneakinUpOnYou,Love Sneakin' Up On You,Bonnie Raitt,6,FULL,Blues Rock,,false
+ABC:B:Bread:Aubry,Aubrey,Bread,2,FULL,Soft Rock,Ballad,false
+ABC:B:BrianWilson:LoveAndMercy,Love and Mercy,Brian Wilson,2,FULL,Pop,Ballad,false
+ABC:B:BruceSpringsteen:CoverMe,Cover Me,Bruce Springsteen,8,FULL,Rock,,false
+ABC:B:BruceSpringsteen:HugryHeart,Hungry Heart,Bruce Springsteen,7,FULL,Rock,,true
+ABC:B:BrunoMars:Apt,Apt,Rose & Bruno Mars,8,FULL,Pop,,true
+ABC:B:BrunoMars:DieWithASmile,Die With A Smile,"Bruno Mars, Lady Gaga",4,FULL,Pop,Ballad,false
+ABC:B:BrunoMars:NothinOnYou,Nothin On You,Bruno Mars & B.o.B,7,FULL,Pop,R&B,true
+ABC:C:CCR:HaveYouEverSeenTheRain,Have You Ever Seen The Rain,Creedence Clearwater Revival,5,FULL,Rock,,true
+ABC:C:CSNY:JustASongBeforeIGo,Just A Song Before I Go,"Crosby, Stills, Nash and Young",3,FULL,Folk Rock,,false
+ABC:C:CageTheElephant:CigaretteDaydreams,Cigarette Daydreams,Cage The Elephant,5,FULL,Alternative,,false
+ABC:C:CaliforniaHoneydrops:InTheAir,In The Air,The California Honeydrops,6,FULL,Soul,Funk,false
+ABC:C:CamilaCabello:Havana,Havana,Camila Cabello,7,FULL,Latin Pop,,true
+ABC:C:CarlySimon:ComeAroundAgain,Come Around Again,Carly Simon,4,FULL,Pop,,false
+ABC:C:CaroleKing:Chains,Chains,Carole King,6,FULL,Pop Rock,,false
+ABC:C:CaroleKing:IFeelTheEarthMove,I Feel The Earth Move,Carole King,7,FULL,Pop Rock,,false
+ABC:C:CaroleKing:WillYouLoveMeTomorrow,Will You Love Me Tomorrow,Carole King,2,FULL,Pop,Ballad,false
+ABC:C:Carpenters:IWontLastADayWithoutYou,I Won't Last A Day Without You,Carpenters,2,FULL,Soft Pop,,false
+ABC:C:Carpenters:TheresAKindOfHush,There's A Kind Of Hush,Carpenters,4,FULL,Soft Pop,,false
+ABC:C:CarrieUnderwood:BeforeHeCheats,Before He Cheats,Carrie Underwood,8,FULL,Country Rock,,true
+ABC:C:Cars:Drive,Drive,The Cars,3,FULL,New Wave,,false
+ABC:C:Cars:Magic,Magic,The Cars,7,FULL,New Wave,Pop Rock,false
+ABC:C:Cars:MyBestFriendsGirl,My Best Friend's Girl,The Cars,7,FULL,New Wave,Pop Rock,false
+ABC:C:Cars:YouMightThink,You Might Think,The Cars,7,FULL,New Wave,,false
+ABC:C:CatStevens:WildWorld,Wild World,Cat Stevens,4,FULL,Folk,,false
+ABC:C:ChakaKhan:AintNobody,Ain't Nobody,Chaka Khan / Rufus,7,FULL,Funk,Soul,true
+ABC:C:ChakaKhan:AintNobody-Guitar,Ain't Nobody - Guitar,Chaka Khan / Rufus,7,NONE,Funk,Soul,false
+ABC:C:ChappellRoan:PinkPonyClub,Pink Pony Club,Chappell Roan,8,FULL,Pop,,true
+ABC:C:CheapTrick:IWantYouToWantMe,I Want You To Want Me,Cheap Trick,7,FULL,Power Pop,,true
+ABC:C:ChrisRea:FoolIfYouThinkItsOver,Fool If You Think It's Over,Chris Rea,4,FULL,Soft Rock,,false
+ABC:C:ChrisStapleton:StartingOver,Starting Over,Chris Stapleton,4,FULL,Country,,false
+ABC:C:ChristopherCross:RideLikeTheWind,Ride Like The Wind,Christopher Cross,5,FULL,Soft Rock,Yacht Rock,false
+ABC:C:ChristopherCross:Sailing,Sailing,Christopher Cross,1,FULL,Soft Rock,Yacht Rock,false
+ABC:C:ClintBlack:ABetterMan,A Better Man,Clint Black,4,FULL,Country,,false
+ABC:C:ColdPlay:FixYou,Fix You,Cold Play,4,FULL,Alternative,Pop Rock,true
+ABC:C:ColdPlay:SpeedOfSound,Speed Of Sound,Coldplay,6,FULL,Alternative,,false
+ABC:C:Commodores:Easy,Easy,Commodores,2,FULL,Soul,Ballad,false
+ABC:C:Commodores:SailOn,Sail On,Commodores,3,FULL,Soul,Soft Rock,false
+ABC:C:ConnieFrancis:PrettyLittleBaby,Pretty Little Baby,Connie Francis,5,FULL,Pop,Oldies,false
+ABC:C:ConnieFrancis:WhosSorryNow,Who's Sorry Now,Connie Francis,4,FULL,Pop,Oldies,false
+ABC:C:CorrineBailyRae:PutYourRecordsOn,Put Your Records On,Corrine Bailey Rae,5,FULL,Soul,Pop,false
+ABC:C:CountingCrows:AccidentallyInLove,Accidentally In Love,Counting Crows,7,FULL,Pop Rock,,true
+ABC:C:CrowdedHouse:DontDreamItsOver,Don't Dream It's Over,Crowded House,4,FULL,Rock,,true
+ABC:C:Cure:FridayImInLove,Friday I'm In Love,The Cure,7,FULL,Alternative,New Wave,true
+ABC:C:Cure:JustLikeHeaven,Just Like Heaven,The Cure,7,FULL,Alternative,New Wave,false
+ABC:C:CuttingCrew:DiedInYourArms,( I Just ) Died In Your Arms,Cutting Crew,6,FULL,Rock,,false
+DEF:D:DanielBoone:BeautifulSunday,Beautiful Sunday,Daniel Boone,6,FULL,Pop,,false
+DEF:D:DariusRucker:HoldMyHand,Hold My Hand,Hootie (Darius Rucker) and the Blowfish,7,FULL,Pop Rock,,true
+DEF:D:DariusRucker:WagonWheel,Wagon Wheel,Darius Rucker,7,FULL,Country,Folk,true
+DEF:D:DavidLeeMurphy:PartyCrowd,Party Crowd,David Lee Murphy,7,FULL,Country,,false
+DEF:D:DelbertMcClinton:LeapOfFaith,Leap Of Faith,Delbert McClinton,5,FULL,Blues Rock,,false
+DEF:D:DepecheMode:EnjoyTheSilence,Enjoy the Silence,Depeche Mode,5,FULL,Synth Pop,New Wave,false
+DEF:D:DiamondRio:OneMoreDay,One More Day,Diamond Rio,3,FULL,Country,,false
+DEF:D:DioneWarwick:HeartBreaker,Heartbreaker,Dionne Warwick / Bee Gees,7,FULL,Pop,Disco,false
+DEF:D:DioneWarwick:ThenCameYou,Then Came You,Dionne Warwick,6,FULL,Soul,Pop,false
+DEF:D:DixieChicks:LetErRip,Let 'Er Rip,Dixie Chicks,7,FULL,Country,,false
+DEF:D:DixieChicks:SomeDaysYouGottaDance,Some Days You Gotta Dance,Dixie Chicks,7,FULL,Country,,false
+DEF:D:DixieChicks:WideOpenSpaces,Wide Open Spaces,Dixie Chicks,6,FULL,Country,,true
+DEF:D:DonHenley:TheEndOfTheInnocence,The End Of The Innocence,Don Henley,4,FULL,Rock,,false
+DEF:D:DonMcLean:Vincent,Vincent,Don McLean,2,FULL,Folk,Ballad,false
+DEF:D:DonnaSummer:HotStuff,Hot Stuff,Donna Summer,9,FULL,Disco,,true
+DEF:D:DoobieBros:LongTrainRunning,Long Train Runnin',Doobie Brothers,8,FULL,Rock,,false
+DEF:D:DoobieBros:LongTrainRunning-MVP,Long Train Runnin’,Doobie Brothers,8,FULL,Rock,,false
+DEF:D:DoobieBros:TakinItToTheStreets,Takin' It To The Streets,Doobie Brothers,7,FULL,Rock,Soul,false
+DEF:D:DrHook:SharingTheNightTogether,Sharing The Night Together,Dr. Hook,5,FULL,Soft Rock,,false
+DEF:D:DuaLipa:Levitating,Levitating,Dua Lipa,9,FULL,Pop,Disco,true
+DEF:D:DuaLipa:LoveAgain,Love Again,Dua Lipa,8,FULL,Pop,,false
+DEF:D:DuranDuran:OrdinaryWorld,Ordinary World,Duran Duran,4,FULL,New Wave,Pop Rock,false
+DEF:D:DwightYokam:AintThatLonelyYet,Ain't That Lonely Yet,Dwight Yoakam,6,FULL,Country,,false
+DEF:D:DwightYokam:FastAsYou,Fast As You,Dwight Yoakam,7,FULL,Country Rock,,false
+DEF:D:DwightYokam:LittleSister,Little Sister,Dwight Yoakam,7,FULL,Country Rock,,false
+DEF:E:Eagles:ICantTellYouWhy,I Can't Tell You Why,Eagles,3,FULL,Soft Rock,,false
+DEF:E:Eagles:LoveWillKeepUsAlive,Love Will Keep Us Alive,Eagles,3,FULL,Soft Rock,Ballad,false
+DEF:E:Eagles:LyinEyes,Lyin' Eyes,Eagles,4,FULL,Country Rock,,false
+DEF:E:EddieHolman:HeyThereLonelyGirl,Hey There Lonely Girl,Eddie Holman,3,FULL,Soul,Ballad,false
+DEF:E:EddieMoney:ThinkImInLove,Think I'm In Love,Eddie Money,6,FULL,Rock,,false
+DEF:E:EdwardBear:LastSong,Last Song,Edward Bear,3,FULL,Soft Rock,Ballad,false
+DEF:E:EltonJohn:CrocodileRock,Crocodile Rock,Elton John,8,FULL,Rock,,true
+DEF:E:EltonJohn:Daniel,Daniel,Elton John,3,FULL,Pop,Ballad,false
+DEF:E:EltonJohn:RocketMan,Rocket Man,Elton John,4,FULL,Pop,,true
+DEF:E:EltonJohn:TinyDancer,Tiny Dancer,Elton John,4,FULL,Pop,,true
+DEF:E:Elvis:BurningLove,Burning Love,Elvis,7,FULL,Rock and Roll,,false
+DEF:E:EnglandDanJohnFordColey:IdReallyLoveToSeeYouTonight,I'd Really Love To See You Tonight,England Dan / John Ford Coley,3,FULL,Soft Rock,Ballad,false
+DEF:E:EricClapton:ChangeTheWorld,Change The World,Eric Clapton,3,FULL,Pop,Ballad,false
+DEF:E:EricClapton:Cocaine,Cocaine,Eric Clapton,6,FULL,Rock,Blues Rock,false
+DEF:E:EricClapton:IShotTheSheriff,I Shot the Sheriff,Eric Clapton,6,FULL,Reggae,,false
+DEF:E:EricClapton:Layla,Layla,Eric Clapton,7,FULL,Rock,Blues Rock,true
+DEF:E:EricClapton:NobodyKnowsYou,Nobody Knows You When You're Down And Out,Eric Clapton,3,FULL,Blues,,false
+DEF:E:EricClapton:OverTheRainbow,Over the Rainbow,Eric Clapton,2,FULL,Ballad,,false
+DEF:E:EricClapton:SanFranciscoBayBlues,San Francisco Bay Blues,Eric Clapton,5,FULL,Blues,Folk,false
+DEF:E:EttaJames:DownhomeBlues,Downhome Blues,Etta James,5,FULL,Blues,,false
+DEF:F:Firefall:YouAreTheWoman,You Are The Woman,Firefall,4,FULL,Soft Rock,,false
+DEF:F:FleetwoodMac:DontStop,Don't Stop,Fleetwood Mac,7,FULL,Rock,Pop Rock,true
+DEF:F:FleetwoodMac:GoYourOwnWay,Go Your Own Way,Fleetwood Mac,7,FULL,Rock,,true
+DEF:F:FleetwoodMac:Landslide,Landslide,Fleetwood Mac,2,FULL,Folk Rock,Ballad,true
+DEF:F:FleetwoodMac:Landslide-lyrics,Landslide,Fleetwood Mac,2,FULL,Folk Rock,Ballad,true
+DEF:F:FleetwoodMac:SayThatYouLoveMe,Say That You Love Me,Fleetwood Mac,5,FULL,Rock,,false
+DEF:F:FourNonBlondes:WhatsUp,What's Up,4 Non Blondes,6,FULL,Alternative,Pop Rock,true
+GHI:G:GarthBrooks:MuchTooYoungToFeel,Much Too Young To Feel This Damnn Old,Garth Brooks,5,FULL,Country,,false
+GHI:G:GeneCotton:BeforeMyHeartFindsOut,Before My Heart Finds Out,Gene Cotton,4,FULL,Soft Rock,,false
+GHI:G:Genesis:InTooDeep,In Too Deep,Genesis,3,FULL,Pop,Ballad,false
+GHI:G:Genesis:ThatsAll,That's All,Genesis,5,FULL,Pop Rock,,false
+GHI:G:GeorgeHarrison:MySweetLord,My Sweet Lord,George Harrison,5,FULL,Rock,,true
+GHI:G:GeorgeHarrison:Something,Something,George Harrison,3,FULL,Pop,Ballad,false
+GHI:G:GeorgeHarrison:WhileMyGuitarGentlyWeeps,While My Guitar Gently Weeps,George Harrison,5,FULL,Rock,,false
+GHI:G:GeorgeMichael:CarelessWhisper,Careless Whisper,George Michael,4,FULL,Pop,R&B,true
+GHI:G:GeorgeMichael:Faith,Faith,George Michael,7,FULL,Pop,,true
+GHI:G:GeorgeStrait:AsFarAsItGoes,As Far As It Goes,George Strait,4,FULL,Country,,false
+GHI:G:GilbertOSullivan:GetDown,Get Down,Gilbert O'Sullivan,6,FULL,Pop,,false
+GHI:G:GinBlossoms:TilIHearItFromYou,Til I Hear It From You,Gin Blossoms,6,FULL,Alternative,Pop Rock,false
+GHI:G:GlennFrey:TheOneYouLove,The One You Love,Glenn Frey,3,FULL,Soft Rock,Ballad,false
+GHI:G:GloriaGaynor:IWillSurvive,I Will Survive,Gloria Gaynor,8,FULL,Disco,,true
+GHI:G:GordonLightfoot:CarefreeHighway,Carefree Highway,Gordon Lightfoot,4,FULL,Folk,,false
+GHI:G:GratefulDead:FriendOfTheDevil,Friend of the Devil,Grateful Dead,4,FULL,Folk Rock,,false
+GHI:G:GreenDay:GoodRiddance,Good Riddance (Time of Your Life),Green Day,3,FULL,Alternative,Punk,true
+GHI:G:GregKihn:BreakupSong,Breakup Song,Greg Kihn,7,FULL,Rock,,false
+GHI:G:GuessWho:Undun,Undun,Guess Who,5,FULL,Rock,,false
+GHI:H:HalKetchum:HeartsAreGonnaRoll,Hearts Are Gonna Roll,Hal Ketchum,6,FULL,Country,,false
+GHI:H:HalKetchum:PastThePointOfRescue,Past The Point Of Rescue,Hal Ketchum,3,FULL,Country,,false
+GHI:H:HalKetchum:SmallTownSaturdayNight,Small Town Saturday Night,Hal Ketchum,6,FULL,Country,,false
+GHI:H:HalKetchum:SofterThanAWhisper,Softer Than a Whisper,Hal Ketchum,3,FULL,Country,,false
+GHI:H:HallAndOates:EverythingYourHeartDesires,Everything Your Heart Desires,Hall & Oates,5,FULL,Pop Rock,,false
+GHI:H:HallAndOates:ICantGoForThat,I Can't Go For That,Hall & Oates,6,FULL,Pop,R&B,false
+GHI:H:HallAndOates:RichGirl,Rich Girl,Hall & Oates,6,FULL,Pop,,false
+GHI:H:HankWilliamsJr:AllMyRowdyFriends,All My Rowdy Friends Are Coming Over Tonight,Hank Williams Jr.,7,FULL,Country,,true
+GHI:H:Heart:TellItLikeItIs,Tell It Like It Is,Heart,5,FULL,Rock,,false
+GHI:H:Heatwave:AlwaysAndForever,Always and Forever,Heatwave,3,FULL,Soul,Ballad,false
+GHI:H:HenryGross:Shannon,Shannon,Henry Gross,2,FULL,Pop,Ballad,false
+GHI:H:Hollies:TheAirThatIBreathe,The Air That I Breathe,The Hollies,3,FULL,Pop,Ballad,false
+GHI:H:Hooters:AndWeDanced,And We Danced,The Hooters,7,FULL,Rock,,false
+GHI:H:HueyLewis:DoYouBelieveInLove,Do You Believe In Love,Huey Lewis and the News,7,FULL,Rock,Pop,false
+GHI:H:HumanLeague:DontYouWantMe,Don't You Want Me,The Human League,7,FULL,Synth Pop,New Wave,true
+GHI:I:INXS:NeedYouTonight,Need You Tonight,INXS,7,FULL,Rock,,true
+JKL:J:JJCale:CallMeTheBreeze,Call Me The Breeze,J.J. Cale,5,FULL,Blues Rock,,false
+JKL:J:JJCale:SensitiveKind,Sensitive Kind,JJ Cale,4,FULL,Blues Rock,,false
+JKL:J:JacksonBrowne:RunningOnEmpty,Running On Empty,Jackson Brown,6,FULL,Rock,,false
+JKL:J:JacksonBrowne:Stay,Stay,Jackson Browne,5,FULL,Rock,,false
+JKL:J:JamesBrown:GetUp,Get Up,James Brown,7,FULL,Funk,,true
+JKL:J:JasonMraz:ImYours,I'm Yours,Jason Mraz,5,FULL,Pop,Reggae,true
+JKL:J:Jewel:WhoWillSaveMySoul,Who Will Save My Soul,Jewel,3,FULL,Folk,Singer-Songwriter,false
+JKL:J:JimCroce:BadBadLeroyBrown,Bad Bad Leroy Brown,Jim Croce,6,FULL,Folk Rock,,true
+JKL:J:JimCroce:YouDontMessAroundWithJim,You Don't Mess Around With Jim,Jim Croce,5,FULL,Folk Rock,,false
+JKL:J:JoDeeMessina:ByeBye,Bye Bye,Jo Dee Messina,7,FULL,Country,,false
+JKL:J:JoeCocker:FeelinAlright,Feelin' Alright,Joe Cocker,6,FULL,Rock,Soul,false
+JKL:J:JoeCocker:TheLetter,The Letter,Joe Cocker,6,FULL,Rock,Soul,false
+JKL:J:JoeCocker:UnchainMyHeart,Unchain My Heart,Joe Cocker,7,FULL,Rock,Soul,true
+JKL:J:JoeCocker:UnchainMyHeartExtended,Unchain My Heart (Extended),Joe Cocker,7,FULL,Rock,Soul,true
+JKL:J:JoeJackson:SteppinOut,Steppin' Out,Joe Jackson,6,FULL,Pop Rock,,false
+JKL:J:JohnHiatt:MemphisInTheMeantime,Memphis in the Meantime,John Hiatt,6,FULL,Rock,Blues Rock,false
+JKL:J:JohnLennon:BeautifulBoy,Beautiful Boy,John Lennon,2,FULL,Pop,Ballad,false
+JKL:J:JohnLennon:JealousGuy,Jealous Guy,John Lennon,3,FULL,Pop,Ballad,false
+JKL:J:JohnLennon:OhMyLove,Oh My Love,John Lennon,2,FULL,Pop,Ballad,false
+JKL:J:JohnLennon:WatchingTheWheels,Watching The Wheels,John Lennon,3,FULL,Pop,,false
+JKL:J:JohnLennon:Woman,Woman,John Lennon,3,FULL,Pop,Ballad,false
+JKL:J:JohnMayer:ImGonnaFindAnotherYou,I’m Gonna Find Another You,John Mayer,5,FULL,Pop Rock,Blues Rock,false
+JKL:J:JohnMellencamp:AintEvenDoneWithTheNight,Ain't Even Done With The Night,John Mellencamp,7,FULL,Rock,,false
+JKL:J:JohnMellencamp:CherryBomb,Cherry Bomb,John Mellencamp,6,FULL,Rock,,false
+JKL:J:JohnMellencamp:JackandDiane,Jack and Diane,John Mellencamp,6,FULL,Rock,,true
+JKL:J:JohnMellencamp:ROCKInTheUSA,R.O.C.K. In The U.S.A,John Mellencamp,8,FULL,Rock,,true
+JKL:J:JohnTravolta:LetHerIn,Let Her In,John Travolta,4,FULL,Pop,,false
+JKL:J:JohnnyLee:LookingForLove,Looking for Love,Johnny Lee,6,FULL,Country,,false
+JKL:J:JonPardi:DirtOnMyBoots,Dirt On My Boots,Jon Pardi,7,FULL,Country,,false
+JKL:J:JonPardi:HeyCalifornia,Hey California,Jon Pardi,6,FULL,Country,,false
+JKL:J:JordanDavis:TusconTooLate,Tuscon Too Late,Jordan Davis,4,FULL,Country,,false
+JKL:J:JoshTurner:Jacksonville,Jacksonville,Josh Turner,4,FULL,Country,,false
+JKL:J:JudyGarland:OverTheRainbow,Over the Rainbow,Judy Garland,2,FULL,Ballad,,false
+JKL:K:KCSunshineBand:ShakeYourBooty,Shake Your Booty,KC & the Sunshine Band,9,FULL,Disco,,true
+JKL:K:KTTunsall:BlackHorseAndTheCherryTree,Black Horse and the Cherry Tree,KT Tunstall,6,FULL,Folk Rock,,false
+JKL:K:KTTunsall:SuddenlyISee,Suddenly I See,KT Tunstall,7,FULL,Rock,,false
+JKL:K:KaceyMusgraves:GoldenHour,Golden Hour,Kasey Musgraves,3,FULL,Country,,false
+JKL:K:KaceyMusgraves:Rainbow,Rainbow,Kacy Musgraves,2,FULL,Country,Ballad,false
+JKL:K:KaceyMusgraves:SlowBurn,Slow Burn,Kacy Musgraves,3,FULL,Country,,false
+JKL:K:KaneBrown:BuryMeInGeorgia,Bury Me In Georgia,Kane Brown,6,FULL,Country,,false
+JKL:K:KaneBrown:OneMississippi,One Mississippi,Kane Brown,4,FULL,Country,,false
+JKL:K:KeithCarradine:ImEasy,I'm Easy,Keith Carradine,2,FULL,Folk,Ballad,false
+JKL:K:KeithUrban:TheFighter,The Fighter,Keith Urban,7,FULL,Country,,false
+JKL:K:KeithUrban:TonightIWannaCry,Tonight I Wanna Cry,Keith Urban,3,FULL,Country,,false
+JKL:K:KellyClarkson:Breakaway,Breakaway,Kelly Clarkson,7,FULL,Pop Rock,,true
+JKL:K:KellyClarkson:SinceUBeenGone,Since U Been Gone,Kelly Clarkson,8,FULL,Pop Rock,,true
+JKL:K:KennyChesney:EveryoneSheKnows,Everyone She Knows,Kenny Chesney,4,FULL,Country,,false
+JKL:K:KingHarvest:DancinInTheMoonlight,Dancin' In The Moonlight,King Harvest,7,FULL,Pop Rock,,true
+JKL:K:KoolAndTheGang:GetDownOnIt,Get Down On It,Kool and the Gang,7,FULL,Funk,Disco,true
+JKL:L:LaineyWilson:4x4xU,4x4xU,Lainey Wilson,5,FULL,Country,,false
+JKL:L:LaurenDaigle:YouSay,You Say,Lauren Daigle,3,FULL,Pop,Christian,false
+JKL:L:LeblancCarr:Falling,Falling,Leblanc & Carr,3,FULL,Soft Rock,Ballad,false
+JKL:L:LeonBridges:Beyond,Beyond,Leon Bridges ( feat Luke Combs ),3,FULL,Soul,Ballad,false
+JKL:L:LindaRonstadt:BackInTheUSA,Back In The USA,Linda Ronstadt,7,FULL,Rock,,false
+JKL:L:LindaRonstadt:HeatWave,Heat Wave,Linda Ronstadt,7,FULL,Motown,Pop Rock,false
+JKL:L:LindaRonstadt:ItsSoEasy,Its So Easy,Linda Ronstadt,6,FULL,Rock,,false
+JKL:L:LindaRonstadt:LongLongTime,Long Long Time,Linda Ronstadt,3,FULL,Country,Ballad,false
+JKL:L:LionelRichie:DeepRiverWoman,Deep River Woman,Lionel Richie,4,FULL,Country,Soul,false
+JKL:L:Lobo:DontExpectMeToBeYourFriend,Don't Expect Me To Be Your Friend,Lobo,4,FULL,Soft Rock,,false
+JKL:L:Lobo:IdLoveYouToWantMe,I'd Love You To Want Me,Lobo,3,FULL,Soft Rock,Ballad,false
+JKL:L:Lobo:MeAndYouAndADogNamedBoo,Me And You And A Dog Named Boo,Lobo,4,FULL,Folk,Soft Rock,false
+JKL:L:LookingGlass:Brandy,Brandy (You're A Fine Girl),Looking Glass,4,FULL,Pop Rock,,true
+JKL:L:LouAnnBarton:TeNiNeeNi,Te Ni Nee Ni,Lou Ann Barton,6,FULL,Blues,,false
+JKL:L:LouisArmstrong:DreamALittleDream,Dream A Little Dream Of Me,Louis Armstrong,2,FULL,Jazz,Ballad,false
+JKL:L:LouisArmstrong:WhatAWonderfulWorld,What A Wonderful World,Louis Armstrong,2,FULL,Jazz,Ballad,true
+JKL:L:LukeBryan:PlayItAgain,Play It Again,Luke Bryan,6,FULL,Country,,false
+JKL:L:LukeCombs:BeByYou,Be By You,Luke Combs,4,FULL,Country,,false
+JKL:L:LukeCombs:CantTellMeImWrong,Can't Tell Me I'm Wrong,Luke Combs,6,FULL,Country,,false
+JKL:L:Lumineers:JustLikeHeaven,Just Like Heaven,The Cure / Lumineers,5,FULL,Folk Rock,Alternative,false
+JKL:L:LynyrdSkynyrd:SweetHomeAlabama,Sweet Home Alabama,Lynard Skynard,8,FULL,Southern Rock,,true
+JKL:L:LynyrdSkynyrd:WhatsYourName,What's Your Name,Lynyrd Skynyrd,6,FULL,Southern Rock,,false
+MNO:M:MackenzieCarpenter:IWishYouWould,I Wish You Would,Mackenzie Carpenter & Midland,5,FULL,Country,,false
+MNO:M:Madonna:LaIslaBonita,La Isla Bonita,Madonna,7,FULL,Pop,Latin Pop,false
+MNO:M:MamaCass:DreamALittleDreamOfMe,Dream A Little Dream Of Me,Mama Cass,2,FULL,Pop,Jazz,false
+MNO:M:MarcusKing:OneDayShesHere,One Day She’s Here,Marcus King Band,5,FULL,Blues Rock,,false
+MNO:M:MarshallCrenshaw:SomedaySomeway,"Someday, Someway",Marchall Crenshall,6,FULL,Pop Rock,,false
+MNO:M:MarshallTuckerBand:CantYouSee,Can't You See,Marshall Tucker Band,5,FULL,Southern Rock,,true
+MNO:M:MarshallTuckerBand:FireOnTheMoutain,Fire On The Mountain,Marshall Tucker Band,6,FULL,Southern Rock,,false
+MNO:M:MarshallTuckerBand:HeardItInALoveSong,Heard It in a Love Song,Marshall Tucker Band,5,FULL,Southern Rock,,false
+MNO:M:MaryChapinCarpenter:IFeelLucky,I Feel Lucky,Mary Chapin Carpenter,6,FULL,Country,,false
+MNO:M:MayerHawthorne:TheWalk,The Walk,Mayer Hawthorne,6,FULL,Soul,,false
+MNO:M:Midland:CheatinSong,Cheatin' Songs,Midland,6,FULL,Country,,false
+MNO:M:Midland:DrinkingProblem,Drinkin' Problem,Midland,6,FULL,Country,,true
+MNO:M:Midland:FourteenGears,Fourteen Gears,Midland,5,FULL,Country,,false
+MNO:M:Midland:OldFashionedFeeling,Old Fashioned Feeling,Midland,4,FULL,Country,,false
+MNO:M:Midland:RollAway,Roll Away,Midland,5,FULL,Country,,false
+MNO:M:Midland:TakeHerOffYourHands,Take Her Off Your Hands,Midland,5,FULL,Country,,false
+MNO:M:Midland:Vegas,Vegas,Midland,6,FULL,Country,,false
+MNO:M:Mike+TheMechanics:AllINeedIsAMiracle,All I Need Is A Miracle,Mike and the Mechanics,6,FULL,Pop Rock,,false
+MNO:M:MileyCyrus:ButterflyFlyAway,Butterfly Fly Away,Miley Cyrus / Billy Ray Cyrus,3,FULL,Pop,Ballad,false
+MNO:M:MileyCyrus:Flowers,Flowers,Miley Cyrus,6,FULL,Pop,,true
+MNO:M:MitchRyder:DevilWithTheBlueDress,Devil With The Blue Dress,Mitch Ryder and The Detroit Wheels,8,FULL,Rock,,true
+MNO:M:ModernEnglish:IMeltWithYou,I Melt With You,Modern English,7,FULL,New Wave,,true
+MNO:M:MorganWallen:LoveSomebody,Love Somebody,Morgan Wallen,4,FULL,Country,,false
+MNO:M:MorganWallen:ManMadeABar,Man Made A Bar,Morgan Wallen (Eric Church),5,FULL,Country,,false
+MNO:M:MorganWallen:MoreThanMyHometown,More Than My Hometown,Morgan Wallen,5,FULL,Country,,false
+MNO:M:MorganWallen:SandInMyBoots,Sand In My Boots,Morgan Wallen,3,FULL,Country,,false
+MNO:M:MorganWallen:SevenSummers,7 Summers,Morgan Wallen,3,FULL,Country,,false
+MNO:M:MorganWallen:SomebodysProblem,Somebody's Problem,Morgan Wallen,6,FULL,Country,,false
+MNO:M:MuddyWaters:Caldonia,Caldonia,Muddy Waters,6,FULL,Blues,,false
+MNO:N:NancySinatra:TheseBootsWereMadeForWalkin,These Boots Are Made For Walkin',Nancy Sinatra,6,FULL,Pop,,true
+MNO:N:NatKingCole:L_O_V_E,L-O-V-E,Nat King Cole,5,FULL,Jazz,Pop,false
+MNO:N:NatalieImbruglia:Torn,Torn,Natalie Imbruglia,5,FULL,Pop Rock,,true
+MNO:N:NeilDiamond:ForeverInBlueJeans,Forever In Blue Jeans,Neil Diamond,6,FULL,Pop,,false
+MNO:N:NeilDiamond:SweetCaroline,Sweet Caroline,Neil Diamond,7,FULL,Pop,,true
+MNO:N:NeilYoung:HarvestMoon,Harvest Moon,Neil Young,3,FULL,Folk Rock,,false
+MNO:N:NewRadicals:YouGetWhatYouGive,You Get What You Give,New Radicals,7,FULL,Pop Rock,,true
+MNO:N:NiallHoran:PutALittleLoveOnMe,Put A Little Love On Me,Niall Horan,4,FULL,Pop,,false
+MNO:N:NiallHoran:ThisTown,This Town,Niall Horan,3,FULL,Pop,Ballad,false
+MNO:N:NickLowe:CruelToBeKind,Cruel To Be Kind,Nick Lowe,6,FULL,Pop Rock,,false
+MNO:N:NigelOlsson:DancinShoes,Dancin' Shoes,Nigel Olsson,6,FULL,Pop,,false
+MNO:N:NoDoubt:DontSpeak,Don't Speak,No Doubt(Gwen Stephani),5,FULL,Pop Rock,,true
+MNO:N:NorahJones:DontKnowWhy,Don't Know Why,Norah Jones,2,FULL,Jazz,Soft Pop,false
+MNO:O:O_Jays:UseTaBeMyGirl,Use Ta Be My Girl,O'Jays,6,FULL,Soul,Motown,false
+MNO:O:OldCrowMedicineShow:Firewater,Firewater,Old Crow Medicine Show,6,FULL,Country,Folk,false
+MNO:O:OliviaRodrigo:AllIWant,All I Want,Olivia Rodrigo,5,FULL,Pop,,false
+PQR:P:PatGreen:CarryOn,Carry On,Pat Green,5,FULL,Country,,false
+PQR:P:PatGreen:Crazy,Crazy,Pat Green,4,FULL,Country,,false
+PQR:P:PatGreen:Whiskey,Whiskey,Pat Green,5,FULL,Country,,false
+PQR:P:PaulAnka:IDontLikeToSleepAlone,I Don't Like To Sleep Alone,Paul Anka,3,FULL,Pop,Ballad,false
+PQR:P:PaulMcCartney:SillyLoveSongs,Silly Love Songs,Paul McCartney,6,FULL,Pop,,false
+PQR:P:PaulSimon:Kodachrome,Kodachrome,Paul Simon,6,FULL,Pop Rock,,false
+PQR:P:PerfectStranger:YouHaveTheRightToRemainSilent,You Have The Right To Remain Silent,Perfect Stranger,5,FULL,Country,,false
+PQR:P:PetShopBoys:WestEndGirls,West End Girls,Pet Shop Boys,7,FULL,Synth Pop,New Wave,true
+PQR:P:PeteTownsend:LetMyLoveOpenTheDoor,Let My Love Open The Door,Pete Townsend,6,FULL,Rock,,false
+PQR:P:PeterFrampton:BabyILoveYourWay,Baby I Love Your Way,Peter Frampton,3,FULL,Soft Rock,Ballad,false
+PQR:P:PeterFrampton:ImInYou,I'm In You,Peter Frampton,4,FULL,Soft Rock,,false
+PQR:P:PeterFrampton:ShowMeTheWay,Show Me The Way,Peter Frampton,6,FULL,Rock,,false
+PQR:P:PhilCollins:DoYouRemember,Do You Remember ?,Phil Collins,3,FULL,Pop,Ballad,false
+PQR:P:PostMalone:IHadSomeHelp,I Had Some Help,Post Malone ( w/ Morgan Wallen),6,FULL,Country,Pop,false
+PQR:P:Prince:PurpleRain,Purple Rain,Prince,5,FULL,Rock,,true
+PQR:P:PsychedelicFurs:LoveMyWay,Love My Way,Psychedelic Furs,6,FULL,New Wave,,false
+PQR:P:PsychedelicFurs:TheGhostInYou,The Ghost In You,Psychedelic Furs,5,FULL,New Wave,,false
+PQR:P:PurePrairieLeague:LetMeLoveYouTonight,Let Me Love You Tonight,Pure Prairie League,4,FULL,Country Rock,,false
+PQR:R:Radiohead:Creep,Creep,Radiohead,5,FULL,Alternative,,true
+PQR:R:Ramones:BlitzkreigBop,Blitzkreig Bop,Ramones,8,FULL,Punk,,true
+PQR:R:Ramones:IWannaBeSedated,I Wanna Be Sedated,Ramones,8,FULL,Punk,,true
+PQR:R:RandyTravis:ForeversAsFarAsIllGo,Forever's As Far As I'll Go,Mike Reid/Alabama,4,FULL,Country,,false
+PQR:R:RandyTravis:LookHeartsNoHands,Look Heart No Hands,Randy Travis,5,FULL,Country,,false
+PQR:R:RandyTravis:ThisIsMe,This Is Me,Randy Travis,4,FULL,Country,,false
+PQR:R:RandyTravis:WhereThatCameFrom,Where That Came From,Randy Travis,4,FULL,Country,,false
+PQR:R:Raspberries:GoAllTheWay,Go All The Way,Raspberries,7,FULL,Power Pop,,false
+PQR:R:RayStevens:EverythingIsBeautiful,Everything Is Beautiful,Ray Stevens,4,FULL,Pop,,false
+PQR:R:RedHotChilliPeppers:PosterChild,Poster Child,Red Hot Chilli Peppers,7,FULL,Rock,Funk,false
+PQR:R:Redbone:ComeAndGetYourLove,Come And Get Your Love,Redbone,7,FULL,Rock,Funk,true
+PQR:R:ReoSpeedwagon:RollWithTheChanges,Roll With The Changes,REO Speedwagon,7,FULL,Rock,,true
+PQR:R:ReoSpeedwagon:TakeItOnTheRun,Take It On The Run,REO Speedwagon,6,FULL,Rock,,false
+PQR:R:ReoSpeedwagon:TimeforMeToFly,Time For Me To Fly,REO Speedwagon,5,FULL,Rock,,false
+PQR:R:RestlessHeart:WhenSheCries,When She Cries,Restless Heart,3,FULL,Country,Ballad,false
+PQR:R:RexSmith:YouTakeMyBreathAway,You Take My Breath Away,Rex Smith,2,FULL,Pop,Ballad,false
+PQR:R:RobbieDupree:StealAway,Steal Away,Robbie Dupree,5,FULL,Soft Rock,,false
+PQR:R:RobertPalmer:BadCaseOfLovinYou,Bad Case Of Lovin' You,Robert Palmer,8,FULL,Rock,,false
+PQR:R:RobertPalmer:EveryKindaPeople,Every Kinda People,Robert Palmer,6,FULL,Reggae,Pop Rock,false
+PQR:R:RobertPlant:CantLetGo,Can't Let Go,Robert Plant & Alison Krauss,4,FULL,Rock,Folk,false
+PQR:R:RobertaFlack:KillingMeSoftly,Killing Me Softly With His Song,Roberta Flack,2,FULL,Soul,Ballad,true
+PQR:R:RockyBurnette:TiredOfToeinTheLine,Tired Of Toein' The Line,Rocky Burnette,7,FULL,Rockabilly,,false
+PQR:R:RollingStones:HonkyTonkWomen,Honky Tonk Women,The Rolling Stones,7,FULL,Rock,,true
+PQR:R:RollingStones:MissYou,Miss You,Rolling Stones,7,FULL,Rock,Disco,false
+PQR:R:RollingStones:UnderMyThumb,Under My Thumb,Rolling Stones,6,FULL,Rock,,false
+PQR:R:RollingStones:WaitingOnAFriend,Waiting On A Friend,Rolling Stones,4,FULL,Rock,,false
+PQR:R:Romantics:WhatILikeAboutYou,What I Like About You,Romantics,8,FULL,Rock,,true
+PQR:R:Ronettes:BeMyBaby,Be My Baby,The Ronettes,6,FULL,Pop,,false
+PQR:R:RonnieMilsap:TheresNoGettingOverMe,There's No Getting Over Me,Ronnie Milsap,6,FULL,Country,,false
+STU:S:Sade:SmoothOperator,Smooth Operator,Sade,4,FULL,Soul,R&B,false
+STU:S:SammyJohns:ChevyVan,Chevy Van,Sammy Johns,5,FULL,Soft Rock,,false
+STU:S:Santana:BlackMagicWoman,Black Magic Woman,Santana,6,FULL,Latin Rock,Blues Rock,false
+STU:S:Santana:CorazonEspinado,Corazon Espinado,Santana,7,FULL,Latin Rock,,false
+STU:S:Santana:EvilWays,Evil Ways,Santana,6,FULL,Latin Rock,,false
+STU:S:Santana:Smooth,Smooth,Santana,7,FULL,Latin Rock,,true
+STU:S:SantoAndJohnny:SleepWalk,Sleep Walk,Santo and Johnny,2,NONE,Instrumental,,false
+STU:S:Seal:KissFromARose,Kiss From A Rose,Seal,4,FULL,Pop,Ballad,true
+STU:S:SealsCrofts:DiamondGirl,Diamond Girl,Seals and Crofts,4,FULL,Soft Rock,,false
+STU:S:SealsCrofts:SummerBreeze,Summer Breeze,Seals and Crofts,4,FULL,Soft Rock,,false
+STU:S:SealsCrofts:WeMayNeverPassThisWayAgain,We May Never Pass This Way Again,Seals & Crofts,4,FULL,Soft Rock,,false
+STU:S:ShockingBlue:ShesNotThere-Venus,She's Not There / Venus,Zombies / Shocking Blue,6,FULL,Rock,,false
+STU:S:ShockingBlue:Venus,Venus,Shocking Blue,7,FULL,Rock,,true
+STU:S:SilkSonic:LeaveTheDoorOpen,Leave the Door Open,Silk Sonic,4,FULL,Soul,R&B,false
+STU:S:SixpenceNoneTheRicher:KissMe,Kiss Me,Sixpence None The Richer,5,FULL,Pop,,true
+STU:S:SixpenceNoneTheRicher:ThereSheGoes,There She Goes,Sixpence None The Richer,6,FULL,Pop Rock,,false
+STU:S:SoftCell:TaintedLove,Tainted Love,Soft Cell,7,FULL,Synth Pop,New Wave,true
+STU:S:Spinners:IllBeAround,I'll Be Around,Spinners,3,FULL,Soul,,false
+STU:S:Squeeze:BlackCoffeeInBed,Black Coffee In Bed,Squeeze,5,FULL,Pop Rock,,false
+STU:S:Stampeders:SweetCityWoman,Sweet City Woman,Stampeders,6,FULL,Pop Rock,,false
+STU:S:Starbuck:MoonlightFeelsRight,Moonlight Feels Right,Starbuck,6,FULL,Soft Rock,,false
+STU:S:SteelPulse:SteppinOut,Steppin' Out,Steel Pulse,6,FULL,Reggae,,false
+STU:S:Steeldrivers:GoodCornLiquor,Good Corn Liquor,Steeldrivers,6,FULL,Bluegrass,Country,false
+STU:S:Steppenwolf:BornToBeWild,Born To Be Wild,"Steppenwolf, Adam Lambert",8,FULL,Rock,,true
+STU:S:SteveMillerBand:TakeTheMoneyAndRun,Take The Money And Run,Steve Miller Band,7,FULL,Rock,,true
+STU:S:SteveMillerBand:TakeTheMoneyAndRun-Bass,Take The Money And Run (BASS),Steve Miller Band,7,NONE,Rock,,false
+STU:S:StevieRayVaughan:HouseIsARockin,House is a Rockin',Stevie Ray Vaughan,8,FULL,Blues Rock,,false
+STU:S:StevieWonder:DontYouWorryBoutAThing,Don't You Worry 'Bout A Thing,Stevie Wonder,7,FULL,Funk,Soul,false
+STU:S:StevieWonder:Lately,Lately,Stevie Wonder,2,FULL,Soul,Ballad,false
+STU:S:StillCorners:WhiteSands,White Sands,Still Corners,4,FULL,Dream Pop,,false
+STU:S:StrayCats:StrayCatStrut,Stray Cat Strut,Stray Cats,6,FULL,Rockabilly,,false
+STU:S:Survivor:IsThisLove,Is This Love,Survivor,5,FULL,Rock,Ballad,false
+STU:S:SusanTedeschi:LittleByLittle,Little by Little,Susan Tedeschi,6,FULL,Blues Rock,,false
+STU:S:SuziQuatro:IfYouCantGiveMeLove,If You Can't Give Me Love,Suzi Quatro,6,FULL,Rock,,false
+STU:S:SuziQuatro:StumblinIn,Stumblin' In,Suzy Quatro,5,FULL,Pop Rock,,false
+STU:S:Sylvia:Nobody,Nobody,Sylvia,4,FULL,Country,,false
+STU:T:T.Rex:GetItOn,Get It On,T.Rex,7,FULL,Glam Rock,,true
+STU:T:TaylorSwift:OurSong,Our Song,Taylor Swift,5,FULL,Country,Pop,false
+STU:T:TaylorSwift:Style,Style,Taylor Swift,7,FULL,Pop,,false
+STU:T:TaylorSwift:YouBelongWithMe,You Belong With Me,Taylor Swift,6,FULL,Country,Pop,true
+STU:T:TearsForFears:MadWorld,Mad World,Tears for Fears,3,FULL,New Wave,Ballad,false
+STU:T:TenCC:ImNotInLove,I'm Not in Love,10cc,3,FULL,Soft Rock,Ballad,false
+STU:T:TenCC:TheThingsWeDoForLove,The Things We Do for Love,10cc,6,FULL,Pop Rock,,false
+STU:T:TerryJacks:SeasonsInTheSun,Seasons in the Sun,Terry Jacks,3,FULL,Pop,Ballad,false
+STU:T:TheChurch:UnderTheMilkyWay,Under The Milky Way,The Church,4,FULL,Alternative,,false
+STU:T:TheClash:ShouldIStay-bass,Should I Stay (Or Should I Go) (BASS),The Clash,7,NONE,Punk,Rock,false
+STU:T:ThomasRhett:DieAHappyMan,Die A Happy Man,Thomas Rhett,3,FULL,Country,Ballad,false
+STU:T:ThomasRhett:HalfOfMe,Half Of Me,Thomas Rhett,4,FULL,Country,,false
+STU:T:ThomasRhett:HalfOfMe-2,Half Of Me (updated),Thomas Rhett,4,FULL,Country,,false
+STU:T:ThreeDogNight:Shambala,Shambala,Three Dog Night,7,FULL,Rock,,true
+STU:T:TimMcgraw:BetterThanIUsedToBe,Better Than I Used To Be,Tim Mcgraw,4,FULL,Country,,false
+STU:T:TobyBeau:MyAngelBaby,My Angel Baby,Toby Beau,3,FULL,Soft Rock,Ballad,false
+STU:T:TobyKeith:WhereYouGonnaGo,Where You Gonna Go,Toby Keith,5,FULL,Country,,false
+STU:T:TobyKeith:YourSmile,Your Smile,Toby Keith,3,FULL,Country,Ballad,false
+STU:T:ToddRundgren:ISawTheLight,I Saw The Light,Todd Rundgren,6,FULL,Power Pop,,false
+STU:T:TomPetty:Breakdown,Breakdown,Tom Petty,6,FULL,Rock,,false
+STU:T:TomPetty:DontDoMeLikeThat,Don't Do Me Like That,Tom Petty,7,FULL,Rock,,false
+STU:T:TomPetty:FreeFallin,Free Fallin',Tom Petty,6,FULL,Rock,,true
+STU:T:TomPetty:HereComesMyGirl,Here Comes My Girl,Tom Petty and the Heartbreakers,6,FULL,Rock,,false
+STU:T:TomPetty:IntoTheGreatWideOpen,Into The Great Wide Open,Tom Petty,5,FULL,Rock,,false
+STU:T:TomPetty:LearningToFly,Learning to Fly,Tom Petty,5,FULL,Rock,,false
+STU:T:TomPetty:MaryJanesLastDance,Mary Jane's Last Dance,Tom Petty & The Heartbreakers,8,FULL,Rock,,true
+STU:T:TomPetty:RunningDownADream,Runnin' Down A Dream,Tom Petty,8,FULL,Rock,,true
+STU:T:TomPetty:YouDontKnowHowItFeels,You Don't Know How It Feels,Tom Petty,6,FULL,Rock,,false
+STU:T:TomPetty:YouWreckMe,You Wreck Me,Tom Petty,8,FULL,Rock,,true
+STU:T:TommyCastroNPainkillers:CallingSanFrac,Calling San Francisco,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false
+STU:T:TommyCastroNPainkillers:CallingSanFran,Calling San Francisco,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false
+STU:T:TommyCastroNPainkillers:NastyHabits,Nasty Habits,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false
+STU:T:TommyTutone:Jenny-867-5309,Jenny 867-5309,Tommie Tutone,8,FULL,Rock,,true
+STU:T:Tonic:YouWantedMore,You Wanted More,Tonic,6,FULL,Alternative,,false
+STU:T:Train:HeySoulSister,Hey Soul Sister,Train,7,FULL,Pop Rock,,true
+STU:T:TravelingWilburys:HandleWithCare,Handle With Care,Traveling Wilburys,5,FULL,Rock,,false
+STU:T:TravisTritt:TROUBLE,T-R-O-U-B-L-E,Travis Tritt,7,FULL,Country,,false
+STU:U:U2:StuckInAMoment-IStillHaventFound,Stuck In A Moment / I Still Haven't Found,U2,5,FULL,Rock,,false
+VWX:V:VanHalen:Jump,Jump,Van Halen,9,FULL,Rock,,true
+VWX:V:VanMorrison:BrownEyedGirl,Brown Eyed Girl,Van Morrison,7,FULL,Rock,Pop,true
+VWX:V:VelvetRevolver:FallToPieces,Fall To Pieces,Velvet Revolver,5,FULL,Rock,,false
+VWX:W:Weeknd:BlindingLights,Blinding Lights,The Weeknd,9,FULL,Synth Pop,,true
+VWX:W:Weeknd:SaveYourTears,Save Your Tears,The Weeknd,6,FULL,Synth Pop,,false
+VWX:W:Weezer:IslandInTheSun,Island In The Sun,Weezer,6,FULL,Alternative,,true
+VWX:W:WillieNelson:Crazy,Crazy,Willie Nelson,2,FULL,Country,Ballad,false
+VWX:W:Wonders:ThatThingYouDo,That Thing You Do,The Wonders,7,FULL,Pop Rock,,true
+VWX:X:Xmas:BlueChristmas,Blue Christmas,Elvis Presley,2,FULL,Christmas,,false
+VWX:X:Xmas:HaveYourselfAMerryLittleChristmas,Have Yourself A Merry Little Christmas,Bing Crosby,2,FULL,Christmas,,false
+VWX:X:Xmas:ItsBeginningToLookALotLikeChristmas,It's Beginning To Look A Lot Like Christmas,Bing Crosby,4,FULL,Christmas,,false
+VWX:X:Xmas:JingleBellRock,Jingle Bell Rock,Bobby Helms,7,FULL,Christmas,,true
+VWX:X:Xmas:LastChristmas,Last Christmas,Wham!,5,FULL,Christmas,Pop,true
+VWX:X:Xmas:LetItSnow,Let It Snow,Dean Martin,4,FULL,Christmas,,false
+VWX:X:Xmas:LittleSaintNick,Little Saint Nick,The Beach Boys,6,FULL,Christmas,,false
+VWX:X:Xmas:RockinAroundTheChristmasTree,Rockin' Around The Christmas Tree,Brenda Lee,7,FULL,Christmas,,true
+VWX:X:Xmas:RudolphTheRedNosedReindeer,Rudolph The Red-Nosed Reindeer,Traditional,6,FULL,Christmas,,true
+VWX:X:Xmas:RunRunRudolph,Run Run Rudolph,Luke Bryan,7,FULL,Christmas,,false
+VWX:X:Xmas:SantaBaby,Santa Baby,Eartha Kitt,4,FULL,Christmas,,false
+VWX:X:Xmas:SantaClausIsComingToTown,Santa Claus Is Coming To Town,Bruce Springsteen,7,FULL,Christmas,,true
+VWX:X:Xmas:WinterWonderland,Winter Wonderland,Traditional,5,FULL,Christmas,,true
+VWX:X:Xmas:WonderfulChristmastime,Wonderful Christmastime,Paul McCartney,6,FULL,Christmas,,false
+YZ:Z:Zombies:TimeOfTheSeason,Time of the Season,Zombies,5,FULL,Rock,,false
+DEF:E:ELO:CantGetYouOutOfMyHead,Can't Get You Out Of My Head,ELO,8,FULL,Dance Pop,,true
+DEF:E:ELO:Rockaria,Rockaria,ELO / Jeff Lynne,7,FULL,Rock,,false
+JKL:K:KaceyMusgraves:DeeperWell,Deeper Well,Kacy Musgraves,2,FULL,Country,Folk,false

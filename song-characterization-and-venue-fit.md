@@ -47,6 +47,36 @@
 > that workaround proves annoying in practice. Next: Phase 3
 > (`characterize-songs` bulk backfill) — without it, every `evaluate-setlist`
 > run will keep showing "nothing characterized yet."
+>
+> **Phase 3 (`characterize-songs` + full catalog backfill) SHIPPED 2026-09-06.**
+> New `CharacterizeSongsCommand`/`CharacterizeSongsService`/`SongRating`
+> pipeline: a caller-supplied ratings CSV (keyed by song group, one rating
+> covers every key-variant) is merged onto `song-catalog.csv`, per-field,
+> never overwriting an already-set value. `--fix` writes; dry-run (default)
+> and `--verbose` (list every still-unrated song, not just the count) mirror
+> `bracket-chords`'s conventions.
+>
+> The actual ratings data (`song-ratings.csv`, checked in) was produced by
+> Kino using general music knowledge of the 492 unique songs in the catalog
+> — **this is a best-effort AI judgment call, not authoritative, and should
+> be spot-checked against how the band actually plays these songs live**
+> (arrangement/tempo choices can shift a song's energy meaningfully from the
+> original recording). 476 of 492 groups were rated; 527 catalog rows now
+> have `energyLevel`/`vocalIntensity`/`genrePrimary`/`singAlong` populated
+> (163 also got `genreSecondary`). The 16 left unrated are exactly the ones
+> with no external reference to check against — 7 Scott Davidson originals,
+> 3 Michael Sadri originals, and 6 ambiguous/unfamiliar titles — correctly
+> surfaced by `--verbose` rather than guessed. Nothing was overwritten;
+> hand-set values always win.
+>
+> Ran `evaluate-setlist` against real gigs post-backfill to confirm the
+> whole pipeline actually works end to end: First Friday (2026-06-05-FF)
+> now reports a genuine upward energy arc (opening avg 4.5 → final avg 6.5)
+> and 9 sing-along songs with 7 landing in the final third — exactly the
+> shape Scott described wanting in the original brainstorm. 312/312 tests
+> pass. Any future newly-imported song can be characterized the same way:
+> add a row to a ratings CSV (new or reused) and re-run `characterize-songs
+> --fix`.
 
 ---
 

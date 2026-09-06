@@ -161,6 +161,21 @@ them yet — that's Phase 2's job.
   backfill) — evaluate-setlist has nothing real to say about any gig until
   the catalog actually has energy/vocal/sing-along ratings.
 
+  **Phase 3 (`characterize-songs` + catalog backfill) shipped 2026-09-06**:
+  new command merges a ratings CSV onto `song-catalog.csv` (grouped by song
+  so one rating covers every key-variant; never overwrites an already-set
+  field; `--fix`/dry-run/`--verbose` mirror `bracket-chords`). Actually ran
+  it: `song-ratings.csv` (checked in) has Kino's best-effort ratings for 476
+  of 492 unique songs, using general music knowledge — **AI-generated, not
+  authoritative, worth spot-checking against how the band actually plays
+  these live**. 16 left unrated on purpose (7 Scott Davidson + 3 Michael
+  Sadri originals, 6 titles Kino couldn't confidently identify) — exactly
+  the "flag for manual review" behavior the design called for. 527 catalog
+  rows now carry real energy/vocal/genre/sing-along data. Confirmed the
+  whole pipeline works end to end: `evaluate-setlist` on First Friday now
+  shows a genuine upward energy arc (4.5 → 6.5 across thirds) with 7 of 9
+  sing-along songs landing in the closing third. 312/312 tests pass.
+
 ---
 
 ## Phase 2 — Roadmap
