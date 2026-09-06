@@ -48,6 +48,6 @@ public class VenueProfileFileReader {
         log.info("Read {} venue profile(s)", profiles.size());
 
         return profiles.stream()
-                .collect(Collectors.toUnmodifiableMap(VenueProfile::getGig, p -> p));
+                .collect(Collectors.toUnmodifiableMap(VenueProfile::getVenue, p -> p));
     }
 }

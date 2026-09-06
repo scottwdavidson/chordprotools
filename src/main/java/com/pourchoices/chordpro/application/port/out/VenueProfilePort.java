@@ -17,9 +17,9 @@ import java.util.Map;
 public interface VenueProfilePort {
 
     /**
-     * @return all configured venue profiles, keyed by gig slug. A gig with
-     *     no row in the file simply has no entry — this is not an error.
-     *     Returns an empty map if the file doesn't exist yet.
+     * @return all configured venue profiles, keyed by venue name. A venue
+     *     with no row in the file simply has no entry — this is not an
+     *     error. Returns an empty map if the file doesn't exist yet.
      */
     Map<String, VenueProfile> readVenueProfiles(Path path);
 }

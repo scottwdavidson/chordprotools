@@ -23,17 +23,17 @@ public class VenueProfileMapper {
     public VenueProfile toEntity(VenueProfileDto dto) {
         if (dto == null) return null;
         return VenueProfile.builder()
-                .gig(dto.getGig())
+                .venue(dto.getVenue())
                 .maxVocalIntensity(VocalIntensity.fromString(dto.getMaxVocalIntensity()))
-                .energyCeiling(parseInt(dto.getEnergyCeiling(), "energy ceiling", dto.getGig()))
-                .energyFloor(parseInt(dto.getEnergyFloor(), "energy floor", dto.getGig()))
+                .energyCeiling(parseInt(dto.getEnergyCeiling(), "energy ceiling", dto.getVenue()))
+                .energyFloor(parseInt(dto.getEnergyFloor(), "energy floor", dto.getVenue()))
                 .build();
     }
 
     public VenueProfileDto toDto(VenueProfile entity) {
         if (entity == null) return null;
         return VenueProfileDto.builder()
-                .gig(entity.getGig())
+                .venue(entity.getVenue())
                 .maxVocalIntensity(entity.getMaxVocalIntensity() != null ? entity.getMaxVocalIntensity().name() : null)
                 .energyCeiling(entity.getEnergyCeiling() != null ? entity.getEnergyCeiling().toString() : null)
                 .energyFloor(entity.getEnergyFloor() != null ? entity.getEnergyFloor().toString() : null)
@@ -50,12 +50,12 @@ public class VenueProfileMapper {
         return entities.stream().map(this::toDto).toList();
     }
 
-    private Integer parseInt(String value, String fieldLabel, String gig) {
+    private Integer parseInt(String value, String fieldLabel, String venue) {
         if (value == null || value.isBlank()) return null;
         try {
             return Integer.valueOf(value.trim());
         } catch (NumberFormatException e) {
-            log.warn("{} '{}' for gig '{}' is not a number — treating as unset.", fieldLabel, value, gig);
+            log.warn("{} '{}' for venue '{}' is not a number — treating as unset.", fieldLabel, value, venue);
             return null;
         }
     }

@@ -10,7 +10,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * OpenCSV-mapped DTO for one row in {@code venue-profiles.csv}.
+ * OpenCSV-mapped DTO for one row in {@code venue-profiles.csv}. Keyed by
+ * venue name (see {@code VenueProfile} for why).
  */
 @Builder
 @Data
@@ -19,10 +20,10 @@ import java.util.List;
 public class VenueProfileDto {
 
     public static final List<String> COLUMN_ORDER =
-            Arrays.asList("gig", "max vocal intensity", "energy ceiling", "energy floor");
+            Arrays.asList("venue", "max vocal intensity", "energy ceiling", "energy floor");
 
-    @CsvBindByName(column = "gig")
-    String gig;
+    @CsvBindByName(column = "venue")
+    String venue;
 
     @CsvBindByName(column = "max vocal intensity")
     String maxVocalIntensity;

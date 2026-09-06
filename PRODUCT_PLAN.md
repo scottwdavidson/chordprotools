@@ -139,12 +139,19 @@ them yet — that's Phase 2's job.
   cleanly (`verify-catalog`: 533 clean / 10 pre-existing unrelated drift
   issues, unchanged from before this change). Fields are catalog-CSV-only
   for now, deliberately **not** echoed into `.cho` file headers.
-  **Phase 1 (venue-profiles.csv) shipped 2026-09-06**: new `VenueProfile`
-  model + read-only `VenueProfilePort`/`VenueProfileAdapter`, tolerant CSV
-  parsing matching Phase 0. `venue-profiles.csv` shipped header-only (no
-  fabricated example rows — real per-gig venue types need to come from
-  Scott, not guessed). 272/272 tests pass. Next up: Phase 2
-  (`evaluate-setlist`).
+  **Phase 1 (venue-profiles.csv) shipped 2026-09-06, refactored same day**:
+  originally gig-keyed, but real usage immediately showed that was wrong —
+  Moods Wine Bar needed the same policy copy-pasted across 3 gig rows, and
+  Blue Vase/DeRose Winery (real prospective venues) couldn't be recorded at
+  all with no confirmed gig yet, blocking Scott's actual goal of pitching
+  candidate setlists to venues before a gig is booked. Refactored:
+  `venue-profiles.csv` is now keyed by **venue name** (First Friday, Moods
+  Wine Bar, DeRose Winery, Blue Vase all populated with real policies), plus
+  a new thin `gig-venues.csv` (gig → venue name) for the two gigs that do
+  have a confirmed venue (First Friday, the 3 Moods gigs). 278/278 tests
+  pass. Next up: Phase 2 (`evaluate-setlist`) — should support evaluating
+  directly against a venue name with no gig at all, for the pitch-a-setlist
+  use case.
 
 ---
 

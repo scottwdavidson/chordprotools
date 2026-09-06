@@ -12,14 +12,17 @@
 > (`verify-catalog`: 533 clean / 10 pre-existing drift issues, unchanged from
 > before this change — nothing new broke). 260/260 tests pass.
 >
-> **Phase 1 (venue-profiles.csv) SHIPPED 2026-09-06.** New `VenueProfile`
-> domain model, `VenueProfilePort`/`VenueProfileAdapter` (read-only — no
-> write path added; nothing programmatically writes this file, same as
-> intended), `VenueProfileDto`/`VenueProfileMapper` with the same tolerant
-> parsing contract as Phase 0. `venue-profiles.csv` shipped **header-only**
-> — no fabricated example rows, since real venue-type-per-gig data wasn't
-> available to seed it honestly. 272/272 tests pass. Next: Phase 2
-> (`evaluate-setlist`).
+> **Phase 1 (venue-profiles.csv) SHIPPED 2026-09-06, then REFACTORED same day.**
+> Originally shipped gig-keyed (per §4 below, now historical). Real usage
+> immediately surfaced two problems: Moods Wine Bar needed the identical
+> policy copy-pasted across 3 gig rows, and two prospective venues (Blue
+> Vase, DeRose Winery) couldn't be recorded at all because neither had a
+> confirmed gig yet — but Scott specifically wants to build candidate
+> setlists to pitch to prospective venues *before* a gig exists. Refactored
+> to venue-keyed: `venue-profiles.csv` is now keyed by **venue name**, plus
+> a new thin `gig-venues.csv` (gig -> venue name) for gigs that do have a
+> confirmed venue. See §4 (updated) for the current shape. 278/278 tests
+> pass. Next: Phase 2 (`evaluate-setlist`).
 
 ---
 
@@ -123,20 +126,41 @@ principle be a medium-energy song the crowd just loves).
 
 ---
 
-## 4. Venue policy — decoupled from the song, attached to the gig
+## 4. Venue policy — decoupled from both the song and the gig
 
 Venue policy is **data, not code** — no hardcoded `RESTAURANT`/`WINE_BAR`
 enum baked into the codebase (brittle; a new venue archetype shows up the
-first week someone books something unusual). Instead, a policy is just two
-knobs, one row per gig:
+first week someone books something unusual).
 
-**New file: `venue-profiles.csv`**
+**Originally shipped keyed by gig** (one row per gig in `venue-profiles.csv`).
+Real usage broke that within the same day: Moods Wine Bar needed the
+identical policy copy-pasted across 3 separate gig rows, and two
+prospective venues (Blue Vase, DeRose Winery) couldn't be recorded at all
+because neither had a confirmed gig yet — but Scott specifically wants to
+build candidate setlists to pitch to a venue's proprietor *before* a gig is
+booked. Gig-keyed policy actively worked against that.
+
+**Current shape: policy lives on the venue, gigs reference a venue.**
+
+**`venue-profiles.csv`** — one row per venue, no gig required:
 
 ```
-GIG,MAX_VOCAL_INTENSITY,ENERGY_CEILING,ENERGY_FLOOR
-2026-09-06-SomeRestaurant,NONE,4,1
-2026-09-06-WineBar,LIGHT,6,1
-2026-09-06-Outdoor,FULL,10,2
+VENUE,MAX VOCAL INTENSITY,ENERGY CEILING,ENERGY FLOOR
+First Friday,FULL,10,1
+Moods Wine Bar,FULL,8,1
+DeRose Winery,LIGHT,6,1
+Blue Vase,NONE,3,1
+```
+
+**`gig-venues.csv`** — thin association, only for gigs that *do* have a
+confirmed venue:
+
+```
+GIG,VENUE
+2026-06-05-FF,First Friday
+2026-03-27-Moods,Moods Wine Bar
+2026-04-24-Moods,Moods Wine Bar
+2026-06-27-Moods,Moods Wine Bar
 ```
 
 - `ENERGY_FLOOR` is optional (defaults to 1 / no floor) — included for
@@ -144,17 +168,25 @@ GIG,MAX_VOCAL_INTENSITY,ENERGY_CEILING,ENERGY_FLOOR
 - Kept **separate from `gigs.csv`** rather than added as columns there,
   because `gigs.csv` is long-format (one row per song per gig, ~150 rows per
   gig) — repeating a gig-constant value on every song row would be pure
-  duplication for no benefit (DRY).
-- A gig with no matching row in `venue-profiles.csv` has no policy —
-  `evaluate-setlist` should treat that as "no venue constraints configured,
-  skip hard-violation checks, arc-shape check still runs."
+  duplication for no benefit (DRY). Same reasoning kept `gig-venues.csv`
+  as its own file rather than a column on `gigs.csv`.
+- A gig with no row in `gig-venues.csv` simply has no venue attached yet —
+  a valid, common state (e.g. a pitch setlist for a venue that hasn't
+  confirmed a date). A venue with no row in `venue-profiles.csv` has no
+  configured policy — also valid, not an error.
+- `evaluate-setlist` (Phase 2) resolves policy as: gig → (`gig-venues.csv`)
+  → venue name → (`venue-profiles.csv`) → policy. Missing at either hop
+  means "no venue constraints configured, skip hard-violation checks, arc-
+  shape check still runs" — and Phase 2 should also support evaluating
+  directly **against a venue name with no gig at all**, for the
+  pitch-a-setlist-to-a-prospective-venue use case.
 
 ---
 
 ## 5. `evaluate-setlist` — the scoring algorithm
 
 Given a gig slug, join `gigs.csv` → `song-catalog.csv` (via `SetlistEntry`,
-already exists) → `venue-profiles.csv`.
+already exists) → `gig-venues.csv` → `venue-profiles.csv`.
 
 ### 5.1 Hard violations (correctness, not style)
 
@@ -241,7 +273,8 @@ application/port/in/CharacterizeSongsUseCase.java
         │
         ▼
 application/domain/service/EvaluateSetlistService.java
-        │   uses CatalogPort, GigsPort (existing), VenueProfilePort (new)
+        │   uses CatalogPort, GigsPort (existing), VenueProfilePort (new),
+        │   GigVenuePort (new)
         │   uses SetlistArcScorer (new)
 application/domain/service/CharacterizeSongsService.java
         │
@@ -249,7 +282,7 @@ application/domain/service/CharacterizeSongsService.java
 application/domain/model/
     CatalogEntry.java          (extend: energyLevel, vocalIntensity,
                                  genrePrimary, genreSecondary, singAlong)
-    VenueProfile.java          (new)
+    VenueProfile.java          (new — keyed by venue name, not gig)
     VocalIntensity.java        (new enum)
     SetlistEvaluationReport.java (new)
 ```
@@ -258,8 +291,9 @@ New collaborators:
 
 | Class | Responsibility |
 |---|---|
-| `VenueProfilePort` / adapter | Read `venue-profiles.csv` |
-| `VenueProfile` | Model: gig slug → max vocal intensity, energy ceiling/floor |
+| `VenueProfilePort` / adapter | Read `venue-profiles.csv` — keyed by venue name |
+| `GigVenuePort` / adapter | Read `gig-venues.csv` — thin gig → venue name association, `Map<String,String>` (no dedicated domain class — see its javadoc) |
+| `VenueProfile` | Model: venue name → max vocal intensity, energy ceiling/floor |
 | `SetlistArcScorer` | Splits an ordered `SetlistEntry` list into thirds, computes avg/median energy, checks trend + sing-along placement |
 | `SetlistEvaluationReport` | Findings: violations + arc summary |
 

@@ -22,25 +22,25 @@ class VenueProfileMapperTest {
     @Test
     void testToDto_SingleObject() {
         VenueProfile entity = VenueProfile.builder()
-                .gig("2026-09-06-SomeRestaurant")
+                .venue("Blue Vase")
                 .maxVocalIntensity(VocalIntensity.NONE)
-                .energyCeiling(4)
+                .energyCeiling(3)
                 .energyFloor(1)
                 .build();
 
         VenueProfileDto dto = mapper.toDto(entity);
 
         assertThat(dto).isNotNull();
-        assertThat(dto.getGig()).isEqualTo("2026-09-06-SomeRestaurant");
+        assertThat(dto.getVenue()).isEqualTo("Blue Vase");
         assertThat(dto.getMaxVocalIntensity()).isEqualTo("NONE");
-        assertThat(dto.getEnergyCeiling()).isEqualTo("4");
+        assertThat(dto.getEnergyCeiling()).isEqualTo("3");
         assertThat(dto.getEnergyFloor()).isEqualTo("1");
     }
 
     @Test
     void testToEntity_SingleObject() {
         VenueProfileDto dto = VenueProfileDto.builder()
-                .gig("2026-09-06-Outdoor")
+                .venue("First Friday")
                 .maxVocalIntensity("full")
                 .energyCeiling("10")
                 .energyFloor("2")
@@ -49,7 +49,7 @@ class VenueProfileMapperTest {
         VenueProfile entity = mapper.toEntity(dto);
 
         assertThat(entity).isNotNull();
-        assertThat(entity.getGig()).isEqualTo("2026-09-06-Outdoor");
+        assertThat(entity.getVenue()).isEqualTo("First Friday");
         assertThat(entity.getMaxVocalIntensity()).isEqualTo(VocalIntensity.FULL);
         assertThat(entity.getEnergyCeiling()).isEqualTo(10);
         assertThat(entity.getEnergyFloor()).isEqualTo(2);
@@ -57,9 +57,9 @@ class VenueProfileMapperTest {
 
     @Test
     void testToEntity_UnconfiguredFieldsAreNull() {
-        // Given -- a gig row that only sets the vocal constraint, nothing else
+        // Given -- a venue row that only sets the vocal constraint, nothing else
         VenueProfileDto dto = VenueProfileDto.builder()
-                .gig("2026-09-06-WineBar")
+                .venue("DeRose Winery")
                 .maxVocalIntensity("LIGHT")
                 .build();
 
@@ -73,7 +73,7 @@ class VenueProfileMapperTest {
     @Test
     void testToEntity_MalformedEnergyCeilingBecomesNullNotACrash() {
         VenueProfileDto dto = VenueProfileDto.builder()
-                .gig("2026-09-06-Typo")
+                .venue("Typo Venue")
                 .energyCeiling("loud")
                 .energyFloor("also not a number")
                 .build();
@@ -87,7 +87,7 @@ class VenueProfileMapperTest {
     @Test
     void testToEntity_UnrecognisedVocalIntensityBecomesNull() {
         VenueProfileDto dto = VenueProfileDto.builder()
-                .gig("2026-09-06-Typo")
+                .venue("Typo Venue")
                 .maxVocalIntensity("SCREAMO")
                 .build();
 
@@ -97,8 +97,8 @@ class VenueProfileMapperTest {
     @Test
     void testToDtoList_and_toEntityList_roundTrip() {
         List<VenueProfile> entities = Arrays.asList(
-                VenueProfile.builder().gig("gig-1").maxVocalIntensity(VocalIntensity.NONE).energyCeiling(4).build(),
-                VenueProfile.builder().gig("gig-2").maxVocalIntensity(VocalIntensity.FULL).energyCeiling(10).build()
+                VenueProfile.builder().venue("Venue A").maxVocalIntensity(VocalIntensity.NONE).energyCeiling(4).build(),
+                VenueProfile.builder().venue("Venue B").maxVocalIntensity(VocalIntensity.FULL).energyCeiling(10).build()
         );
 
         List<VenueProfileDto> dtos = mapper.toDtoList(entities);
