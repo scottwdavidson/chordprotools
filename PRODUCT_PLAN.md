@@ -138,8 +138,13 @@ them yet — that's Phase 2's job.
   `singAlong` — all nullable, all 543 existing rows verified to still parse
   cleanly (`verify-catalog`: 533 clean / 10 pre-existing unrelated drift
   issues, unchanged from before this change). Fields are catalog-CSV-only
-  for now, deliberately **not** echoed into `.cho` file headers. Next up:
-  Phase 1 (`venue-profiles.csv`), Phase 2 (`evaluate-setlist`).
+  for now, deliberately **not** echoed into `.cho` file headers.
+  **Phase 1 (venue-profiles.csv) shipped 2026-09-06**: new `VenueProfile`
+  model + read-only `VenueProfilePort`/`VenueProfileAdapter`, tolerant CSV
+  parsing matching Phase 0. `venue-profiles.csv` shipped header-only (no
+  fabricated example rows — real per-gig venue types need to come from
+  Scott, not guessed). 272/272 tests pass. Next up: Phase 2
+  (`evaluate-setlist`).
 
 ---
 

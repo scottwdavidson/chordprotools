@@ -10,8 +10,16 @@
 > `CatalogEntryMapper`, and `song-catalog.csv` all carry the 5 new fields
 > described in §3. All 543 existing catalog rows verified clean
 > (`verify-catalog`: 533 clean / 10 pre-existing drift issues, unchanged from
-> before this change — nothing new broke). 260/260 tests pass. Next: Phase 1
-> (`venue-profiles.csv`).
+> before this change — nothing new broke). 260/260 tests pass.
+>
+> **Phase 1 (venue-profiles.csv) SHIPPED 2026-09-06.** New `VenueProfile`
+> domain model, `VenueProfilePort`/`VenueProfileAdapter` (read-only — no
+> write path added; nothing programmatically writes this file, same as
+> intended), `VenueProfileDto`/`VenueProfileMapper` with the same tolerant
+> parsing contract as Phase 0. `venue-profiles.csv` shipped **header-only**
+> — no fabricated example rows, since real venue-type-per-gig data wasn't
+> available to seed it honestly. 272/272 tests pass. Next: Phase 2
+> (`evaluate-setlist`).
 
 ---
 
