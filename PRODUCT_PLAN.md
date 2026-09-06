@@ -127,7 +127,14 @@ them yet — that's Phase 2's job.
 - `ChordProTransposer` — implemented + tested, not wired to any command. (`consistent-song-data` wants this; could also stand alone as a manual "transpose this chart" command.)
 
 **New ideas surfaced during this planning session:**
-- *(nothing yet — add as they come up)*
+- `song-characterization-and-venue-fit.md` — new song metadata (energy
+  level, vocal intensity, genre primary/secondary, sing-along flag) + a
+  per-gig venue policy (max vocal intensity, energy ceiling) + an
+  `evaluate-setlist` validator/scorer that checks a gig's setlist against
+  its venue and its energy "arc" shape. Auto-generating a setlist is
+  explicitly deferred until that scorer is trusted. **Not started** —
+  schema (§8 Phase 0 in that doc) needs sign-off before any backfill work
+  begins.
 
 ---
 
