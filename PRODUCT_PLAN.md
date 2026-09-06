@@ -145,13 +145,21 @@ them yet — that's Phase 2's job.
   Blue Vase/DeRose Winery (real prospective venues) couldn't be recorded at
   all with no confirmed gig yet, blocking Scott's actual goal of pitching
   candidate setlists to venues before a gig is booked. Refactored:
-  `venue-profiles.csv` is now keyed by **venue name** (First Friday, Moods
-  Wine Bar, DeRose Winery, Blue Vase all populated with real policies), plus
-  a new thin `gig-venues.csv` (gig → venue name) for the two gigs that do
-  have a confirmed venue (First Friday, the 3 Moods gigs). 278/278 tests
-  pass. Next up: Phase 2 (`evaluate-setlist`) — should support evaluating
-  directly against a venue name with no gig at all, for the pitch-a-setlist
-  use case.
+  `venue-profiles.csv` is now keyed by **venue name** (First Friday, Balboa,
+  Moods Wine Bar, DeRose Winery, Blue Vase all populated with real policies),
+  plus a new thin `gig-venues.csv` (gig → venue name) for the gigs that do
+  have a confirmed venue (First Friday, Balboa, the 3 Moods gigs).
+
+  **Phase 2 (`evaluate-setlist`) shipped 2026-09-06**: joins a gig's setlist
+  against its resolved venue policy, reports hard vocal/energy violations,
+  splits the setlist into thirds for an energy-arc summary (avg/median per
+  third + trend note), and reports sing-along placement near the end.
+  Degrades gracefully when data's missing (today: everything, since Phase 3
+  hasn't backfilled the catalog) — shows uncharacterized counts and skips
+  checks it can't run, rather than erroring. 298/298 tests pass. Smoke-
+  tested against real gigs. Next up: Phase 3 (`characterize-songs` bulk
+  backfill) — evaluate-setlist has nothing real to say about any gig until
+  the catalog actually has energy/vocal/sing-along ratings.
 
 ---
 

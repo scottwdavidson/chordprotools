@@ -21,8 +21,32 @@
 > setlists to pitch to prospective venues *before* a gig exists. Refactored
 > to venue-keyed: `venue-profiles.csv` is now keyed by **venue name**, plus
 > a new thin `gig-venues.csv` (gig -> venue name) for gigs that do have a
-> confirmed venue. See §4 (updated) for the current shape. 278/278 tests
-> pass. Next: Phase 2 (`evaluate-setlist`).
+> confirmed venue. See §4 (updated) for the current shape.
+>
+> **Phase 2 (`evaluate-setlist`) SHIPPED 2026-09-06.** New `EvaluateSetlistCommand`
+> / `EvaluateSetlistService` / `SetlistArcScorer` (pure logic) /
+> `SetlistEvaluationReport` + `ArcThird` domain models, reusing the existing
+> `SetlistJoiner`/`SetlistDeduplicator` from `export-setlist`. Resolves
+> gig → `gig-venues.csv` → venue name → `venue-profiles.csv` → policy,
+> degrading gracefully (informational note, not an error) at either missing
+> hop. Hard violations check vocal intensity + energy ceiling/floor per
+> song; arc scoring splits the setlist into thirds by count and reports
+> avg/median energy per third plus a trend note (skipped entirely when a
+> venue's ceiling-floor range is narrow, since no arc is expected there).
+> Sing-along placement is reported (count in final third, whether the last
+> 3 songs include one) but not yet scored pass/fail. 298/298 tests pass.
+> Smoke-tested against real gigs — correctly shows "35/35 uncharacterized,
+> skipping trend check" for gigs today, since Phase 3's bulk backfill
+> hasn't run yet; that's the expected state, not a bug.
+>
+> **Not yet built:** evaluating directly against a venue name with no gig
+> at all (the pitch-a-setlist-to-a-prospective-venue path) — the current
+> workaround is to create a placeholder gig slug in `gigs.csv` with the
+> candidate songs and link it via `gig-venues.csv`, which already works
+> with existing plumbing. A dedicated `--venue` flag can be added later if
+> that workaround proves annoying in practice. Next: Phase 3
+> (`characterize-songs` bulk backfill) — without it, every `evaluate-setlist`
+> run will keep showing "nothing characterized yet."
 
 ---
 

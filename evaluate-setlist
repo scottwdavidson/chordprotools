@@ -1,0 +1,9 @@
+#!/bin/zsh
+# Evaluate a gig's setlist against its venue's policy (vocal intensity /
+# energy limits) and report its energy-arc shape + sing-along placement.
+#
+# Usage:
+#   ./evaluate-setlist                              # latest gig
+#   ./evaluate-setlist --gig 2026-06-05-FF          # specific gig
+
+"${0:a:h}/cpt" evaluate-setlist "$@"
