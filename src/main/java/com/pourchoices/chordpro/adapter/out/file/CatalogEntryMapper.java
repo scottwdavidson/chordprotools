@@ -3,6 +3,7 @@ package com.pourchoices.chordpro.adapter.out.file;
 import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SongId;
+import com.pourchoices.chordpro.application.domain.model.VocalIntensity;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -47,6 +48,11 @@ public class CatalogEntryMapper {
                 .ve(dto.getVe())
                 .performanceKey(dto.getPerformanceKey())
                 .songLabel(dto.getSongLabel())
+                .energyLevel(parseEnergyLevel(dto.getEnergyLevel(), dto.getSongId()))
+                .vocalIntensity(VocalIntensity.fromString(dto.getVocalIntensity()))
+                .genrePrimary(dto.getGenrePrimary())
+                .genreSecondary(dto.getGenreSecondary())
+                .singAlong(parseSingAlong(dto.getSingAlong(), dto.getSongId()))
                 .build();
     }
 
@@ -67,6 +73,11 @@ public class CatalogEntryMapper {
                 .ve(entity.getVe())
                 .performanceKey(entity.getPerformanceKey())
                 .songLabel(entity.getSongLabel())
+                .energyLevel(entity.getEnergyLevel() != null ? entity.getEnergyLevel().toString() : null)
+                .vocalIntensity(entity.getVocalIntensity() != null ? entity.getVocalIntensity().name() : null)
+                .genrePrimary(entity.getGenrePrimary())
+                .genreSecondary(entity.getGenreSecondary())
+                .singAlong(entity.getSingAlong() != null ? entity.getSingAlong().toString() : null)
                 .build();
     }
 
@@ -78,5 +89,35 @@ public class CatalogEntryMapper {
     public List<CatalogEntryDto> toDtoList(List<CatalogEntry> entities) {
         if (entities == null) return null;
         return entities.stream().map(this::toDto).toList();
+    }
+
+    /**
+     * Tolerant integer parse for {@code energyLevel} — a malformed value in
+     * one row must never break reading the whole catalog. Bad data becomes
+     * {@code null} ("not characterized") with a logged warning, same spirit
+     * as the song-label length check above.
+     */
+    private Integer parseEnergyLevel(String value, String songId) {
+        if (value == null || value.isBlank()) return null;
+        try {
+            return Integer.valueOf(value.trim());
+        } catch (NumberFormatException e) {
+            log.warn("energy level '{}' for song '{}' is not a number — treating as unset.", value, songId);
+            return null;
+        }
+    }
+
+    /** Tolerant boolean parse for {@code singAlong}; same rationale as above. */
+    private Boolean parseSingAlong(String value, String songId) {
+        if (value == null || value.isBlank()) return null;
+        String v = value.trim().toLowerCase();
+        return switch (v) {
+            case "true", "yes", "y", "1" -> Boolean.TRUE;
+            case "false", "no", "n", "0" -> Boolean.FALSE;
+            default -> {
+                log.warn("sing along '{}' for song '{}' is not a recognised boolean — treating as unset.", value, songId);
+                yield null;
+            }
+        };
     }
 }

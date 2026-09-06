@@ -22,7 +22,8 @@ public class CatalogEntryDto {
     "title","artist","key","duration","tempo",
     "countin","backing","nord","roland","ve",
     "performance key",
-    "time signature","song id","song label");
+    "time signature","song id","song label",
+    "energy level","vocal intensity","genre primary","genre secondary","sing along");
 
 
     @CsvBindByName(column = "song id")
@@ -54,5 +55,19 @@ public class CatalogEntryDto {
     String performanceKey;
     @CsvBindByName(column = "song label")
     String songLabel;
+
+    // --- Setlist/venue-fit characterization (song-characterization-and-venue-fit.md) ---
+    // Kept as raw String here, same as tempo/duration — numeric/enum parsing
+    // happens in CatalogEntryMapper, not in the CSV binding layer.
+    @CsvBindByName(column = "energy level")
+    String energyLevel;
+    @CsvBindByName(column = "vocal intensity")
+    String vocalIntensity;
+    @CsvBindByName(column = "genre primary")
+    String genrePrimary;
+    @CsvBindByName(column = "genre secondary")
+    String genreSecondary;
+    @CsvBindByName(column = "sing along")
+    String singAlong;
 
 }

@@ -5,6 +5,13 @@
 > **Scope:** New song metadata (energy, vocal intensity, genre, sing-along) +
 > a venue-policy concept + a setlist validator/scorer. Does **not** cover
 > auto-generating a setlist — that's explicitly deferred (see §8).
+>
+> **Phase 0 (schema) SHIPPED 2026-09-06.** `CatalogEntry`, `CatalogEntryDto`,
+> `CatalogEntryMapper`, and `song-catalog.csv` all carry the 5 new fields
+> described in §3. All 543 existing catalog rows verified clean
+> (`verify-catalog`: 533 clean / 10 pre-existing drift issues, unchanged from
+> before this change — nothing new broke). 260/260 tests pass. Next: Phase 1
+> (`venue-profiles.csv`).
 
 ---
 

@@ -132,9 +132,14 @@ them yet — that's Phase 2's job.
   per-gig venue policy (max vocal intensity, energy ceiling) + an
   `evaluate-setlist` validator/scorer that checks a gig's setlist against
   its venue and its energy "arc" shape. Auto-generating a setlist is
-  explicitly deferred until that scorer is trusted. **Not started** —
-  schema (§8 Phase 0 in that doc) needs sign-off before any backfill work
-  begins.
+  explicitly deferred until that scorer is trusted.
+  **Phase 0 (schema) shipped 2026-09-06**: `CatalogEntry`/`song-catalog.csv`
+  now carry `energyLevel`, `vocalIntensity`, `genrePrimary`, `genreSecondary`,
+  `singAlong` — all nullable, all 543 existing rows verified to still parse
+  cleanly (`verify-catalog`: 533 clean / 10 pre-existing unrelated drift
+  issues, unchanged from before this change). Fields are catalog-CSV-only
+  for now, deliberately **not** echoed into `.cho` file headers. Next up:
+  Phase 1 (`venue-profiles.csv`), Phase 2 (`evaluate-setlist`).
 
 ---
 

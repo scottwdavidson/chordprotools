@@ -2,6 +2,7 @@ package com.pourchoices.chordpro.adapter.out.file;
 import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.SongId;
+import com.pourchoices.chordpro.application.domain.model.VocalIntensity;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -37,6 +38,11 @@ class CatalogEntryMapperTest {
                 .ve("Verse-Chorus")
                 .performanceKey("C#")
                 .songLabel("PianoMan")
+                .energyLevel(7)
+                .vocalIntensity(VocalIntensity.FULL)
+                .genrePrimary("Rock")
+                .genreSecondary("Pop")
+                .singAlong(true)
                 .build();
 
         // When
@@ -57,6 +63,11 @@ class CatalogEntryMapperTest {
         assertThat(dto.getVe()).isEqualTo(entity.getVe());
         assertThat(dto.getPerformanceKey()).isEqualTo(entity.getPerformanceKey());
         assertThat(dto.getSongLabel()).isEqualTo(entity.getSongLabel());
+        assertThat(dto.getEnergyLevel()).isEqualTo("7");
+        assertThat(dto.getVocalIntensity()).isEqualTo("FULL");
+        assertThat(dto.getGenrePrimary()).isEqualTo("Rock");
+        assertThat(dto.getGenreSecondary()).isEqualTo("Pop");
+        assertThat(dto.getSingAlong()).isEqualTo("true");
     }
 
     @Test
@@ -76,6 +87,11 @@ class CatalogEntryMapperTest {
                 .ve("Chorus-Verse")
                 .performanceKey("A")
                 .songLabel("AnotherSong")
+                .energyLevel("3")
+                .vocalIntensity("LIGHT")
+                .genrePrimary("Country")
+                .genreSecondary("Rock")
+                .singAlong("false")
                 .build();
 
         // When
@@ -96,6 +112,71 @@ class CatalogEntryMapperTest {
         assertThat(entity.getVe()).isEqualTo(dto.getVe());
         assertThat(entity.getPerformanceKey()).isEqualTo(dto.getPerformanceKey());
         assertThat(entity.getSongLabel()).isEqualTo(dto.getSongLabel());
+        assertThat(entity.getEnergyLevel()).isEqualTo(3);
+        assertThat(entity.getVocalIntensity()).isEqualTo(VocalIntensity.LIGHT);
+        assertThat(entity.getGenrePrimary()).isEqualTo("Country");
+        assertThat(entity.getGenreSecondary()).isEqualTo("Rock");
+        assertThat(entity.getSingAlong()).isEqualTo(Boolean.FALSE);
+    }
+
+    @Test
+    void testToEntity_UnratedCharacterizationFieldsAreNull() {
+        // Given — the common case: a song not yet characterized
+        CatalogEntryDto dto = CatalogEntryDto.builder()
+                .songId("ABC:C:Another:TestSong")
+                .title("Uncharacterized Song")
+                .artist("Artist")
+                .key("C")
+                .duration("3:00")
+                .build();
+
+        // When
+        CatalogEntry entity = mapper.toEntity(dto);
+
+        // Then
+        assertThat(entity.getEnergyLevel()).isNull();
+        assertThat(entity.getVocalIntensity()).isNull();
+        assertThat(entity.getGenrePrimary()).isNull();
+        assertThat(entity.getGenreSecondary()).isNull();
+        assertThat(entity.getSingAlong()).isNull();
+    }
+
+    @Test
+    void testToEntity_MalformedEnergyLevelBecomesNullNotACrash() {
+        // Given — a hand-edited CSV cell with garbage in it
+        CatalogEntryDto dto = CatalogEntryDto.builder()
+                .songId("ABC:C:Another:TestSong")
+                .title("Test Song")
+                .artist("Artist")
+                .key("C")
+                .duration("3:00")
+                .energyLevel("loud")
+                .singAlong("maybe")
+                .build();
+
+        // When
+        CatalogEntry entity = mapper.toEntity(dto);
+
+        // Then — malformed data degrades to "unset", never throws
+        assertThat(entity.getEnergyLevel()).isNull();
+        assertThat(entity.getSingAlong()).isNull();
+    }
+
+    private CatalogEntryDto.CatalogEntryDtoBuilder minimalDtoBuilder() {
+        return CatalogEntryDto.builder()
+                .songId("ABC:C:Another:TestSong")
+                .title("Test Song")
+                .artist("Artist")
+                .key("C")
+                .duration("3:00");
+    }
+
+    @Test
+    void testToEntity_SingAlongAcceptsCommonBooleanSpellings() {
+        assertThat(mapper.toEntity(minimalDtoBuilder().singAlong("yes").build()).getSingAlong()).isTrue();
+        assertThat(mapper.toEntity(minimalDtoBuilder().singAlong("y").build()).getSingAlong()).isTrue();
+        assertThat(mapper.toEntity(minimalDtoBuilder().singAlong("no").build()).getSingAlong()).isFalse();
+        assertThat(mapper.toEntity(minimalDtoBuilder().singAlong("n").build()).getSingAlong()).isFalse();
     }
 
     @Test
