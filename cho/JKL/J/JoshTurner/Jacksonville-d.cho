@@ -1,9 +1,14 @@
 {title: Jacksonville}
 {artist: Josh Turner}
 {key: D}
-{tempo: 119}
+{duration: 3:30}
+{tempo: 100}
+{meta: countin: 4}
+{meta: backing: BB}
 
 {comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
 {comment:***********************************************}
 
 | [D] | [A] | [Gadd9] | [Gadd9] | [Bm] | [A] | [Gadd9] | [Gadd9] |

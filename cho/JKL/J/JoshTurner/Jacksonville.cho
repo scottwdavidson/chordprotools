@@ -1,12 +1,22 @@
 {title: Jacksonville}
 {artist: Josh Turner}
 {key: C}
-{tempo: 119}
+{duration: 3:30}
+{tempo: 100}
+{meta: countin: 4}
+{meta: backing: BB}
 
 {comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
 {comment:***********************************************}
 
-| [C] | [G] | [Fadd9] | [Fadd9] | [Am] | [G] | [Fadd2] | [Fadd2] |
+{start_of_part}
+. | [Csus2] . . .  | [G] . . . | 
+. | [Fadd9] . . .  | [Fadd9] . . . | 
+. | [Am]    . . .  | [G] . . . | 
+. | [Fadd2] . . .  | [Fadd2] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Cadd9]It wasn't even [G]in my plan;
@@ -15,14 +25,14 @@ a week[Fadd9] in the sun and some fun in the sand.
 [C]It all began on O[G]cean Drive
 [Fadd9]Standin' in line for a burger and fries.
 [Am]Coinci[Em7]dentally, so were [F]you.[F]
-[Am]Now we took a [Em]quiet corner [Fadd2]booth[G7sus][G7]
+[Am]Now we took a [Em]quiet corner [Fadd2]booth_[G7sus]_[G7]
 {end_of_verse}
 
 {start_of_chorus}
 [C]Didn't plan on [G]hangin' out in [F]Florida;[F]
 [C]never was too[G] good at standin' [F]still[F]
 [Dm]Suddenly it's [Bb9]lookin' like I'm [Em7]gonn[A7]a
-[Dm]kill a few more [G]days in Jackson[C]ville.[C][C]
+[Dm]kill a few more [G]days in Jackson[C]ville.[C]_[C]_[C]_[C]
 {end_of_chorus}
 
 {start_of_verse}
@@ -42,8 +52,12 @@ while the [Fadd9]wind and the waves wash away my blues
 [Dm]kill a few more [G]days in Jackson[C]ville.
 {end_of_chorus}
 
-{comment: Instrumental}
-| [C] | [G] | [Fadd9] | [Fadd9] | [Am] | [Em] | [F] | [G] |
+{start_of_part: Instrumental}
+. | [C]     . . . | [G]       . . . | 
+. | [Fadd9] . . . | [Fadd9]   . . . | 
+. | [Am]    . . . | [Em]      . . . | 
+. | [F]     . . . | [G] . [Gsus2] . |
+{end_of_part}
 
 {start_of_chorus}
 [C]Didn't plan on [G]hangin' out in [F]Florida;[F]
@@ -53,5 +67,6 @@ while the [Fadd9]wind and the waves wash away my blues
 [Dm]kill a few more [G]days in Jackson[C]ville.[C][C]
 {end_of_chorus}
 
-{comment: Outro}
-| [Dm] | [Bb7] | [C] |
+{start_of_part: Outro}
+. | [Dm] . . . | [Bb9] . . . | [C] . . . |
+{end_of_part}
