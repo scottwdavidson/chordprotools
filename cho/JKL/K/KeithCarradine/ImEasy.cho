@@ -1,9 +1,15 @@
 {title: I'm Easy}
 {artist: Keith Carradine}
 {key: C}
-{tempo: 120}
-{duration: 3:00}
+{duration: 2:45}
+{tempo: 80}
+{meta: nord: P55}
+{meta: backing: BB}
 
+{comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: backing: BB   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [Cmaj7] . . . | [Cmaj7] . . . | 
@@ -75,5 +81,4 @@ Yeah, I'm e[Dm7]asy
 Give the w[Em7]ord, I'll play your games
 As though that's [Fmaj7]how it ought to be
 Because I'm e[Cmaj7]asy
-X
 {end_of_chorus}
