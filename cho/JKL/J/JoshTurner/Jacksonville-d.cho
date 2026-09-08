@@ -1,0 +1,72 @@
+{title: Jacksonville}
+{artist: Josh Turner}
+{key: D}
+{duration: 3:30}
+{tempo: 100}
+{meta: countin: 4}
+{meta: backing: BB}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
+{comment:***********************************************}
+
+{start_of_part}
+. | [Dsus2] . . .  | [A] . . . | 
+. | [Gadd9] . . .  | [Gadd9] . . . | 
+. | [Bm]    . . .  | [A] . . . | 
+. | [Gadd2] . . .  | [Gadd2] . . . |
+{end_of_part}
+
+{start_of_verse}
+[Dadd9]It wasn't even [A]in my plan;
+a week[Gadd9] in the sun and some fun in the sand.
+[Bm]I was really [F#m]only passin' [G]through.[G]
+[D]It all began on O[A]cean Drive
+[Gadd9]Standin' in line for a burger and fries.
+[Bm]Coinci[F#m7]dentally, so were [G]you.[G]
+[Bm]Now we took a [F#m]quiet corner [Gadd2]booth_[A7sus]_[A7]
+{end_of_verse}
+
+{start_of_chorus}
+[D]Didn't plan on [A]hangin' out in [G]Florida;[G]
+[D]never was too[A] good at standin' [G]still[G]
+[Em]Suddenly it's [C9]lookin' like I'm [F#m7]gonn[B7]a
+[Em]kill a few more [A]days in Jackson[D]ville.[D]_[D]_[D]_[D]
+{end_of_chorus}
+
+{start_of_verse}
+[Dadd9]I'm givin' up my [A]walkin' shoes
+while the [Gadd9]wind and the waves wash away my blues
+[Bm]and you help [F#m7]me lose track of [G]time.[G]
+[D]Rock and roll you're [A]holdin' me
+[Gadd9]rockin' in your arms by a rollin' sea.
+[Bm]It was easy [F#m7]makin' up my [G]mind;[G]
+[Bm]Now I can see for[F#m7]ever in your [Gadd2]eyes, your [A]eyes[A7]
+{end_of_verse}
+
+{start_of_chorus}
+[D]Didn't plan on [A]hangin' out in [G]Florida;[G]
+[D]never was too[A] good at standin' [G]still[G]
+[Em]Suddenly it's [C9]lookin' like I'm [F#m7]gonn[B7]a
+[Em]kill a few more [A]days in Jackson[D]ville.
+{end_of_chorus}
+
+{start_of_part: Instrumental}
+. | [D]     . . . | [A]       . . . | 
+. | [Gadd9] . . . | [Gadd9]   . . . | 
+. | [Bm]    . . . | [F#m]      . . . | 
+. | [G]     . . . | [A] . [Asus2] . |
+{end_of_part}
+
+{start_of_chorus}
+[D]Didn't plan on [A]hangin' out in [G]Florida;[G]
+[D]never was too[A] good at standin' [G]still[G]
+[Em]Suddenly it's [C9]lookin' like I'm [F#m7]gonn[B7]a
+[Em]kill a few more [A]days in Jackson[D]ville.[D][B7]
+[Em]kill a few more [A]days in Jackson[D]ville.[D][D]
+{end_of_chorus}
+
+{start_of_part: Outro}
+. | [Em] . . . | [C9] . . . | [D] . . . |
+{end_of_part}
