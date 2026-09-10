@@ -1,6 +1,6 @@
-# ADR 001: Streamlined Backing and Practice Track Ingestion Pipeline for Live Performance (Boss RC-500) and Solo Rehearsal
+# ADR 001: Streamlined Backing and Practice Track Ingestion Pipeline for Live Performance (Boss RC-500) and Rehearsal
 
-* **Status:** Accepted (Revised with PR Feedback)
+* **Status:** Accepted (Updated with Track Stack Architecture & Step-by-Step Protocols)
 * **Date:** September 10, 2026
 * **Deciders:** Scott Davidson (Keys/Vocals), Jeffrey Davis (Guitar)
 
@@ -8,162 +8,218 @@
 
 ## Context
 
-The performance duo utilizes multi-track backing assets purchased from Karaoke-Version to support live performance, collaborative rehearsals, and individual practice.
+The performance duo relies on custom multi-track backing assets purchased from Karaoke-Version (KV) to support three operational modes:
+
+1. **Live Performance (Rig-Driven):** Stage backing via a Boss RC-500 Loop Station feeding an Electro-Voice EVOLVE 30M PA, paired with automated In-Ear Monitor (IEM) count-in/click cues.
+2. **Collaborative Rehearsal (Rig-Driven):** In-room duo rehearsals with the RC-500 rig using full-band arrangements that fill in missing instrumentation (e.g., rhythm guitars, pads, backing vocals) while retaining IEM click automation.
+3. **Solo "Out-of-Rig" Practice (Mobile/Desktop-Driven):** Individual part-learning and ear training away from the pedalboard (via iPhone, iPad, Mac, or Google Drive) using direct `.mp3` mixdowns.
 
 ### Hardware & Signal Routing Baseline
 
-Live performance and in-room rehearsals are driven by a Boss RC-500 Loop Station:
+The Boss RC-500 natively features independent dual stereo tracks (**Track 1** and **Track 2**) with assignable routing:
 
-* **Track 1 (Reference Audio):** Configured as the **Click / Count-in** track, routed strictly to In-Ear Monitors (IEMs).
-* **Track 2 (Backing Audio):** Configured as the **Audience / Performance Backing** track (Bass + Drums/Percussion), routed to front-of-house PA (Electro-Voice EVOLVE 30M).
-* **Hardware Asset Format:** Direct USB "Storage" transfer mode on the RC-500 strictly requires uncompressed **44.1 kHz, 32-bit float, stereo interleaved `.wav**` files. While 24-bit files can be converted automatically via the Boss Tone Studio desktop app, writing directly via USB mass storage requires 32-bit float natively.
+* **Track 1 (Reference):** Dedicated **Click / Count-in** track routed exclusively to IEMs.
+* **Track 2 (Backing):** Dedicated **Audience / Rehearsal Backing** track routed to front-of-house PA.
+* **Hardware File Format Requirement:** Direct USB "Storage" mode transfer requires uncompressed **44.1 kHz, 32-bit float, stereo interleaved `.wav**` files. Both Track 1 and Track 2 audio files **must share the identical start time, end time, and sample duration** to prevent hardware loop-boundary errors, drift, or stutter on repeat.
 
-### Incumbent Process & Bottlenecks
+### The Operational Challenge
 
-The incumbent workflow takes **at least 30–45 minutes** per song due to high procedural overhead:
+The incumbent process treats every gig track as a studio production session—manually downloading 8–14 individual stems, pitch-shifting each tonal file one by one in Anytune, rebuilding a 20-track Logic project, manually gain-staging individual tracks, and drawing multi-lane automations. This inflates track prep to **at least 30–45 minutes per song**.
 
-1. **Exhaustive Stem Extraction:** Manually downloading 8–14 individual MP3 files per song from Karaoke-Version in the original key.
-2. **Multi-Pass Pitch Manipulation:** Running every individual tonal stem through Anytune Pro+ one at a time to achieve high-fidelity transposition and prevent artifacting on extreme shifts (e.g., up to -6 semitones).
-3. **Heavyweight Logic Reconstruction:** Importing up to 20 tracks into Logic Pro, converting all imported tracks to mono, gain-staging each individual track with meters/headphones, maintaining a duplicate "Click Reference" safety track, splitting regions to strip lead-in clicks, and automating click drops.
-4. **Export Bloat:** Manually soloing combinations to bounce 5 distinct WAV permutations (`CLICK.WAV`, `BACKING.WAV`, `PRX_LIVE.WAV`, `PRX_FULL.WAV`, `PRX_VOX.WAV`).
-5. **Storage & Maintenance Burden:** Storing multi-gigabyte Logic archives for every single song in the catalog.
+We need a lean, reproducible, gig-focused pipeline that eliminates production bloat while preserving stage audio quality and satisfying the guitarist's requirement for clear step-by-step repeatability.
 
 ---
 
 ## Requirements
 
-* **R1 (Dual-Track Hardware Output):** Generate sample-accurate, identical-duration, 44.1 kHz 32-bit float stereo `.wav` files for direct USB storage transfer to the RC-500 (Track 1 = Click; Track 2 = Backing/Rehearsal Bed).
-* **R2 (Click Automation):** IEM click on Track 1 must deliver the designated count-in measures, remain silent during standard rhythm sections, and re-engage during rhythm-less breakdowns or fermatas.
-* **R3 (High-Fidelity Transposition):** Support extreme key shifts (-3 to -6 semitones) without phase smearing or distortion. Rhythm and percussion transients must remain at original pitch and punch.
-* **R4 (Two-Tier Practice Permutations):**
-* **R4a (Tier 1 – Solo Out-of-Rig Practice):** Fast `.mp3` mixdowns in Google Drive for solo ear-training and part-learning on mobile, iPad, or Mac.
-* **R4b (Tier 2 – Collaborative Rig Rehearsal):** Synchronized 32-bit float `.wav` files on RC-500 Track 2 that feature full band arrangements minus the live performers' instruments.
+* **R1 (Dual-Track Hardware Output):** Generate two synchronized, sample-accurate 44.1 kHz 32-bit float stereo `.wav` files of identical duration (`CLICK.WAV` on Track 1; `BACKING.WAV` on Track 2) for direct USB transfer to the RC-500.
+* **R2 (Click Automation):** IEM click on Track 1 must deliver the designated count-in spikes, silence during rhythm sections, and re-engage only during rhythm-less breakdowns or fermatas.
+* **R3 (High-Fidelity Transposition):** Support extreme key shifts (-3 to -6 semitones) using Anytune Pro+ HQ algorithms. Rhythm and percussion transients must remain at nominal pitch with original transient punch (un-shifted).
+* **R4 (Two-Tier Practice Support):**
+* **R4a (Tier 1 – Solo Out-of-Rig):** Frictionless `.mp3` mixdowns downloaded directly from Karaoke-Version to Google Drive for solo ear-training.
+* **R4b (Tier 2 – Collaborative Rig Rehearsal):** Synchronized 32-bit float `.wav` mixes on RC-500 Track 2 with full band arrangements minus the live performers' instruments.
 
 
-* **R5 (Throughput Target):** Reduce baseline preparation time from **≥30 minutes** down to **<10 minutes** for standard production runs.
-
----
-
-## Options Considered
-
-### Option 1: Status Quo (14-Stem Download + Multi-Pass Anytune + Full Logic Mix Project)
-
-Download all individual stems, pitch-shift tonal tracks one-by-one in Anytune, build a 20-track Logic project, manually gain-stage all channels, strip lead-ins across all tracks, and bounce 5 WAV files.
-
-* **Pros:** Complete granular mixing control over individual drum elements; retains an open Logic file to bounce arbitrary combinations later.
-* **Cons:** Violates R5 (takes 30–45+ minutes per song); extreme human effort; massive disk bloat; single point of failure around the collaborator maintaining the DAW projects.
-
-### Option 2: Pure Web-Mixer Export (Karaoke-Version Only, Zero Local Processing)
-
-Download pre-mixed backing and click tracks directly from the website.
-
-* **Pros:** Fastest (<2 minutes).
-* **Cons:** **Fails R1, R2, and R3.** Outputs MP3s (unsupported by direct RC-500 storage mode); cannot mute click after count-in; website pitch-shifting degrades drums and fails on large semitone drops.
-
-### Option 3: Consolidated 3-Stem Export + Single-Pass Anytune + Rapid Logic Assembly (Accepted)
-
-Consolidate sub-mixes upstream in Karaoke-Version, run Anytune **once** on the combined tonal bed, and use a lightweight 3-track Logic template strictly for click trimming, end-marker setting, and 32-bit float bounce.
-
-* **Pros:** Meets R1 through R5; cuts downloads to 3 files; runs Anytune once; slashes prep time to **6–8 minutes**; satisfies RC-500 storage requirements directly.
-* **Cons:** If an alternate rehearsal permutation is needed later, it requires an additional 2-minute web download rather than un-muting inside an existing 20-track DAW project. (Accepted as a rare edge case with negligible impact).
+* **R5 (Throughput Target):** Reduce baseline prep time from **≥30 minutes** down to **<5 minutes** for original key tracks and **<10 minutes** for transposed tracks.
 
 ---
 
 ## Decision
 
-**Adopt Option 3: Consolidated 3-Stem Export + Single-Pass Anytune + Rapid Logic Assembly.**
+We adopt a **Dual-Path Ingestion Pipeline** unified inside a **Single Logic Pro Template using a Summing Track Stack**.
+
+* **Upstream Delegation:** When a song is in its original key, Karaoke-Version's web engine handles the mixdown. We do not download separate stems for drums, bass, and percussion when a single stereo sub-mix produces the exact same gig-ready audio.
+* **Tonal-Only Transposition:** When transposing, Anytune Pro+ is run **once** on an isolated tonal bed. Drums and percussion are never pitch-shifted.
+* **Summing Track Stack Architecture:** Instead of maintaining multiple project files or manually copying automation curves across separate instrument tracks, all backing instruments in Logic are grouped into a single **Summing Track Stack** (`Backing Master`). Leading click removal, volume balancing, and outro fades are executed on this single parent channel header.
 
 ```mermaid
 flowchart TD
-    subgraph KV[Karaoke-Version Web Mixer - Original Key]
-        KV1[Stem 1: Drums & Percussion<br/>Volume: 100%, Pan: Center<br/>Intro Click: Unchecked]
-        KV2[Stem 2: Tonal Bed<br/>• Gig: Solo Bass<br/>• Rehearsal: Bass + Guitars + Aux<br/>Intro Click: Unchecked]
-        KV3[Stem 3: Click Track<br/>Solo Click Only<br/>Intro Click: Checked]
-        KV4[Tier 1: Solo Practice Mixes<br/>• Jeff: Isolated Guitar<br/>• Scott: Mix Minus Keys/Vocals]
+    Start([New Song Ingestion]) --> Check{Key Transposition<br/>Required?}
+
+    %% Path A
+    Check -->|No: Original Key| PathA[Path A: Fast-Track Ingestion<br/>Target: <5 min]
+    subgraph FastTrack[Path A: 2 Downloads]
+        A1[KV Mixer: Intro Count CHECKED<br/>• File 1: Solo Bass + Drums/Perc<br/>• File 2: Solo Click Only]
+    end
+    PathA --> A1
+
+    %% Path B
+    Check -->|Yes: Key Shift Required| PathB[Path B: Transposition Pipeline<br/>Target: <10 min]
+    subgraph PitchTrack[Path B: 3 Downloads]
+        B1[KV Mixer: Intro Count CHECKED<br/>• File 1: Solo Drums/Perc<br/>• File 2: Tonal Bed Bass or Rehearsal Mix<br/>• File 3: Solo Click Only]
+        B2[Anytune Pro+ HQ:<br/>Single Pass on File 2 Tonal Bed<br/>Export 44.1 kHz WAV]
+    end
+    PathB --> B1 --> B2
+
+    %% Unified DAW Template
+    subgraph Logic[Unified Logic Pro Template: Single Project]
+        T1[Track 01: Click Stem]
+        subgraph Stack[Summing Track Stack: Backing Master]
+            T2[Track 02: Drums / Combined Mix]
+            T3[Track 03: Transposed Tonal WAV]
+        end
+        E1[2-Cut Edit:<br/>1. Cut Track 1 past count-in spikes<br/>2. Cut Track Stack header to strip lead-in clicks]
+        E2[Outro Fade / End Marker Set]
     end
 
-    subgraph Solo[Tier 1: Out-of-Rig Practice]
-        GD[Google Drive / Mobile / Mac<br/>MP3 Playback]
+    A1 -->|Import File 1 & 2| Logic
+    B1 & B2 -->|Import File 1, Transposed 2, & 3| Logic
+    Logic --> E1 --> E2
+
+    %% Output
+    subgraph RC500[Boss RC-500 Direct Storage]
+        W1[Track 1: CLICK.WAV<br/>32-bit Float Stereo WAV -> IEMs]
+        W2[Track 2: BACKING.WAV<br/>32-bit Float Stereo WAV -> PA]
     end
 
-    subgraph Pitch[Transposition Engine]
-        AT[Anytune Pro+ HQ Mode<br/>Single Pass on Tonal Bed: -3 to -6 Semitones<br/>Export 44.1 kHz WAV]
-    end
-
-    subgraph DAW[Lightweight Logic Pro Template - 3 Tracks]
-        L1[Track 1: Click Stem<br/>Split Region: Keep Count-in, Delete Measures 3+]
-        L2[Track 2: Drums MP3]
-        L3[Track 3: Transposed Tonal WAV]
-        L4[Set End Marker at Song Finish]
-    end
-
-    subgraph RC500[Boss RC-500 Storage Transfer]
-        R1[Track 1: CLICK.WAV<br/>44.1 kHz / 32-bit Float Stereo -> IEMs]
-        R2[Track 2: BACKING.WAV<br/>44.1 kHz / 32-bit Float Stereo -> PA]
-    end
-
-    %% Routing
-    KV4 -->|Direct MP3 Download| GD
-
-    KV1 -->|Direct Import| L2
-    KV2 --> AT
-    AT -->|Export WAV| L3
-    KV3 -->|Direct Import| L1
-
-    L1 -->|Bounce Stereo Out 1 1 1 1 to End| R1
-    L2 & L3 -->|Bounce Stereo Out 1 1 1 1 to End| R2
+    E2 -->|Solo Track 1 Bounce| W1
+    E2 -->|Solo Track Stack Bounce| W2
 
 ```
 
 ---
 
-## Operational Execution Protocol
+## Detailed Step-by-Step Standard Operating Procedures
 
-### Step 1: Upstream Sub-Mixing & Downloads (Karaoke-Version)
+### Phase 1: Karaoke-Version (KV) Extraction
 
-Ensure master song settings are at nominal pitch (0 semitones) and all active track faders are centered (0 pan) and normalized:
+1. Open song page on [karaoke-version.com](https://www.karaoke-version.com) and confirm key is set to **Original Key (0)**.
+2. Verify mixer settings:
+* **Intro click checkbox:** **CHECKED** (Mandatory: ensures sample-accurate grid alignment across all files).
+* **Pan:** Centered for all tracks.
+* **Faders:** 100% (nominal).
 
-1. **Stem 1 (Rhythm):** Solo Drums + Percussion. **Ensure "Intro click" checkbox is UNCHECKED.** Download MP3.
-2. **Stem 2 (Tonal Bed):** Mute Drums, Percussion, and Click. **Ensure "Intro click" checkbox is UNCHECKED.**
+
+
+#### Download Selections:
+
+* **Path A: Original Key (No Transpose)**
+* **File 1 (Backing Bed):** Click "S" (Solo) on **Drums**, then un-mute **Percussion** and **Bass** (plus any rhythm guitars/keys if building a rehearsal track). Click **Download MP3**.
+* **File 2 (Click):** Click "S" (Solo) on **Click** only. Click **Download MP3**.
+* *(Total: 2 downloads).*
+
+
+* **Path B: Transposed Key (Pitch Shift Required)**
+* **File 1 (Rhythm):** Solo **Drums** + un-mute **Percussion**. Click **Download MP3**.
+* **File 2 (Tonal Bed):** Mute Drums, Percussion, and Click.
 * *For Gig Track:* Solo **Bass** only.
-* *For Rehearsal Bed:* Unmute Bass, Guitars, Backing Vocals, Pads (leaving muted only what Scott and Jeff play live).
-* Download MP3.
+* *For Rehearsal Bed:* Un-mute Bass, Guitars, Backing Vocals, Pads (leave muted only what will be played live).
+* Click **Download MP3**.
 
 
-3. **Stem 3 (Click):** Solo Click only. **Ensure "Intro click" checkbox is CHECKED.** Download MP3.
-
-> **[Verification Gate - Leading Clicks & Bleed]:**
-> Jeff's legacy process noted that instrument stems contain leading clicks requiring manual deletion. In Karaoke-Version, unchecking the **"Intro click"** option on Stems 1 and 2 eliminates lead-in count clicks from instrument files entirely at the source.
-> *Action Item:* Test during the next 3 track builds. If confirmed clean, the multi-track region-splitting step is permanently eliminated. If audio bleed or sync displacement occurs, only then will a single split cut be applied at beat 1.
-
----
-
-### Step 2: Single-Pass Transposition (Anytune Pro+)
-
-If transposition is required:
-
-1. Import **Stem 2 (Tonal Bed MP3)** into Anytune Pro+.
-2. Set target semitones (e.g., `-2.00`, `-4.00`).
-3. Select **File > Export Tuned Song**:
-* Range: Whole track
-* Audio Format: WAV 44.1 kHz
+* **File 3 (Click):** Solo **Click** only. Click **Download MP3**.
+* *(Total: 3 downloads).*
 
 
-4. *Result:* Drums remain 100% untouched. Anytune runs exactly **once** on the combined harmonic instruments, preventing transient degradation while taking under 60 seconds.
 
 ---
 
-### Step 3: Rapid Assembly & Bouncing (Logic Pro Template)
+### Phase 2: Anytune Pro+ Transposition (Path B Only)
 
-Use a lean, pre-configured 3-track Logic Pro template (`Track 01: Click`, `Track 02: Drums`, `Track 03: Tonal Bed`):
+*Skip this phase entirely for Path A.*
 
-1. Drag the 3 files to position `1 1 1 1`.
-2. **Click Truncation:** On `Track 01 (Click)`, use `Command + T` (Split at Playhead) to keep the 1–2 measure count-in, delete the running click, and leave any sections where percussion drops out.
-3. **End Marker:** Drag Logic's project End Marker to immediately after the final ring-out.
-4. **Batch Bounce (Offline, 1 1 1 1 to End Marker):**
-* **RC-500 Track 1:** Solo `Track 01 (Click)` $\rightarrow$ Bounce as `CLICK.WAV`.
-* **RC-500 Track 2:** Solo `Track 02 (Drums)` + `Track 03 (Tonal Bed)` $\rightarrow$ Bounce as `BACKING.WAV`.
-* **Bounce Settings:** PCM, Wave, 44.1 kHz, **32-bit float**, Interleaved, Normalize: Off, Dithering: None.
+1. Launch **Anytune Pro+** on Mac.
+2. Drag and drop **File 2 (Tonal Bed MP3)** into Anytune.
+3. In the transport controls, locate the pitch shift panel (`b / #`).
+4. Set the pitch offset to the exact desired semitones (e.g., `-2.00 semi`, `-4.00 semi`). Verify HQ mode is active.
+5. Go to **File > Export Tuned Song...** and configure:
+* **Export Range:** Whole track
+* **Audio Format:** **WAV** (Do NOT choose M4A/AAC to avoid generation loss)
+* **Sample Rate:** 44.1 kHz
+
+
+6. Click **Export** $\rightarrow$ Saves as `Tonal_Transposed.wav`.
+
+---
+
+### Phase 3: Logic Pro X Assembly (Unified Template)
+
+#### Template Architecture Setup (One-Time Creation)
+
+Create a Logic template named `RC500_Master_Template.logicx`:
+
+* **Project Settings:** Sample Rate = 44.1 kHz, Audio Input = No Input.
+* **Track 01:** Audio Track named `Click` (Direct Stereo Output).
+* **Track Stack (`Backing Master`):** A **Summing Stack** (`Shift + Command + D`) containing:
+* `SubTrack 02 (Rhythm / Drums)`
+* `SubTrack 03 (Tonal / Bass)`
+* Output of SubTracks routes to `Bus 1 (Backing Master)`; `Backing Master` routes to Stereo Output.
+
+
+
+#### Execution Per Song:
+
+1. **Import & Justify:** Drag the source files into the template, snapping each file hard to **Position `1 1 1 1**`:
+* `Click.mp3` $\rightarrow$ `Track 01 (Click)`
+* Path A: `Backing.mp3` $\rightarrow$ `SubTrack 02` (leave SubTrack 03 empty)
+* Path B: `Drums.mp3` $\rightarrow$ `SubTrack 02`, `Tonal_Transposed.wav` $\rightarrow$ `SubTrack 03`
+
+
+2. **The 2-Cut Edit (Stripping Leading Clicks & Unwanted Metronome):**
+* Identify the count-in spikes on `Track 01 (Click)` (visually 4 or 8 distinct spikes).
+* **Edit 1 (Click Track):** Place playhead immediately after the last count-in spike. Press `Command + T` (Split). Select the remaining audio block (measures 3 to end) and hit `Delete`. *(Note: If a mid-song breakdown requires click, slice around that specific section and leave it intact).*
+* **Edit 2 (Backing Instruments):** Select the parent **`Backing Master` Track Stack header**. Place playhead at the downbeat of Measure 1 of the song (immediately after the count-in spikes). Press `Command + T`. Select the leading click block on the parent stack and hit `Delete`.
+* *Result:* The leading clicks are severed from all child instrument tracks simultaneously in one keystroke, leaving the downbeat of the music perfectly sample-aligned to the count-in.
+
+
+3. **Outro Truncation & Fade:**
+* If the song has an excessively long fade or outro, draw a volume automation fade or place a split cut directly on the parent **`Backing Master`** channel header.
+* Drag the master Logic **End Marker** in the ruler bar to a position just after the instruments ring out into silence.
+
+
+
+---
+
+### Phase 4: RC-500 Direct-Storage Bouncing
+
+Both files must be bounced using the exact same Cycle / End Marker range to guarantee sample-for-sample duration matching.
+
+1. **Bounce CLICK.WAV:**
+* Solo **`Track 01 (Click)`**.
+* Hit `Command + B` (Bounce). Configure:
+* **Destination:** PCM
+* **File Type:** WAVE
+* **Resolution:** **32-Bit Float**
+* **Sample Rate:** 44.1 kHz
+* **File Format:** Interleaved
+* **Dither:** None
+* **Normalize:** Off
+* **Start:** `1 1 1 1` | **End:** Project End Marker
+
+
+* Name: `CLICK.WAV`.
+
+
+2. **Bounce BACKING.WAV:**
+* Un-solo Track 01. Solo the **`Backing Master`** Track Stack.
+* Hit `Command + B` (Bounce) with the exact same settings.
+* Name: `BACKING.WAV`.
+
+
+3. **Verification & Transfer:**
+* Connect Boss RC-500 via USB in **Storage Mode**.
+* Copy `CLICK.WAV` to Track 1 audio folder; copy `BACKING.WAV` to Track 2 audio folder for the designated memory slot.
+* *Sanity Check:* Perform macOS "Get Info" (`Command + I`) on both files. Duration (minutes/seconds) and byte sizes will match identically.
 
 
 
@@ -173,12 +229,17 @@ Use a lean, pre-configured 3-track Logic Pro template (`Track 01: Click`, `Track
 
 ### Positive
 
-* **Throughput Target Met (R5):** Standard track generation drops from **35+ minutes to 6–8 minutes**.
-* **Zero RC-500 Ingestion Friction (R1):** Bouncing 32-bit float files natively satisfies RC-500 USB Mass Storage transfer mode without relying on Boss Tone Studio conversion passes.
-* **Preserved Audio Quality (R3):** Extreme key changes retain full fidelity with zero flanging or smearing on drum/percussion transients.
-* **Elimination of Multi-Track Redundancy:** Replaces 20-track channel-stripping, manual mono conversion, and complex bus automation with a clean, 3-track linear template.
+* **Throughput Target Fully Met (R5):**
+* Original key tracks drop to **under 4 minutes** (2 downloads, 1 cut, 2 bounces).
+* Transposed tracks drop to **7–9 minutes** (3 downloads, 1 Anytune pass, 1 cut, 2 bounces).
 
-### Trade-offs & Mitigations
 
-* **A Priori Arrangement Locking:** In the rare event that a performance arrangement requires adding back an instrument later (e.g., re-introducing a rhythm guitar), a new Stem 2 must be downloaded from Karaoke-Version. Because Stem 1 (Drums) and Stem 3 (Click) are preserved, rebuilding the new mix takes less than 3 minutes.
-* **Fixed Internal Drum Balance:** Adjusting the relative volume between kick and snare cannot be done inside the template; it must be balanced via the web sliders on Karaoke-Version prior to download.
+* **Guaranteed RC-500 Stability (R1):** Native 32-bit float export guarantees direct USB Mass Storage compatibility without third-party app conversions, while unified End-Marker rendering eliminates pedal loop-boundary glitches.
+* **Elimination of Multi-Track Overhead:** The Summing Track Stack provides global volume, mute, and outro control over all instruments as a single unit without needing separate Logic projects or tedious per-track automation copying.
+* **Pristine Stage Audio (R3):** Extreme transpositions remain clean because drums bypass Anytune completely, while tonal beds receive high-fidelity processing.
+* **Clear Division of Roles:** Rehearsal part-learning is shifted to instant Google Drive MP3s (Tier 1), keeping the production DAW workspace clean and focused solely on gig deliverables.
+
+### Trade-offs & Operational Rules
+
+* **Locked Internal Drum Balances:** The relative balance between snare, kick, and cymbals is fixed at Karaoke-Version download time. If an individual drum element is too hot, it must be adjusted on the KV web mixer before downloading.
+* **A Priori Rehearsal Decisions:** If a duo rehearsal requires adding back an instrument later (e.g., adding rhythm guitar back into the backing bed), a new Tonal Bed stem must be downloaded. Because drums and click stems are already captured, building that revision takes less than 3 minutes.
