@@ -2,9 +2,15 @@
 {artist: Billy Joel}
 {key: F}
 {duration: 3:22}
-{tempo: 90}
+{tempo: 93}
+{meta: nord: P55}
+{meta: countin: 4}
+{meta: backing: RC}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P55   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
 {comment: Intro}
