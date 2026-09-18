@@ -2,9 +2,13 @@
 {artist: Alan Parsons Project}
 {key: D}
 
-{comment: Intro}
-[Bm] [G][Bm][G]
+{start_of_part: Intro}
+. | [Bm] . . . | [Bm] . . . |
+. | [G]  . . . | [G]  . . . | 
 
+. | [Bm] . . . | [Bm] . . . |
+. | [G]  . . . | [G]  . . . | 
+{end_of_part}
 
 {start_of_verse}
 [Dadd9]Don't [D]think [Dadd9]sorry's [D]easily said[Bm9]
@@ -84,5 +88,10 @@ To know that
 {end_of_chorus}
 
 
-{comment: Solo}
-[Bm]Bm [G]G [Bm]Bm [G]G
+{start_of_part: Solo / Outro}
+. | [Bm] . . . | [Bm] . . . |
+. | [G]  . . . | [G]  . . . | 
+
+. | [Bm] . . . | [Bm] . . . |
+. | [G]  . . . | [G]  . . . | 
+{end_of_part}
