@@ -3,18 +3,28 @@
 {key: A}
 {duration: 4:00}
 {tempo: 125}
+{meta: countin: 8}
+{meta: backing: RC}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
-{comment:**  meta: rc-slot: 90   }
+{comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
-{comment: Intro 1}
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
+{start_of_part: Arpegiator - 7 measures}
+. | [A] . [Dsus2] . | [E] . . . |
+. | [A] . [Dsus2] . | [E] . . . |
+. | [A] . [Dsus2] . | [E] . . . |
+. | [A] . [Dsus2] . |
+{end_of_part}
 
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
+{start_of_part: Intro}
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
+
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
+{end_of_part}
 
 {start_of_verse}
 [A]Summer,[D]  [E] it turns me upside [A]down[D]

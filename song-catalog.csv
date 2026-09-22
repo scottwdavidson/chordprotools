@@ -23,7 +23,8 @@ If I Ain't Got You,Alicia Keys,G,,,,,,,,,,ABC:A:AliciaKeys:IfIAintGotYou,,3,FULL
 One Way Out,The Allman Brothers Band,A,,110,,,,,,,,ABC:A:AllmanBrothers:OneWayOut,,8,FULL,Southern Rock,Blues Rock,false
 Southbound,Allman Brothers,F,,,,,,,,,,ABC:A:AllmanBrothers:Southbound,,7,FULL,Southern Rock,,false
 A Horse With No Name,America,Em,3:40,123,,,,,,,,ABC:A:America:AHorseWithNoName,,3,FULL,Folk Rock,,false
-Lonely People,America,D,2:10,155,,,M15(A3),,,,,ABC:A:America:LonelyPeople,,3,FULL,Soft Rock,,false
+Lonely People,America,G,2:10,155,,,M15(A3),,,,,ABC:A:America:LonelyPeople,,3,FULL,Soft Rock,,false
+Lonely People,America,D,2:10,155,,,M15(A3),,,,,ABC:A:America:LonelyPeople-d,,3,FULL,Soft Rock,,false
 Today's The Day,America,E,3:00,101,4,BB,P54,,,,,ABC:A:America:TodaysTheDay,,2,FULL,Soft Rock,,false
 Ventura Highway,America,G,3:20,130,,,,,,,,ABC:A:America:VenturaHighway,,4,FULL,Folk Rock,,false
 You Can Do Magic,America,Em,3:40,130,8,,,,,,,ABC:A:America:YouCanDoMagic,,5,FULL,Soft Rock,Pop,false
@@ -116,7 +117,7 @@ I Won't Last A Day Without You,Carpenters,F,3:20,85,4,,P54,,,,,ABC:C:Carpenters:
 There's A Kind Of Hush,Carpenters,G,2:35,128,,,,,,,,ABC:C:Carpenters:TheresAKindOfHush,,4,FULL,Soft Pop,,false
 Before He Cheats,Carrie Underwood,F#m,2:50,150,,,,,,,,ABC:C:CarrieUnderwood:BeforeHeCheats,,8,FULL,Country Rock,,true
 Drive,The Cars,B,,,,,,,,,,ABC:C:Cars:Drive,,3,FULL,New Wave,,false
-Magic,The Cars,A,4:00,125,,RC,,,,,,ABC:C:Cars:Magic,,7,FULL,New Wave,Pop Rock,false
+Magic,The Cars,A,4:00,125,8,RC,,,,,,ABC:C:Cars:Magic,,7,FULL,New Wave,Pop Rock,false
 My Best Friend's Girl,The Cars,F,3:45,130,,,,,,,,ABC:C:Cars:MyBestFriendsGirl,,7,FULL,New Wave,Pop Rock,false
 You Might Think,The Cars,D,3:04,140,,,,,,,,ABC:C:Cars:YouMightThink,,7,FULL,New Wave,,false
 Wild World,Cat Stevens,Dm,3:30,152,,,,,,,,ABC:C:CatStevens:WildWorld,,4,FULL,Folk,,false

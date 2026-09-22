@@ -1,9 +1,8 @@
 {title: Lonely People}
 {artist: America}
-{key: D}
+{key: G}
 {duration: 2:10}
 {tempo: 155}
-{meta: nord: M15(A3)}
 {meta: nord: M15(A3)}
 
 {comment:***********************************************}
@@ -11,64 +10,64 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| [D] . . . | [Bm] . . . | [F#m]  . . . | [F#m]  .  .  . |
-| [D] . . . | [Bm] . . . | [F#m]  . . . | [A]    .  .  . |
-| [G] . . . | [A]  . . . | [D] . [D/C#] . | [Bm7]  .  [A]  . |
-| [G] . . . | [A]  . . . | [D]  .  .  . | [A]    .  .  . |
+| [G] . . . | [Em] . . . | [Bm]  . . . | [Bm]  .  .  . |
+| [G] . . . | [Em] . . . | [Bm]  . . . | [D]    .  .  . |
+| [C] . . . | [D]  . . . | [G] . [G/F#] . | [Em7]  .  [D]  . |
+| [C] . . . | [D]  . . . | [G]  .  .  . | [D]    .  .  . |
 
 
 {start_of_verse}
-[D] This is for all[Bm]  the lonely peo[F#m]ple
-[D] Thinking that life[Bm] has passed them by[F#m]_[A]
+[G] This is for all[Em]  the lonely peo[Bm]ple
+[G] Thinking that life[Em] has passed them by[Bm]_[D]
 {end_of_verse}
 
 
 {start_of_chorus}
-[G] Don't give up[A] until you_  [D]_  [D/C#]drink from the sil[Bm7]ver cup[A]_[G] 
-[G]And ride that [A]highway in the sky.[D] [A]
+[C] Don't give up[D] until you_  [G]_  [G/F#]drink from the sil[Em7]ver cup[D]_[C] 
+[C]And ride that [D]highway in the sky.[G] [D]
 {end_of_chorus}
 
 
 {start_of_verse}
-[D] This is for all[Bm]  the single peo[F#m]ple
-[D] Thinking that love[Bm] has left them dry[F#m]_[A]
+[G] This is for all[Em]  the single peo[Bm]ple
+[G] Thinking that love[Em] has left them dry[Bm]_[D]
 {end_of_verse}
 
 
 {start_of_chorus}
-[G] Don't give up[A] until you_  [D]_  [D/C#]drink from the sil[Bm7]ver cup[A]_[G] 
-[G]You never [A]know until you try.[D] [A]
+[C] Don't give up[D] until you_  [G]_  [G/F#]drink from the sil[Em7]ver cup[D]_[C] 
+[C]You never [D]know until you try.[G] [D]
 {end_of_chorus}
 
 
 {comment: Interlude}
-Well, I'm [G]on [D/F#]my  [Em]way.
-Yes, I'm [G]back [D/F#]to  [Em]stay.
-Well, I'm [G]on [D/F#]my  [Em]way b[A]ack [D]home.
+Well, I'm [C]on [G/B]my  [Am]way.
+Yes, I'm [C]back [G/B]to  [Am]stay.
+Well, I'm [C]on [G/B]my  [Am]way b[D]ack [G]home.
 
 
 {comment: Piano Solo }
-| [D] . . . | [Bm] . . . | [F#m]  . . . | [F#m]  .  .  . |
-| [D] . . . | [Bm] . . . | [F#m]  . . . | [A]    .  .  . |
-| [G] . . . | [A]  . . . | [D] . [D/C#] . | [Bm7]  .  [A]  . |
-| [G] . . . | [A]  . . . | [D]  .  .  . | [A]    .  .  . |
+| [G] . . . | [Em] . . . | [Bm]  . . . | [Bm]  .  .  . |
+| [G] . . . | [Em] . . . | [Bm]  . . . | [D]    .  .  . |
+| [C] . . . | [D]  . . . | [G] . [G/F#] . | [Em7]  .  [D]  . |
+| [C] . . . | [D]  . . . | [G]  .  .  . | [D]    .  .  . |
 
 {comment: Guitar Solo }
-| [D] . . . | [Bm] . . . | [F#m]  . . . | [F#m]  .  .  . |
-| [D] . . . | [Bm] . . . | [F#m]  . . . | [A]    .  .  . |
-| [G] . . . | [A]  . . . | [D] . [D/C#] . | [Bm7]  .  [A]  . |
-| [G] . . . | [A]  . . . | [D]  .  .  . | [A]    .  .  . |
+| [G] . . . | [Em] . . . | [Bm]  . . . | [Bm]  .  .  . |
+| [G] . . . | [Em] . . . | [Bm]  . . . | [D]    .  .  . |
+| [C] . . . | [D]  . . . | [G] . [G/F#] . | [Em7]  .  [D]  . |
+| [C] . . . | [D]  . . . | [G]  .  .  . | [D]    .  .  . |
 
 
 {start_of_verse}
-[D] This is for all[Bm]  the lonely peo[F#m]ple
-[D] Thinking that life[Bm]  has passed them by[F#m]_[A]
+[G] This is for all[Em]  the lonely peo[Bm]ple
+[G] Thinking that life[Em]  has passed them by[Bm]_[D]
 {end_of_verse}
 
 {start_of_chorus}
-[G] Don't give up[A] until you_  [D]_  [D/C#]drink from the sil[Bm7]ver cup[A]_[G] 
-[G] And never ta[A]ke you down or_  [D]_  [D/C#]never gi[Bm7]ve you up[A]_[G] 
+[C] Don't give up[D] until you_  [G]_  [G/F#]drink from the sil[Em7]ver cup[D]_[C] 
+[C] And never ta[D]ke you down or_  [G]_  [G/F#]never gi[Em7]ve you up[D]_[C] 
 {end_of_chorus}
 
 {comment: Outro}
-[G] You never [A]know until you [Bm]try.
+[C] You never [D]know until you [Em]try.
