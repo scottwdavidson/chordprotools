@@ -1,125 +1,155 @@
 {title: The Boys Are Back In Town}
 {artist: Thin Lizzy}
-{key: Ab}
-{tempo: 162}
+{key: G}
 {duration: 4:00}
+{tempo: 162}
+{time: 4/4}
+{meta: countin: 8}
+{meta: backing: RC}
+
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
+{comment:***********************************************}
 
 {start_of_part: Intro}
-[Ab][Bb][Db][Ab]
-[Bb][Db][Ab][Bb]
-[Db][Ab][Bb]
-[Db]
+. | [G] . . . | [G] . . . | [A] . . . | [C] . . . |
+
+. | [G] . . . | [G] . . . | [A] . . . | [C] . . . |
+
+. | [G] . . . | [G] . . . | [A] . . . | [C] . . . |
+
+. | [G] . . . | [G] . . . | [A] . . . | [C] . . . |
 {end_of_part}
 
 
 {start_of_verse: Verse 1}
-[Ab]Guess who just got back[Cm]  today
-[Db]  Them wildeyed boys that [Fm]had been away
-[Cm]  Haven't changed that [Fm]much to say
-[Bbm]   But man, I still think [Db/Eb]them cats are crazy
-[Ab]  They were askin'[Cm]  if you were around
-[Db]  How you was, where [E]you could be found
-[Cm]  Told 'em you were li[Fm]vin' downtown
-[Bbm]   Drivin' all the old men [Db/Eb]crazy
+[G]Guess who just got ba[Bm]ck today?
+[C] Them wild-eyed boys that [Em]had been away.
+[Bm] Hadn't changed, hadn't [Em]much to say.
+[Am] But man, I still think [C/D]them cats are crazy.
+
+[G] They were askin’ if [Bm]you were around,
+[C] How you was, where [D#]you could be found.
+[Bm] Told ’em you were livin’ [Em]downtown,
+[Am] Drivin’ all the old men [C/D]crazy.
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-The [Ab]boys are back in town
-[Bb][Db]
-[I]
-The boys[Ab]  are back in town
-The boys[Bb]  are back in town
-[Db]  The boys[Ab]  are back in town
-The [Bb]boys are back in town[Db]
+The [G]boys are back in town  (The boys are back in town)  [A]___  [C]___ (I said)
+The [G]boys are back in to___wn  (The b[A]oys are back in town)  [C]
+
+The [G]boys are back in town (The boys are back in town)
+The [A]boys are back in town (The b[C]oys are back in town)
 {end_of_chorus}
 
 
-{comment: Post - Chorus}
-[Ab5][Bb5][C5][Eb5]
-[Ab5][Bb5][C5][Eb5]
+{start_of_part: Interlude I}
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+{end_of_part}
 
 
 {start_of_verse: Verse 2}
-[Ab]  You know that chick that used [Cm]to dance a lot
-[Db]  Every night she'd be [Fm]on the floor, shakin' what she got
-[Cm]  When I say she [Fm]was cool she was red hot
-[Bbm]   I mean, she was [Db/Eb]steamin'
-[Ab]  And that time over[Cm]  at Johnny's place,
-[Db]  Well, this chick got up [E]and she slapped Johnny's face
-[Cm]  Man, we just fell [Fm]about the place
-[Bbm]   If that chick don't want to know, [Db/Eb]forget her
+[G] You know that chick that used [Bm]to dance a lot?
+[C] Every night she’d be on the [Em]floor, shakin’ what she got.
+[Bm] When I say she [Em]was cool she was red hot.
+[Am] I mean, she was [C/D]steamin’!
+
+
+[G] And that time over at J[Bm]ohnny’s place,
+[C] Well, this chick got up [D#]and she slapped Johnny’s face.
+[Bm] Man, we just fell [Em]about the place.
+[Am] If that chick don’t want to know, [C/D]forget her.
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-The [Ab]boys are back in town
-[Bb][Db]
-[I]
-The boys[Ab]  are back in town
-The boys[Bb]  are back in town
-[Db]  The boys[Ab]  are back in town
-The [Bb]boys are back in town[Db]
+The [G]boys are back in town  (The boys are back in town)  [A]___  [C]___ (I said)
+The [G]boys are back in to___wn  (The b[A]oys are back in town)  [C]
+
+The [G]boys are back in town (The boys are back in town)
+The [A]boys are back in town (The b[C]oys are back in town)
 {end_of_chorus}
 
 
-{comment: Post - Chorus}
-[Ab5][Bb5][C5][Eb5]
-[Ab5][Bb5][C5][Eb5]
-[Dbsus4][Db]
+{start_of_part: Interlude II}
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+
+. | [Csus4] . . . | [C] . . . |
+{end_of_part}
 
 
 {start_of_bridge: Bridge}
-[Cm]  Spread the word[Fm]  around
-[Bbm]   Guess who's back[Db]  in town
-[Fm]   [Dbsus4]       [Db]  Just spread the [Cm]word around
-[Fm][Bbm][Db][Fm]
+[Bm] Spread the wo[Em]rd around
+[Am] Guess who’s back[C] in town
+
+. | [Em] . . . | [Em] . . . | [Csus4] . . . | [C] . . . |
+
+Just spread the [Bm]word around!
+
+. | [Em] . . . | [Am] . . . | [C] . . . |
+
+. | [Em] . . . | [Em] . . . |
 {end_of_bridge}
 
 
 {start_of_verse: Verse 3}
-[Ab]  Friday night they'll be dressed [Cm]to kill
-[Db][Fm]
-[Down][Bar][Grill]
-[Cm]  The drink will flow[Fm]  and the blood will spill
-[Bbm]   And if the boys want to fight, you [Db/Eb]better let 'em
-[Ab]  That jukebox in the cor[Cm]ner blastin' out my favorite song
-[Db]  The nights are getting warmer, [E]it won't be long
-[Cm]  Won't be long till [Fm]the summer comes
-[Bbm]   Now that the boys are here [Db/Eb]again
+[G] Friday night they’ll be dr[Bm]essed to kill
+[C] Down at Dino's B[Em]ar and Grill.
+[Bm] The drink will flow and the [Em]blood will spill,
+And if the [Am]boys want to fight, you better [C/D]let ’em.
+
+[G] Pour Choices on s[Bm]tage playin' our my favorite songs.
+[C] The nights are getting w[D#]armer, it won’t be long.
+[Bm] Won’t be long till [Em]summer comes,
+[Am] Now that the boys are here [C/D]again.
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-The [Ab]boys are back in town
-[Bb]   [Db]  The boys[Ab]  are back in town
-The boys[Bb]  are back in town
-[Db]  The boys[Ab]  are back in town
-[Bb]   [Db]   [Ab]The boys are back in town
-[Bb]  The boys are back
-The [Db]boys are back
+The [G]boys are back in town  (The boys are back in town)  [A]___  [C]___ (I said)
+The [G]boys are back in to___wn  (The b[A]oys are back in town)  [C]
+
+{comment: Softly}
+The [G]boys are back in town (The boys are back in town)
+[A] Spread the wo[C]rd around.
+
+The [G]boys are back in town (The boys are back in town)
+The [A]boys are back, the b[C]oys are back.
 {end_of_chorus}
 
 
-{start_of_part: Interlude}
-[Ab5][F5][E5][F5]
-[E5][Db5][Eb5][Ab5]
-[F5][E5][F5][E5]
-[Db5][Eb5]
+{start_of_part: Interlude III}
+. | [G] . . . | [G] . . . | [G7] . . . | [Em] . . . |
+. | [G7] . . . | [Em] . . . | [C] . . . | [D] . . . |
+
+. | [G] . . . | [G] . . . | [G7] . . . | [Em] . . . |
+. | [G7] . . . | [Em] . . . | [C] . . . | [D] . . . |
 {end_of_part}
 
 
 {start_of_part: Outro}
-[Ab5][Bb5][C5][Eb5]
-[Ab5][Bb5][C5]
-[Eb5]The boys are back in town[Ab5]   again
-[Bb5]    [C5]   [Eb5]Been hangin' down at Di[Ab5]no's
-[Bb5][C5][Eb5]
-{end_of_part}
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+                                      (The boys are back in town again!)
 
 
-{comment: Fade Out}
-[Ab5][Bb5][C5][Eb5]
-[Ab5]The boys are back in town[Bb5]   again
-[C5][Eb5][Ab5][Bb5]
-[C5]X[Eb5][Ab5]
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+                                      (They're hangin' out at Dino's)
+
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+
+
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+                                      (The boys are back in town again!)
+
+. | [G] . . . | [G] . . . | [G] . . . | [C] . . . |
+
+
+[G]
