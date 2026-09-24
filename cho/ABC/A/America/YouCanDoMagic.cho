@@ -10,7 +10,9 @@
 {comment:***********************************************}
 
 {comment: Intro}
-|  [Em]   |  [Bm]   |   [C]    |   [D]   |
+. |  [Em] . [D] [C]  |  [C]     .  .  [D] |
+. |  [Em] . [Bm7]    |  [Cmaj7] . [D] .   |
+. |  [Em] . [Bm7]    |  [Cmaj7] . [D] .   |
 
 {start_of_verse}
 I [Em]never be[Bm]lieved in [C]things that [D]I couldn't see[Em]
@@ -38,12 +40,19 @@ A [D]heart of [Em]stone can [Bm]turn to [C]clay[D]
 [Em]Doo, doo[Bm], doo [C], doo[D]
 
 {start_of_verse}
-And when the rain is beatin' upon the window pane
-And when the night it gets so cold, when I can't sleep
-Again you come to me
-I hold you tight, the rain disappears
-Who would believe it
-With a word you dry my tears
+[Em]And [Bm7]when the [Cmaj7]rain [D]is beatin' 
+up[Em]on the [Bm7]window pane
+[Cmaj7]--[D]And when the 
+ni[Em]ght [Bm7]it gets so cold,
+[Cmaj7]-- [D]when I can't 
+[Em]sleep__[Bm7]
+A[C]gain [D]you come to 
+[Em]me __[Bm7]
+[Cmaj7]I hold [D]you tight, the 
+[Em]rain disap[Bm7]pears
+[Cmaj7]_Who [D]would believe 
+[Em]it__[Bm7]
+[C]With a word you [D]dry my tears
 {end_of_verse}
 
 {comment: Middle 8}
