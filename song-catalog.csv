@@ -378,6 +378,7 @@ Torn,Natalie Imbruglia,F,3:35,96,4,RC,P51,,,,,MNO:N:NatalieImbruglia:Torn,Torn,5
 Forever In Blue Jeans,Neil Diamond,A,,,,,,,,,,MNO:N:NeilDiamond:ForeverInBlueJeans,,6,FULL,Pop,,false
 Sweet Caroline,Neil Diamond,B,3:24,63,,,,,,,,MNO:N:NeilDiamond:SweetCaroline,,7,FULL,Pop,,true
 Harvest Moon,Neil Young,D,3:45,90,,,,,,,,MNO:N:NeilYoung:HarvestMoon,,3,FULL,Folk Rock,,false
+Bizarre Love Triangle,New Order,C,2:50,104,,,,,,,,MNO:N:NewOrder:BizarreLoveTriangle,,3,FULL,Pop Rock,,false
 You Get What You Give,New Radicals,D,4:20,114,,,,,,,,MNO:N:NewRadicals:YouGetWhatYouGive,,7,FULL,Pop Rock,,true
 Put A Little Love On Me,Niall Horan,G,,,,,,,,,,MNO:N:NiallHoran:PutALittleLoveOnMe,,4,FULL,Pop,,false
 This Town,Niall Horan,G,,,,,,,,,,MNO:N:NiallHoran:ThisTown,,3,FULL,Pop,Ballad,false
@@ -440,7 +441,7 @@ Be My Baby,The Ronettes,A,2:40,138,,,,,,,,PQR:R:Ronettes:BeMyBaby,,6,FULL,Pop,,f
 There's No Getting Over Me,Ronnie Milsap,E,3:30,100,4,RC,P55,,,E,,PQR:R:RonnieMilsap:TheresNoGettingOverMe,,6,FULL,Country,,false
 There's No Getting Over Me,Ronnie Milsap,C,3:30,100,4,RC,P55,,,E,,PQR:R:RonnieMilsap:TheresNoGettingOverMe-c,,6,FULL,Country,,false
 Smooth Operator,Sade,Am,3:30,120,0,,53,,,,,STU:S:Sade:SmoothOperator,,4,FULL,Soul,R&B,false
-I'm Not The Only One,Sam Smith,F,3:45,92,,,,,,,,STU:S:SamSmith:ImNotTheOnlyOne,,,FULL,Pop,Soft Rock,false
+I'm Not The Only One,Sam Smith,F,3:45,92,,,,,,,,STU:S:SamSmith:ImNotTheOnlyOne,,4,FULL,Pop,Soft Rock,false
 Chevy Van,Sammy Johns,A,,,,,,,,,,STU:S:SammyJohns:ChevyVan,,5,FULL,Soft Rock,,false
 Black Magic Woman,Santana,Dm,,,,,,,,,,STU:S:Santana:BlackMagicWoman,,6,FULL,Latin Rock,Blues Rock,false
 Corazon Espinado,Santana,Bm,3:30,120,0,,P00,,,,4/4,STU:S:Santana:CorazonEspinado,,7,FULL,Latin Rock,,false
