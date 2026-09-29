@@ -3,7 +3,7 @@
 {key: E}
 {duration: 3:00}
 {tempo: 126}
-{meta: nord: N51}
+{meta: nord: P42}
 {meta: countin: 8}
 {meta: backing: RC}
 {meta: rc-slot: 40}
@@ -11,7 +11,7 @@
 {meta: performance: E}
 
 {comment:***********************************************}
-{comment:**  meta: nord: N51   }
+{comment:**  meta: nord: P42   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 40   }
