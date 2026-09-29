@@ -1,71 +1,76 @@
 {title: Sunshine}
 {artist: Jonathan Edwards}
-{key: A}
+{key: G}
 {duration: 3:00}
 {tempo: 125}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 
 {start_of_part: Intro}
-[A]
+. | [G] . . . | [G] . . . |
 {end_of_part}
 
 
 {start_of_verse: Verse 1}
-[A]Sunshine go away today
-I don't feel much like [E]dancing
-[A]Some man's gone, he's tried to run my life
-Don't know what he's [D]asking
+[G]Sunshine go away today
+I don’t feel much like [D]dancing
+[G]Some man’s gone, he’s tried to run my life
+Don’t know what he’s [C]asking
 {end_of_verse}
 
 
 {start_of_verse: Verse 2}
-[A]He tells me I'd better get in line
-Can't hear what he's [E]saying
-When [A]I grow up I'm going to make it mine
-But these aren't dues I been [D]paying
+[G]He tells me I’d better get in line
+Can’t hear what he’s [D]saying
+When [G]I grow up I’m going to make it mine
+But these aren’t dues I been [C]paying
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-[D]How much does it cost,[A] I'll buy it
-The [D]time is all we've lost,[A] I'll try it
-But [D]he can't even run[A] his own life
-I'll be [G]damned if he'll run mine,[E] Sunshine
+[C]How much does it cost,[G] I’ll buy it
+The [C]time is all we’ve lost,[G] I’ll try it
+But [C]he can’t even run[G] his own life
+I’ll be [F]damned if he’ll run mine,[D] Sunshine
 {end_of_chorus}
 
 
 {start_of_verse: Verse 3}
-[A]Sunshine go away today
-I don't feel much like [E]dancing
-[A]Some man's gone, he's tried to run my life
-Don't know what he's [D]asking
+[G]Sunshine go away today
+I don’t feel much like [D]dancing
+[G]Some man’s gone, he’s tried to run my life
+Don’t know what he’s [C]asking
 {end_of_verse}
 
 
 {start_of_verse: Verse 4}
-[A]Working starts to make me wonder where
-The fruits of what I do are [E]going
-[A]He says in love and war all is fair
-But he's got cards he ain't [D]showing
+[G]Working starts to make me wonder where
+The fruits of what I do are [D]going
+[G]He says in love and war all is fair
+But he’s got cards he ain’t [C]showing
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-[D]How much does it cost,[A] I'll buy it
-The [D]time is all we've lost,[A] I'll try it
-But [D]he can't even run[A] his own life
-I'll be [G]damned if he'll run mine,[E] Sunshine
+[C]How much does it cost,[G] I’ll buy it
+The [C]time is all we’ve lost,[G] I’ll try it
+But [C]he can’t even run[G] his own life
+I’ll be [F]damned if he’ll run mine,[D] Sunshine
 {end_of_chorus}
 
 
 {start_of_verse: Verse 5}
-[A]Sunshine come on back another day
-I promise you I'll be [E]singing
-[A]This old world, she's gonna turn around
-Brand new bells'll be [D]ringing
+[G]Sunshine come on back another day
+I promise you I’ll be [D]singing
+[G]This old world, she’s gonna turn around
+Brand new bells’ll be [C]ringing
 {end_of_verse}
 
 
 {start_of_part: Outro}
-[D] [A/D] [Bmadd11/D] [D] [A/D] [Bmadd11/D][A]
+. | [C] . [G/C] [Amadd11/C] | [C] . [G/C] [Amadd11/C] |
+
+[G]
 {end_of_part}

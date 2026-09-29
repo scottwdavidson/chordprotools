@@ -1,93 +1,99 @@
 {title: Sundown}
 {artist: Gordon Lightfoot}
-{key: E}
+{key: G}
 {duration: 3:00}
 {tempo: 106}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
-[E5]
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 {end_of_part}
 
 
 {start_of_verse: Verse 1}
-I can [E5]see her lyin' back
-In her satin dress
-In a [B7sus4]room  where you do
-What you [E5]don't confess
+I can [G]see her lyin’ back in her satin dress
+In a [D7sus4]room where you do what you [G]don’t confess.
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-[E5]  Sundown you'd [A]better take care
-If I [D]find you been creepin' 'round
-[E5]My back stairs
-Sundown you'd [A]better take care
-If I [D]find you been creepin' 'round
-[E5]My back stairs
+[G] Sundown you’d [C]better take care
+If I [F]find you been creepin’ ’round [G]my back stairs.
+
+[G5] Sundown you’d [C]better take care
+If I [F]find you been creepin’ ’round [G]My back stairs
 {end_of_chorus}
 
 
 {start_of_verse: Verse 2}
-She's been [E5]lookin' like a queen
-In a sailor's dream
-And she [B7sus4]don't always say
-What she [E5]really means
+She’s been [G]lookin’ like a queen in a sailor’s dream
+And she [D7sus4]don’t always say what she [G]really means
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-[E5]  Sometimes I [A]think it's a shame
-When I [D]get feelin' better
-When I'm [E5]feelin' no pain
-Sometimes I [A]think it's a shame
-When I [D]get feelin' better
-When I'm [E5]feelin' no pain
+[G]  Sometimes I [C]think it’s a shame
+When I [F]get feelin’ better when I’m [G]feelin’ no pain.
+
+Sometimes I [C]think it’s a shame
+When I [F]get feelin’ better when I’m [G]feelin’ no pain.
 {end_of_chorus}
 
 
 {start_of_verse: Verse 3}
-I can [E5]picture every move
-That a man could make
-Getting [B7sus4]lost  in her lovin'
-Is your [E5]first mistake
+I can [G]picture every move that a man could make
+Getting [D7sus4]lost in her lovin’ is your [G]first mistake.
 {end_of_verse}
 
 
 {start_of_chorus: Chorus}
-[E5]  Sundown you'd [A]better take care
-If I [D]find you been creepin' 'round
-[E5]My back stairs
-Sometimes I [A]think it's a sin
-When I [D]feel like I'm winnin'
-When I'm [E5]losin' again
+[G] Sundown you’d [C]better take care
+If I [F]find you been creepin’ ’round [G]My back stairs.
+
+Sometimes I [C]think it’s a sin
+When I [F]feel like I’m winnin’ when I’m [G]losin’ again.
 {end_of_chorus}
 
 
 {start_of_part: Solo}
-[E5][E5][E5]
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+
+.| [G] . . . | [G] . . . |
 {end_of_part}
 
 
 {start_of_verse: Verse 4}
-[E5]  I can see her lookin' fast
-In her faded jeans
-She's a [B7sus4]hard  lovin' woman
-Got me [E5]feelin' mean
+[G] I can see her lookin’ fast in her faded jeans
+She’s a [D7sus4]hard lovin’ woman got me [G]feelin’ mean.
 {end_of_verse}
 
 
-{start_of_chorus: Chorus}
-[E5]  Sometimes I [A]think it's a shame
-When I [D]get feelin' better
-When I'm [E5]feelin' no pain
-Sundown you'd [A]better take care
-If I [D]find you been creepin' 'round
-[E5]My back stairs
-[E5]  Sundown you'd [A]better take care
-If I [D]find you been creepin' 'round
-[E5]My back stairs
-Sometimes I [A]think it's a sin
-When I [D]feel like I'm winnin'
-When I'm [E5]losin' again
-{end_of_chorus}
+{start_of_part: Outro}
+[G] Sometimes I [C]think it’s a shame
+When I [F]get feelin’ better when I’m [G]feelin’ no pain.
+
+Sundown you’d [C]better take care
+If I [F]find you been creepin’ ’round [G]My back stairs.
+
+[G] Sundown you’d [C]better take care
+If I [F]find you been creepin’ ’round [G]My back stairs.
+
+Sometimes I [C]think it’s a sin
+When I [F]feel like I’m winnin’ when I’m [G]losin’ again.
+{end_of_part}
+
+{start_of_part: Outro Solo}
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+
+.| [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+{end_of_part}

@@ -1,12 +1,14 @@
 {title: Take Me Home, Country Roads}
 {artist: John Denver}
-{key: A}
+{key: G}
 {duration: 3:00}
 {tempo: 82}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
-[G][G/D]
+.| [G] . . . | [G/D] . . . |
 {end_of_part}
 
 {start_of_verse: Verse 1}
