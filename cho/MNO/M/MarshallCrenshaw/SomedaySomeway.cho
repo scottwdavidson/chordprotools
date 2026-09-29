@@ -1,14 +1,18 @@
 {title: Someday, Someway}
-{artist: Marchall Crenshall}
+{artist: Marshall Crenshall}
 {key: A}
-{duration: 2:45}
+{duration: 3:00}
 {tempo: 155}
+{meta: nord: P52}
 {meta: countin: 8}
 {meta: backing: RC}
+{meta: label: SomdaySomway}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P52   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: label: SomdaySomway   }
 {comment:***********************************************}
 
 {start_of_part}
@@ -18,84 +22,95 @@
 {end_of_part}
 
 {start_of_verse: Verse}
-[A]__[E]I can't [A]stand to see [E]you sad
-[A]__[E]I can't [A]bear to hear [E]you cry
-[A]__[E]If you [A]can't tell [E]me what you need
-[A]__[E]All I can [A]do is won[E]der why
+[A]__ I [E]can't [A]stand to see [E]you sa[A]d
+[A]__ I [E]can't [A]bear to hear [E]you cr[A]y
+[A]__ If you [E]can't [A]tell me what [E]you ne[A]ed
+[A]__ All I c[E]an [A]do is wonder[E] why
 {end_of_verse}
 
 {start_of_chorus: Chorus}
-[D]Some[E]day, Some[C#m7]way (ah)[F#m7]
-[D]Some[E]day, Some[C#m7]way [F#m7]
-[D]Some[E]day, Some[F#m7]way [E]
-[D]Maybe I'll [E]understand [A]you[E]
+[D](why) Some[E]day, Some[C#m7]way__ (ah)[F#m7]
+[D] Some[E]day, Some[C#m7]way__ [F#m7]
+[D] Some[E]day, Some[F#m7]way__ [E]
+[D]Maybe I'll [E]understand [A]you
+
+. | [A]you . . - [E] | [A] . . - [E] |
 {end_of_chorus}
 
 {start_of_verse: Verse}
-[A-A-A-E]After all you've done for me
-All I really want to do
-Is take the love you brought my way
-And give it all right back to you
+[A]__ Af[E]ter [A]all you've done f[E]or m[A]e
+[A]__ All [E]I rea[A]lly want [E]to d[A]o
+[A]__ Is take [E]the lo[A]ve you brought [E]my w[A]ay
+[A]__ And give [E]it al[A]l right back [E]to you
 {end_of_verse}
 
 {start_of_chorus: Chorus}
-[D]Some[E]day, Some[C#m7]way (ah)[F#m7]
-[D]Some[E]day, Some[C#m7]way (yeah, yeah)[F#m7]
-[D]Some[E]day, Some[F#m7]way [E]
-[D]Maybe you'll [E]understand [A]me[E]
+[D](you) Some[E]day, Some[C#m7]way__ (ah)[F#m7]
+[D] Some[E]day, Some[C#m7]way__ [F#m7]
+[D] Some[E]day, Some[F#m7]way__ [E]
+[D]Maybe you'll [E]understand [A]me
+
+. | [A]me . . - [E] | [A] [A] [E] [E] |
 {end_of_chorus}
 
 {start_of_part: Bridge}
 [D]You've [Bm]taken everyt[G]hing from [A]me
 [D]I've [Bm]taken every[G]thing from [A]you
-[D]I'll [Bm]love you for my [G]whole life [E]through...
+[D]I'll [Bm]love you for my [G]whole [D]life [E]thr_[E]_ou_[E]gh...[E]
+
+. | [A]. . - [E] | [A] . . - [E] |
 {end_of_part}
 
-[A-A-A-E]Now after all you've done for me
-All I really want to do
-Is take the love you brought my way
-And give it all right back to you
+{start_of_verse: Verse}
+[A]__ Af[E]ter [A]all you've done f[E]or m[A]e
+[A]__ All [E]I rea[A]lly want [E]to d[A]o
+[A]__ Is take [E]the lo[A]ve you brought [E]my w[A]ay
+[A]__ And give [E]it al[A]l right back [E]to you
+{end_of_verse}
 
 {start_of_chorus: Chorus}
-[D]Some[E]day, Some[C#m7]way (ah)[F#m7]
-[D]Some[E]day, Some[C#m7]way (yeah now)[F#m7]
-[D]Some[E]day, Some[F#m7]way [E]
-[D]Maybe you'll [E]understand [A]me[E]
+[D](you) Some[E]day, Some[C#m7]way __(ah)[F#m7]
+[D] Some[E]day, Some[C#m7]way__ [F#m7]
+[D] Some[E]day, Some[F#m7]way__ [E]
+[D]Maybe you'll [E]understand [A]me
+
+. | [A]me . . - [E] | [A] [A] [E] [E] |
 {end_of_chorus}
 
 {start_of_part: Bridge}
 [D]You've [Bm]taken everyt[G]hing from [A]me
 [D]I've [Bm]taken every[G]thing from [A]you
-[D]I'll [Bm]love you for my [G]whole life [E]through...
+[D]I'll [Bm]love you for my [G]whole [D]life [E]thr_[E]_ou_[E]gh...[E]
+
+. | [A]. . - [E] | [A] . . - [E] |
 {end_of_part}
 
-
 {start_of_verse: Verse}
-[A]__[E]I can't [A]stand to see [E]you sad
-[A]__[E]I can't [A]bear to hear [E]you cry
-[A]__[E]If you [A]can't tell [E]me what you need
-[A]__[E]All I can [A]do is won[E]der why
+[A]__ I [E]can't [A]stand to see [E]you sa[A]d
+[A]__ I [E]can't [A]bear to hear [E]you cr[A]y
+[A]__ If you [E]can't [A]tell me what [E]you ne[A]ed
+[A]__ All I c[E]an [A]do is wonder[E] why
 {end_of_verse}
 
-{start_of_chorus: Chorus}
-[D]Some[E]day, Some[C#m7]way (ah)[F#m7]
-[D]Some[E]day, Some[C#m7]way (yeah, yeah)[F#m7]
-[D]Some[E]day, Some[F#m7]way [E]
-[D]Maybe I'll [E]understand [A]you[E]
 
-[D]Some[E]day, Some[C#m7]way (ah)[F#m7]
-[D]Some[E]day, Some[C#m7]way (yeah, yeah)[F#m7]
-[D]Some[E]day, Some[F#m7]way [E]
-[D]Maybe You'll [E]understand [A]me[E]
+{start_of_part: Outro}
+[D](why) Some[E]day, Some[C#m7]way__ (ah)[F#m7]
+[D] Some[E]day, Some[C#m7]way__ [F#m7]
+[D] Some[E]day, Some[F#m7]way__ [E]
+[D]Maybe I'll [E]understand you
 
-[D]Some[E]day, Some[C#m7]way (ah)[F#m7]
-[D]Some[E]day, Some[C#m7]way (yeah, yeah)[F#m7]
-[D]Some[E]day, Some[F#m7]way [E]
-[D]Maybe I'll [E]understand [A]you[E]
+[D](you) Some[E]day, Some[C#m7]way__ (ah)[F#m7]
+[D] Some[E]day, Some[C#m7]way__ [F#m7]
+[D] Some[E]day, Some[F#m7]way__ [E]
+[D]Maybe you'll [E]understand me
 
-[D]Some[E]day, Some[C#m7]way (ah)[F#m7]
-[D]Some[E]day, Some[C#m7]way (yeah, yeah)[F#m7]
-[D]Some[E]day, Some[F#m7]way [E]
-[D]Maybe You'll [E]understand [A]me[E]
-{end_of_chorus}
+[D](me) Some[E]day, Some[C#m7]way__ (ah)[F#m7]
+[D] Some[E]day, Some[C#m7]way__ [F#m7]
+[D] Some[E]day, Some[F#m7]way__ [E]
+[D]Maybe I'll [E]understand you
 
+[D](you) Some[E]day, Some[C#m7]way__ (ah)[F#m7]
+[D] Some[E]day, Some[C#m7]way__ [F#m7]
+[D] Some[E]day, Some[F#m7]way [E]
+[D]Maybe you'll [E]understand [A]me
+{end_of_part}

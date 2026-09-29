@@ -322,7 +322,7 @@ Deep River Woman,Lionel Richie,G,,135,,,,,,,,JKL:L:LionelRichie:DeepRiverWoman,,
 Don't Expect Me To Be Your Friend,Lobo,C,3:30,78,8,,,,,,,JKL:L:Lobo:DontExpectMeToBeYourFriend,,4,FULL,Soft Rock,,false
 I'd Love You To Want Me,Lobo,G,3:45,,8,,,,,,,JKL:L:Lobo:IdLoveYouToWantMe,,3,FULL,Soft Rock,Ballad,false
 Me And You And A Dog Named Boo,Lobo,Bb,3:30,90,,,,,,,,JKL:L:Lobo:MeAndYouAndADogNamedBoo,,4,FULL,Folk,Soft Rock,false
-Brandy (You're A Fine Girl),Looking Glass,E,3:00,126,8,RC,N51,,,E,,JKL:L:LookingGlass:Brandy,Brandy,4,FULL,Pop Rock,,true
+Brandy (You're A Fine Girl),Looking Glass,E,3:00,126,8,RC,P42,,,E,,JKL:L:LookingGlass:Brandy,Brandy,4,FULL,Pop Rock,,true
 Te Ni Nee Ni,Lou Ann Barton,E,,,,,,,,,,JKL:L:LouAnnBarton:TeNiNeeNi,,6,FULL,Blues,,false
 Dream A Little Dream Of Me,Louis Armstrong,G,,133,,,,,,,,JKL:L:LouisArmstrong:DreamALittleDream,,2,FULL,Jazz,Ballad,false
 Dream A Little Dream Of Me,Louis Armstrong,C,1:10,133,,,,,,,,JKL:L:LouisArmstrong:DreamALittleDream-c,,2,FULL,Jazz,Ballad,false
@@ -338,7 +338,7 @@ I Wish You Would,Mackenzie Carpenter & Midland,D,3:10,,,,,,,,,MNO:M:MackenzieCar
 La Isla Bonita,Madonna,C#m,4:00,100,8,RC,P54,,,C#m,,MNO:M:Madonna:LaIslaBonita,LaIslaBonita,7,FULL,Pop,Latin Pop,false
 Dream A Little Dream Of Me,Mama Cass,C,,133,,,,,,,,MNO:M:MamaCass:DreamALittleDreamOfMe,,2,FULL,Pop,Jazz,false
 One Day She’s Here,Marcus King Band,Bm,,,,,,,,,,MNO:M:MarcusKing:OneDayShesHere,,5,FULL,Blues Rock,,false
-"Someday, Someway",Marchall Crenshall,A,2:45,155,8,RC,,,,,,MNO:M:MarshallCrenshaw:SomedaySomeway,,6,FULL,Pop Rock,,false
+"Someday, Someway",Marshall Crenshall,A,3:00,155,8,RC,P52,,,,,MNO:M:MarshallCrenshaw:SomedaySomeway,SomdaySomway,6,FULL,Pop Rock,,false
 Can't You See,Marshall Tucker Band,D,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee,,5,FULL,Southern Rock,,true
 Can't You See,Marshall Tucker Band,A,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee-a,,5,FULL,Southern Rock,,true
 Fire On The Mountain,Marshall Tucker Band,Em,,,,,,,,,,MNO:M:MarshallTuckerBand:FireOnTheMoutain,,6,FULL,Southern Rock,,false
@@ -495,7 +495,7 @@ The Things We Do for Love,10cc,D,,,,,,,,,,STU:T:TenCC:TheThingsWeDoForLove,,6,FU
 Seasons in the Sun,Terry Jacks,F,3:30,100,,,,,,,,STU:T:TerryJacks:SeasonsInTheSun,,3,FULL,Pop,Ballad,false
 Under The Milky Way,The Church,Am,5:00,66,8,RC,P45,C012,,,,STU:T:TheChurch:UnderTheMilkyWay,Under Milky,4,FULL,Alternative,,false
 Should I Stay (Or Should I Go) (BASS),The Clash,D,,,,,,,,,,STU:T:TheClash:ShouldIStay-bass,,7,NONE,Punk,Rock,false
-The Boys Are Back In Town,Thin Lizzy,G,4:00,162,8,RC,,,,,4/4,STU:T:ThinLizzy:TheBoysAreBackInTown,,,,,,
+The Boys Are Back In Town,Thin Lizzy,G,4:00,162,8,RC,P25,A059,,,4/4,STU:T:ThinLizzy:TheBoysAreBackInTown,,,,,,
 Die A Happy Man,Thomas Rhett,D,3:30,83,,,,,,,,STU:T:ThomasRhett:DieAHappyMan,,3,FULL,Country,Ballad,false
 Half Of Me,Thomas Rhett,G,2:45,112,4,RC,N35,,,,4/4,STU:T:ThomasRhett:HalfOfMe,HalfOf Me,4,FULL,Country,,false
 Half Of Me (updated),Thomas Rhett,G,3:15,112,,,N35,,,,4/4,STU:T:ThomasRhett:HalfOfMe-2,,4,FULL,Country,,false

@@ -4,10 +4,14 @@
 {duration: 4:00}
 {tempo: 162}
 {time: 4/4}
+{meta: nord: P25}
+{meta: roland: A059}
 {meta: countin: 8}
 {meta: backing: RC}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P25   }
+{comment:**  meta: roland: A059   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:***********************************************}
