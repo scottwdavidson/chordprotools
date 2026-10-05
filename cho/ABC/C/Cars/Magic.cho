@@ -3,10 +3,12 @@
 {key: A}
 {duration: 4:00}
 {tempo: 125}
+{meta: nord: P52}
 {meta: countin: 8}
 {meta: backing: RC}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P52   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:***********************************************}
