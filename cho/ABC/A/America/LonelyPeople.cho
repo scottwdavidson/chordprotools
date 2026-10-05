@@ -23,7 +23,8 @@
 
 
 {start_of_chorus}
-[C] Don't give up[D] until you_  [G]_  [G/F#]drink from the sil[Em7]ver cup[D]_[C] 
+[C] Don't give up[D] until you_  [G]_  
+[G/F#]drink from the sil[Em7]ver cup[D]_[C] 
 [C]And ride that [D]highway in the sky.[G] [D]
 {end_of_chorus}
 
@@ -35,15 +36,16 @@
 
 
 {start_of_chorus}
-[C] Don't give up[D] until you_  [G]_  [G/F#]drink from the sil[Em7]ver cup[D]_[C] 
-[C]You never [D]know until you try.[G] [D]
+[C] Don't give up[D] until you_  [G]_  
+[G/F#]drink from the sil[Em7]ver cup[D]_[C] 
+[C]You never [D]know until you try.[G]
 {end_of_chorus}
 
-
-{comment: Interlude}
+{start_of_part: Interlude}
 Well, I'm [C]on [G/B]my  [Am]way.
 Yes, I'm [C]back [G/B]to  [Am]stay.
 Well, I'm [C]on [G/B]my  [Am]way b[D]ack [G]home.
+{end_of_part}
 
 
 {comment: Piano Solo }
@@ -59,9 +61,30 @@ Well, I'm [C]on [G/B]my  [Am]way b[D]ack [G]home.
 {end_of_verse}
 
 {start_of_chorus}
-[C] Don't give up[D] until you_  [G]_  [G/F#]drink from the sil[Em7]ver cup[D]_[C] 
-[C] And never ta[D]ke you down or_  [G]_  [G/F#]never gi[Em7]ve you up[D]_[C] 
+[C] Don't give up[D] until you_  [G]_  
+[G/F#]drink from the sil[Em7]ver cup[D]_[C] 
+[C] And never ta[D]ke you down or_  [G]_  
+[G/F#]never gi[Em7]ve you up[D]_[C] 
+[C]You never [D]know until you try.[G]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Interlude}
+Well, I'm [C]on [G/B]my  [Am]way.
+Yes, I'm [C]back [G/B]to  [Am]stay.
+Well, I'm [C]on [G/B]my  [Am]way b[D]ack [G]home.
+{end_of_part}
+
+{start_of_verse}
+[G] This is for all[Em]  the single peo[Bm]ple
+[G] Thinking that love[Em] has left them dry[Bm]_[D]
+{end_of_verse}
+
+
+{start_of_part: Outro}
+[C] Don't give up[D] until you_  [G]_  
+[G/F#]drink from the sil[Em7]ver cup[D]_[C] 
+[C] And never ta[D]ke you down or_  [G]_  
+[G/F#]never gi[Em7]ve you up[D]_[C] 
 [C] You never [D]know until you [Em]try.
+{end_of_part}
+
