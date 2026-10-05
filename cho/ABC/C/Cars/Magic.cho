@@ -21,7 +21,7 @@
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
 {end_of_part}
 
-{start_of_verse}
+{start_of_part: Verse 1}
 [A]Summer, [D]  [E] it turns me upside 
 [A]Down [D] [E]    Summer, summer, 
 [A]Summer [D] [E] It's like a merry-go-
@@ -31,10 +31,10 @@
 [A] The high [D]shoes with the [E]cleats a-clickin'
 [A] A tempe[D]ramental glow [E]
 [A] Oh, don't you [D]let me go[E]
-{end_of_verse}
+{end_of_part}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Oh, I got a [F#m]hold on you
 Got a [D]hold on you
 I've got a [E]hold on you tonight
@@ -43,9 +43,10 @@ I've got a [E]hold on you tonight
 Oh, I got a [F#m]hold on you
 I got a [D]hold on you
 (Got a [E]hold on you)  [E]That's right
+{end_of_part}
 
 
-{start_of_chorus}
+{start_of_part: Chorus}
 [A] Uh oh,[D] it's m[E]agic
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
@@ -54,10 +55,10 @@ Just a little magic
 
 [A] You [D]know it's true [E]
 I got a [F#m]hold on you | . . . . |
-{end_of_chorus}
+{end_of_part}
 
 
-{start_of_verse}
+{start_of_part: Verse 2}
 Oh,
 [A]Twisted [D] [E] under, sideways,
 [A]Down. [D] [E] I know you're getting
@@ -68,10 +69,10 @@ Oh,
 [A] How far[D] can you take[E] it
 [A] Till you [D]realize [E]
 [A] There's magic [D]in your ey[E]es
-{end_of_verse}
+{end_of_part}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Oh, I got a [F#m]hold on you
 Got a [D]hold on you
 I've got a [E]hold on you tonight
@@ -80,9 +81,10 @@ I've got a [E]hold on you tonight
 Oh, I got a [F#m]hold on you
 I got a [D]hold on you
 (Got a [E]hold on you)  [E] That's right
+{end_of_part}
 
 
-{start_of_chorus}
+{start_of_part: Chorus}
 [A] Uh oh,[D] it's m[E]agic
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
@@ -90,28 +92,28 @@ I got a [D]hold on you
 Just a little bit of
 
 Ma[A]gic [D]pulls me through[E]
-{end_of_chorus}
-
-
-{comment: Bridge}
 I got a [F#m]hold on you [E]
+{end_of_part}
 
 
-{comment: Solo}
+
+{start_of_part: Solo}
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
 
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
+{end_of_part}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 I've got [F#m]a hold on you
 I got a [D]hold on you
 (Got a [E]hold on you)  [E]That's right it's magic
+{end_of_part}
 
 
-{start_of_chorus}
+{start_of_part: Chorus}
 [A] Uh oh,[D] it's m[E]agic
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
@@ -119,10 +121,10 @@ I got a [D]hold on you
 Just a little magic
 
 [A] Inside[D] of you [E]
-{end_of_chorus}
+{end_of_part}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [A] Uh oh,[D] it's ma[E]gic. Takes a little bit of
 [A]magic [D] that's true[E]
 [A] Uh oh,[D] it's ma[E]gic
@@ -131,3 +133,4 @@ Just a little magic
 Oh, it's ma[F#m]gic [E]
 
 [A]
+{end_of_part}
