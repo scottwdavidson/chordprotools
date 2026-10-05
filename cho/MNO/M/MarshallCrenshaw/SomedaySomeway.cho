@@ -4,12 +4,14 @@
 {duration: 3:00}
 {tempo: 155}
 {meta: nord: P52}
+{meta: roland: A053}
 {meta: countin: 8}
 {meta: backing: RC}
 {meta: label: SomdaySomway}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P52   }
+{comment:**  meta: roland: A053   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: label: SomdaySomway   }
