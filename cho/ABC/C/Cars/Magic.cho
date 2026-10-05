@@ -13,13 +13,6 @@
 {comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
-{start_of_part: Arpegiator - 7 measures}
-. | [A] . [Dsus2] . | [E] . . . |
-. | [A] . [Dsus2] . | [E] . . . |
-. | [A] . [Dsus2] . | [E] . . . |
-. | [A] . [Dsus2] . |
-{end_of_part}
-
 {start_of_part: Intro}
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
@@ -29,15 +22,15 @@
 {end_of_part}
 
 {start_of_verse}
-[A]Summer,[D]  [E] it turns me upside [A]down[D]
-[E] Summer, summer, [A]summer[D]
-[E] It's like a merrygo[A]round[D]
-[E]  [A] I see you [D]under the mid[E]night
-[A] All [D]shackles and bows[E]
-[A] The high [D]shoes
-With the [E]cleats aclicking
-[A] A tempe[D]ramental glow
-[E]  [A] How could you [D]let me go[E]
+[A]Summer, [D]  [E] it turns me upside 
+[A]Down [D] [E]    Summer, summer, 
+[A]Summer [D] [E] It's like a merry-go-
+[A]Round [D] [E]
+[A] I see you [D]under the mid[E]night
+[A] All [D]shackles and bo[E]ws
+[A] The high [D]shoes with the [E]cleats a-clickin'
+[A] A tempe[D]ramental glow [E]
+[A] Oh, don't you [D]let me go[E]
 {end_of_verse}
 
 
@@ -45,51 +38,57 @@ With the [E]cleats aclicking
 Oh, I got a [F#m]hold on you
 Got a [D]hold on you
 I've got a [E]hold on you tonight
-.| [F#m] . . . |
+. | [F#m] . . . |
 
-[F#m]Oh, I got a hold on you
+Oh, I got a [F#m]hold on you
 I got a [D]hold on you
-[E](Got a hold on you)  [E]That's right
+(Got a [E]hold on you)  [E]That's right
 
 
 {start_of_chorus}
-[A] Uh oh,[D] it's ma[E]gic
+[A] Uh oh,[D] it's m[E]agic
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
-Just a little magic[A]
-You [D]know it's true [E]
+
+Just a little magic
+
+[A] You [D]know it's true [E]
 I got a [F#m]hold on you | . . . . |
 {end_of_chorus}
 
 
 {start_of_verse}
-Oh, [A]twisted[D]
-[E] Under, sideways, [A]down[D]
-[E] I know you're getting [A]twisted[D]
-[E] And you can't calm [A]down[D]
-[E]  [A] I see you [D]under the mid[E]night
+Oh,
+[A]Twisted [D] [E] under, sideways,
+[A]Down. [D] [E] I know you're getting
+[A]Twisted [D] [E] and you can't calm
+[A]Down [D] [E]
+[A] I see you [D]under the mid[E]night
 [A] Love [D]darts in your eyes[E]
-[A] How far[D] can you take[E]it
-[A] Till you [D]realize[E]
-[A] There's magic [D]in your eyes[E]
+[A] How far[D] can you take[E] it
+[A] Till you [D]realize [E]
+[A] There's magic [D]in your ey[E]es
 {end_of_verse}
+
 
 {comment: Pre-Chorus}
 Oh, I got a [F#m]hold on you
 Got a [D]hold on you
 I've got a [E]hold on you tonight
-.| [F#m] . . . |
+. | [F#m] . . . |
 
-[F#m]Oh, I got a hold on you
+Oh, I got a [F#m]hold on you
 I got a [D]hold on you
-[E](Got a hold on you)  [E]That's right
+(Got a [E]hold on you)  [E] That's right
 
 
 {start_of_chorus}
+[A] Uh oh,[D] it's m[E]agic
+[A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
-Uh oh,[A] when I'm[D] with you[E]
-[A] Uh oh,[D] it's ma[E]gic
+
 Just a little bit of
+
 Ma[A]gic [D]pulls me through[E]
 {end_of_chorus}
 
@@ -99,35 +98,36 @@ I got a [F#m]hold on you [E]
 
 
 {comment: Solo}
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
 
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
-| [A] . [Dsus2] . | [E] . [Esus] [E] |
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
+. | [A] . [Dsus2] . | [E] . [Esus] [E] |
 
 
 {comment: Pre-Chorus}
 I've got [F#m]a hold on you
 I got a [D]hold on you
-[E](Got a hold on you)  [E]That's right it's magic
+(Got a [E]hold on you)  [E]That's right it's magic
 
 
 {start_of_chorus}
+[A] Uh oh,[D] it's m[E]agic
+[A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
-Uh oh, it's ma[A]gic
-When [D]I'm with you[E] uh oh[A] Uh oh,[D]
-it's ma[E]gic
+
 Just a little magic
-[A] Inside[D] of you[E]oh
+
+[A] Inside[D] of you [E]
 {end_of_chorus}
 
 
-{comment: Outro (Fade Out)}
-[A] Uh oh,[D] it's ma[E]gic)
-Takes a little bit of [A]magic[D]
-That's true[E]
-When I'm with you[A] Uh oh,[D]
-it's ma[E]gic
+{comment: Outro}
+[A] Uh oh,[D] it's ma[E]gic. Takes a little bit of
+[A]magic [D] that's true[E]
+[A] Uh oh,[D] it's ma[E]gic
 [A] Your magic [D]pulls me through[E]
+
 Oh, it's ma[F#m]gic [E]
+
 [A]
