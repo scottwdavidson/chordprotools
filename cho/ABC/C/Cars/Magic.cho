@@ -21,7 +21,7 @@
 . | [A] . [Dsus2] . | [E] . [Esus] [E] |
 {end_of_part}
 
-{start_of_part: Verse 1}
+{start_of_verse: Verse 1}
 [A]Summer, [D]  [E] it turns me upside 
 [A]Down [D] [E]    Summer, summer, 
 [A]Summer [D] [E] It's like a merry-go-
@@ -31,7 +31,7 @@
 [A] The high [D]shoes with the [E]cleats a-clickin'
 [A] A tempe[D]ramental glow [E]
 [A] Oh, don't you [D]let me go[E]
-{end_of_part}
+{end_of_verse}
 
 
 {start_of_part: Pre-Chorus}
@@ -46,7 +46,7 @@ I got a [D]hold on you
 {end_of_part}
 
 
-{start_of_part: Chorus}
+{start_of_chorus: Chorus 1}
 [A] Uh oh,[D] it's m[E]agic
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
@@ -55,10 +55,10 @@ Just a little magic
 
 [A] You [D]know it's true [E]
 I got a [F#m]hold on you | . . . . |
-{end_of_part}
+{end_of_chorus}
 
 
-{start_of_part: Verse 2}
+{start_of_verse: Verse 2}
 Oh,
 [A]Twisted [D] [E] under, sideways,
 [A]Down. [D] [E] I know you're getting
@@ -69,7 +69,7 @@ Oh,
 [A] How far[D] can you take[E] it
 [A] Till you [D]realize [E]
 [A] There's magic [D]in your ey[E]es
-{end_of_part}
+{end_of_verse}
 
 
 {start_of_part: Pre-Chorus}
@@ -84,7 +84,7 @@ I got a [D]hold on you
 {end_of_part}
 
 
-{start_of_part: Chorus}
+{start_of_chorus: Chorus 2}
 [A] Uh oh,[D] it's m[E]agic
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
@@ -93,7 +93,7 @@ Just a little bit of
 
 Ma[A]gic [D]pulls me through[E]
 I got a [F#m]hold on you [E]
-{end_of_part}
+{end_of_chorus}
 
 
 
@@ -113,7 +113,7 @@ I got a [D]hold on you
 {end_of_part}
 
 
-{start_of_part: Chorus}
+{start_of_chorus: Chorus 3}
 [A] Uh oh,[D] it's m[E]agic
 [A] When I'm[D] with you[E]
 [A] Uh oh,[D] it's ma[E]gic
@@ -121,7 +121,7 @@ I got a [D]hold on you
 Just a little magic
 
 [A] Inside[D] of you [E]
-{end_of_part}
+{end_of_chorus}
 
 
 {start_of_part: Outro}
