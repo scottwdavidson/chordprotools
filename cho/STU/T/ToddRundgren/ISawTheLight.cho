@@ -19,12 +19,14 @@
 {comment:**  meta: ve: P25   }
 {comment:***********************************************}
 
-{comment: Intro}
-| x x x E-Eb |
-| [Dm] . . . | [G] . . . |
-| [Dm] . . . | [G] . . (whoo oo) it was |
+{start_of_part: Intro}
+. | x x x [E] [Eb] |
+. | [Dm] . . . | [G] . . . |
+. | [Dm] . . . | [G] . . (whoo oo) it was |
+{end_of_part}
 
-{start_of_verse}
+
+{start_of_verse: Verse 1}
 [Dm7]late,  last [G]night
 I was fee[Dm7]ling something wasn't right[G]
 There was not[Dm7]   another soul in sight[G]
@@ -36,7 +38,7 @@ About you (oooo)[Cmaj7][C7]
 {end_of_verse}
 
 
-{start_of_chorus}
+{start_of_chorus: Chorus}
 Then you gazed[Fmaj7]     up at me[Em7]
 And the ans[Am]wer was plain to see[D]
 Cause I saw[Dm7]   the light[G]
@@ -45,51 +47,54 @@ In your [Cmaj7]eyes (in your eyes)[Dm7][G]
 {end_of_chorus}
 
 
-{start_of_verse}
+{start_of_verse: Verse 2}
 Though we had[Dm7] our fling[G] (we had a fling)
 I just ne[Dm7]ver would suspect a thing[G] (suspect a thing)
 'Til that lit[Dm7]tle bell began to ring[G] (began to ring)
 In my head,[Cmaj7] in my [Em7]head
 But I tried[Dm7] to run[G] (I tried to run)
 Though I knew[Dm7] it wouldn't help me none[G] (not help me none)
-âCause I could[Dm7]n't ever love no one[G]
-Or so I said[Cmaj7][C7]
+'Cause I could[Dm7]n't ever love no one[G]
+Or so I said[Cmaj7] [C7]
 {end_of_verse}
 
 
-{start_of_chorus}
+{start_of_chorus: Chorus}
 But my [Fmaj7]feelings for you[Em7]
 Were just somet[Am]hing I never knew[D]
 'Til I saw[Dm7]   the light[G]
-In your eyes[Cmaj7][Dm7]
+In your eyes[Cmaj7] [Dm7]
 In your [Cmaj7]eyes [Dm7]
 {end_of_chorus}
 
 
-{comment: Solo}
-| [Dm] . . . | [G] . . . |
-| [Dm] . . . | [G] . . . |
-| [Dm] . . . | [G] . . . |
-| [Cmaj7] . . . | [Cmaj7] . . but I |
+{start_of_part: Solo}
+. | [Dm] . . . | [G] . . . |
+. | [Dm] . . . | [G] . . . |
+. | [Dm] . . . | [G] . . . |
+. | [Cmaj7] . . . | [Cmaj7] . . but I |
+{end_of_part}
 
-{start_of_verse}
+
+{start_of_verse: Verse 3}
 But I love[Dm7]   you best[G]
 It's not some[Dm7]thing that I say in jest[G]
 'Cause you're diffe[Dm7]rent, girl, from all the rest[G]
-In my eyes[Cmaj7][C7]
+In my eyes[Cmaj7] [C7]
 {end_of_verse}
 
 
-{start_of_chorus}
+{start_of_chorus: Chorus}
 And I [Fmaj7]ran  out before[Em7]
 But I won't[Am]  do it anymore[D]
 Can't you see[Dm7]   the light[G]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 In my [Cmaj7]eyes [Dm7] 
 In my [Cmaj7]eyes [Dm7] 
 In my [Cmaj7]eyes [Dm7]
 In my [Cmaj7]eyes [Dm7]
 In my [Cmaj7]eyes [Dm7]
+{end_of_part}
