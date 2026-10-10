@@ -24,12 +24,12 @@ If I Ain't Got You,Alicia Keys,G,,,,,,,,,,ABC:A:AliciaKeys:IfIAintGotYou,,3,FULL
 One Way Out,The Allman Brothers Band,A,,110,,,,,,,,ABC:A:AllmanBrothers:OneWayOut,,8,FULL,Southern Rock,Blues Rock,false
 Southbound,Allman Brothers,F,,,,,,,,,,ABC:A:AllmanBrothers:Southbound,,7,FULL,Southern Rock,,false
 A Horse With No Name,America,Em,3:40,123,,,,,,,,ABC:A:America:AHorseWithNoName,,3,FULL,Folk Rock,,false
-Lonely People,America,G,2:10,155,,,M15(A3),,,,,ABC:A:America:LonelyPeople,,3,FULL,Soft Rock,,false
-Lonely People,America,D,2:10,155,,,M15(A3),,,,,ABC:A:America:LonelyPeople-d,,,,,,
+Lonely People,America,G,2:10,155,4,BB,M15(A3),,,,,ABC:A:America:LonelyPeople,,3,FULL,Soft Rock,,false
+Lonely People,America,D,2:10,155,4,BB,M15(A3),,,,,ABC:A:America:LonelyPeople-d,,,,,,
 Today's The Day,America,E,3:00,101,4,BB,P54,,,,,ABC:A:America:TodaysTheDay,,2,FULL,Soft Rock,,false
 Ventura Highway,America,G,3:20,130,,,,,,,,ABC:A:America:VenturaHighway,,4,FULL,Folk Rock,,false
-You Can Do Magic,America,Em,3:40,130,8,,,,,,,ABC:A:America:YouCanDoMagic,,5,FULL,Soft Rock,Pop,false
-You Can Do Magic,America,Dm,3:40,130,8,,,,,,,ABC:A:America:YouCanDoMagic-dm,,,,,,
+You Can Do Magic,America,Em,3:40,130,8,RC,P52,,,,,ABC:A:America:YouCanDoMagic,,5,FULL,Soft Rock,Pop,false
+You Can Do Magic,America,Dm,3:40,130,8,RC,P52,,,,,ABC:A:America:YouCanDoMagic-dm,,,,,,
 Sweet Pea,Amos Lee,C,2:00,100,,,,,,E,,ABC:A:AmosLee:SweetPea,,3,FULL,Folk,Singer-Songwriter,false
 Valerie,Ami Winehouse,Eb,3:10,105,4,,P54,,,,,ABC:A:AmyWinehouse:Valerie,,7,FULL,Soul,Pop,true
 Shadows In The Moonlight,Anne Murray,A,,,,,,,,,,ABC:A:AnneMurray:ShadowsInTheMoonlight,,5,FULL,Country,,false
@@ -143,7 +143,7 @@ Pretty Little Baby,Connie Francis,Db,,,,,,,,,,ABC:C:ConnieFrancis:PrettyLittleBa
 Who's Sorry Now,Connie Francis,Bb,,,,,,,,,,ABC:C:ConnieFrancis:WhosSorryNow,,4,FULL,Pop,Oldies,false
 Put Your Records On,Corrine Bailey Rae,A,3:00,96,4,,N24,,,,,ABC:C:CorrineBailyRae:PutYourRecordsOn,,5,FULL,Soul,Pop,false
 Accidentally In Love,Counting Crows,G,3:00,138,4,,O11,,,,,ABC:C:CountingCrows:AccidentallyInLove,,7,FULL,Pop Rock,,true
-Don't Dream It's Over,Crowded House,C,3:40,81,4,RC,,,,C,,ABC:C:CrowdedHouse:DontDreamItsOver,,4,FULL,Rock,,true
+Don't Dream It's Over,Crowded House,C,3:40,81,4,RC,,,A059,C,,ABC:C:CrowdedHouse:DontDreamItsOver,,4,FULL,Rock,,true
 Friday I'm In Love,The Cure,D,3:15,136,5,RC,,,,,,ABC:C:Cure:FridayImInLove,FridayInLove,7,FULL,Alternative,New Wave,true
 Just Like Heaven,The Cure,A,3:10,153,,,,,,,,ABC:C:Cure:JustLikeHeaven,,7,FULL,Alternative,New Wave,false
 ( I Just ) Died In Your Arms,Cutting Crew,Bm,4:05,125,8,RC,P15,,,,,ABC:C:CuttingCrew:DiedInYourArms,DiedInYrArms,6,FULL,Rock,,false
@@ -172,7 +172,7 @@ Sharing The Night Together,Dr. Hook,E,2:45,154,4,RC,P11,,,E,,DEF:D:DrHook:Sharin
 Levitating,Dua Lipa,Am,,,,,,,,,,DEF:D:DuaLipa:Levitating,,9,FULL,Pop,Disco,true
 Love Again,Dua Lipa,F#m,3:50,116,,,,,,,,DEF:D:DuaLipa:LoveAgain,,8,FULL,Pop,,false
 Ordinary World,Duran Duran,Bm,4:35,140,8,RC,N32,,,Bm,,DEF:D:DuranDuran:OrdinaryWorld,OrdnryWorld,4,FULL,New Wave,Pop Rock,false
-Ordinary World,Duran Duran,Am,4:35,140,8,RC,,,,Am,,DEF:D:DuranDuran:OrdinaryWorld-am,,,,,,
+Ordinary World,Duran Duran,Am,4:35,140,8,RC,N32,,,Am,,DEF:D:DuranDuran:OrdinaryWorld-am,OrdnryWorld,4,FULL,New Wave,Pop Rock,false
 Ain't That Lonely Yet,Dwight Yoakam,F,3:10,107,,,,,,,,DEF:D:DwightYokam:AintThatLonelyYet,,6,FULL,Country,,false
 Fast As You,Dwight Yoakam,E,4:30,126,,,,,,,,DEF:D:DwightYokam:FastAsYou,,7,FULL,Country Rock,,false
 Little Sister,Dwight Yoakam,E,3:00,144,4,BB,O14,,,,,DEF:D:DwightYokam:LittleSister,LittleSister,7,FULL,Country Rock,,false
