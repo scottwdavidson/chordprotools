@@ -10,19 +10,23 @@
 {comment:***********************************************}
 
 {comment: Intro}
-| [G] . . . | [Em] . . . | [Bm]  . . . | [Bm]  .  .  . |
-| [G] . . . | [Em] . . . | [Bm]  . . . | [D]    .  .  . |
-| [C] . . . | [D]  . . . | [G] . [G/F#] . | [Em7]  .  [D]  . |
-| [C] . . . | [D]  . . . | [G]  .  .  . | [D]    .  .  . |
+. | [G] . . . | [Em] . . . | 
+. | [Bm]  . . . | [Bm]  .  .  . |
+. | [G] . . . | [Em] . . . | 
+. | [Bm]  . . . | [D]    .  .  . |
+. | [C] . . . | [D]  . . . | 
+. | [G] . [G/F#] . | [Em7]  .  [D]  . |
+. | [C] . . . | [D]  . . . | 
+. | [G]  .  .  . | [D]    .  .  . |
 
 
-{start_of_verse}
+{start_of_verse: Scott lead}
 [G] This is for all[Em]  the lonely peo[Bm]ple
 [G] Thinking that life[Em] has passed them by[Bm]_[D]
 {end_of_verse}
 
 
-{start_of_chorus}
+{start_of_chorus: Jeff lead}
 [C] Don't give up[D] until you_  [G]_  
 [G/F#]drink from the sil[Em7]ver cup[D]_[C] 
 [C]And ride that [D]highway in the sky.[G] [D]
@@ -41,7 +45,7 @@
 [C]You never [D]know until you try.[G]
 {end_of_chorus}
 
-{start_of_part: Interlude}
+{start_of_part: Interlude ( Jeff lead )}
 Well, I'm [C]on [G/B]my  [Am]way.
 Yes, I'm [C]back [G/B]to  [Am]stay.
 Well, I'm [C]on [G/B]my  [Am]way b[D]ack [G]home.
