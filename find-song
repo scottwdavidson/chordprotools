@@ -1,2 +1,2 @@
 #!/bin/zsh
-find . -name "*.cho" | grep $1
+find ./cho -name "*.cho" | grep $1
