@@ -26,7 +26,8 @@ FindSongIdCommand.class,
                 TidyGigsCommand.class,
                 BracketChordsCommand.class,
                 EvaluateSetlistCommand.class,
-                CharacterizeSongsCommand.class
+                CharacterizeSongsCommand.class,
+                TidySongPartsCommand.class
         })
 @Slf4j
 public class ChordproToolsMainCommand implements Runnable {

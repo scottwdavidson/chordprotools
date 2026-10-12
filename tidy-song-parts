@@ -1,0 +1,19 @@
+#!/bin/zsh
+# Rewrites two ad-hoc section-marker shapes across the whole catalog into
+# proper {start_of_part}/{end_of_part} directive pairs:
+#   - {start_of_bridge}/{end_of_bridge} - OnSong doesn't render these
+#     correctly, so they become {start_of_part: Bridge} (or whatever label
+#     the bridge already carried, e.g. "Pre-Chorus", "Bridge 2").
+#   - {comment: Intro} / {comment: Guitar Solo} / {comment: Outro} etc. -
+#     currently just a floating comment relying on the next
+#     {start_of_verse}/{start_of_chorus} to implicitly close it. Gets
+#     wrapped in a real part directive pair instead, using the original
+#     comment text verbatim as the label.
+#
+# Dry-run by default.
+#
+# Usage:
+#   ./tidy-song-parts            # report only
+#   ./tidy-song-parts --fix      # rewrite files
+
+"${0:a:h}/cpt" tidy-song-parts "$@"
