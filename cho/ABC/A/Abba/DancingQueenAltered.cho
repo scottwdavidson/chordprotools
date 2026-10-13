@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
 | [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
+{end_of_part}
 
 {start_of_verse}
 [A]Friday night and lights are [D]low
@@ -63,5 +64,6 @@ only[A]seventeen[A]
 the [A]dancing queen
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [A] | [D/A] | [A] | [A] | [A] | [D/A] | [A] | [A] |
+{end_of_part}

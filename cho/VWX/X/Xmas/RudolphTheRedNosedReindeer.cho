@@ -7,7 +7,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro (freely)}
+{start_of_part: Intro (freely)}
 
 You know [Fmaj7]Dasher and [Em7]Dancer and [Dm7]Prancer and [Cmaj7]Vixen,
 [Fmaj7]Comet and [Em7]Cupid and [Dm7]Donner and [Cmaj7]Blitzen,
@@ -16,6 +16,7 @@ the most [D7sus4]famous [D7]reindeer of [G7]all?
 
 
 {comment: medium shuffle}
+{end_of_part}
 
 {start_of_verse}
 [Cmaj7]Rudolph the [Dm7]red-nosed [Em7]reindeer__[Dm7]__[G7#5]
@@ -35,10 +36,10 @@ the most [D7sus4]famous [D7]reindeer of [G7]all?
 {end_of_verse}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Fmaj7]Then one [F#m7b5]fog---[B7]---gy   [Em7]Christmas [A7]Eve, [dm7]Santa [G7]came to [Cmaj7]say,__[C6]
 [Gmaj7]Rudolph [C9]with your [Bm7]nose so [E7b9]bright, [Am7]won't you [D9]guide my [G7sus4]sleigh to[G7]night?
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -50,7 +51,7 @@ the most [D7sus4]famous [D7]reindeer of [G7]all?
 {end_of_verse}
 
 
-{comment: Solo - (Over Verses)}
+{start_of_part: Solo - (Over Verses)}
 
 | [Cmaj7] . [Dm7] . | [Em7] . [Dm7] [G7#5] | [Cmaj7] . [Em7] [Ebdim7] | [G7/D] . [G7] . |
 | [Dm7] . [G7] . | [Dm7] . [G7] . | [Dm7] . [G7] . | [Cmaj7] . [G7sus4] . |
@@ -58,16 +59,18 @@ the most [D7sus4]famous [D7]reindeer of [G7]all?
 
 | [Cmaj7] . [Dm7] . | [Em7] . [Dm7] [G7#5] | [Cmaj7] . [Em7] [Ebdim7] | [G7/D] . [G7] . |
 | [Dm7] . [G7] . | [Dm7] . [G7] . | [Dm7] . [G7] . | [C6] . [Gm7] [Gb7b5] |
+{end_of_part}
 
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Fmaj7]Then one [F#m7b5]fog---[B7]---gy   [Em7]Christmas [A7]Eve, [dm7]Santa [G7]came to [Cmaj7]say,__[C6]
 [Gmaj7]Rudolph [C9]with your [Bm7]nose so [E7b9]bright, [Am7]won't you [D9]guide my [G7sus4]sleigh to[G7]night?
-{end_of_bridge}
+{end_of_part}
 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 
 {start_of_verse}
 [Cmaj7]Then how the [Dm7]reindeer [Em7]loved him__[Dm7]__[G7#5]

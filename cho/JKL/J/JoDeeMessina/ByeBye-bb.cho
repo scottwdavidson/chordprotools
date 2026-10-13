@@ -19,11 +19,12 @@
 {comment:**  meta: performance: Bb   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bb] . . . | [F] . . . | [Eb] . . . | [Eb] . . . |
 | [Bb] . . . | [F] . . . | [Eb] . . . | [Eb] . . . |
 | [Bb] . . . | [F] . . . | [Eb] . . . | [Eb] . . . |
 | [Bb] . . . | [F] . . . | [Eb] . . . | [Eb] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Gm] Boy you s[Eb]ure look good there [Bb]standin'
@@ -74,11 +75,12 @@ I've [Bb]begged and p[F]leaded in t[Eb]rue lover's [F]fashion
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 I'd lost the g[Eb]ame I g[Bb]uess
 I d[Eb]id my b[Bb]est to win the part[C7]
 Now I'm leavin' he[F]re with
 What's left of my h[Bb]eart, b[F]ye- bye, I[Eb]'ll catch you l[F]ater...
+{end_of_part}
 
 
 {start_of_chorus}
@@ -92,6 +94,7 @@ I've [Bb]begged and p[F]leaded in t[Eb]rue lover's [F]fashion
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Bye b[Bb]ye,[F]   [Eb]    oh baby,[Bb]   [F]   [Eb]oh oh
 [Bb]   Bye [F]bye, [Eb]bye bye my b[F]aby, bye b[Bb]ye
+{end_of_part}

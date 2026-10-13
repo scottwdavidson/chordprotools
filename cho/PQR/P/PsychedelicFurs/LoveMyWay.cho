@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 |[Cmaj7]I|[Cmaj7]|N[B7][B7]|[Cmaj7]TR|[Cmaj7]|O[B7][B7]|
+{end_of_part}
 
 {start_of_verse}
 There's an [Cmaj7]army on the d[C]ance floor
@@ -44,8 +45,9 @@ There's [B7]dust in all their hearts
 [C]   I fol[B7]low where my mind goes
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
 |[Cmaj7]S|[Cmaj7]|O[B7][B7]|[Cmaj7]L|[Cmaj7]|O[B7][B7]|
+{end_of_part}
 
 {start_of_chorus}
 [C]   Love my [D]way it's a [D/C]new road
@@ -61,5 +63,6 @@ And [B7]put on your new face
 [B7]Yeah yeah yeah yeah yeah
 {end_of_verse}
 
-{comment:Intro}
+{start_of_part: Intro}
 |[Cmaj7]O|[Cmaj7]|U[B7][B7]|[Cmaj7]TR|[Cmaj7]|O[B7][B7]|
+{end_of_part}

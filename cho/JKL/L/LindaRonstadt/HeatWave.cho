@@ -17,9 +17,10 @@
 {comment:**  meta: label: Heat  Wave   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Eb] [Ab] [Eb] [Ab] | [Eb] [Ab] [Eb] [Ab]   |
 | [Eb] [Ab] [Eb] [Ab] | [Eb] (whenever) |
+{end_of_part}
 
 {start_of_verse}
 Whenever I'm [Fm7]with him,
@@ -85,10 +86,11 @@ Yeah, [Fm7]yeah, yeah, y[Gm7]eah,
 [Ab]this time it's [Bb]true romance
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 H[Eb]eat[Ab]-wave[Eb]_[Ab]
 
 | [Fm7] . [Fm7] .| [Gm7] . [Gm7] . | [Cm] . [Cm] . |
+{end_of_part}

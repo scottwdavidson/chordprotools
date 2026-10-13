@@ -9,10 +9,11 @@
 {comment:**  meta: countin: 8   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . |  [Em] . [D] [C]  |  [C]     .  .  [D] |
 . |  [Em] . [Bm7]    |  [Cmaj7] . [D] .   |
 . |  [Em] . [Bm7]    |  [Cmaj7] . [D] .   |
+{end_of_part}
 
 {start_of_verse}
 I [Em]never be[Bm7]lieved in [Cmaj7]things [D]that I couldn't see

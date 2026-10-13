@@ -13,11 +13,12 @@
 {comment:**  meta: performance: C   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 | [C] . [E7] . | [A7] . . . | [Dm] . [A7] . | [Dm] . . . |
 
 | [F] . [F#dim7] . | [C] . [A7] . | [D7] . . . | [G7] . . . |
+{end_of_part}
 
 
 
@@ -50,19 +51,21 @@
 {end_of_verse}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 
 | [C] . [E7] . | [A7] . . . | [Dm] . [A7] . | [Dm] . . . |
 
 | [F] . [F#dim7] . | [C] . [A7] . | [D7] . . . | [G7] . . . |
+{end_of_part}
 
 
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 
 | [C] . [E7] . | [A7] . . . | [Dm] . [A7] . | [Dm] . . . |
 
 | [F] . [F#dim7] . | [C] . [A7] . | [D7] . . . | [G7] . . . |
+{end_of_part}
 
 
 

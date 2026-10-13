@@ -17,11 +17,12 @@
 
 {comment: Duration: 3:25}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Dm] [Bbmaj7]Uh huh...  [F]  [C]Life's like this.
 [Dm] Uh huh, [Bbmaj7]uh huh... [F] That's the [C]way it is.
 [Dm] [Bbmaj7]  [F]  'Cause [C]life's like this.
 [Dm] Uh huh, [Bbmaj7]uh huh... [F] That's the [C]way it is.
+{end_of_part}
 
 
 {start_of_verse}
@@ -84,8 +85,9 @@ No, no, [F]no..
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Dm]No, no, no... [Bbadd9]No, no, no... [C]No, no, no...
+{end_of_part}
 
 
 {start_of_verse}
@@ -115,7 +117,8 @@ No, no, [F]no..
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [Dm]Why'd you have to go and make [Bb]things so compli[F]cated?
 I [C]see the way you're

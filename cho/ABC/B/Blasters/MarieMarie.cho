@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . . . |  
+{end_of_part}
 
 {start_of_verse}
 [G]Marie Marie
@@ -40,7 +41,8 @@ And you [C]sing so [D]sad
 Marie Ma - [G]rie
 {end_of_verse}
 
-{comment: Guitar solo}
+{start_of_part: Guitar solo}
+{end_of_part}
 
 {start_of_verse}
 [G]Marie Marie

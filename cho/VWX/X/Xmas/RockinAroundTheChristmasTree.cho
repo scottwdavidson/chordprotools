@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Chords For Guitar Intro}
+{start_of_part: Chords For Guitar Intro}
 | [G] . . . | [Em] . . . | [C] . . . | [D] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -19,10 +20,10 @@
 {end_of_verse}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C]You will get a sentimental feel[Bm]in' when you hear
 [Em]Voices [Em(maj7)]singin' [Em7]"Let's be jolly. [A]Deck the halls with bou[D]ghs of hol[D7]ly."
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -42,10 +43,10 @@
 
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C]You will get a sentimental feel[Bm]in' when you hear
 [Em]Voices [Em(maj7)]singin' [Em7]"Let's be jolly. [A]Deck the halls with bou[D]ghs of hol[D7]ly."
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -54,5 +55,6 @@
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 | [G] . . . | [Em] . . . | [C] . . . | [G] . . . |
+{end_of_part}

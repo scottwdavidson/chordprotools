@@ -15,11 +15,12 @@
 {comment:**  meta: label: The   Fight   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Gmaj7] . . . | [Asus]  . . . | 
 | [F#m7]  . . . | [Bm/F#] . . . |
 | [Gmaj7] . . . | [Asus]  . . . | 
 | [F#m7]  . . . | [Bm/F#] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Gmaj7] I know he [Asus]hurt you, made you [F#m7]scared of love, too [Bm]scared to love
@@ -65,10 +66,11 @@ When they're tryna ge[F#m7]t-to-you baby I'll be the [Bm]fighter
 When they're tryna ge[F#m7]t-to-you baby I'll be the [Bm]fighter
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G2] I wanna believe that you [Em7]got me baby
 [Bm] I swear I do from [D]now until the next life
 [G2] I wanna love, wanna [Em7]give you all my [Bm]heart
+{end_of_part}
 
 {start_of_chorus}
 (What if I [Gmaj7]fall) I won't let you [Asus]fall)
@@ -82,7 +84,8 @@ When they're tryna ge[F#m7]t-to-you baby I'll be the [Bm]fighter
 When they're tryna ge[F#m7]t-to-you baby I'll be the [Bm]fighter
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 What if I [Gmaj7*]fall   [Asus]What if I cr[F#m7]y[Bm]
 And if I get [Gmaj7]scared? (I'll hold you [Asus4]tighter)
 When they're tryna get[F#m7] to you baby I'll be the [Bm]fighter
+{end_of_part}

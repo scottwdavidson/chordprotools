@@ -7,13 +7,14 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | . . . . | . . . . | . . . . | . . . . |
 | . . . . | . . . . | . . (Come over here ). . | . . . . |
 Come over here
 
 | [C] . . . | [Eb] [Dm] [C] . |
 | [C] . . . | [Eb] [Dm] [C] . |
+{end_of_part}
 
 {start_of_verse}
 [C]. . . . [F7]All you got is this mo[C]ment
@@ -87,7 +88,7 @@ Gonna live [F7]my life
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 So [C]slide over here
 And [F7]give me a moment
 Your mo[C]ves are so raw
@@ -98,3 +99,4 @@ And [F7]give me a moment
 I've g[C]ot to let you know
 I've g[F7]ot to let you know
 You're one of my kind
+{end_of_part}

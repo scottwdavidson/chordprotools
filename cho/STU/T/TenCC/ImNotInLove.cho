@@ -2,9 +2,13 @@
 {artist: 10cc}
 {key: F#m}
 
-{comment: Intro - Slow, atmospheric, let chords ring}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro - Slow, atmospheric, let chords ring}
 [F#m] [B] [E] [A]
 [F#m] [B] [E] [E]
+{end_of_part}
 
 {start_of_verse: Verse 1}
 [E] I'm not in love, [G#m] so don't forget it
@@ -22,13 +26,13 @@
 [C#7] I'm not in love, [F#m] no no, [Am] it's because...
 {end_of_verse}
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [A] I keep your picture [B] upon the wall
 [E] It hides a nasty stain that's [A] lying there
 [A] So don't you ask me [B] to give it back
 [E] I know you know it doesn't [A] mean that much to me
 [F#m] I'm not in love, [B] [E] [E]
-{end_of_bridge}
+{end_of_part}
 
 {comment: Spoken Word Interlude}
 {comment: (Whisper: "Big boys don't cry...")}
@@ -50,6 +54,7 @@
 [C#7] I'm not in love, [F#m] [Am] I'm not in love...
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 [F#m] [B] [E] [A]
 (Fade out on chords)
+{end_of_part}

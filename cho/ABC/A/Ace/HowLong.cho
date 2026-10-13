@@ -17,17 +17,20 @@
 {comment:**  meta: label: How   Long   }
 {comment:***********************************************}
 
-{comment: Intro - Bass Only}
+{start_of_part: Intro - Bass Only}
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |
+{end_of_part}
 
 
-{comment: Intro - Drums Enter}
+{start_of_part: Intro - Drums Enter}
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |
+{end_of_part}
 
 
-{comment: Intro - Keys Enter}
+{start_of_part: Intro - Keys Enter}
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . . . |
 . | [Ab/Bb] . . . | [Bb] . . . | [Ab/Bb] . . . | [Bb] . [Bm7] . |
+{end_of_part}
 
 
 {start_of_chorus: Chorus}
@@ -54,12 +57,13 @@ It could [Ab/Bb]happen to us a[Bb7]ny day.[Bm7]
 {end_of_chorus}
 
 
-{comment: solo}
+{start_of_part: solo}
 . | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . . |
 . | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . . |
 
 . | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . . |
 . | [Cm] . . [F/C] | [F/C] . . . | [Cm] . . [F/C] | [F/C] . . (Oh) |
+{end_of_part}
 
 
 {start_of_verse: Verse 2}

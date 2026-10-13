@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] ... | [Dmaj7] ... | [G] . [A] . | [D] ... | ?
+{end_of_part}
 
 {start_of_verse}
 [D]Feeding slot machines, [Dmaj7]drinking free drinks, [G]we struck up a [A]conver[D]sation
@@ -54,13 +55,15 @@ But that's what [G]happens when what [F#m]happens in
 {end_of_chorus}
 
 
-{comment: Pedal Steel Solo}
+{start_of_part: Pedal Steel Solo}
 | [F#m] ... | [Em] ... | [A] ... | [D] ... |
+{end_of_part}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Yeah, [D]you bet it all, but your [Dmaj7]ace don't fall, 
 the [G]bank ain't [A]all that's [D]breaking
 But that's what [G]happens when what [F#m]happens in 
 [Em]Vegas doesn't [A]stay in [D]Vegas_[Dmaj7]
 Yeah, when [Em]Vegas doesn't [A]stay in [Gm]Vegas[D]
+{end_of_part}

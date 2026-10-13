@@ -2,8 +2,12 @@
 {artist: Chris Stapleton}
 {key: Bb}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 [Bb] [Bbsus2]
+{end_of_part}
 
 
 {start_of_verse}
@@ -52,7 +56,7 @@ Or is it a love[Dm]  song about some[Eb]one new
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Is it a feel[Eb]good song gets you driving too fast
 The one[Dm]that gets you moving on pass to pass
 Or the kind[Cm]that you can't help singing along
@@ -61,6 +65,7 @@ Is it head[Eb]phones on on a downtown train
 Or a win[Dm]dow seat on an outbound plane
 Is it LA[Cm]sunny and Memphis blue
 I wish[F]I knew I wish I knew
+{end_of_part}
 
 
 {start_of_chorus}
@@ -76,8 +81,9 @@ Or is it a love[Dm]  song about some[Eb]one new
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Bbsus2]      I [Bb]put that record on[Cm]
 Girl you know[Eb]what song
 And I let[F]it play again and again
 [Bb]Bb [Bbsus2]Bbsus2 [Bb]Bb[Bbsus2]
+{end_of_part}

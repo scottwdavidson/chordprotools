@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [B] . . . | [F#] . . . | [G#m] . . . | [E] . . . |
+{end_of_part}
 
 {start_of_verse}
 Well, [B]you done done me in, you bet I felt it.
@@ -47,13 +48,14 @@ There's no [B]need to com_pli_[F#]cate.
 Our time is [G#m]short. This is our [E]fate, I'm yours.
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [B]Do, do, do, do you[F#/A#], but do you, do you, do, do[G#m], 
 but do you want to come on[F#] skooch on over cl[E]oser, dear,
 And I will nibble your [C#7/F]ear.
 
 {comment: Interlude}
 | [B] . [F#/A#] . | [G#m] . [F#] . | [E] . . . | [C#7/F] . . . |
+{end_of_part}
 
 {start_of_verse}
 I've been spending [B]way too long checking my tongue in the mirror
@@ -81,7 +83,8 @@ There's no [F#]need to complicate.
 This, oh this, oh this is our [E]fate. I'm your_or_or_[C#7/F]urs.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [B] . . . | [F#] . . . | [G#m] . . . | [E] . . . |
 
 [B]
+{end_of_part}

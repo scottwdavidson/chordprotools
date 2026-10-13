@@ -57,9 +57,10 @@ When will you [Gb7]realize
 [F]  Vienna waits [Bb]for you
 {end_of_chorus}
 
-{comment: PIANO SOLO}
+{start_of_part: PIANO SOLO}
 | [Gm] ... | [Bb] ... | [F] ...   | [Ab] ...    |
 | [Eb] ... | [Bb] ... | [Am7] ... | [C/D] . [D] . |
+{end_of_part}
 
 {start_of_chorus}
 [Eb]   Slow down you c[F]razy child
@@ -78,8 +79,10 @@ Why don't you [Gb7]realize
 [F]  Vienna waits [Bb]for you
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [G7]   When will you [Gb7]realize
 [F]  Vienna waits [Bb]for you
+{end_of_part}
 
-{comment: Piano Outro}
+{start_of_part: Piano Outro}
+{end_of_part}

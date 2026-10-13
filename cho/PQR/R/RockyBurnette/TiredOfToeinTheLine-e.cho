@@ -17,11 +17,12 @@
 {comment:**  meta: label: Toein  Line   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 (Piano)
 | [E] . [C#m] . | [A] .   [B] . | [E] . [C#m] . | [A] .   [B] . |
 (+ Jeff)
 | [E] . [C#m] . | [F#m] . [B] . | [E] . [C#m] . | [F#m] . [B] . |
+{end_of_part}
 
 {start_of_chorus}
 Baby, [E]I'm.[C#m]....[A].tired of t[B]oein' the 
@@ -35,9 +36,10 @@ s[E]omeone n[C#m]ew, [A]some[B]one who
 [E]lin[C#m]e.[F#m][B]
 {end_of_chorus}
 
-{comment: bridge}
+{start_of_part: bridge}
 [A]I know it's [E]over, cause [A]I see the [E]signs.
 [A]Don't let me [E/G#]waste your precious [B]time.[B7]
+{end_of_part}
 
 {start_of_chorus}
 Baby, [E]I'm.[C#m]....[A].tired of t[B]oein' the 
@@ -51,9 +53,10 @@ l[E]ine..[C#m]....[A].I'm gonna [B]put on my
 be[E]hind.[C#m][F#m][B]
 {end_of_chorus}
 
-{comment: bridge}
+{start_of_part: bridge}
 [A]You're rollin' [E]over and [A]over, so [E]divine..
 [A]but you can't fix this [E/G#]broken [E]heart of [B]mine[B7]
+{end_of_part}
 
 {start_of_chorus}
 Baby, [E]I'm.[C#m]....[A].tired of t[B]oein' the 
@@ -62,9 +65,10 @@ l[E]ine..[C#m]....[A]don't know [B]why you wanna
 [E]cry.[C#m][F#m][Bm]
 {end_of_chorus}
 
-{comment: solo}
+{start_of_part: solo}
 | [A] ... | [E] ... | [A] ... | [E]  ... | 
 | [A] ... | [E] ... | [B] ... | [B7] ... |
+{end_of_part}
 
 {start_of_chorus}
 Baby, [E]I'm.[C#m]....[A].tired of t[B]oein' the 
@@ -73,7 +77,7 @@ l[E]ine..[C#m]....[A]don't know [B]why you wanna
 [E]cry.[C#m][F#m][B]
 {end_of_chorus}
 
-{comment: outro}
+{start_of_part: outro}
 Baby, [E]I'm..[C#m]....[A]..tired of t[B]oein' the l[E]ine.[C#m][A][B]
 Baby, [E]I'm..[C#m]....[A]..tired of t[B]oein' the l[E]ine.[C#m][F#m][B]
 Baby, [E]I'm..[C#m]....[A]..tired of t[B]oein' the l[E]ine.[C#m][A][B]
@@ -82,4 +86,5 @@ Baby, [E]I'm..[C#m]....[A]..tired of t[B]oein' the l[E]ine.[C#m][A][B]
 Baby, [E]I'm..[C#m]....[A]..tired of t[B]oein' the l[E]ine.[C#m][F#m][B]
 Baby, [E]I'm..[C#m]....[A]..tired of t[B]oein' the l[E]ine.[C#m][A][B]
 Baby, [E]I'm..[C#m]....[A].(Fade.)
+{end_of_part}
 

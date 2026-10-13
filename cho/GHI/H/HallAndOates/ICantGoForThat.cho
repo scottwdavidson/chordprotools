@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Fm9]    | %         | %      | %         |  (x4)
 | [Fm9]    | [Fm9] [Bb] [Bb] | [Fm9]    | [Fm9] [Bb] [Bb] |  (x4)
+{end_of_part}
 
 {start_of_verse}
 [Cm7]Easy, ready, willing, overt[F]ime,
@@ -43,7 +44,8 @@ Oh, [Fm9]I can't go for that, ([Bb]No can do)
 Oh, [Fm9]I can't go for that, ([Bb]No can do)
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
+{end_of_part}
 
 {start_of_chorus}
 [C]I--[Cmaj7] I 'll do any[C7]thing that you want me [Fmaj7]to do,[F6]
@@ -55,9 +57,10 @@ Oh, [Fm9]I can't go for that, ([Bb]No can do)
 Oh, [Fm9]I can't go for that, ([Bb]No can do)
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 But [Fm9]I can't go for that, ([Bb]No can do)
 No, [Fm9]I can't go for that, ([Bb]No can do)
 Oh, [Fm9]I can't go for that, ([Bb]No can do)
 
 (repeat and fade)
+{end_of_part}

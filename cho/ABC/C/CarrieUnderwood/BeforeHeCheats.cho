@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F#m] . [E] . | [D] . [E] . | 
 | [F#m] . [E] . | [D] . [C#] . | 
+{end_of_part}
 
 {start_of_verse}
 [F#m]   Right now, he's [E]probably slow dancing
@@ -78,6 +79,7 @@ I took a [D]Louisville slugger to both[F#m]headlights
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [D] Oh,[E] before he[F#m]   cheats[E]
 [D] Oh[C#]
+{end_of_part}

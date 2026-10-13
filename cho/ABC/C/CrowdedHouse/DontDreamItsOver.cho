@@ -10,14 +10,14 @@
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 63   }
 {comment:**  meta: performance: C   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [Csus2] . . . | [Gm/C] . . [Gm7/C] |
 
 . | [Csus2] . . . | [Gm/C] . . [Gm7/C] |
+{end_of_part}
 
 
 {start_of_verse: Verse 1}
@@ -58,16 +58,18 @@ The[F]y come, they[G] come
 {end_of_chorus}
 
 
-{comment: Organ Solo}
+{start_of_part: Organ Solo}
 . | [C] . . . | [Am] . . . | [F] . . . | [E] . . . |
 
 . | [C] . . . | [Am] . . . | [F] . . . | [E] . . . |
+{end_of_part}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 . | [F] . [G] . | [F] . [G] . | [F] . [G] . |
 
 . | [Bb7] . . . | [Bb7] . . . |
+{end_of_part}
 
 
 {start_of_verse: Verse 3}
@@ -89,7 +91,7 @@ The[F]y come, they[G] come
 {end_of_chorus}
 
 
-{comment: Outro (Organ vamp plus vocal ad lib)}
+{start_of_part: Outro (Organ vamp plus vocal ad lib)}
 . | [F] . [G] . | [C] . [Am] . | (don't let them win)
 . | [F] . [G] . | [C] . [Am] . | 
 
@@ -100,3 +102,4 @@ The[F]y come, they[G] come
 . | [F] . [G] . | [C] . [Am] . | 
 
 [C]
+{end_of_part}

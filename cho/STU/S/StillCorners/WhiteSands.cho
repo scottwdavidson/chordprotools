@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 {comment: Keyboard "pluck" -> A .. C .. D }
 | [Dm] | [Am] | [Em] | [G] | x12 
+{end_of_part}
 
 {start_of_verse}
 [Dm]On a lonely highway. [Am]From where I came
@@ -50,10 +51,10 @@
 {comment: Interlude}
 | [Dm] | [Am] | [Em] | [G] |
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Dm]Ride on, Ride [Am]on. Ride on, Ride [Em]on.
 [Em]Ride on, Ride [G]on. W[G]on't you ride o[Dm]n?
-{end_of_bridge}
+{end_of_part}
 
 {comment: Interlude}
 | [Dm] | [Am] | [Em] | [G] |
@@ -66,5 +67,6 @@
 [Dm]Around[Am]
 [Em]Around[G]
 
-{comment: Outro}
+{start_of_part: Outro}
 | [Dm] | [Am] | [Em] | [G] | x4
+{end_of_part}

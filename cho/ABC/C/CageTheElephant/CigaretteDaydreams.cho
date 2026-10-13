@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . . . | [Dmaj7] . . . | [Em] . . . |
 | [G] . . . | [A] . . . |
+{end_of_part}
 
 {start_of_verse}
 [D] Did you stand there all a[Dmaj7]lone?
@@ -69,8 +70,9 @@ Wan na find[D] peace of mind[G]
 [F#m]Looking for the answer[Bm]
 
 
-{comment: Outro}
+{start_of_part: Outro}
 If we could find a [D]reason, a reason to change[G]
 [F#m]Looking for the answer
 [Bm]  If you could find a [D]reason, a reason to stay[G]
 [F#m]Standing in the pouring rain
+{end_of_part}

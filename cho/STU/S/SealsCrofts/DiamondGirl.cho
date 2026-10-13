@@ -19,7 +19,7 @@
 {comment:**  meta: ve: P26   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 {comment: piano (A octave) w/ drum for 3 measures}
 | (1) (2) [Am7] [Am7] | [Bm] [D] [Am7] |
 
@@ -28,6 +28,7 @@
 | (1) (2) [Am7] [Am7] | [Bm] [D] [Am7] |
 
 | (1) (2) [Am7] [Am7] | [Bm] [D] [Am7] |
+{end_of_part}
 
 {start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
@@ -85,7 +86,7 @@ That I [E7]am a-woah woah oh [Am]oh
 {comment:Interlude}
 | [D] [Am7] | [D] [Am7] | [D] [Am7] |
 
-{comment:Solo}
+{start_of_part: Solo}
 | [Am7] | [Am7] | [D] | [D]   | 
 
 | [Am7] | [Am7] | [D] | [D]   | 
@@ -93,6 +94,7 @@ That I [E7]am a-woah woah oh [Am]oh
 | [Am7] | [Am7] | [D] | [D]   | 
 
 | [F]   | [G]   | [A] | [Am7] |
+{end_of_part}
 
 {start_of_chorus}
 [Am7]Diamond g[Bm7]irl [D][Am7]
@@ -105,8 +107,9 @@ That I [E7]am a-woah woah oh [Am]oh
 You [D]sure do [F]sure do [C]sure do, you [G/B]sure do shine
 {end_of_chorus}
 
-{comment:Outro}
-{comment:Solo}
+{start_of_part: Outro}
+{end_of_part}
+{start_of_part: Solo}
 | [Am7] | [Am7] | [D] | [D] | 
 
 | [Am7] | [Am7] | [D] | [D]   | 
@@ -114,3 +117,4 @@ You [D]sure do [F]sure do [C]sure do, you [G/B]sure do shine
 | [Am7] | [Am7] | [D] | [D]   | 
 
 | [F]   | [G]   | [A] | [A] |
+{end_of_part}

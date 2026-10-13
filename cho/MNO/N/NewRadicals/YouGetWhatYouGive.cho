@@ -1,16 +1,11 @@
 {title: You Get What You Give}
 {artist: New Radicals}
 {key: D}
-{tempo: 114}
 {duration: 4:20}
-
+{tempo: 114}
 
 {comment:***********************************************}
-{comment:**  meta: countin: 4   }
-{comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 65   }
 {comment:***********************************************}
-
 
 {start_of_part: Intro}
 . | [A] . . . | [G5] . . . |
@@ -92,14 +87,14 @@ We only [A]get what we give[G][A][G]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [A/D][Am][G][A/D][Am][G]
 [A/D]     This whole damn world,[Am]  could [G]fall apart[A/D]
 You'll be ok,[Am]  fol[G]low your heart[A/D]
 You're in harms way,[Am]  I'm [G]right behind[A]
 Now say you're mine[Asus4][A][Asus4]
 [A] You've got the music in you
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

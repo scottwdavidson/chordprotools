@@ -8,7 +8,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Dm7] . . |[G7] . . | [C] . . | [G7] . . |
 
 
@@ -51,6 +51,7 @@ Especially if you enjoy [C7]it with their caesar salad and garlic bread.
 The [D7]waiter brings you a rose and I guess that's how it goes,
 [Dm7]When you dine at [G7]Vaso [C]Azzurro.  [G7]
 {comment: End Monologue}
+{end_of_part}
 
 
 {start_of_verse}

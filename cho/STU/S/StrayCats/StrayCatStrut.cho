@@ -7,13 +7,14 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 {start_of_grid 4x4+1}
 || [Cm] . [Bb] . | [Ab] .  [G7] . || x2
 {end_of_grid}
 
 {comment:Pre-Verse}
 [Cm]Oo [Bb]Oo [Ab]Oo [G7]Oo  x4
+{end_of_part}
 
 {start_of_verse}
 [Cm]Black and orange [Bb]stray cat [Ab]sittin' on a [G7]fence.[Cm][Bb][Ab][G7]
@@ -33,12 +34,13 @@ Get a [Fm]shoe thrown [Eb]at me from a [Db]mean old [C7]man.
 {end_of_chorus}
 
 {comment: DR1}
-{comment:Instrumental}
+{start_of_part: Instrumental}
 {start_of_grid 4x4+1}
 || [Cm] . [Bb] . | [Ab] .  [G7] . || x2
 {end_of_grid}
+{end_of_part}
 
-{comment:Guitar Solo}
+{start_of_part: Guitar Solo}
 {start_of_grid 4x4+1}
 || [Cm] . [Bb] . | [Ab] . [G7] . | x3
 {comment: DR2}
@@ -46,11 +48,12 @@ Get a [Fm]shoe thrown [Eb]at me from a [Db]mean old [C7]man.
 {end_of_grid}
 
 {comment: DR1}
-{start_of_bridge}
+{end_of_part}
+{start_of_part: Bridge}
 [Fm]I don't bother [Fm7]chasing mice ar[Cm]ound.[Cm] [Eb]
 I [Fm]slink down the alley [Fm7]looking for a fight
 h[D7]owlin' to the moonlight on a [G7b9#5]hot summer night.
-{end_of_bridge}
+{end_of_part}
 
 {comment: Ooh background vocals}
 {start_of_verse}
@@ -61,7 +64,7 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild but I
 [Cm]got cat class[N.C.] and I got [N.C.]cat style.
 {end_of_verse}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 {start_of_grid 4x4+1}
 || [Cm] . [Bb] . | [Ab] .  [G7] . || x2
 {end_of_grid}
@@ -72,7 +75,8 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild but I
 {end_of_grid}
 
 {comment: DR2}
-{comment: Piano Solo – 8 bars}
+{end_of_part}
+{start_of_part: Piano Solo – 8 bars}
 {start_of_grid 4x4+1}
 || [Cm] . [Bb] . | [Ab] . [G7] . | x3
 | [Cm] N.C. . . | N.C. . . . ||
@@ -82,8 +86,9 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild but I
 {start_of_grid 4x4+1}
 || [Cm] . . . | [Ab7] . [G7b9#5] . || x4
 {end_of_grid}
+{end_of_part}
 
-{comment: Guitar Solo – 8 bars}
+{start_of_part: Guitar Solo – 8 bars}
 {start_of_grid 4x4+1}
 || [Cm] . [Bb] . | [Ab] . [G7] . | x3
 | [Cm] N.C. . . | N.C. . . . ||
@@ -91,11 +96,12 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild but I
 {end_of_grid}
 
 {comment: DR1}
-{start_of_bridge}
+{end_of_part}
+{start_of_part: Bridge}
 [Fm]I don't bother [Fm7]chasing mice ar[Cm]ound.[Cm] [Eb]
 I [Fm]slink down the alley [Fm7]looking for a fight
 h[D7]owlin' to the moonlight on a [G7b9#5]hot summer night.
-{end_of_bridge}
+{end_of_part}
 
 {comment: Ooh background vocals}
 {start_of_verse}
@@ -106,7 +112,7 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild
 [Cm]but I got cat [N.C.]class and I got [N.C.]cat style.
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 {comment: Walking Bass}
 {start_of_grid 4x4+1}
 || [Cm] . [Bb] . | [Ab] . [G7] . |
@@ -117,3 +123,4 @@ I [Cm]wish I could [Bb]be as [Ab]care-free and [G7]wild
 {start_of_grid 4x4+1}
 || [Cm] N.C. . . | N.C. . . [Cm9] ||
 {end_of_grid}
+{end_of_part}

@@ -17,8 +17,7 @@
 {comment:**  meta: label: Takin  Care   }
 {comment:***********************************************}
 
-
-{comment:Intro; DR Intro:Part1(8)}
+{start_of_part: Intro; DR Intro:Part1(8)}
 . | [C] . | [Bb] . | [F] . | [C] . |
 
 
@@ -31,6 +30,7 @@
 
 
 . | [C] . | [Bb] . | [F] . | [C] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -58,13 +58,14 @@ Work out
 {end_of_chorus}
 
 {comment:DR Part 4}
-{comment:Guitar Solo 1}
+{start_of_part: Guitar Solo 1}
 . | [C] . | [Bb] . | [F] . | [C] . |
 
 
 . | [C] . | [Bb] . | [F] . | [C] . |
 
 {comment:DR Part 5}
+{end_of_part}
 {start_of_verse}
 If it were [C]easy as fishin'
 You could [Bb]be a musician
@@ -88,7 +89,7 @@ We be [C]takin' care of business[Bb] (it's all mine)
 [F]Takin' care of business and [C] (workin' overtime)
 {end_of_chorus}
 
-{comment:Guitar Solo 2}
+{start_of_part: Guitar Solo 2}
 {comment:DR Part 7}
 . | [C] . | [Bb] . | [F] . | [C] . |
 
@@ -96,6 +97,7 @@ We be [C]takin' care of business[Bb] (it's all mine)
 
 
 {comment:Interlude}
+{end_of_part}
 {start_of_chorus}
 [NC] [NC] Whoooo!
 [NC] alright [NC]
@@ -114,12 +116,13 @@ We be [C]takin' care of business[Bb] (it's all mine)
 
 {end_of_chorus}
 
-{comment:Guitar Solo 3}
+{start_of_part: Guitar Solo 3}
 . | [C] . | [Bb] . | [F] . | [C] . |
 
 . | [C] . | [Bb] . | [F] . | [C] . |
 
 {comment:DR Part 8}
+{end_of_part}
 {start_of_verse}
 You [C]get up every morning
 From your [Bb]'larm clock's warning

@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [D] [F#m] [Bm] [D7] [G] [Em] [A]
+{end_of_part}
 
 {start_of_verse: Verse 1}
 [D] Too many broken hearts have [F#m] fallen in the river
@@ -26,11 +27,11 @@
 [Em] Ooh, you gotta make it [A] easy on me
 {end_of_verse}
 
-{start_of_bridge: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [F] Ooh, you make me [C] love you
 [F] Ooh, you make me [C] cry
 [F] Ooh, you make me [C] love you [A]
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus: Chorus}
 [D] Communication breakdown, [F#m] million miles an hour
@@ -41,14 +42,15 @@
 [G] The things we [A] do for [D] love (The things we do for love)
 {end_of_chorus}
 
-{comment: Interlude / Solo}
+{start_of_part: Interlude / Solo}
 [D] [F#m] [Bm] [D7] [G] [Em] [A]
+{end_of_part}
 
-{start_of_bridge: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [F] Ooh, you make me [C] love you
 [F] Ooh, you make me [C] cry
 [F] Ooh, you make me [C] love you [A]
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus: Chorus & Outro}
 [D] Communication breakdown, [F#m] million miles an hour

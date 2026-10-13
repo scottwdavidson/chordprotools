@@ -17,8 +17,9 @@
 {comment:**  meta: label: Dont  Know   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bbmaj7] . [Bb7] . | [Ebmaj7] . [D7#5] . | [Gm7] . [C7] . | [F7sus4] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Bbmaj7] I  wait - ed  [Bb7]til     I  [Ebmaj7]saw  the  [D7#5]sun.   
@@ -54,9 +55,10 @@ My [Gm7]heart  is        [C7]drenched in            [F]wine,[F7]
 But [Gm7]you'll    be    [C7]on       my       [F]mind [F5/Eb]  for    -   [Bb/D] ev    -   [F/C]er.
 {end_of_chorus}
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 | [Bbmaj7] . [Bb7] . | [Ebmaj7] . [D7#5] . | [Gm7] . [C7] . | [F7sus4] . . . |
 | [Bbmaj7] . [Bb7] . | [Ebmaj7] . [D7#5] . | [Gm7] . [C7] . | [F7sus4] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Bbmaj7] Some - thing  [Bb7]has   [Ebmaj7]to    make   you  [D7#5]run. 
@@ -64,7 +66,8 @@ But [Gm7]you'll    be    [C7]on       my       [F]mind [F5/Eb]  for    -   [Bb/D
 [Bbmaj7] I     feel  as  [Bb7]emp  -  ty    [Ebmaj7]as       a  [D+]drum.
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Gm7] I don't know [C7]why      I   [F7sus4]did  -  n't   [Bb]come,
 [Gm7] I don't know [C7]why      I   [F7sus4]did  -  n't   [Bb]come.
 [Gm7] I don't know [C7]why      I   [F7]did  -  n't   [Bb]come.
+{end_of_part}

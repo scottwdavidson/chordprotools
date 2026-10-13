@@ -6,10 +6,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 {start_of_grid 4x4+1}
 || [Bm7] . | [E7] . | [Amaj7] . | [Dmaj7] . || 
 {end_of_grid}
+{end_of_part}
 
 
 {start_of_verse}

@@ -4,6 +4,9 @@
 {duration: 4:00}
 {tempo: 110}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
 [A]
 {end_of_part}
@@ -62,9 +65,10 @@ Oh, [F#m]didn't I, didn't I, didn't I see you [D7]crying?
 {end_of_chorus}
 
 
-{comment: Outro (Fade Out)}
+{start_of_part: Outro (Fade Out)}
 [A]  [E]  [F#m]    [D7]  I [A]want you to want me[Amaj7]
 I [F#m]need you to need me[A]
 I'd [D]love you to love me[A]
 I'm [A]begging you to beg me[Amaj7]
 I [F#m]want you to want me[A]
+{end_of_part}

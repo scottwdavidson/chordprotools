@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . |
 | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . | [Bb] . [Eb/Bb] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -43,12 +44,13 @@ don't wa[D7]it for ans[Gm]wers, just tak[Bb7]e your cha[C7]nces,
 don't a[F7]sk me w[Bb]hy[Bb7][Bb]
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 
 [F]you can say the human heart is o[Eb]nly make believe
 [F]i am only fighting fire with f[Bb]ire
 [G]you are still the vi[C]ctim of the accidents you leave
 [G]sure as i'm a victim of de[C7]sire
+{end_of_part}
 
 
 {start_of_verse}
@@ -67,11 +69,12 @@ don't as[D7]k for f[Gm]avors, don't t[Bb7]alk to st[C7]rangers,
 don't a[F7]sk me w[Bb]hy[Bb7][Bb]
 
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 
 F - Eb - F - Bb
 
 G7 - C7 - G7 - C7 - F7
+{end_of_part}
 
 
 {start_of_verse}

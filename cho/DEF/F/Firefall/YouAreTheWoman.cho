@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] . [C#m7] . | [Bm7] . [E] . |
 | [A] . [C#m7] . | [Bm7] . [E] . |
+{end_of_part}
 
 {start_of_chorus}
 [A] You are [C#m7]the woman that I've [Bm7]always[E]dreamed of
@@ -50,16 +51,18 @@ Whoa, whoa
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [A] . [C#m7] . | [Bm7] . [E] . |
 | [A] . [C#m7] . | [Bm7] . [E] . |
+{end_of_part}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [E]It's hard to tell you all the love I'm feeling
 [A]That's just [E]not my [D]style
 [E]You've got a way to send my senses reeling
 [A]Every [E]time you [Bm7]smile
 [E]Whoa
+{end_of_part}
 
 
 {start_of_chorus}
@@ -69,6 +72,7 @@ Whoa, whoa
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Of my[A] heart[C#m7]
 [Bm7]Ooh,[E] of my[A] heart[C#m7][Bm7][E][A]
+{end_of_part}

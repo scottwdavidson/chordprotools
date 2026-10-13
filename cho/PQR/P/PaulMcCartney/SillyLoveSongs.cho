@@ -5,10 +5,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . | [Em] . . . | [FM7] . . . | [FM7] . . . |
 | [C] . . . | [Em] . . . | [FM7] . . . | [FM7] . . . |
 | [C] . . . | [Em] . . . | [FM7] . . . | [FM7] . . . |
+{end_of_part}
 
 {start_of_verse}
 [C] You'd think that people would have [Em7]had enough of silly love[Fmaj7]songs
@@ -46,7 +47,7 @@ I [Fmaj7]need to know
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Em]Love doesn't come in a minute
 [Fmaj7]Sometimes it doesn't come at all
 [Em7]I only know that when I'm in it
@@ -56,6 +57,7 @@ I [Fmaj7]need to know
 {comment: Interlude}
 [C]Em[Em7]7 Fm[Fmaj7]aj7 C [C]Em7
 [Fmaj7] [C][Em7][Fmaj7]
+{end_of_part}
 
 
 {start_of_verse}

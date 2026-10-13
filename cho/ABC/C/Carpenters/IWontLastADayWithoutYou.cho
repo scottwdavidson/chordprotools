@@ -11,9 +11,10 @@
 {comment:**  meta: countin: 4   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] . [Bm] . | [C] . [D] . |
 | [G] . [Bm] . | [C] . [D] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -52,7 +53,7 @@ I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
 But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Em]Touch me [A7]and I end up 
 [Dmaj7]singing 
 [Em]Troubles seem to [A7]up and disap[Bsus]pear[B], you 
@@ -61,6 +62,7 @@ But I [Am7]won't last a [Am7/D]day without [G]you
 [G#m7]I can't really [Amaj7]lose 
 when you're [Bsus]near[B] 
 (when you're [Am7]near[D7])
+{end_of_part}
 
 {start_of_verse}
 [G]If all my [Bm]friends
@@ -85,7 +87,8 @@ I can [G]take all the [F/G]madness the [Cmaj7]world has to [G/B]give
 But I [Am7]won't last a [Am7/D]day without [G]you
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [G] . [Bm] . | [C] . [D] . |
 | [G] . [Bm] . | [C] . [D] . |
+{end_of_part}
 

@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
 | [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
+{end_of_part}
 
 {start_of_verse}
 I been tryna [Fm]call
@@ -36,9 +37,10 @@ Hey, hey, hey
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 | [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
 | [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
+{end_of_part}
 
 {start_of_verse}
 I'm running out of [Fm]time
@@ -74,12 +76,14 @@ Hey, hey, hey
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 | [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
 | [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
 | [Fm] . . . | [Fm] . . . | [Cm] . . . | [Cm] . . . |
 | [Eb] . . . | [Eb] . . . | [Bb] . . . | [Bb] . . . |
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 I said, [Fm]ooh, I'm [Cm]blinded by the lights
 No, [Eb]I can't sleep until I feel your[Bb]touch
+{end_of_part}

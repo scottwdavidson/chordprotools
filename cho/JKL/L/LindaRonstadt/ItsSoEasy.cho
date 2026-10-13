@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . . . | [B] . . . | [A] . .   . | [B] . . . |
 | [E] . . . | [A] . . . | [B] . [A/B] . | [E] . . . |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -68,7 +69,8 @@ Where [F#]you're concerned my [B]heart has learned
 {end_of_chorus}
 
 
-{comment: Outro - accapella}
+{start_of_part: Outro - accapella}
 [E]It's so [B]easy to [A]fall in love[B]
 [E]It's so [A]easy to [B]fall [A/B]in [E]love
+{end_of_part}
 

@@ -1,8 +1,11 @@
 {title: Get Up}
 {artist: James Brown}
 {key: Eb}
-{tempo: 140}
 {duration: 3:15}
+{tempo: 140}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_chorus}
 [Ab9]   Get up,[Eb9](get on up)
@@ -54,7 +57,7 @@ Can I take 'em to the bridge? Take 'em to the bridge?
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Ab9]    [Gb9]    [G9]   [Ab9]    [Ab9]    [Gb9]    [G9]   [Ab9]   Stay on the [Ab9]scene,[Gb9]    [G9]like a [Ab9]sex machine,
 [Ab9]The [Gb9]    [G9]   [Ab9]   way I [Ab9]like it[Gb9]    [G9]   [Ab9]    [Ab9]is, is the way[Gb9]    [G9]   [Ab9]    [Ab9]it is I got[Gb9]    [G9]   [Ab9]    [Ab9]mine, (dig it!), he[Gb9]    [G9]   [Ab9]    [Ab9]got
 his Stay on[Gb9][G9][Ab9]
@@ -62,6 +65,7 @@ his Stay on[Gb9][G9][Ab9]
 [Ab9]the scene, like a[Gb9][G9][Ab9][Ab9][Gb9][G9][Ab9]
 [Ab9]lovin' machine Stay on[Gb9]   the[G9]  scene[Ab9]
 [Ab9] [Gb9][G9][Ab9][Ab9][Gb9][G9][Ab9]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -114,5 +118,6 @@ Get up, (get on up)
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Eb9 Ab9
+{end_of_part}

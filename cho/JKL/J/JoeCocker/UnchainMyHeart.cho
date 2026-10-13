@@ -17,10 +17,11 @@
 {comment:**  meta: label: Unchn Heart   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Am]unchain my heart, [Dm7]baby let me [Am]be
 [F9]'cause you don't care, [E7#9]well please
 [Am]set me free
+{end_of_part}
 
 {start_of_chorus}
 Unchain my [Am]heart, baby let me go
@@ -48,10 +49,11 @@ unchain my [Dm7]heart, (unchain my heart) you worry me night and [Am]day
 [F9]unchain my heart, oh [E7#9]please set me [Am]fre[Dm7]e [Am]alright
 {end_of_verse}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Am] . . . | [Am] . . . | [Am] . . . | [Am] . . . | 
 | [Dm] . . . | [Dm] . . . | [Am] . . . | [Am] . . . |
 | [F7] . . . | [E7] . . . | [Am] . . . | [Am] . . . |
+{end_of_part}
 
 {start_of_verse}
 I'm under your [Dm7]spell, just like a man in a [Am]trance

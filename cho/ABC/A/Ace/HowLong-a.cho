@@ -17,17 +17,20 @@
 {comment:**  meta: label: How   Long   }
 {comment:***********************************************}
 
-{comment: Intro - Bass Only}
+{start_of_part: Intro - Bass Only}
 . | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . . . |
+{end_of_part}
 
 
-{comment: Intro - Drums Enter}
+{start_of_part: Intro - Drums Enter}
 . | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . . . |
+{end_of_part}
 
 
-{comment: Intro - Keys Enter}
+{start_of_part: Intro - Keys Enter}
 . | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . . . |
 . | [G/A] . . . | [A] . . . | [G/A] . . . | [A] . [A#m7] . |
+{end_of_part}
 
 
 {start_of_chorus: Chorus}
@@ -54,12 +57,13 @@ It could [G/A]happen to us a[A7]ny day.[A#m7]
 {end_of_chorus}
 
 
-{comment: solo}
+{start_of_part: solo}
 . | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . . |
 . | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . . |
 
 . | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . . |
 . | [Bm] . . [E/B] | [E/B] . . . | [Bm] . . [E/B] | [E/B] . . (Oh) |
+{end_of_part}
 
 
 {start_of_verse: Verse 2}

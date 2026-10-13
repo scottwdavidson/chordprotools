@@ -11,11 +11,12 @@
 {comment:**  meta: countin: 4   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [E] [D] | [A] | 
 | [E] [D] | [A] | 
 | [E] [D] | [A] | 
 | [E] [D] | [A] |
+{end_of_part}
 
 {start_of_verse}
 Wash a[E]way my troub[D]les, wash aw[A]ay my pain,

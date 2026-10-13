@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 ||: [Dm]/  / [Dmmaj7] /  /  | [Dm7] /  /[Dm6/A]/  /  :||x4
+{end_of_part}
 
 {start_of_verse}
 [Dm]Every - [Dmmaj7]body's  [Dm7]got a [G7]thing,

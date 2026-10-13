@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [F] . [Gm] . | [F] . [Gm] . | [F] . [Gm] . | [F] . [Gm] . |
+{end_of_part}
 
 {start_of_verse}
 A[F]nother [Gm]day is at en[Csus]d
@@ -47,6 +48,7 @@ She [Dm/C]knows how [Dm/B]much we [A]really [Bb]miss he[Csus]r [C]
 {end_of_chorus}
 
 
-{comment:Outro}
+{start_of_part: Outro}
 [F]Just like the [Eb]one in [Bb]our back[Dm]yard[F]
 | [F] . [Gm] . | [F] . [Gm] . | [F] . [Gm] . | [F] . [Gm] . |
+{end_of_part}

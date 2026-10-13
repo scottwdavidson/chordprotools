@@ -19,9 +19,10 @@
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] . . . | [C/G] . . . | 
 | [G] . . . | [C/G] . . . |
+{end_of_part}
 
 {start_of_verse}
 There's a little [G]moonlight, dancin' on [Em]the sand
@@ -55,11 +56,12 @@ Will you [C]promise me that you're gonna treat it rig[Am]ht
 I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [G] . . . | [G] . . . | [Em] . . . | [Em] . . . |
 | [F] . . . | [F] . . . | [C]  . . . | [C]  . . . |
 
 {comment: backing vocal - 'can you let me down easy'}
+{end_of_part}
 {start_of_chorus}
 If I [G]fal[Bm7]l, can ya let me down [C]easy
 If I l[G]eave my heart with you [Bm7]tonight,
@@ -68,8 +70,9 @@ I'm barely [G/B]hangi[C]n' on, if I [F]fal[C/E]l, can you let me down [G]easy.
 If I [F]fal[C/E]l,__[C/E]_[G]_[C/E]__ can you let me down [G]easy. [C/G]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 Let me down [G]easy [C/E]
 
 | [G] . . . | [C/G] . . . |
 | [G] | 
+{end_of_part}

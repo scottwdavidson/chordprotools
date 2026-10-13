@@ -9,8 +9,9 @@
 {comment:**  meta: nord: 024   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Am] | 
+{end_of_part}
 
 {start_of_verse}
 At [Am]first I was afraid, I was [Dm]petrified,

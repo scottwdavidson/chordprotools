@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Am6/C] [B] | [Am6/C] [B] | [Am6/C] [B] | [B] [B] N/[C] |
+{end_of_part}
  
 {start_of_verse}
 She's come un[Em]dun[A7]
@@ -51,7 +52,7 @@ She's [Am6/C]lost the [B]sun[B][B]
 [NC]She's come un-[Em]dun[Cmaj7b5][C#m7b5][Cmaj7b5]
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Em]Too many [Cmaj7b5]mountains
 [C#m7b5]And not enough [Cmaj7b5]stairs to climb
 [Em]Too many [Cmaj7b5]churchs
@@ -61,7 +62,7 @@ She's [Am6/C]lost the [B]sun[B][B]
 [C#m7b5]And not enough [Cmaj7b5]eyes to see
 [Em]Too many [Cmaj7b5]lives to lead
 [C#m7b5]And not enough [Cmaj7b5]time
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [Am6/C]It's too [B]late
@@ -70,7 +71,8 @@ She's [Am6/C]lost the [B]sun[B][B]
 {end_of_chorus}
 
 {comment:2:04}
-{comment:Vocal Solo}
+{start_of_part: Vocal Solo}
+{end_of_part}
 {start_of_chorus}
 [NC]She's come un-[Em]dun[A7]
 [G]Da da da da da da da [F#m7]da da da
@@ -78,10 +80,12 @@ She's [Am6/C]lost the [B]sun[B][B]
 [Am7]Da da da, [D7]da da da da[G] da da da da[C9][B9]
 {end_of_chorus}
 
-{comment:Piano Solo}
+{start_of_part: Piano Solo}
 |[Em] [A7]| [G] | [F#m7] | [B7] | [F#m7] | [Am7] [D7] | [G] | [C9] [B9] |
+{end_of_part}
 
-{comment:Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [Am6/C]It's too [B]late
 She's [Am6/C]gone too [B]far
@@ -114,6 +118,7 @@ She's [Am6/C]lost the [B]sun[B][B]
 
 {comment:3:12}
 
-{comment:Outro ( ritardando )}
+{start_of_part: Outro ( ritardando )}
 [NC]She's come un-[Em]dun[A]
 [G]dah do do do do do[F#m7]do do [F7]do doot [Em]doot!
+{end_of_part}

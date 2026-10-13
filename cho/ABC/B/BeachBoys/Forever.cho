@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] | [A/C#] | [Bm]  | [A]   |
 | [G] | [G/F#] | [Em7] | [Em7] |
+{end_of_part}
 
 {start_of_verse}
 If [D]every word I said[A/C#]

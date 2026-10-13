@@ -1,8 +1,11 @@
 {title: Party Crowd}
 {artist: David Lee Murphy}
 {key: G}
+{duration: 3:00}
 {tempo: 127}
-{duration: 3:00}    
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse: Verse 1}
 [G]She couldn't keep from cryin' when [Am]she told me goodbye
@@ -43,9 +46,10 @@ I'm [C]makin' the rounds, [D]looking for a party cro[G]wd[D]
 {end_of_chorus}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 [G][Am][C][Am]
 [C]
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

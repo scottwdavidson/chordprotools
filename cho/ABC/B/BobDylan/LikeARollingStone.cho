@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [C] [Fmaj7/C] | [C] [Fmaj7/C] | [C] [Fmaj7/C] | [C] [Fmaj7/C] |
+{end_of_part}
 
 {start_of_verse}
 [C]Once upon a time you [Dm7]dressed so fine
@@ -31,8 +32,9 @@ Like a complete unknown[C][F][G]
 Like a rolling stone[C][F][G]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [C]  [F] | [G]  | [G]  |
+{end_of_part}
 
 {start_of_verse}
 Aww, You've[C] gone to the [Dm7]finest school all righ[Em]t, Miss Lonely
@@ -59,8 +61,9 @@ A complete unknown[C][F][G]
 Like a rolling stone[C][F][G]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [C]  [F] | [G]  | [G]  |
+{end_of_part}
 
 {start_of_verse}
 Aww, You[C] never turned a[Dm7]round to see the frowns[Em]
@@ -85,8 +88,9 @@ Like a complete unknow[C]n[F][G]
 Like a rolling stone[C][F][G]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [C]  [F] | [G]  | [G]  |
+{end_of_part}
 
 {start_of_verse}
 Aww[C], Princess on the [Dm7]steeple and all the [Em]pretty people
@@ -111,5 +115,6 @@ Like a complete unknow[C]n[F][G]
 Like a rolling stone[C][F][G]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [C]  [F] | [G]  | [G]  |
+{end_of_part}

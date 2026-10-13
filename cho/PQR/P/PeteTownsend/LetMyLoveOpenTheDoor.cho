@@ -21,13 +21,15 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Arpegiator Intro}
+{start_of_part: Arpegiator Intro}
 | [A] . . . | [A] . . . | [A] . . . | [A] . . . |
 | [A] . . . | [A] . . . | [A] . . . | [A] . . . |
+{end_of_part}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] . [E] [E] | [D] . . [E]   | [A] [A] [E] [E] | [D] . .   [E] |
 | [A] [A] [E] [E] | [D] . D-D [E] | [A] [A] [E] [E] | [D] . D-D [E] |
+{end_of_part}
 
 {start_of_verse}
 Wh[A]en people ke[E]ep repe[D]ating__[E]    
@@ -75,7 +77,7 @@ To your heart
 [A]Le[E]t [D]my love open the door 
 {end_of_chorus}
 
-{comment: BRIDGE}
+{start_of_part: BRIDGE}
 [F#m]I have the only key to your heart       
 I [Bm]can stop you falling apart
 [D]Try today you'll finally sway         
@@ -85,6 +87,7 @@ Com[E]e on and give me a chance to say
 I[Bm]t's all I'm livin' for
 [D]Release yourself from misery    
 Only one thing's gonna set y[E]ou free
+{end_of_part}
 
 {start_of_verse}
 That's my[A] l[E]ov[D]e [E]
@@ -113,8 +116,9 @@ You're [A]so lucky [E]I'm arou[D]nd[E]
 [A]Le[E]t [D]my love open the door (to your heart)
 {end_of_chorus}
 
-{comment: Outro - Arpegiator}
+{start_of_part: Outro - Arpegiator}
 | [A] . . . | [A] . . . | [A] . . . | [A] . . . |
 
 {comment: ref -> }
 {comment: see https://youtu.be/77ajdGlGMwM?si=Y1qDtmD3fmio2h0E}
+{end_of_part}

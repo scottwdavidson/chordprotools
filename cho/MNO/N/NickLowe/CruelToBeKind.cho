@@ -19,10 +19,11 @@
 {comment:**  meta: ve: P26   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . | [G/B] . . . | [F/A] . . . | [G] . . . |
 
 | [C] . . . | [G/B] . . . | [F/A] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -57,11 +58,12 @@ You gotta be [F]cruel to be [G]kind [Em]in the right [Am]measure.
 You [G]gotta be cruel to be...
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 | [C] (kind) . . . | . Oo, oo -oo! | [A] Oo, oo, | [A7] oo! . . . |
+{end_of_part}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [F] . [G] . | [Em] . [Am] . |
 
 | [F] . [G] . | [Em] . [Am] . |
@@ -69,6 +71,7 @@ You [G]gotta be cruel to be...
 | [F] . [G] . | [Em] . [Am] . |
 
 | [G7sus4] . . . | [G7sus4] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -86,7 +89,8 @@ You gotta be [F]cruel to be [G]kind [Em]in the right [Am]measure.
 You [G]gotta be cruel to be kind
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [F](Cruel to be [G]kind) [Em]in the right [Am]measure.
 [F](Cruel to be [G]kind) it's a [Em]very very [Am]very good sign.

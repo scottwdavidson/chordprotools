@@ -4,10 +4,11 @@
 {duration: 3:00}
 {tempo: 86}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
+{end_of_part}
 
 {start_of_verse}
 [F2]. . [Fmaj7]. .  [Bbmaj7]. . . .
@@ -24,15 +25,17 @@
 [Bb6/C]. . [Bb/C]. . [C]. . . .
 {end_of_chorus}
 
-{comment: bridge}
+{start_of_part: bridge}
 [F2maj7]. . . . [Bbmaj7]. . . . 
 [F2maj7]. . . . [Bbmaj7]. . . . 
 [F2maj7]. . . . [Bbmaj7]. . . . 
 [Gm]. .  [Bb/C]. [C]. [F]. . . . 
+{end_of_part}
 
-{comment: outro}
+{start_of_part: outro}
 [F2maj7]. . . . [Bbmaj7]. . . . 
 [F2maj7]. . . . [Bbmaj7]. . . . 
 [F2maj7]. . . . [Bbmaj7]. . . . 
 [Gm]. .  [Bb/C]. [C]. [Gm]. .  [Bb/C]. [C]. 
 [Gm]. .  [Bb/C]. [C]. [F]. . . . 
+{end_of_part}

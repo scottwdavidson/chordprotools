@@ -17,10 +17,11 @@
 {comment:**  meta: label: Run OnEmpty   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
 | [D/A] . . . | [A]    . . . | [F#m] . . . | [F#m] . . . | 
 | [D]   . . . | [A/C#] . . . | [E]   . . . | [E]   . . . | 
+{end_of_part}
 
 {start_of_verse}
 [D/A] Looking out at the road 
@@ -63,19 +64,21 @@ But I'm running behind[F#m]
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
 | [D/A] . . . | [A]    . . . | [F#m] . . . | [F#m] . . . | 
 | [D]   . . . | [A/C#] . . . | [E]   . . . | [E]   . . . | 
+{end_of_part}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F#m]   Everyone I [D]know,[E] everywhere I [A]go
 [F#m]   People need some [E]reason to believe[D]
 I don't know about [A]anyone but me
 [F#m]   If it takes all [D]night,[E] that'll be all [A]right
 [D] (Oooh) If I can get you to smile[E] before I leave[D][A/C#][Bm]
 [A] [F#m][E]
+{end_of_part}
 
 
 {start_of_verse}
@@ -111,7 +114,7 @@ You know the [D/A]way you look so kind[A]
 {end_of_chorus}
 
 
-{comment: Solo --> Update to match backing }
+{start_of_part: Solo --> Update to match backing}
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
@@ -128,6 +131,8 @@ You know the [D/A]way you look so kind[A]
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
 | [D/A] . . . | [A]    . . . | [D/A] . . . | [A]   . . . | 
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [D] [A/C#] [Bm] | [A] ... |
+{end_of_part}

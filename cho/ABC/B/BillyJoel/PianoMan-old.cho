@@ -7,7 +7,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] ..     | [G/B] .. | [F/A] .. | [C/G] .. | 
 | [Fmaj7] .. | [C/E] .. | [D7] ..  | [G] ..   |
 
@@ -16,6 +16,7 @@
 | [C] ..     | [F/C] ..   | [Cmaj7] .. |
 | [F/C] [C] [Dm7/C] | [C] .. | [F/C] .. | [Cmaj7] |
 | [F/C] [C] [Dm7/C] |
+{end_of_part}
 
 {start_of_verse}
 It's [C]nine o'[G/B]clock on a [F/A]Saturday,[C/G]     
@@ -38,11 +39,12 @@ I [F/A]knew it [C/G]complete when
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 
 [F/A]Da da da [Am/G]    de de [D7/F#]Da         [F]   [F/A]   dada [Am/G]         dede [D7/F#]da        [D7]  da [G]da[G/F]
 
 [C/E] [G7/D]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -67,9 +69,10 @@ And he's [C]quick with a jo[Em/B]ke or to li[F/A]ght up your smo[C/G]ke but ther
 Well, I'm [C]sure that I [Em/B]could be a m[F/A]ovie sta[C/G]r if [F]I could get o[G11]ut of this p[C]lace
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 
 [F/A]Da da da [Am/G]    de de [D7/F#]Da         [F]   [F/A]   dada [Am/G]         dede [D7/F#]da        [D7]  da [G]da[G/F][G]
+{end_of_part}
 
 
 {start_of_verse}
@@ -91,10 +94,11 @@ And the w[C]aitress is [Em/B]practising [F/A]politics[C/G]  as the [F]businessme
 Yes, they're [C]sharing a d[Em/B]rink they call [F/A]loneliness[C/G]  but it's [F]better than [G11]drinking a[C]lone
 
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 
 [F/A]Am  [Am/G]Am/G  [D7/F#]D7/F#  [F]F
 [F/A]G  G[Am/G]/F  C/[D7/F#]E  G/D[D7]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -120,9 +124,10 @@ It's a [C]pretty[G/B] good crow[F/A]d for a S[C/G]aturday [F]and the [C/E]manage
 And they[C] sit at the [G/B]bar and put[F/A] bread i[C/G]n my jar and s[F]ay man wh[G11]at are you do[C]ing here?
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 
 [F/A]Da da da [Am/G]    de de [D7/F#]Da         [F]    [F/A]  dada  [Am/G]        dede d[D7/F#]a         [D7] da da[G][G/F][C/E][G/D]
+{end_of_part}
 
 
 {start_of_chorus}

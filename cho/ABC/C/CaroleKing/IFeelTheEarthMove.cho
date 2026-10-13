@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Cm] . . . | [Cm] . [F/C] . |
 | [Cm] . . . | [Cm] . [F/C] . |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -34,12 +35,13 @@ Whenever [Cmadd9]you're around[Cm][Cm7][Cmadd9]
 {end_of_chorus}
 
 
-{comment: Piano & Guitar Solo}
+{start_of_part: Piano & Guitar Solo}
 | [Cm] . . . | [Cm] . [F/C] . |
 | [Cm] . . . | [Cm] . [F/C] . |
 | [Cm] . . . | [Cm] . [F/C] . |
 | [Cm] . . . | [Cm] . [F/C] . |
 | [Cm] . . . | [Cm] . [F/C] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -63,7 +65,7 @@ I just a[Cm]lose control
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Down to my very soul[F]
 I geta[Cm]  hot and cold[F]
 All o[Cm]ver, all over, all over, all over
@@ -74,3 +76,4 @@ I feel the [Cm]sky tumblin' down, a[Dm]tumblin' down
 Atumb[Eb]lin' down, atumblin' down[Bbmaj7]
 Atumblin' down[Cm]
 Tumblin' down[Bbadd11/C]
+{end_of_part}

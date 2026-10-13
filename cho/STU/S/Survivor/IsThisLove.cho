@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bb] . [C] . | [C] . [Dm] .  | [Bb] . [C] . | [Am7] . . .   |
 | [Bb] . [C] . | [C] [Dm] . [Bb] | [Bb] . [C] . | [Am7] . [Dm7] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -62,16 +63,17 @@ Is this [Bb]love that I'm [C]feelin'[C][Dm]
 Is this [Bb]love[C]
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 I've tread tho[Eb]se mean streets
 Blind alleys where the [F]currency of love changes[F]hands
 [Eb]All touch, no feeling
 Just [F]another one night stand
 [G]I need to know that there's [A]someone who cares
 Could y[G]ou be the angel to [A]answer my prayers
+{end_of_part}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [Bb]Bb [C]C [C]Am[Dm]Dm
 [Bb]Bb [C]C[C][Dm]
 
@@ -88,7 +90,9 @@ Is this [B]love that I'm [C#]feelin'[C#][D#m]
 Is this [B]love that's been [C#]keepin' me [G#m]up all [D#m]night
 Is this [B]love that I'm[C#] feelin'[C#][D#m]
 Is this [B]love,[C#]Is this love
+{end_of_part}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [B]B [C#]C# [C#]C# [D#m]D#m
+{end_of_part}

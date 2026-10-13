@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Eb] . . . | [Abadd2] . . . | [Eb] . . . | [Abadd2] . . . | 
+{end_of_part}
 
 {start_of_verse}
 Lately [Eb]I get the feeling there's a
@@ -50,5 +51,6 @@ Who do you t[Gm7]hink your fooli[Cm7]ng?
 This is [Eb]me  [Bb7]you're not talking [Eb]to.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Ab]   Hey, this is [Eb]me  [Bb7]you're not talking [Eb]to.[Abadd2][Eb]
+{end_of_part}

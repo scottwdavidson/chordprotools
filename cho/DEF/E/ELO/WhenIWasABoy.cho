@@ -9,9 +9,10 @@
 {comment:**  meta: label: When IWasBoy   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . [C/G] . | [C] . [C/G] . | [C] . [C/G] . | [C] . [C/G] . |
 | [C] . [C/G] . | [C] . [C/G] . | [C] . [C/G] . | [C] . [C/G] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -57,9 +58,10 @@ When I was a [Bb9]boy I had a [C]dream
 [A] |--(2)-0-1-2-3-4------|-------------------|
 [E] |---3-----------------|-------------------|
 
-{comment: Guitar solo}
+{start_of_part: Guitar solo}
 | [C] . [Em/B] . | [Am] . [Am/G] . | [F] . [A7/E] . | [Dm] . [Ab] [G]  |
 | [C] . [Em/B] . | [Am] . [Am/G] . | [F] . [A7/E] . | [Dm] . .  .  |
 
 {comment: Coda}
 When I was a [Bb9]boy[Bb9][C]
+{end_of_part}

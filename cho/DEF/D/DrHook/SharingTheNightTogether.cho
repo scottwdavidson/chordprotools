@@ -10,16 +10,17 @@
 {meta: performance: E}
 
 {comment:***********************************************}
-{comment:**meta: nord: P11 }
-{comment:**meta: countin: 4 }
-{comment:**meta: backing: RC }
-{comment:**meta: rc-slot: 93 }
-{comment:**meta: performance: E }
+{comment:**  meta: nord: P11   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 93   }
+{comment:**  meta: performance: E   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [C] . . . | [Am] . . . | [F] . . . | [G] . . . | 
 . | [C] . . . | [Am] . . . | [F] . . . | [G] . . . | 
+{end_of_part}
 
 {start_of_verse}
 [C]You're looking kinda [Am]lonely girl
@@ -42,12 +43,12 @@ Y[F]eah, sh[G]aring the night to[C]gether [Am]whoa
 Y[F]eah, sh[G]aring the night
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Am]We could bring in the [Em]morning girl
 If you [F]want to go that [G]far[G/Ab]
 [Am]And if tomorrow [Em]finds us together
 [F]Right here the way we [G]are, would you m[F]ind
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 Sh[G]aring the night to[C]gether [Am]whoa

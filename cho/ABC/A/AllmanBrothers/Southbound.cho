@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bb7] [B7] | [C7] N.C. | N.C. [Bb7] [B7] | [C7] N.C. | [C9] |
 | [F9] | [F9] | [C9] | [C9] |  [G9] | [F9] | [C9] |
+{end_of_part}
 
 {start_of_verse}
 [G9]Well I'm [C9]Southbound, Lord I'm comin' home to you.
@@ -22,16 +23,17 @@ You can [G9]tell your other man,[F9] sweet daddy's on his [C9]way.
 [C9]Aww, ya better believe.
 {end_of_verse}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C9]   Well I'm Southbound.[F9]
 Whoa I'm [C9]Southbound.
 Well you can [G9]tell your other man,[F9] Sweet daddy's on his [C9]way.
-{end_of_bridge}
+{end_of_part}
 
-{comment: Guitar solo}
+{start_of_part: Guitar solo}
 | [Bb7] [B7] [C7] . | [C7] | . [Bb7] [B7] [C7] | [C9] | . [Eb7] [E7] [F] |
 | [F9]   | [F9]   | [C9] | 
 | [C9]   | [G9]   | [F9] | [C9] |
+{end_of_part}
 
 {start_of_verse}
 [C9]Got your hands full now baby, as soon as I hit that door.
@@ -39,18 +41,20 @@ Got your [F9]hands full now woman, just as soon as I hit that [C9]door.
 Well I'm gonna [G9]make it on up to you [F9]for all the things [C9]you should have had before.
 {end_of_verse}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C9]Lord, I'm Southbound.
 [C9]Yes I'm Southbound.
 W[F9]hoa I'm Southbound, baby.
 I'm goin' [C9]Southbound, yeah baby
 [G9]Make it all up to you [F9]for all the [C9]things you should have had before.
-{end_of_bridge}
+{end_of_part}
 
-{comment: Piano solo}
+{start_of_part: Piano solo}
 | [C9] | [C9] | [C9] | [C9] | [F9] | [F9] | 
 | [C9] | [C9] | [G9] | [F9] | [C9] | [C9] | x2 
+{end_of_part}
 
-{comment: Outro-Guitar solo}
+{start_of_part: Outro-Guitar solo}
 | [C9] | [C9] | [C9] | [C9] | [F9] | [F9] | 
 | [C9] | [C9] | [G9] | [F9] | [C9] | [C9] | x2 
+{end_of_part}

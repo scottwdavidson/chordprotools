@@ -19,7 +19,7 @@
 {comment:**  meta: ve: P13   }
 {comment:***********************************************}
 
-{comment: Guitar Intro}
+{start_of_part: Guitar Intro}
 | [F#m] . [D/F#] . | [A] . [B] . |
 | [F#m] . [D/F#] . | [A] . [B] . |
 
@@ -28,6 +28,7 @@ Hey!
 {comment: Band Enters}
 | [F#m] . [D/F#] . | [A] . [B] . |
 | [F#m] . [D/F#] . | [A] . [B] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -74,7 +75,7 @@ I tried [F#m]my imagi[D5]nation _[A5]___ but [B5]I was dis[F#m]turbed.____[D5]__
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [C#m]   I got it, (I [E]got it), I got it
 [F#m]   I got your [A]number on the [B]wall.
 [C#m]   I got it, (I [E]got it), I got it
@@ -86,9 +87,10 @@ For a [F#m]good time, for a [A]good time [B]call!
 | [F#m] . [D/F#] . | [A] . [B] . |
 | [F#m] . [D/F#] . | [A] . [B] . |
 | [F#m] . [D/F#] . | [A] . [B] . |
+{end_of_part}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 | [F#m] . [D/F#] . | [A] . [B] . |
 | [F#m] . [D/F#] . | [A] . [B] . |
 | [F#m] . [D/F#] . | [A] . [B] . |
@@ -100,6 +102,7 @@ Hey!
 [E] Jenny don't [E7]change your num[E]ber.
 [E] I need to [A5]make you [D5]mi - [A5]ne.
 [E] Jenny I [E7]called your [E]number.
+{end_of_part}
 
 
 {start_of_chorus}
@@ -111,7 +114,7 @@ Hey!
 
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [F#m] Jenny, J[D5]enny, [A5]who can I [B5]turn to?
 [F#m](Eight six [D5]seven five [A5]three o [B5]nine)
 For a [F#m]price of a [D5]dime I can [A5]always [B5]turn to you.
@@ -126,3 +129,4 @@ For a [F#m]price of a [D5]dime I can [A5]always [B5]turn to you.
 [F#m](Eight six [D5]seven five [A5]three o [B5]nine) Five three o nine!
 
 | [F#m] . [D/F#] . | [A] . [B] . | [F#m]
+{end_of_part}

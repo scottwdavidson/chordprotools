@@ -9,8 +9,9 @@
 {comment:**  meta: nord: M11   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Eb] . . . | [EbM7] . . . | [AbM7] . . . | [Ab/Bb] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Ab/Bb]     I know your [Eb]eyes in the [Gm7]morning [Fm7]sun
@@ -79,9 +80,10 @@ Breaking us [C7]down when they all should let us be
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Eb]   [Gm7]    [Ab/Bb]     How [Eb]deep is your love, how de[Ebmaj7]ep    is your love
 [Abmaj7]I     really mean to le[Abm6]arn
 'Cause we're [Eb]living in a world of fo[Bbm/Db]ols
 Breaking us [C7]down when they all should let us be
 [Fm7]   We be[Abm6]long to you and me[Eb][Gm7][Ab/Bb]
+{end_of_part}

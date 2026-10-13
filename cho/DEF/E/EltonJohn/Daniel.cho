@@ -9,9 +9,10 @@
 {comment:**  meta: label: Daniel   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [C] . . . | [C] . . . | [F] . . . | [F] . . . |
 | [G7] . . . | [G7] . . . | [C] . [F/C] . | [C] . [F/C] . |
+{end_of_part}
 
 {start_of_verse}
 [C]Daniel is traveling tonight on a [Dm]plane.      [Dm]
@@ -38,11 +39,12 @@ Your eyes have [Am]died but you see more than [F]I
 [Ab6]Daniel you're a [C]star [A7]in the face of the [Dm]sky [G7]
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
 | [C] . . . | [C] . . . | [Dm7] . . . | [Dm7] . . . | 
 | [G] . . . | [G] . . . | [E7] . . . | [Am] . . . |
 | [F] . . . | [G] . . . | [Am] . . . | [Am] . . . |
 | [F] . . . | [F] . . . | [G] . . . | [F/G] . . . | [C] . . . | [C] Oh oh oh |
+{end_of_part}
 
 {start_of_chorus}
 [F] Daniel my brother you are [C]older than me
@@ -59,8 +61,9 @@ God it [F]looks like Daniel...[F]
 [G7] must be the [F]clouds in my [C]eyes. [C]
 {end_of_verse}
 
-{comment:Outro}
+{start_of_part: Outro}
 God it [F]looks like Daniel...[F]      
 [G7] must be the [F]clouds in my [C]eyes. [C]
 
 | [F] . . . | [F] . . . | [G7] . . . | [G7] . . . | [C] . [F/C] . | [C]
+{end_of_part}

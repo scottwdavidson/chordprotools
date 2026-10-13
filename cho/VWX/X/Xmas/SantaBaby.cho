@@ -4,8 +4,8 @@
 {duration: 2:30}
 {tempo: 151}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 [Gmaj7] Santa [Em7]Baby, just [A7] slip a sable [D7]under the tr[Gmaj7]ee for m[Em7]e
@@ -21,12 +21,12 @@ So [Am7]hurry down the [D7]chimney to[G6]night [C9] [G6]
 {end_of_verse}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [B7] Think of [F#m7]all the [B7]fun I've missed.
 [E7]Think of all the [Bm7]fellas that I [E7]haven't kissed,
 [A7] Next year I [Em7]could be [A7]just as good,
 If [D7]you check off my [E9]Christ[Eb9]mas [D9]list.
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -43,12 +43,12 @@ So [Am7]hurry down the [D7]chimney to[G6]night [C9] [G6]
 {end_of_verse}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [B7] Come and [F#m7]trim my [B7]Christmas tree
 [E7]with some deco[Bm7]rations bought at [E7] Tiffany.
 [A7] I really [Em7]do be[A7]lieve in you.
 Let's [D7]see if you be[E9]lieve [Eb9]in [D9]me.
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}

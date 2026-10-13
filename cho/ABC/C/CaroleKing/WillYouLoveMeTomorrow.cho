@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . Csus+2 [C] | [C] . Csus+2 [C] | 
 | [F] . [Fmaj9]     [F] | [F/G]  .  .  .    | 
+{end_of_part}
 
 {start_of_verse}
 [C]_[Csus+2] Tonight, [C]you're mine complete[F]ly[Fmaj9][F][F/G]
@@ -34,7 +35,7 @@
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F] Tonight with words unspo[Em]ken
 [F] You say that I'm[G] the only one[C]
 [F] But will my heart be bro[Em]ken
@@ -43,6 +44,7 @@ When the night [Am](when the night)
 
 {comment: Break}
 Meets the mor(meets the morning [G]sun)
+{end_of_part}
 
 
 {start_of_verse}
@@ -58,9 +60,10 @@ Meets the mor(meets the morning [G]sun)
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [F]G [G]C[C][F]
 
 
 {comment: Fade Out}
 F G
+{end_of_part}

@@ -14,7 +14,7 @@
 {comment: ve-500 - P25}
 {comment: BB - Country 6}
 
-{comment: Intro ( Scott piano )}
+{start_of_part: Intro ( Scott piano )}
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
@@ -25,6 +25,7 @@
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
+{end_of_part}
 
 {start_of_verse}
 [Dsus2]Momma c[Em7]ried when you le[G]ft me  [A]
@@ -48,10 +49,11 @@ Who ain't n[Em7]ever coming b[A]ack home a[Dsus2]gain
 [G]Drink it till I ju[A]st can't drink no m[D]ore
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
+{end_of_part}
 
 {start_of_verse}
 And [Dsus2]I don't kn[Em7]ow why you had to le[G]ave me[A]
@@ -74,7 +76,7 @@ And ton[G]ight you know this wh[A]ole damn town is em[D]pty
 [G]Drink it till I ju[A]st can't drink no m[D]ore
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
@@ -82,6 +84,7 @@ And ton[G]ight you know this wh[A]ole damn town is em[D]pty
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
+{end_of_part}
 
 {start_of_verse}
 [Dsus2]Late night p[Em7]hone call from the N[G]orth Coast[A]
@@ -103,9 +106,10 @@ And to[G]night you know this wh[A]ole damn house is em[D]pty
 [G]Guess I just don't ne[A]ed it any[D]more
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 | [Dsus2] ... | [Em7] ... | [G5] ... | [A] ... | 
 | [D] |
+{end_of_part}

@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . |
+{end_of_part}
 
 {start_of_chorus}
 There's a [C]kind of hush[E7]  all over the world[Am]tonight
@@ -35,9 +36,10 @@ There's a [C]kind of hush[E7]  all over the world[Am]tonight
 [C7]  All over the world[F]  people just like u[G]s are fallin' in love[C][G]
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [C] . . . | [E7] . . . | [Am] . . . | [C7] . . . |
 | [F] . . . | [G]  . . . | [C]  . . . | [G]  . . . |
+{end_of_part}
 
 {start_of_verse}
 [C7]  So [F]listen very [F6]carefully, get 
@@ -48,7 +50,8 @@ Is [FMaj7]when I whisper [F6]in your ear
 I love you[G]forever and ever
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 There's a [C]kind of hush[E7]  all over the world[Am]tonight
 [C7]  All over the world[F]   you can hear the soun[G]ds of lovers in love[C]

@@ -17,21 +17,24 @@
 {comment:**  meta: label: DiedInYrArms   }
 {comment:***********************************************}
 
-{comment: Intro ( keyboards )}
+{start_of_part: Intro ( keyboards )}
 . | [Bm] . . . | Esus4. Em. [Esus4] | 
 . | Asus. [A] . . | [F#m] . . . |
 . | [Bm] . . . | Esus4. Em. [Esus4] | 
 . | Asus. [A] . . | [F#m] . . . |
+{end_of_part}
 
-{comment: Intro optional vocal chorus riff }
+{start_of_part: Intro optional vocal chorus riff}
 . | [Bm] . . . | Esus4. Em. [Esus4] | 
 . | Asus. [A] . . | [F#m] . . . |
 . | [Bm] . . . | Esus4. Em. [Esus4] | 
 . | Asus. [A] . . | [F#m] . . . |
+{end_of_part}
 
-{comment: Intro enter guitar }
+{start_of_part: Intro enter guitar}
 . | [Bm7] . [A/B] . | [Bm7] . [A] . | 
 . | [Bm7] . [A/B] . | [Bm7] . [A] . | 
+{end_of_part}
 
 
 {start_of_verse: Verse 1}
@@ -74,17 +77,18 @@ I should've[Esus4]      [Em]walked [Emadd9]away,  [Aadd9]      [A]  [F#m] I shou
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Gmaj7]     It was a long hot night
 [Em7]She made it easy, she made it feel right
 [Gmaj7]     But now it's over the moment has gone
 I [F#7]followed my hands not my head, I know I was [Bm]wrong
-{end_of_bridge}
+{end_of_part}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 [Esus4][Em][Emadd9][Aadd9][A][F#m][Bm]
 [Esus4][Em][Emadd9][Aadd9][A]
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

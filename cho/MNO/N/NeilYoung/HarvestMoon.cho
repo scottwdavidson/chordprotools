@@ -7,11 +7,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -65,13 +66,15 @@ On this harvest moo[Dadd9]n
 {end_of_chorus}
 
 
-{comment: Solo 1}
+{start_of_part: Solo 1}
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
+{end_of_part}
 
-{comment: Solo 2}
+{start_of_part: Solo 2}
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -82,6 +85,7 @@ On this harvest moo[Dadd9]n
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
 | [D] . [D/A] . | [Dmaj7] . [Dmaj7/A] . |
+{end_of_part}

@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 |  [C]  [Fadd9]  |  [Gadd4]  [Fadd9] |  [C]  [Fadd9]  |  [Gadd4]  [Fadd9]  |
+{end_of_part}
 
 
 
@@ -73,8 +74,9 @@ It's time for me to fly[Fadd9] - yy.[Gadd4]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 It's time for me to fly.[C] (It's [Fadd9]time for me to fly.[Gadd4])
 It's time for me to fly.[C] (It's [Fadd9]time for me to fly.[Gadd4])
 It's time for me to fly.[C] (It's [Fadd9]time for me to fly.[Gadd4])
 It's time for me to fly.[C]
+{end_of_part}

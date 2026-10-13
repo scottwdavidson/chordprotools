@@ -17,12 +17,13 @@
 {comment:**  meta: label: BackIn USA   }
 {comment:***********************************************}
 
-{comment:INTRO}
+{start_of_part: INTRO}
 | <Chuck Berry guitar lick on G> |
 | [C]  . . . | [C]  . . . |
 | [G]  . . . | [G]  . . . |
 | [D]  . . . | [D]  . . . |
 | [G]  . . . | [G]  . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -72,7 +73,7 @@ Yes, [C]I'm so glad I'm livin' in the U.S.[G]A.
 {end_of_verse}
 
 {comment: Carmen & Jean}
-{comment:OUTRO}
+{start_of_part: OUTRO}
 [G]Well, we're so glad I'm livin' in the U.S.A.
 Yes, [C]we're so glad I'm livin' in the U.S.[G]A.
 [D]Anything you want, we got it [C]right here in the U.S.[G]A. 
@@ -82,3 +83,4 @@ Yes, [C]we're so glad I'm livin' in the U.S.[G]A.
 [C]We're so glad
 [G]We're so glad
 | [D] . . . | [D] . . . | [G] . . . | [G] . . . |
+{end_of_part}

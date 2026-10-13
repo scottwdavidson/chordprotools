@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [C] | [F] / [C] | [Bb/C] [F/C] | [C] | 
 | [C] | [F] / [C] | [Bb/C] [F/C] | [C] | 
+{end_of_part}
 
 {start_of_verse}
 [C]As soon as you are able
@@ -21,13 +22,13 @@ Our love is [F/C]spilling
 Take and [C]drink of
 {end_of_verse}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Bb]So if you re [Dm]tired of the
 [C]Same old [C/E]sto[G7/D]ry[C]
 [Bb]Oh [Dm]turn some pa[C]ges
 [Bb]I'll be he[Dm]re when you are rea[C]dy[C/E]
 To [G7/D]roll with the ch[G]anges
-{end_of_bridge}
+{end_of_part}
 
 {comment:Interlude}
 | [C] | [F] / [C] | [Bb/C] [F/C] | [C] | 
@@ -43,13 +44,13 @@ Felt the desert [F/C]burning
 Like a sweet sun [C]shower
 {end_of_verse}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Bb]So if you re [Dm]tired of the
 [C]Same old [C/E]sto[G7/D]ry[C]
 [Bb]Oh [Dm]turn some pa[C]ges
 [Bb]I'll be he[Dm]re when you are rea[C]dy[C/E]
 To [G7/D]roll with the ch[G]anges
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [C]Keep on rolling, [F/C]keep on rolling

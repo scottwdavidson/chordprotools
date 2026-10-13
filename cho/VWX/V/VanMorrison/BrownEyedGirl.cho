@@ -17,9 +17,10 @@
 {comment:**  meta: label: Brown EyGirl   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] . . . | [C] . . . | [G] . . . | [D] . . . | 
 | [G] . . . | [C] . . . | [G] . . . | [D] . . . | 
+{end_of_part}
 
 {start_of_verse: Scott vocal}
 [G] Hey where did we [C]go
@@ -58,7 +59,7 @@ With a[G] transistor ra[D7]dio
 [G] la la la te da[D7]  la te da
 {end_of_chorus}
 
-{comment: piano solo}
+{start_of_part: piano solo}
 {comment: 2 measure riff}
 | [G] . . . | [G] . . . |
 
@@ -68,6 +69,7 @@ With a[G] transistor ra[D7]dio
 {comment: 4 measure bass / piano}
 | [G] . . . | [C] . . . | 
 | [G] . . . | [D] . . . | 
+{end_of_part}
 
 
 {start_of_verse: Scott vocal}

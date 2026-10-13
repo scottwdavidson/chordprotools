@@ -10,8 +10,9 @@
 {comment: Acoustic Guitar Tuning - Open D (D A D F# A D }
 
 
-{comment: Intro}
+{start_of_part: Intro}
 |  [D]  [Gadd9]  |  [Aadd4]  [Gadd9] |  [D]  [Gadd9]  |  [Aadd4]  [Gadd9]  |
+{end_of_part}
 
 
 
@@ -76,8 +77,9 @@ It's time for me to fly[Gadd9] - yy.[Aadd4]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 It's time for me to fly.[D] (It's [Gadd9]time for me to fly.[Aadd4])
 It's time for me to fly.[D] (It's [Gadd9]time for me to fly.[Aadd4])
 It's time for me to fly.[D] (It's [Gadd9]time for me to fly.[Aadd4])
 It's time for me to fly.[D]
+{end_of_part}

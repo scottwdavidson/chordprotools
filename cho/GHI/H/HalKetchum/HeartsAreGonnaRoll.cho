@@ -19,16 +19,18 @@
 {comment:**  meta: ve: P13   }
 {comment:***********************************************}
 
-{comment: Intro I - Guitar only}
+{start_of_part: Intro I - Guitar only}
 | [D] . [G] . | [C] . [G] . | 
 
 | [D] . [G] . | [C] . [G] . | 
+{end_of_part}
 
 
-{comment: Intro II - Add Piano}
+{start_of_part: Intro II - Add Piano}
 | [D] . [G] . | [C] . [G] . | 
 
 | [D] . [G] . | [C] . [G] . | 
+{end_of_part}
 
 
 
@@ -66,13 +68,14 @@ She'll [D]take you to the l[G]imit,  [C]  [G]       just to lea[D]ve you [G] han
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G]  Don't fall under the spell of her eyes boy,  [D] she's not looking at you [D][(triplets)]
 [G]  Take it from somebody who knows,   [A] she's moving right on through.
 
 
 
 {comment: Chorus}
+{end_of_part}
 {start_of_chorus}
 [D]Hearts are gonna [G]roll,[C]  [G]     h[D]eads are gonna [G]turn [C] [G]
 [Bm]Tears are gonna fall, a br[G]idge is gonna burn

@@ -19,10 +19,11 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Amaj7] [A] . . | [A] . . . | [C#m] . . . | [E] . . . |
 
 | [Amaj7] [A] . . | [A] . . . | [C#m] . . . | [E] . . . | [E] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -61,7 +62,7 @@ And you're still the same[A].
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 I [C#]caught up with you yesterday[F#].
                                                (Still the same, still the same)
 Moving game to gam[Bm]e.
@@ -82,6 +83,7 @@ You still aim [E]high.  [E]
 
 | [Amaj7] [A] . . | [A] . . . | [C#m] . . . | [E] . . . |
                                           (Still the same, still the same)
+{end_of_part}
 
 
 {start_of_chorus}
@@ -96,7 +98,7 @@ You still aim [E]high.  [E]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 'Cause you're still the same[A]                                                            [C#m]  [E]
                                          (Still the same, baby babe you're still the same)
  
@@ -113,3 +115,4 @@ Ah you're still the same[A]                                                     
                                          (Still the same, baby babe you're still the same)
 
 [A]
+{end_of_part}

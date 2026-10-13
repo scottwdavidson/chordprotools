@@ -4,6 +4,9 @@
 {duration: 3:00}
 {tempo: 110}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
 [Cm][Fm][Bb][Eb][Bb]
 [Cm][Fm][Bb][Gm]
@@ -19,9 +22,9 @@ It's a superna[Fm]tural delight
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Fm][Bb][Eb][Bb]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 2}

@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em] | [Em] |
+{end_of_part}
 
 {start_of_verse}
 On a [Em]long and lonesome highway, east of Omaha
@@ -47,11 +48,11 @@ Here I [D]go, playing [A]star again
 There I [C]go, [D]  turn the [Em]page, ah
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Em]Out there in the spotlight you're a million miles away
 [D]Every ounce of energy you try to give away
 As the [A]sweat pours out your body like the music that you play[Em]
-{end_of_bridge}
+{end_of_part}
 
 {comment: Saxophone Riff}
 | [Em] | [Em] |
@@ -71,7 +72,7 @@ Here I [D]go, playing [A]star again
 There I [C]go, [D]  turn the [Em]page
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 [Em]Ah, here I [D]am, on the [Em]road again
 There I [D]am, up on the [Em]stage
 Here I [D]go, playing [A]star again
@@ -80,4 +81,5 @@ There I [C]go, [D]  there I [Em]go
 {comment: Saxophone Riff}
 | [Em] | [Em] |
 | [Em] | [Em] |
+{end_of_part}
 

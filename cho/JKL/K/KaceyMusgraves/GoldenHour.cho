@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F#m9] . . . | [G#m7] . . . | 
 | [F#m9] . . . | [G#m7] . (all that I know) |
+{end_of_part}
 
 {start_of_verse}
 All that I k[F#m9]now is you caught me at the r[Emaj7]ight time
@@ -45,14 +46,16 @@ But it's different now[F#m9]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [C#m]  You make the world[Caug]     look beautiful[E/B],   oo[C#m/A#]h
 [Bm]  I thought I'd seen it all before[Amaj7]
 But looking [Am]through your eyes, it looks like paradise
+{end_of_part}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 [F#m9]     [G#m7]     [F#m9]     [G#m7]  You've set my world on fire[Amaj7]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -64,5 +67,6 @@ Yeah, I know,[Emaj7]     I know everything's gonna be al[Amaj7]right
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Golden [Emaj7]hour[Amaj7][Emaj7]
+{end_of_part}

@@ -17,11 +17,12 @@
 
 {comment: Duration: 3:25}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Em] [Cmaj7]Uh huh...  [G]  [D]Life’s like this.
 [Em] Uh huh, [Cmaj7]uh huh... [G] That’s the [D]way it is.
 [Em] [Cmaj7]  [G]  ’Cause [D]life’s like this.
 [Em] Uh huh, [Cmaj7]uh huh... [G] That’s the [D]way it is.
+{end_of_part}
 
 
 {start_of_verse}
@@ -84,8 +85,9 @@ No, no, [G]no..
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Em]No, no, no... [Cadd9]No, no, no... [D]No, no, no...
+{end_of_part}
 
 
 {start_of_verse}
@@ -115,7 +117,8 @@ No, no, [G]no..
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [Em]Why’d you have to go and make [C]things so compli[G]cated?
 I [D]see the way you’re

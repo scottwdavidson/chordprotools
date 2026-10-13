@@ -2,11 +2,12 @@
 {artist: Linda Ronstadt}
 {key: Am}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 |__ [F][G] __|__  [Am]  __|__ [F][G] __|__  [Am]  __|
+{end_of_part}
 
 {start_of_verse}
 [F]  L[G]ove will a[Am]bide,[F] take thin[G]gs in s[C]tride
@@ -52,6 +53,7 @@ And I [C]think I'm [G]gonna [Am]love you[F] for a [C/G]long [G7]long [C]time
 And I [C]think I'm [G]gonna [Am]love you[F] for a [C/G]long [G7]long [C]time
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 |__ [F][G] __|__  [Am]  __|__ [F][G][G7] __|__  [C]  __|
+{end_of_part}
 

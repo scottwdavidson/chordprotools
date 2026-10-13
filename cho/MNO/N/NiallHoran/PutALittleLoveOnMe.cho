@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G][G] | [D][D]  | [C][C] |
+{end_of_part}
 
 {start_of_verse}
 [G]We fight, we get high[Bm]holding on to love
@@ -73,6 +74,7 @@ When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [G]To put a little l[D]ove on [G]me
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Cm]You're the only one I n[G]eed
 [G]So put your love [D]on me[G]
+{end_of_part}

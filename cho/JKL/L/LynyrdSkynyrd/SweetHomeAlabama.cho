@@ -2,11 +2,12 @@
 {artist: Lynard Skynard}
 {key: D}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [D] [Cadd9][G][x4]
+{end_of_part}
 
 
 {start_of_verse}
@@ -35,8 +36,9 @@
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [D] [Cadd9][G][x2]
+{end_of_part}
 
 
 {start_of_verse}
@@ -56,11 +58,12 @@
 (Here I come, Alabama)
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [D] [Cadd9][G][x8]
 
 {comment: Interlude}
 [D] [Cadd9][G][x2]
+{end_of_part}
 
 
 {start_of_verse}
@@ -82,7 +85,8 @@
 [D]  Lord, I'm [Cadd9]coming home to [G]you (Yeah, yeah)
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [D] [Cadd9][G][x6]
 
 (fade out)
+{end_of_part}

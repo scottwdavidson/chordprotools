@@ -1,9 +1,12 @@
 {title: Kiss From A Rose}
 {artist: Seal}
 {key: G}
+{duration: 4:30}
 {tempo: 131}
 {time: 6/8}
-{duration: 4:30}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 Pa da [Gm]da da da [F]da da da [G]da pa da da
@@ -66,12 +69,12 @@ On the [G]gray.
 {end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [F]I've been [C]kissed by a rose[Bb]  on the gray,[F]
 I've been [C]kissed by a rose[Bb]
 [F]I've been [C]kissed by a rose[Bb]  on the gray,[F]
 I've been [C]kissed by a rose[Bb]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 3}

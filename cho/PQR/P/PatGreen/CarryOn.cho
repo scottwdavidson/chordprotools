@@ -5,11 +5,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Em7]Baby's just a little bit tired of the cit[D]y
@@ -27,11 +28,12 @@ Ok[Em7]ay, alri[A]ght, [Em7]just might get a little [A]high tonight
 Ok[Em7]ay, alri[A]ght, carry on
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
 | Dsus2. [D] Dsus4. | D. . [Dsus2] | . [D] . . | [G5] . . . | [G5] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Em7]Ol' Walt Wilkins lives up in Nas[D]hville
@@ -49,8 +51,9 @@ Ok[Em7]ay, alri[A]ght, [Em7]just might get a little [A]high tonight
 Ok[Em7]ay, alri[A]ght, carry o[D]n, yeah
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 {comment: TBD}
+{end_of_part}
 
 {start_of_verse}
 [Em]Love'll make sure that you got your troubl[D]es

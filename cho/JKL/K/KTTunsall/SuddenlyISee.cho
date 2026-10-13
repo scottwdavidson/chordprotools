@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro:}
+{start_of_part: Intro:}
 | [D] | [D/C] | [D] | [G] | x3
+{end_of_part}
 
 {start_of_verse}
 Her [Dsus2]face is a map of the [C]world
@@ -33,8 +34,9 @@ Suddenly I [Bm]see[F#]
 [Gm]Why the hell it [C7]means so much to [(D)]me
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [D] | [D/C] | [D] | [G] |
+{end_of_part}
 
 {start_of_verse}
 I [Dsus2]feel like walking the [C]world
@@ -62,7 +64,7 @@ Suddenly I [Bm]see[F#]
 {end_of_chorus}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [D] And she's tal[C]ler than most
 [D] And she's loo[C]king at me[G]
 [D] I can see her eye[C]s looking from a pag[D]e of a magazin[C]e[G]
@@ -70,7 +72,7 @@ Suddenly I [Bm]see[F#]
 
 [D] She got the power to b[C]e, the power to give,
  The po[D]wer to see yeah ye[C]ah (Suddenly[G]I...
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 Suddenly I [Bm]see[F#]

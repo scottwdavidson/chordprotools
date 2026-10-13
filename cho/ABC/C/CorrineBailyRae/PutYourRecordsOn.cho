@@ -11,8 +11,9 @@
 {comment:**  meta: countin: 4   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [A] | [D#m7] [Dmaj7/A] | [E13] [E9] |
+{end_of_part}
 
 {start_of_verse}
 [A]Three little birds, [B9/F#]sat on my window
@@ -54,13 +55,14 @@ Don't you think it's strange?
 [Dmaj7]     You're gonna find yourself s[Dm6]omewhere, someh[A]ow
 {start_of_chorus}
 
-{comment: BRIDGE}
-{start_of_bridge}
+{start_of_part: BRIDGE}
+{end_of_part}
+{start_of_part: Bridge}
 [Bm7]'Twas more than I could take, pity for pity's sake
 [F#m7]Some nights kept me awake,[N.C.] I thought that I was stronger[Bm7]
 [Bm7]When you gonna realise, that you don't even have to [Dmaj7]try any longer?
 [Dmaj7]Do what you want [E7]to
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [A]Girl, put your records on, [B9/F#]tell me your favourite song
@@ -69,9 +71,10 @@ Don't you think it's strange?
 [D/E]Just go a[E9]head, let your hai[A]r down
 {start_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 [A]Girl, put your records on, [B9/F#]tell me your favourite song
 [D/E]You go ahead, let your hai[A]r down
 [A]Sapphire and faded jeans, [B7/F#]I hope you get your dreams,
 [D/E]Just go a[E9]head, let your hai[A]r down
 [Dmaj7]     You're gonna find yourself s[Dm6]omewhere, someh[A]ow
+{end_of_part}

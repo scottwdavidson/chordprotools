@@ -1,6 +1,9 @@
 {title: If You Can't Give Me Love}
 {artist: Suzi Quatro}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_verse: Verse 1}
 [A] Well, I've seen[A] you before on that discotheque floor
 You were [Bm]driving me out of my mind
@@ -77,7 +80,7 @@ If you can't give me [A]love
 {end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 Honey, that[Bm]  ain't enough[E]
 Let me go[Bm]  look for some[E]body else[A] And[F#m]
 if you can't[Bm]  give me feel[E]ings
@@ -90,7 +93,7 @@ If you can't[Bm]  give me feel[E]ings
 With old[Bm]  fashioned mean[E]ings
 Then just[Bm]  stay in love[E] with yourself[A]
 If you can't give me [A]love
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

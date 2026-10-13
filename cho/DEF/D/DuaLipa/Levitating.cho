@@ -5,7 +5,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Am] | [Em] | [Dm] | [Am] |
 
 {start_of_verse} 
@@ -24,6 +24,7 @@ You [Dm]met me at the perfect [Am]time
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
+{end_of_part}
 
 {start_of_chorus}
 I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight
@@ -84,7 +85,7 @@ Yeah, yeah, yeah, yeah, [Am]yeah
 I'm levitating
  
  
-{start_of_bridge}
+{start_of_part: Bridge}
 [Am]My love is like a rocket, watch it [Em]blast off
 And I'm [Dm]feeling so electric, dance our [Am]ass off
 [Am]And even if I wanted to, I [Em]can't stop
@@ -94,7 +95,7 @@ And I'm [Dm]feeling so electric, dance our [Am]ass off
 And I'm [Dm]feeling so electric, dance our [Am]ass off
 [Am]And even if I wanted to, I [Em]can't stop
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
-{end_of_bridge} 
+{end_of_part}
  
 {comment:Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby

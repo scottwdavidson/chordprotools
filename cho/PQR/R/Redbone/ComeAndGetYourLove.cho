@@ -17,11 +17,13 @@
 {comment:**  meta: label: Come  Get   }
 {comment:***********************************************}
 
-{comment: Intro - Bass/Drums Only}
+{start_of_part: Intro - Bass/Drums Only}
 | [D] . . . | [D] . . . |
+{end_of_part}
 
-{comment: Intro - All}
+{start_of_part: Intro - All}
 | [D] . . . | [D] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -64,11 +66,12 @@ I said a-[Em7]find it, [A]find it
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Em7]Come and get your love, come and [A]get your love, come and get your [D]love now[Bm7]
 [Em7]Come and get your love, come and [A]get your love, come and get your [D]love now[Bm7]
 [Em7]Come and get your love, come and [A]get your love, come and get your [D]love now[Bm7]
 [Em7]Come and get your love, come and [A]get your love, come and get your [D]love now[Bm7]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -91,7 +94,7 @@ oh yeah[D] Get[Bm7] it from the [Em7]main vine,[A] all right.
 | [D] . . . | [D] . . . | [D] . . . | [D] . . . |
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Em7]La, la, la, la, la, [A]la la, la, la, [D]la, la.          [Bm7]
                                                       (Come and get your love)
 
@@ -109,3 +112,4 @@ oh yeah[D] Get[Bm7] it from the [Em7]main vine,[A] all right.
 
 [Em7]  [A]  [D]
                      (Come and get your love)
+{end_of_part}

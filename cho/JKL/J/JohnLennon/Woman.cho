@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Ebsus] . [Eb] . | [Ab/Eb] . [Eb] . |
 | [Ebsus] . [Eb] . | [Ab/Eb] . [Eb] . |
+{end_of_part}
 
 {start_of_verse}
 [Eb]Woman,[Fm]  I can [Eb/G]hardly express[Fm],

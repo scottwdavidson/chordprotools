@@ -4,6 +4,9 @@
 {duration: 3:55}
 {tempo: 110}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
 . | [Em] . . . | [A] . . . |
 . | [Em] . . . | [A] . . . |
@@ -82,11 +85,11 @@ My my [F#m]Lord[B][E]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [C#m][E][C#m][E]
 [G#madd11]Mmm[C#7][F#m][B]
 My [F#m]Lord[B]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

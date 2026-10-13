@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bb] . . . | [Ebm] . . . | 
 | [Bb] . . . | [F]   . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -66,8 +67,9 @@ Yes [F]to love you
 {end_of_chorus}
 
 
-{comment: Outro (Fade out)}
+{start_of_part: Outro (Fade out)}
 All I need [Bb]is the air that I breathe
 Yes [F]to love you
 All I need [Bb]is the air that I breathe
 Yes [F]to love you
+{end_of_part}

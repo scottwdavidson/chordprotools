@@ -7,11 +7,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Dsus2] ... |[Dsus2] ... | [D] ... | [D] ... |
 [Dsus2]Dsus2  [D]D  [D]D
 E (D Str 2nd Fret)  D (Open)  G
 E (D Str 2nd Fret)  D (Open)  G
+{end_of_part}
 
 
 {start_of_verse}
@@ -48,9 +49,10 @@ Let me take her off your [Em]ha-a[A]nds[D][G]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Em]The band is playin' a [A]perfect song
 And [D]I don't wanna wait too [G]long
+{end_of_part}
 
 
 {start_of_chorus}

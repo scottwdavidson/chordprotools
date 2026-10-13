@@ -7,10 +7,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Em] . . . | [D] 6/9 / [F#] |
 
 | [Em] . . . | [D] 6/9 / [F#] |
+{end_of_part}
 
 {start_of_verse}
 On the [Em]first part of the [D6/9 /F#]journey

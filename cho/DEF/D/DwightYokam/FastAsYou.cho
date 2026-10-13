@@ -1,8 +1,11 @@
 {title: Fast As You}
 {artist: Dwight Yoakam}
 {key: E}
+{duration: 4:30}
 {tempo: 126}
-{duration: 4:30}    
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 [E]
@@ -53,9 +56,10 @@ But [A]I think that you'll slow down
 {end_of_verse}
 
 
-{comment: Guitar Solo 1}
+{start_of_part: Guitar Solo 1}
 [E][A][E][F#]
 [A][E]
+{end_of_part}
 
 
 {start_of_chorus: Chorus}
@@ -81,7 +85,7 @@ Oh, sucker[E]
 {end_of_verse}
 
 
-{comment: Guitar Solo 2}
+{start_of_part: Guitar Solo 2}
 [E][A][E][F#]
 [A][E]
 [E]Yeah, I'll be strong, it won't be long
@@ -91,6 +95,7 @@ Oh, sucker[E]
 [E] Baby let's just wait and see
 [F#]   [A]  [E]  [E] Yeah, maybe I'll be fast as you
 Maybe I'll break hearts too[A][E][F#][A][E]
+{end_of_part}
 
 
 {start_of_part: Outro}

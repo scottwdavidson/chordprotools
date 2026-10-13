@@ -6,8 +6,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Aadd2] | [F#m] | [Aadd2] | [F#m] |
+{end_of_part}
 
 {start_of_verse}
 [A]The road I have travel[D]led on
@@ -52,16 +53,19 @@ When she cries[Aadd2][F#m7][Aadd2][F#m7]
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [A/D] | [A/C#] | [Bm7] [E7] | [D/A] [A] [E/F#] | [F#m7] |
 | [A/D] | [A/C#] | [A/B] [B7] | [Bm7/E] [E] |  
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 [E]So I [A/D]pray this [A/C#]time
 I can b[Bm7]e the [E7]man that sh[D/A]e [A]de[E/F#]serves
 [F#m7]'Cause I [Bm7]die a little each [E]time
 When she cries
+{end_of_part}
 
-{comment: Outro Solo}
+{start_of_part: Outro Solo}
 ||: [A/D] | [A/C#] | [Bm7] [E7] | [D/A] [A] [E/F#] [F#m7] |
   | [A/D] | [A/C#] | [A/B] [B7] | [Bm7/E] [E] :|| repeat and fade 
+{end_of_part}

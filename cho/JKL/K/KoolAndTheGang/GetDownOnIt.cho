@@ -3,14 +3,18 @@
 {key: Em}
 {duration: 4:00}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {{ https://www.sheetmusicdirect.com/en-US/se/ID_No/31448/Product.aspx}}
 
 
-{comment: Intro}
+{start_of_part: Intro}
 [Em7]    [Am7]   What you gonna [Em7]do? You wanna get down?
 [Am7]   Tell me, what you gonna [Em7]do? Do you wanna get down?
 [Am7]   What you gonna [Em7]do? [Bm7]   You [C]wanna get down?
 [D]  [Am7]   Wh[Bm7]at you gonna [Em7]do? [Bm7]   You wan[C]na get down?[D]Tell me
+{end_of_part}
 
 
 {start_of_chorus}
@@ -58,11 +62,12 @@ I heard all the people sayin'
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Wh[C]at you gonna [D]do?[Am7]   Do you [Bm7]want to get down?
 [Em7]    [Bm7]   Wh[C]at you gonna [D]do?
 (Get your [Em7]back up off the wall,[Bm7]    [C]  [D]dance, come on)[Am7]
 [Bm7](Get your [Em7]back up off the wall,[Bm7]    [C]  [D]dance, come on)
+{end_of_part}
 
 
 {start_of_chorus}
@@ -98,10 +103,11 @@ You [Em7]show it,[Bm7]   as [C/D]you move across the floor
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Wh[C]at you gonna [D]do?[Am7]   Do you [Bm7]wanna get down?
 [Em7]    [Bm7]   Wh[C]at you gonna [D]do?
 (Get your [Em7]back up off the wall,[Bm7]    [C]  [D]dance, come on)[Am7]    [Bm7]   (Get your [Em7]back up off the wall,[Bm7]    [C]  [D]dance, come on)
+{end_of_part}
 
 
 {start_of_chorus}

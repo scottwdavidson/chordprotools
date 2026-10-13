@@ -15,7 +15,7 @@
 {comment:**  meta: label: MryJneDance   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 
 
@@ -28,6 +28,7 @@
 | [Am] . [G] . | [D] . [Am] . |
 
 | [Am] . [G] . | [D] . [Am] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -96,7 +97,7 @@ I'm [D]tired of myself, [Am]tired of this town.
 {end_of_chorus}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 | [Am] . [G] . | [D] . [Am] . |
 
 | [Am] . [G] . | [D] . [Am] . |
@@ -104,6 +105,7 @@ I'm [D]tired of myself, [Am]tired of this town.
 | [Am] . [G] . | [D] . [Am] . |
 
 | [Am] . [G] . | [D] . [Am] . |
+{end_of_part}
 
 
 
@@ -131,20 +133,23 @@ It was [Am]too cold to cry when I [G]woke up alone,
 {end_of_chorus}
 
 
-{comment: Outro - Part I - Harmonica}
+{start_of_part: Outro - Part I - Harmonica}
 | [Am] . [G] . | [D] . [Am] . |
 | [Am] . [G] . | [D] . [Am] . |
+{end_of_part}
 
-{comment: Outro - Part II - Guitar}
+{start_of_part: Outro - Part II - Guitar}
 | [Am] . [G] . | [D] . [Am] . |
 | [Am] . [G] . | [D] . [Am] . |
 | [Am] . [G] . | [D] . [Am] . |
 | [Am] . [G] . | [D] . [Am] . |
+{end_of_part}
 
-{comment: Outro - Part III - Guitar}
+{start_of_part: Outro - Part III - Guitar}
 | [Am] . [G] . | [D] . [Am] . |
 | [Am] . [G] . | [D] . [Am] . |
 | [Am] . [G] . | [D] . [Am] . |
 | [Am] . [G] . | [D] . [Am] . |
 
 | [G] . . . | [Am]
+{end_of_part}

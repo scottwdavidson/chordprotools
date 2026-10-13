@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Ebm7] | [Ebm7] | 
+{end_of_part}
 
 {start_of_verse}
 [Ebm7]Once, there was a way  to get back h[Abm7]omeward
@@ -31,8 +32,9 @@
 
 {comment:-- Carry That Weight --}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Cm7] | [Cm7] |
+{end_of_part}
 
 {start_of_verse}
 [Cm7] You never give me your [F7sus4]mon -  [Fm7]ey

@@ -16,10 +16,10 @@
 {end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 | [Em] . . . | [Em] . . . | [C7] . . . | [C7] . . . | 
 | [Em] . . . | [Em] . . . | [C7] . . . | [C7] . (well we) | 
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 1}
@@ -34,9 +34,9 @@ But we'd [Bm]love to try them [Em]on
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [C]  [Em]   [C] Well, we [Em]all fall in love
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 2}
@@ -72,9 +72,9 @@ Kick me [Bm]right between the [Em]eyes
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [C]  [Em]   [C] Well, we [Em]all fall in love
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 4}
@@ -109,9 +109,9 @@ You'll give [Am]in to your de[D]sire
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 When the [Bm]stranger comes a[Em]long[C][Em][C][Em][C][Em]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Outro}

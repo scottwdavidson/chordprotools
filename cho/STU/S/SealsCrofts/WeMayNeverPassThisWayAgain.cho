@@ -17,8 +17,9 @@
 {comment:**  meta: label: WeMay Never   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 |[E]     |[Esus4]  |[E]     |[Esus4]  |
+{end_of_part}
 
 {start_of_verse}
 [E]Life, so they [G#m7]say
@@ -41,8 +42,9 @@ And take us [C*]up, always [D*]up
 [Bm7]We may never pass this [Esus4]way again
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 |[E]     |[Aadd9/E]  |[Emaj7]  |[Aadd9/E]  |
+{end_of_part}
 
 {start_of_verse}
 [E]Dreams, so they [G#m7]say
@@ -65,8 +67,9 @@ Take us u[C*]p, always [D*]up
 [Bm7]We may never pass this [Esus4]way again
 {end_of_chorus}
 
-{comment: Bridge}
-{start_of_bridge}
+{start_of_part: Bridge}
+{end_of_part}
+{start_of_part: Bridge}
 So [C7]  I wanna laugh while the [G7]laughin' is easy
 [C7]   I wanna cry if it [G7]makes it worthwhile
 [C7]  I may [C#dim7]never pass this [G7]wa- [F#7]ay  [F7]a -  [Em7]gain
@@ -76,7 +79,7 @@ So [C7]  I wanna laugh while the [G7]laughin' is easy
 [C7]   Like I'm the journey and [G7]you're the journey's end
 [C7]   I may n[C#dim7]ever pass this [G7]wa- [F#7]ay   [F7]a - [Em7]gain
 [G/A]That's why I [A7]want it with [C/D]you, baby
-{end_of_bridge}
+{end_of_part}
 
 {comment: Interlude}
 | [F/Bb] | 
@@ -92,6 +95,7 @@ So [C7]  I wanna laugh while the [G7]laughin' is easy
 [Bm7]We may never pass this [Esus4]way again
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 |[E]     |[Aadd9/E]  |[Emaj7]  |[Aadd9/E]  |
 |[E]     |
+{end_of_part}

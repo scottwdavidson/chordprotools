@@ -3,6 +3,9 @@
 {key: E}
 {tempo: 114}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
 [A]
 {end_of_part}
@@ -52,12 +55,12 @@ For a love that isn't [Bmadd11]there  [A]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [G6]
 [A] I got to pick me up when I am[G6]  down
 [A] I got to get my feet back on the ground[G6]
 [A] I got to pick me up when I am down[G6][A]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Interlude}

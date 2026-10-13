@@ -13,17 +13,19 @@
 {comment:**  meta: performance: Dm   }
 {comment:***********************************************}
 
-{comment: Intro piano only}
+{start_of_part: Intro piano only}
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
+{end_of_part}
 
-{comment: Intro add guitar}
+{start_of_part: Intro add guitar}
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
+{end_of_part}
 
 {start_of_chorus}
 [Dm]Just a song be[Am]fore I go,
@@ -32,17 +34,19 @@ to [Bb]whom it may conc[Gm]ern.
 it's [Bb]easy to get b[Gm]urned.
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F]When the shows were [Eb]over,
 we [Gm]had to get back [Am]home
 And [F]when we opened [Eb]up the door,
 I had to be a[Gm]lone.
+{end_of_part}
 
-{comment: Solo piano}
+{start_of_part: Solo piano}
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
+{end_of_part}
 
 {start_of_verse}
 She [Dm]helped me with my [Am]suitcase,
@@ -51,17 +55,19 @@ she [Bb]stands before my e[Gm]yes
 and [Bb]to the friendly s[Gm]kies.
 {end_of_verse}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F]Going through se[Eb]curity,
 I [Gm]held her for so [Am]long.
 She [F]finally looked at [Eb]me in love,
 and she was [Gm]gone.
+{end_of_part}
 
-{comment: Solo guitar}
+{start_of_part: Solo guitar}
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
+{end_of_part}
 
 {start_of_chorus}
 [Dm]Just a song be[Am]fore I go,
@@ -70,17 +76,19 @@ a [Bb]lesson to be l[Gm]earned.
 it's [Bb]easy to get b[Gm]urned.
 {end_of_chorus}
 
-{comment: Solo guitar}
+{start_of_part: Solo guitar}
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
+{end_of_part}
 
-{comment: Solo piano}
+{start_of_part: Solo piano}
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
 |[Dm] . . . | [Am] . . . | [Bb] . . . | [Gm] . . . |
+{end_of_part}
 
 {start_of_chorus}
 [Dm]Just a song be[Am]fore I go,

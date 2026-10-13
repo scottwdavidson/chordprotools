@@ -15,7 +15,7 @@
 {comment:**  meta: label: RockIn USA   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . [A/E] . | [D/E] . [A/E] . |
 | [E] . [A/E] . | [D/E] . [A/E] . |
 | [E] . [A/E] . | [D/E] . [A/E] . |
@@ -25,6 +25,7 @@
 | [E] .  [A] .  | [D]   . [A]   . |
 | [E] .  [A] .  | [D]   . [A]   . |
 | [E] .  [A] .  | [D]   . [A]   . |
+{end_of_part}
 
 {start_of_verse}
 They [E]come from the [A]cities and they 
@@ -59,13 +60,14 @@ With the [E]blind faith of [A]Jesus, you
 | [E] .  [A] .  | [D]   .  .   . |
 
 
-{comment: Flute / Keyboard Solo}
+{start_of_part: Flute / Keyboard Solo}
 | [E] . [A/E] . | [D/E] . [A/E] . |
 | [E] . [A/E] . | [D/E] . [A/E] . |
 | [E] . [A/E] . | [D/E] . [A/E] . |
 | [E] . [A/E] . | [D/E] . [A/E] . |
+{end_of_part}
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 | [E] . [A/E] . | [D/E] . [A/E] . |
 | [E] . [A/E] . | [D/E] . [A/E] . |
 | [E] . [A/E] . | [D/E] . [A/E] . |
@@ -76,6 +78,7 @@ With the [E]blind faith of [A]Jesus, you
 
 {comment: Keyboard Only}
 | [E] . [A/E] . | [D/E] . [A/E] . |
+{end_of_part}
 
 {start_of_verse}
 [E]Voices from [A]nowhere and 
@@ -92,7 +95,7 @@ There was [E]Frankie Lymon, [A]Bobby Fuller,
 {end_of_verse}
 | [E] .  [A] .  | [D]   . [A]   . |
 
-{comment: Outro}
+{start_of_part: Outro}
 [E]R. O. [A]C. K.  in the [D]U. S. A[A]
 [E]R. O. [A]C. K.  in the [D]U. S. A[A]
 [E]R. O. [A]C. K.  in the [D]U. S. A[A]
@@ -107,3 +110,4 @@ There was [E]Frankie Lymon, [A]Bobby Fuller,
 [E]R. O. [A]C. K.  in the [D]U. S. A[A]
 
 | [E] ... |
+{end_of_part}

@@ -4,11 +4,12 @@
 {duration: }
 {tempo: }
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Fmaj7] [Cmaj7]
+{end_of_part}
 
 {start_of_verse}
 I [Fmaj7]think about winter when I was with her   [Am]and the snow was falling [Em/G]down
@@ -34,10 +35,11 @@ I'm [F]fall[C]ing in [G]love with [C]you
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 The f[Am]all and the springtime were like in between times
 You're [Em]here and then you're gone a[Am]way[C/G]
 Whoa, [F]I just wanted to [C]say   Won't you [G]please, [F]please [C]stay[A7]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -46,8 +48,9 @@ I'm [F]fall[C]ing in [G]love with [C]you
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [Fmaj7]Fmaj7 [Am]Am [Em/G]C/G
+{end_of_part}
 
 
 {start_of_chorus}
@@ -56,6 +59,7 @@ I'm [F]fall[C]ing in [G]love with [C]you
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 In [G]love with y[C]ou
 In [G]love-----   with [F]you[C]
+{end_of_part}

@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em6/F#] [E/F#] | [B/F#]  | [C#7/F#] [F#7sus4] | [F#7sus4] | x2
+{end_of_part}
 
 {start_of_verse}
 [Em6/F#]    You don't [E/F#]know [B/F#]me but I'm your [C#7/F#]bro - [F#7sus4]ther
@@ -45,15 +46,17 @@
 [B7/D#](Takin' it [E]to [Em/F]the [B/F#]----)[E/F#]
 {end_of_chorus}
 
-{comment:solo}
+{start_of_part: solo}
 | [Em6/F#] [E/F#] | [B/F#]  | [C#7/F#] [F#7sus4] | [F#7sus4] | x4
 
 
 {comment:preChorus}
 [B5]You,[B5/A] [E/G#]telling me the [Em/G]things you're gonna do [E/F#]for
 [B5]me [B5/A]  [E/G#]I ain't blind and I[Em/G]don't like what I think I [E/F#]see
+{end_of_part}
 
-{comment:Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [B7/D#](Takin' it [E]to [Em/F]the [B/F#]streets)[E/F#]
 [B7/D#](Takin' it [E]to [Em/F]the [B/F#]streets)[E/F#]

@@ -17,11 +17,12 @@
 {comment:**  meta: label: Toein  Line   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 (Piano)
 | [G] . [Em] . | [C] .  [D] . | [G] . [Em] . | [C] .   [D] . |
 (+ Jeff)
 | [G] . [Em] . | [Am] . [D] . | [G] . [Em] . | [Am] . [D] .  |
+{end_of_part}
 
 {start_of_chorus}
 Baby, [G]I'm.[Em]....[C].tired of t[D]oein' the 
@@ -35,9 +36,10 @@ s[G]omeone n[Em]ew, [C]some[D]one who
 [G]lin[Em]e.[Am][D]
 {end_of_chorus}
 
-{comment: bridge}
+{start_of_part: bridge}
 [C]I know it's [G]over, cause [C]I see the [G]signs.
 [C]Don't let me [G/B]waste your precious [D]time.[D7]
+{end_of_part}
 
 {start_of_chorus}
 Baby, [G]I'm.[Em]....[C].tired of t[D]oein' the 
@@ -51,9 +53,10 @@ l[G]ine..[Em]....[C].I'm gonna [D]put on my
 be[G]hind.[Em][Am][D]
 {end_of_chorus}
 
-{comment: bridge}
+{start_of_part: bridge}
 [C]You're rollin' [G]over and [C]over, so [G]divine..
 [C]but you can't fix this [G/B]broken [G]heart of [D]mine[D7]
+{end_of_part}
 
 {start_of_chorus}
 Baby, [G]I'm.[Em]....[C].tired of t[D]oein' the 
@@ -62,9 +65,10 @@ l[G]ine..[Em]....[C]don't know [D]why you wanna
 [G]cry.[Em][Am][Bm]
 {end_of_chorus}
 
-{comment: solo}
+{start_of_part: solo}
 | [C] ... | [G] ... | [C] ... | [G]  ... | 
 | [C] ... | [G] ... | [D] ... | [D7] ... |
+{end_of_part}
 
 {start_of_chorus}
 Baby, [G]I'm.[Em]....[C].tired of t[D]oein' the 
@@ -73,7 +77,7 @@ l[G]ine..[Em]....[C]don't know [D]why you wanna
 [G]cry.[Em][Am][D]
 {end_of_chorus}
 
-{comment: outro}
+{start_of_part: outro}
 Baby, [G]I'm..[Em]....[C]..tired of t[D]oein' the l[G]ine.[Em][C][D]
 Baby, [G]I'm..[Em]....[C]..tired of t[D]oein' the l[G]ine.[Em][Am][D]
 Baby, [G]I'm..[Em]....[C]..tired of t[D]oein' the l[G]ine.[Em][C][D]
@@ -82,4 +86,5 @@ Baby, [G]I'm..[Em]....[C]..tired of t[D]oein' the l[G]ine.[Em][C][D]
 Baby, [G]I'm..[Em]....[C]..tired of t[D]oein' the l[G]ine.[Em][Am][D]
 Baby, [G]I'm..[Em]....[C]..tired of t[D]oein' the l[G]ine.[Em][C][D]
 Baby, [G]I'm..[Em]....[C].(Fade.)
+{end_of_part}
 

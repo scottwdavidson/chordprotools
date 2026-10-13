@@ -7,12 +7,13 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . . . | [G] . . . |
 | [A] . . . | [D] . . . |
 
 | [D] . . . | [G]  . . . |
 | [A] . . . | [Bm] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -58,16 +59,18 @@ But [A]all I want is you.
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [D] And it was [Bm]hard,[G]so hard to take.
 [Bm]   [G] There's no es[Bm]cape,[G]without a scrape.
 [Bm]   [G]But you kept it going till the sun fell down,
 [A]You kept it going.
+{end_of_part}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [D]G [G]A [A]Bm[D]G A
 [D]
+{end_of_part}
 
 
 {start_of_verse}
@@ -92,7 +95,8 @@ But [A]all I want is you.
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [D]Ah oh.
 [G] All I [A]want you you,
 [Bm]  All I [G]want[A] is [D]you.
+{end_of_part}

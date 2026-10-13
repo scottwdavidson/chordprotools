@@ -5,11 +5,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C]   . . .  | [C]   . . . | 
 | [Am7] . . .  | [Am7] . . . |
 | [Dm7] . . .  | [Dm7] . . . |
 | [Gsus] . [G] . | [G] . (if you believe)
+{end_of_part}
 
 {start_of_verse}
 [Gsus4] [G] If you be[C]lieve in the power of magic,
@@ -58,11 +59,12 @@ Stay on your island,
 [Fm/Bb]Can you change the things we've said and done?[C]
 {end_of_chorus}
 
-{comment: Solo - unverified}
+{start_of_part: Solo - unverified}
 | [C]   . . .  | [C]   . . . | 
 | [Am7] . . .  | [Am7] . . . |
 | [Dm7] . . .  | [Dm7] . . . |
 | [Gsus] . [G] . | [G]   . . . |
+{end_of_part}
 
 
 {start_of_chorus}

@@ -7,11 +7,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F] . [C] [Am] | [G] . . . |
 | [F] . [C] [Am] | [G] . . . |
 | [F] . [C] [Am] | [G] . . . |
 | [F] . [C] [Am] | [G] . . . |
+{end_of_part}
 
 {start_of_verse}
 [F] You [C]got a [Am]lotta [G]nerve, don't you, [F]baby?
@@ -61,11 +62,12 @@
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F]It [C]takes two [Am]to break a heart [G]in two 
 Oo[F]ooo_[C][Am][G]
 Baby you[F] [C]blame [Am]me and baby I[G]'ll blame
 you[F]  aw [C]if  that aint the [G]truth[G]
+{end_of_part}
 
 {start_of_chorus}
  I had some [F]help

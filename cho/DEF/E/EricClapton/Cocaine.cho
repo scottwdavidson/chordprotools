@@ -7,11 +7,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | 
+{end_of_part}
 
 {start_of_verse}
 If you w[E]ant to hang out
@@ -45,11 +46,12 @@ She don't l[C]ie[B]
 Coc[E]aine[D][E][D]
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | ... until done :-) 
+{end_of_part}
 
 {start_of_verse}
 If your d[E]ay is gone
@@ -67,8 +69,9 @@ She don't l[C]ie[B]
 Coc[E]aine[D][E][D]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | 
 | [E] ... | [D] ... | ... until done :-) 
+{end_of_part}

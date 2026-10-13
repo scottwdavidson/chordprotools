@@ -19,8 +19,9 @@
 {comment:**  meta: performance: Em   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em] | [D] | [A] | [Em] |
+{end_of_part}
 
 {start_of_verse}
 [Em]  Last night I dreamed you were [D]back again
@@ -88,7 +89,7 @@ But I [G]do, and I wonder if I'm p[C]ast the point of r[G]escue
 I, [D]no you don't, but I [Em]do
 I, [D]no you don't, but I [Em]do
 
-{comment: Outro}
+{start_of_part: Outro}
 | [Em] | [D] | [A] | [Em] | 
 | [Em] | [D] | [A] | [Em] | 
 | [Em] | [D] | [A] | [Em] | 
@@ -97,3 +98,4 @@ I, [D]no you don't, but I [Em]do
 | [Em] | [D] | [A] | [Em] | 
 | [Em] | [D] | [A] | [Em] | 
 | [Em] | 
+{end_of_part}

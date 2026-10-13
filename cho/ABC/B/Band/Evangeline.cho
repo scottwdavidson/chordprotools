@@ -10,10 +10,11 @@
 {comment: in 3}
 
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . . | [E] . . | [E] . . | [E] . . | [E] . . | [E] . . |
 
 | [A] . . | [A] . . | [A] . . | [A] . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -76,7 +77,8 @@ That [E]pulled her [E]man a[A]way.   [A]     [A]     [A]
 
 
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E] . . | [E] . . | [E] . . | [E] . . | [E] . . | [E] . . |
 
 | [A] . . | [A] . . | [A] . . | [A]
+{end_of_part}

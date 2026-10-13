@@ -17,7 +17,7 @@
 {comment:**  meta: label: BadBadLeroy   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [G] [C/G] [G] [C/G] | [G] [C/G] [G] [C/G]  | 
 
 | [G] [C/G] [G] [C/G] | [G7] [C/G] [G] [C/G] |
@@ -27,6 +27,7 @@
 | [G] [C/G] [G] [C/G] | [G]  [D7] [D7] [D7]  |
 
 {comment: lead - Scott}
+{end_of_part}
 {start_of_verse}
 Well, the [G]south side of Chicago
 Is the [A7]baddest part of town.
@@ -100,6 +101,7 @@ The [A7]baddest man in the whole damn town.
 And [D7]meaner than a [C]junkyard do[G]g.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 Yes, you were [B7]badder than old King [C]Kong
 And [D7]meaner than a [C]junkyard [G]dog.
+{end_of_part}

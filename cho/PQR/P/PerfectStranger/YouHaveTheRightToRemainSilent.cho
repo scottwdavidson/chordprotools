@@ -2,10 +2,11 @@
 {artist: Perfect Stranger}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
+{end_of_part}
 
 {start_of_verse}
 [G]Can I have this dance, my your looking p[Am]retty

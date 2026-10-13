@@ -3,12 +3,13 @@
 {key: G}
 {tempo: 78}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 {comment: Verse 1}
+{end_of_part}
 
 {start_of_verse}
 [G6]L is [Gmaj7]for the way you [Am7]look at [D7]me.
@@ -34,5 +35,6 @@
 {comment: Solos}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [G6]Love was [D7]made for me and [G6]you.
+{end_of_part}

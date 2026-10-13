@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] | [A] | [A] | [A] |
+{end_of_part}
 
 {start_of_verse}
 [A]June fell for Johnny on the Fourth of July,
@@ -53,12 +54,12 @@ If you g[E]et tired of runnin',
 You can [E7]turn around an' walk back to [A]me.
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C#m]An' the years just seemed to roll on [D]by them.
 [A]She missed him more an' more every [E]day.
 [C#m]An' that boy grew up to look and act just [F#m]like him,
 An' she knew s[Bm]ome day soon he'd be old enough to f[E]ly away.
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [A]Where you gonna go?

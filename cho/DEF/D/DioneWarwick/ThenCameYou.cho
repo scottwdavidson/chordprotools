@@ -17,7 +17,7 @@
 {comment:**  meta: label: Then  Came   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
 | [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
@@ -25,6 +25,7 @@
 | [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
 
 | [F] [F] [Bb/F] [Eb/F] | [Eb/F] [Bb/F] [F] [Bb/F] [F] |
+{end_of_part}
 
 {start_of_verse}
 [F]Ever since I m[Gm7/F]et ya

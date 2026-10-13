@@ -36,9 +36,10 @@ If [A]that's what it's [A]all ab[Dm]out
 {end_of_chorus}
 
 
-{comment: Solo Sax}
+{start_of_part: Solo Sax}
 [Dm]  Mm[Gm7]   I'm movin' out
 [C]  [Caug]    Mm[Fmaj7]     Oh[Dm]  ah[Gm7]   Mm[C][Caug][Fmaj7]
+{end_of_part}
 
 
 {start_of_verse: Verse 2}
@@ -64,9 +65,10 @@ If [A]that's what it's [A]all ab[Dm]out
 {end_of_chorus}
 
 
-{comment: Solo Sax}
+{start_of_part: Solo Sax}
 [Dm]  Mm[Gm7]   I'm movin' out
 [C]  [Caug]    Mm[Fmaj7]     Oh[Dm]  ah[Gm7]   Mm[C][Caug][Fmaj7]
+{end_of_part}
 
 
 {start_of_part: Pre-Chorus}
@@ -84,9 +86,10 @@ Good luck[Bb]  movin' up cause I'm[Em7-5]      [A] movin' out
 {end_of_chorus}
 
 
-{comment: Solo Sax}
+{start_of_part: Solo Sax}
 [Dm]  Mm[Gm7]   I'm movin' out
 [C]  [Caug]    Mm[Fmaj7]     Oh[Dm]  ah[Gm7]   Mm[C][Caug][Fmaj7]
+{end_of_part}
 
 
 {start_of_part: Interlude}

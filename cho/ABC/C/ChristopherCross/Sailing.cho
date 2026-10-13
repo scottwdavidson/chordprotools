@@ -7,7 +7,6 @@
 
 {comment:***********************************************}
 {comment:**  meta: nord: P33   }
-{comment:**  meta: rc-slot: 82   }
 {comment:***********************************************}
 
 {start_of_part: Strings}
@@ -74,13 +73,13 @@ And [C#m7]soon I will be free[Dsus2(#4)]
 . | [Dsus2(#4)] . [Dadd2] . | [Dsus2(#4)] . [Dadd2] . | 
 {end_of_part}
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 . | [Aadd9]  . .       . | [Fadd9] . [Gadd9] . | 
 . | [Ebadd9] . [Fadd9] . | [Gadd9] . .       . | 
 
 . | [Cadd9] . .       . | [Abadd9] . [Bbadd9] . | 
 . | [Fadd9] . [Gadd9] . | [Aadd9]  . .        . |
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 3}

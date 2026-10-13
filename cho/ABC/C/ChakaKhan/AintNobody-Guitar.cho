@@ -7,8 +7,9 @@
 
 {columns: 2}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em] [D/E] | [Em] [D/E] | [Em] [D/E] - [A F# E D] | [Em] [D/E] - [A F# E D] |
+{end_of_part}
 
 {start_of_verse}
 [Em]Captured [D/E]effortlessly [A F# E D]     [Em]That's t[D/E]he way it was [E F# G A]
@@ -41,8 +42,9 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em]Ain't nob[D/G]ody [G F# E D]  [Am]Loves me[Cmaj7] better than you [D E F# G]
 {end_of_chorus}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em] [D/E] | [Em] [D/E] | [Em] [D/E] - [A F# E D] | [Em] [D/E] - [A F# E D] |
+{end_of_part}
 
 {start_of_verse}
 [Em]I wait f[D/E]or night time to come [A F# E D]  [Em]And brin[D/E]g you to me [E F# G A]
@@ -63,12 +65,12 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em]Ain't nob[D/G]ody [G F# E D]  [Am]Loves me[Cmaj7] better than you [D E F# G]
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Em][D/E] An[Am7]d first you put your [D]arms around me [A B C D]
 [Em][D/E] Th[Am7]en you put your [D]charms around me [E D C B]
 [Em][D/E] Go[Am7]t a feeling mos[D]t would treasure [A B C D]
 [Em][D/E] An[Am7]d our love's so deep we ca[D]nnot measure [E D C B]
-{end_of_bridge}
+{end_of_part}
 
 {comment: Chorus repeat}
 {start_of_chorus}

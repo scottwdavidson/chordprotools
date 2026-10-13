@@ -9,8 +9,9 @@
 {comment:**  meta: nord: N52   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 |[C] [C2]| [F] | [G] | [C] |
+{end_of_part}
 
 {start_of_verse}
 She a[C]sked me where I was fro[F]m
@@ -47,22 +48,24 @@ Somethin' 'b[C]out the way she [C/E]kissed mе tells me sh[F]e'd lovе Eastern T
 Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my b[C]oots
 {end_of_chorus}
 
-{comment: Scott Solo}
+{start_of_part: Scott Solo}
 | [C] . [C/E] . | [F] . [C] . |
 | [F] . [C]   . | [G] . . . |
+{end_of_part}
 
-{comment: Jeff Solo}
+{start_of_part: Jeff Solo}
 | [C] . [C/E] . | [F] . [C] . |
 | [F] . [C]   . | [G] . [Am] . |
 
 {comment: Interlude}
 | [F] | [Am] | [F] | [G] |
+{end_of_part}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 I said [C]meet me in the [F]mornin'
 And she [G]told me I was c[C]razy
 [C/G]Yeah, but [Am]I still thought that m[F]aybe she'd show [G]up
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 Oh but, n[C]ow I'm dodging [C/E]potholes in my su[F]nburnt [C]Silverado
@@ -72,5 +75,6 @@ Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my b[Am]oots
 Yeah, but a[F]ll I brought back wi[C]th me was some sa[G]nd in my boots
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 |[C] [C2]| [F] | [G] | [C] |
+{end_of_part}

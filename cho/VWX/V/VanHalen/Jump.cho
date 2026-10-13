@@ -7,7 +7,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] [G/C] . C.  | [F/C] - [F/C] [G/C] . | 
 | [C] - [F/C] [C] . | - [C/F] . [Gsus4] . | 
 | [C] [G/C] . [C]   | [F/C] - [F/C] [G/C] . | 
@@ -16,6 +16,7 @@
 | [C] [F/C] - [F/C] | [F/C] - [F/C] .  [C]  |
 | - [F/C] - [F/C] - [F/C] |
 | [F/C] - [C/F] [Gsus4] (I get up) 
+{end_of_part}
 
 {start_of_verse}
 I get up, [C]and
@@ -86,17 +87,19 @@ Go ahead, jump
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [Bbm]Bbm [Gb]Gb [Ab]Ab [Db]Db [Bbm]Bbm [Gb]Gb [Ab]Ab [Db]Db
+{end_of_part}
 
 
-{comment: Solo 2}
+{start_of_part: Solo 2}
 [C]A5[F5] Ab[G5]5 G[Bb5]5 C5
 
 
 {comment: Interlude}
 [C]F [F]G [G]  [C]C
    Might as well jump
+{end_of_part}
 
 
 {start_of_chorus}
@@ -110,8 +113,9 @@ Jump!
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [C]Jump!
 [F]  [G]Jump!
 [C]Jump!
 [F]F [G]G [C]C[F][G][C] 
+{end_of_part}

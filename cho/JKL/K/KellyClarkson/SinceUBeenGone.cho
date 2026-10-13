@@ -17,8 +17,9 @@
 {comment:**  meta: label: SinceUGone   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] . . . | [G] . . . |
+{end_of_part}
 
 {start_of_verse}
 [G]Here's the thing: we started out friends[Am]
@@ -34,11 +35,12 @@
 [Am]Since you've been gone[Em]_[F(add#4)]
 {end_of_verse}
 
-{comment: bridge}
+{start_of_part: bridge}
 [F(add#4)]And all you'd ever [G]hear me say
 Is [Am]how I pictur[Em]ed me with you
 [F(add#4)]That's all you'd ever [G]hear me say
 {end_of_verse}
+{end_of_part}
 
 {start_of_chorus}
 [G] But since you've been gone[Bm][G5/C][G]
@@ -71,7 +73,7 @@ Now I get[Em]  what I want[D/F#][Am]
 Since you've been gone[G]_[G]
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 You had your chance,[Em]you blew it
 [C] Out of sight, [G]out of mind
 [C]Shut your mouth, I just can't take it
@@ -82,6 +84,7 @@ Again and again, and again, and again[Bm][C]
 | [G] 
 [G]G [Bm]Bm [C]C[G][Bm][C]
 [G] Since you've been gone[Bm][C]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -98,8 +101,9 @@ Now I get,[Em]  I get what I want[Bm][C][G]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Am]G
 Since you've been gone
 Since you've been gone
 Since you've been gone
+{end_of_part}

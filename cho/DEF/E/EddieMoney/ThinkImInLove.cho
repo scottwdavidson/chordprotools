@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] ... | [B] ... | [E] . [A] [B] |
+{end_of_part}
 
 {start_of_verse}
 [E]Ooh, [A]somethin's got a hold on me [E]now[B][E]
@@ -51,11 +52,12 @@ It's gotta be [A]love
 
 [E]    I [B]think I'm in [E]love, oh [A]no, no, [B]no
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 | [E] ... | [A] ... | [E] ... | .. [B] [E] |
 | [E] ... | [A] ... | [B] ... | [A] ...  |
 | [E] ... | [A] ... | [E] ... | .. [B] [E] |
 | [F#m]   | [E/G#]  | [A] ... | [E] ...  |
+{end_of_part}
 
 {start_of_chorus}
 I think I'm in [C#m]love[B]

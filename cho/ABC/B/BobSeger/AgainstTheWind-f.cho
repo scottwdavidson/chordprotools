@@ -19,8 +19,9 @@
 {comment:**  meta: performance: F   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [F] . . . | [F] . . . |
+{end_of_part}
 
 {start_of_verse}
 [F]It seems like yesterday,
@@ -78,7 +79,7 @@ searching for shelter a[C]gain and again.
 I [Bb]found my[Am]self seeking [Gm]shelter a[Bb]gainst the [F]wind.
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 . | [F] (wind) . . | [F] . . . |
 . | [F] .      . . | [F] . . . | 
 
@@ -87,12 +88,14 @@ I [Bb]found my[Am]self seeking [Gm]shelter a[Bb]gainst the [F]wind.
 . | [C] ...  | [Bb] (F-G-A [Bb/F]-[Bb/E]-[Bb/F])   |
 . | [F] ...  | [F] ...  | [Am] ([C/A]-[D/B]-E-C [A/C]-[B/D]-[C/G]) | [Am] ... |
 . | [Bb] ...  | [F] ...  | [Bb] ...  | [C] ...  | [C] ... |
+{end_of_part}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Well those [Dm]drifter’s [C]days are past me [F]now,
 I’ve got [Dm]so much [Bb]more to think a[F]bout.
 [Dm]Deadlines and [C]commitments[Bb];
 what to leave in, [C]what to leave out.
+{end_of_part}
 
 {start_of_chorus}
 !(Double first and last "Against the Wind")
@@ -102,7 +105,7 @@ I’m still running against the [F]wind.
 I’m [Bb]older [Am]now but still [Gm]running a[Bb]gainst the [F]wind.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 Well, [Bb]I’m older [Am]now but still [C7]running...
 Against the [Bb]wind
 
@@ -116,4 +119,6 @@ Against the [F]wind (I m still running against the wind)
 Against the [Bb]wind (still running)
 Against the [F]wind (running against the wind, running against the wind)
 . | [Bb] | [F] |
-{comment: End Outro}
+{end_of_part}
+{start_of_part: End Outro}
+{end_of_part}

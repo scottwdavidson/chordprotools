@@ -6,8 +6,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . . . | [D] . . . |
+{end_of_part}
 
 {start_of_verse}
 [D]We been drinking, but we ain't drunk yet
@@ -48,13 +49,14 @@ I wish, I wish, I wish you [D]would[A]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [D] Ooh[Em][G]
 I wish, I [A]wish
 I wish, I wish
 I wish you [D]would
 Yeah
 [A] I [G]wish, I [D/F#]wish, I [Em]wish you [D]would
+{end_of_part}
 
 
 {start_of_chorus}

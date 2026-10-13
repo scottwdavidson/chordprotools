@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] . . . | [G7] . . . | [C] . . . | [Cm] . . . |
+{end_of_part}
 
 {start_of_verse}
 The [G]sun still came [Bm]up
@@ -55,9 +56,10 @@ That old fashioned [C]feeling[Cm]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 So, I [Em]find a bar, [B/D#]find a stool
 [D]Find a glass, and [A/C#]let it do
+{end_of_part}
 
 
 {start_of_chorus}
@@ -70,8 +72,9 @@ That [Am]let you down easy
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 That [D]old fashioned feeling a[G]gain[G7]
 That old fashio[C]ned feelin[Cm]g
 That old fashioned [G]feeling
 Old fashioned [C]feeling[Cm]
+{end_of_part}

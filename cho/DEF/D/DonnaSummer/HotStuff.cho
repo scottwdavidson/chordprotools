@@ -2,14 +2,17 @@
 {artist: Donna Summer}
 {key: Gm}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [G]F [F]G[G][G]
 
 
 {comment: Theme}
 [Gm]F[F][Gm][Gm]
 [Gm]
+{end_of_part}
 
 
 {start_of_verse}
@@ -62,15 +65,17 @@ I want some [C5]hot stuff [D5]baby this eve[Gm]nin'
 [D5]Looking[D5]  for [Gm]hot love[Bb5][C5][D5][D5]
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [G5]G5 [Eb5]Eb5 [F5]F5 [G5]G5
+{end_of_part}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Gm]Hot, hot, hot, hot stuff
 [F]Hot, hot, hot
 [Gm]   [Gm]Hot, hot, hot, hot stuff
 [F]Hot, hot, hot
+{end_of_part}
 
 
 {start_of_chorus}
@@ -118,5 +123,6 @@ I want your [C5]hot stuff [D5]baby this eve[Gm]nin'
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Gm
+{end_of_part}

@@ -3,9 +3,12 @@
 {key: G}
 {duration: 3:00}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [G] [Bm][Am][D7][G][Bm][Am][D7]
+{end_of_part}
 
 
 {start_of_verse}
@@ -16,11 +19,12 @@
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 What's [CM7]breakin' is my he[Bm]art, I can r[Am]ead between
 the [D7]lines.
 It's [CM7]tearin' me apa[Bm]rt, you've got l[Am]eavin' on
 your [D7]mind.
+{end_of_part}
 
 
 {start_of_chorus}
@@ -38,9 +42,10 @@ Whoa, you'r[GM7]e my [Bm]angel[Am] baby, fo[D7]r th[GM7]e rest of the
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 What's [CM7]breakin' is [Bm]my heart
 yo[Am]u've got leavin' on [D7]your mind.
+{end_of_part}
 
 
 {start_of_chorus}
@@ -55,7 +60,7 @@ Whoa, you're[GM7] my a[Bm]ngel [Am]baby, for the [D7]rest of the
 [GM7] [Bm][Am][D7][GM7][Bm][Am][D][G][Bm][Am]
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 What's [CM7]breakin' is my he[Bm]art, I can r[Am]ead between
 the [D7]lines.
 It's [CM7]tearin' me ap[Bm]art, you've got [Am]leavin' on
@@ -68,3 +73,4 @@ The [D]rest of the [GM7]niiiiight (an[Bm]gel b[Am]aby).[D]..n[G]iiiiight..
 ([Bm]angel[Am]baby)
 The [D]rest of the [GM7]niiiiight (an[Bm]gel b[Am]aby)
 The [D]rest of the [GM7]night...[Bm]...[Am]...[D]...........(Fade.)
+{end_of_part}

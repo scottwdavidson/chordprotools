@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro ( cut time )}
+{start_of_part: Intro ( cut time )}
 ||: [F7sus4] | [F7sus4] | [F7sus4/Db] | [F7sus4/C] :||
  |  [Fm7]    | [Fm7]    | [Fm7]       | [Fm7] |
+{end_of_part}
 
 {start_of_verse}
 [Fm7]When you walked into the room
@@ -27,7 +28,7 @@ I am [Bbm7]so into you
 I can't think of nothin' [Fm7]else
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 Thinking [F7sus4]how it's going to be[Fm7]
 [Fm7/Db]Whenever I [Cm]get you next to me[Bbm7]
 
@@ -36,12 +37,13 @@ From your head to your toe
                    
 Gonna love you all [Bbm7]over, over and over
 [Cm]Me into you, you into me, me into you
-{end_of_bridge}
+{end_of_part}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Bbm7] -- [Bbm7]I am so into [Fm7]you [Fm7]
 [Bbm7] -- [Bbm7]I am so into [C7][C7][C7] ooh, ooh, ooh, ooh
 [Fm7]
+{end_of_part}
 
 {start_of_verse}
 When you [Fm]walked into the room
@@ -60,7 +62,7 @@ I am [Bbm7]so into you, baby
 I can't get to nothin' [Fm7]else [Fm7]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 No, no, no, come on [Bbm7]baby 
 [Bbm7] -- [Bbm7]I am so into [Fm7]you (Love the things I do)
 Listen, baby [Bbm7] -- [Bm7]Driving me crazy, oh, oh, [Fm7]oh 
@@ -69,4 +71,5 @@ Come on,[Bbm7]baby, -- [Bbm7] oo-ooh I am so into [Fm7]you
 
 [Bbm7] -- Come on [Bbm7]baby
 I am so into [Fm7]you (repeat )
+{end_of_part}
 

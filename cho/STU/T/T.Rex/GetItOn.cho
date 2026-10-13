@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] ... | [E] ... | [E] ... | [E] ... |
+{end_of_part}
 
 {start_of_verse}
 Well you're [E]dirty and sweet clad in [A]black
@@ -83,5 +84,6 @@ Get it [G]on Bang a [A]gong Get it on[E]
 Get it [G]on Bang a [A]gong Get it on[E] 
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [G] ... | [A] ... | [E] ... |
+{end_of_part}

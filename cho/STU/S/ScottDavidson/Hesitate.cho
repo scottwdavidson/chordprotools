@@ -4,11 +4,12 @@
 {duration: 3:00}
 {tempo: 86}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: ref-> https://studio.youtube.com/video/_prLp-SkhvM/edit }
-{comment: Intro}
+{start_of_part: Intro}
+{end_of_part}
 
 {start_of_verse}
 {comment: moving down}

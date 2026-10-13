@@ -29,11 +29,11 @@ Look and dry[Db] your eyes
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Ebmaj7]
 [Eb6][Ebm7][Ab][Db/Eb][Ab][B][Db/Eb][Ebm7]
 [Db/Eb]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 2}
@@ -64,11 +64,11 @@ Steppin' out[Db] tonight?
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Ebmaj7]
 [Eb6][Ebm7][Ab][Db/Eb][Ab][B][Db/Eb][Ebm7]
 [Db/Eb]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 4}
@@ -90,11 +90,11 @@ If you fol[Db]low me
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Ebmaj7][Eb6][Ebm7][Ab][Db/Eb][Ab]
 [B][Db/Eb][Ebm7][Db/Eb][Ebmaj7][Eb6]
 [Ebm7][Ab][Db/Eb][Ab][B][Db/Eb][Ebm7][Db/Eb]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

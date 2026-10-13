@@ -13,9 +13,10 @@
 {comment:**  meta: countin: 4   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bm7] | [Bm7] | [Bm7] | [Bm7] |
 | [Em7] | [A6]  | [Em7] | [A6]  |
+{end_of_part}
 
 {start_of_verse}
 In the [Em7]cool of the evenin' when ev'[A6]rything is gettin' kind of [Em7]groovy[A6]
@@ -36,11 +37,12 @@ And then you [A6]smile, and [Bbdim7]hold my hand
 [Bm7]Spooky! [Cm7]Spooky! hey
 {end_of_verse}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
 | [Fm7] | [Bb6] | [Bdim7] |
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
+{end_of_part}
 
 {start_of_verse}
 [Fm7]If you decide someday to [Bb6]stop this little game that you are [Fm7]playin'[Bb6]
@@ -51,13 +53,15 @@ So I'll pro[Bb6]pose... [Bdim7]on Halloween.
 [Cm7]spooky, yeah-uh!
 {end_of_verse}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
 | [Fm7] | [Bb6] | [Bdim7] |
 | [Fm7] | [Bb6] | [Fm7] |  [Bb6] |
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 |[Cm7] | [Cm7] | [Cm7] | [Cm7] |
+{end_of_part}

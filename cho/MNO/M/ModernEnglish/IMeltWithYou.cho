@@ -17,11 +17,12 @@
 {comment:**  meta: label: I MeltWithU   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C]  .   .   .| [C]  .   .   .|
 | [F(+2)] . . . | [F(+2)] . . . | 
 | [C]  .   .   .| [C]  .   .   .|
 | [F(+2)] . . . | [F(+2)] . . . | 
+{end_of_part}
 
 {start_of_verse}
 [C] Moving forward using all[Fadd9]my breath
@@ -61,7 +62,7 @@ And it's [Fadd9]getting better all the time
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 | [Em] . . . | [Em/G] . . . | 
 | [Am] . . . | [Am/C] . . . | 
 [Em]  The [Em/G]future's [Am]open wide [Am]
@@ -73,6 +74,7 @@ And it's [Fadd9]getting better all the time
 | [F(+2)] . . . | [F(+2)] . . . | 
 | [C]  .   .   .| [C]  .   .   .|
 | [F(+2)] . . . | [F(+2)] . . . | 
+{end_of_part}
 
 {start_of_chorus}
 [C]I'll stop the world and melt with you
@@ -83,7 +85,7 @@ And it's [Fadd9]getting better all the time
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 | [Em] . . . | [Em/G] . . . | 
 | [Am] . . . | [Am/C] . . . | 
 [Em]  The [Em/G]future's [Am]open wide [Am]
@@ -93,6 +95,7 @@ And it's [Fadd9]getting better all the time
 | [F(+2)] . . . | [F(+2)] . . . | 
 | [C]  .   .   .| [C]  .   .   .|
 | [F(+2)] . . . | [F(+2)] . . . | 
+{end_of_part}
 
 
 {start_of_chorus}
@@ -104,9 +107,10 @@ And it's [Fadd9]getting better all the time
 {end_of_chorus}
 
 
-{comment: Outro }
+{start_of_part: Outro}
 [C]I'll stop the world and melt with you
 [Fadd9]      [C]I'll stop the world and melt with you
 [C]I'll stop the world and melt with you
 [Fadd9]      [C]I'll stop the world and melt with you
 [Fadd9]...[C]...
+{end_of_part}

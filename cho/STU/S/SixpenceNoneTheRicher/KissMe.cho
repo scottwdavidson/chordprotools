@@ -22,9 +22,10 @@
 {comment: Guitar: acoustic guitar; capo 3rd fret}
 
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
 | [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
+{end_of_part}
 
 {start_of_verse}
 [C]Kiss me [Cmaj7]out of the bearded barley
@@ -68,8 +69,9 @@
 | [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
 | [C]  | [Cmaj7]  | [C7]  | [Cmaj7]  |
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Dm]  [G]  | [C]  [Am7]  | [Dm]  [G]  | [C]  [C7]  |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -81,8 +83,9 @@
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [C]me [Cmaj7] [C7] [Cmaj7]  So kiss
 [C]me [Cmaj7] [C7] [Cmaj7]  So kiss
 [C]me [Cmaj7] [C7] [Cmaj7]  So kiss
 [C]me [Cmaj7] [C7] [Cmaj7] [C]
+{end_of_part}

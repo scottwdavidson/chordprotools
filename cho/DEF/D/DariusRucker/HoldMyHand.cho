@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bsus2] . [E] . | [Bsus2] . [E] . | 
 | [Bsus2] . [E] . | [Bsus2] . [E] . | 
+{end_of_part}
 
 {start_of_verse}
 [Bsus2]      [E] With a little [Bsus2]love, [E] and some [Bsus2]tenderness[E]
@@ -74,9 +75,10 @@ Won't you let me run with you?
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Bsus2] . [E] . | [Bsus2] . [E] . | 
 | [Bsus2] . [E] . | [Bsus2] . [E] . | 
+{end_of_part}
 
 {start_of_chorus}
 [B]Hold [E]my [F#]hand want you to hold my hand
@@ -89,5 +91,6 @@ Won't you let me run with you?
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Bsus2]      [E]The best that I can[Bsus2][E]_[Bsus2][E]
+{end_of_part}

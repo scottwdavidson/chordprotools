@@ -19,15 +19,17 @@
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 
-{comment: Intro - Mandolin and Synth}
+{start_of_part: Intro - Mandolin and Synth}
 | [Dsus2]  .  .  .  | [Esus]  [E]  .  .  | [A/C#]  .  .  .  | [Dsus2]  .  .  .  |
 | [Dsus2]  .  .  .  | [Esus]  [E]  .  .  | [F#m7]  .  .  .  | [Dsus2]  .  .  .  |
+{end_of_part}
 
 
-{comment: Intro - Main Theme}
+{start_of_part: Intro - Main Theme}
 | [A]  [E/A]  [A]  .  | [D/A]  .  .  [A]  | [A]  [E/A]  [A]  .  | [D]  .  [F#m]  .  |
 | [A]  [E/A]  [A]  .  | [D/A]  .  .  [A]  | [A]  [E/A]  [A]  .  | [D]  .  [F#m]  .  |
 | [A]  [E/A]  [A]  .  | [D/A]  .  .  [A]  | [A]  [E/A]  [A]  .  | [F#m]  .  .  .  | [F#m]  .  |
+{end_of_part}
 
 
 {start_of_verse}
@@ -71,18 +73,19 @@ Yea, we d[D]anced and danced and danced.
 | [A]  .  .  .  | [D/A]  .  [A]  .  | [E]  .  [A]  .  | [F#m]  .  .  .  |
 
 
-{comment: Bridge - Mandolin Theme}
+{start_of_part: Bridge - Mandolin Theme}
 | [Bm11]  .  .  .  | [Esus]  [E]  .  .  | [A/C#]  .  .  .  | [Bm11]  .  .  .  |
 
 | [Bm11]  .  .  .  | [Esus]  [E]  .  .  | [F#m7]  .  .  .  | [Bm11]  .  .  .  |
+{end_of_part}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Bm11] The endless beat,[Esus] she’s walking [E]my way.
 [A/C#] Hear the music fade[D] when she says,
 Are we [Bm11]getting too close, do we dar[Esus]e to get [E]closer?
 [F#m7] The room is spinning as she whis[D]pers my name.
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus}
@@ -98,7 +101,7 @@ Yea, we d[D]anced and danced and danced.
 {end_of_chorus}
 
 
-{comment: Outro - Chorus Theme}
+{start_of_part: Outro - Chorus Theme}
 
 | [A]  [E/A]  [A]  .  | [D/A]  .  [A]  .  | [E]  .  [A]  .  | [D]  .  [F#m]  .  |
 (danced and danced and danced                          And we danced)
@@ -121,3 +124,4 @@ Yea, we d[D]anced and danced and danced.
 | [A]  [E/A]  [A]  .  | [D/A]  .  [A]  .  | [E]  .  [A]  .  | [D]  .  .  .  |
 
 | [D] |
+{end_of_part}

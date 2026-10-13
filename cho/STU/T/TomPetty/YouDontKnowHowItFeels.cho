@@ -62,15 +62,17 @@ And [E]you don't know[D] how it [A]feels
 {end_of_chorus}
 
 
-{comment: solo - harmonica}
+{start_of_part: solo - harmonica}
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
+{end_of_part}
 
-{comment: solo - guitar}
+{start_of_part: solo - guitar}
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
+{end_of_part}
 
 {start_of_verse: Verse 3}
 [E]My old man was [A]born to rock
@@ -98,17 +100,19 @@ No [E]you don't know[D] how it [A]feels ... to be me
 
 
 {start_of_part: Outro}
-{comment: solo - guitar}
+{start_of_part: solo - guitar}
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
+{end_of_part}
 
-{comment: solo - harmonica, piano}
+{start_of_part: solo - harmonica, piano}
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
 | [E] [D] [A] . | [E] [D] [A] . |
 
 | [E] . . . |  
+{end_of_part}
 {end_of_part}

@@ -2,11 +2,16 @@
 {artist: Judy Garland}
 {key: Bb}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Scott Solo on CHORUS as intro, octave higher}
-{comment: Scott Solo on VERSE & CHORUS, Jeff plays counter melody on CHORUS}
-{comment: Jeff Solo on VERSE & CHORUS}
-{comment: Fran - VERSE 1, VERSE 2, CHORUS, OUTRO}
+{start_of_part: Scott Solo on CHORUS as intro, octave higher}
+{end_of_part}
+{start_of_part: Scott Solo on VERSE & CHORUS, Jeff plays counter melody on CHORUS}
+{end_of_part}
+{start_of_part: Jeff Solo on VERSE & CHORUS}
+{end_of_part}
+{start_of_part: Fran - VERSE 1, VERSE 2, CHORUS, OUTRO}
 
 {comment:VERSE}
 | [Bb6]--[Gm7]--| [Dm]---[Bb7]-| 
@@ -20,9 +25,11 @@
 | [Bb6]----| [F]-[Eb]-[Bb]-[F7]-| 
 | [Bb]----| [Dbdim]----| 
 | [Cm6]--[C7b9]--| [Cm7/F]--[F9#5]--| 
+{end_of_part}
 
-{comment:OUTRO}
+{start_of_part: OUTRO}
 | [Bb]----| [Cm7/Bb]----| 
 | [Cm7]----| [F]-----| 
 | [Bb]----| 
+{end_of_part}
 

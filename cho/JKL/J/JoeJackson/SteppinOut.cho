@@ -4,6 +4,9 @@
 {duration: 3:45}
 {tempo: 160}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {comment: Fade In}
 [F#maj7]
 
@@ -26,11 +29,11 @@ Look and dry[E] your eyes
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [F#maj7]
 [F#6][F#m7][B][E/F#][B][D][E/F#][F#m7]
 [E/F#]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 2}
@@ -61,11 +64,11 @@ Steppin' out[E] tonight?
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [F#maj7]
 [F#6][F#m7][B][E/F#][B][D][E/F#][F#m7]
 [E/F#]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 4}
@@ -87,11 +90,11 @@ If you fol[E]low me
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [F#maj7][F#6][F#m7][B][E/F#][B]
 [D][E/F#][F#m7][E/F#][F#maj7][F#6]
 [F#m7][B][E/F#][B][D][E/F#][F#m7][E/F#]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] | [G] | [Cadd9] | [D] |
 | [G] | [G] | [Cadd9] | [D] |
+{end_of_part}
 
 {start_of_verse}
 [G]Another turning point, a [Cadd9]fork stuck in the [D]road,
@@ -39,13 +40,14 @@
 [Em]I hope you had the [D]time of your [G]life.
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [G] | [G] | [Cadd9] | [D] |
 | [G] | [G] | [Cadd9] | [D] |
 | [G] | [G] | [Cadd9] | [D] |
 | [G] | [G] | [Cadd9] | [D] |
 | [Em] | [D] | [C] | [G] |
 | [Em] | [D] | [C] | [G] |
+{end_of_part}
 
 {start_of_chorus}
 [Em]It's something unpredic[G]table but in [Em]the end it's [G]right
@@ -61,7 +63,8 @@
 [Em]I hope you had the [D]time of your [G]life.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [G] | [G] | [Cadd9] | [D] |
 | [G] | [G] | [Cadd9] | [D] |
 | [G] |
+{end_of_part}

@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:INTRO}
+{start_of_part: INTRO}
 | [C7] [F] [C7] | 4X  hammer on [C7]
+{end_of_part}
 
 {start_of_chorus}
 [G7]Devil with the blue dress, blue dress, blue dress..
@@ -49,10 +50,11 @@ She's a [C]real humdinger and I like it like that..
 [C]Devil with the [F]blue dress [C]on.
 {end_of_chorus}
 
-{comment:Bridge to Eb}
+{start_of_part: Bridge to Eb}
 | [C] . [C7] . | [C] . [C7] . | [C] [C7] [C7] [C7] | [Gaug] |
 
 {comment: Good Golly, Miss Molly}
+{end_of_part}
 {start_of_verse}
 [Eb]Good golly, Miss Molly, you sure like to ball.
 Good golly, Miss [Ab]Molly, you sure like to b[Eb]all.
@@ -67,9 +69,10 @@ While you're [Ab]rockin' and a-[Bb]rolling,
 Can't you hear your Mama [Eb]call?
 {end_of_verse}
 
-{comment: Gitar Solo}
+{start_of_part: Gitar Solo}
 | [Eb7] | [Eb7] | [Eb7] | [Eb7] |
 | [C7]  | [C7]  | [C7]  | [C7]  |
+{end_of_part}
 
 {start_of_verse}
 [C]Fee, fee, fi, fi, [F]fo-fo, [C]fum.

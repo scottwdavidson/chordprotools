@@ -9,9 +9,10 @@
 {comment:**  meta: countin: 8   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . | [Dm7] . . . |
 | [C] . . . | [Dm7] . . . |
+{end_of_part}
 
 {start_of_verse}
 I [C]stopped sending [Dm]flowers to your[C] apartment__[Dm]
@@ -75,6 +76,7 @@ So[F] lets just [Em]let the st[Dm]ory kinda [C]end[G]
 So[F] don't ex[Em]pect [Dm]me to be your [C]friend
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [C] . . . | [Dm7] . . . |
 | [C] . . . | [Dm7] . . . | 
+{end_of_part}

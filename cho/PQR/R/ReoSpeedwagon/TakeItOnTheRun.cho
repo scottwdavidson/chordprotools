@@ -2,10 +2,14 @@
 {artist: REO Speedwagon}
 {key: G}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 [G]Heard it from a friend who
 [Cadd9]Heard it from a friend who
 [D] Heard it from another you been [Cadd9]messin' aro[G]und[Dsus4][D]
+{end_of_part}
 
 
 {start_of_verse}
@@ -49,9 +53,10 @@ But I can feel it coming
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [Em]Em [C]C [Am]Am [C]C [Bm]Bm [D]D
 [Em]Em [C]C [Am]Am [C]C [Bm]Bm [D]D
+{end_of_part}
 
 
 {start_of_chorus}
@@ -68,7 +73,8 @@ But I can feel it coming
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [G]Heard it from a friend who
 [Cadd9]Heard it from a friend who
 [D] Heard it from another you been [Cadd9]messin' aro[G]und
+{end_of_part}

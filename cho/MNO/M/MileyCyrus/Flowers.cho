@@ -11,10 +11,12 @@
 {comment:**  meta: countin: 8   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Cmaj7]   |
+{end_of_part}
 
-{comment:DR START (Intro / DR1)}
+{start_of_part: DR START (Intro / DR1)}
+{end_of_part}
 
 {start_of_verse}
 We were [Am]good, we were [Dm]gold
@@ -93,8 +95,9 @@ Yeah, I can [F]love me better [E7]than
 Yeah, I can [F]love me better [E7]than you [Am]can
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 Can love me better, [Dm]I can love me better, baby
 [G] Can love me better, [C]I can love me [C/B]better, baby (Baby yeah)
 [Am] Can love me better, [Dm]I can love me better, baby
 [G] Can love me better, [C]I[C].....
+{end_of_part}

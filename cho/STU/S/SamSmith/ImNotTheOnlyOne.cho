@@ -1,8 +1,11 @@
 {title: I'm Not The Only One}
 {artist: Sam Smith}
 {key: F}
-{tempo: 92}
 {duration: 3:45}
+{tempo: 92}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [F] . [A] . | [Dm] - [Bbmaj7] - . | 
@@ -53,12 +56,12 @@ I [F]know I'm not the [C]only [F]one[Bb/C]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Bb]  I have loved you for ma[F]ny years
 [A]Maybe I am just not enough[Dm][C]
 [Bb]  You've made me realize my dee[F]pest fear
 By [Bb/C]lying and tearing us up
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

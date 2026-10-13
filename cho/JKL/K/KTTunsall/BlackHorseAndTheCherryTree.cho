@@ -5,15 +5,16 @@
 {tempo: 103}
 {meta: countin: 8}
 
-{comment: ***********************************************}
-{comment: **  meta: countin: 8}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: countin: 8   }
+{comment:***********************************************}
 
 {comment: BB Beat 1}
-{comment: Intro}
+{start_of_part: Intro}
 [N.C.]--- Two - three - four
 Woo-[Em]hoo, woo-[B7]hoo[Em]
 Woo-[Em]hoo, woo-[B7]hoo[Em]
+{end_of_part}
 
 {start_of_verse}
 [N.C.]Well my heart knows me better than I know myself

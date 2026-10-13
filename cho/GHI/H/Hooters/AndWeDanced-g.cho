@@ -19,15 +19,17 @@
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 
-{comment: Intro - Mandolin and Synth}
+{start_of_part: Intro - Mandolin and Synth}
 |[Csus2]  .  .  .  | [Dsus]  [D]  .  .  | [G/B]  .  .  .  | [Csus2]  .  .  .  |
 |[Csus2]  .  .  .  | [Dsus]  [D]  .  .  | [Em7]  .  .  .  | [Csus2]  .  .  .  |
+{end_of_part}
 
 
-{comment: Intro - Main Theme}
+{start_of_part: Intro - Main Theme}
 | [G]  [D/G]  [G]  .  | [C/G]  .  .  [G]  | [G]  [D/G]  [G]  .  | [C]  .  [Em]  .  |
 | [G]  [D/G]  [G]  .  | [C/G]  .  .  [G]  | [G]  [D/G]  [G]  .  | [C]  .  [Em]  .  |
 | [G]  [D/G]  [G]  .  | [C/G]  .  .  [G]  | [G]  [D/G]  [G]  .  | [Em]  .  .  .  | [Em]  . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -71,18 +73,19 @@ Yea, we d[C]anced and danced and danced.
 | [G]  .  .  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [Em]  .  .  .  |
 
 
-{comment: Bridge - Mandolin Theme}
+{start_of_part: Bridge - Mandolin Theme}
 |[Am11]  .  .  .  | [Dsus]  [D]  .  .  | [G/B]  .  .  .  | [Am11]  .  .  .  |
  
 |[Am11]  .  .  .  | [Dsus]  [D]  .  .  | [Em7]  .  .  .  | [Am11]  .  .  .  |
+{end_of_part}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Am11] The endless beat,[Dsus] she’s walking [D]my way.
 [G/B] Hear the music fade[C] when she says,
 Are we [Am11]getting too close, do we dar[Dsus]e to get [D]closer?
 [Em7] The room is spinning as she whis[C]pers my name.
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus}
@@ -98,7 +101,7 @@ Yea, we d[C]anced and danced and danced.
 {end_of_chorus}
 
 
-{comment: Outro - Chorus Theme}
+{start_of_part: Outro - Chorus Theme}
 
 | [G]  [D/G]  [G]  .  | [C]  .  [G]  .  | [D]  .  [G]  .  | [C]  .  [Em]  .  |
 (danced and danced and danced                         And we danced)
@@ -122,3 +125,4 @@ Yea, we d[C]anced and danced and danced.
 
 
 | [C] |
+{end_of_part}

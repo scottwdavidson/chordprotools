@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . | [F(add2)] . [Gsus] . |    (repeat vamp over spoken chatting)
+{end_of_part}
 
 
 {start_of_verse}
@@ -37,13 +38,13 @@ He's [C]gonna find out who's [Fadd2/C]naughty or nice.
 {end_of_chorus}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 He [Gm]sees you [C]when you're sleep[Fmaj7]ing.__[F]
 He [Gm]knows when [C]you're awake[Fmaj7].__[F]
 He [D]knows when you've been bad or good,
 You [G]better be good for goodness sake.
 (You [G]better be good for goodness sake.)
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -59,22 +60,23 @@ You'd [C]better not pout, I'm [F]telling you why:
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [C] . . . | [F] . . . | [C] . . . | [F] . . . |
 
 | [C] . . . | [F] . . . | [C] . . . | [F] . . . |
 
 | [C] . [Am] . | [Dm] . [Gsus] . | [C] . . . | [C7] . . . |
+{end_of_part}
 
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 He [Gm]sees you [C]when you're sleep[Fmaj7]ing.__[F]
 He [Gm]knows when [C]you're awake[Fmaj7].__[F]
 He [D]knows when you've been bad or good,
 You [G]better be good for goodness sake.
 (You [G]better be good for goodness sake.)
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -97,7 +99,7 @@ You'd [C]better not [C7/Bb]pout, I'm [F/A]telling you [Fm/Ab]why:
 | [C] . . . | [Fadd2] . [Gsus] . |
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [C]Santa Claus is [Fadd2]coming to to[Gsus]wn.
 [C]Santa Claus is [Fadd2]coming to to[Gsus]wn.
 [C]Santa Claus is [Fadd2]coming to to[Gsus]wn.
@@ -116,3 +118,4 @@ You'd [C]better not [C7/Bb]pout, I'm [F/A]telling you [Fm/Ab]why:
 
 {comment: Coda}
 | [C] . [Am] . | [Dm] . [G7sus] . | [C] . . . | [C] . . . | 
+{end_of_part}

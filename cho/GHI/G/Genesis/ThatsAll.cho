@@ -17,9 +17,10 @@
 {comment:**  meta: label: Thats  All   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | (pickup} [B] [D] [E] [G/D] | [Em7] [E5] [D/E] [E5] | [Em7] [E5] [D/E] [E5] |
 | [Em7] [E5] [C6]/9 [D6]/9   | [E5]  .  .   .  |
+{end_of_part}
 
 {start_of_verse}
 Just as I t[Em]hought it was going al[D/E]right,
@@ -66,14 +67,14 @@ It'[E5]s always the [Em]same, it's just a s[C6/9]hame, [D6/9]that's a[Em]ll.
 {end_of_chorus}
 
 {comment: JEFF / SCOTT}
-{start_of_bridge}
+{start_of_part: Bridge}
 [Cmaj7]Truth is I love you, more than I wanted to,
 There's no point in trying, [Em]to pretend.
 [Cmaj7]There's been no-one who, makes me feel like you do,
 Say we'll be together, [Em]till the end.
-{end_of_bridge}
+{end_of_part}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | (pickup} [B] [D] [E] [G/D] | [Em7] [E5] [D/E] [E5] | [Em7] [E5] [D/E] [E5] |
 | [Em7] [E5] [C6]/9 [D6]/9   | [E5]  .  .   .  |
 | [Am7] . . . | [D7] . . . |
@@ -83,6 +84,7 @@ Say we'll be together, [Em]till the end.
 
 
 {comment: SCOTT}
+{end_of_part}
 {start_of_chorus}
 [D]I could l[G]eave but I won't go, though my [Am/G]heart might tell me [D]so,
 I can't f[G]eel a thing from my [GMaj7]head down to my toe[Am/G]s.[D]
@@ -96,12 +98,12 @@ It'[E5]s always the [Em]same, it's just a s[C6/9]hame, [D6/9]that's a[Em]ll.
 {end_of_chorus}
 
 {comment: JEFF / SCOTT}
-{start_of_bridge}
+{start_of_part: Bridge}
 [Cmaj7]But I love you, more than I wanted to,
 There's no point in trying, [Em]to pretend.
 [Cmaj7]There's been no-one who, makes me feel like you do,
 Say we'll be together, t[Em]ill the end.
-{end_of_bridge}
+{end_of_part}
 
 {comment: FRAN}
 {start_of_verse}
@@ -114,7 +116,7 @@ Always the [Am7]same, it's just a [D]shame, that's [Em]all.
 {end_of_verse}
 
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [Em7] [E5] [D/E] [E5]      | [Em7] [E5] [D/E] [E5] |
 | [Em7] [E5] [C6]/9 [D6]/9   | [E5]  .  .   .  |
 | [Am7]  .  [D]  .       | [Am7] .  [D]   .  |
@@ -125,3 +127,4 @@ Always the [Am7]same, it's just a [D]shame, that's [Em]all.
 | [Am7]  .  [D]  .       | [Am7] .  [D]   .  |
 | [Am7]  .  [D]  .       | [Em7] .  .   .  |
 | [Em] . . . |
+{end_of_part}

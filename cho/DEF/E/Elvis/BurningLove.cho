@@ -3,11 +3,12 @@
 {key: D}
 {tempo: 144}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [D]
+{end_of_part}
 
 {start_of_verse}
 [D]Lord Almighty, I [G]feel my [A]temperature [D]rising
@@ -37,9 +38,10 @@ You [Bm]light my [A]morning [G]sky
 With [A]burning [D]love
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 [Bm]Bm  [A]A  [G]G
 [Bm]D[A][G][A]
+{end_of_part}
 
 {start_of_verse}
 [D]It's coming closer, the [G]flames are now [A]licking my [D]body
@@ -56,8 +58,9 @@ With [A]burning [D]love[G]
 With burning [D]love[G]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 I'm just a [D]hunka hunka burning [G]love
 Just a h[D]unka hunka burning l[G]ove
 Just a h[D]unka hunka burning l[G]ove
 (repeat and fade)
+{end_of_part}

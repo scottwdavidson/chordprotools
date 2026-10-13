@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E7] . [A7] . | [D7] . [G7] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -23,11 +24,12 @@
 {end_of_verse}
 
 
-{comment: Bridge I}
-{start_of_bridge}
+{start_of_part: Bridge I}
+{end_of_part}
+{start_of_part: Bridge}
 [F]Here we [Fm]are as in [Cmaj7]olden days,[Ebdim7] happy [Dm7]golden days [G+] of [Cmaj7]yore.__[C6]
 [F#m7b5]Faithful [B7]friends who are [Em]dear us [A7] gather [G]near to us [D7] once [G7sus]more.__[G7]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -37,14 +39,16 @@ And [F]have your[Am/E]self a [Dm7]merry little [G7]Christmas [C]now.____
 {end_of_verse}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [F] . [Fm] . | [Cmaj7] . [Ebmaj7] . | [Dm7] . [G+] . | [Cmaj7] . [C6] |
+{end_of_part}
 
 
-{comment: Bridge II}
-{start_of_bridge}
+{start_of_part: Bridge II}
+{end_of_part}
+{start_of_part: Bridge}
 [F#m7b5]Faithful [B7]friends who are [Em]dear us [A7] gather [G]near to us [D7] once [G7sus]more.__[G7]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -53,5 +57,6 @@ And [F]have your[Am/E]self a [Dm7]merry little [G7]Christmas [C]now.____
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 And [F]have your[Am/E]self a [Dm7]merry little [G7]Christmas [C]now.
+{end_of_part}

@@ -7,8 +7,9 @@
 
 {columns: 2}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em] [D/E] | [Em] [D/E] | [Em] [D/E] | [Em] [D/E] |
+{end_of_part}
 
 {start_of_verse}
 [Em]Captured [D/E]effortlessly     [Em]That's t[D/E]he way it was
@@ -41,8 +42,9 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em]Ain't nob[D/G]ody   [Am]Loves me[Cmaj7] better than you
 {end_of_chorus}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em] [D/E] | [Em] [D/E] | [Em] [D/E] | [Em] [D/E] |
+{end_of_part}
 
 {start_of_verse}
 [Em]I wait f[D/E]or night time to come   [Em]And brin[D/E]g you to me
@@ -63,7 +65,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em]Ain't nob[D/G]ody   [Am]Loves me[Cmaj7] better than you
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Em][D/E] An[Am7]d first you put your [D]arms around me
 [Em][D/E] Th[Am7]en you put your [D]charms around me
 [Em][D/E] I [Am7]can't resist this s[D]weet surrender
@@ -72,7 +74,7 @@ Hu[Em]h, huh, hu[D/E]h, huh
 [Em][D/E] An[Am7]d what we see is [D]no surprise
 [Em][D/E] Go[Am7]t a feeling mos[D]t would treasure
 [Em][D/E] An[Am7]d our love's so deep we ca[D]nnot measure
-{end_of_bridge}
+{end_of_part}
 
 {comment: Chorus repeat}
 {start_of_chorus}

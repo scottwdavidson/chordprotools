@@ -17,11 +17,12 @@
 {comment:**  meta: performance: Gm   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | N.C. |  [Gm]  |  [Dm]  |
 | N.C. |  [Gm]  |  [Dm]  |
 | N.C. |  [Gm]  |  [Dm]  |
 | N.C. |  [Gm]  |  [Dm]  |
+{end_of_part}
 
 {start_of_verse}
 [Dm]Well, have you [Gm]seen that girl in the [Dm]corner?
@@ -41,9 +42,10 @@ That I'll be [D5]holding you close [Gm]tonight [F]
 That I'll be [D5]holding you close [Gm]tonight
 {end_of_chorus}
 
-{comment: Intro}
+{start_of_part: Intro}
 | N.C. |   [Gm]  |   [Dm]  |
 | N.C. |   [Gm]  |   [Dm]  |
+{end_of_part}
 
 {start_of_verse}
 [Dm]She was the [Gm]same as a hundred [Dm]ladies
@@ -70,12 +72,12 @@ That I'll be [D5]holding you close [Gm]tonight [F]
 That I'll be [D5]holding you close [Gm]tonight
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Am]     [Gm]    [F]Ebony Eyes
 [Am]     [Gm]    [F]Ebony Eyes
 [Am] [Gm][F]
 [N.C.]Ebony [Gm]Eyes [Dm]Ebony [N.C.]Eyes [Gm]Ahhhh...
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [F]  [Bb]  Your eyes got me [Eb]dreamin'

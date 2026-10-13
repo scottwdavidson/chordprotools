@@ -17,13 +17,14 @@
 {comment:**  meta: label: DrnkinPrblm   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 
 | [E7] . [E6] . |  [E] . . . |
 
 
 | [E7] . [E6] . |  [E] . . . |
+{end_of_part}
 
 
 
@@ -76,10 +77,11 @@ But I [E]got no problem drinkin' at all
 [Bm]They call it a problem I [E]call it a solution
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 | [Bm] . . . | [Bm] . . . | [A] . . . | [A] . . . |
 
 Just a [Bm]solution  [E7]  [E6]  [E]
+{end_of_part}
 
 {start_of_chorus}
 It's a broken hearted [D]thinkin' problem

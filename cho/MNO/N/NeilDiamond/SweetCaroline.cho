@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Piano Intro}
+{start_of_part: Piano Intro}
 | [E] ... | [E] ... | [E] ... | [E] ... |
+{end_of_part}
 
 {start_of_verse}
 [A]Where it began [D]I can't begin to knowin'
@@ -49,8 +50,9 @@
 {end_of_chorus}
 
 
-{comment: Piano Instrumental}
+{start_of_part: Piano Instrumental}
 | [E] ... | [E] ... | [E] ... | [E] ... |
+{end_of_part}
 
 
 {start_of_chorus}

@@ -4,6 +4,8 @@
 {duration: 3:00}
 {tempo: 78}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 Ain't no sunshine when she's[Am7]   gone[Em7][G7]
@@ -22,7 +24,7 @@ And [Am7]I  know, I know, I know, I know
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 I know, I [Am7]know, I know, I know
 I know, I know, I know, I know
 I know, I know, I know, I know
@@ -32,6 +34,7 @@ I know, I know, I know
 Hey, oughtta leave young thing alone
 But ain't no sunshine when she's[Am7]   gone[Em7][G7]
 [Am7]   Ain't no sunshine [G]when she's[Am7]   gone[Em7][G7]
+{end_of_part}
 
 
 {start_of_verse}
@@ -42,8 +45,9 @@ And this house just ain't no [Dm7]home anytime she goes a[Am7]way[Em7][G7]
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Am7]   Anytime [G]she goes a[Am7]way[Em7][G7]
 [Am7]   Anytime [G]she goes a[Am7]way[Em7][G7]
 [Am7]   Anytime [G]she goes a[Am7]way[Em7][G7]
 [Am7]   Anytime [G]she goes a[Am7]way[Em7][G7][Am7]
+{end_of_part}

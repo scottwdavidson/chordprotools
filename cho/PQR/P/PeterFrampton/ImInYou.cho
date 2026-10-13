@@ -9,10 +9,11 @@
 {comment:**  meta: performance: C   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | x    [F]  .    .  | 
 | [F]    .  .    [G]  | [G]  .  [F/G] [C]  | 
 | [F/C]  [C]  [F/C]  [C]  | [C]  .  .   x  |
+{end_of_part}
 
 {start_of_verse}
 I don't [F]care where I [Em7]go when I'm [F6]with [G6]you.
@@ -46,7 +47,7 @@ You're in [Gm]me,  [F]
 [Ab/Eb]Gave me the love, [Bb/F]love that I never had.
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [G]    .     [G/C]  . | [G]     .     [G/C]  . |  
 | [G]    .     [G/C]  . | [G]     .     .    . |
 | [Bb/F] [F]     .    . | [Bb/F]  [F]     .    . | 
@@ -54,6 +55,7 @@ You're in [Gm]me,  [F]
 | [Bb/F] [F]     .    . | [Bb/F]  [F]     .    . | 
 | [Am]    .    [G]    . | [Am]    .    [G]     . |
 | [Am/G]  .    [G]    . | [G7sus] .    .     . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -62,7 +64,7 @@ You can't [F]buy what we mad[Em7]e, you and [F6]I. [G6]
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 I'm in [C]you,  [C6]
 You're in [Gm]me,  [F]
 I'm in [C]you, [Am]
@@ -75,3 +77,4 @@ You [Ab/Eb]gave me the love, [Bb/F]love that I never had.
 [G] [C/G] [G] [C/G] [G] [C/G] [G]
 
 I don't [F]care where I [Em7]go when I'm [Dm7]with [F/G]you...  [Cmaj7]
+{end_of_part}

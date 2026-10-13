@@ -1,12 +1,16 @@
 {title: Heard It in a Love Song}
 {artist: Marshall Tucker Band}
 {key: D}
+{duration: 4:20}
 {tempo: 110}
-{duration: 4:20}    
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 [D]D [A]A [G]G[D]
 [D]
+{end_of_part}
 
 
 {start_of_verse}
@@ -25,8 +29,9 @@ Can't be [D]wrong
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [A] [G][D]
+{end_of_part}
 
 
 {start_of_verse}
@@ -45,20 +50,24 @@ Can't be [D]wrong
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [A] [G][D]
+{end_of_part}
 
 
-{comment: Flute Solo}
+{start_of_part: Flute Solo}
 [D]F#[F#m]m G [G]A [D]D
+{end_of_part}
 
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 [D]F#[F#m]m G [G]A [D]D
+{end_of_part}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 [D]D [A]A [G]G[D][A][G]
+{end_of_part}
 
 
 {start_of_verse}
@@ -77,8 +86,9 @@ Can't be [D]wrong
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [A] [G][D]
+{end_of_part}
 
 
 {start_of_verse}
@@ -97,5 +107,6 @@ Can't be [D]wrong
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 A G D
+{end_of_part}

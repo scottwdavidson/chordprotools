@@ -12,13 +12,14 @@
 {comment:**  meta: countin: 0   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Bm] [Em] [F#7] | [F#7] |   (piano)
 | [Bm] [Em] [F#7] | [F#7] |   (piano)
 | [Bm] [Em] [F#7] | [F#7] |   
 | [Bm] [Em] [F#7] | [F#7] |   
 | [Bm] [Em] [F#7] | [F#7] |   
 | [Bm] [Em] [F#7] | [F#7] |   
+{end_of_part}
 
 {start_of_verse}
 [Bm]Esa muj[Em]er me es[F#7]tá matando  [Bm]Me ha espi[Em]nado el cora[F#7]zón
@@ -47,27 +48,30 @@ Ay, ay, [Bm]ay, [Em]como me [F#7]duele el amor
 | [Bm] [Em] [F#7] | [F#7] | x2
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
 | [Bm] [Em] [F#7] | [F#7] |    x4 x2
+{end_of_part}
 
-{start_of_bridge}
+{start_of_part: Bridge}
    [Em]Cómo me duele el ol[Bm]vido 
    [Em]Cómo duele el corazon[Bm] 
    [D]Cómo me duele estar [A]vivo 
    [Em]Sin tenerte a un lado amor 
    [F#7]Corazón espi[Bm]nado[Em] , [F#7]Corazón espi[Bm]nado[Em]
    [F#7]Corazón espi[Bm]nado[Em] , [F#7]Corazón espi[Bm]nado[F#7][F#7][F#7]
-{end_of_bridge}
+{end_of_part}
 
-{comment:Solo}
+{start_of_part: Solo}
 | [Bm] [F#7] | [Bm] [F#7] |    x4
+{end_of_part}
 
-{comment:Outro}
+{start_of_part: Outro}
    [Bm]Corazón [F#]espinado , [Bm]Corazón es[F#]pinado 
    [Bm]Corazón [F#]espinado , [Bm]Corazón es[F#]pinado 
 
 {comment:Coda}
 | [Bm] [Em] [F#7] | [F#] |      x8
+{end_of_part}
 
 
 

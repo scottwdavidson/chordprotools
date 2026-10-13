@@ -7,7 +7,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 (Lick 1a as pickup measure)
 
 | [G6]  .  .  .   | [G6]  .  .  .  | [Dmaj7]  .  .  .   | [Dmaj7]  .  .  .  |
@@ -15,6 +15,7 @@
 
 | [G6]  .  .  .   | [G6]  .  .  .  | [Dmaj7]  .  .  .   | [Dmaj7]  .  .  .  |
                    (Lick 1b)                              (Lick 1c)
+{end_of_part}
 
 {start_of_verse}
 [G6] Chewing on a piece of grass, walking down the[Dmaj7] road.
@@ -34,13 +35,13 @@ Where the [G6]days are longer, the nights are stronger than[Dmaj7] moonshine.
 ...Oo - woh, oo - woh, oo - woh, oo - [F#m11]woh!
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 'Cause the [Em7]free wind is blowing [F#m11]through your hair,
 And the [Em7]days surround your [F#m11]daylight there.
 [Em7] Seasons crying [F#m11]no despair,
 Alli[Em7]gator lizards [F#m11]in the air ... in the [G6]air.
                                                             (Lick 1b)
-{end_of_bridge}
+{end_of_part}
 
 {comment: Interlude}
 [Dmaj7]Doo, dit - doo, doo!  Doo, dit - doo, doo!
@@ -70,13 +71,13 @@ Where the [G6]days are longer, the nights are stronger than[Dmaj7] moonshine.
 ...Oo - woh, oo - woh, oo - woh, oo - [F#m11]woh!
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 'Cause the [Em7]free wind is blowing [F#m11]through your hair,
 And the [Em7]days surround your [F#m11]daylight there.
 [Em7] Seasons crying [F#m11]no despair,
 Alli[Em7]gator lizards [F#m11]in the air ... in the [G6]air.
                                                             (Lick 1b)
-{end_of_bridge}
+{end_of_part}
 
 {comment: Coda - repeats}
 [Dmaj7]Doo, dit - doo, doo!  Doo, dit - doo, doo!

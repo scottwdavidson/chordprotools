@@ -17,8 +17,9 @@
 {comment:**  meta: label: Cover  Me   }
 {comment:***********************************************}
 
-{comment: Intro - with guitar pickup}
+{start_of_part: Intro - with guitar pickup}
 | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] |
+{end_of_part}
 
 
 {start_of_verse}
@@ -47,12 +48,12 @@ Cover [Em]me, [Esus]   [Em]...   [Em]  shut the do[Esus]or and [Em]cover me.  [B
 {end_of_chorus}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Em]Outside's the rain, the driving snow.
 [Bm]I can hear the [Bm]wild [A]wind [Bm]blow[Bm]ing.
 [Em]Turn out the light, bolt the door.
 [F#sus] I ain't going out [F#]there no more. [A]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -68,21 +69,22 @@ Cover [Em]me, [Esus]   [Em]...   [Em]  come on [Esus]in and [Em]cover me.  [Bm] 
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 
 | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] |
 
 | . [Em] [Esus] [Em] | . [Em] [Esus] [Em] | . [Bm] [D] [A] | . [Bm] [D] [A] |
 
 | [G] . . . | [A] . . . | . [Bm] [D] [A] | . [Bm] [D] [A] |
+{end_of_part}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Em]Outside's the rain, the driving snow.
 [Bm]I can hear the [Bm]wild [A]wind [Bm]blow[Bm]ing.
 [Em]Turn out the light, bolt the door.
 [F#sus] I ain't going out [F#]there no more. [A]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -97,13 +99,14 @@ Cover [Em]me, [Esus]   [Em]...   [Em]  wrap your arms a[Esus]round me, [Em]cover
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Bm]   [D]__Ohh...   I'm [G]looking for a lover who will[A] come on in and cover me.  [Bm] [D] [A]
 [Bm]   [D]__Ohh...   I'm [G]looking for a lover who will[A] come on in and cover me.  [Bm] [D] [A]
 [Bm]  [D]  [A]
+{end_of_part}
 
 
-{comment: Outro Solo}
+{start_of_part: Outro Solo}
 | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] |
 
 | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] |
@@ -111,3 +114,4 @@ Cover [Em]me, [Esus]   [Em]...   [Em]  wrap your arms a[Esus]round me, [Em]cover
 | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] | . [Bm] [D] [A] |
 
 | . [Bm] [D] [A] | . [Bm] [D] [A] | [Bm]
+{end_of_part}

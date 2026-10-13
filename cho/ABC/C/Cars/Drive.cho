@@ -2,8 +2,12 @@
 {artist: The Cars}
 {key: B}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 [B] [G#m] [B] [G#m]
+{end_of_part}
 
 {start_of_verse: Verse 1}
 [B] Who's gonna tell you [G#m] when the wheels go 'round?
@@ -12,7 +16,7 @@
 [C#m] Who's gonna hang it [F#] up when you [B] call? [G#m]
 {end_of_verse}
 
-{start_of_bridge: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [C#m] Who's gonna pay [F#] attention to your [B] dreams? [G#m]
 [C#m] And who's gonna hear [F#] you when you [B] scream? [G#m]
 {end_of_verse}
@@ -34,10 +38,11 @@ You [C#m] can't go on [F#] thinkin'
 [B] Who's gonna drive you [G#m] home?
 {end_of_chorus}
 
-{comment: Keyboard Solo}
+{start_of_part: Keyboard Solo}
 [B] [G#m] [B] [G#m]
 [C#m] [F#] [B] [G#m]
 [C#m] [F#] [B] [G#m]
+{end_of_part}
 
 {start_of_verse: Verse 3}
 [B] Who's gonna pick you [G#m] up when you fall?

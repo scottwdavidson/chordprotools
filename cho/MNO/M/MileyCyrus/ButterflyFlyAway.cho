@@ -9,9 +9,10 @@
 {comment:**  meta: nord: P23   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Ebsus2] . . . | [Bb/D] . . . | [Cm7(4)] . . . | [Bb/D] . . . | 
 | [Ebsus2] . . . | [Bb/D] . . . | [Cm7(4)] . . . | [Bb/D] . . . | 
+{end_of_part}
 
 {start_of_verse}
 [Ebsus2]You tucked me in, turned [Bb/D]out the light
@@ -59,8 +60,9 @@ I [Bb]promise you[F/A] ther[Gm]e will [Bb/F]come a day[C/E]
 Butterfly__ f[F]ly away[Ebsus2][Bb/D][Cm7(4)][Bb/D]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Ebsus2]Butterfly, [Bb/D]Butterfly, [Cm7(4)]Butterfly
 Butterfly__ f[F]ly away[Ebsus2][Bb/D][Cm7(4)][Bb/D]
 [Ebsus2]Butterfly, [Bb/D]Butterfly, [Cm7(4)]Butterfly
 Butterfly__ f[F]ly away[Ebsus2][Bb/D][Cm7(4)][F]___[Bb]
+{end_of_part}

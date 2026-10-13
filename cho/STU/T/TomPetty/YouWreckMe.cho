@@ -15,11 +15,13 @@
 {comment:**  meta: label: You   Wreck   }
 {comment:***********************************************}
 
-{comment: Intro I - Guitar Only}
+{start_of_part: Intro I - Guitar Only}
 | [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
+{end_of_part}
 
-{comment: Intro II - Band Enters}
+{start_of_part: Intro II - Band Enters}
 | [D] . [A] . | [E] . . . | [D] . [A] . | [E] . . . |
+{end_of_part}
 
 
 {start_of_part: Verse 1}
@@ -62,10 +64,10 @@
 {end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 | [C] . [G] [C] | . [G] . . | [C] . [G] [C] | . [G] . . |
 | [E] . [B] [E] | . [B] . . | [E] . [B] [E] | . [B] . . |
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Solo}

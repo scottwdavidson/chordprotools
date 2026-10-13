@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E]  | [Esus4] |  x4
+{end_of_part}
 
 {start_of_verse}
 [E]I got something to say little girl, you [E]might not like my style [Esus4]      [Esus4]
@@ -38,10 +39,10 @@ a-Let's go to [E]Memphis in the meantime, baby
 Let's go to [E]Memphis in the meantime, girl
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [A]   Maybe there's nothin' happenin' [Asus4]there, [A]maybe there's [Asus4]somethin' in the air... [E]
 [A]   Before our upper lips get [Asus4]stiff, [A]maybe we need us a [Asus4]big ol whiff. [E]     [B7]
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 If we could [E]just get off-a that beat little girl, [E]maybe we could find the groove [Esus4]      [Esus4]
@@ -59,5 +60,6 @@ Let's go to [E]Memphis in the meantime, baby
 Let's go to [E]Memphis in the meantime, girl
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 I'm a talking about [E]Mem-------[E]phis  a-how, how
+{end_of_part}

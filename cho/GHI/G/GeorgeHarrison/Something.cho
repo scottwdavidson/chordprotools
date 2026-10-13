@@ -3,8 +3,8 @@
 {key: C}
 {tempo: 132}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 [C]Something in the way she [Cmaj7]moves [C7]attracts me like no other [F]lover
@@ -18,12 +18,12 @@ You [C/G]know I believe in [D]how   [F](int[Eb]ro r[G]iff)[C]
 You [C/G]know I believe in [D]how   [F](int[Eb]ro r[G]iff)[A] 
 {end_of_verse}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [A]You're asking [C#m]me will my love [F#m]grow
 [A]I don't [D]know   [G]I don't [A]know  [G#]        [G]        [F#]        [F]       [E] 
 [A]You stick a[C#m]round and it may [F#m]show
 [A]I don't [D]know   [G]I don't [C]know
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 [C]Something in the way she [Cmaj7]knows [C7]and all I have to do is [F]think of her

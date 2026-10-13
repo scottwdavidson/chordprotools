@@ -13,11 +13,12 @@
 {comment:**  meta: backing: BB   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -40,7 +41,7 @@ I ain't [D7]hidin' from nobody,
 {end_of_verse}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 
@@ -53,6 +54,7 @@ I ain't [D7]hidin' from nobody,
 | [D7] . . . | [D7] . . . | [C7] . . . | [C7] . . . |
 
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -66,7 +68,7 @@ I don't k[G]now.  [G]__ [G]__
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 
@@ -79,3 +81,4 @@ I don't k[G]now.  [G]__ [G]__
 | [D7] . . . | [D7] . . . | [C7] . . . | [C7] . . . |
 
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+{end_of_part}

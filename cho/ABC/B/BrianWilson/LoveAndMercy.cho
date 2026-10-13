@@ -44,7 +44,7 @@ Oh the [G]lonliness [D/F#]in this [Em]world well it's
 [D]just not fai[C]r[G/B][Am7][D7]
 {end_of_verse}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G]Oooooo-[G/F]ooooooo-[C/E]ooooooo[Cm/D#]-ooooooo
 [G/D]Oooooo-[Dbm7-5]ooooooo-[Cmaj7]ooooooo-[Am7/D]ooooooo
 
@@ -55,6 +55,7 @@ G/D(sus4)  Gmaj7(sus4)  G/D(sus4)  Amaj7(sus4)
 (Ahhhhh)Cmaj7(D)  Em7(aug)   Cmaj7(D)  Em7(aug)
 (Ahhhhhh)G/D(sus4)  Gmaj7(sus4)  Bm7(sus4)
 Ohhhhh
+{end_of_part}
 
 {start_of_chorus}
 [G]Love and [D/F#]mercy that's[Em] what you[D]need
@@ -63,9 +64,10 @@ So, [G]love and [D/F#]mercy to [Em]you and your[D]friends
 to[C]night[G/B][Am7][D7]
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 [G]Love and [D/F#]mercy that's[Em] what you[D]need
 to[C]night[G/B][Am7]
 Love and [D7]mercy tonight
 
 | [G] | [D/F#] |  [Em] | [D] | [C] | [G/B] | [Am] | [Am/D] | [G] |
+{end_of_part}

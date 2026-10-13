@@ -6,8 +6,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro - Piano Only}
+{start_of_part: Intro - Piano Only}
 | [Cmaj7] . . . | [Dm] . . . | [Em] . . . | [Fmaj7] . . . |
+{end_of_part}
 
 {start_of_verse}
 [C6]Stars shining bright a[Ab7]bove [G7]you,
@@ -35,9 +36,10 @@
 [Cmaj7]dream a little [Ab7]dream [G7]of [C6]me. [Ab7][G7]
 {end_of_verse}
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 | [C6] . . . | [Ab7] . [G7] . | [C6] . . . | [A7] . [Em7b5] [A7] |
 | [Dm] . [Dm7] . | [Dm7b5] . [Bb9] . | [Cmaj7] . [Ab7] [G7] | [C6] . [Bbm7] [Eb7] |
+{end_of_part}
 
 {start_of_chorus}
 [Ab6]Stars [Fm7]fading, but [Bbm7]I linger [Eb7]on, dear, [Ab6]still [Fm7]craving your [Bbm7]kiss. [Eb7]

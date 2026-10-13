@@ -5,11 +5,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Db] . [Bbm] . | [Ebm7] . [Ab7] . | 
 | [Db] . [Bbm] . | [Ebm7] . [Ab7] . | 
 [Db]Pretty little [Bbm]baby[Ebm]   (Yah, [Ab]yah)
 [Db]Pretty little [Bbm]baby[Ebm]   (Yah, [Ab]yah)
+{end_of_part}
 
 {start_of_verse}
 [Db]Pretty little [Bbm]baby,[Ebm]   you say that [Ab]maybe
@@ -60,9 +61,10 @@
 [D]Pretty little [Bm]baby,[Em]  I'm so in [A]love with [D]you[G][D]
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [D]Pretty little [Bm]baby
 [Em]   [A] I said [D]pretty little [Bm]baby
 
 {comment: Fade Out}
 [Em]   [A] Oh, now, [D]pretty little [Bm]baby[Em][A]
+{end_of_part}

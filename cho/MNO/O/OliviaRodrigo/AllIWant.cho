@@ -5,10 +5,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 {comment:all chords in 2nd inversion }
 {comment:verse pattern 3/4 | 4/4 | 3/4 | 4/4 | 4/4 ... }
 | [Eb] [Cm7] [Gm] | [Ab] ... | [Eb] [Cm7] [Gm] | [Ab] ... |
+{end_of_part}
 
 {start_of_verse}
 I [Eb]found a gu[Cm]y, told me [Gm]I was a [Ab]star
@@ -40,8 +41,9 @@ All I ha[Eb/D]ve is myse[Eb/C]lf at [Eb/Bb]the end of the d[Ab]ay
 But [Bb]shouldn't that be enough for [Eb]me?[Eb/D][Eb/C][Eb/Bb][Ab]
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Eb]Ooh[Eb/D]-ooh-oo[Eb/C]h-oo[Eb/Bb]h, oo[Ab]h-ooh
+{end_of_part}
 
 {start_of_verse}
 And I [Eb]miss the [Cm]days when I was [Gm]young and na[Ab]ive

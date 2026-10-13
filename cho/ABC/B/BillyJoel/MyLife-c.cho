@@ -19,13 +19,14 @@
 {comment:**  meta: performance: C   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [C] . . . | [C] . . .  | [C] . . . | 
 | [F] . [C] [F/C] . [F6/C] [C] | [C] . . . |
 | [F] . [C] [F/C] . [F6/C] [C] | [C] . . . |
 | [F] . [C] [F/C] . [F6/C] [C] | [C] [Am/C] [Gm/C] . . [Bb9] |
 | [Bb9] . . .| [DbM7/Eb]  , [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 | [C] [Am/C] [Gm/C] . . [Bb9] | [DbM7/Eb] . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -48,12 +49,13 @@ Bought a ticket to the W[F]est Coast_[F][F]
 [G]   Go ahead with your own life, and leave me a[Am]lone
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Am]I never said you had to offer me a s[E7/G#]econd chance_[E7/G#]
 [C]  I never said I was a victim of c[D9]ircumstance_[D7][E][F]
 [F]  I still be[C/E]long,  [E]   don't get me [Am]wrong
 [D9]And you can speak your mind
 But [F/G]not  [G]on  [F/G]my   [G]time
+{end_of_part}
 
 {start_of_verse}
 [C]They will tell you you [C/E]can't sleep
@@ -75,16 +77,18 @@ In your [F]own space_[F][C/E][Dm][C]
 [G]   Go ahead with your own life, and leave me a[Am]lone
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Am]I never said you had to offer me a s[E7/G#]econd chance_[E7/G#]
 [C]  I never said I was a victim of c[D9]ircumstance_[D7][E][F]
 [F]  I still be[C/E]long,  [E]   don't get me [Am]wrong
 [D9]And you can speak your mind
 But [F/G]not  [G]on  [F/G]my   [G]time
+{end_of_part}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [C]    | [C/E]  | [F]    | [F]    |
 | [G]    | [G]    | [C]    | [C] [F/C] [F6/C] [C] |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -92,7 +96,7 @@ But [F/G]not  [G]on  [F/G]my   [G]time
 [G]   Go ahead with your own life, and leave me a[C]lone
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 | [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 
@@ -100,3 +104,4 @@ But [F/G]not  [G]on  [F/G]my   [G]time
 | [C] [Am/C] [Gm/C] . . [Bb9] | [Bb9] | [DbM7/Eb]  . [DbM7/Eb] [DbM7/Eb] | [Ab] . . . |
 
 | [C] [Am/C] [Gm/C] ... |
+{end_of_part}

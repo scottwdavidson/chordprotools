@@ -9,7 +9,7 @@
 {comment:**  meta: nord: M15(A3)   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [D] . . . | [Bm] . . . | 
 . | [F#m]  . . . | [F#m]  .  .  . |
 . | [D] . . . | [Bm] . . . | 
@@ -18,6 +18,7 @@
 . | [D] . [D/C#] . | [Bm7]  .  [A]  . |
 . | [G] . . . | [A]  . . . | 
 . | [D]  .  .  . | [A]    .  .  . |
+{end_of_part}
 
 
 {start_of_verse: Scott lead}
@@ -52,11 +53,12 @@ Well, I'm [G]on [D/F#]my  [Em]way b[A]ack [D]home.
 {end_of_part}
 
 
-{comment: Piano Solo }
+{start_of_part: Piano Solo}
 . | [D]  . . . | [A]  . . .  | [C]  . [A/C#] . | [D]   .  .  . |
 . | [D]  . . . | [A]  . . .  | [C]  . [A/C#] . | [D]   .  .  . |
 . | [Bm] . . . | [F#m] . . . | [Bm] . .      . | [F#m]  .  .  . |
 . | [Bm] . . . | [F#m] . . . | [A]  . [A/G]  . | [A/F#] .  [A7/E]  . |
+{end_of_part}
 
 
 {start_of_verse}

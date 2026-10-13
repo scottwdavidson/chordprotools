@@ -10,9 +10,10 @@
 {comment:**  meta: performance: N51   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 {comment: Guitar Only - voicings with 1st, 2nd and 6th strings open}
 |  [E]  |  [Emaj7]  |  [Aadd9]  |  [Emaj7]  |  [Badd11]  |  [C#m7]  |  [Aadd9]  |  [E]  |
+{end_of_part}
 
 
 
@@ -51,13 +52,14 @@ And you c[Aadd9]an't get [E]out of it.
 
 
 
-{comment: Start chorus chords - instrumental}
+{start_of_part: Start chorus chords - instrumental}
 |  [G]  |  [F]  |  [C]  |  [C]  | 
 
 
 
 
 {comment: Start verse}
+{end_of_part}
 
 {start_of_verse}
 I have [C]climbed the highest [C]mountains,
@@ -93,5 +95,6 @@ But I [G]still haven't [F]found what I'm [C]looking for.
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 |  [C]  |  [C]  |  [F]  |  [F]  |  [C]  |  [C]  | [G]  |  [F]  |  [C]  |  [C]  |
+{end_of_part}

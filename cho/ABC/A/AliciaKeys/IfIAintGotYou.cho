@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Cmaj7] | [Cmaj7] | [Bm7] | [Bm7] | [Am7] | [Am7] | [Gmaj7] |  [Gmaj7] [Am7] [Bm7] |
 | [Cmaj7] | [Cmaj7] | [Bm7] | [Bm7]  [Bbm7] | [Am7] | [Am7] | [Gmaj7] | [Gmaj7] [Am] |
+{end_of_part}
 
 {start_of_verse}
 [Gmaj7]  Some people live for the for[Em7]tune
@@ -70,7 +71,8 @@ But everything [Bbm7]means [Am7]nothing
 If I ain't got [Gmaj7]you 
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 Yea[Cmaj7]hhhhhh   [Bm7]   If I ain't got you with me, [Am7]baby, 
 [Gmaj7]Said nothing in thi[Am7]s[Bm7]   [Cmaj7]whole wide world don't mean 
 a t[Bm7]hing if I ain't got you [Bbm7]with [Am7]me, bab[Gmaj7]y
+{end_of_part}

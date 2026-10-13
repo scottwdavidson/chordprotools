@@ -15,12 +15,13 @@
 {comment:**  meta: label: GuitarWeeps   }
 {comment:***********************************************}
 
-{comment: Intro }
+{start_of_part: Intro}
 | [Am] . . . | [Am/G] . . . | [D9/F#] . . . | [F] . . . | 
 | [Am] . . . | [G] . . . | [D] . . . | [E] . . . |
 
 
 {comment: Scott Vocals}
+{end_of_part}
 {start_of_verse}
 I [Am]look at you [Am/G]all see the [D9/F#]love there that's [F]sleeping
 [Am] While my gui[G]tar gently [D]weeps.      [E]
@@ -47,7 +48,7 @@ With [Am]every mis[Am/G]take we must [D9/F#]surely be [F]learning,
 {end_of_verse}
 
 
-{comment:Solo over verse}
+{start_of_part: Solo over verse}
 | [Am] . . . | [Am/G] . . . | [D9/F#] . . . | [F] . . . | 
 | [Am]  . . . | [G] . . . | [D] . . . | [E] . . . |
 | [Am] . . . | [Am/G] . . . | [D9/F#] . . . | [F] . . . | 
@@ -55,6 +56,7 @@ With [Am]every mis[Am/G]take we must [D9/F#]surely be [F]learning,
 
 
 {comment: Jeff Vocals}
+{end_of_part}
 {start_of_chorus}
 [A] I don't know [C#m]how_____[F#m] you were di[C#m]verted,
 [Bm] You were per[Bm]verted [E]too.     [E]
@@ -71,7 +73,7 @@ I [Am]look at you [Am/G]all, see the [D9/F#]love there that's [F]sleeping
 [Am] Still my gui[G]tar gently [C]weeps.      [E]
 {end_of_verse}
 
-{comment: Outro Solo}
+{start_of_part: Outro Solo}
 | [Am] . . . | [Am/G] . . . | [D9/F#] . . . | [F] . . . | 
 | [Am]  . . . | [G] . . . | [D] . . . | [E] . . . |
 | [Am] . . . | [Am/G] . . . | [D9/F#] . . . | [F] . . . | 
@@ -83,3 +85,4 @@ I [Am]look at you [Am/G]all, see the [D9/F#]love there that's [F]sleeping
 | [Am]  . . . | [G] . . . | [C] . . . | [E] . . . |
 
 Am
+{end_of_part}

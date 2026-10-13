@@ -15,9 +15,10 @@
 
 {comment: roland -> C012 (Sweep)}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] ... | [E] ... | [E] ... | [E] ... |
 | [E] ... | [E] ... | [E] ... | [E] ... |
+{end_of_part}
 
 {start_of_verse}
 It was a [E]beautiful day, the sun beat down
@@ -49,9 +50,10 @@ Wo[D]rkin' on a [G]mystery[E]
 [A]Runnin' [G]down a [E]dream  [E](guitar lick) [E]... [E]...
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Woo-[Cmaj7]oo (guitar lick) Woo-[D]oo (guitar lick)  Woo-[E]oo (guitar lick)
 Woo-[Cmaj7]oo (guitar lick) Woo-[D]oo (guitar lick)  Woo-
+{end_of_part}
 
 {start_of_verse}
 [E]I rolled on. The sky grew dark.
@@ -76,11 +78,12 @@ Wo[D]rkin' on a [G]mystery[E]
 [A]Runnin' [G]down a [E]dream  [E](guitar lick) [E]... [E](guitar lick) [E]... [E](guitar lick)
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 (Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] (guitar lick)  (Woo-) | [D] (oo) . . . | [D] (guitar lick)
 (Woo-) | [E] (oo) . . . | [E] (guitar lick) | [E] .  . . | [E] (guitar lick) |
+{end_of_part}
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 (Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . .
 (Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
@@ -100,3 +103,4 @@ Wo[D]rkin' on a [G]mystery[E]
 (Woo-) | [E] (oo) . . . | [E] . . . | [E] .  . . | [E] . . . |
 
 (Woo-) | [Cmaj7] (oo) . . . | [Cmaj7] . . (Woo-) | [D] (oo) . . . | [D] . . . (Woo-) | [E] (oo)
+{end_of_part}

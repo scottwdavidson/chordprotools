@@ -17,11 +17,12 @@
 {comment:**  meta: label: IFeel Lucky   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [B] . . . | [B]  . . . |
 | [B] . . . | [F#7] . . . |
 | [B] . . . | [B]  . . . |
 | [B] . . . | [B]  . . . |
+{end_of_part}
 
 {start_of_verse}
 Well I [B]woke up this morning stumbled [B]out of my rack
@@ -38,9 +39,10 @@ N[F#7]o Professor Doom gonna stand in my way
 [B]Mmm[No Chord]mm, I feel lucky today
 {end_of_chorus}
 
-{comment:Instrumental}
+{start_of_part: Instrumental}
 | [B] . . . | [B] . . . |
 | [B] . . . | [B] . . . |
+{end_of_part}
 
 {start_of_verse}
 Well I [B]strolled down to the corner, gave my numbers to the clerk
@@ -83,8 +85,9 @@ I feel [E]lucky, brrrrr, I feel [B]lucky, yeah
 [B]Mm[No Chord]mmmm, I feel lucky today
 {end_of_chorus}
 
-{comment:Outro - Piano Solo}
+{start_of_part: Outro - Piano Solo}
 |[B]   . . . | [B]   . . . | [B] . . . | [B] . . .  |
 |[E]   . . . | [E]   . . . | [B] . . . | [B] . . .  |
 |[F#7] . . . | [F#7] . . . | [B] . . . | [C#] [C] . [B] | 
 | [B]  . . . |
+{end_of_part}

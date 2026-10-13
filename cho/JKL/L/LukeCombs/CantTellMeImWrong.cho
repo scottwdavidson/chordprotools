@@ -9,7 +9,6 @@
 {comment:***********************************************}
 {comment:**  meta: nord: P33   }
 {comment:**  meta: countin: 6   }
-{comment:**  meta: rc-slot: 42   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
@@ -56,19 +55,20 @@ You can't tell me I'm [Cm7]wrong
 {end_of_chorus}
 
 
-{comment: Instrumental Break}
+{start_of_part: Instrumental Break}
 . | [Bb]  . . . | [Bb] . . . |
 . | [Cm7] . . . | [F7] . . . |
 . | [Bb]  . . . | [Gm] . . . | 
 . | [Cm7] . .
+{end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 You can [F]tell me you ain't stayin' the [Bb]night
 But you can't [Gm]tell me it ain't crossed your [Cm7]mind
 You can [F]tell me that we're movin' too [Bb]fast
 But you can't [Gm]tell me you ain't lovin' that
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus}

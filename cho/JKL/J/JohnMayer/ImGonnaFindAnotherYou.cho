@@ -4,11 +4,12 @@
 {duration: 3:00}
 {tempo: 150}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [A]  [Eaug]    It's really o[A]ver, you made your [A7]stand
+{end_of_part}
 
 
 {start_of_verse}
@@ -28,13 +29,14 @@ I'm gonna[A] sing[F#m]my way away from blue
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Bm7]When I was your lover[F#m]
 [Bm7]No one else would do[F#m]
 If I'm [Bm7]forced to find another[F#m]
 I hope she [B7]looks like you
 Yeah and she's[E]nicer too yeah
 So go on [A]baby
+{end_of_part}
 
 
 {start_of_verse}
@@ -48,5 +50,6 @@ Oh[Bm7]   I'm gonna [E7]find another you
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 A Eaug A
+{end_of_part}

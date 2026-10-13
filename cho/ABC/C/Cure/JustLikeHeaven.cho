@@ -7,10 +7,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro - bass only}
+{start_of_part: Intro - bass only}
 | [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+{end_of_part}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
 | [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
 | [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
@@ -18,6 +19,7 @@
 | [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
 | [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
 | [A] . . . | [E] . . . | [Bm7] . . . | [D] . . . |
+{end_of_part}
 
 {start_of_verse}
 "Show me, show me, [A]show me how you [E]do that trick

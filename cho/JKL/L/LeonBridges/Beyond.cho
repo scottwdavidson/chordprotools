@@ -2,11 +2,12 @@
 {artist: Leon Bridges ( feat Luke Combs )}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [G]
+{end_of_part}
 
 {start_of_verse}
 [G]Don't wanna get ahead of myself
@@ -49,7 +50,7 @@ Will she h[Am]ave my kids? Will she be my wife?
 She m[G]ight just be my everything and beyond
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F] I give up, I'm in love cr[C]ying out to y[G]ou
 O me o my I c[F]an't explain
 [C]She might just be my everything
@@ -58,6 +59,7 @@ O m[G]e o my I c[F]an't explain
 O m[G]e o my I c[F]an't explain
 [C] She might just be my everyth[D]ing
 Do you think I'm being foolish if I d[C]on't rush in?
+{end_of_part}
 
 {start_of_chorus}
 I'm sc[G]ared to death that she might be it
@@ -68,7 +70,7 @@ Will she h[Am]ave my kids? Will she be my wife?
 She m[G]ight just be my e[F]verything and be[C]yond
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 
 (She might just be mine)
 O m[G]e o my I c[F]an't explain
@@ -89,3 +91,4 @@ O m[G]e o my I c[F]an't explain
 [C]She might just be my everything
 [C]She might just be my everything
 X
+{end_of_part}

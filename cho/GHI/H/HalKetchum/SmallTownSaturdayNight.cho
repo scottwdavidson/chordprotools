@@ -17,11 +17,12 @@
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 | [C] . [G] . | [D] . [G] . | [C] . [G] . | [D] . . . |
 
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -61,9 +62,10 @@ It's a [C] small [G]town [D7]Saturday [G]night [G]
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 
 | [C] . [G] . | [D] . [G] . | [C] . [G] . | [D] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -86,6 +88,7 @@ It's a [C] small [G]town [D7]Saturday [G]night [G]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 
 | [C] . [G] . | [D] . | [G] 
+{end_of_part}

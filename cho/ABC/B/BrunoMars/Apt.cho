@@ -89,7 +89,7 @@ I'm talkin' drink, dance, smoke, freak, party all night[Bb]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G]Hey, so now you know the game
 Are you ready?
 'Cause I'm comin' to get ya, get ya, get ya
@@ -108,6 +108,7 @@ I'm on my [F]way
 [Cm]Don't you need me like I [Eb]need you now?
 [Ab]Sleep tomorrow, but to[Bb]night, go crazy
 [Cm]All you gotta do is just [Eb]meet me at the
+{end_of_part}
 
 
 {start_of_chorus}
@@ -129,9 +130,10 @@ I'm on my [F]way
 [Eb]Uh, uhhuh, uhhuh
 {end_of_chorus}
 
-{comment: SLOW OUTRO}
+{start_of_part: SLOW OUTRO}
 [Ab]Don't you want me like I [Bb]want you, baby?
 [Cm]Don't you need me like I [Eb]need you now?
 [Ab]Sleep tomorrow, but to[Bb]night, go crazy
 [Cm]All you gotta do is just [Eb]meet me at the
+{end_of_part}
 

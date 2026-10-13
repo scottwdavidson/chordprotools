@@ -3,11 +3,12 @@
 {key: E}
 {tempo: 105}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [E]E   [Emaj7]Emaj7   [Amaj7]Amaj7[A]A
+{end_of_part}
 
 {start_of_verse}
 S[E]at down on a [Emaj7]barstool, like a d[A]ern fool
@@ -67,11 +68,11 @@ So man made a b[E]ar
 Y[A]eaaah, man made a b[E]ar[A]
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 And sometimes an a[C#m]ngel falls too h[B]ard
 Loses m[A]ore than just a piece of her heart
 And she n[F#m7]eeds a place to [F#m]go and make a [A]brand new start
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 God made the w[E]orld

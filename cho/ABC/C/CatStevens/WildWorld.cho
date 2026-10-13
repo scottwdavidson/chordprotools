@@ -7,13 +7,14 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Dm] . [G7] . | [C] . [F] . |
 | [Bb] . [Gm] . | [A] . . . |
 
 [Dm]  La la la [G7]la la la la la l[C]a
 La la [F]la la la la la l[Bb]a
 La la [Gm]la la la la la [A]la la
+{end_of_part}
 
 
 {start_of_verse}
@@ -54,9 +55,10 @@ just re[Gm]member there's a lot of bad [A]and be[C]ware.[Bb]   [Am]   [Gm]Weeell
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 [Dm]A[G7][C][F][Bb][Gm]
 Baby, I love you,
+{end_of_part}
 
 
 {start_of_verse}

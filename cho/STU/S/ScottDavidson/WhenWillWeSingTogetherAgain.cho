@@ -32,11 +32,12 @@ and [Dm]we'll sing this song for you [Cdim]every day
 [Gm]Can't wait 'til we [C6]sing together a[F]gain
 {end_of_verse}
 
-{comment: solo}
+{start_of_part: solo}
 | [F]  . . . | [Am] / [E] . . . |
 | [Dm] . . . | [Cdim]   . . . |
 | [Gm] . . . | [C7]     . . . | 
 | [F]  . . . | [F]      . . . | 
+{end_of_part}
 
 {start_of_chorus}
 But [Dm] hang on tight to the [Am]rhythm, 
@@ -51,9 +52,10 @@ and [Dm]we'll sing this song for you [Cdim]every day
 [Gm]Can't wait 'til we [C6]sing together a[F]gain
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 [F#maj7]Again
 We [Gm]sing to[Gm/C]gether a[F]gain 
+{end_of_part}
 
 
 

@@ -17,7 +17,7 @@
 {comment:**  meta: label: What ILike   }
 {comment:***********************************************}
 
-{comment: Guitar Intro}
+{start_of_part: Guitar Intro}
 | [Esus4]  [E]  [A]  .  |  [D]  .  .  .  [A]  |
 
 | [Esus4]  [E]  [A]  .  |  [D]  .  .  .  [A]  |
@@ -29,11 +29,13 @@
 | [Esus4]  [E]  [A]  .  |  [D]  .  .  .  [A]  |
 
 Hey!
+{end_of_part}
 
-{comment: Full Band Intro}
+{start_of_part: Full Band Intro}
 |  [E]  .  [A]  .  |  [D]  .  [A] . (uh huh) |  [E]  .  [A]  .  |  [D]  .  [A] (Hey!) |
 
 |  [E]  .  [A]  .  |  [D]  .  [A] . (uh huh) |  [E]  .  [A]  .  |  [D]  .
+{end_of_part}
 
 
 {start_of_verse}
@@ -69,7 +71,7 @@ What I [A]like about [E]you, [A] [D]  you really [A]know how to [E]dance. [A] [D
 |  [A]  [D/A]  .  [A]  |  [B]  [Bsus4]  [B]  .  |  [B]  .  .  .  |  [B]  .  .  .  | Hey!
 
 
-{comment: Harmonica Solo}
+{start_of_part: Harmonica Solo}
 |  [E]  .  [A]  .  |  [D]  .  [A]  .  |  [E]  .  [A]  .  |  [D]  .  [A]  .  |
 
 |  [E]  .  [A]  .  |  [D]  .  [A]  .  |  [E]  .  [A]  .  |  [D]  .  [A]  .  |
@@ -77,6 +79,7 @@ What I [A]like about [E]you, [A] [D]  you really [A]know how to [E]dance. [A] [D
 |  [E]  .  [A]  .  |  [D]  .  [A]  .  |  [E]  .  [A]  .  |  [D]  .  [A]  .  |
 
 |  [E]  .  [A]  .  |  [D]  .  [A]  .  |  [E]  .  [A]  .  |  [D]
+{end_of_part}
 
 
 {start_of_verse}
@@ -100,7 +103,8 @@ What I [A]like about [E]you, [A] [D] you keep me [A]warm at [E]night. [A] [D] [A
 {end_of_chorus}
 
 
-{comment: Outro - follows pattern from Guitar Intro}
+{start_of_part: Outro - follows pattern from Guitar Intro}
 [Esus4]  [E]   [A]    [D]    [A]   uh huh [Esus4] [E]   hey [A]   hey [D]    hey  [A]  Hey!
 [Esus4]  [E]   [A]    [D]    [A]   uh huh [Esus4] [E]   brrr[A]rrrrrrr[D]r    [A]  Hey!
 [Esus4]  [E]   [A]    [D]    [A]   uh huh [Esus4] [E]       [A]       [D]     [A]  Hey!
+{end_of_part}

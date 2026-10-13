@@ -6,8 +6,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . [A/E] . | [E7] . [A/E] . | x2
+{end_of_part}
 
 {start_of_verse}
 [E]Uptown got it's hustlers 

@@ -11,9 +11,10 @@
 {comment:**  meta: performance: D   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . . . | [G]  . . . | 
 | [D] . . . | [A7] . . . |
+{end_of_part}
 
 {start_of_verse}
 [A7#5]Well she[D]got her daddy's car
@@ -47,10 +48,11 @@ And she'll have [D]fun fun[F#m]fun
 [D](fun, [G]fun, fun, 'til her [D]daddy takes the [A7]TBird away)
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [D]  . . . | [D]  . . . | 
 | [G]  . . . | [G]  . . . |
 | [A7] . . . | [A7] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -73,6 +75,7 @@ And we'll have [D]fun fun[F#m]fun
 'Til her [G]daddy takes the [A7]TBird away_[D][G][D/F#][A/E]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [D] . . . | [G]  . . . | 
 | [D] . . . | [A7] . . . |
+{end_of_part}

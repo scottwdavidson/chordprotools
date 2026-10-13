@@ -19,11 +19,12 @@
 {comment:**  meta: performance: C#m   }
 {comment:***********************************************}
 
-{comment: Intro - Percussion Only}
+{start_of_part: Intro - Percussion Only}
 |  .  .  .  .  |  .  .  .  .  |
+{end_of_part}
 
 
-{comment: Intro - Full Band}
+{start_of_part: Intro - Full Band}
 | [C#m]  .  [B]  .  | [C#m]  .  .  .  |
 
 | [C#m]  .  [B]  .  | [C#m]  .  .  .  |
@@ -31,6 +32,7 @@
 | [C#m] ¿Cómo puede [B]ser [C#m]verdad?  .  .  .  |
 
 | [C#m]  .  [B]  .  | [C#m]  .  .  .  |
+{end_of_part}
 
 
 {start_of_verse}
@@ -83,7 +85,7 @@ Your [F#m]Spanish lul - [B]lab - [C#m]y.
 | [C#m]  .  [B]  .  | [C#m]  .  .  .  |
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F#m]I want to [D]be where the [E]sun warms the [Bsus2]sky.
 When it's [F#m]time for si[D]esta you can [E]watch them go by.
 [F#m]Beautiful [D]faces, no [E]cares in this [Bsus2]world.
@@ -93,6 +95,7 @@ Where a [F#m]girl loves a [D]boy, and a [E]boy________ [G#/C#]loves a [C#m]girl.
 {comment: Interlude III}
 | [C#m](girl)  .  [B]  .  | [C#m]  .  .  .  |
 | [A/C#]  .  [C#m]  .  | [E]  .  [B]  .  |
+{end_of_part}
 
 
 {start_of_verse}

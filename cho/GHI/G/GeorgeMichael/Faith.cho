@@ -5,12 +5,13 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro ( Organ )}
+{start_of_part: Intro ( Organ )}
 | [B] . [B/D] . | [Esus] . [E]  . | 
 | [C#m] . . . | [B/F#] . [F#] . |
 | [B] . [B/D] . | [Esus] . [E]  . | 
 | [C#m] . . . | [B/F#] . .  . |
 | [F#]  . . . |
+{end_of_part}
 
 {start_of_verse}
 [B] Well I guess it would be [B]nice if I could touch your body
@@ -20,13 +21,14 @@ And I know [E]all the games you play because I played them [B]too
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Oh, but I [E]need some time off from [B]that emotion
 [E]Time to pick my heart up off the floor
 [B] Oh, when that [E]love comes down with[B]out de[G#m]votion
 Well it [C#m]takes a strong man, baby
 But I'm [F#]showin' you the door
 'Cause I gotta' have [B]faith
+{end_of_part}
 
 
 {start_of_chorus}
@@ -46,12 +48,13 @@ And another who [B]tied me down to loverboy rules
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Be[E]fore this river be[B]comes an ocean
 Be[E]fore you throw my heart back on the floor
 [B] Oh baby I'm [E]reconsider my [B]foolish [G#m]notion
 Well I [C#m]need someone to hold me but I'll [F#]wait for somethin' more
 Yes I gotta' have [B]faith
+{end_of_part}
 
 
 {start_of_chorus}
@@ -61,12 +64,13 @@ I got to have faith, faith, faith
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [B]  [E]  [B]  [E]  [B] Be[E]fore this river be[B]comes an ocean
 Be[E]fore you throw my heart back on the floor[B]
 Oh, oh baby I'm [E]reconsider my [B]fool[A#m]ish [G#m]notion
 Well I [C#m]need someone to hold me but I'll [F#]wait for somethin' more
 'Cause I gotta' have [B]faith
+{end_of_part}
 
 
 {start_of_chorus}

@@ -9,17 +9,19 @@
 {comment:**  meta: countin: 4   }
 {comment:***********************************************}
 
-{comment: Guitar Intro Pattern - Section I}
+{start_of_part: Guitar Intro Pattern - Section I}
 {comment: Over A major}
 
 3 beats then pickup 
 | 3 beats | 3 beats | 2 beats | 4 beats | 4 beats |
+{end_of_part}
 
 
-{comment: Guitar Intro Pattern - Section II}
+{start_of_part: Guitar Intro Pattern - Section II}
 {comment: Now in 4/4 time}
 
 | [D] . . . | [D] . . . | [A] . . . | [A] . . . | [E] . . . | [E] . . . | [A] . . . | [A] . . . |
+{end_of_part}
 
 
 
@@ -51,13 +53,14 @@ And then a[E]way went Rudolph whizzing like a shooting [A]star.
 
 "Run like you stole it..."
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 
 | [A] . . . | [A] . . . | [A] . . . | [A] . . . |
 
 | [D] . . . | [D] . . . | [A] . . . | [A] . . . |
 
 | [E] . . . | [E] . . . | [A] . . . | [A] . . . |
+{end_of_part}
 
  
 
@@ -75,7 +78,7 @@ And then a[E]way went Rudolph, whizzing like a Saber j[A]et
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 
 [A]Run, run Rudolph, [D](Run, run Rudolph)
 [A]Run, run Rudolph, [D](Run, run Rudolph)
@@ -86,3 +89,4 @@ And then a[E]way went Rudolph, whizzing like a Saber j[A]et
 [A]
 
 Merry Christmas everybody!
+{end_of_part}

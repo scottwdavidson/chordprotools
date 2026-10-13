@@ -11,9 +11,10 @@
 {comment:**  meta: countin: 0   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [E] [A/E] | [E] [A/E] | [E] [A/E] | [E] [A/E] | 
 | [E] [A/E] | [E] [A/E] | [E] [A/E] | [E] [A/E] | 
+{end_of_part}
 
 {start_of_verse}
 [E]If you [D]wake up and [A]don't want to smile
@@ -46,10 +47,11 @@
 [B7]Yesterday's gone, yesterday's gone
 {end_of_chorus}
 
-{comment:Piano Solo}
+{start_of_part: Piano Solo}
 | [B]   | [B]  |
 | [E] [D] | [A]  | [E] [D] | [A]  | [E] [D] | [A] |
 | [B]   | [B]  | [B]   | [B]  |
+{end_of_part}
 
 {start_of_verse}
 [E]All I [D]want is to [A]see you smile
@@ -70,8 +72,9 @@
 [B7]Yesterday's gone, yesterday's gone
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 [E]Ooo[D/E]h, [A]   Don't you look [E]back[D/E][A]
 [E]Ooo[D/E]h, [A]   Don't you look [E]back[D/E][A]
 [E]Ooo[D/E]h, [A]   Don't you look [E]back[D/E][A]
 [E]Ooo[D/E]h, [A]   Don't you look [E]back[D/E][A]
+{end_of_part}

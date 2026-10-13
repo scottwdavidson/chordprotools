@@ -13,7 +13,7 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . |[D] |[Dsus2/C]  |[G]  |[D]  | 
 
 . |[D] |[Dsus2/C]  |[G]  |[D]  | 
@@ -23,6 +23,7 @@
 . |[D] |[Dsus2/C]  |[G]  |[D]  | 
 
 . |[D] |[Dsus2/C]  |[G]  |[D]  | 
+{end_of_part}
 
 {start_of_verse}
 [D]I'm gonna take a freight train,
@@ -51,9 +52,10 @@
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman been doin' to [D]me
 {end_of_chorus}
 
-{comment: (Piano) Solo}
+{start_of_part: (Piano) Solo}
 |[D] |[Dsus2/C]  |[G]  |[D]  | 
 |[D] |[Dsus2/C]  |[G]  |[D]  | 
+{end_of_part}
 
 {start_of_verse}
 [D]I'm gonna buy me a ticket now,
@@ -69,11 +71,12 @@
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman been doin' to [D]me
 {end_of_chorus}
 
-{comment: (Guitar) Solo}
+{start_of_part: (Guitar) Solo}
 |[D] |[Dsus2/C]  |[G]  |[D]  | 
 |[D] |[Dsus2/C]  |[G]  |[D]  | 
 
 {comment: BB - PART 2}
+{end_of_part}
 {start_of_chorus}
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman, she been doin' to[D]me
 [D]Can't you see, [Dsus2/C]can't you see, what that [G]woman been doin' to [D]me
@@ -100,5 +103,6 @@
 |[D] |[Dsus2/C]  |[G]  |[D]  | 
 
 {comment: BB - OFF}
-{comment:Outro}
+{start_of_part: Outro}
 |[D]  |[Dsus2/C] |[G]  |[D]  | 
+{end_of_part}

@@ -19,14 +19,16 @@
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 
-{comment: Intro - Piano Only}
+{start_of_part: Intro - Piano Only}
 [G/D]  [C/E]  [F#]
+{end_of_part}
 
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] . . . | [G] . . . | [Em] . . . | [Em] . . . |
 
 | [C] . . . | [C] . . . | [D] . . . | [D] . . . |
+{end_of_part}
 
 
 
@@ -122,7 +124,7 @@ When [A7]Susie wore her dresses tight and
 
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [G]La... [G] La La La La
 [Em]La... [Em] La La La La
 [C]La... [C] La La La La
@@ -139,3 +141,4 @@ When [A7]Susie wore her dresses tight and
 [D]La... [D]
 
 [G]
+{end_of_part}

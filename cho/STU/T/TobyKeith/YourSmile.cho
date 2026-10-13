@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] | [G6] | [Gmaj7] | [G6] |
 | [G] | [G6] | [Gmaj7] | [G6] |
+{end_of_part}
 
 {start_of_verse}
 Now [G]those might be the s[G6]addest b[Gmaj7]ig 'ol baby 
@@ -43,8 +44,9 @@ Turn it [Bm7]upside d[Em]own,
 [C]Fallin' in [D]love with your [G]smile.[G6][Gmaj7][G6]
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [C] | [C] | [C] | [G] | [G] | [G] | [G] | 
+{end_of_part}
 
 
 {start_of_chorus}
@@ -54,6 +56,7 @@ Turn it [Bm7]upside d[Em]own,
 [C]Fallin' in [D]love with your [G]smile.[G6][Gmaj7][G6]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [G]Those might be the s[G6]addest b[Gmaj7]ig 'ol baby 
 b[G6]lues I ever seen[Gadd2]
+{end_of_part}

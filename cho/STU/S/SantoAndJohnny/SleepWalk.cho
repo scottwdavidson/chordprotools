@@ -5,12 +5,13 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 |[C]   |[Am]  |[Fm]  |[G]   |
 |[C]   |[Am]  |[Fm]  |[G]   |
+{end_of_part}
 
 
-{comment: Instrumental part 1}
+{start_of_part: Instrumental part 1}
 |[C]   |[Am]  |[Fm]  |[G]   |
 |[C]   |[Am]  |[Fm]  |[G]   |
 |[C]   |[Am]  |[Fm]  |[G]   |
@@ -19,16 +20,19 @@
 |[C]   |[Am]  |[Fm]  |[G]   |
 |[C]   |[Am]  |[Fm]  |[G]   |
 |[C]   |[F]   |[C]   |[C7]  |
+{end_of_part}
 
 
-{comment: Instrumental part 2}
+{start_of_part: Instrumental part 2}
 |[F]   |    |[Fm]  |    |
 |[C]   |    |[C7]  |    |
 |[F]   |    |[Fm]  |    |
 |[G]   |    |[G7]  |    |
+{end_of_part}
 
-{comment: Instrumental outro}
+{start_of_part: Instrumental outro}
 |[C]   |[Am]  |[Fm]  |[G]   |
 |[C]   |[Am]  |[Fm]  |[G]   |
 |[C]   |[Am]  |[Fm]  |[G]   |
+{end_of_part}
 

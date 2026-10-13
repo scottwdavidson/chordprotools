@@ -11,12 +11,13 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
 
 | [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
 
 | [A] . . . | [E/A] . [A] [E/A] | [D/A] . ([D] 16th notes) | . ([D] 16th notes) . |
+{end_of_part}
 
 
 
@@ -82,12 +83,12 @@
 
 {comment: A Cappella (chords are implied for vocal harmony)}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [A] Oh, let it [D/A]rock, [D] let it [D]ro_[E]ll__
 [A] Let the Bible [D]Belt come and [G]save my [D]so__[A]ul.
 [A] Hold on to [D]sixteen as [G]long as you [D]ca__n.
 [A] Changes come around [D]real soon, make us [E]women and [A]men.
-{end_of_bridge}
+{end_of_part}
 
 
 {comment: 4 Bar Drum Pattern}
@@ -109,7 +110,8 @@
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_verse}
 [A] Little [E/A]ditty 'bout [D/A]Jack and Di_[E/A]ane,__
 [A] Two American [E/A]kids doin' [D/A]best they [A]can.

@@ -6,7 +6,8 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
+{end_of_part}
 
 {start_of_verse}
 [G]This here's a s[F]tory about Billy Joe and Bob[C]bie Sue
@@ -45,12 +46,13 @@ H[G]e makes his livi[F]ng off of the[C] peoples taxes [Bb5]  [Bb5][F5]
 [Bb](Oo[F]h,[G]ooh, ooh!)
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [G] . . . | [F] . . . | [C] . . . | 
 (G F C strummed fast in triplets for 1 phrase, then normal strum pattern for 3 more 
 phrases)
 
 Yea[Bb]h, [F]yeah...[G]
+{end_of_part}
 
 {start_of_chorus}
 [G]Go on [F]take the money and [C]run, yeah, yeah, (hoo, hoo, hoo),[G]  Go o[F]n take the money and

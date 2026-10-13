@@ -17,8 +17,9 @@
 {comment:**  meta: label: Down  Blues   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [G] ... | [G] ... | [G] ... | [G] ... |
+{end_of_part}
 
 
 {start_of_verse}
@@ -47,10 +48,11 @@
 And le[C]t me hear some down home bl[G]ues.[D]
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 | [C] . . . | [C] . . . | [G] . . . | [G] . . . |
 | [D] . . . | [C] . . . | [G] . . . | [D] . . . |
+{end_of_part}
 
 {start_of_verse}
 [G]She said you know my old man,
@@ -71,7 +73,7 @@ Down home bl[G]ues[D]
 And pa[C]rty off these down home [G]blues[D]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 | [C] . . . | [C] . . . | [G] . . . | [G] . . . |
 | [D] . . . | [C] . . . | [G] . . . | [D] . . . |
@@ -79,3 +81,4 @@ And pa[C]rty off these down home [G]blues[D]
 | [G] . . . | [G] . . . | [G] . . . | [G] . . . |
 | [C] . . . | [C] . . . | [G] . . . | [G] . . . |
 | [D] . . . | [C] . . . | [G] . . . | [D] . . . |
+{end_of_part}

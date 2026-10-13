@@ -17,11 +17,12 @@
 {comment:**  meta: label: DoesYrKnow   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G]   . . . | [G]   . . . | [G]   . . . | [G]   . . . |
 | [G]   . . . | [G]   . . . | [G]   . . . | [G]   . . . |
 
 | [G]   . . . | [G]   . . . | [G]   . . . | [G]   . . . |
+{end_of_part}
 
 {start_of_verse}
 [G]You're so hot, teasing me[Em]
@@ -51,7 +52,7 @@ Does your mother know that you're out?
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Take it [G]easy, 
 (Female)  take it [G/F]easy
 Better [C/E]slow down, [Cm/Eb]girl
@@ -68,6 +69,7 @@ Take it [G/D]nice and [Cm/Eb]slow
 | [G]   . . . | [G]   . . . | [G]   . . . | [G]   . . . |
 
 | [G]   . . . | [G]   . . . | [G]   . . . | [G]   . . . |
+{end_of_part}
 
 {start_of_verse}
 [G]I can see what you want[Em]
@@ -95,7 +97,7 @@ Flirt a little, maybe
 Does your mother know that you're out?
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Take it [G]easy, 
 (Female)  take it [G/F]easy
 Better [C/E]slow down, [Cm/Eb]girl
@@ -109,6 +111,7 @@ Take it [G/D]nice and [Cm/Eb]slow
 (Female)  Does your [G/F]mother [Cm/Eb]know?
 
 {comment: All Voices}
+{end_of_part}
 {start_of_chorus}
 Well I can [C]dance with you, honey
 If you think it's funny
@@ -130,7 +133,8 @@ Does your mother know that you're out?
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 Well I can [C]dance with you, honey
 If you think it's funny

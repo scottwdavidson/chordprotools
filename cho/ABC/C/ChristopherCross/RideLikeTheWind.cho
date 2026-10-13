@@ -7,12 +7,13 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | (pickup G-Bb-C) |
 | [Cm7] ...        | [Bb] ../ [Bb/C] | [Cm7] ../ [Bb] | [Bb] ../ [Bb/Ab] |
 | [Bb/Ab] ../ [Bb/C] | [Bb] ...      | [Gm/C] .. [Bb] | [Bb]   (G-Bb-C)| 
 | [Cm]    | [Bb] | [Cm] | [Bb] |
 | [Amaj7] | [Bb] | [Cm] | [Bb] (it is the night)|
+{end_of_part}
 
 {start_of_verse}
 It is the [Cm]night. My body's [Bb]weak
@@ -43,11 +44,12 @@ Ride like the [Cm7]wind.  [Bb]
 Gonna ride like the wind.
 {end_of_chorus}
 
-{comment:Instrumental}
+{start_of_part: Instrumental}
 | [Cm9] ... | [Cm9] . [Dm7] [Ebmaj7]   | 
 | [Cm9] ... | [Cm9] . [Ebmaj7] [Dm7]   | 
 | [Cm9] ... | [Cm9] [Dm7] [Ebmaj7] [Cm9] | 
 | [Cm9] [Dm7] [Ebmaj7] | [F6] |
+{end_of_part}
 
 {start_of_verse}
 [Cm7]Accused and tried and t[Bb]old to hang
@@ -77,7 +79,7 @@ Ride like the [Cm7]wind.  [Bb]
 Gonna ride like the wind.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [Cm9] ... | [Cm9] . [Dm7] [Ebmaj7]   | 
 | [Cm9] ... | [Cm9] . [Ebmaj7] [Dm7]   | 
 | [Cm9] ... | [Cm9] [Dm7] [Ebmaj7] [Cm9] | 
@@ -87,4 +89,5 @@ Gonna ride like the wind.
 | [Cm9] ... | [Cm9] . [Ebmaj7] [Dm7]   | 
 | [Cm9] ... | [Cm9] [Dm7] [Ebmaj7] [Cm9] | 
 | [Cm9] [Dm7] [Ebmaj7] | [F6] |
+{end_of_part}
 

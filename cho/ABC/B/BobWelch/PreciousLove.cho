@@ -3,9 +3,13 @@
 {key: E}
 {tempo: 124}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 [E]   [G#m]   [F#m]   [B]
 [E]   [G#m]   [F#m]   [B]
+{end_of_part}
 
 {start_of_verse: Verse 1}
 You got those [E]big dark [G#m]eyes that [F#m]flash at me, [B]baby
@@ -21,9 +25,10 @@ I want your [E]love, your [G#m]precious [F#m]love[B]
 I've been too [E]lonely [G#m]too [F#m]long[B]
 {end_of_chorus}
 
-{comment: Instrumental Break}
+{start_of_part: Instrumental Break}
 [E]   [G#m]   [F#m]   [B]
 [E]   [G#m]   [F#m]   [B]
+{end_of_part}
 
 {start_of_verse: Verse 2}
 You got a [E]kind of [G#m]walk that's [F#m]just so [B]fine
@@ -39,10 +44,10 @@ I want your [E]love, your [G#m]precious [F#m]love[B]
 I've been too [E]lonely [G#m]too [F#m]long[B]
 {end_of_chorus}
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 Yeah those [E]big dark [G#m]eyes that [F#m]flash at [B]me
 It's just your [E]precious [G#m]love that I [F#m]want, you to [B]see
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus: Chorus / Outro (Repeat and Fade)}
 For your [E]love, your [G#m]precious [F#m]love[B]

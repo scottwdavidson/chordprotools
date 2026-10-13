@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] ... | [A] ... |
+{end_of_part}
 
 {start_of_verse}
 I[A]f ever you got r[G]ain in your heart,

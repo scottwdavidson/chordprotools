@@ -7,10 +7,11 @@
 
 {comment: recorded key Bb (up 3 half steps)}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Gmaj7] . . . | [G6] . . . | [D/G] . . . | [G] . . . | 
 | [Am] [D] [Bm] [Em]  | [C] [F7] [G] . |
 | [Am] [D] [Bm] [Em]  | [C] [F7] [G] . |
+{end_of_part}
 
 {start_of_verse}
 [Gmaj7]The mood is right
@@ -40,7 +41,8 @@
 [C]wonderful [Cm]Christmas [G]time
 {end_of_chorus}
 
-{comment: BRIDGE}
+{start_of_part: BRIDGE}
+{end_of_part}
 {start_of_chorus}
 [G]The choir of [C]children
 [D]sing their [G]song
@@ -49,9 +51,10 @@
 [Am7]Ohhhh ... [C/G]_[C]
 [G/B]Do da do da do da do
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [Gmaj7] . . . | [G6] . . . | [D/G] . . . | [G] . . . | 
 | [Gmaj7] . . . | [G6] . . . | [D/G] . . . | [G] . . . | 
+{end_of_part}
 
 {start_of_chorus}
 [Am]Simp[D]ly [Bm]ha-[Em]ving a

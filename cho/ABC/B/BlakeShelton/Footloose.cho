@@ -9,11 +9,12 @@
 {comment:**  meta: countin: 8   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 {comment: 8 beat count in}
 {comment: drums}
 | . . . .     | . . . . | 
 | . . . .     | . . . . |
+{end_of_part}
 
 {start_of_verse}
 [NC] . . . [NC]Whoa oa oo oa 

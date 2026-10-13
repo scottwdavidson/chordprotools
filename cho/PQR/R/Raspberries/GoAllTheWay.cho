@@ -15,8 +15,9 @@
 {comment:**  meta: label: Go AllWay   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [A] |
+{end_of_part}
 
 {start_of_verse}
 [C]I never knew how complete[Am] love could be[Dm]
@@ -39,9 +40,10 @@ Till she whispered, "I love [E]you so"
 
 {comment: Chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [A] | [A] [D/A] [E] |
 | [C]       | [C] [Am]    | [Dm]      | [Dm] [E]    |
+{end_of_part}
 
 {start_of_chorus}
 [A]Please, [F#m7]go all the [D]way[C#m]
@@ -52,7 +54,8 @@ Till she whispered, "I love [E]you so"
 [F#7]Don't ever [Bm]let me g[Dm]o (don't let me go)"[G7]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [F#madd9] [F#m] | [F#m9(maj7)/E#] [F#m(maj7)/E#] |
 | [F#madd9/E] [F#m7/E] | [F#m6/D#] | [Dadd9] | [Asus4] [A] | [Fadd9] |
 | [D] | [E] | [A] |
+{end_of_part}

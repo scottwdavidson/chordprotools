@@ -7,8 +7,9 @@
 
 {{ https://www.sheetmusicdirect.com/en-US/se/ID_No/17481/Product.aspx}}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Fmaj] 7 . . . | x 16 ? 
+{end_of_part}
 
 {start_of_verse}
 Said the [Fmaj7]fight to make ends meet
@@ -45,8 +46,9 @@ To [Fmaj7]make what life's about yeah
 To [Fmaj7]make the world go round
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Fmaj7] |  [Dm7] |  [Bb] | [Gm] |
+{end_of_part}
 
 {start_of_verse}
 You know that [Fmaj7]loves the only goal

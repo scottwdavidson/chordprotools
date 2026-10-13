@@ -7,10 +7,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 Bury me in G[Gm]eorgia
 Mm-hmm[C][Bb][Gm]
 Mm-hmm[C][Bb]
+{end_of_part}
 
 {start_of_verse}
 T[Gm]en miles out of Chattanooga
@@ -56,17 +57,18 @@ Georgia[C]
 [Bb]Hell, yeah
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Gm]  | [Gm]  | [Gm]  |
+{end_of_part}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C]    [Bb]Check this out
 For m[Gm]y final will [F]and testament
 Let th[C/E]is be my last r[Eb]equest
 L[Gm]eave it all to my[F]family
 You [C/E]already know what's n[Eb]ext
 Ye[D7]ah, bury me in Georgia
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 Bury me in G[Gm]eorgia
@@ -83,5 +85,6 @@ Mm-hmm[C][Bb]
 Yeah[Gm]
 That's funky right there [C]     [Bb](Mm-hmm, come on)
 
-{comment: Ending Solo}
+{start_of_part: Ending Solo}
 | [Gm]  | [Gm]  | [Gm]  | [C]   [Bb]  | 8x
+{end_of_part}

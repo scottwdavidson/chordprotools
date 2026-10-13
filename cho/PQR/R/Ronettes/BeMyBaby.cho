@@ -7,8 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
-{comment: Drums intro}
+{start_of_part: Intro}
+{end_of_part}
+{start_of_part: Drums intro}
+{end_of_part}
 
 {start_of_verse}
 [A]The night we met I knew I [Bm7]needed you [E7]so
@@ -50,7 +52,7 @@ So won't you please[A]
 (My one and only baby) Ooh, ohh, ohh, oh
 {end_of_chorus}
 
-{comment: Piano / Guitar solo}
+{start_of_part: Piano / Guitar solo}
 {comment: Piano}
 | [A] . . . | [A] . . . | [Bm7] . . . | [Bm7] . . . |
 | [A] . . . | [A] . . . | [Bm7] . . . | [Bm7] . . . || 
@@ -59,6 +61,7 @@ So won't you please[A]
 | [Cm7] . . . | [Cm7] . . . | [F#7] . . . | [F#7] . . . | 
 | [B7]  . . . | [B7]  . . . | [E7] . [D/E] [Em7b5] | 
 | [E7] (so come on and ) |
+{end_of_part}
 
 {start_of_chorus}
 So come on and plea[A]se

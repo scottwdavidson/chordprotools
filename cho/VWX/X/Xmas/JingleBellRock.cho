@@ -9,8 +9,9 @@
 {comment:**  meta: countin: 4   }
 {comment:***********************************************}
 
-{comment: Chords For Guitar Intro}
+{start_of_part: Chords For Guitar Intro}
 | [C] . [Cmaj7] . | [C] . [C6] . | [C] . . . | . walk down |
+{end_of_part}
 
 
 {start_of_verse}
@@ -30,12 +31,13 @@
 {end_of_verse}
 
 
-{comment: Bridge I}
-{start_of_bridge}
+{start_of_part: Bridge I}
+{end_of_part}
+{start_of_part: Bridge}
 [F] What a bright time, it's the [F#dim7]right time to [C]rock the night away.
 Jingle [D7]bell time is a swell time
 [G7] to go glidin' in a one-horse sleigh.
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -57,15 +59,17 @@ Jingle [D7]bell time is a swell time
 {end_of_verse}
 
 
-{comment: Bridge II}
-{start_of_bridge}
+{start_of_part: Bridge II}
+{end_of_part}
+{start_of_part: Bridge}
 [F] What a bright time, it's the [F#dim7]right time to [C]rock the night away.
 Jingle [D7]bell time is a swell time
 [G7] to go glidin' in a one-horse sleigh.
-{end_of_bridge}
+{end_of_part}
 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_verse}
 [C]Giddy-up [Cmaj7]jingle horse [C6]pick up your [C]feet,
 [C6]jingle a[C]round the [A7]clock.

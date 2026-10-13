@@ -15,9 +15,10 @@
 {comment:**  meta: label: Whats  Up   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] . . . | [A] . . . | [Bm] . . . | [Bm] . . . | 
 | [D] . . . | [D] . . . | [A]  . . . | [A]  . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -128,7 +129,7 @@ What's going on?[A]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [A] Uh, uh,[Bm]uh
 Uh, uh, uh
 [D]Uh, uh, uh
@@ -137,3 +138,4 @@ And my life is still
 [Bm]Trying to get that
 Great big hill of hope[D]
 For a destina[A]tion
+{end_of_part}

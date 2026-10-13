@@ -7,7 +7,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 | [G] [C/G] [G] [C/G] | [G] [C/G] [G] [C/G] |
 
@@ -15,6 +15,7 @@
 [Am7]Merry Christmas Sain[G]t Nick.
 (Christmas comes this time each year)
 [Am7]Ooh..[D]ooo...
+{end_of_part}
 
 
 {start_of_verse}
@@ -45,12 +46,12 @@ It's the [C]little [C6]Saint [C]Nick ([C6]little [C]Saint [C6]Nick.)
 {end_of_chorus}
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C]Run run reindeer
 [F]Run run reindeer (whoa)
 [C]Run run reindeer
 [A]Run run reindeer [N.C.](he don't miss no one)
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse}
@@ -67,7 +68,7 @@ It's the [C]little [C6]Saint [C]Nick ([C6]little [C]Saint [C6]Nick.)
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Am7]Ooh... [D7]
 [Am7]Merry [D7]Christmas Sain[G]t Nick.
 (Christmas comes this [E7/G#]time each year)
@@ -82,4 +83,5 @@ It's the [C]little [C6]Saint [C]Nick ([C6]little [C]Saint [C6]Nick.)
 
 [Am7]Ooh... [D7]
 [Am7]Merry [D7]Christmas Sain[G]t Nick.
+{end_of_part}
 

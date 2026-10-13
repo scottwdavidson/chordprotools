@@ -17,11 +17,12 @@
 {comment:**  meta: label: UndrMyThumb   }
 {comment:***********************************************}
 
-{comment: Intro - with Xylophone}
+{start_of_part: Intro - with Xylophone}
 
 | [F#m] ... | [E] ... | [D] ... | [D] ... |
 
 | [F#m] ... | [E] ... | [D] ... | [D] ... |
+{end_of_part}
 
 
 {start_of_verse}
@@ -75,11 +76,12 @@ she's [D]under my [A]thumb (Ah, take it easy babe. Yeah)
 
 
 
-{comment: Solo}
+{start_of_part: Solo}
 
 | [F#m] ... | [E] ... | [D] ... | [D] ... |
 
 | [F#m] ... | [E] ... | [D] ... | [D] ... |
+{end_of_part}
 
 
 
@@ -110,7 +112,7 @@ She's [D]under my [A]thumb
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 
 [A] Ah say it's alright [A] [A]
 
@@ -136,6 +138,7 @@ She's [D]under my [A]thumb
 
 
 [A] [A]
+{end_of_part}
 
 
 

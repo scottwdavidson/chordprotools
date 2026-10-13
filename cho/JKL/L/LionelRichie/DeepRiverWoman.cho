@@ -3,8 +3,8 @@
 {key: G}
 {tempo: 135}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_chorus}
 [G]De[Bm7]ep River Wo[C]man[C/D]
@@ -54,11 +54,12 @@ I've ever cared for in this world[D]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F]Your kind of love girl [C/E]is foreve[G]r
 [F]It took me a long time [C/E]to real[G]ize
 that I've come [C]so far to en[D]d up going no[G]where
 Girl I n[C]eed [G/B]you by[Am] my side[D]
+{end_of_part}
 
 {start_of_chorus}
 Oh, and [G]De[Bm7]ep River Wo[C]man[C/D]

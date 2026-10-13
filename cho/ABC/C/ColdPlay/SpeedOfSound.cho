@@ -1,8 +1,11 @@
 {title: Speed Of Sound}
 {artist: Coldplay}
 {key: A}
-{tempo: 124}
 {duration: 3:35}
+{tempo: 124}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [Asus] . . . | [Em7] . . . | 
@@ -25,13 +28,13 @@ Up on the side of this mountain of mine?[D]
 {end_of_verse}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 . | [Asus] . . . | [Em7] . . . | 
 . | [Em7]  . . . | [D]   . . . |
 
 . | [Asus] . . . | [Em7] . . . | 
 . | [Em7]  . . . | [D]   . . (Look) |
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 2}
@@ -61,13 +64,13 @@ If you could [F#m]see it then you'd understand[G]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 . | [Asus] . . . | [Em7] . . . | 
 . | [Em7]  . . . | [D]   . . . |
 
 . | [Asus] . . . | [Em7] . . . | 
 . | [Em7]  . . . | [D]   . . (I) |
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 3}
@@ -102,7 +105,7 @@ Ah when you [F#m]see it then you'll understand[G][D]
 . | [D] . . . | [D] . . . | 
 . | [D] . . . | [D] . . . | 
 . | [D] . . . | [D] . . . | 
-{end_of_bridge}
+{end_of_part}
 
 {start_of_part: Pre-Chorus}
 [G] All those signs,[A] I knew what they [Bm]meant

@@ -9,7 +9,7 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] ..     | [E/G#] .. | [D/F#] .. | [A/E] .. |
 | [Dmaj7] .. | [A/C#] .. | [B7] ..  | [E] ..   |
 
@@ -18,6 +18,7 @@
 | [A] ..     | [D/A] ..   | [Amaj7] .. |
 | [D/A] [A] [Bm7/A] | [A] .. | [D/A] .. | [Amaj7] |
 | [D/A] [A] [Bm7/A] |
+{end_of_part}
 
 {start_of_verse}
 It’s [A]nine o’[E/Ab]clock on a [D/Gb]Saturday,[A/E]
@@ -42,11 +43,12 @@ I [D/Gb]knew it [A/E]complete when
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 
 [D/Gb]Da da da [Gbm/E]    de de [B7/Eb]Da         [D]   [D/Gb]   dada [Gbm/E]         dede [B7/Eb]da        [B7]  da [E]da[E/D]
 
 [A/Db] [E7/B]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -79,8 +81,9 @@ If [D]I could get o[E11]ut of this p[A]lace.
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [D/Gb]Da da da [Gbm/E]    de de [B7/Eb]Da         [D]   [D/Gb]   dada [Gbm/E]         dede [B7/Eb]da        [B7]  da [E]da[E/D][E]
+{end_of_part}
 
 
 {start_of_verse}
@@ -104,10 +107,11 @@ But it’s [D]better than [E11]drinking a[A]lone.
 
 
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 
 [D/Gb]Am  [Gbm/E]Am/G  [B7/Eb]D7/F#  [D]F
 [D/Gb]G  G[Gbm/E]/F  C/[B7/Eb]E  G/D[B7]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -139,11 +143,12 @@ And s[D]ay man wh[E11]at are you do[A]ing here?
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [D/Gb]Da da da [Gbm/E]    de de [B7/Eb]Da         [D]    [D/Gb]  dada  [Gbm/E]        dede d[B7/Eb]a         [B7] da da[E][E/D][A/Db][E/B]
 
 
 [A/Db]     [E7/B]
+{end_of_part}
 {start_of_chorus}
 [A]Sing us a [E/Ab]song you’re the [D/Gb]piano man [A/E]
 [D]Sing us a [A/Db]song to[B7]night[E]

@@ -8,8 +8,9 @@
 
 {columns: 2}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [D] [D6] | [Em] | [D] [D6] | [Em] |
+{end_of_part}
 
 {start_of_verse}
 [D]Close your [D6]eyes  [D]   [D6]
@@ -33,7 +34,7 @@
 [Em7]Beautiful, beautiful, beautiful [Bm7]boy
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Bm] Out on the[BmMaj7] ocean,    [Bm7]sailing aw[B7]ay
 [G]I can hardly [D7]wait!
 [G]To see you come of [D7]age!
@@ -41,7 +42,7 @@
 [G]Cause it's a long way to [D7]go
 [G]A hard row to [D7]hoe
 [G]Yes it's a long way to [D7]go but in the mea[A7]ntime...
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 Before you [D]cross the [D6]street[D] [D6]
@@ -65,5 +66,6 @@ Before you [D]cross the [D6]street[D] [D6]
 [Em7]Darling, darling, darling [D6]Sean
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [D] [D6] | [Em] | [D] [D6] | [Em] |
+{end_of_part}

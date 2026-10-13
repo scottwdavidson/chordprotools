@@ -13,12 +13,13 @@
 {comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F]   . . . | [Fmaj7/A] . . . | [Gm7]    . . . | [Bbadd2] . . . |
 | [Am7] . . . | [C]       . . . | [Bbadd2] . . . | [Bbadd2] . . . |
 
 | [F]   . . . | [Fmaj7/A] . . . | [Gm7]    . . . | [Bbadd2] . . . |
 | [Am7] . . . | [C]       . . . | [Bbadd2] . . . | [Bbadd2] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -52,11 +53,12 @@ And though we [Bb]choose between re[F/A]ality and mad[Gm]ness
 It's either [C]sadness or[Bbadd2]  euphoria[Eb]_[Bb]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [F]   . . . | [Fmaj7/A] . . . | [Gm7] . . . | [Bbadd2] . . . |
 | [F]   . . . | [Fmaj7/A] . . . | [Gm7] . . . | [Bbadd2] . . . |
 | [F]   . . . | [Fmaj7/A] . . . | [Gm7] . . . | [Bbadd2] . . . |
 | [C]   . . . | G.      . . . | [C]   . . . |
+{end_of_part}
 
 {start_of_chorus}
 [A/C#]    How [Dm]thoughtlessly we [C]dissipate our [Bbadd2]energies[F/A]

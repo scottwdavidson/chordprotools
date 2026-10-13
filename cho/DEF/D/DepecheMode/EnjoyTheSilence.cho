@@ -2,9 +2,13 @@
 {artist: Depeche Mode}
 {key: Bm}
 
-{comment: Intro - Slow, spacious chords}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro - Slow, spacious chords}
 [Bm] [D] [G] [G]
 [Bm] [D] [G] [G]
+{end_of_part}
 
 {start_of_verse: Verse 1}
 [Bm] Words like violence [D] break the silence
@@ -13,12 +17,12 @@
 [G] Can't you understand, oh my little girl?
 {end_of_verse}
 
-{start_of_bridge: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Em] All I ever wanted, [G] all I ever needed
 Is [Bm] here in my [A] arms
 [Em] Words are very [G] unnecessary
 [Bm] They can only do [A] harm
-{end_of_bridge}
+{end_of_part}
 
 {comment: Interlude}
 [Bm] [D] [G] [G]
@@ -30,33 +34,35 @@ Is [Bm] here in my [A] arms
 [G] Words are meaningless and forgettable
 {end_of_verse}
 
-{start_of_bridge: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Em] All I ever wanted, [G] all I ever needed
 Is [Bm] here in my [A] arms
 [Em] Words are very [G] unnecessary
 [Bm] They can only do [A] harm
-{end_of_bridge}
+{end_of_part}
 
-{comment: Keyboard Solo - Let the chords ring out fully}
+{start_of_part: Keyboard Solo - Let the chords ring out fully}
 [Bm] [D] [G] [G]
 [Bm] [D] [G] [G]
 [Em] [G] [Bm] [A]
+{end_of_part}
 
-{start_of_bridge: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Em] All I ever wanted, [G] all I ever needed
 Is [Bm] here in my [A] arms
 [Em] Words are very [G] unnecessary
 [Bm] They can only do [A] harm
-{end_of_bridge}
+{end_of_part}
 
-{start_of_bridge: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Em] All I ever wanted, [G] all I ever needed
 Is [Bm] here in my [A] arms
 [Em] Words are very [G] unnecessary
 [Bm] They can only do [A] harm
-{end_of_bridge}
+{end_of_part}
 
-{comment: Outro - Fade out on a slow, rolling pattern}
+{start_of_part: Outro - Fade out on a slow, rolling pattern}
 [Bm] Enjoy the [D] silence [G]
 [Bm] Enjoy the [D] silence [G]
 [Bm] Enjoy the [D] silence [G] [Bm]
+{end_of_part}

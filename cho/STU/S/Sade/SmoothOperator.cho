@@ -11,13 +11,14 @@
 {comment:**  meta: countin: 0   }
 {comment:***********************************************}
 
-{comment: Intro - Drum, Bass grace}
+{start_of_part: Intro - Drum, Bass grace}
 | . . . . | . . . . |
 | . . . . | . . . . |
 
 {comment: Bass & Keyboard}
 | [Dm7] . . . | [Em7] . . . | [Dm7] . . . | [Em7] . . . | 
 | [Dm7] . . . | [Em7] . . . | [Dm7] . . . | [Em7] . . . | 
+{end_of_part}
 
 
 {start_of_verse}
@@ -51,24 +52,27 @@ He's a [Dm7]smooth opera[Am7]tor[Gm7][Am7]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Dm7]Coast-to-coast, [Am7]LA t[Gm7]o Chi[Am7]cago
 [Dm7]Western male[Am7][Gm7][Am7]
 A[Dm7]cross the North [Am7]and South, [Gm7]to Key 
 [Am7]Largo:[Dm7]   love for[Am7]   sale[Gm7][Am7]
+{end_of_part}
 
 
-{comment: Bass Solo}
+{start_of_part: Bass Solo}
 | [Dm]  . . . | [Dm]  . . . |
 | [Gm7] . . . | [Am7] . . . |
 | [Dm]  . . . | [Dm]  . . . |
 | [Gm7] . . . | [Am7] . . . |
+{end_of_part}
 
-{comment: Sax Solo}
+{start_of_part: Sax Solo}
 | [Dm] . [Am7] . | [Gm7] . [Am7] . |
 | [Dm] . [Am7] . | [Gm7] . [Am7] . |
 | [Dm] . [Am7] . | [Gm7] . [Am7] . |
 | [Dm] . [Am7] . | [Gm7] . [Am7] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -93,12 +97,13 @@ He's a [Dm7]smooth opera[Am7]tor[Gm7][Am7]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Dm7]Coast-to-coast, [Am7]LA t[Gm7]o Chi[Am7]cago: [Dm7]Western male[Am7][Gm7][Am7]
 A[Dm7]cross the North [Am7]and South, [Gm7]to Key [Am7]Largo: [Dm7]love for sale[Am7][Gm7][Am7]
+{end_of_part}
 
 
-{comment: Outro (Fade Out)}
+{start_of_part: Outro (Fade Out)}
 [Dm7]Smooth opera[Am7]tor[Gm7][Am7]
 [Dm7]Smooth[Am7]   opera[Gm7]tor[Am7]
 [Dm7]Smooth opera[Am7]tor[Gm7][Am7]
@@ -107,3 +112,4 @@ A[Dm7]cross the North [Am7]and South, [Gm7]to Key [Am7]Largo: [Dm7]love for sale
 [Dm7]Smooth[Am7]   opera[Gm7]tor[Am7]
 [Dm7]Smooth opera[Am7]tor[Gm7][Am7]
 [Dm7]Smooth[Am7]   opera[Gm7]tor[Am7]
+{end_of_part}

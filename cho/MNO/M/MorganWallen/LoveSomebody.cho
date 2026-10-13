@@ -17,9 +17,10 @@
 {comment:**  meta: label: Love  Smbody   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . | 
 . | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Em]Rumors goin' all over town
@@ -75,11 +76,12 @@ a somеthin' [Bm]more than just a crazy nigh[Em]t
 I just wanna [C]love some-
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 . | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . | 
 . | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . |
 
 {comment: JEFF double 1st & 3rd lines}
+{end_of_part}
 {start_of_chorus}
 [Em]I just wanna [C]love someb[D]ody ...[Bm]
 [Em]. . I just wanna [C]love someb[D]ody who 
@@ -91,7 +93,8 @@ a somеthin' [Bm]more than just a crazy nigh[Em]t
 I just wanna [C]love some-body
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 . | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . | 
 . | [Em] . . . | [C] . . . | [D] . . . | [Bm] . . . |
 . | [Em] --- |
+{end_of_part}

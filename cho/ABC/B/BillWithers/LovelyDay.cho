@@ -7,11 +7,13 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Bass Intro}
+{start_of_part: Bass Intro}
 || [E]  | [C#m7] | [Amaj9] | [Cmaj7] [Bm7] |
+{end_of_part}
 
-{comment:Keyboard + Bass Intro}
+{start_of_part: Keyboard + Bass Intro}
 | [E]  | [C#m7] | [Amaj9] | [Cmaj7] [Bm7] ||
+{end_of_part}
 
 {start_of_verse}
 [E]When I wake up in the [C#m7]morning love[Amaj7]

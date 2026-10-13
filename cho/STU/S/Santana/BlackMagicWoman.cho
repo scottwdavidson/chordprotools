@@ -7,14 +7,16 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro - organ}
+{start_of_part: Intro - organ}
 | [Dm] | [Dm] | [Dm] | [Dm] |
+{end_of_part}
 
-{comment: Intro - guitar / organ / percussion}
+{start_of_part: Intro - guitar / organ / percussion}
 | [Dm] | [Dm] | [Dm] | [Dm] | x 2
 | [Dm] | [Dm] | [Dm] | [Am] | 
 | [Am] | [Dm] | [Dm] | [Gm] | 
 | [Dm] | [Dm] | [A7] | [Dm] |
+{end_of_part}
 
 {start_of_verse}
 I got a black magic w[Dm]oman, I got a black magic w[Am]oman
@@ -30,10 +32,11 @@ Don't turn your b[Dm]ack on me baby,
 You just mi[A7]ght pick up my magic st[Dm]icks
 {end_of_verse}
 
-{comment: Solo}
+{start_of_part: Solo}
 ||: [Dm] | [Dm] | [Dm] | [Am] | 
   | [Am] | [Dm] | [Dm] | [Gm] | 
   | [Dm] | [Dm] | [A7] | [Dm] :|| x2
+{end_of_part}
 
 {start_of_verse}
 Got your spell on me [Dm]baby, you got your spell on me [Am]baby
@@ -41,10 +44,11 @@ Yes, you got your spell on me [Dm]baby turnin my heart into s[Gm]tone
 I n[Dm]eed you so bad magic w[A7]oman I can't leave you al[Dm]one
 {end_of_verse}
 
-{comment: Outro - organ/guitar}
+{start_of_part: Outro - organ/guitar}
 ||: [Dm] | [Dm] | [Dm] | [Dm] :|| x2
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
   | [D] [A] | [D] [A] | [D] [A] | [D] [A] |
 
 ||: [D] | [D] | [D] | [D] :|| x 9
@@ -52,6 +56,7 @@ I n[Dm]eed you so bad magic w[A7]oman I can't leave you al[Dm]one
     [C] | [G] | [A] | [D] :|| x 3
 ||: [D] | [A] | [C] |
     [C] | [G] | [A] | [D] :|| x 8
+{end_of_part}
 
 
 

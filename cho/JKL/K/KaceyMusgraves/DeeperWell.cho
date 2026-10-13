@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] () ...  |
 | [C] . [G/C] . | [F9] ... | [C] . [G/C] . | [F9] .. * |
+{end_of_part}
 
 {start_of_verse}
 My [C]Saturn has returned
@@ -40,14 +41,14 @@ So I'm [Dm7]sayin' goodbye to the
 [G]time ... [G7] ...
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 But you got [C]dark energy, somethin' 
 [Fmaj7]I can't unsee And I've 
 [C]got to take care of my
 [F]self ... [FM9]
 I [F]found a deeper 
 [C]well . [CM9] .. [F6] ..
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 I [C]used to wake and bake .[G7]..

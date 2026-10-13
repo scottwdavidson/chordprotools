@@ -9,7 +9,7 @@
 {comment:**  meta: nord: N11   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 {comment: Piano Only - first 8 bars}
 |  [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
@@ -33,6 +33,7 @@
 
 
 {comment: Scott Vocals}
+{end_of_part}
 {start_of_verse}
 Don't take her for [Dm]granted, she has a hard [Dm]time.
 Don't misunder[G]stand her or play with her [Dm]mind.
@@ -50,7 +51,7 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 {end_of_verse}
 
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 |  [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
 |   [G]   |  [G]   |  [Dm]  |  [Dm]  |
@@ -63,6 +64,7 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 
 
 {comment: Jeff Vocals}
+{end_of_part}
 {start_of_verse}
 She gets lo[Dm]nely waiting for [Dm]you.
 You are the on[G]ly thing to help her [Dm]through.
@@ -71,7 +73,7 @@ You've got to [Dm]know [A7]she's the sensitive k[Dm]ind.
 {end_of_verse}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 |  [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
 |   [G]   |  [G]   |  [Dm]  |  [Dm]  |
@@ -84,6 +86,7 @@ You've got to [Dm]know [A7]she's the sensitive k[Dm]ind.
 
 
 {comment: Fran Vocals}
+{end_of_part}
 {start_of_verse}
 Tell her you love [Dm]her, each and every [Dm]night.
 And you will discov[G]er she will treat you [Dm]right.
@@ -92,7 +95,7 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 {end_of_verse}
 
 
-{comment: Outro Solos}
+{start_of_part: Outro Solos}
 ||: [Dm]  |  [Dm]  |  [Dm]  |  [Dm]  |  
 
 |   [G]   |  [G]   |  [Dm]  |  [Dm]  |
@@ -100,4 +103,5 @@ There ain't nothing li[Dm]ke [A7]the sensitive ki[Dm]nd.
 |   [Dm]  |  [Dm]  |  [G]   |  [G]  |  
 
 |   [Dm]  |  [A7]  |  [Dm]  |  [Dm]  :||
+{end_of_part}
 

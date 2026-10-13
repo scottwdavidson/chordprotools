@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |
 | [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |
+{end_of_part}
 
 {start_of_verse}
 [Bm]Talking awa[E]y
@@ -43,8 +44,9 @@ I'm [Bm]stumbling away[E]
 In a day or[A] two[Eadd4]...[D6][E]
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 | [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |
+{end_of_part}
 
 {start_of_verse}
 And all [Bm]things that you say[E]
@@ -62,5 +64,6 @@ You're[Bm] shying aw[E]ay
 In a day or[A] two[Eadd4]...[D6][E]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [Bm] . . . | [E] . . . | [A] . . . | [D] . . . |
+{end_of_part}

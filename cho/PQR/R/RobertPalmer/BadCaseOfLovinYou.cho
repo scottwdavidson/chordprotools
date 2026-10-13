@@ -15,13 +15,14 @@
 {comment:**  meta: label: BadCaseLove   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 8 bars
 
 | . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
 
 | . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
+{end_of_part}
 
 
 
@@ -66,7 +67,7 @@ I got a [E5]bad case of [B]lovin' you.
 {end_of_chorus}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 12 bars
 
 | . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
@@ -74,10 +75,11 @@ I got a [E5]bad case of [B]lovin' you.
 | . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
 
 | [A] . . . | . . . . | [B] . . . | . . . . |
+{end_of_part}
 
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [A] I know you like it, (guitar lick over A)
 [E5] You like it on top. (guitar lick over E)
 [A] Tell me ma-[C#m]ma, [B] are you gonna stop?
@@ -87,6 +89,7 @@ I got a [E5]bad case of [B]lovin' you.
 4 bars
 
 | . [E5] . . | [E5] . . [D5/E] | . [E5] . . | [E5] . . [D5/E] |
+{end_of_part}
 
 
 {start_of_verse}
@@ -104,9 +107,10 @@ I got a [E5]bad case of [B]lovin' you.
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 2 bars
 
 | [E5] . . . | . . . . | 
+{end_of_part}
 
 

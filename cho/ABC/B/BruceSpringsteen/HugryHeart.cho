@@ -3,6 +3,9 @@
 {key: C}
 {tempo: 120}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
 [C][Am][Dm7][Gsus4]
 [C][Am][Dm7]
@@ -25,9 +28,9 @@ I went [Dm7]out for a ride and I[Gsus4] never went back
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Am]   Oo[Dm7]h[Gsus4]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse  2}
@@ -46,10 +49,11 @@ Eve[Dm7]rybody's got a hu[Gsus4]ngry   hea[D#]rt
 {end_of_chorus}
 
 
-{comment: Organ Solo}
+{start_of_part: Organ Solo}
 [Cm]   Na na[Fm] na na na na
 [A#] Oh
 [D#]   [Cm]  Na na [Fm]na na na n[G]a
+{end_of_part}
 
 
 {start_of_verse: Verse 3}

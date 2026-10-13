@@ -5,9 +5,9 @@
 {tempo: 110}
 {meta: nord: N52}
 
-{comment: ***********************************************}
-{comment: **  meta: nord: N52   }
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:**  meta: nord: N52   }
+{comment:***********************************************}
 
 {comment: Needs to be edited / verified}
 {start_of_verse}
@@ -38,7 +38,8 @@ Fir[Am7]st wound of pri[Dsus4]de    [D]  [Bm7] but how you cri[Em7]ed and cried
 But[Am7] save your tea[D]rs        [Esus4]   you've got years and yea[E7]rs
 {end_of_verse}
 
-{comment:Solo}
+{start_of_part: Solo}
+{end_of_part}
 
 {start_of_chorus}
 F[Am7]ool if you think it's o[Dsus4]ver[D]

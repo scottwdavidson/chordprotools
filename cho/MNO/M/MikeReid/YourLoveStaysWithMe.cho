@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [D5] / [G] | [D] | [Asus] | [D] | 
+{end_of_part}
 
 {start_of_verse}
 [D5G]It's dark in here, I Fe[D]el so alone
@@ -23,8 +24,9 @@ I'm not [G]alone, I know I'll ne[Bm]ver[A] b[E]e
 [G]Your love [G/A]stays with [D]me
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [D5] / [G] | [D] | [Asus] | [D] | 
+{end_of_part}
 
 {start_of_verse}
 [D5/G]When cold rains fall against my [D]skin
@@ -41,5 +43,6 @@ I'm not [G]alone, I know I'll ne[Bm]ver[A] b[E]e
 [G]Your love [G/A]stays with [D]me
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [D5] / [G] | [D] | [Asus] | [D] | 
+{end_of_part}

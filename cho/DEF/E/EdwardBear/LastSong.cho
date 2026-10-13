@@ -8,8 +8,9 @@
 {comment:**  meta: nord: P55   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . . . | [F#m] . . . |
+{end_of_part}
 
 {start_of_verse}
 Did you k[E]now I'd go to sleep and leave the lights [F#m]on
@@ -51,11 +52,12 @@ But I l[E]ove [F#m7]you
 Oh yes I d[E]o
 {end_of_chorus}
 
-{comment: solo}
+{start_of_part: solo}
 | [E]   . . . | [F#m] . . . |
 | [G#m] . . . | [F#m] . . . |
 | [E]   . . . | [F#m] . . . |
 | [G#m] . . . | [A]  . [B]  . |
+{end_of_part}
 
 {start_of_chorus}
 It's the l[E]ast song I'll ever w[F#m]rite for you
@@ -68,8 +70,9 @@ But I l[E]ove [F#m7]you
 Oh yes I d[E]o
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E] . . . | [F#m] . . . |
 But I l[E]ove [F#m7]you
 Oh yes I d[E]o____[E]
+{end_of_part}
 

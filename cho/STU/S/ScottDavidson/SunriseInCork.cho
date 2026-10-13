@@ -3,10 +3,11 @@
 {key: G}
 {duration: 2:00}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
+{end_of_part}
 
 {start_of_verse}
 [G]. .  [Em]. . [Bm]. . . . 
@@ -37,7 +38,8 @@
 [Am]. . [C/D]. .  [G]. . . . 
 {end_of_verse}
 
-{comment: 2nd chorus, but unique or bridge }
+{start_of_part: 2nd chorus, but unique or bridge}
+{end_of_part}
 {start_of_chorus}
 [Em].  .  .  .       [Am7sus2]. . [Am7]. .  
 [Dsus4]. .  [D7]. .  [G]. . . . 
@@ -52,7 +54,8 @@
 [Am]. . [C/D]. .  [G]. . . . 
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Am]. . [C/D]. .  [G]. . . . 
 [G]. .  [Em]. . [Bm]. . . . 
 [Am]. . [C/D]. .  [G]. . . . 
+{end_of_part}

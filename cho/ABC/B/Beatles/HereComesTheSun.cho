@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [A] | [A] | [D] | [E7] | 
 | [A] | [A] | [D] | [E7] | 
+{end_of_part}
 
 {start_of_chorus}
 [A]Here comes the sun (doo doo doo doo)
@@ -43,14 +44,15 @@
 {comment:Interlude 3/8, 3/8, 5/8 - third inversion}
 | [C] | [G] | [D] | [A] | [E7] | 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C]Sun, [G]sun, [D]sun, here it [A]comes 
 [C]Sun, [G]sun, [D]sun, here it [A]comes 
 [C]Sun, [G]sun, [D]sun, here it [A]comes 
-{end_of_bridge}
+{end_of_part}
 
-{comment:Instrumenetal Bridge}
+{start_of_part: Instrumenetal Bridge}
 | [E7] | [E7sus4] |  [E7] | 
+{end_of_part}
 
 {start_of_verse}
 [A]Little darling, I feel that ice [D]is slowing [E7]melting
@@ -64,5 +66,6 @@
 {end_of_chorus}
 | [D] [A/C#] [Bm7] | [A] [E7] | [A] | [E] | 
 
-{comment:Instrumental Outro 3/8, 3/8, 5/8 - third inversion}
+{start_of_part: Instrumental Outro 3/8, 3/8, 5/8 - third inversion}
 | [C] | [G] | [D] | [A] |
+{end_of_part}

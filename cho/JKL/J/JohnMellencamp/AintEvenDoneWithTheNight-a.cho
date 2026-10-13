@@ -17,7 +17,7 @@
 {comment:**  meta: label: Aint  Done   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] . . . | [A] . . . |
 | [D] . . . | [D] . . . |
 
@@ -32,6 +32,7 @@
 | [D] . . . | [D] . . . |
 | [A] . . . | [A] . . . |
 | [D] . . . | [D] . - - |
+{end_of_part}
 
 
 {start_of_verse}
@@ -42,12 +43,13 @@ And Sam Cooke's [D]singin' on the radio
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F#m]_You say that I'm[D] the boy
 who can [E]make it all come true
 [F#m]_Well, I'm tellin' ya that I[D] don't know
 if [E]I know what to do
 [E7]You say that's al[A]right, hold tight_[F#]
+{end_of_part}
 
 {start_of_chorus}
 Well, I [D]don't even know if I'm [E]doin' this right
@@ -73,11 +75,12 @@ I know it's [D]burnin' you up deep down inside
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [F#m]_You say that I'm[D] the boy
 who can [E]make it all come true
 [F#m]_Well, I'm tellin' ya that I[D] don't know
 if [E]I know what to do
+{end_of_part}
 
 {start_of_chorus}
 You say that's al[A]right, hold tight
@@ -92,13 +95,14 @@ And I [E7]ain't even done with the [F#m]night
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | F#m. . . | [E] . . . |
 | D. . . | [D] . . . |
 | F#m. . . | [D] . . . |
 | E. . . | [E] - - - |
 
 ain't even done with the [A]night, hold tight
+{end_of_part}
 
 
 {start_of_chorus}
@@ -111,7 +115,7 @@ And I [E]ain't even done with the [A]night
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [D] [A]
 [D] No, and ain't even done with the n[A]ight
 [D] No no, ain't even done with the [A]night
@@ -124,3 +128,4 @@ And I [E]ain't even done with the [A]night
 | [A] . . . | [A] . . . |
 | [D] . . . | [D] . . . | (tom drum fill with initial eighth notes)
 | [A] - - - |
+{end_of_part}

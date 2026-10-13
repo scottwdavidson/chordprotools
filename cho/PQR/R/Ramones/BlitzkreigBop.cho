@@ -1,10 +1,13 @@
 {title: Blitzkreig Bop}
 {artist: Ramones}
 {key: A}
-{tempo: 180}
 {duration: 2:12}
+{tempo: 180}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 [A]A [D]D [E]E [A]A [D]D [E]A
 [D]D [E]E [A]A [D]D[E][A]
 [A]
@@ -15,6 +18,7 @@ Hey ho, let's go
 Hey ho, let's go
 [A]Hey ho, let's go
 Hey ho, let's go
+{end_of_part}
 
 
 {start_of_verse}
@@ -69,8 +73,9 @@ They're [A]forming in a straight line
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Hey ho, let's go
 Hey ho, let's go
 [A]Hey ho, let's go
 Hey ho, let's go
+{end_of_part}

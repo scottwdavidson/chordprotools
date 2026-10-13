@@ -17,11 +17,12 @@
 {comment:**  meta: label: IslandInSun   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Em]   [Am]   [D]  [G]Hip, hip.
 [Em]   [Am]   [D]  [G]Hip, hip.
 [Em]   [Am]   [D]  [G]Hip, hip.
 [Em]   [Am]   [D]  [G]Hip, hip.
+{end_of_part}
 
 
 {start_of_verse}
@@ -69,7 +70,7 @@
 [Em]   [Am]   [D]  [G]Hip, hip.
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Em] . [Am] . | [D] . [G] . |
 | [Em] . [Am] . | [D] . [G] . |
 | [Em] . [Am] . | [D] . [G] . |
@@ -81,6 +82,7 @@
 [Em]   [Am]  We'll be play[D]ing and hav[G]ing fun,
 [Em]   [Am]  And it ma[D]kes me feel [G]so fine,
 [Em]  I can't[Am]  control[D] my brain.[G]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -91,7 +93,7 @@ Hip, hip.
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Em]   [Am]   [D]  [G] We'll 
 [Em]never feel bad[Am]  any[D]more.[G]
 [Em]( -- )[Am] ( -- ) [D] ( -- ) [G]No, No.
@@ -101,3 +103,4 @@ ne[Em]ver feel bad[Am]  any[D]more.[G]
 [Em]   [Am]   [D]  [G]No, No.
 [Em]( -- )[Am] ( -- ) [D] ( -- ) [G]
 [Em]( -- )[Am] ( -- ) [D] ( -- ) [G]
+{end_of_part}

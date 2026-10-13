@@ -5,11 +5,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Cm] . . . | [Cm] . . . | 
 | [F7] . . . | [F7] . . . |
 | [Cm] . . . | [Cm] . . . | 
 | [F7] . . . | [F7] . . . |
+{end_of_part}
 
 {start_of_verse}
 Aah, [Cm]everybody, get on the floor
@@ -52,7 +53,7 @@ Oh, [Ab7]shake shake shake, [Bb]shake shake shake
 Shake your [Cm]booty, shake your booty
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Cm]Aah, Shake shake, shake shake, shake your [F7]booty
 
 Aah, don't fight the feeling
@@ -78,3 +79,4 @@ Aah, run down to sister
 
 Aah! do your duty. Aah haa
 [Cm]Shake shake (come on), shake shake (come on)
+{end_of_part}

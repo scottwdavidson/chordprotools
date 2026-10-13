@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 |[Gm][Gm] [Eb]Eb[D7]D7 |
 |[Gm][Gm] [Eb]Eb[D7]D7 |
+{end_of_part}
 
 {start_of_chorus}
 Ha[Gm]vana ooh na [Eb]na[D7]
@@ -59,12 +60,12 @@ My [Eb]heart is in Hav[D7]ana
 Havana ooh na [Gm]na
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Gm]ooh na na [Eb] oh na na n[D7]a (oo-ooh) take me back back back like
 [Gm]ooh na na [Eb] oh na na n[D7]a  (yeah babe) take me back back back like
 [Gm]ooh na na [Eb] oh na na n[D7]a (yeah yeah) take me back back back like
 [Gm]ooh na na [Eb] oh na na n[D7]a (yeah babe) take me back back back
-{end_of_bridge}
+{end_of_part}
 
 {comment: Solos}
 |[Gm][Gm] [Eb]Eb[D7]D7 |
@@ -83,8 +84,9 @@ My [Eb]heart is in Hav[D7]ana
 Havana ooh na [Gm]na
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Gm]    [Eb]oh na na n[D7]a (oh na yeah)
 [Gm]    [Eb]oh na na n[D7]a
 [Gm]    [Eb]oh na na n[D7]a (no no no take me back)
 [Gm]    oh na na na Havana ooh n[Eb]a na[D7]
+{end_of_part}

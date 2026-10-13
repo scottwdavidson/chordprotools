@@ -8,9 +8,10 @@
 {comment:**  meta: nord: O21   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Am] [Bm/D] | [Am7] [Bm/D] |
 | [Am] [Bm/D] | [Am7] [Bm/D] |
+{end_of_part}
 
 {start_of_verse}
 [Am7]Well, no one [D]told me a[Am7]bout [D]her[Am7], 
@@ -57,11 +58,12 @@ But she's not [A7]there
 {end_of_chorus}
 
 {comment: V--E--N--U--S}
-{comment:Intro}
+{start_of_part: Intro}
 | [B7sus4] | [B7sus4] |
 | [Em] [A]   | [Em] [A]   |
 | [B7sus4] | [B7sus4] |
 | [Em] [A]   | [Em] [A]   | [Em] [A] | [Em] [A] |
+{end_of_part}
 
 {start_of_verse}
 A [Em]goddess on a [A]mountain t[Em]op,[A]
@@ -76,9 +78,10 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Em]  [A] | [Em]  [A] | [Em]  [A] | [Em]  [A] |   
 | [Em]  [A] | [Em]  [A] | [Em]  [A] | [Em]    |
+{end_of_part}
 
 {start_of_verse}
 Her [Em]weapons are [A]her crystal ey[Em]es,[A]
@@ -121,6 +124,7 @@ Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 Well,[C] I'm your Venus,[B7] I'm your fire at yo[Em]ur desire.[A][Em][A]
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [B7sus4] | [B7sus4] | [Em] [A]   | [Em]  [A]  | [B7sus4] | [B7sus4] |
 | [Em]     |
+{end_of_part}

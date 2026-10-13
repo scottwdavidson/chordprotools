@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F] | [Gm/F] | [F] | [Gm/F] |
+{end_of_part}
 
 {start_of_verse}
 [F]Everyone she knows is getting [Gm/F]married
@@ -54,14 +55,14 @@ And everyone she [F]knows[Gm/F]
 Everyone [F]she knows[Gm/F]
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [F] She goes out on [Fsus4]Saturday night
 [F] She comes home late, she [Fsus4]don't have to fight
 [F] And she thinks, "Ain't [Fsus4]got it all, but I got it alright"
 And for a [F]minute she's glad that she ain't [Fsus4]like
              F N.C.
 Everyone she knows
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 She's [Dm]bored with all the boys
@@ -75,8 +76,9 @@ And everyone she [F]knows[Gm/F]
 Everyone [F]she knows[Gm/F][F][Gm/F]
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 Everyone she [F]knows[Gm/F][F][Gm/F]
 Everyone she [F]knows[Gm/F][F][Gm/F][F][Gm/F]
 Everyone she [F]knows
+{end_of_part}
 

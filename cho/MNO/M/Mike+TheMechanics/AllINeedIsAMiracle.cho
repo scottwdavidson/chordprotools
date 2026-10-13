@@ -17,10 +17,11 @@
 {comment:**  meta: label: All I Need   }
 {comment:***********************************************}
 
-{comment: Intro ( drums only )}
+{start_of_part: Intro ( drums only )}
 . | . . . . | . . . . | 
+{end_of_part}
 
-{comment: Intro - synth and drums }
+{start_of_part: Intro - synth and drums}
 . | [C]  . . . | [C]  . . . | 
 . | [Bb] . . . | [Bb] . . . |
 . | [Ab] . . . | [Ab] . . . |
@@ -31,13 +32,15 @@
 
 . | [F] . . . | [F] . . . |
 . | [F] . . . | [F] . . . |   
+{end_of_part}
 
-{comment: Intro - full band }
+{start_of_part: Intro - full band}
 . | [F] - [C/F] - [F]    | [F] - [Bb/F] - [C/F] | 
 . | [F] - [C/F] [F] [Bb/F] | [Bb/F]     . . . | 
 
 . | [F] - [C/F] - [F]    | [F] - [Bb/F] - [C/F] | 
 . | [F] - [C/F] [F] [Bb/F] | [Bb/F]     . . . | 
+{end_of_part}
 
 
 {start_of_verse}
@@ -47,9 +50,10 @@ I didn't [Am7]care if you hung around me, I didn't c[Dm7]are if you went away
 I could [Am7]never make up my mind, I made it u[Dm7]p as I went along
 {end_of_verse}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 And though I [Bb]treated you like a [F/C]child,
 I'm gonna [Bb/D]miss you for the rest of my l[F]ife..[C/D].
+{end_of_part}
 
 {start_of_chorus}
 [C]All I need is a [F/A]miracle, All I[C/G] need is y[F]ou (All I need is a miracle)
@@ -64,9 +68,10 @@ I [G]thought I was bein' cool,_[D/G][G] yeah I thought I was bein' strong_[D/G][
 But it's [Bm7]always the same old story, you never kn[Em7]ow what you've got 'til it's gone
 {end_of_verse}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 If I [C]ever catch up with [G/D]you,
 I'm gonna [C/E]love you for the rest of your [G]life.[D/E]..
+{end_of_part}
 
 {start_of_chorus}
 [D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou
@@ -74,15 +79,18 @@ I'm gonna [C/E]love you for the rest of your [G]life.[D/E]..
 [D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou_[C/D]
 {end_of_chorus}
 
-{comment: solo}
+{start_of_part: solo}
 . | [A] . . . | [E] . [A] . | [A] . . . | [E] . [A] . |
 . | [C#m7] . . . | [C#m7] .  .  . | [F#m7] . . . | [F#m7] . . (If I) |
+{end_of_part}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 If I [C]ever catch up with [G/D]you,
 I'm gonna [C/E]love you for the rest of your [G]life.[D/E]..
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou (All I need is a miracle) 
 [D]All I need is a [G/B]miracle, All I[D/A] need is y[G]ou (All I need is a miracle) 

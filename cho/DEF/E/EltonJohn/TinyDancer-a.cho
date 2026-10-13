@@ -15,9 +15,10 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Intro - Main Theme}
+{start_of_part: Intro - Main Theme}
 . |  [A]  .  [D/A]  .  |  [A]  .  [D/A]  .  |
 . |  [A]  .  [D/A]  .  |  [A]  .  [D/A]  .  |
+{end_of_part}
 
 {start_of_verse: Verse (BB-01)}
 [A] Blue jean ba[D/A]by,[A] L.A. [D/A]lady,
@@ -47,7 +48,7 @@
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 . |  [A]  .  [D/A]  .  |  [A]  .  .  .  |
 
 
@@ -56,6 +57,7 @@
 [Em7]lying here with no[Am] one near.
 On[F]ly you, and you can [G]hear me
 When I say [E7/G#]softly [E7/B]slowly  [A/B]
+{end_of_part}
 
 
 {start_of_chorus: Chorus (BB-03)}
@@ -90,7 +92,7 @@ When I say [E7/G#]softly [E7/B]slowly  [A/B]
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 |  [A]  .  [D/A]  .  |  [A]  .  .  .  |
 
 
@@ -99,6 +101,7 @@ When I say [E7/G#]softly [E7/B]slowly  [A/B]
 [Em7]lying here with no[Am] one near.
 On[F]ly you, and you can [G]hear me
 When I say [E7/Ab]softly [E7/B]slowly  [A/B]
+{end_of_part}
 
 
 {start_of_chorus: Chorus (BB-06)}
@@ -116,8 +119,10 @@ When I say [E7/Ab]softly [E7/B]slowly  [A/B]
 {comment: Transition}
 |  [D/F#]  .  .  [E/G#]  |
 
-{comment: Outro - Main Theme}
+{start_of_part: Outro - Main Theme}
 |  [A]  .  [D/A]  .  |  [A]  .  [D/A]  .  |  [A]  .  [D/A]  .  |
+{end_of_part}
 
-{comment: Outro - End}
+{start_of_part: Outro - End}
 |  [A]  .  [D/F#]   [A]  |
+{end_of_part}

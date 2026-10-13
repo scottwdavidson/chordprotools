@@ -1,8 +1,11 @@
 {title: Fix You}
 {artist: Cold Play}
-{tempo: 138}
 {key: Cm}
 {duration: 3:45}
+{tempo: 138}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [Eb] . [Gm] . | [Cm] . [Bb] . |
@@ -66,7 +69,7 @@ When you're too[Eb] in love to [Gm]let it go
 {end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Eb] Tears stream[Ab] down your face
 [Eb] When you lose something [Bbsus]you can[Bb]not replace
 [Cm]  Tears stream[Ab] down your face
@@ -76,7 +79,7 @@ When you're too[Eb] in love to [Gm]let it go
 [Eb] I promise you I will [Gm]learn from my mistakes
 [Cm]  Tears stream[Ab] down your face
 [Eb] And I ....... [Bbsus]-[Bb]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Outro}

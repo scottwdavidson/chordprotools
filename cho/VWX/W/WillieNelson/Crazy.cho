@@ -6,10 +6,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Eb] . .  . | [C7] . .     . | [Fm]  . . .   | [Fm] . . . |
 | [Ab] . [Gm] . | [Fm] . [Edim7] . | [Fm7] . . [Bb7] | [Eb] . - - |
 [B] [E]
+{end_of_part}
 
 
 {start_of_verse}

@@ -2,14 +2,15 @@
 {artist: Fleetwood Mac}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {comment: Guitar Part: capo 3rd fret}
 {comment: Performance Key: Eb}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C]  | [G/B]  | [Am7]  | [G/B]  |  x2
+{end_of_part}
 
 
 {start_of_verse}
@@ -34,11 +35,12 @@ ti[G]me makes you bold[D7/F#]er. [Em]Children get older and
 I’[C]m getting old[G/B]er, [Am7]too. [Am7] [G/B]So...
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [C] | [G/B] | [Am7] | [G/B] |
 | [C] | [G/B] | [Am7] | [G/B] |
 | [C] | [G/B] | [Am7] | [G/B] |
 | [C] | [G/B] | [Am7] | [D7/F#] |
+{end_of_part}
 
 {start_of_chorus}
 [G]I’ve been a[D7/F#]fraid of chang[Em]ing ’cause I
@@ -55,7 +57,8 @@ I’[C]m getting old[G/B]er, [Am7]too. [Am7] [G/B]So...
 [C]landslide will [G/B]bring it do[Am7]wn, [Am7] [G/B]down.
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 And if you [C]see my reflec[G/B]tion in the [Am7] snow covered hil[G/B]ls (hold) well, maybe the
 [C]landslide’ll [G/B]bring it do[Am7]wn. Well, [G/B] well, the
 [C]landslide’ll [G/B]bring it do[Am7]wn.
+{end_of_part}

@@ -1,8 +1,11 @@
 {title: Poster Child}
 {artist: Red Hot Chilli Peppers}
-{tempo: 82}
 {key: G}
 {duration: 4:45}
+{tempo: 82}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 [Em/A]
@@ -80,14 +83,14 @@ Ah [D9]ladadada, bumbumbudum
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Bb]  You[Am]  got me on[Gm7]   this[C9]
 But then I can't get off[D9]
 With no one else but you
 [Bb]You[Am]  turn me on,[Gm7]   too[C9]
 Well, then I can't get up,[D9]  ooh
 For no one else but you
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 5}

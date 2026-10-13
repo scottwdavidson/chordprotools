@@ -6,9 +6,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Asus2]  . . . | [Asus2]  . . . | [F#m11] . . . | [F#m11]   . . . |
 | [D6sus2] . . . | [D6sus2] . . . | [Esus4] . . . | [E] . [Esus4] . . |
+{end_of_part}
 
 {start_of_verse}
 I was [Asus2]standing
@@ -31,10 +32,11 @@ When we're [D6sus4]hungry
 [Esus4]Love will [E]keep us aliv[Asus2]e
 {end_of_verse}
 
-{comment: bridge}
+{start_of_part: bridge}
 I would [D]die for you
 Climb_[F#m] the highest mountain
 [Bm7]Baby, there's nothing I wouldn't [E]do[E/D][E/C#][E/B]
+{end_of_part}
 
 {start_of_verse}
 Now I've [Asus2]found you
@@ -43,14 +45,16 @@ When we're [D6sus4]hungry
 [Esus4]Love will [E]keep us aliv[Asus2]e
 {end_of_verse}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [Asus2]  . . . | [Asus2]  . . . | [F#m11] . . . | [F#m11]   . . . |
 | [D6sus2] . . . | [D6sus2] . . . | [Esus4] . . . | [E] . [Esus4] . . |
+{end_of_part}
 
-{comment: bridge}
+{start_of_part: bridge}
 I would [D]die for you
 Climb_[F#m] the highest mountain
 [Bm7]Baby, there's nothing I wouldn't [E]do[E/D][E/C#][E/B]
+{end_of_part}
 
 {start_of_verse}
 I was [Asus2]standing
@@ -62,8 +66,9 @@ Now you've given me the will[F#m11]_ to survive
 When we're [D6sus2]hungry... [Esus4]love will [E]keep us aliv[Asus2]e
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 [F#m11]When we're [D6sus4]hungry
 [Esus4]Love will [E]keep us a[Asus2]live
 [F#m11]When we're [D6sus4]hungry
 [E]Love will keep us a[Asus2]live[F#m11][D6sus4][E][Asus2]
+{end_of_part}

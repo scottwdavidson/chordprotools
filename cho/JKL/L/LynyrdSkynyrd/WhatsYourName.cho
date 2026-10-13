@@ -15,7 +15,7 @@
 {comment:**  meta: label: Whats YrNam   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | . . . [C] [C#] | [D] . [F] [E] | [D] . [E] [F#] | [G] . . . | [A] [C] [B] [A] |
 
 
@@ -39,9 +39,10 @@ Won't you [A]come upstairs girl,[E] and have a drink of cham[A]pagne
 [C]Shootin' [C#]you s[D]traight, [F]lit[E]tle [D]girl? For there ain't no [G]shame
 [C]What's [C#]your [D]name, [F]lit[E]tle [D]girl? What's your [G]name?
 [C]Shootin' [C#]you s[D]traight, [F]lit[E]tle [D]girl? Won't you do the [G]same?
+{end_of_part}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [A] . . . | [A] . . . | [G] . . . | [A] . . . |
 
 | [A] . . . | [A] . . . | [G] . . . | [A] . . . |
@@ -65,3 +66,4 @@ When I c[A]ome back here next [E]year, I wanna see you aga[A]in
 [C]Shootin' [C#]you s[D]traight, [F]lit[E]tle [D]girl? Well there ain't no [G]shame
 [C]What was [C#]your [D]name, [F]lit[E]tle [D]girl? What's your [G]name?
 [C]Shootin' [C#]you s[D]traight, [F]lit[E]tle [D]girl? Won't you do the [G]same?
+{end_of_part}

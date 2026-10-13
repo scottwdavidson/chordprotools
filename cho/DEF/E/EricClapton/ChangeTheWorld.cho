@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . [F#m7] | [G] | [G] . [F#m7] [E]      | [E] . . . |
 | [E] . [F#m7] | [G] | [G] . [F#m7] [B7sus4] | [B7sus4] . . . |
+{end_of_part}
 
 {start_of_verse}
 [E]If I could [A/E]reach the s[E7]tars
@@ -53,11 +54,12 @@ That I can [F#m7]change[G#7] the [C#m7]world
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 Baby [A7sus4]if I could[E/G#] 
 ch[Gdim7]ange[F#m11]__the wo[E]rld
 | [E] . [F#m7] | [G] | [G] . [F#m7] [E]   | [E] . . . |
 | [E] . [F#m7] | [G] | [G] . [F#m7] [G#7] | [G#7] . . (I could) |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -68,5 +70,6 @@ I could [F#m7]change[G#7] the [C#m7]world
 change[Gdim7]__[G6/9]_the world
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E] . [F#m7] | [G] | [G] . [F#m7] [E]   | [E] . . . |
+{end_of_part}

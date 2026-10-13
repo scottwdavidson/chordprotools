@@ -3,7 +3,11 @@
 {key: C}
 {duration: 3:30}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
+{end_of_part}
 
 {start_of_verse}
 [C]Lately I have had this strangest [Am7]feeling,

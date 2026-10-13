@@ -17,8 +17,9 @@
 {comment:**  meta: label: Watch Wheels   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . | [F] . . . | [C] . . . | [F] . . . | 
+{end_of_part}
 
 {start_of_verse}
 [C]People say I'm crazy[F], doing what I'm [C]doing__
@@ -41,8 +42,9 @@ I really [Am/E]love to watch them [Dm]roll[Dm/C]
 [F]I just [Ab6]had to let it go
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [C] . . . | [F] . . . | [C] . . . | [F] . . . | 
+{end_of_part}
 
 {start_of_verse}
 Ah, [C]people asking questions[F], lost in con[C]fusion__
@@ -51,7 +53,8 @@ Well, I tell them there's no problem[F], only so[C]lutions__
 I [F]told them there's no [Dm]hurry, I'm just [G]sitting here doing [G7]tiiiiiime[G]
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [F]I'm just [G]sitting here watching the [C]wheels go round and [Am]round[F]
 I really [Am/E]love to watch them [Dm]roll[Dm/C]

@@ -19,7 +19,7 @@
 {comment:**  meta: ve: U6   }
 {comment:***********************************************}
 
-{comment: Intro (piano)}
+{start_of_part: Intro (piano)}
 
 
 | [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
@@ -43,6 +43,7 @@
 | [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
 
 | [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
+{end_of_part}
 
 {start_of_verse}
 On a [CM7]morning from a [Bm]Bogart [Em]movie,
@@ -92,15 +93,15 @@ the Year of the [CM7]Cat
 
 | [Am7] .  .  . | [D] . .  . | 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 Well she [B]looks at you so [C]cooly
 and her [G]eyes shine like the [D]moon in the sea.
 She comes in in[B7]cense and path[C]chouli
 so you [G]take her - to [F]find what's [C]waiting in[D]side
 the Year of the [CM7]Cat
-{end_of_bridge}
+{end_of_part}
 
-{comment:Piano (String) Solo}
+{start_of_part: Piano (String) Solo}
 {comment:Verse Turnaround}
 | [CM7] . [D6] [Em] | . . . [D6] | 
 
@@ -112,8 +113,9 @@ the Year of the [CM7]Cat
 
 
 | [Am7] .  .  . | [D] . .  . | 
+{end_of_part}
 
-{comment:1st Guitar Solo}
+{start_of_part: 1st Guitar Solo}
 | [CM7] . [D6] [Em] | . . . [D6] | 
 
 
@@ -131,8 +133,9 @@ the Year of the [CM7]Cat
 | [Emaj7]       | [Am]       | 
 
 | [D6]  [D7]      | [D6]  [D7]   |
+{end_of_part}
 
-{comment:2nd Guitar Solo}
+{start_of_part: 2nd Guitar Solo}
 | [D]           | [GM7]      | 
 
 | [D]           | [GM7]      | 
@@ -141,9 +144,10 @@ the Year of the [CM7]Cat
 | [Bm]          | [B/D#]     | 
 
 | [Em]          | [A/C#]     | [A/C#]  |
+{end_of_part}
 
 
-{comment:Piano (Sax) Solo}
+{start_of_part: Piano (Sax) Solo}
 | [CM7] . [D6] [Em] | . . . [D6] | 
 
 | [CM7] . [D6] [Em] | . . . [D6] | 
@@ -153,6 +157,7 @@ the Year of the [CM7]Cat
 
 
 | [Am7] .  .  . | [D] . .  . | 
+{end_of_part}
 
 {start_of_verse}
 Well [CM7]morning comes and [Bm]you're still with [Em]her
@@ -166,10 +171,11 @@ but for [Am7]now you're gonna stay[D]
 in the Year of the [CM7]Cat.
 {end_of_verse}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
 | [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
 | [CM7] . [D6] [Em] | . . . [D6] | [CM7] . [D6] [Em] | . . . [D6] | 
 | [CM7] . [D6] [Em] | . . . .  | [Am7] .  .  . | [D] . .  . | 
 | [CM7] |
+{end_of_part}
 

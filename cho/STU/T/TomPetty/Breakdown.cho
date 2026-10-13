@@ -15,7 +15,7 @@
 {comment:**  meta: performance: Am   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 {comment: drum / piano}
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
@@ -25,6 +25,7 @@
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
+{end_of_part}
 
 {start_of_verse}
 [Am]It's al[G]right if you [Am]love me,[G]
@@ -52,12 +53,13 @@ Say [Am]there ain't no [G]use in pre[Am]tending,[G]
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
 
-{comment: Guitar/Piano Instrumental}
+{start_of_part: Guitar/Piano Instrumental}
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
 | [F] ...    |
+{end_of_part}
 
 {start_of_chorus}
 [Am]Break[G]down [F]go ahead and [G]give it to me
@@ -67,11 +69,12 @@ Say [Am]there ain't no [G]use in pre[Am]tending,[G]
 ...it's al[F]right,[F6][Fmaj7][F6]
 {end_of_chorus}
 
-{comment: Pre-Outro -> Guitar/Piano}
+{start_of_part: Pre-Outro -> Guitar/Piano}
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
 | [Am] . [G] . | [Am] . [G] . | 
+{end_of_part}
 
 {start_of_verse}
 Say [Am]there ain't no [G]use in pre[Am]tending,[G]

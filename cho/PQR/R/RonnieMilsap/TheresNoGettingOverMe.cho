@@ -13,11 +13,12 @@
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . . . | [C#m] . . . |
 | [E] . . . | [C#m] . . . |
 
 {comment: Ronnie}
+{end_of_part}
 {start_of_verse}
 [E]Well you can walk out on me [C#m]tonight
 If you [E]think that it ain't feeling [C#m]right
@@ -48,11 +49,12 @@ But [F#m]darling there's ain't [B7]no getting over [E]me__[C#m]
 Sweet [F#m]darling there ain't [B7]no getting over [E]me[E/C#m]
 {end_of_verse}
 
-{comment: solo}
+{start_of_part: solo}
 | [E] . . .   | [C#m] . . . |
 | [E] . . .   | [C#m] . . . |
 | [F#m] . . . | [B7] . . . |
 | [E] . . .   | [E/C#] . . . |
+{end_of_part}
 
 {start_of_chorus}
 (Ronnie) I'll be the [C#m]face that you see in the [G#m]crowd
@@ -69,14 +71,16 @@ But [F#m]darling there's ain't [B7]no getting over [E]me_[C#m]
 S[F#m]weet darling there's ain't [B7]no getting over [E]me[E/C#m]
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 No no [C#m]no no 
 no [F#m]Darling there ain't [B7]no getting over [E]me[E/C#m]
 Ooooh mmmm [C#m]mmmm  no [F#m]darling
 There ain't [B7]no getting over [E]me
 [C#m]Ooooh [F#m]darling
 There ain't no [B7]getting over [E]me
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E]   . . . | Cm# . . . | [E] . . . | Cm# . . . |
 | [F#m] . . . | [B7]  . . . | [E] . . . | [E] .  .  . |
+{end_of_part}

@@ -88,7 +88,7 @@ The [A]boys are back in town (The b[C]oys are back in town)
 {end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Bm] Spread the wo[Em]rd around
 [Am] Guess who’s back[C] in town
 
@@ -99,7 +99,7 @@ You spread the [Bm]word around!
 . | [Em] . . . | [Am] . . . | [C] . . . |
 
 . | [Em] . . . | [Em] . . . |
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 3}

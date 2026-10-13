@@ -2,8 +2,8 @@
 {artist: Jon Hume}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_chorus}
 [C]Don't forget whe[G/B]re you came from
@@ -55,6 +55,7 @@ W[F]hen no one else would c[G]are
 [F]Don't forget to [G]sing when you [C]win
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [F]Don't forget t[Fm]o sing when you [C]win
+{end_of_part}
 

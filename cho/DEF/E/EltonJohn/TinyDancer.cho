@@ -15,9 +15,10 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Intro - Main Theme}
+{start_of_part: Intro - Main Theme}
 |  [C]  .  [F/C]  .  |  [C]  .  [F/C]  .  |
 |  [C]  .  [F/C]  .  |  [C]  .  [F/C]  .  |
+{end_of_part}
 
 {start_of_verse}
 [C] Blue jean ba[F/C]by,[C] L.A. [F/C]lady,
@@ -47,7 +48,7 @@
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 |  [C]  .  [F/C]  .  |  [C]  .  .  .  |
 
 
@@ -56,6 +57,7 @@
 [Gm7]lying here with no[Cm] one near.
 On[Ab]ly you, and you can [Bb]hear me
 When I say [G7/B]softly [G7/D]slowly  [C/D]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -89,7 +91,7 @@ When I say [G7/B]softly [G7/D]slowly  [C/D]
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 |  [C]  .  [F/C]  .  |  [C]  .  .  .  |
 
 
@@ -98,6 +100,7 @@ When I say [G7/B]softly [G7/D]slowly  [C/D]
 [Gm7]lying here with no[Cm] one near.
 On[Ab]ly you, and you can [Bb]hear me
 When I say [G7/B]softly [G7/D]slowly  [C/D]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -115,8 +118,10 @@ When I say [G7/B]softly [G7/D]slowly  [C/D]
 {comment: Transition}
 |  [F/A]  .  .  [G/B]  |
 
-{comment: Outro - Main Theme}
+{start_of_part: Outro - Main Theme}
 |  [C]  .  [F/C]  .  |  [C]  .  [F/C]  .  |  [C]  .  [F/C]  .  |
+{end_of_part}
 
-{comment: Outro - End}
+{start_of_part: Outro - End}
 |  [C]  .  [F/C]   [C]  |
+{end_of_part}

@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Gsus] |
+{end_of_part}
 
 {start_of_verse}
 [G]  Sometimes I wonder how I'd ever [C]make it through,
@@ -41,14 +42,15 @@ What a touch of your [Am]hand can do, it's like nothing [D]that I ever knew
 When I [Am]see you smile, baby ... [D]Baby when I see you smile at me
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C]  Sometimes I wanna [G/B]give up, I wanna [Am]give in, I wanna quit the fight[G/B]
 [C]  Then one look at [G/B]you baby, and [D]everything's alright, [D]everything's alright
 So [Em]right...
-{end_of_bridge}
+{end_of_part}
 
-{comment:Solo}
+{start_of_part: Solo}
 |(Em)   | [D/F#]  | [Bm]    | [E]     |
+{end_of_part}
 
 {start_of_chorus}
 [A]  When I [E]see you [D]smile, I can face the [A]world, oh [E]oh, you know [D]I can do anything[E]

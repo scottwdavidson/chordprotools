@@ -11,8 +11,9 @@
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [D] ... | [C] ... | [G] ... | [Asus4] ... | [A] ... |
+{end_of_part}
 
 {start_of_verse}
 [D]Pickin up the [A]pieces of my [F#]sweet shattered d[Bm]rea[A]m,
@@ -74,7 +75,8 @@ Carefree [C]highway,[G]  you've seen [A]better days
 [D] Carefree [C]highway,[G]  let me [Asus4]slip away, [A]slip away on [D]you
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [D] ... | [C] ... | [G] ... | [A] ... |
 | [D] ... | [C] ... | [G] ... | [Asus4] ... | [A] ... |
 | [D] |
+{end_of_part}

@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [E] | 
+{end_of_part}
 
 {start_of_verse}
 [E]Well it was about five to five on a Friday
@@ -50,8 +51,9 @@ Live it up when you get the chance
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 [E] [A][E][B][E]
+{end_of_part}
 
 {start_of_chorus}
 [E]Some days you gotta dance
@@ -61,7 +63,8 @@ Live it up when you get the chance
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 You gotta lo[B]osen up those c[A]hains and da[E]nce
 Come on and lo[B]osen up those c[A]hains and da[E]nce
+{end_of_part}

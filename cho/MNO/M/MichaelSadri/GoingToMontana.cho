@@ -7,12 +7,13 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro (piano)}
+{start_of_part: Intro (piano)}
 | [Am] ... | [Am] . - [G] [Am] | [Dm] .  .  .  | [Dm] . - [C] [Dm] |
 | [Am] ... | [Em] .  .  .  | [Am] . - [G] [Am] | [Am] .  .  .  |
 
 
 {{ Same as original, just played twice --> this is definitely the chorus ! }}
+{end_of_part}
 {start_of_chorus}
 I'm [Am]going to Montana_[G][Am]
 G[Dm]oing to Montana_[C][Dm]
@@ -46,13 +47,14 @@ G[Am]oing to Montana
 To [Em]be by her [Am]side
 {end_of_chorus}
 
-{comment:Piano Solo}
+{start_of_part: Piano Solo}
 | [Am] ... | [Am] ... | [Dm] ... | [Dm] ... |
 | [Am] ... | [Em] ... | [Am] ... | [Am] ... |
 
 {{ NEW }}
 {{ Incorporated portion of original lyrics, reformatted and added new final line "Daydream"}}
-{comment: Bridge}
+{end_of_part}
+{start_of_part: Bridge}
 She's my [C]ship for eve[D]ry shore
 She's my [F]dance for eve[E]ry floor
 She's my [C]swim for eve[D]ry stream
@@ -60,6 +62,7 @@ She's my [F]day for eve[E]ry dream
 
 {{ 3rd Chorus: Change to indicate the journey is finishing *AND* }}
 {{ now the singer is physically close to Montana ( woman ) }}
+{end_of_part}
 {start_of_chorus}
 Getting [Am]close to Montana_[G][Am]
 C[Dm]lose to Montana_[C][Dm]
@@ -78,7 +81,7 @@ To [Em]be by her [Am]side
 [F]My feelings [G]for [Am]you 
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 I'm [Am]holding Montana_[G][Am]
 H[Dm]olding Montana_[C][Dm]
 H[Am]olding Montana
@@ -89,16 +92,19 @@ Love to [Em]be by her [Am]side
 {{ Increase BPM to 146 ( 73 x 2) on Drum Machine }}
 {{ Instrumental Outro }}
 {comment: 73 bpm / double time}
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [Am] [Am] . [G] | [Am] . . . | [F] [F] . [C] | [F] . . . |
 | [Dm] [Dm] . [C] | [Dm] . . . | [E] . . . | [E] . . . | x2
+{end_of_part}
 
 
-{comment: Guitar Solo}
+{start_of_part: Guitar Solo}
 | [Am] [Am] . [G] | [Am] . . . | [F] [F] . [C] | [F] . . . |
 | [Dm] [Dm] . [C] | [Dm] . . . | [E] . . . | [E] . . . | x3
 
 
 {comment: Coda}
 | [Am] [Am] . [G] | [Am] |
+{end_of_part}

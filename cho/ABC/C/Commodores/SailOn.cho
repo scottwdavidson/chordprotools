@@ -5,7 +5,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . . . | [Em] . . . | 
 | [D] . . . | [D]  . . . |
 | [D] . . . | 
@@ -56,3 +56,4 @@ I'm looking for a [D]good [A]time
 [G]Good times neve[F#]r felt so [Em]good
 
 https://www.sheetmusicdirect.com/en-US/se/ID_No/59541/Product.aspx
+{end_of_part}

@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . . . | [F#m] . . . | [G#m] . [F#m] . | [E] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -59,5 +60,6 @@
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E] |
+{end_of_part}

@@ -30,8 +30,9 @@ Our love is a f[Am]lame,[D]  burning with[G]in,[Em]
 now and then f[Am]irelight will c[D]atch us, stumblin` [G]in.[Em]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [Am] | [D] | [G] | [Em] | [Am] | [D] | [G] | [Em] |
+{end_of_part}
 
 {start_of_verse}
 (male)You were so yo[Am]ung, [D]ah, and I was so fr[G]ee,[Em]
@@ -50,7 +51,7 @@ now and then [Am]firelight will c[D]atch us, stumblin` [G]in.[Em]
 {end_of_chorus}
 
 {comment:DUET}
-{comment: Outro}
+{start_of_part: Outro}
 Stumblin` [Am]in,  [D]  stumblin` [G]in,[Em]
 foolishly la[Am]ying our hearts on the t[D]able, stumblin`[G]in..[Em]...
 Ah, stumblin` [Am]in,  [D]  stumblin` [G]in .[Em]..
@@ -59,3 +60,4 @@ Ah, stumblin` [Am]in,  [D]  stumblin` [G]in .[Em]..
 foolishly la[Am]ying our hearts on the ta[D]ble, stumblin` [G]in.[Em]
 Ah, stumblin` [Am]in,  [D]  stumblin` [G]in .[Em]..
 now and then [Am]firelight will c[D]atch us, stumblin` [G]in.[Em]
+{end_of_part}

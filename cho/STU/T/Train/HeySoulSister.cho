@@ -2,10 +2,14 @@
 {artist: Train}
 {key: B}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 [E] Hey[B]
 Hey[C#m]
 Hey[A]
+{end_of_part}
 
 {start_of_verse}
 Your [E]lipstick stains[B] on the front lobe of my [C#m]left side brains
@@ -25,10 +29,11 @@ Tonight[E]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Hey[B]
 Hey[C#m]
 Hey[A]
+{end_of_part}
 
 
 {start_of_verse}
@@ -68,7 +73,7 @@ Tonight[B][E][B]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [A]Hey soul sister
 I[B] don't wanna [E]miss a [B]single [A]thing you do[B]
 Tonight[E]
@@ -80,3 +85,4 @@ Hey[B]
 Hey[C#m]
 Hey[A]
 Tonight[E]
+{end_of_part}

@@ -9,11 +9,12 @@
 {comment:**  meta: nord: M25   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 {comment: F(1st), Am(3rd), D(2nd), Bb(3rd)}
 
 | [F] . . . | [Am] . . . | [Dm] . . .  | [Bb] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -76,8 +77,9 @@ What You [Dm]say of me
 Oh I be[Bb]lieve
 
 
-{comment:Outro}
+{start_of_part: Outro}
 
 {comment: F(1st), Am(3rd), D(2nd), Bb(3rd)}
 
 | [F] . . . | [Am] . . . | [Dm] . . . |[Bb] . [Gm7] . | [F] |
+{end_of_part}

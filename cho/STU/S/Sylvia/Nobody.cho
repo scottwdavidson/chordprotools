@@ -17,11 +17,12 @@
 {comment:**  meta: label: Nobody   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | . [Dm/C]   [C]  . | [Dm/C]   . [C]  . | 
 | . [Bdim/A] [Am] . | [Bdim/A] . [Am] . | 
 | . [Dm/C]   [C]  . | [Dm/C]   . [C]  . | 
 | . [Bdim/A] [Am] . | [Bdim/A] . [Am] . | 
+{end_of_part}
 
 {start_of_verse}
 S[C]itting in a restaurant; she walked by 
@@ -71,9 +72,10 @@ But I can l[Dm]ove you like nobody c[G]an
 even bet[C]ter_[Dm/C][C]_[Dm/C][C]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | . [Dm/C]   [C]  . | [Dm/C] . [C]  . | 
 | . [Em/D]   [Am] . | [Em/D] . [Am] . | 
+{end_of_part}
 
 {start_of_chorus}
 Well your no[Em]body ca[A]lled today 
@@ -86,7 +88,8 @@ But I can l[Em]ove you like nobody c[A]an...
 even [D]better_[Em/D][D]_[Em/D][D]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 Well your no[Em]body ca[A]lled today 
 s[D]he hung [F#m/C]up when I as[Bm]ked her name

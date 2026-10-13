@@ -4,6 +4,9 @@
 {duration: 4:30}
 {tempo: 92}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
 [Emadd9]       [Em]  I know when to go out
 [D9/C]     [C6add9]      And when to stay in
@@ -62,9 +65,10 @@ I'm lying in the rain
 {end_of_part}
 
 
-{comment: Sax Solo 1}
+{start_of_part: Sax Solo 1}
 [C][G][Am7][E7]
 [F][C][G][Em7]
+{end_of_part}
 
 
 {start_of_verse: Verse 3}
@@ -97,7 +101,7 @@ Still standing in the wind
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [C]Modern love walks beside me
 [D7]Modern love walks on by [Em7]Modern love gets me to the [F]church on time
 [C]Church on time terrifies me
@@ -107,10 +111,10 @@ Still standing in the wind
 [D7]God and man no religion
 [Em7]God and man don't believe in [F]modern love
 Modern [C]love
-{end_of_bridge}
+{end_of_part}
 
 
-{comment: Sax Solo 2}
+{start_of_part: Sax Solo 2}
 Modern [D7]love
 Modern [Em7]love
 Modern [F]love
@@ -118,6 +122,7 @@ Modern [C]love
 Modern [D7]love
 Modern [Em7]love
 Modern [F]love
+{end_of_part}
 
 
 {start_of_part: Outro}

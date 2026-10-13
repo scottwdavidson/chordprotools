@@ -9,8 +9,9 @@
 {comment:**  meta: nord: P55   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [C] | [C] | [C] | [F] [G] |
+{end_of_part}
 
 {start_of_verse}
 [C]Sunday morning up with the lark
@@ -64,6 +65,7 @@ Saythat you [E7]love me
 Oh, [G]my, my, [A]my it's a beautiful d[D]ay.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [D]Ha, ha, ha, beautiful Sun[G]day
 This is [A]my, my, my beautiful d[D]ay
+{end_of_part}

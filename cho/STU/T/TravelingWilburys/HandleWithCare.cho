@@ -19,8 +19,9 @@
 {comment:**  meta: ve: P12   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . [D/C] . | [G/B] . [G] . | [D] . [D/C] . | [G/B] . [G] . |
+{end_of_part}
 
 {start_of_verse}
 [D]Been beat [D/C]up and [G/B]battered 'round,_[G]
@@ -36,7 +37,8 @@
 [C]handle me with [D]care
 {end_of_verse}
 
-{comment: Bridge}
+{start_of_part: Bridge}
+{end_of_part}
 {start_of_chorus}
 [G]I'm so [Gaug]tired of [C]being [D]lonely,
 [G]I still [Gaug]have some [C]love to [D]give
@@ -57,8 +59,9 @@ and [D]dream on
 [C]handle [D]me with [G]care
 {end_of_verse}
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 | [D] . [D/C] . | [G/B] . [G] . | [D] . [D/C] . | [G/B] . [G] . |
+{end_of_part}
 
 {start_of_verse}
 [D]Been stuck in [D/C]airports, [G/B]terrorized,_[G]
@@ -67,11 +70,12 @@ and [D]dream on
 [C]handle me with [D]care
 {end_of_verse}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G]I'm so [Gaug]tired of [C]being [D]lonely,
 [G]I still [Gaug]have some [C]love to [D]give
 [G]Won't you [Gaug/B]show me 
 [C]that you [D]really [G]care
+{end_of_part}
 
 {start_of_chorus}
 ([G])Every[C]body's, got somebody, to [G]lean on
@@ -86,10 +90,11 @@ but [D]I'll clean it [D/C]up my[G/B]self, I guess_[G]
 [C]handle [D]me with [G]care
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [D] . [D/C] . | [G/B] . [G] . | [D] . [D/C] . | [G/B] . [G] . |
 | [C] .  .  . | [G] . . [Em]  | [C] . [D]   . | [G] . . .   |
 
 | [D] . [D/C] . | [G/B] . [G] . | [D] . [D/C] . | [G/B] . [G] . |
 | [C] .  .  . | [G] . . [Em]  | 
 [C]handle [D]me with [G]care
+{end_of_part}

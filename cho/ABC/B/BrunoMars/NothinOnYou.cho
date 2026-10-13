@@ -1,9 +1,11 @@
 {title: Nothin On You}
 {artist: Bruno Mars & B.o.B}
 {key: Bb}
-{tempo: 107}
 {duration: 3:45}
+{tempo: 107}
 
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_chorus}
 Beautiful gi[Ebmaj9]rls 
@@ -102,7 +104,7 @@ Yeah
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [Ebmaj7]
 I'm al[Everywhere]ways hearin[I]' your name
 [Cm7]   And no matter where I'm at
@@ -111,7 +113,7 @@ Girl, you make me wanna sing
 Or a car or a train
 [F] No other girl's on my brain
 And you the one to blame/Beautiful girls[Ebmaj7]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus}

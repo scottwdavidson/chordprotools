@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Am] | [Dm] | [Am] | [Dm] |
+{end_of_part}
 
 {start_of_verse}
 I've been [Am]holding on so long.
@@ -46,12 +47,13 @@ Aaah, aaah,[Am]aaah, aaah, aaah, aaah, aaah.
 Aaah, aaah, [Dm]aaah, aaah.
 {end_of_chorus}
 
-{comment: Bridge}
-{start_of_bridge}
+{start_of_part: Bridge}
+{end_of_part}
+{start_of_part: Bridge}
 [F]Oh, [Em]everybody waits so lon[Dm]g.
 [F]Oh [Em]baby, why you wait so lon[Dm]g.
 Won't you, [E]come on! [E]come on![Am][Dm]
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 I've been [Am]walkin Central Park,
@@ -75,7 +77,8 @@ Aaah, aaah,[Am]aaah, aaah, aaah, aaah, aaah.
 Aaah, aaah, [Dm]aaah, aaah.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_verse}
 I won't [Dm]miss you child.
 I guess I'm [Am]lying to myself.

@@ -17,11 +17,12 @@
 {comment:**  meta: label: Never Rains   }
 {comment:***********************************************}
 
-{comment: Intro - 8 bars}
+{start_of_part: Intro - 8 bars}
 
 | [Am] | [D] | [G] | [G] |
 
 | [Am] | [D] | [G] | [G] |
+{end_of_part}
 
 
 {start_of_verse}
@@ -57,11 +58,12 @@ It pou[Am]rs,[D] man, it pou[G]rs.
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 
 | [Am] | [D] | [G] | [G] |
 
 | [Am] | [D] | [G] | [G] |
+{end_of_part}
 
 
 {start_of_verse}
@@ -83,7 +85,7 @@ It pou[Am]rs,[D] man, it pou[G]rs.
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 
 | [Am] | [D] | [G] | [G] |
 
@@ -94,3 +96,4 @@ It pou[Am]rs,[D] man, it pou[G]rs.
 | [Am] | [D] | [G] | [G] |
 
 | [G] | (end on "one")
+{end_of_part}

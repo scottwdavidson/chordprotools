@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [F] | [Am] | [Bb] | [C] | x2
+{end_of_part}
 
 {start_of_verse}
 [F]We never talked abou[Am]t it

@@ -2,11 +2,12 @@
 {artist: Midland}
 {key: D}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [A] [G][D][A][G][D]
+{end_of_part}
 
 {start_of_verse}
 [D]And darlin' I still hear your name
@@ -24,8 +25,9 @@ Don't make no [G]money if I don’t make it there on [A]time
 I've got [G]fourteen gears to get you back in my [D]arms
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 [A] [G][D]
+{end_of_part}
 
 {start_of_verse}
 [D]But if I know that you'll be waitin' there
@@ -43,9 +45,10 @@ Don't make no [G]money if I don't make it there on [A]time
 I've got [G]fourteen gears to get you back in my [D]arms
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Bm]To watch the [A]sunset on the [G]west Arizona sky
 [Bm]To feel the [A]cool wind on a [G]cold El Paso [A]night
+{end_of_part}
 
 {start_of_chorus}
 Hear that Peterbilt [D]whine down the solid white [Em]line
@@ -54,8 +57,10 @@ Don't make no [G]money if I don't make it there on [A]time
 and I've got [G]fourteen gears to get you back in my [D]arms
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 [D] [Em][G][D][D][Em]
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 I've got [G]fourteen gears [A]to get you back in my [D]arms
+{end_of_part}

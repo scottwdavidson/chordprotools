@@ -5,9 +5,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [G] [D/G] [G] | [G] [G4] | [G] [D/G] [G] | [G] [G4] [C/G] [G] |
 | [G] [D/G] [G] | [G4] ... |
+{end_of_part}
 
 {start_of_verse}
 I was w[G]alking down a one way street
@@ -47,13 +48,14 @@ Cause your [C]making me believe it[D] too(---[C][D]---)
 
 {comment: guitar fill}
 
-{comment: Solo}
+{start_of_part: Solo}
 | [G]  | [Bm]  | [C]  | [D]  | [G]  |
+{end_of_part}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [C]I used to have you in a p[G]hotograph  (I'm so glad it's changed)
 [C]But now I've got you and it's [D]gonna last  (Do you believe in love)
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [G]Do [D]you [C]believe in [D]love

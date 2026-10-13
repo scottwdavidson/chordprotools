@@ -2,8 +2,8 @@
 {artist: Midland}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 Well, the [C]pink parachutes, they come on slow
@@ -27,20 +27,23 @@ Where you [C]roll[Dm],    [Em]roll [Dm]away
 Where you [C]roll[Dm],    [Em]roll [Dm]away
 {end_of_verse}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 [C]C [Dm]Dm [Em]Em [Dm]Dm
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 And [F]oh, it's been a long time coming [Em]home
 With that red moon sinking l[Dm]ow
 I say so [C]long
 [F]You know, before that morning [Em]comes
 Just shine that crooked [Dm]sun
 I'll be [C]gone
+{end_of_part}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 [F]F [Em]Em [Dm]Dm [C]C
 F Em Dm C (Hold C)
 
 [C]C [Dm]Dm [Em]Em [Dm]Dm
 [C]C [Dm]Dm [Em]Em [Dm]Dm
+{end_of_part}

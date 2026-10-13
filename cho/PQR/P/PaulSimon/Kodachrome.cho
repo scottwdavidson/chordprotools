@@ -6,8 +6,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] | [D] | [G] | [G7] | [Em] | [A] | [D] | [Em] [A7] |
+{end_of_part}
 
 {start_of_verse}
 When I think [D]back
@@ -48,12 +49,13 @@ I love to take a [G]photograph[C]
 So Mama, don't ta[A]ke my [D7]Kodachrome a[G]way [G][Bm][Em]
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 Mama, don't [G]take my [Bm]Kodachrome a[Em]way
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 [G]Mama, don't take my Kodachrome
 [Bm]Mama, don't take my Kodachrome
 [Em]Mama, don't take my Kodachrome (away)
@@ -64,6 +66,8 @@ Mama, don't [G]take my [Bm]Kodachrome a[Em]way
 
 [G]Mama, don't take my Kodachrome [Bm]whewwwwww
 [Em]Mama, don't take my Kodachrome (away)
+{end_of_part}
 
-{comment: Instrumental Outro}
+{start_of_part: Instrumental Outro}
 ||: [G] | [Bm] | [Em] | [Em] :|| x 3 
+{end_of_part}

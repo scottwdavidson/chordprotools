@@ -4,11 +4,12 @@
 {duration: 3:10}
 {tempo: 110}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 [D]D [Bm]Bm [D]D [Bm]Bm
+{end_of_part}
 
 {start_of_verse}
 Sometimes her jacket smells like [D]cigarette[Bm]s
@@ -50,12 +51,12 @@ It's back in [G/F#]fashion doing [Em]somebody wrong
 [A]She's bringing back [D]cheatin' songs[Bm][D][Bm]
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 Steal g[G]uitars are back in style
 Like [Bm]tears fallin' over her [G]smile
 [Em]Yeah, it's been a while since country music loved a fool
 [A]Running around was cool
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 She's bringing back [G]cheatin' songs

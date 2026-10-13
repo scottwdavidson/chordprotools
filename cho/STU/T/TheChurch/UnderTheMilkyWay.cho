@@ -58,9 +58,10 @@
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 . | [C] . [G] . | [Am] . . . | [C] . [G] . | [Am] . . . | 
 . | [C] . [G] . | [Am] . . . | [C] . [G] . | [Am] . . . | 
+{end_of_part}
 
 {start_of_verse}
 [Am]  And it's [Asus4/F#]something quite pecu[Fmaj7]liar[G]
@@ -79,7 +80,7 @@
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [Am]   [Asus4/F#]         [Fmaj7]      [G]  
 [Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
 [Am]  Under the [Asus4/F#]Milky Way to night[Fmaj7][G]
@@ -94,3 +95,4 @@
 . | [Am] . [A7sus4] . | [Fmaj7/A] . [G] . |
 . | [Am] . [A7sus4] . | [Fmaj7/A] . [G] . |
 . | [Am] ... |
+{end_of_part}

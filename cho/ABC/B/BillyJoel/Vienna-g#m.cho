@@ -4,10 +4,11 @@
 {duration: 3:00}
 {tempo: 63}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: 8-bar Piano Intro}
+{start_of_part: 8-bar Piano Intro}
+{end_of_part}
 
 
 
@@ -64,9 +65,10 @@ When will you [G7]realize
 
 
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [G#m]  [B]  | [F#] [A]  |
 | [E] [B] | [A#m] [D#9sus] [D#] |
+{end_of_part}
 
 
 
@@ -91,10 +93,12 @@ Why don’t you [G7]realize
 | [F] [F#] [G] [G#] |
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [G#7]   When will you [G7]realize
 [F#]  Vienna waits [B]for you
+{end_of_part}
 
 
-{comment: Coda - Intro Instrumental}
+{start_of_part: Coda - Intro Instrumental}
+{end_of_part}
 

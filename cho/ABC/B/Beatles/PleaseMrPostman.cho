@@ -1,12 +1,16 @@
 {title: Please Mr. Postman}
 {artist: The Beatles}
 {key: A}
-{tempo: 122}
 {duration: 2:00}
+{tempo: 122}
 
-{comment: Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: Intro}
 (Wait!) [F#m]Oh yes, wait a minute mister postman.
 (Wait!) [F#m]Wait mister postman.
+{end_of_part}
 
 {start_of_chorus}
 ([A]Mister postman look and see)
@@ -62,7 +66,7 @@ Mister [A]Postman            look and see
 [E]Since I heard from the girlfriend of mine
 (Since I heard from that gal of mine)
 
-{comment: Pre-Outro}
+{start_of_part: Pre-Outro}
  You gotta [A]wait a minute, wait a minute oh yeah
 (You gotta wait a minute, wait a minute Mister Postman)
 [F#m]Wait a minute, wait a minute oh yeah
@@ -71,8 +75,9 @@ Mister [A]Postman            look and see
           (wait a minute, wait a minute Mister Postman)
 [E]check it and see one more time for me
         *clap**clap* *clap*    *clap**clap* *clap*
+{end_of_part}
 
-{comment: Outro - repeat as needed}
+{start_of_part: Outro - repeat as needed}
  You gotta [A]wait a minute, wait a minute oh yeah
 (You gotta wait a minute, wait a minute Mister Postman)
 [F#m]wait a minute, wait a minute oooOOOOooo
@@ -83,3 +88,4 @@ Mister [A]Postman            look and see
 (Gotta wait a minute, wait a minute Mister Postman)
 
 [A]
+{end_of_part}

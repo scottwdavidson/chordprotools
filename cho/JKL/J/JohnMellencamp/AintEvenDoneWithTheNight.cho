@@ -17,7 +17,7 @@
 {comment:**  meta: label: Aint  Done   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [B] . . . | [B] . . . |
 | [E] . . . | [E] . . . |
 | [B] . . . | [B] . . . |
@@ -28,6 +28,7 @@
 | [E] . . . | [E] . . . |
 | [B] . . . | [B] . . . |
 | [E] . . . | [E] . - - |
+{end_of_part}
 
 
 {start_of_verse}
@@ -38,12 +39,13 @@ And Sam Cooke's [E]singin' on the radio
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G#m]_You say that I'm[E] the boy 
 who can [F#]make it all come true
 [G#m]_Well, I'm tellin' ya that I[E] don't know 
 if [F#]I know what to do
 [F#7]You say that's al[B]right, hold tight_[G#]
+{end_of_part}
 
 {start_of_chorus}
 Well, I [E]don't even know if I'm [F#]doin' this right
@@ -66,11 +68,12 @@ I know it's [E]burnin' you up deep down inside
 {end_of_verse}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G#m]_You say that I'm[E] the boy 
 who can [F#]make it all come true
 [G#m]_Well, I'm tellin' ya that I[E] don't know 
 if [F#]I know what to do
+{end_of_part}
 
 {start_of_chorus}
 You say that's al[B]right, hold tight
@@ -85,13 +88,14 @@ And I [F#7]ain't even done with the [G#m]night
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [F#]  . . . | [G#m] . . . | 
 | [F#]  . . . | [F#] . . . | 
 | [F#]  . . . | [G#m] . . . | 
 | [E]   . . . | 
 
 ain't even done with the [B]night, hold tight
+{end_of_part}
 
 
 {start_of_chorus}
@@ -104,7 +108,7 @@ And I [F#]ain't even done with the [B]night
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [E]       [B]      [E]    No, and ain't even done with the n[B]ight
 [E]     No no, ain't even done with the [B]night
 [E]     No, I ain't even done with the [B]night
@@ -120,3 +124,4 @@ And I [F#]ain't even done with the [B]night
 | [E] . . . | [E] . - - |
 
 https://www.sheetmusicdirect.com/en-US/se/ID_No/20619/Product.aspx
+{end_of_part}

@@ -6,9 +6,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [Gmaj7] . . . |
 | [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [G]     . . . |
+{end_of_part}
 
 {start_of_chorus}
 Hey there hey [Cmaj7]lonely girl, [Bm7]my only girl
@@ -49,13 +50,15 @@ Hey there [Cmaj7]lonely girl, [Bm7]lonely girl
 [Am7/D]Don't you know this lonely boy loves y[G]ou 
 {end_of_chorus}
 
-{comment: piano solo}
+{start_of_part: piano solo}
 | [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [Gmaj7] . . . |
 | [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [G]     . . . |
 | [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [Gmaj7] . . . |
 | [Cmaj7] . . . | [Bm7] . . . | [Am7] . . . | [G]     . . . |
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 Hey there hey [Cmaj7]lonely girl, [Bm7]my only girl
 [Am7/D]Let me make your broken heart like [Gmaj7]new

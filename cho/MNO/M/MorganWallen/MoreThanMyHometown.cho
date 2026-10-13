@@ -5,12 +5,13 @@
 {tempo: 126}
 {time: 4/4}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [F]  | [F]  | [Gm] | [Gm] |
 . | [Dm] | [Dm] | [Bb] | [Bb] |
+{end_of_part}
 
 {start_of_verse}
 [F]Girl our mama's are best friends and so are we
@@ -73,9 +74,10 @@ But that [Dm]ain't you and me so I guess I'll see you [Bb]around
 Cause I can't love you more than my hometo[F]wn
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [F]Love you more than my home[Gm]town
 Love you more than my home[Dm]town
 Love you more, baby, [Bb]love you more
 
 . | [F]  | [F]  | 
+{end_of_part}

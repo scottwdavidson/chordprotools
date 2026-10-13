@@ -9,8 +9,9 @@
 {comment:**  meta: nord: P25   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Gm] . [C] . | [Gm] . [C] . | [Gm] . [C] . | 
+{end_of_part}
 
 {start_of_verse}
 [Gm]...You've got to change your evil 
@@ -78,7 +79,8 @@ Lord knows you got to [Gm]change.[C]..[Gm]....[C][Gm][C][Gm][C]
 {comment: Solos}
 | [Gm] . [C] . | [Gm] . [C] . | [Gm] . [C] . | 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 {start_of_chorus}
 [C]I'm getting [Gm]tired of [C]waiting and
 [Gm]fooling a[C]round,

@@ -13,11 +13,12 @@
 {comment:**  meta: backing: BB   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 | [F#] . . . | [F#] . . . | [F#] . . . | [F#] . . . |
 
 | [F#] . . . | [F#] . . . | [F#] . . . | [F#] . . . |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -40,7 +41,7 @@ I ain't [C#7]hidin' from nobody,
 {end_of_verse}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 
 | [F#] . . . | [F#] . . . | [F#] . . . | [F#] . . . |
 
@@ -53,6 +54,7 @@ I ain't [C#7]hidin' from nobody,
 | [C#7] . . . | [C#7] . . . | [B7] . . . | [B7] . . . |
 
 | [F#] . . . | [F#] . . . | [F#] . . . | [F#] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -66,7 +68,7 @@ I don't k[F#]now.  [F#]__ [F#]__
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 
 | [F#] . . . | [F#] . . . | [F#] . . . | [F#] . . . |
 
@@ -79,3 +81,4 @@ I don't k[F#]now.  [F#]__ [F#]__
 | [C#7] . . . | [C#7] . . . | [B7] . . . | [B7] . . . |
 
 | [F#] . . . | [F#] . . . | [F#] . . . | [F#] . . . |
+{end_of_part}

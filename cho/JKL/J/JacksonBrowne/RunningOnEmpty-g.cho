@@ -24,10 +24,11 @@
 {comment: notation: (fret - strings to play)}
 
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 | [C/G] . . . | [G]    . . . | [Em]  . . . | [Em]  . . . | 
 | [C]   . . . | [G/B]  . . . | [D]   . . . | [D]   . . . | 
+{end_of_part}
 
 {start_of_verse}
 [C/G] Looking out at the road 
@@ -68,13 +69,14 @@ But I'm running behind[Em (9th - 1,3)]
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 | [C/G] . . . | [G]    . . . | [Em]  . . . | [Em]  . . . | 
 | [C]   . . . | [G/B]  . . . | [D]   . . . | [D]   . . . | 
+{end_of_part}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Em]  Everyone I [C (17th 3-5)]know, [D (7th - 3-5)] everywhere I [G (open - 3-5)]go
 [Em (9th - 3,4)]   People need some [D (7th - 3,4)]reason to believe[C (5th - 3,4)]
 I don't know about [G (open - 2,3)]anyone but me
@@ -83,6 +85,7 @@ I don't know about [G (open - 2,3)]anyone but me
 
 (On 4th string)
 [C]10 [G/B]9 [Am7]7 [G]5 [Em]2 [D]open 
+{end_of_part}
 
 
 {start_of_verse}
@@ -129,13 +132,15 @@ You know the [C/G]way you look so kind[G]
 {end_of_chorus}
 
 
-{comment: Solo --> Update to match backing }
+{start_of_part: Solo --> Update to match backing}
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
 | [C/G] . . . | [G]    . . . | [C/G] . . . | [G]   . . . | 
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [C/G] . . . | [G]  . . . | [C] [G/B] [Am7] | [G] . . . |
+{end_of_part}

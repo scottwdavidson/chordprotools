@@ -13,15 +13,17 @@
 {comment:**  meta: performance: C   }
 {comment:***********************************************}
 
-{comment: Intro - Acoustic Guitar Only}
+{start_of_part: Intro - Acoustic Guitar Only}
 | [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
+{end_of_part}
 
 
 
 
 
-{comment: Intro - Add Piano}
+{start_of_part: Intro - Add Piano}
 | [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
+{end_of_part}
 
 
 
@@ -72,10 +74,11 @@ is the [F]hardest [C]thing. ([Am]learning to [G]fly)
 
 
 
-{comment: Solo - Electric Guitar}
+{start_of_part: Solo - Electric Guitar}
 | [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
 
 | [F] . [C] . | [Am] . [G] . | [F] . [C] . | [Am] . [G] . |
+{end_of_part}
 
 
 
@@ -130,7 +133,7 @@ a[F]round the [C]clouds,[Am][G]
 [F]must come [C]down.[Am][G]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 
 I'm [F]learning to [C]fly, ([Am]learning to [G]fly)
 [F]     [C]    ([Am]learning to [G]fly)
@@ -145,3 +148,4 @@ I'm [F]learning to [C]fly, ([Am]learning to [G]fly)
 | [F] . [C] . | [Am] . [G] . |
 
 [F]  [C]
+{end_of_part}

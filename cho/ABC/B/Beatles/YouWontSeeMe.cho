@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . . . [A] | [A] [A/G#] [F#] (when [F#/E] I call) |
+{end_of_part}
 
 
 
@@ -46,11 +47,12 @@ And [D]you [A]won't see me
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Time[Bm]  after time
 [Dm]You refuse[Ddim]  to even list[A]en
 [B7]I wouldn't mind
 If I knew [Bm/E]what I was mi[E7]ssing
+{end_of_part}
 
 
 {start_of_verse}
@@ -70,11 +72,12 @@ If [D]you [A]won't see me
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Time[Bm]  after time[Dm]
 You refuse[E7]  to even listen[A]
 I wouldn't[B]mind
 If I knew [Bm]what I was missing[E]
+{end_of_part}
 
 
 {start_of_verse}
@@ -94,5 +97,6 @@ If [D]you [A]won't see me
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 | [A] . . . | [B] . . . | [D] . . . | [A] . . . |
+{end_of_part}

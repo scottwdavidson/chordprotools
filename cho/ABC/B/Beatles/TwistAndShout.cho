@@ -9,10 +9,11 @@
 {comment:**  meta: nord: ???   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] . [G] . | [A] [A7] . .  |
 
 | [D] . [G] . | [A] [A7] . .  |
+{end_of_part}
 
 
 
@@ -79,9 +80,10 @@ And let me know that you're [D]mine  ([G]let me know you're [A]mine- ooooh)
 
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Well shake it, shake it, shake it [D]baby, now  ([G]shake it up [A]baby)
 Well shake it, shake it, shake it [D]baby, now  ([G]shake it up [A]baby)
 Well shake it, shake it, shake it [D]baby, now  ([G]shake it up [A]baby)
 [A]Aah, aah, aah, [A7]aah    [A5]   [A5]   [A#5]    [B5]   [C5]   [C#5]    [D5]     [D9]
+{end_of_part}
 

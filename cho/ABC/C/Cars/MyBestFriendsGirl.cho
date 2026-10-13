@@ -7,7 +7,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F] . . . | [Bb] . [C] . | 
 | [F] . . . | [Bb] . [C] . | 
 | [F] . . . | [Bb] . [C] . | 
@@ -17,6 +17,7 @@
 | [F] . . . | [Bb] . [C] . | 
 | [F] . . . | [Bb] . [C] . | 
 | [F] . . . | [Bb] . [C] (you're) | 
+{end_of_part}
 
 
 {start_of_verse}
@@ -38,9 +39,10 @@ Doesn't know [F]real surprise.[Bb]--[C](here she comes again)
 {end_of_chorus}
 
 
-{comment: Guitar Solo 1}
+{start_of_part: Guitar Solo 1}
 | [F] . . . | [Bb] . [C] . | 
 | [F] . . . | [Bb] . [C] (you've) | 
+{end_of_part}
 
 {start_of_verse}
 [C] You've got your 
@@ -62,11 +64,12 @@ And when you [F]bite your lip,
 {end_of_chorus}
 
 
-{comment: Guitar Solo 2}
+{start_of_part: Guitar Solo 2}
 [F]  [Bb]   [C] She's so[F]fine.
 [Bb]Bb [C]C [F]F [Bb]Bb [C]C [F]F
 [Bb]Bb [C]C [F]F
     Always ddancing down the street,
+{end_of_part}
 
 
 {start_of_verse}
@@ -87,7 +90,7 @@ And when you [F]bite your lip,
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [F]Bb[Bb]   [C] C[F]
   She used to be mine.
 [F]  [Bb]   [C]  [F]  [Bb]  She [C]used to be [F]mine.
@@ -95,3 +98,4 @@ And when you [F]bite your lip,
 
 {comment: Fade Out}
 [Bb]Bb [C]C [F]F [Bb]Bb [C]C[F]
+{end_of_part}

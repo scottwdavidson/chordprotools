@@ -1,8 +1,11 @@
 {title: Die A Happy Man}
 {artist: Thomas Rhett}
 {key: D}
-{tempo: 83}
 {duration: 3:30}
+{tempo: 83}
+
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_part: Intro}
 . | [D]  . [Bm] . | [G] . [D] . |
@@ -64,12 +67,12 @@ Baby, [Bm]I could die a [G]happy [D]man
 {end_of_part}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [G]  [D] I don't [G]need no vacation, no [Gm]fancy destination
 Baby, [D]you're my great es[Bm]cape
 We could [G]stay at home, listen to the [Gm]radio
 [D]Dance around the fireplace
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

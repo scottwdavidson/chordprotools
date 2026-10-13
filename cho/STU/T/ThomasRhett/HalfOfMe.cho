@@ -18,8 +18,9 @@
 {comment:**  meta: label: HalfOf Me   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Am] ... | [D] ... | [G] ... | . |
+{end_of_part}
 
 {start_of_verse}
 [G] I'm supposed to mow the [Am]grass today
@@ -65,12 +66,12 @@ Half of me wants a [Am]cold beer
 
 
 
-{start_of_bridge}
+{start_of_part: Bridge}
 Yeah, yeah[Am]
 [D] Half of me wants a [G]cold beer
 If I did [Am]what I should be doin' but then [D/F#]that would really ruin all the [Em]fun, yeah
 There's a [Am]world of POUR CHOICES out [C]there, but this ain't [D]one
-{end_of_bridge}
+{end_of_part}
 
 
 
@@ -87,7 +88,8 @@ Half of me wants a [Am]cold beer
 
 
 
-{comment:Outro}
+{start_of_part: Outro}
 [Em] Yeah, half of me wants a [Am]cold, cold beer
 [D] The other half wants two
 [G]Woo-hoo!
+{end_of_part}

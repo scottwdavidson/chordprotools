@@ -7,7 +7,7 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 
 
@@ -21,6 +21,7 @@
 | [F] . . . | . . . . | [C] . . . | [A7] . . . |
 
 | [D7/F#] . . . | . . . . | [G7] . . . | . . . . |
+{end_of_part}
 
 
 
@@ -51,7 +52,7 @@ It's gone [C]be another brand new [A7]day.
 
 
 
-{comment: Solo 1 - Piano or Harmonica}
+{start_of_part: Solo 1 - Piano or Harmonica}
 
 | [C] . . . | [F] . . . | [C] . . . | [C7] . . . |
 
@@ -60,11 +61,12 @@ It's gone [C]be another brand new [A7]day.
 | [F] . . . | . . . . | [C] . . . | [A7] . . . |
 
 | [D7/F#] . . . | . . . . | [G7] . . . | . . . . |
+{end_of_part}
 
 
 
 
-{comment: Solo 2 - Kazoos!}
+{start_of_part: Solo 2 - Kazoos!}
 
 | [C] . . . | [F] . . . | [C] . . . | [C7] . . . |
 
@@ -73,6 +75,7 @@ It's gone [C]be another brand new [A7]day.
 | [F] . . . | . . . . | [C] . . . | [A7] . . . |
 
 | [D7/F#] . . . | [G7] . . . | [C] . . . | [G] . . . |
+{end_of_part}
 
 
 
@@ -100,7 +103,7 @@ It's gone [C]be another brand new [A7]day.
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [D7/F#]Walkin' with my baby down
 [G7]By the San Francisco Ba[C]y,  [A7]
 
@@ -116,3 +119,4 @@ Yeah, I'm [D7/F#]Walkin' with my baby down
 (Finish on C7 chord)
 
 [C7]
+{end_of_part}

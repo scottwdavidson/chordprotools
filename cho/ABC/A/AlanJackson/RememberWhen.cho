@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 [G] [Em7][Cadd9][D]
+{end_of_part}
 
 
 {start_of_verse}
@@ -38,7 +39,7 @@ Remember w[G]hen[Cadd9][G][Em7/A][Dsus4/B]
 {end_of_verse}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [G] (when) . . . | [C]  . .    . |
 | G.       . . . | [Am] . [G/B]  . |
 
@@ -53,6 +54,7 @@ Remember w[G]hen[Cadd9][G][Em7/A][Dsus4/B]
 
 | [C]  .   . . | [C]  . . . |
 | [Esus] . . . | [E]  . . . |
+{end_of_part}
 
 
 {start_of_verse}

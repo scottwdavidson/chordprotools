@@ -15,10 +15,11 @@
 {comment:**  meta: label: Money Thats   }
 {comment:***********************************************}
 
-{comment:Intro - piano}
+{start_of_part: Intro - piano}
 | [E] | [E] | [E] | [E] | [A] | [A] | [E] | [E] | [B7] | [A] | [E] | [B7] |
 
 {comment: JEFF VOCAL}
+{end_of_part}
 {start_of_verse}
 [E] The[N.C.] best things in life are free,[A7]
 [E] But[N.C.]you can keep 'em for the birds and bees;
@@ -44,7 +45,7 @@ That's what I [B7]wa...[A7]nt,
 That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {end_of_chorus}
 
-{comment: Piano Solo}
+{start_of_part: Piano Solo}
 | [E]  | [E] | [E] | [E]  | 
 
 | [A]  | [A] | [E] | [E]  | 
@@ -52,6 +53,7 @@ That's [E]what I want, (that's [A7]what I[E] want)[B7].
 | [B7] | [A] | [E] | [B7] |
 
 {comment: CARMEN VOCAL}
+{end_of_part}
 {start_of_verse}
 [E] Mon[N.C.]ey don't get everything it's true,[A7]
 [E] Wha[N.C.]t it don't get I can't use.
@@ -64,7 +66,7 @@ That's what I [B7]wa...[A7]nt,
 That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {end_of_chorus}
 
-{comment: Jeff Guitar Solo}
+{start_of_part: Jeff Guitar Solo}
 | [E]  | [E] | [E] | [E]  | 
 
 | [A]  | [A] | [E] | [E]  | 
@@ -72,6 +74,7 @@ That's [E]what I want, (that's [A7]what I[E] want)[B7].
 | [B7] | [A] | [E] | [B7] |
 
 {comment: CARMEN VOCAL}
+{end_of_part}
 {start_of_verse}
 [E] Mon[N.C.]ey don't get everything it's true,[A7]
 [E] Wha[N.C.]t it don't get I can't use.
@@ -84,7 +87,7 @@ That's what I [B7]wa...[A7]nt,
 That's [E]what I want, (that's [A7]what I[E] want)[B7].
 {end_of_chorus}
 
-{comment: Scott Piano Solo}
+{start_of_part: Scott Piano Solo}
 | [E] | [E] | [E] | [E] | [A] | [A] | [E] | [E] | [B7] | [A] | [E] | [B7] |
 
 {comment: JEFF VOCAL}
@@ -97,4 +100,5 @@ Oh [B7]oh oh oh, [A7]oh oh,[E] yeah, (that's[A7] what [E]I want[B7]).
 Give me [E]money, (that's what I want), lot's of money, (that's what I want).
 Oh, that mean [A7]green, yeah, that's right, baby, that's what I[E] mean[A7].[E]
 Oh [B7]oh oh oh, [A7]oh oh,[E] yeah, (that's[A7] what [E]I want[B7]).
+{end_of_part}
 

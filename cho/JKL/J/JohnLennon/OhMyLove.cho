@@ -7,11 +7,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Bm7] . . . | [C#m7] . . .    | 
 | [Bm7] . . . | [C#m7] . . .    | 
 | [D]   . . . | [C#m]  . . [C#m6] |
 | [Bm7] . . . | [A]    . . .    | 
+{end_of_part}
 
 {start_of_verse}
 [D]Oh my love for the first[C#m7]time in my life
@@ -46,6 +47,7 @@ Oh, [C#m7]I  feel love
 [D]Everything is clear in our [A]world
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [D]   . .      . | [C#m]  . . [C#m6] |
 | [Bm7] . [E9sus4] . | [A]    . . .    | 
+{end_of_part}

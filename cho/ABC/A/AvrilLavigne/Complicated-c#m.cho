@@ -17,12 +17,13 @@
 {comment:**  meta: performance: C#m   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [C#m] [Amaj7]Uh huh...  [E]  [B]Life's like this.
 [C#m] Uh huh, [Amaj7]uh huh... [E] That's the [B]way it is.
 {comment: BB Beat Verse}
 [C#m] [Amaj7]  [E]  'Cause [B]life's like this.
 [C#m] Uh huh, [Amaj7]uh huh... [E] That's the [B]way it is.
+{end_of_part}
 
 {start_of_verse}
 [E] Chill out, what you yellin' for?
@@ -86,8 +87,9 @@ No, no, [E]no..
 {end_of_chorus}
 
 {comment: BB Beat Verse}
-{comment: Bridge}
+{start_of_part: Bridge}
 [C#m]No, no, no... [Aadd9]No, no, no... [B]No, no, no...
+{end_of_part}
 
 {start_of_verse}
 [E] Chill out, what you yellin' for?
@@ -116,8 +118,9 @@ And promise me I'm never gonna find you [A]fake it
 No, no, [E]no..
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 {comment: BB Beat Chorus 1}
+{end_of_part}
 {start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're

@@ -5,11 +5,12 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G]  . . . | [G] . . . |
 | [B]  . . . | [B] . . . | 
 | [C]  . . . | [C] . . . |
 | [Cm] . . . | [Cm] ( when you were here before )
+{end_of_part}
 
 {start_of_verse}
 When you were here before
@@ -51,11 +52,12 @@ I don't belong[Cm]here.
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [G]She's running out the door,[B]
 [C]She's running out
 She's [Cm]run run run run[G]  [B]  [C]run[Cm]
 Whatever makes you hap[G]py
+{end_of_part}
 
 
 {start_of_verse}

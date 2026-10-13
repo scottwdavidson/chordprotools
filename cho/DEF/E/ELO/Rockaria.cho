@@ -2,10 +2,10 @@
 {artist: ELO / Jeff Lynne}
 {key: D}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | 
 
 [D]Just got back from the downtown palais
@@ -70,3 +70,4 @@ I thou[D5]ght I saw the m[E5]ayor there, But I[F#5] wasn't really s[G]ure
 But it's a[D]l- rig[Bm]ht[F#m][A7][D]
          (ohh   ohh ah  Ah Uhhh)
 X
+{end_of_part}

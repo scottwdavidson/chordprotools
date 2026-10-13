@@ -6,9 +6,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . | [Am7] . . . | [F] . . . | [G] . . . |
 | [C] . . . | [Am7] . . . | [F] . . . | [G] . . . |
+{end_of_part}
 
 {start_of_verse}
 [C] She had eyes like [Am]diamonds
@@ -28,7 +29,7 @@ as a summer [F]breeze[G]
 [F/D]And there ain't no [G]more where that came [C]from
 {end_of_verse}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 I must have [F]said to my[Em]self
 There might be [F/D]somebody else out [C]there somewhere[G/B]
 I must have [F]said to my[Em]self
@@ -36,9 +37,11 @@ It's a great big [F/D]world [C]girls are eve[G/B]rywhere
 [F]Oh but now I [G]know[C]
 There was only [Am]one
 [F/D]And there ain't no [G]more where that came [C]from[Am7][F][G]
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 And it [F]ain't like I ain't been [G]trying
 [C]To find [Am7]someone [F/D]there just ain't no [G]more
 [N.C.]Where that came [C]from_[Am7]_[F]
 [G]Oh where that came [C]from_[Am7]_[F]_[G]_[C]
+{end_of_part}

@@ -7,9 +7,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [G] . [Gsus4] . | [G] . [Gsus4] . |
 | [G] . [Gsus4] . | [G] . [Gsus4] . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -37,8 +38,9 @@ And then [C]come and ease[Cmaj7sus2]       the [Am7]pa in[Am7]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 [Em] [B7][Em7][A7][D][Bm7][Am7]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -60,7 +62,7 @@ Or [Am7]is this burn ing an e ternal fla me?
 {end_of_verse}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 [G]Am[Em7][C][D][G][Em7][C][D][Em][B7]
 [Em7]    [A7]I on ly dre [D]am [Bm7]ing [Am7]is this burn ing an e ter nal flame?
 [G]  [Em7]    [C] your hand[D]
@@ -76,3 +78,4 @@ and it's go nna [G]fla me[Em7]
 [Em7]    [A7]   [D]  [Bm7]ming
 [Am7]is this burn ing an e ter nal fla [G]me?[Em7]
 [C]Em[D]7 [G]A7[Em7] D B[C]m7[D][Em][B7]
+{end_of_part}

@@ -2,11 +2,12 @@
 {artist: Pure Prairie League}
 {key: Bb}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Gm]Gm [Dm7]Dm7 [Eb]Eb/G
+{end_of_part}
 
 {start_of_verse}
 [Bb]Dark clouds are [Cm7]blowin in the [F]wind
@@ -38,16 +39,17 @@ Let me [Bb]love [Dm7]you [Cm7]tonight[F]
 I’ll make [Eb/G]everyt[F]hing all [Bb]right[D7]
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 When the [Eb]moon has [Bb]forgotten, what the [Gm]night’s [C7]about
 And the [Eb]stars can’t [Bb]work, their [C7]blaze is [F7]out
 [Eb]Hold [Bb]me, [D7]tighter than [Gm]tight
 When the [C7]daylight comes, it’ll [Eb/G]be all [F]right
-{end_of_bridge}
+{end_of_part}
 
-{comment: Sax Solo}
+{start_of_part: Sax Solo}
 [Gm]Gm [Dm7]Dm7 [Eb]Eb/G
 Dm7 Gm x2 C7 F
+{end_of_part}
 
 {start_of_chorus}
 Let me [Bb]love [Dm7]you [Cm7]tonight[F]

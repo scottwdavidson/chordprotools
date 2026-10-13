@@ -2,13 +2,14 @@
 {artist: Silk Sonic}
 {key: F}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Fmaj7]| / / / / |[G/F]/ / / / |
 [Em7]| / / / / |[Am7]/ / / / |
           (Say baby, say baby, say baby)
+{end_of_part}
 
 {start_of_verse}
 What you [Fmaj7]doin'? (What you doin'?) Where you at? (Where you at?)
@@ -70,11 +71,11 @@ N.C.                        Cmaj7   A7
 Tell me that you’re coming through (Ooh, girl)
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Abadd9]La-la-laaaa-la-la-la-[G7sus4]la (I need you, baby)
 [Abadd9]La-la-laaaa-la-la-la-[G7sus4]la (I gotta see you, baby).....[Key change]
 [Gbadd9]La-la-laaaa-la-la-la-[F7sus4]la (Girl, I'm tryna give you this, ah)
-{end_of_bridge}
+{end_of_part}
 
 [Gb] [Ab][Ab7sus4][Ab]
 
@@ -86,7 +87,7 @@ And you want me like I want you t[Ab7sus4]onight, baby
 Tell me that you’re coming t[Dbmaj7]hrough (W[Bb7]oo!)
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [A]La-la-laaaa-la-la-la-[Ab]la (Tell me)
 Tell me that you're coming t[Dbmaj7]hrough (Woo) (Woo) ( [Bb7]Woo )
 [A]La-la-laaaa-la-la-la-l[Ab]a (La-la-la-la-la)
@@ -98,3 +99,4 @@ Tell me that you're coming [Dbmaj7]through (For you) Girl, I'm here just waiting
 [A]La-la-laaaa-la-la-la-la ...
 
 {comment: fade out}
+{end_of_part}

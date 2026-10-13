@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Em] |
+{end_of_part}
 
 {start_of_verse}
 It's the [Em]time, of the season[Em][G][C]
@@ -53,5 +54,6 @@ Any time (any time)[Em][G][C]
 [Em]It's [D]the [C]time of the [G]season for [C6]lovi[E]ng
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [Em] | [C] |
+{end_of_part}

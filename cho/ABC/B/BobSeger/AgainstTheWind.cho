@@ -19,8 +19,9 @@
 {comment:**  meta: performance: F   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [G] . . . | [G] . . . |
+{end_of_part}
 
 {start_of_verse}
 [G]It seems like yesterday,
@@ -73,7 +74,7 @@ searching for shelter a[D]gain and again.
 I [C]found my[Bm]self seeking [Am]shelter a[C]gainst the [G]wind.
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
 . | [G] (wind) . . | [G] . . . |
 . | [G] .      . . | [G] . . . | 
 
@@ -88,12 +89,14 @@ I [C]found my[Bm]self seeking [Am]shelter a[C]gainst the [G]wind.
 . | [C] ...  | [D] ...  | 
 
 . | [D] ... |
+{end_of_part}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Well those [Em]drifter's [D]days are past me [G]now,
 I've got [Em]so much [C]more to think a[G]bout.
 [Em]Deadlines and [D]commitments[C];
 what to leave in, [D]what to leave out.
+{end_of_part}
 
 {start_of_chorus}
 A[G]gainst the [Bm]wind,[C]
@@ -101,7 +104,7 @@ I'm still running against the [G]wind.
 I'm [C]older [Bm]now but still [Am]running a[C]gainst the [G]wind.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 Well, [C]I'm older [Bm]now but still [D7]running ...
 
 Against the [C]wind
@@ -113,7 +116,8 @@ Against the [G]wind (I m still running against the wind)
 Against the [C]wind (still running)
 Against the [G]wind (running against the wind, running against the wind)
 . | [C] | [G] |
-{comment: End Outro}
+{end_of_part}
+{start_of_part: End Outro}
 
 Against the [C]wind (see the young man run)
 Against the [G]wind (watch the young man run)
@@ -127,3 +131,4 @@ Against the [C]wind (against the wind)
 
 Against the [G]wind (riding against the wind)
 Against the [C]wind
+{end_of_part}

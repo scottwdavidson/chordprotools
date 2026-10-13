@@ -5,12 +5,13 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 {comment: PIANO ONLY}
 {comment:DR-01}
 | [G] | [G] | [G] | [G] | 
 
 {comment: PIANO ONLY}
+{end_of_part}
 {start_of_verse}
 [G]You're on the phone with your girlfriend, she's up[D]set
 She's going off about something that you [Am]said
@@ -72,11 +73,13 @@ You belong with [C]me, you belong ...
 You belong with [C]me, you belong with me[G]
 {end_of_chorus}
 
-{comment: Solo}
-{comment: PIANO SOLO}
+{start_of_part: Solo}
+{end_of_part}
+{start_of_part: PIANO SOLO}
 | [G] | [G] | [D] | [D] | [Am7] | [Am7] | [C] | 
+{end_of_part}
 
-{comment:Bridge}
+{start_of_part: Bridge}
 {comment:DR-07}
 [C]Oh I remember you [Am]drivin' to my house
 In the midd[C]le of the night
@@ -88,6 +91,7 @@ Think I [G]know where you belong
 Think I [D]know it's with me
 
 {comment:DR-08}
+{end_of_part}
 {start_of_chorus}
 Can't you [G]see that I'm the one who understands you
 [D]Been here all along, so why can't you [Am]see?
@@ -100,7 +104,8 @@ You belong with [C]me, you belong with me[G]
 {end_of_chorus}
 
 
-{comment:Outro}
+{start_of_part: Outro}
 You belong with me[D]
 Have you ever thought just may[Am]be
 You belong with me, you belo[C]ng with me[G]
+{end_of_part}

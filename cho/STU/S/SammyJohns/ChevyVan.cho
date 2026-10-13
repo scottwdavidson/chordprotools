@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] [Asus2] [Asus] . | [A] [Asus2] [Asus] . |  
+{end_of_part}
 
 
 {start_of_verse}
@@ -46,9 +47,10 @@ She's gonna love me in my[B7]  Chevy Van And that's[D] all right[E]
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 with me[A][Asus2][Asus4]
 [A] [Asus2][Asus4][A][Asus2][Asus4][A][Asus2][Asus4][A][Asus2][Asus4]
+{end_of_part}
 
 
 {start_of_verse}
@@ -71,7 +73,7 @@ with me[A]
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 Moonlight dancing [D]off her hair[A]
 She woke up and took me [E]by the hand
 She's gonna love me in my[B7]  Chevy Van And that's[D] all right[E]
@@ -83,3 +85,4 @@ with me[A]
 Moonlight dancing [D]off her hair[A]
 She woke up and took me [E]by the hand
 She's gonna love me in my
+{end_of_part}

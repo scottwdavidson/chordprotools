@@ -2,13 +2,14 @@
 {artist: England Dan / John Ford Coley}
 {key: F}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {flow: I V1 V2 C V3 C B C}
 
-{comment:Intro}
+{start_of_part: Intro}
 |[Fmaj7][F]|[Fmaj7][F]|[Gm/F]|[Gm][F/C][C7]|
+{end_of_part}
 
 {start_of_verse}
 [Dm7]Hello,[G] yeah, it's [CM7]been a while.
@@ -38,10 +39,10 @@ Or t[Dm7]ake a dr[G]ive alon[CM7]g the beach.
 You see, it r[G7sus]eally doesn't matter much to me.
 {end_of_verse}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Am]I won't ask for p[Em7]romises,
 [F]So you d[G]on't have to l[C]ie.
 [Am]We've both played that g[Em7]ame before,
 [G7sus]Say I love you, then say g[G7]oodbye.
-{end_of_bridge}
+{end_of_part}
 

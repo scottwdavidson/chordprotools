@@ -10,11 +10,8 @@
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 55   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
-
-
 
 {start_of_part: Intro}
 .| [G] . . . | [Em] . . . | [Bm] . . . | [D] . . . |
@@ -56,12 +53,12 @@ Until I he[G]ar it f[G/F#]rom____ y[Em]ou__.        [D]__________ [Csus2]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [D] I can't let it g[G]et me off
 [C] Or break up my tra[A]in of thought
 [D] As far as I know, no[G]thing's wrong
 [F] Until I [C]hear it from[G] you.
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Solo}

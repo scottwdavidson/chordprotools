@@ -4,6 +4,9 @@
 {duration: 3:00}
 {tempo: 80}
 
+{comment:***********************************************}
+{comment:***********************************************}
+
 {start_of_part: Intro}
 . | [Dm]     . . . | [Gm7] . . [Am7] | 
 . | [Bbmaj7] . . . | [Am7] . . .     |
@@ -33,10 +36,10 @@ The [Am7]way I danced with you
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge 1}
+{start_of_part: Bridge 1}
 . | [Dm]     . . . | [Gm7] . . [Am7] | 
 . | [Bbmaj7] . . . | [Am7] . . .     |
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_verse: Verse 2}
@@ -61,13 +64,13 @@ The [Am7]way I danced with you
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge 2}
+{start_of_part: Bridge 2}
 . | [Dm]     . . . | [Gm7] . . [Am7] | 
 . | [Bbmaj7] . . . | [Am7] . . .     |
 
 . | [Dm]     . . . | [Gm7] . . [Am7] | 
 . | [Bbmaj7] . . . | [Am7] . . .     |
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Interlude}
@@ -94,10 +97,10 @@ The [Am7]way I danced with you[Dm]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge 3}
+{start_of_part: Bridge 3}
 [Gm7]    [Bbmaj7]       [Am7]    [Dm]  Now that you're gone[Gm7]
 Now that you're [Bbmaj7]gone  [Am7]
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Outro}

@@ -11,8 +11,9 @@
 {comment:**  meta: countin: ???   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F] . . . | [F] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -55,7 +56,7 @@
 {end_of_chorus}
 
 
-{comment: Solo}
+{start_of_part: Solo}
 | [F] . . . | [F] . . . | [F] . . . | [C] . . . |
 
 | [Bb] . . . | [Bb] . . . | [Bb] . . . | [F] . . . |
@@ -63,6 +64,7 @@
 | [F] . . . | [F] . . . | [F] . . . | [C] . . . |
 
 | [Bb] . . . | [Bb] . . . | [Bb] . . . | [Fsus4] . [F] . |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -79,7 +81,7 @@
 {end_of_chorus}
 
 
-{comment: Coda - Solo}
+{start_of_part: Coda - Solo}
 | [Dm] . . . | [Bb] . . . | [C] . . . | [C] . . . |
 
 | [Dm] . . . | [Bb] . . . | [C] . . . | [C] . . . |
@@ -99,3 +101,4 @@
 [Dm]  You can call[Bb] it ano[C]ther lonely day.
 
 | [Dm] |
+{end_of_part}

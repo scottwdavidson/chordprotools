@@ -13,8 +13,9 @@
 {comment:**  meta: label: Lyin  Eyes   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [G] ... | [Gmaj] ... | [C] ... | [Am] ... | [D] ... | [G] ... |
+{end_of_part}
 
 {start_of_verse}
 [G] City girls just [Gmaj7] seem to find out [C] early 
@@ -71,7 +72,8 @@ There [Am] ain't no way to [D] hide your lyin [G] eyes
 [Am] Honey you can't [D] hide your lyin [G] eyes
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [G] ... | [Gmaj] ... | [C] ... | [Am] ... | [D] ... | [G] ... |
+{end_of_part}
 
 

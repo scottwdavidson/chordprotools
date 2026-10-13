@@ -2,14 +2,14 @@
 {artist: Michael Sadri}
 {key: C}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 I am going to Montana
 I am going to Montana
 I am going to Montana on a motorcycle ride!!!!!!!!
 
-{comment: Intro}
+{start_of_part: Intro}
 
 I am going to Montana on a motorcycle ride
 from this moment i swear I'm not gonna hide
@@ -31,16 +31,18 @@ So much beauty in all of Texas
 So much beauty in the West Indies
 Nothing comes close to my Montana!!
 Nothing comes close to my Montana!!
+{end_of_part}
 
-{comment: Interlude / Solo}
+{start_of_part: Interlude / Solo}
 
 you can see the Himalayas from the moon
 Nevada Mountains ??????????????????
 Mount McKinely's very high
 but Montana Eagles
 --------------never die
+{end_of_part}
 
-{comment: Interlude / Solo}
+{start_of_part: Interlude / Solo}
 
 There's a key for every door
 A dance for every floor
@@ -53,6 +55,8 @@ And Monatan will always
 Always win you games 
 Montana will always win you games 
 Montana will always win you games
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 

@@ -8,9 +8,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 . | [G]  | [G]  | [Am] | [Am] | 
 . | [Em] | [Em] | [C]  | [C]  |
+{end_of_part}
 
 {start_of_verse}
 [G]Girl our mama's are best friends and so are we
@@ -74,8 +75,9 @@ But that [Em]ain't you and me so I guess I'll see you [C]around
 Cause I can't love you more than my hometo[G]wn
 {end_of_chorus}
 
-{comment: Outro} 
+{start_of_part: Outro}}
 [G]Love you more than my home[Am]town
 Love you more than my home[Em]town
 Love you more, baby, [C]love you more
 . | [G] | [G] | 
+{end_of_part}

@@ -2,8 +2,8 @@
 {artist: Don McLean}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 Starry, starry  nigh[G]t,   [Gsus4]paint [G]your palette blue and[Am7]grey
@@ -31,12 +31,13 @@ How you suffered for your [Am7]sanity, [D7]how you tried to set them f[Em]ree,
 They would not listen, they did not k[A]now how, p[Am7]erhaps [D7]they'll listen n[G]ow
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 For they could not l[Am7]ove you[D7], but still your love was t[G]rue[G/F#][Em]
 And when no h[Am7]ope was left in sight on that s[Cm6]tarry, starry night,
 You t[G]ook your life as l[F7]overs often d[E7]o
 But I c[Am7]ould have told you, Vincent, this w[C]orld was
 Never meant for one as b[D7]eautiful as yo[G]u
+{end_of_part}
 
 {start_of_verse}
 Starry, starry  nigh[G]t, [Gsus4]      [G]         portraits hung in empty h[Am7]alls,

@@ -13,7 +13,7 @@
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 
 
 
@@ -46,6 +46,7 @@
 
 {comment: Electric Guitar Licks}
 | [A] | [Asus2/G] | [D] | [A] |
+{end_of_part}
 
 
 {start_of_verse}
@@ -84,10 +85,11 @@
 
 
 
-{comment: Solo 1}
+{start_of_part: Solo 1}
 | [A] | [Asus2/G] | [D] | [A] |
 
 | [A] | [Asus2/G] | [D] | [A] |
+{end_of_part}
 
 
 
@@ -109,7 +111,7 @@
 
 
 
-{comment: Solo 2}
+{start_of_part: Solo 2}
 | [A] | [Asus2/G] | [D] | [A] |
 
 | [A] | [Asus2/G] | [D] | [A] |
@@ -117,6 +119,7 @@
 
 
 {comment: Softly}
+{end_of_part}
 {start_of_chorus}
 Can't you [A]see, can't you [Asus2/G]see, what that [D]woman, she been doin' to [A]me
 Can't you [A]see, can't you [Asus2/G]see, what that [D]woman, she been doin' to [A]me
@@ -143,14 +146,16 @@ Can't you [A]see, can't you [Asus2/G]see, what that [D]woman, she been doin' to 
 
 
 
-{comment: Solo 3}
+{start_of_part: Solo 3}
 | [A] | [Asus2/G] | [D] | [A] |
 
 | [A] | [Asus2/G] | [D] | [A] |
+{end_of_part}
 
 
 
-{comment: Outro}
+{start_of_part: Outro}
 {comment: Add Flute}
 | [A] | [Asus2/G] | [D] | [A] |
+{end_of_part}
 

@@ -10,7 +10,6 @@
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 67   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 
@@ -54,12 +53,12 @@ Until I he[A]ar it f[A/G#]rom____ y[F#m]ou__.        [E]__________ [Dsus2]
 {end_of_chorus}
 
 
-{start_of_bridge: Bridge}
+{start_of_part: Bridge}
 [E] I can't let it g[A]et me off
 [D] Or break up my tra[B]in of thought
 [E] As far as I know, no[A]thing's wrong
 [G] Until I [D]hear it from[A] you.
-{end_of_bridge}
+{end_of_part}
 
 
 {start_of_part: Solo (Piano lead, Guitar strum)}

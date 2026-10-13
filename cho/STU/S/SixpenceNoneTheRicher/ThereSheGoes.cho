@@ -22,15 +22,17 @@
 {comment: Guitar: acoustic guitar; capo 3rd fret}
 {comment: opening riff starts with an eighth note pickup (D)}
 
-{comment: Piano Intro}
+{start_of_part: Piano Intro}
 | [G]  [D]  | [Cadd9]  [D/F#] | 
 
 | [G]  [D]  | [Cadd9]  [D/F#] |
+{end_of_part}
 
-{comment: Guitar Joins Intro}
+{start_of_part: Guitar Joins Intro}
 | [G]  [D]  | [Cadd9]  [D/F#] | 
 
 | [G]  [D]  | [Cadd9]  [D/F#] |
+{end_of_part}
 
 {start_of_verse}
 [G]There [D]she go[Cadd9]es [D/F#]
@@ -79,7 +81,8 @@ And [Am]I just [G]can't con[C]tain
 This [Am]feeling [G]that re[C]mains [D7]
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 [G]There [D]she go[Cadd9]es [D/F#] (There she goes again)
 [G]There [D]she go[Cadd9]es [D/F#] (There she goes again)
 [G]There [D]she [C]goes ...[D/F#] [G]
+{end_of_part}

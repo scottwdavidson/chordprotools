@@ -9,8 +9,9 @@
 {comment:**  meta: nord: N31   }
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [E] [F#m] | [E]  | [E] [F#m] | [E/G#] | [A]  | [E]  | [A] | [A/B] [B] | 
+{end_of_part}
 
 {start_of_verse}
 W[E]ho doesn't k[F#m7]now what I'm [E]talking about
@@ -47,10 +48,11 @@ She nee[E]ds [F#m]new [A]faces
 She k[B]nows the high s[E]takes she k[F#m7]nows the higher stak[A/B]es [B]
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
 [E]-- [F#m7] | [E]-- | [E]--[F#m7] | [E]--
 [E]Ahh [F#m7]ahh Ah[E]hh 
 [F#m7]Ahh [F#m7/B]ah..[E]ahh
+{end_of_part}
 
 {start_of_verse}
 [E]As her folks drive a[A]way, her dad yells, "C[E]heck the oil!"
@@ -69,5 +71,6 @@ Wide [F#m7]open spac[A]es she [B]knows the high [E]stakes [F#m7]
 [A] she kn[B]ows the high [E]stakes wide [F#m7]open space[A/B]s [B]
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [E] [F#m] | [A] [A/B] | [E] |
+{end_of_part}

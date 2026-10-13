@@ -12,8 +12,9 @@
 {comment:**  meta: countin: 4   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Cmaj7] | [Fmaj7] | [Cmaj7] | [Fmaj7] |
+{end_of_part}
 
 {start_of_verse}
 [Cmaj7]Yeah, you used to talk about [Cmaj7]getting even further South
@@ -32,9 +33,9 @@
 [Dm7]Does it ever make you sad to know,[G]that was seven summers ago?
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Cmaj7]Ooh, ooh-ooh, [Fmaj7]ooh-ooh
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 [Cmaj7]Yeah, I bet your daddy's so proud [Cmaj7]of how his little girl turned out
@@ -67,6 +68,7 @@ Seven summers ago [Cmaj7](Ooh, ooh-ooh, ooh-ooh, [Fmaj7]ooh-ooh)
 [Dm7]Does it ever make you sad to know,[G]that was seven summers ago?
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Cmaj7]Ooh  ... seven summers ago [Fmaj7] (Ooh-ooh, ooh-ooh)
 Seven summers ago [Cmaj7](Ooh, ooh-ooh, ooh-ooh, [Fmaj7]ooh-ooh)
+{end_of_part}

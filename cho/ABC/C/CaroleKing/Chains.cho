@@ -2,12 +2,13 @@
 {artist: Carole King}
 {key: D}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
-{comment: Intro (Start on 5)}
+{start_of_part: Intro (Start on 5)}
 [|] [D] [|] [%] [|] [%] [|] [%] [|]
 [|] [A] [|] [%] [|]
+{end_of_part}
 
 {start_of_chorus}
 [D]Chains, my baby's got me locked up in chains
@@ -29,7 +30,7 @@ and they ain't the [G]kind that you can [D]see
 Oh, these [A]chains of love[G7] got a hold on [D]me, yeah[A]
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 [|] [D] [|] [G]  [|] [D] [|] [%] [|]
 [|] [G] [|] [%]  [|] [D] [|] [%] [|]
 [|] [A] [|] [G7] [|] [D] [|] [A] [|]
@@ -39,6 +40,7 @@ Oh, these [A]chains of love[G7] got a hold on [D]me, yeah[A]
 [|] [G] [|] [%]  [|] [D] [|] [%] [|]
 [|] [G] [|] [%]  [|] [A] [|] [%] [|]
 [|] [G] [|]
+{end_of_part}
 
 {start_of_verse}
 I wanna tell you now baby, your [D]lips they look so sweet
@@ -58,8 +60,9 @@ and they ain't the [G]kind (oh no) that you can [D]see
 Oh, these [A]chains of love[G7] got a hold on [D]me, yeah[A]
 {end_of_chorus}
 
-{comment: Outro (guitar licks in between vocals)}
+{start_of_part: Outro (guitar licks in between vocals)}
 [D]Chains, chains of love, chains of [D]love, chains of [D]love
 
 (8 bars guitar -- change rhythm to be like horn section over D)
 (4x C# to D last time play D7 chord)
+{end_of_part}

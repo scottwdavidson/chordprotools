@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] [A] | [E] [A] | x4
+{end_of_part}
 
 {start_of_verse}
 [E]There used to be a [A]bird that [E]san[A]g
@@ -26,11 +27,12 @@
 [Am7]There was [Bm7]music al[E]l in the air
 {end_of_verse}
 
-{comment: Bridge}
-{start_of_bridge}
+{start_of_part: Bridge}
+{end_of_part}
+{start_of_part: Bridge}
 | ---[G#m7]---------[F#m7]--- | x1
 | -----[B7]----- |
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 [E]But baby since you'[A]ve been [E]gon[A]e
@@ -51,18 +53,20 @@ There was [Am7]music all [Bm7]in the a[E]ir
 [A]And dropped the [G#7]color in thi[C#m]s world of [Am7]grey
 [Am7]Ooh [Bm7]baby[E]
 
-{comment: Instrumental: (16 bars total)}
+{start_of_part: Instrumental: (16 bars total)}
 | [E]    [A]    |  [E]   |    3x
 | [Am7]  [Bm7]  |  [E]   |
 
 | [E]    [A]    |  [E]   |    3x
 | [Am7]  [Bm7]  |  [E]   |
+{end_of_part}
 
-{comment: Bridge 2}
-{start_of_bridge}
+{start_of_part: Bridge 2}
+{end_of_part}
+{start_of_part: Bridge}
 | ---[G#m7]---------[F#m7]--- | x3
 | -----[B7]----- |
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 [E]ooh baby, I can't m[A]ake it on [E]my [A]own
@@ -72,12 +76,14 @@ There was [Am7]music all [Bm7]in the a[E]ir
 [Am7]Witho[Bm7]ut musi[E]c in the air
 {end_of_verse}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Am7]Witho[Bm7]ut musi[E]c - Oh baby
 [Am7]Witho[Bm7]ut musi[E]c- I can't make it girl
 [Am7]Witho[Bm7]ut musi[E]c - Oh in the air
 [Am7]Witho[Bm7]ut musi[E]c- Please baby
 [Am7]Witho[Bm7]ut musi[E]c- All in the air
+{end_of_part}
 
-{comment: Instrumental Outro}
+{start_of_part: Instrumental Outro}
 | [E7]  | [Am7]  [Bm7]  |  [E]  |  x4
+{end_of_part}

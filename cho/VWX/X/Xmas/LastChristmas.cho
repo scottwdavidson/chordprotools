@@ -11,10 +11,11 @@
 {comment:**  meta: performance: C   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C] . . . | [C] . . . | [Am] . . . | [Am] . . . |
 
 | [Dm] . . . | [Dm] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 
@@ -33,10 +34,11 @@ I'll [G]give it to someone special.
 {end_of_chorus}
 
 
-{comment: Keyboard Solo I}
+{start_of_part: Keyboard Solo I}
 | [C] . . . | [C] . . . | [Am] . . . | [Am] . . . |
 
 | [Dm] . . . | [Dm] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -69,10 +71,11 @@ I'll [G]give it to someone special.
 {end_of_chorus}
 
 
-{comment: Keyboard Solo II}
+{start_of_part: Keyboard Solo II}
 | [C] . . . | [C] . . . | [Am] . . . | [Am] . . . |
 
 | [Dm] . . . | [Dm] . . . | [G] . . . | [G] . . . |
+{end_of_part}
 
 
 {start_of_verse}
@@ -98,7 +101,8 @@ I'll [G]give it to someone special.
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
+{end_of_part}
 
 {start_of_chorus}
 [C]Last Christmas I gave you my heart,

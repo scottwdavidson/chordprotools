@@ -15,7 +15,7 @@
 {comment:**  meta: label: HouseRockn   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [C7] . . . | [C7] . . . |
 | [C7] . . . | [C7] . . . |
 
@@ -23,6 +23,7 @@
 {comment: Add Piano}
 | [C7] . . . | [C7] . . . |
 | [C7] . . . | [C7] . . . |
+{end_of_part}
 
 
 {start_of_chorus}
@@ -45,13 +46,14 @@ Yeah the [C7]house is a rockin don't bother knockin
 Yeah the [G7]house is a rockin don't bother come on [C7]in
 {end_of_chorus}
 
-{comment: Piano solo}
+{start_of_part: Piano solo}
 | [C7] <pickup> |
 | [C7] . . . | [C7] . . . | [C7] . . . | [C7] . . . |
 | [F7] . . . | [F7] . . . | [C7] . . . | [C7] . . . |
 | [G7] . . .| [G7] . . .| [C7] . . . | [C7] . . . |
+{end_of_part}
 
-{comment: Guitar solo}
+{start_of_part: Guitar solo}
 | [C7] .  .  .  | [C7] . . . | [C7] . . . | [C7] . . . |
 | [F7] .  .  .  | [F7] . . . | [C7] . . . | [C7] . . . |
 | [G7] .  .  .  | [G7] . . . | [C7] . . . | [C7] . . . |
@@ -60,6 +62,7 @@ Yeah the [G7]house is a rockin don't bother come on [C7]in
 
 {comment: Return to standard blues riff}
 | [C7] .  .  .  | [C7] . . . | 
+{end_of_part}
 
 {start_of_chorus}
 Well the [C7]house is a rockin don't bother knockin
@@ -81,5 +84,6 @@ Yeah the [C7]house is a rockin don't bother knockin
 Well the [G7]house is a rockin don't bother come on [C7]in
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 I said the [G7]House is rockin' don't bother come on [C7]in[C#9][C9]
+{end_of_part}

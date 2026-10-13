@@ -5,10 +5,11 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment:Intro}
+{start_of_part: Intro}
 | [Amaj7] | [Bm7] | x2
 So [Amaj7]long you di[Bm7]d me wrong
 So [Amaj7]long you di[Bm7]d me wrong
+{end_of_part}
 
 {start_of_verse}
 [A]Baby, what you're doing now [Bm7]   you're pissin' me [A]off[Bm7]
@@ -46,10 +47,10 @@ And you can [A]walk those high heels [Bm7]baby out of my life
 [Amaj7]   (So long you [Bm7]did me wrong) 
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 Tell me [C#m7]why, why do you [Cm7]turn the [Bm7]blues skies cloudy grey
 You know [C#m7]why   I can't [Cm7]let you [Bm7]keep..   treatin' me this [E]way
-{end_of_bridge}
+{end_of_part}
 
 {start_of_verse}
 [A]You've been jerkin' me around but [Bm7]uhh, I kept my eyes [A]shut y[Bm7]eah
@@ -61,7 +62,7 @@ Cause you're [A]shaped like an hourglass [Bm7]but I think your time's up
 Well your [C#m7]heart is like a blackened piece of [Bm7]coal now
 and I doubt that you ever had a soul now
 
-{comment:Outro}
+{start_of_part: Outro}
 [A]And you can walk your cold heart [Bm7]baby out of my life
 [Amaj7]   (So long you [Bm7]did me wrong)   
 [A]Yeah you can walk your cold heart [Bm7]baby out of my life
@@ -71,5 +72,6 @@ Just walk it out, [Amaj7]   (So long you [Bm7]did me wrong)
 keep on walkin now.. [Amaj7]   (So long you [Bm7]did me wrong)   
 Leave me alone, [Amaj7]   (So long you [Bm7]did me wrong)   
 I'm better off on my own [Amaj7]   (So long you [Bm7]did me wrong)   
+{end_of_part}
 
 

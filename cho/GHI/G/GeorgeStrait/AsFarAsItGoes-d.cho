@@ -8,9 +8,10 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [D] | [A/D] | [D] | [A/D] |
 | [D] | [A/D] | [G] | [A]   |
+{end_of_part}
 
 {start_of_verse}
 [D]Lately I've [F#m]found myself fa[G]llin'
@@ -44,10 +45,10 @@ But [F#m]after that baby I'm [Em]through[Asus][A7]
 [Em]But that's as [Asus]far [A7]as it [D]goes
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Bm]You've got your [A7]limits I've got [G]mine[D/F#]
 [Em]I'm only gonna go the distance [C7]time after [A7]time
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [D]I'm only g[F#m]onna give you [G]everything[A7]
@@ -58,7 +59,8 @@ But [F#m]after that baby I'm [Em]through[Asus][A7]
 [Em]But that's as [rit][Asus]far [A7]as it [D]goes
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [D] | [F#m] | [G] | [A7] | [D] |
+{end_of_part}
 
 

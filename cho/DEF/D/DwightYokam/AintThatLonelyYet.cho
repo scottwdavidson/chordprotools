@@ -7,8 +7,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F] [C] | [Dm] | [Bb] [C] | [F] [Bb/F] [F] | 
+{end_of_part}
 
 {start_of_verse}
 [F]You keep callin' me [Bb]on the tele[F]phone,
@@ -25,8 +26,9 @@ Guess you're [C7]hungry for [A/C#]some more;[Dm]... girl,
 [F][C/E]After [Dm]what you've put me [A7]through, no, I ain't [Bb]that [C]lonely [F]yet
 {end_of_chorus}
 
-{comment:Instrumental Turnaround}
+{start_of_part: Instrumental Turnaround}
 | [F] [C] | [Dm] | [Bb] [C] | [F] [Bb/F] [F] | 
+{end_of_part}
 
 {start_of_verse}
 [F]Once there was this[Bb] spider in my [F] bed;
@@ -41,10 +43,10 @@ I got [C7]caught up in [A/C#]her [Dm] web, of [Bb]love [C]and [F]lies.
 [C/E]After [Dm]what you've put me [A7]through, no, I ain't [Bb]that [C]lonely [F]yet
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [A7]There's nothing left that you can do to try[Bb] and bring me [F]'-[F]round,[Gm7][F/A]'cause 
 [Bb]ev'rything you do [G7]just brings me down[C], woa [A/C#]and I,
-{end_of_bridge}
+{end_of_part}
 
 {comment:(play 3 times)}
 {start_of_chorus} 

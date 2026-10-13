@@ -9,8 +9,9 @@
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] ... | [D] ... | [A] ... | [Bsus4] ... | [B] ... |
+{end_of_part}
 
 {start_of_verse}
 [E]Pickin up the [B]pieces of my [G#]sweet shattered d[C#m]rea[B]m,
@@ -72,6 +73,7 @@ Carefree [D]highway,[A]  you’ve seen [B]better days
 [E] Carefree [D]highway,[A]  let me [Bsus4]slip away, [B]slip away on [E]you
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E] ... | [D] ... | [A] ... | [B] ... |
 | [E] ... | [D] ... | [A] ... | [Bsus4] ... | [B] ... |
+{end_of_part}

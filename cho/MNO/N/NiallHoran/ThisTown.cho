@@ -2,8 +2,8 @@
 {artist: Niall Horan}
 {key: G}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 [G]Waking up to kiss you and nobody’s there
@@ -55,11 +55,11 @@ Them [Em7]butterflies they come alive when I’m next to you
 [Em7]Mmm-m[D]m-[G]mm
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [Em7]  And I know that it’s w[D/F#]rong
 That I can’t move [G]on
 But there’s something about [Cadd9]you
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 If the [Em7]whole world was watching I’d still dance with you
@@ -70,9 +70,10 @@ You [G]still make me nervous when you walk in the room
 Them [Em7]butterflies they come alive when I’m next to you
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Cadd9]Over and over the only truth
 [Em7]Every[D]thing comes [G]back to [Cadd9]you
 [Em7]Mmm-m[D]m-[G]mm
 [Em7]Every[D]thing comes [G]back to [Cadd9]you
 [Em7]Mmm-m[D]m-[G]mm
+{end_of_part}

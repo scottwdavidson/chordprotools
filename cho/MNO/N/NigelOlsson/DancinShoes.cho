@@ -36,9 +36,10 @@ S[Dm]pin on that wh[G]eel
 S[Dm]pin on that wh[G]eel of ro[C]mance
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
 | [C] . | [Em] . | [F] . | [G] . | x4
 Ah oh [Dm]ah ah ah [C]oh[C/E]
+{end_of_part}
 
 {start_of_verse}
 The f[Am]ace like an angel, she's w[Em]aiting

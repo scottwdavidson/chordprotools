@@ -5,8 +5,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [E] . . . | [E] . . . |
+{end_of_part}
 
 {start_of_verse}
 [E]Get your motor runnin'
@@ -40,12 +41,13 @@ And the feelin' that I'm under
 [G]Fire a[A]ll of your g[E]uns at once and[G] expl[A]ode into sp[E]ace
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Like a t[E]rue nature's child
 We were b[G]orn, born to be wild
 We can c[A]limb so high,[G] I never wanna [E]die
 B[E]orn to be w[D]ild[E][D]
 B[E]orn to be w[D]ild[E][D]
+{end_of_part}
 
 {start_of_verse}
 [E]Get your motor runnin'
@@ -63,12 +65,14 @@ And whatever comes our way
 [G]Fire a[A]ll of your g[E]uns at once and[G] expl[A]ode into sp[E]ace
 {end_of_chorus}
 
-{comment: Bridge}
+{start_of_part: Bridge}
 Like a t[E]rue nature's child
 We were b[G]orn, born to be wild
 We can c[A]limb so high,[G] I never wanna [E]die
 B[E]orn to be w[D]ild[E][D]
 B[E]orn to be w[D]ild[E][D]
+{end_of_part}
 
-{comment: Outro}
+{start_of_part: Outro}
 | [E] . . . | [E] . . . |
+{end_of_part}

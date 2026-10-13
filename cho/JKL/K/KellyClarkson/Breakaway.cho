@@ -18,9 +18,10 @@
 {comment:**  meta: label: Break  Away   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 [Am]Da da da n [G/B]da da, [C]Da da da n [Fsus2]da da
 [Am]Da da da n [G/B]da da da [Fsus2]da[x2]
+{end_of_part}
 
 
 {start_of_verse}
@@ -53,9 +54,10 @@ I'll [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 [Am]Da da da n [G/B]da da, [C]Da da da n [Fsus2]da da
 [Am]Da da da n [G/B]da da da [Fsus2]da
+{end_of_part}
 
 {start_of_verse}
 [Am] Wanna feel the [G/B]warm breeze
@@ -78,14 +80,14 @@ I'll [C]take a risk, take a chance,
 [G] Make a change, and [Am]break [G]aw[Fsus2]ay
 {end_of_chorus}
 
-{start_of_bridge}
+{start_of_part: Bridge}
 [G]Buildings with a hundred floors
 [C] Swinging with re[Fsus2]volving doors
 [G] Maybe I don't know where they'll[C] take[F]me
 [G] Gotta keep movin on[C] movin on
 [F] Fly a[D]way
 Break a[F]way [G]
-{end_of_bridge}
+{end_of_part}
 
 {start_of_chorus}
 [C]I'll spread my wings and I'll [G]learn how to fly.

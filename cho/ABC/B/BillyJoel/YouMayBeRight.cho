@@ -17,9 +17,10 @@
 {comment:**  meta: label: YouMayBeRigh   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [A] ... | [A] ... | [A] ... | [A] ... |
 | [A] ... | [A] ... | 
+{end_of_part}
 
 {start_of_verse}
 [A]Friday night I crashed your party,
@@ -50,8 +51,9 @@ You may be wr[D]ong for all I kn[E]ow,
 but you may be r[A]ight.
 {end_of_chorus}
 
-{comment: Instrumental}
+{start_of_part: Instrumental}
 | [A] ... | [A] ... | [A] ... | 
+{end_of_part}
 
 {start_of_verse}
 Rem[A]ember how I found you there,
@@ -82,13 +84,14 @@ You may be wr[D]ong for all I kn[E]ow,
 but you may be r[A]ight.
 {end_of_chorus}
 
-{comment: Solo}
+{start_of_part: Solo}
 (Jeff Solo)
 | [A]   | [A]   | [A]   | [A]   |
 | [A]   | [A]   | [E]   | [E]   |
 (Scott Solo)
 | [Bm]  | [Bm]  | [G]   | [G]   |
 | [E]   | [E]   | [A]   | [A]
+{end_of_part}
 
 {start_of_chorus}
 You may be r[E]ight,
@@ -101,7 +104,7 @@ You may be wr[D]ong for all I kn[E]ow,
 you may be r[A]ight.
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [A]You may be wrong, but you may be right.
 [A]You may be wrong, but you may be right.
 [A]You may be wrong, but you may be right.
@@ -111,3 +114,4 @@ you may be r[A]ight.
 [A]You may be wrong, but you may be right.
 [A]You may be wrong, but you may be right.
 [A]You may be wrong, but you may be right.
+{end_of_part}

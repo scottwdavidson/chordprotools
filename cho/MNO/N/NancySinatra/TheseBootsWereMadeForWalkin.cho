@@ -11,12 +11,13 @@
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 
-{comment: Intro - Chromatic Walkdown}
+{start_of_part: Intro - Chromatic Walkdown}
 | [E]  .  [D#]  .  | [D]   .  [C#]  .  |  
 | [C]  .  [B]   .  | [A#]  .  [A]   .  |
 
 | [E]  .  .   .  | [E]   .  .   .  | 
 | [E]  .  .   .  | [E]   .  .   .  | 
+{end_of_part}
 
 
 {start_of_verse}
@@ -76,7 +77,7 @@ And [G]that's just what they'll [E]do,
 {end_of_chorus}
 
 
-{comment: Outro}
+{start_of_part: Outro}
 |  [E]  .  [D#]  .  |  [D]  .  [C#]  .  |  [C]  .  [B]  .  |  [A#]  .  [A]  .  |
 
 | [E] . . Are you ready boots? ... Start walkin' . . [E] |
@@ -87,3 +88,4 @@ And [G]that's just what they'll [E]do,
 | [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | [E]  .  .  .  | (repeat)
 
 | [E] |
+{end_of_part}

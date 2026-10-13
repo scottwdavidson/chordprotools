@@ -8,8 +8,9 @@
 {comment:***********************************************}
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [Caug] |
+{end_of_part}
 
 {start_of_verse}
 If you [Gm6]want something to [C7]play with, go
@@ -57,10 +58,11 @@ Just let your conscience be your [F]guide.[Fmaj7][F6][F#dim7]
 Just forget [Gm]your [C7]foolish [F]pride.[Fmaj7][F6]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [C]Ohh, (tell it like it [Gm6]is)..yeaaaaaaah, [C7]tell it to me, baby,
 tell it to me..don't you want to tell me right [F]now?[Fmaj7]
 [C]Yeah, yeah yeah, [Gm6]yeah..(tell it like it is.)
 Ohhh, [F]telll it[Fmaj7], telllll it, ooooohhh, right now.
+{end_of_part}
 
 

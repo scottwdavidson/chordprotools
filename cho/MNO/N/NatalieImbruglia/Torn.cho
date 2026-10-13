@@ -17,8 +17,9 @@
 {comment:**  meta: label: Torn   }
 {comment:***********************************************}
 
-{comment: Intro}
+{start_of_part: Intro}
 | [F5] . . . | [Fsus4] . . . | [F] . . . | [Fsus2]/4 . . . |
+{end_of_part}
 
 {start_of_verse}
 [F]   I thought I saw a man brought to life
@@ -69,7 +70,7 @@ You're a little l[C]ate, I'm already to[Dm]rn[(C)][Bb7]
 {end_of_chorus}
 
 
-{comment: Bridge}
+{start_of_part: Bridge}
 To[Dm]rn..[(C)].    [Bb7]
 [Dm]Oooooooo[Dm]oooh...  Hoo[F]ooooh...  [C]Ooooh
 
@@ -79,6 +80,7 @@ There's [Dm]nothing where he used to lie
 [Am]That's what's going on
 [C]Nothing's right
 I'm to[F]rn
+{end_of_part}
 
 {start_of_chorus}
 [F]  I'm all out of faith[C], this is how I f[Dm]eel
@@ -91,15 +93,17 @@ I'm cold and I'm a[Bb7]shamed, bound and broken on the [F]floor
 You're a little l[C]ate, I'm already to[Dm]rn[(C)][Bb7]
 {end_of_chorus}
 
-{comment: Outro}
+{start_of_part: Outro}
 [Dm]Torn.[C]..  [C] (much wailing)
 
 Ooh...
+{end_of_part}
 
-{comment: Outro/Solo}
+{start_of_part: Outro/Solo}
 | [F] . . . | [C] . . . | [Dm] . . . | [Bb7] . (Oh yea, Oh yea) |
 | [F] . . . | [C] . . . | [Dm] . . . | [Bb7] . (Oh yea, Oh yea) |
 | [F] . . . | [C] . . . | [Dm] . . . | [Bb7] . (Oh yea, Oh yea) |
 | [F] . . . | [C] . . . | [Dm] . . . | [Bb7] . . . |
 
 | [F] |
+{end_of_part}

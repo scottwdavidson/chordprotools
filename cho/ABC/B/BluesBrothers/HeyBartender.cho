@@ -2,8 +2,8 @@
 {artist: Blues Brothers}
 {key: A}
 
-{comment: ***********************************************}
-{comment: ***********************************************}
+{comment:***********************************************}
+{comment:***********************************************}
 
 {start_of_verse}
 [A]I WENT BALLING THE OTHER NIGHT
@@ -29,7 +29,8 @@ I SAID [D]HEY BARTENDER, HEY MAN, LOCKA [A]HERE
 A DRAW O[E]NE, DRAW TWO, DRAW T[D]HREE, FOUR GLASSES OF B[A]EER
 {end_of_chorus}
 
-{comment: SOLO over A}
+{start_of_part: SOLO over A}
+{end_of_part}
 
 {start_of_verse}
 [A]WELL WE WERE HAVING SO MUCH FUN
@@ -50,9 +51,10 @@ A DRAW O[E]NE, DRAW TWO, DRAW T[D]HREE, FOUR GLASSES OF B[A]EER
 [A]lAST ROUND OF ALCOHOL!
 {end_of_verse}
 
-{comment: OUTRO}
+{start_of_part: OUTRO}
 I SAID [D]HEY BARTENDER (HEY BARTENDER)
 [A]HEY BARTENDER (HEY BARTENDER)
 [D]HEY BARTENDER (HEY BARTENDER)
 [A]HEY BARTENDER (HEY BARTENDER)
 A [E]DRAW ONE, TWO, [D]THREE, FOUR GLASSES OF B[A]EER
+{end_of_part}

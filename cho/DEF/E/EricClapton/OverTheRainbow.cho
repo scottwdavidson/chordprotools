@@ -2,8 +2,12 @@
 {artist: Eric Clapton}
 {key: E}
 
-{comment: 4 chord vamp as Intro}
+{comment:***********************************************}
+{comment:***********************************************}
+
+{start_of_part: 4 chord vamp as Intro}
 | [E] | [C#9] | [F#m7] | [B9] |
+{end_of_part}
 
 
 {start_of_verse}

@@ -47,8 +47,9 @@ The way that I wan[C]t to (Ahh)
 If you'd[D] only let it be[G] (Ahh)
 {end_of_chorus}
 
-{comment:Solo}
+{start_of_part: Solo}
 |[G] | [Am7] | [C] | [G] | 
+{end_of_part}
 
 {start_of_verse}
 [G]Now it took time for me to know
@@ -74,6 +75,7 @@ The way that I wan[C]t to (Ahh)
 If you'd[D] only let it be[G] (Ahh)
 {end_of_chorus}
 
-{comment:Outro}
+{start_of_part: Outro}
 | [G] | [G] | [Am7] | [C] | 
 | [G] | [G] | [Am7] | [C] | 
+{end_of_part}
