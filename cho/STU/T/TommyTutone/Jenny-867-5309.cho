@@ -39,10 +39,11 @@ Hey!
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [E] Jenny I've [E7]got your num[E]ber.
 [E] I need to [A5]make you [D5]mi - [A5]ne.
 [E] Jenny don't [E7]change your [E]number.
+{end_of_part}
 
 
 {start_of_chorus}
@@ -61,10 +62,11 @@ I tried [F#m]my imagi[D5]nation _[A5]___ but [B5]I was dis[F#m]turbed.____[D5]__
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [E] Jenny I've [E7]got your num[E]ber.
 [E] I need to [A5]make you [D5]mi - [A5]ne.
 [E] Jenny don't [E7]change your [E]number.
+{end_of_part}
 
 
 {start_of_chorus}
@@ -98,10 +100,11 @@ For a [F#m]good time, for a [A]good time [B]call!
 
 Hey!
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [E] Jenny don't [E7]change your num[E]ber.
 [E] I need to [A5]make you [D5]mi - [A5]ne.
 [E] Jenny I [E7]called your [E]number.
+{end_of_part}
 {end_of_part}
 
 

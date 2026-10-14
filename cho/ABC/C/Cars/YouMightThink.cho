@@ -24,9 +24,10 @@ To [A]have something to do.
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [D] But I [Bm]think [A]that you're wild,
 [G] In[Bm]side me [A]is some child.[G]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -46,9 +47,10 @@ And [A]everything's so deep.
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [D] But I [Bm]think [A]that you're wild,
 [G] When you [Bm]flash that [A]fragile [G]smile.
+{end_of_part}
 
 
 {start_of_chorus}
@@ -82,9 +84,10 @@ The [A]way I run you down.
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [D] Oh, I [Bm]think [A]that you're wild,
 [G] And [Bm]so oh oh un[A]iquely [G]styled.
+{end_of_part}
 
 
 {start_of_chorus}

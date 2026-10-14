@@ -27,7 +27,7 @@ Is but a [A]game and they let it slip a[E]way[Esus4][E]
 [E]Love, like [G#m7]the autumn sun
 Should be [A]dyin' but it's only just be[E]gun[Esus4][E]
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Fmaj7]     Like the twilight in the [Cmaj7]road up ahead
 [Fmaj7]     They don't see just where we're [Cmaj7]goin'
 [Fmaj7]     All the secrets in the [Cmaj7]universe
@@ -35,6 +35,7 @@ Should be [A]dyin' but it's only just be[E]gun[Esus4][E]
 and all the [A*]years will come and g[B*]o
 And take us [C*]up, always [D*]up
 {end_of_verse}
+{end_of_part}
 
 {start_of_chorus}
 [Bm7]We may never pass this [Esus4]way again
@@ -52,7 +53,7 @@ Are for the [A]fools and they let them drift a[E]way[Esus4][E]
 [E]Peace, like [G#m7]the silent dove
 Should be [A]flyin' but it's only just be[E]gun[Esus4][E]
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Fmaj7]      Like Columbus in the [Cmaj7]olden days
 [Fmaj7]      We must gather all our [Cmaj7]courage
 [Fmaj7]     Sail our ship out the [Cmaj7]open sea
@@ -60,6 +61,7 @@ Should be [A]flyin' but it's only just be[E]gun[Esus4][E]
 and all the [A*]years will come and [B*]go
 Take us u[C*]p, always [D*]up
 {end_of_verse}
+{end_of_part}
 
 {start_of_chorus}
 [Bm7]We may never pass this [Esus4]way again

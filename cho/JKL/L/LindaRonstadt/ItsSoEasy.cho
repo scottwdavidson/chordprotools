@@ -25,10 +25,11 @@ So [E]here I go,[A] breaking [B]all the [E]rules
 It [E7]seems so 
 {end_of_verse}
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [A]easy, (Hum)__ so doggone [E]easy
 (Hum)__, it [E]seems so [A]easy
 Where [F#]you're concerned my [B]heart has learned
+{end_of_part}
 
 {start_of_chorus}
 [E]It's so [B]easy to [A]fall in love[B]
@@ -43,10 +44,11 @@ Where [F#]you're concerned my [B]heart has learned
 It [E7]seems so 
 {end_of_verse}
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [A]easy, (Hum)__ so doggone [E]easy
 (Hum)__, it [E]seems so [A]easy
 Where [F#]you're concerned my [B]heart has learned
+{end_of_part}
 
 
 {start_of_chorus}
@@ -56,10 +58,11 @@ Where [F#]you're concerned my [B]heart has learned
 
 ( solo )
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 It's seems to [A]easy, (Hum)__ so doggone [E]easy
 (Hum)__, it [E]seems so [A]easy
 Where [F#]you're concerned my [B]heart has learned
+{end_of_part}
 
 {start_of_chorus}
 [E]It's so [B]easy to [A]fall in love[B]

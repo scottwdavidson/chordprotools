@@ -33,9 +33,10 @@
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [D] I don't know where 
 [A/C#]I'm running now, I'm just[E]running on
+{end_of_part}
 
 {start_of_chorus}
 (running on) [D/A]   Running on emp[A]ty
@@ -52,8 +53,9 @@ But I'm running behind[F#m]
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [D] I don't know when that [A/C#]road turned into the [E]road I'm on
+{end_of_part}
 
 
 {start_of_chorus}
@@ -89,8 +91,9 @@ I don't know about [A]anyone but me
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [D] Looking into their [A/C#]eyes I see them [E]running, too
+{end_of_part}
 
 {start_of_chorus}
 (running on) [D/A]   Running on emp[A]ty

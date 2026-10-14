@@ -22,11 +22,12 @@ And [A]that's why I've travele[B]d far
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Yeah, so [G#m]all of the things that I [B]said     that I wanted
 [G#m]Come rushing by in my [B]head     when I'm with you
 [G#m]Fourteen joys and a [B]will     to be merry
 [G#m]All of the things that we [B]say      are very
+{end_of_part}
 
 
 {start_of_chorus}
@@ -50,11 +51,12 @@ Blow[Emaj7]ing through [F#m7]my life  again
 [E]Yeah, sentimental[B]        [A] lady[B][A][E]
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Yeah, so [G#m]all of the things that I [B]said     that I wanted
 [G#m]Come rushing by in my [B]head     when I'm with you
 [G#m]Fourteen joys and a [B]will     to be merry
 [G#m]All of the things that we [B]say      are very
+{end_of_part}
 {end_of_part}
 
 

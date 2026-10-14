@@ -18,10 +18,11 @@
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 And what's [Em7]wrong with that?
 I'd [Fmaj7]like to know
 'Cause [G]here I go again[G]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -36,10 +37,11 @@ I'd [Fmaj7]like to know
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 What's [Em7]wrong with that?
 I [Fmaj7]need to know
 'Cause [G]here I go again[G]
+{end_of_part}
 
 
 {start_of_chorus}

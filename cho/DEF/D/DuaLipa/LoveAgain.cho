@@ -32,7 +32,8 @@
 {end_of_verse}
 
 {comment: guitar strum}
-{comment: pre-chorus}
+{start_of_part: pre-chorus}
+{end_of_part}
 {start_of_chorus}
 [F#m] Show m[D]e, that heaven's [Bm]right here [E]baby
 [F#m] Touch m[D]e, so I know [Bm]I'm not [E]crazy
@@ -57,7 +58,8 @@
 {end_of_verse}
 
 {comment: guitar strum}
-{comment: pre-chorus}
+{start_of_part: pre-chorus}
+{end_of_part}
 {start_of_chorus}
 [F#m] Show m[D]e, that heaven's [Bm]right here [E]baby
 [F#m] Touch m[D]e, so I know [Bm]I'm not [E]crazy

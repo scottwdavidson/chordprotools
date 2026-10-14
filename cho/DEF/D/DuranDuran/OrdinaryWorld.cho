@@ -13,7 +13,6 @@
 {comment:**  meta: nord: N32   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 64   }
 {comment:**  meta: label: OrdnryWorld   }
 {comment:**  meta: performance: Bm   }
 {comment:***********************************************}
@@ -62,10 +61,11 @@ I will l[G/B]earn to sur[Gm/Bb]vive.
 {end_of_verse}
 
 
-{comment: Pre Chorus}
+{start_of_part: Pre Chorus}
 [Bsus2]What is happening to me?
 [F#m]Crazy some would say
 [C#7]Where is my friend when I nee[D]d you most? (gone away)
+{end_of_part}
 {end_of_part}
 
 

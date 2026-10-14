@@ -18,9 +18,10 @@ You look so hap[G]py when I'm not with you
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [C] I don't know [Am]why I [Em]run away
 [G]  [C] I'll make you [Am]cry when I [Em]run away[G]
+{end_of_part}
 
 
 {start_of_verse}
@@ -31,9 +32,10 @@ You look so hap[G]py when I'm not with you
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 I don't know [Am]why I [Em]run away
 [G]  [C] I'll make you [Am]cry when I [Em]run away[G]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -53,9 +55,10 @@ I don't know [Am]why I [Em]run away
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 I don't know [Am]why I [Em]run away,[G]oh, girl
 [C] Said I'll make you [Am]cry when [Em]I run away[G]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -69,9 +72,10 @@ I don't know [Am]why I [Em]run away,[G]oh, girl
 {end_of_chorus}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [C] I don't know [Am]why I [Em]run away
 [G]  [C] I'll make you [Am]cry when I [Em]run away[G]
+{end_of_part}
 
 
 {start_of_chorus}

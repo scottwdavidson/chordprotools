@@ -17,7 +17,7 @@
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Are you a[G]ll dressed up but with n[G/F#]owhere to go?
 Are your t[Em]ears falling down when the l[D]ights are low?
 Another Fr[G]iday night tryna [G/F#]put on a show
@@ -25,6 +25,7 @@ Do you hat[Em]e the weekend 'cause nobody'[D]s calling?
 [Am]I've still got so much lo[Em]ve hidden beneath this [D]skin
 N.C.
 So darling
+{end_of_part}
 
 {start_of_chorus}
 [G]Put a little l[D*]ove on me[C*]
@@ -42,7 +43,7 @@ When the [G]lights come [D]up and there's[Em] no shadows d[C]ancing
 [Em]Is it wrong that I stil[C]l don't know my heart?
 {end_of_verse}
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Are you a[G]ll dressed up but with n[G/F#]owhere to go?
 Are your t[Em]ears falling down when the l[C]ights are low?
 Another Fr[G]iday night tryna [G/F#]put on a show
@@ -50,6 +51,7 @@ Do you hat[Em]e the weekend 'cause nobody'[C]s calling?
 [Am]I've still got so much lo[Em]ve hidden beneath this [D]skin
 N.C.
 Will someone
+{end_of_part}
 
 {start_of_chorus}
 [G]Put a little l[D*]ove on me[C*]

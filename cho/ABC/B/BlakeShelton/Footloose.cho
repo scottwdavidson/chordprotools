@@ -32,7 +32,8 @@ Eight hours, for what?_[C][G]
 Oh, tell me what I got...
 {end_of_verse}
 
-{comment:prechorus}
+{start_of_part: prechorus}
+{end_of_part}
 {start_of_chorus}
 [C]I got this feelin that times just a holdin me [G]do[C]wn,_[G]_[C]_[G]_[C]
 [C]I'll hit the ceiling[C#m7b5]...or else i'll tear up this [D]town..[E7]..[F#dim7]..ae[D/F#]
@@ -62,7 +63,8 @@ Dig[G] way down in your h[C]eart [G]
 You're yearning, burning for some,
 {end_of_verse}
 
-{comment:prechorus}
+{start_of_part: prechorus}
+{end_of_part}
 {start_of_chorus}
 [C]somebody to tell you,
 that life ain't passing you [G]by [C][G]

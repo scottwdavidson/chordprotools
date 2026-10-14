@@ -26,7 +26,7 @@ I'm [Gm]doin' forever [Eb]in a minute [D7](that summer night in June)
 and [Gm]Papa says he got [Eb]malo in him[D7]
 {end_of_verse}
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [D7]He got me feelin' like
 [Gm]oooh ooh-[Eb]ooh oo[D7]oh
 I knew it when I [Gm]met him
@@ -37,6 +37,7 @@ Got me feelin' like
 and then I had to [Gm]tell him
 I [Eb]had to go[D7]
 [D7]oh na na na na na
+{end_of_part}
 
 {start_of_chorus}
 Ha[Gm]vana ooh na [Eb]na[D7]
@@ -71,9 +72,10 @@ Havana ooh na [Gm]na
 |[Gm][Gm] [Eb]Eb[D7]D7 |
 |[Gm][Gm] [Eb]Eb[D7]D7 |
 
-{comment: Pre-chorus}
+{start_of_part: Pre-chorus}
 [Gm]oooh-[Eb]oooh-o[D7]oh
 [Gm]oooh-[Eb]oooh-o[D7]oh take me back to my Havana...
+{end_of_part}
 
 {start_of_chorus}
 Ha[Gm]vana ooh na [Eb]na[D7]

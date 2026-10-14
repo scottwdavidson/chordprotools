@@ -31,12 +31,13 @@ I [Em]live too fast to settle down
 [D]games they all play[Bm]
 {end_of_verse}
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Wanna [Em]find
 [C]Somethin' stronger than the whi[D]skey . . .
 [Bm]And oh, I'[Em]ve tried
 But [C]every time I feel her kiss [D]me, 
 I keep comin' up emp[Bm]ty . . yeah
+{end_of_part}
 
 {start_of_chorus}
 [Em]. . I just wanna [C]love someb[D]ody who 
@@ -56,7 +57,7 @@ And I [Em]need someone that I'd be proud
 [D]Honest eyes that just ain't gonna [Bm]leave
 {end_of_verse}
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 To lonely [Em]nights
 [C]Even when she's up a[D]gainst me[Bm]
 I don't know [Em]why
@@ -66,6 +67,7 @@ And I'm still empty
 Yeah
 
 {comment: JEFF double 1st & 3rd lines}
+{end_of_part}
 {start_of_chorus}
 [Em]. . I just wanna [C]love someb[D]ody who 
 w[Bm]on't leave a hole in my heart

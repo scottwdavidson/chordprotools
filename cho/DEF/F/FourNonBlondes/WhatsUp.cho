@@ -36,7 +36,7 @@ And so I [A]cry sometimes
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [A]When I'm lying bed
 Just to [Bm]get it all out
 What's in my head
@@ -51,6 +51,7 @@ And I[D]scream from
 The top of my lungs
 What's going on?[A]
 And I say, [A]hey
+{end_of_part}
 
 
 {start_of_chorus}
@@ -88,7 +89,7 @@ And so I [A]cry sometimes
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 When I'm lying bed
 Just to [Bm]get it all out
 What's in my head
@@ -103,6 +104,7 @@ And I[D]scream from
 The top of my lungs
 What's going on?[A]
 And I say, [A]hey
+{end_of_part}
 
 
 {start_of_chorus}

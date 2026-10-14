@@ -39,8 +39,9 @@
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [C (17th - 3-6)] I don't know where [G/B (12th - 2,4)]I'm running now, I'm just [D (7th - 4,5)]running on.
+{end_of_part}
 
 {start_of_chorus}
 (running on) [C/G]   Running on emp[G]ty
@@ -57,8 +58,9 @@ But I'm running behind[Em (9th - 1,3)]
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [C (17th - 3,4)] I don't know when that [G/B (12th - 2)]road turned into the [D (7th - 1)]road I'm on [D (12th - 1)]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -96,8 +98,9 @@ I don't know about [G (open - 2,3)]anyone but me
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [C (17th - 3,4)] Looking into their [G/B (open - 2-4)]eyes I see them [D (7th - 2-4)]running, too
+{end_of_part}
 
 {start_of_chorus}
 (running on) [C/G]   Running on emp[G]ty

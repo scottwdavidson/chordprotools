@@ -23,7 +23,7 @@ And she'll never know your story like [C]I do
 {end_of_verse}
 
 {comment: ADD GUITAR}
-{comment: PreChorus}
+{start_of_part: PreChorus}
 {comment:DR-02}
 But sh[Am]e wears short skirts, [C]I wear T-shirts
 [G]She's cheer captain and [D]I'm on the bleachers
@@ -31,6 +31,7 @@ But sh[Am]e wears short skirts, [C]I wear T-shirts
 That what you're [D]looking for has been here the whole time
 
 {comment:DR-03}
+{end_of_part}
 {start_of_chorus}
 If you could [G]see that I'm the one who understands you
 [D]Been here all along, so why can't you [Am]see?
@@ -55,7 +56,7 @@ You say you're fine, I know you better than that
 {end_of_verse}
 
 {comment: ADD GUITAR}
-{comment: PreChorus}
+{start_of_part: PreChorus}
 {comment:DR-05}
 But sh[Am]e wears high heels, [C]I wear sneakers
 [G]She's cheer captain and [D]I'm on the bleachers
@@ -63,6 +64,7 @@ But sh[Am]e wears high heels, [C]I wear sneakers
 That what you're [D]looking for has been here the whole time
 
 {comment:DR-06}
+{end_of_part}
 {start_of_chorus}
 If you could [G]see that I'm the one who understands you
 [D]Been here all along, so why can't you [Am]see?

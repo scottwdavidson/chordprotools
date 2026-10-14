@@ -33,7 +33,7 @@
 {end_of_verse}
 
 {comment: Scott guitar counterpoint}
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Em]   [Am]  On an is[D]land in[G]the sun,
 [Em]   [Am]  We'll be play[D]ing and hav[G]ing fun,
 [Em]   [Am]  And it ma[D]kes me feel [G]so fine,
@@ -41,6 +41,7 @@
 
 [Em]   [Am]   [D]  [G]Hip, hip.
 [Em]   [Am]   [D]  [G]Hip, hip.
+{end_of_part}
 
 
 {start_of_verse}
@@ -52,11 +53,12 @@
 
 
 {comment: Scott guitar counterpoint}
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Em]   [Am]  On an is[D]land in[G]the sun,
 [Em]   [Am]  We'll be play[D]ing and hav[G]ing fun,
 [Em]   [Am]  And it ma[D]kes me feel [G]so fine,
 [Em]  I can't[Am]  control[D] my brain.[G]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -77,11 +79,12 @@
 | [Em] . [Am] . | [D] . [G] . |
 
 {comment: Scott guitar counterpoint}
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Em]   [Am]  On an is[D]land in [G]the sun,
 [Em]   [Am]  We'll be play[D]ing and hav[G]ing fun,
 [Em]   [Am]  And it ma[D]kes me feel [G]so fine,
 [Em]  I can't[Am]  control[D] my brain.[G]
+{end_of_part}
 {end_of_part}
 
 

@@ -34,8 +34,9 @@
 [Aadd9] And you're talking to me [B]one on one but you've become...
 {end_of_verse}
 
-{comment: Pre-Chorus}
-{comment: BB Beat PreChorus}
+{start_of_part: Pre-Chorus}
+{end_of_part}
+{start_of_part: BB Beat PreChorus}
 [Aadd9]Somebody else 'round everyone else
 You're [C#m]watching your back like you can't relax
 You're [Aadd9]tryin' to be cool
@@ -43,6 +44,7 @@ You look like a fool to m[B]e
 Tell me...
 
 {comment: BB Beat Chorus 1}
+{end_of_part}
 {start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
@@ -65,8 +67,9 @@ No, no, [E]no..
 [Aadd9] You know you're not fooling [B]anyone when you've become...
 {end_of_verse}
 
-{comment: Pre-Chorus}
-{comment: BB Beat PreChorus}
+{start_of_part: Pre-Chorus}
+{end_of_part}
+{start_of_part: BB Beat PreChorus}
 [Aadd9]Somebody else 'round everyone else
 You're [C#m]watching your back like you can't relax
 You're [Aadd9]tryin' to be cool
@@ -74,6 +77,7 @@ You look like a fool to m[B]e
 Tell me...
 
 {comment: BB Beat Chorus 1}
+{end_of_part}
 {start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're
@@ -97,8 +101,9 @@ No, no, [E]no..
 [Aadd9] And if you could only [B]let it be, you will see.
 {end_of_verse}
 
-{comment: Pre-Chorus}
-{comment: BB Beat PreChorus}
+{start_of_part: Pre-Chorus}
+{end_of_part}
+{start_of_part: BB Beat PreChorus}
 [Aadd9]Somebody else 'round everyone else
 You're [C#m]watching your back like you can't relax
 You're [Aadd9]tryin' to be cool
@@ -106,6 +111,7 @@ You look like a fool to m[B]e
 Tell me...
 
 {comment: BB Beat Chorus 1}
+{end_of_part}
 {start_of_chorus}
 [C#m]Why'd you have to go and make [A]things so compli[E]cated?
 I [B]see the way you're

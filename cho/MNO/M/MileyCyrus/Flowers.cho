@@ -26,11 +26,12 @@ Built a [G]home and watched it [C]burn
 {end_of_verse}
 
 {comment:DR2}
-{comment:Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Mmm, [Am]I didn't wanna leave you, [Dm]I didn't wanna lie
 S[E7]tarted to cry but then remembered, I
 
 {comment:DR3}
+{end_of_part}
 {start_of_chorus}
 [Am]I can buy myself [Dm]flowers
 [G] Write my name in the [C]sand[G/B]
@@ -55,11 +56,12 @@ I for[G]get every word you [C]said[Cmaj7]
 {end_of_verse}
 
 {comment:DR6}
-{comment:Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Ooh, [Am]I didn't wanna leave you, baby, [Dm]I didn't wanna fight
 S[E7]tarted to cry but then remembered I
 
 {comment:DR7}
+{end_of_part}
 {start_of_chorus}
 [Am]I can buy myself [Dm]flowers
 [G] Write my name in the [C]sand[C/B]
@@ -78,11 +80,12 @@ Can love me better, [Dm]I can love me better, baby
 [G] Can love me better, [C]I
 
 {comment:DR9}
-{comment:Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Am]I didn't wanna leave you, baby, [Dm]I didn't wanna fight
 S[E7]tarted to cry but then remembered I
 
 {comment:DR10}
+{end_of_part}
 {start_of_chorus}
 [Am]I can buy myself [Dm]flowers (Uh-uh)
 [G] Write my name in the [C]sand[C/B]

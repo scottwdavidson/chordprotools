@@ -42,11 +42,12 @@ That's what I'm on, [Bb]yeah
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Ab]Don't you want me like I [Bb]want you, baby?
 [Cm]Don't you need me like I [Eb]need you now?
 [Ab]Sleep tomorrow, but to[Bb]night, go crazy
 [Cm]All you gotta do is just [Eb]meet me at the
+{end_of_part}
 
 
 {start_of_chorus}
@@ -70,11 +71,12 @@ I'm talkin' drink, dance, smoke, freak, party all night[Bb]
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Ab]Don't you want me like I [Bb]want you, baby?
 [Cm]Don't you need me like I [Eb]need you now?
 [Ab]Sleep tomorrow, but to[Bb]night, go crazy
 [Cm]All you gotta do is just [Eb]meet me at the
+{end_of_part}
 
 
 {start_of_chorus}
@@ -103,11 +105,12 @@ I'm on my way[Eb][C]
 I'm on my [F]way
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Ab]Don't you want me like I [Bb]want you, baby?
 [Cm]Don't you need me like I [Eb]need you now?
 [Ab]Sleep tomorrow, but to[Bb]night, go crazy
 [Cm]All you gotta do is just [Eb]meet me at the
+{end_of_part}
 {end_of_part}
 
 

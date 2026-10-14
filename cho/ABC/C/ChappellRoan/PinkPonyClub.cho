@@ -27,7 +27,7 @@ Where [Dm]boys and girls can all be queens[Bb]every single day
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [F]I'm having wicked dreams
 [Gm]Of leaving Tennessee
 [Dm]Hear Santa Monica
@@ -36,6 +36,7 @@ Where [Dm]boys and girls can all be queens[Bb]every single day
 [Gm]It's gonna cause a scene
 [Dm]She sees her baby girl
 [Bb]I know she's gonna scream
+{end_of_part}
 
 
 {start_of_chorus}
@@ -63,7 +64,7 @@ I'm[Gm]gonna keep on dancing at the
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [F]I thank my wicked dreams
 [Gm]A year from Tennessee
 [Dm]Oh, Santa Monica
@@ -72,6 +73,7 @@ I'm[Gm]gonna keep on dancing at the
 [Gm]It's gonna cause a scene
 [Dm]She sees her baby girl
 [Bb]I know she's gonna scream
+{end_of_part}
 
 
 {start_of_chorus}

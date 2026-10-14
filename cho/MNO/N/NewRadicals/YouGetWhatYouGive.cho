@@ -33,12 +33,13 @@ We've got the dreamers disease
 {end_of_verse}
 
 
-{comment: Pre Chorus}
+{start_of_part: Pre Chorus}
 [Asus4]      [A] But [F#m]when the night is fall[Bm]ing[A]
 You [G]cannot find the light
 [Asus4]      [A] You [F#m]feel your dreams are dy[Bm]ing[A]
 Hold [Asus4]tight
 [A] You've got the music in you
+{end_of_part}
 
 
 {start_of_chorus: Chorus}

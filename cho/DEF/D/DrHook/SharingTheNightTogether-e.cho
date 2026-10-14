@@ -32,7 +32,7 @@ Ah-y[A]eah, al[B]right
 {end_of_verse}
 
 {start_of_chorus}
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [F#m]If I seem to [G#m7]come on too strong
 [F#m]I hope that you will [G#m7]understand
 [F#m]I say these things cause I'd [G#m7]like to know
@@ -42,6 +42,7 @@ Sh[B]aring the night to[E]gether [C#m]whoa
 Y[A]eah, sh[B]aring the night to[E]gether [C#m]whoa
 Y[A]eah, sh[B]aring the night
 {end_of_chorus}
+{end_of_part}
 
 {start_of_part: Bridge}
 [C#m]We could bring in the [G#m]morning girl
@@ -66,7 +67,7 @@ Ah y[A]eah, al[B]right
 {end_of_verse}
 
 {start_of_chorus}
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [F#m]Like to get to [G#m7]know you better
 [F#m]Is there a place where[G#m7]we can go
 [F#m]Where we can be a[G#m7]lone together
@@ -80,3 +81,4 @@ Sh[B]aring the night to[E]get[C#m]her[A]
 Sh[B]aring the night to[E]get[C#m]her[A]
 Sh[B]aring the night to[E]get[C#m]her[A]
 {end_of_chorus}
+{end_of_part}

@@ -19,11 +19,12 @@ Where the [Dm]music don't stop for [Am]life
 You [Dm]met me at the perfect [Am]time
 {end_of_verse} 
  
-{comment:Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
+{end_of_part}
 {end_of_part}
 
 {start_of_chorus}
@@ -52,11 +53,12 @@ I [Am]feel like we're forever every [Em]time we get together
 But [Dm]whatever, let's get lost on [Am]Mars
 {end_of_verse}
  
-{comment:Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
+{end_of_part}
  
  
 {start_of_chorus}
@@ -97,10 +99,11 @@ And I'm [Dm]feeling so electric, dance our [Am]ass off
 [Dm]Yeah, yeah, yeah, yeah, [Am]yeah
 {end_of_part}
  
-{comment:Pre-Chorus}
+{start_of_part: Pre-Chorus}
 [Am]  You want [Em]me, I want you, baby
 [Dm]  My [Am]sugar-boo, I'm levitating
 [Am]  The Milky [Em]Way, we're renegading
+{end_of_part}
  
 {start_of_chorus}
 I got [Am]you, [Em]moonlight, [Dm]you're my [Am]starlight

@@ -33,7 +33,7 @@ Get to what's real
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Me standing here?
 I've got my back against
 The record machi[F]ne[Dm]
@@ -42,6 +42,7 @@ That you've se[F]en[Dm]
 Oh can't you see
 What I me[F]an?[G]
 Might as well jump[C]
+{end_of_part}
 
 
 {start_of_chorus}
@@ -66,7 +67,7 @@ Until we begin
 {end_of_verse}
 
 
-{comment: Pre-Chorus}
+{start_of_part: Pre-Chorus}
 Me standing here?
 I've got my back against
 The record machi[F]ne[Dm]
@@ -75,6 +76,7 @@ That you've se[F]en[Dm]
 Oh can't you see
 What I me[F]an?[G]
 Might as well jump[C]
+{end_of_part}
 
 
 {start_of_chorus}
