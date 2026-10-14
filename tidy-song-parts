@@ -4,10 +4,10 @@
 #   - {start_of_bridge}/{end_of_bridge} - OnSong doesn't render these
 #     correctly, so they become {start_of_part: Bridge} (or whatever label
 #     the bridge already carried, e.g. "Pre-Chorus", "Bridge 2").
-#   - {comment: Intro} / {comment: Guitar Solo} / {comment: Outro} etc. -
-#     currently just a floating comment relying on the next
-#     {start_of_verse}/{start_of_chorus} to implicitly close it. Gets
-#     wrapped in a real part directive pair instead, using the original
+#   - {comment: Intro} / {comment: Guitar Solo} / {comment: Outro} /
+#     {comment: Pre-Chorus} etc. - currently just a floating comment relying
+#     on the next {start_of_verse}/{start_of_chorus} to implicitly close it.
+#     Gets wrapped in a real part directive pair instead, using the original
 #     comment text verbatim as the label.
 #
 # Dry-run by default.

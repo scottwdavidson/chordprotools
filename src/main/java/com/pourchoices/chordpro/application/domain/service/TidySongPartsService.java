@@ -50,11 +50,13 @@ public class TidySongPartsService implements TidySongPartsUseCase {
             "^\\{\\s*(?:end_of_bridge|eob)\\s*\\}$", Pattern.CASE_INSENSITIVE);
     private static final String DEFAULT_BRIDGE_LABEL = "Bridge";
 
-    // Transformation B: {comment: ...Intro/Bridge/Solo/Instrumental/Outro...}
+    // Transformation B: {comment: ...Intro/Bridge/Solo/Instrumental/Outro/Pre-Chorus...}
+    // Pre-Chorus is spelled three ways in the catalog: "Pre-Chorus", "PreChorus",
+    // "Pre Chorus" - the optional [-\\s]? separator covers all three.
     private static final Pattern KEYWORD_PATTERN = Pattern.compile(
-            "\\b(Intro|Bridge|Solo|Instrumental|Outro)\\b", Pattern.CASE_INSENSITIVE);
+            "\\b(Intro|Bridge|Solo|Instrumental|Outro|Pre[-\\s]?Chorus)\\b", Pattern.CASE_INSENSITIVE);
     private static final Pattern LEADING_KEYWORD_PATTERN = Pattern.compile(
-            "^(Intro|Bridge|Solo|Instrumental|Outro)\\b", Pattern.CASE_INSENSITIVE);
+            "^(Intro|Bridge|Solo|Instrumental|Outro|Pre[-\\s]?Chorus)\\b", Pattern.CASE_INSENSITIVE);
 
     @Override
     public TidySongPartsReport run(boolean fix) {

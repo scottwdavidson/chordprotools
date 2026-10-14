@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 @Command(
         name = "tidy-song-parts",
         description = "Rewrites {start_of_bridge}/{end_of_bridge} and {comment: Intro/Bridge/Solo/"
-                + "Instrumental/Outro} section markers as {start_of_part}/{end_of_part} pairs."
+                + "Instrumental/Outro/Pre-Chorus} section markers as {start_of_part}/{end_of_part} pairs."
 )
 @Slf4j
 public class TidySongPartsCommand implements Runnable {

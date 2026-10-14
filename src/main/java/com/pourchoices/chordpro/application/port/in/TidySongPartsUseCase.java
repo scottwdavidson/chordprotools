@@ -11,9 +11,9 @@ import com.pourchoices.chordpro.application.domain.model.TidySongPartsReport;
  *   <li>{@code {start_of_bridge}}/{@code {end_of_bridge}} - OnSong doesn't
  *       render these correctly, so they're rewritten to the generic part
  *       directive, preserving any label.</li>
- *   <li>{@code {comment: Intro}} (and "Bridge"/"Solo"/"Instrumental"/"Outro"
- *       variants, however worded) - these are currently just a floating
- *       comment with no explicit end, relying on the next
+ *   <li>{@code {comment: Intro}} (and "Bridge"/"Solo"/"Instrumental"/"Outro"/
+ *       "Pre-Chorus" variants, however worded) - these are currently just a
+ *       floating comment with no explicit end, relying on the next
  *       {@code {start_of_verse}} etc. to implicitly close them. They get
  *       wrapped in a real part directive pair instead.</li>
  * </ul>

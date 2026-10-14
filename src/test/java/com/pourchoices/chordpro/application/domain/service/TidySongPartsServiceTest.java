@@ -213,6 +213,77 @@ class TidySongPartsServiceTest {
     }
 
     @Test
+    void preChorus_plainHyphenated_isWrappedUntilStartOfChorus() {
+        givenBody(
+                "{end_of_verse}",
+                "",
+                "{comment: Pre-Chorus}",
+                "lead-in lyric",
+                "",
+                "{start_of_chorus}",
+                "lyrics",
+                "{end_of_chorus}");
+
+        TidySongPartsReport report = service.run(true);
+
+        Finding finding = report.getFindings().get(0);
+        assertThat(finding.getConfidence()).isEqualTo(MatchConfidence.LEADING);
+        assertThat(finding.getLabel()).isEqualTo("Pre-Chorus");
+        assertThat(captureWrittenSong().getLines()).containsExactly(
+                "{end_of_verse}",
+                "",
+                "{start_of_part: Pre-Chorus}",
+                "lead-in lyric",
+                "{end_of_part}",
+                "",
+                "{start_of_chorus}",
+                "lyrics",
+                "{end_of_chorus}");
+    }
+
+    @Test
+    void preChorus_noSeparatorVariant_alsoMatches() {
+        givenBody("{comment:PreChorus}", "lead-in lyric", "{start_of_chorus}", "lyrics", "{end_of_chorus}");
+
+        TidySongPartsReport report = service.run(true);
+
+        assertThat(report.getFindings().get(0).getLabel()).isEqualTo("PreChorus");
+        assertThat(captureWrittenSong().getLines()).containsExactly(
+                "{start_of_part: PreChorus}", "lead-in lyric", "{end_of_part}",
+                "{start_of_chorus}", "lyrics", "{end_of_chorus}");
+    }
+
+    @Test
+    void preChorus_embeddedInLongerPhrase_isFlaggedEmbedded() {
+        // Mirrors Complicated-c#m.cho: "BB Beat PreChorus" rides as its own
+        // header right after a bare "Pre-Chorus" comment.
+        givenBody(
+                "{comment: Pre-Chorus}",
+                "{comment: BB Beat PreChorus}",
+                "lead-in lyric",
+                "{start_of_chorus}",
+                "lyrics",
+                "{end_of_chorus}");
+
+        TidySongPartsReport report = service.run(true);
+
+        assertThat(report.getFindings()).hasSize(2);
+        assertThat(report.getFindings().get(0).getLabel()).isEqualTo("Pre-Chorus");
+        assertThat(report.getFindings().get(0).getContentLineCount()).isZero();
+        assertThat(report.getFindings().get(1).getLabel()).isEqualTo("BB Beat PreChorus");
+        assertThat(report.getFindings().get(1).getConfidence()).isEqualTo(MatchConfidence.EMBEDDED);
+        assertThat(captureWrittenSong().getLines()).containsExactly(
+                "{start_of_part: Pre-Chorus}",
+                "{end_of_part}",
+                "{start_of_part: BB Beat PreChorus}",
+                "lead-in lyric",
+                "{end_of_part}",
+                "{start_of_chorus}",
+                "lyrics",
+                "{end_of_chorus}");
+    }
+
+    @Test
     void embeddedKeyword_guitarSolo_isWrappedButFlaggedEmbedded() {
         givenBody("{comment: Guitar Solo}", "| [C] . . . |", "{start_of_chorus}", "lyrics", "{end_of_chorus}");
 

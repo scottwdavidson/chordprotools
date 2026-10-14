@@ -17,11 +17,11 @@ import java.util.List;
  *       directive correctly, so the generic part directive is used for
  *       everything instead. Pure 1:1 token substitution - always safe.</li>
  *   <li><b>COMMENT_HEADER</b> — a {@code {comment: ...}} line whose text
- *       contains "Intro", "Bridge", "Solo", "Instrumental", or "Outro" as a
- *       whole word gets wrapped in {@code {start_of_part: <original text>}}
- *       / {@code {end_of_part}}, bounding the instrumental-notation lines
- *       that follow until the next structural directive, the next matching
- *       comment, or end of file.</li>
+ *       contains "Intro", "Bridge", "Solo", "Instrumental", "Outro", or
+ *       "Pre-Chorus" as a whole word gets wrapped in
+ *       {@code {start_of_part: <original text>}} / {@code {end_of_part}},
+ *       bounding the instrumental-notation lines that follow until the next
+ *       structural directive, the next matching comment, or end of file.</li>
  * </ol>
  *
  * <p>Every {@code COMMENT_HEADER} finding also records whether the keyword
