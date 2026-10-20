@@ -193,6 +193,7 @@ Daniel,Elton John,A,3:30,66,8,,N43,,,,,DEF:E:EltonJohn:Daniel-a,Daniel,3,FULL,Po
 Rocket Man,Elton John,G,3:40,68,8,,N12,,,,,DEF:E:EltonJohn:RocketMan,,4,FULL,Pop,,true
 Tiny Dancer,Elton John,C,5:50,72,8,,P55,,,A,,DEF:E:EltonJohn:TinyDancer,Tiny  Dancer,4,FULL,Pop,,true
 Tiny Dancer,Elton John,A,5:50,72,8,,P55,,,A,,DEF:E:EltonJohn:TinyDancer-a,Tiny  Dancer,4,FULL,Pop,,true
+Your Song,Elton John,Eb,3:45,111,,,,,,,,DEF:E:EltonJohn:YourSong,,,,,,
 Burning Love,Elvis,D,,144,,,,,,,,DEF:E:Elvis:BurningLove,,7,FULL,Rock and Roll,,false
 I'd Really Love To See You Tonight,England Dan / John Ford Coley,F,,,,,,,,,,DEF:E:EnglandDanJohnFordColey:IdReallyLoveToSeeYouTonight,,3,FULL,Soft Rock,Ballad,false
 Change The World,Eric Clapton,E,3:30,97,,,,,,,,DEF:E:EricClapton:ChangeTheWorld,,3,FULL,Pop,Ballad,false
