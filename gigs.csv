@@ -426,6 +426,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-06-FF,ABC:C:CrowdedHouse:DontDreamItsOver,B12,
 2026-11-06-FF,PQR:P:PsychedelicFurs:TheGhostInYou,B13,
 2026-11-06-FF,GHI:G:GinBlossoms:TilIHearItFromYou,B14,
+2026-11-06-FF,ABC:C:ClintBlack:ABetterMan,B15,
 2026-11-06-FF,STU:T:TravelingWilburys:HandleWithCare,C01,20
 2026-11-06-FF,STU:T:TheChurch:UnderTheMilkyWay,C02,21
 2026-11-06-FF,GHI:G:GregKihn:BreakupSong,C03,
@@ -448,6 +449,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-06-FF,JKL:L:LookingGlass:Brandy,C20,52
 2026-11-06-FF,GHI:G:GarthBrooks:MuchTooYoungToFeel,C21,62
 2026-11-06-FF,GHI:H:Hooters:AndWeDanced,C22,50
+2026-11-06-FF,ABC:C:Cars:Magic,C23,
 2026-11-06-FF,DEF:E:EltonJohn:Daniel,Z01,
 2026-11-06-FF,PQR:R:RobertPlant:CantLetGo,Z01,53
 2026-11-06-FF,ABC:B:BruceSpringsteen:CoverMe,Z01,55
