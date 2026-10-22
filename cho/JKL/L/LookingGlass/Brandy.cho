@@ -4,6 +4,7 @@
 {duration: 3:00}
 {tempo: 126}
 {meta: nord: P42}
+{meta: roland: B044}
 {meta: countin: 8}
 {meta: backing: RC}
 {meta: rc-slot: 40}
@@ -12,6 +13,7 @@
 
 {comment:***********************************************}
 {comment:**  meta: nord: P42   }
+{comment:**  meta: roland: B044   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 40   }
