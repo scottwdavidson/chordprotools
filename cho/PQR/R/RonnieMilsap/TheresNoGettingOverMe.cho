@@ -5,11 +5,13 @@
 {tempo: 100}
 {meta: nord: P55}
 {meta: countin: 4}
+{meta: rc-slot: 66 (2026-11-06-FF)}
 {meta: performance: E}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P55   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: rc-slot: 66 (2026-11-06-FF)   }
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 

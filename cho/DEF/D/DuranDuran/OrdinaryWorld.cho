@@ -6,6 +6,7 @@
 {meta: nord: N32}
 {meta: countin: 8}
 {meta: backing: RC}
+{meta: rc-slot: 64 (2026-11-06-FF)}
 {meta: label: OrdnryWorld}
 {meta: performance: Bm}
 
@@ -13,6 +14,7 @@
 {comment:**  meta: nord: N32   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 64 (2026-11-06-FF)   }
 {comment:**  meta: label: OrdnryWorld   }
 {comment:**  meta: performance: Bm   }
 {comment:***********************************************}

@@ -6,11 +6,13 @@
 {meta: nord: P52}
 {meta: countin: 8}
 {meta: backing: RC}
+{meta: rc-slot: 90 (2026-11-06-FF)}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P52   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 90 (2026-11-06-FF)   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

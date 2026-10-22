@@ -132,7 +132,7 @@ Fool If You Think It's Over,Chris Rea,Am,4:10,110,,,N52,,,,,ABC:C:ChrisRea:FoolI
 Starting Over,Chris Stapleton,G,3:45,90,4,RC,D53,,,Bb,,ABC:C:ChrisStapleton:StartingOver,Start Over,4,FULL,Country,,false
 Where Are You Listening To?,Chris Stapleton,Bb,,,,,,,,,,ABC:C:ChrisStapleton:WhatAreYouListeningToo,,,,,,
 Ride Like The Wind,Christopher Cross,Eb,4:00,125,,,P33,,,,,ABC:C:ChristopherCross:RideLikeTheWind,,5,FULL,Soft Rock,Yacht Rock,false
-Sailing,Christopher Cross,D,4:15,80,,,P33,,,,,ABC:C:ChristopherCross:Sailing,,1,FULL,Soft Rock,Yacht Rock,false
+Sailing,Christopher Cross,D,4:15,80,,RC,P33,,,,,ABC:C:ChristopherCross:Sailing,,1,FULL,Soft Rock,Yacht Rock,false
 A Better Man,Clint Black,E,3:00,162,4,RC,O55,,,E,,ABC:C:ClintBlack:ABetterMan,,4,FULL,Country,,false
 Fix You,Cold Play,Cm,3:45,138,,,,,,,,ABC:C:ColdPlay:FixYou,,4,FULL,Alternative,Pop Rock,true
 Speed Of Sound,Coldplay,A,3:35,124,,,,,,,,ABC:C:ColdPlay:SpeedOfSound,,6,FULL,Alternative,,false
@@ -151,7 +151,7 @@ Beautiful Sunday,Daniel Boone,C,3:00,120,,,P55,,,,,DEF:D:DanielBoone:BeautifulSu
 Hold My Hand,Hootie (Darius Rucker) and the Blowfish,B,3:35,101,,,,,,,,DEF:D:DariusRucker:HoldMyHand,,7,FULL,Pop Rock,,true
 Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,DEF:D:DariusRucker:WagonWheel,Wagon Wheel,7,FULL,Country,Folk,true
 Modern Love,David Bowie,C,4:30,92,,,,,,,,DEF:D:DavidBowie:ModernLove,,,,,,
-Party Crowd,David Lee Murphy,G,3:00,127,,,,,,,,DEF:D:DavidLeeMurphy:PartyCrowd,,7,FULL,Country,,false
+Party Crowd,David Lee Murphy,G,3:00,127,,RC,,,,,,DEF:D:DavidLeeMurphy:PartyCrowd,,7,FULL,Country,,false
 Leap Of Faith,Delbert McClinton,B,,,,,,,,,,DEF:D:DelbertMcClinton:LeapOfFaith,,5,FULL,Blues Rock,,false
 Enjoy the Silence,Depeche Mode,Bm,,,,,,,,,,DEF:D:DepecheMode:EnjoyTheSilence,,5,FULL,Synth Pop,New Wave,false
 One More Day,Diamond Rio,E,3:45,100,,,,,,,,DEF:D:DiamondRio:OneMoreDay,,3,FULL,Country,,false
@@ -177,7 +177,7 @@ Ain't That Lonely Yet,Dwight Yoakam,F,3:10,107,,,,,,,,DEF:D:DwightYokam:AintThat
 Fast As You,Dwight Yoakam,E,4:30,126,,,,,,,,DEF:D:DwightYokam:FastAsYou,,7,FULL,Country Rock,,false
 Little Sister,Dwight Yoakam,E,3:00,144,4,BB,O14,,,,,DEF:D:DwightYokam:LittleSister,LittleSister,7,FULL,Country Rock,,false
 Can't Get You Out Of My Head,ELO,C,4:00,85,,,,,,,,DEF:E:ELO:CantGetYouOutOfMyHead,,8,FULL,Dance Pop,,true
-Evil Woman,ELO,Am,4:40,120,,,,,,,,DEF:E:ELO:EvilWoman,,,,,,
+Evil Woman,ELO,Am,4:40,120,,RC,,,,,,DEF:E:ELO:EvilWoman,,,,,,
 Midnight Blue,ELO,F,4:10,141,,,,,,D,,DEF:E:ELO:MidnightBlue,,,,,,
 Rockaria,ELO / Jeff Lynne,D,,,,,,,,,,DEF:E:ELO:Rockaria,,7,FULL,Rock,,false
 When I Was A Boy,ELO ( Jeff Lynne ),C,,,,,,,,,,DEF:E:ELO:WhenIWasABoy,When IWasBoy,,,,,
@@ -285,7 +285,7 @@ I’m Gonna Find Another You,John Mayer,A,3:00,150,,,,,,,,JKL:J:JohnMayer:ImGonn
 Ain't Even Done With The Night,John Mellencamp,B,4:10,120,8,RC,N12,,,,,JKL:J:JohnMellencamp:AintEvenDoneWithTheNight,Aint  Done,7,FULL,Rock,,false
 Ain't Even Done With The Night,John Mellencamp,A,4:10,120,8,RC,N12,,,,,JKL:J:JohnMellencamp:AintEvenDoneWithTheNight-a,Aint  Done,7,FULL,Rock,,false
 Cherry Bomb,John Mellencamp,G,4:10,113,4,RC,O55,,,G,,JKL:J:JohnMellencamp:CherryBomb,,6,FULL,Rock,,false
-Jack and Diane,John Mellencamp,A,3:40,104,4,,,,,A,,JKL:J:JohnMellencamp:JackandDiane,,6,FULL,Rock,,true
+Jack and Diane,John Mellencamp,A,3:40,104,4,RC,,,,A,,JKL:J:JohnMellencamp:JackandDiane,,6,FULL,Rock,,true
 R.O.C.K. In The U.S.A,John Mellencamp,E,2:55,166,8,RC,,,,,,JKL:J:JohnMellencamp:ROCKInTheUSA,RockIn USA,8,FULL,Rock,,true
 Let Her In,John Travolta,E,3:45,120,,,,,,,,JKL:J:JohnTravolta:LetHerIn,,4,FULL,Pop,,false
 Looking for Love,Johnny Lee,E,,120,,,,,,,,JKL:J:JohnnyLee:LookingForLove,,6,FULL,Country,,false
@@ -387,7 +387,7 @@ Forever In Blue Jeans,Neil Diamond,A,,,,,,,,,,MNO:N:NeilDiamond:ForeverInBlueJea
 Sweet Caroline,Neil Diamond,B,3:24,63,,,,,,,,MNO:N:NeilDiamond:SweetCaroline,,7,FULL,Pop,,true
 Harvest Moon,Neil Young,D,3:45,90,,,,,,,,MNO:N:NeilYoung:HarvestMoon,,3,FULL,Folk Rock,,false
 Bizarre Love Triangle,New Order,C,2:50,104,,,,,,,,MNO:N:NewOrder:BizarreLoveTriangle,,3,FULL,Pop Rock,,false
-You Get What You Give,New Radicals,D,4:20,114,,,,,,,,MNO:N:NewRadicals:YouGetWhatYouGive,,7,FULL,Pop Rock,,true
+You Get What You Give,New Radicals,D,4:20,114,,RC,,,,,,MNO:N:NewRadicals:YouGetWhatYouGive,,7,FULL,Pop Rock,,true
 Put A Little Love On Me,Niall Horan,G,,,,,,,,,,MNO:N:NiallHoran:PutALittleLoveOnMe,,4,FULL,Pop,,false
 This Town,Niall Horan,G,,,,,,,,,,MNO:N:NiallHoran:ThisTown,,3,FULL,Pop,Ballad,false
 Cruel To Be Kind,Nick Lowe,C,3:10,125,8,RC,P11,,P26,,,MNO:N:NickLowe:CruelToBeKind,Cruel BeKind,6,FULL,Pop Rock,,false
@@ -521,7 +521,7 @@ Here Comes My Girl,Tom Petty and the Heartbreakers,E,4:00,104,4,RC,,,,,,STU:T:To
 Into The Great Wide Open,Tom Petty,Em,3:20,82,,,,,,,,STU:T:TomPetty:IntoTheGreatWideOpen,,5,FULL,Rock,,false
 Learning to Fly,Tom Petty,C,3:40,116,8,,???,,,C,,STU:T:TomPetty:LearningToFly,,5,FULL,Rock,,false
 Mary Jane's Last Dance,Tom Petty & The Heartbreakers,Am,3:20,85,4,RC,,,,,,STU:T:TomPetty:MaryJanesLastDance,MryJneDance,8,FULL,Rock,,true
-Runnin' Down A Dream,Tom Petty,E,3:45,170,8,,N51,,,E,,STU:T:TomPetty:RunningDownADream,,8,FULL,Rock,,true
+Runnin' Down A Dream,Tom Petty,E,3:45,170,8,RC,N51,,,E,,STU:T:TomPetty:RunningDownADream,,8,FULL,Rock,,true
 You Don't Know How It Feels,Tom Petty,E,3:45,74,,,P31,,,,,STU:T:TomPetty:YouDontKnowHowItFeels,,6,FULL,Rock,,false
 You Wreck Me,Tom Petty,D,3:05,164,8,RC,,,,,,STU:T:TomPetty:YouWreckMe,You   Wreck,8,FULL,Rock,,true
 Calling San Francisco,Tommy Castro and the Painkillers,C,,,,,,,,,,STU:T:TommyCastroNPainkillers:CallingSanFrac,,6,FULL,Blues Rock,,false

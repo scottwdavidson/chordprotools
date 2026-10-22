@@ -5,10 +5,12 @@
 {tempo: 126}
 {meta: nord: P33}
 {meta: countin: 6}
+{meta: rc-slot: 42 (2026-11-06-FF)}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P33   }
 {comment:**  meta: countin: 6   }
+{comment:**  meta: rc-slot: 42 (2026-11-06-FF)   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
