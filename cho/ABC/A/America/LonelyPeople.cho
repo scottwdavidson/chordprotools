@@ -4,20 +4,29 @@
 {duration: 2:10}
 {tempo: 155}
 {meta: nord: M15(A3)}
+{meta: countin: 4}
+{meta: backing: BB}
+{meta: performance: D}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M15(A3)   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
+{comment:**  meta: performance: D   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
-. | [G] . . . | [Em] . . . | 
-. | [Bm]  . . . | [Bm]  .  .  . |
-. | [G] . . . | [Em] . . . | 
-. | [Bm]  . . . | [D]    .  .  . |
-. | [C] . . . | [D]  . . . | 
-. | [G] . [G/F#] . | [Em7]  .  [D]  . |
-. | [C] . . . | [D]  . . . | 
-. | [G]  .  .  . | [D]    .  .  . |
+. | [G]  . . . | [Em] . . . | 
+. | [Bm] . . . | [Bm] . . . |
+
+. | [G]  . . . | [Em] . . . | 
+. | [Bm] . . . | [D]  . . . |
+
+. | [C] . .      . | [D]   . .    . | 
+. | [G] . [G/F#] . | [Em7] . [D]  . |
+
+. | [C] . . . | [D] . . . | 
+. | [G] . . . | [D] . . . |
 {end_of_part}
 
 
@@ -54,9 +63,12 @@ Well, I'm [C]on [G/B]my  [Am]way b[D]ack [G]home.
 
 
 {start_of_part: Piano Solo}
-. | [G]  . . . | [D]  . . . | [F]  . [D/F#] . | [G]   .  .  . |
-. | [G]  . . . | [D]  . . . | [F]  . [D/F#] . | [G]   .  .  . |
-. | [Em] . . . | [Bm] . . . | [Em] . .      . | [Bm]  .  .  . |
+. | [G]  . .      . | [D]  . . . | 
+. | [F]  . [D/F#] . | [G]   .  .  . |
+. | [G]  . .      . | [D]  . . . | 
+. | [F]  . [D/F#] . | [G]   .  .  . |
+. | [Em] . . . | [Bm] . . . | 
+. | [Em] . . . | [Bm]  .  .  . |
 . | [Em] . . . | [Bm] . . . | [D]  . [D/C]  . | [D/B] .  [D7/A]  . |
 {end_of_part}
 

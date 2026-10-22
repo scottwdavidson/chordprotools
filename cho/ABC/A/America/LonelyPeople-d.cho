@@ -4,20 +4,29 @@
 {duration: 2:10}
 {tempo: 155}
 {meta: nord: M15(A3)}
+{meta: countin: 4}
+{meta: backing: BB}
+{meta: performance: D}
 
 {comment:***********************************************}
 {comment:**  meta: nord: M15(A3)   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
+{comment:**  meta: performance: D   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
-. | [D] . . . | [Bm] . . . | 
-. | [F#m]  . . . | [F#m]  .  .  . |
-. | [D] . . . | [Bm] . . . | 
-. | [F#m]  . . . | [A]    .  .  . |
-. | [G] . . . | [A]  . . . | 
-. | [D] . [D/C#] . | [Bm7]  .  [A]  . |
-. | [G] . . . | [A]  . . . | 
-. | [D]  .  .  . | [A]    .  .  . |
+. | [D]   . . . | [Bm]  . . . | 
+. | [F#m] . . . | [F#m] . . . |
+
+. | [D]   . . . | [Bm] . . . | 
+. | [F#m] . . . | [A]  . . . |
+
+. | [G] . .      . | [A]   . .   . | 
+. | [D] . [D/C#] . | [Bm7] . [A] . |
+
+. | [G] . . . | [A] .  .  . |
+. | [D] . . . | [A] .  .  . |
 {end_of_part}
 
 
