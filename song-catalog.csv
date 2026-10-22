@@ -5,8 +5,8 @@ Spooky,ARS,Em,3:22,106,4,,P34,C013,,,,ABC:A:ARS:Spooky,,6,FULL,Rock,,false
 Dancing Queen (Altered),Abba,A,,,,,,,,,,ABC:A:Abba:DancingQueenAltered,,9,FULL,Disco,Pop,true
 Dancing Queen (Altered),Abba,E,,,,,,,,,,ABC:A:Abba:DancingQueenAltered-e,,9,FULL,Disco,Pop,true
 Does Your Mother Know,Abba,G,3:10,120,8,RC,M22,,,,,ABC:A:Abba:DoesYourMotherKnow,DoesYrKnow,8,FULL,Pop Rock,,false
-How Long,Ace,Bb,3:00,121,4,RC,M11,,,,,ABC:A:Ace:HowLong,How   Long,4,FULL,Soft Rock,,false
-How Long,Ace,A,3:00,121,4,RC,M11,,,,,ABC:A:Ace:HowLong-a,How   Long,4,FULL,Soft Rock,,false
+How Long,Ace,Bb,3:00,121,4,RC,M11,,,A,,ABC:A:Ace:HowLong,How   Long,4,FULL,Soft Rock,,false
+How Long,Ace,A,3:00,121,4,RC,M11,,,A,,ABC:A:Ace:HowLong-a,How   Long,4,FULL,Soft Rock,,false
 Take On Me,Aha,A,3:00,100,,,,,,,,ABC:A:Aha:TakeOnMe,,9,FULL,Synth Pop,New Wave,true
 Let's Stay Together,Al Green,F,,,,,,,,,,ABC:A:AlGreen:LetsStayTogether,,5,FULL,Soul,,false
 Time Passages,Al Stewart,Eb,6:00,111,,,,,,,,ABC:A:AlStewart:TimePassages,,4,FULL,Soft Rock,,false
