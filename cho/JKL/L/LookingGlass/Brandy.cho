@@ -7,7 +7,7 @@
 {meta: roland: B044}
 {meta: countin: 8}
 {meta: backing: RC}
-{meta: rc-slot: 40}
+{meta: rc-slot: 40 (2026-11-06-FF)}
 {meta: label: Brandy}
 {meta: performance: E}
 
@@ -16,7 +16,7 @@
 {comment:**  meta: roland: B044   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 40   }
+{comment:**  meta: rc-slot: 40 (2026-11-06-FF)   }
 {comment:**  meta: label: Brandy   }
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
