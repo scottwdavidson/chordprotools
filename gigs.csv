@@ -412,7 +412,6 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-06-FF,JKL:J:JohnMellencamp:AintEvenDoneWithTheNight,A15,16
 2026-11-06-FF,PQR:P:PeteTownsend:LetMyLoveOpenTheDoor,A16,17
 2026-11-06-FF,ABC:A:Ace:HowLong,A17,18
-2026-11-06-FF,DEF:E:ELO:WhenIWasABoy,B01,
 2026-11-06-FF,ABC:A:Alabama:DancinShagginOnTheBoulevard,B02,
 2026-11-06-FF,GHI:H:Hooters:AndWeDanced,B03,
 2026-11-06-FF,JKL:J:JonPardi:HeyCalifornia,B04,
@@ -427,6 +426,10 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-06-FF,PQR:P:PsychedelicFurs:TheGhostInYou,B13,
 2026-11-06-FF,GHI:G:GinBlossoms:TilIHearItFromYou,B14,
 2026-11-06-FF,ABC:C:ClintBlack:ABetterMan,B15,
+2026-11-06-FF,JKL:J:JoshTurner:Jacksonville,B17,
+2026-11-06-FF,PQR:R:RonnieMilsap:TheresNoGettingOverMe,B17,
+2026-11-06-FF,JKL:L:LukeCombs:CantTellMeImWrong,B18,
+2026-11-06-FF,JKL:L:LukeCombs:BeByYou,B19,
 2026-11-06-FF,STU:T:TravelingWilburys:HandleWithCare,C01,20
 2026-11-06-FF,STU:T:TheChurch:UnderTheMilkyWay,C02,21
 2026-11-06-FF,GHI:G:GregKihn:BreakupSong,C03,
@@ -439,8 +442,6 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-06-FF,DEF:E:EltonJohn:CrocodileRock,C10,27
 2026-11-06-FF,JKL:J:JoeCocker:TheLetter,C11,
 2026-11-06-FF,ABC:C:Cure:FridayImInLove,C12,
-2026-11-06-FF,JKL:L:LukeCombs:CantTellMeImWrong,C13,
-2026-11-06-FF,JKL:L:LukeCombs:BeByYou,C14,
 2026-11-06-FF,STU:T:TomPetty:YouWreckMe,C15,72
 2026-11-06-FF,JKL:J:JonPardi:HeyCalifornia,C16,
 2026-11-06-FF,DEF:D:DrHook:SharingTheNightTogether,C17,
@@ -461,6 +462,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-06-FF,GHI:H:HalKetchum:SmallTownSaturdayNight,Z01,65
 2026-11-06-FF,ABC:B:BachmanTurnerOverdrive:TakinCareOfBusiness,Z01,67
 2026-11-06-FF,PQR:R:Redbone:ComeAndGetYourLove,Z01,54
+2026-11-06-FF,DEF:E:ELO:WhenIWasABoy,Z02,
 2026-11-06-FF,MNO:M:Mike+TheMechanics:AllINeedIsAMiracle,Z02,19
 2026-11-06-FF,DEF:D:DariusRucker:WagonWheel,Z02,
 2026-11-06-FF,MNO:M:MorganWallen:LoveSomebody,Z02,25
