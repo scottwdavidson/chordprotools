@@ -38,6 +38,7 @@ public class ConsistentSongDataService implements ConsistentSongDataUseCase {
     private final CatalogPort catalogPort;
     private final ChordproCatalogIndexPathConfig catalogConfig;
     private final VerifySyncUseCase verifySyncUseCase;
+    private final CatalogGroupResolver catalogGroupResolver;
 
     @Override
     public List<SemanticDiffReport> check(SongId songId) {
@@ -45,9 +46,7 @@ public class ConsistentSongDataService implements ConsistentSongDataUseCase {
         Map<String, CatalogEntry> catalog = catalogPort.readCatalogFromCsv(catalogPath);
 
         String groupKey = songId.toGroupKey();
-        List<CatalogEntry> variants = catalog.values().stream()
-                .filter(entry -> entry.getSongId().toGroupKey().equals(groupKey))
-                .toList();
+        List<CatalogEntry> variants = catalogGroupResolver.findGroupVariants(songId, catalog);
 
         if (variants.isEmpty()) {
             throw new IllegalArgumentException(

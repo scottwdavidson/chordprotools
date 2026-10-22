@@ -82,7 +82,8 @@ class AssignBackingTrackSlotsServiceTest {
 
         service = new AssignBackingTrackSlotsService(
                 catalogPort, setlistPort, assignmentsPort, chordProPort, songParser,
-                catalogConfig, gigsConfig, new SetlistDeduplicator(), new SetlistJoiner());
+                catalogConfig, gigsConfig, new SetlistDeduplicator(), new SetlistJoiner(),
+                new CatalogGroupResolver());
     }
 
     // ── Fixtures ─────────────────────────────────────────────────────────────
@@ -334,6 +335,81 @@ class AssignBackingTrackSlotsServiceTest {
         ArgumentCaptor<ParsedSong> songCaptor = ArgumentCaptor.forClass(ParsedSong.class);
         verify(chordProPort, times(1)).write(any(Path.class), songCaptor.capture());
         assertThat(rcSlotValue(songCaptor.getValue())).isEqualTo("10 (" + GIG + ")");
+    }
+
+    // ── .cho sync fans out to every key-variant ─────────────────────────────
+
+    @Test
+    void preserve_syncsSlotIntoBaseAndEveryKeyVariant() {
+        String baseId    = "ABC:B:BillyJoel:PianoMan";
+        String variantId = "ABC:B:BillyJoel:PianoMan-a";
+        String basePath    = ChordProPath.toFilePath(SongId.parse(baseId));
+        String variantPath = ChordProPath.toFilePath(SongId.parse(variantId));
+
+        // gigs.csv only ever references the base SONG ID - the variant exists
+        // only in the catalog, same as real key-variant files on disk.
+        givenCatalogAndAssignments(
+                List.of(
+                        catalogEntry(baseId, "Piano Man", BackingType.RC),
+                        catalogEntry(variantId, "Piano Man", BackingType.RC)),
+                List.of(assignment(baseId, "A01", null)));
+
+        service.assignSlots(GIG, "./setlist.csv", false);
+
+        String expectedSlot = AssignBackingTrackSlotsService.IN_SET_START_SLOT + " (" + GIG + ")";
+
+        ArgumentCaptor<Path> pathCaptor = ArgumentCaptor.forClass(Path.class);
+        ArgumentCaptor<ParsedSong> songCaptor = ArgumentCaptor.forClass(ParsedSong.class);
+        verify(chordProPort, times(2)).write(pathCaptor.capture(), songCaptor.capture());
+
+        assertThat(pathCaptor.getAllValues().stream().map(Path::toString).toList())
+                .containsExactlyInAnyOrder(basePath, variantPath);
+        assertThat(songCaptor.getAllValues().stream().map(AssignBackingTrackSlotsServiceTest::rcSlotValue).toList())
+                .containsExactly(expectedSlot, expectedSlot);
+    }
+
+    @Test
+    void preserve_skipsVariantAlreadyInSync_butWritesStaleBase() {
+        String baseId    = "ABC:B:BillyJoel:PianoMan";
+        String variantId = "ABC:B:BillyJoel:PianoMan-a";
+        String basePath    = ChordProPath.toFilePath(SongId.parse(baseId));
+        String variantPath = ChordProPath.toFilePath(SongId.parse(variantId));
+
+        currentChoRcSlot.put(variantPath, "10 (" + GIG + ")"); // variant already synced
+        // base has no annotation yet - simulates the exact bug being fixed
+
+        givenCatalogAndAssignments(
+                List.of(
+                        catalogEntry(baseId, "Piano Man", BackingType.RC),
+                        catalogEntry(variantId, "Piano Man", BackingType.RC)),
+                List.of(assignment(baseId, "A01", "10")));
+
+        service.assignSlots(GIG, "./setlist.csv", false);
+
+        ArgumentCaptor<Path> pathCaptor = ArgumentCaptor.forClass(Path.class);
+        verify(chordProPort, times(1)).write(pathCaptor.capture(), any());
+        assertThat(pathCaptor.getValue().toString()).isEqualTo(basePath);
+    }
+
+    @Test
+    void reoptimize_syncsSlotIntoEveryKeyVariant() {
+        String baseId    = "ABC:B:BillyJoel:PianoMan";
+        String variantId = "ABC:B:BillyJoel:PianoMan-a";
+        String basePath    = ChordProPath.toFilePath(SongId.parse(baseId));
+        String variantPath = ChordProPath.toFilePath(SongId.parse(variantId));
+
+        givenCatalogAndAssignments(
+                List.of(
+                        catalogEntry(baseId, "Piano Man", BackingType.RC),
+                        catalogEntry(variantId, "Piano Man", BackingType.RC)),
+                List.of(assignment(baseId, "A01", "99")));
+
+        service.assignSlots(GIG, "./setlist.csv", true);
+
+        ArgumentCaptor<Path> pathCaptor = ArgumentCaptor.forClass(Path.class);
+        verify(chordProPort, times(2)).write(pathCaptor.capture(), any());
+        assertThat(pathCaptor.getAllValues().stream().map(Path::toString).toList())
+                .containsExactlyInAnyOrder(basePath, variantPath);
     }
 
     private static String rcSlotValue(ParsedSong song) {

@@ -48,9 +48,12 @@ import java.util.stream.Stream;
  *   <li>RC-backed songs with no slot yet get the next free number, filling gaps
  *       before extending upward, walking the setlist in the same order as before
  *       (in-set by SET code, then backup by title).</li>
- *   <li>Every currently-assigned slot (preserved or new) is synced into its
- *       {@code .cho} file's {@code {meta: rc-slot}} directive, annotated with this
- *       gig's name - but only written if the value actually changed.</li>
+ *   <li>Every currently-assigned slot (preserved or new) is synced into the
+ *       {@code {meta: rc-slot}} directive of its {@code .cho} file <em>and every
+ *       key-variant</em> (capo/keyboard-transpose alternate) sharing that song's
+ *       {@link com.pourchoices.chordpro.application.domain.model.SongId#toGroupKey()},
+ *       annotated with this gig's name - each file only written if its value
+ *       actually changed.</li>
  *   <li>Before anything is written, {@code gigs.csv} is validated for this gig: every
  *       non-blank RC SLOT must be a number 1–{@value #MAX_SLOT}, and no two different
  *       songs may share the same slot. Either problem aborts with nothing written.</li>
@@ -92,6 +95,7 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
     private final ChordproGigsPathConfig gigsConfig;
     private final SetlistDeduplicator deduplicator;
     private final SetlistJoiner joiner;
+    private final CatalogGroupResolver catalogGroupResolver;
 
     @Override
     public AssignBackingTrackSlotsResult assignSlots(String gigParam, String outputPath, boolean reoptimize) {
@@ -138,14 +142,18 @@ public class AssignBackingTrackSlotsService implements AssignBackingTrackSlotsUs
         assignmentsPort.writeAssignments(gigsPath, updatedAssignments);
         log.info("gigs.csv updated with RC SLOT assignments for gig '{}'", resolvedGig);
 
-        // ── 6. Sync {meta: rc-slot: N (gig)} into every affected .cho file ───
+        // ── 6. Sync {meta: rc-slot: N (gig)} into every affected .cho file —
+        //       the base file AND every key-variant (capo/transpose alternate)
+        //       of the song, since gigs.csv only ever stores the base SONG ID ──
         plan.slots().forEach((songIdStr, slot) -> {
-            SongId songId = updatedAssignments.stream()
+            SongId baseSongId = updatedAssignments.stream()
                     .filter(a -> songIdStr.equals(a.getSongId().toString()))
                     .findFirst()
                     .orElseThrow()
                     .getSongId();
-            syncSlotIntoFile(songId, slot, resolvedGig);
+
+            catalogGroupResolver.findGroupVariants(baseSongId, catalogMap)
+                    .forEach(variant -> syncSlotIntoFile(variant.getSongId(), slot, resolvedGig));
         });
 
         // ── 7. Re-join with updated assignments to build final setlist ───────

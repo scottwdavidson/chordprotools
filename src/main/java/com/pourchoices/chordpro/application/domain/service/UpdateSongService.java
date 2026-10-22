@@ -38,6 +38,7 @@ public class UpdateSongService implements UpdateSongUseCase {
     private final ChordProPort chordProPort;
     private final SongParser songParser;
     private final CatalogEntryToParsedHeaderMapper catalogEntryToParsedHeaderMapper;
+    private final CatalogGroupResolver catalogGroupResolver;
 
     @Override
     public void updateSong(SongId songId) {
@@ -48,14 +49,11 @@ public class UpdateSongService implements UpdateSongUseCase {
 
         // Metadata is a property of the song group, not the individual file:
         // update the base file and every key-variant sharing this group key.
-        String groupKey = songId.toGroupKey();
-        List<CatalogEntry> groupEntries = catalogMap.values().stream()
-                .filter(entry -> entry.getSongId().toGroupKey().equals(groupKey))
-                .toList();
+        List<CatalogEntry> groupEntries = catalogGroupResolver.findGroupVariants(songId, catalogMap);
 
         if (groupEntries.isEmpty()) {
             log.error("No catalog entries found for song group '{}' (from song ID: {})",
-                    groupKey, songId);
+                    songId.toGroupKey(), songId);
             return;
         }
 

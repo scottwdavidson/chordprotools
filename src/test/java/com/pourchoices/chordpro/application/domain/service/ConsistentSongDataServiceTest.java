@@ -57,7 +57,7 @@ class ConsistentSongDataServiceTest {
     @BeforeEach
     void setUp() {
         when(catalogConfig.getCatalogIndexPath()).thenReturn("./song-catalog.csv");
-        service = new ConsistentSongDataService(catalogPort, catalogConfig, verifySyncUseCase);
+        service = new ConsistentSongDataService(catalogPort, catalogConfig, verifySyncUseCase, new CatalogGroupResolver());
     }
 
     private void stubCatalog(CatalogEntry... entries) {
