@@ -20,7 +20,10 @@
 {comment:***********************************************}
 
 {start_of_part: Intro}
-. | [G] . . . | [G] . . . |
+. | [G] . . . | 
+. | [G] . . . |
+. | [G] . . . | 
+. | [G] . . . |
 {end_of_part}
 
 {start_of_verse}
@@ -47,8 +50,12 @@ I [Em]remember how she [D]held me,  [C]oh so tight.
 We were [C]young and [Bm]strong, we were [Am]running a[C]gainst the [G]wind.
 {end_of_chorus}
 
-. | [G] (wind) . . | [G] . . . |
-. | [G] .      . . | [G] . . . | 
+{start_of_part: Interval}
+. | [G] (wind) . . | 
+. | [G] . . . |
+. | [G] . . . | 
+. | [G] . . . | 
+{end_of_part}
 
 {start_of_verse}
 And the [G]years rolled slowly past.
@@ -75,16 +82,22 @@ I [C]found my[Bm]self seeking [Am]shelter a[C]gainst the [G]wind.
 {end_of_chorus}
 
 {start_of_part: Solo}
-. | [G] (wind) . . | [G] . . . |
-. | [G] .      . . | [G] . . . | 
+. | [G] (wind) . . | 
+. | [G] . . . |
+. | [G] . . . | 
+. | [G] . . . | 
+
 
 . | [G] ...  | [G] ...  |
 . | [Bm] ... | [Bm] ... | 
+
 . | [C] ...  | [G] ...  | 
 . | [D] ...  | [C] (G-A-B [C/E]-[C/F#]-[C/G])   | 
 
+
 . | [G] ...  | [G] ...  | 
 . | [Bm] ([D/B]-[E/C#]-F#-D [B/D]-[C#/E]-[D/F]3) | [Bm] ... |
+
 . | [C] ...  | [G] ...  | 
 . | [C] ...  | [D] ...  | 
 
