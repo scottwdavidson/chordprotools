@@ -5,11 +5,13 @@
 {tempo: 140}
 {meta: countin: 8}
 {meta: backing: RC}
+{meta: rc-slot: 64 (2026-11-06-FF)}
 {meta: performance: Am}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
+{comment:**  meta: rc-slot: 64 (2026-11-06-FF)   }
 {comment:**  meta: performance: Am   }
 {comment:***********************************************}
 

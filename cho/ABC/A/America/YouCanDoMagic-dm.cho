@@ -4,9 +4,11 @@
 {duration: 3:40}
 {tempo: 130}
 {meta: countin: 8}
+{meta: rc-slot: 60 (2026-11-06-FF)}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
+{comment:**  meta: rc-slot: 60 (2026-11-06-FF)   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
