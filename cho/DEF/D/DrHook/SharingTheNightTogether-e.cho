@@ -6,14 +6,14 @@
 {meta: nord: P11}
 {meta: countin: 4}
 {meta: backing: RC}
-{meta: rc-slot: 93}
+{meta: rc-slot: 93 (2026-11-06-FF)}
 {meta: performance: E}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P11   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 93   }
+{comment:**  meta: rc-slot: 93 (2026-11-06-FF)   }
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
 

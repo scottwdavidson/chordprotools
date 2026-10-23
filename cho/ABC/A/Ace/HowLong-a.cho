@@ -6,7 +6,7 @@
 {meta: nord: M11}
 {meta: countin: 4}
 {meta: backing: RC}
-{meta: rc-slot: 48}
+{meta: rc-slot: 48 (2026-11-06-FF)}
 {meta: label: How   Long}
 {meta: performance: A}
 
@@ -14,7 +14,7 @@
 {comment:**  meta: nord: M11   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
-{comment:**  meta: rc-slot: 48   }
+{comment:**  meta: rc-slot: 48 (2026-11-06-FF)   }
 {comment:**  meta: label: How   Long   }
 {comment:**  meta: performance: A   }
 {comment:***********************************************}
