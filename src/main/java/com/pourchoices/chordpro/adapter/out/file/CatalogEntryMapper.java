@@ -2,6 +2,7 @@ package com.pourchoices.chordpro.adapter.out.file;
 
 import com.pourchoices.chordpro.application.domain.model.BackingType;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.GuitarType;
 import com.pourchoices.chordpro.application.domain.model.SongId;
 import com.pourchoices.chordpro.application.domain.model.VocalIntensity;
 import lombok.extern.slf4j.Slf4j;
@@ -53,6 +54,7 @@ public class CatalogEntryMapper {
                 .genrePrimary(dto.getGenrePrimary())
                 .genreSecondary(dto.getGenreSecondary())
                 .singAlong(parseSingAlong(dto.getSingAlong(), dto.getSongId()))
+                .guitarType(GuitarType.fromString(dto.getGuitar()))
                 .build();
     }
 
@@ -78,6 +80,7 @@ public class CatalogEntryMapper {
                 .genrePrimary(entity.getGenrePrimary())
                 .genreSecondary(entity.getGenreSecondary())
                 .singAlong(entity.getSingAlong() != null ? entity.getSingAlong().toString() : null)
+                .guitar(entity.getGuitarType() != null ? entity.getGuitarType().name() : null)
                 .build();
     }
 

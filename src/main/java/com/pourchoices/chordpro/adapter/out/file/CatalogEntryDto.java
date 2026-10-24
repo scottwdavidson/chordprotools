@@ -23,7 +23,7 @@ public class CatalogEntryDto {
     "countin","backing","nord","roland","ve",
     "performance key",
     "time signature","song id","song label",
-    "energy level","vocal intensity","genre primary","genre secondary","sing along");
+    "energy level","vocal intensity","genre primary","genre secondary","sing along","guitar");
 
 
     @CsvBindByName(column = "song id")
@@ -69,5 +69,7 @@ public class CatalogEntryDto {
     String genreSecondary;
     @CsvBindByName(column = "sing along")
     String singAlong;
+    @CsvBindByName(column = "guitar")
+    String guitar;
 
 }

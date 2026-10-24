@@ -79,6 +79,27 @@ Current split for reference: 129 songs marked `true`, 397 marked `false`.
 
 ---
 
+## 6. GUITAR — one of: **`ACOUSTIC`**, **`ELECTRIC`**, **`BASS`**, **`UNKNOWN`**
+
+Which guitar the guitarist needs for this song. Exists because swapping
+instruments mid-gig takes real time and disrupts the flow — knowing this up
+front lets you cluster same-instrument songs when ordering a setlist (see
+`evaluate-setlist`'s guitar-switch report).
+
+| Value | Meaning |
+|---|---|
+| `ACOUSTIC` | Acoustic guitar |
+| `ELECTRIC` | Electric guitar |
+| `BASS` | Bass guitar |
+| `UNKNOWN` | Deliberately marked as not settled on one instrument |
+
+Must be typed in **ALL CAPS** exactly as shown — parsed as an enum. Leave
+the cell blank for "not yet characterized" — that's different from
+`UNKNOWN`, which means you looked and genuinely can't pin it to one
+instrument.
+
+---
+
 ## Quick-fill cheat sheet
 
 | Column | Format | Valid values |
@@ -88,3 +109,4 @@ Current split for reference: 129 songs marked `true`, 397 marked `false`.
 | GENRE PRIMARY | free text | prefer list in §3 |
 | GENRE SECONDARY | free text, optional | prefer list in §4, or leave blank |
 | SING ALONG | boolean, lowercase | `true` / `false` |
+| GUITAR | enum, ALL CAPS | `ACOUSTIC` / `ELECTRIC` / `BASS` / `UNKNOWN` |

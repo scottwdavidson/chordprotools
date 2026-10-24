@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.GuitarType;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
 import com.pourchoices.chordpro.application.domain.model.SetlistEvaluationReport;
 import com.pourchoices.chordpro.application.domain.model.SongId;
@@ -59,10 +60,14 @@ class EvaluateSetlistServiceTest {
         service = new EvaluateSetlistService(
                 catalogPort, assignmentsPort, gigVenuePort, venueProfilePort,
                 catalogConfig, gigsConfig, gigVenuesConfig, venueProfilesConfig,
-                new SetlistDeduplicator(), new SetlistJoiner(), new SetlistArcScorer());
+                new SetlistDeduplicator(), new SetlistJoiner(), new SetlistArcScorer(), new GuitarSwitchScorer());
     }
 
     private CatalogEntry song(String id, Integer energyLevel, VocalIntensity vocal, Boolean singAlong) {
+        return song(id, energyLevel, vocal, singAlong, null);
+    }
+
+    private CatalogEntry song(String id, Integer energyLevel, VocalIntensity vocal, Boolean singAlong, GuitarType guitar) {
         return CatalogEntry.builder()
                 .songId(SongId.parse(id))
                 .title(id)
@@ -72,6 +77,7 @@ class EvaluateSetlistServiceTest {
                 .energyLevel(energyLevel)
                 .vocalIntensity(vocal)
                 .singAlong(singAlong)
+                .guitarType(guitar)
                 .build();
     }
 
@@ -208,5 +214,52 @@ class EvaluateSetlistServiceTest {
         // Song2 (energy 9, over the ceiling of 8) is Z-set backup -- excluded entirely.
         assertThat(report.getTotalSongs()).isEqualTo(1);
         assertThat(report.violationCount()).isZero();
+    }
+
+    @Test
+    void adjacentSongsWithDifferentGuitarTypes_isFlaggedAsASwitch() {
+        givenCatalog(
+                song("ABC:B:Artist:Song1", null, null, null, GuitarType.ACOUSTIC),
+                song("ABC:B:Artist:Song2", null, null, null, GuitarType.ELECTRIC));
+        givenAssignments(assign("A01", "ABC:B:Artist:Song1"), assign("A02", "ABC:B:Artist:Song2"));
+        when(gigVenuePort.readGigVenues(any())).thenReturn(Map.of());
+
+        SetlistEvaluationReport report = service.evaluateSetlist(GIG);
+
+        assertThat(report.guitarSwitchCount()).isEqualTo(1);
+        assertThat(report.getGuitarSwitches().get(0).getSet()).isEqualTo("A02");
+        assertThat(report.getGuitarSwitches().get(0).getFromGuitar()).isEqualTo(GuitarType.ACOUSTIC);
+        assertThat(report.getGuitarSwitches().get(0).getToGuitar()).isEqualTo(GuitarType.ELECTRIC);
+    }
+
+    @Test
+    void adjacentSongsWithSameGuitarType_isNotASwitch() {
+        givenCatalog(
+                song("ABC:B:Artist:Song1", null, null, null, GuitarType.ACOUSTIC),
+                song("ABC:B:Artist:Song2", null, null, null, GuitarType.ACOUSTIC));
+        givenAssignments(assign("A01", "ABC:B:Artist:Song1"), assign("A02", "ABC:B:Artist:Song2"));
+        when(gigVenuePort.readGigVenues(any())).thenReturn(Map.of());
+
+        SetlistEvaluationReport report = service.evaluateSetlist(GIG);
+
+        assertThat(report.guitarSwitchCount()).isZero();
+    }
+
+    @Test
+    void nullOrUnknownGuitarType_isNeverASwitch_justCountedAsUncharacterized() {
+        givenCatalog(
+                song("ABC:B:Artist:Song1", null, null, null, null),
+                song("ABC:B:Artist:Song2", null, null, null, GuitarType.UNKNOWN),
+                song("ABC:B:Artist:Song3", null, null, null, GuitarType.ELECTRIC));
+        givenAssignments(
+                assign("A01", "ABC:B:Artist:Song1"),
+                assign("A02", "ABC:B:Artist:Song2"),
+                assign("A03", "ABC:B:Artist:Song3"));
+        when(gigVenuePort.readGigVenues(any())).thenReturn(Map.of());
+
+        SetlistEvaluationReport report = service.evaluateSetlist(GIG);
+
+        assertThat(report.guitarSwitchCount()).isZero();
+        assertThat(report.getUncharacterizedGuitarCount()).isEqualTo(1);
     }
 }

@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
 import com.pourchoices.chordpro.application.domain.model.ArcThird;
+import com.pourchoices.chordpro.application.domain.model.GuitarSwitch;
 import com.pourchoices.chordpro.application.domain.model.SetlistEvaluationReport;
 import com.pourchoices.chordpro.application.domain.model.SetlistEvaluationReport.Violation;
 import com.pourchoices.chordpro.application.port.in.EvaluateSetlistUseCase;
@@ -60,11 +61,12 @@ public class EvaluateSetlistCommand implements Runnable {
         System.out.println();
         System.out.println("Setlist evaluation — gig '" + report.getGig() + "'");
         System.out.println("Venue: " + (report.getVenue() != null ? report.getVenue() : "(none linked in gig-venues.csv)"));
-        System.out.printf("Songs: %d  (uncharacterized — energy: %d, vocal: %d, sing-along: %d)%n",
+        System.out.printf("Songs: %d  (uncharacterized — energy: %d, vocal: %d, sing-along: %d, guitar: %d)%n",
                 report.getTotalSongs(),
                 report.getUncharacterizedEnergyCount(),
                 report.getUncharacterizedVocalIntensityCount(),
-                report.getUncharacterizedSingAlongCount());
+                report.getUncharacterizedSingAlongCount(),
+                report.getUncharacterizedGuitarCount());
         System.out.println();
 
         System.out.println("Hard violations: " + report.violationCount());
@@ -91,6 +93,15 @@ public class EvaluateSetlistCommand implements Runnable {
                 report.isLastSongsHaveSingAlong()
                         ? "last few songs include a sing-along, good closer."
                         : "no sing-along among the last few songs.");
+        System.out.println();
+
+        System.out.println("Guitar switches: " + report.guitarSwitchCount());
+        for (GuitarSwitch s : report.getGuitarSwitches()) {
+            System.out.printf("  [%-6s] %-" + COL_TITLE + "s %-" + COL_ARTIST + "s %s -> %s (%s)%n",
+                    s.getSet(), truncate(s.getToTitle(), COL_TITLE), truncate(s.getToArtist(), COL_ARTIST),
+                    s.getFromGuitar(), s.getToGuitar(),
+                    "after \"" + s.getFromTitle() + "\"");
+        }
         System.out.println();
     }
 

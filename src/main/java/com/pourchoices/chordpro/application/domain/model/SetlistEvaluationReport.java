@@ -50,6 +50,7 @@ public class SetlistEvaluationReport {
     int uncharacterizedEnergyCount;
     int uncharacterizedVocalIntensityCount;
     int uncharacterizedSingAlongCount;
+    int uncharacterizedGuitarCount;
 
     @Singular
     List<Violation> violations;
@@ -61,6 +62,10 @@ public class SetlistEvaluationReport {
     @Singular("arcNote")
     List<String> arcNotes;
 
+    /** Instrument-swap points in performed order — see {@link GuitarSwitch}. */
+    @Singular("guitarSwitch")
+    List<GuitarSwitch> guitarSwitches;
+
     int singAlongCount;
     int singAlongInFinalThird;
 
@@ -69,5 +74,9 @@ public class SetlistEvaluationReport {
 
     public int violationCount() {
         return violations.size();
+    }
+
+    public int guitarSwitchCount() {
+        return guitarSwitches.size();
     }
 }

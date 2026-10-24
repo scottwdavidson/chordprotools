@@ -46,5 +46,11 @@ public class CatalogEntry {
     String genreSecondary;
     /** Crowd-engagement marker for the arc scorer. Null = not yet characterized. */
     Boolean singAlong;
+    /**
+     * Which guitar the guitarist needs for this song. Null = not yet
+     * characterized; distinct from the explicit {@link GuitarType#UNKNOWN}.
+     * Used by {@code evaluate-setlist} to flag instrument-switch points.
+     */
+    GuitarType guitarType;
 
 }

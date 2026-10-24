@@ -55,6 +55,7 @@ public class EvaluateSetlistService implements EvaluateSetlistUseCase {
     private final SetlistDeduplicator deduplicator;
     private final SetlistJoiner joiner;
     private final SetlistArcScorer arcScorer;
+    private final GuitarSwitchScorer guitarSwitchScorer;
 
     @Override
     public SetlistEvaluationReport evaluateSetlist(String gigParam) {
@@ -82,11 +83,13 @@ public class EvaluateSetlistService implements EvaluateSetlistUseCase {
                 .totalSongs(entries.size())
                 .uncharacterizedEnergyCount(countMissing(entries, e -> e.getSong().getEnergyLevel() == null))
                 .uncharacterizedVocalIntensityCount(countMissing(entries, e -> e.getSong().getVocalIntensity() == null))
-                .uncharacterizedSingAlongCount(countMissing(entries, e -> e.getSong().getSingAlong() == null));
+                .uncharacterizedSingAlongCount(countMissing(entries, e -> e.getSong().getSingAlong() == null))
+                .uncharacterizedGuitarCount(countMissing(entries, e -> e.getSong().getGuitarType() == null));
 
         applyHardViolations(entries, venueName, profile, report);
         applyArc(entries, profile, report);
         applySingAlong(entries, report);
+        applyGuitarSwitches(entries, report);
 
         return report.build();
     }
@@ -199,5 +202,10 @@ public class EvaluateSetlistService implements EvaluateSetlistUseCase {
         report.singAlongInFinalThird(arcScorer.singAlongCountInFinalThird(entries));
         report.lastSongsHaveSingAlong(
                 arcScorer.lastSongsIncludeSingAlong(entries, SetlistArcScorer.DEFAULT_CLOSER_WINDOW));
+    }
+
+    private void applyGuitarSwitches(List<SetlistEntry> entries,
+                                      SetlistEvaluationReport.SetlistEvaluationReportBuilder report) {
+        guitarSwitchScorer.detectSwitches(entries).forEach(report::guitarSwitch);
     }
 }
