@@ -3,11 +3,17 @@
 {key: Em}
 {duration: 3:40}
 {tempo: 130}
+{meta: nord: P52}
+{meta: roland: A0102}
 {meta: countin: 8}
+{meta: backing: RC}
 {meta: rc-slot: 60 (2026-11-06-FF)}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P52   }
+{comment:**  meta: roland: A0102   }
 {comment:**  meta: countin: 8   }
+{comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 60 (2026-11-06-FF)   }
 {comment:***********************************************}
 
