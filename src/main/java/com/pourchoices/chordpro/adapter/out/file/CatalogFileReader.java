@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Collections;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -43,9 +45,18 @@ public class CatalogFileReader {
         // Map to domain object
         List<CatalogEntry> catalog = catalogEntryMapper.toEntityList(dtoCatalog);
 
-        // Create an immutable map using Java Streams
-        return catalog.stream()
-                .collect(Collectors.toUnmodifiableMap(e -> e.getSongId().toString(), dto -> dto));
+        // LinkedHashMap preserves file order — callers that read-modify-write the
+        // whole catalog (characterize-songs, import-song, consistent-metadata --fix)
+        // rely on this to avoid silently re-sorting song-catalog.csv into hash order
+        // on every write. Collectors.toUnmodifiableMap gives NO ordering guarantee,
+        // which is exactly the bug this replaced.
+        Map<String, CatalogEntry> ordered = catalog.stream()
+                .collect(Collectors.toMap(
+                        e -> e.getSongId().toString(),
+                        e -> e,
+                        (a, b) -> { throw new IllegalStateException("Duplicate SONG ID in catalog: " + a.getSongId()); },
+                        LinkedHashMap::new));
+        return Collections.unmodifiableMap(ordered);
 
     }
 }
