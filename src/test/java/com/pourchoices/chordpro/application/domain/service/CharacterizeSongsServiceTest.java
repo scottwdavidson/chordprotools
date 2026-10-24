@@ -3,6 +3,7 @@ package com.pourchoices.chordpro.application.domain.service;
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
 import com.pourchoices.chordpro.application.domain.model.CharacterizeSongsReport;
 import com.pourchoices.chordpro.application.domain.model.CharacterizeSongsReport.RatingField;
+import com.pourchoices.chordpro.application.domain.model.GuitarType;
 import com.pourchoices.chordpro.application.domain.model.SongId;
 import com.pourchoices.chordpro.application.domain.model.SongRating;
 import com.pourchoices.chordpro.application.domain.model.VocalIntensity;
@@ -64,6 +65,10 @@ class CharacterizeSongsServiceTest {
 
     private SongRating rating(String groupKey, Integer energy, VocalIntensity vocal) {
         return SongRating.builder().groupKey(groupKey).energyLevel(energy).vocalIntensity(vocal).build();
+    }
+
+    private SongRating ratingWithGuitar(String groupKey, GuitarType guitar) {
+        return SongRating.builder().groupKey(groupKey).guitarType(guitar).build();
     }
 
     @Test
@@ -170,5 +175,40 @@ class CharacterizeSongsServiceTest {
 
         assertThat(report.getTotalCatalogGroups()).isEqualTo(2);
         assertThat(report.getStillUnratedGroups()).containsExactly("Today's the Day \u2014 America");
+    }
+
+    @Test
+    void appliesGuitarTypeToUncharacterizedSong() {
+        givenCatalog(base("ABC:B:TomPetty:YouWreckMe", "You Wreck Me", "Tom Petty").build());
+        givenRatings(ratingWithGuitar("ABC:B:TomPetty:YouWreckMe", GuitarType.ELECTRIC));
+
+        CharacterizeSongsReport report = service.characterizeSongs("ratings.csv", true);
+
+        assertThat(report.getTallies().get(RatingField.GUITAR).getApplied()).isEqualTo(1);
+
+        @SuppressWarnings("unchecked")
+        var captor = org.mockito.ArgumentCaptor.forClass(List.class);
+        verify(catalogPort).writeCatalogToCsv(any(), captor.capture());
+        CatalogEntry written = (CatalogEntry) captor.getValue().get(0);
+        assertThat(written.getGuitarType()).isEqualTo(GuitarType.ELECTRIC);
+    }
+
+    @Test
+    void neverOverwritesAlreadySetGuitarType() {
+        givenCatalog(base("ABC:B:TomPetty:YouWreckMe", "You Wreck Me", "Tom Petty")
+                .guitarType(GuitarType.ACOUSTIC) // already hand-set
+                .build());
+        givenRatings(ratingWithGuitar("ABC:B:TomPetty:YouWreckMe", GuitarType.ELECTRIC));
+
+        CharacterizeSongsReport report = service.characterizeSongs("ratings.csv", true);
+
+        assertThat(report.getTallies().get(RatingField.GUITAR).getApplied()).isZero();
+        assertThat(report.getTallies().get(RatingField.GUITAR).getAlreadySetSkipped()).isEqualTo(1);
+
+        @SuppressWarnings("unchecked")
+        var captor = org.mockito.ArgumentCaptor.forClass(List.class);
+        verify(catalogPort).writeCatalogToCsv(any(), captor.capture());
+        CatalogEntry written = (CatalogEntry) captor.getValue().get(0);
+        assertThat(written.getGuitarType()).isEqualTo(GuitarType.ACOUSTIC); // untouched
     }
 }

@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
+import com.pourchoices.chordpro.application.domain.model.GuitarType;
 import com.pourchoices.chordpro.application.domain.model.SongRating;
 import com.pourchoices.chordpro.application.domain.model.VocalIntensity;
 import lombok.extern.slf4j.Slf4j;
@@ -32,6 +33,7 @@ public class SongRatingMapper {
                 .genrePrimary(dto.getGenrePrimary())
                 .genreSecondary(dto.getGenreSecondary())
                 .singAlong(parseSingAlong(dto.getSingAlong(), dto.getGroupKey()))
+                .guitarType(GuitarType.fromString(dto.getGuitar()))
                 .build();
     }
 

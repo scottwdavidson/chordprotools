@@ -22,7 +22,7 @@ public class SongRatingDto {
 
     public static final List<String> COLUMN_ORDER = Arrays.asList(
             "song group key", "title", "artist",
-            "energy level", "vocal intensity", "genre primary", "genre secondary", "sing along");
+            "energy level", "vocal intensity", "genre primary", "genre secondary", "sing along", "guitar");
 
     @CsvBindByName(column = "song group key")
     String groupKey;
@@ -40,4 +40,6 @@ public class SongRatingDto {
     String genreSecondary;
     @CsvBindByName(column = "sing along")
     String singAlong;
+    @CsvBindByName(column = "guitar")
+    String guitar;
 }

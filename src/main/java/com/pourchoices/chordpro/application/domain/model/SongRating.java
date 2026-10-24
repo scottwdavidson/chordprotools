@@ -36,4 +36,6 @@ public class SongRating {
     String genrePrimary;
     String genreSecondary;
     Boolean singAlong;
+    /** Null = this rating doesn't set guitar type (first-cut backfills often won't guess every song). */
+    GuitarType guitarType;
 }

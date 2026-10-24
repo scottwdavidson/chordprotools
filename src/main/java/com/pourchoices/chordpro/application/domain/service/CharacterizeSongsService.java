@@ -149,6 +149,14 @@ public class CharacterizeSongsService implements CharacterizeSongsUseCase {
                 tally(skipped, RatingField.SING_ALONG);
             }
         }
+        if (rating.getGuitarType() != null) {
+            if (variant.getGuitarType() == null) {
+                builder.guitarType(rating.getGuitarType());
+                tally(applied, RatingField.GUITAR);
+            } else {
+                tally(skipped, RatingField.GUITAR);
+            }
+        }
 
         return builder.build();
     }

@@ -22,7 +22,7 @@ import java.util.Map;
 public class CharacterizeSongsReport {
 
     public enum RatingField {
-        ENERGY_LEVEL, VOCAL_INTENSITY, GENRE_PRIMARY, GENRE_SECONDARY, SING_ALONG
+        ENERGY_LEVEL, VOCAL_INTENSITY, GENRE_PRIMARY, GENRE_SECONDARY, SING_ALONG, GUITAR
     }
 
     @Value
