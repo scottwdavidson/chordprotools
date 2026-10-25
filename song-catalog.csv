@@ -5,13 +5,13 @@ Spooky,ARS,Em,3:22,106,4,,P34,C013,,,,ABC:A:ARS:Spooky,,6,FULL,Rock,,false,ELECT
 Dancing Queen (Altered),Abba,A,,,,,,,,E,,ABC:A:Abba:DancingQueenAltered,,9,FULL,Disco,Pop,true,ELECTRIC
 Dancing Queen (Altered),Abba,E,,,,,,,,E,,ABC:A:Abba:DancingQueenAltered-e,,9,FULL,Disco,Pop,true,ELECTRIC
 Does Your Mother Know,Abba,G,3:10,120,8,RC,M22,,,,,ABC:A:Abba:DoesYourMotherKnow,DoesYrKnow,8,FULL,Pop Rock,,false,ELECTRIC
-How Long,Ace,Bb,3:00,121,4,RC,M11,,,A,,ABC:A:Ace:HowLong,How   Long,4,FULL,Soft Rock,,false,ACOUSTIC
-How Long,Ace,A,3:00,121,4,RC,M11,,,A,,ABC:A:Ace:HowLong-a,How   Long,4,FULL,Soft Rock,,false,ACOUSTIC
+How Long,Ace,Bb,3:00,121,4,RC,M11,,,A,,ABC:A:Ace:HowLong,How   Long,4,FULL,Soft Rock,,false,ELECTRIC
+How Long,Ace,A,3:00,121,4,RC,M11,,,A,,ABC:A:Ace:HowLong-a,How   Long,4,FULL,Soft Rock,,false,ELECTRIC
 Take On Me,Aha,A,3:00,100,,,,,,,,ABC:A:Aha:TakeOnMe,,9,FULL,Synth Pop,New Wave,true,ELECTRIC
 Let's Stay Together,Al Green,F,,,,,,,,,,ABC:A:AlGreen:LetsStayTogether,,5,FULL,Soul,,false,ELECTRIC
 Time Passages,Al Stewart,Eb,6:00,111,,,,,,,,ABC:A:AlStewart:TimePassages,,4,FULL,Soft Rock,,false,ACOUSTIC
 Year of the Cat,Al Stewart,Em,4:00,116,4,RC,M22,,U6,,,ABC:A:AlStewart:YearOfTheCat,YearOfTheCat,4,FULL,Soft Rock,,false,ACOUSTIC
-"Dancin', Shaggin' on the Boulevard",Alabama,G,4:30,103,2,RC,P:55,,,G,,ABC:A:Alabama:DancinShagginOnTheBoulevard,,7,FULL,Country,,false,ACOUSTIC
+"Dancin', Shaggin' on the Boulevard",Alabama,G,4:30,103,2,RC,P:55,,,G,,ABC:A:Alabama:DancinShagginOnTheBoulevard,,7,FULL,Country,,false,ELECTRIC
 Had It Not Been You,Alan Jackson,F,3:10,100,,,,,,,,ABC:A:AlanJackson:HadItNotBeenYou,,,,,,,
 Remember When,Alan Jackson,G,3:00,100,,,,,,,,ABC:A:AlanJackson:RememberWhen,,2,FULL,Country,,false,ACOUSTIC
 Remember When (Linda's Version),"Alan Jackson, Scott Davidson",G,3:00,100,,,,,,,,ABC:A:AlanJackson:RememberWhenLinda,,2,FULL,Country,,false,ACOUSTIC
@@ -29,7 +29,7 @@ Lonely People,America,D,2:10,155,4,BB,M15(A3),,,D,,ABC:A:America:LonelyPeople-d,
 Today's The Day,America,E,3:00,101,4,BB,O54,,,,,ABC:A:America:TodaysTheDay,,2,FULL,Soft Rock,,false,ACOUSTIC
 Ventura Highway,America,G,3:20,130,,,,,,,,ABC:A:America:VenturaHighway,,4,FULL,Folk Rock,,false,ACOUSTIC
 You Can Do Magic,America,Em,3:40,130,8,RC,P52,A0102,,Dm,,ABC:A:America:YouCanDoMagic,,7,FULL,Pop,,false,ACOUSTIC
-You Can Do Magic,America,Dm,3:40,130,8,RC,P52,A0102,,Dm,,ABC:A:America:YouCanDoMagic-dm,,,,,,,
+You Can Do Magic,America,Dm,3:40,130,8,RC,P52,A0102,,Dm,,ABC:A:America:YouCanDoMagic-dm,,,,,,,ACOUSTIC
 Sweet Pea,Amos Lee,C,2:00,100,,,,,,E,,ABC:A:AmosLee:SweetPea,,3,FULL,Folk,Singer-Songwriter,false,ACOUSTIC
 Valerie,Ami Winehouse,Eb,3:10,105,4,,P54,,,,,ABC:A:AmyWinehouse:Valerie,,7,FULL,Soul,Pop,true,ELECTRIC
 Shadows In The Moonlight,Anne Murray,A,,,,,,,,,,ABC:A:AnneMurray:ShadowsInTheMoonlight,,5,FULL,Country,,false,ACOUSTIC
@@ -67,8 +67,8 @@ Let Me Down Easy,Billy Currington,G,3:30,125,4,RC,P55,,,G,,ABC:B:BillyCurrington
 All For Leyna,Billy Joel,Am,3:30,144,,,,,,,,ABC:B:BillyJoel:AllForLeyna,,6,FULL,Rock,,false,ELECTRIC
 Don't Ask Me Why,Billy Joel,Bb,3:50,99,,,,,,,,ABC:B:BillyJoel:DontAskMeWhy,,5,FULL,Pop Rock,,false,ELECTRIC
 Movin' Out,Billy Joel,Dm,,120,,,,,,,,ABC:B:BillyJoel:MovinOut,,7,FULL,Rock,,false,ELECTRIC
-My Life,Billy Joel,D,3:40,131,8,RC,P32,,,C,,ABC:B:BillyJoel:MyLife,MyLife,7,FULL,Rock,,true,ELECTRIC
-My Life,Billy Joel,C,3:40,131,8,RC,P32,,,C,,ABC:B:BillyJoel:MyLife-c,MyLife,7,FULL,Rock,,true,ELECTRIC
+My Life,Billy Joel,D,3:40,131,8,RC,P32,,,C,,ABC:B:BillyJoel:MyLife,MyLife,7,FULL,Rock,,true,ACOUSTIC
+My Life,Billy Joel,C,3:40,131,8,RC,P32,,,C,,ABC:B:BillyJoel:MyLife-c,MyLife,7,FULL,Rock,,true,ACOUSTIC
 Piano Man,Billy Joel,C,4:40,178,,,,,,A,,ABC:B:BillyJoel:PianoMan,,4,FULL,Rock,Pop,true,ELECTRIC
 Piano Man,Billy Joel,Gb,4:40,178,,,,,,A,,ABC:B:BillyJoel:PianoMan-a,,4,FULL,Rock,Pop,true,ELECTRIC
 Piano Man,Billy Joel,C,4:40,178,,,,,,,,ABC:B:BillyJoel:PianoMan-old,,4,FULL,Rock,Pop,true,ELECTRIC
@@ -86,13 +86,13 @@ Hey Bartender,Blues Brothers,A,,,,,,,,,,ABC:B:BluesBrothers:HeyBartender,,6,FULL
 I Shall Be Released,Bob Dylan,E,2:30,65,,,,,,,,ABC:B:BobDylan:IShallBeReleased,,3,FULL,Folk,,false,ACOUSTIC
 Like A Rolling Stone,Bob Dylan,C,,,,,,,,,,ABC:B:BobDylan:LikeARollingStone,,6,FULL,Folk Rock,,true,ACOUSTIC
 Make You Feel My Love,Bob Dylan,C,,70,,,,,,,,ABC:B:BobDylan:MakeYouFeelMyLove,,2,FULL,Ballad,,false,ACOUSTIC
-Against the Wind,Bob Seger,G,4:00,109,4,RC,M44,,,F,,ABC:B:BobSeger:AgainstTheWind,AganstWind,4,FULL,Rock,,false,ELECTRIC
-Against the Wind,Bob Seger,F,3:50,109,4,RC,M44,,,F,,ABC:B:BobSeger:AgainstTheWind-f,AganstWind,4,FULL,Rock,,false,ELECTRIC
+Against the Wind,Bob Seger,G,4:00,109,4,RC,M44,,,F,,ABC:B:BobSeger:AgainstTheWind,AganstWind,4,FULL,Rock,,false,ACOUSTIC
+Against the Wind,Bob Seger,F,3:50,109,4,RC,M44,,,F,,ABC:B:BobSeger:AgainstTheWind-f,AganstWind,4,FULL,Rock,,false,ACOUSTIC
 Hollywood Nights,Bob Seger,E,4:40,150,8,RC,O25,,,B,,ABC:B:BobSeger:HollywoodNights,HllywdNights,7,FULL,Rock,,false,ELECTRIC
 Hollywood Nights,Bob Seger,B,4:40,150,8,RC,O25,,,B,,ABC:B:BobSeger:HollywoodNights-b,HllywdNights,7,FULL,Rock,,false,ELECTRIC
-Still the Same,Bob Seger,C,3:28,115,4,RC,P55,,,A,,ABC:B:BobSeger:StillTheSame,Still Same,5,FULL,Rock,,false,ELECTRIC
-Still the Same,Bob Seger,A,3:28,115,4,RC,P55,,,A,,ABC:B:BobSeger:StillTheSame-a,Still Same,5,FULL,Rock,,false,ELECTRIC
-Turn The Page,Bob Seger,Em,,,,,,,,,,ABC:B:BobSeger:TurnThePage,,4,FULL,Rock,,false,ELECTRIC
+Still the Same,Bob Seger,C,3:28,115,4,RC,P55,,,A,,ABC:B:BobSeger:StillTheSame,Still Same,5,FULL,Rock,,false,ACOUSTIC
+Still the Same,Bob Seger,A,3:28,115,4,RC,P55,,,A,,ABC:B:BobSeger:StillTheSame-a,Still Same,5,FULL,Rock,,false,ACOUSTIC
+Turn The Page,Bob Seger,Em,,,,,,,,,,ABC:B:BobSeger:TurnThePage,,4,FULL,Rock,,false,ACOUSTIC
 Ebony Eyes,Bob Welch,Am,2:51,116,8,RC,,,,Gm,,ABC:B:BobWelch:EbonyEyes,Ebony  Eyes,6,FULL,Pop Rock,,false,ELECTRIC
 Ebony Eyes,Bob Welch,Gm,2:51,116,8,RC,,,,Gm,,ABC:B:BobWelch:EbonyEyes-gm,Ebony  Eyes,6,FULL,Pop Rock,,false,ELECTRIC
 Precious Love,Bob Welch,E,,124,,,,,,,,ABC:B:BobWelch:PreciousLove,,5,FULL,Rock,,false,ELECTRIC
@@ -102,7 +102,7 @@ Aubrey,Bread,G,,,,,,,,,,ABC:B:Bread:Aubry,,2,FULL,Soft Rock,Ballad,false,ACOUSTI
 Love and Mercy,Brian Wilson,G,3:10,96,,,N52,,,,,ABC:B:BrianWilson:LoveAndMercy,,2,FULL,Pop,Ballad,false,ACOUSTIC
 Cover Me,Bruce Springsteen,Bm,3:00,120,4,RC,P54,,,,,ABC:B:BruceSpringsteen:CoverMe,Cover  Me,8,FULL,Rock,,false,ELECTRIC
 Hungry Heart,Bruce Springsteen,C,,120,,,,,,,,ABC:B:BruceSpringsteen:HugryHeart,,7,FULL,Rock,,true,ELECTRIC
-Apt,Rose & Bruno Mars,Eb,2:40,149,4,RC,P51,,,,,ABC:B:BrunoMars:Apt,Apt,8,FULL,Pop,,true,ACOUSTIC
+Apt,Rose & Bruno Mars,Eb,2:40,149,4,RC,P51,,,,,ABC:B:BrunoMars:Apt,Apt,8,FULL,Pop,,true,ELECTRIC
 Die With A Smile,"Bruno Mars, Lady Gaga",A,,,4,RC,,,,,,ABC:B:BrunoMars:DieWithASmile,Die   Smile,4,FULL,Pop,Ballad,false,ACOUSTIC
 Nothin On You,Bruno Mars & B.o.B,Bb,3:45,107,,,,,,,,ABC:B:BrunoMars:NothinOnYou,,7,FULL,Pop,R&B,true,ACOUSTIC
 Stand Tall,Burton Cummings,Eb,3:30,96,,,,,,,,ABC:B:BurtonCummings:StandTall,,,,,,,
@@ -118,7 +118,7 @@ Will You Love Me Tomorrow,Carole King,C,3:00,80,,,,,,,,ABC:C:CaroleKing:WillYouL
 I Won't Last A Day Without You,Carpenters,G,3:20,85,4,,P54,,,F,,ABC:C:Carpenters:IWontLastADayWithoutYou,,2,FULL,Soft Pop,,false,ACOUSTIC
 I Won't Last A Day Without You,Carpenters,F,3:20,85,4,,P54,,,F,,ABC:C:Carpenters:IWontLastADayWithoutYou-f,,2,FULL,Soft Pop,,false,ACOUSTIC
 There's A Kind Of Hush,Carpenters,G,2:35,128,,,,,,,,ABC:C:Carpenters:TheresAKindOfHush,,4,FULL,Soft Pop,,false,ACOUSTIC
-Before He Cheats,Carrie Underwood,F#m,2:50,150,,,,,,,,ABC:C:CarrieUnderwood:BeforeHeCheats,,8,FULL,Country Rock,,true,ELECTRIC
+Before He Cheats,Carrie Underwood,F#m,2:50,150,,,,,,,,ABC:C:CarrieUnderwood:BeforeHeCheats,,8,FULL,Country Rock,,true,ACOUSTIC
 Drive,The Cars,B,,,,,,,,,,ABC:C:Cars:Drive,,3,FULL,New Wave,,false,ELECTRIC
 Magic,The Cars,A,4:00,125,8,RC,P52,A111,,,,ABC:C:Cars:Magic,,7,FULL,New Wave,Pop Rock,false,ELECTRIC
 My Best Friend's Girl,The Cars,F,3:45,130,,,,,,,,ABC:C:Cars:MyBestFriendsGirl,,7,FULL,New Wave,Pop Rock,false,ELECTRIC
@@ -134,14 +134,14 @@ Where Are You Listening To?,Chris Stapleton,Bb,,,,,,,,,,ABC:C:ChrisStapleton:Wha
 Ride Like The Wind,Christopher Cross,Eb,4:00,125,,,P33,,,,,ABC:C:ChristopherCross:RideLikeTheWind,,5,FULL,Soft Rock,Yacht Rock,false,ACOUSTIC
 Sailing,Christopher Cross,D,4:15,80,,RC,P33,,,,,ABC:C:ChristopherCross:Sailing,,1,FULL,Soft Rock,Yacht Rock,false,ACOUSTIC
 A Better Man,Clint Black,E,3:00,162,4,RC,O55,,,E,,ABC:C:ClintBlack:ABetterMan,,4,FULL,Country,,false,ACOUSTIC
-Fix You,Cold Play,Cm,3:45,138,,,,,,,,ABC:C:ColdPlay:FixYou,,4,FULL,Alternative,Pop Rock,true,ELECTRIC
+Fix You,Cold Play,Cm,3:45,138,,,,,,,,ABC:C:ColdPlay:FixYou,,4,FULL,Alternative,Pop Rock,true,ACOUSTIC
 Speed Of Sound,Coldplay,A,3:35,124,,,,,,,,ABC:C:ColdPlay:SpeedOfSound,,6,FULL,Alternative,,false,ELECTRIC
 Easy,Commodores,Ab,4:10,67,4,RC,P55-3,,,F,,ABC:C:Commodores:Easy,Easy,2,FULL,Soul,Ballad,false,ELECTRIC
 Easy,Commodores,F,3:40,67,4,RC,P55-3,,,F,,ABC:C:Commodores:Easy-f,Easy,2,FULL,Soul,Ballad,false,ELECTRIC
 Sail On,Commodores,D,,,,,,,,,,ABC:C:Commodores:SailOn,,3,FULL,Soul,Soft Rock,false,ELECTRIC
 Pretty Little Baby,Connie Francis,Db,,,,,,,,,,ABC:C:ConnieFrancis:PrettyLittleBaby,,5,FULL,Pop,Oldies,false,ACOUSTIC
 Who's Sorry Now,Connie Francis,Bb,,,,,,,,,,ABC:C:ConnieFrancis:WhosSorryNow,,4,FULL,Pop,Oldies,false,ACOUSTIC
-Put Your Records On,Corrine Bailey Rae,A,3:00,96,4,,N24,,,,,ABC:C:CorrineBailyRae:PutYourRecordsOn,,5,FULL,Soul,Pop,false,ELECTRIC
+Put Your Records On,Corrine Bailey Rae,A,3:00,96,4,,N24,,,,,ABC:C:CorrineBailyRae:PutYourRecordsOn,,5,FULL,Soul,Pop,false,ACOUSTIC
 Accidentally In Love,Counting Crows,G,3:00,138,4,,O11,,,,,ABC:C:CountingCrows:AccidentallyInLove,,7,FULL,Pop Rock,,true,ELECTRIC
 Don't Dream It's Over,Crowded House,C,3:40,81,4,RC,,,A059,C,,ABC:C:CrowdedHouse:DontDreamItsOver,,4,FULL,Rock,,true,ELECTRIC
 Friday I'm In Love,The Cure,D,3:15,136,5,RC,,,,,,ABC:C:Cure:FridayImInLove,FridayInLove,7,FULL,Alternative,New Wave,true,ELECTRIC
@@ -150,7 +150,7 @@ Just Like Heaven,The Cure,A,3:10,153,,,,,,,,ABC:C:Cure:JustLikeHeaven,,7,FULL,Al
 Beautiful Sunday,Daniel Boone,C,3:00,120,,,P55,,,,,DEF:D:DanielBoone:BeautifulSunday,,6,FULL,Pop,,false,ACOUSTIC
 Hold My Hand,Hootie (Darius Rucker) and the Blowfish,B,3:35,101,,,,,,,,DEF:D:DariusRucker:HoldMyHand,,7,FULL,Pop Rock,,true,ELECTRIC
 Wagon Wheel,Darius Rucker,G,3:50,148,4,,O55,,,,,DEF:D:DariusRucker:WagonWheel,Wagon Wheel,7,FULL,Country,Folk,true,ACOUSTIC
-Modern Love,David Bowie,C,4:30,92,,,,,,,,DEF:D:DavidBowie:ModernLove,,,,,,,
+Modern Love,David Bowie,C,4:30,92,,,,,,,,DEF:D:DavidBowie:ModernLove,,,,,,,ELECTRIC
 Party Crowd,David Lee Murphy,G,3:00,127,,RC,,,,,,DEF:D:DavidLeeMurphy:PartyCrowd,,7,FULL,Country,,false,ACOUSTIC
 Leap Of Faith,Delbert McClinton,B,,,,,,,,,,DEF:D:DelbertMcClinton:LeapOfFaith,,5,FULL,Blues Rock,,false,ELECTRIC
 Enjoy the Silence,Depeche Mode,Bm,,,,,,,,,,DEF:D:DepecheMode:EnjoyTheSilence,,5,FULL,Synth Pop,New Wave,false,ELECTRIC
@@ -167,18 +167,18 @@ Long Train Runnin',Doobie Brothers,Gm,3:20,117,4,RC,,,,,,DEF:D:DoobieBros:LongTr
 Long Train Runnin’,Doobie Brothers,Gm,,,,,,,,,,DEF:D:DoobieBros:LongTrainRunning-MVP,,8,FULL,Rock,,false,ELECTRIC
 Takin' It To The Streets,Doobie Brothers,F,,,,,,,,B,,DEF:D:DoobieBros:TakinItToTheStreets,,7,FULL,Rock,Soul,false,ELECTRIC
 Takin' It To The Streets,Doobie Brothers,B,,,,,,,,B,,DEF:D:DoobieBros:TakinItToTheStreets-b,,7,FULL,Rock,Soul,false,ELECTRIC
-Sharing The Night Together,Dr. Hook,C,2:45,154,4,RC,P11,,,E,,DEF:D:DrHook:SharingTheNightTogether,,5,FULL,Soft Rock,,false,ACOUSTIC
-Sharing The Night Together,Dr. Hook,E,2:45,154,4,RC,P11,,,E,,DEF:D:DrHook:SharingTheNightTogether-e,,5,FULL,Soft Rock,,false,ACOUSTIC
+Sharing The Night Together,Dr. Hook,C,2:45,154,4,RC,P11,,,E,,DEF:D:DrHook:SharingTheNightTogether,,5,FULL,Soft Rock,,false,ELECTRIC
+Sharing The Night Together,Dr. Hook,E,2:45,154,4,RC,P11,,,E,,DEF:D:DrHook:SharingTheNightTogether-e,,5,FULL,Soft Rock,,false,ELECTRIC
 Levitating,Dua Lipa,Am,,,,,,,,,,DEF:D:DuaLipa:Levitating,,9,FULL,Pop,Disco,true,ACOUSTIC
 Love Again,Dua Lipa,F#m,3:50,116,,,,,,,,DEF:D:DuaLipa:LoveAgain,,8,FULL,Pop,,false,ACOUSTIC
-Ordinary World,Duran Duran,Bm,4:35,140,8,RC,N32,,,Bm,,DEF:D:DuranDuran:OrdinaryWorld,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ELECTRIC
-Ordinary World,Duran Duran,Am,4:35,140,8,RC,N32,,,Am,,DEF:D:DuranDuran:OrdinaryWorld-am,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ELECTRIC
+Ordinary World,Duran Duran,Bm,4:35,140,8,RC,N32,,,Bm,,DEF:D:DuranDuran:OrdinaryWorld,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ACOUSTIC
+Ordinary World,Duran Duran,Am,4:35,140,8,RC,N32,,,Am,,DEF:D:DuranDuran:OrdinaryWorld-am,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ACOUSTIC
 Ain't That Lonely Yet,Dwight Yoakam,F,3:10,107,,,,,,,,DEF:D:DwightYokam:AintThatLonelyYet,,6,FULL,Country,,false,ACOUSTIC
 Fast As You,Dwight Yoakam,E,4:30,126,,,,,,,,DEF:D:DwightYokam:FastAsYou,,7,FULL,Country Rock,,false,ELECTRIC
 Little Sister,Dwight Yoakam,E,3:00,144,4,BB,O14,,,,,DEF:D:DwightYokam:LittleSister,LittleSister,7,FULL,Country Rock,,false,ELECTRIC
 Can't Get You Out Of My Head,ELO,C,4:00,85,,,,,,,,DEF:E:ELO:CantGetYouOutOfMyHead,,8,FULL,Dance Pop,,true,ELECTRIC
-Evil Woman,ELO,Am,4:40,120,,RC,,,,,,DEF:E:ELO:EvilWoman,,,,,,,
-Midnight Blue,ELO,F,4:10,141,,,,,,D,,DEF:E:ELO:MidnightBlue,,,,,,,
+Evil Woman,ELO,Am,4:40,120,,RC,,,,,,DEF:E:ELO:EvilWoman,,,,,,,ELECTRIC
+Midnight Blue,ELO,F,4:10,141,,,,,,D,,DEF:E:ELO:MidnightBlue,,,,,,,ELECTRIC
 Rockaria,ELO / Jeff Lynne,D,,,,,,,,,,DEF:E:ELO:Rockaria,,7,FULL,Rock,,false,ELECTRIC
 When I Was A Boy,ELO ( Jeff Lynne ),C,,,,,,,,,,DEF:E:ELO:WhenIWasABoy,When IWasBoy,,,,,,
 I Can't Tell You Why,Eagles,Bm,,,,,,,,,,DEF:E:Eagles:ICantTellYouWhy,,3,FULL,Soft Rock,,false,ACOUSTIC
@@ -187,22 +187,22 @@ Lyin' Eyes,Eagles,G,3:45,133,8,,O55,,,,,DEF:E:Eagles:LyinEyes,Lyin  Eyes,4,FULL,
 Hey There Lonely Girl,Eddie Holman,G,3:00,,,,,,,,,DEF:E:EddieHolman:HeyThereLonelyGirl,,3,FULL,Soul,Ballad,false,ELECTRIC
 Think I'm In Love,Eddie Money,Eb,4:00,152,,,,,,,,DEF:E:EddieMoney:ThinkImInLove,,6,FULL,Rock,,false,ELECTRIC
 Last Song,Edward Bear,G,3:00,,,,P55,,,,,DEF:E:EdwardBear:LastSong,,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
-Crocodile Rock,Elton John,G,3:10,151,8,RC,P25,,,G,,DEF:E:EltonJohn:CrocodileRock,CrocodRock,8,FULL,Rock,,true,ELECTRIC
+Crocodile Rock,Elton John,G,3:10,151,8,RC,P25,,,G,,DEF:E:EltonJohn:CrocodileRock,CrocodRock,8,FULL,Rock,,true,ACOUSTIC
 Daniel,Elton John,C,3:30,66,,,,,,A,,DEF:E:EltonJohn:Daniel,Daniel,3,FULL,Pop,Ballad,false,ACOUSTIC
 Daniel,Elton John,A,3:30,66,8,,N43,,,A,,DEF:E:EltonJohn:Daniel-a,Daniel,3,FULL,Pop,Ballad,false,ACOUSTIC
 Rocket Man,Elton John,G,3:40,68,8,,N12,,,,,DEF:E:EltonJohn:RocketMan,,4,FULL,Pop,,true,ACOUSTIC
 Tiny Dancer,Elton John,C,5:50,72,8,,P55,,,A,,DEF:E:EltonJohn:TinyDancer,Tiny  Dancer,4,FULL,Pop,,true,ACOUSTIC
 Tiny Dancer,Elton John,A,5:50,72,8,,P55,,,A,,DEF:E:EltonJohn:TinyDancer-a,Tiny  Dancer,4,FULL,Pop,,true,ACOUSTIC
-Your Song,Elton John,Eb,3:45,111,,,,,,,,DEF:E:EltonJohn:YourSong,,,,,,,
+Your Song,Elton John,Eb,3:45,111,,,,,,,,DEF:E:EltonJohn:YourSong,,,,,,,ACOUSTIC
 Burning Love,Elvis,D,,144,,,,,,,,DEF:E:Elvis:BurningLove,,7,FULL,Rock and Roll,,false,ELECTRIC
 I'd Really Love To See You Tonight,England Dan / John Ford Coley,F,,,,,,,,,,DEF:E:EnglandDanJohnFordColey:IdReallyLoveToSeeYouTonight,,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
-Change The World,Eric Clapton,E,3:30,97,,,,,,,,DEF:E:EricClapton:ChangeTheWorld,,3,FULL,Pop,Ballad,false,ACOUSTIC
+Change The World,Eric Clapton,E,3:30,97,,,,,,,,DEF:E:EricClapton:ChangeTheWorld,,3,FULL,Pop,Ballad,false,ELECTRIC
 Cocaine,Eric Clapton,E,,,,,,,,,,DEF:E:EricClapton:Cocaine,,6,FULL,Rock,Blues Rock,false,ELECTRIC
 I Shot the Sheriff,Eric Clapton,Gm,3:50,94,4,RC,P54,A052,,Gm,,DEF:E:EricClapton:IShotTheSheriff,,6,FULL,Reggae,,false,ELECTRIC
 Layla,Eric Clapton,Dm,4:00,94,4,,O55,,,Dm,,DEF:E:EricClapton:Layla,,7,FULL,Rock,Blues Rock,true,ELECTRIC
-Nobody Knows You When You're Down And Out,Eric Clapton,C,3:50,89,4,,N45,,,C,,DEF:E:EricClapton:NobodyKnowsYou,,3,FULL,Blues,,false,ELECTRIC
+Nobody Knows You When You're Down And Out,Eric Clapton,C,3:50,89,4,,N45,,,C,,DEF:E:EricClapton:NobodyKnowsYou,,3,FULL,Blues,,false,ACOUSTIC
 Over the Rainbow,Eric Clapton,E,,,,,,,,,,DEF:E:EricClapton:OverTheRainbow,,2,FULL,Ballad,,false,ACOUSTIC
-San Francisco Bay Blues,Eric Clapton,C,3:00,162,,,,,,,,DEF:E:EricClapton:SanFranciscoBayBlues,,5,FULL,Blues,Folk,false,ELECTRIC
+San Francisco Bay Blues,Eric Clapton,C,3:00,162,,,,,,,,DEF:E:EricClapton:SanFranciscoBayBlues,,5,FULL,Blues,Folk,false,ACOUSTIC
 Downhome Blues,Etta James,G,4:30,85,4,RC,P55,,,,,DEF:E:EttaJames:DownhomeBlues,Down  Blues,5,FULL,Blues,,false,ELECTRIC
 You Are The Woman,Firefall,A,3:30,120,,,,,,,,DEF:F:Firefall:YouAreTheWoman,,4,FULL,Soft Rock,,false,ACOUSTIC
 Don't Stop,Fleetwood Mac,E,3:00,119,0,,N54,,,,,DEF:F:FleetwoodMac:DontStop,,7,FULL,Rock,Pop Rock,true,ELECTRIC
@@ -212,7 +212,7 @@ Landslide,Fleetwood Mac,C,,,,,,,,,,DEF:F:FleetwoodMac:Landslide-c,,2,FULL,Folk R
 Landslide,Fleetwood Mac,Eb,,,,,,,,Eb,,DEF:F:FleetwoodMac:Landslide-lyrics,,2,FULL,Folk Rock,Ballad,true,ACOUSTIC
 Say That You Love Me,Fleetwood Mac,A,3:00,128,4,,N12,,,A,,DEF:F:FleetwoodMac:SayThatYouLoveMe,,5,FULL,Rock,,false,ELECTRIC
 What's Up,4 Non Blondes,A,4:00,67,4,RC,,,,,,DEF:F:FourNonBlondes:WhatsUp,Whats  Up,6,FULL,Alternative,Pop Rock,true,ELECTRIC
-Much Too Young To Feel This Damnn Old,Garth Brooks,D,2:33,162,4,RC,O42,,,,,GHI:G:GarthBrooks:MuchTooYoungToFeel,MuchToYoung,5,FULL,Country,,false,ACOUSTIC
+Much Too Young To Feel This Damnn Old,Garth Brooks,D,2:33,162,4,RC,O42,,,,,GHI:G:GarthBrooks:MuchTooYoungToFeel,MuchToYoung,5,FULL,Country,,false,ELECTRIC
 Before My Heart Finds Out,Gene Cotton,F,2:10,123,,,,,,,,GHI:G:GeneCotton:BeforeMyHeartFindsOut,,4,FULL,Soft Rock,,false,ACOUSTIC
 In Too Deep,Genesis,G,,,,,,,,,,GHI:G:Genesis:InTooDeep,,3,FULL,Pop,Ballad,false,ACOUSTIC
 That's All,Genesis,Em,4:00,88,4,RC,P53,,,,,GHI:G:Genesis:ThatsAll,Thats  All,5,FULL,Pop Rock,,false,ELECTRIC
@@ -230,14 +230,14 @@ The One You Love,Glenn Frey,Em,3:15,80,,,,,,,,GHI:G:GlennFrey:TheOneYouLove,,3,F
 I Will Survive,Gloria Gaynor,Am,3:20,117,,,24,,,,,GHI:G:GloriaGaynor:IWillSurvive,,8,FULL,Disco,,true,ELECTRIC
 Carefree Highway,Gordon Lightfoot,D,2:20,85,,,N52,,,E,,GHI:G:GordonLightfoot:CarefreeHighway,,4,FULL,Folk,,false,ACOUSTIC
 Carefree Highway,Gordon Lightfoot,E,2:20,85,,,,,,E,,GHI:G:GordonLightfoot:CarefreeHighway-e,,4,FULL,Folk,,false,ACOUSTIC
-Sundown,Gordon Lightfoot,G,3:00,106,,,,,,,,GHI:G:GordonLightfoot:Sundown,,,,,,,
+Sundown,Gordon Lightfoot,G,3:00,106,,,,,,,,GHI:G:GordonLightfoot:Sundown,,,,,,,ACOUSTIC
 Friend of the Devil,Grateful Dead,G,3:10,110,,,,,,,,GHI:G:GratefulDead:FriendOfTheDevil,,4,FULL,Folk Rock,,false,ACOUSTIC
 Good Riddance (Time of Your Life),Green Day,G,2:10,95,,,,,,,,GHI:G:GreenDay:GoodRiddance,,3,FULL,Alternative,Punk,true,ELECTRIC
 Breakup Song,Greg Kihn,Am,2:49,136,4,,P41,,,F#m,,GHI:G:GregKihn:BreakupSong,Brkup Song,7,FULL,Rock,,false,ELECTRIC
 Breakup Song,Greg Kihn,F#m,3:00,136,4,,P41,,,F#m,,GHI:G:GregKihn:BreakupSong-f#m,Brkup Song,7,FULL,Rock,,false,ELECTRIC
 Undun,Guess Who,Em,3:30,100,,,,,,,,GHI:G:GuessWho:Undun,,5,FULL,Rock,,false,ELECTRIC
 Hearts Are Gonna Roll,Hal Ketchum,D,3:15,100,8,RC,P21,,P13,,,GHI:H:HalKetchum:HeartsAreGonnaRoll,HeartsGonna,6,FULL,Country,,false,ACOUSTIC
-Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,RC,O:24,,,Em,,GHI:H:HalKetchum:PastThePointOfRescue,Past  Point,3,FULL,Country,,false,ACOUSTIC
+Past The Point Of Rescue,Hal Ketchum,Em,2:43,96,8,RC,O:24,,,Em,,GHI:H:HalKetchum:PastThePointOfRescue,Past  Point,3,FULL,Country,,false,ELECTRIC
 Small Town Saturday Night,Hal Ketchum,G,2:30,100,8,RC,,,,G,,GHI:H:HalKetchum:SmallTownSaturdayNight,Small  Town,6,FULL,Country,,false,ACOUSTIC
 Softer Than a Whisper,Hal Ketchum,C,3:05,95,,,,,,,,GHI:H:HalKetchum:SofterThanAWhisper,,3,FULL,Country,,false,ACOUSTIC
 Everything Your Heart Desires,Hall & Oates,A,,108,,,,,,,,GHI:H:HallAndOates:EverythingYourHeartDesires,,5,FULL,Pop Rock,,false,ELECTRIC
@@ -253,8 +253,8 @@ And We Danced,The Hooters,G,3:45,144,8,RC,P31,,,G,,GHI:H:Hooters:AndWeDanced-g,A
 Do You Believe In Love,Huey Lewis and the News,G,,,,,,,,,,GHI:H:HueyLewis:DoYouBelieveInLove,,7,FULL,Rock,Pop,false,ELECTRIC
 Don't You Want Me,The Human League,Am,,,,,,,,,,GHI:H:HumanLeague:DontYouWantMe,,7,FULL,Synth Pop,New Wave,true,ELECTRIC
 Need You Tonight,INXS,C,2:55,109,,,,,,,,GHI:I:INXS:NeedYouTonight,,7,FULL,Rock,,true,ELECTRIC
-Call Me The Breeze,J.J. Cale,F#,3:10,180,4,BB,O55,,,G,,JKL:J:JJCale:CallMeTheBreeze,,5,FULL,Blues Rock,,false,ELECTRIC
-Call Me The Breeze,J.J. Cale,G,3:10,180,4,BB,O55,,,G,,JKL:J:JJCale:CallMeTheBreeze-g,,5,FULL,Blues Rock,,false,ELECTRIC
+Call Me The Breeze,J.J. Cale,F#,3:10,180,4,BB,O55,,,G,,JKL:J:JJCale:CallMeTheBreeze,,5,FULL,Blues Rock,,false,ACOUSTIC
+Call Me The Breeze,J.J. Cale,G,3:10,180,4,BB,O55,,,G,,JKL:J:JJCale:CallMeTheBreeze-g,,5,FULL,Blues Rock,,false,ACOUSTIC
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,JKL:J:JJCale:SensitiveKind,,4,FULL,Blues Rock,,false,ELECTRIC
 Running On Empty,Jackson Brown,A,4:10,137,8,RC,P55,,,,,JKL:J:JacksonBrowne:RunningOnEmpty,Run OnEmpty,6,FULL,Rock,,false,ELECTRIC
 Running On Empty - G,Jackson Brown,G,4:10,137,8,RC,P55,,,G,,JKL:J:JacksonBrowne:RunningOnEmpty-g,Run OnEmpty,6,FULL,Rock,,false,ELECTRIC
@@ -264,8 +264,8 @@ I'm Yours,Jason Mraz,B,3:45,75,,,,,,,,JKL:J:JasonMraz:ImYours,,5,FULL,Pop,Reggae
 Who Will Save My Soul,Jewel,Am,,126,,,,,,,,JKL:J:Jewel:WhoWillSaveMySoul,,3,FULL,Folk,Singer-Songwriter,false,ACOUSTIC
 Bad Bad Leroy Brown,Jim Croce,G,2:35,148,8,RC,O55,,,,,JKL:J:JimCroce:BadBadLeroyBrown,BadBadLeroy,6,FULL,Folk Rock,,true,ACOUSTIC
 You Don't Mess Around With Jim,Jim Croce,F,,164,,,,,,,,JKL:J:JimCroce:YouDontMessAroundWithJim,,5,FULL,Folk Rock,,false,ACOUSTIC
-Bye Bye,Jo Dee Messina,G,3:12,134,8,RC,O24,,,Bb (+3),,JKL:J:JoDeeMessina:ByeBye,ByeBye,7,FULL,Country,,false,ACOUSTIC
-Bye Bye,Jo Dee Messina,Bb,3:12,134,8,RC,O24,,,Bb,,JKL:J:JoDeeMessina:ByeBye-bb,ByeBye,7,FULL,Country,,false,ACOUSTIC
+Bye Bye,Jo Dee Messina,G,3:12,134,8,RC,O24,,,Bb (+3),,JKL:J:JoDeeMessina:ByeBye,ByeBye,7,FULL,Country,,false,ELECTRIC
+Bye Bye,Jo Dee Messina,Bb,3:12,134,8,RC,O24,,,Bb,,JKL:J:JoDeeMessina:ByeBye-bb,ByeBye,7,FULL,Country,,false,ELECTRIC
 Feelin' Alright,Joe Cocker,C,4:00,88,,,,,,,,JKL:J:JoeCocker:FeelinAlright,,6,FULL,Rock,Soul,false,ELECTRIC
 The Letter,Joe Cocker,Bbm,3:20,90,4,RC,P55,A058,,Gm,,JKL:J:JoeCocker:TheLetter,,6,FULL,Rock,Soul,false,ELECTRIC
 The Letter,Joe Cocker,Gm,3:20,90,4,RC,P55,A058,,Gm,,JKL:J:JoeCocker:TheLetter-gm,,6,FULL,Rock,Soul,false,ELECTRIC
@@ -273,7 +273,7 @@ Unchain My Heart,Joe Cocker,Am,5:07,118,0,RC,O:24,,,,,JKL:J:JoeCocker:UnchainMyH
 Unchain My Heart (Extended),Joe Cocker,Am,5:07,118,0,RC,O:24,,,,,JKL:J:JoeCocker:UnchainMyHeartExtended,Unchn Heart,7,FULL,Rock,Soul,true,ELECTRIC
 Steppin' Out,Joe Jackson,F#,3:45,160,,,,,,Eb,,JKL:J:JoeJackson:SteppinOut,,6,FULL,Pop Rock,,false,ELECTRIC
 Steppin' Out,Joe Jackson,Eb,3:45,160,,,,,,Eb,,JKL:J:JoeJackson:SteppinOut-eb,,6,FULL,Pop Rock,,false,ELECTRIC
-"Take Me Home, Country Roads",John Denver,G,3:00,82,,,,,,,,JKL:J:JohnDenver:TakeMeHomeCountryRoads,,,,,,,
+"Take Me Home, Country Roads",John Denver,G,3:00,82,,,,,,,,JKL:J:JohnDenver:TakeMeHomeCountryRoads,,,,,,,ACOUSTIC
 Memphis in the Meantime,John Hiatt,E,,,,,,,,,,JKL:J:JohnHiatt:MemphisInTheMeantime,,6,FULL,Rock,Blues Rock,false,ELECTRIC
 Beautiful Boy,John Lennon,D,,100,,,,,,,,JKL:J:JohnLennon:BeautifulBoy,,2,FULL,Pop,Ballad,false,ACOUSTIC
 Jealous Guy,John Lennon,G,3:00,80,,,,,,,,JKL:J:JohnLennon:JealousGuy,,3,FULL,Pop,Ballad,false,ACOUSTIC
@@ -284,15 +284,15 @@ Woman,John Lennon,Eb,3:00,159,,,,,,,,JKL:J:JohnLennon:Woman,,3,FULL,Pop,Ballad,f
 I’m Gonna Find Another You,John Mayer,A,3:00,150,,,,,,,,JKL:J:JohnMayer:ImGonnaFindAnotherYou,,5,FULL,Pop Rock,Blues Rock,false,ELECTRIC
 Ain't Even Done With The Night,John Mellencamp,B,4:10,120,8,RC,N12,,,A,,JKL:J:JohnMellencamp:AintEvenDoneWithTheNight,Aint  Done,7,FULL,Rock,,false,ELECTRIC
 Ain't Even Done With The Night,John Mellencamp,A,4:10,120,8,RC,N12,,,A,,JKL:J:JohnMellencamp:AintEvenDoneWithTheNight-a,Aint  Done,7,FULL,Rock,,false,ELECTRIC
-Cherry Bomb,John Mellencamp,G,4:10,113,4,RC,O55,,,G,,JKL:J:JohnMellencamp:CherryBomb,,6,FULL,Rock,,false,ELECTRIC
-Jack and Diane,John Mellencamp,A,3:40,104,4,RC,,,,A,,JKL:J:JohnMellencamp:JackandDiane,,6,FULL,Rock,,true,ELECTRIC
-R.O.C.K. In The U.S.A,John Mellencamp,E,2:55,166,8,RC,,,,,,JKL:J:JohnMellencamp:ROCKInTheUSA,RockIn USA,8,FULL,Rock,,true,ELECTRIC
+Cherry Bomb,John Mellencamp,G,4:10,113,4,RC,O55,,,G,,JKL:J:JohnMellencamp:CherryBomb,,6,FULL,Rock,,false,ACOUSTIC
+Jack and Diane,John Mellencamp,A,3:40,104,4,RC,,,,A,,JKL:J:JohnMellencamp:JackandDiane,,6,FULL,Rock,,true,ACOUSTIC
+R.O.C.K. In The U.S.A,John Mellencamp,E,2:55,166,8,RC,,,,,,JKL:J:JohnMellencamp:ROCKInTheUSA,RockIn USA,8,FULL,Rock,,true,ACOUSTIC
 Let Her In,John Travolta,E,3:45,120,,,,,,,,JKL:J:JohnTravolta:LetHerIn,,4,FULL,Pop,,false,ACOUSTIC
 Looking for Love,Johnny Lee,E,,120,,,,,,,,JKL:J:JohnnyLee:LookingForLove,,6,FULL,Country,,false,ACOUSTIC
 Don't Forget (Welcome to Wrexham),Jon Hume,C,,,,,,,,,,JKL:J:JonHume:DontForget,,,,,,,
 Dirt On My Boots,Jon Pardi,C#m,3:10,90,4,,P55,,,,,JKL:J:JonPardi:DirtOnMyBoots,,7,FULL,Country,,false,ACOUSTIC
-Hey California,Jon Pardi,Em,3:40,130,8,RC,P55,,,,,JKL:J:JonPardi:HeyCalifornia,Hey   Cali,6,FULL,Country,,false,ACOUSTIC
-Sunshine,Jonathan Edwards,G,3:00,125,,,,,,,,JKL:J:JonathanEdwards:Sunshine,,,,,,,
+Hey California,Jon Pardi,Em,3:40,130,8,RC,P55,,,,,JKL:J:JonPardi:HeyCalifornia,Hey   Cali,6,FULL,Country,,false,ELECTRIC
+Sunshine,Jonathan Edwards,G,3:00,125,,,,,,,,JKL:J:JonathanEdwards:Sunshine,,,,,,,ACOUSTIC
 Tuscon Too Late,Jordan Davis,G,2:45,106,4,RC,P33,,,,,JKL:J:JordanDavis:TusconTooLate,,4,FULL,Country,,false,ACOUSTIC
 Jacksonville,Josh Turner,C,3:30,100,4,BB,,,,D,,JKL:J:JoshTurner:Jacksonville,,4,FULL,Country,,false,ACOUSTIC
 Jacksonville,Josh Turner,D,3:30,100,4,BB,,,,D,,JKL:J:JoshTurner:Jacksonville-d,,4,FULL,Country,,false,ACOUSTIC
@@ -346,15 +346,15 @@ La Isla Bonita,Madonna,C#m,4:00,100,8,RC,P54,,,C#m,,MNO:M:Madonna:LaIslaBonita,L
 Dream A Little Dream Of Me,Mama Cass,C,,133,,,,,,,,MNO:M:MamaCass:DreamALittleDreamOfMe,,2,FULL,Pop,Jazz,false,ACOUSTIC
 One Day She’s Here,Marcus King Band,Bm,,,,,,,,,,MNO:M:MarcusKing:OneDayShesHere,,5,FULL,Blues Rock,,false,ELECTRIC
 "Someday, Someway",Marshall Crenshall,A,3:00,155,8,RC,P52,A053,,,,MNO:M:MarshallCrenshaw:SomedaySomeway,SomdaySomway,6,FULL,Pop Rock,,false,ELECTRIC
-Can't You See,Marshall Tucker Band,D,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee,,5,FULL,Southern Rock,,true,ELECTRIC
-Can't You See,Marshall Tucker Band,A,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee-a,,5,FULL,Southern Rock,,true,ELECTRIC
+Can't You See,Marshall Tucker Band,D,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee,,5,FULL,Southern Rock,,true,ACOUSTIC
+Can't You See,Marshall Tucker Band,A,5:00,164,4,,N34,,,A,,MNO:M:MarshallTuckerBand:CantYouSee-a,,5,FULL,Southern Rock,,true,ACOUSTIC
 Fire On The Mountain,Marshall Tucker Band,Em,,,,,,,,,,MNO:M:MarshallTuckerBand:FireOnTheMoutain,,6,FULL,Southern Rock,,false,ELECTRIC
 Heard It in a Love Song,Marshall Tucker Band,D,4:20,110,,,,,,,,MNO:M:MarshallTuckerBand:HeardItInALoveSong,,5,FULL,Southern Rock,,false,ELECTRIC
 I Feel Lucky,Mary Chapin Carpenter,B,3:20,120,8,RC,A01,,,,,MNO:M:MaryChapinCarpenter:IFeelLucky,IFeel Lucky,6,FULL,Country,,false,ACOUSTIC
 The Walk,Mayer Hawthorne,A,,,,,,,,,,MNO:M:MayerHawthorne:TheWalk,,6,FULL,Soul,,false,ELECTRIC
-Are You Hungry Tonight?,Michael Sadri,C,2:50,66,,,,,,,3/4,MNO:M:MichaelSadri:AreYouHungryTonight,,,,,,,
-Going To Montana,"Michael Sadri, Scott Davidson",Am,3:30,136,,,,,,,,MNO:M:MichaelSadri:GoingToMontana,,,,,,,
-Going To Montana - Original,Michael Sadri,C,,,,,,,,,,MNO:M:MichaelSadri:GoingToMontana-orig,,,,,,,
+Are You Hungry Tonight?,Michael Sadri,C,2:50,66,,,,,,,3/4,MNO:M:MichaelSadri:AreYouHungryTonight,,,,,,,ACOUSTIC
+Going To Montana,"Michael Sadri, Scott Davidson",Am,3:30,136,,,,,,,,MNO:M:MichaelSadri:GoingToMontana,,,,,,,ELECTRIC
+Going To Montana - Original,Michael Sadri,C,,,,,,,,,,MNO:M:MichaelSadri:GoingToMontana-orig,,,,,,,ELECTRIC
 Cheatin' Songs,Midland,D,3:10,110,,,,,,,,MNO:M:Midland:CheatinSong,,6,FULL,Country,,false,ACOUSTIC
 Drinkin' Problem,Midland,A,3:00,102,4,RC,P25,,,,,MNO:M:Midland:DrinkingProblem,DrnkinPrblm,6,FULL,Country,,true,ACOUSTIC
 Fourteen Gears,Midland,D,,,,,,,,,,MNO:M:Midland:FourteenGears,,5,FULL,Country,,false,ACOUSTIC
@@ -389,11 +389,11 @@ Bizarre Love Triangle,New Order,C,2:50,104,,,,,,,,MNO:N:NewOrder:BizarreLoveTria
 You Get What You Give,New Radicals,D,4:20,114,,RC,,,,,,MNO:N:NewRadicals:YouGetWhatYouGive,,7,FULL,Pop Rock,,true,ELECTRIC
 Put A Little Love On Me,Niall Horan,G,,,,,,,,,,MNO:N:NiallHoran:PutALittleLoveOnMe,,4,FULL,Pop,,false,ACOUSTIC
 This Town,Niall Horan,G,,,,,,,,,,MNO:N:NiallHoran:ThisTown,,3,FULL,Pop,Ballad,false,ACOUSTIC
-Cruel To Be Kind,Nick Lowe,C,3:10,125,8,RC,P11,,P26,,,MNO:N:NickLowe:CruelToBeKind,Cruel BeKind,6,FULL,Pop Rock,,false,ELECTRIC
+Cruel To Be Kind,Nick Lowe,C,3:10,125,8,RC,P11,,P26,,,MNO:N:NickLowe:CruelToBeKind,Cruel BeKind,6,FULL,Pop Rock,,false,ACOUSTIC
 Dancin' Shoes,Nigel Olsson,Bm,,101,,,,,,,,MNO:N:NigelOlsson:DancinShoes,,6,FULL,Pop,,false,ACOUSTIC
 Make A Little Magic,Nitty Gritty Dirt Band,F,4:00,121,,,,,,,,MNO:N:NittyGrittyDirtBand:MakeALittleMagic,,,,,,,
-Don't Speak,No Doubt(Gwen Stephani),Cm,3:45,76,4,,N45,,,,,MNO:N:NoDoubt:DontSpeak,,5,FULL,Pop Rock,,true,ELECTRIC
-Don't Know Why,Norah Jones,Bb,3:06,88,4,RC,??,,,,,MNO:N:NorahJones:DontKnowWhy,Dont  Know,2,FULL,Jazz,Soft Pop,false,ELECTRIC
+Don't Speak,No Doubt(Gwen Stephani),Cm,3:45,76,4,,N45,,,,,MNO:N:NoDoubt:DontSpeak,,5,FULL,Pop Rock,,true,ACOUSTIC
+Don't Know Why,Norah Jones,Bb,3:06,88,4,RC,??,,,,,MNO:N:NorahJones:DontKnowWhy,Dont  Know,2,FULL,Jazz,Soft Pop,false,ACOUSTIC
 Use Ta Be My Girl,O'Jays,F,,,,,,,,,,MNO:O:O_Jays:UseTaBeMyGirl,,6,FULL,Soul,Motown,false,ELECTRIC
 Firewater,Old Crow Medicine Show,G],3:00,,,,,,,,,MNO:O:OldCrowMedicineShow:Firewater,,6,FULL,Country,Folk,false,ACOUSTIC
 All I Want,Olivia Rodrigo,G,,,,,,,,,,MNO:O:OliviaRodrigo:AllIWant,,5,FULL,Pop,,false,ACOUSTIC
@@ -402,7 +402,7 @@ Crazy,Pat Green,G,,,,,,,,,,PQR:P:PatGreen:Crazy,,4,FULL,Country,,false,ACOUSTIC
 Whiskey,Pat Green,D,4:00,167,8,,N35,,,,,PQR:P:PatGreen:Whiskey,,5,FULL,Country,,false,ACOUSTIC
 I Don't Like To Sleep Alone,Paul Anka,Bb,3:00,75,,,,,,,,PQR:P:PaulAnka:IDontLikeToSleepAlone,,3,FULL,Pop,Ballad,false,ACOUSTIC
 Silly Love Songs,Paul McCartney,C,,,,,,,,,,PQR:P:PaulMcCartney:SillyLoveSongs,,6,FULL,Pop,,false,ACOUSTIC
-Kodachrome,Paul Simon,D,,136,,,,,,,,PQR:P:PaulSimon:Kodachrome,,6,FULL,Pop Rock,,false,ELECTRIC
+Kodachrome,Paul Simon,D,,136,,,,,,,,PQR:P:PaulSimon:Kodachrome,,6,FULL,Pop Rock,,false,ACOUSTIC
 You Have The Right To Remain Silent,Perfect Stranger,G,,,,,,,,,,PQR:P:PerfectStranger:YouHaveTheRightToRemainSilent,,5,FULL,Country,,false,ACOUSTIC
 West End Girls,Pet Shop Boys,Dm,,,,,,,,,,PQR:P:PetShopBoys:WestEndGirls,,7,FULL,Synth Pop,New Wave,true,ELECTRIC
 Let My Love Open The Door,Pete Townsend,A,2:30,165,8,RC,M51,,U35,A,,PQR:P:PeteTownsend:LetMyLoveOpenTheDoor,Let MyLove,6,FULL,Rock,,false,ELECTRIC
@@ -446,8 +446,8 @@ Under My Thumb,Rolling Stones,A,3:40,127,8 (with pickup)),RC,P51,,,,,PQR:R:Rolli
 Waiting On A Friend,Rolling Stones,C,4:20,114,,RC,P55,,,,,PQR:R:RollingStones:WaitingOnAFriend,,4,FULL,Rock,,false,ELECTRIC
 What I Like About You,Romantics,A,2:20,166,8,RC,P44,,,,,PQR:R:Romantics:WhatILikeAboutYou,What ILike,8,FULL,Rock,,true,ELECTRIC
 Be My Baby,The Ronettes,A,2:40,138,,,,,,,,PQR:R:Ronettes:BeMyBaby,,6,FULL,Pop,,false,ACOUSTIC
-There's No Getting Over Me,Ronnie Milsap,E,3:30,100,4,RC,P55,,,E,,PQR:R:RonnieMilsap:TheresNoGettingOverMe,,6,FULL,Country,,false,ACOUSTIC
-There's No Getting Over Me,Ronnie Milsap,C,3:30,100,4,RC,P55,,,E,,PQR:R:RonnieMilsap:TheresNoGettingOverMe-c,,6,FULL,Country,,false,ACOUSTIC
+There's No Getting Over Me,Ronnie Milsap,E,3:30,100,4,RC,P55,,,E,,PQR:R:RonnieMilsap:TheresNoGettingOverMe,,6,FULL,Country,,false,ELECTRIC
+There's No Getting Over Me,Ronnie Milsap,C,3:30,100,4,RC,P55,,,E,,PQR:R:RonnieMilsap:TheresNoGettingOverMe-c,,6,FULL,Country,,false,ELECTRIC
 Smooth Operator,Sade,Am,3:30,120,0,,53,,,,,STU:S:Sade:SmoothOperator,,4,FULL,Soul,R&B,false,ELECTRIC
 I'm Not The Only One,Sam Smith,F,3:45,92,,,,,,,,STU:S:SamSmith:ImNotTheOnlyOne,,4,FULL,Pop,Soft Rock,false,
 Chevy Van,Sammy Johns,A,,,,,,,,,,STU:S:SammyJohns:ChevyVan,,5,FULL,Soft Rock,,false,ACOUSTIC
@@ -458,7 +458,7 @@ Smooth,Santana,Am,4:00,116,0,,P25,,,,,STU:S:Santana:Smooth,,7,FULL,Latin Rock,,t
 Sleep Walk,Santo and Johnny,C,,,,,,,,,,STU:S:SantoAndJohnny:SleepWalk,,2,NONE,Instrumental,,false,UNKNOWN
 Diminished Idea,Scott Davidson,Bb,3:00,86,,,,,,,,STU:S:ScottDavidson:DiminishedIdea,,,,,,,
 Dream Drift,Scott Davidson,F,3:00,86,,,,,,,,STU:S:ScottDavidson:DreamDrift,,,,,,,
-Going To Montana,"Michael Sadri, Scott Davidson",Am,3:30,136,8,,P14,,,,,STU:S:ScottDavidson:GoingToMontana,,,,,,,
+Going To Montana,"Michael Sadri, Scott Davidson",Am,3:30,136,8,,P14,,,,,STU:S:ScottDavidson:GoingToMontana,,,,,,,ELECTRIC
 Hesitate (partial),Scott Davidson,Bb,3:00,86,,,,,,,,STU:S:ScottDavidson:Hesitate,,,,,,,
 Progress (for now),Scott Davidson,D,2:00,,,,,,,,,STU:S:ScottDavidson:Progress,,,,,,,
 Sunrise in Cork,Scott Davidson,G,2:00,,,,,,,,,STU:S:ScottDavidson:SunriseInCork,,,,,,,
@@ -471,7 +471,7 @@ She's Not There / Venus,Zombies / Shocking Blue,A,4:00,,,,O21,,,,,STU:S:Shocking
 Venus,Shocking Blue,A,,,,,,,,,,STU:S:ShockingBlue:Venus,,7,FULL,Rock,,true,ELECTRIC
 Leave the Door Open,Silk Sonic,F,,,,,,,,,,STU:S:SilkSonic:LeaveTheDoorOpen,,4,FULL,Soul,R&B,false,ELECTRIC
 Kiss Me,Sixpence None The Richer,C,2:50,100,4,RC,O12,,,Eb,,STU:S:SixpenceNoneTheRicher:KissMe,Kiss  Me,5,FULL,Pop,,true,ACOUSTIC
-There She Goes,Sixpence None The Richer,G,2:42,123,4,RC,P24,,,Bb,,STU:S:SixpenceNoneTheRicher:ThereSheGoes,There  She,6,FULL,Pop Rock,,false,ELECTRIC
+There She Goes,Sixpence None The Richer,G,2:42,123,4,RC,P24,,,Bb,,STU:S:SixpenceNoneTheRicher:ThereSheGoes,There  She,6,FULL,Pop Rock,,false,ACOUSTIC
 Tainted Love,Soft Cell,Gm,2:30,144,,,,,,,,STU:S:SoftCell:TaintedLove,,7,FULL,Synth Pop,New Wave,true,ELECTRIC
 I'll Be Around,Spinners,E,,120,,,,,,,,STU:S:Spinners:IllBeAround,,3,FULL,Soul,,false,ELECTRIC
 Black Coffee In Bed,Squeeze,D,3:12,110,,,,,,,,STU:S:Squeeze:BlackCoffeeInBed,,5,FULL,Pop Rock,,false,ELECTRIC
@@ -497,16 +497,16 @@ Get It On,T.Rex,E,4:00,125,,,,,,,,STU:T:T.Rex:GetItOn,,7,FULL,Glam Rock,,true,EL
 Our Song,Taylor Swift,D,2:40,89,4,RC,,,,,,STU:T:TaylorSwift:OurSong,Our   Song,5,FULL,Country,Pop,false,ACOUSTIC
 Style,Taylor Swift,G,,,,,,,,,,STU:T:TaylorSwift:Style,,7,FULL,Pop,,false,ACOUSTIC
 You Belong With Me,Taylor Swift,G,,,,,,,,,,STU:T:TaylorSwift:YouBelongWithMe,,6,FULL,Country,Pop,true,ACOUSTIC
-Mad World,Tears for Fears,Em,3:00,102,,BB,P54,,,,,STU:T:TearsForFears:MadWorld,,3,FULL,New Wave,Ballad,false,ELECTRIC
+Mad World,Tears for Fears,Em,3:00,102,,BB,P54,,,,,STU:T:TearsForFears:MadWorld,,3,FULL,New Wave,Ballad,false,ACOUSTIC
 I'm Not in Love,10cc,F#m,,,,,,,,,,STU:T:TenCC:ImNotInLove,,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
 The Things We Do for Love,10cc,D,,,,,,,,,,STU:T:TenCC:TheThingsWeDoForLove,,6,FULL,Pop Rock,,false,ELECTRIC
 Seasons in the Sun,Terry Jacks,F,3:30,100,,,,,,,,STU:T:TerryJacks:SeasonsInTheSun,,3,FULL,Pop,Ballad,false,ACOUSTIC
-Under The Milky Way,The Church,Am,5:00,66,8,RC,P45,C012,,,,STU:T:TheChurch:UnderTheMilkyWay,Under Milky,4,FULL,Alternative,,false,ELECTRIC
+Under The Milky Way,The Church,Am,5:00,66,8,RC,P45,C012,,,,STU:T:TheChurch:UnderTheMilkyWay,Under Milky,4,FULL,Alternative,,false,ACOUSTIC
 Should I Stay (Or Should I Go) (BASS),The Clash,D,,,,,,,,,,STU:T:TheClash:ShouldIStay-bass,,7,NONE,Punk,Rock,false,ELECTRIC
 The Boys Are Back In Town,Thin Lizzy,G,4:00,162,8,RC,P25,A059,,,4/4,STU:T:ThinLizzy:TheBoysAreBackInTown,,,,,,,ELECTRIC
 Die A Happy Man,Thomas Rhett,D,3:30,83,,,,,,,,STU:T:ThomasRhett:DieAHappyMan,,3,FULL,Country,Ballad,false,ACOUSTIC
 Half Of Me,Thomas Rhett,G,2:45,112,4,RC,N35,,,,4/4,STU:T:ThomasRhett:HalfOfMe,HalfOf Me,4,FULL,Country,,false,ACOUSTIC
-Shambala,Three Dog Night,E,3:00,128,4,,O55,,,,,STU:T:ThreeDogNight:Shambala,,7,FULL,Rock,,true,ELECTRIC
+Shambala,Three Dog Night,E,3:00,128,4,,O55,,,,,STU:T:ThreeDogNight:Shambala,,7,FULL,Rock,,true,ACOUSTIC
 Better Than I Used To Be,Tim Mcgraw,F,3:00,140,,,,,,,,STU:T:TimMcgraw:BetterThanIUsedToBe,,4,FULL,Country,,false,ACOUSTIC
 My Angel Baby,Toby Beau,G,3:00,,,,,,,,,STU:T:TobyBeau:MyAngelBaby,,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
 Where You Gonna Go,Toby Keith,Bm,,129,,,,,,,4/4,STU:T:TobyKeith:WhereYouGonnaGo,,5,FULL,Country,,false,ACOUSTIC
@@ -529,11 +529,11 @@ Nasty Habits,Tommy Castro and the Painkillers,C,,,,,,,,,,STU:T:TommyCastroNPaink
 Jenny 867-5309,Tommie Tutone,F#m,3:55,138,8,RC,P55,,P13,,,STU:T:TommyTutone:Jenny-867-5309,Jenny 8675,8,FULL,Rock,,true,ELECTRIC
 You Wanted More,Tonic,E,,114,,,,,,,,STU:T:Tonic:YouWantedMore,,6,FULL,Alternative,,false,ELECTRIC
 Hey Soul Sister,Train,B,,,,,,,,,,STU:T:Train:HeySoulSister,,7,FULL,Pop Rock,,true,ELECTRIC
-Handle With Care,Traveling Wilburys,G,3:18,122,4,RC,M22,,P12,,,STU:T:TravelingWilburys:HandleWithCare,HandleWCare,5,FULL,Rock,,false,ELECTRIC
-T-R-O-U-B-L-E,Travis Tritt,F,2:45,178,4,RC,,,,,,STU:T:TravisTritt:TROUBLE,Trouble,7,FULL,Country,,false,ACOUSTIC
-Stuck In A Moment / I Still Haven't Found,U2,E / C,,TBD,,,N51,,,N51,,STU:U:U2:StuckInAMoment-IStillHaventFound,,5,FULL,Rock,,false,ELECTRIC
+Handle With Care,Traveling Wilburys,G,3:18,122,4,RC,M22,,P12,,,STU:T:TravelingWilburys:HandleWithCare,HandleWCare,5,FULL,Rock,,false,ACOUSTIC
+T-R-O-U-B-L-E,Travis Tritt,F,2:45,178,4,RC,,,,,,STU:T:TravisTritt:TROUBLE,Trouble,7,FULL,Country,,false,ELECTRIC
+Stuck In A Moment / I Still Haven't Found,U2,E / C,,TBD,,,N51,,,N51,,STU:U:U2:StuckInAMoment-IStillHaventFound,,5,FULL,Rock,,false,ACOUSTIC
 Jump,Van Halen,C,3:55,130,,,,,,,,VWX:V:VanHalen:Jump,,9,FULL,Rock,,true,ELECTRIC
-Brown Eyed Girl,Van Morrison,G,3:01,149,8,RC,P55,,,,,VWX:V:VanMorrison:BrownEyedGirl,Brown EyGirl,7,FULL,Rock,Pop,true,ELECTRIC
+Brown Eyed Girl,Van Morrison,G,3:01,149,8,RC,P55,,,,,VWX:V:VanMorrison:BrownEyedGirl,Brown EyGirl,7,FULL,Rock,Pop,true,ACOUSTIC
 Fall To Pieces,Velvet Revolver,C,3:30,72,,,,,,C,,VWX:V:VelvetRevolver:FallToPieces,FallToPieces,5,FULL,Rock,,false,ELECTRIC
 Blinding Lights,The Weeknd,Fm,3:20,171,,,,,,,,VWX:W:Weeknd:BlindingLights,,9,FULL,Synth Pop,,true,ELECTRIC
 Save Your Tears,The Weeknd,C,,,,,,,,,,VWX:W:Weeknd:SaveYourTears,,6,FULL,Synth Pop,,false,ELECTRIC
