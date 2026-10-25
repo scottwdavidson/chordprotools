@@ -9,6 +9,7 @@ import com.pourchoices.chordpro.config.ChordproCatalogIndexPathConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -66,7 +67,11 @@ class ConsistentMetadataServiceTest {
         for (CatalogEntry e : entries) {
             catalog.put(e.getSongId().toString(), e);
         }
-        when(catalogPort.readCatalogFromCsv(any())).thenReturn(catalog);
+        // Mirrors the real CatalogPort contract (CatalogFileReader returns an
+        // unmodifiable map) -- this is what caught the catalog.put() bug in
+        // propagate()/applyInferredPerformanceKey() that every other test here
+        // was blind to while mocking a plain mutable LinkedHashMap.
+        when(catalogPort.readCatalogFromCsv(any())).thenReturn(Collections.unmodifiableMap(catalog));
     }
 
     // ── Check A: drift ────────────────────────────────────────────────────

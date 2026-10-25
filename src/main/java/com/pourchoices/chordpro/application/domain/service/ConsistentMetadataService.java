@@ -43,7 +43,10 @@ public class ConsistentMetadataService implements ConsistentMetadataUseCase {
     public MetadataConsistencyReport check(boolean fix, String sourceSongId) {
 
         Path catalogPath = Paths.get(catalogConfig.getCatalogIndexPath());
-        Map<String, CatalogEntry> catalog = catalogPort.readCatalogFromCsv(catalogPath);
+        // CatalogPort returns an unmodifiable, order-preserving map -- copy into a
+        // mutable LinkedHashMap (preserves that same order) since propagate() and
+        // applyInferredPerformanceKey() below write into it directly.
+        Map<String, CatalogEntry> catalog = new LinkedHashMap<>(catalogPort.readCatalogFromCsv(catalogPath));
 
         // ── Bucket entries by group key, preserving catalog order ────────────
         Map<String, List<CatalogEntry>> groups = new LinkedHashMap<>();
