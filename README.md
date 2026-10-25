@@ -527,6 +527,7 @@ It scans the whole catalog and reports two classes of issue:
 |---|---|
 | `DRIFT` | A field other than KEY differs between variants (incl. performance key) |
 | `FILENAME/KEY` | A variant's filename key suffix (e.g. `-b`) disagrees with its `{key:}` (enharmonic-aware) |
+| `MISSING PERF KEY` | No variant has a performance key set, but a variant's own written key implies one |
 
 ```zsh
 ./consistent-metadata
@@ -542,6 +543,12 @@ It scans the whole catalog and reports two classes of issue:
 truth variant into `song-catalog.csv` (then run `update-song <groupId>` to push
 it into the `.cho` files — it fans out to all variants). The source defaults to
 each group's base (standard-key) variant; override with `--source <song-id>`.
+
+`--fix` also repairs `MISSING PERF KEY` when it's unambiguous: if a group has
+no performance key set anywhere but exactly one non-base variant, that
+variant's own written key becomes the group's performance key (base included).
+When 2+ variants disagree on written key with none pinned, it's reported but
+left alone — re-run with `--fix --source <variant-id>` to pick which one wins.
 
 ```zsh
 ./consistent-metadata --fix

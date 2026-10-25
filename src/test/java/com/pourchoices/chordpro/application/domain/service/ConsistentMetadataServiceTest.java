@@ -23,7 +23,8 @@ import static org.mockito.Mockito.when;
 
 /**
  * Unit tests for {@link ConsistentMetadataService} — cross-variant drift
- * detection, filename/key checks, enharmonic tolerance, and --fix propagation.
+ * detection, filename/key checks, missing-performance-key inference, and
+ * --fix propagation.
  */
 class ConsistentMetadataServiceTest {
 
@@ -48,6 +49,16 @@ class ConsistentMetadataServiceTest {
                 .tempo("150")
                 .countin("8")
                 .performanceKey("E");
+    }
+
+    /** Like {@link #base} but with no PERFORMANCE KEY set — for Check C tests. */
+    private static CatalogEntry.CatalogEntryBuilder noPerfKey(String songId, String title, String key) {
+        return CatalogEntry.builder()
+                .songId(SongId.parse(songId))
+                .title(title)
+                .artist("Artist")
+                .key(key)
+                .duration("3:00");
     }
 
     private void givenCatalog(CatalogEntry... entries) {
@@ -141,7 +152,7 @@ class ConsistentMetadataServiceTest {
                 .noneMatch(f -> f.getType() == FindingType.FILENAME_KEY);
     }
 
-    // ── --fix ─────────────────────────────────────────────────────────────
+    // ── --fix (drift) ─────────────────────────────────────────────────────
 
     @Test
     void fix_propagatesFromBase_andWritesCatalog() {
@@ -188,5 +199,102 @@ class ConsistentMetadataServiceTest {
         service.check(true, null);
 
         verify(catalogPort, never()).writeCatalogToCsv(any(), anyList());
+    }
+
+    // ── Check C: missing performance key, inferred from a variant's KEY ────
+
+    @Test
+    void missingPerformanceKey_oneVariant_isFlaggedInDryRun() {
+        givenCatalog(
+                noPerfKey("DEF:E:EltonJohn:Daniel", "Daniel", "C").build(),
+                noPerfKey("DEF:E:EltonJohn:Daniel-a", "Daniel", "A").build()
+        );
+
+        MetadataConsistencyReport report = service.check(false, null);
+
+        assertThat(report.getFindings())
+                .anyMatch(f -> f.getType() == FindingType.MISSING_PERFORMANCE_KEY
+                        && f.getDetails().get(0).contains("'A'"));
+        // Dry-run never writes, even though this finding is auto-fixable.
+        verify(catalogPort, never()).writeCatalogToCsv(any(), anyList());
+    }
+
+    @Test
+    void missingPerformanceKey_oneVariant_fixSetsBothToVariantsKey() {
+        givenCatalog(
+                noPerfKey("DEF:E:EltonJohn:Daniel", "Daniel", "C").build(),
+                noPerfKey("DEF:E:EltonJohn:Daniel-a", "Daniel", "A").build()
+        );
+
+        service.check(true, null);
+
+        @SuppressWarnings("unchecked")
+        var captor = org.mockito.ArgumentCaptor.forClass(List.class);
+        verify(catalogPort).writeCatalogToCsv(any(), captor.capture());
+
+        List<CatalogEntry> written = captor.getValue();
+        assertThat(written).allMatch(e -> "A".equals(e.getPerformanceKey()));
+        // KEY itself is untouched on both variants.
+        CatalogEntry base = written.stream()
+                .filter(e -> e.getSongId().toString().equals("DEF:E:EltonJohn:Daniel"))
+                .findFirst().orElseThrow();
+        assertThat(base.getKey()).isEqualTo("C");
+    }
+
+    @Test
+    void missingPerformanceKey_alreadySetOnOneVariant_isNotFlagged() {
+        // Not ALL variants are blank -- this is Check A's (DRIFT) territory, not Check C's.
+        givenCatalog(
+                noPerfKey("DEF:E:EltonJohn:Daniel", "Daniel", "C").performanceKey("C").build(),
+                noPerfKey("DEF:E:EltonJohn:Daniel-a", "Daniel", "A").build()
+        );
+
+        MetadataConsistencyReport report = service.check(false, null);
+
+        assertThat(report.getFindings())
+                .noneMatch(f -> f.getType() == FindingType.MISSING_PERFORMANCE_KEY);
+    }
+
+    @Test
+    void missingPerformanceKey_singleVariantGroup_isNotFlagged() {
+        // No variant exists at all -- nothing to infer from.
+        givenCatalog(noPerfKey("DEF:E:EltonJohn:Daniel", "Daniel", "C").build());
+
+        MetadataConsistencyReport report = service.check(false, null);
+
+        assertThat(report.getFindings())
+                .noneMatch(f -> f.getType() == FindingType.MISSING_PERFORMANCE_KEY);
+    }
+
+    @Test
+    void missingPerformanceKey_ambiguousWithMultipleVariants_isReportedNotFixed() {
+        givenCatalog(
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow", "Over The Rainbow", "Eb").build(),
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow-bb", "Over The Rainbow", "Bb").build(),
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow-e", "Over The Rainbow", "E").build()
+        );
+
+        MetadataConsistencyReport report = service.check(true, null);
+
+        assertThat(report.getFindings())
+                .anyMatch(f -> f.getType() == FindingType.MISSING_PERFORMANCE_KEY
+                        && f.getDetails().get(0).contains("ambiguous"));
+        verify(catalogPort, never()).writeCatalogToCsv(any(), anyList());
+    }
+
+    @Test
+    void missingPerformanceKey_ambiguousButPinnedWithSource_isFixed() {
+        givenCatalog(
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow", "Over The Rainbow", "Eb").build(),
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow-bb", "Over The Rainbow", "Bb").build(),
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow-e", "Over The Rainbow", "E").build()
+        );
+
+        service.check(true, "JKL:J:JudyGarland:OverTheRainbow-e");
+
+        @SuppressWarnings("unchecked")
+        var captor = org.mockito.ArgumentCaptor.forClass(List.class);
+        verify(catalogPort).writeCatalogToCsv(any(), captor.capture());
+        assertThat(captor.getValue()).allMatch(e -> "E".equals(((CatalogEntry) e).getPerformanceKey()));
     }
 }

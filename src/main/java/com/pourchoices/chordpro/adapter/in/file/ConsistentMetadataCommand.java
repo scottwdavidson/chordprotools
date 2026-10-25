@@ -70,8 +70,8 @@ public class ConsistentMetadataCommand implements Runnable {
         if (report.issueCount() == 0) {
             System.out.println("All key-variants have consistent metadata. \u2713");
         } else if (!fix) {
-            System.out.println("Run with --fix to repair DRIFT "
-                    + "(FILENAME/KEY issues must be fixed by hand).");
+            System.out.println("Run with --fix to repair DRIFT and inferable MISSING PERF KEY issues "
+                    + "(FILENAME/KEY must be fixed by hand).");
         }
 
         // Scriptable exit code: number of issue groups.
@@ -81,6 +81,10 @@ public class ConsistentMetadataCommand implements Runnable {
     }
 
     private static String label(FindingType type) {
-        return type == FindingType.DRIFT ? "DRIFT" : "FILENAME/KEY";
+        return switch (type) {
+            case DRIFT -> "DRIFT";
+            case FILENAME_KEY -> "FILENAME/KEY";
+            case MISSING_PERFORMANCE_KEY -> "MISSING PERF KEY";
+        };
     }
 }

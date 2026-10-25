@@ -20,6 +20,8 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 /**
  * Implements {@link ConsistentMetadataUseCase}.
@@ -72,15 +74,23 @@ public class ConsistentMetadataService implements ConsistentMetadataUseCase {
                 CatalogEntry source = chooseSource(variants, sourceSongId);
                 List<Finding> driftFindings = findDrift(groupKey, variants, source);
                 findings.addAll(driftFindings);
+                findMissingPerformanceKey(groupKey, variants, sourceSongId).ifPresent(findings::add);
 
-                if (fix && !driftFindings.isEmpty()) {
-                    if (source.getSongId().isBaseVersion()
-                            || matchesNamedSource(source, sourceSongId)) {
-                        propagate(source, variants, catalog);
+                if (fix) {
+                    if (!driftFindings.isEmpty()) {
+                        if (source.getSongId().isBaseVersion()
+                                || matchesNamedSource(source, sourceSongId)) {
+                            propagate(source, variants, catalog);
+                            catalogMutated = true;
+                        } else {
+                            log.warn("Skipping --fix for orphan group '{}' (no base variant; "
+                                    + "pass --source <songId>)", groupKey);
+                        }
+                    }
+                    Optional<String> inferredPerformanceKey = resolveInferredPerformanceKey(variants, sourceSongId);
+                    if (inferredPerformanceKey.isPresent()) {
+                        applyInferredPerformanceKey(inferredPerformanceKey.get(), variants, catalog);
                         catalogMutated = true;
-                    } else {
-                        log.warn("Skipping --fix for orphan group '{}' (no base variant; "
-                                + "pass --source <songId>)", groupKey);
                     }
                 }
             }
@@ -147,6 +157,106 @@ public class ConsistentMetadataService implements ConsistentMetadataUseCase {
             }
         }
         return findings;
+    }
+
+    // ── Check C: missing performance key, inferable from a variant's KEY ──────
+
+    /**
+     * Flags groups where NO variant has a PERFORMANCE KEY set, but a non-base
+     * variant's own written {@code KEY} is a plausible stand-in (the "variant
+     * exists because it's played in a different key" convention). Confident
+     * when exactly one such candidate exists; ambiguous (report-only, unless
+     * pinned via {@code --source}) when 2+ candidates disagree.
+     */
+    private Optional<Finding> findMissingPerformanceKey(String groupKey, List<CatalogEntry> variants,
+                                                          String sourceSongId) {
+        if (!allPerformanceKeysBlank(variants)) {
+            return Optional.empty();
+        }
+        List<CatalogEntry> candidates = keyedNonBaseCandidates(variants);
+        if (candidates.isEmpty()) {
+            return Optional.empty(); // nothing to infer from
+        }
+        if (candidates.size() == 1) {
+            CatalogEntry variant = candidates.get(0);
+            String inferred = CatalogEntryComparator.normalise(variant.getKey());
+            return Optional.of(Finding.builder()
+                    .type(FindingType.MISSING_PERFORMANCE_KEY)
+                    .groupKey(groupKey)
+                    .detail(String.format(
+                            "no PERFORMANCE KEY set anywhere in the group; variant %s is written in '%s' "
+                                    + "-> would set performance key to '%s'",
+                            variant.getSongId(), inferred, inferred))
+                    .build());
+        }
+
+        Optional<CatalogEntry> pinned = candidates.stream()
+                .filter(v -> sourceSongId != null && v.getSongId().toString().equals(sourceSongId.trim()))
+                .findFirst();
+        if (pinned.isPresent()) {
+            String inferred = CatalogEntryComparator.normalise(pinned.get().getKey());
+            return Optional.of(Finding.builder()
+                    .type(FindingType.MISSING_PERFORMANCE_KEY)
+                    .groupKey(groupKey)
+                    .detail(String.format(
+                            "no PERFORMANCE KEY set anywhere in the group; %d variants disagree on written key "
+                                    + "-- --source pins %s ('%s') as the performance key",
+                            candidates.size(), pinned.get().getSongId(), inferred))
+                    .build());
+        }
+
+        String options = candidates.stream()
+                .map(v -> v.getSongId() + "='" + v.getKey() + "'")
+                .collect(Collectors.joining(", "));
+        return Optional.of(Finding.builder()
+                .type(FindingType.MISSING_PERFORMANCE_KEY)
+                .groupKey(groupKey)
+                .detail("no PERFORMANCE KEY set anywhere in the group, and " + candidates.size()
+                        + " variants disagree on written key (" + options + ") -- ambiguous, not auto-fixed; "
+                        + "re-run with --fix --source <one of these song IDs> to pick one")
+                .build());
+    }
+
+    /** Same resolution logic as {@link #findMissingPerformanceKey}, but returns just the value to apply with --fix. */
+    private Optional<String> resolveInferredPerformanceKey(List<CatalogEntry> variants, String sourceSongId) {
+        if (!allPerformanceKeysBlank(variants)) {
+            return Optional.empty();
+        }
+        List<CatalogEntry> candidates = keyedNonBaseCandidates(variants);
+        if (candidates.size() == 1) {
+            return Optional.of(CatalogEntryComparator.normalise(candidates.get(0).getKey()));
+        }
+        if (candidates.size() > 1 && sourceSongId != null && !sourceSongId.isBlank()) {
+            return candidates.stream()
+                    .filter(v -> v.getSongId().toString().equals(sourceSongId.trim()))
+                    .map(v -> CatalogEntryComparator.normalise(v.getKey()))
+                    .findFirst();
+        }
+        return Optional.empty();
+    }
+
+    private void applyInferredPerformanceKey(String inferredKey, List<CatalogEntry> variants,
+                                              Map<String, CatalogEntry> catalog) {
+        for (CatalogEntry variant : variants) {
+            String id = variant.getSongId().toString();
+            // Read the CURRENT catalog-map entry, not the pre-fix snapshot in `variants` --
+            // a drift fix earlier in this same group's processing may have already
+            // updated other fields, and we must not clobber that.
+            CatalogEntry current = catalog.get(id);
+            catalog.put(id, current.toBuilder().performanceKey(inferredKey).build());
+        }
+    }
+
+    private boolean allPerformanceKeysBlank(List<CatalogEntry> variants) {
+        return variants.stream().allMatch(v -> CatalogEntryComparator.normalise(v.getPerformanceKey()).isBlank());
+    }
+
+    /** Non-base variants whose own {@code KEY} is set — the pool of inference candidates. */
+    private List<CatalogEntry> keyedNonBaseCandidates(List<CatalogEntry> variants) {
+        return variants.stream()
+                .filter(v -> !v.getSongId().isBaseVersion())
+                .filter(v -> !CatalogEntryComparator.normalise(v.getKey()).isBlank())
+                .toList();
     }
 
     // ── --fix: propagate source metadata into the catalog map ────────────────

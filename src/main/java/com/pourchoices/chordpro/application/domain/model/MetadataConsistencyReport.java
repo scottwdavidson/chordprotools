@@ -21,7 +21,14 @@ public class MetadataConsistencyReport {
         /** A non-key field differs between variants of the same song. */
         DRIFT,
         /** A variant's filename key suffix disagrees with its {@code {key:}}. */
-        FILENAME_KEY
+        FILENAME_KEY,
+        /**
+         * No variant in the group has a PERFORMANCE KEY set, but a non-base
+         * variant's own written {@code KEY} implies one. Auto-fixable only
+         * when there's exactly one such candidate (or one is pinned via
+         * {@code --source}); otherwise reported as ambiguous.
+         */
+        MISSING_PERFORMANCE_KEY
     }
 
     /** One inconsistency for a single song group. */

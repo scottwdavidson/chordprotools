@@ -1,7 +1,15 @@
 # Design: `consistent-metadata`
 
-> **Status:** Draft for review · **Author:** Kino 🐶 · **Date:** 2026-06-02
+> **Status:** Draft for review · **Author:** Kino  · **Date:** 2026-06-02
 > **Scope:** Catalog-level consistency check across key-variants of the same song.
+
+> **Addendum (2026-10-24, Kino):** Added a third check, `MISSING_PERFORMANCE_KEY`.
+> Scott observed that for many songs with no performance key set at all, the
+> convention is that the variant exists *because* it's played in a different
+> key — so the variant's own written `KEY` is almost always the right
+> performance key. Auto-fixable when there's exactly one non-base variant with
+> a key; flagged as ambiguous (never silently guessed) when 2+ variants
+> disagree, same escape hatch as drift: `--fix --source <variant-id>`.
 
 ---
 
