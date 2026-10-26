@@ -5,5 +5,6 @@
 # Usage:
 #   ./evaluate-setlist                              # latest gig
 #   ./evaluate-setlist --gig 2026-06-05-FF          # specific gig
+#   ./evaluate-setlist --guitar-layout              # every song + its guitar, switches marked (-l)
 
 "${0:a:h}/cpt" evaluate-setlist "$@"

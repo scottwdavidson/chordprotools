@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.GuitarLayoutRow;
 import com.pourchoices.chordpro.application.domain.model.GuitarSwitch;
 import com.pourchoices.chordpro.application.domain.model.GuitarType;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
@@ -102,5 +103,41 @@ class GuitarSwitchScorerTest {
                 entry("A03", GuitarType.ELECTRIC));
 
         assertThat(scorer.detectSwitches(entries)).isEmpty();
+    }
+
+    @Test
+    void layout_emptyList_returnsNoRows() {
+        assertThat(scorer.layout(List.of())).isEmpty();
+    }
+
+    @Test
+    void layout_hasOneRowPerSong_includingUncharacterizedOnes() {
+        List<SetlistEntry> entries = List.of(
+                entry("A01", GuitarType.ACOUSTIC),
+                entry("A02", null),
+                entry("A03", GuitarType.UNKNOWN));
+
+        List<GuitarLayoutRow> rows = scorer.layout(entries);
+
+        assertThat(rows).extracting(GuitarLayoutRow::getSet).containsExactly("A01", "A02", "A03");
+        assertThat(rows).extracting(GuitarLayoutRow::getGuitar)
+                .containsExactly(GuitarType.ACOUSTIC, null, GuitarType.UNKNOWN);
+    }
+
+    @Test
+    void layout_flagsSwitchRows_matchingDetectSwitches() {
+        List<SetlistEntry> entries = List.of(
+                entry("A01", GuitarType.ACOUSTIC),
+                entry("A02", GuitarType.ACOUSTIC),
+                entry("A03", GuitarType.ELECTRIC),
+                entry("A04", null),
+                entry("A05", GuitarType.BASS));
+
+        List<GuitarLayoutRow> rows = scorer.layout(entries);
+
+        assertThat(rows).extracting(GuitarLayoutRow::isSwitchFromPrevious)
+                .containsExactly(false, false, true, false, false);
+        assertThat(rows.stream().filter(GuitarLayoutRow::isSwitchFromPrevious).map(GuitarLayoutRow::getSet))
+                .containsExactlyElementsOf(scorer.detectSwitches(entries).stream().map(GuitarSwitch::getSet).toList());
     }
 }

@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
 import com.pourchoices.chordpro.application.domain.model.ArcThird;
+import com.pourchoices.chordpro.application.domain.model.GuitarLayoutRow;
 import com.pourchoices.chordpro.application.domain.model.GuitarSwitch;
 import com.pourchoices.chordpro.application.domain.model.SetlistEvaluationReport;
 import com.pourchoices.chordpro.application.domain.model.SetlistEvaluationReport.Violation;
@@ -9,6 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
+
+import java.util.List;
 
 /**
  * CLI command that evaluates a gig's setlist against its venue's policy
@@ -26,6 +29,9 @@ import picocli.CommandLine.Option;
  *
  *   # specific gig
  *   chordpro-tools evaluate-setlist --gig 2026-06-05-FF
+ *
+ *   # full guitar plan: every song + its guitar, switches marked
+ *   chordpro-tools evaluate-setlist --guitar-layout
  * </pre>
  */
 @Component
@@ -38,6 +44,7 @@ public class EvaluateSetlistCommand implements Runnable {
 
     private static final int COL_TITLE  = 30;
     private static final int COL_ARTIST = 20;
+    private static final String SWITCH_MARK = ">>";
 
     private final EvaluateSetlistUseCase evaluateSetlistUseCase;
 
@@ -51,6 +58,13 @@ public class EvaluateSetlistCommand implements Runnable {
                         + "Defaults to the lexicographically latest gig in gigs.csv."
     )
     private String gig;
+
+    @Option(
+            names = {"--guitar-layout", "-l"},
+            description = "Show the guitar for EVERY song (switches marked) instead of just the switch list, "
+                        + "so the whole guitar plan fits on one page."
+    )
+    private boolean guitarLayout;
 
     @Override
     public void run() {
@@ -96,13 +110,39 @@ public class EvaluateSetlistCommand implements Runnable {
         System.out.println();
 
         System.out.println("Guitar switches: " + report.guitarSwitchCount());
-        for (GuitarSwitch s : report.getGuitarSwitches()) {
+        if (guitarLayout) {
+            printGuitarLayout(report.getGuitarLayout());
+        } else {
+            printGuitarSwitches(report.getGuitarSwitches());
+        }
+        System.out.println();
+    }
+
+    private void printGuitarSwitches(List<GuitarSwitch> switches) {
+        for (GuitarSwitch s : switches) {
             System.out.printf("  [%-6s] %-" + COL_TITLE + "s %-" + COL_ARTIST + "s %s -> %s (%s)%n",
                     s.getSet(), truncate(s.getToTitle(), COL_TITLE), truncate(s.getToArtist(), COL_ARTIST),
                     s.getFromGuitar(), s.getToGuitar(),
                     "after \"" + s.getFromTitle() + "\"");
         }
-        System.out.println();
+    }
+
+    /** Every song with its guitar, a blank line between sets, and {@value #SWITCH_MARK} on each switch. */
+    private void printGuitarLayout(List<GuitarLayoutRow> rows) {
+        System.out.println("  (" + SWITCH_MARK + " = switch from previous song, ? = guitar not characterized)");
+        System.out.printf("  %-6s %-2s %-" + COL_TITLE + "s %-" + COL_ARTIST + "s %s%n", "Set", "", "Song", "Artist", "Guitar");
+        String previousSetLetter = null;
+        for (GuitarLayoutRow row : rows) {
+            String setLetter = row.getSet().substring(0, 1);
+            if (previousSetLetter != null && !previousSetLetter.equals(setLetter)) {
+                System.out.println();
+            }
+            previousSetLetter = setLetter;
+            System.out.printf("  %-6s %-2s %-" + COL_TITLE + "s %-" + COL_ARTIST + "s %s%n",
+                    row.getSet(), row.isSwitchFromPrevious() ? SWITCH_MARK : "",
+                    truncate(row.getTitle(), COL_TITLE), truncate(row.getArtist(), COL_ARTIST),
+                    row.getGuitar() == null ? "?" : row.getGuitar());
+        }
     }
 
     private String fmt(Double d) {

@@ -1,5 +1,6 @@
 package com.pourchoices.chordpro.application.domain.service;
 
+import com.pourchoices.chordpro.application.domain.model.GuitarLayoutRow;
 import com.pourchoices.chordpro.application.domain.model.GuitarSwitch;
 import com.pourchoices.chordpro.application.domain.model.GuitarType;
 import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
@@ -47,6 +48,27 @@ public class GuitarSwitchScorer {
             }
         }
         return switches;
+    }
+
+    /**
+     * @return one {@link GuitarLayoutRow} per song, in the order given, each flagged when it
+     *     is a switch by the same rule {@link #detectSwitches} uses.
+     */
+    public List<GuitarLayoutRow> layout(List<SetlistEntry> orderedEntries) {
+        List<GuitarLayoutRow> rows = new ArrayList<>();
+        GuitarType previousGuitar = null;
+        for (SetlistEntry entry : orderedEntries) {
+            GuitarType guitar = entry.getSong().getGuitarType();
+            rows.add(GuitarLayoutRow.builder()
+                    .set(entry.getSet())
+                    .title(entry.getTitle())
+                    .artist(entry.getArtist())
+                    .guitar(guitar)
+                    .switchFromPrevious(isActionableSwitch(previousGuitar, guitar))
+                    .build());
+            previousGuitar = guitar;
+        }
+        return rows;
     }
 
     private boolean isActionableSwitch(GuitarType fromGuitar, GuitarType toGuitar) {

@@ -66,6 +66,10 @@ public class SetlistEvaluationReport {
     @Singular("guitarSwitch")
     List<GuitarSwitch> guitarSwitches;
 
+    /** Every performed song with its guitar, in order — the full picture behind {@link #guitarSwitches}. */
+    @Singular("guitarLayoutRow")
+    List<GuitarLayoutRow> guitarLayout;
+
     int singAlongCount;
     int singAlongInFinalThird;
 

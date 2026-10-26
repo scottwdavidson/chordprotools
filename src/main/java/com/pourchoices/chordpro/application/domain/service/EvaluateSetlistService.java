@@ -207,5 +207,6 @@ public class EvaluateSetlistService implements EvaluateSetlistUseCase {
     private void applyGuitarSwitches(List<SetlistEntry> entries,
                                       SetlistEvaluationReport.SetlistEvaluationReportBuilder report) {
         guitarSwitchScorer.detectSwitches(entries).forEach(report::guitarSwitch);
+        guitarSwitchScorer.layout(entries).forEach(report::guitarLayoutRow);
     }
 }

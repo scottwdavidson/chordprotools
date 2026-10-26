@@ -1,6 +1,7 @@
 package com.pourchoices.chordpro.application.domain.service;
 
 import com.pourchoices.chordpro.application.domain.model.CatalogEntry;
+import com.pourchoices.chordpro.application.domain.model.GuitarLayoutRow;
 import com.pourchoices.chordpro.application.domain.model.GuitarType;
 import com.pourchoices.chordpro.application.domain.model.SetlistAssignment;
 import com.pourchoices.chordpro.application.domain.model.SetlistEvaluationReport;
@@ -261,5 +262,26 @@ class EvaluateSetlistServiceTest {
 
         assertThat(report.guitarSwitchCount()).isZero();
         assertThat(report.getUncharacterizedGuitarCount()).isEqualTo(1);
+    }
+
+    @Test
+    void guitarLayout_listsEverySongInOrder_withSwitchesMarked() {
+        givenCatalog(
+                song("ABC:B:Artist:Song1", null, null, null, GuitarType.ACOUSTIC),
+                song("ABC:B:Artist:Song2", null, null, null, GuitarType.ELECTRIC),
+                song("ABC:B:Artist:Song3", null, null, null, null));
+        givenAssignments(
+                assign("A01", "ABC:B:Artist:Song1"),
+                assign("A02", "ABC:B:Artist:Song2"),
+                assign("A03", "ABC:B:Artist:Song3"));
+        when(gigVenuePort.readGigVenues(any())).thenReturn(Map.of());
+
+        SetlistEvaluationReport report = service.evaluateSetlist(GIG);
+
+        assertThat(report.getGuitarLayout()).hasSize(3);
+        assertThat(report.getGuitarLayout()).extracting(GuitarLayoutRow::getGuitar)
+                .containsExactly(GuitarType.ACOUSTIC, GuitarType.ELECTRIC, null);
+        assertThat(report.getGuitarLayout()).extracting(GuitarLayoutRow::isSwitchFromPrevious)
+                .containsExactly(false, true, false);
     }
 }
