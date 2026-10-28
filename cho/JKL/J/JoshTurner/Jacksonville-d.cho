@@ -3,12 +3,16 @@
 {key: D}
 {duration: 3:30}
 {tempo: 100}
+{meta: nord: O55}
 {meta: countin: 4}
 {meta: backing: BB}
+{meta: performance: C}
 
 {comment:***********************************************}
+{comment:**  meta: nord: O55   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: BB   }
+{comment:**  meta: performance: C   }
 {comment:***********************************************}
 
 {start_of_part}
