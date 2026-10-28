@@ -3,12 +3,14 @@
 {key: D}
 {duration: 3:15}
 {tempo: 136}
+{meta: nord: P54}
 {meta: countin: 5}
 {meta: backing: RC}
 {meta: rc-slot: 5 (2026-11-06-FF)}
 {meta: label: FridayInLove}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P54   }
 {comment:**  meta: countin: 5   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 5 (2026-11-06-FF)   }
