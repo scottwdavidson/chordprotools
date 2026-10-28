@@ -3,7 +3,8 @@
 {key: Bm}
 {duration: 4:35}
 {tempo: 140}
-{meta: nord: N32}
+{meta: nord: O54}
+{meta: roland: B007}
 {meta: countin: 8}
 {meta: backing: RC}
 {meta: rc-slot: 64 (2026-11-06-FF)}
@@ -11,7 +12,8 @@
 {meta: performance: Bm}
 
 {comment:***********************************************}
-{comment:**  meta: nord: N32   }
+{comment:**  meta: nord: O54   }
+{comment:**  meta: roland: B007   }
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 64 (2026-11-06-FF)   }

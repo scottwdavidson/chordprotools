@@ -171,8 +171,8 @@ Sharing The Night Together,Dr. Hook,C,2:45,154,4,RC,P11,,,E,,DEF:D:DrHook:Sharin
 Sharing The Night Together,Dr. Hook,E,2:45,154,4,RC,P11,,,E,,DEF:D:DrHook:SharingTheNightTogether-e,,5,FULL,Soft Rock,,false,ELECTRIC
 Levitating,Dua Lipa,Am,,,,,,,,,,DEF:D:DuaLipa:Levitating,,9,FULL,Pop,Disco,true,ACOUSTIC
 Love Again,Dua Lipa,F#m,3:50,116,,,,,,,,DEF:D:DuaLipa:LoveAgain,,8,FULL,Pop,,false,ACOUSTIC
-Ordinary World,Duran Duran,Bm,4:35,140,8,RC,N32,,,Bm,,DEF:D:DuranDuran:OrdinaryWorld,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ACOUSTIC
-Ordinary World,Duran Duran,Am,4:35,140,8,RC,N32,,,Am,,DEF:D:DuranDuran:OrdinaryWorld-am,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ACOUSTIC
+Ordinary World,Duran Duran,Bm,4:35,140,8,RC,O54,B007,,Bm,,DEF:D:DuranDuran:OrdinaryWorld,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ACOUSTIC
+Ordinary World,Duran Duran,Am,4:35,140,8,RC,O54,B007,,Am,,DEF:D:DuranDuran:OrdinaryWorld-am,OrdnryWorld,4,FULL,New Wave,Pop Rock,false,ACOUSTIC
 Ain't That Lonely Yet,Dwight Yoakam,F,3:10,107,,,,,,,,DEF:D:DwightYokam:AintThatLonelyYet,,6,FULL,Country,,false,ACOUSTIC
 Fast As You,Dwight Yoakam,E,4:30,126,,,,,,,,DEF:D:DwightYokam:FastAsYou,,7,FULL,Country Rock,,false,ELECTRIC
 Little Sister,Dwight Yoakam,E,3:00,144,4,BB,O14,,,,,DEF:D:DwightYokam:LittleSister,LittleSister,7,FULL,Country Rock,,false,ELECTRIC
