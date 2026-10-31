@@ -48,6 +48,15 @@ public class SetlistEntry {
         }
         return "";
     }
+    /**
+     * Backing indicator for human-facing output: like {@link #getBacking()}, but blank
+     * when no real backing track is assigned. The sentinel slot {@code "99"} means
+     * "no backing track" and is mapped to blank.
+     */
+    public String getBackingLabel() {
+        String backing = getBacking();
+        return (backing == null || backing.isBlank() || "99".equals(backing)) ? "" : backing;
+    }
     public BackingType getBackingType() { return song.getBackingType(); }
     public String getPerformanceKey()   { return song.getPerformanceKey(); }
 }

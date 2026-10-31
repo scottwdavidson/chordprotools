@@ -24,7 +24,7 @@ public class SetlistAdapter implements SetlistPort {
                         .songTitle(e.getTitle())
                         .songArtist(e.getArtist())
                         .key(resolveKey(e))
-                        .backing(resolvedBacking(e))
+                        .backing(e.getBackingLabel())
                         .build())
                 .toList();
         this.setlistFileWriter.writeSetlistToCsv(outputPath, dtos);
@@ -36,15 +36,5 @@ public class SetlistAdapter implements SetlistPort {
     private String resolveKey(SetlistEntry entry) {
         String pk = entry.getPerformanceKey();
         return (pk != null && !pk.isBlank()) ? pk : entry.getKey();
-    }
-
-    /**
-     * Returns the backing track slot number, or blank when no real backing track is assigned.
-     * The sentinel value "99" is treated as "no backing track" and mapped to blank.
-     */
-    private String resolvedBacking(SetlistEntry entry) {
-        String b = entry.getBacking();
-        if (b == null || b.isBlank() || "99".equals(b)) return "";
-        return b;
     }
 }

@@ -1,0 +1,10 @@
+#!/bin/zsh
+# Write a printable two-page (portrait) setlist — SET, TITLE, BACKING only — as HTML.
+# Open it in a browser and print it for the gig.
+#
+# Usage:
+#   ./print-setlist                                        # latest gig → ./setlist.html
+#   ./print-setlist --gig 2026-06-14-rusty-nail            # specific gig
+#   ./print-setlist --gig 2026-06-14-rusty-nail --output ./gig-2026-06-14.html
+
+"${0:a:h}/cpt" print-setlist "$@"
