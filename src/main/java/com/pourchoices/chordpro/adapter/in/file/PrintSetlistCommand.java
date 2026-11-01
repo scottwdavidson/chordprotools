@@ -8,8 +8,9 @@ import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 
 /**
- * CLI command that writes a printable, two-page (portrait) setlist for the gig showing only
- * SET, TITLE and BACKING. Open the result in a browser and print it for the stage.
+ * CLI command that writes a floor-sheet setlist for the gig: landscape pages, one set per
+ * page, as-big-as-possible SET, TITLE and BACKING. Open the result in a browser, print it,
+ * and tape it down as the "what's the next song" double check.
  *
  * <pre>
  *   # latest gig → ./setlist.html
@@ -22,13 +23,14 @@ import picocli.CommandLine.Option;
 @Component
 @Command(
         name = "print-setlist",
-        description = "Writes a printable two-page portrait setlist (set, title, backing) as HTML. "
-                + "Backup / Z-set songs are never included."
+        description = "Writes a huge-type, one-set-per-page landscape floor setlist (set, title, backing) "
+                + "as HTML. Backup / Z-set songs are never included."
 )
 @Slf4j
 public class PrintSetlistCommand implements Runnable {
 
     private static final String DEFAULT_OUTPUT = "./setlist.html";
+    private static final int DEFAULT_ROWS_PER_PAGE = 6;
 
     private final PrintSetlistUseCase printSetlistUseCase;
 
@@ -50,15 +52,22 @@ public class PrintSetlistCommand implements Runnable {
     )
     private String outputPath;
 
+    @Option(
+            names = {"--rows-per-page", "-r"},
+            description = "Most songs on any one page; fewer rows means bigger type (default: ${DEFAULT-VALUE})",
+            defaultValue = "" + DEFAULT_ROWS_PER_PAGE
+    )
+    private int rowsPerPage;
+
     @Override
     public void run() {
         log.info("Printing setlist (gig={}) to: {}", gig, outputPath);
 
-        Setlist setlist = printSetlistUseCase.printSetlist(gig, outputPath);
+        Setlist setlist = printSetlistUseCase.printSetlist(gig, outputPath, rowsPerPage);
 
         System.out.printf("%nPrintable setlist ready — %d songs for gig '%s' written to %s%n",
                 setlist.size(), setlist.getGig(), outputPath);
-        System.out.println("  Open it in a browser and print: Portrait, Letter, margins Default, headers/footers off.");
+        System.out.println("  Open it in a browser and print: Landscape, Letter, margins Default, headers/footers off.");
         System.out.println();
     }
 }

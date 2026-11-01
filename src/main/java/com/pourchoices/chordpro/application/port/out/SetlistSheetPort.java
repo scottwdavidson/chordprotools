@@ -5,7 +5,7 @@ import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
 import java.nio.file.Path;
 import java.util.List;
 
-/** Outbound port for the stage-ready, print-friendly setlist sheet. */
+/** Outbound port for the stage-ready floor setlist sheet. */
 public interface SetlistSheetPort {
 
     /**

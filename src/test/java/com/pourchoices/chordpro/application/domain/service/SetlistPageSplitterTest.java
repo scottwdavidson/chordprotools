@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 /** Unit tests for {@link SetlistPageSplitter} — pure logic, synthetic entries. */
 class SetlistPageSplitterTest {
@@ -34,50 +35,58 @@ class SetlistPageSplitterTest {
         return list;
     }
 
+    @SafeVarargs
     private List<SetlistEntry> concat(List<SetlistEntry>... parts) {
         List<SetlistEntry> all = new ArrayList<>();
         for (List<SetlistEntry> part : parts) all.addAll(part);
         return all;
     }
 
+    private List<Integer> sizes(List<List<SetlistEntry>> pages) {
+        return pages.stream().map(List::size).toList();
+    }
+
     @Test
     void emptyList_givesNoPages() {
-        assertThat(splitter.splitInTwo(List.of())).isEmpty();
+        assertThat(splitter.paginate(List.of(), 6)).isEmpty();
     }
 
     @Test
-    void singleSong_givesOnePage() {
-        assertThat(splitter.splitInTwo(entries("A", 1))).hasSize(1);
+    void setThatFits_isOnePage() {
+        assertThat(sizes(splitter.paginate(entries("A", 6), 6))).containsExactly(6);
     }
 
     @Test
-    void evenCount_splitsExactlyInHalf() {
-        List<List<SetlistEntry>> pages = splitter.splitInTwo(entries("A", 10));
-
-        assertThat(pages).hasSize(2);
-        assertThat(pages.get(0)).hasSize(5);
-        assertThat(pages.get(1)).hasSize(5);
+    void longSet_isSplitEvenly_neverLeavingALonelyLastPage() {
+        assertThat(sizes(splitter.paginate(entries("A", 7), 6))).containsExactly(4, 3);
+        assertThat(sizes(splitter.paginate(entries("A", 13), 6))).containsExactly(5, 4, 4);
+        assertThat(sizes(splitter.paginate(entries("A", 17), 6))).containsExactly(6, 6, 5);
     }
 
     @Test
-    void oddCount_firstPageGetsTheExtraSong() {
-        List<List<SetlistEntry>> pages = splitter.splitInTwo(entries("A", 7));
+    void pagesNeverMixSets_andKeepOrder() {
+        List<SetlistEntry> all = concat(entries("A", 8), entries("B", 3), entries("C", 13));
 
-        assertThat(pages.get(0)).hasSize(4);
-        assertThat(pages.get(1)).hasSize(3);
+        List<List<SetlistEntry>> pages = splitter.paginate(all, 6);
+
+        assertThat(sizes(pages)).containsExactly(4, 4, 3, 5, 4, 4);
+        for (List<SetlistEntry> page : pages) {
+            assertThat(page).extracting(e -> e.getSet().charAt(0)).containsOnly(page.get(0).getSet().charAt(0));
+        }
+        assertThat(pages.stream().flatMap(List::stream).toList()).containsExactlyElementsOf(all);
     }
 
     @Test
-    void splitIgnoresSetBoundaries_andKeepsOrder() {
-        // Real gig shape: A=17, B=19, C=17 → 53 songs → 27 | 26, with B straddling the turn
-        List<SetlistEntry> all = concat(entries("A", 17), entries("B", 19), entries("C", 17));
+    void gapsInSetNumbering_doNotStartANewPage() {
+        // A removed song leaves e.g. C08, C10 — still the same set, still the same page.
+        List<SetlistEntry> set = List.of(entry("C08"), entry("C10"), entry("C11"));
 
-        List<List<SetlistEntry>> pages = splitter.splitInTwo(all);
+        assertThat(sizes(splitter.paginate(set, 6))).containsExactly(3);
+    }
 
-        assertThat(pages.get(0)).hasSize(27);
-        assertThat(pages.get(1)).hasSize(26);
-        assertThat(pages.get(0).get(26).getSet()).isEqualTo("B10");
-        assertThat(pages.get(1).get(0).getSet()).isEqualTo("B11");
-        assertThat(concat(pages.get(0), pages.get(1))).containsExactlyElementsOf(all);
+    @Test
+    void rejectsNonPositiveRowCap() {
+        assertThatThrownBy(() -> splitter.paginate(entries("A", 3), 0))
+                .isInstanceOf(IllegalArgumentException.class);
     }
 }

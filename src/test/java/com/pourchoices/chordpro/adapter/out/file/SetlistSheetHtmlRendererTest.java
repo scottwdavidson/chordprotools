@@ -27,14 +27,16 @@ class SetlistSheetHtmlRendererTest {
     }
 
     @Test
-    void rendersOneSectionPerPageWithSetTitleAndBackingOnly() {
+    void rendersOneSectionPerSheetWithSetTitleAndBackingOnly() {
         String html = renderer.render("2026-01-01-test", List.of(
                 List.of(entry("A01", "Starting Over", BackingType.RC, "5")),
                 List.of(entry("B01", "Hey California", BackingType.BB, null))));
 
-        assertThat(html).contains("<td class=\"set\">A01</td><td>Starting Over</td><td class=\"backing\">5</td>");
-        assertThat(html).contains("<td class=\"set\">B01</td><td>Hey California</td><td class=\"backing\">BB</td>");
-        assertThat(html).contains("page 1 of 2").contains("page 2 of 2");
+        assertThat(html).contains("<span class=\"set\">A01</span><span class=\"title\">Starting Over</span>"
+                + "<span class=\"backing\">5</span>");
+        assertThat(html).contains("<span class=\"set\">B01</span><span class=\"title\">Hey California</span>"
+                + "<span class=\"backing\">BB</span>");
+        assertThat(html).contains("Set A &middot; sheet 1 of 2").contains("Set B &middot; sheet 2 of 2");
         assertThat(html).doesNotContain("Test Artist");
         assertThat(html.split("<section", -1)).hasSize(3);
     }
@@ -45,8 +47,8 @@ class SetlistSheetHtmlRendererTest {
                 entry("A01", "Plain", null, null),
                 entry("A02", "Sentinel", BackingType.RC, "99"))));
 
-        assertThat(html).contains("<td>Plain</td><td class=\"backing\"></td>");
-        assertThat(html).contains("<td>Sentinel</td><td class=\"backing\"></td>");
+        assertThat(html).contains(">Plain</span><span class=\"backing\"></span>");
+        assertThat(html).contains(">Sentinel</span><span class=\"backing\"></span>");
     }
 
     @Test
@@ -58,24 +60,28 @@ class SetlistSheetHtmlRendererTest {
     }
 
     @Test
-    void marksTheFirstSongOfEachNewSetButNotTheFirstRowOfThePage() {
-        String html = renderer.render("g", List.of(List.of(
-                entry("A01", "One", null, null),
-                entry("A02", "Two", null, null),
-                entry("B01", "Three", null, null))));
+    void rowHeightIsSharedAcrossSheets_sizedByTheFullestSheet() {
+        List<SetlistEntry> full = java.util.stream.IntStream.rangeClosed(1, 6)
+                .mapToObj(i -> entry("A%02d".formatted(i), "Song " + i, null, null)).toList();
+        List<SetlistEntry> short1 = List.of(entry("B01", "Short", null, null));
 
-        assertThat(html.split("<tr class=\"new-set\">", -1)).hasSize(2);
-        assertThat(html).contains("<tr class=\"new-set\"><td class=\"set\">B01</td>");
+        String html = renderer.render("g", List.of(full, short1));
+
+        // (7.5in sheet - 0.35in footer) / 6 rows = 1.192in
+        assertThat(html).contains("--row-h: 1.192in");
     }
 
     @Test
-    void rowHeightShrinksSoTheFullestPageFits() {
-        List<SetlistEntry> fullPage = java.util.stream.IntStream.rangeClosed(1, 27)
-                .mapToObj(i -> entry("A%02d".formatted(i), "Song " + i, null, null)).toList();
+    void rowHeightIsCapped_soASparseSetlistDoesNotGetAbsurdRows() {
+        String html = renderer.render("g", List.of(List.of(entry("A01", "Only", null, null))));
 
-        String html = renderer.render("g", List.of(fullPage));
+        assertThat(html).contains("--row-h: 1.500in");
+    }
 
-        // 9.3in / (27 songs + header row) = 0.332in
-        assertThat(html).contains("--row-h: 0.332in");
+    @Test
+    void includesTheFitScriptForOverlongTitles() {
+        String html = renderer.render("g", List.of(List.of(entry("A01", "x", null, null))));
+
+        assertThat(html).contains("<script>").contains("shrinkToFit");
     }
 }

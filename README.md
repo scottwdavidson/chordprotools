@@ -365,7 +365,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Fill in RC-500 slot numbers for the gig, preserving whatever's already in `gigs.csv` by default; `--reoptimize` to recompute everything from scratch |
 | `./copy-gig` | `copy-gig` | Clone all gig assignments (including RC SLOT) from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
-| `./print-setlist` | `print-setlist` | Write a printable two-page portrait setlist (set, title, backing) as `setlist.html` |
+| `./print-setlist` | `print-setlist` | Write the huge-type, one-set-per-sheet landscape floor setlist (set, title, backing) as `setlist.html` |
 | `./find-song-id` | `find-song-id` | Search the catalog by title/artist fragment → SONG ID to paste into `gigs.csv` |
 | `./list-gigs` | `list-gigs` | List every gig slug in `gigs.csv` with a song count |
 
@@ -951,23 +951,28 @@ The `BACKING` column shows:
 
 ### `print-setlist`
 
-**Script:** `./print-setlist [--gig <slug>] [--output <path>]`
+**Script:** `./print-setlist [--gig <slug>] [--rows-per-page <n>] [--output <path>]`
 
-Writes a stage-ready setlist as a self-contained HTML file: just **SET**, **TITLE**
-and **BACKING**, in big type, on exactly **two portrait Letter pages**. Open it in a
-browser and print (headers/footers off).
+Writes the **floor setlist** — the sheet you tape down as a "what's the next song" double
+check — as a self-contained HTML file: just **SET**, **TITLE** and **BACKING**, in the biggest
+type that fits, lots of white space, **landscape Letter**. Open it in a browser and print
+(Landscape, Letter, headers/footers off).
 
 ```zsh
 ./print-setlist                                  # latest gig → ./setlist.html
 ./print-setlist --gig 2026-06-14-rusty-nail      # specific gig
+./print-setlist --rows-per-page 5                # fewer rows → even bigger type, more sheets
 ./print-setlist --gig 2026-06-14-rusty-nail --output ./rusty-nail.html
 ```
 
 - Z-set backup songs are **never** included (same as the default `export-setlist`).
-- Songs are split as evenly as possible across the two pages (first page gets the extra
-  song). The split ignores set boundaries — a set may continue across the page turn —
-  but a heavy rule still marks where each new set starts.
-- Row height is sized from the fullest page, so the table always fits one sheet.
+- **One set per sheet.** Each set is split into evenly sized sheets of at most
+  `--rows-per-page` songs (default 6; 17 songs → 6/6/5). Sheets are numbered in the footer
+  ("Set B · sheet 5 of 9") so you can tape them in order.
+- Every row is the same height and the type is a fixed fraction of it, so all sheets look
+  alike. A title too long for one line at full size is either shrunk or wrapped onto two
+  lines, whichever leaves bigger type (done by a few lines of inline script when the page
+  loads, so print from a browser, not a text previewer).
 - `BACKING` shows an RC-500 slot number, `BB` for BeatBuddy, or blank (same rules as
   `export-setlist`).
 
@@ -1250,7 +1255,7 @@ chordprotools/
 ├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; writes to gigs.csv + patches .cho files + regenerates setlist.csv
 ├── copy-gig                     # Clone a gig's assignments to a new gig slug
 ├── export-setlist               # Generate setlist.csv from catalog + assignments
-├── print-setlist                # Generate a printable two-page setlist (set, title, backing) as setlist.html
+├── print-setlist                # Generate the huge-type floor setlist (one set per landscape sheet) as setlist.html
 ├── deploy-rc500                 # Generates deploy-rc500-<timestamp>.sh with cp commands for RC-500 audio files
 │
 ├── find-song-id                 # Search catalog by title/artist → SONG ID
