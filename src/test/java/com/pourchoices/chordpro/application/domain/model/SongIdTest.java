@@ -130,4 +130,16 @@ class SongIdTest {
         assertThat(original.isBaseVersion()).isTrue();
         assertThat(original.toString()).isEqualTo("ABC:B:BillyJoel:PianoMan");
     }
+
+    // ── getFileStem ────────────────────────────────────────────────────────────────────
+
+    @Test
+    void fileStem_isTheEndOfTheSongId_withoutPathOrExtension() {
+        assertThat(SongId.parse("JKL:J:JordanDavis:TucsonTooLate").getFileStem()).isEqualTo("TucsonTooLate");
+    }
+
+    @Test
+    void fileStem_keepsTheKeyVariantSuffix() {
+        assertThat(SongId.parse("ABC:B:BillyJoel:MyLife-c").getFileStem()).isEqualTo("MyLife-c");
+    }
 }

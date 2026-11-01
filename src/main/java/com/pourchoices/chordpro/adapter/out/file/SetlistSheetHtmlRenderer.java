@@ -8,12 +8,13 @@ import java.util.Locale;
 
 /**
  * Renders the floor setlist as one self-contained HTML document: landscape Letter, one big
- * SET / TITLE / BACKING row per song, lots of white space, and a small footer saying which
- * sheet you're holding.
+ * SET / NAME (file stem) / BACKING row per song, lots of white space, and a small footer saying
+ * which sheet you're holding. The stem is the end of the song ID — the file name without path or
+ * extension — shown under the name so you can double-check you've got the right file.
  *
  * <p>Every row has the same height (the page's usable height divided by the fullest page's
  * row count, capped) and the type is a fixed fraction of that, so every sheet looks alike.
- * A title that can't fit on one line at full size is fitted, just that row, by a few lines of
+ * A name that can't fit on one line at full size is fitted, just that row, by a few lines of
  * inline script on load: shrunk on one line or wrapped to two, whichever leaves bigger type.
  * Everything else stays as big as the row allows.
  */
@@ -64,8 +65,10 @@ public class SetlistSheetHtmlRenderer {
                          font-size: calc(var(--row-h) * 0.58); line-height: 1; }
                   .row > * { min-width: 0; white-space: nowrap; }
                   .set { font-weight: bold; padding-left: 0.1in; }
-                  .title { overflow: hidden; height: var(--row-h); display: grid; align-content: center;
-                           line-height: 1.3; }
+                  .title { overflow: hidden; height: var(--row-h); box-sizing: border-box;
+                           padding: 0.05in 0; display: grid; align-content: center; }
+                  .name { font-size: calc(var(--row-h) * 0.5); line-height: 1.15; }
+                  .id { font-size: calc(var(--row-h) * 0.22); line-height: 1.2; color: #444; }
                   .backing { font-weight: bold; text-align: center; }
                   .foot { height: %sin; font-size: 12pt; color: #555; text-align: right; }
                 </style>
@@ -80,7 +83,9 @@ public class SetlistSheetHtmlRenderer {
         for (SetlistEntry entry : entries) {
             page.append("<div class=\"row\">")
                 .append("<span class=\"set\">").append(escape(entry.getSet())).append("</span>")
-                .append("<span class=\"title\">").append(escape(entry.getTitle())).append("</span>")
+                .append("<span class=\"title\"><span class=\"name\">").append(escape(entry.getTitle()))
+                .append("</span><span class=\"id\">(").append(escape(entry.getSongId().getFileStem()))
+                .append(")</span></span>")
                 .append("<span class=\"backing\">").append(escape(entry.getBackingLabel())).append("</span>")
                 .append("</div>\n");
         }
@@ -92,35 +97,39 @@ public class SetlistSheetHtmlRenderer {
     }
 
     /**
-     * Titles that overflow their cell get the larger of two fits: one line shrunk to width, or
-     * two lines shrunk to width and row height. Titles that already fit are left at full size.
+     * Song names that overflow their cell get the larger of two fits: one line shrunk to width,
+     * or two lines shrunk to width and row height. Names that already fit stay at full size.
+     * The file-stem line under the name is never touched.
      */
     private String fitScript() {
         return """
                 <script>
-                  function overflows(el) {
-                    return el.scrollWidth > el.clientWidth || el.scrollHeight > el.clientHeight;
+                  function overflows(cell) {
+                    return cell.scrollWidth > cell.clientWidth || cell.scrollHeight > cell.clientHeight;
                   }
-                  function shrinkToFit(el, start) {
+                  function shrinkToFit(cell, name, start) {
                     var size = start;
-                    el.style.fontSize = size + 'px';
-                    while (overflows(el) && size > 16) {
+                    name.style.fontSize = size + 'px';
+                    while (overflows(cell) && size > 16) {
                       size -= 1;
-                      el.style.fontSize = size + 'px';
+                      name.style.fontSize = size + 'px';
                     }
                     return size;
                   }
-                  document.querySelectorAll('.title').forEach(function (el) {
-                    if (!overflows(el)) return;
-                    var start = parseFloat(getComputedStyle(el).fontSize);
-                    var oneLine = shrinkToFit(el, start);
-                    el.style.whiteSpace = 'normal';
-                    el.style.lineHeight = '1.05';
-                    var twoLines = shrinkToFit(el, start);
+                  document.querySelectorAll('.title').forEach(function (cell) {
+                    if (!overflows(cell)) return;
+                    var name = cell.querySelector('.name');
+                    var start = parseFloat(getComputedStyle(name).fontSize);
+                    var oneLine = shrinkToFit(cell, name, start);
+                    name.style.whiteSpace = 'normal';
+                    name.style.textWrap = 'balance';
+                    name.style.lineHeight = '1.05';
+                    var twoLines = shrinkToFit(cell, name, start);
                     if (oneLine >= twoLines) {
-                      el.style.whiteSpace = '';
-                      el.style.lineHeight = '';
-                      el.style.fontSize = oneLine + 'px';
+                      name.style.whiteSpace = '';
+                      name.style.textWrap = '';
+                      name.style.lineHeight = '';
+                      name.style.fontSize = oneLine + 'px';
                     }
                   });
                 </script>

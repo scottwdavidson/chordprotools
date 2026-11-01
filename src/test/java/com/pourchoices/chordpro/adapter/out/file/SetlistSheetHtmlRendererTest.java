@@ -27,15 +27,17 @@ class SetlistSheetHtmlRendererTest {
     }
 
     @Test
-    void rendersOneSectionPerSheetWithSetTitleAndBackingOnly() {
+    void rendersOneSectionPerSheetWithSetNameFileStemAndBacking() {
         String html = renderer.render("2026-01-01-test", List.of(
                 List.of(entry("A01", "Starting Over", BackingType.RC, "5")),
                 List.of(entry("B01", "Hey California", BackingType.BB, null))));
 
-        assertThat(html).contains("<span class=\"set\">A01</span><span class=\"title\">Starting Over</span>"
+        assertThat(html).contains("<span class=\"set\">A01</span>"
+                + "<span class=\"title\"><span class=\"name\">Starting Over</span>"
+                + "<span class=\"id\">(StartingOver)</span></span>"
                 + "<span class=\"backing\">5</span>");
-        assertThat(html).contains("<span class=\"set\">B01</span><span class=\"title\">Hey California</span>"
-                + "<span class=\"backing\">BB</span>");
+        assertThat(html).contains("<span class=\"name\">Hey California</span>"
+                + "<span class=\"id\">(HeyCalifornia)</span></span><span class=\"backing\">BB</span>");
         assertThat(html).contains("Set A &middot; sheet 1 of 2").contains("Set B &middot; sheet 2 of 2");
         assertThat(html).doesNotContain("Test Artist");
         assertThat(html.split("<section", -1)).hasSize(3);
@@ -47,8 +49,8 @@ class SetlistSheetHtmlRendererTest {
                 entry("A01", "Plain", null, null),
                 entry("A02", "Sentinel", BackingType.RC, "99"))));
 
-        assertThat(html).contains(">Plain</span><span class=\"backing\"></span>");
-        assertThat(html).contains(">Sentinel</span><span class=\"backing\"></span>");
+        assertThat(html).contains("(Plain)</span></span><span class=\"backing\"></span>");
+        assertThat(html).contains("(Sentinel)</span></span><span class=\"backing\"></span>");
     }
 
     @Test

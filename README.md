@@ -954,8 +954,10 @@ The `BACKING` column shows:
 **Script:** `./print-setlist [--gig <slug>] [--rows-per-page <n>] [--output <path>]`
 
 Writes the **floor setlist** — the sheet you tape down as a "what's the next song" double
-check — as a self-contained HTML file: just **SET**, **TITLE** and **BACKING**, in the biggest
-type that fits, lots of white space, **landscape Letter**. Open it in a browser and print
+check — as a self-contained HTML file: **SET**, song **name** with its **file stem** in
+parentheses underneath (the end of the song ID, e.g. `(TucsonTooLate)` or `(MyLife-c)` — the
+`.cho` file name without path or extension), and **BACKING**, in the biggest type that fits,
+with lots of white space, **landscape Letter**. Open it in a browser and print
 (Landscape, Letter, headers/footers off).
 
 ```zsh
@@ -970,9 +972,10 @@ type that fits, lots of white space, **landscape Letter**. Open it in a browser 
   `--rows-per-page` songs (default 6; 17 songs → 6/6/5). Sheets are numbered in the footer
   ("Set B · sheet 5 of 9") so you can tape them in order.
 - Every row is the same height and the type is a fixed fraction of it, so all sheets look
-  alike. A title too long for one line at full size is either shrunk or wrapped onto two
-  lines, whichever leaves bigger type (done by a few lines of inline script when the page
-  loads, so print from a browser, not a text previewer).
+  alike. A name too long for one line at full size is either shrunk or wrapped (balanced)
+  onto two lines, whichever leaves bigger type; the file-stem line is never shrunk. This is
+  done by a few lines of inline script when the page loads, so print from a browser, not a
+  text previewer. Only the one or two longest titles ever get noticeably smaller type.
 - `BACKING` shows an RC-500 slot number, `BB` for BeatBuddy, or blank (same rules as
   `export-setlist`).
 
