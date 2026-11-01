@@ -8,8 +8,10 @@ import java.util.Locale;
 
 /**
  * Renders the floor setlist as one self-contained HTML document: landscape Letter, one big
- * SET / NAME (file stem) / BACKING row per song, lots of white space, and a small footer saying
- * which sheet you're holding. The stem is the end of the song ID — the file name without path or
+ * SET / NAME / (file stem) / BACKING row per song, lots of white space, and a small footer saying
+ * which sheet you're holding. The name is the standard 12-character RC-500 SONG LABEL, so every
+ * row is about the same width and the type can be huge; a song without a label falls back to its
+ * title. The stem is the end of the song ID — the file name without path or
  * extension — shown under the name so you can double-check you've got the right file.
  *
  * <p>Every row has the same height (the page's usable height divided by the fullest page's
@@ -68,6 +70,8 @@ public class SetlistSheetHtmlRenderer {
                   .title { overflow: hidden; height: var(--row-h); box-sizing: border-box;
                            padding: 0.05in 0; display: grid; align-content: center; }
                   .name { font-size: calc(var(--row-h) * 0.5); line-height: 1.15; }
+                  .name.label { white-space: pre; }
+                  .name.fallback { font-style: italic; color: #666; }
                   .id { font-size: calc(var(--row-h) * 0.22); line-height: 1.2; color: #444; }
                   .backing { font-weight: bold; text-align: center; }
                   .foot { height: %sin; font-size: 12pt; color: #555; text-align: right; }
@@ -83,8 +87,8 @@ public class SetlistSheetHtmlRenderer {
         for (SetlistEntry entry : entries) {
             page.append("<div class=\"row\">")
                 .append("<span class=\"set\">").append(escape(entry.getSet())).append("</span>")
-                .append("<span class=\"title\"><span class=\"name\">").append(escape(entry.getTitle()))
-                .append("</span><span class=\"id\">(").append(escape(entry.getSongId().getFileStem()))
+                .append("<span class=\"title\">").append(name(entry))
+                .append("<span class=\"id\">(").append(escape(entry.getSongId().getFileStem()))
                 .append(")</span></span>")
                 .append("<span class=\"backing\">").append(escape(entry.getBackingLabel())).append("</span>")
                 .append("</div>\n");
@@ -94,6 +98,18 @@ public class SetlistSheetHtmlRenderer {
                 .append(escape(gig)).append(" &middot; Set ").append(setLetter)
                 .append(" &middot; sheet ").append(sheet).append(" of ").append(sheetCount)
                 .append("</div>\n</section>\n").toString();
+    }
+
+    /**
+     * The big line: the RC-500 SONG LABEL exactly as the device shows it (padding spaces
+     * preserved), or, when no label has been written yet, the full title in italic grey so a
+     * glance tells a real device label from a stand-in.
+     */
+    private String name(SetlistEntry entry) {
+        if (entry.hasSongLabel()) {
+            return "<span class=\"name label\">" + escape(entry.getSongLabel()) + "</span>";
+        }
+        return "<span class=\"name fallback\">" + escape(entry.getTitle()) + "</span>";
     }
 
     /**

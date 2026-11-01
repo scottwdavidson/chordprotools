@@ -59,4 +59,9 @@ public class SetlistEntry {
     }
     public BackingType getBackingType() { return song.getBackingType(); }
     public String getPerformanceKey()   { return song.getPerformanceKey(); }
+    /** RC-500 display label (max 12 chars), or {@code null} when none has been written yet. */
+    public String getSongLabel()        { return song.getSongLabel(); }
+    public boolean hasSongLabel() {
+        return song.getSongLabel() != null && !song.getSongLabel().isBlank();
+    }
 }

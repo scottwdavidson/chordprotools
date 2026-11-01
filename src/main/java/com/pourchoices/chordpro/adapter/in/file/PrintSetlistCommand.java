@@ -1,15 +1,19 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
 import com.pourchoices.chordpro.application.domain.model.Setlist;
+import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
 import com.pourchoices.chordpro.application.port.in.PrintSetlistUseCase;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 
+import java.util.List;
+
 /**
  * CLI command that writes a floor-sheet setlist for the gig: landscape pages, one set per
- * page, as-big-as-possible SET, TITLE and BACKING. Open the result in a browser, print it,
+ * page, as-big-as-possible SET, song name (the 12-char RC-500 SONG LABEL) and BACKING. Open the
+ * result in a browser, print it,
  * and tape it down as the "what's the next song" double check.
  *
  * <pre>
@@ -68,6 +72,19 @@ public class PrintSetlistCommand implements Runnable {
         System.out.printf("%nPrintable setlist ready — %d songs for gig '%s' written to %s%n",
                 setlist.size(), setlist.getGig(), outputPath);
         System.out.println("  Open it in a browser and print: Landscape, Letter, margins Default, headers/footers off.");
+        reportSongsWithoutLabel(setlist);
         System.out.println();
+    }
+
+    /** Songs with no RC-500 SONG LABEL print their full title instead — say which, so they can be labelled. */
+    private void reportSongsWithoutLabel(Setlist setlist) {
+        List<SetlistEntry> unlabelled = setlist.getEntries().stream()
+                .filter(entry -> !entry.hasSongLabel())
+                .toList();
+        if (unlabelled.isEmpty()) return;
+
+        System.out.printf("%n  %d song(s) have no SONG LABEL and print their full title instead:%n", unlabelled.size());
+        unlabelled.forEach(entry ->
+                System.out.printf("    %s  %s%n", entry.getSet(), entry.getTitle()));
     }
 }

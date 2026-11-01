@@ -17,26 +17,50 @@ class SetlistSheetHtmlRendererTest {
     private final SetlistSheetHtmlRenderer renderer = new SetlistSheetHtmlRenderer();
 
     private SetlistEntry entry(String set, String title, BackingType backing, String rcSlot) {
+        return entry(set, title, null, backing, rcSlot);
+    }
+
+    private SetlistEntry entry(String set, String title, String songLabel, BackingType backing, String rcSlot) {
         CatalogEntry song = CatalogEntry.builder()
                 .songId(SongId.parse("ABC:B:TestArtist:" + title.replaceAll("\\W", "")))
                 .title(title).artist("Test Artist").key("C").duration("3:00")
-                .backingType(backing).build();
+                .songLabel(songLabel).backingType(backing).build();
         SetlistAssignment assignment = SetlistAssignment.builder()
                 .gig("2026-01-01-test").songId(song.getSongId()).set(set).rcSlot(rcSlot).build();
         return SetlistEntry.builder().song(song).assignment(assignment).build();
     }
 
     @Test
+    void rendersTheSongLabel_notTheTitle_withPaddingSpacesPreserved() {
+        String html = renderer.render("g", List.of(List.of(
+                entry("A01", "Tiny Dancer", "Tiny  Dancer", BackingType.RC, "7"))));
+
+        assertThat(html).contains("<span class=\"name label\">Tiny  Dancer</span>");
+        assertThat(html).contains("(TinyDancer)");
+        assertThat(html).doesNotContain(">Tiny Dancer<");
+        assertThat(html).contains(".name.label { white-space: pre; }");
+    }
+
+    @Test
+    void withoutALabel_fallsBackToTheTitle_markedAsFallback() {
+        String html = renderer.render("g", List.of(List.of(
+                entry("A01", "Magic", "", null, null))));
+
+        assertThat(html).contains("<span class=\"name fallback\">Magic</span>");
+        assertThat(html).doesNotContain("name label\">");
+    }
+
+    @Test
     void rendersOneSectionPerSheetWithSetNameFileStemAndBacking() {
         String html = renderer.render("2026-01-01-test", List.of(
-                List.of(entry("A01", "Starting Over", BackingType.RC, "5")),
-                List.of(entry("B01", "Hey California", BackingType.BB, null))));
+                List.of(entry("A01", "Starting Over", "Start Over", BackingType.RC, "5")),
+                List.of(entry("B01", "Hey California", "HeyCalifornia", BackingType.BB, null))));
 
         assertThat(html).contains("<span class=\"set\">A01</span>"
-                + "<span class=\"title\"><span class=\"name\">Starting Over</span>"
+                + "<span class=\"title\"><span class=\"name label\">Start Over</span>"
                 + "<span class=\"id\">(StartingOver)</span></span>"
                 + "<span class=\"backing\">5</span>");
-        assertThat(html).contains("<span class=\"name\">Hey California</span>"
+        assertThat(html).contains("<span class=\"name label\">HeyCalifornia</span>"
                 + "<span class=\"id\">(HeyCalifornia)</span></span><span class=\"backing\">BB</span>");
         assertThat(html).contains("Set A &middot; sheet 1 of 2").contains("Set B &middot; sheet 2 of 2");
         assertThat(html).doesNotContain("Test Artist");
