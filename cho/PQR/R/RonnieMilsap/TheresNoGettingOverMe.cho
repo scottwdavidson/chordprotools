@@ -4,13 +4,17 @@
 {duration: 3:30}
 {tempo: 100}
 {meta: nord: P55}
+{meta: roland: B062}
 {meta: countin: 4}
+{meta: backing: RC}
 {meta: rc-slot: 66 (2026-11-06-FF)}
 {meta: performance: E}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P55   }
+{comment:**  meta: roland: B062   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 66 (2026-11-06-FF)   }
 {comment:**  meta: performance: E   }
 {comment:***********************************************}
