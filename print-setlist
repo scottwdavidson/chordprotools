@@ -1,11 +1,10 @@
 #!/bin/zsh
-# Write a floor setlist — huge SET, TITLE, BACKING, one set per landscape page — as HTML.
+# Write a floor setlist — large-type portrait sheets, one "A01-45 Song Title" row per song — as HTML.
 # Open it in a browser, print it, and tape it down.
 #
 # Usage:
 #   ./print-setlist                                        # latest gig → ./setlist.html
 #   ./print-setlist --gig 2026-06-14-rusty-nail            # specific gig
-#   ./print-setlist --rows-per-page 5                      # fewer rows → even bigger type
 #   ./print-setlist --gig 2026-06-14-rusty-nail --output ./gig-2026-06-14.html
 
 "${0:a:h}/cpt" print-setlist "$@"

@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * Assembles the fan-facing setlist (Z-set backups excluded — they aren't played in order
- * anyway), paginates it one set per page, and hands it to {@link SetlistSheetPort} for
+ * anyway), paginates it into floor sheets, and hands it to {@link SetlistSheetPort} for
  * rendering.
  */
 @Service
@@ -28,9 +28,9 @@ public class PrintSetlistService implements PrintSetlistUseCase {
     private final SetlistSheetPort sheetPort;
 
     @Override
-    public Setlist printSetlist(String gigParam, String outputPathString, int maxRowsPerPage) {
+    public Setlist printSetlist(String gigParam, String outputPathString) {
         Setlist setlist = assembler.assemble(gigParam, false);
-        List<List<SetlistEntry>> pages = pageSplitter.paginate(setlist.getEntries(), maxRowsPerPage);
+        List<List<SetlistEntry>> pages = pageSplitter.paginate(setlist.getEntries());
 
         Path outputPath = Paths.get(outputPathString);
         sheetPort.writeSetlistSheet(outputPath, setlist.getGig(), pages);

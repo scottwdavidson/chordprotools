@@ -121,15 +121,8 @@ public class SongId {
      */
     @Override
     public String toString() {
-        return toGroupKey() + keyAlternativeSuffix();
-    }
-
-    /**
-     * The song's file name without directory or {@code .cho} extension, key suffix included.
-     * e.g. {@code "MyLife-c"} or {@code "MyLife"} — the "end" of the song ID.
-     */
-    public String getFileStem() {
-        return title + keyAlternativeSuffix();
+        String base = clusterPrefix + ":" + clusterElement + ":" + artist + ":" + title;
+        return hasKeyAlternative() ? base + "-" + keyAlternative : base;
     }
 
     /**
@@ -181,9 +174,5 @@ public class SongId {
 
     private boolean hasKeyAlternative() {
         return keyAlternative != null && !keyAlternative.isBlank();
-    }
-
-    private String keyAlternativeSuffix() {
-        return hasKeyAlternative() ? "-" + keyAlternative : "";
     }
 }

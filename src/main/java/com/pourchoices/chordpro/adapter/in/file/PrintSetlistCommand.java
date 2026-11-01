@@ -1,20 +1,16 @@
 package com.pourchoices.chordpro.adapter.in.file;
 
 import com.pourchoices.chordpro.application.domain.model.Setlist;
-import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
 import com.pourchoices.chordpro.application.port.in.PrintSetlistUseCase;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 
-import java.util.List;
-
 /**
- * CLI command that writes a floor-sheet setlist for the gig: landscape pages, one set per
- * page, as-big-as-possible SET, song name (the 12-char RC-500 SONG LABEL) and BACKING. Open the
- * result in a browser, print it,
- * and tape it down as the "what's the next song" double check.
+ * CLI command that writes a floor-sheet setlist for the gig: portrait pages, one
+ * {@code A01-45 Song Title} row per song (set code, backing slot, title). Open the result in a
+ * browser, print it, and tape it down as the "what's the next song" double check.
  *
  * <pre>
  *   # latest gig → ./setlist.html
@@ -27,14 +23,13 @@ import java.util.List;
 @Component
 @Command(
         name = "print-setlist",
-        description = "Writes a huge-type, one-set-per-page landscape floor setlist (set, title, backing) "
-                + "as HTML. Backup / Z-set songs are never included."
+        description = "Writes a large-type portrait floor setlist (A01-45 Song Title per row) as HTML. "
+                + "Backup / Z-set songs are never included."
 )
 @Slf4j
 public class PrintSetlistCommand implements Runnable {
 
     private static final String DEFAULT_OUTPUT = "./setlist.html";
-    private static final int DEFAULT_ROWS_PER_PAGE = 6;
 
     private final PrintSetlistUseCase printSetlistUseCase;
 
@@ -56,35 +51,15 @@ public class PrintSetlistCommand implements Runnable {
     )
     private String outputPath;
 
-    @Option(
-            names = {"--rows-per-page", "-r"},
-            description = "Most songs on any one page; fewer rows means bigger type (default: ${DEFAULT-VALUE})",
-            defaultValue = "" + DEFAULT_ROWS_PER_PAGE
-    )
-    private int rowsPerPage;
-
     @Override
     public void run() {
         log.info("Printing setlist (gig={}) to: {}", gig, outputPath);
 
-        Setlist setlist = printSetlistUseCase.printSetlist(gig, outputPath, rowsPerPage);
+        Setlist setlist = printSetlistUseCase.printSetlist(gig, outputPath);
 
         System.out.printf("%nPrintable setlist ready — %d songs for gig '%s' written to %s%n",
                 setlist.size(), setlist.getGig(), outputPath);
-        System.out.println("  Open it in a browser and print: Landscape, Letter, margins Default, headers/footers off.");
-        reportSongsWithoutLabel(setlist);
+        System.out.println("  Open it in a browser and print: Portrait, Letter, margins Default, headers/footers off.");
         System.out.println();
-    }
-
-    /** Songs with no RC-500 SONG LABEL print their full title instead — say which, so they can be labelled. */
-    private void reportSongsWithoutLabel(Setlist setlist) {
-        List<SetlistEntry> unlabelled = setlist.getEntries().stream()
-                .filter(entry -> !entry.hasSongLabel())
-                .toList();
-        if (unlabelled.isEmpty()) return;
-
-        System.out.printf("%n  %d song(s) have no SONG LABEL and print their full title instead:%n", unlabelled.size());
-        unlabelled.forEach(entry ->
-                System.out.printf("    %s  %s%n", entry.getSet(), entry.getTitle()));
     }
 }

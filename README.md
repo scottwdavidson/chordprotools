@@ -365,7 +365,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Fill in RC-500 slot numbers for the gig, preserving whatever's already in `gigs.csv` by default; `--reoptimize` to recompute everything from scratch |
 | `./copy-gig` | `copy-gig` | Clone all gig assignments (including RC SLOT) from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
-| `./print-setlist` | `print-setlist` | Write the huge-type, one-set-per-sheet landscape floor setlist (set, title, backing) as `setlist.html` |
+| `./print-setlist` | `print-setlist` | Write the large-type portrait floor setlist (`A01-45 Song Title` rows, 16/sheet or 3 sheets) as `setlist.html` |
 | `./find-song-id` | `find-song-id` | Search the catalog by title/artist fragment → SONG ID to paste into `gigs.csv` |
 | `./list-gigs` | `list-gigs` | List every gig slug in `gigs.csv` with a song count |
 
@@ -951,36 +951,36 @@ The `BACKING` column shows:
 
 ### `print-setlist`
 
-**Script:** `./print-setlist [--gig <slug>] [--rows-per-page <n>] [--output <path>]`
+**Script:** `./print-setlist [--gig <slug>] [--output <path>]`
 
 Writes the **floor setlist** — the sheet you tape down as a "what's the next song" double
-check — as a self-contained HTML file: **SET**, the song's **RC-500 `SONG LABEL`** (the
-standard max-12-character device name, shown exactly as the device shows it, padding spaces
-included) with its **file stem** in parentheses underneath (the end of the song ID, e.g.
-`(TucsonTooLate)` or `(MyLife-c)` — the `.cho` file name without path or extension), and
-**BACKING**, in the biggest type that fits, with lots of white space, **landscape Letter**.
-Open it in a browser and print (Landscape, Letter, headers/footers off).
+check — as a self-contained HTML file: **portrait Letter**, large type, one row per song:
+
+```
+A01      Just A Song Before I Go
+A02-46   Starting Over
+B09-BB   Lonely People
+```
+
+The bold code is the **set position, a dash, and the backing** (RC-500 slot number, or `BB`
+for BeatBuddy); a song with no backing shows just the set code. Open the HTML in a browser
+and print (Portrait, Letter, headers/footers off).
 
 ```zsh
 ./print-setlist                                  # latest gig → ./setlist.html
 ./print-setlist --gig 2026-06-14-rusty-nail      # specific gig
-./print-setlist --rows-per-page 5                # fewer rows → even bigger type, more sheets
 ./print-setlist --gig 2026-06-14-rusty-nail --output ./rusty-nail.html
 ```
 
 - Z-set backup songs are **never** included (same as the default `export-setlist`).
-- **One set per sheet.** Each set is split into evenly sized sheets of at most
-  `--rows-per-page` songs (default 6; 17 songs → 6/6/5). Sheets are numbered in the footer
-  ("Set B · sheet 5 of 9") so you can tape them in order.
-- **Songs with no `SONG LABEL`** fall back to their full title, printed in *italic grey* so
-  you can tell a stand-in from a real device label, and the command lists them when it runs
-  so you know which labels are still to be written. A long fallback title is shrunk or
-  wrapped to fit; real 12-character labels never need it.
-- Every row is the same height and the type is a fixed fraction of it, so all sheets look
-  alike. This is done by a few lines of inline script when the page loads, so print from a
-  browser, not a text previewer.
-- `BACKING` shows an RC-500 slot number, `BB` for BeatBuddy, or blank (same rules as
-  `export-setlist`).
+- **How many sheets** is a fixed formula: up to 32 songs → **16 per sheet** (one or two
+  sheets); more than 32 songs → **three sheets**, as even as possible (51 songs → 17/17/17).
+  Sets are not split by sheet — a heavy rule marks where each new set starts, and the footer
+  says which sheet you're holding ("sheet 2 of 3").
+- **Type size** is fixed by the row height (sized for the standard 16-row sheet, or the
+  fullest sheet if bigger), so every gig prints with the same look.
+- **A title too long for its one line is cut off** with an ellipsis (about 30+ characters at
+  16 rows per sheet). It never wraps or shrinks.
 
 ## 6. Utility Scripts
 
@@ -1261,7 +1261,7 @@ chordprotools/
 ├── assign-backing-track-slots   # Assign RC-500 slot numbers for the gig; writes to gigs.csv + patches .cho files + regenerates setlist.csv
 ├── copy-gig                     # Clone a gig's assignments to a new gig slug
 ├── export-setlist               # Generate setlist.csv from catalog + assignments
-├── print-setlist                # Generate the huge-type floor setlist (one set per landscape sheet) as setlist.html
+├── print-setlist                # Generate the large-type portrait floor setlist (A01-45 Song Title rows) as setlist.html
 ├── deploy-rc500                 # Generates deploy-rc500-<timestamp>.sh with cp commands for RC-500 audio files
 │
 ├── find-song-id                 # Search catalog by title/artist → SONG ID

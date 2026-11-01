@@ -7,53 +7,38 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Paginates a setlist for the floor sheet: every page holds songs from exactly one set, with
- * at most {@code maxRowsPerPage} songs, so the type can be huge and "which page am I on" is
- * always "which set am I in".
+ * Splits a setlist across the printed floor sheets with one simple formula:
  *
- * <p>A set that needs more than one page is split into evenly sized pages: 17 songs at max 6
- * becomes 6/6/5, never 6/6/4/1 with a lonely last page. Pure logic, no I/O.
+ * <ul>
+ *   <li>up to {@code 2 × 16 = 32} songs: {@value #SONGS_PER_SHEET} songs per sheet, so one or two sheets;</li>
+ *   <li>more than 32 songs: three sheets, as even as possible (51 songs → 17 / 17 / 17).</li>
+ * </ul>
+ *
+ * <p>Set boundaries are deliberately ignored — a set may continue onto the next sheet; the
+ * renderer marks where each new set starts. Pure logic, no I/O.
  */
 @Component
 public class SetlistPageSplitter {
 
-    public List<List<SetlistEntry>> paginate(List<SetlistEntry> orderedEntries, int maxRowsPerPage) {
-        if (maxRowsPerPage < 1) {
-            throw new IllegalArgumentException("maxRowsPerPage must be at least 1, was " + maxRowsPerPage);
+    /** Standard sheet: most gigs are 3 sets of about 10 songs and fit two sheets of this size. */
+    public static final int SONGS_PER_SHEET = 16;
+
+    private static final int STANDARD_SHEET_COUNT = 2;
+    private static final int MAX_SHEET_COUNT = 3;
+
+    public List<List<SetlistEntry>> paginate(List<SetlistEntry> orderedEntries) {
+        int perSheet = songsPerSheet(orderedEntries.size());
+
+        List<List<SetlistEntry>> sheets = new ArrayList<>();
+        for (int from = 0; from < orderedEntries.size(); from += perSheet) {
+            int to = Math.min(from + perSheet, orderedEntries.size());
+            sheets.add(orderedEntries.subList(from, to));
         }
-        List<List<SetlistEntry>> pages = new ArrayList<>();
-        for (List<SetlistEntry> set : groupBySet(orderedEntries)) {
-            pages.addAll(splitEvenly(set, maxRowsPerPage));
-        }
-        return pages;
+        return sheets;
     }
 
-    /** Consecutive runs of entries sharing the same set letter, in order. */
-    private List<List<SetlistEntry>> groupBySet(List<SetlistEntry> entries) {
-        List<List<SetlistEntry>> sets = new ArrayList<>();
-        char previous = 0;
-        for (SetlistEntry entry : entries) {
-            char letter = entry.getSet().charAt(0);
-            if (letter != previous) sets.add(new ArrayList<>());
-            sets.get(sets.size() - 1).add(entry);
-            previous = letter;
-        }
-        return sets;
-    }
-
-    /** Fewest pages that respect the cap, with sizes differing by at most one (bigger pages first). */
-    private List<List<SetlistEntry>> splitEvenly(List<SetlistEntry> set, int maxRows) {
-        int pageCount = (set.size() + maxRows - 1) / maxRows;
-        int base = set.size() / pageCount;
-        int extra = set.size() % pageCount;
-
-        List<List<SetlistEntry>> pages = new ArrayList<>();
-        int from = 0;
-        for (int i = 0; i < pageCount; i++) {
-            int to = from + base + (i < extra ? 1 : 0);
-            pages.add(set.subList(from, to));
-            from = to;
-        }
-        return pages;
+    private int songsPerSheet(int totalSongs) {
+        if (totalSongs <= SONGS_PER_SHEET * STANDARD_SHEET_COUNT) return SONGS_PER_SHEET;
+        return (totalSongs + MAX_SHEET_COUNT - 1) / MAX_SHEET_COUNT;
     }
 }

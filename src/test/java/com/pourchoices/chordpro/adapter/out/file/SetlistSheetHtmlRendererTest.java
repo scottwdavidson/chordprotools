@@ -8,6 +8,7 @@ import com.pourchoices.chordpro.application.domain.model.SongId;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+import java.util.stream.IntStream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -17,64 +18,39 @@ class SetlistSheetHtmlRendererTest {
     private final SetlistSheetHtmlRenderer renderer = new SetlistSheetHtmlRenderer();
 
     private SetlistEntry entry(String set, String title, BackingType backing, String rcSlot) {
-        return entry(set, title, null, backing, rcSlot);
-    }
-
-    private SetlistEntry entry(String set, String title, String songLabel, BackingType backing, String rcSlot) {
         CatalogEntry song = CatalogEntry.builder()
                 .songId(SongId.parse("ABC:B:TestArtist:" + title.replaceAll("\\W", "")))
                 .title(title).artist("Test Artist").key("C").duration("3:00")
-                .songLabel(songLabel).backingType(backing).build();
+                .backingType(backing).build();
         SetlistAssignment assignment = SetlistAssignment.builder()
                 .gig("2026-01-01-test").songId(song.getSongId()).set(set).rcSlot(rcSlot).build();
         return SetlistEntry.builder().song(song).assignment(assignment).build();
     }
 
-    @Test
-    void rendersTheSongLabel_notTheTitle_withPaddingSpacesPreserved() {
-        String html = renderer.render("g", List.of(List.of(
-                entry("A01", "Tiny Dancer", "Tiny  Dancer", BackingType.RC, "7"))));
-
-        assertThat(html).contains("<span class=\"name label\">Tiny  Dancer</span>");
-        assertThat(html).contains("(TinyDancer)");
-        assertThat(html).doesNotContain(">Tiny Dancer<");
-        assertThat(html).contains(".name.label { white-space: pre; }");
+    private List<SetlistEntry> songs(int count) {
+        return IntStream.rangeClosed(1, count)
+                .mapToObj(i -> entry("A%02d".formatted(i), "Song " + i, null, null)).toList();
     }
 
     @Test
-    void withoutALabel_fallsBackToTheTitle_markedAsFallback() {
-        String html = renderer.render("g", List.of(List.of(
-                entry("A01", "Magic", "", null, null))));
+    void rendersCompactSetAndBackingCode_thenTitle() {
+        String html = renderer.render("2026-01-01-test", List.of(List.of(
+                entry("A01", "Starting Over", BackingType.RC, "45"),
+                entry("B09", "Hey California", BackingType.BB, null))));
 
-        assertThat(html).contains("<span class=\"name fallback\">Magic</span>");
-        assertThat(html).doesNotContain("name label\">");
-    }
-
-    @Test
-    void rendersOneSectionPerSheetWithSetNameFileStemAndBacking() {
-        String html = renderer.render("2026-01-01-test", List.of(
-                List.of(entry("A01", "Starting Over", "Start Over", BackingType.RC, "5")),
-                List.of(entry("B01", "Hey California", "HeyCalifornia", BackingType.BB, null))));
-
-        assertThat(html).contains("<span class=\"set\">A01</span>"
-                + "<span class=\"title\"><span class=\"name label\">Start Over</span>"
-                + "<span class=\"id\">(StartingOver)</span></span>"
-                + "<span class=\"backing\">5</span>");
-        assertThat(html).contains("<span class=\"name label\">HeyCalifornia</span>"
-                + "<span class=\"id\">(HeyCalifornia)</span></span><span class=\"backing\">BB</span>");
-        assertThat(html).contains("Set A &middot; sheet 1 of 2").contains("Set B &middot; sheet 2 of 2");
+        assertThat(html).contains("<span class=\"code\">A01-45</span><span class=\"title\">Starting Over</span>");
+        assertThat(html).contains("<span class=\"code\">B09-BB</span><span class=\"title\">Hey California</span>");
         assertThat(html).doesNotContain("Test Artist");
-        assertThat(html.split("<section", -1)).hasSize(3);
     }
 
     @Test
-    void noBackingAndSentinel99_renderBlank() {
+    void noBackingAndSentinel99_showJustTheSetCode() {
         String html = renderer.render("g", List.of(List.of(
                 entry("A01", "Plain", null, null),
                 entry("A02", "Sentinel", BackingType.RC, "99"))));
 
-        assertThat(html).contains("(Plain)</span></span><span class=\"backing\"></span>");
-        assertThat(html).contains("(Sentinel)</span></span><span class=\"backing\"></span>");
+        assertThat(html).contains("<span class=\"code\">A01</span><span class=\"title\">Plain</span>");
+        assertThat(html).contains("<span class=\"code\">A02</span><span class=\"title\">Sentinel</span>");
     }
 
     @Test
@@ -86,28 +62,45 @@ class SetlistSheetHtmlRendererTest {
     }
 
     @Test
-    void rowHeightIsSharedAcrossSheets_sizedByTheFullestSheet() {
-        List<SetlistEntry> full = java.util.stream.IntStream.rangeClosed(1, 6)
-                .mapToObj(i -> entry("A%02d".formatted(i), "Song " + i, null, null)).toList();
-        List<SetlistEntry> short1 = List.of(entry("B01", "Short", null, null));
+    void oneSectionPerSheet_withSheetNumberInTheFooter() {
+        String html = renderer.render("2026-01-01-test", List.of(songs(1), songs(1)));
 
-        String html = renderer.render("g", List.of(full, short1));
-
-        // (7.5in sheet - 0.35in footer) / 6 rows = 1.192in
-        assertThat(html).contains("--row-h: 1.192in");
+        assertThat(html.split("<section", -1)).hasSize(3);
+        assertThat(html).contains("2026-01-01-test &middot; sheet 1 of 2").contains("sheet 2 of 2");
     }
 
     @Test
-    void rowHeightIsCapped_soASparseSetlistDoesNotGetAbsurdRows() {
-        String html = renderer.render("g", List.of(List.of(entry("A01", "Only", null, null))));
+    void marksTheFirstSongOfEachNewSet_butNotTheFirstRowOfASheet() {
+        String html = renderer.render("g", List.of(List.of(
+                entry("A01", "One", null, null),
+                entry("A02", "Two", null, null),
+                entry("B01", "Three", null, null))));
 
-        assertThat(html).contains("--row-h: 1.500in");
+        assertThat(html.split("<div class=\"row new-set\">", -1)).hasSize(2);
+        assertThat(html).contains("<div class=\"row new-set\"><span class=\"code\">B01</span>");
+        assertThat(html).contains("<div class=\"row\"><span class=\"code\">A01</span>");
     }
 
     @Test
-    void includesTheFitScriptForOverlongTitles() {
-        String html = renderer.render("g", List.of(List.of(entry("A01", "x", null, null))));
+    void rowHeightIsSizedForTheStandard16RowSheet() {
+        String html = renderer.render("g", List.of(songs(16), songs(3)));
 
-        assertThat(html).contains("<script>").contains("shrinkToFit");
+        // (9.8in sheet - 0.3in footer) / 16 rows = 0.594in
+        assertThat(html).contains("--row-h: 0.594in");
+    }
+
+    @Test
+    void aSparseSetlistDoesNotGetTallerRowsThanTheStandardSheet() {
+        String html = renderer.render("g", List.of(songs(4)));
+
+        assertThat(html).contains("--row-h: 0.594in");
+    }
+
+    @Test
+    void aFullerSheetShrinksTheRowsSoItStillFits() {
+        String html = renderer.render("g", List.of(songs(17), songs(17), songs(17)));
+
+        // 9.5in / 17 rows = 0.559in
+        assertThat(html).contains("--row-h: 0.559in");
     }
 }
