@@ -51,7 +51,6 @@ Forever,Dennis Wilson / Beach Boys,D,,,,,,,,,,ABC:B:BeachBoys:Forever,,2,FULL,Po
 Golden Slumbers / Carry That Weight,Beatles,Gb,2:30,,,,,,,E,,ABC:B:Beatles:GoldenSlumbers-CarryThatWeight,,5,FULL,Rock,Pop,false,ELECTRIC
 Golden Slumbers / Carry That Weight,Beatles,E,2:30,,,,,,,E,,ABC:B:Beatles:GoldenSlumbers-CarryThatWeight-e,,5,FULL,Rock,Pop,false,ELECTRIC
 Here Comes The Sun,The Beatles,A,,,,,,,,A,,ABC:B:Beatles:HereComesTheSun,,5,FULL,Pop Rock,,true,ELECTRIC
-Here Comes The Sun,The Beatles,A,,,,,,,,A,,ABC:B:Beatles:HereComesTheSun-c,,5,FULL,Pop Rock,,true,ELECTRIC
 Here Comes The Sun,The Beatles,C,,,,,,,,,,ABC:B:Beatles:HereComesTheSun-c-jeff,,5,FULL,Pop Rock,,true,ELECTRIC
 Please Mr. Postman,The Beatles,A,2:00,122,,,,,,,,ABC:B:Beatles:PleaseMrPostman,,7,FULL,Pop,Motown,false,ACOUSTIC
 Real Love,The Beatles,C,,,,,,,,,,ABC:B:Beatles:RealLove,,4,FULL,Pop,,false,ACOUSTIC
@@ -73,7 +72,7 @@ Piano Man,Billy Joel,C,4:40,178,,,,,,A,,ABC:B:BillyJoel:PianoMan,,4,FULL,Rock,Po
 Summer Highland Falls,Billy Joel,F,3:22,93,4,RC,P55,,,,,ABC:B:BillyJoel:SummerHighlandFalls,,3,FULL,Pop,Ballad,false,ACOUSTIC
 The Stranger,Billy Joel,C,,120,,,,,,,,ABC:B:BillyJoel:TheStranger,,5,FULL,Rock,Pop,false,ELECTRIC
 Vienna,Billy Joel,Gm,3:00,63,,,,,,G#m,,ABC:B:BillyJoel:Vienna,,3,FULL,Pop,Ballad,false,ACOUSTIC
-Vienna - G#m,Billy Joel,G#m,3:00,63,,,,,,G#m,,ABC:B:BillyJoel:Vienna-g#m,,3,FULL,Pop,Ballad,false,ACOUSTIC
+Vienna,Billy Joel,G#m,3:00,63,,,,,,G#m,,ABC:B:BillyJoel:Vienna-g#m,,3,FULL,Pop,Ballad,false,ACOUSTIC
 You May Be Right,Billy Joel,A,4:00,150,4,RC,N35,,,G,,ABC:B:BillyJoel:YouMayBeRight,YouMayBeRigh,7,FULL,Rock,,true,ELECTRIC
 You May Be Right,Billy Joel,G,4:00,150,4,RC,N35,,,G,,ABC:B:BillyJoel:YouMayBeRight-g,YouMayBeRigh,7,FULL,Rock,,true,ELECTRIC
 You're My Home,Billy Joel,F,3:14,93,,,,,,,,ABC:B:BillyJoel:YoureMyHome,,3,FULL,Pop,Country,false,ACOUSTIC
@@ -255,7 +254,7 @@ Call Me The Breeze,J.J. Cale,F#,3:10,180,4,BB,O55,,,G,,JKL:J:JJCale:CallMeTheBre
 Call Me The Breeze,J.J. Cale,G,3:10,180,4,BB,O55,,,G,,JKL:J:JJCale:CallMeTheBreeze-g,,5,FULL,Blues Rock,,false,ACOUSTIC
 Sensitive Kind,JJ Cale,Dm,5:00,101,,,N11,,,,,JKL:J:JJCale:SensitiveKind,,4,FULL,Blues Rock,,false,ELECTRIC
 Running On Empty,Jackson Brown,A,4:10,137,8,RC,P55,,,G,,JKL:J:JacksonBrowne:RunningOnEmpty,Run OnEmpty,6,FULL,Rock,,false,ELECTRIC
-Running On Empty - G,Jackson Brown,G,4:10,137,8,RC,P55,,,G,,JKL:J:JacksonBrowne:RunningOnEmpty-g,Run OnEmpty,6,FULL,Rock,,false,ELECTRIC
+Running On Empty,Jackson Brown,G,4:10,137,8,RC,P55,,,G,,JKL:J:JacksonBrowne:RunningOnEmpty-g,Run OnEmpty,6,FULL,Rock,,false,ELECTRIC
 Stay,Jackson Browne,G,3:00,106,,,P25,,,,,JKL:J:JacksonBrowne:Stay,,5,FULL,Rock,,false,ELECTRIC
 Get Up,James Brown,Eb,3:15,140,,,,,,,,JKL:J:JamesBrown:GetUp,,7,FULL,Funk,,true,ELECTRIC
 I'm Yours,Jason Mraz,B,3:45,75,,,,,,,,JKL:J:JasonMraz:ImYours,,5,FULL,Pop,Reggae,true,ACOUSTIC
