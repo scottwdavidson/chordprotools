@@ -9,7 +9,7 @@
 {meta: backing: RC}
 {meta: rc-slot: 64 (2026-11-06-FF)}
 {meta: label: OrdnryWorld}
-{meta: performance: Bm}
+{meta: performance: Am}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O54   }
@@ -18,7 +18,7 @@
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 64 (2026-11-06-FF)   }
 {comment:**  meta: label: OrdnryWorld   }
-{comment:**  meta: performance: Bm   }
+{comment:**  meta: performance: Am   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

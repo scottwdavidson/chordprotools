@@ -8,6 +8,7 @@
 {meta: backing: RC}
 {meta: rc-slot: 72 (2026-11-06-FF)}
 {meta: label: Run OnEmpty}
+{meta: performance: G}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P55   }
@@ -15,6 +16,7 @@
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 72 (2026-11-06-FF)   }
 {comment:**  meta: label: Run OnEmpty   }
+{comment:**  meta: performance: G   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

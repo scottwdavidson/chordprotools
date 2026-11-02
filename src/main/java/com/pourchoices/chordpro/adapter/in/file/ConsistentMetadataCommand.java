@@ -12,14 +12,16 @@ import picocli.CommandLine.Option;
 /**
  * CLI adapter for {@code consistent-metadata}.
  *
- * <p>Scans the whole catalog for key-variant metadata inconsistencies. Two
- * checks: cross-variant DRIFT (any field but KEY differs) and FILENAME/KEY
- * mismatch. Dry-run by default; {@code --fix} repairs DRIFT in the catalog.
+ * <p>Scans the catalog (or one song group, with {@code --only}) for key-variant metadata
+ * inconsistencies. Two checks: cross-variant DRIFT (any field but KEY differs) and
+ * FILENAME/KEY mismatch. Dry-run by default; {@code --fix} repairs DRIFT in the catalog.
  *
  * <pre>
- *   ./consistent-metadata                       # report only (dry-run)
- *   ./consistent-metadata --fix                 # fix drift from base variants
- *   ./consistent-metadata --fix --source ABC:B:BobSeger:HollywoodNights-b
+ *   ./consistent-metadata                       # report only (dry-run), whole catalog
+ *   ./consistent-metadata --fix                 # fix drift from base variants, EVERY group
+ *   ./consistent-metadata --fix --only ABC:B:BobSeger:HollywoodNights      # just that group
+ *   ./consistent-metadata --fix --only ABC:B:BobSeger:HollywoodNights \
+ *                         --source ABC:B:BobSeger:HollywoodNights-b        # ...with -b as the source
  * </pre>
  *
  * <p>Exits with the number of issue groups (0 = clean) so it is scriptable.
@@ -48,12 +50,18 @@ public class ConsistentMetadataCommand implements Runnable {
 
     @Option(names = "--source",
             description = "Song ID to treat as the source of truth when fixing. "
-                    + "Defaults to each group's base (standard-key) variant.")
+                    + "Defaults to each group's base (standard-key) variant. NOTE: without "
+                    + "--only every other group is still fixed from its base; pair it with --only.")
     private String sourceSongId;
+
+    @Option(names = "--only",
+            description = "Song ID (base or any variant) whose song group is the ONLY one checked "
+                    + "and, with --fix, the only one changed. An ID with no group is an error.")
+    private String onlySongId;
 
     @Override
     public void run() {
-        MetadataConsistencyReport report = useCase.check(fix, sourceSongId);
+        MetadataConsistencyReport report = useCase.check(fix, sourceSongId, onlySongId);
 
         System.out.printf("%nconsistent-metadata%s%n%n", fix ? " (--fix)" : " (dry-run)");
 

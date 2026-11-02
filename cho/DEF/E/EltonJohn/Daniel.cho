@@ -3,10 +3,14 @@
 {key: C}
 {duration: 3:30}
 {tempo: 66}
+{meta: nord: N43}
+{meta: countin: 8}
 {meta: label: Daniel}
 {meta: performance: A}
 
 {comment:***********************************************}
+{comment:**  meta: nord: N43   }
+{comment:**  meta: countin: 8   }
 {comment:**  meta: label: Daniel   }
 {comment:**  meta: performance: A   }
 {comment:***********************************************}

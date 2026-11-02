@@ -40,7 +40,7 @@ public class ConsistentMetadataService implements ConsistentMetadataUseCase {
     private final CatalogEntryComparator comparator;
 
     @Override
-    public MetadataConsistencyReport check(boolean fix, String sourceSongId) {
+    public MetadataConsistencyReport check(boolean fix, String sourceSongId, String onlySongId) {
 
         Path catalogPath = Paths.get(catalogConfig.getCatalogIndexPath());
         // CatalogPort returns an unmodifiable, order-preserving map -- copy into a
@@ -59,9 +59,13 @@ public class ConsistentMetadataService implements ConsistentMetadataUseCase {
         int groupsChecked = 0;
         int consistentGroups = 0;
         boolean catalogMutated = false;
+        String onlyGroupKey = resolveOnlyGroup(onlySongId, sourceSongId, groups);
 
         for (Map.Entry<String, List<CatalogEntry>> e : groups.entrySet()) {
             String groupKey = e.getKey();
+            if (onlyGroupKey != null && !onlyGroupKey.equals(groupKey)) {
+                continue; // --only: every other group is neither reported nor fixed
+            }
             List<CatalogEntry> variants = e.getValue();
 
             int findingsBefore = findings.size();
@@ -113,6 +117,29 @@ public class ConsistentMetadataService implements ConsistentMetadataUseCase {
                 .groupsChecked(groupsChecked)
                 .consistentGroups(consistentGroups)
                 .build();
+    }
+
+    /**
+     * The group key the run is restricted to by {@code --only}, or {@code null} for the whole
+     * catalog. Fails fast on bad input so a typo can neither silently do nothing nor fall
+     * through to fixing the entire catalog.
+     */
+    private String resolveOnlyGroup(String onlySongId, String sourceSongId,
+                                    Map<String, List<CatalogEntry>> groups) {
+        if (onlySongId == null || onlySongId.isBlank()) {
+            return null;
+        }
+        String groupKey = SongId.parse(onlySongId.trim()).toGroupKey();
+        if (!groups.containsKey(groupKey)) {
+            throw new IllegalArgumentException(
+                    "--only: no song group for '" + onlySongId.trim() + "' in the catalog");
+        }
+        if (sourceSongId != null && !sourceSongId.isBlank()
+                && !SongId.parse(sourceSongId.trim()).toGroupKey().equals(groupKey)) {
+            throw new IllegalArgumentException("--source '" + sourceSongId.trim()
+                    + "' is not in the --only group '" + groupKey + "'");
+        }
+        return groupKey;
     }
 
     // ── Check B: filename key vs {key:} ──────────────────────────────────────
