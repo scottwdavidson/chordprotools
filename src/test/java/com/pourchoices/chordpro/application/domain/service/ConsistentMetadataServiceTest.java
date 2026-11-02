@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyList;
 import static org.mockito.Mockito.mock;
@@ -301,5 +302,110 @@ class ConsistentMetadataServiceTest {
         var captor = org.mockito.ArgumentCaptor.forClass(List.class);
         verify(catalogPort).writeCatalogToCsv(any(), captor.capture());
         assertThat(captor.getValue()).allMatch(e -> "E".equals(((CatalogEntry) e).getPerformanceKey()));
+    }
+
+    // ── --only: restrict the run to a single song group ────────────────────
+
+    /** Two groups, each with a drifting variant (tempo 148 vs the base's 150). */
+    private void givenTwoDriftingGroups() {
+        givenCatalog(
+                base("ABC:B:BobSeger:HollywoodNights", "E").build(),
+                base("ABC:B:BobSeger:HollywoodNights-b", "B").tempo("148").build(),
+                base("STU:T:TomPetty:Refugee", "E").build(),
+                base("STU:T:TomPetty:Refugee-f", "F").tempo("148").build()
+        );
+    }
+
+    private Map<String, CatalogEntry> writtenCatalog() {
+        @SuppressWarnings("unchecked")
+        var captor = org.mockito.ArgumentCaptor.forClass(List.class);
+        verify(catalogPort).writeCatalogToCsv(any(), captor.capture());
+        Map<String, CatalogEntry> byId = new LinkedHashMap<>();
+        for (Object e : captor.getValue()) {
+            byId.put(((CatalogEntry) e).getSongId().toString(), (CatalogEntry) e);
+        }
+        return byId;
+    }
+
+    @Test
+    void withoutOnly_fixTouchesEveryDriftingGroup() {
+        givenTwoDriftingGroups();
+
+        service.check(true, null, null);
+
+        Map<String, CatalogEntry> written = writtenCatalog();
+        assertThat(written.get("ABC:B:BobSeger:HollywoodNights-b").getTempo()).isEqualTo("150");
+        assertThat(written.get("STU:T:TomPetty:Refugee-f").getTempo()).isEqualTo("150");
+    }
+
+    @Test
+    void only_fixTouchesJustThatGroup_andLeavesTheOtherDriftAlone() {
+        givenTwoDriftingGroups();
+
+        service.check(true, null, "ABC:B:BobSeger:HollywoodNights-b");
+
+        Map<String, CatalogEntry> written = writtenCatalog();
+        assertThat(written.get("ABC:B:BobSeger:HollywoodNights-b").getTempo()).isEqualTo("150");
+        assertThat(written.get("STU:T:TomPetty:Refugee-f").getTempo()).isEqualTo("148");
+    }
+
+    @Test
+    void only_acceptsTheBaseIdOrAnyVariantId() {
+        givenTwoDriftingGroups();
+
+        service.check(true, null, "STU:T:TomPetty:Refugee");
+
+        Map<String, CatalogEntry> written = writtenCatalog();
+        assertThat(written.get("STU:T:TomPetty:Refugee-f").getTempo()).isEqualTo("150");
+        assertThat(written.get("ABC:B:BobSeger:HollywoodNights-b").getTempo()).isEqualTo("148");
+    }
+
+    @Test
+    void only_limitsTheReportToThatGroup() {
+        givenTwoDriftingGroups();
+
+        MetadataConsistencyReport report = service.check(false, null, "ABC:B:BobSeger:HollywoodNights");
+
+        assertThat(report.getGroupsChecked()).isEqualTo(1);
+        assertThat(report.getFindings()).hasSize(1);
+        assertThat(report.getFindings().get(0).getGroupKey()).isEqualTo("ABC:B:BobSeger:HollywoodNights");
+        verify(catalogPort, never()).writeCatalogToCsv(any(), anyList());
+    }
+
+    @Test
+    void only_withNamedSourceInThatGroup_pinsTheSourceAndStillLeavesOtherGroupsAlone() {
+        givenCatalog(
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow", "Over The Rainbow", "Eb").build(),
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow-bb", "Over The Rainbow", "Bb").build(),
+                noPerfKey("JKL:J:JudyGarland:OverTheRainbow-e", "Over The Rainbow", "E").build(),
+                base("STU:T:TomPetty:Refugee", "E").build(),
+                base("STU:T:TomPetty:Refugee-f", "F").tempo("148").build()
+        );
+
+        service.check(true, "JKL:J:JudyGarland:OverTheRainbow-e", "JKL:J:JudyGarland:OverTheRainbow");
+
+        Map<String, CatalogEntry> written = writtenCatalog();
+        assertThat(written.get("JKL:J:JudyGarland:OverTheRainbow-bb").getPerformanceKey()).isEqualTo("E");
+        assertThat(written.get("STU:T:TomPetty:Refugee-f").getTempo()).isEqualTo("148");
+    }
+
+    @Test
+    void only_unknownSong_isAnErrorNotASilentNoOp() {
+        givenTwoDriftingGroups();
+
+        assertThatThrownBy(() -> service.check(true, null, "ABC:Z:Nobody:NoSuchSong"))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessageContaining("ABC:Z:Nobody:NoSuchSong");
+        verify(catalogPort, never()).writeCatalogToCsv(any(), anyList());
+    }
+
+    @Test
+    void only_withASourceFromAnotherGroup_isRejected() {
+        givenTwoDriftingGroups();
+
+        assertThatThrownBy(() -> service.check(true, "STU:T:TomPetty:Refugee-f", "ABC:B:BobSeger:HollywoodNights"))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessageContaining("--source");
+        verify(catalogPort, never()).writeCatalogToCsv(any(), anyList());
     }
 }

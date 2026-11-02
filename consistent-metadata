@@ -6,8 +6,10 @@
 # Dry-run by default. Exits non-zero if any issues are found.
 #
 # Usage:
-#   ./consistent-metadata                  # report only
-#   ./consistent-metadata --fix            # fix drift from base variants
-#   ./consistent-metadata --fix --source ABC:B:BobSeger:HollywoodNights-b
+#   ./consistent-metadata                  # report only, whole catalog
+#   ./consistent-metadata --fix            # fix drift from base variants, EVERY group
+#   ./consistent-metadata --fix --only ABC:B:BobSeger:HollywoodNights    # just that one group
+#   ./consistent-metadata --fix --only ABC:B:BobSeger:HollywoodNights \
+#                         --source ABC:B:BobSeger:HollywoodNights-b      # ...with -b as the source
 
 "${0:a:h}/cpt" consistent-metadata "$@"

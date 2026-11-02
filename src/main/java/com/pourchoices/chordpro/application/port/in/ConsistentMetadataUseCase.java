@@ -18,6 +18,15 @@ import com.pourchoices.chordpro.application.domain.model.MetadataConsistencyRepo
 public interface ConsistentMetadataUseCase {
 
     /**
+     * Runs the consistency check over the whole catalog.
+     *
+     * @see #check(boolean, String, String)
+     */
+    default MetadataConsistencyReport check(boolean fix, String sourceSongId) {
+        return check(fix, sourceSongId, null);
+    }
+
+    /**
      * Runs the consistency check.
      *
      * @param fix     when {@code true}, repair DRIFT by propagating metadata
@@ -25,9 +34,16 @@ public interface ConsistentMetadataUseCase {
      *                when {@code false} (default), report only.
      * @param sourceSongId the song ID to treat as the source of truth when
      *                {@code fix} is true; {@code null} means "use the base
-     *                (standard-key) variant of each group".
+     *                (standard-key) variant of each group". Must belong to the
+     *                {@code onlySongId} group when that is given.
+     * @param onlySongId restrict the whole run (report <em>and</em> fix) to the one song
+     *                group this ID belongs to — any variant's ID, or the base's, will do;
+     *                {@code null} means every group. An ID with no group in the catalog
+     *                is an error, never a silent no-op.
      * @return the report (its {@link MetadataConsistencyReport#issueCount()}
      *                drives the shell exit code)
+     * @throws IllegalArgumentException if {@code onlySongId} matches no group, or
+     *                {@code sourceSongId} is outside the {@code onlySongId} group
      */
-    MetadataConsistencyReport check(boolean fix, String sourceSongId);
+    MetadataConsistencyReport check(boolean fix, String sourceSongId, String onlySongId);
 }

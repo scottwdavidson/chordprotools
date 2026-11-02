@@ -509,7 +509,7 @@ assignment owned by `gigs.csv`, not a song property.
 
 ### `consistent-metadata`
 
-**Script:** `./consistent-metadata [--fix] [--source <song-id>]`
+**Script:** `./consistent-metadata [--fix] [--only <song-id>] [--source <song-id>]`
 
 A periodic "tidy" check that key-variants of the **same song** agree on their
 metadata. Two key-variants (e.g. `HollywoodNights.cho` in E and
@@ -553,9 +553,21 @@ When 2+ variants disagree on written key with none pinned, it's reported but
 left alone — re-run with `--fix --source <variant-id>` to pick which one wins.
 
 ```zsh
-./consistent-metadata --fix
-./consistent-metadata --fix --source ABC:B:BobSeger:HollywoodNights-b
+./consistent-metadata --fix                                   # EVERY group, from each base
+./consistent-metadata --fix --only ABC:B:BobSeger:HollywoodNights   # just this group
+./consistent-metadata --fix --only ABC:B:BobSeger:HollywoodNights \
+                      --source ABC:B:BobSeger:HollywoodNights-b     # this group, -b is the source
 ```
+
+**`--only <song-id>`** restricts the *whole run* — the report **and** the fix — to the one
+song group that ID belongs to. Pass the base's ID or any variant's, it resolves to the same
+group. An ID that matches no group is an **error**, not a silent no-op, and a `--source`
+outside the `--only` group is rejected. Use it for any fix once the catalog is mostly clean:
+fixes should be deliberate, one group at a time.
+
+> **`--source` alone does not scope anything.** It only names the source for *its own* group;
+> every other group in the catalog is still fixed from its base in the same run. Always pair
+> `--source` with `--only`.
 
 > `FILENAME/KEY` issues are **never auto-fixed** — renaming a file or rewriting
 > a key is a human decision (just do it in git). They are report-only.
@@ -571,7 +583,7 @@ important footgun:
 > default `--fix` will copy the base's **empty** value over the variant's good
 > data — wiping it. When the drift report shows `PERF KEY '' vs 'G'` (empty on
 > the base, populated on the variant), do **not** blindly `--fix`. Either fix
-> the base by hand first, or run `--fix --source <the-populated-variant>` so the
+> the base by hand first, or run `--fix --only <group> --source <the-populated-variant>` so the
 > good value wins.
 
 Recommended workflow:
@@ -579,10 +591,10 @@ Recommended workflow:
 1. **Commit first.** `--fix` rewrites `song-catalog.csv`; git is your undo.
 2. **Read the dry-run** and bucket the findings:
    - *Base is correct* → safe to `--fix` (default source).
-   - *Base is empty / variant is correct* → `--fix --source <variant-id>`.
+   - *Base is empty / variant is correct* → `--fix --only <group> --source <variant-id>`.
    - *Both look wrong* (e.g. a malformed value like `Bb (+3)` in a field) → fix
      by hand in the spreadsheet.
-3. **`--fix`** the safe ones.
+3. **`--fix --only <group>`** the safe ones, one group at a time.
 4. **Push to the files:** `./update-song <groupId>` for each fixed song — it
    fans out the corrected metadata to the base file *and* all key-variants.
 5. **Re-run** `./consistent-metadata` to confirm it's clean.
