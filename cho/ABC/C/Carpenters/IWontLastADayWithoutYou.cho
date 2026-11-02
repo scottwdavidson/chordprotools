@@ -5,10 +5,12 @@
 {tempo: 85}
 {meta: nord: P54}
 {meta: countin: 4}
+{meta: performance: F}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P54   }
 {comment:**  meta: countin: 4   }
+{comment:**  meta: performance: F   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

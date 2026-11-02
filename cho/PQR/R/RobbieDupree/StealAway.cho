@@ -5,9 +5,11 @@
 {tempo: 120}
 {time: F}
 {meta: countin: 8}
+{meta: performance: A}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 8   }
+{comment:**  meta: performance: A   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

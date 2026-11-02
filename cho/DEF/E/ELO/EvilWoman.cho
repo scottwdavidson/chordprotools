@@ -3,9 +3,11 @@
 {key: Am}
 {duration: 4:40}
 {tempo: 120}
+{meta: backing: RC}
 {meta: rc-slot: 92 (2026-11-06-FF)}
 
 {comment:***********************************************}
+{comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 92 (2026-11-06-FF)   }
 {comment:***********************************************}
 

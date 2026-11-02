@@ -3,8 +3,10 @@
 {key: G#m}
 {duration: 3:00}
 {tempo: 63}
+{meta: performance: G#m}
 
 {comment:***********************************************}
+{comment:**  meta: performance: G#m   }
 {comment:***********************************************}
 
 {start_of_part: 8-bar Piano Intro}

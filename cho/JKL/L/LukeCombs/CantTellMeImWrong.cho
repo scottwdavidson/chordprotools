@@ -5,12 +5,16 @@
 {tempo: 126}
 {meta: nord: P33}
 {meta: countin: 6}
+{meta: backing: RC}
 {meta: rc-slot: 42 (2026-11-06-FF)}
+{meta: label: Cant  TellMe}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P33   }
 {comment:**  meta: countin: 6   }
+{comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 42 (2026-11-06-FF)   }
+{comment:**  meta: label: Cant  TellMe   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

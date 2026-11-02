@@ -227,7 +227,7 @@ Get Down,Gilbert O'Sullivan,Bb,,,,,,,,,,GHI:G:GilbertOSullivan:GetDown,,6,FULL,P
 Til I Hear It From You,Gin Blossoms,A,3:40,124,8,RC,,,,G,,GHI:G:GinBlossoms:TilIHearItFromYou,HearItFrmYou,6,FULL,Alternative,Pop Rock,false,ELECTRIC
 Til I Hear It From You,Gin Blossoms,G,3:40,124,8,RC,,,,G,,GHI:G:GinBlossoms:TilIHearItFromYou-g,HearItFrmYou,6,FULL,Alternative,Pop Rock,false,ELECTRIC
 The One You Love,Glenn Frey,Em,3:15,80,,,,,,,,GHI:G:GlennFrey:TheOneYouLove,,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
-I Will Survive,Gloria Gaynor,Am,3:20,117,,,24,,,,,GHI:G:GloriaGaynor:IWillSurvive,,8,FULL,Disco,,true,ELECTRIC
+I Will Survive,Gloria Gaynor,Am,3:20,117,,,O24,,,,,GHI:G:GloriaGaynor:IWillSurvive,,8,FULL,Disco,,true,ELECTRIC
 Carefree Highway,Gordon Lightfoot,D,2:20,85,,,N52,,,E,,GHI:G:GordonLightfoot:CarefreeHighway,,4,FULL,Folk,,false,ACOUSTIC
 Carefree Highway,Gordon Lightfoot,E,2:20,85,,,,,,E,,GHI:G:GordonLightfoot:CarefreeHighway-e,,4,FULL,Folk,,false,ACOUSTIC
 Sundown,Gordon Lightfoot,G,3:00,106,,,,,,,,GHI:G:GordonLightfoot:Sundown,,,,,,,ACOUSTIC
@@ -465,7 +465,7 @@ Sunrise in Cork,Scott Davidson,G,2:00,,,,,,,,,STU:S:ScottDavidson:SunriseInCork,
 When Will We Sing Together Again,Scott Davidson,F,2:30,102,,,,,,,,STU:S:ScottDavidson:WhenWillWeSingTogetherAgain,,,,,,,
 Kiss From A Rose,Seal,G,4:30,131,,,,,,,6/8,STU:S:Seal:KissFromARose,,4,FULL,Pop,Ballad,true,ACOUSTIC
 Diamond Girl,Seals and Crofts,Am,3:45,127,8,RC,O42,,P26,,,STU:S:SealsCrofts:DiamondGirl,DiamndGirl,4,FULL,Soft Rock,,false,ACOUSTIC
-Summer Breeze,Seals and Crofts,E,3:25,76,4,,41,P55,P25,,,STU:S:SealsCrofts:SummerBreeze,,4,FULL,Soft Rock,,false,ACOUSTIC
+Summer Breeze,Seals and Crofts,E,3:25,76,4,,O41,P55,P25,,,STU:S:SealsCrofts:SummerBreeze,,4,FULL,Soft Rock,,false,ACOUSTIC
 We May Never Pass This Way Again,Seals & Crofts,E,3:50,45,4,RC,M14,,,,,STU:S:SealsCrofts:WeMayNeverPassThisWayAgain,WeMay Never,4,FULL,Soft Rock,,false,ACOUSTIC
 She's Not There / Venus,Zombies / Shocking Blue,A,4:00,,,,O21,,,,,STU:S:ShockingBlue:ShesNotThere-Venus,,6,FULL,Rock,,false,ELECTRIC
 Venus,Shocking Blue,A,,,,,,,,,,STU:S:ShockingBlue:Venus,,7,FULL,Rock,,true,ELECTRIC

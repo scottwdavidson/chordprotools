@@ -1,9 +1,12 @@
 {title: What A Wonderful World}
 {artist: Louis Armstrong}
 {key: F}
+{duration: }
 {tempo: 108}
+{meta: performance: Bb}
 
 {comment:***********************************************}
+{comment:**  meta: performance: Bb   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

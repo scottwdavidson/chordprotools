@@ -3,8 +3,10 @@
 {key: Eb}
 {duration: 4:00}
 {tempo: 125}
+{meta: nord: P33}
 
 {comment:***********************************************}
+{comment:**  meta: nord: P33   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

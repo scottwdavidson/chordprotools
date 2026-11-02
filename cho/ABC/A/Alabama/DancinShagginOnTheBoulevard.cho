@@ -7,6 +7,7 @@
 {meta: countin: 2}
 {meta: backing: RC}
 {meta: rc-slot: 94 (2026-11-06-FF)}
+{meta: label: DancinShaggn}
 {meta: performance: G}
 
 {comment:***********************************************}
@@ -14,6 +15,7 @@
 {comment:**  meta: countin: 2   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 94 (2026-11-06-FF)   }
+{comment:**  meta: label: DancinShaggn   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
 

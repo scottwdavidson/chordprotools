@@ -3,8 +3,10 @@
 {key: Eb}
 {duration: 3:45}
 {tempo: 160}
+{meta: performance: Eb}
 
 {comment:***********************************************}
+{comment:**  meta: performance: Eb   }
 {comment:***********************************************}
 
 {comment: Fade In}

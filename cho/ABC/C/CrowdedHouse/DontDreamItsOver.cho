@@ -6,12 +6,14 @@
 {meta: countin: 4}
 {meta: backing: RC}
 {meta: rc-slot: 63 (2026-11-06-FF)}
+{meta: ve: A059}
 {meta: performance: C}
 
 {comment:***********************************************}
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 63 (2026-11-06-FF)   }
+{comment:**  meta: ve: A059   }
 {comment:**  meta: performance: C   }
 {comment:***********************************************}
 

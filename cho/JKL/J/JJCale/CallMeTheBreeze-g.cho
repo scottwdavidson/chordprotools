@@ -6,11 +6,13 @@
 {meta: nord: O55}
 {meta: countin: 4}
 {meta: backing: BB}
+{meta: performance: G}
 
 {comment:***********************************************}
 {comment:**  meta: nord: O55   }
 {comment:**  meta: countin: 4   }
 {comment:**  meta: backing: BB   }
+{comment:**  meta: performance: G   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

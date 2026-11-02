@@ -4,9 +4,11 @@
 {duration: 4:15}
 {tempo: 80}
 {meta: nord: P33}
+{meta: backing: RC}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P33   }
+{comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
 {start_of_part: Strings}

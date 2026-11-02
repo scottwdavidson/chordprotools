@@ -4,9 +4,11 @@
 {duration: 3:30}
 {tempo: 66}
 {meta: label: Daniel}
+{meta: performance: A}
 
 {comment:***********************************************}
 {comment:**  meta: label: Daniel   }
+{comment:**  meta: performance: A   }
 {comment:***********************************************}
 
 {start_of_part: Intro}
