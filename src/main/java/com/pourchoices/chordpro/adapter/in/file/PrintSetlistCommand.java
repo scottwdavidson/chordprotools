@@ -13,7 +13,7 @@ import picocli.CommandLine.Option;
  * browser, print it, and tape it down as the "what's the next song" double check.
  *
  * <pre>
- *   # latest gig → ./setlist.html
+ *   # latest gig → ./work/setlist.html (git-ignored, overwritten each run)
  *   chordpro-tools print-setlist
  *
  *   # specific gig, custom output
@@ -29,7 +29,8 @@ import picocli.CommandLine.Option;
 @Slf4j
 public class PrintSetlistCommand implements Runnable {
 
-    private static final String DEFAULT_OUTPUT = "./setlist.html";
+    /** Under the git-ignored work/ directory, so the sheet is never committed and just gets overwritten. */
+    private static final String DEFAULT_OUTPUT = "./work/setlist.html";
 
     private final PrintSetlistUseCase printSetlistUseCase;
 

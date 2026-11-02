@@ -3,7 +3,7 @@
 # Open it in a browser, print it, and tape it down.
 #
 # Usage:
-#   ./print-setlist                                        # latest gig → ./setlist.html
+#   ./print-setlist                                        # latest gig → ./work/setlist.html (git-ignored)
 #   ./print-setlist --gig 2026-06-14-rusty-nail            # specific gig
 #   ./print-setlist --gig 2026-06-14-rusty-nail --output ./gig-2026-06-14.html
 

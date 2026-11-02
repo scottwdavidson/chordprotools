@@ -12,7 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-/** Writes the printable setlist sheet as an HTML file. */
+/** Writes the printable setlist sheet as an HTML file, creating its folder if needed. */
 @Service
 @AllArgsConstructor
 @Slf4j
@@ -24,6 +24,8 @@ public class SetlistSheetAdapter implements SetlistSheetPort {
     @SneakyThrows
     public void writeSetlistSheet(Path outputPath, String gig, List<List<SetlistEntry>> pages) {
         log.info("Setlist sheet file path: {}", outputPath.toAbsolutePath());
+        Path folder = outputPath.toAbsolutePath().getParent();
+        if (folder != null) Files.createDirectories(folder);
         Files.writeString(outputPath, renderer.render(gig, pages), StandardCharsets.UTF_8);
     }
 }
