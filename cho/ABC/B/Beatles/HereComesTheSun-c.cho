@@ -1,8 +1,12 @@
 {title: Here Comes The Sun}
 {artist: The Beatles}
 {key: A}
+{duration: }
+{tempo: }
+{meta: performance: A}
 
 {comment:***********************************************}
+{comment:**  meta: performance: A   }
 {comment:***********************************************}
 
 {transpose: 3}

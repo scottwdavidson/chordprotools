@@ -8,6 +8,7 @@
 {meta: backing: RC}
 {meta: rc-slot: 17 (2026-11-06-FF)}
 {meta: label: Watch Wheels}
+{meta: performance: A}
 
 {comment:***********************************************}
 {comment:**  meta: nord: A3(M14)   }
@@ -15,6 +16,7 @@
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 17 (2026-11-06-FF)   }
 {comment:**  meta: label: Watch Wheels   }
+{comment:**  meta: performance: A   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

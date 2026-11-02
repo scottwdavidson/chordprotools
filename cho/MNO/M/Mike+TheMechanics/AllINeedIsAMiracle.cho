@@ -8,6 +8,7 @@
 {meta: backing: RC}
 {meta: rc-slot: 50 (2026-11-06-FF)}
 {meta: label: All I Need}
+{meta: performance: D}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P15   }
@@ -15,6 +16,7 @@
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 50 (2026-11-06-FF)   }
 {comment:**  meta: label: All I Need   }
+{comment:**  meta: performance: D   }
 {comment:***********************************************}
 
 {start_of_part: Intro ( drums only )}

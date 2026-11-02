@@ -1,10 +1,13 @@
 {title: Your Smile}
 {artist: Toby Keith}
 {key: A}
+{duration: }
 {tempo: 77}
 {time: 4/4}
+{meta: performance: A}
 
 {comment:***********************************************}
+{comment:**  meta: performance: A   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

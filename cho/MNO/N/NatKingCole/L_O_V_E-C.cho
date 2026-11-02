@@ -1,9 +1,12 @@
 {title: L-O-V-E}
 {artist: Nat King Cole}
 {key: C}
+{duration: }
 {tempo: 78}
+{meta: performance: C}
 
 {comment:***********************************************}
+{comment:**  meta: performance: C   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

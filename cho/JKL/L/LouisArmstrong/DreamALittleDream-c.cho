@@ -3,8 +3,10 @@
 {key: C}
 {duration: 1:10}
 {tempo: 133}
+{meta: performance: C}
 
 {comment:***********************************************}
+{comment:**  meta: performance: C   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

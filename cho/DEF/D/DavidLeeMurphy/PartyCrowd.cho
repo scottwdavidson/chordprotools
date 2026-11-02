@@ -3,8 +3,10 @@
 {key: G}
 {duration: 3:00}
 {tempo: 127}
+{meta: backing: RC}
 
 {comment:***********************************************}
+{comment:**  meta: backing: RC   }
 {comment:***********************************************}
 
 {start_of_verse: Verse 1}

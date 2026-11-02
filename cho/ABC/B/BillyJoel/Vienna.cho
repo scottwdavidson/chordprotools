@@ -3,8 +3,10 @@
 {key: Gm}
 {duration: 3:00}
 {tempo: 63}
+{meta: performance: G#m}
 
 {comment:***********************************************}
+{comment:**  meta: performance: G#m   }
 {comment:***********************************************}
 
 {columns: 2}

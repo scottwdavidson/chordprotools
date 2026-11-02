@@ -8,6 +8,7 @@
 {meta: countin: 8}
 {meta: backing: RC}
 {meta: rc-slot: 90 (2026-11-06-FF)}
+{meta: label: Magic}
 
 {comment:***********************************************}
 {comment:**  meta: nord: P52   }
@@ -15,6 +16,7 @@
 {comment:**  meta: countin: 8   }
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 90 (2026-11-06-FF)   }
+{comment:**  meta: label: Magic   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

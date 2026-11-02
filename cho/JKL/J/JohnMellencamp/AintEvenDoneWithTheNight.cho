@@ -8,6 +8,7 @@
 {meta: backing: RC}
 {meta: rc-slot: 29 (2026-11-06-FF)}
 {meta: label: Aint  Done}
+{meta: performance: A}
 
 {comment:***********************************************}
 {comment:**  meta: nord: N12   }
@@ -15,6 +16,7 @@
 {comment:**  meta: backing: RC   }
 {comment:**  meta: rc-slot: 29 (2026-11-06-FF)   }
 {comment:**  meta: label: Aint  Done   }
+{comment:**  meta: performance: A   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

@@ -3,8 +3,10 @@
 {key: D}
 {duration: 5:20}
 {tempo: 84}
+{meta: performance: C}
 
 {comment:***********************************************}
+{comment:**  meta: performance: C   }
 {comment:***********************************************}
 
 {comment: Acoustic Guitar Tuning - Open D (D A D F# A D }

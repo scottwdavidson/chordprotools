@@ -4,8 +4,10 @@
 {duration: 3:10}
 {tempo: 137}
 {time: 4/4}
+{meta: performance: D}
 
 {comment:***********************************************}
+{comment:**  meta: performance: D   }
 {comment:***********************************************}
 
 {start_of_part: Intro}

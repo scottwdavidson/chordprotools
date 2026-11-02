@@ -1,9 +1,12 @@
 {title: Dream A Little Dream Of Me}
 {artist: Louis Armstrong}
 {key: G}
+{duration: }
 {tempo: 133}
+{meta: performance: C}
 
 {comment:***********************************************}
+{comment:**  meta: performance: C   }
 {comment:***********************************************}
 
 {transpose: 5}
