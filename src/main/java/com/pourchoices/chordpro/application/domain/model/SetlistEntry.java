@@ -59,4 +59,6 @@ public class SetlistEntry {
     }
     public BackingType getBackingType() { return song.getBackingType(); }
     public String getPerformanceKey()   { return song.getPerformanceKey(); }
+    /** Guitar the guitarist plays; {@code null} when not yet characterized. */
+    public GuitarType getGuitarType()   { return song.getGuitarType(); }
 }

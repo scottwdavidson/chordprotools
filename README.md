@@ -365,7 +365,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Fill in RC-500 slot numbers for the gig, preserving whatever's already in `gigs.csv` by default; `--reoptimize` to recompute everything from scratch |
 | `./copy-gig` | `copy-gig` | Clone all gig assignments (including RC SLOT) from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
-| `./print-setlist` | `print-setlist` | Write the large-type portrait floor setlist (`A01-45 Song Title` rows, 16/sheet or 3 sheets) as `work/setlist.html`
+| `./print-setlist` | `print-setlist` | Write the large-type portrait floor setlist (`A01-45 [guitar] Song Title` rows, 16/sheet or 3 sheets) as `work/setlist.html`
 | `./find-song-id` | `find-song-id` | Search the catalog by title/artist fragment → SONG ID to paste into `gigs.csv` |
 | `./list-gigs` | `list-gigs` | List every gig slug in `gigs.csv` with a song count |
 
@@ -969,13 +969,27 @@ Writes the **floor setlist** — the sheet you tape down as a "what's the next s
 check — as a self-contained HTML file: **portrait Letter**, large type, one row per song:
 
 ```
-A01      Just A Song Before I Go
-A02-46   Starting Over
-B09-BB   Lonely People
+A01-BB   [guitar]  Just A Song Before I Go
+A02-46   [guitar]  Starting Over
+B09-BB   [guitar]  Lonely People
 ```
 
-The bold code is the **set position, a dash, and the backing** (RC-500 slot number, or `BB`
-for BeatBuddy); a song with no backing shows just the set code. Open the HTML in a browser
+The bold code is the **set position, a dash, and the backing**: the RC-500 slot number, or
+**`BB` whenever there's no RC-500 track** — a reminder to cue up the BeatBuddy. (That covers
+songs typed `BB`, songs with no backing at all, and the `99` "no track" sentinel.)
+
+Right after the code is a small **guitar icon** showing what the guitarist plays, so when you
+reorder you can avoid a guitar change. The shapes differ so they survive a black-and-white
+printout:
+
+| Icon | Guitar |
+|---|---|
+| Round, waisted body with a sound hole | `ACOUSTIC` |
+| Blocky horned body with two pickups | `ELECTRIC` |
+| Long thin neck, four tuners, small body | `BASS` |
+| *(blank)* | not yet characterized, or `UNKNOWN` |
+
+The guitar comes from the `GUITAR` column of `song-catalog.csv`. Open the HTML in a browser
 and print (Portrait, Letter, headers/footers off).
 
 ```zsh
@@ -993,7 +1007,7 @@ and print (Portrait, Letter, headers/footers off).
   says which sheet you're holding ("sheet 2 of 3").
 - **Type size** is fixed by the row height (sized for the standard 16-row sheet, or the
   fullest sheet if bigger), so every gig prints with the same look.
-- **A title too long for its one line is cut off** with an ellipsis (about 30+ characters at
+- **A title too long for its one line is cut off** with an ellipsis (about 29+ characters at
   16 rows per sheet). It never wraps or shrinks.
 
 ## 6. Utility Scripts
