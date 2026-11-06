@@ -79,8 +79,12 @@ class SetlistSheetHtmlRendererTest {
                 entry("A04", "Four", null, null, GuitarType.UNKNOWN),
                 entry("A05", "Five", null, null, null))));
 
-        assertThat(html).contains("<use href=\"#guitar-acoustic\"/>", "<use href=\"#guitar-electric\"/>", "<use href=\"#guitar-bass\"/>");
-        assertThat(html.split("<svg class=\"guitar-icon\"", -1)).hasSize(4);
+        assertThat(html).contains("<use href=\"#guitar-acoustic\"/>", "<use href=\"#guitar-electric\"/>",
+                "<use href=\"#guitar-bass\"/>", "<use href=\"#guitar-unknown\"/>");
+        assertThat(html).contains("aria-label=\"unknown guitar\"");
+        // four icons; the uncharacterized (null) song gets an empty cell
+        assertThat(html.split("<svg class=\"guitar-icon\"", -1)).hasSize(5);
+        assertThat(html).contains("<span class=\"guitar\"></span><span class=\"title\">Five</span>");
     }
 
     @Test

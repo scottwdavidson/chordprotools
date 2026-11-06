@@ -9,11 +9,13 @@ import com.pourchoices.chordpro.application.domain.model.GuitarType;
  *   <li><b>acoustic</b> — big round waisted body with a sound hole, no horns</li>
  *   <li><b>electric</b> — angular horned body with two pickups</li>
  *   <li><b>bass</b> — horned body, much longer neck, four tuners</li>
+ *   <li><b>unknown</b> — a "prohibited" sign (circle with a diagonal slash): the guitar for this
+ *       song is deliberately undecided, so don't count on it when avoiding a change</li>
  * </ul>
  *
  * <p>The shapes are declared once as SVG {@code <symbol>}s ({@link #definitions()}) and each
- * row just references one with {@code <use>} ({@link #icon(GuitarType)}). A song with no
- * (or an {@code UNKNOWN}) guitar gets no icon at all.
+ * row just references one with {@code <use>} ({@link #icon(GuitarType)}). A song that hasn't
+ * been characterized yet ({@code null}) gets no icon at all.
  */
 final class GuitarIcons {
 
@@ -49,20 +51,24 @@ final class GuitarIcons {
                   <path d="M8 31 L12 31 L12 35 L16 35 L16 31 L20 31 L20 36 L25 38 L24 43 L19 44 L9 44 L4 43 L3 38 L8 36 Z"/>
                   <rect x="10" y="39" width="8" height="1.6" fill="#fff"/>
                 </symbol>
+                <symbol id="guitar-unknown" viewBox="%1$s">
+                  <circle cx="14" cy="22" r="12" fill="none" stroke="#000" stroke-width="3.8"/>
+                  <line x1="5.5" y1="13.5" x2="22.5" y2="30.5" stroke="#000" stroke-width="3.8"/>
+                </symbol>
                 </svg>
                 """.formatted(VIEW_BOX);
     }
 
     /** The {@code <svg>} reference for this guitar, or an empty string when there's nothing to show. */
     static String icon(GuitarType guitar) {
-        String name = switch (guitar == null ? GuitarType.UNKNOWN : guitar) {
+        if (guitar == null) return "";
+        String name = switch (guitar) {
             case ACOUSTIC -> "acoustic";
             case ELECTRIC -> "electric";
             case BASS -> "bass";
-            case UNKNOWN -> null;
+            case UNKNOWN -> "unknown";
         };
-        return name == null ? ""
-                : "<svg class=\"guitar-icon\" viewBox=\"" + VIEW_BOX + "\" role=\"img\" aria-label=\"" + name
-                  + " guitar\"><use href=\"#guitar-" + name + "\"/></svg>";
+        return "<svg class=\"guitar-icon\" viewBox=\"" + VIEW_BOX + "\" role=\"img\" aria-label=\"" + name
+                + " guitar\"><use href=\"#guitar-" + name + "\"/></svg>";
     }
 }

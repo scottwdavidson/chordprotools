@@ -987,7 +987,8 @@ printout:
 | Round, waisted body with a sound hole | `ACOUSTIC` |
 | Blocky horned body with two pickups | `ELECTRIC` |
 | Long thin neck, four tuners, small body | `BASS` |
-| *(blank)* | not yet characterized, or `UNKNOWN` |
+| Circle with a diagonal slash ("no" sign) | `UNKNOWN` — deliberately undecided; don't count on it |
+| *(blank)* | not yet characterized (no `GUITAR` value) |
 
 The guitar comes from the `GUITAR` column of `song-catalog.csv`. Open the HTML in a browser
 and print (Portrait, Letter, headers/footers off).
