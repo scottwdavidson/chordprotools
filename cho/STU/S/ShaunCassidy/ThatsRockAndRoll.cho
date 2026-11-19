@@ -3,11 +3,20 @@
 {key: G}
 {duration: 2:20}
 {tempo: 120}
+{meta: nord: O54}
+{meta: roland: B063}
+{meta: countin: 4}
+{meta: backing: BB}
 {meta: performance: G}
 
 {comment:***********************************************}
+{comment:**  meta: nord: O54   }
+{comment:**  meta: roland: B063   }
+{comment:**  meta: countin: 4   }
+{comment:**  meta: backing: BB   }
 {comment:**  meta: performance: G   }
 {comment:***********************************************}
+
 
 {start_of_verse: Verse 1 - vocals and drums only}
 Well, I was sixteen, sick of school
@@ -20,7 +29,7 @@ That's rock and roll.
 {end_of_verse}
 
 
-{start_of_verse: Verse 2}
+{start_of_verse: Verse 2 (BB:02)}
 I played at [G]parties, played in [D]bars
 I'd spend my [G]money buyin' new guita[C]rs.
 I screamed my [G]heart out, but how I [C]loved it. [D]
@@ -28,14 +37,14 @@ That's rock 'n' roll[G].____   [D]
 {end_of_verse}
 
 
-{start_of_chorus: Chorus}
+{start_of_chorus: Chorus (BB:03)}
 Well, come [G]on everybody get d[C]own and get [D]with it.
 Come [G]on everybody get d[C]own and get [D]with it.
 Come [G]on everybody get d[C]own, that's [D]rock and ro[G]ll.____    [D]
 {end_of_chorus}
 
 
-{start_of_verse: Verse 3}
+{start_of_verse: Verse 3 (BB:04)}
 It's when they're [G]smokin' and the heat[D]
 How 'bout your [G]heart pounding right with the beat[C].
 Don't try to [G]fight it, just get exc[C]ited.  [D]
@@ -51,7 +60,7 @@ That's rock 'n' roll[G].____   [D]
 {end_of_verse}
 
 
-{start_of_chorus: Chorus}
+{start_of_chorus: Chorus (BB:05)}
 Well, come [G]on everybody get d[C]own and get [D]with it.
 Come [G]on everybody get d[C]own and get [D]with it.
 Come [G]on everybody get d[C]own, that's [D]rock and ro[G]ll.____    [D]
@@ -72,14 +81,14 @@ Come [G]on everybody get d[C]own, that's [D]rock and ro[G]ll.____    [D]
 {end_of_chorus}
 
 
-{start_of_verse: Verse 3}
+{start_of_verse: Verse 3 (BB:06)}
 And if you [G]feel it, clap your h[D]ands
 Let's see some [G]sweat for the boys in the ba[C]nd.
 Now, lemme [G]hear ya, lemme he[C]ar ya.  [D]
 {end_of_verse}
 
 
-{start_of_part: Outro}
+{start_of_part: Outro (BB:07)}
        Well, come [G]on everybody get d[C]own and get [D]with it.
 (That's rock 'n' roll)
 
