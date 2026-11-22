@@ -488,12 +488,12 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-20-MOODS,ABC:A:America:TodaysTheDay,B05,
 2026-11-20-MOODS,ABC:C:ClintBlack:ABetterMan,B06,76
 2026-11-20-MOODS,ABC:A:America:LonelyPeople,B07,
-2026-11-20-MOODS,ABC:A:America:YouCanDoMagic,B08,60
-2026-11-20-MOODS,ABC:A:Alabama:DancinShagginOnTheBoulevard,B09,94
-2026-11-20-MOODS,STU:T:ThinLizzy:TheBoysAreBackInTown,B10,69
-2026-11-20-MOODS,PQR:P:PsychedelicFurs:TheGhostInYou,B11,9
-2026-11-20-MOODS,GHI:G:GinBlossoms:TilIHearItFromYou,B12,55
-2026-11-20-MOODS,PQR:R:RonnieMilsap:TheresNoGettingOverMe,B13,66
+2026-11-20-MOODS,ABC:A:Alabama:DancinShagginOnTheBoulevard,B08,94
+2026-11-20-MOODS,STU:T:ThinLizzy:TheBoysAreBackInTown,B09,69
+2026-11-20-MOODS,PQR:P:PsychedelicFurs:TheGhostInYou,B10,9
+2026-11-20-MOODS,GHI:G:GinBlossoms:TilIHearItFromYou,B11,55
+2026-11-20-MOODS,PQR:R:RonnieMilsap:TheresNoGettingOverMe,B12,66
+2026-11-20-MOODS,STU:S:ShaunCassidy:ThatsRockAndRoll,B13,
 2026-11-20-MOODS,JKL:L:LookingGlass:Brandy,C01,40
 2026-11-20-MOODS,DEF:D:DrHook:SharingTheNightTogether,C02,93
 2026-11-20-MOODS,GHI:G:GregKihn:BreakupSong,C03,
@@ -509,6 +509,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-20-MOODS,DEF:D:DwightYokam:LittleSister,C12,
 2026-11-20-MOODS,ABC:C:Cars:Magic,C13,90
 2026-11-20-MOODS,ABC:B:BarrettStrong:Money,C14,
+2026-11-20-MOODS,ABC:A:America:YouCanDoMagic,Z01,60
 2026-11-20-MOODS,ABC:B:BachmanTurnerOverdrive:TakinCareOfBusiness,Z01,25
 2026-11-20-MOODS,ABC:B:BillyCurrington:LetMeDownEasy,Z01,24
 2026-11-20-MOODS,ABC:B:BobWelch:EbonyEyes,Z01,44
