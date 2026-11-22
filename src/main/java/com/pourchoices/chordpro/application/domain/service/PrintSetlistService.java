@@ -14,8 +14,8 @@ import java.nio.file.Paths;
 import java.util.List;
 
 /**
- * Assembles the fan-facing setlist (Z-set backups excluded — they aren't played in order
- * anyway), paginates it into floor sheets, and hands it to {@link SetlistSheetPort} for
+ * Assembles the played setlist (Z-set backups excluded — they aren't played in order
+ * anyway), gives each set its own floor sheet, and hands it to {@link SetlistSheetPort} for
  * rendering.
  */
 @Service
@@ -24,13 +24,13 @@ import java.util.List;
 public class PrintSetlistService implements PrintSetlistUseCase {
 
     private final SetlistAssembler assembler;
-    private final SetlistPageSplitter pageSplitter;
+    private final SetlistSetSplitter setSplitter;
     private final SetlistSheetPort sheetPort;
 
     @Override
     public Setlist printSetlist(String gigParam, String outputPathString) {
         Setlist setlist = assembler.assemble(gigParam, false);
-        List<List<SetlistEntry>> pages = pageSplitter.paginate(setlist.getEntries());
+        List<List<SetlistEntry>> pages = setSplitter.splitBySet(setlist.getEntries());
 
         Path outputPath = Paths.get(outputPathString);
         sheetPort.writeSetlistSheet(outputPath, setlist.getGig(), pages);

@@ -365,7 +365,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./assign-backing-track-slots` | `assign-backing-track-slots` | Fill in RC-500 slot numbers for the gig, preserving whatever's already in `gigs.csv` by default; `--reoptimize` to recompute everything from scratch |
 | `./copy-gig` | `copy-gig` | Clone all gig assignments (including RC SLOT) from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
-| `./print-setlist` | `print-setlist` | Write the large-type portrait floor setlist (`A01-45 [guitar] Song Title` rows, 16/sheet or 3 sheets) as `work/setlist.html`
+| `./print-setlist` | `print-setlist` | Write the large-type portrait floor setlist (`A01-45 [guitar] Song Title` rows, one page per set) as `work/setlist.html`
 | `./find-song-id` | `find-song-id` | Search the catalog by title/artist fragment → SONG ID to paste into `gigs.csv` |
 | `./list-gigs` | `list-gigs` | List every gig slug in `gigs.csv` with a song count |
 
@@ -1002,12 +1002,12 @@ and print (Portrait, Letter, headers/footers off).
 - Z-set backup songs are **never** included (same as the default `export-setlist`).
 - The sheet is written to the **git-ignored `work/`** directory by default, so it's never
   committed and each run simply overwrites the last one (the folder is created if missing).
-- **How many sheets** is a fixed formula: up to 32 songs → **16 per sheet** (one or two
-  sheets); more than 32 songs → **three sheets**, as even as possible (51 songs → 17/17/17).
-  Sets are not split by sheet — a heavy rule marks where each new set starts, and the footer
-  says which sheet you're holding ("sheet 2 of 3").
-- **Type size** is fixed by the row height (sized for the standard 16-row sheet, or the
-  fullest sheet if bigger), so every gig prints with the same look.
+- **How many sheets**: one sheet per set. Three sets print three pages, two sets print two.
+  A set is never split across pages, and sets are never merged. If a set has more than 16
+  songs, the rows on every sheet shrink slightly so the longest set still fits on one page.
+  The footer says which sheet you're holding ("sheet 2 of 3").
+- **Type size** is fixed by the row height (sized for 16 rows, or for the longest set if it
+  has more), so every gig prints with the same look.
 - **A title too long for its one line is cut off** with an ellipsis (about 29+ characters at
   16 rows per sheet). It never wraps or shrinks.
 

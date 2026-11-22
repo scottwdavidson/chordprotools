@@ -113,18 +113,6 @@ class SetlistSheetHtmlRendererTest {
     }
 
     @Test
-    void marksTheFirstSongOfEachNewSet_butNotTheFirstRowOfASheet() {
-        String html = renderer.render("g", List.of(List.of(
-                entry("A01", "One", null, null),
-                entry("A02", "Two", null, null),
-                entry("B01", "Three", null, null))));
-
-        assertThat(html.split("<div class=\"row new-set\">", -1)).hasSize(2);
-        assertThat(html).contains("<div class=\"row new-set\"><span class=\"code\">B01-BB</span>");
-        assertThat(html).contains("<div class=\"row\"><span class=\"code\">A01-BB</span>");
-    }
-
-    @Test
     void rowHeightIsSizedForTheStandard16RowSheet() {
         String html = renderer.render("g", List.of(songs(16), songs(3)));
 

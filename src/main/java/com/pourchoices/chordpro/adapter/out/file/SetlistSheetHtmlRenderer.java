@@ -1,7 +1,6 @@
 package com.pourchoices.chordpro.adapter.out.file;
 
 import com.pourchoices.chordpro.application.domain.model.SetlistEntry;
-import com.pourchoices.chordpro.application.domain.service.SetlistPageSplitter;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -14,14 +13,17 @@ import java.util.Locale;
  * icon for the guitarist's instrument, then the title), and a small footer saying which sheet
  * you're holding.
  *
- * <p>Every row has the same height — the page's usable height divided by the standard sheet's
- * row count, or by the fullest sheet's if that's bigger — and the type is a fixed fraction of
- * it, so every gig prints with the same look. A title too long for its single line is simply
- * cut off with an ellipsis. A heavy rule marks where a new set starts.
+ * <p>One sheet per set — the caller decides what goes on each page. Every row has the same
+ * height — the page's usable height divided by the standard sheet's row count, or by the
+ * fullest sheet's if that's bigger — and the type is a fixed fraction of it, so every gig
+ * prints with the same look. A title too long for its single line is simply cut off with an
+ * ellipsis.
  */
 @Component
 public class SetlistSheetHtmlRenderer {
 
+    /** Rows a standard sheet is sized for; a set with more songs shrinks every row to fit. */
+    static final int STANDARD_SHEET_ROWS = 16;
     /** Portrait Letter, 0.5in margins → 10in usable; leave slack so no blank spill-over page. */
     private static final double SHEET_HEIGHT_INCHES = 9.8;
     /** 7.5in usable, minus slack. */
@@ -31,7 +33,7 @@ public class SetlistSheetHtmlRenderer {
 
     public String render(String gig, List<List<SetlistEntry>> pages) {
         int tallestPage = pages.stream().mapToInt(List::size).max().orElse(0);
-        int rowsToFit = Math.max(tallestPage, SetlistPageSplitter.SONGS_PER_SHEET);
+        int rowsToFit = Math.max(tallestPage, STANDARD_SHEET_ROWS);
         double rowHeight = (SHEET_HEIGHT_INCHES - FOOTER_HEIGHT_INCHES) / rowsToFit;
 
         StringBuilder html = new StringBuilder(head(gig, rowHeight));
@@ -61,7 +63,6 @@ public class SetlistSheetHtmlRenderer {
                          align-items: center; box-sizing: border-box; height: var(--row-h);
                          border-bottom: 1px solid #999;
                          font-size: calc(var(--row-h) * 0.62); line-height: 1.3; }
-                  .row.new-set { border-top: 3px solid #000; }
                   .code { font-weight: bold; white-space: nowrap; }
                   .guitar { display: flex; justify-content: center; align-items: center; }
                   .guitar-icon { height: calc(var(--row-h) * 0.86); width: auto; fill: #000; } /* icon is 28:44, so ~0.55 row-h wide */
@@ -76,16 +77,12 @@ public class SetlistSheetHtmlRenderer {
 
     private String page(String gig, int sheet, int sheetCount, List<SetlistEntry> entries) {
         StringBuilder page = new StringBuilder("<section class=\"page\">\n<div class=\"rows\">\n");
-        char previousSet = 0;
         for (SetlistEntry entry : entries) {
-            char set = entry.getSet().charAt(0);
-            String rowClass = (previousSet != 0 && set != previousSet) ? "row new-set" : "row";
-            page.append("<div class=\"").append(rowClass).append("\">")
+            page.append("<div class=\"row\">")
                 .append("<span class=\"code\">").append(escape(code(entry))).append("</span>")
                 .append("<span class=\"guitar\">").append(GuitarIcons.icon(entry.getGuitarType())).append("</span>")
                 .append("<span class=\"title\">").append(escape(entry.getTitle())).append("</span>")
                 .append("</div>\n");
-            previousSet = set;
         }
         return page.append("</div>\n<div class=\"foot\">")
                 .append(escape(gig)).append(" &middot; sheet ").append(sheet).append(" of ").append(sheetCount)
