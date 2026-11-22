@@ -1,5 +1,5 @@
 SONG ID,TITLE,ARTIST,KEY,PRIORITY,GIGS PLAYED,IN DRAFT SETLIST,ENERGY LEVEL,VOCAL INTENSITY,GENRE PRIMARY,GENRE SECONDARY,SING ALONG
-DEF:E:ELO:WhenIWasABoy,When I Was A Boy,ELO ( Jeff Lynne ),C,HIGH - upcoming/most recent set,2026-01-01-MI; 2026-03-27-Moods; 2026-04-24-Moods; 2026-05-13-Hoedown-Hidden-Villas; 2026-06-05-FF; 2026-06-27-Moods,yes,,,,,
+DEF:E:ELO:WhenIWasABoy,When I Was A Boy,ELO,C,HIGH - upcoming/most recent set,2026-01-01-MI; 2026-03-27-Moods; 2026-04-24-Moods; 2026-05-13-Hoedown-Hidden-Villas; 2026-06-05-FF; 2026-06-27-Moods,yes,,,,,
 MNO:M:MichaelSadri:AreYouHungryTonight,Are You Hungry Tonight?,Michael Sadri,C,LOW - not yet in rotation,,,,,,,
 STU:S:ScottDavidson:DiminishedIdea,Diminished Idea,Scott Davidson,Bb,LOW - not yet in rotation,,,,,,,
 JKL:J:JonHume:DontForget,Don't Forget (Welcome to Wrexham),Jon Hume,C,LOW - not yet in rotation,,,,,,,
