@@ -275,6 +275,11 @@ The `getBacking()` accessor on a setlist entry returns:
 #
 # 5. Confirm catalog and file agree:
 ./verify-catalog
+#
+#    House style (advisory warnings, shown by import-song and verify-catalog):
+#      - titles: initial caps on every word ("Year Of The Cat"), straight quotes
+#      - artist: the primary artist only - no "A / B", "A (B)" or "A feat. B" -
+#        and ONE spelling per act ("Cold Play" next to "Coldplay" is flagged)
 ```
 
 ### Updating song metadata
@@ -356,7 +361,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | Script | CLI Subcommand | Description |
 |---|---|---|
 | `./import-song` | `import-song` | Register a new `.cho` file in `song-catalog.csv` (SONG ID derived from file path) |
-| `./verify-catalog` | `verify-catalog` | Check every `song-catalog.csv` entry against its `.cho` file; report MISSING FILE or DRIFT |
+| `./verify-catalog` | `verify-catalog` | Check every `song-catalog.csv` entry against its `.cho` file; report MISSING FILE or DRIFT. Also prints advisory `[STYLE]` warnings (title not initial caps, collaboration-style artist, look-alike artist spellings) |
 | `./consistent-metadata` | `consistent-metadata` | Check key-variants of a song share consistent metadata (all but key); `--fix` to repair drift |
 | `./transpose` | `transpose` | Create a new key-variant of a song from its SONG ID: transposes, derives the output filename automatically, and (by default) catalogs it |
 | `./verify-sync` | `verify-sync` | Compare any two `.cho` files for semantic drift (lyrics/chords) that survives pure transposition |

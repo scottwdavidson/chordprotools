@@ -15,6 +15,8 @@ import org.springframework.stereotype.Service;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
@@ -44,6 +46,7 @@ public class VerifyCatalogService implements VerifyCatalogUseCase {
     private final ParsedHeaderToCatalogEntryMapper parsedHeaderMapper;
     private final ChordproCatalogIndexPathConfig catalogConfig;
     private final CatalogEntryComparator comparator;
+    private final CatalogStyleChecker styleChecker;
 
     @Override
     public int verifyCatalog() {
@@ -84,12 +87,41 @@ public class VerifyCatalogService implements VerifyCatalogUseCase {
             }
         }
 
+        int styleWarnings = reportStyleWarnings(catalog.values());
+
         System.out.println();
         System.out.printf("verify-catalog: %d clean, %d issue(s) found%n", clean, issues);
         if (issues == 0) {
-            System.out.println("All catalog entries match their .cho files. ✓");
+            System.out.println("All catalog entries match their .cho files. \u2713");
+        }
+        if (styleWarnings > 0) {
+            System.out.printf("%d style warning(s) above - advisory, not counted as issues.%n", styleWarnings);
         }
 
         return issues;
+    }
+
+    /**
+     * Advisory house-style pass (see {@link CatalogStyleChecker}): titles that aren't initial caps,
+     * collaboration-style artist credits, and artists spelled almost the same way.
+     *
+     * @return the number of warnings printed
+     */
+    private int reportStyleWarnings(Collection<CatalogEntry> entries) {
+        int warnings = 0;
+        for (CatalogEntry entry : entries) {
+            List<String> problems = new ArrayList<>(styleChecker.titleWarnings(entry.getTitle()));
+            problems.addAll(styleChecker.artistWarnings(entry.getArtist()));
+            if (!problems.isEmpty()) {
+                System.out.printf("[STYLE] %s (%s - %s)%n", entry.getSongId(), entry.getTitle(), entry.getArtist());
+                problems.forEach(problem -> System.out.println("  " + problem));
+                warnings++;
+            }
+        }
+        for (String[] pair : styleChecker.alikeArtistPairs(entries.stream().map(CatalogEntry::getArtist).toList())) {
+            System.out.printf("[STYLE] artists look alike: '%s' and '%s' - use one spelling%n", pair[0], pair[1]);
+            warnings++;
+        }
+        return warnings;
     }
 }

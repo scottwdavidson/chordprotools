@@ -2,7 +2,10 @@ package com.pourchoices.chordpro.application.domain.model;
 
 import lombok.Builder;
 import lombok.NonNull;
+import lombok.Singular;
 import lombok.Value;
+
+import java.util.List;
 
 /**
  * Structured outcome of an
@@ -30,4 +33,12 @@ public class ImportResult {
      * count including the newly-appended entry.
      */
     int catalogSizeAfter;
+
+    /**
+     * House-style warnings about the imported entry (title not initial caps, artist that looks
+     * like a collaboration credit or a near-duplicate of an existing artist). Advisory only -
+     * the song was still imported.
+     */
+    @Singular("warning")
+    List<String> warnings;
 }

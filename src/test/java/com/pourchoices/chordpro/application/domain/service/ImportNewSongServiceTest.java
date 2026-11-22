@@ -68,7 +68,7 @@ class ImportNewSongServiceTest {
 
         service = new ImportNewSongService(
                 catalogPort, chordProPort, new SongParser(new SongLineParser()),
-                new ParsedHeaderToCatalogEntryMapper(), config);
+                new ParsedHeaderToCatalogEntryMapper(), config, new CatalogStyleChecker());
 
         songPath = Paths.get(SONG_PATH_STRING);
         Files.createDirectories(songPath.getParent());
@@ -119,6 +119,43 @@ class ImportNewSongServiceTest {
         assertThat(result.getCatalogEntry().getTitle()).isEqualTo("Moving Out");
         assertThat(result.getCatalogSizeAfter()).isZero();
         verify(catalogPort, never()).writeCatalogToCsv(any(), any());
+    }
+
+    @Test
+    void aCleanSong_importsWithNoWarnings() {
+        givenExistingCatalog();
+        when(chordProPort.read(songPath)).thenReturn(SIMPLE_SONG);
+
+        assertThat(service.importNewSong(SONG_PATH_STRING, true).getWarnings()).isEmpty();
+    }
+
+    @Test
+    void styleProblems_areWarnedAbout_butTheSongIsStillImported() {
+        givenExistingCatalog(CatalogEntry.builder()
+                .songId(SongId.parse("ABC:B:BillyJoel:PianoMan"))
+                .title("Piano Man").artist("Elton John").key("C").duration("3:15")
+                .build());
+        when(chordProPort.read(songPath)).thenReturn(List.of(
+                "{title: Movin' out (Anthony's Song)}", "{artist: Billy Joel / Someone}", "{key: C}"));
+
+        ImportResult result = service.importNewSong(SONG_PATH_STRING, false);
+
+        assertThat(result.getWarnings()).hasSize(2).anySatisfy(w -> assertThat(w).contains("not initial caps"))
+                .anySatisfy(w -> assertThat(w).contains("collaboration"));
+        verify(catalogPort).writeCatalogToCsv(any(), any());
+    }
+
+    @Test
+    void anArtistSpelledAlmostLikeAnExistingOne_isWarnedAbout() {
+        givenExistingCatalog(CatalogEntry.builder()
+                .songId(SongId.parse("ABC:B:BillyJoel:PianoMan"))
+                .title("Piano Man").artist("Billy Joel").key("C").duration("3:15")
+                .build());
+        when(chordProPort.read(songPath)).thenReturn(List.of(
+                "{title: Moving Out}", "{artist: Billy Joell}", "{key: C}"));
+
+        assertThat(service.importNewSong(SONG_PATH_STRING, true).getWarnings())
+                .singleElement().asString().contains("looks like the existing artist 'Billy Joel'");
     }
 
     @Test

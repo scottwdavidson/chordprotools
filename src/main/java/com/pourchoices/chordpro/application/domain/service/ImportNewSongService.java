@@ -49,6 +49,7 @@ public class ImportNewSongService implements ImportNewSongUseCase {
     private final SongParser songParser;
     private final ParsedHeaderToCatalogEntryMapper parsedHeaderMapper;
     private final ChordproCatalogIndexPathConfig catalogConfig;
+    private final CatalogStyleChecker styleChecker;
 
     @Override
     public ImportResult importNewSong(String chordproSongPathString, boolean dryRun) {
@@ -85,12 +86,15 @@ public class ImportNewSongService implements ImportNewSongUseCase {
                     + "Use update-song to modify existing songs.");
         }
 
+        List<String> warnings = styleWarnings(newEntry, existing);
+
         // 4. Dry-run: return a preview, write nothing.
         if (dryRun) {
             return ImportResult.builder()
                     .catalogEntry(newEntry)
                     .dryRun(true)
                     .catalogSizeAfter(existing.size())
+                    .warnings(warnings)
                     .build();
         }
 
@@ -107,6 +111,18 @@ public class ImportNewSongService implements ImportNewSongUseCase {
                 .catalogEntry(newEntry)
                 .dryRun(false)
                 .catalogSizeAfter(updated.size())
+                .warnings(warnings)
                 .build();
+    }
+
+    /** Advisory house-style warnings: never blocks the import. */
+    private List<String> styleWarnings(CatalogEntry entry, Map<String, CatalogEntry> existing) {
+        List<String> warnings = new ArrayList<>(styleChecker.titleWarnings(entry.getTitle()));
+        warnings.addAll(styleChecker.artistWarnings(entry.getArtist()));
+        List<String> knownArtists = existing.values().stream().map(CatalogEntry::getArtist).distinct().toList();
+        styleChecker.similarArtist(entry.getArtist(), knownArtists).ifPresent(similar ->
+                warnings.add("artist '" + entry.getArtist() + "' looks like the existing artist '"
+                        + similar + "' - use one spelling"));
+        return warnings;
     }
 }

@@ -83,6 +83,7 @@ public class ImportNewSongCommand implements Runnable {
             System.out.printf("Imported '%s' (%s) as SONG ID: %s%n",
                     entry.getTitle(), entry.getArtist(), songIdStr);
         }
+        result.getWarnings().forEach(warning -> System.out.println("  WARNING: " + warning));
     }
 
     private static String nvl(String value) {
