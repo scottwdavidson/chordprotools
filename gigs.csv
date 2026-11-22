@@ -23,7 +23,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-01-01-MI,DEF:D:DariusRucker:WagonWheel,C02,
 2026-01-01-MI,STU:T:TheChurch:UnderTheMilkyWay,C03,
 2026-01-01-MI,GHI:G:GregKihn:BreakupSong,C04,
-2026-01-01-MI,DEF:D:DwightYokam:LittleSister,C05,
+2026-01-01-MI,DEF:D:DwightYoakam:LittleSister,C05,
 2026-01-01-MI,MNO:M:ModernEnglish:IMeltWithYou,C06,
 2026-01-01-MI,STU:T:TommyTutone:Jenny-867-5309,C07,
 2026-01-01-MI,ABC:B:BillyJoel:YouMayBeRight,C08,
@@ -55,7 +55,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-03-27-Moods,DEF:D:DariusRucker:WagonWheel,C02,
 2026-03-27-Moods,STU:T:TheChurch:UnderTheMilkyWay,C03,
 2026-03-27-Moods,GHI:G:GregKihn:BreakupSong,C04,
-2026-03-27-Moods,DEF:D:DwightYokam:LittleSister,C05,
+2026-03-27-Moods,DEF:D:DwightYoakam:LittleSister,C05,
 2026-03-27-Moods,MNO:M:ModernEnglish:IMeltWithYou,C06,
 2026-03-27-Moods,STU:T:TommyTutone:Jenny-867-5309,C07,
 2026-03-27-Moods,ABC:B:BillyJoel:YouMayBeRight,C08,
@@ -114,7 +114,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-04-24-Moods,DEF:D:DariusRucker:WagonWheel,C02,
 2026-04-24-Moods,STU:T:TheChurch:UnderTheMilkyWay,C03,
 2026-04-24-Moods,GHI:G:GregKihn:BreakupSong,C04,
-2026-04-24-Moods,DEF:D:DwightYokam:LittleSister,C05,
+2026-04-24-Moods,DEF:D:DwightYoakam:LittleSister,C05,
 2026-04-24-Moods,MNO:M:ModernEnglish:IMeltWithYou,C06,
 2026-04-24-Moods,STU:T:TommyTutone:Jenny-867-5309,C07,
 2026-04-24-Moods,ABC:B:BillyJoel:YouMayBeRight,C08,
@@ -173,7 +173,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-05-13-Hoedown-Hidden-Villas,DEF:D:DariusRucker:WagonWheel,C02,
 2026-05-13-Hoedown-Hidden-Villas,STU:T:TheChurch:UnderTheMilkyWay,C03,
 2026-05-13-Hoedown-Hidden-Villas,GHI:G:GregKihn:BreakupSong,C04,
-2026-05-13-Hoedown-Hidden-Villas,DEF:D:DwightYokam:LittleSister,C05,
+2026-05-13-Hoedown-Hidden-Villas,DEF:D:DwightYoakam:LittleSister,C05,
 2026-05-13-Hoedown-Hidden-Villas,MNO:M:ModernEnglish:IMeltWithYou,C06,
 2026-05-13-Hoedown-Hidden-Villas,STU:T:TommyTutone:Jenny-867-5309,C07,
 2026-05-13-Hoedown-Hidden-Villas,ABC:B:BillyJoel:YouMayBeRight,C08,
@@ -235,7 +235,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-06-05-FF,DEF:D:DariusRucker:WagonWheel,C02,
 2026-06-05-FF,STU:T:TheChurch:UnderTheMilkyWay,C03,21
 2026-06-05-FF,GHI:G:GregKihn:BreakupSong,C04,
-2026-06-05-FF,DEF:D:DwightYokam:LittleSister,C05,
+2026-06-05-FF,DEF:D:DwightYoakam:LittleSister,C05,
 2026-06-05-FF,MNO:M:ModernEnglish:IMeltWithYou,C06,22
 2026-06-05-FF,STU:T:TommyTutone:Jenny-867-5309,C07,23
 2026-06-05-FF,ABC:B:BillyJoel:YouMayBeRight,C08,24
@@ -300,7 +300,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-06-27-Moods,DEF:D:DariusRucker:WagonWheel,C02,
 2026-06-27-Moods,STU:T:TheChurch:UnderTheMilkyWay,C03,
 2026-06-27-Moods,GHI:G:GregKihn:BreakupSong,C04,
-2026-06-27-Moods,DEF:D:DwightYokam:LittleSister,C05,
+2026-06-27-Moods,DEF:D:DwightYoakam:LittleSister,C05,
 2026-06-27-Moods,MNO:M:ModernEnglish:IMeltWithYou,C06,
 2026-06-27-Moods,STU:T:TommyTutone:Jenny-867-5309,C07,
 2026-06-27-Moods,ABC:B:BillyJoel:YouMayBeRight,C08,
@@ -370,7 +370,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-09-05-Balboa,ABC:B:BarrettStrong:Money,B17,
 2026-09-05-Balboa,ABC:B:BillyJoel:MyLife,B18,14
 2026-09-05-Balboa,STU:T:TravelingWilburys:HandleWithCare,B19,38
-2026-09-05-Balboa,DEF:D:DwightYokam:LittleSister,B20,
+2026-09-05-Balboa,DEF:D:DwightYoakam:LittleSister,B20,
 2026-09-05-Balboa,VWX:W:Wonders:ThatThingYouDo,C01,7
 2026-09-05-Balboa,GHI:G:GinBlossoms:TilIHearItFromYou,C03,55
 2026-09-05-Balboa,STU:T:TommyTutone:Jenny-867-5309,C04,37
@@ -442,7 +442,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-06-FF,STU:T:TheChurch:UnderTheMilkyWay,C12,32
 2026-11-06-FF,STU:T:TravelingWilburys:HandleWithCare,C13,38
 2026-11-06-FF,DEF:E:EltonJohn:CrocodileRock,C14,33
-2026-11-06-FF,DEF:D:DwightYokam:LittleSister,C15,
+2026-11-06-FF,DEF:D:DwightYoakam:LittleSister,C15,
 2026-11-06-FF,ABC:C:Cars:Magic,C16,90
 2026-11-06-FF,STU:T:TomPetty:YouWreckMe,C17,35
 2026-11-06-FF,ABC:B:BarrettStrong:Money,C18,
@@ -506,7 +506,7 @@ GIG,SONG ID,SET,RC SLOT
 2026-11-20-MOODS,STU:T:TheChurch:UnderTheMilkyWay,C09,32
 2026-11-20-MOODS,STU:T:TravelingWilburys:HandleWithCare,C10,38
 2026-11-20-MOODS,DEF:E:EltonJohn:CrocodileRock,C11,33
-2026-11-20-MOODS,DEF:D:DwightYokam:LittleSister,C12,
+2026-11-20-MOODS,DEF:D:DwightYoakam:LittleSister,C12,
 2026-11-20-MOODS,ABC:C:Cars:Magic,C13,90
 2026-11-20-MOODS,ABC:B:BarrettStrong:Money,C14,
 2026-11-20-MOODS,ABC:A:America:YouCanDoMagic,Z01,60

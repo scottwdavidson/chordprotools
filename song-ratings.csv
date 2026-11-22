@@ -25,7 +25,7 @@ ABC:A:America:TodaysTheDay,Today's The Day,America,2,FULL,Soft Rock,,false,ACOUS
 ABC:A:America:VenturaHighway,Ventura Highway,America,4,FULL,Folk Rock,,false,ACOUSTIC
 ABC:A:America:YouCanDoMagic,You Can Do Magic,America,5,FULL,Soft Rock,Pop,false,ACOUSTIC
 ABC:A:AmosLee:SweetPea,Sweet Pea,Amos Lee,3,FULL,Folk,Singer-Songwriter,false,ACOUSTIC
-ABC:A:AmyWinehouse:Valerie,Valerie,Ami Winehouse,7,FULL,Soul,Pop,true,ELECTRIC
+ABC:A:AmyWinehouse:Valerie,Valerie,Amy Winehouse,7,FULL,Soul,Pop,true,ELECTRIC
 ABC:A:AnneMurray:ShadowsInTheMoonlight,Shadows In The Moonlight,Anne Murray,5,FULL,Country,,false,ACOUSTIC
 ABC:A:ArethaFranklin:BabyILoveYou,Babay I Love You,Aretha Franklin,6,FULL,Soul,,false,ELECTRIC
 ABC:A:ArloGuthrie:CityOfNewOrleans,City of New Orleans,Arlo Guthrie,3,FULL,Folk,,false,ACOUSTIC
@@ -112,13 +112,13 @@ ABC:C:ChrisStapleton:StartingOver,Starting Over,Chris Stapleton,4,FULL,Country,,
 ABC:C:ChristopherCross:RideLikeTheWind,Ride Like The Wind,Christopher Cross,5,FULL,Soft Rock,Yacht Rock,false,ACOUSTIC
 ABC:C:ChristopherCross:Sailing,Sailing,Christopher Cross,1,FULL,Soft Rock,Yacht Rock,false,ACOUSTIC
 ABC:C:ClintBlack:ABetterMan,A Better Man,Clint Black,4,FULL,Country,,false,ACOUSTIC
-ABC:C:ColdPlay:FixYou,Fix You,Coldplay,4,FULL,Alternative,Pop Rock,true,ELECTRIC
-ABC:C:ColdPlay:SpeedOfSound,Speed Of Sound,Coldplay,6,FULL,Alternative,,false,ELECTRIC
+ABC:C:Coldplay:FixYou,Fix You,Coldplay,4,FULL,Alternative,Pop Rock,true,ELECTRIC
+ABC:C:Coldplay:SpeedOfSound,Speed Of Sound,Coldplay,6,FULL,Alternative,,false,ELECTRIC
 ABC:C:Commodores:Easy,Easy,Commodores,2,FULL,Soul,Ballad,false,ELECTRIC
 ABC:C:Commodores:SailOn,Sail On,Commodores,3,FULL,Soul,Soft Rock,false,ELECTRIC
 ABC:C:ConnieFrancis:PrettyLittleBaby,Pretty Little Baby,Connie Francis,5,FULL,Pop,Oldies,false,ACOUSTIC
 ABC:C:ConnieFrancis:WhosSorryNow,Who's Sorry Now,Connie Francis,4,FULL,Pop,Oldies,false,ACOUSTIC
-ABC:C:CorrineBailyRae:PutYourRecordsOn,Put Your Records On,Corrine Bailey Rae,5,FULL,Soul,Pop,false,ELECTRIC
+ABC:C:CorinneBaileyRae:PutYourRecordsOn,Put Your Records On,Corinne Bailey Rae,5,FULL,Soul,Pop,false,ELECTRIC
 ABC:C:CountingCrows:AccidentallyInLove,Accidentally In Love,Counting Crows,7,FULL,Pop Rock,,true,ELECTRIC
 ABC:C:CrowdedHouse:DontDreamItsOver,Don't Dream It's Over,Crowded House,4,FULL,Rock,,true,ELECTRIC
 ABC:C:Cure:FridayImInLove,Friday I'm In Love,The Cure,7,FULL,Alternative,New Wave,true,ELECTRIC
@@ -131,8 +131,8 @@ DEF:D:DavidLeeMurphy:PartyCrowd,Party Crowd,David Lee Murphy,7,FULL,Country,,fal
 DEF:D:DelbertMcClinton:LeapOfFaith,Leap Of Faith,Delbert McClinton,5,FULL,Blues Rock,,false,ELECTRIC
 DEF:D:DepecheMode:EnjoyTheSilence,Enjoy the Silence,Depeche Mode,5,FULL,Synth Pop,New Wave,false,ELECTRIC
 DEF:D:DiamondRio:OneMoreDay,One More Day,Diamond Rio,3,FULL,Country,,false,ACOUSTIC
-DEF:D:DioneWarwick:HeartBreaker,Heartbreaker,Dionne Warwick,7,FULL,Pop,Disco,false,ACOUSTIC
-DEF:D:DioneWarwick:ThenCameYou,Then Came You,Dionne Warwick,6,FULL,Soul,Pop,false,ELECTRIC
+DEF:D:DionneWarwick:HeartBreaker,Heartbreaker,Dionne Warwick,7,FULL,Pop,Disco,false,ACOUSTIC
+DEF:D:DionneWarwick:ThenCameYou,Then Came You,Dionne Warwick,6,FULL,Soul,Pop,false,ELECTRIC
 DEF:D:DixieChicks:LetErRip,Let 'Er Rip,Dixie Chicks,7,FULL,Country,,false,ACOUSTIC
 DEF:D:DixieChicks:SomeDaysYouGottaDance,Some Days You Gotta Dance,Dixie Chicks,7,FULL,Country,,false,ACOUSTIC
 DEF:D:DixieChicks:WideOpenSpaces,Wide Open Spaces,Dixie Chicks,6,FULL,Country,,true,ACOUSTIC
@@ -146,9 +146,9 @@ DEF:D:DrHook:SharingTheNightTogether,Sharing The Night Together,Dr. Hook,5,FULL,
 DEF:D:DuaLipa:Levitating,Levitating,Dua Lipa,9,FULL,Pop,Disco,true,ACOUSTIC
 DEF:D:DuaLipa:LoveAgain,Love Again,Dua Lipa,8,FULL,Pop,,false,ACOUSTIC
 DEF:D:DuranDuran:OrdinaryWorld,Ordinary World,Duran Duran,4,FULL,New Wave,Pop Rock,false,ELECTRIC
-DEF:D:DwightYokam:AintThatLonelyYet,Ain't That Lonely Yet,Dwight Yoakam,6,FULL,Country,,false,ACOUSTIC
-DEF:D:DwightYokam:FastAsYou,Fast As You,Dwight Yoakam,7,FULL,Country Rock,,false,ELECTRIC
-DEF:D:DwightYokam:LittleSister,Little Sister,Dwight Yoakam,7,FULL,Country Rock,,false,ELECTRIC
+DEF:D:DwightYoakam:AintThatLonelyYet,Ain't That Lonely Yet,Dwight Yoakam,6,FULL,Country,,false,ACOUSTIC
+DEF:D:DwightYoakam:FastAsYou,Fast As You,Dwight Yoakam,7,FULL,Country Rock,,false,ELECTRIC
+DEF:D:DwightYoakam:LittleSister,Little Sister,Dwight Yoakam,7,FULL,Country Rock,,false,ELECTRIC
 DEF:E:Eagles:ICantTellYouWhy,I Can't Tell You Why,Eagles,3,FULL,Soft Rock,,false,ACOUSTIC
 DEF:E:Eagles:LoveWillKeepUsAlive,Love Will Keep Us Alive,Eagles,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
 DEF:E:Eagles:LyinEyes,Lyin' Eyes,Eagles,4,FULL,Country Rock,,false,ELECTRIC
@@ -245,11 +245,11 @@ JKL:J:JordanDavis:TucsonTooLate,Tucson Too Late,Jordan Davis,4,FULL,Country,,fal
 JKL:J:JoshTurner:Jacksonville,Jacksonville,Josh Turner,4,FULL,Country,,false,ACOUSTIC
 JKL:J:JudyGarland:OverTheRainbow,Over the Rainbow,Judy Garland,2,FULL,Ballad,,false,ACOUSTIC
 JKL:K:KCSunshineBand:ShakeYourBooty,Shake Your Booty,KC & the Sunshine Band,9,FULL,Disco,,true,ELECTRIC
-JKL:K:KTTunsall:BlackHorseAndTheCherryTree,Black Horse and the Cherry Tree,KT Tunstall,6,FULL,Folk Rock,,false,ACOUSTIC
-JKL:K:KTTunsall:SuddenlyISee,Suddenly I See,KT Tunstall,7,FULL,Rock,,false,ELECTRIC
-JKL:K:KaceyMusgraves:GoldenHour,Golden Hour,Kasey Musgraves,3,FULL,Country,,false,ACOUSTIC
-JKL:K:KaceyMusgraves:Rainbow,Rainbow,Kasey Musgraves,2,FULL,Country,Ballad,false,ACOUSTIC
-JKL:K:KaceyMusgraves:SlowBurn,Slow Burn,Kasey Musgraves,3,FULL,Country,,false,ACOUSTIC
+JKL:K:KTTunstall:BlackHorseAndTheCherryTree,Black Horse and the Cherry Tree,KT Tunstall,6,FULL,Folk Rock,,false,ACOUSTIC
+JKL:K:KTTunstall:SuddenlyISee,Suddenly I See,KT Tunstall,7,FULL,Rock,,false,ELECTRIC
+JKL:K:KaseyMusgraves:GoldenHour,Golden Hour,Kasey Musgraves,3,FULL,Country,,false,ACOUSTIC
+JKL:K:KaseyMusgraves:Rainbow,Rainbow,Kasey Musgraves,2,FULL,Country,Ballad,false,ACOUSTIC
+JKL:K:KaseyMusgraves:SlowBurn,Slow Burn,Kasey Musgraves,3,FULL,Country,,false,ACOUSTIC
 JKL:K:KaneBrown:BuryMeInGeorgia,Bury Me In Georgia,Kane Brown,6,FULL,Country,,false,ACOUSTIC
 JKL:K:KaneBrown:OneMississippi,One Mississippi,Kane Brown,4,FULL,Country,,false,ACOUSTIC
 JKL:K:KeithCarradine:ImEasy,I'm Easy,Keith Carradine,2,FULL,Folk,Ballad,false,ACOUSTIC
@@ -438,10 +438,9 @@ STU:T:TomPetty:MaryJanesLastDance,Mary Jane's Last Dance,Tom Petty,8,FULL,Rock,,
 STU:T:TomPetty:RunningDownADream,Runnin' Down A Dream,Tom Petty,8,FULL,Rock,,true,ELECTRIC
 STU:T:TomPetty:YouDontKnowHowItFeels,You Don't Know How It Feels,Tom Petty,6,FULL,Rock,,false,ELECTRIC
 STU:T:TomPetty:YouWreckMe,You Wreck Me,Tom Petty,8,FULL,Rock,,true,ELECTRIC
-STU:T:TommyCastroNPainkillers:CallingSanFrac,Calling San Francisco,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false,ELECTRIC
-STU:T:TommyCastroNPainkillers:CallingSanFran,Calling San Francisco,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false,ELECTRIC
-STU:T:TommyCastroNPainkillers:NastyHabits,Nasty Habits,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false,ELECTRIC
-STU:T:TommyTutone:Jenny-867-5309,Jenny 867-5309,Tommie Tutone,8,FULL,Rock,,true,ELECTRIC
+STU:T:TommyCastroAndThePainkillers:CallingSanFrancisco,Calling San Francisco,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false,ELECTRIC
+STU:T:TommyCastroAndThePainkillers:NastyHabits,Nasty Habits,Tommy Castro and the Painkillers,6,FULL,Blues Rock,,false,ELECTRIC
+STU:T:TommyTutone:Jenny-867-5309,Jenny 867-5309,Tommy Tutone,8,FULL,Rock,,true,ELECTRIC
 STU:T:Tonic:YouWantedMore,You Wanted More,Tonic,6,FULL,Alternative,,false,ELECTRIC
 STU:T:Train:HeySoulSister,Hey Soul Sister,Train,7,FULL,Pop Rock,,true,ELECTRIC
 STU:T:TravelingWilburys:HandleWithCare,Handle With Care,Traveling Wilburys,5,FULL,Rock,,false,ELECTRIC
@@ -472,4 +471,4 @@ VWX:X:Xmas:WonderfulChristmastime,Wonderful Christmastime,Paul McCartney,6,FULL,
 YZ:Z:Zombies:TimeOfTheSeason,Time of the Season,Zombies,5,FULL,Rock,,false,ELECTRIC
 DEF:E:ELO:CantGetYouOutOfMyHead,Can't Get You Out Of My Head,ELO,8,FULL,Dance Pop,,true,ELECTRIC
 DEF:E:ELO:Rockaria,Rockaria,ELO,7,FULL,Rock,,false,ELECTRIC
-JKL:K:KaceyMusgraves:DeeperWell,Deeper Well,Kasey Musgraves,2,FULL,Country,Folk,false,ACOUSTIC
+JKL:K:KaseyMusgraves:DeeperWell,Deeper Well,Kasey Musgraves,2,FULL,Country,Folk,false,ACOUSTIC
