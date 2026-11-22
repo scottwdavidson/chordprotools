@@ -11,7 +11,7 @@ ABC:A:AlStewart:TimePassages,Time Passages,Al Stewart,4,FULL,Soft Rock,,false,AC
 ABC:A:AlStewart:YearOfTheCat,Year of the Cat,Al Stewart,4,FULL,Soft Rock,,false,ACOUSTIC
 ABC:A:Alabama:DancinShagginOnTheBoulevard,"Dancin', Shaggin' on the Boulevard",Alabama,7,FULL,Country,,false,ACOUSTIC
 ABC:A:AlanJackson:RememberWhen,Remember When,Alan Jackson,2,FULL,Country,,false,ACOUSTIC
-ABC:A:AlanJackson:RememberWhenLinda,Remember When (Linda's Version),Scott Davidson,2,FULL,Country,,false,ACOUSTIC
+STU:S:ScottDavidson:RememberWhenLinda,Remember When (Linda's Version),Scott Davidson,2,FULL,Country,,false,ACOUSTIC
 ABC:A:AlanODay:UndercoverAngel,Undercover Angel,Alan O'Day,7,FULL,Pop,Disco,false,ACOUSTIC
 ABC:A:AlanParsonsProject:DontAnswerMe,Don't Answer Me,Alan Parsons Project,6,FULL,Rock,,false,ELECTRIC
 ABC:A:AlanParsonsProject:EyeInTheSky,Eye In The Sky,Alan Parsons Project,5,FULL,Rock,,false,ELECTRIC
@@ -85,7 +85,7 @@ ABC:B:BruceSpringsteen:CoverMe,Cover Me,Bruce Springsteen,8,FULL,Rock,,false,ELE
 ABC:B:BruceSpringsteen:HugryHeart,Hungry Heart,Bruce Springsteen,7,FULL,Rock,,true,ELECTRIC
 ABC:B:BrunoMars:Apt,Apt,Bruno Mars,8,FULL,Pop,,true,ACOUSTIC
 ABC:B:BrunoMars:DieWithASmile,Die With A Smile,Bruno Mars,4,FULL,Pop,Ballad,false,ACOUSTIC
-ABC:B:BrunoMars:NothinOnYou,Nothin On You,B.o.B,7,FULL,Pop,R&B,true,ACOUSTIC
+ABC:B:BoB:NothinOnYou,Nothin On You,B.o.B,7,FULL,Pop,R&B,true,ACOUSTIC
 ABC:C:CCR:HaveYouEverSeenTheRain,Have You Ever Seen The Rain,Creedence Clearwater Revival,5,FULL,Rock,,true,ELECTRIC
 ABC:C:CSNY:JustASongBeforeIGo,Just A Song Before I Go,"Crosby, Stills, Nash and Young",3,FULL,Folk Rock,,false,ACOUSTIC
 ABC:C:CageTheElephant:CigaretteDaydreams,Cigarette Daydreams,Cage The Elephant,5,FULL,Alternative,,false,ELECTRIC
@@ -125,7 +125,7 @@ ABC:C:Cure:FridayImInLove,Friday I'm In Love,The Cure,7,FULL,Alternative,New Wav
 ABC:C:Cure:JustLikeHeaven,Just Like Heaven,The Cure,7,FULL,Alternative,New Wave,false,ELECTRIC
 ABC:C:CuttingCrew:DiedInYourArms,( I Just ) Died In Your Arms,Cutting Crew,6,FULL,Rock,,false,ELECTRIC
 DEF:D:DanielBoone:BeautifulSunday,Beautiful Sunday,Daniel Boone,6,FULL,Pop,,false,ACOUSTIC
-DEF:D:DariusRucker:HoldMyHand,Hold My Hand,Hootie & the Blowfish,7,FULL,Pop Rock,,true,ELECTRIC
+GHI:H:HootieAndTheBlowfish:HoldMyHand,Hold My Hand,Hootie & the Blowfish,7,FULL,Pop Rock,,true,ELECTRIC
 DEF:D:DariusRucker:WagonWheel,Wagon Wheel,Darius Rucker,7,FULL,Country,Folk,true,ACOUSTIC
 DEF:D:DavidLeeMurphy:PartyCrowd,Party Crowd,David Lee Murphy,7,FULL,Country,,false,ACOUSTIC
 DEF:D:DelbertMcClinton:LeapOfFaith,Leap Of Faith,Delbert McClinton,5,FULL,Blues Rock,,false,ELECTRIC
@@ -279,7 +279,7 @@ JKL:L:LouisArmstrong:WhatAWonderfulWorld,What A Wonderful World,Louis Armstrong,
 JKL:L:LukeBryan:PlayItAgain,Play It Again,Luke Bryan,6,FULL,Country,,false,ACOUSTIC
 JKL:L:LukeCombs:BeByYou,Be By You,Luke Combs,4,FULL,Country,,false,ACOUSTIC
 JKL:L:LukeCombs:CantTellMeImWrong,Can't Tell Me I'm Wrong,Luke Combs,6,FULL,Country,,false,ACOUSTIC
-JKL:L:Lumineers:JustLikeHeaven,Just Like Heaven,The Cure / Lumineers,5,FULL,Folk Rock,Alternative,false,ACOUSTIC
+ABC:C:Cure:JustLikeHeaven-Acoustic,Just Like Heaven,The Cure,5,FULL,Folk Rock,Alternative,false,ACOUSTIC
 JKL:L:LynyrdSkynyrd:SweetHomeAlabama,Sweet Home Alabama,Lynyrd Skynyrd,8,FULL,Southern Rock,,true,ELECTRIC
 JKL:L:LynyrdSkynyrd:WhatsYourName,What's Your Name,Lynyrd Skynyrd,6,FULL,Southern Rock,,false,ELECTRIC
 MNO:M:MackenzieCarpenter:IWishYouWould,I Wish You Would,Mackenzie Carpenter,5,FULL,Country,,false,ACOUSTIC
@@ -348,7 +348,7 @@ PQR:P:PurePrairieLeague:LetMeLoveYouTonight,Let Me Love You Tonight,Pure Prairie
 PQR:R:Radiohead:Creep,Creep,Radiohead,5,FULL,Alternative,,true,ELECTRIC
 PQR:R:Ramones:BlitzkreigBop,Blitzkreig Bop,Ramones,8,FULL,Punk,,true,ELECTRIC
 PQR:R:Ramones:IWannaBeSedated,I Wanna Be Sedated,Ramones,8,FULL,Punk,,true,ELECTRIC
-PQR:R:RandyTravis:ForeversAsFarAsIllGo,Forever's As Far As I'll Go,Alabama,4,FULL,Country,,false,ACOUSTIC
+ABC:A:Alabama:ForeversAsFarAsIllGo,Forever's As Far As I'll Go,Alabama,4,FULL,Country,,false,ACOUSTIC
 PQR:R:RandyTravis:LookHeartsNoHands,Look Heart No Hands,Randy Travis,5,FULL,Country,,false,ACOUSTIC
 PQR:R:RandyTravis:ThisIsMe,This Is Me,Randy Travis,4,FULL,Country,,false,ACOUSTIC
 PQR:R:RandyTravis:WhereThatCameFrom,Where That Came From,Randy Travis,4,FULL,Country,,false,ACOUSTIC
