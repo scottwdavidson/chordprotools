@@ -37,6 +37,7 @@ change freely gig to gig without touching song metadata.
    - [copy-gig](#copy-gig)
    - [export-setlist](#export-setlist)
    - [print-setlist](#print-setlist)
+- [print-fan-setlist](#print-fan-setlist)
 6. [Utility Scripts](#6-utility-scripts)
    - [deploy-rc500](#deploy-rc500)
 7. [Repository Layout](#7-repository-layout)
@@ -366,6 +367,7 @@ See [deploy-rc500](#deploy-rc500) for the full command reference.
 | `./copy-gig` | `copy-gig` | Clone all gig assignments (including RC SLOT) from one gig slug to a new one |
 | `./export-setlist` | `export-setlist` | Join catalog + assignments and export a gig-ready `setlist.csv` |
 | `./print-setlist` | `print-setlist` | Write the large-type portrait floor setlist (`A01-45 [guitar] Song Title` rows, one page per set) as `work/setlist.html`
+| `./print-fan-setlist` | `print-fan-setlist` | Write the printable setlist handout for fans (band, venue + date, then title and artist per song, grouped by set) as `work/fan-setlist.html`
 | `./find-song-id` | `find-song-id` | Search the catalog by title/artist fragment → SONG ID to paste into `gigs.csv` |
 | `./list-gigs` | `list-gigs` | List every gig slug in `gigs.csv` with a song count |
 
@@ -914,7 +916,8 @@ Joins `song-catalog.csv` and `gigs.csv` for a specific gig, sorts by SET code,
 and writes `setlist.csv`. Also prints a formatted summary table to the terminal.
 
 **By default, only fan-facing songs (SET prefix A–Y) are included** — this is
-the setlist to print on paper and send to fans. Use `--verbose` to include the
+the setlist data for fans. To hand them a **printable page** instead of a CSV, use
+[`print-fan-setlist`](#print-fan-setlist). Use `--verbose` to include the
 Z-set backup pool as well.
 
 ```zsh
@@ -1010,6 +1013,50 @@ and print (Portrait, Letter, headers/footers off).
   has more), so every gig prints with the same look.
 - **A title too long for its one line is cut off** with an ellipsis (about 29+ characters at
   16 rows per sheet). It never wraps or shrinks.
+
+---
+
+### `print-fan-setlist`
+
+**Script:** `./print-fan-setlist [--gig <slug>] [--output <path>]`
+
+Writes the **fans' setlist handout** — the page for your close fans — as a self-contained HTML
+file: **portrait Letter**, the band name, a `venue · date` line, then each set under a
+"Set 1 / Set 2 / ..." heading with one row per song, title on the left and artist on the right.
+No RC-500 slots, no guitar icons — nothing the audience doesn't need.
+
+```
+                    Pour Choices
+          Moods Wine Bar · Friday, November 20, 2026
+
+SET 1
+Starting Over                              Chris Stapleton
+Against the Wind                                 Bob Seger
+```
+
+Open the HTML in a browser and print it, or choose *Save as PDF* to send it to fans
+(Portrait, Letter, headers/footers off).
+
+```zsh
+./print-fan-setlist                                  # latest gig → ./work/fan-setlist.html
+./print-fan-setlist --gig 2026-06-14-rusty-nail      # specific gig
+./print-fan-setlist --gig 2026-06-14-rusty-nail --output ./fans-2026-06-14.html
+```
+
+- Z-set backup songs are **never** included.
+- **The venue** comes from `gig-venues.csv` (the same file `evaluate-setlist` uses); a gig with
+  no row there just prints without a venue. **The date** is read from the front of the gig slug
+  (`2026-11-20-MOODS` → Friday, November 20, 2026); a slug without a leading date prints
+  without one.
+- **Length**: the text simply flows, so a short setlist is one page and a full gig is about
+  two (a 51-song gig checked at two pages). Song rows are never split, and a set heading is
+  never left stranded at the bottom of a page. Unlike the floor sheet, a set *can* continue
+  onto the next page here.
+- **Sets are numbered by position**, not by letter: a gig that uses sets A and C prints
+  "Set 1" and "Set 2".
+- The artist and title are printed **exactly as they are in `song-catalog.csv`**, so any
+  inconsistency there ("Seals and Crofts" vs "Seals & Crofts") shows up on the handout.
+- Written to the **git-ignored `work/`** directory by default, overwritten on each run.
 
 ## 6. Utility Scripts
 
@@ -1291,6 +1338,7 @@ chordprotools/
 ├── copy-gig                     # Clone a gig's assignments to a new gig slug
 ├── export-setlist               # Generate setlist.csv from catalog + assignments
 ├── print-setlist                # Generate the large-type portrait floor setlist (A01-45 Song Title rows) as work/setlist.html
+├── print-fan-setlist            # Generate the printable fan handout (title + artist per song, by set) as work/fan-setlist.html
 ├── deploy-rc500                 # Generates deploy-rc500-<timestamp>.sh with cp commands for RC-500 audio files
 │
 ├── find-song-id                 # Search catalog by title/artist → SONG ID

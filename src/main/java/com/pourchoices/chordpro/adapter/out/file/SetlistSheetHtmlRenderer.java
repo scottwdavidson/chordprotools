@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Locale;
 
+import static com.pourchoices.chordpro.adapter.out.file.Html.escape;
+
 /**
  * Renders the floor setlist as one self-contained HTML document: portrait Letter, one big
  * {@code A01-45 [guitar] Song Title} row per song (set code, a dash and the backing slot —
@@ -100,11 +102,5 @@ public class SetlistSheetHtmlRenderer {
 
     private String inches(double value) {
         return String.format(Locale.ROOT, "%.3f", value);
-    }
-
-    private String escape(String text) {
-        if (text == null) return "";
-        return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-                .replace("\"", "&quot;").replace("'", "&#39;");
     }
 }

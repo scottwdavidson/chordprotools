@@ -15,6 +15,7 @@ import picocli.CommandLine.Command;
                 UpdateSongCommand.class,
                 ExportSetlistCommand.class,
                 PrintSetlistCommand.class,
+                PrintFanSetlistCommand.class,
                 AssignBackingTrackSlotsCommand.class,
                 CopyGigCommand.class,
                 GenerateRc500DeployScriptCommand.class,

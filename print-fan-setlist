@@ -1,0 +1,11 @@
+#!/bin/zsh
+# Write a printable setlist handout for fans — band, venue and date, then each set's songs
+# (title and artist) — as HTML. Open it in a browser and print it, or save it as a PDF to send.
+# A short setlist is one page; a full gig runs to about two.
+#
+# Usage:
+#   ./print-fan-setlist                                        # latest gig → ./work/fan-setlist.html (git-ignored)
+#   ./print-fan-setlist --gig 2026-06-14-rusty-nail            # specific gig
+#   ./print-fan-setlist --gig 2026-06-14-rusty-nail --output ./fans-2026-06-14.html
+
+"${0:a:h}/cpt" print-fan-setlist "$@"
