@@ -1021,17 +1021,19 @@ and print (Portrait, Letter, headers/footers off).
 **Script:** `./print-fan-setlist [--gig <slug>] [--output <path>]`
 
 Writes the **fans' setlist handout** — the page for your close fans — as a self-contained HTML
-file: **portrait Letter**, the band name, a `venue · date` line, then each set under a
-"Set 1 / Set 2 / ..." heading with one row per song, title on the left and artist on the right.
-No RC-500 slots, no guitar icons — nothing the audience doesn't need.
+file: **portrait Letter**, the band name, a `venue · date` line, then the **sets side by side —
+one column per set** — each under a "Set 1 / Set 2 / ..." heading, with every song as its title
+and the artist underneath. No RC-500 slots, no guitar icons — nothing the audience doesn't need.
 
 ```
                     Pour Choices
           Moods Wine Bar · Friday, November 20, 2026
 
-SET 1
-Starting Over                              Chris Stapleton
-Against the Wind                                 Bob Seger
+SET 1                     SET 2                     SET 3
+Starting Over             Ordinary World            Brandy (You're A Fine Girl)
+Chris Stapleton           Duran Duran               Looking Glass
+Against the Wind          Jacksonville              Sharing The Night Together
+Bob Seger                 Josh Turner               Dr. Hook
 ```
 
 Open the HTML in a browser and print it, or choose *Save as PDF* to send it to fans
@@ -1048,10 +1050,10 @@ Open the HTML in a browser and print it, or choose *Save as PDF* to send it to f
   no row there just prints without a venue. **The date** is read from the front of the gig slug
   (`2026-11-20-MOODS` → Friday, November 20, 2026); a slug without a leading date prints
   without one.
-- **Length**: the text simply flows, so a short setlist is one page and a full gig is about
-  two (a 51-song gig checked at two pages). Song rows are never split, and a set heading is
-  never left stranded at the bottom of a page. Unlike the floor sheet, a set *can* continue
-  onto the next page here.
+- **One page**: the sets sit side by side, so a normal gig is a single page — a 51-song gig
+  (17/17/17) was checked at one page with about a fifth of the page to spare. Room is about
+  **20 songs in the longest set**; a lopsided gig (say a 23-song Set 1) spills onto a second
+  page. Long titles wrap onto a second line rather than clipping.
 - **Sets are numbered by position**, not by letter: a gig that uses sets A and C prints
   "Set 1" and "Set 2".
 - The artist and title are printed **exactly as they are in `song-catalog.csv`**, so any

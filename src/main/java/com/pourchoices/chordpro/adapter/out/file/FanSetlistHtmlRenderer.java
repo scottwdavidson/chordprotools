@@ -14,11 +14,12 @@ import static com.pourchoices.chordpro.adapter.out.file.Html.escape;
 
 /**
  * Renders the fans' setlist handout as one self-contained HTML document: portrait Letter, the
- * band name, a "venue &middot; date" line, then each set under a "Set N" heading with one
- * {@code Title ... Artist} row per song. No band-only noise (RC-500 slots, guitar icons).
+ * band name, a "venue &middot; date" line, then the sets side by side — one column per set,
+ * under a "Set N" heading, each song as its title with the artist underneath. No band-only
+ * noise (RC-500 slots, guitar icons).
  *
- * <p>The text simply flows: a short setlist fits one page, a full gig runs to about two. A song
- * row is never split, and a set heading is never left stranded at the bottom of a page.
+ * <p>Built to be one page: a gig's three sets of ~17 songs fit comfortably, and so does a short
+ * list. A set is never split across columns, and a song row is never split across pages.
  *
  * <p>The date shown is the one at the front of the gig slug (e.g. {@code 2026-11-20-MOODS});
  * a slug without a leading date just prints without one.
@@ -36,11 +37,11 @@ public class FanSetlistHtmlRenderer {
         html.append("<header>\n<h1>").append(escape(BAND_NAME)).append("</h1>\n");
         String when = whenLine(gig, venue);
         if (!when.isEmpty()) html.append("<p class=\"when\">").append(escape(when)).append("</p>\n");
-        html.append("</header>\n");
+        html.append("</header>\n<div class=\"sets\" style=\"--cols: ").append(Math.max(sets.size(), 1)).append("\">\n");
         for (int i = 0; i < sets.size(); i++) {
             html.append(set(i + 1, sets.get(i)));
         }
-        return html.append("</body>\n</html>\n").toString();
+        return html.append("</div>\n</body>\n</html>\n").toString();
     }
 
     private String head(String gig) {
@@ -52,19 +53,18 @@ public class FanSetlistHtmlRenderer {
                 <title>%s setlist - %s</title>
                 <style>
                   @page { size: letter portrait; margin: 0.75in; }
-                  body { margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: 13pt; color: #000; }
+                  body { margin: 0; font-family: Helvetica, Arial, sans-serif; color: #000; }
                   h1 { margin: 0; text-align: center; font-size: 30pt; letter-spacing: 0.04em; }
                   .when { margin: 4pt 0 0; text-align: center; font-size: 13pt; color: #333; }
-                  .set { margin-top: 12pt; }
+                  .sets { display: grid; grid-template-columns: repeat(var(--cols), 1fr);
+                          column-gap: 0.3in; align-items: start; margin-top: 16pt; }
                   h2 { margin: 0 0 4pt; padding-bottom: 2pt; border-bottom: 2px solid #000;
-                       font-size: 15pt; text-transform: uppercase; letter-spacing: 0.12em;
-                       break-after: avoid; page-break-after: avoid; }
+                       font-size: 12pt; text-transform: uppercase; letter-spacing: 0.12em; }
                   ul { margin: 0; padding: 0; list-style: none; }
-                  li { display: flex; justify-content: space-between; gap: 1em; padding: 2pt 0;
-                       border-bottom: 1px solid #ddd; line-height: 1.25;
+                  li { padding: 2pt 0; border-bottom: 1px solid #ddd; line-height: 1.2;
                        break-inside: avoid; page-break-inside: avoid; }
-                  .song { font-weight: bold; }
-                  .artist { color: #444; text-align: right; }
+                  .song { display: block; font-size: 11pt; font-weight: bold; }
+                  .artist { display: block; font-size: 9.5pt; color: #444; }
                 </style>
                 </head>
                 <body>

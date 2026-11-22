@@ -89,9 +89,30 @@ class FanSetlistHtmlRendererTest {
     }
 
     @Test
-    void keepsRowsAndSetHeadingsTogetherAcrossPageBreaks() {
+    void laysTheSetsOutSideBySide_oneColumnPerSet() {
+        String threeSets = renderer.render("g", null, List.of(
+                List.of(entry("A01", "One", "Them")),
+                List.of(entry("B01", "Two", "Those")),
+                List.of(entry("C01", "Three", "These"))));
+        String twoSets = renderer.render("g", null, List.of(
+                List.of(entry("A01", "One", "Them")),
+                List.of(entry("B01", "Two", "Those"))));
+
+        assertThat(threeSets).contains("style=\"--cols: 3\"");
+        assertThat(twoSets).contains("style=\"--cols: 2\"");
+    }
+
+    @Test
+    void anEmptySetlistStillGetsAValidGrid() {
+        String html = renderer.render("g", null, List.of());
+
+        assertThat(html).contains("style=\"--cols: 1\"");
+    }
+
+    @Test
+    void neverSplitsASongRowAcrossPages() {
         String html = renderer.render("g", null, List.of(List.of(entry("A01", "One", "Them"))));
 
-        assertThat(html).contains("break-inside: avoid", "break-after: avoid");
+        assertThat(html).contains("break-inside: avoid");
     }
 }
