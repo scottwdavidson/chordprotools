@@ -8,14 +8,14 @@ ABC:A:Ace:HowLong,How Long,Ace,4,FULL,Soft Rock,,false,ACOUSTIC
 ABC:A:Aha:TakeOnMe,Take On Me,Aha,9,FULL,Synth Pop,New Wave,true,ELECTRIC
 ABC:A:AlGreen:LetsStayTogether,Let's Stay Together,Al Green,5,FULL,Soul,,false,ELECTRIC
 ABC:A:AlStewart:TimePassages,Time Passages,Al Stewart,4,FULL,Soft Rock,,false,ACOUSTIC
-ABC:A:AlStewart:YearOfTheCat,Year of the Cat,Al Stewart,4,FULL,Soft Rock,,false,ACOUSTIC
-ABC:A:Alabama:DancinShagginOnTheBoulevard,"Dancin', Shaggin' on the Boulevard",Alabama,7,FULL,Country,,false,ACOUSTIC
+ABC:A:AlStewart:YearOfTheCat,Year Of The Cat,Al Stewart,4,FULL,Soft Rock,,false,ACOUSTIC
+ABC:A:Alabama:DancinShagginOnTheBoulevard,"Dancin', Shaggin' On The Boulevard",Alabama,7,FULL,Country,,false,ACOUSTIC
 ABC:A:AlanJackson:RememberWhen,Remember When,Alan Jackson,2,FULL,Country,,false,ACOUSTIC
 STU:S:ScottDavidson:RememberWhenLinda,Remember When (Linda's Version),Scott Davidson,2,FULL,Country,,false,ACOUSTIC
 ABC:A:AlanODay:UndercoverAngel,Undercover Angel,Alan O'Day,7,FULL,Pop,Disco,false,ACOUSTIC
 ABC:A:AlanParsonsProject:DontAnswerMe,Don't Answer Me,Alan Parsons Project,6,FULL,Rock,,false,ELECTRIC
 ABC:A:AlanParsonsProject:EyeInTheSky,Eye In The Sky,Alan Parsons Project,5,FULL,Rock,,false,ELECTRIC
-ABC:A:AlbertHammond:ItNeverRains,It Never Rains in Southern California,Albert Hammond,4,FULL,Soft Rock,,false,ACOUSTIC
+ABC:A:AlbertHammond:ItNeverRains,It Never Rains In Southern California,Albert Hammond,4,FULL,Soft Rock,,false,ACOUSTIC
 ABC:A:AliciaKeys:IfIAintGotYou,If I Ain't Got You,Alicia Keys,3,FULL,R&B,Soul,false,ELECTRIC
 ABC:A:AllmanBrothers:OneWayOut,One Way Out,The Allman Brothers Band,8,FULL,Southern Rock,Blues Rock,false,ELECTRIC
 ABC:A:AllmanBrothers:Southbound,Southbound,The Allman Brothers Band,7,FULL,Southern Rock,,false,ELECTRIC
@@ -28,15 +28,15 @@ ABC:A:AmosLee:SweetPea,Sweet Pea,Amos Lee,3,FULL,Folk,Singer-Songwriter,false,AC
 ABC:A:AmyWinehouse:Valerie,Valerie,Amy Winehouse,7,FULL,Soul,Pop,true,ELECTRIC
 ABC:A:AnneMurray:ShadowsInTheMoonlight,Shadows In The Moonlight,Anne Murray,5,FULL,Country,,false,ACOUSTIC
 ABC:A:ArethaFranklin:BabyILoveYou,Babay I Love You,Aretha Franklin,6,FULL,Soul,,false,ELECTRIC
-ABC:A:ArloGuthrie:CityOfNewOrleans,City of New Orleans,Arlo Guthrie,3,FULL,Folk,,false,ACOUSTIC
+ABC:A:ArloGuthrie:CityOfNewOrleans,City Of New Orleans,Arlo Guthrie,3,FULL,Folk,,false,ACOUSTIC
 ABC:A:AvrilLavigne:Complicated,Complicated,Avril Lavigne,7,FULL,Pop Rock,,true,ELECTRIC
-ABC:B:BachmanTurnerOverdrive:TakinCareOfBusiness,Takin' Care of Business,Bachman Turner Overdrive,8,FULL,Rock,,true,ELECTRIC
+ABC:B:BachmanTurnerOverdrive:TakinCareOfBusiness,Takin' Care Of Business,Bachman Turner Overdrive,8,FULL,Rock,,true,ELECTRIC
 ABC:B:BadEnglish:WhenISeeYouSmile,When I See You Smile,Bad English,3,FULL,Rock,Ballad,false,ELECTRIC
 ABC:B:Band:Evangeline,Evangeline,The Band,5,FULL,Roots Rock,Country Rock,false,ELECTRIC
 ABC:B:Bangles:EternalFlame,Eternal Flame,The Bangles,3,FULL,Pop,,false,ACOUSTIC
 ABC:B:BarrettStrong:Money,Money (That's What I Want),Barrett Strong,7,FULL,Motown,R&B,true,ELECTRIC
 ABC:B:BayCityRollers:YouMadeMeBelieveInMagic,You Made Me Believe In Magic,Bay City Rollers,6,FULL,Pop,,false,ACOUSTIC
-ABC:B:BeachBoys:BeTrueToYourSchool,Be True to Your School,The Beach Boys,7,FULL,Pop,Surf Rock,false,ACOUSTIC
+ABC:B:BeachBoys:BeTrueToYourSchool,Be True To Your School,The Beach Boys,7,FULL,Pop,Surf Rock,false,ACOUSTIC
 ABC:B:BeachBoys:DoItAgain,Do It Again,The Beach Boys,7,FULL,Pop,Surf Rock,false,ACOUSTIC
 ABC:B:BeachBoys:Forever,Forever,The Beach Boys,2,FULL,Pop,Ballad,false,ACOUSTIC
 ABC:B:BeachBoys:FunFunFun,"Fun, Fun, Fun",The Beach Boys,8,FULL,Surf Rock,,true,ELECTRIC
@@ -71,16 +71,16 @@ ABC:B:BluesBrothers:HeyBartender,Hey Bartender,Blues Brothers,6,FULL,Blues,,fals
 ABC:B:BobDylan:IShallBeReleased,I Shall Be Released,Bob Dylan,3,FULL,Folk,,false,ACOUSTIC
 ABC:B:BobDylan:LikeARollingStone,Like A Rolling Stone,Bob Dylan,6,FULL,Folk Rock,,true,ACOUSTIC
 ABC:B:BobDylan:MakeYouFeelMyLove,Make You Feel My Love,Bob Dylan,2,FULL,Ballad,,false,ACOUSTIC
-ABC:B:BobSeger:AgainstTheWind,Against the Wind,Bob Seger,4,FULL,Rock,,false,ELECTRIC
+ABC:B:BobSeger:AgainstTheWind,Against The Wind,Bob Seger,4,FULL,Rock,,false,ELECTRIC
 ABC:B:BobSeger:HollywoodNights,Hollywood Nights,Bob Seger,7,FULL,Rock,,false,ELECTRIC
-ABC:B:BobSeger:StillTheSame,Still the Same,Bob Seger,5,FULL,Rock,,false,ELECTRIC
+ABC:B:BobSeger:StillTheSame,Still The Same,Bob Seger,5,FULL,Rock,,false,ELECTRIC
 ABC:B:BobSeger:TurnThePage,Turn The Page,Bob Seger,4,FULL,Rock,,false,ELECTRIC
 ABC:B:BobWelch:EbonyEyes,Ebony Eyes,Bob Welch,6,FULL,Pop Rock,,false,ELECTRIC
 ABC:B:BobWelch:PreciousLove,Precious Love,Bob Welch,5,FULL,Rock,,false,ELECTRIC
 ABC:B:BobWelch:SentimentalLady,Sentimental Lady,Bob Welch,3,FULL,Soft Rock,,false,ACOUSTIC
 ABC:B:BonnieRaitt:LoveSneakinUpOnYou,Love Sneakin' Up On You,Bonnie Raitt,6,FULL,Blues Rock,,false,ELECTRIC
 ABC:B:Bread:Aubry,Aubrey,Bread,2,FULL,Soft Rock,Ballad,false,ACOUSTIC
-ABC:B:BrianWilson:LoveAndMercy,Love and Mercy,Brian Wilson,2,FULL,Pop,Ballad,false,ACOUSTIC
+ABC:B:BrianWilson:LoveAndMercy,Love And Mercy,Brian Wilson,2,FULL,Pop,Ballad,false,ACOUSTIC
 ABC:B:BruceSpringsteen:CoverMe,Cover Me,Bruce Springsteen,8,FULL,Rock,,false,ELECTRIC
 ABC:B:BruceSpringsteen:HugryHeart,Hungry Heart,Bruce Springsteen,7,FULL,Rock,,true,ELECTRIC
 ABC:B:BrunoMars:Apt,Apt,Bruno Mars,8,FULL,Pop,,true,ACOUSTIC
@@ -129,7 +129,7 @@ GHI:H:HootieAndTheBlowfish:HoldMyHand,Hold My Hand,Hootie & the Blowfish,7,FULL,
 DEF:D:DariusRucker:WagonWheel,Wagon Wheel,Darius Rucker,7,FULL,Country,Folk,true,ACOUSTIC
 DEF:D:DavidLeeMurphy:PartyCrowd,Party Crowd,David Lee Murphy,7,FULL,Country,,false,ACOUSTIC
 DEF:D:DelbertMcClinton:LeapOfFaith,Leap Of Faith,Delbert McClinton,5,FULL,Blues Rock,,false,ELECTRIC
-DEF:D:DepecheMode:EnjoyTheSilence,Enjoy the Silence,Depeche Mode,5,FULL,Synth Pop,New Wave,false,ELECTRIC
+DEF:D:DepecheMode:EnjoyTheSilence,Enjoy The Silence,Depeche Mode,5,FULL,Synth Pop,New Wave,false,ELECTRIC
 DEF:D:DiamondRio:OneMoreDay,One More Day,Diamond Rio,3,FULL,Country,,false,ACOUSTIC
 DEF:D:DionneWarwick:HeartBreaker,Heartbreaker,Dionne Warwick,7,FULL,Pop,Disco,false,ACOUSTIC
 DEF:D:DionneWarwick:ThenCameYou,Then Came You,Dionne Warwick,6,FULL,Soul,Pop,false,ELECTRIC
@@ -140,7 +140,7 @@ DEF:D:DonHenley:TheEndOfTheInnocence,The End Of The Innocence,Don Henley,4,FULL,
 DEF:D:DonMcLean:Vincent,Vincent,Don McLean,2,FULL,Folk,Ballad,false,ACOUSTIC
 DEF:D:DonnaSummer:HotStuff,Hot Stuff,Donna Summer,9,FULL,Disco,,true,ELECTRIC
 DEF:D:DoobieBros:LongTrainRunning,Long Train Runnin',Doobie Brothers,8,FULL,Rock,,false,ELECTRIC
-DEF:D:DoobieBros:LongTrainRunning-MVP,Long Train Runnin’,Doobie Brothers,8,FULL,Rock,,false,ELECTRIC
+DEF:D:DoobieBros:LongTrainRunning-MVP,Long Train Runnin',Doobie Brothers,8,FULL,Rock,,false,ELECTRIC
 DEF:D:DoobieBros:TakinItToTheStreets,Takin' It To The Streets,Doobie Brothers,7,FULL,Rock,Soul,false,ELECTRIC
 DEF:D:DrHook:SharingTheNightTogether,Sharing The Night Together,Dr. Hook,5,FULL,Soft Rock,,false,ACOUSTIC
 DEF:D:DuaLipa:Levitating,Levitating,Dua Lipa,9,FULL,Pop,Disco,true,ACOUSTIC
@@ -163,10 +163,10 @@ DEF:E:Elvis:BurningLove,Burning Love,Elvis,7,FULL,Rock and Roll,,false,ELECTRIC
 DEF:E:EnglandDanJohnFordColey:IdReallyLoveToSeeYouTonight,I'd Really Love To See You Tonight,England Dan & John Ford Coley,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
 DEF:E:EricClapton:ChangeTheWorld,Change The World,Eric Clapton,3,FULL,Pop,Ballad,false,ACOUSTIC
 DEF:E:EricClapton:Cocaine,Cocaine,Eric Clapton,6,FULL,Rock,Blues Rock,false,ELECTRIC
-DEF:E:EricClapton:IShotTheSheriff,I Shot the Sheriff,Eric Clapton,6,FULL,Reggae,,false,ELECTRIC
+DEF:E:EricClapton:IShotTheSheriff,I Shot The Sheriff,Eric Clapton,6,FULL,Reggae,,false,ELECTRIC
 DEF:E:EricClapton:Layla,Layla,Eric Clapton,7,FULL,Rock,Blues Rock,true,ELECTRIC
 DEF:E:EricClapton:NobodyKnowsYou,Nobody Knows You When You're Down And Out,Eric Clapton,3,FULL,Blues,,false,ELECTRIC
-DEF:E:EricClapton:OverTheRainbow,Over the Rainbow,Eric Clapton,2,FULL,Ballad,,false,ACOUSTIC
+DEF:E:EricClapton:OverTheRainbow,Over The Rainbow,Eric Clapton,2,FULL,Ballad,,false,ACOUSTIC
 DEF:E:EricClapton:SanFranciscoBayBlues,San Francisco Bay Blues,Eric Clapton,5,FULL,Blues,Folk,false,ELECTRIC
 DEF:E:EttaJames:DownhomeBlues,Downhome Blues,Etta James,5,FULL,Blues,,false,ELECTRIC
 DEF:F:Firefall:YouAreTheWoman,You Are The Woman,Firefall,4,FULL,Soft Rock,,false,ACOUSTIC
@@ -191,20 +191,20 @@ GHI:G:GinBlossoms:TilIHearItFromYou,Til I Hear It From You,Gin Blossoms,6,FULL,A
 GHI:G:GlennFrey:TheOneYouLove,The One You Love,Glenn Frey,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
 GHI:G:GloriaGaynor:IWillSurvive,I Will Survive,Gloria Gaynor,8,FULL,Disco,,true,ELECTRIC
 GHI:G:GordonLightfoot:CarefreeHighway,Carefree Highway,Gordon Lightfoot,4,FULL,Folk,,false,ACOUSTIC
-GHI:G:GratefulDead:FriendOfTheDevil,Friend of the Devil,Grateful Dead,4,FULL,Folk Rock,,false,ACOUSTIC
-GHI:G:GreenDay:GoodRiddance,Good Riddance (Time of Your Life),Green Day,3,FULL,Alternative,Punk,true,ELECTRIC
+GHI:G:GratefulDead:FriendOfTheDevil,Friend Of The Devil,Grateful Dead,4,FULL,Folk Rock,,false,ACOUSTIC
+GHI:G:GreenDay:GoodRiddance,Good Riddance (Time Of Your Life),Green Day,3,FULL,Alternative,Punk,true,ELECTRIC
 GHI:G:GregKihn:BreakupSong,Breakup Song,Greg Kihn,7,FULL,Rock,,false,ELECTRIC
 GHI:G:GuessWho:Undun,Undun,Guess Who,5,FULL,Rock,,false,ELECTRIC
 GHI:H:HalKetchum:HeartsAreGonnaRoll,Hearts Are Gonna Roll,Hal Ketchum,6,FULL,Country,,false,ACOUSTIC
 GHI:H:HalKetchum:PastThePointOfRescue,Past The Point Of Rescue,Hal Ketchum,3,FULL,Country,,false,ACOUSTIC
 GHI:H:HalKetchum:SmallTownSaturdayNight,Small Town Saturday Night,Hal Ketchum,6,FULL,Country,,false,ACOUSTIC
-GHI:H:HalKetchum:SofterThanAWhisper,Softer Than a Whisper,Hal Ketchum,3,FULL,Country,,false,ACOUSTIC
+GHI:H:HalKetchum:SofterThanAWhisper,Softer Than A Whisper,Hal Ketchum,3,FULL,Country,,false,ACOUSTIC
 GHI:H:HallAndOates:EverythingYourHeartDesires,Everything Your Heart Desires,Hall & Oates,5,FULL,Pop Rock,,false,ELECTRIC
 GHI:H:HallAndOates:ICantGoForThat,I Can't Go For That,Hall & Oates,6,FULL,Pop,R&B,false,ACOUSTIC
 GHI:H:HallAndOates:RichGirl,Rich Girl,Hall & Oates,6,FULL,Pop,,false,ACOUSTIC
 GHI:H:HankWilliamsJr:AllMyRowdyFriends,All My Rowdy Friends Are Coming Over Tonight,Hank Williams Jr.,7,FULL,Country,,true,ACOUSTIC
 GHI:H:Heart:TellItLikeItIs,Tell It Like It Is,Heart,5,FULL,Rock,,false,ELECTRIC
-GHI:H:Heatwave:AlwaysAndForever,Always and Forever,Heatwave,3,FULL,Soul,Ballad,false,ELECTRIC
+GHI:H:Heatwave:AlwaysAndForever,Always And Forever,Heatwave,3,FULL,Soul,Ballad,false,ELECTRIC
 GHI:H:HenryGross:Shannon,Shannon,Henry Gross,2,FULL,Pop,Ballad,false,ACOUSTIC
 GHI:H:Hollies:TheAirThatIBreathe,The Air That I Breathe,The Hollies,3,FULL,Pop,Ballad,false,ACOUSTIC
 GHI:H:Hooters:AndWeDanced,And We Danced,The Hooters,7,FULL,Rock,,false,ELECTRIC
@@ -226,26 +226,26 @@ JKL:J:JoeCocker:TheLetter,The Letter,Joe Cocker,6,FULL,Rock,Soul,false,ELECTRIC
 JKL:J:JoeCocker:UnchainMyHeart,Unchain My Heart,Joe Cocker,7,FULL,Rock,Soul,true,ELECTRIC
 JKL:J:JoeCocker:UnchainMyHeartExtended,Unchain My Heart (Extended),Joe Cocker,7,FULL,Rock,Soul,true,ELECTRIC
 JKL:J:JoeJackson:SteppinOut,Steppin' Out,Joe Jackson,6,FULL,Pop Rock,,false,ELECTRIC
-JKL:J:JohnHiatt:MemphisInTheMeantime,Memphis in the Meantime,John Hiatt,6,FULL,Rock,Blues Rock,false,ELECTRIC
+JKL:J:JohnHiatt:MemphisInTheMeantime,Memphis In The Meantime,John Hiatt,6,FULL,Rock,Blues Rock,false,ELECTRIC
 JKL:J:JohnLennon:BeautifulBoy,Beautiful Boy,John Lennon,2,FULL,Pop,Ballad,false,ACOUSTIC
 JKL:J:JohnLennon:JealousGuy,Jealous Guy,John Lennon,3,FULL,Pop,Ballad,false,ACOUSTIC
 JKL:J:JohnLennon:OhMyLove,Oh My Love,John Lennon,2,FULL,Pop,Ballad,false,ACOUSTIC
 JKL:J:JohnLennon:WatchingTheWheels,Watching The Wheels,John Lennon,3,FULL,Pop,,false,ACOUSTIC
 JKL:J:JohnLennon:Woman,Woman,John Lennon,3,FULL,Pop,Ballad,false,ACOUSTIC
-JKL:J:JohnMayer:ImGonnaFindAnotherYou,I’m Gonna Find Another You,John Mayer,5,FULL,Pop Rock,Blues Rock,false,ELECTRIC
+JKL:J:JohnMayer:ImGonnaFindAnotherYou,I'm Gonna Find Another You,John Mayer,5,FULL,Pop Rock,Blues Rock,false,ELECTRIC
 JKL:J:JohnMellencamp:AintEvenDoneWithTheNight,Ain't Even Done With The Night,John Mellencamp,7,FULL,Rock,,false,ELECTRIC
 JKL:J:JohnMellencamp:CherryBomb,Cherry Bomb,John Mellencamp,6,FULL,Rock,,false,ELECTRIC
-JKL:J:JohnMellencamp:JackandDiane,Jack and Diane,John Mellencamp,6,FULL,Rock,,true,ELECTRIC
+JKL:J:JohnMellencamp:JackandDiane,Jack And Diane,John Mellencamp,6,FULL,Rock,,true,ELECTRIC
 JKL:J:JohnMellencamp:ROCKInTheUSA,R.O.C.K. In The U.S.A,John Mellencamp,8,FULL,Rock,,true,ELECTRIC
 JKL:J:JohnTravolta:LetHerIn,Let Her In,John Travolta,4,FULL,Pop,,false,ACOUSTIC
-JKL:J:JohnnyLee:LookingForLove,Looking for Love,Johnny Lee,6,FULL,Country,,false,ACOUSTIC
+JKL:J:JohnnyLee:LookingForLove,Looking For Love,Johnny Lee,6,FULL,Country,,false,ACOUSTIC
 JKL:J:JonPardi:DirtOnMyBoots,Dirt On My Boots,Jon Pardi,7,FULL,Country,,false,ACOUSTIC
 JKL:J:JonPardi:HeyCalifornia,Hey California,Jon Pardi,6,FULL,Country,,false,ACOUSTIC
 JKL:J:JordanDavis:TucsonTooLate,Tucson Too Late,Jordan Davis,4,FULL,Country,,false,ACOUSTIC
 JKL:J:JoshTurner:Jacksonville,Jacksonville,Josh Turner,4,FULL,Country,,false,ACOUSTIC
-JKL:J:JudyGarland:OverTheRainbow,Over the Rainbow,Judy Garland,2,FULL,Ballad,,false,ACOUSTIC
+JKL:J:JudyGarland:OverTheRainbow,Over The Rainbow,Judy Garland,2,FULL,Ballad,,false,ACOUSTIC
 JKL:K:KCSunshineBand:ShakeYourBooty,Shake Your Booty,KC & the Sunshine Band,9,FULL,Disco,,true,ELECTRIC
-JKL:K:KTTunstall:BlackHorseAndTheCherryTree,Black Horse and the Cherry Tree,KT Tunstall,6,FULL,Folk Rock,,false,ACOUSTIC
+JKL:K:KTTunstall:BlackHorseAndTheCherryTree,Black Horse And The Cherry Tree,KT Tunstall,6,FULL,Folk Rock,,false,ACOUSTIC
 JKL:K:KTTunstall:SuddenlyISee,Suddenly I See,KT Tunstall,7,FULL,Rock,,false,ELECTRIC
 JKL:K:KaseyMusgraves:GoldenHour,Golden Hour,Kasey Musgraves,3,FULL,Country,,false,ACOUSTIC
 JKL:K:KaseyMusgraves:Rainbow,Rainbow,Kasey Musgraves,2,FULL,Country,Ballad,false,ACOUSTIC
@@ -285,11 +285,11 @@ JKL:L:LynyrdSkynyrd:WhatsYourName,What's Your Name,Lynyrd Skynyrd,6,FULL,Souther
 MNO:M:MackenzieCarpenter:IWishYouWould,I Wish You Would,Mackenzie Carpenter,5,FULL,Country,,false,ACOUSTIC
 MNO:M:Madonna:LaIslaBonita,La Isla Bonita,Madonna,7,FULL,Pop,Latin Pop,false,ACOUSTIC
 MNO:M:MamaCass:DreamALittleDreamOfMe,Dream A Little Dream Of Me,Mama Cass,2,FULL,Pop,Jazz,false,ACOUSTIC
-MNO:M:MarcusKing:OneDayShesHere,One Day She’s Here,Marcus King Band,5,FULL,Blues Rock,,false,ELECTRIC
+MNO:M:MarcusKing:OneDayShesHere,One Day She's Here,Marcus King Band,5,FULL,Blues Rock,,false,ELECTRIC
 MNO:M:MarshallCrenshaw:SomedaySomeway,"Someday, Someway",Marchall Crenshall,6,FULL,Pop Rock,,false,ELECTRIC
 MNO:M:MarshallTuckerBand:CantYouSee,Can't You See,Marshall Tucker Band,5,FULL,Southern Rock,,true,ELECTRIC
 MNO:M:MarshallTuckerBand:FireOnTheMoutain,Fire On The Mountain,Marshall Tucker Band,6,FULL,Southern Rock,,false,ELECTRIC
-MNO:M:MarshallTuckerBand:HeardItInALoveSong,Heard It in a Love Song,Marshall Tucker Band,5,FULL,Southern Rock,,false,ELECTRIC
+MNO:M:MarshallTuckerBand:HeardItInALoveSong,Heard It In A Love Song,Marshall Tucker Band,5,FULL,Southern Rock,,false,ELECTRIC
 MNO:M:MaryChapinCarpenter:IFeelLucky,I Feel Lucky,Mary Chapin Carpenter,6,FULL,Country,,false,ACOUSTIC
 MNO:M:MayerHawthorne:TheWalk,The Walk,Mayer Hawthorne,6,FULL,Soul,,false,ELECTRIC
 MNO:M:Midland:CheatinSong,Cheatin' Songs,Midland,6,FULL,Country,,false,ACOUSTIC
@@ -387,7 +387,7 @@ STU:S:SealsCrofts:SummerBreeze,Summer Breeze,Seals and Crofts,4,FULL,Soft Rock,,
 STU:S:SealsCrofts:WeMayNeverPassThisWayAgain,We May Never Pass This Way Again,Seals and Crofts,4,FULL,Soft Rock,,false,ACOUSTIC
 STU:S:ShockingBlue:ShesNotThere-Venus,She's Not There / Venus,Shocking Blue,6,FULL,Rock,,false,ELECTRIC
 STU:S:ShockingBlue:Venus,Venus,Shocking Blue,7,FULL,Rock,,true,ELECTRIC
-STU:S:SilkSonic:LeaveTheDoorOpen,Leave the Door Open,Silk Sonic,4,FULL,Soul,R&B,false,ELECTRIC
+STU:S:SilkSonic:LeaveTheDoorOpen,Leave The Door Open,Silk Sonic,4,FULL,Soul,R&B,false,ELECTRIC
 STU:S:SixpenceNoneTheRicher:KissMe,Kiss Me,Sixpence None The Richer,5,FULL,Pop,,true,ACOUSTIC
 STU:S:SixpenceNoneTheRicher:ThereSheGoes,There She Goes,Sixpence None The Richer,6,FULL,Pop Rock,,false,ELECTRIC
 STU:S:SoftCell:TaintedLove,Tainted Love,Soft Cell,7,FULL,Synth Pop,New Wave,true,ELECTRIC
@@ -400,13 +400,13 @@ STU:S:Steeldrivers:GoodCornLiquor,Good Corn Liquor,Steeldrivers,6,FULL,Bluegrass
 STU:S:Steppenwolf:BornToBeWild,Born To Be Wild,Steppenwolf,8,FULL,Rock,,true,ELECTRIC
 STU:S:SteveMillerBand:TakeTheMoneyAndRun,Take The Money And Run,Steve Miller Band,7,FULL,Rock,,true,ELECTRIC
 STU:S:SteveMillerBand:TakeTheMoneyAndRun-Bass,Take The Money And Run (BASS),Steve Miller Band,7,NONE,Rock,,false,ELECTRIC
-STU:S:StevieRayVaughan:HouseIsARockin,House is a Rockin',Stevie Ray Vaughan,8,FULL,Blues Rock,,false,ELECTRIC
+STU:S:StevieRayVaughan:HouseIsARockin,House Is A Rockin',Stevie Ray Vaughan,8,FULL,Blues Rock,,false,ELECTRIC
 STU:S:StevieWonder:DontYouWorryBoutAThing,Don't You Worry 'Bout A Thing,Stevie Wonder,7,FULL,Funk,Soul,false,ELECTRIC
 STU:S:StevieWonder:Lately,Lately,Stevie Wonder,2,FULL,Soul,Ballad,false,ELECTRIC
 STU:S:StillCorners:WhiteSands,White Sands,Still Corners,4,FULL,Dream Pop,,false,ELECTRIC
 STU:S:StrayCats:StrayCatStrut,Stray Cat Strut,Stray Cats,6,FULL,Rockabilly,,false,ELECTRIC
 STU:S:Survivor:IsThisLove,Is This Love,Survivor,5,FULL,Rock,Ballad,false,ELECTRIC
-STU:S:SusanTedeschi:LittleByLittle,Little by Little,Susan Tedeschi,6,FULL,Blues Rock,,false,ELECTRIC
+STU:S:SusanTedeschi:LittleByLittle,Little By Little,Susan Tedeschi,6,FULL,Blues Rock,,false,ELECTRIC
 STU:S:SuziQuatro:IfYouCantGiveMeLove,If You Can't Give Me Love,Suzi Quatro,6,FULL,Rock,,false,ELECTRIC
 STU:S:SuziQuatro:StumblinIn,Stumblin' In,Suzi Quatro,5,FULL,Pop Rock,,false,ELECTRIC
 STU:S:Sylvia:Nobody,Nobody,Sylvia,4,FULL,Country,,false,ACOUSTIC
@@ -415,9 +415,9 @@ STU:T:TaylorSwift:OurSong,Our Song,Taylor Swift,5,FULL,Country,Pop,false,ACOUSTI
 STU:T:TaylorSwift:Style,Style,Taylor Swift,7,FULL,Pop,,false,ACOUSTIC
 STU:T:TaylorSwift:YouBelongWithMe,You Belong With Me,Taylor Swift,6,FULL,Country,Pop,true,ACOUSTIC
 STU:T:TearsForFears:MadWorld,Mad World,Tears for Fears,3,FULL,New Wave,Ballad,false,ELECTRIC
-STU:T:TenCC:ImNotInLove,I'm Not in Love,10cc,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
-STU:T:TenCC:TheThingsWeDoForLove,The Things We Do for Love,10cc,6,FULL,Pop Rock,,false,ELECTRIC
-STU:T:TerryJacks:SeasonsInTheSun,Seasons in the Sun,Terry Jacks,3,FULL,Pop,Ballad,false,ACOUSTIC
+STU:T:TenCC:ImNotInLove,I'm Not In Love,10cc,3,FULL,Soft Rock,Ballad,false,ACOUSTIC
+STU:T:TenCC:TheThingsWeDoForLove,The Things We Do For Love,10cc,6,FULL,Pop Rock,,false,ELECTRIC
+STU:T:TerryJacks:SeasonsInTheSun,Seasons In The Sun,Terry Jacks,3,FULL,Pop,Ballad,false,ACOUSTIC
 STU:T:TheChurch:UnderTheMilkyWay,Under The Milky Way,The Church,4,FULL,Alternative,,false,ELECTRIC
 STU:T:TheClash:ShouldIStay-bass,Should I Stay (Or Should I Go) (BASS),The Clash,7,NONE,Punk,Rock,false,ELECTRIC
 STU:T:ThomasRhett:DieAHappyMan,Die A Happy Man,Thomas Rhett,3,FULL,Country,Ballad,false,ACOUSTIC
@@ -433,7 +433,7 @@ STU:T:TomPetty:DontDoMeLikeThat,Don't Do Me Like That,Tom Petty,7,FULL,Rock,,fal
 STU:T:TomPetty:FreeFallin,Free Fallin',Tom Petty,6,FULL,Rock,,true,ELECTRIC
 STU:T:TomPetty:HereComesMyGirl,Here Comes My Girl,Tom Petty,6,FULL,Rock,,false,ELECTRIC
 STU:T:TomPetty:IntoTheGreatWideOpen,Into The Great Wide Open,Tom Petty,5,FULL,Rock,,false,ELECTRIC
-STU:T:TomPetty:LearningToFly,Learning to Fly,Tom Petty,5,FULL,Rock,,false,ELECTRIC
+STU:T:TomPetty:LearningToFly,Learning To Fly,Tom Petty,5,FULL,Rock,,false,ELECTRIC
 STU:T:TomPetty:MaryJanesLastDance,Mary Jane's Last Dance,Tom Petty,8,FULL,Rock,,true,ELECTRIC
 STU:T:TomPetty:RunningDownADream,Runnin' Down A Dream,Tom Petty,8,FULL,Rock,,true,ELECTRIC
 STU:T:TomPetty:YouDontKnowHowItFeels,You Don't Know How It Feels,Tom Petty,6,FULL,Rock,,false,ELECTRIC
@@ -468,7 +468,7 @@ VWX:X:Xmas:SantaBaby,Santa Baby,Eartha Kitt,4,FULL,Christmas,,false,ACOUSTIC
 VWX:X:Xmas:SantaClausIsComingToTown,Santa Claus Is Coming To Town,Bruce Springsteen,7,FULL,Christmas,,true,ACOUSTIC
 VWX:X:Xmas:WinterWonderland,Winter Wonderland,Traditional,5,FULL,Christmas,,true,ACOUSTIC
 VWX:X:Xmas:WonderfulChristmastime,Wonderful Christmastime,Paul McCartney,6,FULL,Christmas,,false,ACOUSTIC
-YZ:Z:Zombies:TimeOfTheSeason,Time of the Season,Zombies,5,FULL,Rock,,false,ELECTRIC
+YZ:Z:Zombies:TimeOfTheSeason,Time Of The Season,Zombies,5,FULL,Rock,,false,ELECTRIC
 DEF:E:ELO:CantGetYouOutOfMyHead,Can't Get You Out Of My Head,ELO,8,FULL,Dance Pop,,true,ELECTRIC
 DEF:E:ELO:Rockaria,Rockaria,ELO,7,FULL,Rock,,false,ELECTRIC
 JKL:K:KaseyMusgraves:DeeperWell,Deeper Well,Kasey Musgraves,2,FULL,Country,Folk,false,ACOUSTIC
