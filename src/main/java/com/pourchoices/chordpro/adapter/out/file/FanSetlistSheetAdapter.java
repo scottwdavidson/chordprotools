@@ -15,11 +15,15 @@ import java.util.List;
 @Slf4j
 public class FanSetlistSheetAdapter implements FanSetlistSheetPort {
 
+    /** Where the band logo lives, relative to the folder the tool is run from (the repo root). */
+    static final Path LOGO_FOLDER = Path.of("logo");
+
     private final FanSetlistHtmlRenderer renderer;
 
     @Override
     public void writeFanSetlistSheet(Path outputPath, String gig, String venue, List<List<SetlistEntry>> sets) {
         log.info("Fan setlist file path: {}", outputPath.toAbsolutePath());
-        Html.write(outputPath, renderer.render(gig, venue, sets));
+        String logo = BandLogo.dataUri(LOGO_FOLDER).orElse(null);
+        Html.write(outputPath, renderer.render(gig, venue, sets, logo));
     }
 }

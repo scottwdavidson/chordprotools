@@ -32,16 +32,36 @@ public class FanSetlistHtmlRenderer {
     private static final DateTimeFormatter LONG_DATE =
             DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy", Locale.US);
 
+    /** Renders without a logo: the band name is a text heading. */
     public String render(String gig, String venue, List<List<SetlistEntry>> sets) {
+        return render(gig, venue, sets, null);
+    }
+
+    /**
+     * @param logoDataUri the band logo as a {@code data:} URI, or {@code null} for none. The logo
+     *                    already spells the band name, so it replaces the text heading.
+     */
+    public String render(String gig, String venue, List<List<SetlistEntry>> sets, String logoDataUri) {
         StringBuilder html = new StringBuilder(head(gig));
-        html.append("<header>\n<h1>").append(escape(BAND_NAME)).append("</h1>\n");
-        String when = whenLine(gig, venue);
-        if (!when.isEmpty()) html.append("<p class=\"when\">").append(escape(when)).append("</p>\n");
-        html.append("</header>\n<div class=\"sets\" style=\"--cols: ").append(Math.max(sets.size(), 1)).append("\">\n");
+        html.append(header(whenLine(gig, venue), logoDataUri));
+        html.append("<div class=\"sets\" style=\"--cols: ").append(Math.max(sets.size(), 1)).append("\">\n");
         for (int i = 0; i < sets.size(); i++) {
             html.append(set(i + 1, sets.get(i)));
         }
         return html.append("</div>\n</body>\n</html>\n").toString();
+    }
+
+    private String header(String when, String logoDataUri) {
+        boolean hasLogo = logoDataUri != null && !logoDataUri.isBlank();
+        StringBuilder header = new StringBuilder(hasLogo ? "<header class=\"with-logo\">\n" : "<header>\n");
+        if (hasLogo) {
+            header.append("<img class=\"logo\" alt=\"").append(escape(BAND_NAME))
+                  .append("\" src=\"").append(logoDataUri).append("\">\n");
+        }
+        header.append("<div class=\"title\">\n");
+        if (!hasLogo) header.append("<h1>").append(escape(BAND_NAME)).append("</h1>\n");
+        if (!when.isEmpty()) header.append("<p class=\"when\">").append(escape(when)).append("</p>\n");
+        return header.append("</div>\n</header>\n").toString();
     }
 
     private String head(String gig) {
@@ -56,6 +76,10 @@ public class FanSetlistHtmlRenderer {
                   body { margin: 0; font-family: Helvetica, Arial, sans-serif; color: #000; }
                   h1 { margin: 0; text-align: center; font-size: 30pt; letter-spacing: 0.04em; }
                   .when { margin: 4pt 0 0; text-align: center; font-size: 13pt; color: #333; }
+                  header.with-logo { display: flex; align-items: center; gap: 0.3in; }
+                  header.with-logo .title { flex: 1; }
+                  header.with-logo .when { margin: 0; font-size: 18pt; }
+                  .logo { width: 1.6in; height: 1.6in; display: block; }
                   .sets { display: grid; grid-template-columns: repeat(var(--cols), 1fr);
                           column-gap: 0.3in; align-items: start; margin-top: 16pt; }
                   h2 { margin: 0 0 4pt; padding-bottom: 2pt; border-bottom: 2px solid #000;

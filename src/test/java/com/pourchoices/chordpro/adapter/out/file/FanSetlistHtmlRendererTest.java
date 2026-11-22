@@ -33,6 +33,23 @@ class FanSetlistHtmlRendererTest {
     }
 
     @Test
+    void withALogo_theImageReplacesTheTextHeading_andTheVenueAndDateStay() {
+        String html = renderer.render("2026-11-20-MOODS", "Moods Wine Bar",
+                List.of(List.of(entry("A01", "One", "Them"))), "data:image/png;base64,AAAA");
+
+        assertThat(html).contains("<img class=\"logo\" alt=\"Pour Choices\" src=\"data:image/png;base64,AAAA\">");
+        assertThat(html).doesNotContain("<h1>");
+        assertThat(html).contains("Moods Wine Bar \u00b7 Friday, November 20, 2026");
+    }
+
+    @Test
+    void withoutALogo_keepsTheTextHeading() {
+        String html = renderer.render("g", null, List.of(List.of(entry("A01", "One", "Them"))), null);
+
+        assertThat(html).contains("<h1>Pour Choices</h1>").doesNotContain("<img");
+    }
+
+    @Test
     void withoutAVenue_showsJustTheDate() {
         String html = renderer.render("2026-11-20-MOODS", null, List.of(List.of(entry("A01", "One", "Them"))));
 
